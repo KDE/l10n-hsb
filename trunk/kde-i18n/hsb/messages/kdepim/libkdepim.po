@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: libkdepim\n"
-"POT-Creation-Date: 2004-04-16 01:42+0200\n"
+"POT-Creation-Date: 2004-08-03 01:23+0200\n"
 "PO-Revision-Date: 2004-04-16 18:00+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -14,175 +14,428 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.0.1\n"
 
-#: addresseeview.cpp:66
+#: ../libkpimidentities/identity.cpp:104
+msgid "<qt>Failed to execute signature script<br><b>%1</b>:<br>%2</qt>"
+msgstr ""
+
+#: ../libkpimidentities/identitycombo.cpp:96
+msgid "%1 (Default)"
+msgstr ""
+
+#: ../libkpimidentities/identitymanager.cpp:341
+#, fuzzy
+msgid "Unnamed"
+msgstr "njedefinowane"
+
+#: addresseelineedit.cpp:566
+#, fuzzy
+msgid "Edit Completion Order..."
+msgstr "Kategorije &wobdźěłać..."
+
+#: addresseeview.cpp:73
 msgid "Show Birthday"
 msgstr "Pokaž narodniny"
 
-#: addresseeview.cpp:67
+#: addresseeview.cpp:74
 msgid "Show Postal Addresses"
 msgstr "Pokaž póštowe adresy"
 
-#: addresseeview.cpp:68
+#: addresseeview.cpp:75
 msgid "Show Email Addresses"
 msgstr "Pokaž emailowe adresy"
 
-#: addresseeview.cpp:69
+#: addresseeview.cpp:76
 msgid "Show Telephone Numbers"
 msgstr ""
 
-#: addresseeview.cpp:70
+#: addresseeview.cpp:77
 msgid "Show Web Pages (URLs)"
 msgstr ""
 
-#: addresseeview.cpp:171
+#: addresseeview.cpp:79
+#, fuzzy
+msgid "Hide Birthday"
+msgstr "Pokaž narodniny"
+
+#: addresseeview.cpp:80
+#, fuzzy
+msgid "Hide Postal Addresses"
+msgstr "Pokaž póštowe adresy"
+
+#: addresseeview.cpp:81
+#, fuzzy
+msgid "Hide Email Addresses"
+msgstr "Pokaž emailowe adresy"
+
+#: addresseeview.cpp:82
+msgid "Hide Telephone Numbers"
+msgstr ""
+
+#: addresseeview.cpp:83
+msgid "Hide Web Pages (URLs)"
+msgstr ""
+
+#: addresseeview.cpp:242
 msgid "Email"
 msgstr "Email"
 
-#: addresseeview.cpp:179
+#: addresseeview.cpp:255
 msgid "Other"
 msgstr "Druhe"
 
-#: addresseeview.cpp:186
+#: addresseeview.cpp:265 addresseeview.cpp:269
 msgid "Homepage"
 msgstr "Domjaca strona"
 
-#: addresseeview.cpp:245
+#: addresseeview.cpp:340
 msgid "Notes"
 msgstr "Zapiski"
 
-#: addresseeview.cpp:335 addresseeview.cpp:350
+#: addresseeview.cpp:370
+#, fuzzy
+msgid "Presence"
+msgstr "Preferency"
+
+#: addresseeview.cpp:522 addresseeview.cpp:537
 msgid ""
 "There is no application set which could be executed. Please go to the "
 "settings dialog and configure one."
 msgstr ""
 
-#: addresseeview.cpp:393
+#: addresseeview.cpp:587
 msgid "Send mail to '%1'"
 msgstr ""
 
-#: addresseeview.cpp:398
+#: addresseeview.cpp:592
 #, c-format
 msgid "Call number %1"
 msgstr ""
 
-#: addresseeview.cpp:403
+#: addresseeview.cpp:597
 #, c-format
 msgid "Send fax to %1"
 msgstr ""
 
-#: addresseeview.cpp:405
+#: addresseeview.cpp:599
 msgid "Show address on map"
 msgstr ""
 
-#: addresseeview.cpp:408
+#: addresseeview.cpp:602
 #, c-format
 msgid "Open URL %1"
 msgstr ""
 
-#: addressesdialog.cpp:96 addressesdialog.cpp:104
+#: addresseeview.cpp:604
+#, c-format
+msgid "Chat with %1"
+msgstr ""
+
+#: addressesdialog.cpp:105 addressesdialog.cpp:113
 msgid "<group>"
 msgstr ""
 
-#: addressesdialog.cpp:187 rc.cpp:1
+#: addressesdialog.cpp:196 rc.cpp:2
+#, no-c-format
 msgid "Address Selection"
 msgstr "Wubraće adresy"
 
-#: addressesdialog.cpp:209 addressesdialog.cpp:629
+#: addressesdialog.cpp:220 addressesdialog.cpp:695
 msgid "To"
 msgstr "Na"
 
-#: addressesdialog.cpp:220 addressesdialog.cpp:651
+#: addressesdialog.cpp:231 addressesdialog.cpp:717
 msgid "CC"
 msgstr "Kopija na"
 
-#: addressesdialog.cpp:231 addressesdialog.cpp:673
+#: addressesdialog.cpp:242 addressesdialog.cpp:739
 msgid "BCC"
 msgstr "Dalša kopija na:"
 
-#: addressesdialog.cpp:290
+#: addressesdialog.cpp:301
 msgid "Recent Addresses"
 msgstr "Njedawno wužiwane adresy"
 
-#: addressesdialog.cpp:395
+#: addressesdialog.cpp:436
 #, fuzzy
 msgid "Other Addresses"
 msgstr "Wubrane adresy"
 
-#: addressesdialog.cpp:771
+#: addressesdialog.cpp:832
 msgid ""
 "There are no addresses in your list. First add some addresses from your "
 "address book, then try again."
 msgstr ""
 
-#: addressesdialog.cpp:778
+#: addressesdialog.cpp:839
 msgid "New Distribution List"
 msgstr "Nowa rozpósłanska lisćina"
 
-#: addressesdialog.cpp:779
+#: addressesdialog.cpp:840
 #, fuzzy
 msgid "Please enter name:"
 msgstr "Prošu zapodaj mjeno."
 
-#: addressesdialog.cpp:787
+#: addressesdialog.cpp:848
 #, fuzzy
 msgid ""
 "<qt>Distribution list with the given name <b>%1</b> already exists. Please "
 "select a different name.</qt>"
 msgstr ""
-"Rozpósłanska lisćina z tutym mjenom (%1) hižo eksistuje. Prošu wubjerće "
-"hinaše pomjenowanje."
+"Rozpósłanska lisćina z tutym mjenom (%1) hižo eksistuje. Prošu "
+"wubjerće hinaše pomjenowanje."
 
-#: addressesdialog.cpp:916
+#: addressesdialog.cpp:977 completionordereditor.cpp:210
 #, fuzzy
 msgid "Distribution Lists"
 msgstr "Nowa rozpósłanska lisćina"
 
-#: categoryeditdialog.cpp:39 rc.cpp:16
+#: broadcaststatus.cpp:59
+msgid ""
+"_: %1 is a time, %2 is a status message\n"
+"[%1] %2"
+msgstr ""
+
+#: broadcaststatus.cpp:78
+msgid ""
+"_n: Transmission complete. %n new message in %1 KB (%2 KB remaining on the "
+"server).\n"
+"Transmission complete. %n new messages in %1 KB (%2 KB remaining on the "
+"server)."
+msgstr ""
+
+#: broadcaststatus.cpp:85
+msgid ""
+"_n: Transmission complete. %n message in %1 KB.\n"
+"Transmission complete. %n messages in %1 KB."
+msgstr ""
+
+#: broadcaststatus.cpp:91
+#, c-format
+msgid ""
+"_n: Transmission complete. %n new message.\n"
+"Transmission complete. %n new messages."
+msgstr ""
+
+#: broadcaststatus.cpp:95
+msgid "Transmission complete. No new messages."
+msgstr ""
+
+#: broadcaststatus.cpp:117
+msgid ""
+"_n: Transmission for account %3 complete. %n new message in %1 KB (%2 KB "
+"remaining on the server).\n"
+"Transmission for account %3 complete. %n new messages in %1 KB (%2 KB "
+"remaining on the server)."
+msgstr ""
+
+#: broadcaststatus.cpp:127
+msgid ""
+"_n: Transmission for account %2 complete. %n message in %1 KB.\n"
+"Transmission for account %2 complete. %n messages in %1 KB."
+msgstr ""
+
+#: broadcaststatus.cpp:136
+msgid ""
+"_n: Transmission for account %1 complete. %n new message.\n"
+"Transmission for account %1 complete. %n new messages."
+msgstr ""
+
+#: broadcaststatus.cpp:142
+msgid "Transmission for account %1 complete. No new messages."
+msgstr ""
+
+#: calendardiffalgo.cpp:111
+msgid "Attendees"
+msgstr ""
+
+#: calendardiffalgo.cpp:114
+msgid "Start time"
+msgstr ""
+
+#: calendardiffalgo.cpp:117
+msgid "Organizer"
+msgstr ""
+
+#: calendardiffalgo.cpp:120
+msgid "UID"
+msgstr ""
+
+#: calendardiffalgo.cpp:123
+msgid "Is floating"
+msgstr ""
+
+#: calendardiffalgo.cpp:126
+msgid "Has duration"
+msgstr ""
+
+#: calendardiffalgo.cpp:129
+msgid "Duration"
+msgstr ""
+
+#: calendardiffalgo.cpp:135
+msgid "Description"
+msgstr ""
+
+#: calendardiffalgo.cpp:138
+msgid "Summary"
+msgstr ""
+
+#: calendardiffalgo.cpp:141
+msgid "Status"
+msgstr ""
+
+#: calendardiffalgo.cpp:144
+msgid "Secrecy"
+msgstr ""
+
+#: calendardiffalgo.cpp:147
+msgid "Priority"
+msgstr ""
+
+#: calendardiffalgo.cpp:150
+msgid "Location"
+msgstr ""
+
+#: calendardiffalgo.cpp:152
+#, fuzzy
+msgid "Categories"
+msgstr "Kategorije wobdźěłać"
+
+#: calendardiffalgo.cpp:153
+msgid "Alarms"
+msgstr ""
+
+#: calendardiffalgo.cpp:154
+msgid "Resources"
+msgstr ""
+
+#: calendardiffalgo.cpp:155
+msgid "Relations"
+msgstr ""
+
+#: calendardiffalgo.cpp:156
+msgid "Attachments"
+msgstr ""
+
+#: calendardiffalgo.cpp:157
+msgid "Exception Dates"
+msgstr ""
+
+#: calendardiffalgo.cpp:158
+msgid "Exception Times"
+msgstr ""
+
+#: calendardiffalgo.cpp:161
+#, fuzzy
+msgid "Created"
+msgstr "w róžkatymaj spinkomaj"
+
+#: calendardiffalgo.cpp:164
+msgid "Related Uid"
+msgstr ""
+
+#: calendardiffalgo.cpp:170
+msgid "Has End Date"
+msgstr ""
+
+#: calendardiffalgo.cpp:173
+#, fuzzy
+msgid "End Date"
+msgstr "Zapiski"
+
+#: calendardiffalgo.cpp:181
+msgid "Has Start Date"
+msgstr ""
+
+#: calendardiffalgo.cpp:184
+msgid "Has Due Date"
+msgstr ""
+
+#: calendardiffalgo.cpp:187
+#, fuzzy
+msgid "Due Date"
+msgstr "Zapiski"
+
+#: calendardiffalgo.cpp:190
+msgid "Has Complete Date"
+msgstr ""
+
+#: calendardiffalgo.cpp:193
+msgid "Complete"
+msgstr ""
+
+#: calendardiffalgo.cpp:196
+msgid "Completed"
+msgstr ""
+
+#: categoryeditdialog.cpp:39 rc.cpp:31
+#, no-c-format
 msgid "Edit Categories"
 msgstr "Kategorije wobdźěłać"
 
-#: categoryselectdialog.cpp:37 rc.cpp:21
+#: categoryselectdialog.cpp:37 rc.cpp:41
+#, no-c-format
 msgid "Select Categories"
 msgstr "Kategorije wubrać"
+
+#: completionordereditor.cpp:98
+#, c-format
+msgid "LDAP server %1"
+msgstr ""
+
+#: completionordereditor.cpp:184
+msgid "Edit Completion Order"
+msgstr ""
 
 #: kconfigpropagator.cpp:39
 msgid "Change Config Value"
 msgstr ""
 
-#: kconfigwizard.cpp:34 kconfigwizard.cpp:43
+#: kconfigwizard.cpp:36 kconfigwizard.cpp:45
 msgid "Configuration Wizard"
 msgstr ""
 
-#: kconfigwizard.cpp:82
+#: kconfigwizard.cpp:84
 msgid "Rules"
 msgstr ""
 
-#: kconfigwizard.cpp:88
+#: kconfigwizard.cpp:90
 msgid "Source"
 msgstr ""
 
-#: kconfigwizard.cpp:89
+#: kconfigwizard.cpp:91
 msgid "Target"
 msgstr ""
 
-#: kconfigwizard.cpp:90
+#: kconfigwizard.cpp:92
 msgid "Condition"
 msgstr ""
 
-#: kconfigwizard.cpp:123
+#: kconfigwizard.cpp:125
 msgid "Changes"
 msgstr ""
 
-#: kconfigwizard.cpp:129
+#: kconfigwizard.cpp:131
 msgid "Action"
 msgstr ""
 
-#: kconfigwizard.cpp:130
+#: kconfigwizard.cpp:132
 msgid "Option"
 msgstr ""
 
-#: kconfigwizard.cpp:131
+#: kconfigwizard.cpp:133
 msgid "Value"
+msgstr ""
+
+#: kconfigwizard.cpp:166
+msgid ""
+"Please make sure that the programs which are configured by the wizard do not "
+"run in parallel to the wizard; otherwise, changes done by the wizard could "
+"be lost."
+msgstr ""
+
+#: kconfigwizard.cpp:169
+msgid "Run Wizard Now"
 msgstr ""
 
 #: kdateedit.cpp:70
@@ -196,6 +449,133 @@ msgstr "dźensa"
 #: kdateedit.cpp:72
 msgid "yesterday"
 msgstr "wčera"
+
+#: kdatepickerpopup.cpp:61
+#, fuzzy
+msgid "&Today"
+msgstr "dźensa"
+
+#: kdatepickerpopup.cpp:62
+#, fuzzy
+msgid "To&morrow"
+msgstr "jutře"
+
+#: kdatepickerpopup.cpp:63
+msgid "&Friday"
+msgstr ""
+
+#: kdatepickerpopup.cpp:64
+msgid "&Sunday"
+msgstr ""
+
+#: kdatepickerpopup.cpp:65
+msgid "Next &Week"
+msgstr ""
+
+#: kdatepickerpopup.cpp:66
+msgid "Next M&onth"
+msgstr ""
+
+#: kdatepickerpopup.cpp:73
+#, fuzzy
+msgid "No Date"
+msgstr "Zapiski"
+
+#: kfileio.cpp:23
+msgid "File I/O Error"
+msgstr ""
+
+#: kfileio.cpp:43 kfileio.cpp:114
+#, c-format
+msgid ""
+"The specified file does not exist:\n"
+"%1"
+msgstr ""
+
+#: kfileio.cpp:49 kfileio.cpp:121
+#, c-format
+msgid ""
+"This is a folder and not a file:\n"
+"%1"
+msgstr ""
+
+#: kfileio.cpp:55 kfileio.cpp:128
+#, c-format
+msgid ""
+"You do not have read permissions to the file:\n"
+"%1"
+msgstr ""
+
+#: kfileio.cpp:66 kfileio.cpp:139
+#, c-format
+msgid ""
+"Could not read file:\n"
+"%1"
+msgstr ""
+
+#: kfileio.cpp:69 kfileio.cpp:142
+#, c-format
+msgid ""
+"Could not open file:\n"
+"%1"
+msgstr ""
+
+#: kfileio.cpp:72 kfileio.cpp:145
+#, c-format
+msgid ""
+"Error while reading file:\n"
+"%1"
+msgstr ""
+
+#: kfileio.cpp:88 kfileio.cpp:157
+msgid "Could only read %1 bytes of %2."
+msgstr ""
+
+#: kfileio.cpp:184
+msgid ""
+"File %1 exists.\n"
+"Do you want to replace it?"
+msgstr ""
+
+#: kfileio.cpp:187 kfileio.cpp:203
+msgid "Save to File"
+msgstr ""
+
+#: kfileio.cpp:187
+#, fuzzy
+msgid "&Replace"
+msgstr "mjezota"
+
+#: kfileio.cpp:201
+msgid ""
+"Failed to make a backup copy of %1.\n"
+"Continue anyway?"
+msgstr ""
+
+#: kfileio.cpp:214 kfileio.cpp:231
+#, c-format
+msgid ""
+"Could not write to file:\n"
+"%1"
+msgstr ""
+
+#: kfileio.cpp:217
+#, c-format
+msgid ""
+"Could not open file for writing:\n"
+"%1"
+msgstr ""
+
+#: kfileio.cpp:221
+#, c-format
+msgid ""
+"Error while writing file:\n"
+"%1"
+msgstr ""
+
+#: kfileio.cpp:236
+msgid "Could only write %1 bytes of %2."
+msgstr ""
 
 #: kimportdialog.cpp:78
 msgid "Plain"
@@ -292,27 +672,35 @@ msgstr "Mjeno mustra"
 msgid "Please enter a name for the template:"
 msgstr "Prošu zapodajće mjeno za muster"
 
-#: kprefsdialog.cpp:222
+#: klistviewsearchline_pimcopy.cpp:224
+msgid "Search Columns"
+msgstr ""
+
+#: klistviewsearchline_pimcopy.cpp:226
+msgid "All Columns"
+msgstr ""
+
+#: kprefsdialog.cpp:228
 msgid "Choose..."
 msgstr "Wubrać..."
 
-#: kprefsdialog.cpp:511
+#: kprefsdialog.cpp:525
 msgid "Preferences"
 msgstr "Preferency"
 
-#: kprefsdialog.cpp:626
+#: kprefsdialog.cpp:640
 msgid ""
 "You are about to set all preferences to default values. All custom "
 "modifications will be lost."
 msgstr ""
-"Sadźiće wšě preferency na standardne hódnoty. Wšitke waše modifikacije so "
-"zhubja."
+"Sadźiće wšě preferency na standardne hódnoty. Wšitke waše "
+"modifikacije so zhubja."
 
-#: kprefsdialog.cpp:627
+#: kprefsdialog.cpp:641
 msgid "Setting Default Preferences"
 msgstr "Standardne preferency"
 
-#: kprefsdialog.cpp:628
+#: kprefsdialog.cpp:642
 msgid "Reset to Defaults"
 msgstr ""
 
@@ -324,75 +712,112 @@ msgstr ""
 msgid "No description available"
 msgstr ""
 
-#: rc.cpp:2 rc.cpp:13
+#: progressdialog.cpp:165
+msgid "Cancel this operation."
+msgstr ""
+
+#: progressdialog.cpp:246 statusbarprogresswidget.cpp:278
+msgid "Hide detailed progress window"
+msgstr ""
+
+#: progressmanager.cpp:96
+msgid "Aborting..."
+msgstr ""
+
+#: rc.cpp:4 rc.cpp:25
+#, no-c-format
 msgid "Name"
 msgstr "Mjeno"
 
-#: rc.cpp:3 rc.cpp:14
+#: rc.cpp:6 rc.cpp:27
+#, no-c-format
 msgid "Email Address"
 msgstr "Emailowa adresa"
 
-#: rc.cpp:4
-#, fuzzy
+#: rc.cpp:8
+#, fuzzy, no-c-format
 msgid "&To >>"
 msgstr "Na >>"
 
-#: rc.cpp:5
-#, fuzzy
+#: rc.cpp:10
+#, fuzzy, no-c-format
 msgid "&CC >>"
 msgstr "Kopija na >>"
 
-#: rc.cpp:6
-#, fuzzy
+#: rc.cpp:12
+#, fuzzy, no-c-format
 msgid "&BCC >>"
 msgstr "Dalša kopija na >>"
 
-#: rc.cpp:7
-#, fuzzy
+#: rc.cpp:14
+#, fuzzy, no-c-format
 msgid "<< &Remove"
 msgstr "<< Zničić"
 
-#: rc.cpp:8
-#, fuzzy
+#: rc.cpp:16
+#, fuzzy, no-c-format
 msgid "Save as &Distribution List..."
 msgstr "Jako rozpósłansku lisćinu zawěsćić"
 
-#: rc.cpp:9
-#, fuzzy
+#: rc.cpp:18
+#, fuzzy, no-c-format
 msgid "&Selected Addresses"
 msgstr "Wubrane adresy"
 
-#: rc.cpp:10
-#, fuzzy
+#: rc.cpp:20
+#, fuzzy, no-c-format
 msgid "&Address Book"
 msgstr "Wosobinski adresnik"
 
-#: rc.cpp:11
-#, fuzzy
+#: rc.cpp:22
+#, fuzzy, no-c-format
 msgid "&Filter on:"
 msgstr "Filter na:"
 
-#: rc.cpp:15
-#, fuzzy
-msgid "Address B&ook..."
+#: rc.cpp:29
+#, fuzzy, no-c-format
+msgid "Address &Book"
 msgstr "Wosobinski adresnik"
 
-#: rc.cpp:17 rc.cpp:22
+#: rc.cpp:33 rc.cpp:43
+#, no-c-format
 msgid "Category"
 msgstr "Kategorija"
 
-#: rc.cpp:18
+#: rc.cpp:35
+#, no-c-format
 msgid "A&dd"
 msgstr "Dod&aj"
 
-#: rc.cpp:23
-#, fuzzy
+#: rc.cpp:45
+#, fuzzy, no-c-format
 msgid "&Clear Selection"
 msgstr "Wubraće mustra"
 
-#: rc.cpp:24
+#: rc.cpp:47
+#, no-c-format
 msgid "&Edit Categories..."
 msgstr "Kategorije &wobdźěłać..."
+
+#: ssllabel.cpp:68
+msgid "Connection is encrypted"
+msgstr ""
+
+#: ssllabel.cpp:74
+msgid "Connection is unencrypted"
+msgstr ""
+
+#: statusbarprogresswidget.cpp:81
+msgid "Open detailed progress dialog"
+msgstr ""
+
+#: statusbarprogresswidget.cpp:283
+msgid "Show detailed progress window"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Address &Book..."
+#~ msgstr "Wosobinski adresnik"
 
 #~ msgid "Address selection"
 #~ msgstr "Adresu wubrać"
@@ -421,4 +846,3 @@ msgstr "Kategorije &wobdźěłać..."
 
 #~ msgid "Edit..."
 #~ msgstr "Editować..."
-
