@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 2005-01-26 01:19+0100\n"
-"PO-Revision-Date: 2005-01-26 21:32+0000\n"
+"PO-Revision-Date: 2005-01-26 21:59+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -2863,29 +2863,34 @@ msgstr ""
 "%1"
 
 #: kdecore/kapplication.cpp:2493
-#, fuzzy
 msgid "Could not Launch Mail Client"
-msgstr "Njemóžach dataju začitać."
+msgstr "Njemóžach emailowy program startować."
 
 #: kdecore/kapplication.cpp:2494
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not launch the mail client:\n"
 "\n"
 "%1"
-msgstr "Njemóžach dataju začitać."
+msgstr ""
+"Njemóžach emailowy program startować:\n "
+"\n"
+"%1"
 
 #: kdecore/kapplication.cpp:2515
 msgid "Could not Launch Browser"
-msgstr ""
+msgstr "Njemóžach přehladowar startować"
 
 #: kdecore/kapplication.cpp:2516
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not launch the browser:\n"
 "\n"
 "%1"
-msgstr "Njemóžach dataju začitać."
+msgstr ""
+"Njemóžach přehladowar startować:\n"
+"\n"
+"%1"
 
 #: kdecore/kapplication.cpp:2580
 msgid "Could not register with DCOP.\n"
@@ -3029,7 +3034,7 @@ msgstr ""
 
 #: kdecore/kcmdlineargs.cpp:1247
 msgid "The files/URLs opened by the application will be deleted after use"
-msgstr ""
+msgstr "Dataje/URL, kiž je aplikacija wočiniła, so po wužiwanju zniča"
 
 #: kdecore/ksockaddr.cpp:112
 msgid "<unknown socket>"
@@ -3074,9 +3079,8 @@ msgid "New"
 msgstr "Nowe"
 
 #: kdecore/kstdaccel.cpp:61
-#, fuzzy
 msgid "Paste Selection"
-msgstr "Wuběr rěče"
+msgstr "Selekciju zasunyć"
 
 #: kdecore/kstdaccel.cpp:63
 msgid "Deselect"
@@ -4146,12 +4150,10 @@ msgid "Directory to generate files in"
 msgstr "Zapisk, w kotrymž maja so dataje stworić"
 
 #: kdecore/kconfig_compiler/kconfig_compiler.cpp:46
-#, fuzzy
 msgid "Input kcfg XML file"
 msgstr "Inputowa dataja (kcfg XML)."
 
 #: kdecore/kconfig_compiler/kconfig_compiler.cpp:47
-#, fuzzy
 msgid "Code generation options file"
 msgstr "Dataja z opcijemi za generowanje koda."
 
@@ -4196,16 +4198,15 @@ msgid "requested socket type not supported"
 msgstr "pominana družina socketa so njepodpěruje"
 
 #: kdecore/network/kresolver.cpp:553
-#, fuzzy
 msgid "unknown error"
-msgstr "Njeznaty zmylk"
+msgstr "njeznaty zmylk"
 
 #: kdecore/network/kresolver.cpp:555
 #, c-format
 msgid ""
 "_: 1: the i18n'ed system error code, from errno\n"
 "system error: %1"
-msgstr ""
+msgstr "systemowy zmylk: %1"
 
 #: kdecore/network/kresolver.cpp:560
 msgid "request was canceled"
@@ -4215,97 +4216,97 @@ msgstr "pominanje zběhnjene"
 msgid ""
 "_: Socket error code NoError\n"
 "no error"
-msgstr ""
+msgstr "žadyn zmylk"
 
 #: kdecore/network/ksocketbase.cpp:177
 msgid ""
 "_: Socket error code LookupFailure\n"
 "name lookup has failed"
-msgstr ""
+msgstr "pytanje za mjenom je so zwrěšćiło"
 
 #: kdecore/network/ksocketbase.cpp:182
 msgid ""
 "_: Socket error code AddressInUse\n"
 "address already in use"
-msgstr ""
+msgstr "adresa so hižo wužiwa"
 
 #: kdecore/network/ksocketbase.cpp:187
 msgid ""
 "_: Socket error code AlreadyBound\n"
 "socket is already bound"
-msgstr ""
+msgstr "socket je hižo wjazany"
 
 #: kdecore/network/ksocketbase.cpp:192
 msgid ""
 "_: Socket error code AlreadyCreated\n"
 "socket is already created"
-msgstr ""
+msgstr "socket je so hižo stworił"
 
 #: kdecore/network/ksocketbase.cpp:197
 msgid ""
 "_: Socket error code NotBound\n"
 "socket is not bound"
-msgstr ""
+msgstr "socket njeje wjazany"
 
 #: kdecore/network/ksocketbase.cpp:202
 msgid ""
 "_: Socket error code NotCreated\n"
 "socket has not been created"
-msgstr ""
+msgstr "socket so hišće njeje stworił"
 
 #: kdecore/network/ksocketbase.cpp:207
 msgid ""
 "_: Socket error code WouldBlock\n"
 "operation would block"
-msgstr ""
+msgstr "operacija by blokowała"
 
 #: kdecore/network/ksocketbase.cpp:212
 msgid ""
 "_: Socket error code ConnectionRefused\n"
 "connection actively refused"
-msgstr ""
+msgstr "zwisk je so aktiwnje wotpokazał"
 
 #: kdecore/network/ksocketbase.cpp:217
 msgid ""
 "_: Socket error code ConnectionTimedOut\n"
 "connection timed out"
-msgstr ""
+msgstr "sym předołho na zwisk čakał"
 
 #: kdecore/network/ksocketbase.cpp:222
 msgid ""
 "_: Socket error code InProgress\n"
 "operation is already in progress"
-msgstr ""
+msgstr "operacija so hižo wotměwa"
 
 #: kdecore/network/ksocketbase.cpp:227
 msgid ""
 "_: Socket error code NetFailure\n"
 "network failure occurred"
-msgstr ""
+msgstr "syćowy zmylk je so stał"
 
 #: kdecore/network/ksocketbase.cpp:232
 msgid ""
 "_: Socket error code NotSupported\n"
 "operation is not supported"
-msgstr ""
+msgstr "operacija so njepodpěruje"
 
 #: kdecore/network/ksocketbase.cpp:237
 msgid ""
 "_: Socket error code Timeout\n"
 "timed operation timed out"
-msgstr ""
+msgstr "operacijan z časowym wobmjezowanjom předołho traje"
 
 #: kdecore/network/ksocketbase.cpp:242
 msgid ""
 "_: Socket error code UnknownError\n"
 "an unknown/unexpected error has happened"
-msgstr ""
+msgstr "njeznaty abo njewočakowany zmylk je so stał"
 
 #: kdecore/network/ksocketbase.cpp:247
 msgid ""
 "_: Socket error code RemotelyDisconnected\n"
 "remote host closed connection"
-msgstr ""
+msgstr "dalny serwer je zwisk zakónčił"
 
 #: knewstuff/uploaddialog.cpp:46
 msgid "Share Hot New Stuff"
@@ -4358,7 +4359,7 @@ msgstr "Zjeće:"
 
 #: knewstuff/uploaddialog.cpp:116
 msgid "Old upload information found, fill out fields?"
-msgstr ""
+msgstr "Mam informacije wo starym pósłanju, pola wupjelnić?"
 
 #: knewstuff/uploaddialog.cpp:139
 msgid "Please put in a name."
@@ -4466,9 +4467,9 @@ msgid "Installation failed."
 msgstr "Instalacija so njeje poradźiła."
 
 #: knewstuff/knewstuff.cpp:38 knewstuff/knewstuffbutton.cpp:61
-#, fuzzy, c-format
+#, c-format
 msgid "Download New %1"
-msgstr "Sćehnjene"
+msgstr "Sćahnyć nowe %1"
 
 #: knewstuff/engine.cpp:210
 msgid "Successfully installed hot new stuff."
@@ -4479,7 +4480,6 @@ msgid "Failed to install hot new stuff."
 msgstr "Nowe wěcy so njehodźachu instalować."
 
 #: knewstuff/engine.cpp:267
-#, fuzzy
 msgid "Unable to create file to upload."
 msgstr "Njemóžu dataju stworić za pósłanje."
 
@@ -4488,31 +4488,26 @@ msgid "The files to be uploaded have been created at:\n"
 msgstr "Dataje za pósłanje su so wutworili w: \n"
 
 #: knewstuff/engine.cpp:279
-#, fuzzy
 msgid "Data file: %1\n"
-msgstr "Datum a čas: %1"
+msgstr "Datowa dataja: %1\n"
 
 #: knewstuff/engine.cpp:281
-#, fuzzy
 msgid "Preview image: %1\n"
-msgstr "Wobraz (%1) pokazać"
+msgstr "Wobraz (%1) pokazać\n"
 
 #: knewstuff/engine.cpp:283
-#, fuzzy
 msgid "Content information: %1\n"
-msgstr "Informacija wo dokumenće "
+msgstr "Informacija wo wobsahu: %1\n"
 
 #: knewstuff/engine.cpp:284
-#, fuzzy
 msgid "Those files can now be uploaded.\n"
-msgstr "Tuta dataja njehodźi so wočinić."
+msgstr "Tute dataje hodźa so pósłać.\n"
 
 #: knewstuff/engine.cpp:285
 msgid "Beware that any people might have access to them at any time."
-msgstr ""
+msgstr "Kedźbu: Kóždyžkuli móhł k nim přistup dóstać."
 
 #: knewstuff/engine.cpp:287
-#, fuzzy
 msgid "Upload Files"
 msgstr "Dataje pósłać"
 
@@ -4521,21 +4516,18 @@ msgid "Please upload the files manually."
 msgstr "Prošu pósćelće dataje manuelnje."
 
 #: knewstuff/engine.cpp:296
-#, fuzzy
 msgid "Upload Info"
-msgstr "Informacija wo pósłanju ..."
+msgstr "Informacija wo pósłanju"
 
 #: knewstuff/engine.cpp:304
-#, fuzzy
 msgid "&Upload"
-msgstr "Sćelu"
+msgstr "&Pósłać"
 
 #: knewstuff/engine.cpp:400
 msgid "Successfully uploaded new stuff."
 msgstr "Sym nowe wěcy wuspěšnje pósłał."
 
 #: knewstuff/knewstuffbutton.cpp:49
-#, fuzzy
 msgid "Download New Stuff"
 msgstr "Nowe wěcy wobstarać"
 
@@ -4549,36 +4541,33 @@ msgstr "Jenož medije tuteje družiny pokazać"
 
 #: knewstuff/khotnewstuff.cpp:32
 msgid "Provider list to use"
-msgstr ""
+msgstr "Lisćina providerow, kiž ma so wužiwać"
 
 #: knewstuff/providerdialog.cpp:53
 msgid "Hot New Stuff Providers"
 msgstr "Prowidery za nowe wěcy"
 
 #: knewstuff/providerdialog.cpp:61
-#, fuzzy
 msgid "Please select one of the providers listed below:"
-msgstr "Prošu družinu noweje resursy wubrać:"
+msgstr "Prošu jednoho z providerow wubrać:"
 
 #: knewstuff/providerdialog.cpp:88
 msgid "No provider selected."
 msgstr "Žadyn provider njewubrany "
 
 #: kdeui/kkeydialog.cpp:321
-#, fuzzy
 msgid "Clear Search"
-msgstr "telnet service"
+msgstr "Pytanje wutrěć"
 
 #: kdeui/kkeydialog.cpp:324
-#, fuzzy
 msgid "&Search:"
-msgstr "měrca"
+msgstr "&Pytać:"
 
 #: kdeui/kkeydialog.cpp:331
 msgid ""
 "Search interactively for shortcut names (e.g. Copy) or combination of keys "
 "(e.g. Ctrl+C) by typing them here."
-msgstr ""
+msgstr "Pyta interaktiwnje za krótkimi pomjenowanjemi (na př. kopěrować) abo za kombinaciju tastow (na př. Strg+C), kiž móžeš tu zapodać."
 
 #: kdeui/kkeydialog.cpp:355
 msgid ""
@@ -4730,31 +4719,27 @@ msgstr "Tabulator začinić"
 
 #: kdeui/kpixmapregionselectordialog.cpp:28
 msgid "Select Region of Image"
-msgstr ""
+msgstr "Dźěl wobraza wubrać"
 
 #: kdeui/kpixmapregionselectordialog.cpp:31
 msgid "Please click and drag on the image to select the region of interest:"
-msgstr ""
+msgstr "Prošu na wobraz kliknyć a ćahnyć za wuběranje dźěla:"
 
 #: kdeui/ksconfig.cpp:100
-#, fuzzy
 msgid "Create &root/affix combinations not in dictionary"
-msgstr "Stwor kombinacije zdónkow a afiksow, kiž njejsu we słowniku."
+msgstr "Stwor kombinacije zdónkow a &afiksow, kiž njejsu we słowniku."
 
 #: kdeui/ksconfig.cpp:105
-#, fuzzy
 msgid "Consider run-together &words as spelling errors"
-msgstr "Wobhladaj hromadźe pisane słowa jako zmylki"
+msgstr "Wobhladaj hromadźe pisane &słowa jako zmylki"
 
 #: kdeui/ksconfig.cpp:116
-#, fuzzy
 msgid "&Dictionary:"
-msgstr "Słownik:"
+msgstr "&Słownik:"
 
 #: kdeui/ksconfig.cpp:141
-#, fuzzy
 msgid "&Encoding:"
-msgstr "Kodowanje:"
+msgstr "&Kodowanje:"
 
 #: kdeui/ksconfig.cpp:146
 msgid "International Ispell"
@@ -4769,9 +4754,8 @@ msgid "Hspell"
 msgstr "Hspell"
 
 #: kdeui/ksconfig.cpp:153
-#, fuzzy
 msgid "&Client:"
-msgstr "Client:"
+msgstr "&Client:"
 
 #: kdeui/ksconfig.cpp:289
 msgid "Spanish"
@@ -4886,7 +4870,7 @@ msgstr "Wubrać..."
 
 #: kdeui/kfontrequester.cpp:102
 msgid "Click to select a font"
-msgstr "Klikńće za wubjeranje pisma"
+msgstr "Klikńće za wuběranje pisma"
 
 #: kdeui/kfontrequester.cpp:109
 msgid "Preview of the selected font"
@@ -4933,21 +4917,19 @@ msgid "A&uthors"
 msgstr "A&wtorojo"
 
 #: kdeui/kaboutapplication.cpp:110
-#, fuzzy
 msgid ""
 "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a>"
 " to report bugs, do not mail the authors directly."
 msgstr ""
-"Prošu wužiwaj http://bugs.kde.org, zo by wo zmylku rozprawił, njepisaj "
-"bjezposrědnje awtoram.\n"
+"Prošu wužiwajće http://bugs.kde.org, zo by wo zmylku rozprawił, njepisajće "
+"bjezposrědnje awtoram."
 
 #: kdeui/kaboutapplication.cpp:112
-#, fuzzy
 msgid ""
 "Please use <a href=\"mailto:%1\">%1</a> to report bugs, do not mail the "
 "authors directly.\n"
 msgstr ""
-"Prošu wužiwajće '%1', zo by wo zmylku rozprawił, njepisajće "
+"Prošu wužiwajće <a href=\"mailto:%1\">%1</a>', zo by wo zmylku rozprawił, njepisajće "
 "bjezposrědnje awtoram.\n"
 
 #: kdeui/kaboutapplication.cpp:128
@@ -5087,6 +5069,8 @@ msgid ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font>"
 "<br>Unicode code point: U+%3<br>(In decimal: %4)<br>(Character: %5)</qt>"
 msgstr ""
+"<qt><font size=\"+4\" face=\"%1\">%2</font>"
+"<br>Unicode kodowy dypk: U+%3<br>(decimalnje: %4)<br>(Pismik: %5)</qt>"
 
 #: kdeui/kcharselect.cpp:384
 msgid "Table:"
@@ -5094,7 +5078,7 @@ msgstr "Tabulka:"
 
 #: kdeui/kcharselect.cpp:394
 msgid "&Unicode code point:"
-msgstr ""
+msgstr "&Kodowy dypk Unicodea:"
 
 #: kdeui/kmessagebox.cpp:430 kdeui/kmessagebox.cpp:481
 msgid "Question"
@@ -5103,9 +5087,8 @@ msgstr "Prašenje"
 #: kdeui/kmessagebox.cpp:444 kdeui/kmessagebox.cpp:496
 #: kdeui/kmessagebox.cpp:577 kdeui/kmessagebox.cpp:649
 #: kdeui/kmessagebox.cpp:725
-#, fuzzy
 msgid "Do not ask again"
-msgstr "&Njeprašej so hišće raz"
+msgstr "Njeprašej so hišće raz"
 
 #: kdeui/kaboutdialog.cpp:1540 kdeui/khelpmenu.cpp:213
 #: kdeui/kmessagebox.cpp:977
@@ -5134,7 +5117,6 @@ msgid "Dropdown List && Automatic"
 msgstr "Menijowa lisćina && awtomatisce"
 
 #: kdeui/kaboutkde.cpp:34
-#, fuzzy
 msgid ""
 "The <b>K Desktop Environment</b> is written and maintained by the KDE Team, "
 "a world-wide network of software engineers committed to free software "
@@ -5157,7 +5139,6 @@ msgstr ""
 " dla dalšich informacijow wo KDE-projekće."
 
 #: kdeui/kaboutkde.cpp:43
-#, fuzzy
 msgid ""
 "Software can always be improved, and the KDE Team is ready to do so. "
 "However, you - the user - must tell us when something does not work as "
@@ -5185,7 +5166,6 @@ msgstr ""
 "by swoje přeće pod \"Wishlist\" registrował."
 
 #: kdeui/kaboutkde.cpp:54
-#, fuzzy
 msgid ""
 "You do not have to be a software developer to be a member of the KDE team. "
 "You can join the national teams that translate program interfaces. You can "
@@ -5209,7 +5189,6 @@ msgstr ""
 "HREF=\"http://developer.kde.org/\">http://developer.kde.org/</A>."
 
 #: kdeui/kaboutkde.cpp:67
-#, fuzzy
 msgid ""
 "KDE is available free of charge, but making it is not free."
 "<br>"
@@ -5264,7 +5243,6 @@ msgid "&Join the KDE Team"
 msgstr "&Zastup do KDE-skupiny"
 
 #: kdeui/kaboutkde.cpp:86
-#, fuzzy
 msgid "&Support KDE"
 msgstr "KDE &podpěrać"
 
@@ -5398,9 +5376,8 @@ msgid "Continue operation"
 msgstr "Z akciju pokročować"
 
 #: kdeui/kstdguiitem.cpp:219
-#, fuzzy
 msgid "Delete item(s)"
-msgstr "Zničić"
+msgstr "Elementy zničić"
 
 #: kdeui/kstdguiitem.cpp:225
 msgid "Open file"
@@ -5419,7 +5396,6 @@ msgid "Reset configuration"
 msgstr "Originalna konfiguracija"
 
 #: kdeui/kstdguiitem.cpp:247
-#, fuzzy
 msgid "Confi&gure..."
 msgstr "Konfigura&cija..."
 
@@ -5429,9 +5405,8 @@ msgid "&Find"
 msgstr "&Namakaj"
 
 #: kdeui/kstdguiitem.cpp:272
-#, fuzzy
 msgid "Test"
-msgstr "KIOTest"
+msgstr "Test"
 
 #: kdeui/ksyntaxhighlighter.cpp:471 kdeui/ksyntaxhighlighter.cpp:578
 msgid "As-you-type spell checking enabled."
@@ -5518,6 +5493,10 @@ msgid ""
 "help us and  describe the widget, you are welcome to <a "
 "href=\"submit-whatsthis\">send us \"What's This\" help</a> for it."
 msgstr ""
+"<b>Njedefinowane</b> "
+"<br> "
+"Njeeksistuje žane \"Što to je\"-pomoc za tutón element. Jeli chceće nam pomhać a jón wopisać, bychmy so wjeselili, hdy byšće <a "
+"href=\"submit-whatsthis\">nam</a> wotpowědnu pomoc pósłali."
 
 #: kdeui/kshortcutdialog.cpp:68
 msgid "Configure Shortcut"
