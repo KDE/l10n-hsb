@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
-"POT-Creation-Date: 2004-08-03 01:18+0200\n"
+"POT-Creation-Date: 2004-11-27 01:20+0100\n"
 "PO-Revision-Date: 2004-04-16 16:56+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -30,69 +30,100 @@ msgstr ""
 "\n"
 "**** Njemóžu protokolowu dataju za konsolu wočinić ***"
 
-#: kgdialog.cpp:64
+#: kgdialog.cpp:59
+msgid "Sw&itch User"
+msgstr ""
+
+#: kgdialog.cpp:68
 msgid "R&estart X Server"
 msgstr "X-serwer znowa &startować"
 
-#: kgdialog.cpp:64
+#: kgdialog.cpp:68
 msgid "Clos&e Connection"
 msgstr "Zwisk &přetorhnyć"
 
-#: kgdialog.cpp:75
+#: kgdialog.cpp:79
 msgid "Co&nsole Login"
 msgstr "Přizjewjenje na terminalu"
 
-#: kgdialog.cpp:78
+#: kgdialog.cpp:82
 msgid "&Shutdown..."
 msgstr "&Hasnyć..."
 
-#: kchooser.cpp:54
+#: kgdialog.cpp:186
+msgid ""
+"_: session (location)\n"
+"%1 (%2)"
+msgstr ""
+
+#: kgdialog.cpp:187
+msgid "Unused"
+msgstr ""
+
+#: kdmshutdown.cpp:609 kgdialog.cpp:188
+#, fuzzy
+msgid "Remote Login"
+msgstr "&Přizjewjenje na druhim ličaku"
+
+#: kdmshutdown.cpp:607 kgdialog.cpp:189
+msgid ""
+"_: user: session type\n"
+"%1: %2"
+msgstr ""
+
+#: kdmshutdown.cpp:612 kgdialog.cpp:192
+msgid ""
+"_: display, virtual terminal\n"
+"%1, vt%2"
+msgstr ""
+
+#: kchooser.cpp:55
 msgid "&Local Login"
 msgstr "&Lokalne přizjewjenje"
 
-#: kchooser.cpp:63
+#: kchooser.cpp:59
 msgid "XDMCP Host Menu"
 msgstr "XDMCP-meni"
 
-#: kchooser.cpp:68
+#: kchooser.cpp:64
 #, fuzzy
 msgid "Hostname"
 msgstr "Mjeno servera"
 
-#: kchooser.cpp:70
+#: kchooser.cpp:66
 msgid "Status"
 msgstr "Staw"
 
-#: kchooser.cpp:77
+#: kchooser.cpp:73
 msgid "Hos&t:"
 msgstr "&Server:"
 
-#: kchooser.cpp:78
+#: kchooser.cpp:74
 msgid "A&dd"
 msgstr "Do&daj"
 
-#: kchooser.cpp:86
+#: kchooser.cpp:82
 msgid "&Accept"
 msgstr "&Přiwzać"
 
-#: kchooser.cpp:88
+#: kchooser.cpp:84
 msgid "&Refresh"
 msgstr "&Aktualizować"
 
-#: kchooser.cpp:96 kgreeter.cpp:192
+#: kchooser.cpp:92 kgreeter.cpp:653
 msgid "&Menu"
 msgstr "&Meni"
 
-#: kchooser.cpp:173
+#: kchooser.cpp:174
 msgid "<unknown>"
 msgstr "<njeznate>"
 
-#: kchooser.cpp:211
+#: kchooser.cpp:212
 #, c-format
 msgid "Unknown host %1"
 msgstr "Njeznaty host %1"
 
-#: kgverify.cpp:133
+#: kgverify.cpp:153
 msgid "No greeter widget plugin loaded. Check the configuration."
 msgstr "Žadyn powitanski plugin začitany. Přepruwujće konfiguraciju."
 
@@ -181,7 +212,7 @@ msgstr ""
 msgid "Your password expires today."
 msgstr "Waše hesło budźe dźensa njepłaćiwe."
 
-#: kgverify.cpp:450 kgverify.cpp:736
+#: kgverify.cpp:450 kgverify.cpp:866
 msgid "Authentication failed"
 msgstr "Přizjewjenje je so zwrěšćiło"
 
@@ -190,104 +221,234 @@ msgid ""
 "Authenticated user (%1) does not match requested user (%2).\n"
 msgstr ""
 
-#: kgverify.cpp:730
+#: kgverify.cpp:860
 msgid "Warning: Caps Lock on"
 msgstr "Kedźbu: Stajne wulkopisanje zaswěćene"
 
-#: kgverify.cpp:734
+#: kgverify.cpp:864
 #, fuzzy
 msgid "Change failed"
 msgstr "Přizjewjenje je so zwrěšćiło"
 
-#: kgverify.cpp:736
+#: kgverify.cpp:866
 msgid "Login failed"
 msgstr "Přizjewjenje je so zwrěšćiło"
 
-#: kgverify.cpp:840
+#: kgverify.cpp:898
+msgid "Theme not usable with authentication method '%1'."
+msgstr ""
+
+#: kgverify.cpp:952
 msgid "Changing authentication token"
 msgstr ""
 
-#: kdmshutdown.cpp:61
+#: kdmshutdown.cpp:89
+msgid "Root authorization required."
+msgstr ""
+
+#: kdmshutdown.cpp:120 kdmshutdown.cpp:508
+#, fuzzy
+msgid "&Schedule..."
+msgstr "&Po časowym planje"
+
+#: kdmshutdown.cpp:291
 msgid "Shutdown Type"
 msgstr "Družina hasnjenja"
 
-#: kdmshutdown.cpp:65
+#: kdmshutdown.cpp:295
 msgid "&Turn off computer"
 msgstr "Computer &hasnyć"
 
-#: kdmshutdown.cpp:70
+#: kdmshutdown.cpp:299
 msgid "&Restart computer"
 msgstr "Computer &znowa startować"
 
-#: kdmshutdown.cpp:114
-msgid "Shutdown Mode"
-msgstr "Modus hasnjenja"
+#: kdmshutdown.cpp:321
+msgid "Scheduling"
+msgstr ""
 
-#: kdmshutdown.cpp:117
-msgid ""
-"_: verb!\n"
-"&Schedule"
-msgstr "&Po časowym planje"
-
-#: kdmshutdown.cpp:121
-msgid "&Force now"
-msgstr "&Hnydom"
-
-#: kdmshutdown.cpp:126
+#: kdmshutdown.cpp:325
 #, fuzzy
-msgid "Try &now"
-msgstr "&Nětko spytać"
+msgid "&Start:"
+msgstr "Staw"
 
-#: kgreeter.cpp:135
+#: kdmshutdown.cpp:328
+msgid "T&imeout:"
+msgstr ""
+
+#: kdmshutdown.cpp:330
+msgid "&Force after timeout"
+msgstr ""
+
+#: kdmshutdown.cpp:379
+msgid "Entered start date is invalid."
+msgstr ""
+
+#: kdmshutdown.cpp:388
+msgid "Entered timeout date is invalid."
+msgstr ""
+
+#: kdmshutdown.cpp:482
+#, fuzzy
+msgid "&Turn Off Computer"
+msgstr "Computer &hasnyć"
+
+#: kdmshutdown.cpp:489
+#, fuzzy
+msgid "&Restart Computer"
+msgstr "Computer &znowa startować"
+
+#: kdmshutdown.cpp:496
+msgid "Next &boot:"
+msgstr ""
+
+#: kdmshutdown.cpp:591
+msgid "Abort active sessions:"
+msgstr ""
+
+#: kdmshutdown.cpp:592
+msgid "No permission to abort active sessions:"
+msgstr ""
+
+#: kdmshutdown.cpp:598
+#, fuzzy
+msgid "Session"
+msgstr "Druži&na sesije:"
+
+#: kdmshutdown.cpp:599
+#, fuzzy
+msgid "Location"
+msgstr "&Lokalne přizjewjenje"
+
+#: kdmshutdown.cpp:642
+msgid "Abort pending shutdown:"
+msgstr ""
+
+#: kdmshutdown.cpp:643
+msgid "No permission to abort pending shutdown:"
+msgstr ""
+
+#: kdmshutdown.cpp:648
+msgid "now"
+msgstr ""
+
+#: kdmshutdown.cpp:654
+msgid "infinite"
+msgstr ""
+
+#: kdmshutdown.cpp:660
+msgid ""
+"Owner: %1\n"
+"Type: %2\n"
+"Start: %3\n"
+"Timeout: %4"
+msgstr ""
+
+#: kdmshutdown.cpp:665
+msgid "console user"
+msgstr ""
+
+#: kdmshutdown.cpp:667
+msgid "control socket"
+msgstr ""
+
+#: kdmshutdown.cpp:670
+#, fuzzy
+msgid "turn off computer"
+msgstr "Computer &hasnyć"
+
+#: kdmshutdown.cpp:671
+#, fuzzy
+msgid "restart computer"
+msgstr "Computer &znowa startować"
+
+#: kdmshutdown.cpp:674
+#, c-format
+msgid ""
+"\n"
+"After timeout: %1"
+msgstr ""
+
+#: kdmshutdown.cpp:676
+msgid "abort all sessions"
+msgstr ""
+
+#: kdmshutdown.cpp:678
+msgid "abort own sessions"
+msgstr ""
+
+#: kdmshutdown.cpp:679
+msgid "cancel shutdown"
+msgstr ""
+
+#: kgreeter.cpp:346
+msgid "Custom"
+msgstr ""
+
+#: kgreeter.cpp:347
+msgid "Failsafe"
+msgstr ""
+
+#: kgreeter.cpp:442
+msgid " (previous)"
+msgstr ""
+
+#: kgreeter.cpp:501
+msgid ""
+"Your saved session type '%1' is not valid any more.\n"
+"Please select a new one, otherwise 'default' will be used."
+msgstr ""
+
+#: kgreeter.cpp:602
 msgid "Warning: this is an unsecured session"
 msgstr ""
 
-#: kgreeter.cpp:137
+#: kgreeter.cpp:604
 msgid ""
 "This display requires no X authorization.\n"
 "This means that anybody can connect to it,\n"
 "open windows on it or intercept your input."
 msgstr ""
 
-#: kgreeter.cpp:187
+#: kgreeter.cpp:650
 #, fuzzy
 msgid "L&ogin"
 msgstr "&Mjeno wužiwarja:"
 
-#: kgreeter.cpp:190
-msgid "&Clear"
-msgstr "&Pólko wuprózdnić"
-
-#: kgreeter.cpp:229
+#: kgreeter.cpp:682 kgreeter.cpp:817
 #, fuzzy
 msgid "Session &Type"
 msgstr "Druži&na sesije:"
 
-#: kgreeter.cpp:235
+#: kgreeter.cpp:688 kgreeter.cpp:824
 msgid "&Authentication Method"
 msgstr ""
 
-#: kgreeter.cpp:240
+#: kgreeter.cpp:693 kgreeter.cpp:829
 msgid "&Remote Login"
 msgstr "&Přizjewjenje na druhim ličaku"
 
-#: kgreeter.cpp:460
-msgid "Custom"
-msgstr ""
+#: kgreeter.cpp:763
+#, fuzzy
+msgid "Login Failed."
+msgstr "Přizjewjenje je so zwrěšćiło"
 
-#: kgreeter.cpp:461
-msgid "Failsafe"
-msgstr ""
+#, fuzzy
+#~ msgid "Sess&ions"
+#~ msgstr "Druži&na sesije:"
 
-#: kgreeter.cpp:556
-msgid " (previous)"
-msgstr ""
+#~ msgid "&Clear"
+#~ msgstr "&Pólko wuprózdnić"
 
-#: kgreeter.cpp:615
-msgid ""
-"Your saved session type '%1' is not valid any more.\n"
-"Please select a new one, otherwise 'default' will be used."
-msgstr ""
+#~ msgid "Shutdown Mode"
+#~ msgstr "Modus hasnjenja"
+
+#~ msgid "&Force now"
+#~ msgstr "&Hnydom"
+
+#, fuzzy
+#~ msgid "Try &now"
+#~ msgstr "&Nětko spytać"
 
 #~ msgid "Your account has expired."
 #~ msgstr "Waše konto hižo njepłaći."
