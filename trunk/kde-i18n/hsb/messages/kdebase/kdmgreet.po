@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
-"POT-Creation-Date: 2005-02-02 01:23+0100\n"
-"PO-Revision-Date: 2005-01-27 11:55+0000\n"
+"POT-Creation-Date: 2005-02-05 01:17+0100\n"
+"PO-Revision-Date: 2005-02-05 23:49+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -62,17 +62,17 @@ msgstr "%1 (%2)"
 msgid "Unused"
 msgstr "So njewužiwa"
 
-#: kdmshutdown.cpp:592 kgdialog.cpp:199
+#: kdmshutdown.cpp:646 kgdialog.cpp:199
 msgid "Remote Login"
 msgstr "Přizjewjenje na zdalenym ličaku"
 
-#: kdmshutdown.cpp:590 kgdialog.cpp:200
+#: kdmshutdown.cpp:644 kgdialog.cpp:200
 msgid ""
 "_: user: session type\n"
 "%1: %2"
 msgstr "%1: %2"
 
-#: kdmshutdown.cpp:595 kgdialog.cpp:203
+#: kdmshutdown.cpp:649 kgdialog.cpp:203
 msgid ""
 "_: display, virtual terminal\n"
 "%1, vt%2"
@@ -218,10 +218,8 @@ msgid "Authentication failed"
 msgstr "Přizjewjenje je so zwrěšćiło"
 
 #: kgverify.cpp:580
-msgid ""
-"Authenticated user (%1) does not match requested user (%2).\n"
-msgstr ""
-"Přizjewjeny wužiwar (%1) njeje identiski z trěbnym wužiwarjom (%2).\n"
+msgid "Authenticated user (%1) does not match requested user (%2).\n"
+msgstr "Přizjewjeny wužiwar (%1) njeje identiski z trěbnym wužiwarjom (%2).\n"
 
 #: kgverify.cpp:860
 msgid "Warning: Caps Lock on"
@@ -241,138 +239,152 @@ msgstr "Tema so njehodźi z přizjewjenskej metodu \"%1\" wužiwać."
 
 #: kgverify.cpp:952
 msgid "Changing authentication token"
-msgstr "Změnu awtentifikaciju"
+msgstr "Změnju awtentifikaciju"
 
-#: kdmshutdown.cpp:90
+#: kdmshutdown.cpp:92
 msgid "Root authorization required."
 msgstr "Root dyrbi so přizjewić."
 
-#: kdmshutdown.cpp:121 kdmshutdown.cpp:479
+#: kdmshutdown.cpp:123 kdmshutdown.cpp:516
 msgid "&Schedule..."
 msgstr "&Po časowym planje"
 
-#: kdmshutdown.cpp:271
+#: kdmshutdown.cpp:246
 msgid "Shutdown Type"
 msgstr "Družina hasnjenja"
 
-#: kdmshutdown.cpp:275
+#: kdmshutdown.cpp:250
 msgid "&Turn off computer"
 msgstr "kompjuter &hasnyć"
 
-#: kdmshutdown.cpp:279
+#: kdmshutdown.cpp:254
 msgid "&Restart computer"
 msgstr "kompjuter &znowa startować"
 
-#: kdmshutdown.cpp:299
+#: kdmshutdown.cpp:282
 msgid "Scheduling"
 msgstr "Do časoweho plana"
 
-#: kdmshutdown.cpp:303
+#: kdmshutdown.cpp:286
 msgid "&Start:"
 msgstr "&Start:"
 
-#: kdmshutdown.cpp:306
+#: kdmshutdown.cpp:289
 msgid "T&imeout:"
 msgstr "&Maksimalny čas:"
 
-#: kdmshutdown.cpp:308
+#: kdmshutdown.cpp:291
 msgid "&Force after timeout"
 msgstr "&Po maksimalnym času"
 
-#: kdmshutdown.cpp:357
+#: kdmshutdown.cpp:340
 msgid "Entered start date is invalid."
 msgstr "Zapodaty startowy datum njeje korektny."
 
-#: kdmshutdown.cpp:366
+#: kdmshutdown.cpp:349
 msgid "Entered timeout date is invalid."
 msgstr "Zapodaty maksimalny čas njeje korektny."
 
-#: kdmshutdown.cpp:456
+#: kdmshutdown.cpp:482
 msgid "&Turn Off Computer"
 msgstr "kompjuter &hasnyć"
 
-#: kdmshutdown.cpp:463
+#: kdmshutdown.cpp:489
 msgid "&Restart Computer"
 msgstr "kompjuter &znowa startować"
 
-#: kdmshutdown.cpp:468
-msgid "Next &boot:"
-msgstr "Při &přichodnym starowanju:"
+#: kdmshutdown.cpp:504
+msgid ""
+"_: current option in boot loader\n"
+"%1 (current)"
+msgstr "%1 (tuchwilu nastajene)"
 
-#: kdmshutdown.cpp:560
+#: kdmshutdown.cpp:608
 msgid "Turn Off Computer"
 msgstr "kompjuter hasnyć"
 
-#: kdmshutdown.cpp:563
-#, fuzzy
+#: kdmshutdown.cpp:611
 msgid "Switch to Console"
-msgstr "&Hinaši wužiwar"
+msgstr "Na terminal přešaltować"
 
-#: kdmshutdown.cpp:565
+#: kdmshutdown.cpp:613
 msgid "Restart Computer"
 msgstr "kompjuter znowa startować"
 
-#: kdmshutdown.cpp:574
+#: kdmshutdown.cpp:615
+msgid "<br>(Next boot: %1)"
+msgstr "<br>(Při přichodnym starowanju: %1)"
+
+#: kdmshutdown.cpp:627
 msgid "Abort active sessions:"
 msgstr "Aktiwne posedźenja přetorhnyć:"
 
-#: kdmshutdown.cpp:575
+#: kdmshutdown.cpp:628
 msgid "No permission to abort active sessions:"
 msgstr "Nimaće prawo aktiwne posedźenja přetorhnyć:"
 
-#: kdmshutdown.cpp:581
+#: kdmshutdown.cpp:635
 msgid "Session"
 msgstr "Posedźenje"
 
-#: kdmshutdown.cpp:582
+#: kdmshutdown.cpp:636
 msgid "Location"
 msgstr "Městno"
 
-#: kdmshutdown.cpp:624
+#: kdmshutdown.cpp:679
 msgid "Abort pending shutdown:"
 msgstr "Přihotowane hasnjenje kompjutera přetorhnyć:"
 
-#: kdmshutdown.cpp:625
+#: kdmshutdown.cpp:680
 msgid "No permission to abort pending shutdown:"
 msgstr "Nimaće prawo přihotowane hasnjenje přetorhnyć:"
 
-#: kdmshutdown.cpp:630
+#: kdmshutdown.cpp:686
 msgid "now"
 msgstr "nětko"
 
-#: kdmshutdown.cpp:636
+#: kdmshutdown.cpp:692
 msgid "infinite"
 msgstr "bjez wobmjezowanja"
 
-#: kdmshutdown.cpp:642
+#: kdmshutdown.cpp:698
 msgid ""
 "Owner: %1\n"
-"Type: %2\n"
+"Type: %2%5\n"
 "Start: %3\n"
 "Timeout: %4"
 msgstr ""
 "Wobsydnik: %1\n"
-"Družina: %2\n"
+"Družina: %2%5\n"
 "Start: %3\n"
 "Maks. čas: %4"
 
-#: kdmshutdown.cpp:647
+#: kdmshutdown.cpp:703
 msgid "console user"
 msgstr "wužiwar na terminalu"
 
-#: kdmshutdown.cpp:649
+#: kdmshutdown.cpp:705
 msgid "control socket"
 msgstr "control socket"
 
-#: kdmshutdown.cpp:652
+#: kdmshutdown.cpp:708
 msgid "turn off computer"
 msgstr "kompjuter hasnyć"
 
-#: kdmshutdown.cpp:653
+#: kdmshutdown.cpp:709
 msgid "restart computer"
 msgstr "kompjuter znowa startować"
 
-#: kdmshutdown.cpp:656
+#: kdmshutdown.cpp:712
+#, c-format
+msgid ""
+"\n"
+"Next boot: %1"
+msgstr ""
+"\n"
+"Při přichodnym starowanju: %1"
+
+#: kdmshutdown.cpp:715
 #, c-format
 msgid ""
 "\n"
@@ -381,15 +393,15 @@ msgstr ""
 "\n"
 "Po maksimalnym času: %1"
 
-#: kdmshutdown.cpp:658
+#: kdmshutdown.cpp:717
 msgid "abort all sessions"
 msgstr "wšitke posedźenja přetorhnyć"
 
-#: kdmshutdown.cpp:660
+#: kdmshutdown.cpp:719
 msgid "abort own sessions"
 msgstr "swoje posedźenja přetorhnyć"
 
-#: kdmshutdown.cpp:661
+#: kdmshutdown.cpp:720
 msgid "cancel shutdown"
 msgstr "hasnjenje přetorhnyć"
 
@@ -446,3 +458,4 @@ msgstr "&Přizjewjenje na druhim ličaku"
 #: kgreeter.cpp:771
 msgid "Login Failed."
 msgstr "Přizjewjenje je so zwrěšćiło."
+
