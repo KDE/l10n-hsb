@@ -4,7 +4,7 @@
 # Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>, 2003
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2003-12-16 01:36+0100\n"
+"POT-Creation-Date: 2004-01-16 01:40+0100\n"
 "PO-Revision-Date: 2003-06-03 00:29+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -376,7 +376,7 @@ msgstr "&Wuprózdnić"
 msgid "Document Information"
 msgstr "Informaciju wo dokumenće pokazać"
 
-#: kdecore/kconfig_compiler/autoexample.cpp:52 rc.cpp:79
+#: kdecore/kconfig_compiler/autoexample.cpp:54 rc.cpp:79
 msgid "General"
 msgstr "Generelnje"
 
@@ -404,8 +404,8 @@ msgstr "Přiznak"
 msgid "Value"
 msgstr "Hódnota"
 
-#: common_texts.cpp:24 kdeui/kconfigdialog.cpp:54 kutils/kcmultidialog.cpp:43
-#: kutils/ksettings/dialog.cpp:571
+#: common_texts.cpp:24 kdeui/kconfigdialog.cpp:55 kutils/kcmultidialog.cpp:43
+#: kutils/kcmultidialog.h:97 kutils/ksettings/dialog.cpp:571
 msgid "Configure"
 msgstr "Konfiguracija"
 
@@ -577,7 +577,7 @@ msgstr "W&o tutym programje"
 msgid "Untitled"
 msgstr "Bjez titla"
 
-#: common_texts.cpp:67 kabc/resourceselectdialog.cpp:56 kdecore/kdebug.cpp:304
+#: common_texts.cpp:67 kabc/resourceselectdialog.cpp:56 kdecore/kdebug.cpp:300
 #: kdeui/kdialogbase.cpp:904 kdeui/khelpmenu.cpp:202
 #: kdeui/klineeditdlg.cpp:105 kdeui/kmessagebox.cpp:904
 #: kdeui/kstdguiitem.cpp:78 kresources/selectdialog.cpp:60
@@ -705,9 +705,9 @@ msgstr "Zawěsćić"
 msgid "&Save"
 msgstr "Zawě&sćić"
 
-#: common_texts.cpp:111 khtml/khtml_part.cpp:3245 khtml/khtml_part.cpp:3433
-#: khtml/khtml_part.cpp:3505 khtml/khtml_part.cpp:3739 khtml/khtml_run.cpp:73
-#: kparts/browserrun.cpp:387
+#: common_texts.cpp:111 khtml/khtml_part.cpp:3249 khtml/khtml_part.cpp:3437
+#: khtml/khtml_part.cpp:3509 khtml/khtml_part.cpp:3742 khtml/khtml_run.cpp:73
+#: kparts/browserrun.cpp:394
 msgid "Save As"
 msgstr "Zawěsćić jako"
 
@@ -830,7 +830,7 @@ msgstr "Dataje"
 msgid "Continue"
 msgstr "Pokročować"
 
-#: common_texts.cpp:150 kmdi/kmdimainfrm.cpp:877
+#: common_texts.cpp:150 kmdi/kmdimainfrm.cpp:885
 msgid "Restore"
 msgstr "Stary staw"
 
@@ -925,7 +925,7 @@ msgstr "Njedawno wočinjene wočinić"
 msgid "Open &Recent"
 msgstr "&Njedawno wočinjene wočinić"
 
-#: common_texts.cpp:179 kdeui/kstdaction_p.h:43 khtml/khtml_part.cpp:3547
+#: common_texts.cpp:179 kdeui/kstdaction_p.h:43 khtml/khtml_part.cpp:3551
 msgid "&Find..."
 msgstr "Na&makać"
 
@@ -1284,11 +1284,11 @@ msgstr "Družinowy zmylk"
 msgid "URI error"
 msgstr "URI-zmylk"
 
-#: kjs/internal.cpp:129
+#: kjs/internal.cpp:133
 msgid "Undefined value"
 msgstr "Njedefinowana hódnota"
 
-#: kjs/internal.cpp:160
+#: kjs/internal.cpp:164
 msgid "Null value"
 msgstr "Nulowa hódnota"
 
@@ -1385,6 +1385,14 @@ msgstr "Přepisaj dotalne zapisy"
 msgid "Kab to Kabc Converter"
 msgstr "Kab na Kabc konwertěrować"
 
+#: kabc/resource.cpp:343
+msgid "Loading resource '%1' failed!"
+msgstr ""
+
+#: kabc/resource.cpp:354
+msgid "Saving resource '%1' failed!"
+msgstr ""
+
 #: kabc/resourceselectdialog.cpp:38 kresources/selectdialog.cpp:42
 msgid "Resource Selection"
 msgstr "Wubraće resursy"
@@ -1410,7 +1418,7 @@ msgstr "Dowěrliwy"
 msgid "Error in libkabc"
 msgstr "Zmylk in libkabc"
 
-#: kabc/ldifconverter.cpp:589
+#: kabc/ldifconverter.cpp:590
 #, fuzzy
 msgid "List of Emails"
 msgstr "Lisćina emailkow"
@@ -1792,7 +1800,7 @@ msgstr "Žane wopisanje k dispoziciji"
 msgid "TestWritevCard"
 msgstr "TestWritevCard"
 
-#: kabc/scripts/addressee.src.cpp:145
+#: kabc/scripts/addressee.src.cpp:148
 msgid "Unique Identifier"
 msgstr "Jónkróćna wariabla"
 
@@ -1988,17 +1996,17 @@ msgstr "Piktogramy"
 msgid "MDI Mode"
 msgstr "Modem"
 
-#: kmdi/kmdiguiclient.cpp:131 kmdi/kmdimainfrm.cpp:2218
+#: kmdi/kmdiguiclient.cpp:131 kmdi/kmdimainfrm.cpp:2237
 #, fuzzy
 msgid "&Toplevel Mode"
 msgstr "Wotbyte nadawki &pokazować/chować"
 
-#: kmdi/kmdiguiclient.cpp:131 kmdi/kmdimainfrm.cpp:2219
+#: kmdi/kmdiguiclient.cpp:131 kmdi/kmdimainfrm.cpp:2238
 #, fuzzy
 msgid "C&hildframe Mode"
 msgstr "Barbowy modus"
 
-#: kmdi/kmdiguiclient.cpp:131 kmdi/kmdimainfrm.cpp:2220
+#: kmdi/kmdiguiclient.cpp:131 kmdi/kmdimainfrm.cpp:2239
 #, fuzzy
 msgid "Ta&b Page Mode"
 msgstr "Strona začitana."
@@ -2038,91 +2046,91 @@ msgstr "Prjedawše lěto"
 msgid "Next Tool View"
 msgstr "Piktogramy"
 
-#: kdeui/kdockwidget.cpp:2873 kdeui/ktoolbarhandler.cpp:105
+#: kdeui/kdockwidget.cpp:2875 kdeui/ktoolbarhandler.cpp:105
 #: kmdi/kmdiguiclient.cpp:224
 #, c-format
 msgid "Show %1"
 msgstr "Pokaž %1"
 
-#: kmdi/kmdimainfrm.cpp:862
+#: kmdi/kmdimainfrm.cpp:870
 #, fuzzy
 msgid "Window"
 msgstr "&Nowe wokno"
 
-#: kmdi/kmdimainfrm.cpp:874
+#: kmdi/kmdimainfrm.cpp:882
 #, fuzzy
 msgid "Undock"
 msgstr "Wróćo"
 
-#: kmdi/kmdimainfrm.cpp:880
+#: kmdi/kmdimainfrm.cpp:888
 msgid "Dock"
 msgstr ""
 
-#: kmdi/kmdimainfrm.cpp:885
+#: kmdi/kmdimainfrm.cpp:893
 #, fuzzy
 msgid "Operations"
 msgstr "Operacija"
 
-#: kmdi/kmdimainfrm.cpp:2204
+#: kmdi/kmdimainfrm.cpp:2223
 #, fuzzy
 msgid "Close &All"
 msgstr "Wšě wudrapać"
 
-#: kmdi/kmdimainfrm.cpp:2210
+#: kmdi/kmdimainfrm.cpp:2229
 #, fuzzy
 msgid "&Minimize All"
 msgstr "Minimalizować"
 
-#: kmdi/kmdimainfrm.cpp:2216
+#: kmdi/kmdimainfrm.cpp:2235
 #, fuzzy
 msgid "&MDI Mode..."
 msgstr "Modem"
 
-#: kmdi/kmdimainfrm.cpp:2221
+#: kmdi/kmdimainfrm.cpp:2240
 #, fuzzy
 msgid "I&DEAl Mode"
 msgstr "Modem"
 
-#: kmdi/kmdimainfrm.cpp:2240
+#: kmdi/kmdimainfrm.cpp:2259
 #, fuzzy
 msgid "&Tile..."
 msgstr "&Póštu pósłać..."
 
-#: kmdi/kmdimainfrm.cpp:2242
+#: kmdi/kmdimainfrm.cpp:2261
 #, fuzzy
 msgid "Ca&scade Windows"
 msgstr "Wokna naštosować"
 
-#: kmdi/kmdimainfrm.cpp:2243
+#: kmdi/kmdimainfrm.cpp:2262
 #, fuzzy
 msgid "Cascade &Maximized"
 msgstr "Maksimalizować"
 
-#: kmdi/kmdimainfrm.cpp:2244
+#: kmdi/kmdimainfrm.cpp:2263
 #, fuzzy
 msgid "Expand &Vertically"
 msgstr "Padorunje"
 
-#: kmdi/kmdimainfrm.cpp:2245
+#: kmdi/kmdimainfrm.cpp:2264
 #, fuzzy
 msgid "Expand &Horizontally"
 msgstr "Wodorunje"
 
-#: kmdi/kmdimainfrm.cpp:2246
+#: kmdi/kmdimainfrm.cpp:2265
 msgid "Tile &Non-overlapped"
 msgstr ""
 
-#: kmdi/kmdimainfrm.cpp:2247
+#: kmdi/kmdimainfrm.cpp:2266
 #, fuzzy
 msgid "Tile Overla&pped"
 msgstr "Dataja znowa začitana."
 
-#: kmdi/kmdimainfrm.cpp:2248
+#: kmdi/kmdimainfrm.cpp:2267
 #, fuzzy
 msgid "Tile V&ertically"
 msgstr "Padorunje"
 
-#: kmdi/kmdimainfrm.cpp:2253
+#: kmdi/kmdimainfrm.cpp:2272
 msgid "&Dock/Undock..."
 msgstr ""
 
@@ -2132,42 +2140,42 @@ msgstr ""
 msgid "Unnamed"
 msgstr "-bjez mjena-"
 
-#: kmdi/kmdichildfrm.cpp:1093
+#: kmdi/kmdichildfrm.cpp:1112
 #, fuzzy
 msgid "R&esize"
 msgstr "Wot&zady"
 
-#: kmdi/kmdichildfrm.cpp:1094
+#: kmdi/kmdichildfrm.cpp:1113
 #, fuzzy
 msgid "M&inimize"
 msgstr "Minimalizować"
 
-#: kmdi/kmdichildfrm.cpp:1095
+#: kmdi/kmdichildfrm.cpp:1114
 #, fuzzy
 msgid "M&aximize"
 msgstr "Maksimalizować"
 
-#: kmdi/kmdichildfrm.cpp:1112
+#: kmdi/kmdichildfrm.cpp:1131
 #, fuzzy
 msgid "&Maximize"
 msgstr "Maksimalizować"
 
-#: kdeui/ksystemtray.cpp:189 kmdi/kmdichildfrm.cpp:1114
+#: kdeui/ksystemtray.cpp:189 kmdi/kmdichildfrm.cpp:1133
 #, fuzzy
 msgid "&Minimize"
 msgstr "Minimalizować"
 
-#: kmdi/kmdichildfrm.cpp:1116
+#: kmdi/kmdichildfrm.cpp:1135
 #, fuzzy
 msgid "M&ove"
 msgstr "Sunyć"
 
-#: kmdi/kmdichildfrm.cpp:1118
+#: kmdi/kmdichildfrm.cpp:1137
 #, fuzzy
 msgid "&Resize"
 msgstr "Stary staw"
 
-#: kmdi/kmdichildfrm.cpp:1121
+#: kmdi/kmdichildfrm.cpp:1140
 #, fuzzy
 msgid "&Undock"
 msgstr "W&róćo"
@@ -2190,14 +2198,14 @@ msgstr ""
 msgid "Library files for \"%1\" not found in paths"
 msgstr "Bibliotekske dataje za \"%1\" njejsu w pućach."
 
-#: kdecore/kapplication.cpp:812
+#: kdecore/kapplication.cpp:814
 msgid ""
 "_: Dear Translator! Translate this string to the string 'LTR' in "
 "left-to-right languages (as english) or to 'RTL' in right-to-left languages "
 "(such as Hebrew and Arabic) to get proper widget layout."
 msgstr "LTR"
 
-#: kdecore/kapplication.cpp:1251
+#: kdecore/kapplication.cpp:1253
 msgid ""
 "There was an error setting up inter-process\n"
 "communications for KDE. The message returned\n"
@@ -2208,7 +2216,7 @@ msgstr ""
 "Powěsć systema be:\n"
 "\n"
 
-#: kdecore/kapplication.cpp:1255
+#: kdecore/kapplication.cpp:1257
 msgid ""
 "\n"
 "\n"
@@ -2218,29 +2226,29 @@ msgstr ""
 "\n"
 "Prošu přepruwujće,hač \"dcopserver\" běži!"
 
-#: kdecore/kapplication.cpp:1262
+#: kdecore/kapplication.cpp:1264
 msgid "DCOP communications error (%1)"
 msgstr "DCOP komunikaciski zmylk (%1)"
 
-#: kdecore/kapplication.cpp:1280
+#: kdecore/kapplication.cpp:1282
 msgid "Use the X-server display 'displayname'."
 msgstr "Wužiwaj X-serverowy display 'mjeno displayja'."
 
-#: kdecore/kapplication.cpp:1282
+#: kdecore/kapplication.cpp:1284
 msgid "Use the QWS display 'displayname'."
 msgstr "Wužiwaj QWS-display 'mjeno displayja'."
 
-#: kdecore/kapplication.cpp:1284
+#: kdecore/kapplication.cpp:1286
 msgid "Restore the application for the given 'sessionId'."
 msgstr "Wotwołaj stary staw aplikacije za daty identifikator sesije."
 
-#: kdecore/kapplication.cpp:1285
+#: kdecore/kapplication.cpp:1287
 msgid ""
 "Causes the application to install a private color\n"
 "map on an 8-bit display."
 msgstr "Praji aplikaciji, zo ma priwatne barby na 8-bitowym displayju instalować."
 
-#: kdecore/kapplication.cpp:1286
+#: kdecore/kapplication.cpp:1288
 msgid ""
 "Limits the number of colors allocated in the color\n"
 "cube on an 8-bit display, if the application is\n"
@@ -2251,11 +2259,11 @@ msgstr ""
 "na 8-bitowym displayju, jeli program wužiwa barbowu specifikaciju\n"
 "QApplication::ManyColor."
 
-#: kdecore/kapplication.cpp:1287
+#: kdecore/kapplication.cpp:1289
 msgid "tells Qt to never grab the mouse or the keyboard."
 msgstr "praji Qt ženje ani myšku ani tastaturu njeblokować."
 
-#: kdecore/kapplication.cpp:1288
+#: kdecore/kapplication.cpp:1290
 msgid ""
 "running under a debugger can cause an implicit\n"
 "-nograb, use -dograb to override."
@@ -2263,15 +2271,15 @@ msgstr ""
 "w debuggeru móže implicitny -nograb nastać,\n"
 "wužiwaj potom -dograb."
 
-#: kdecore/kapplication.cpp:1289
+#: kdecore/kapplication.cpp:1291
 msgid "switches to synchronous mode for debugging."
 msgstr "přešaltuje do synchroniskeho modusa za debugging."
 
-#: kdecore/kapplication.cpp:1291
+#: kdecore/kapplication.cpp:1293
 msgid "defines the application font."
 msgstr "definuje pismo programa."
 
-#: kdecore/kapplication.cpp:1293
+#: kdecore/kapplication.cpp:1295
 msgid ""
 "sets the default background color and an\n"
 "application palette (light and dark shades are\n"
@@ -2280,23 +2288,23 @@ msgstr ""
 "postaji standardowu pozadkowu barbu a\n"
 "paletu (ćmowe a swětłe wotsćiny so wobličuja)."
 
-#: kdecore/kapplication.cpp:1295
+#: kdecore/kapplication.cpp:1297
 msgid "sets the default foreground color."
 msgstr "postaji standardowu pismowu barbu."
 
-#: kdecore/kapplication.cpp:1297
+#: kdecore/kapplication.cpp:1299
 msgid "sets the default button color."
 msgstr "postaji standardowu kneflowu barbu."
 
-#: kdecore/kapplication.cpp:1298
+#: kdecore/kapplication.cpp:1300
 msgid "sets the application name."
 msgstr "postaji mjeno programa."
 
-#: kdecore/kapplication.cpp:1299
+#: kdecore/kapplication.cpp:1301
 msgid "sets the application title (caption)."
 msgstr "postaji titl programa."
 
-#: kdecore/kapplication.cpp:1301
+#: kdecore/kapplication.cpp:1303
 msgid ""
 "forces the application to use a TrueColor visual on\n"
 "an 8-bit display."
@@ -2304,7 +2312,7 @@ msgstr ""
 "nuzuje program k wužiwanju TrueColor visual\n"
 "na 8-bitowym displayju."
 
-#: kdecore/kapplication.cpp:1302
+#: kdecore/kapplication.cpp:1304
 msgid ""
 "sets XIM (X Input Method) input style. Possible\n"
 "values are onthespot, overthespot, offthespot and\n"
@@ -2313,80 +2321,80 @@ msgstr ""
 "postaji zapodawanski stil XIM (X Input Method). Móžne hódnoty\n"
 "su onthespot, overthespot, offthespot a root."
 
-#: kdecore/kapplication.cpp:1303
+#: kdecore/kapplication.cpp:1305
 msgid "set XIM server."
 msgstr "postaji XIM-server."
 
-#: kdecore/kapplication.cpp:1304
+#: kdecore/kapplication.cpp:1306
 msgid "disable XIM."
 msgstr "hasnje XIM."
 
-#: kdecore/kapplication.cpp:1307
+#: kdecore/kapplication.cpp:1309
 msgid "forces the application to run as QWS Server."
 msgstr "praji programej, zo ma jako QWS-server fungować."
 
-#: kdecore/kapplication.cpp:1309
+#: kdecore/kapplication.cpp:1311
 msgid "mirrors the whole layout of widgets."
 msgstr "špiheluje cyły arrangement elementow."
 
-#: kdecore/kapplication.cpp:1315
+#: kdecore/kapplication.cpp:1317
 msgid "Use 'caption' as name in the titlebar."
 msgstr "Wužiwaj 'titl' jako mjeno w titlowym pasku wokna."
 
-#: kdecore/kapplication.cpp:1316
+#: kdecore/kapplication.cpp:1318
 msgid "Use 'icon' as the application icon."
 msgstr "Wužiwaj 'piktogram' jako piktogram za program."
 
-#: kdecore/kapplication.cpp:1317
+#: kdecore/kapplication.cpp:1319
 msgid "Use 'icon' as the icon in the titlebar."
 msgstr "Wužiwaj 'piktogram' jako piktogram w titlowym pasku."
 
-#: kdecore/kapplication.cpp:1318
+#: kdecore/kapplication.cpp:1320
 msgid "Use alternative configuration file."
 msgstr "Wužiwaj hinašu konfiguracisku dataju."
 
-#: kdecore/kapplication.cpp:1319
+#: kdecore/kapplication.cpp:1321
 msgid "Use the DCOP Server specified by 'server'."
 msgstr "Wužiwaj DCOP-server 'server'."
 
-#: kdecore/kapplication.cpp:1320
+#: kdecore/kapplication.cpp:1322
 msgid "Disable crash handler, to get core dumps."
 msgstr "Crash handler hasnyć, zo by core dump dóstał."
 
-#: kdecore/kapplication.cpp:1321
+#: kdecore/kapplication.cpp:1323
 msgid "Waits for a WM_NET compatible windowmanager."
 msgstr "Čaka na WM_NET-kompatibelny woknowy manager."
 
-#: kdecore/kapplication.cpp:1322
+#: kdecore/kapplication.cpp:1324
 msgid "sets the application GUI style."
 msgstr "postaji GUI-stil programa."
 
-#: kdecore/kapplication.cpp:1323
+#: kdecore/kapplication.cpp:1325
 msgid "sets the client geometry of the main widget."
 msgstr "postaji geometriju hłowneho elementa."
 
-#: kdecore/kapplication.cpp:1325
+#: kdecore/kapplication.cpp:1327
 msgid "Define a 'sessionKey' for the session id. Only valid with -session"
 msgstr "Definuje 'sessionKey' za id sesije. Jenož z -session."
 
-#: kdecore/kapplication.cpp:1367
+#: kdecore/kapplication.cpp:1369
 msgid ""
 "The style %1 was not found\n"
 msgstr ""
 "Stil %1 njejsym namakał\n"
 
-#: kdecore/kapplication.cpp:1771 kstyles/klegacy/klegacystyle.cpp:3044
+#: kdecore/kapplication.cpp:1773 kstyles/klegacy/klegacystyle.cpp:3044
 #: kstyles/web/webstyle.cpp:1604
 msgid "modified"
 msgstr "změnjene"
 
-#: kdecore/kapplication.cpp:2253
+#: kdecore/kapplication.cpp:2260
 msgid ""
 "Could not register with DCOP.\n"
 msgstr ""
 "Njemóžach so pola DCOP přizjewić.\n"
 
-#: kdecore/kapplication.cpp:2281
+#: kdecore/kapplication.cpp:2288
 msgid ""
 "KLauncher could not be reached via DCOP.\n"
 msgstr ""
@@ -2417,15 +2425,15 @@ msgid "Please contact your system administrator."
 msgstr ""
 "Prošu skontaktuj so z administratorom systema.\n"
 
-#: kdecore/kcmdlineargs.cpp:500 kdecore/kcmdlineargs.cpp:516
+#: kdecore/kcmdlineargs.cpp:499 kdecore/kcmdlineargs.cpp:515
 msgid "Unknown option '%1'."
 msgstr "Njeznata opcija '%1'."
 
-#: kdecore/kcmdlineargs.cpp:524
+#: kdecore/kcmdlineargs.cpp:523
 msgid "'%1' missing."
 msgstr "'%1' faluje."
 
-#: kdecore/kcmdlineargs.cpp:619
+#: kdecore/kcmdlineargs.cpp:618
 msgid ""
 "_: the 2nd argument is a list of name+address, one on each line\n"
 "%1 was written by\n"
@@ -2434,11 +2442,11 @@ msgstr ""
 "%1 bu napisane wot\n"
 "%2"
 
-#: kdecore/kcmdlineargs.cpp:622
+#: kdecore/kcmdlineargs.cpp:621
 msgid "%1 was written by somebody who wants to remain anonymous."
 msgstr "%1 bu napisane wot anonymneho čłowjeka."
 
-#: kdecore/kcmdlineargs.cpp:627
+#: kdecore/kcmdlineargs.cpp:626
 msgid ""
 "Please use http://bugs.kde.org to report bugs, do not mail the authors "
 "directly.\n"
@@ -2446,7 +2454,7 @@ msgstr ""
 "Prošu wužiwaj http://bugs.kde.org, zo by wo zmylku rozprawił, njepisaj "
 "bjezposrědnje awtoram.\n"
 
-#: kdecore/kcmdlineargs.cpp:629
+#: kdecore/kcmdlineargs.cpp:628
 #, fuzzy
 msgid ""
 "Please use %1 to report bugs, do not mail the authors directly.\n"
@@ -2454,15 +2462,15 @@ msgstr ""
 "Prošu wužiwaj http://bugs.kde.org, zo by wo zmylku rozprawił, njepisaj "
 "bjezposrědnje awtoram.\n"
 
-#: kdecore/kcmdlineargs.cpp:649
+#: kdecore/kcmdlineargs.cpp:648
 msgid "Unexpected argument '%1'."
 msgstr "Njewočakowany argument '%1'."
 
-#: kdecore/kcmdlineargs.cpp:745
+#: kdecore/kcmdlineargs.cpp:744
 msgid "Use --help to get a list of available command line options."
 msgstr "Wužiwaj --help za lisćinu opcijow přikaza."
 
-#: kdecore/kcmdlineargs.cpp:760
+#: kdecore/kcmdlineargs.cpp:759
 msgid ""
 "\n"
 "%1:\n"
@@ -2470,57 +2478,57 @@ msgstr ""
 "\n"
 "%1:\n"
 
-#: kdecore/kcmdlineargs.cpp:769
+#: kdecore/kcmdlineargs.cpp:768
 msgid "[options] "
 msgstr "[opcije] "
 
-#: kdecore/kcmdlineargs.cpp:776
+#: kdecore/kcmdlineargs.cpp:775
 msgid "[%1-options]"
 msgstr "[%1-opcije]"
 
-#: kdecore/kcmdlineargs.cpp:796
+#: kdecore/kcmdlineargs.cpp:795
 msgid ""
 "Usage: %1 %2\n"
 msgstr ""
 "Wužiwanje: %1 %2\n"
 
-#: kdecore/kcmdlineargs.cpp:799
+#: kdecore/kcmdlineargs.cpp:798
 msgid "Generic options"
 msgstr "Powšitkowne opcije"
 
-#: kdecore/kcmdlineargs.cpp:800
+#: kdecore/kcmdlineargs.cpp:799
 msgid "Show help about options"
 msgstr "Pomhaj mi z opcijemi"
 
-#: kdecore/kcmdlineargs.cpp:808
+#: kdecore/kcmdlineargs.cpp:807
 msgid "Show %1 specific options"
 msgstr "Pokaž %1 specifiske opcije"
 
-#: kdecore/kcmdlineargs.cpp:815
+#: kdecore/kcmdlineargs.cpp:814
 msgid "Show all options"
 msgstr "Pokaž wšitke opcije"
 
-#: kdecore/kcmdlineargs.cpp:816
+#: kdecore/kcmdlineargs.cpp:815
 msgid "Show author information"
 msgstr "Pokaž informaciju wo awtorje"
 
-#: kdecore/kcmdlineargs.cpp:817
+#: kdecore/kcmdlineargs.cpp:816
 msgid "Show version information"
 msgstr "Pokaž informaciju wo wersiji"
 
-#: kdecore/kcmdlineargs.cpp:818
+#: kdecore/kcmdlineargs.cpp:817
 msgid "Show license information"
 msgstr "Pokaž informaciju wo licensy"
 
-#: kdecore/kcmdlineargs.cpp:819
+#: kdecore/kcmdlineargs.cpp:818
 msgid "End of options"
 msgstr "Kónc opcijow"
 
-#: kdecore/kcmdlineargs.cpp:841
+#: kdecore/kcmdlineargs.cpp:840
 msgid "%1 options"
 msgstr "%1 opcije"
 
-#: kdecore/kcmdlineargs.cpp:843
+#: kdecore/kcmdlineargs.cpp:842
 msgid ""
 "\n"
 "Options:\n"
@@ -2528,7 +2536,7 @@ msgstr ""
 "\n"
 "opcije:\n"
 
-#: kdecore/kcmdlineargs.cpp:900
+#: kdecore/kcmdlineargs.cpp:899
 msgid ""
 "\n"
 "Arguments:\n"
@@ -2596,7 +2604,7 @@ msgstr "Słowo za cursorom zničić"
 msgid "Find"
 msgstr "Pytać"
 
-#: kdecore/kstdaccel.cpp:66 kutils/kfind.cpp:44
+#: kdecore/kstdaccel.cpp:66 kutils/kfind.cpp:45
 msgid "Find Next"
 msgstr "Dale pytać"
 
@@ -2908,247 +2916,247 @@ msgid ""
 "Definition of PluralForm - to be set by the translator of kdelibs.po"
 msgstr "Slovenian"
 
-#: kdecore/kcalendarsystemgregorian.cpp:96 kdecore/klocale.cpp:483
+#: kdecore/kcalendarsystemgregorian.cpp:91 kdecore/klocale.cpp:483
 msgid ""
 "_: January\n"
 "Jan"
 msgstr "Jan"
 
-#: kdecore/kcalendarsystemgregorian.cpp:98 kdecore/klocale.cpp:484
+#: kdecore/kcalendarsystemgregorian.cpp:93 kdecore/klocale.cpp:484
 msgid ""
 "_: February\n"
 "Feb"
 msgstr "Feb"
 
-#: kdecore/kcalendarsystemgregorian.cpp:100 kdecore/klocale.cpp:485
+#: kdecore/kcalendarsystemgregorian.cpp:95 kdecore/klocale.cpp:485
 msgid ""
 "_: March\n"
 "Mar"
 msgstr "Měr"
 
-#: kdecore/kcalendarsystemgregorian.cpp:102 kdecore/klocale.cpp:486
+#: kdecore/kcalendarsystemgregorian.cpp:97 kdecore/klocale.cpp:486
 msgid ""
 "_: April\n"
 "Apr"
 msgstr "Apr"
 
-#: kdecore/kcalendarsystemgregorian.cpp:104 kdecore/klocale.cpp:487
+#: kdecore/kcalendarsystemgregorian.cpp:99 kdecore/klocale.cpp:487
 msgid ""
 "_: May short\n"
 "May"
 msgstr "Mej"
 
-#: kdecore/kcalendarsystemgregorian.cpp:106 kdecore/klocale.cpp:488
+#: kdecore/kcalendarsystemgregorian.cpp:101 kdecore/klocale.cpp:488
 msgid ""
 "_: June\n"
 "Jun"
 msgstr "Jun"
 
-#: kdecore/kcalendarsystemgregorian.cpp:108 kdecore/klocale.cpp:489
+#: kdecore/kcalendarsystemgregorian.cpp:103 kdecore/klocale.cpp:489
 msgid ""
 "_: July\n"
 "Jul"
 msgstr "Jul"
 
-#: kdecore/kcalendarsystemgregorian.cpp:110 kdecore/klocale.cpp:490
+#: kdecore/kcalendarsystemgregorian.cpp:105 kdecore/klocale.cpp:490
 msgid ""
 "_: August\n"
 "Aug"
 msgstr "Awg"
 
-#: kdecore/kcalendarsystemgregorian.cpp:112 kdecore/klocale.cpp:491
+#: kdecore/kcalendarsystemgregorian.cpp:107 kdecore/klocale.cpp:491
 msgid ""
 "_: September\n"
 "Sep"
 msgstr "Sep"
 
-#: kdecore/kcalendarsystemgregorian.cpp:114 kdecore/klocale.cpp:492
+#: kdecore/kcalendarsystemgregorian.cpp:109 kdecore/klocale.cpp:492
 msgid ""
 "_: October\n"
 "Oct"
 msgstr "Okt"
 
-#: kdecore/kcalendarsystemgregorian.cpp:116 kdecore/klocale.cpp:493
+#: kdecore/kcalendarsystemgregorian.cpp:111 kdecore/klocale.cpp:493
 msgid ""
 "_: November\n"
 "Nov"
 msgstr "Now"
 
-#: kdecore/kcalendarsystemgregorian.cpp:118 kdecore/klocale.cpp:494
+#: kdecore/kcalendarsystemgregorian.cpp:113 kdecore/klocale.cpp:494
 msgid ""
 "_: December\n"
 "Dec"
 msgstr "Dec"
 
-#: kdecore/kcalendarsystemgregorian.cpp:124 kdecore/klocale.cpp:499
+#: kdecore/kcalendarsystemgregorian.cpp:119 kdecore/klocale.cpp:499
 msgid "January"
 msgstr "januara"
 
-#: kdecore/kcalendarsystemgregorian.cpp:126 kdecore/klocale.cpp:500
+#: kdecore/kcalendarsystemgregorian.cpp:121 kdecore/klocale.cpp:500
 msgid "February"
 msgstr "februara"
 
-#: kdecore/kcalendarsystemgregorian.cpp:128 kdecore/klocale.cpp:501
+#: kdecore/kcalendarsystemgregorian.cpp:123 kdecore/klocale.cpp:501
 msgid "March"
 msgstr "měrca"
 
-#: kdecore/kcalendarsystemgregorian.cpp:130 kdecore/klocale.cpp:502
+#: kdecore/kcalendarsystemgregorian.cpp:125 kdecore/klocale.cpp:502
 msgid "April"
 msgstr "apryla"
 
-#: kdecore/kcalendarsystemgregorian.cpp:132 kdecore/klocale.cpp:503
+#: kdecore/kcalendarsystemgregorian.cpp:127 kdecore/klocale.cpp:503
 msgid ""
 "_: May long\n"
 "May"
 msgstr "meje"
 
-#: kdecore/kcalendarsystemgregorian.cpp:134 kdecore/klocale.cpp:504
+#: kdecore/kcalendarsystemgregorian.cpp:129 kdecore/klocale.cpp:504
 msgid "June"
 msgstr "junija"
 
-#: kdecore/kcalendarsystemgregorian.cpp:136 kdecore/klocale.cpp:505
+#: kdecore/kcalendarsystemgregorian.cpp:131 kdecore/klocale.cpp:505
 msgid "July"
 msgstr "julija"
 
-#: kdecore/kcalendarsystemgregorian.cpp:138 kdecore/klocale.cpp:506
+#: kdecore/kcalendarsystemgregorian.cpp:133 kdecore/klocale.cpp:506
 msgid "August"
 msgstr "awgusta"
 
-#: kdecore/kcalendarsystemgregorian.cpp:140 kdecore/klocale.cpp:507
+#: kdecore/kcalendarsystemgregorian.cpp:135 kdecore/klocale.cpp:507
 msgid "September"
 msgstr "septembra"
 
-#: kdecore/kcalendarsystemgregorian.cpp:142 kdecore/klocale.cpp:508
+#: kdecore/kcalendarsystemgregorian.cpp:137 kdecore/klocale.cpp:508
 msgid "October"
 msgstr "oktobra"
 
-#: kdecore/kcalendarsystemgregorian.cpp:144 kdecore/klocale.cpp:509
+#: kdecore/kcalendarsystemgregorian.cpp:139 kdecore/klocale.cpp:509
 msgid "November"
 msgstr "nowembra"
 
-#: kdecore/kcalendarsystemgregorian.cpp:146 kdecore/klocale.cpp:510
+#: kdecore/kcalendarsystemgregorian.cpp:141 kdecore/klocale.cpp:510
 msgid "December"
 msgstr "decembra"
 
-#: kdecore/kcalendarsystemgregorian.cpp:162 kdecore/klocale.cpp:521
+#: kdecore/kcalendarsystemgregorian.cpp:156 kdecore/klocale.cpp:521
 msgid ""
 "_: of January\n"
 "of Jan"
 msgstr "januara"
 
-#: kdecore/kcalendarsystemgregorian.cpp:164 kdecore/klocale.cpp:522
+#: kdecore/kcalendarsystemgregorian.cpp:158 kdecore/klocale.cpp:522
 msgid ""
 "_: of February\n"
 "of Feb"
 msgstr "februara"
 
-#: kdecore/kcalendarsystemgregorian.cpp:166 kdecore/klocale.cpp:523
+#: kdecore/kcalendarsystemgregorian.cpp:160 kdecore/klocale.cpp:523
 msgid ""
 "_: of March\n"
 "of Mar"
 msgstr "měrca"
 
-#: kdecore/kcalendarsystemgregorian.cpp:168 kdecore/klocale.cpp:524
+#: kdecore/kcalendarsystemgregorian.cpp:162 kdecore/klocale.cpp:524
 msgid ""
 "_: of April\n"
 "of Apr"
 msgstr "apryla"
 
-#: kdecore/kcalendarsystemgregorian.cpp:170 kdecore/klocale.cpp:525
+#: kdecore/kcalendarsystemgregorian.cpp:164 kdecore/klocale.cpp:525
 msgid ""
 "_: of May short\n"
 "of May"
 msgstr "meje"
 
-#: kdecore/kcalendarsystemgregorian.cpp:172 kdecore/klocale.cpp:526
+#: kdecore/kcalendarsystemgregorian.cpp:166 kdecore/klocale.cpp:526
 msgid ""
 "_: of June\n"
 "of Jun"
 msgstr "junija"
 
-#: kdecore/kcalendarsystemgregorian.cpp:174 kdecore/klocale.cpp:527
+#: kdecore/kcalendarsystemgregorian.cpp:168 kdecore/klocale.cpp:527
 msgid ""
 "_: of July\n"
 "of Jul"
 msgstr "julija"
 
-#: kdecore/kcalendarsystemgregorian.cpp:176 kdecore/klocale.cpp:528
+#: kdecore/kcalendarsystemgregorian.cpp:170 kdecore/klocale.cpp:528
 msgid ""
 "_: of August\n"
 "of Aug"
 msgstr "awgusta"
 
-#: kdecore/kcalendarsystemgregorian.cpp:178 kdecore/klocale.cpp:529
+#: kdecore/kcalendarsystemgregorian.cpp:172 kdecore/klocale.cpp:529
 msgid ""
 "_: of September\n"
 "of Sep"
 msgstr "septembra"
 
-#: kdecore/kcalendarsystemgregorian.cpp:180 kdecore/klocale.cpp:530
+#: kdecore/kcalendarsystemgregorian.cpp:174 kdecore/klocale.cpp:530
 msgid ""
 "_: of October\n"
 "of Oct"
 msgstr "oktobra"
 
-#: kdecore/kcalendarsystemgregorian.cpp:182 kdecore/klocale.cpp:531
+#: kdecore/kcalendarsystemgregorian.cpp:176 kdecore/klocale.cpp:531
 msgid ""
 "_: of November\n"
 "of Nov"
 msgstr "nowembra"
 
-#: kdecore/kcalendarsystemgregorian.cpp:184 kdecore/klocale.cpp:532
+#: kdecore/kcalendarsystemgregorian.cpp:178 kdecore/klocale.cpp:532
 msgid ""
 "_: of December\n"
 "of Dec"
 msgstr "decembra"
 
-#: kdecore/kcalendarsystemgregorian.cpp:190 kdecore/klocale.cpp:537
+#: kdecore/kcalendarsystemgregorian.cpp:184 kdecore/klocale.cpp:537
 msgid "of January"
 msgstr "januara"
 
-#: kdecore/kcalendarsystemgregorian.cpp:192 kdecore/klocale.cpp:538
+#: kdecore/kcalendarsystemgregorian.cpp:186 kdecore/klocale.cpp:538
 msgid "of February"
 msgstr "februara"
 
-#: kdecore/kcalendarsystemgregorian.cpp:194 kdecore/klocale.cpp:539
+#: kdecore/kcalendarsystemgregorian.cpp:188 kdecore/klocale.cpp:539
 msgid "of March"
 msgstr "měrca"
 
-#: kdecore/kcalendarsystemgregorian.cpp:196 kdecore/klocale.cpp:540
+#: kdecore/kcalendarsystemgregorian.cpp:190 kdecore/klocale.cpp:540
 msgid "of April"
 msgstr "apryla"
 
-#: kdecore/kcalendarsystemgregorian.cpp:198 kdecore/klocale.cpp:541
+#: kdecore/kcalendarsystemgregorian.cpp:192 kdecore/klocale.cpp:541
 msgid ""
 "_: of May long\n"
 "of May"
 msgstr "meje"
 
-#: kdecore/kcalendarsystemgregorian.cpp:200 kdecore/klocale.cpp:542
+#: kdecore/kcalendarsystemgregorian.cpp:194 kdecore/klocale.cpp:542
 msgid "of June"
 msgstr "junija"
 
-#: kdecore/kcalendarsystemgregorian.cpp:202 kdecore/klocale.cpp:543
+#: kdecore/kcalendarsystemgregorian.cpp:196 kdecore/klocale.cpp:543
 msgid "of July"
 msgstr "julija"
 
-#: kdecore/kcalendarsystemgregorian.cpp:204 kdecore/klocale.cpp:544
+#: kdecore/kcalendarsystemgregorian.cpp:198 kdecore/klocale.cpp:544
 msgid "of August"
 msgstr "awgusta"
 
-#: kdecore/kcalendarsystemgregorian.cpp:206 kdecore/klocale.cpp:545
+#: kdecore/kcalendarsystemgregorian.cpp:200 kdecore/klocale.cpp:545
 msgid "of September"
 msgstr "septembra"
 
-#: kdecore/kcalendarsystemgregorian.cpp:208 kdecore/klocale.cpp:546
+#: kdecore/kcalendarsystemgregorian.cpp:202 kdecore/klocale.cpp:546
 msgid "of October"
 msgstr "oktobra"
 
-#: kdecore/kcalendarsystemgregorian.cpp:210 kdecore/klocale.cpp:547
+#: kdecore/kcalendarsystemgregorian.cpp:204 kdecore/klocale.cpp:547
 msgid "of November"
 msgstr "nowembra"
 
-#: kdecore/kcalendarsystemgregorian.cpp:212 kdecore/klocale.cpp:548
+#: kdecore/kcalendarsystemgregorian.cpp:206 kdecore/klocale.cpp:548
 msgid "of December"
 msgstr "decembra"
 
@@ -3562,59 +3570,59 @@ msgid ""
 msgstr ""
 "Žadyn wotpowědowacy element.\n"
 
-#: kdecore/kcalendarsystemhebrew.cpp:400
+#: kdecore/kcalendarsystemhebrew.cpp:402
 msgid "Tishrey"
 msgstr "Tishrey"
 
-#: kdecore/kcalendarsystemhebrew.cpp:402
+#: kdecore/kcalendarsystemhebrew.cpp:404
 msgid "Heshvan"
 msgstr "Heshvan"
 
-#: kdecore/kcalendarsystemhebrew.cpp:404
+#: kdecore/kcalendarsystemhebrew.cpp:406
 msgid "Kislev"
 msgstr "Kislev"
 
-#: kdecore/kcalendarsystemhebrew.cpp:406
+#: kdecore/kcalendarsystemhebrew.cpp:408
 msgid "Tevet"
 msgstr "Tevet"
 
-#: kdecore/kcalendarsystemhebrew.cpp:408
+#: kdecore/kcalendarsystemhebrew.cpp:410
 msgid "Shvat"
 msgstr "Shvat"
 
-#: kdecore/kcalendarsystemhebrew.cpp:410
+#: kdecore/kcalendarsystemhebrew.cpp:412
 msgid "Adar"
 msgstr "Adar"
 
-#: kdecore/kcalendarsystemhebrew.cpp:412
+#: kdecore/kcalendarsystemhebrew.cpp:414
 msgid "Nisan"
 msgstr "Nisan"
 
-#: kdecore/kcalendarsystemhebrew.cpp:414
+#: kdecore/kcalendarsystemhebrew.cpp:416
 msgid "Iyar"
 msgstr "Iyar"
 
-#: kdecore/kcalendarsystemhebrew.cpp:416
+#: kdecore/kcalendarsystemhebrew.cpp:418
 msgid "Sivan"
 msgstr "Sivan"
 
-#: kdecore/kcalendarsystemhebrew.cpp:418
+#: kdecore/kcalendarsystemhebrew.cpp:420
 msgid "Tamuz"
 msgstr "Tamuz"
 
-#: kdecore/kcalendarsystemhebrew.cpp:420
+#: kdecore/kcalendarsystemhebrew.cpp:422
 msgid "Av"
 msgstr "Av"
 
-#: kdecore/kcalendarsystemhebrew.cpp:422
+#: kdecore/kcalendarsystemhebrew.cpp:424
 msgid "Elul"
 msgstr "Elul"
 
-#: kdecore/kcalendarsystemhebrew.cpp:424
+#: kdecore/kcalendarsystemhebrew.cpp:426
 msgid "Adar I"
 msgstr "Adar I"
 
-#: kdecore/kcalendarsystemhebrew.cpp:426
+#: kdecore/kcalendarsystemhebrew.cpp:428
 msgid "Adar II"
 msgstr "Adar II"
 
@@ -3630,7 +3638,7 @@ msgstr ""
 "Instituće za sorabistiku w Lipsku pod nawjedowanjom prof. dr. Edwarda "
 "Wornarja <e.werner@rz.uni-leipzig.de>."
 
-#: kdecore/kaboutdata.cpp:333
+#: kdecore/kaboutdata.cpp:334
 msgid ""
 "No licensing terms for this program have been specified.\n"
 "Please check the documentation or the source for any\n"
@@ -3640,16 +3648,16 @@ msgstr ""
 "Prošu přepruwuj dokumentaciju abo žórło licensowych\n"
 " wuměnjenjow dla.\n"
 
-#: kdecore/kaboutdata.cpp:340
+#: kdecore/kaboutdata.cpp:341
 #, c-format
 msgid "This program is distributed under the terms of the %1."
 msgstr "Program so dale dawa pod wuměnjenjemi w %1."
 
-#: kdecore/ksocks.cpp:131
+#: kdecore/ksocks.cpp:135
 msgid "NEC SOCKS client"
 msgstr "NEC SOCKS client"
 
-#: kdecore/ksocks.cpp:166
+#: kdecore/ksocks.cpp:170
 msgid "Dante SOCKS client"
 msgstr "Dante SOCKS client"
 
@@ -3667,17 +3675,17 @@ msgstr "inputowa dataja"
 msgid "Code generation options file."
 msgstr ""
 
-#: kdecore/kconfig_compiler/kconfig_compiler.cpp:695
+#: kdecore/kconfig_compiler/kconfig_compiler.cpp:698
 #, fuzzy
 msgid "KDE .kcfg compiler"
 msgstr "Filter konfigurować"
 
-#: kdecore/kconfig_compiler/kconfig_compiler.cpp:696
+#: kdecore/kconfig_compiler/kconfig_compiler.cpp:699
 #, fuzzy
 msgid "KConfig Compiler"
 msgstr "Filter konfigurować"
 
-#: kdecore/kconfig_compiler/autoexample.cpp:39
+#: kdecore/kconfig_compiler/autoexample.cpp:41
 msgid "autoconfig example"
 msgstr ""
 
@@ -4184,7 +4192,7 @@ msgstr "&Njeprašej so hišće raz"
 msgid "&Do not show this message again"
 msgstr "&Njepraj mi to hišće raz"
 
-#: kdeui/kaboutdialog.cpp:1509 kdeui/khelpmenu.cpp:215
+#: kdeui/kaboutdialog.cpp:1508 kdeui/khelpmenu.cpp:215
 #: kdeui/kmessagebox.cpp:896
 #, c-format
 msgid "About %1"
@@ -4527,40 +4535,40 @@ msgstr "Pokaž nastrojowy pas"
 msgid "Toolbars"
 msgstr "Nastrojowe pasy"
 
-#: kdeui/kdatepicker.cpp:72
+#: kdeui/kdatepicker.cpp:84
 #, c-format
 msgid "Week %1"
 msgstr "Tydźeń %1"
 
-#: kdeui/kdatepicker.cpp:118
+#: kdeui/kdatepicker.cpp:133
 msgid "Next year"
 msgstr "Přichodne lěto"
 
-#: kdeui/kdatepicker.cpp:119
+#: kdeui/kdatepicker.cpp:134
 msgid "Previous year"
 msgstr "Prjedawše lěto"
 
-#: kdeui/kdatepicker.cpp:120
+#: kdeui/kdatepicker.cpp:135
 msgid "Next month"
 msgstr "Přichodny měsac"
 
-#: kdeui/kdatepicker.cpp:121
+#: kdeui/kdatepicker.cpp:136
 msgid "Previous month"
 msgstr "Prjedawši měsac"
 
-#: kdeui/kdatepicker.cpp:122
+#: kdeui/kdatepicker.cpp:137
 msgid "Select a week"
 msgstr "Wubjerće tydźeń"
 
-#: kdeui/kdatepicker.cpp:123
+#: kdeui/kdatepicker.cpp:138
 msgid "Select a month"
 msgstr "Wubjerće měsac"
 
-#: kdeui/kdatepicker.cpp:124
+#: kdeui/kdatepicker.cpp:139
 msgid "Select a year"
 msgstr "Wubjerće lěto"
 
-#: kdeui/kdatepicker.cpp:125
+#: kdeui/kdatepicker.cpp:140
 #, fuzzy
 msgid "Select the current day"
 msgstr "Znič aktualnu dataju a spytaj hišće raz."
@@ -4723,11 +4731,11 @@ msgstr "Sće wšelakej hesle zapodali. Spytajće hišće raz."
 msgid "Passwords match"
 msgstr "Hesle so kryjetej"
 
-#: kdeui/kspelldlg.cpp:50
+#: kdeui/kspelldlg.cpp:53
 msgid "Check Spelling"
 msgstr "Přepruwuj prawopis"
 
-#: kdeui/kspelldlg.cpp:51
+#: kdeui/kspelldlg.cpp:54
 #, fuzzy
 msgid "&Finished"
 msgstr "&Zakónčić"
@@ -5021,7 +5029,7 @@ msgstr "Přibić"
 msgid "Detach"
 msgstr "Wotlěpić"
 
-#: kdeui/kdockwidget.cpp:2867
+#: kdeui/kdockwidget.cpp:2869
 #, c-format
 msgid "Hide %1"
 msgstr "Chowaj %1"
@@ -5153,23 +5161,23 @@ msgstr "Domjaca strona"
 msgid "Task"
 msgstr "Task"
 
-#: kdeui/kaboutdialog.cpp:687
+#: kdeui/kaboutdialog.cpp:686
 msgid "%1 %2 (Using KDE %3)"
 msgstr "%1 %2 (z KDE %3)"
 
-#: kdeui/kaboutdialog.cpp:689
+#: kdeui/kaboutdialog.cpp:688
 msgid "%1 %2, %3"
 msgstr "%1 %2, %3"
 
-#: kdeui/kaboutdialog.cpp:1304
+#: kdeui/kaboutdialog.cpp:1303
 msgid "Other Contributors:"
 msgstr "Dalši přinošowarjo"
 
-#: kdeui/kaboutdialog.cpp:1305
+#: kdeui/kaboutdialog.cpp:1304
 msgid "(No logo available)"
 msgstr "(žadyn logo)"
 
-#: kdeui/kaboutdialog.cpp:1728
+#: kdeui/kaboutdialog.cpp:1727
 msgid "Image missing"
 msgstr "Wobraz faluje"
 
@@ -5185,7 +5193,7 @@ msgid ""
 "Continue from the end?"
 msgstr "Započatk dokumenta. Wot kónca dale pytać?"
 
-#: kdeui/keditcl2.cpp:693 kdeui/keditcl2.cpp:825 kutils/kfind.cpp:48
+#: kdeui/keditcl2.cpp:693 kdeui/keditcl2.cpp:825 kutils/kfind.cpp:49
 #: kutils/kfinddialog.cpp:236
 msgid "&Find"
 msgstr "&Namakaj"
@@ -5241,11 +5249,11 @@ msgstr "Přepruwuj prawopis"
 msgid "Spell Checking"
 msgstr "Přepruwowanje prawopisa"
 
-#: kdeui/kspell.cpp:1108
+#: kdeui/kspell.cpp:1113
 msgid "You have to restart the dialog for changes to take effect"
 msgstr ""
 
-#: kdeui/kspell.cpp:1333
+#: kdeui/kspell.cpp:1338
 msgid "Spell Checker"
 msgstr "Prawopisny program"
 
@@ -5270,16 +5278,16 @@ msgstr "Wróćo: %1"
 msgid "Redo: %1"
 msgstr "Znowa činić: %1"
 
-#: khtml/khtmlimage.cpp:215
+#: khtml/khtmlimage.cpp:183
 msgid "%1 - %2x%3 Pixels"
 msgstr "%1 - %2x%3 dypkow"
 
-#: khtml/khtmlimage.cpp:218
+#: khtml/khtmlimage.cpp:186
 #, fuzzy
 msgid "Image - %1x%2 Pixels"
 msgstr "Wobraz - %2x%3 dypkow"
 
-#: khtml/khtmlimage.cpp:222
+#: khtml/khtmlimage.cpp:190
 msgid "Done."
 msgstr "Hotowo."
 
@@ -5349,23 +5357,23 @@ msgstr "Wotkaz zawěsćić jako"
 msgid "Save Image As"
 msgstr "Wobraz zawěsćić jako"
 
-#: khtml/khtml_ext.cpp:532
+#: khtml/khtml_ext.cpp:533
 msgid "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "Dataja z mjenom \"%1\" hižo eksistuje. Chceće ju woprawdźe přepisać?"
 
-#: khtml/khtml_ext.cpp:532
+#: khtml/khtml_ext.cpp:533
 msgid "Overwrite File?"
 msgstr "Dataju přepisać?"
 
-#: khtml/khtml_ext.cpp:532
+#: khtml/khtml_ext.cpp:533
 msgid "Overwrite"
 msgstr "přepisać"
 
-#: khtml/khtml_ext.cpp:588 kparts/browserrun.cpp:362
+#: khtml/khtml_ext.cpp:589 kparts/browserrun.cpp:369
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr "Download Manager (%1) njeje so w $PATH namakał"
 
-#: khtml/khtml_ext.cpp:589 kparts/browserrun.cpp:363
+#: khtml/khtml_ext.cpp:590 kparts/browserrun.cpp:370
 msgid ""
 "Try to reinstall it  \n"
 "\n"
@@ -5375,11 +5383,11 @@ msgstr ""
 "\n"
 "Integracija z Konquerorom hižo njebudźe!"
 
-#: khtml/khtml_ext.cpp:649
+#: khtml/khtml_ext.cpp:650
 msgid "Default Font Size"
 msgstr "Standardowa wulkosć pIsma"
 
-#: khtml/khtml_ext.cpp:659
+#: khtml/khtml_ext.cpp:660
 #, c-format
 msgid "Font Size %1"
 msgstr "Wulkosć pIsma %1"
@@ -5472,7 +5480,7 @@ msgstr "&Kodowanje nastajić"
 msgid "Semi-Automatic"
 msgstr "Poławtomatisce"
 
-#: khtml/khtml_part.cpp:248 khtml/khtml_part.cpp:1975
+#: khtml/khtml_part.cpp:248 khtml/khtml_part.cpp:1978
 msgid "Automatic Detection"
 msgstr "Awtomatisce"
 
@@ -5487,11 +5495,11 @@ msgstr "Manuelnje"
 msgid "Use S&tylesheet"
 msgstr "Wužiwaj &stilowe łopjeno"
 
-#: khtml/khtml_part.cpp:310
+#: khtml/khtml_part.cpp:311
 msgid "Increase Font Sizes"
 msgstr "PIsmo powjetšić"
 
-#: khtml/khtml_part.cpp:311
+#: khtml/khtml_part.cpp:313
 #, fuzzy
 msgid ""
 "Increase Font Size"
@@ -5503,11 +5511,11 @@ msgstr ""
 "<p>Powjetši pismo w tutym woknje. Stłóč a dźerž myšacu tastu, zo by "
 "meni ze wšěmi k dispoziciji stejacymi wulkosćemi dóstał(a)."
 
-#: khtml/khtml_part.cpp:314
+#: khtml/khtml_part.cpp:316
 msgid "Decrease Font Sizes"
 msgstr "PIsmo pomjeńšić"
 
-#: khtml/khtml_part.cpp:315
+#: khtml/khtml_part.cpp:318
 #, fuzzy
 msgid ""
 "Decrease Font Size"
@@ -5518,15 +5526,7 @@ msgstr ""
 "<p>Pomjeńši pismo w tutym woknje. Stłóč a dźerž myšacu tastu, zo by "
 "meni ze wšěmi k dispoziciji stejacymi wulkosćemi dóstał(a)."
 
-#: khtml/khtml_part.cpp:318
-msgid "Zoom In Fast"
-msgstr "Spěšnje powjetšić"
-
-#: khtml/khtml_part.cpp:321
-msgid "Zoom Out Fast"
-msgstr "Spěšnje pomjeńšić"
-
-#: khtml/khtml_part.cpp:326
+#: khtml/khtml_part.cpp:324
 msgid ""
 "Find text"
 "<p>Shows a dialog that allows you to find text on the displayed page."
@@ -5534,7 +5534,7 @@ msgstr ""
 "Namakaj tekst"
 "<p>Pokazuje dialog, kiž wam dowoli tekst na pokazanej stronje namakać."
 
-#: khtml/khtml_part.cpp:330
+#: khtml/khtml_part.cpp:328
 msgid ""
 "Find next"
 "<p>Find the next occurrence of the text that you have found using the "
@@ -5544,11 +5544,11 @@ msgstr ""
 "<p>Pyta přichodne městno, hdźež steji tekst, kiž bě so z <b>Namakaj "
 "tekst</b> namakał"
 
-#: khtml/khtml_part.cpp:339
+#: khtml/khtml_part.cpp:337
 msgid "Print Frame"
 msgstr "Ramik ćišćeć"
 
-#: khtml/khtml_part.cpp:340
+#: khtml/khtml_part.cpp:338
 msgid ""
 "Print Frame"
 "<p>"
@@ -5559,108 +5559,108 @@ msgstr ""
 "<p> Někotre strony wobsteja z někotrych ramikow. Zo by jenož jenički "
 "wućišćał(a), klikńće na njón a potom wužiwaj tutu funkciju."
 
-#: khtml/khtml_part.cpp:348
+#: khtml/khtml_part.cpp:346
 #, fuzzy
 msgid "Toggle Caret Mode"
 msgstr "Wotbyte nadawki &pokazować/chować"
 
-#: khtml/khtml_part.cpp:900
+#: khtml/khtml_part.cpp:902
 msgid "This web page contains coding errors."
 msgstr ""
 
-#: khtml/khtml_part.cpp:938
+#: khtml/khtml_part.cpp:940
 #, fuzzy
 msgid "&Hide Errors"
 msgstr "Datajowy zmylk"
 
-#: khtml/khtml_part.cpp:939
+#: khtml/khtml_part.cpp:941
 #, fuzzy
 msgid "&Disable Error Reporting"
 msgstr "Suwanje nadawkow do rynka z&njemóžnić"
 
-#: khtml/khtml_part.cpp:972
+#: khtml/khtml_part.cpp:974
 #, fuzzy
 msgid "<b>Error</b>: %1: %2"
 msgstr "<b>Model</b>: %1<br>"
 
-#: khtml/khtml_part.cpp:1005
+#: khtml/khtml_part.cpp:1007
 msgid "<b>Error</b>: node %1: %2"
 msgstr ""
 
-#: khtml/khtml_part.cpp:1128
+#: khtml/khtml_part.cpp:1130
 msgid "Display Images on Page"
 msgstr "Wobrazy na stronje pokazać"
 
-#: khtml/khtml_part.cpp:1285 khtml/khtml_part.cpp:1372
+#: khtml/khtml_part.cpp:1287 khtml/khtml_part.cpp:1374
 msgid "Session is secured with %1 bit %2."
 msgstr "Sesija je zawěsćena z %1 bit %2."
 
-#: khtml/khtml_part.cpp:1286 khtml/khtml_part.cpp:1374
+#: khtml/khtml_part.cpp:1288 khtml/khtml_part.cpp:1376
 msgid "Session is not secured."
 msgstr "Sesija njeje zawěsćena."
 
-#: khtml/khtml_part.cpp:1462
+#: khtml/khtml_part.cpp:1464
 #, c-format
 msgid "Error while loading %1"
 msgstr "Zmylk při začitanju %1"
 
-#: khtml/khtml_part.cpp:1464
+#: khtml/khtml_part.cpp:1466
 msgid "An error occurred while loading <B>%1</B>:"
 msgstr "Zmylk je so stał při čitanju <B>%1</B>:"
 
-#: khtml/khtml_part.cpp:1508
+#: khtml/khtml_part.cpp:1510
 msgid "Error: "
 msgstr "Zmylk: "
 
-#: khtml/khtml_part.cpp:1511
+#: khtml/khtml_part.cpp:1513
 msgid "The requested operation could not be completed"
 msgstr "Pominana akcija so njehodźeše zakónčić"
 
-#: khtml/khtml_part.cpp:1517
+#: khtml/khtml_part.cpp:1519
 msgid "Technical Reason: "
 msgstr "Techniska přičina: "
 
-#: khtml/khtml_part.cpp:1522
+#: khtml/khtml_part.cpp:1524
 msgid "Details of the Request:"
 msgstr "Nadrobnosće pominanja:"
 
-#: khtml/khtml_part.cpp:1524
+#: khtml/khtml_part.cpp:1526
 #, c-format
 msgid "URL: %1"
 msgstr "URL: %1"
 
-#: khtml/khtml_part.cpp:1531
+#: khtml/khtml_part.cpp:1533
 #, c-format
 msgid "Date and Time: %1"
 msgstr "Datum a čas: %1"
 
-#: khtml/khtml_part.cpp:1533
+#: khtml/khtml_part.cpp:1535
 #, c-format
 msgid "Additional Information: %1"
 msgstr "Dalša informacija: %1"
 
-#: khtml/khtml_part.cpp:1535
+#: khtml/khtml_part.cpp:1537
 msgid "Description:"
 msgstr "Wopisanje:"
 
-#: khtml/khtml_part.cpp:1541
+#: khtml/khtml_part.cpp:1543
 msgid "Possible Causes:"
 msgstr "Móžne přičiny:"
 
-#: khtml/khtml_part.cpp:1548
+#: khtml/khtml_part.cpp:1550
 msgid "Possible Solutions:"
 msgstr "Móžne rozrisanja:"
 
-#: khtml/khtml_part.cpp:1649
+#: khtml/khtml_part.cpp:1652
 #, fuzzy
 msgid "[Untitled]"
 msgstr "Bjez titla"
 
-#: khtml/khtml_part.cpp:1847
+#: khtml/khtml_part.cpp:1850
 msgid "Page loaded."
 msgstr "Strona začitana."
 
-#: khtml/khtml_part.cpp:1849
+#: khtml/khtml_part.cpp:1852
 msgid ""
 "_n: %n Image of %1 loaded.\n"
 "%n Images of %1 loaded."
@@ -5670,47 +5670,47 @@ msgstr ""
 "%n wobrazaj z %1 začitanej.\n"
 "%n wobrazy z %1 začitane."
 
-#: khtml/khtml_part.cpp:3106
+#: khtml/khtml_part.cpp:3110
 msgid "Symbolic Link"
 msgstr "Wotkaz"
 
-#: khtml/khtml_part.cpp:3108
+#: khtml/khtml_part.cpp:3112
 msgid "%1 (Link)"
 msgstr "%1 (wotkaz)"
 
-#: khtml/khtml_part.cpp:3128
+#: khtml/khtml_part.cpp:3132
 msgid "%2 (%1 bytes)"
 msgstr "%2 (%1 bytes)"
 
-#: khtml/khtml_part.cpp:3132
+#: khtml/khtml_part.cpp:3136
 msgid "%2 (%1 K)"
 msgstr "%2 (%1 K)"
 
-#: khtml/khtml_part.cpp:3154
+#: khtml/khtml_part.cpp:3158
 msgid " (In new window)"
 msgstr "(w nowym woknje)"
 
-#: khtml/khtml_part.cpp:3161
+#: khtml/khtml_part.cpp:3165
 msgid " (In other frame)"
 msgstr "(w druhim ramiku)"
 
-#: khtml/khtml_part.cpp:3166
+#: khtml/khtml_part.cpp:3170
 msgid "Email to: "
 msgstr "email na: "
 
-#: khtml/khtml_part.cpp:3170
+#: khtml/khtml_part.cpp:3174
 msgid " - Subject: "
 msgstr " - Tema: "
 
-#: khtml/khtml_part.cpp:3172
+#: khtml/khtml_part.cpp:3176
 msgid " - CC: "
 msgstr " - Kopija na: "
 
-#: khtml/khtml_part.cpp:3174
+#: khtml/khtml_part.cpp:3178
 msgid " - BCC: "
 msgstr " - Dalša kopija na: "
 
-#: khtml/khtml_part.cpp:3250
+#: khtml/khtml_part.cpp:3254
 msgid ""
 "<qt>The link <B>%1</B>"
 "<BR>leads from this untrusted page to your local filesystem."
@@ -5720,28 +5720,28 @@ msgstr ""
 "<BR>wjedźe wot tuteje njepřepruwowaneje strony na waš lokalny datajowy "
 "system.<BR> Chceće wotkaz sćěhować?"
 
-#: khtml/khtml_part.cpp:3251
+#: khtml/khtml_part.cpp:3255
 msgid "Follow"
 msgstr "Sćěhować"
 
-#: khtml/khtml_part.cpp:3346
+#: khtml/khtml_part.cpp:3350
 msgid "Frame Information"
 msgstr "Informacija wo ramiku"
 
-#: khtml/khtml_part.cpp:3352
+#: khtml/khtml_part.cpp:3356
 msgid "   <a href=\"%1\">[Properties]</a>"
 msgstr "   <a href=\"%1\">[swójstwa]</a>"
 
-#: khtml/khtml_part.cpp:3421
+#: khtml/khtml_part.cpp:3425
 #, fuzzy
 msgid "Save Background Image As"
 msgstr "Po&zadkowy wobraz zawěsćić jako..."
 
-#: khtml/khtml_part.cpp:3545
+#: khtml/khtml_part.cpp:3549
 msgid "&Find in Frame..."
 msgstr "&Namakaj w ramiku..."
 
-#: khtml/khtml_part.cpp:4006
+#: khtml/khtml_part.cpp:4017
 msgid ""
 "Warning:  This is a secure form but it is attempting to send your data back "
 "unencrypted.\n"
@@ -5753,11 +5753,11 @@ msgstr ""
 "Někajki třeći móhł je wotpopadać a tutu informaciju widźeć.\n"
 "Chceće woprawdźe pokročować?"
 
-#: khtml/khtml_part.cpp:4009
+#: khtml/khtml_part.cpp:4020
 msgid "SSL"
 msgstr "SSL"
 
-#: khtml/khtml_part.cpp:4016
+#: khtml/khtml_part.cpp:4027
 msgid ""
 "Warning: Your data is about to be transmitted across the network "
 "unencrypted.\n"
@@ -5766,12 +5766,12 @@ msgstr ""
 "Kedźbu: Waše daty so nješifrowane přez syć pósćelu\n"
 "Chceć woprawdźe pokročować?"
 
-#: khtml/khtml_part.cpp:4018 khtml/khtml_part.cpp:4042
-#: khtml/khtml_part.cpp:4103
+#: khtml/khtml_part.cpp:4029 khtml/khtml_part.cpp:4053
+#: khtml/khtml_part.cpp:4114
 msgid "KDE"
 msgstr "KDE"
 
-#: khtml/khtml_part.cpp:4040
+#: khtml/khtml_part.cpp:4051
 msgid ""
 "This site is attempting to submit form data via email.\n"
 "Do you want to continue?"
@@ -5779,7 +5779,7 @@ msgstr ""
 "Tutón server spyta formularowe daty jako emal pósłać\n"
 "Chceće pokročować?"
 
-#: khtml/khtml_part.cpp:4064
+#: khtml/khtml_part.cpp:4075
 msgid ""
 "<qt>The form will be submitted to "
 "<BR><B>%1</B><BR>on your local filesystem.<BR>Do you want to submit the form?"
@@ -5789,12 +5789,12 @@ msgstr ""
 "<br> na wašim lokalnym datajowym systemje. "
 "<br>Chceće formular wotpósłać?"
 
-#: khtml/html/html_formimpl.cpp:1279 khtml/khtml_part.cpp:4065
+#: khtml/html/html_formimpl.cpp:1281 khtml/khtml_part.cpp:4076
 #: khtml/rendering/render_form.cpp:256
 msgid "Submit"
 msgstr "Wotpósłać"
 
-#: khtml/khtml_part.cpp:4103
+#: khtml/khtml_part.cpp:4114
 msgid ""
 "This site attempted to attach a file from your computer in the form "
 "submission. The attachment was removed for your protection."
@@ -5802,15 +5802,15 @@ msgstr ""
 "Tutón server je spytał, na formularowe daty hišće dataju z wašeho "
 "computera připójsnyć. Přiwěšk je so z wěstotnych přičin wotstronił."
 
-#: khtml/khtml_part.cpp:4870
+#: khtml/khtml_part.cpp:4861
 msgid "(%1/s)"
 msgstr "(%1/s)"
 
-#: khtml/khtml_part.cpp:5729
+#: khtml/khtml_part.cpp:5719
 msgid "Security Warning"
 msgstr "Wěstotne warnowanje"
 
-#: khtml/khtml_part.cpp:5735
+#: khtml/khtml_part.cpp:5725
 msgid ""
 "<qt>This untrusted page contains a link"
 "<BR><B>%1</B><BR>to your local file system."
@@ -5818,15 +5818,15 @@ msgstr ""
 "<qt>Tuta njepruwowana strona wotkazuje na waš lokalny datajowy system: "
 "<br><b>%1</b><br>."
 
-#: khtml/khtml_part.cpp:5736
+#: khtml/khtml_part.cpp:5726
 msgid "Security Alert"
 msgstr "Wěstotny alarm"
 
-#: khtml/khtml_part.cpp:6022
+#: khtml/khtml_part.cpp:6013
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr ""
 
-#: khtml/khtml_part.cpp:6062
+#: khtml/khtml_part.cpp:6054
 #, fuzzy
 msgid "&Close Wallet"
 msgstr "&Začinić"
@@ -5917,7 +5917,7 @@ msgstr ""
 "%1 w lince %2:\n"
 "%3"
 
-#: khtml/ecma/kjs_window.cpp:1160
+#: khtml/ecma/kjs_window.cpp:1156
 msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
@@ -5925,7 +5925,7 @@ msgstr ""
 "Tutón server chce nowe wokno z JavaScript wočinić.\n"
 "Chceće to jemu dowolić?"
 
-#: khtml/ecma/kjs_window.cpp:1163
+#: khtml/ecma/kjs_window.cpp:1159
 msgid ""
 "<qt>This site is requesting to open"
 "<p>%1</p>in a new browser window via JavaScript.<br />Do you want to allow "
@@ -5935,40 +5935,40 @@ msgstr ""
 "<p>%1</p> w nowym woknje z JavaScript wočinić."
 "<br/>Chceće to jemu dowolić?</qt>"
 
-#: khtml/ecma/kjs_html.cpp:2167 khtml/ecma/kjs_window.cpp:1165
+#: khtml/ecma/kjs_html.cpp:2167 khtml/ecma/kjs_window.cpp:1161
 msgid "Confirmation: JavaScript Popup"
 msgstr "Wobkrućenje: JavaScript Woknješko"
 
-#: khtml/ecma/kjs_window.cpp:1340 khtml/ecma/kjs_window.cpp:1344
+#: khtml/ecma/kjs_window.cpp:1336 khtml/ecma/kjs_window.cpp:1340
 #, fuzzy
 msgid "Prompt"
 msgstr "Přiznak"
 
-#: khtml/ecma/kjs_window.cpp:1505
+#: khtml/ecma/kjs_window.cpp:1501
 msgid "Close window?"
 msgstr "Wokno začinić?"
 
-#: khtml/ecma/kjs_window.cpp:1505
+#: khtml/ecma/kjs_window.cpp:1501
 msgid "Confirmation Required"
 msgstr "Wobkrućenje trěbne"
 
-#: khtml/ecma/kjs_window.cpp:2087
+#: khtml/ecma/kjs_window.cpp:2083
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2090
+#: khtml/ecma/kjs_window.cpp:2086
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2095
+#: khtml/ecma/kjs_window.cpp:2091
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2096
+#: khtml/ecma/kjs_window.cpp:2092
 #, fuzzy
 msgid "Disallow"
 msgstr "Znjemóžnjene"
@@ -6012,7 +6012,7 @@ msgstr ""
 "<p>%1</p> w nowym woknje z JavaScript wočinić."
 "<br/>Chceće to jemu dowolić?</qt>"
 
-#: khtml/html/htmlparser.cpp:1268
+#: khtml/html/htmlparser.cpp:1270
 msgid "This is a searchable index. Enter search keywords: "
 msgstr "W tutym indeksu móžeće pytać. zapodajće klučowe słowa:"
 
@@ -6025,7 +6025,7 @@ msgstr ""
 "Pósćeleće slědowace dataje ze swojeho lokalneho computera do interneta.\n"
 "Chceće to woprawdźe činić?"
 
-#: khtml/html/html_formimpl.cpp:508
+#: khtml/html/html_formimpl.cpp:510
 msgid ""
 "Konqueror has the ability to store the password in an encrypted wallet. When "
 "the wallet is unlocked, it can then automatically restore the login "
@@ -6033,12 +6033,12 @@ msgid ""
 "information now?"
 msgstr ""
 
-#: khtml/html/html_formimpl.cpp:513
+#: khtml/html/html_formimpl.cpp:515
 #, fuzzy
 msgid "Save Login Information"
 msgstr "Sćelu informaciju za přizjewjenje"
 
-#: khtml/html/html_formimpl.cpp:515
+#: khtml/html/html_formimpl.cpp:517
 msgid "Never for This Site"
 msgstr ""
 
@@ -6062,7 +6062,7 @@ msgstr "Zakadny URL"
 msgid "Archives"
 msgstr "Archiwy"
 
-#: khtml/java/kjavaappletviewer.cpp:397
+#: khtml/java/kjavaappletviewer.cpp:398
 msgid "KDE Java Applet Plugin"
 msgstr "KDE Java Applet Plugin"
 
@@ -6240,18 +6240,18 @@ msgstr ""
 msgid "Save Document?"
 msgstr "Dokument zawěsćić?"
 
-#: kparts/browserrun.cpp:266
+#: kparts/browserrun.cpp:271
 msgid "Do you really want to execute '%1'? "
 msgstr "Chceće woprawdźe '%1' startować?"
 
-#: kparts/browserrun.cpp:284
+#: kparts/browserrun.cpp:289
 #, fuzzy
 msgid ""
 "Open '%2'?\n"
 "Type: %1"
 msgstr "'%2' (%1) wočinić?"
 
-#: kparts/browserrun.cpp:286
+#: kparts/browserrun.cpp:291
 #, fuzzy
 msgid ""
 "Open '%3'?\n"
@@ -6259,12 +6259,12 @@ msgid ""
 "Type: %1"
 msgstr "'%2' (%1) wočinić?"
 
-#: kparts/browserrun.cpp:296
+#: kparts/browserrun.cpp:301
 #, fuzzy
 msgid "&Open with '%1'"
 msgstr "'%1' wočinić?"
 
-#: kparts/browserrun.cpp:297
+#: kparts/browserrun.cpp:302
 #, fuzzy
 msgid "&Open with..."
 msgstr "Wočinić z:"
@@ -6479,19 +6479,19 @@ msgstr ""
 "%n narunani.\n"
 "%n narunanja."
 
-#: kutils/kfind.cpp:401 kutils/kreplace.cpp:302
+#: kutils/kfind.cpp:402 kutils/kreplace.cpp:302
 msgid "Beginning of document reached."
 msgstr "Sym hač k započatkej dokumenta pytał."
 
-#: kutils/kfind.cpp:403 kutils/kreplace.cpp:304
+#: kutils/kfind.cpp:404 kutils/kreplace.cpp:304
 msgid "End of document reached."
 msgstr "Sym hač ke kóncej dokumenta pytał."
 
-#: kutils/kfind.cpp:410 kutils/kreplace.cpp:311
+#: kutils/kfind.cpp:411 kutils/kreplace.cpp:311
 msgid "Do you want to restart search from the end?"
 msgstr "Chceće wot kónca dale pytać?"
 
-#: kutils/kfind.cpp:411 kutils/kreplace.cpp:312
+#: kutils/kfind.cpp:412 kutils/kreplace.cpp:312
 msgid "Do you want to restart search at the beginning?"
 msgstr "Chceće wot započatka dale pytać?"
 
@@ -6510,21 +6510,22 @@ msgid ""
 "<td>%3</td></tr><tr><td><b>License:</b></td><td>%4</td></tr></table></qt>"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:556
+#: kutils/kpluginselector.cpp:557
 #, fuzzy
 msgid "(This plugin is not configurable)"
 msgstr "Tutón plugin njehodźi so konfigurować."
 
 #: kutils/kcmultidialog.cpp:45 kutils/kcmultidialog.cpp:55
+#: kutils/kcmultidialog.cpp:67
 #, fuzzy
 msgid "&Reset"
 msgstr "Stary staw"
 
-#: kutils/kfind.cpp:50
+#: kutils/kfind.cpp:51
 msgid "<qt>Find next occurrence of '<b>%1</b>'?</qt>"
 msgstr "<qt>Přichodne '<b>%1</b>' namakać?</qt>"
 
-#: kutils/kfind.cpp:374 kutils/kfind.cpp:394
+#: kutils/kfind.cpp:375 kutils/kfind.cpp:395
 #, c-format
 msgid ""
 "_n: 1 match found.\n"
@@ -6535,11 +6536,11 @@ msgstr ""
 "%n namakance\n"
 "%n namakanki"
 
-#: kutils/kfind.cpp:376
+#: kutils/kfind.cpp:377
 msgid "<qt>No matches found for '<b>%1</b>'.</qt>"
 msgstr "<qt>Njejsym '<b>%1</b>' namakał.</qt>"
 
-#: kutils/kfind.cpp:396
+#: kutils/kfind.cpp:397
 msgid "No matches found for '<b>%1</b>'."
 msgstr "Njejsym '<b>%1</b>' namakał."
 
@@ -6639,7 +6640,7 @@ msgstr ""
 msgid "You cannot use an inactive resource as standard!"
 msgstr "Njemóžeće inaktiwnu resursu jako standard wužiwać!"
 
-#: kresources/configpage.cpp:466
+#: kresources/configpage.cpp:468
 msgid ""
 "You cannot deactivate the standard resource. Choose another standard "
 "resource first."
@@ -6647,7 +6648,7 @@ msgstr ""
 "Njemóžeće standardnu resursu deaktiwizować. Prošu wubjerće najprjedy "
 "druhu standardnu resursu."
 
-#: kresources/configpage.cpp:496
+#: kresources/configpage.cpp:498
 msgid ""
 "There is no valid standard resource! Please select one which is neither "
 "read-only nor inactive."
@@ -8647,6 +8648,12 @@ msgid ""
 "_: QXml\n"
 "error in the text declaration of an external entity"
 msgstr "zmylk w tekstowej deklaraciji eksterneje entity"
+
+#~ msgid "Zoom In Fast"
+#~ msgstr "Spěšnje powjetšić"
+
+#~ msgid "Zoom Out Fast"
+#~ msgstr "Spěšnje pomjeńšić"
 
 #~ msgid "The Win key is not allowed in this context."
 #~ msgstr "Win-tasta so za to njehodźi."
