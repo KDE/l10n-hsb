@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "POT-Creation-Date: 2005-01-28 01:29+0100\n"
-"PO-Revision-Date: 2005-01-28 14:52+0000\n"
+"PO-Revision-Date: 2005-01-28 23:42+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
-msgstr "Edward Wornar"
+msgstr "tEdward Wornar"
 
 #: _translatorinfo.cpp:3
 msgid ""
@@ -3477,6 +3477,10 @@ msgid ""
 "_n: Fetched 1 message from %1. Terminating transmission...\n"
 "Fetched %n messages from %1. Terminating transmission..."
 msgstr ""
+"Sym %n powěsćow z %1 přenjesł. Přetorhnu přenjesenje...\n"
+"Sym %n powěsć z %1přenjesł. Přetorhnu přenjesenje...\n"
+"Sym %n powěsći z %1 přenjesł. Přetorhnu přenjesenje...\n"
+"Sym %n powěsće %1 přenjesł. Přetorhnu přenjesenje..."
 
 #: kmacctexppop.cpp:611
 msgid ""
@@ -3493,7 +3497,6 @@ msgid "Fetching message %1 of %2 (%3 of %4 KB) from %5."
 msgstr "Bjeru powěsć %1 z %2 (%3 z %4 KB) wot %5."
 
 #: kmacctexppop.cpp:801
-#, fuzzy
 msgid "Unable to complete LIST operation."
 msgstr "Njemóžu LIST-operaciju zakónčić"
 
@@ -3510,13 +3513,12 @@ msgstr ""
 "hłójčki wulkich powěsćow začitać."
 
 #: kmacctimap.cpp:257
-#, fuzzy
 msgid "Checking account: "
-msgstr "Přepruwuju konto %1, hač je nowa póšta přišła"
+msgstr "Přepruwuju konto:"
 
 #: kmacctimap.cpp:344 kmfolderimap.cpp:664
 msgid " completed"
-msgstr ""
+msgstr " hotowe"
 
 #: kmacctlocal.cpp:126 kmacctlocal.cpp:163 kmacctmaildir.cpp:102
 #: kmacctmaildir.cpp:133
@@ -3524,9 +3526,8 @@ msgid "Transmission failed."
 msgstr "Přenjesenje zwrěšćene."
 
 #: kmacctlocal.cpp:148
-#, fuzzy
 msgid "Running precommand failed."
-msgstr "Wuwjedu předpřikaz %1"
+msgstr "Njemóžach předpřikaz wuwjesć."
 
 #: kmacctlocal.cpp:157
 msgid "Cannot open file:"
@@ -3548,35 +3549,32 @@ msgstr ""
 "<br>%2</qt>"
 
 #: kmacctlocal.cpp:259
-#, fuzzy
 msgid ""
 "_n: Fetched 1 message from mailbox %1.\n"
 "Fetched %n messages from mailbox %1."
 msgstr ""
-"%n powěsćow, %1.\n"
-"%n powěsć, %1.\n"
-"%n powěsći, %1.\n"
-"%n powěsće, %1."
+"Sym %n powěsćow z póštoweho kašćika %1 přenjesł.\n"
+"Sym %n powěsć z póštoweho kašćika %1 přenjesł.\n"
+"Sym %n powěsći z póštoweho kašćika %1 přenjesł.\n"
+"Sym %n powěsće z póštoweho kašćika %1 přenjesł."
 
 #: kmacctmaildir.cpp:129
 msgid "<qt>Cannot open folder <b>%1</b>.</qt>"
 msgstr "<qt>Njemózu zapisk <b>%1</b> wočinić.</qt>"
 
 #: kmacctmaildir.cpp:155
-#, fuzzy
 msgid "Transmission aborted."
-msgstr "Přenjesenje zwrěšćene."
+msgstr "Přenjesenje přetorhnjene."
 
 #: kmacctmaildir.cpp:190
-#, fuzzy
 msgid ""
 "_n: Fetched 1 message from maildir folder %1.\n"
 "Fetched %n messages from maildir folder %1."
 msgstr ""
-"%n powěsćow, %1.\n"
-"%n powěsć, %1.\n"
-"%n powěsći, %1.\n"
-"%n powěsće, %1."
+"Sym %n powěsćow z póštoweho zapiska %1 přenjesł.\n"
+"Sym %n powěsć z póštoweho zapiska %1 přenjesł.\n"
+"Sym %n powěsći z póštoweho zapiska %1 přenjesł.\n"
+"Sym %n powěsće z póštoweho zapiska %1 přenjesł."
 
 #: kmacctmgr.cpp:102
 #, c-format
@@ -3584,7 +3582,6 @@ msgid "Account %1"
 msgstr "Konto %1"
 
 #: kmacctmgr.cpp:201
-#, fuzzy
 msgid ""
 "Account %1 has no mailbox defined:\n"
 "mail checking aborted;\n"
@@ -3599,19 +3596,16 @@ msgid "Checking account %1 for new mail"
 msgstr "Přepruwuju konto %1, hač je nowa póšta přišła"
 
 #: kmacctmgr.cpp:244 kmacctmgr.cpp:247
-#, fuzzy
 msgid "Local Account"
-msgstr "Konto:"
+msgstr "Lokalne konto"
 
 #: kmacctmgr.cpp:250
-#, fuzzy
 msgid "POP Account"
-msgstr "Konto:"
+msgstr "POP-konto"
 
 #: kmacctmgr.cpp:253 kmacctmgr.cpp:256
-#, fuzzy
 msgid "IMAP Account"
-msgstr "Konto dodać"
+msgstr "IMAP-konto"
 
 #: kmacctmgr.cpp:339 kmacctmgr.cpp:367
 msgid ""
@@ -3655,22 +3649,20 @@ msgid "IMAP Resource Folders"
 msgstr ""
 
 #: kmailicalifaceimpl.cpp:1490 kmfolderdia.cpp:413
-#, fuzzy
 msgid "Calendar"
-msgstr "Standa&rd"
+msgstr "Protyka"
 
 #: kmailicalifaceimpl.cpp:1491 kmfolderdia.cpp:416
 msgid "Tasks"
-msgstr ""
+msgstr "Nadawki"
 
 #: kmailicalifaceimpl.cpp:1492 kmfolderdia.cpp:417
 msgid "Journal"
-msgstr ""
+msgstr "Protokol"
 
 #: kmailicalifaceimpl.cpp:1493 kmfolderdia.cpp:414
-#, fuzzy
 msgid "Contacts"
-msgstr "&Komprimować"
+msgstr "Kontakty"
 
 #: kmailicalifaceimpl.cpp:1494 kmfolderdia.cpp:415
 msgid "Notes"
@@ -3687,7 +3679,6 @@ msgid ""
 msgstr "[%1] %2"
 
 #: kmbroadcaststatus.cpp:64
-#, fuzzy
 msgid ""
 "_n: Transmission complete. %n new message in %1 KB (%2 KB remaining on the "
 "server).\n"
@@ -3695,16 +3686,15 @@ msgid ""
 "server)."
 msgstr ""
 "Přenjesenje zakónčene. %n nowych powěsćow w %1 KB (%2 KB hišće na "
-"serveru).\n"
+"serweru).\n"
 "Přenjesenje zakónčene. %n nowa powěsć w %1 KB (%2 KB hišće na "
-"serveru).\n"
+"serweru).\n"
 "Přenjesenje zakónčene. %n nowej powěsći w %1 KB (%2 KB hišće na "
-"serveru).\n"
+"serweru).\n"
 "Přenjesenje zakónčene. %n nowe powěsće w %1 KB (%2 KB hišće na "
-"serveru)."
+"serweru)."
 
 #: kmbroadcaststatus.cpp:71
-#, fuzzy
 msgid ""
 "_n: Transmission complete. %n message in %1 KB.\n"
 "Transmission complete. %n messages in %1 KB."
@@ -3715,7 +3705,7 @@ msgstr ""
 "Přenjesenje zakónčene. (%n powěsće, %1 KB)."
 
 #: kmbroadcaststatus.cpp:77
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_n: Transmission complete. %n new message.\n"
 "Transmission complete. %n new messages."
@@ -3730,7 +3720,6 @@ msgid "Transmission complete. No new messages."
 msgstr "Přenjesenje zakónčene. Žane nowe powěsće."
 
 #: kmbroadcaststatus.cpp:103
-#, fuzzy
 msgid ""
 "_n: Transmission for account %3 complete. %n new message in %1 KB (%2 KB "
 "remaining on the server).\n"
@@ -3747,7 +3736,6 @@ msgstr ""
 "hišće na serveru)."
 
 #: kmbroadcaststatus.cpp:113
-#, fuzzy
 msgid ""
 "_n: Transmission for account %2 complete. %n message in %1 KB.\n"
 "Transmission for account %2 complete. %n messages in %1 KB."
@@ -3758,13 +3746,12 @@ msgstr ""
 "Přenjesenje datow za konto %2 zakónčene. %n nowe powěsće w %1 KB."
 
 #: kmbroadcaststatus.cpp:122
-#, fuzzy
 msgid ""
 "_n: Transmission for account %1 complete. %n new message.\n"
 "Transmission for account %1 complete. %n new messages."
 msgstr ""
 "Přenjesenje za konto %1 zakónčene. %n nowych powěsći.\n"
-"Přenjesenje za konto %1 zakónčene. %n nowa powěsća.\n"
+"Přenjesenje za konto %1 zakónčene. %n nowa powěsć.\n"
 "Přenjesenje za konto %1 zakónčene. %n nowej powěsći.\n"
 "Přenjesenje za konto %1 zakónčene. %n nowe powěsće."
 
@@ -3777,13 +3764,13 @@ msgid "Please wait"
 msgstr "Prošu dočakajće"
 
 #: kmcommands.cpp:246 kmcommands.cpp:346
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_n: Please wait while the message is transferred\n"
 "Please wait while the %n messages are transferred"
 msgstr ""
 "Prošu dočakajće, doniž so njejsu te %n powěsćow přenjesli.\n"
-"Prošu dočakajće, doniž so njejsu ta %n powěsć přenjesła.\n"
+"Prošu dočakajće, doniž so njeje ta %n powěsć přenjesła.\n"
 "Prošu dočakajće, doniž so njejstej tej %n powěsći přenjesłoj.\n"
 "Prošu dočakajće, doniž so njejsu te %n powěsće přenjesli."
 
@@ -3820,9 +3807,8 @@ msgstr ""
 "Chceće ju přepisać?"
 
 #: kmcommands.cpp:881
-#, fuzzy
 msgid "Open Message"
-msgstr "Přichod&na powěsć"
+msgstr "Powěsć wočinić"
 
 #: kmcommands.cpp:919 kmcommands.cpp:947
 #, fuzzy
