@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
-"POT-Creation-Date: 2005-01-27 01:23+0100\n"
+"POT-Creation-Date: 2005-02-03 01:19+0100\n"
 "PO-Revision-Date: 2005-01-28 15:18+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -191,7 +191,7 @@ msgid "URLs older than"
 msgstr "starše URL hač"
 
 #. i18n: file sidebar/trees/history_module/history_dlg.ui line 151
-#: about/konq_aboutpage.cc:182 rc.cpp:324
+#: about/konq_aboutpage.cc:265 rc.cpp:324
 #, no-c-format
 msgid "Details"
 msgstr "Nadrobnosće"
@@ -240,7 +240,8 @@ msgstr ""
 "Zmylkowa powěsć je:\n"
 "%2"
 
-#: konq_factory.cc:211
+#: about/konq_aboutpage.cc:109 about/konq_aboutpage.cc:170
+#: about/konq_aboutpage.cc:221 about/konq_aboutpage.cc:314 konq_factory.cc:211
 msgid "Konqueror"
 msgstr "Konqueror"
 
@@ -382,6 +383,11 @@ msgstr "Pokazować z"
 msgid "Show %1"
 msgstr "Pokaž %1"
 
+#: konq_guiclients.cc:193
+#, c-format
+msgid "Hide %1"
+msgstr ""
+
 #: konq_main.cc:40
 msgid "Start without a default window"
 msgstr "Startuj bjez standardneho wokna"
@@ -434,7 +440,9 @@ msgstr ""
 msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
 "with %1, but it cannot handle this file type."
-msgstr "Pozdaću so jedna wo zmylk w konfiguraciji. Konqueror je asociěrowany z %1, njemóže pak z tutej družinu ničo započeć."
+msgstr ""
+"Pozdaću so jedna wo zmylk w konfiguraciji. Konqueror je asociěrowany z %1, "
+"njemóže pak z tutej družinu ničo započeć."
 
 #: konq_mainwindow.cc:1406
 msgid "Open Location"
@@ -615,7 +623,7 @@ msgstr "&Medij za zawěsćenje"
 msgid "Sett&ings"
 msgstr "Nas&tajenja"
 
-#: konq_mainwindow.cc:3729
+#: about/konq_aboutpage.cc:132 konq_mainwindow.cc:3729
 msgid "Trash"
 msgstr "Papjernik"
 
@@ -1258,7 +1266,7 @@ msgstr ""
 msgid "Unselect files:"
 msgstr "Wubraće zběhnyć:"
 
-#: iconview/konq_iconview.cc:731 listview/konq_listviewwidget.cc:913
+#: iconview/konq_iconview.cc:731 listview/konq_listviewwidget.cc:914
 msgid "You must take the file out of the trash before being able to use it."
 msgstr ""
 
@@ -1426,7 +1434,7 @@ msgstr ""
 msgid "Case Insensitive Sort"
 msgstr ""
 
-#: listview/konq_listviewwidget.cc:360 listview/konq_textviewwidget.cc:79
+#: listview/konq_listviewwidget.cc:357 listview/konq_textviewwidget.cc:79
 #, fuzzy
 msgid "Name"
 msgstr "Mjeno"
@@ -1774,6 +1782,27 @@ msgstr "KDE"
 msgid "*.xml|KDE Bookmark Files (*.xml)"
 msgstr "KDE"
 
+#: keditbookmarks/kbookmarkmerger.cpp:42
+msgid "Directory to scan for extra bookmarks"
+msgstr ""
+
+#: keditbookmarks/kbookmarkmerger.cpp:62
+#, fuzzy
+msgid "KBookmarkMerger"
+msgstr "&Lubušk"
+
+#: keditbookmarks/kbookmarkmerger.cpp:63
+msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
+msgstr ""
+
+#: keditbookmarks/kbookmarkmerger.cpp:65
+msgid "Copyright © 2005 Frerich Raabe"
+msgstr ""
+
+#: keditbookmarks/kbookmarkmerger.cpp:66
+msgid "Original author"
+msgstr ""
+
 #: keditbookmarks/listview.cpp:335
 #, fuzzy
 msgid "Drop Items"
@@ -1947,83 +1976,159 @@ msgstr ""
 msgid "Read Only"
 msgstr "Čitać"
 
-#: about/konq_aboutpage.cc:96 about/konq_aboutpage.cc:140
-#: about/konq_aboutpage.cc:226
+#: about/konq_aboutpage.cc:108 about/konq_aboutpage.cc:110
+#: about/konq_aboutpage.cc:169 about/konq_aboutpage.cc:171
+#: about/konq_aboutpage.cc:220 about/konq_aboutpage.cc:222
+#: about/konq_aboutpage.cc:313 about/konq_aboutpage.cc:315
 msgid "Conquer your Desktop!"
 msgstr ""
 
-#: about/konq_aboutpage.cc:97 about/konq_aboutpage.cc:141
-#: about/konq_aboutpage.cc:227
-msgid "Please enter a term or an address to be searched on the Internet."
+#: about/konq_aboutpage.cc:111 about/konq_aboutpage.cc:172
+#: about/konq_aboutpage.cc:223 about/konq_aboutpage.cc:316
+msgid "Konqueror is your file manager, web browser and universal document viewer."
 msgstr ""
 
-#: about/konq_aboutpage.cc:98 about/konq_aboutpage.cc:101
-#: about/konq_aboutpage.cc:142 about/konq_aboutpage.cc:228
+#: about/konq_aboutpage.cc:112 about/konq_aboutpage.cc:173
+#: about/konq_aboutpage.cc:317
+#, fuzzy
+msgid "Starting Points"
+msgstr "Nas&tajenja"
+
+#: about/konq_aboutpage.cc:113 about/konq_aboutpage.cc:174
+#: about/konq_aboutpage.cc:225 about/konq_aboutpage.cc:318
 msgid "Introduction"
 msgstr ""
 
-#: about/konq_aboutpage.cc:99 about/konq_aboutpage.cc:143
-#: about/konq_aboutpage.cc:229 about/konq_aboutpage.cc:231
+#: about/konq_aboutpage.cc:114 about/konq_aboutpage.cc:175
+#: about/konq_aboutpage.cc:226 about/konq_aboutpage.cc:319
 msgid "Tips"
 msgstr ""
 
-#: about/konq_aboutpage.cc:100 about/konq_aboutpage.cc:144
-#: about/konq_aboutpage.cc:145 about/konq_aboutpage.cc:230
+#: about/konq_aboutpage.cc:115 about/konq_aboutpage.cc:176
+#: about/konq_aboutpage.cc:227 about/konq_aboutpage.cc:228
+#: about/konq_aboutpage.cc:320
 msgid "Specifications"
 msgstr ""
 
-#: about/konq_aboutpage.cc:102
-#, c-format
-msgid "Welcome to Konqueror %1."
+#: about/konq_aboutpage.cc:120
+#, fuzzy
+msgid "Home Folder"
+msgstr "Zapisk"
+
+#: about/konq_aboutpage.cc:121
+msgid "Your personal files"
 msgstr ""
 
-#: about/konq_aboutpage.cc:103
+#: about/konq_aboutpage.cc:124
 #, fuzzy
-msgid ""
-"With Konqueror you have your filesystem at your command, browsing local or "
-"networked drives with equal ease. Thanks to the component technology used "
-"throughout KDE, Konqueror is also a full featured, easy to use and "
-"comfortable Web Browser, which you can use to explore the Internet."
-msgstr "KDE."
+msgid "Storage Media"
+msgstr "&Medij za zawěsćenje"
 
-#: about/konq_aboutpage.cc:108
+#: about/konq_aboutpage.cc:125
+msgid "Disks and removable media"
+msgstr ""
+
+#: about/konq_aboutpage.cc:128
+#, fuzzy
+msgid "Network Folders"
+msgstr "Zapisk"
+
+#: about/konq_aboutpage.cc:129
+msgid "Shared files and folders"
+msgstr ""
+
+#: about/konq_aboutpage.cc:133
+msgid "Browse and restore the trash"
+msgstr ""
+
+#: about/konq_aboutpage.cc:136
+#, fuzzy
+msgid "Applications"
+msgstr "Ap&likacije"
+
+#: about/konq_aboutpage.cc:137
+#, fuzzy
+msgid "Installed programs"
+msgstr "Zastajene"
+
+#: about/konq_aboutpage.cc:140
+#, fuzzy
+msgid "Settings"
+msgstr "Nas&tajenja"
+
+#: about/konq_aboutpage.cc:141
+#, fuzzy
+msgid "Desktop configuration"
+msgstr "Konfiguracija"
+
+#: about/konq_aboutpage.cc:144
+#, fuzzy
+msgid "Next: An Introduction to Konqueror"
+msgstr "W&očinić in"
+
+#: about/konq_aboutpage.cc:146
+msgid "Search the Web"
+msgstr ""
+
+#: about/konq_aboutpage.cc:177
+msgid ""
+"Konqueror makes working with and managing your files easy. You can browse "
+"both local and networked folders while enjoying advanced features such as "
+"the powerful sidebar and file previews."
+msgstr ""
+
+#: about/konq_aboutpage.cc:181
 #, fuzzy
 msgid ""
-"Simply enter the Internet address (e.g. <A "
-"HREF=\"http://www.kde.org\">http://www.kde.org</A>"
-") of the web page you want and press Enter, or choose one of the entries in "
-"your Bookmarks menu."
+"Konqueror is also a full featured and easy to use web browser which you can  "
+"use to explore the Internet. Enter the address (e.g. <a "
+"href=\"http://www.kde.org\">http://www.kde.org</A>) of a web page you would "
+"like to visit in the location bar and press Enter, or choose an entry from "
+"the Bookmarks menu."
 msgstr "<A HREF=\"http://www.kde.org\">http://www.kde.org</A> in."
 
-#: about/konq_aboutpage.cc:111
+#: about/konq_aboutpage.cc:186
 #, fuzzy
 msgid ""
-"If you want to go back to the previous web page, press the button <IMG "
-"WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp;(\"Back\") in the toolbar."
+"To return to the previous location, press the back button  <img width='16' "
+"height='16' src=\"%1\"> in the toolbar. "
 msgstr "<IMG WIDTH=16 HEIGHT=16 SRC=\"%1\">&nbsp; Wróćo in."
 
-#: about/konq_aboutpage.cc:114
+#: about/konq_aboutpage.cc:189
 #, fuzzy
 msgid ""
-"To go back to the home directory of your local filesystem press <IMG "
-"WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; (\"Home\"). "
-msgstr "Na<IMG WIDTH=16 HEIGHT=16 SRC=\"%1\">&nbsp; "
+"To quickly go to your Home folder press the  home button <img width='16' "
+"height='16' src=\"%1\">."
+msgstr "<IMG WIDTH=16 HEIGHT=16 SRC=\"%1\">&nbsp; Wróćo in."
 
-#: about/konq_aboutpage.cc:116
-msgid "For more detailed documentation on Konqueror click <A HREF=\"%1\">here</A>."
+#: about/konq_aboutpage.cc:191
+msgid "For more detailed documentation on Konqueror click <a href=\"%1\">here</a>."
 msgstr ""
 
-#: about/konq_aboutpage.cc:118
+#: about/konq_aboutpage.cc:193
 #, fuzzy
 msgid ""
-"<I>Tuning Tip:</I> If you want the Konqueror web browser to start faster, "
-"you can turn off this information screen by clicking <A "
-"HREF=\"%1\">here</A>. You can re-enable it by choosing the Help ->"
+"<em>Tuning Tip:</em> If you want the Konqueror web browser to start faster, "
+"you can turn off this information screen by clicking <a "
+"href=\"%1\">here</a>. You can re-enable it by choosing the Help ->"
 " Konqueror Introduction menu option, and then pressing Settings ->"
 " Save View Profile \"Web Browsing\"."
 msgstr "<I></I><A HREF=\"%1\"></A> Zawěsćić Napohlad."
 
-#: about/konq_aboutpage.cc:146
+#: about/konq_aboutpage.cc:197 about/konq_aboutpage.cc:275
+#: about/konq_aboutpage.cc:356
+msgid "<img width='16' height='16' src=\"%1\">"
+msgstr ""
+
+#: about/konq_aboutpage.cc:198
+msgid "Next: Tips &amp; Tricks"
+msgstr ""
+
+#: about/konq_aboutpage.cc:224
+msgid "Launch"
+msgstr ""
+
+#: about/konq_aboutpage.cc:229
 #, fuzzy
 msgid ""
 "Konqueror is designed to embrace and support Internet standards. The aim is "
@@ -2034,65 +2139,64 @@ msgid ""
 "and <A HREF=\"%1\">XBEL bookmarks</A>, Konqueror also implements:"
 msgstr "Hesła za pytanje<A HREF=\"%1\"></A>:"
 
-#: about/konq_aboutpage.cc:153
-#, fuzzy
-msgid "W E B B R O W S I N G"
-msgstr "B B I"
+#: about/konq_aboutpage.cc:236
+msgid "Web Browsing"
+msgstr ""
 
-#: about/konq_aboutpage.cc:154
+#: about/konq_aboutpage.cc:237
 msgid "Supported standards"
 msgstr ""
 
-#: about/konq_aboutpage.cc:155
+#: about/konq_aboutpage.cc:238
 msgid "Additional requirements*"
 msgstr ""
 
-#: about/konq_aboutpage.cc:156
+#: about/konq_aboutpage.cc:239
 msgid ""
 "<A HREF=\"%1\">DOM</A> (Level 1, partially Level 2) based <A "
 "HREF=\"%2\">HTML 4.01</A>"
 msgstr ""
 
-#: about/konq_aboutpage.cc:158 about/konq_aboutpage.cc:160
-#: about/konq_aboutpage.cc:172 about/konq_aboutpage.cc:177
-#: about/konq_aboutpage.cc:179
+#: about/konq_aboutpage.cc:241 about/konq_aboutpage.cc:243
+#: about/konq_aboutpage.cc:255 about/konq_aboutpage.cc:260
+#: about/konq_aboutpage.cc:262
 msgid "built-in"
 msgstr ""
 
-#: about/konq_aboutpage.cc:159
+#: about/konq_aboutpage.cc:242
 msgid "<A HREF=\"%1\">Cascading Style Sheets</A> (CSS 1, partially CSS 2)"
 msgstr ""
 
-#: about/konq_aboutpage.cc:161
+#: about/konq_aboutpage.cc:244
 msgid "<A HREF=\"%1\">ECMA-262</A> Edition 3 (roughly equals JavaScript 1.5)"
 msgstr ""
 
-#: about/konq_aboutpage.cc:162
+#: about/konq_aboutpage.cc:245
 msgid "JavaScript disabled (globally). Enable JavaScript <A HREF=\"%1\">here</A>."
 msgstr ""
 
-#: about/konq_aboutpage.cc:163
+#: about/konq_aboutpage.cc:246
 #, fuzzy
 msgid ""
 "JavaScript enabled (globally). Configure JavaScript <A "
 "HREF=\\\"%1\\\">here</A>."
 msgstr "Konfiguracija<A HREF=\\\"%1\\\"></A>."
 
-#: about/konq_aboutpage.cc:164
+#: about/konq_aboutpage.cc:247
 msgid "Secure <A HREF=\"%1\">Java</A><SUP>&reg;</SUP> support"
 msgstr ""
 
-#: about/konq_aboutpage.cc:165
+#: about/konq_aboutpage.cc:248
 msgid ""
 "JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">Blackdown</A>, <A "
 "HREF=\"%2\">IBM</A> or <A HREF=\"%3\">Sun</A>)"
 msgstr ""
 
-#: about/konq_aboutpage.cc:167
+#: about/konq_aboutpage.cc:250
 msgid "Enable Java (globally) <A HREF=\"%1\">here</A>."
 msgstr ""
 
-#: about/konq_aboutpage.cc:168
+#: about/konq_aboutpage.cc:251
 #, fuzzy
 msgid ""
 "Netscape Communicator<SUP>&reg;</SUP> <A HREF=\"%4\">plugins</A> (for "
@@ -2103,105 +2207,108 @@ msgstr ""
 "<SUP>&reg;</SUP><A HREF=\"%1\"></A><A HREF=\"%2\"></A><A HREF=\"%3\"></A> "
 "Wideo"
 
-#: about/konq_aboutpage.cc:173
+#: about/konq_aboutpage.cc:256
 msgid "Secure Sockets Layer"
 msgstr ""
 
-#: about/konq_aboutpage.cc:174
+#: about/konq_aboutpage.cc:257
 #, fuzzy
 msgid "(TLS/SSL v2/3) for secure communications up to 168bit"
 msgstr "SSL"
 
-#: about/konq_aboutpage.cc:175
+#: about/konq_aboutpage.cc:258
 msgid "OpenSSL"
 msgstr ""
 
-#: about/konq_aboutpage.cc:176
+#: about/konq_aboutpage.cc:259
 msgid "Bidirectional 16bit unicode support"
 msgstr ""
 
-#: about/konq_aboutpage.cc:178
+#: about/konq_aboutpage.cc:261
 msgid "AutoCompletion for forms"
 msgstr ""
 
-#: about/konq_aboutpage.cc:180
+#: about/konq_aboutpage.cc:263
 msgid "G E N E R A L"
 msgstr ""
 
-#: about/konq_aboutpage.cc:181
+#: about/konq_aboutpage.cc:264
 msgid "Feature"
 msgstr ""
 
-#: about/konq_aboutpage.cc:183
+#: about/konq_aboutpage.cc:266
 msgid "Image formats"
 msgstr ""
 
-#: about/konq_aboutpage.cc:184
+#: about/konq_aboutpage.cc:267
 msgid "Transfer protocols"
 msgstr ""
 
-#: about/konq_aboutpage.cc:185
+#: about/konq_aboutpage.cc:268
 msgid "HTTP 1.1 (including gzip/bzip2 compression)"
 msgstr ""
 
-#: about/konq_aboutpage.cc:186
+#: about/konq_aboutpage.cc:269
 msgid "FTP"
 msgstr ""
 
-#: about/konq_aboutpage.cc:187
+#: about/konq_aboutpage.cc:270
 msgid "and <A HREF=\"%1\">many more...</A>"
 msgstr ""
 
-#: about/konq_aboutpage.cc:188
+#: about/konq_aboutpage.cc:271
 #, fuzzy
 msgid "URL-Completion"
 msgstr "URL"
 
-#: about/konq_aboutpage.cc:189
+#: about/konq_aboutpage.cc:272
 msgid "Manual"
 msgstr ""
 
-#: about/konq_aboutpage.cc:190
+#: about/konq_aboutpage.cc:273
 msgid "Popup"
 msgstr ""
 
-#: about/konq_aboutpage.cc:191
+#: about/konq_aboutpage.cc:274
 msgid "(Short-) Automatic"
 msgstr ""
 
-#: about/konq_aboutpage.cc:192
-#, fuzzy
-msgid "<A HREF=\"%1\">Back</A> to the Introduction"
-msgstr "<A HREF=\"%1\"> Wróćo</A>"
+#: about/konq_aboutpage.cc:276
+msgid "<a href=\"%1\">Return to Starting Points</a>"
+msgstr ""
 
-#: about/konq_aboutpage.cc:232
+#: about/konq_aboutpage.cc:321
+msgid "Tips &amp; Tricks"
+msgstr ""
+
+#: about/konq_aboutpage.cc:322
 #, fuzzy
 msgid ""
-"Use Internet-Keywords and Web-Shortcuts! By typing \"gg: KDE\" one can "
+"Use Internet-Keywords and Web-Shortcuts: by typing \"gg: KDE\" one can "
 "search the Internet, using Google, for the search phrase \"KDE\". There are "
 "a lot of Web-Shortcuts predefined to make searching for software or looking "
-"up certain words in an encyclopedia a breeze. You can even <A "
-"HREF=\"%1\">create your own</A> Web-Shortcuts!"
+"up certain words in an encyclopedia a breeze. You can even <a "
+"href=\"%1\">create your own</a> Web-Shortcuts."
 msgstr ""
 "Hesła za pytanje Skrótšenki KDE KDE Skrótšenki in<A HREF=\"%1\"></A> "
 "Skrótšenki!"
 
-#: about/konq_aboutpage.cc:237
+#: about/konq_aboutpage.cc:327
 #, fuzzy
 msgid ""
-"Use the magnifier button <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; in the "
+"Use the magnifier button <img width='16' height='16' src=\"%1\"> in the "
 "toolbar to increase the font size on your web page."
 msgstr "<IMG WIDTH=16 HEIGHT=16 SRC=\"%1\">&nbsp; in."
 
-#: about/konq_aboutpage.cc:239
+#: about/konq_aboutpage.cc:329
 #, fuzzy
 msgid ""
 "When you want to paste a new address into the Location toolbar you might "
 "want to clear the current entry by pressing the black arrow with the white "
-"cross &nbsp;<IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; in the toolbar."
+"cross <img width='16' height='16' src=\"%1\"> in the toolbar."
 msgstr "&nbsp;<IMG WIDTH=16 HEIGHT=16 SRC=\"%1\">&nbsp; in."
 
-#: about/konq_aboutpage.cc:243
+#: about/konq_aboutpage.cc:333
 #, fuzzy
 msgid ""
 "To create a link on your desktop pointing to the current page, simply drag "
@@ -2209,77 +2316,82 @@ msgid ""
 "on to the desktop, and choose \"Link\"."
 msgstr "Na Link."
 
-#: about/konq_aboutpage.cc:246
+#: about/konq_aboutpage.cc:336
 #, fuzzy
 msgid ""
-"You can also find <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; \"Full-Screen "
-"Mode\" in the Window menu. This feature is very useful for \"Talk\" sessions."
+"You can also find <img width='16' height='16' src=\"%1\"> \"Full-Screen "
+"Mode\" in the Settings menu. This feature is very useful for \"Talk\" "
+"sessions."
 msgstr "<IMG WIDTH=16 HEIGHT=16 SRC=\"%1\">&nbsp; in."
 
-#: about/konq_aboutpage.cc:249
+#: about/konq_aboutpage.cc:339
 #, fuzzy
 msgid ""
 "Divide et impera (lat. \"Divide and conquer\") - by splitting a window into "
-"two parts (e.g. Window -> <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; Split "
-"View Left/Right) you can make Konqueror appear the way you like. You can "
-"even load some example view-profiles (e.g. Midnight Commander), or create "
-"your own ones."
+"two parts (e.g. Window -> <img width='16' height='16' src=\"%1\">"
+" Split View Left/Right) you can make Konqueror appear the way you like. You "
+"can even load some example view-profiles (e.g. Midnight Commander), or "
+"create your own ones."
 msgstr "<IMG WIDTH=16 HEIGHT=16 SRC=\"%1\">&nbsp; Napohlad Lěwy Prawy."
 
-#: about/konq_aboutpage.cc:254
+#: about/konq_aboutpage.cc:344
 msgid ""
-"Use the <A HREF=\"%1\">user-agent</A> feature if the website you are "
+"Use the <a href=\"%1\">user-agent</a> feature if the website you are "
 "visiting asks you to use a different browser (and do not forget to send a "
 "complaint to the webmaster!)"
 msgstr ""
 
-#: about/konq_aboutpage.cc:257
+#: about/konq_aboutpage.cc:347
 #, fuzzy
 msgid ""
-"The <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; History in your SideBar "
-"ensures that you can keep track of the pages you have visited recently."
+"The <img width='16' height='16' src=\"%1\"> History in your SideBar ensures "
+"that you can keep track of the pages you have visited recently."
 msgstr "<IMG WIDTH=16 HEIGHT=16 SRC=\"%1\">&nbsp; in."
 
-#: about/konq_aboutpage.cc:259
-msgid "Use a caching <A HREF=\"%1\">proxy</A> to speed up your Internet connection."
+#: about/konq_aboutpage.cc:349
+msgid "Use a caching <a href=\"%1\">proxy</a> to speed up your Internet connection."
 msgstr ""
 
-#: about/konq_aboutpage.cc:261
+#: about/konq_aboutpage.cc:351
 msgid ""
 "Advanced users will appreciate the Konsole which you can embed into "
-"Konqueror (Window -> <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; Show "
-"Terminal Emulator)."
+"Konqueror (Window -> <img width='16' height='16' SRC=\"%1\"> Show Terminal "
+"Emulator)."
 msgstr ""
 
-#: about/konq_aboutpage.cc:264
+#: about/konq_aboutpage.cc:354
 msgid ""
-"Thanks to <A HREF=\"%1\">DCOP</A> you can have full control over Konqueror "
+"Thanks to <a href=\"%1\">DCOP</a> you can have full control over Konqueror "
 "using a script."
 msgstr ""
 
-#: about/konq_aboutpage.cc:282
+#: about/konq_aboutpage.cc:357
+msgid "Next: Specifications"
+msgstr ""
+
+#: about/konq_aboutpage.cc:373
 msgid "Installed Plugins"
 msgstr ""
 
-#: about/konq_aboutpage.cc:283
+#: about/konq_aboutpage.cc:374
 msgid "<td>Plugin</td><td>Description</td><td>File</td><td>Types</td>"
 msgstr ""
 
-#: about/konq_aboutpage.cc:284
+#: about/konq_aboutpage.cc:375
 #, fuzzy
 msgid "Installed"
 msgstr "Zastajene"
 
-#: about/konq_aboutpage.cc:285
+#: about/konq_aboutpage.cc:376
 msgid "<td>Mime Type</td><td>Description</td><td>Suffixes</td><td>Plugin</td>"
 msgstr ""
 
-#: about/konq_aboutpage.cc:385
+#: about/konq_aboutpage.cc:482
 #, fuzzy
 msgid "Do you want to disable showing the introduction in the webbrowsing profile?"
 msgstr "in?"
 
-#: about/konq_aboutpage.cc:387
+#: about/konq_aboutpage.cc:484
 msgid "Faster Startup?"
 msgstr ""
 
@@ -2383,7 +2495,8 @@ msgid ""
 "does not work here, as I only need the word 'days' and not the entire "
 "sentence here. Sorry.\n"
 " days"
-msgstr "URL I Wodaj\n"
+msgstr ""
+"URL I Wodaj\n"
 
 #: sidebar/trees/history_module/kcmhistory.cpp:232
 #: sidebar/trees/history_module/kcmhistory.cpp:255
@@ -2613,3 +2726,22 @@ msgid ""
 "Your emails"
 msgstr "e.werner@rz.uni-leipzig.de"
 
+#, fuzzy
+#~ msgid "Remote Folders"
+#~ msgstr "Zapisk."
+
+#, fuzzy
+#~ msgid "With Konqueror you have your filesystem at your command, browsing local or networked drives with equal ease. Thanks to the component technology used throughout KDE, Konqueror is also a full featured, easy to use and comfortable Web Browser, which you can use to explore the Internet."
+#~ msgstr "KDE."
+
+#, fuzzy
+#~ msgid "To go back to the home directory of your local filesystem press <img width='16' height='16' src=\"%1\"> &nbsp; (\"Home\"). "
+#~ msgstr "Na<IMG WIDTH=16 HEIGHT=16 SRC=\"%1\">&nbsp; "
+
+#, fuzzy
+#~ msgid "<A HREF=\"%1\">Back</A> to the Introduction"
+#~ msgstr "<A HREF=\"%1\"> Wróćo</A>"
+
+#, fuzzy
+#~ msgid "W E B B R O W S I N G"
+#~ msgstr "B B I"

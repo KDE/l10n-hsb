@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kicker\n"
-"POT-Creation-Date: 2004-12-29 14:53+0100\n"
+"POT-Creation-Date: 2005-02-03 01:19+0100\n"
 "PO-Revision-Date: 2003-06-02 17:14+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -92,36 +92,35 @@ msgstr "%1 appletowy handle"
 msgid "%1 menu"
 msgstr "%1 meni"
 
-#: core/container_applet.cpp:110
+#: core/container_applet.cpp:115
 msgid "The %1 applet could not be loaded. Please check your installation."
 msgstr ""
 
-#: core/container_applet.cpp:111
+#: core/container_applet.cpp:116
 msgid "Applet Loading Error"
 msgstr ""
 
-#: core/container_extension.cpp:1491 core/container_extension.cpp:1504
+#: core/container_extension.cpp:1432 core/container_extension.cpp:1445
 #, fuzzy
 msgid "Show panel"
 msgstr "Pokaž pask"
 
-#: core/container_extension.cpp:1495 core/container_extension.cpp:1508
+#: core/container_extension.cpp:1436 core/container_extension.cpp:1449
 #, fuzzy
 msgid "Hide panel"
 msgstr "Schowaj pask"
 
-#: core/extensionmanager.cpp:156
+#: core/extensionmanager.cpp:153
 msgid ""
 "The KDE panel (kicker) could not load the main panel due to a problem with "
 "your installation. "
 msgstr ""
 
-#: core/extensionmanager.cpp:158
+#: core/extensionmanager.cpp:155
 msgid "Fatal Error!"
 msgstr ""
 
-#: core/kickerbindings.cpp:39 ui/addcontainer_mnu.cpp:47
-#: ui/removecontainer_mnu.cpp:48
+#: core/kickerbindings.cpp:39 ui/removecontainer_mnu.cpp:48
 msgid "Panel"
 msgstr "Pask"
 
@@ -133,50 +132,62 @@ msgstr "Startowanskemu menijej wuskakować dać "
 msgid "Toggle Showing Desktop"
 msgstr "\"Dźěłowy powjerch pokazać\" zaswěćić/hasnyć"
 
-#: core/main.cpp:45
+#: core/main.cpp:44
 #, fuzzy
 msgid "The KDE panel"
 msgstr "KDE pask za dźěłowy powjerch."
 
-#: core/main.cpp:115
+#: core/main.cpp:105
 msgid "KDE Panel"
 msgstr "KDE pask"
 
-#: core/main.cpp:117
+#: core/main.cpp:107
 #, fuzzy
 msgid "(c) 1999-2004, The KDE Team"
 msgstr "(c) 1999-2002, KDE skupina"
 
-#: core/main.cpp:119
+#: core/main.cpp:109
 msgid "Current maintainer"
 msgstr ""
 
-#: core/main.cpp:127
+#: core/main.cpp:117
 msgid "Kiosk mode"
 msgstr "\"kiosk\"-modus"
 
-#: core/panelextension.cpp:238
-msgid "&Add"
-msgstr "Dod&aj"
+#: core/panelextension.cpp:251
+msgid "&Add to Panel"
+msgstr ""
 
-#: core/panelextension.cpp:240
+#: core/panelextension.cpp:255
+msgid "&Remove From Panel"
+msgstr ""
+
+#: core/panelextension.cpp:259
 #, fuzzy
 msgid "&Configure Panel..."
 msgstr "%1 &konfigurować ..."
 
-#: ui/addcontainer_mnu.cpp:41 ui/removecontainer_mnu.cpp:43
-msgid "Applet"
+#: ui/addcontainer_mnu.cpp:45
+#, fuzzy
+msgid "&Applet"
 msgstr "Applet"
 
-#: ui/addcontainer_mnu.cpp:43 ui/removecontainer_mnu.cpp:45
-msgid "Application Button"
-msgstr "Programowy knefl"
+#: ui/addcontainer_mnu.cpp:47
+#, fuzzy
+msgid "Appli&cation"
+msgstr "Programy"
 
-#: ui/addcontainer_mnu.cpp:52 ui/removecontainer_mnu.cpp:52
-msgid "Special Button"
+#: ui/addcontainer_mnu.cpp:52
+#, fuzzy
+msgid "&Panel"
+msgstr "Pask"
+
+#: ui/addcontainer_mnu.cpp:56
+#, fuzzy
+msgid "&Special Button"
 msgstr "Specialny knefl"
 
-#: ui/addspecialbutton_mnu.cpp:55 ui/k_mnu.cpp:235
+#: ui/addspecialbutton_mnu.cpp:55 ui/k_mnu.cpp:203
 msgid "Quick Browser"
 msgstr "Chwatawka"
 
@@ -184,64 +195,64 @@ msgstr "Chwatawka"
 msgid "Non-KDE Application"
 msgstr "Programy (žane KDE-programy)"
 
-#: ui/appletop_mnu.cpp:49
+#: ui/appletop_mnu.cpp:51
 msgid "&Move %1 Menu"
 msgstr ""
 
-#: ui/appletop_mnu.cpp:50
+#: ui/appletop_mnu.cpp:52
 msgid "&Move %1 Button"
 msgstr ""
 
-#: ui/appletop_mnu.cpp:51
+#: ui/appletop_mnu.cpp:53
 #, c-format
 msgid "&Move %1"
 msgstr ""
 
-#: ui/appletop_mnu.cpp:53
+#: ui/appletop_mnu.cpp:75
 msgid "&Remove %1 Menu"
 msgstr ""
 
-#: ui/appletop_mnu.cpp:54
+#: ui/appletop_mnu.cpp:76
 msgid "&Remove %1 Button"
-msgstr ""
-
-#: ui/appletop_mnu.cpp:55
-#, c-format
-msgid "&Remove %1"
-msgstr ""
-
-#: ui/appletop_mnu.cpp:65 ui/extensionop_mnu.cpp:43
-msgid "Report &Bug..."
 msgstr ""
 
 #: ui/appletop_mnu.cpp:77
 #, c-format
+msgid "&Remove %1"
+msgstr ""
+
+#: ui/appletop_mnu.cpp:91 ui/extensionop_mnu.cpp:43
+msgid "Report &Bug..."
+msgstr ""
+
+#: ui/appletop_mnu.cpp:105
+#, c-format
 msgid "&About %1"
 msgstr "W&o %1"
 
-#: ui/appletop_mnu.cpp:92
+#: ui/appletop_mnu.cpp:127
 #, fuzzy
 msgid "Applet Menu"
 msgstr "Applet"
 
-#: ui/appletop_mnu.cpp:92
+#: ui/appletop_mnu.cpp:128
 #, fuzzy
 msgid "%1 Menu"
 msgstr "%1 meni"
 
-#: ui/appletop_mnu.cpp:109
+#: ui/appletop_mnu.cpp:151
 msgid "&Properties"
 msgstr "&Swójstwa"
 
-#: ui/appletop_mnu.cpp:113 ui/extensionop_mnu.cpp:62
+#: ui/appletop_mnu.cpp:155 ui/extensionop_mnu.cpp:62
 msgid "&Configure %1..."
 msgstr "%1 &konfigurować ..."
 
-#: ui/appletop_mnu.cpp:125
+#: ui/appletop_mnu.cpp:167
 msgid "&Menu Editor"
 msgstr ""
 
-#: ui/appletop_mnu.cpp:131
+#: ui/appletop_mnu.cpp:173
 msgid "Panel Menu"
 msgstr ""
 
@@ -308,75 +319,75 @@ msgid ""
 "Do you want to select another file?"
 msgstr ""
 
-#: ui/k_mnu.cpp:204
+#: ui/k_mnu.cpp:172
 #, fuzzy
 msgid "All Applications"
 msgstr "Programy"
 
-#: ui/k_mnu.cpp:206
+#: ui/k_mnu.cpp:174
 #, fuzzy
 msgid "Actions"
 msgstr "Programy"
 
-#: ui/k_mnu.cpp:282
+#: ui/k_mnu.cpp:250
 msgid "Run Command..."
 msgstr "Startuj program..."
 
-#: ui/k_mnu.cpp:288
+#: ui/k_mnu.cpp:256
 msgid "Switch User"
 msgstr ""
 
-#: ui/k_mnu.cpp:299
+#: ui/k_mnu.cpp:267
 msgid "Save Session"
 msgstr "Sesiju zawěsćić"
 
-#: ui/k_mnu.cpp:302
+#: ui/k_mnu.cpp:270
 #, fuzzy
 msgid "Lock Session"
 msgstr "Wobrazowku zamknyć"
 
-#: ui/k_mnu.cpp:305
+#: ui/k_mnu.cpp:273
 #, fuzzy
 msgid "Log Out..."
 msgstr "\"%1\" wotzjewić..."
 
-#: ui/k_mnu.cpp:357
+#: ui/k_mnu.cpp:325
 #, fuzzy
 msgid "Lock Current && Start New Session"
 msgstr "Nowu sesiju započeć"
 
-#: ui/k_mnu.cpp:358
+#: ui/k_mnu.cpp:326
 #, fuzzy
 msgid "Start New Session"
 msgstr "Nowu sesiju započeć"
 
-#: ui/k_mnu.cpp:369
+#: ui/k_mnu.cpp:337
 msgid ""
 "_: session (location)\n"
 "%1 (%2)"
 msgstr ""
 
-#: ui/k_mnu.cpp:370
+#: ui/k_mnu.cpp:338
 msgid "Unused"
 msgstr ""
 
-#: ui/k_mnu.cpp:371
+#: ui/k_mnu.cpp:339
 msgid "Remote Login"
 msgstr ""
 
-#: ui/k_mnu.cpp:372
+#: ui/k_mnu.cpp:340
 msgid ""
 "_: user: session type\n"
 "%1: %2"
 msgstr ""
 
-#: ui/k_mnu.cpp:374
+#: ui/k_mnu.cpp:342
 msgid ""
 "_: display, virtual terminal\n"
 "%1, vt%2"
 msgstr ""
 
-#: ui/k_mnu.cpp:397
+#: ui/k_mnu.cpp:365
 msgid ""
 "<p>You have chosen to open another desktop session."
 "<br>The current session will be hidden and a new login screen will be "
@@ -388,12 +399,12 @@ msgid ""
 "between sessions.</p>"
 msgstr ""
 
-#: ui/k_mnu.cpp:408
+#: ui/k_mnu.cpp:376
 #, fuzzy
 msgid "Warning - New Session"
 msgstr "Nowu sesiju započeć"
 
-#: ui/k_mnu.cpp:409
+#: ui/k_mnu.cpp:377
 #, fuzzy
 msgid "&Start New Session"
 msgstr "Nowu sesiju započeć"
@@ -420,10 +431,22 @@ msgstr "Startuj programy"
 msgid "Most Used Applications"
 msgstr "Programy"
 
-#: ui/removeapplet_mnu.cpp:72 ui/removebutton_mnu.cpp:83
-#: ui/removeextension_mnu.cpp:93 ui/removespecialbutton_mnu.cpp:74
+#: ui/removeapplet_mnu.cpp:78 ui/removebutton_mnu.cpp:103
+#: ui/removeextension_mnu.cpp:93 ui/removespecialbutton_mnu.cpp:81
 msgid "All"
 msgstr "Wšě"
+
+#: ui/removecontainer_mnu.cpp:43
+msgid "Applet"
+msgstr "Applet"
+
+#: ui/removecontainer_mnu.cpp:45
+msgid "Application Button"
+msgstr "Programowy knefl"
+
+#: ui/removecontainer_mnu.cpp:52
+msgid "Special Button"
+msgstr "Specialny knefl"
 
 #: ui/removeextension_mnu.cpp:63
 msgid "%1 (Top)"
@@ -549,6 +572,9 @@ msgstr ""
 #, no-c-format
 msgid "&Button title:"
 msgstr ""
+
+#~ msgid "&Add"
+#~ msgstr "Dod&aj"
 
 #~ msgid "Windowlist"
 #~ msgstr "Lisćina woknow"
