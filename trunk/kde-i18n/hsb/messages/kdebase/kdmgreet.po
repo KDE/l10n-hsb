@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
-"POT-Creation-Date: 2004-04-14 01:39+0200\n"
+"POT-Creation-Date: 2004-05-20 01:17+0200\n"
 "PO-Revision-Date: 2004-04-16 16:56+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.0.1\n"
 
-#: kdmconfig.cpp:186
+#: kdmconfig.cpp:138
 msgid "[fix kdmrc!]"
 msgstr "[kdmrc dyrbi so do porjadka stajić!]"
 
@@ -78,7 +78,7 @@ msgstr "&Přiwzać"
 msgid "&Refresh"
 msgstr "&Aktualizować"
 
-#: kchooser.cpp:96 kgreeter.cpp:196
+#: kchooser.cpp:96 kgreeter.cpp:195
 msgid "&Menu"
 msgstr "&Meni"
 
@@ -91,11 +91,11 @@ msgstr "<njeznate>"
 msgid "Unknown host %1"
 msgstr "Njeznaty host %1"
 
-#: kgverify.cpp:131
+#: kgverify.cpp:132
 msgid "No greeter widget plugin loaded. Check the configuration."
 msgstr "Žadyn powitanski plugin začitany. Přepruwujće konfiguraciju."
 
-#: kgverify.cpp:325
+#: kgverify.cpp:326
 msgid ""
 "Authenticating %1 ...\n"
 "\n"
@@ -103,45 +103,44 @@ msgstr ""
 "Přepruwuju %1 ...\n"
 "\n"
 
-#: kgverify.cpp:355
+#: kgverify.cpp:330
 msgid "You are required to change your password immediately (password aged)."
 msgstr "Dyrbiće hnydom swoje hesło změnić (hesło je zestarjene)."
 
-#: kgverify.cpp:360
+#: kgverify.cpp:331
 msgid "You are required to change your password immediately (root enforced)."
 msgstr "Dyrbiće hnydom swoje hesło změnić (wot roota žadane)."
 
-#: kgverify.cpp:368
-#, c-format
+#: kgverify.cpp:332
+msgid "You are not allowed to login at the moment."
+msgstr "Njesměće so tuchwilu přizjewić."
+
+#: kgverify.cpp:333
+msgid "Home folder not available."
+msgstr "Domjacy zapisk njeeksistuje."
+
+#: kgverify.cpp:334
 msgid ""
-"_n: Your account expires tomorrow.\n"
-"Your account expires in %n days."
+"Logins are not allowed at the moment.\n"
+"Try again later."
 msgstr ""
-"Waše konto budźe za %n dnjow njepłaćiwe.\n"
-"Waše konto budźe za %n dźeń njepłaćiwe.\n"
-"Waše konto budźe za %n dnjej njepłaćiwe.\n"
-"Waše konto budźe za %n dny njepłaćiwe."
+"Přizjewjenja tuchwilu njejsu dowolene.\n"
+"Spytajće hišće raz pozdźišo."
 
-#: kgverify.cpp:369
-msgid "Your account expires today."
-msgstr "Waše konto budźe dźensa njepłaćiwe."
+#: kgverify.cpp:335
+msgid "Your login shell is not listed in /etc/shells."
+msgstr "Waš přizjewjenski přikazowy program njeje w /etc/shells."
 
-#: kgverify.cpp:377
-#, c-format
-msgid ""
-"_n: Your password expires tomorrow.\n"
-"Your password expires in %n days."
-msgstr ""
-"Waše hesło budźe za %n dnjow njepłaćiwe.\n"
-"Waše hesło budźe za %n dźeń njepłaćiwe.\n"
-"Waše hesło budźe za %n dnjej njepłaćiwe.\n"
-"Waše hesło budźe za %n dny njepłaćiwe."
+#: kgverify.cpp:336
+msgid "Root logins are not allowed."
+msgstr "Root so tu njesmě přizjewić."
 
-#: kgverify.cpp:378
-msgid "Your password expires today."
-msgstr "Waše hesło budźe dźensa njepłaćiwe."
+#: kgverify.cpp:337
+#, fuzzy
+msgid "Your account has expired; please contact your system administrator."
+msgstr "Waše konto hižo njepłaći (sće zabyli hesło změnić)."
 
-#: kgverify.cpp:398
+#: kgverify.cpp:347
 msgid ""
 "A critical error occurred.\n"
 "Please look at KDM's logfile(s) for more information\n"
@@ -151,60 +150,61 @@ msgstr ""
 "Prošu pohladajće do protokoloweje dataje KDMa dla dalšeje informacije abo "
 "skontaktujće so ze swojim administratorom."
 
-#: kgverify.cpp:405
-msgid "Home folder not available."
-msgstr "Domjacy zapisk njeeksistuje."
-
-#: kgverify.cpp:410
-msgid "Root logins are not allowed."
-msgstr "Root so tu njesmě přizjewić."
-
-#: kgverify.cpp:415
-msgid "Your login shell is not listed in /etc/shells."
-msgstr "Waš přizjewjenski přikazowy program njeje w /etc/shells."
-
-#: kgverify.cpp:420
-msgid "Your account has expired."
-msgstr "Waše konto hižo njepłaći."
-
-#: kgverify.cpp:425
-msgid "Your account has expired (failed to change password)."
-msgstr "Waše konto hižo njepłaći (sće zabyli hesło změnić)."
-
-#: kgverify.cpp:430
-msgid "You are not allowed to login at the moment."
-msgstr "Njesměće so tuchwilu přizjewić."
-
-#: kgverify.cpp:447
+#: kgverify.cpp:373
+#, c-format
+#, fuzzy
 msgid ""
-"Logins are not allowed at the moment.\n"
-"Try again later."
+"_n: Your account expires tomorrow.\n"
+"Your account expires in %n days."
 msgstr ""
-"Přizjewjenja tuchwilu njejsu dowolene.\n"
-"Spytajće hišće raz pozdźišo."
+"Waše konto budźe za %n dnjow njepłaćiwe.\n"
+"Waše konto budźe za %n dźeń njepłaćiwe.\n"
+"Waše konto budźe za %n dnjej njepłaćiwe.\n"
+"Waše konto budźe za %n dny njepłaćiwe."
 
-#: kgverify.cpp:506 kgverify.cpp:798
+#: kgverify.cpp:374
+msgid "Your account expires today."
+msgstr "Waše konto budźe dźensa njepłaćiwe."
+
+#: kgverify.cpp:381
+#, c-format
+#, fuzzy
+msgid ""
+"_n: Your password expires tomorrow.\n"
+"Your password expires in %n days."
+msgstr ""
+"Waše hesło budźe za %n dnjow njepłaćiwe.\n"
+"Waše hesło budźe za %n dźeń njepłaćiwe.\n"
+"Waše hesło budźe za %n dnjej njepłaćiwe.\n"
+"Waše hesło budźe za %n dny njepłaćiwe."
+
+#: kgverify.cpp:382
+msgid "Your password expires today."
+msgstr "Waše hesło budźe dźensa njepłaćiwe."
+
+#: kgverify.cpp:449 kgverify.cpp:735
 msgid "Authentication failed"
 msgstr "Přizjewjenje je so zwrěšćiło"
 
-#: kgverify.cpp:635
-msgid "Authenticated user (%1) does not match requested user (%2).\n"
+#: kgverify.cpp:579
+msgid ""
+"Authenticated user (%1) does not match requested user (%2).\n"
 msgstr ""
 
-#: kgverify.cpp:792
+#: kgverify.cpp:729
 msgid "Warning: Caps Lock on"
 msgstr "Kedźbu: Stajne wulkopisanje zaswěćene"
 
-#: kgverify.cpp:796
+#: kgverify.cpp:733
 #, fuzzy
 msgid "Change failed"
 msgstr "Přizjewjenje je so zwrěšćiło"
 
-#: kgverify.cpp:798
+#: kgverify.cpp:735
 msgid "Login failed"
 msgstr "Přizjewjenje je so zwrěšćiło"
 
-#: kgverify.cpp:902
+#: kgverify.cpp:839
 msgid "Changing authentication token"
 msgstr ""
 
@@ -239,45 +239,48 @@ msgstr "&Hnydom"
 msgid "Try &now"
 msgstr "&Nětko spytać"
 
-#: kgreeter.cpp:191
+#: kgreeter.cpp:190
 #, fuzzy
 msgid "L&ogin"
 msgstr "&Mjeno wužiwarja:"
 
-#: kgreeter.cpp:194
+#: kgreeter.cpp:193
 msgid "&Clear"
 msgstr "&Pólko wuprózdnić"
 
-#: kgreeter.cpp:232
+#: kgreeter.cpp:231
 #, fuzzy
 msgid "Session &Type"
 msgstr "Druži&na sesije:"
 
-#: kgreeter.cpp:238
+#: kgreeter.cpp:237
 msgid "&Authentication Method"
 msgstr ""
 
-#: kgreeter.cpp:243
+#: kgreeter.cpp:242
 msgid "&Remote Login"
 msgstr "&Přizjewjenje na druhim ličaku"
 
-#: kgreeter.cpp:465
+#: kgreeter.cpp:462
 msgid "Custom"
 msgstr ""
 
-#: kgreeter.cpp:466
+#: kgreeter.cpp:463
 msgid "Failsafe"
 msgstr ""
 
-#: kgreeter.cpp:561
+#: kgreeter.cpp:558
 msgid " (previous)"
 msgstr ""
 
-#: kgreeter.cpp:619
+#: kgreeter.cpp:616
 msgid ""
 "Your saved session type '%1' is not valid any more.\n"
 "Please select a new one, otherwise 'default' will be used."
 msgstr ""
+
+#~ msgid "Your account has expired."
+#~ msgstr "Waše konto hižo njepłaći."
 
 #~ msgid "Root &password:"
 #~ msgstr "Hesło &roota:"
@@ -300,4 +303,3 @@ msgstr ""
 
 #~ msgid "Your password has expired."
 #~ msgstr "Waše hesło hižo njepłaći."
-
