@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdvi\n"
-"POT-Creation-Date: 2004-04-15 01:34+0200\n"
+"POT-Creation-Date: 2004-07-28 01:19+0200\n"
 "PO-Revision-Date: 2003-06-18 16:18+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -53,8 +53,7 @@ msgstr ""
 
 #: TeXFont_PFB.cpp:157
 #, c-format
-msgid ""
-"FreeType reported an error when setting the character size for font file %1."
+msgid "FreeType reported an error when setting the character size for font file %1."
 msgstr ""
 
 #: TeXFont_PFB.cpp:173
@@ -118,12 +117,12 @@ msgid ""
 "Your emails"
 msgstr "e.werner@rz.uni-leipzig.de"
 
-#: documentWidget.cpp:207
+#: documentWidget.cpp:265
 #, c-format
 msgid "Link to %1"
 msgstr ""
 
-#: documentWidget.cpp:230
+#: documentWidget.cpp:288
 msgid "line %1 of %2"
 msgstr ""
 
@@ -139,8 +138,7 @@ msgid ""
 msgstr ""
 
 #: dviFile.cpp:120
-msgid ""
-"The DVI file is badly corrupted. KDVI was not able to find the postamble."
+msgid "The DVI file is badly corrupted. KDVI was not able to find the postamble."
 msgstr "DVI-dataja je chětro skóncowana. Kdvi njemóžeše postamblu namakać."
 
 #: dviFile.cpp:135
@@ -163,68 +161,69 @@ msgstr "Pomjatk njedosaha za začitanje DVI-dataje."
 msgid "Could not load the DVI-file."
 msgstr ""
 
-#: dviwin.cpp:228 dviwin.cpp:338
+#: dviwin.cpp:230
 msgid ""
-"<qt><strong>File corruption!</strong> KDVI had trouble interpreting your DVI "
-"file. Most likely this means that the DVI file is broken.</qt>"
+"<qt><strong>File corruption!</strong>"
+" KDVI had trouble interpreting your DVI file. Most likely this means that "
+"the DVI file is broken.</qt>"
 msgstr ""
 
-#: dviwin.cpp:230 dviwin.cpp:340 dviwin.cpp:609
+#: dviwin.cpp:232 dviwin.cpp:493
 msgid "DVI File Error"
 msgstr ""
 
-#: dviwin.cpp:249 dviwin.cpp:359
+#: dviwin.cpp:258
 msgid "KDVI: Information"
 msgstr ""
 
-#: dviwin.cpp:264 dviwin.cpp:374
+#: dviwin.cpp:273
 msgid ""
 "<qt>This DVI file contains source file information. You may click into the "
 "text with the middle mouse button, and an editor will open the TeX-source "
 "file immediately.</qt>"
 msgstr ""
 
-#: dviwin.cpp:273 dviwin.cpp:383
+#: dviwin.cpp:282
 msgid "Explain in more detail..."
 msgstr ""
 
-#: dviwin.cpp:432
+#: dviwin.cpp:316
 msgid "Embedding PostScript Files"
 msgstr ""
 
-#: dviwin.cpp:463
+#: dviwin.cpp:347
 msgid "Not all PostScript files could be embedded into your document."
 msgstr ""
 
-#: dviwin.cpp:466
+#: dviwin.cpp:350
 msgid ""
 "All external PostScript files were embedded into your document. You will "
 "probably want to save the DVI file now."
 msgstr ""
 
-#: dviwin.cpp:581
+#: dviwin.cpp:465
 msgid ""
-"<qt><strong>File error!</strong> The specified file '%1' does not exist. "
-"KDVI already tried to add the ending '.dvi'</qt>"
+"<qt><strong>File error.</strong> The specified file '%1' does not exist. "
+"KDVI already tried to add the ending '.dvi'.</qt>"
 msgstr ""
 
-#: dviwin.cpp:583
+#: dviwin.cpp:467
 msgid "File Error!"
 msgstr ""
 
-#: dviwin.cpp:594
+#: dviwin.cpp:478
 msgid ""
 "<qt>Could not open file <nobr><strong>%1</strong></nobr> which has type "
 "<strong>%2</strong>. KDVI can only load DVI (.dvi) files.</qt>"
 msgstr ""
 
-#: dviwin.cpp:607
+#: dviwin.cpp:491
 msgid ""
 "<qt>File corruption! KDVI had trouble interpreting your DVI file. Most "
 "likely this means that the DVI file is broken.</qt>"
 msgstr ""
 
-#: dviwin.cpp:803
+#: dviwin.cpp:686
 msgid ""
 "<qt>You have asked KDVI to locate the place in the DVI file which "
 "corresponds to line %1 in the TeX-file <strong>%2</strong>. It seems, "
@@ -233,57 +232,60 @@ msgid ""
 "how to include this information. Press the F1 key to open the manual.</qt>"
 msgstr ""
 
-#: dviwin.cpp:808 dviwin.cpp:847
+#: dviwin.cpp:691 dviwin.cpp:730
 msgid "Could Not Find Reference"
 msgstr ""
 
-#: dviwin.cpp:845
+#: dviwin.cpp:728
 msgid ""
 "<qt>KDVI was not able to locate the place in the DVI file which corresponds "
 "to line %1 in the TeX-file <strong>%2</strong>.</qt>"
 msgstr ""
 
-#: dviwin.cpp:956
+#: dviwin.cpp:843
 msgid ""
 "The DVI-file refers to the TeX-file <strong>%1</strong> which could not be "
 "found."
 msgstr ""
 
-#: dviwin.cpp:959
+#: dviwin.cpp:846
 msgid "Could Not Find File"
 msgstr ""
 
-#: dviwin.cpp:967
+#: dviwin.cpp:854
 msgid ""
 "You have not yet specified an editor for inverse search. Please choose your "
 "favorite editor in the <strong>DVI options dialog</strong> which you will "
 "find in the <strong>Settings</strong>-menu."
 msgstr ""
 
-#: dviwin.cpp:972
+#: dviwin.cpp:859
 msgid "Need to Specify Editor"
 msgstr ""
 
-#: dviwin.cpp:973
+#: dviwin.cpp:860
 msgid "Use KDE's Editor Kate for Now"
 msgstr ""
 
-#: dviwin.cpp:1005
+#: dviwin.cpp:892
 msgid ""
-"<qt>The external program<br><br><tt><strong>%1</strong></tt><br/><br/>which "
-"was used to call the editor for inverse search, reported an error. You might "
-"wish to look at the <strong>document info dialog</strong> which you will "
-"find in the File-Menu for a precise error report. The manual for KDVI "
-"contains a detailed explanation how to set up your editor for use with KDVI, "
-"and a list of common problems.</qt>"
+"<qt>The external program"
+"<br>"
+"<br><tt><strong>%1</strong></tt>"
+"<br/>"
+"<br/>which was used to call the editor for inverse search, reported an "
+"error. You might wish to look at the <strong>document info dialog</strong> "
+"which you will find in the File-Menu for a precise error report. The manual "
+"for KDVI contains a detailed explanation how to set up your editor for use "
+"with KDVI, and a list of common problems.</qt>"
 msgstr ""
 
-#: dviwin.cpp:1012
+#: dviwin.cpp:898
 msgid "Starting the editor..."
 msgstr "Startuju editor..."
 
 #: dviwin_draw.cpp:268
-msgid "The DVI code set a character of an unknown font"
+msgid "The DVI code set a character of an unknown font."
 msgstr ""
 
 #: dviwin_draw.cpp:293 dviwin_prescan.cpp:570
@@ -310,52 +312,7 @@ msgstr ""
 msgid "The unknown op-code %1 was encountered."
 msgstr ""
 
-#: dviwin_export.cpp:58
-msgid ""
-"<qt>This function exports the DVI file to a plain text. Unfortunately, this "
-"version of KDVI treats only plain ASCII characters properly. Symbols, "
-"ligatures, mathematical formulae, accented characters, and non-english text, "
-"such as Russian or Korean, will most likely be messed up completely.</qt>"
-msgstr ""
-
-#: dviwin_export.cpp:62 dviwin_textsearch.cpp:53
-msgid "Function May Not Work as Expected"
-msgstr ""
-
-#: dviwin_export.cpp:63
-msgid "Continue Anyway"
-msgstr ""
-
-#: dviwin_export.cpp:71
-msgid "*.txt|Plain Text (Latin 1) (*.txt)"
-msgstr ""
-
-#: dviwin_export.cpp:71 dviwin_export.cpp:175 dviwin_export.cpp:264
-msgid "Export File As"
-msgstr ""
-
-#: dviwin_export.cpp:76 dviwin_export.cpp:180 dviwin_export.cpp:269
-#: kdvi_multipage.cpp:213
-msgid ""
-"The file %1\n"
-"exists. Do you want to overwrite that file?"
-msgstr ""
-
-#: dviwin_export.cpp:77 dviwin_export.cpp:181 dviwin_export.cpp:270
-#: kdvi_multipage.cpp:214
-msgid "Overwrite File"
-msgstr "Dataju přepisać"
-
-#: dviwin_export.cpp:89
-msgid "Exporting to text..."
-msgstr "Eksportuju tekst..."
-
-#: dviwin_export.cpp:89 dviwin_textsearch.cpp:104 dviwin_textsearch.cpp:191
-#: fontprogress.cpp:30
-msgid "Abort"
-msgstr "Přetorhnyć"
-
-#: dviwin_export.cpp:160
+#: dviwin_export.cpp:80
 msgid ""
 "KDVI could not locate the program 'dvipdfm' on your computer. That program "
 "is essential for the export function to work. You can, however, convert the "
@@ -367,30 +324,51 @@ msgid ""
 "variable when looking for programs."
 msgstr ""
 
-#: dviwin_export.cpp:175
+#: dviwin_export.cpp:95
 msgid "*.pdf|Portable Document Format (*.pdf)"
 msgstr "*.pdf|Portable Document Format (*.pdf)"
 
-#: dviwin_export.cpp:188
+#: dviwin_export.cpp:95 dviwin_export.cpp:181
+#: kdvi_multipage_texthandling.cpp:68
+msgid "Export File As"
+msgstr ""
+
+#: dviwin_export.cpp:100 dviwin_export.cpp:186 kdvi_multipage.cpp:308
+#: kdvi_multipage_texthandling.cpp:73
+msgid ""
+"The file %1\n"
+"exists. Do you want to overwrite that file?"
+msgstr ""
+
+#: dviwin_export.cpp:101 dviwin_export.cpp:187 kdvi_multipage.cpp:309
+#: kdvi_multipage_texthandling.cpp:74
+msgid "Overwrite File"
+msgstr "Dataju přepisać"
+
+#: dviwin_export.cpp:108
 msgid "Using dvipdfm to export the file to PDF"
 msgstr ""
 
-#: dviwin_export.cpp:190
+#: dviwin_export.cpp:110
 msgid ""
-"KDVI is currently using the external program 'dvipdfm' to convert your DVI-"
-"file to PDF. Sometimes that can take a while because dvipdfm needs to "
+"KDVI is currently using the external program 'dvipdfm' to convert your "
+"DVI-file to PDF. Sometimes that can take a while because dvipdfm needs to "
 "generate its own bitmap fonts Please be patient."
 msgstr ""
 
-#: dviwin_export.cpp:194
+#: dviwin_export.cpp:114
 msgid "Waiting for dvipdfm to finish..."
 msgstr ""
 
-#: dviwin_export.cpp:197 dviwin_export.cpp:290
+#: dviwin_export.cpp:115
+msgid "dvipdfm progress dialog"
+msgstr ""
+
+#: dviwin_export.cpp:117 dviwin_export.cpp:207
 msgid "Please be patient"
 msgstr "Prošu dočakajće"
 
-#: dviwin_export.cpp:213
+#: dviwin_export.cpp:133
 msgid ""
 "<qt>The external program 'dvipdf', which was used to export the file, "
 "reported an error. You might wish to look at the <strong>document info "
@@ -398,36 +376,40 @@ msgid ""
 "report.</qt>"
 msgstr ""
 
-#: dviwin_export.cpp:219
+#: dviwin_export.cpp:136
 msgid "Export: %1 to PDF"
 msgstr "Eksportuju: %1 do PDF-dataje"
 
-#: dviwin_export.cpp:264
+#: dviwin_export.cpp:181
 msgid "*.ps|PostScript (*.ps)"
 msgstr "*.ps|PostScript (*.ps)"
 
-#: dviwin_export.cpp:281
+#: dviwin_export.cpp:198
 msgid "Using dvips to export the file to PostScript"
 msgstr ""
 
-#: dviwin_export.cpp:283
+#: dviwin_export.cpp:200
 msgid ""
-"KDVI is currently using the external program 'dvips' to convert your DVI-"
-"file to PostScript. Sometimes that can take a while because dvips needs to "
-"generate its own bitmap fonts Please be patient."
+"KDVI is currently using the external program 'dvips' to convert your "
+"DVI-file to PostScript. Sometimes that can take a while because dvips needs "
+"to generate its own bitmap fonts Please be patient."
 msgstr ""
 
-#: dviwin_export.cpp:287
+#: dviwin_export.cpp:204
 msgid "Waiting for dvips to finish..."
 msgstr ""
 
-#: dviwin_export.cpp:349
+#: dviwin_export.cpp:205
+msgid "dvips progress dialog"
+msgstr ""
+
+#: dviwin_export.cpp:266
 msgid ""
 "<qt>Failed to copy the DVI-file <strong>%1</strong> to the temporary file "
 "<strong>%2</strong>. The export or print command is aborted.</qt>"
 msgstr ""
 
-#: dviwin_export.cpp:365
+#: dviwin_export.cpp:282
 msgid ""
 "<qt>The external program 'dvips', which was used to export the file, "
 "reported an error. You might wish to look at the <strong>document info "
@@ -435,7 +417,7 @@ msgid ""
 "report.</qt>"
 msgstr ""
 
-#: dviwin_export.cpp:369
+#: dviwin_export.cpp:285
 msgid "Export: %1 to PostScript"
 msgstr ""
 
@@ -445,47 +427,11 @@ msgid "Embedding %1"
 msgstr ""
 
 #: dviwin_prescan.cpp:86
-msgid ""
-"Page %1: The PostScript file <strong>%2</strong> could not be found.<br>"
+msgid "Page %1: The PostScript file <strong>%2</strong> could not be found.<br>"
 msgstr ""
 
 #: dviwin_prescan.cpp:227
 msgid "The papersize data '%1' could not be parsed."
-msgstr ""
-
-#: dviwin_textsearch.cpp:49
-msgid ""
-"<qt>This function searches the DVI file for plain text. Unfortunately, this "
-"version of KDVI treats only plain ASCII characters properly. Symbols, "
-"ligatures, mathematical formulae, accented characters, and non-english text, "
-"such as Russian or Korean, will most likely be messed up completely. "
-"Continue anyway?</qt>"
-msgstr ""
-
-#: dviwin_textsearch.cpp:104 dviwin_textsearch.cpp:191
-msgid "Searching for '%1'..."
-msgstr ""
-
-#: dviwin_textsearch.cpp:136
-msgid ""
-"<qt>The search string <strong>%1</strong> could not be found till the end of "
-"the document. Should the search be restarted from the beginning of the "
-"document?</qt>"
-msgstr ""
-
-#: dviwin_textsearch.cpp:139 dviwin_textsearch.cpp:221
-msgid "Text Not Found"
-msgstr ""
-
-#: dviwin_textsearch.cpp:154 dviwin_textsearch.cpp:263
-msgid "<qt>The search string <strong>%1</strong> could not be found.</qt>"
-msgstr ""
-
-#: dviwin_textsearch.cpp:218
-msgid ""
-"<qt>The search string <strong>%1</strong> could not be found till the "
-"beginning of the document. Should the search be restarted from the end of "
-"the document?</qt>"
 msgstr ""
 
 #: fontpool.cpp:73
@@ -591,6 +537,11 @@ msgstr ""
 msgid "Currently generating %1 at %2 dpi"
 msgstr ""
 
+#: fontprogress.cpp:30 kdvi_multipage_texthandling.cpp:83
+#: kdvi_multipage_texthandling.cpp:194 kdvi_multipage_texthandling.cpp:314
+msgid "Abort"
+msgstr "Přetorhnyć"
+
 #: fontprogress.cpp:34
 msgid "What's going on here?"
 msgstr ""
@@ -661,106 +612,195 @@ msgstr ""
 msgid "Generator/Date"
 msgstr ""
 
-#: kdvi_multipage.cpp:127
+#: kdvi_multipage.cpp:107
 msgid "Document &Info"
 msgstr ""
 
-#: kdvi_multipage.cpp:134
+#: kdvi_multipage.cpp:111
+msgid "Single Page"
+msgstr ""
+
+#: kdvi_multipage.cpp:112
+msgid "Continuous"
+msgstr ""
+
+#: kdvi_multipage.cpp:113
+msgid "Continuous - Facing"
+msgstr ""
+
+#: kdvi_multipage.cpp:114
+msgid "View Mode"
+msgstr ""
+
+#: kdvi_multipage.cpp:123
 msgid "Embed External PostScript Files..."
 msgstr ""
 
-#: kdvi_multipage.cpp:144
+#: kdvi_multipage.cpp:137
 msgid "Enable All Warnings && Messages"
 msgstr ""
 
-#: kdvi_multipage.cpp:145
+#: kdvi_multipage.cpp:138
 msgid "PostScript..."
 msgstr ""
 
-#: kdvi_multipage.cpp:146
+#: kdvi_multipage.cpp:139
 msgid "PDF..."
 msgstr ""
 
-#: kdvi_multipage.cpp:147
+#: kdvi_multipage.cpp:140
 msgid "Text..."
 msgstr ""
 
-#: kdvi_multipage.cpp:149
+#: kdvi_multipage.cpp:142
 msgid "&DVI Options..."
 msgstr ""
 
-#: kdvi_multipage.cpp:151
+#: kdvi_multipage.cpp:144
 msgid "About KDVI"
 msgstr ""
 
-#: kdvi_multipage.cpp:152
+#: kdvi_multipage.cpp:145
 msgid "KDVI Handbook"
 msgstr ""
 
-#: kdvi_multipage.cpp:153
+#: kdvi_multipage.cpp:146
 msgid "Report Bug in KDVI..."
 msgstr ""
 
-#: kdvi_multipage.cpp:202
+#: kdvi_multipage.cpp:297
 msgid "Save File As"
 msgstr ""
 
-#: kdvi_multipage.cpp:274
+#: kdvi_multipage.cpp:425
 #, c-format
 msgid "Loading file %1"
 msgstr ""
 
-#: kdvi_multipage.cpp:312
-msgid "*.dvi *.DVI|TeX Device Independent files (*.dvi)"
+#: kdvi_multipage.cpp:459
+msgid "*.dvi *.DVI|TeX Device Independent Files (*.dvi)"
 msgstr ""
 
-#: kdvi_multipage.cpp:429
+#: kdvi_multipage.cpp:694
 msgid "the KDVI plugin"
 msgstr ""
 
-#: kdvi_multipage.cpp:434
+#: kdvi_multipage.cpp:699
 msgid ""
 "A previewer for Device Independent files (DVI files) produced by the TeX "
-"typesetting system.<br>Based on kdvi 0.4.3 and on xdvik, version 18f."
-"<br><hr>For latest information, visit <a href=\"http://devel-home.kde.org/"
-"~kdvi\">KDVI's Homepage</a>."
+"typesetting system."
+"<br>Based on kdvi 0.4.3 and on xdvik, version 18f."
+"<br>"
+"<hr>For latest information, visit <a "
+"href=\"http://devel-home.kde.org/~kdvi\">KDVI's Homepage</a>."
 msgstr ""
 
-#: kdvi_multipage.cpp:440
+#: kdvi_multipage.cpp:705
 msgid "Authors"
 msgstr ""
 
-#: kdvi_multipage.cpp:441
+#: kdvi_multipage.cpp:706
 msgid ""
-"Stefan Kebekus<br><a href=\"http://www.mi.uni-koeln.de/~kebekus\">http://www."
-"mi.uni-koeln.de/~kebekus</a><br><a href=\"mailto:kebekus@kde.org"
-"\">kebekus@kde.org</a><br>Current maintainer of kdvi. Major rewrite of "
-"version 0.4.3.Implementation of hyperlinks.<br><hr>Philipp "
-"Lehmann<br>testing and bug reporting<hr>Markku Hinhala<br>Author of kdvi "
-"0.4.3<hr>Nicolai Langfeldt<br>Maintainer of xdvik<hr>Paul Vojta<br> Author "
-"of xdvi<br><hr>Many others. Really, lots of people who were involved in "
-"kdvi, xdvik and xdvi. I apologize to those who I did not mention here. "
-"Please send me an email if you think your name belongs here."
+"Stefan Kebekus"
+"<br><a "
+"href=\"http://www.mi.uni-koeln.de/~kebekus\">"
+"http://www.mi.uni-koeln.de/~kebekus</a>"
+"<br><a href=\"mailto:kebekus@kde.org\">kebekus@kde.org</a>"
+"<br>Current maintainer of kdvi. Major rewrite of version "
+"0.4.3.Implementation of hyperlinks."
+"<br>"
+"<hr>Philipp Lehmann"
+"<br>testing and bug reporting"
+"<hr>Markku Hinhala"
+"<br>Author of kdvi 0.4.3"
+"<hr>Nicolai Langfeldt"
+"<br>Maintainer of xdvik"
+"<hr>Paul Vojta"
+"<br> Author of xdvi"
+"<br>"
+"<hr>"
+"Many others. Really, lots of people who were involved in kdvi, xdvik and "
+"xdvi. I apologize to those who I did not mention here. Please send me an "
+"email if you think your name belongs here."
 msgstr ""
 
-#: kdvi_multipage.cpp:471 kdvi_multipage.cpp:728
+#: kdvi_multipage.cpp:737 kdvi_multipage.cpp:999
 msgid "KDVI"
 msgstr ""
 
-#: kdvi_multipage.cpp:568
+#: kdvi_multipage.cpp:838
 #, c-format
 msgid "Print %1"
 msgstr ""
 
-#: kdvi_multipage.cpp:572
+#: kdvi_multipage.cpp:842
 msgid ""
 "The list of pages you selected was empty.\n"
 "Maybe you made an error in selecting the pages, e.g. by giving an invalid "
 "range like '7-2'."
 msgstr ""
 
-#: kdvi_multipage.cpp:709
+#: kdvi_multipage.cpp:977
 msgid "All messages and warnings will now be shown."
+msgstr ""
+
+#: kdvi_multipage_texthandling.cpp:55
+msgid ""
+"<qt>This function exports the DVI file to a plain text. Unfortunately, this "
+"version of KDVI treats only plain ASCII characters properly. Symbols, "
+"ligatures, mathematical formulae, accented characters, and non-english text, "
+"such as Russian or Korean, will most likely be messed up completely.</qt>"
+msgstr ""
+
+#: kdvi_multipage_texthandling.cpp:59 kdvi_multipage_texthandling.cpp:128
+msgid "Function May Not Work as Expected"
+msgstr ""
+
+#: kdvi_multipage_texthandling.cpp:60
+msgid "Continue Anyway"
+msgstr ""
+
+#: kdvi_multipage_texthandling.cpp:68
+msgid "*.txt|Plain Text (Latin 1) (*.txt)"
+msgstr ""
+
+#: kdvi_multipage_texthandling.cpp:83
+msgid "Exporting to text..."
+msgstr "Eksportuju tekst..."
+
+#: kdvi_multipage_texthandling.cpp:124
+msgid ""
+"<qt>This function searches the DVI file for plain text. Unfortunately, this "
+"version of KDVI treats only plain ASCII characters properly. Symbols, "
+"ligatures, mathematical formulae, accented characters, and non-english text, "
+"such as Russian or Korean, will most likely be messed up completely. "
+"Continue anyway?</qt>"
+msgstr ""
+
+#: kdvi_multipage_texthandling.cpp:194 kdvi_multipage_texthandling.cpp:314
+msgid "Searching for '%1'..."
+msgstr ""
+
+#: kdvi_multipage_texthandling.cpp:228
+msgid ""
+"<qt>The search string <strong>%1</strong>"
+" could not be found till the end of the document. Should the search be "
+"restarted from the beginning of the document?</qt>"
+msgstr ""
+
+#: kdvi_multipage_texthandling.cpp:231 kdvi_multipage_texthandling.cpp:348
+msgid "Text Not Found"
+msgstr ""
+
+#: kdvi_multipage_texthandling.cpp:284 kdvi_multipage_texthandling.cpp:403
+msgid "<qt>The search string <strong>%1</strong> could not be found.</qt>"
+msgstr ""
+
+#: kdvi_multipage_texthandling.cpp:345
+msgid ""
+"<qt>The search string <strong>%1</strong> could not be found till the "
+"beginning of the document. Should the search be restarted from the end of "
+"the document?</qt>"
 msgstr ""
 
 #: optionDialogFontsWidget.cpp:51
@@ -828,45 +868,53 @@ msgstr ""
 
 #: psgs.cpp:220
 msgid ""
-"<qt><p>The Ghostview program, which KDVI uses internally to display the "
+"<qt>"
+"<p>The Ghostview program, which KDVI uses internally to display the "
 "PostScript graphics that is included in this DVI file, is generally able to "
 "write its output in a variety of formats. The sub-programs that Ghostview "
 "uses for these tasks are called 'device drivers'; there is one device driver "
 "for each format that Ghostview is able to write. Different versions of "
 "Ghostview often have different sets of device drivers available. It seems "
 "that the version of Ghostview that is installed on this computer does not "
-"contain <strong>any</strong> of the device drivers that are known to KDVI.</"
-"p><p>It seems unlikely that a regular installation of Ghostview would not "
+"contain <strong>any</strong> of the device drivers that are known to "
+"KDVI.</p>"
+"<p>It seems unlikely that a regular installation of Ghostview would not "
 "contain these drivers. This error may therefore point to a serious "
-"misconfiguration of the Ghostview installation on your computer.</p><p>If "
-"you want to fix the problems with Ghostview, you can use the command "
+"misconfiguration of the Ghostview installation on your computer.</p>"
+"<p>If you want to fix the problems with Ghostview, you can use the command "
 "<strong>gs --help</strong> to display the list of device drivers contained "
 "in Ghostview. Among others, KDVI can use the 'png256', 'jpeg' and 'pnm' "
 "drivers. Note that KDVI needs to be restarted to re-enable PostScript "
 "support.</p></qt>"
 msgstr ""
 
-#: rc.cpp:2
+#: rc.cpp:4
+#, no-c-format
 msgid "Export As"
 msgstr ""
 
-#: rc.cpp:3
+#: rc.cpp:8
+#, no-c-format
 msgid "Go"
 msgstr ""
 
-#: rc.cpp:7
+#: rc.cpp:16
+#, no-c-format
 msgid "PostScript Type1 Fonts"
 msgstr ""
 
-#: rc.cpp:8
+#: rc.cpp:18
+#, no-c-format
 msgid "Use Type 1 fonts if available"
 msgstr ""
 
-#: rc.cpp:9 rc.cpp:16 rc.cpp:22 rc.cpp:25
+#: rc.cpp:20 rc.cpp:34 rc.cpp:47 rc.cpp:53
+#, no-c-format
 msgid "If in doubt, enable this option."
 msgstr ""
 
-#: rc.cpp:10
+#: rc.cpp:22
+#, no-c-format
 msgid ""
 "On many modern TeX installations, the typical fonts used in a TeX document "
 "are included both in the traditional MetaFont- and in the PostScript Type 1 "
@@ -877,17 +925,20 @@ msgid ""
 "the PostScript fonts, such as missing or wrong characters, etc."
 msgstr ""
 
-#: rc.cpp:11
+#: rc.cpp:24
+#, no-c-format
 msgid "Use font hinting"
 msgstr ""
 
-#: rc.cpp:12
+#: rc.cpp:26
+#, no-c-format
 msgid ""
 "You should enable this, if the use of font hinting improves readability on "
 "your machine."
 msgstr ""
 
-#: rc.cpp:13
+#: rc.cpp:28
+#, no-c-format
 msgid ""
 "Many modern fonts contain \"font hinting\" information which can be used to "
 "improve the appearance of a font on low-resolution displays, such as a "
@@ -895,31 +946,38 @@ msgid ""
 "\"improved\" fonts quite ugly and prefer to have this option disabled."
 msgstr ""
 
-#: rc.cpp:14
+#: rc.cpp:30
+#, no-c-format
 msgid "PK Fonts"
 msgstr ""
 
-#: rc.cpp:15
+#: rc.cpp:32
+#, no-c-format
 msgid "Generate missing fonts"
 msgstr ""
 
-#: rc.cpp:17
+#: rc.cpp:36
+#, no-c-format
 msgid ""
 "Allows KDVI to use MetaFont to produce bitmap fonts. Unless you have a very "
 "specific reason, you probably want to enable this option."
 msgstr ""
 
-#: rc.cpp:18
+#: rc.cpp:38
+#, no-c-format
 msgid "Metafont mode:"
 msgstr ""
 
-#: rc.cpp:19
+#: rc.cpp:40
+#, no-c-format
 msgid "LaserJet 4 is usually a good choice."
 msgstr ""
 
-#: rc.cpp:20
+#: rc.cpp:42
+#, no-c-format
 msgid ""
-"<p>Chooses the type of bitmap fonts used for the display. As a general rule, "
+"<p>"
+"Chooses the type of bitmap fonts used for the display. As a general rule, "
 "the higher the dpi value, the better quality of the output. On the other "
 "hand, large dpi fonts use more resources and make KDVI slower.</p>\n"
 "<p>If you are low on hard disk space, or have a slow machine, you may want "
@@ -927,11 +985,13 @@ msgid ""
 "generating several bitmap versions of the same font.</p>"
 msgstr ""
 
-#: rc.cpp:21
+#: rc.cpp:45
+#, no-c-format
 msgid "Show PostScript specials"
 msgstr ""
 
-#: rc.cpp:23
+#: rc.cpp:49
+#, no-c-format
 msgid ""
 "Some DVI files contain PostScript graphics. If enabled, KDVI will use the "
 "Ghostview PostScript interpreter to display these. You probably want to "
@@ -939,35 +999,42 @@ msgid ""
 "broken, or too large for your machine."
 msgstr ""
 
-#: rc.cpp:24
+#: rc.cpp:51
+#, no-c-format
 msgid "Show hyperlinks"
 msgstr ""
 
-#: rc.cpp:26
+#: rc.cpp:55
+#, no-c-format
 msgid ""
-"For your convenience, some DVI files contain hyperlinks which are cross-"
-"references or point to external documents. You probably want to enable this "
-"option, unless you don't want the blue underlines which KDVI uses to mark "
-"the hyperlinks."
+"For your convenience, some DVI files contain hyperlinks which are "
+"cross-references or point to external documents. You probably want to enable "
+"this option, unless you don't want the blue underlines which KDVI uses to "
+"mark the hyperlinks."
 msgstr ""
 
-#: rc.cpp:27
+#: rc.cpp:57
+#, no-c-format
 msgid "Editor for Inverse Search"
 msgstr ""
 
-#: rc.cpp:28
+#: rc.cpp:59
+#, no-c-format
 msgid "What is 'inverse search'? "
 msgstr ""
 
-#: rc.cpp:29
+#: rc.cpp:61
+#, no-c-format
 msgid "inv-search"
 msgstr ""
 
-#: rc.cpp:30
+#: rc.cpp:63
+#, no-c-format
 msgid "Choose an editor which is used in inverse search."
 msgstr ""
 
-#: rc.cpp:31
+#: rc.cpp:65
+#, no-c-format
 msgid ""
 "<p>Some DVI files contain 'inverse search' information. If such a DVI file "
 "is loaded, you can right-click into KDVI and an editor will open, load the "
@@ -977,20 +1044,23 @@ msgid ""
 "inverse search.</p>"
 msgstr ""
 
-#: rc.cpp:32
+#: rc.cpp:68
+#, no-c-format
 msgid "Description:"
 msgstr ""
 
-#: rc.cpp:33
+#: rc.cpp:70
+#, no-c-format
 msgid "Shell command:"
 msgstr ""
 
-#: rc.cpp:35
-msgid ""
-"Explains about the editor's capabilities in conjunction with inverse search."
+#: rc.cpp:73
+#, no-c-format
+msgid "Explains about the editor's capabilities in conjunction with inverse search."
 msgstr ""
 
-#: rc.cpp:36
+#: rc.cpp:75
+#, no-c-format
 msgid ""
 "<p>Not all editors are well suited for inverse search. For instance, many "
 "editors have no command like 'If the file is not yet loaded, load it. "
@@ -1003,18 +1073,21 @@ msgid ""
 "please write to kebekus@kde.org.</p>"
 msgstr ""
 
-#: rc.cpp:37
+#: rc.cpp:78
+#, no-c-format
 msgid "Shell-command line used to start the editor."
 msgstr ""
 
-#: rc.cpp:38
+#: rc.cpp:80
+#, no-c-format
 msgid ""
 "If you are using inverse search, KDVI uses this command line to start the "
 "editor. The field '%f' is replaced with the filename, and '%l' is replaced "
 "with the line number."
 msgstr ""
 
-#: rc.cpp:39
+#: rc.cpp:82
+#, no-c-format
 msgid "Editor:"
 msgstr ""
 
@@ -1044,7 +1117,8 @@ msgid "The special command '%1' is not implemented."
 msgstr ""
 
 #: tips.cpp:3
-msgid "<p>...that KDVI can also load compressed DVI-files? \n"
+msgid ""
+"<p>...that KDVI can also load compressed DVI-files? \n"
 msgstr ""
 
 #: tips.cpp:7
@@ -1064,16 +1138,17 @@ msgstr ""
 
 #: tips.cpp:19
 msgid ""
-"<p>...that KDVI supports forward search? If you use Emacs or XEmacs, you "
-"can \n"
+"<p>"
+"...that KDVI supports forward search? If you use Emacs or XEmacs, you can \n"
 "jump directly from the TeX file to the associated place in the DVI file. \n"
-"<a href=\"help:/kdvi/forward-search.html\">The manual explains how to set "
-"up \n"
+"<a href=\"help:/kdvi/forward-search.html\">"
+"The manual explains how to set up \n"
 "your editor for this.</a> \n"
 msgstr ""
 
 #: tips.cpp:26
-msgid "<p>...that KDVI now offers full text search? \n"
+msgid ""
+"<p>...that KDVI now offers full text search? \n"
 msgstr ""
 
 #: tips.cpp:30
@@ -1088,7 +1163,7 @@ msgstr ""
 
 #: util.cpp:74
 msgid ""
-"Fatal Error!\n"
+"Fatal error.\n"
 "\n"
 msgstr ""
 
