@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_devices\n"
-"POT-Creation-Date: 2004-06-22 01:19+0200\n"
+"POT-Creation-Date: 2004-10-15 01:15+0200\n"
 "PO-Revision-Date: 2003-06-03 08:45+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -37,32 +37,36 @@ msgstr "Daty URL přez kdeeject wućisnyć"
 msgid "devices:/ URL to mount/unmount/eject"
 msgstr "graty:/ URL za montowanje/wotmontowanje/wućisnjenje"
 
-#: kio_devices.cc:111
+#: kio_devices.cc:123
+msgid "This device name already exists"
+msgstr ""
+
+#: kio_devices.cc:147
 #, fuzzy, c-format
 msgid "Unknown device %1"
 msgstr "Njeznaty grat"
 
-#: kio_devices.cc:132
+#: kio_devices.cc:168
 msgid "Device not accessible"
 msgstr "Grat njepřistupny"
 
-#: kio_devices.cc:146
+#: kio_devices.cc:183
 msgid "Device not mounted"
 msgstr "Njemontowany grat"
 
-#: kio_devices.cc:160
+#: kio_devices.cc:197
 msgid "Illegal data received"
 msgstr "Njedowolene daty dóstał"
 
-#: kio_devices.cc:172
+#: kio_devices.cc:209
 msgid "System"
 msgstr ""
 
-#: kio_devices.cc:174
+#: kio_devices.cc:211
 msgid "Devices"
 msgstr ""
 
-#: kio_devices.cc:421
+#: kio_devices.cc:459
 msgid ""
 "The KDE mountwatcher is not running. Please activate it in Control "
 "Center->KDE Components->Service Manager, if you want to use the devices:/ "
@@ -72,40 +76,73 @@ msgstr ""
 "Centrje -> KDE-komponenty -> Słužbowy manager, hdyž chceće protokok "
 "devices:/ wužiwać."
 
-#: kdedmodule/disks.cpp:58
+#: kdedmodule/disks.cpp:62
 msgid "Hard Disc"
 msgstr "Kruty disk"
 
-#: kdedmodule/disks.cpp:59 kdedmodule/disks.cpp:60
+#: kdedmodule/disks.cpp:63 kdedmodule/disks.cpp:64
 msgid "Remote Share"
 msgstr "Zapisk na druhim ličaku"
 
-#: kdedmodule/disks.cpp:61
+#: kdedmodule/disks.cpp:65
 msgid "CD-ROM"
 msgstr "CD-nik"
 
-#: kdedmodule/disks.cpp:62
+#: kdedmodule/disks.cpp:66
 msgid "DVD"
 msgstr "DVD"
 
-#: kdedmodule/disks.cpp:63
+#: kdedmodule/disks.cpp:67
 msgid "CD Recorder"
 msgstr "CD-palak"
 
-#: kdedmodule/disks.cpp:64
+#: kdedmodule/disks.cpp:68
 msgid "Floppy"
 msgstr "Disketa"
 
-#: kdedmodule/disks.cpp:65
+#: kdedmodule/disks.cpp:69
 msgid "Zip Disk"
 msgstr "Zip-disk"
 
-#: kdedmodule/disks.cpp:66
+#: kdedmodule/disks.cpp:70
+msgid "Removable Device"
+msgstr ""
+
+#: kdedmodule/disks.cpp:71
 msgid "Unknown"
 msgstr "Njeznaty grat"
 
-#: kdedmodule/mountwatcher.cpp:348 kdedmodule/mountwatcher.cpp:364
+#: kdedmodule/mountwatcher.cpp:368 kdedmodule/mountwatcher.cpp:392
 msgid "%1 [%2]"
+msgstr ""
+
+#: kfile-plugin/kfiledeviceplugin.cpp:153
+#, fuzzy
+msgid "Device Information"
+msgstr "Njemontowany grat"
+
+#: kfile-plugin/kfiledeviceplugin.cpp:156
+msgid "Free"
+msgstr ""
+
+#: kfile-plugin/kfiledeviceplugin.cpp:159
+msgid "Used"
+msgstr ""
+
+#: kfile-plugin/kfiledeviceplugin.cpp:162
+msgid "Total"
+msgstr ""
+
+#: kfile-plugin/kfiledeviceplugin.cpp:166
+msgid "Device Summary"
+msgstr ""
+
+#: kfile-plugin/kfiledeviceplugin.cpp:168
+msgid "Usage"
+msgstr ""
+
+#: kfile-plugin/kfiledeviceplugin.cpp:170
+msgid "Bar graph"
 msgstr ""
 
 #, fuzzy
