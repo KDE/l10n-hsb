@@ -1,40 +1,48 @@
 # translation of kdesktop.po to Upper Sorbian
-# Copyright (C) 2003 Free Software Foundation, Inc.
-# Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>, 2003
+# Copyright (C) 2003, 2004 Free Software Foundation, Inc.
+# Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>, 2003, 2004.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kdesktop\n"
-"POT-Creation-Date: 2003-05-09 01:46+0200\n"
-"PO-Revision-Date: 2003-05-28 13:43+0200\n"
+"POT-Creation-Date: 2004-04-16 01:39+0200\n"
+"PO-Revision-Date: 2004-04-21 09:27+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.0.1\n"
+"X-Generator: KBabel 1.3\n"
 
-#: lock/lockdlg.cc:95
-msgid "Enter the password for user %1 (%2)"
-msgstr "Zapodaj hesło za wužiwarja %1 (%2)"
+#: lock/lockdlg.cc:75
+msgid "<nobr><b>The screen is locked</b><br>"
+msgstr "<nobr><b>Wobrazowka je zamknjena</b><br>"
 
-#: lock/lockdlg.cc:104
+#: lock/lockdlg.cc:76
+msgid "<nobr><b>The screen is locked by %1</b><br>"
+msgstr "<nobr><b>Wobrazowka bu zamknjena wot %1</b><br>"
+
+#: krootwm.cc:745 lock/lockdlg.cc:86 lock/lockdlg.cc:526
+msgid "&Start New Session"
+msgstr "&Nowu sesiju započeć"
+
+#: lock/lockdlg.cc:187
 msgid "<b>Unlocking failed</b>"
 msgstr "<b>Zběhnjenje blokowanja so njeje poradźiło</b>"
 
-#: lock/lockdlg.cc:110
+#: lock/lockdlg.cc:193
 msgid "<b>Warning: Caps Lock on</b>"
 msgstr "<b>Kedźbu: Stajne wulkopisanje zaswěćene</b>"
 
-#: lock/lockdlg.cc:215 lock/lockdlg.cc:258
+#: lock/lockdlg.cc:417
 msgid ""
-"Verification failed\n"
-"Kill kdesktop_lock"
+"Cannot unlock the screen, as the authentication system fails to work.\n"
+"You must kill kdesktop_lock (pid %1) manually."
 msgstr ""
-"Werifikacija je so zwrěšćiła\n"
-"Zniču kdesktop_lock"
+"Njemóžu wobrazowku wotamkać, dokelž přizjewjenski system njefunguje\n"
+"Dyrbiće manualnje kdeskto_lock (pid %1) wottřělić."
 
-#: lock/lockdlg.cc:290
+#: lock/lockdlg.cc:515
 msgid ""
 "You have chosen to open another desktop session instead of resuming the "
 "current one.<br>The current session will be hidden and a new login screen "
@@ -44,176 +52,219 @@ msgid ""
 "the same time."
 msgstr ""
 
-#: lock/main.cc:31
+#: lock/lockprocess.cc:659
+msgid "Will not lock the screen, as unlocking would be impossible:\n"
+msgstr "Njezamknu wobrazowku, dokelž njebudźe móžno ju wotamknyć:\n"
+
+#: lock/lockprocess.cc:663
+msgid "Cannot start <i>kcheckpass</i>."
+msgstr "Njemóžu <i>kcheckpass</i> startować."
+
+#: lock/lockprocess.cc:664
+msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not SetUID root."
+msgstr "<i>kcheckpass</i> njefunguje. Najskerje njeje SetUID root."
+
+#: lock/lockprocess.cc:708
+msgid "No appropriate greeter plugin configured."
+msgstr "Žadyn kmany powitanski plugin nastajeny."
+
+#: lock/main.cc:51
 msgid "Force screen locking"
-msgstr ""
+msgstr "Na kóždy pad wobrazowku zamknyć"
 
-#: lock/main.cc:32
+#: lock/main.cc:52
 msgid "Only start screensaver"
-msgstr ""
+msgstr "Jenož škitar wobrazowki startować"
 
-#: lock/main.cc:33
+#: lock/main.cc:53
 msgid "Only use the blank screensaver"
-msgstr ""
+msgstr "Jenož prózdny škitar wobrazowki wužiwać"
 
-#: lock/main.cc:111
+#: lock/main.cc:63
+msgid "KDesktop Locker"
+msgstr "KDesktop zamkar wobrazowki"
+
+#: lock/main.cc:63
 msgid "Screen Locker for KDesktop"
-msgstr ""
+msgstr "Zamknje wobrazowku za KDesktop"
 
-#: desktop.cc:630
+#: desktop.cc:666
 msgid "Set as Primary Background Color"
-msgstr ""
+msgstr "Jako primarnu pozadkowu barbu wzać"
 
-#: desktop.cc:631
+#: desktop.cc:667
 msgid "Set as Secondary Background Color"
-msgstr ""
+msgstr "Jako sekundarnu pozadkowu barbu wzać"
 
-#: desktop.cc:647
+#: desktop.cc:683
+msgid "&Save to Desktop..."
+msgstr "&Zawěsćić na dźěłowy powjerch ..."
+
+#: desktop.cc:685
 msgid "Set as &Wallpaper"
-msgstr ""
+msgstr "Jako &tapetu postajić"
 
-#: desktop.cc:682
+#: desktop.cc:693
+msgid "Enter a name for the image below:"
+msgstr "Zapodaj pomjenowanje za wobraz spody:"
+
+#: desktop.cc:702
+msgid "image.png"
+msgstr "wobraz.png"
+
+#: desktop.cc:754
 msgid ""
 "Could not logout properly.\n"
 "The session manager cannot be contacted. You can try to force a shutdown by "
 "pressing Ctrl+Alt+Backspace. Note, however, that your current session will "
 "not be saved with a forced shutdown."
 msgstr ""
+"Njemóžach Was porjadnje wotzjewić.\n"
+"Rjadowar posedźenjow njereaguje. Móžeće kónc posedźenja z Strg+Alt+Wróćo dócpěć, "
+"ale Waše aktualne posedźenje so potom njezawěsći."
 
-#: kdiconview.cc:284
+#: kdiconview.cc:395
 msgid "&Rename"
 msgstr "&Hinak pomjenować"
 
-#: kdiconview.cc:285
+#: kdiconview.cc:396
 msgid "&Move to Trash"
 msgstr "Do &papjernika"
 
-#: kdiconview.cc:288
-msgid "&Shred"
-msgstr "&Rozsykać"
-
-#: krootwm.cc:92 krootwm.cc:434
-msgid "Bookmarks"
-msgstr "Lubuški"
-
-#: krootwm.cc:128
+#: krootwm.cc:129
 msgid "Run Command..."
 msgstr "Startuj program..."
 
-#: krootwm.cc:132
+#: krootwm.cc:133
 msgid "Configure Desktop..."
 msgstr "Dźěłowy powjerch konfigurować..."
 
-#: krootwm.cc:134 krootwm.cc:336
+#: krootwm.cc:135 krootwm.cc:348
 msgid "Disable Desktop Menu"
-msgstr ""
+msgstr "Meni dźěłoweho powjercha hasnyć"
 
-#: krootwm.cc:138
+#: krootwm.cc:139
 msgid "Unclutter Windows"
 msgstr "Wokna rjadować"
 
-#: krootwm.cc:140
+#: krootwm.cc:141
 msgid "Cascade Windows"
 msgstr "Wokna naštosować"
 
-#: krootwm.cc:146
-msgid "By Name"
-msgstr "po mjenach"
+#: krootwm.cc:147
+msgid "By Name (Case Sensitive)"
+msgstr " po mjenach (na wulko/małopisanje dźiwać)"
 
-#: krootwm.cc:148
+#: krootwm.cc:149
+msgid "By Name (Case Insensitive)"
+msgstr "po mjenach (na wulko/małopisanje njedźiwać)"
+
+#: krootwm.cc:151
 msgid "By Size"
 msgstr "po wulkosći"
 
-#: krootwm.cc:150
+#: krootwm.cc:153
 msgid "By Type"
 msgstr "po družinje"
 
-#: krootwm.cc:153
+#: krootwm.cc:155
+msgid "By Date"
+msgstr "po datumje"
+
+#: krootwm.cc:158
 msgid "Directories First"
 msgstr "najprjedy zapiski"
 
-#: krootwm.cc:156
+#: krootwm.cc:161
 msgid "Line Up Horizontally"
-msgstr ""
+msgstr "Horicontalnje rjadować"
 
-#: krootwm.cc:159
+#: krootwm.cc:164
 msgid "Line Up Vertically"
-msgstr ""
+msgstr "Wertikalnje rjadować"
 
-#: krootwm.cc:162
+#: krootwm.cc:167
 msgid "Align to Grid"
-msgstr ""
+msgstr "Po rastrje wusměrić"
 
-#: krootwm.cc:168
+#: krootwm.cc:174
 msgid "Refresh Desktop"
-msgstr ""
+msgstr "Dźěłowy powjerch aktualizować"
 
-#: kdesktopbindings.cpp:30 krootwm.cc:174
+#: kdesktopbindings.cpp:30 krootwm.cc:180
 msgid "Lock Screen"
 msgstr "Wobrazowku zamknyć"
 
-#: krootwm.cc:183
+#: krootwm.cc:185
 msgid "Logout \"%1\"..."
 msgstr "\"%1\" wotzjewić..."
 
-#: krootwm.cc:194
-msgid "Start New Session"
-msgstr "Nowu sesiju započeć"
+#: krootwm.cc:196
+msgid "Start New Session..."
+msgstr "Nowe posedźenje započeć ..."
 
-#: krootwm.cc:314 krootwm.cc:382
+#: krootwm.cc:326 krootwm.cc:404
 msgid "Sort Icons"
 msgstr "Piktogramy sortěrować"
 
-#: krootwm.cc:316
+#: krootwm.cc:328
 msgid "Line Up Icons"
-msgstr ""
+msgstr "Piktogramy rjadować"
 
-#: krootwm.cc:343
+#: krootwm.cc:355
 msgid "Enable Desktop Menu"
-msgstr ""
+msgstr "Meni dźěłoweho powjercha zaswěćić"
 
-#: krootwm.cc:389
+#: krootwm.cc:411
 msgid "Icons"
-msgstr ""
+msgstr "Piktogramy"
 
-#: krootwm.cc:395 krootwm.cc:437
+#: krootwm.cc:417 krootwm.cc:471
 msgid "Windows"
 msgstr "Wokna"
 
-#: krootwm.cc:430
+#: krootwm.cc:464
 msgid "New"
-msgstr "Nowy"
+msgstr "Nowe"
 
-#: kdesktopbindings.cpp:14 krootwm.cc:436 krootwm.cc:598
+#: kdesktopbindings.cpp:14 krootwm.cc:470 krootwm.cc:676
 msgid "Desktop"
 msgstr "Dźěłowy powjerch"
 
-#: krootwm.cc:663
+#: krootwm.cc:740
+msgid "Warning - New Session"
+msgstr "Kedźbu - Nowe posedźenje"
+
+#: krootwm.cc:748
 msgid ""
 "<p>You have chosen to open another desktop session.<br>The current session "
 "will be hidden and a new login screen will be displayed.<br>An F-key is "
 "assigned to each session; F%1 is usually assigned to the first session, F%2 "
 "to the second session and so on. You can switch between sessions by pressing "
-"CTRL, ALT and the appropriate F-key at the same time.</p>"
-msgstr ""
+"Ctrl, Alt and the appropriate F-key at the same time.</p>"
+msgstr "<p>Wočiniće nowe posedźenje.<br>Aktualne posedźenje so chowa a nowe přizjewjenske wokno so pokaže.<br>Kóždemu posedźenju so F-tasta přirjaduje, F%1 so zwjetša prěnjemu posedźenju přirjaduje, F%2 druhemu posedźenju a tak dale. Móžeće mjez posedźenjemi tam a sem skakać, hdyž tłóčiće runočasnje Strg, Alt a wotpowědnu F-tastu.</p>"
 
-#: main.cc:40
+#: krootwm.cc:760
+msgid "&Lock display for current session"
+msgstr "&Wobrazowku za aktualne posedźenje zamknyć"
+
+#: main.cc:43
 msgid "The KDE Desktop."
 msgstr "KDE dźěłowy powjerch"
 
-#: main.cc:46
+#: main.cc:49
 msgid "Use this if the desktop window appears as a real window"
-msgstr ""
+msgstr "Wužiwajće to, jeli wupada dźěłowy powjerch kaž woprawdźite wokno"
 
-#: main.cc:47
+#: main.cc:50
 msgid "Use this to disable the Autostart folder"
-msgstr ""
+msgstr "Wužiwajće to, zo njeby so zapisk Awtostart wužiwał"
 
-#: main.cc:48
+#: main.cc:51
 msgid "Wait for kded to finish building database"
-msgstr ""
+msgstr "Čakam na to, zo kded swoju datowu banku dotwari"
 
-#: main.cc:140
+#: main.cc:143
 msgid "KDesktop"
 msgstr "KDesktop"
 
@@ -229,9 +280,9 @@ msgid ""
 "Your emails"
 msgstr "e.werner@rz.uni-leipzig.de"
 
-#: kdesktopbindings.cpp:20 minicli.cpp:77
+#: kdesktopbindings.cpp:20 minicli.cpp:76
 msgid "Run Command"
-msgstr "Program startować"
+msgstr "Přikaz zapodać"
 
 #: kdesktopbindings.cpp:24
 msgid "Show Taskmanager"
@@ -250,43 +301,178 @@ msgid "Logout without Confirmation"
 msgstr "So bjez wobkrućenja wotzjewić"
 
 #: kdesktopbindings.cpp:38
-msgid "Halt Computer"
-msgstr "Computer hasnyć"
-
-#: kdesktopbindings.cpp:39
 msgid "Halt without Confirmation"
 msgstr "Bjez wobkrućenja hasnyć"
 
-#: kdesktopbindings.cpp:40
-msgid "Reboot Computer"
-msgstr "Computer znowa startować"
-
-#: kdesktopbindings.cpp:41
+#: kdesktopbindings.cpp:39
 msgid "Reboot without Confirmation"
 msgstr "Bjez wobkrućenja znowa startować"
 
-#: minicli.cpp:95
-msgid ""
-"Enter the command you wish to execute or the address of the resource you "
-"want to open. This can be a remote URL like \"www.kde.org\" or a local one "
-"like \"~/.kderc\""
-msgstr ""
-
-#: minicli.cpp:102 minicli.cpp:649
+#: minicli.cpp:90 minicli.cpp:618
 msgid "&Options >>"
 msgstr "&Opcije >>"
 
-#: minicli.cpp:105
+#: minicli.cpp:93
 msgid "&Run"
 msgstr "&Startować"
 
-#: minicli.cpp:116
+#: minicli.cpp:386
+msgid "<qt>The user <b>%1</b> does not exist on this system.</qt>"
+msgstr "<qt>Wužiwar <b>%1</b> tu neeksistuje.</qt>"
+
+#: minicli.cpp:396
+msgid "You don't exist!\n"
+msgstr "Njeeksistujeće.\n"
+
+#: minicli.cpp:421
+msgid "Incorrect password! Please try again."
+msgstr "Njekorektne hesło. Prošu spytajće hišće raz."
+
+#: minicli.cpp:532
+msgid ""
+"<center><b>%1</b></center>\n"
+"You do not have permission to execute this command!"
+msgstr ""
+"<center><b>%1b></center>\n"
+"Nimaće prawo tutón přikaz wuwjesć."
+
+#: minicli.cpp:557
+msgid ""
+"<center><b>%1</b></center>\n"
+"Could not run the specified command!"
+msgstr ""
+"<center><b>%1</b></center>\n"
+"Njemóžach přikaz wuwjesć."
+
+#: minicli.cpp:569
+msgid ""
+"<center><b>%1</b></center>\n"
+"The specified command does not exist!"
+msgstr ""
+"<center><b>%1</b></center>\n"
+"Zapodaty přikaz njeeksistuje."
+
+#: minicli.cpp:606
+msgid "&Options <<"
+msgstr "&Opcije <<"
+
+#: minicli.cpp:814
+msgid ""
+"Running a realtime application can be very dangerous. If the application "
+"misbehaves, the system might hang unrecoverably.\n"
+"Are you sure you want to continue?"
+msgstr ""
+"Prawočasny program startować móhło być strašne: Jeli so program pójsnje, "
+"steji snadź cyły system.\n"
+"Chceće woprawdźe pokročować?"
+
+#: minicli.cpp:817
+msgid "Warning - Run Command"
+msgstr "Kedźbu - Přikaz wuwjesć"
+
+#: minicli.cpp:817
+msgid "&Run Realtime"
+msgstr "&Prawočasny program wuwjesć"
+
+#: rc.cpp:1
+msgid "MinicliDlgUI"
+msgstr "MinicliDlgUI"
+
+#: rc.cpp:5
+msgid "Run with realtime &scheduling"
+msgstr "Wuwjesć z prawočasnym &rjadowanjom "
+
+#: rc.cpp:6
+msgid "Alt+S"
+msgstr "Alt+S"
+
+#: rc.cpp:7
+msgid ""
+"<qt>Select whether realtime scheduling should be enabled for the "
+"application. The scheduler governs which process will run and which will "
+"have to wait. Two schedulers are available:\n"
+"<ul>\n"
+"<li><em>Normal:</em> This is the standard, timesharing scheduler. It will "
+"divide fairly the available processing time between all processes.</li>\n"
+"<li><em>Realtime:</em>This scheduler will run your application uninterrupted "
+"until it gives up the processor. This can be dangerous. An application that "
+"does not give up the processor might hang the system. You need root's "
+"password to use the scheduler.</li>\n"
+"</ul>\n"
+"</qt>"
+msgstr ""
+
+#: rc.cpp:8
+msgid "User&name:"
+msgstr ""
+
+#: rc.cpp:9 rc.cpp:20
+msgid "Enter the user you want to run the application as here."
+msgstr ""
+
+#: rc.cpp:10 rc.cpp:12
+#, fuzzy
+msgid "Enter the password here for the user you specified above."
+msgstr "Zapodaj hesło za wužiwarja %1 (%2)"
+
+#: rc.cpp:11
+msgid "Pass&word:"
+msgstr ""
+
+#: rc.cpp:13
+msgid "Run in &terminal window"
+msgstr ""
+
+#: rc.cpp:14
+msgid "Alt+T"
+msgstr ""
+
+#: rc.cpp:15
 msgid ""
 "Check this option if the application you want to run is a text mode "
 "application. The application will then be run in a terminal emulator window."
 msgstr ""
 
-#: minicli.cpp:123
+#: rc.cpp:16
+msgid "&Priority:"
+msgstr ""
+
+#: rc.cpp:17 rc.cpp:22 rc.cpp:24 rc.cpp:25
+msgid ""
+"The priority that the command will be run with can be set here. From left to "
+"right, it goes from low to high. The center position is the default value. "
+"For priorities higher than the default, you will need to provide the root "
+"password."
+msgstr ""
+
+#: rc.cpp:18
+msgid "Run with a &different priority"
+msgstr ""
+
+#: rc.cpp:19
+msgid ""
+"Check this option if you want to run the application with a different "
+"priority. A higher priority tells the operating system to give more "
+"processing time to your application."
+msgstr ""
+
+#: rc.cpp:21
+msgid "Low"
+msgstr ""
+
+#: rc.cpp:23
+msgid "High"
+msgstr ""
+
+#: rc.cpp:26
+msgid "Run as a different &user"
+msgstr ""
+
+#: rc.cpp:27
+msgid "Alt+U"
+msgstr ""
+
+#: rc.cpp:28
 msgid ""
 "Check this option if you want to run the application with a different user "
 "id. Every process has a user id associated with it. This id code determines "
@@ -294,99 +480,50 @@ msgid ""
 "do this."
 msgstr ""
 
-#: minicli.cpp:131
-msgid "Enter the user here who you want to run the application as."
-msgstr ""
+#: rc.cpp:29
+#, fuzzy
+msgid "Com&mand:"
+msgstr "Program startować"
 
-#: minicli.cpp:134
+#: rc.cpp:30 rc.cpp:32
 msgid ""
-"Check this option if you want to run the application with a different "
-"priority. A higher priority tells the operating system to give more "
-"processing time to your application."
+"Enter the command you wish to execute or the address of the resource you "
+"want to open. This can be a remote URL like \"www.kde.org\" or a local one "
+"like \"~/.kderc\"."
 msgstr ""
 
-#: minicli.cpp:140
-msgid ""
-"The priority can be set here. From left to right, it goes from low to high. "
-"The center position is the default value. For priorities higher than the "
-"default, you will need root's password."
+#: rc.cpp:33
+msgid "Enter the name of the application you want to run or the URL you want to view"
 msgstr ""
 
-#: minicli.cpp:147
-msgid ""
-"Select which scheduler to use for the application. The scheduler governs "
-"which process will run and which will have to wait. Two schedulers are "
-"available:<ul><li><em>Normal:</em> This is the standard, timesharing "
-"scheduler. It will divide fairly the available processing time between all "
-"processes.</li><li><em>Realtime:</em>This scheduler will run your "
-"application uninterrupted until it gives up the processor. This can be "
-"dangerous. An application that does not give up the processor might hang the "
-"system. You need root's password to use the scheduler.</li>"
-msgstr ""
+#~ msgid ""
+#~ "Verification failed\n"
+#~ "Kill kdesktop_lock"
+#~ msgstr ""
+#~ "Werifikacija je so zwrěšćiła\n"
+#~ "Zniču kdesktop_lock"
 
-#: minicli.cpp:162
-msgid "Enter the requested password here."
-msgstr "Zapodaj tu pominane hesło."
+#~ msgid "&Shred"
+#~ msgstr "&Rozsykać"
 
-#: minicli.cpp:238
-msgid "Normal"
-msgstr "Normalnje"
+#~ msgid "Bookmarks"
+#~ msgstr "Lubuški"
 
-#: minicli.cpp:239
-msgid "Realtime"
-msgstr "We woprawdźitym času"
+#~ msgid "Halt Computer"
+#~ msgstr "Computer hasnyć"
 
-#: minicli.cpp:404
-msgid "<qt>The user <b>%1</b> does not exist on this system.</qt>"
-msgstr "<qt>Wužiwar <b>%1</b> tu neeksistuje.</qt>"
+#~ msgid "Reboot Computer"
+#~ msgstr "Computer znowa startować"
 
-#: minicli.cpp:417
-msgid "You don't exist!\n"
-msgstr ""
+#~ msgid "Enter the requested password here."
+#~ msgstr "Zapodaj tu pominane hesło."
 
-#: minicli.cpp:445
-msgid "Incorrect password! Please try again."
-msgstr "Njekorektne hesło! Prošu spytajće hišće raz."
+#~ msgid "Normal"
+#~ msgstr "Normalnje"
 
-#: minicli.cpp:559
-msgid ""
-"<center><b>%1</b></center>\n"
-"You do not have permission to execute this command!"
-msgstr ""
+#~ msgid "none"
+#~ msgstr "žane"
 
-#: minicli.cpp:587
-msgid ""
-"<center><b>%1</b></center>\n"
-"Could not run the specified command!"
-msgstr ""
-
-#: minicli.cpp:602
-msgid ""
-"<center><b>%1</b></center>\n"
-"The specified command does not exist!"
-msgstr ""
-
-#: minicli.cpp:637
-msgid "&Options <<"
-msgstr "&Opcije <<"
-
-#: minicli.cpp:745
-msgid "none"
-msgstr "žane"
-
-#: minicli.cpp:750
-#, c-format
-msgid "Password required: %1"
-msgstr "Hesło trěbne: %1"
-
-#: minicli.cpp:819
-msgid ""
-"Running a realtime application can be very dangerous. If the application "
-"misbehaves, the system might hang unrecoverably.\n"
-"Are you sure you want to continue?"
-msgstr ""
-
-#: minicli.cpp:822
-msgid "Warning - Run Command"
-msgstr ""
+#~ msgid "Password required: %1"
+#~ msgstr "Hesło trěbne: %1"
 

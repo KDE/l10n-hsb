@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kprinter\n"
-"POT-Creation-Date: 2003-01-14 03:16+0100\n"
+"POT-Creation-Date: 2004-02-11 01:28+0100\n"
 "PO-Revision-Date: 2003-12-22 22:15+0100\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -14,109 +14,118 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.0.1\n"
 
-#: main.cpp:30
+#: main.cpp:29
+msgid "Make an internal copy of the files to print"
+msgstr ""
+
+#: main.cpp:31
 msgid "Printer/destination to print on"
 msgstr "Ćišćak/cil na kotryž ma so ćišćeć"
 
-#: main.cpp:32
+#: main.cpp:33
 msgid "Title/Name for the print job"
 msgstr "Titl/Mjeno ćišćenskeho nadawka"
 
-#: main.cpp:34
+#: main.cpp:35
 msgid "Number of copies"
 msgstr "Ličba kopijow"
 
-#: main.cpp:35
+#: main.cpp:36
 msgid "Printer option"
 msgstr "Opcije za ćišćak"
 
-#: main.cpp:36
+#: main.cpp:37
 msgid "Job output mode (gui, console, none)"
 msgstr "Modus outputa (gui, terminal, žadyn)"
 
-#: main.cpp:37
+#: main.cpp:38
 msgid "Print system to use (lpd, cups)"
 msgstr "Ćišćenski system (lpd, cups)"
 
-#: main.cpp:38
+#: main.cpp:39
 msgid "Allow printing from STDIN"
 msgstr "Ćišćenje wot STDIN dowolić"
 
-#: main.cpp:39
+#: main.cpp:40
 msgid "Do not show the print dialog (print directly)."
 msgstr "Njepokaž ćišćenski dialog (hnydom ćišćeć)"
 
-#: main.cpp:40
+#: main.cpp:41
 msgid "Files to load"
 msgstr "Dataje za začitanje"
 
-#: main.cpp:46
+#: main.cpp:47
 msgid "A printer tool for KDE"
 msgstr "Ćišćenski pomocnik za KDE"
 
-#: printwrapper.cpp:59
+#: printwrapper.cpp:61
 msgid "Print Information"
 msgstr "Informacija wo ćišćenju"
 
-#: printwrapper.cpp:60
+#: printwrapper.cpp:62
 msgid "Print Warning"
 msgstr "Ćišćenske warnowanje"
 
-#: printwrapper.cpp:61
+#: printwrapper.cpp:63
 msgid "Print Error"
 msgstr "Ćišćenski zmylk"
 
-#: printwrapper.cpp:67
+#: printwrapper.cpp:69
 msgid "Print info"
 msgstr "Ćišćenska informacija"
 
-#: printwrapper.cpp:67
+#: printwrapper.cpp:69
 msgid "Print warning"
 msgstr "Ćišćenske warnowanje"
 
-#: printwrapper.cpp:67
+#: printwrapper.cpp:69
 msgid "Print error"
 msgstr "Ćišćenski zmylk"
 
-#: printwrapper.cpp:152
+#: printwrapper.cpp:190
 msgid ""
 "A file has been specified on the command line. Printing from STDIN will be "
 "disabled."
-msgstr "Na komandowej lince bu dataja specifikowana. Ćišćenje ze STDIN so znjemóžni."
+msgstr ""
+"Na komandowej lince bu dataja specifikowana. Ćišćenje ze STDIN so znjemóžni."
 
-#: printwrapper.cpp:158
+#: printwrapper.cpp:196
 msgid ""
 "When using '--nodialog', you must at least specify one file to print or use "
 "the '--stdin' flag."
 msgstr ""
-"Hdyž so wužiwa '--nodialog', dyrbiće znajmjeńša jednu dataju za ćišćenje zapodać "
-"abo '--stdin' wužiwać."
+"Hdyž so wužiwa '--nodialog', dyrbiće znajmjeńša jednu dataju za ćišćenje "
+"zapodać abo '--stdin' wužiwać."
 
-#: printwrapper.cpp:207
+#: printwrapper.cpp:245
 msgid "The specified printer or the default printer could not be found."
 msgstr "Njemóžach pominany ćišćak abo standardny ćišćak namakać."
 
-#: printwrapper.cpp:209
+#: printwrapper.cpp:247
 msgid "Operation aborted."
 msgstr "Akcija přetorhnjena."
 
-#: printwrapper.cpp:238
+#: printwrapper.cpp:276
 msgid "Unable to construct the print dialog."
 msgstr "Njemóžach ćišćenski dialog nastajić."
 
-#: printwrapper.cpp:279
+#: printwrapper.cpp:317
 msgid "Multiple files (%1)"
 msgstr "Wjacore dataje (%1)"
 
-#: printwrapper.cpp:307
+#: printwrapper.cpp:345
 msgid "Unable to open temporary file."
 msgstr "Njemóžach temporarnu dataju wočinić."
 
-#: printwrapper.cpp:322
+#: printwrapper.cpp:360
 msgid "Stdin is empty, no job sent."
 msgstr "STDIN je prózdny, žadyn ćišćenski nadawk."
 
-#: printwrapper.cpp:337
+#: printwrapper.cpp:372
+#, fuzzy, c-format
+msgid "Unable to copy file %1."
+msgstr "Njemóžach temporarnu dataju wočinić."
+
+#: printwrapper.cpp:389
 msgid "Error while printing files"
 msgstr "Zmylk při ćišćenju datajow"
-

@@ -1,12 +1,12 @@
 # translation of libkdepim.po to Upper Sorbian
-# Copyright (C) 2003 Free Software Foundation, Inc.
-# Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>, 2003
+# Copyright (C) 2003,2004 Free Software Foundation, Inc.
+# Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>, 2003,2004
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: libkdepim\n"
-"POT-Creation-Date: 2003-05-07 01:42+0200\n"
-"PO-Revision-Date: 2003-05-28 13:05+0200\n"
+"POT-Creation-Date: 2004-04-16 01:42+0200\n"
+"PO-Revision-Date: 2004-04-16 18:00+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
 "MIME-Version: 1.0\n"
@@ -14,273 +14,411 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.0.1\n"
 
-#: addresseeview.cpp:75
+#: addresseeview.cpp:66
+msgid "Show Birthday"
+msgstr "Pokaž narodniny"
+
+#: addresseeview.cpp:67
+msgid "Show Postal Addresses"
+msgstr "Pokaž póštowe adresy"
+
+#: addresseeview.cpp:68
+msgid "Show Email Addresses"
+msgstr "Pokaž emailowe adresy"
+
+#: addresseeview.cpp:69
+msgid "Show Telephone Numbers"
+msgstr ""
+
+#: addresseeview.cpp:70
+msgid "Show Web Pages (URLs)"
+msgstr ""
+
+#: addresseeview.cpp:171
 msgid "Email"
 msgstr "Email"
 
-#: addresseeview.cpp:83
+#: addresseeview.cpp:179
 msgid "Other"
 msgstr "Druhe"
 
-#: addresseeview.cpp:90
+#: addresseeview.cpp:186
 msgid "Homepage"
 msgstr "Domjaca strona"
 
-#: addresseeview.cpp:122
+#: addresseeview.cpp:245
 msgid "Notes"
 msgstr "Zapiski"
 
-#: addressesdialog.cpp:135
-msgid "Personal Address Book"
-msgstr "Wosobinski adresnik"
+#: addresseeview.cpp:335 addresseeview.cpp:350
+msgid ""
+"There is no application set which could be executed. Please go to the "
+"settings dialog and configure one."
+msgstr ""
 
-#: addressesdialog.cpp:136
-msgid "Recent Addresses"
-msgstr "Njedawno wužiwane adresy"
+#: addresseeview.cpp:393
+msgid "Send mail to '%1'"
+msgstr ""
 
-#: addressesdialog.cpp:139
-msgid "Address selection"
-msgstr "Adresu wubrać"
+#: addresseeview.cpp:398
+#, c-format
+msgid "Call number %1"
+msgstr ""
 
-#: addressesdialog.cpp:164 addressesdialog.cpp:367
+#: addresseeview.cpp:403
+#, c-format
+msgid "Send fax to %1"
+msgstr ""
+
+#: addresseeview.cpp:405
+msgid "Show address on map"
+msgstr ""
+
+#: addresseeview.cpp:408
+#, c-format
+msgid "Open URL %1"
+msgstr ""
+
+#: addressesdialog.cpp:96 addressesdialog.cpp:104
+msgid "<group>"
+msgstr ""
+
+#: addressesdialog.cpp:187 rc.cpp:1
+msgid "Address Selection"
+msgstr "Wubraće adresy"
+
+#: addressesdialog.cpp:209 addressesdialog.cpp:629
 msgid "To"
 msgstr "Na"
 
-#: addressesdialog.cpp:179 addressesdialog.cpp:381
+#: addressesdialog.cpp:220 addressesdialog.cpp:651
 msgid "CC"
 msgstr "Kopija na"
 
-#: addressesdialog.cpp:194 addressesdialog.cpp:395
+#: addressesdialog.cpp:231 addressesdialog.cpp:673
 msgid "BCC"
 msgstr "Dalša kopija na:"
 
-#: addressesdialog.cpp:456
-msgid ""
-"You have to select the addressees which you wish to save as distribution "
-"list members."
-msgstr "Dyrbiće adresy wubrać, kiž maja so do rozpósłanskeje lisćiny přiwzać."
+#: addressesdialog.cpp:290
+msgid "Recent Addresses"
+msgstr "Njedawno wužiwane adresy"
 
-#: addressesdialog.cpp:462
+#: addressesdialog.cpp:395
+#, fuzzy
+msgid "Other Addresses"
+msgstr "Wubrane adresy"
+
+#: addressesdialog.cpp:771
+msgid ""
+"There are no addresses in your list. First add some addresses from your "
+"address book, then try again."
+msgstr ""
+
+#: addressesdialog.cpp:778
 msgid "New Distribution List"
 msgstr "Nowa rozpósłanska lisćina"
 
-#: addressesdialog.cpp:463
-msgid "Please enter name."
+#: addressesdialog.cpp:779
+#, fuzzy
+msgid "Please enter name:"
 msgstr "Prošu zapodaj mjeno."
 
-#: addressesdialog.cpp:471
+#: addressesdialog.cpp:787
+#, fuzzy
 msgid ""
-"Distribution list with the given name (%1)already exists please select a "
-"different name"
+"<qt>Distribution list with the given name <b>%1</b> already exists. Please "
+"select a different name.</qt>"
 msgstr ""
-"Rozpósłanska lisćina z tutym mjenom (%1) hižo eksistuje. Prošu "
-"wubjerće hinaše pomjenowanje."
+"Rozpósłanska lisćina z tutym mjenom (%1) hižo eksistuje. Prošu wubjerće "
+"hinaše pomjenowanje."
 
-#: addressesdialog.cpp:497
-msgid ""
-"No external address book application found. You might want to install "
-"KAddressBook from the kdepim module."
+#: addressesdialog.cpp:916
+#, fuzzy
+msgid "Distribution Lists"
+msgstr "Nowa rozpósłanska lisćina"
+
+#: categoryeditdialog.cpp:39 rc.cpp:16
+msgid "Edit Categories"
+msgstr "Kategorije wobdźěłać"
+
+#: categoryselectdialog.cpp:37 rc.cpp:21
+msgid "Select Categories"
+msgstr "Kategorije wubrać"
+
+#: kconfigpropagator.cpp:39
+msgid "Change Config Value"
 msgstr ""
-"Žadyn eksterny adresnik njehodźeše so namakać. Přemysliće sej, "
-"hač njeměł so KAddressBook z modula kdepim instalować."
 
-#: addressesdialog.cpp:502
-msgid "Fist select the entry which you want to edit."
-msgstr "Wubjerće prěni zapis, kiž chceće změnić."
+#: kconfigwizard.cpp:34 kconfigwizard.cpp:43
+msgid "Configuration Wizard"
+msgstr ""
 
-#: kdateedit.cpp:68
+#: kconfigwizard.cpp:82
+msgid "Rules"
+msgstr ""
+
+#: kconfigwizard.cpp:88
+msgid "Source"
+msgstr ""
+
+#: kconfigwizard.cpp:89
+msgid "Target"
+msgstr ""
+
+#: kconfigwizard.cpp:90
+msgid "Condition"
+msgstr ""
+
+#: kconfigwizard.cpp:123
+msgid "Changes"
+msgstr ""
+
+#: kconfigwizard.cpp:129
+msgid "Action"
+msgstr ""
+
+#: kconfigwizard.cpp:130
+msgid "Option"
+msgstr ""
+
+#: kconfigwizard.cpp:131
+msgid "Value"
+msgstr ""
+
+#: kdateedit.cpp:70
 msgid "tomorrow"
 msgstr "jutře"
 
-#: kdateedit.cpp:69
+#: kdateedit.cpp:71
 msgid "today"
 msgstr "dźensa"
 
-#: kdateedit.cpp:70
+#: kdateedit.cpp:72
 msgid "yesterday"
 msgstr "wčera"
 
-#: kimportdialog.cpp:57
+#: kimportdialog.cpp:78
 msgid "Plain"
 msgstr "Prosty tekst"
 
-#: kimportdialog.cpp:59
+#: kimportdialog.cpp:80
 msgid "Unquoted"
 msgstr "bjez pazorkow"
 
-#: kimportdialog.cpp:61
+#: kimportdialog.cpp:82
 msgid "Bracketed"
 msgstr "w róžkatymaj spinkomaj"
 
-#: kimportdialog.cpp:63
+#: kimportdialog.cpp:84
 msgid "Undefined"
 msgstr "njedefinowane"
 
-#: kimportdialog.cpp:131
+#: kimportdialog.cpp:152
 msgid "Import Text File"
 msgstr "Tekstowu dataju importować"
 
-#: kimportdialog.cpp:143
+#: kimportdialog.cpp:164
 msgid "File to import:"
 msgstr "Dataja za import:"
 
-#: kimportdialog.cpp:159
+#: kimportdialog.cpp:180
 msgid "Separator:"
 msgstr "Rozdźělowak:"
 
-#: kimportdialog.cpp:163
+#: kimportdialog.cpp:184
 msgid "Tab"
 msgstr "tabulator"
 
-#: kimportdialog.cpp:164
+#: kimportdialog.cpp:185
 msgid "Space"
 msgstr "mjezota"
 
-#: kimportdialog.cpp:174
+#: kimportdialog.cpp:195
 msgid "Import starts at row:"
 msgstr "Import so započnje z linku:"
 
-#: kimportdialog.cpp:189
+#: kimportdialog.cpp:210
 msgid "Header"
 msgstr "Hłójčka"
 
-#: kimportdialog.cpp:198
+#: kimportdialog.cpp:219
 msgid "Assign to Selected Column"
 msgstr "Na wubranu špaltu"
 
-#: kimportdialog.cpp:202
+#: kimportdialog.cpp:223
 msgid "Remove Assignment From Selected Column"
 msgstr "Z wubraneje špalty wotstronić"
 
-#: kimportdialog.cpp:206
+#: kimportdialog.cpp:227
 msgid "Assign with Template..."
 msgstr "Z mustroweje dateje..."
 
-#: kimportdialog.cpp:210
+#: kimportdialog.cpp:231
 msgid "Save Current Template"
 msgstr "Aktualny muster zawěsćić"
 
-#: kimportdialog.cpp:298
+#: kimportdialog.cpp:319
 msgid "Loading Progress"
 msgstr "Pokročowanje začitanja"
 
-#: kimportdialog.cpp:299
+#: kimportdialog.cpp:320
 msgid "Please wait while the file is loaded."
 msgstr "Prošu dočakajće, doniž so njeje dataja začitała."
 
-#: kimportdialog.cpp:572
+#: kimportdialog.cpp:593
 msgid "Template Selection"
 msgstr "Wubraće mustra"
 
-#: kimportdialog.cpp:573
-msgid "Please select a template, that matches the csv file."
+#: kimportdialog.cpp:594
+#, fuzzy
+msgid "Please select a template, that matches the CSV file:"
 msgstr "Prošu wubjerće muster, kiž wotpowěduje csv-dataji."
 
-#: kimportdialog.cpp:631
+#: kimportdialog.cpp:652
 msgid "Importing Progress"
 msgstr "Pokročowanje importowanja"
 
-#: kimportdialog.cpp:632
+#: kimportdialog.cpp:653
 msgid "Please wait while the data is imported."
 msgstr "Prošu dočakajće, doniž so daty njejsu importowali"
 
-#: kimportdialog.cpp:719
-msgid "Template name"
+#: kimportdialog.cpp:740
+#, fuzzy
+msgid "Template Name"
 msgstr "Mjeno mustra"
 
-#: kimportdialog.cpp:719
-msgid "Please enter a name for the template"
+#: kimportdialog.cpp:740
+#, fuzzy
+msgid "Please enter a name for the template:"
 msgstr "Prošu zapodajće mjeno za muster"
 
-#: kprefsdialog.cpp:123
+#: kprefsdialog.cpp:222
 msgid "Choose..."
 msgstr "Wubrać..."
 
-#: kprefsdialog.cpp:266
+#: kprefsdialog.cpp:511
 msgid "Preferences"
 msgstr "Preferency"
 
-#: kprefsdialog.cpp:390
+#: kprefsdialog.cpp:626
 msgid ""
 "You are about to set all preferences to default values. All custom "
 "modifications will be lost."
 msgstr ""
-"Sadźiće wšě preferency na standardne hódnoty. Wšitke waše "
-"modifikacije so zhubja."
+"Sadźiće wšě preferency na standardne hódnoty. Wšitke waše modifikacije so "
+"zhubja."
 
-#: kprefsdialog.cpp:391
+#: kprefsdialog.cpp:627
 msgid "Setting Default Preferences"
 msgstr "Standardne preferency"
 
-#: rc.cpp:1
-msgid "Address Selection"
-msgstr "Wubraće adresy"
+#: kprefsdialog.cpp:628
+msgid "Reset to Defaults"
+msgstr ""
 
-#: rc.cpp:2
-msgid "Available Addresses"
-msgstr "Móžne adresy"
+#: pluginloaderbase.cpp:96
+msgid "Unnamed plugin"
+msgstr ""
 
-#: rc.cpp:4
-msgid "New..."
-msgstr "Nowa..."
+#: pluginloaderbase.cpp:103
+msgid "No description available"
+msgstr ""
 
-#: rc.cpp:5
-msgid "Edit..."
-msgstr "Editować..."
-
-#: rc.cpp:6 rc.cpp:16
+#: rc.cpp:2 rc.cpp:13
 msgid "Name"
 msgstr "Mjeno"
 
-#: rc.cpp:7 rc.cpp:17
+#: rc.cpp:3 rc.cpp:14
 msgid "Email Address"
 msgstr "Emailowa adresa"
 
-#: rc.cpp:9
-msgid "Filter on:"
-msgstr "Filter na:"
-
-#: rc.cpp:11
-msgid "To >>"
+#: rc.cpp:4
+#, fuzzy
+msgid "&To >>"
 msgstr "Na >>"
 
-#: rc.cpp:12
-msgid "CC >>"
+#: rc.cpp:5
+#, fuzzy
+msgid "&CC >>"
 msgstr "Kopija na >>"
 
-#: rc.cpp:13
-msgid "BCC >>"
+#: rc.cpp:6
+#, fuzzy
+msgid "&BCC >>"
 msgstr "Dalša kopija na >>"
 
-#: rc.cpp:14
-msgid "<< Remove"
+#: rc.cpp:7
+#, fuzzy
+msgid "<< &Remove"
 msgstr "<< Zničić"
 
-#: rc.cpp:15
-msgid "Selected Addresses"
-msgstr "Wubrane adresy"
-
-#: rc.cpp:18
-msgid "Save as Distribution List"
+#: rc.cpp:8
+#, fuzzy
+msgid "Save as &Distribution List..."
 msgstr "Jako rozpósłansku lisćinu zawěsćić"
 
-#: rc.cpp:19
-msgid "Edit Categories"
-msgstr "Kategorije editować"
+#: rc.cpp:9
+#, fuzzy
+msgid "&Selected Addresses"
+msgstr "Wubrane adresy"
 
-#: rc.cpp:24 rc.cpp:29
+#: rc.cpp:10
+#, fuzzy
+msgid "&Address Book"
+msgstr "Wosobinski adresnik"
+
+#: rc.cpp:11
+#, fuzzy
+msgid "&Filter on:"
+msgstr "Filter na:"
+
+#: rc.cpp:15
+#, fuzzy
+msgid "Address B&ook..."
+msgstr "Wosobinski adresnik"
+
+#: rc.cpp:17 rc.cpp:22
 msgid "Category"
 msgstr "Kategorija"
 
-#: rc.cpp:25
+#: rc.cpp:18
 msgid "A&dd"
 msgstr "Dod&aj"
 
-#: rc.cpp:28
-msgid "Select Categories"
-msgstr "Kategorije wubrać"
+#: rc.cpp:23
+#, fuzzy
+msgid "&Clear Selection"
+msgstr "Wubraće mustra"
 
-#: rc.cpp:31
-msgid "&Edit Categories"
-msgstr "Kategorije &editować"
+#: rc.cpp:24
+msgid "&Edit Categories..."
+msgstr "Kategorije &wobdźěłać..."
+
+#~ msgid "Address selection"
+#~ msgstr "Adresu wubrać"
+
+#~ msgid ""
+#~ "You have to select the addressees which you wish to save as distribution "
+#~ "list members."
+#~ msgstr ""
+#~ "Dyrbiće adresy wubrać, kiž maja so do rozpósłanskeje lisćiny přiwzać."
+
+#~ msgid ""
+#~ "No external address book application found. You might want to install "
+#~ "KAddressBook from the kdepim module."
+#~ msgstr ""
+#~ "Žadyn eksterny adresnik njehodźeše so namakać. Přemysliće sej, hač njeměł "
+#~ "so KAddressBook z modula kdepim instalować."
+
+#~ msgid "Fist select the entry which you want to edit."
+#~ msgstr "Wubjerće prěni zapis, kiž chceće změnić."
+
+#~ msgid "Available Addresses"
+#~ msgstr "Móžne adresy"
+
+#~ msgid "New..."
+#~ msgstr "Nowa..."
+
+#~ msgid "Edit..."
+#~ msgstr "Editować..."
 
