@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kprinter\n"
-"POT-Creation-Date: 2004-02-11 01:28+0100\n"
+"POT-Creation-Date: 2004-11-27 01:20+0100\n"
 "PO-Revision-Date: 2005-01-27 15:59+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -49,12 +49,18 @@ msgid "Allow printing from STDIN"
 msgstr "Ćišćenje wot STDIN dowolić"
 
 #: main.cpp:40
-msgid "Do not show the print dialog (print directly)."
+#, fuzzy
+msgid "Do not show the print dialog (print directly)"
 msgstr "Njepokaž ćišćenski dialog (hnydom ćišćeć)"
 
 #: main.cpp:41
 msgid "Files to load"
 msgstr "Dataje za začitanje"
+
+#: main.cpp:47
+#, fuzzy
+msgid "KPrinter"
+msgstr "Ćišćenski zmylk"
 
 #: main.cpp:47
 msgid "A printer tool for KDE"
@@ -88,15 +94,17 @@ msgstr "Ćišćenski zmylk"
 msgid ""
 "A file has been specified on the command line. Printing from STDIN will be "
 "disabled."
-msgstr "Na komandowej lince bu dataja specifikowana. Ćišćenje ze STDIN so znjemóžni."
+msgstr ""
+"Na komandowej lince bu dataja specifikowana. Ćišćenje ze STDIN so "
+"znjemóžni."
 
 #: printwrapper.cpp:196
 msgid ""
 "When using '--nodialog', you must at least specify one file to print or use "
 "the '--stdin' flag."
 msgstr ""
-"Hdyž so wužiwa '--nodialog', dyrbiće znajmjeńša jednu dataju za ćišćenje "
-"zapodać abo '--stdin' wužiwać."
+"Hdyž so wužiwa '--nodialog', dyrbiće znajmjeńša jednu dataju za "
+"ćišćenje zapodać abo '--stdin' wužiwać."
 
 #: printwrapper.cpp:245
 msgid "The specified printer or the default printer could not be found."
@@ -114,20 +122,23 @@ msgstr "Njemóžach ćišćenski dialog nastajić."
 msgid "Multiple files (%1)"
 msgstr "Wjacore dataje (%1)"
 
-#: printwrapper.cpp:345
+#: printwrapper.cpp:324
+msgid "Nothing to print."
+msgstr ""
+
+#: printwrapper.cpp:349
 msgid "Unable to open temporary file."
 msgstr "Njemóžach temporarnu dataju wočinić."
 
-#: printwrapper.cpp:360
+#: printwrapper.cpp:364
 msgid "Stdin is empty, no job sent."
 msgstr "STDIN je prózdny, žadyn ćišćenski nadawk."
 
-#: printwrapper.cpp:372
+#: printwrapper.cpp:376
 #, c-format
 msgid "Unable to copy file %1."
 msgstr "Njemóžach dataju %1 kopěrować."
 
-#: printwrapper.cpp:389
+#: printwrapper.cpp:393
 msgid "Error while printing files"
 msgstr "Zmylk při ćišćenju datajow"
-
