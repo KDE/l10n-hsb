@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
-"POT-Creation-Date: 2004-02-25 01:33+0100\n"
+"POT-Creation-Date: 2004-07-14 01:18+0200\n"
 "PO-Revision-Date: 2004-04-26 14:50+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -44,22 +44,37 @@ msgid "Backtrace saved to %1"
 msgstr "Backtrace zawěsćene w %1"
 
 #: debugger.cpp:106
-msgid "Can't create a file to save backtrace to"
+#, fuzzy
+msgid "Cannot create a file in which to save the backtrace"
 msgstr "Njemóžu dataju stworić za zawěsćenje backtracea"
 
 #: debugger.cpp:111
+#, fuzzy
 msgid "Select Filename"
 msgstr "Mjeno dataje wubrać"
 
-#: debugger.cpp:123
-msgid "Can't open file %1 for writing"
+#: debugger.cpp:119
+msgid "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr ""
+
+#: debugger.cpp:121
+msgid "Overwrite File?"
+msgstr ""
+
+#: debugger.cpp:122
+msgid "&Overwrite"
+msgstr ""
+
+#: debugger.cpp:134
+#, fuzzy
+msgid "Cannot open file %1 for writing"
 msgstr "Njemóžu do dataje %1 pisać"
 
-#: debugger.cpp:131
+#: debugger.cpp:142
 msgid "Unable to create a valid backtrace."
 msgstr "Njemóžu korektny backtrace stworić."
 
-#: debugger.cpp:132
+#: debugger.cpp:143
 msgid ""
 "This backtrace appears to be of no use.\n"
 "This is probably because your packages are built in a way which prevents "
@@ -68,15 +83,15 @@ msgid ""
 "\n"
 msgstr ""
 "Tutón backtrace njeje wužitny.\n"
-"Najskerje to na tym zaleži, zo su waše pakćiki tak stworjene, zo njehodźi so korektny "
-"backtrace stworić, abo stack bu zničeny.\n"
+"Najskerje to na tym zaleži, zo su waše pakćiki tak stworjene, zo "
+"njehodźi so korektny backtrace stworić, abo stack bu zničeny.\n"
 "\n"
 
-#: debugger.cpp:141
+#: debugger.cpp:152
 msgid "Loading backtrace..."
 msgstr "Čitam backtrace..."
 
-#: debugger.cpp:159
+#: debugger.cpp:170
 msgid "Loading symbols..."
 msgstr "Čitam symbole ..."
 
@@ -89,8 +104,11 @@ msgid "unknown"
 msgstr "njeznate"
 
 #: main.cpp:42
-msgid "KDE Crash Handler gives the user feedback if a program crashed."
-msgstr "KDE Crash Handler wužiwarjej informacije podawa, hdyž je so program pójsnył."
+#, fuzzy
+msgid "KDE crash handler gives the user feedback if a program crashed"
+msgstr ""
+"KDE Crash Handler wužiwarjej informacije podawa, hdyž je so program "
+"pójsnył."
 
 #: main.cpp:46
 msgid "The signal number that was caught"
@@ -172,17 +190,18 @@ msgstr "<p><b>Program so pójsnył</b></p><p>Program %appname je so pójsnył.</
 msgid ""
 "<p>Do you want to generate a backtrace? This will help the developers to "
 "figure out what went wrong.</p>\n"
-"<p>Unfortunately this will take some time on slow machines.</p><p><b>Note: A "
-"backtrace is not a substitute for a proper description of the bug and "
-"information on how to reproduce it. It is not possible to fix the bug "
-"without a proper description.</b></p>"
+"<p>Unfortunately this will take some time on slow machines.</p>"
+"<p><b>Note: A backtrace is not a substitute for a proper description of the "
+"bug and information on how to reproduce it. It is not possible to fix the "
+"bug without a proper description.</b></p>"
 msgstr ""
-"<p>Chceće backtrace stworić? To budźe wuwiwarjam pomhać, zo bychu zwěsćili, "
-"što njeje fungowało.</p>\n"
-"<p>Bohužel to na pomałkim computeru trochu traje.</p><p><b>Kedźbu: Backtrace "
-"njenaruna dokładne wopisanje zmylka a informaciju, kak hodźi so zmylk "
-"prowokować. Bjez dokładneho wopisanja njebudźe móžno, zmylk wotstronić.</b></"
-"p>"
+"<p>Chceće backtrace stworić? To budźe wuwiwarjam pomhać, zo bychu "
+"zwěsćili, što njeje fungowało.</p>\n"
+"<p>Bohužel to na pomałkim computeru trochu traje.</p>"
+"<p><b>"
+"Kedźbu: Backtrace njenaruna dokładne wopisanje zmylka a informaciju, kak "
+"hodźi so zmylk prowokować. Bjez dokładneho wopisanja njebudźe móžno, "
+"zmylk wotstronić.</b></p>"
 
 #: toplevel.cpp:147
 msgid "Include Backtrace"
@@ -206,4 +225,3 @@ msgstr "Backtrace njeje móžny"
 #~ "backtrace stworił.\n"
 #~ "Jeli maće druhi debugger, woprašejće so pola kde-devel@kde.org, kak ma so "
 #~ "konfigurować."
-
