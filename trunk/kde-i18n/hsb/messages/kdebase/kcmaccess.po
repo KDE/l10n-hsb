@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmaccess\n"
-"POT-Creation-Date: 2004-07-20 01:20+0200\n"
+"POT-Creation-Date: 2004-12-18 01:18+0100\n"
 "PO-Revision-Date: 2004-04-26 14:51+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -14,35 +14,80 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3\n"
 
-#: kcmaccess.cpp:61
+#: kcmaccess.cpp:141
+msgid "AltGraph"
+msgstr ""
+
+#: kcmaccess.cpp:143
+msgid "Hyper"
+msgstr ""
+
+#: kcmaccess.cpp:145
+msgid "Super"
+msgstr ""
+
+#: kcmaccess.cpp:159
+msgid "Press %1 while NumLock, CapsLock and ScrollLock are active"
+msgstr ""
+
+#: kcmaccess.cpp:161
+msgid "Press %1 while CapsLock and ScrollLock are active"
+msgstr ""
+
+#: kcmaccess.cpp:163
+msgid "Press %1 while NumLock and ScrollLock are active"
+msgstr ""
+
+#: kcmaccess.cpp:165
+msgid "Press %1 while ScrollLock is active"
+msgstr ""
+
+#: kcmaccess.cpp:168
+msgid "Press %1 while NumLock and CapsLock are active"
+msgstr ""
+
+#: kcmaccess.cpp:170
+msgid "Press %1 while CapsLock is active"
+msgstr ""
+
+#: kcmaccess.cpp:172
+msgid "Press %1 while NumLock is active"
+msgstr ""
+
+#: kcmaccess.cpp:174
+#, c-format
+msgid "Press %1"
+msgstr ""
+
+#: kcmaccess.cpp:184
 msgid "kaccess"
 msgstr "kaccess"
 
-#: kcmaccess.cpp:61
+#: kcmaccess.cpp:184
 msgid "KDE Accessibility Tool"
 msgstr "KDE nastroj za přistupnosć"
 
-#: kcmaccess.cpp:63
+#: kcmaccess.cpp:186
 msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
 msgstr "(c) 2000, Matthias Hoelzer-Kluepfel"
 
-#: kcmaccess.cpp:65
+#: kcmaccess.cpp:188
 msgid "Author"
 msgstr "Awtor"
 
-#: kcmaccess.cpp:79
+#: kcmaccess.cpp:202
 msgid "Audible Bell"
 msgstr "Słyšomny zwónčk"
 
-#: kcmaccess.cpp:86
+#: kcmaccess.cpp:209
 msgid "Use &system bell"
 msgstr "Wužiwaj &systemowy zwónčk"
 
-#: kcmaccess.cpp:88
+#: kcmaccess.cpp:211
 msgid "Us&e customized bell"
 msgstr "Wužiwaj &postajeny zwónčk"
 
-#: kcmaccess.cpp:90
+#: kcmaccess.cpp:213
 msgid ""
 "If this option is checked, the default system bell will be used. See the "
 "\"System Bell\" control module for how to customize the system bell. "
@@ -53,7 +98,7 @@ msgstr ""
 "zhonił, kak so systemowy zwónčk konfiguruje. Zwjetša je to proste "
 "piwčenje."
 
-#: kcmaccess.cpp:93
+#: kcmaccess.cpp:216
 msgid ""
 "Check this option if you want to use a customized bell, playing a sound "
 "file. If you do this, you will probably want to turn off the system bell."
@@ -65,11 +110,11 @@ msgstr ""
 "<p> Prošu wopomńće, zo móhło to na pomałym computeru přestawka "
 "nastać mjez podawkom, kiž je zwónčk wuwołał, a wothrawanjom zwuka."
 
-#: kcmaccess.cpp:100
+#: kcmaccess.cpp:223
 msgid "Sound &to play:"
 msgstr "Zwuk, kiž ma so &hrać:"
 
-#: kcmaccess.cpp:105
+#: kcmaccess.cpp:228
 msgid ""
 "If the option \"Use customized bell\" is enabled, you can choose a sound "
 "file here. Click \"Browse...\" to choose a sound file using the file dialog."
@@ -78,15 +123,15 @@ msgstr ""
 "tu zwukowu dataju wubrać. Klikńće na \"Přelistować...\", zo byšće z "
 "datajowym dialogom zwukowu dataju wubrali."
 
-#: kcmaccess.cpp:122
+#: kcmaccess.cpp:245
 msgid "Visible Bell"
 msgstr "Widźomny zwónčk"
 
-#: kcmaccess.cpp:128
+#: kcmaccess.cpp:251
 msgid "&Use visible bell"
 msgstr "&Wužiwaj wizuelny zwónčk"
 
-#: kcmaccess.cpp:130
+#: kcmaccess.cpp:253
 msgid ""
 "This option will turn on the \"visible bell\", i.e. a visible notification "
 "shown every time that normally just a bell would occur. This is especially "
@@ -96,89 +141,114 @@ msgstr ""
 "něšto skedźbnja, na čož by so hewak ze zwónčkom skedźbnił. To je "
 "hłuchim wosebje wužitne."
 
-#: kcmaccess.cpp:136
+#: kcmaccess.cpp:259
 msgid "I&nvert screen"
 msgstr "Wobrazowku &inwertować"
 
-#: kcmaccess.cpp:139
+#: kcmaccess.cpp:262
 msgid "All screen colors will be inverted for the amount of time specified below."
 msgstr "Wšě barby na wobrazowce so na deleka specifikowany čas inwertuja."
 
-#: kcmaccess.cpp:141
+#: kcmaccess.cpp:264
 msgid "F&lash screen"
 msgstr "Wobrazowka &zabłysknje"
 
-#: kcmaccess.cpp:143
+#: kcmaccess.cpp:266
 msgid ""
 "The screen will turn to a custom color for the amount of time specified "
 "below."
 msgstr "Wobrazowka na deleka specifikowany čas konfigurowanu barbu přiwozmje. "
 
-#: kcmaccess.cpp:149
+#: kcmaccess.cpp:272
 msgid "Click here to choose the color used for the \"flash screen\" visible bell."
 msgstr ""
 "Klikńće tu, zo byšće barbu za wizuelny zwónčk \"Wobrazowka "
 "zabłysknje\" wubrali."
 
-#: kcmaccess.cpp:156
+#: kcmaccess.cpp:279
 msgid "Duration:"
 msgstr "Kak dołho:"
 
-#: kcmaccess.cpp:157 kcmaccess.cpp:210 kcmaccess.cpp:228
+#: kcmaccess.cpp:280 kcmaccess.cpp:333 kcmaccess.cpp:351
 msgid " msec"
 msgstr "msek"
 
-#: kcmaccess.cpp:159
+#: kcmaccess.cpp:282
 msgid ""
 "Here you can customize the duration of the \"visible bell\" effect being "
 "shown."
 msgstr "Tu móžeće nastajić, kak dołho ma efekt \"wizuelneho zwónčka\" trać."
 
-#: kcmaccess.cpp:176
+#: kcmaccess.cpp:299
 msgid "&Bell"
 msgstr "&Zwónčk"
 
-#: kcmaccess.cpp:184
+#: kcmaccess.cpp:307
 msgid "S&ticky Keys"
 msgstr "Lěpja&te tasty"
 
-#: kcmaccess.cpp:190
+#: kcmaccess.cpp:313
 msgid "Use &sticky keys"
 msgstr "Wužiwaj &lěpjate tasty"
 
-#: kcmaccess.cpp:195
+#: kcmaccess.cpp:318
 msgid "&Lock sticky keys"
 msgstr "&Zamkni lěpjate tasty"
 
-#: kcmaccess.cpp:198
+#: kcmaccess.cpp:321
 msgid "Slo&w Keys"
 msgstr "Pomałke &tasty"
 
-#: kcmaccess.cpp:204
+#: kcmaccess.cpp:327
 msgid "&Use slow keys"
 msgstr "Wužiwaj &pomałke tasty"
 
-#: kcmaccess.cpp:212
+#: kcmaccess.cpp:335
 msgid "Dela&y:"
 msgstr "Přestaw&ka:"
 
-#: kcmaccess.cpp:216
+#: kcmaccess.cpp:339
 msgid "Bounce Keys"
 msgstr "Tasty wotskoča"
 
-#: kcmaccess.cpp:222
+#: kcmaccess.cpp:345
 msgid "Use bou&nce keys"
 msgstr "Wužiwaj tasty, kiž &wotskoča"
 
-#: kcmaccess.cpp:230
+#: kcmaccess.cpp:353
 msgid "D&elay:"
 msgstr "Přes&tawka:"
 
-#: kcmaccess.cpp:247
+#: kcmaccess.cpp:356
+msgid "Activation Gestures"
+msgstr ""
+
+#: kcmaccess.cpp:362
+msgid "Use gestures for activating the above features"
+msgstr ""
+
+#: kcmaccess.cpp:366
+msgid ""
+"Here you can activate keyboard gestures that turn on the following features: "
+"\n"
+"Sticky keys: Press Shift key 5 consecutive times\n"
+"Slow keys: Hold down Shift for 8 seconds"
+msgstr ""
+
+#: kcmaccess.cpp:370
+msgid ""
+"Here you can activate keyboard gestures that turn on the following features: "
+"\n"
+"Mouse Keys: %1\n"
+"Sticky keys: Press Shift key 5 consecutive times\n"
+"Slow keys: Hold down Shift for 8 seconds"
+msgstr ""
+
+#: kcmaccess.cpp:391
 msgid "&Keyboard"
 msgstr "&Tastatura"
 
-#: kcmaccess.cpp:271
+#: kcmaccess.cpp:415
 msgid "*.wav|WAV Files"
 msgstr "*.wav|WAV dataje"
 
