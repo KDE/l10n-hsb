@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kbabel\n"
-"POT-Creation-Date: 2004-04-14 01:42+0200\n"
+"POT-Creation-Date: 2004-04-29 01:43+0200\n"
 "PO-Revision-Date: 2004-04-19 17:31+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -70,8 +70,9 @@ msgid ""
 "<p>The Catalog Manager merges two folders into one tree and displays all\n"
 "PO and POT files in these folders. This way you can easily see if a\n"
 "template has been added or removed. Also some information about the files\n"
-"is displayed.</p><p>For more information see section <b>The Catalog Manager</"
-"b> in the online help.</p></qt>"
+"is displayed.</p>"
+"<p>For more information see section <b>The Catalog Manager</b>"
+" in the online help.</p></qt>"
 msgstr ""
 "<qt><p><b></b></p>\n"
 "<p> in</p><p><b></b> in</p></qt>"
@@ -132,41 +133,50 @@ msgid "all"
 msgstr ""
 
 #: catalogmanager/catalogmanagerview.cpp:703
-msgid "Statistics for %1:\n"
+msgid ""
+"Statistics for %1:\n"
 msgstr ""
 
 #: catalogmanager/catalogmanagerview.cpp:705
 #, fuzzy
-msgid "Number of packages: %1\n"
+msgid ""
+"Number of packages: %1\n"
 msgstr "Čisło"
 
 #: catalogmanager/catalogmanagerview.cpp:708
-msgid "Complete translated: %1 % (%2)\n"
+msgid ""
+"Complete translated: %1 % (%2)\n"
 msgstr ""
 
 #: catalogmanager/catalogmanagerview.cpp:711
-msgid "Only template available: %1 % (%2)\n"
+msgid ""
+"Only template available: %1 % (%2)\n"
 msgstr ""
 
 #: catalogmanager/catalogmanagerview.cpp:713
-msgid "Only PO file available: %1 % (%2)\n"
+msgid ""
+"Only PO file available: %1 % (%2)\n"
 msgstr ""
 
 #: catalogmanager/catalogmanagerview.cpp:715
 #, fuzzy
-msgid "Number of messages: %1\n"
+msgid ""
+"Number of messages: %1\n"
 msgstr "Čisło"
 
 #: catalogmanager/catalogmanagerview.cpp:719
-msgid "Translated: %1 % (%2)\n"
+msgid ""
+"Translated: %1 % (%2)\n"
 msgstr ""
 
 #: catalogmanager/catalogmanagerview.cpp:722
-msgid "Fuzzy: %1 % (%2)\n"
+msgid ""
+"Fuzzy: %1 % (%2)\n"
 msgstr ""
 
 #: catalogmanager/catalogmanagerview.cpp:725
-msgid "Untranslated: %1 % (%2)\n"
+msgid ""
+"Untranslated: %1 % (%2)\n"
 msgstr ""
 
 #: catalogmanager/catalogmanagerview.cpp:727 rc.cpp:295 rc.cpp:361
@@ -248,8 +258,7 @@ msgid ""
 msgstr "in"
 
 #: catalogmanager/catalogmanagerview.cpp:848
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid "An error occurred while processing \"msgfmt --statistics *.po\" in folder %1"
 msgstr "in"
 
@@ -421,21 +430,25 @@ msgstr ""
 msgid "Sponsored development of KBabel for a while."
 msgstr ""
 
-#: catalogmanager/main.cpp:197 kbabel/main.cpp:469
+#: catalogmanager/main.cpp:197
+msgid "Minor improvement"
+msgstr ""
+
+#: catalogmanager/main.cpp:198 kbabel/main.cpp:469
 #, fuzzy
 msgid ""
 "KBabel contains code from the following projects:\n"
 "Qt by Trolltech and GNU gettext"
 msgstr "wobsahuje"
 
-#: catalogmanager/main.cpp:200 kbabel/main.cpp:472 kbabeldict/main.cpp:110
+#: catalogmanager/main.cpp:201 kbabel/main.cpp:472 kbabeldict/main.cpp:110
 #, fuzzy
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
 msgstr "Edward Wornar"
 
-#: catalogmanager/main.cpp:201 kbabel/main.cpp:473 kbabeldict/main.cpp:111
+#: catalogmanager/main.cpp:202 kbabel/main.cpp:473 kbabeldict/main.cpp:111
 #, fuzzy
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
@@ -608,11 +621,18 @@ msgstr "Za&wěsćić"
 #: catalogmanager/findinfilesdialog.cpp:48
 #, fuzzy
 msgid ""
-"<qt><p><b>File Options</b></p><p>Here you can finetune where to find:"
-"<ul><li><b>In all files</b>: search in all files, otherwise searched is the "
-"selected file or files in the selected folder</li><li><b>Ask before next "
-"file</b>: show a dialog asking to proceed to the next file</li></ul></qt>"
-msgstr "<qt><p><b> Dataja Opcije</b></p><p><ul><li><b></b> in in</li><li><b></b></li></ul></qt>"
+"<qt>"
+"<p><b>File Options</b></p>"
+"<p>Here you can finetune where to find:"
+"<ul>"
+"<li><b>In all files</b>: search in all files, otherwise searched is the "
+"selected file or files in the selected folder</li>"
+"<li><b>Ask before next file</b>"
+": show a dialog asking to proceed to the next file</li></ul></qt>"
+msgstr ""
+"<qt>"
+"<p><b> Dataja Opcije</b></p>"
+"<p><ul><li><b></b> in in</li><li><b></b></li></ul></qt>"
 
 #: catalogmanager/catmanlistitem.cpp:68
 msgid "Message Catalogs"
@@ -1059,14 +1079,12 @@ msgid "Error while trying to create archive file."
 msgstr "Zmylk."
 
 #: common/kbmailer.cpp:145
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid "Error while trying to read file %1."
 msgstr "Zmylk."
 
 #: common/kbmailer.cpp:150
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid "Error while trying to open file %1."
 msgstr "Zmylk."
 
@@ -1148,9 +1166,11 @@ msgstr ""
 
 #: commonui/roughtransdlg.cpp:97
 msgid ""
-"<qt><p><b>What entries to translate</b></p><p>Choose here, for which entries "
-"of the file KBabel tries to find a translation. Changed entries are always "
-"marked as fuzzy, no matter which option you choose.</p></qt>"
+"<qt>"
+"<p><b>What entries to translate</b></p>"
+"<p>Choose here, for which entries of the file KBabel tries to find a "
+"translation. Changed entries are always marked as fuzzy, no matter which "
+"option you choose.</p></qt>"
 msgstr ""
 
 #: commonui/roughtransdlg.cpp:102
@@ -1171,11 +1191,12 @@ msgstr ""
 
 #: commonui/roughtransdlg.cpp:115
 msgid ""
-"<qt><p><b>How messages get translated</b></p><p>Here you can define if a "
-"message can only get translated completely, if similar messages are "
-"acceptable or if KBabel is supposed to try translating the single words of a "
-"message if no translation of the complete message or similar message was "
-"found.</p></qt>"
+"<qt>"
+"<p><b>How messages get translated</b></p>"
+"<p>Here you can define if a message can only get translated completely, if "
+"similar messages are acceptable or if KBabel is supposed to try translating "
+"the single words of a message if no translation of the complete message or "
+"similar message was found.</p></qt>"
 msgstr ""
 
 #: commonui/roughtransdlg.cpp:125
@@ -1184,11 +1205,12 @@ msgstr ""
 
 #: commonui/roughtransdlg.cpp:128
 msgid ""
-"<qt><p><b>Mark changed entries as fuzzy</b></p><p>When a translation for a "
-"message is found, the entry will be marked <b>fuzzy</b> by default. This is "
-"because the translation is just guessed by KBabel and you should always "
-"check the results carefully. Deactivate this option only if you know what "
-"you are doing.</p></qt>"
+"<qt>"
+"<p><b>Mark changed entries as fuzzy</b></p>"
+"<p>When a translation for a message is found, the entry will be marked "
+"<b>fuzzy</b> by default. This is because the translation is just guessed by "
+"KBabel and you should always check the results carefully. Deactivate this "
+"option only if you know what you are doing.</p></qt>"
 msgstr ""
 
 #: commonui/roughtransdlg.cpp:139
@@ -1199,10 +1221,11 @@ msgstr "&KDE"
 #: commonui/roughtransdlg.cpp:142
 #, fuzzy
 msgid ""
-"<qt><p><b>Initialize KDE-specific entries</b></p><p>Initialize \"Comment=\" "
-"and \"Name=\" entries if a translation is not found. Also, \"NAME OF "
-"TRANSLATORS\" and \"EMAIL OF TRANSLATORS\" is filled with identity settings."
-"</p></qt>"
+"<qt>"
+"<p><b>Initialize KDE-specific entries</b></p>"
+"<p>Initialize \"Comment=\" and \"Name=\" entries if a translation is not "
+"found. Also, \"NAME OF TRANSLATORS\" and \"EMAIL OF TRANSLATORS\" is filled "
+"with identity settings.</p></qt>"
 msgstr "<qt><p><b> KDE</b></p><p> Komentar Mjeno</p></qt>"
 
 #: commonui/roughtransdlg.cpp:147
@@ -1212,12 +1235,14 @@ msgstr "Słowniki"
 #: commonui/roughtransdlg.cpp:166
 #, fuzzy
 msgid ""
-"<qt><p><b>Dictionaries</b></p><p>Choose here, which dictionaries have to be "
-"used for finding a translation. If you select more than one dictionary, they "
-"are used in the same order as they are displayed in the list.</p><p>The "
-"<b>Configure</b> button allows you to temporarily configure selected "
-"dictionary. The original settings will be restored after closing the dialog."
-"</p></qt>"
+"<qt>"
+"<p><b>Dictionaries</b></p>"
+"<p>Choose here, which dictionaries have to be used for finding a "
+"translation. If you select more than one dictionary, they are used in the "
+"same order as they are displayed in the list.</p>"
+"<p>The <b>Configure</b> button allows you to temporarily configure selected "
+"dictionary. The original settings will be restored after closing the "
+"dialog.</p></qt>"
 msgstr "<qt><p><b></b></p><p> in in</p><p><b> Konfiguracija</b></p></qt>"
 
 #: commonui/roughtransdlg.cpp:175
@@ -1226,7 +1251,8 @@ msgstr ""
 
 #: commonui/roughtransdlg.cpp:733
 msgid ""
-"<qt><p>When a translation for a message is found, the entry will be marked "
+"<qt>"
+"<p>When a translation for a message is found, the entry will be marked "
 "<b>fuzzy</b> by default. This is because the translation is just guessed by "
 "KBabel and you should always check the results carefully. Deactivate this "
 "option only if you know what you are doing.</p></qt>"
@@ -1388,9 +1414,12 @@ msgstr "Pytać:"
 #: commonui/finddialog.cpp:60
 #, fuzzy
 msgid ""
-"<qt><p><b>Find text</b></p><p>Here you can enter the text you want to search "
-"for. If you want to search for a regular expression, enable <b>Use regular "
-"expression</b> below.</p></qt>"
+"<qt>"
+"<p><b>Find text</b></p>"
+"<p>"
+"Here you can enter the text you want to search for. If you want to search "
+"for a regular expression, enable <b>Use regular expression</b> "
+"below.</p></qt>"
 msgstr "<qt><p><b> Pytać</b></p><p><b></b></p></qt>"
 
 #: commonui/finddialog.cpp:72
@@ -1401,10 +1430,12 @@ msgstr "&Narunaj z:"
 #: commonui/finddialog.cpp:80
 #, fuzzy
 msgid ""
-"<qt><p><b>Replace text</b></p><p>Here you can enter the text you want the "
-"found text to get replaced with. The text is used as is. It is not possible "
-"to make a back reference, if you have searched for a regular expression.</"
-"p></qt>"
+"<qt>"
+"<p><b>Replace text</b></p>"
+"<p>"
+"Here you can enter the text you want the found text to get replaced with. "
+"The text is used as is. It is not possible to make a back reference, if you "
+"have searched for a regular expression.</p></qt>"
 msgstr "<qt><p><b> Narunać</b></p><p></p></qt>"
 
 #: commonui/finddialog.cpp:95
@@ -1427,8 +1458,9 @@ msgstr "Kom&entar"
 #: commonui/finddialog.cpp:103
 #, fuzzy
 msgid ""
-"<qt><p><b>Where to search</b></p><p>Select here in which parts of a catalog "
-"entry you want to search.</p></qt>"
+"<qt>"
+"<p><b>Where to search</b></p>"
+"<p>Select here in which parts of a catalog entry you want to search.</p></qt>"
 msgstr "<qt><p><b></b></p><p> in</p></qt>"
 
 #: commonui/finddialog.cpp:111 rc.cpp:35
@@ -1473,32 +1505,62 @@ msgstr ""
 #: commonui/finddialog.cpp:136
 #, fuzzy
 msgid ""
-"<qt><p><b>Options</b></p><p>Here you can finetune replacing:<ul><li><b>Case "
-"sensitive</b>: does case of entered text have to be respected?</"
-"li><li><b>Only whole words</b>: text found must not be part of a longer "
-"word</li><li><b>From cursor position</b>: start replacing at the part of the "
-"document where the cursor is. Otherwise replacing is started at the "
-"beginning or the end.</li><li><b>Find backwards</b>: Should be self-"
-"explanatory.</li><li><b>Use regular expression</b>: use text entered in "
-"field <b>Find</b> as a regular expression. This option has no effect with "
-"the replace text, especially no back references are possible.</li><li><b>Ask "
-"before replacing</b>: Enable, if you want to have control about what is "
-"replaced. Otherwise all found text is replaced without asking.</li></ul></"
-"p></qt>"
-msgstr "<qt><p><b> Opcije</b></p><p><ul><li><b></b></li><li><b></b></li><li><b></b></li><li><b> Pytać</b></li><li><b></b> in<b> Pytać</b></li><li><b></b></li></ul></p></qt>"
+"<qt>"
+"<p><b>Options</b></p>"
+"<p>Here you can finetune replacing:"
+"<ul>"
+"<li><b>Case sensitive</b>: does case of entered text have to be "
+"respected?</li>"
+"<li><b>Only whole words</b>: text found must not be part of a longer "
+"word</li>"
+"<li><b>From cursor position</b>"
+": start replacing at the part of the document where the cursor is. Otherwise "
+"replacing is started at the beginning or the end.</li>"
+"<li><b>Find backwards</b>: Should be self-explanatory.</li>"
+"<li><b>Use regular expression</b>: use text entered in field <b>Find</b> as "
+"a regular expression. This option has no effect with the replace text, "
+"especially no back references are possible.</li>"
+"<li><b>Ask before replacing</b>: Enable, if you want to have control about "
+"what is replaced. Otherwise all found text is replaced without "
+"asking.</li></ul></p></qt>"
+msgstr ""
+"<qt>"
+"<p><b> "
+"Opcije</b></p>"
+"<p>"
+"<ul>"
+"<li><b></b></li>"
+"<li><b></b></li>"
+"<li><b></b></li>"
+"<li><b> Pytać</b></li>"
+"<li><b></b> in<b> Pytać</b></li><li><b></b></li></ul></p></qt>"
 
 #: commonui/finddialog.cpp:153
 #, fuzzy
 msgid ""
-"<qt><p><b>Options</b></p><p>Here you can finetune the search:<ul><li><b>Case "
-"sensitive</b>: does case of entered text have to be respected?</"
-"li><li><b>Only whole words</b>: text found must not be part of a longer "
-"word</li><li><b>From cursor position</b>: start search at the part of the "
-"document, where the cursor is. Otherwise search is started at the beginning "
-"or the end.</li><li><b>Find backwards</b>: Should be self-explanatory.</"
-"li><li><b>Use regular expression</b>: use entered text as a regular "
+"<qt>"
+"<p><b>Options</b></p>"
+"<p>Here you can finetune the search:"
+"<ul>"
+"<li><b>Case sensitive</b>: does case of entered text have to be "
+"respected?</li>"
+"<li><b>Only whole words</b>: text found must not be part of a longer "
+"word</li>"
+"<li><b>From cursor position</b>: start search at the part of the document, "
+"where the cursor is. Otherwise search is started at the beginning or the "
+"end.</li>"
+"<li><b>Find backwards</b>: Should be self-explanatory.</li>"
+"<li><b>Use regular expression</b>: use entered text as a regular "
 "expression.</li></ul></p></qt>"
-msgstr "<qt><p><b> Opcije</b></p><p><ul><li><b></b></li><li><b></b></li><li><b></b></li><li><b> Pytać</b></li><li><b></b></li></ul></p></qt>"
+msgstr ""
+"<qt>"
+"<p><b> "
+"Opcije</b></p>"
+"<p>"
+"<ul>"
+"<li><b></b></li>"
+"<li><b></b></li>"
+"<li><b></b></li><li><b> Pytać</b></li><li><b></b></li></ul></p></qt>"
 
 #: commonui/finddialog.cpp:523
 #, fuzzy
@@ -1679,8 +1741,9 @@ msgstr ""
 #, fuzzy
 msgid ""
 "<qt><p><b>Update Header</b></p>\n"
-"<p>Check this button to update the header information of the file every time "
-"it is saved.</p>\n"
+"<p>"
+"Check this button to update the header information of the file every time it "
+"is saved.</p>\n"
 "<p>The header normally keeps information about the date and time the file "
 "was last\n"
 "updated, the last translator etc.</p>\n"
@@ -1718,31 +1781,41 @@ msgstr ""
 #: commonui/projectprefwidgets.cpp:266
 #, fuzzy
 msgid ""
-"<qt><p><b>Encoding</b></p><p>Choose how to encode characters when saving to "
-"a file. If you are unsure what encoding to use, please ask your translation "
-"coordinator.</p><ul><li><b>%1</b>: this is the encoding that fits the "
-"character set of your system language.</li><li><b>%2</b>: uses unicode (UTF-"
-"8) encoding.</li><li><b>%3</b>: uses unicode (UTF-16) encoding.This is not "
-"recommended at the moment because gettext might have some trouble reading "
-"this.</li></ul></qt>"
-msgstr "<qt><p><b> Kodowanje</b></p><p></p><ul><li><b></b></li><li><b></b></li><li><b></b></li></ul></qt>"
+"<qt>"
+"<p><b>Encoding</b></p>"
+"<p>Choose how to encode characters when saving to a file. If you are unsure "
+"what encoding to use, please ask your translation "
+"coordinator.</p>"
+"<ul>"
+"<li><b>%1</b>: this is the encoding that fits the character set of your "
+"system language.</li>"
+"<li><b>%2</b>: uses unicode (UTF-8) encoding.</li>"
+"<li><b>%3</b>"
+": uses unicode (UTF-16) encoding.This is not recommended at the moment "
+"because gettext might have some trouble reading this.</li></ul></qt>"
+msgstr ""
+"<qt>"
+"<p><b> "
+"Kodowanje</b></p>"
+"<p></p><ul><li><b></b></li><li><b></b></li><li><b></b></li></ul></qt>"
 
 #: commonui/projectprefwidgets.cpp:277
 #, fuzzy
 msgid ""
-"<qt><p><b>Keep the encoding of the file</b></p><p>If this option is "
-"activated, files are always saved in the same encoding as they were read in. "
-"Files without charset information in the header (e.g. POT files) are saved "
-"in the encoding set above.</p></qt>"
+"<qt>"
+"<p><b>Keep the encoding of the file</b></p>"
+"<p>If this option is activated, files are always saved in the same encoding "
+"as they were read in. Files without charset information in the header (e.g. "
+"POT files) are saved in the encoding set above.</p></qt>"
 msgstr "<qt><p><b> Zdźeržeć</b></p><p> in in Dataje in in</p></qt>"
 
 #: commonui/projectprefwidgets.cpp:283
 msgid ""
 "<qt><p><b>Check syntax of file when saving</b></p>\n"
-"<p>Check this to automatically check syntax of file with \"msgfmt --"
-"statistics\"\n"
-"when saving a file. You will only get a message, if an error occurred.</p></"
-"qt>"
+"<p>Check this to automatically check syntax of file with \"msgfmt "
+"--statistics\"\n"
+"when saving a file. You will only get a message, if an error "
+"occurred.</p></qt>"
 msgstr ""
 
 #: commonui/projectprefwidgets.cpp:287
@@ -1763,15 +1836,16 @@ msgstr ""
 #: commonui/projectprefwidgets.cpp:295
 #, fuzzy
 msgid ""
-"<qt><p><b>Format of Revision-Date</b></p><p>Choose in which format the date "
-"and time of the header field\n"
+"<qt>"
+"<p><b>Format of Revision-Date</b></p>"
+"<p>Choose in which format the date and time of the header field\n"
 "<i>PO-Revision-Date</i> is saved: <ul>\n"
 "<li><b>Default</b> is the format normally used in PO files.</li>\n"
 "<li><b>Local</b> is the format specific to your country.\n"
 "It can be configured in KDE's Control Center.</li>\n"
-"<li><b>Custom</b> lets you define your own format.</li></ul></p> <p>For more "
-"information, see section <b>The Preferences Dialog</b> in the online help.</"
-"p></qt>"
+"<li><b>Custom</b> lets you define your own format.</li></ul></p> "
+"<p>For more information, see section <b>The Preferences Dialog</b> in the "
+"online help.</p></qt>"
 msgstr ""
 "<qt><p><b> Format Datum</b></p><p> in\n"
 "<i> Datum</i><ul>\n"
@@ -1843,7 +1917,8 @@ msgid ""
 "<qt><p><b>Number of singular/plural forms</b></p>\n"
 "<p><b>Note</b>: This option is KDE specific at the moment. If you are not "
 "translating a KDE application, you can safely ignore this option.</p>\n"
-"<p>Choose here how many singular and plural forms are used in your language. "
+"<p>"
+"Choose here how many singular and plural forms are used in your language. "
 "This number must correspond to the settings of your language team. If you "
 "are working with KDE >= 2.2 with support for the language you are "
 "translating to, set this option to <i>Automatic</i> and KBabel tries to get "
@@ -1868,8 +1943,7 @@ msgid "Re&quire plural form arguments in translation"
 msgstr "in"
 
 #: commonui/projectprefwidgets.cpp:614
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid ""
 "<qt><p><b>Require plural form arguments in translation</b></p>\n"
 "<p><b>Note</b>: This option is KDE specific at the moment. If you are not "
@@ -1886,8 +1960,8 @@ msgstr ""
 msgid ""
 "<qt><p><b>GNU plural form header</b></p>\n"
 "<p>Here you can fill a header entry for GNU plural form handling; if you "
-"leave the entry empty, the entry in the PO file will not be changed or added."
-"</p>\n"
+"leave the entry empty, the entry in the PO file will not be changed or "
+"added.</p>\n"
 "<p>KBabel can automatically try to determine value suggested by the GNU "
 "gettext tools for currently set language; just press the <b>Lookup</b> "
 "button.</p></qt>"
@@ -1926,9 +2000,10 @@ msgstr ""
 #: commonui/projectprefwidgets.cpp:816
 #, fuzzy
 msgid ""
-"<qt><p><b>Marker for keyboard accelerator</b></p><p>Define here, what "
-"character marks the following character as keyboard accelerator. For example "
-"in Qt it is '&amp;' and in Gtk it is '_'.</p></qt>"
+"<qt>"
+"<p><b>Marker for keyboard accelerator</b></p>"
+"<p>Define here, what character marks the following character as keyboard "
+"accelerator. For example in Qt it is '&amp;' and in Gtk it is '_'.</p></qt>"
 msgstr "<qt><p><b></b></p><p> in&amp; in</p></qt>"
 
 #: commonui/projectprefwidgets.cpp:828
@@ -1939,9 +2014,11 @@ msgstr "no&rmalne:"
 #: commonui/projectprefwidgets.cpp:834
 #, fuzzy
 msgid ""
-"<qt><p><b>Regular expression for context information</b></p><p>Enter a "
-"regular expression here which defines what is context information in the "
-"message and must not get translated.</p></qt>"
+"<qt>"
+"<p><b>Regular expression for context information</b></p>"
+"<p>"
+"Enter a regular expression here which defines what is context information in "
+"the message and must not get translated.</p></qt>"
 msgstr "<qt><p><b> normalne</b></p><p> in</p></qt>"
 
 #: commonui/projectprefwidgets.cpp:850
@@ -1968,9 +2045,10 @@ msgstr "Zapnyte"
 #: commonui/projectprefwidgets.cpp:977
 #, fuzzy
 msgid ""
-"<qt><p><b>On the fly spellchecking</b></p><p>Activate this to let KBabel "
-"spell check the text as you type. Mispelled words will be colored by the "
-"error color.</p></qt>"
+"<qt>"
+"<p><b>On the fly spellchecking</b></p>"
+"<p>Activate this to let KBabel spell check the text as you type. Mispelled "
+"words will be colored by the error color.</p></qt>"
 msgstr "<qt><p><b> Zapnyte</b></p><p></p></qt>"
 
 #: commonui/projectprefwidgets.cpp:983
@@ -1985,9 +2063,10 @@ msgstr "Dataja:"
 #: commonui/projectprefwidgets.cpp:996
 #, fuzzy
 msgid ""
-"<qt><p><b>Remember ignored words</b></p><p>Activate this, to let KBabel "
-"ignore the words, where you have chosen <i>Ignore All</i> in the spell check "
-"dialog, in every spell check.</p></qt>"
+"<qt>"
+"<p><b>Remember ignored words</b></p>"
+"<p>Activate this, to let KBabel ignore the words, where you have chosen "
+"<i>Ignore All</i> in the spell check dialog, in every spell check.</p></qt>"
 msgstr "<qt><p><b></b></p><p><i> Wšě</i> in in</p></qt>"
 
 #: commonui/projectprefwidgets.cpp:1071
@@ -2051,8 +2130,8 @@ msgid ""
 "<qt><p><b>Create index for file contents</b></p>\n"
 "<p>If you check this, KBabel will create an index for each PO file to speed "
 "up the find/replace functions.</p>\n"
-"<p>NOTE: This will slow down updating the file information considerably.</"
-"p></qt>"
+"<p>NOTE: This will slow down updating the file information "
+"considerably.</p></qt>"
 msgstr ""
 
 #: commonui/projectprefwidgets.cpp:1184
@@ -2070,16 +2149,24 @@ msgstr ""
 #: commonui/projectprefwidgets.cpp:1192
 #, fuzzy
 msgid ""
-"<qt><p><b>Commands for folders</b></p><p>Insert here the commands you want "
-"to execute in folders from the Catalog Manager. The commands are then shown "
-"in the submenu <b>Commands</b> in the Catalog Manager's context menu.</"
-"p><p>The following strings will be replaced in a command:<ul><li>@PACKAGE@: "
-"The name of the folder without path</li><li>@PODIR@: The name of the PO-"
-"folder with path</li><li>@POTDIR@: The name of the template folder with "
-"path</li><li>@POFILES@: The names of the PO files with path</"
-"li><li>@MARKEDPOFILES@: The names of the marked PO files with path</li></"
-"ul></p></qt>"
-msgstr "<qt><p><b> Přikazy</b></p><p> Zasunyć in in<b> Přikazy</b> in s</p><p> in<ul><li></li><li></li><li></li><li></li><li></li></ul></p></qt>"
+"<qt>"
+"<p><b>Commands for folders</b></p>"
+"<p>Insert here the commands you want to execute in folders from the Catalog "
+"Manager. The commands are then shown in the submenu <b>Commands</b> in the "
+"Catalog Manager's context menu.</p>"
+"<p>The following strings will be replaced in a command:"
+"<ul>"
+"<li>@PACKAGE@: The name of the folder without path</li>"
+"<li>@PODIR@: The name of the PO-folder with path</li>"
+"<li>@POTDIR@: The name of the template folder with path</li>"
+"<li>@POFILES@: The names of the PO files with path</li>"
+"<li>@MARKEDPOFILES@: The names of the marked PO files with "
+"path</li></ul></p></qt>"
+msgstr ""
+"<qt>"
+"<p><b> Přikazy</b></p>"
+"<p> Zasunyć in in<b> Přikazy</b> in s</p>"
+"<p> in<ul><li></li><li></li><li></li><li></li><li></li></ul></p></qt>"
 
 #: commonui/projectprefwidgets.cpp:1248
 #, fuzzy
@@ -2096,17 +2183,32 @@ msgstr ""
 #: commonui/projectprefwidgets.cpp:1258
 #, fuzzy
 msgid ""
-"<qt><p><b>Commands for files</b></p><p>Insert here the commands you want to "
-"execute on files from the Catalog Manager. The commands are then shown in "
-"the submenu <b>Commands</b> in the Catalog Manager's context menu.</p><p>The "
-"following strings will be replaced in a command:<ul><li>@PACKAGE@: The name "
-"of the file without path and extension</li><li>@POFILE@: The name of the PO-"
-"file with path and extension</li><li>@POTFILE@: The name of the "
-"corresponding template file with path and extension</li><li>@POEMAIL@: The "
-"name and email address of the last translator</li><li>@PODIR@: The name of "
-"the folder the PO-file is in, with path</li><li>@POTDIR@: The name of the "
-"folder the template file is in, with path</li></ul></p></qt>"
-msgstr "<qt><p><b> Přikazy</b></p><p> Zasunyć in<b> Přikazy</b> in s</p><p> in<ul><li></li><li></li><li></li><li></li><li> in</li><li> in</li></ul></p></qt>"
+"<qt>"
+"<p><b>Commands for files</b></p>"
+"<p>Insert here the commands you want to execute on files from the Catalog "
+"Manager. The commands are then shown in the submenu <b>Commands</b> in the "
+"Catalog Manager's context menu.</p>"
+"<p>The following strings will be replaced in a command:"
+"<ul>"
+"<li>@PACKAGE@: The name of the file without path and "
+"extension</li>"
+"<li>@POFILE@: The name of the PO-file with path and "
+"extension</li>"
+"<li>@POTFILE@: The name of the corresponding template file with path and "
+"extension</li>"
+"<li>@POEMAIL@: The name and email address of the last "
+"translator</li>"
+"<li>@PODIR@: The name of the folder the PO-file is in, with "
+"path</li>"
+"<li>@POTDIR@: The name of the folder the template file is in, with "
+"path</li></ul></p></qt>"
+msgstr ""
+"<qt>"
+"<p><b> Přikazy</b></p>"
+"<p> Zasunyć in<b> Přikazy</b> in s</p>"
+"<p> in"
+"<ul>"
+"<li></li><li></li><li></li><li></li><li> in</li><li> in</li></ul></p></qt>"
 
 #: commonui/projectprefwidgets.cpp:1314
 msgid "Shown Columns"
@@ -2261,8 +2363,7 @@ msgid "&Reset"
 msgstr "Sta&ry staw"
 
 #: kbabel/headereditor.cpp:94
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid "Header Editor for %1"
 msgstr "Hłójčka"
 
@@ -2371,8 +2472,8 @@ msgstr "Komentar:"
 #, fuzzy
 msgid ""
 "<qt><p><b>Comment Editor</b></p>\n"
-"This edit window shows you the comments of the currently displayed message."
-"<p>\n"
+"This edit window shows you the comments of the currently displayed "
+"message.<p>\n"
 "<p>The comments normally contain information about where the message is "
 "found in the source\n"
 "code and status information about this message (fuzzy, c-format).\n"
@@ -2410,31 +2511,48 @@ msgstr ""
 #: kbabel/kbabelview.cpp:327
 #, fuzzy
 msgid ""
-"<qt><p><b>Search results</b></p><p>This part of the window shows the results "
-"of searching in dictionaries.<p><p>In the top is displayed the number of "
-"entries found and where the currently displayed entry is found. Use the "
-"buttons at the bottom to navigate through the search results.</p><p>Search "
-"is either started automatically when switching to another entry in the "
-"editor window or by choosing the desired dictionary in <b>Dictionaries-"
-">Find...</b>.</p><p>The common options can be configured in the preferences "
-"dialog in section <b>Search</b> and the options for the different "
-"dictionaries can be changed with <b>Settings->Configure Dictionary</b>.</p></"
-"qt>"
-msgstr "<qt><p><b></b></p><p> in<p><p></p><p> in in<b> Pytać</b></p><p> in in<b></b><b> Nastajenja Konfiguracija</b></p></qt>"
+"<qt>"
+"<p><b>Search results</b></p>"
+"<p>This part of the window shows the results of searching in "
+"dictionaries."
+"<p>"
+"<p>In the top is displayed the number of entries found and where the "
+"currently displayed entry is found. Use the buttons at the bottom to "
+"navigate through the search results.</p>"
+"<p>"
+"Search is either started automatically when switching to another entry in "
+"the editor window or by choosing the desired dictionary in "
+"<b>Dictionaries->Find...</b>.</p>"
+"<p>"
+"The common options can be configured in the preferences dialog in section "
+"<b>Search</b> and the options for the different dictionaries can be changed "
+"with <b>Settings->Configure Dictionary</b>.</p></qt>"
+msgstr ""
+"<qt>"
+"<p><b></b></p>"
+"<p> in"
+"<p>"
+"<p></p>"
+"<p> in in<b> Pytać</b></p>"
+"<p> in in<b></b><b> Nastajenja Konfiguracija</b></p></qt>"
 
 #: kbabel/kbabelview.cpp:342
 #, fuzzy
 msgid ""
-"<qt><p><b>PO Context</b></p><p>This window shows the context of the current "
-"message in the PO file. Normally it shows four messages in front of the "
-"current message and four after it.</p><p>You can hide the tools window by "
-"deactivating <b>Options->Show Tools</b>.</p></qt></qt>"
+"<qt>"
+"<p><b>PO Context</b></p>"
+"<p>This window shows the context of the current message in the PO file. "
+"Normally it shows four messages in front of the current message and four "
+"after it.</p>"
+"<p>You can hide the tools window by deactivating <b>Options->Show "
+"Tools</b>.</p></qt></qt>"
 msgstr "<qt><p><b></b></p><p> in in</p><p><b> Opcije</b></p></qt></qt>"
 
 #: kbabel/kbabelview.cpp:350
 msgid ""
-"<qt><p><b>Character Selector</b></p><p>This tool allows to insert special "
-"characters using double click.</p></qt>"
+"<qt>"
+"<p><b>Character Selector</b></p>"
+"<p>This tool allows to insert special characters using double click.</p></qt>"
 msgstr ""
 
 #: kbabel/kbabelview.cpp:430
@@ -2483,21 +2601,21 @@ msgstr ""
 
 #: kbabel/kbabelview.cpp:1240 kbabel/kbabelview.cpp:1361
 #: kbabel/kbabelview.cpp:1512 kbabel/kbabelview2.cpp:753
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid ""
 "KBabel cannot find a corresponding plugin for the MIME type of the file:\n"
 " %1"
-msgstr "plugin\n"
+msgstr ""
+"plugin\n"
 
 #: kbabel/kbabelview.cpp:1246 kbabel/kbabelview.cpp:1367
 #: kbabel/kbabelview2.cpp:759
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid ""
 "The import plugin cannot handle this type of the file:\n"
 " %1"
-msgstr "plugin\n"
+msgstr ""
+"plugin\n"
 
 #: kbabel/kbabelview.cpp:1281
 #, fuzzy
@@ -2516,20 +2634,20 @@ msgid ""
 msgstr ""
 
 #: kbabel/kbabelview.cpp:1420
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid ""
 "KBabel cannot find a corresponding plugin for the MIME type of file:\n"
 " %1"
-msgstr "plugin\n"
+msgstr ""
+"plugin\n"
 
 #: kbabel/kbabelview.cpp:1426
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid ""
 "The export plugin cannot handle this type of file:\n"
 " %1"
-msgstr "plugin\n"
+msgstr ""
+"plugin\n"
 
 #: kbabel/kbabelview.cpp:1432
 msgid ""
@@ -2552,12 +2670,12 @@ msgid ""
 msgstr ""
 
 #: kbabel/kbabelview.cpp:1518
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid ""
 "The export plugin cannot handle this type of the file:\n"
 " %1"
-msgstr "plugin\n"
+msgstr ""
+"plugin\n"
 
 #: kbabel/kbabelview.cpp:1536
 #, fuzzy
@@ -2642,13 +2760,12 @@ msgid ""
 msgstr "wobsahuje?"
 
 #: kbabel/kbabelview.cpp:2036
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid ""
-"_n: <qt>%n replacement made.<br>End of document reached.<br>Continue from "
-"the beginning?</qt>\n"
-"<qt>%n replacements made.<br>End of document reached.<br>Continue from the "
-"beginning?</qt>"
+"_n: <qt>%n replacement made."
+"<br>End of document reached.<br>Continue from the beginning?</qt>\n"
+"<qt>%n replacements made."
+"<br>End of document reached.<br>Continue from the beginning?</qt>"
 msgstr ""
 "<qt><br> Kónc<br> Dale</qt>\n"
 "<qt><br> Kónc<br> Dale</qt>"
@@ -2686,13 +2803,12 @@ msgid "DCOP communication with Catalog Manager failed."
 msgstr ""
 
 #: kbabel/kbabelview.cpp:2233
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid ""
-"_n: <qt>%n replacement made.<br>Beginning of document reached.<br>Continue "
-"from the end?</qt>\n"
-"<qt>%n replacements made.<br>Beginning of document reached.<br>Continue from "
-"the end?</qt>"
+"_n: <qt>%n replacement made."
+"<br>Beginning of document reached.<br>Continue from the end?</qt>\n"
+"<qt>%n replacements made."
+"<br>Beginning of document reached.<br>Continue from the end?</qt>"
 msgstr ""
 "<qt><br><br> Dale</qt>\n"
 "<qt><br><br> Dale</qt>"
@@ -2709,12 +2825,12 @@ msgid "current entry"
 msgstr ""
 
 #: kbabel/kbabelview.cpp:3742
-msgid "Plural %1: %2\n"
+msgid ""
+"Plural %1: %2\n"
 msgstr ""
 
 #: kbabel/kbabelview.cpp:3804
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid "Error in %1"
 msgstr "Zmylk in"
 
@@ -2733,8 +2849,7 @@ msgid "No relevant text has been found for spell checking."
 msgstr "Ně."
 
 #: kbabel/kbabelview.cpp:4203
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid ""
 "Error opening the file that contains words to ignore during spell checking:\n"
 "%1"
@@ -2761,8 +2876,7 @@ msgid ""
 msgstr "Pomoc."
 
 #: kbabel/kbabelview.cpp:4507 kbabel/kbabelview.cpp:4533
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid ""
 "_n: Spellcheck: %n word replaced\n"
 "Spellcheck: %n words replaced"
@@ -3096,8 +3210,7 @@ msgid "Current: %1"
 msgstr ""
 
 #: kbabel/kbabel.cpp:1378
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid "Total: %1"
 msgstr "Dohromady"
 
@@ -3655,8 +3768,8 @@ msgstr "Staw"
 #, fuzzy
 msgid ""
 "<qt><p><b>Status LEDs</b></p>\n"
-"<p>Choose here where the status LEDs are displayed and what color they have."
-"</p></qt>"
+"<p>Choose here where the status LEDs are displayed and what color they "
+"have.</p></qt>"
 msgstr ""
 "<qt><p><b> Staw</b></p>\n"
 "<p></p></qt>"
@@ -4151,14 +4264,14 @@ msgstr ""
 #: rc.cpp:272 rc.cpp:338
 #, fuzzy
 msgid ""
-"<qml>If you use one or two <em>word substitution</em> each time you search a "
-"phrase with less than the specified number of words, the search engine will "
-"also search for all phrases that differ from the original one in one or two "
-"words.<p>\n"
+"<qml>If you use one or two <em>word substitution</em>"
+" each time you search a phrase with less than the specified number of words, "
+"the search engine will also search for all phrases that differ from the "
+"original one in one or two words.<p>\n"
 "<strong>Example:</strong><br>\n"
 "If you search for <em>My name is Andrea</em> and you have activated <em>one "
-"word substitution</em> you may also find phrases like <em>My name is Joe</"
-"em> or <em>Your name is Andrea</em>."
+"word substitution</em> you may also find phrases like <em>My name is "
+"Joe</em> or <em>Your name is Andrea</em>."
 msgstr ""
 "<qml><em></em> in<p>\n"
 "<strong></strong><br><em></em><em></em><em></em><em></em>."
@@ -4213,8 +4326,9 @@ msgstr "Awtomatisce:"
 #: rc.cpp:285 rc.cpp:351
 msgid ""
 "<qml>Put here the name and email address that you want to use as <em>last "
-"translator</em> filed when you auto-add entry to the database (e.g. when you "
-"modify a translation with kbabel).<p>"
+"translator</em>"
+" filed when you auto-add entry to the database (e.g. when you modify a "
+"translation with kbabel).<p>"
 msgstr ""
 
 #: rc.cpp:286
@@ -4276,8 +4390,8 @@ msgid ""
 "You can also set the minimum number of words of the key that the query must "
 "have to insert the key in the list.<p>\n"
 "These two numbers are the percentage of the total number of words. If the "
-"result of this percentage is less than one, the engine will set it to one."
-"<p>\n"
+"result of this percentage is less than one, the engine will set it to "
+"one.<p>\n"
 "Finally you can set the maximum number of entries in the list."
 msgstr "<qml><em></em><p> in<em></em><p> in<p><p> in."
 
@@ -4287,8 +4401,7 @@ msgid "Minimum number of words of the key also in the query (%):"
 msgstr "in:"
 
 #: rc.cpp:301 rc.cpp:303 rc.cpp:367 rc.cpp:369
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid "%"
 msgstr "%"
 
@@ -4422,8 +4535,7 @@ msgid "Edit File"
 msgstr "Wobdźěłać Dataja"
 
 #: kbabeldict/kbabeldictbox.cpp:998 kbabeldict/kbabeldictbox.cpp:1173
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid "Edit File %1"
 msgstr "Wobdźěłać Dataja"
 
@@ -4447,8 +4559,7 @@ msgid "No information available."
 msgstr "Ně."
 
 #: kbabeldict/kbabeldictbox.cpp:1493
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid "Configure Dictionary %1"
 msgstr "Konfiguracija"
 
@@ -4499,34 +4610,40 @@ msgstr "in"
 
 #: kbabeldict/modules/tmx/preferenceswidget.cpp:77
 msgid ""
-"<qt><p><b>Parameters</b></p><p>Here you can fine-tune searching within the "
-"PO file. For example, if you want to perform a case sensitive search.</p></"
-"qt>"
+"<qt>"
+"<p><b>Parameters</b></p>"
+"<p>Here you can fine-tune searching within the PO file. For example, if you "
+"want to perform a case sensitive search.</p></qt>"
 msgstr ""
 
 #: kbabeldict/modules/pocompendium/preferenceswidget.cpp:85
 #: kbabeldict/modules/tmx/preferenceswidget.cpp:83
 #, fuzzy
 msgid ""
-"<qt><p><b>Comparison Options</b></p><p>Choose here which messages you want "
-"to have treated as a matching message.</p></qt>"
+"<qt>"
+"<p><b>Comparison Options</b></p>"
+"<p>Choose here which messages you want to have treated as a matching "
+"message.</p></qt>"
 msgstr "<qt><p><b> Opcije</b></p><p></p></qt>"
 
 #: kbabeldict/modules/pocompendium/preferenceswidget.cpp:93
 #: kbabeldict/modules/tmx/preferenceswidget.cpp:91
 #, fuzzy
 msgid ""
-"<qt><p><b>3-Gram-matching</b></p><p>A message matches another if most of its "
-"3-letter groups are contained in the other message. e.g. 'abc123' matches "
-"'abcx123c12'.</p></qt>"
+"<qt>"
+"<p><b>3-Gram-matching</b></p>"
+"<p>"
+"A message matches another if most of its 3-letter groups are contained in "
+"the other message. e.g. 'abc123' matches 'abcx123c12'.</p></qt>"
 msgstr "<qt><p><b></b></p><p> in</p></qt>"
 
 #: kbabeldict/modules/pocompendium/preferenceswidget.cpp:98
 #: kbabeldict/modules/tmx/preferenceswidget.cpp:96
 #, fuzzy
 msgid ""
-"<qt><p><b>Location</b></p><p>Configure here which file is to be used for "
-"searching.</p></qt>"
+"<qt>"
+"<p><b>Location</b></p>"
+"<p>Configure here which file is to be used for searching.</p></qt>"
 msgstr "<qt><p><b> Městnosć</b></p><p> Konfiguracija</p></qt>"
 
 #: kbabeldict/modules/pocompendium/compendiumdata.cpp:68
@@ -4583,14 +4700,15 @@ msgstr "in"
 
 #: kbabeldict/modules/pocompendium/preferenceswidget.cpp:77
 msgid ""
-"<qt><p><b>Parameters</b></p><p>Here you can fine-tune searching within the "
-"PO file. For example if you want to perform a case sensitive search, or if "
-"you want fuzzy messages to be ignored.</p></qt>"
+"<qt>"
+"<p><b>Parameters</b></p>"
+"<p>Here you can fine-tune searching within the PO file. For example if you "
+"want to perform a case sensitive search, or if you want fuzzy messages to be "
+"ignored.</p></qt>"
 msgstr ""
 
 #: kbabeldict/modules/pocompendium/compendiumdata.cpp:82
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid ""
 "Error while trying to read file for PO Compendium module:\n"
 "%1"
@@ -4619,8 +4737,8 @@ msgstr ""
 #: kbabeldict/modules/dbsearchengine2/algorithms.cpp:183
 msgid ""
 "<h3>Chunk by chunk</h3>CHANGE THIS TEXT!!!!This translation isobtained "
-"translating the  sentences and using afuzzy sentence translation database."
-"<br> <b>Do not rely on it</b>. Translations may be fuzzy.<br>"
+"translating the  sentences and using afuzzy sentence translation "
+"database.<br> <b>Do not rely on it</b>. Translations may be fuzzy.<br>"
 msgstr ""
 
 #: kbabeldict/modules/dbsearchengine2/algorithms.cpp:374
@@ -4632,8 +4750,8 @@ msgstr ""
 #: kbabeldict/modules/dbsearchengine2/algorithms.cpp:387
 msgid ""
 "<h3>Dynamic Dictionary</h3>This is a dynamic dictionary created looking for "
-"correlation of original and translated words.<br> <b>Do not rely on it</b>. "
-"Translations may be fuzzy.<br>"
+"correlation of original and translated words."
+"<br> <b>Do not rely on it</b>. Translations may be fuzzy.<br>"
 msgstr ""
 
 #: kbabeldict/modules/dbsearchengine2/database.cpp:142
@@ -4692,10 +4810,12 @@ msgid ""
 "However, another version of KBabel (probably from KDE 3.1.1 or 3.1.2) "
 "created a new database. As a result, your KBabel installation contains two "
 "versions of database files. Unfortunatelly, the old and new version can not "
-"be merged. You need to choose one of them.<br/><br/>If you choose the old "
-"version, the new one will be removed. If you choose the new version, the old "
-"database files will be left alone and you need to remove them manually. "
-"Otherwise this message will be displayed again (the old files are at "
+"be merged. You need to choose one of them."
+"<br/>"
+"<br/>If you choose the old version, the new one will be removed. If you "
+"choose the new version, the old database files will be left alone and you "
+"need to remove them manually. Otherwise this message will be displayed again "
+"(the old files are at "
 "$KDEHOME/share/apps/kbabeldict/dbsearchengine/*,old).</p>"
 msgstr "<p> KDE wobsahuje<br/><br/></p>"
 
@@ -4816,8 +4936,7 @@ msgid "Loading PO auxiliary"
 msgstr "Čitam"
 
 #: kbabeldict/modules/poauxiliary/poauxiliary.cpp:427
-#, c-format
-#, fuzzy
+#, fuzzy, c-format
 msgid ""
 "Error while trying to open file for PO Auxiliary module:\n"
 "%1"
@@ -4900,4 +5019,3 @@ msgstr "Suwaj &dele"
 #, fuzzy
 msgid "Con&figure..."
 msgstr "Kon&figuracija."
-
