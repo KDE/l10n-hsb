@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
-"POT-Creation-Date: 2005-02-21 14:45+0100\n"
+"POT-Creation-Date: 2005-04-12 18:15+0200\n"
 "PO-Revision-Date: 2005-02-05 23:49+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -43,43 +43,17 @@ msgid ""
 "X login on %1"
 msgstr ""
 
-#: kconsole.cpp:75
-msgid "Cannot open console"
-msgstr "Njemóžu konsolu wočinić"
-
-#: kconsole.cpp:159
-msgid ""
-"\n"
-"*** Cannot open console log source ***"
+#: krootimage.cpp:37
+msgid "Fancy desktop background for kdm"
 msgstr ""
-"\n"
-"**** Njemóžu protokolowu dataju za konsolu wočinić ***"
 
-#: kgdialog.cpp:61
-msgid "Sw&itch User"
-msgstr "&Hinaši wužiwar"
+#: krootimage.cpp:42
+msgid "Name of the configuration file"
+msgstr ""
 
-#: kgdialog.cpp:73
-msgid "R&estart X Server"
-msgstr "X-serwer znowa &startować"
-
-#: kgdialog.cpp:73
-msgid "Clos&e Connection"
-msgstr "Zwisk &přetorhnyć"
-
-#: kgdialog.cpp:84
-msgid "Co&nsole Login"
-msgstr "Přizjewjenje na &terminalu"
-
-#: kgdialog.cpp:87
-msgid "&Shutdown..."
-msgstr "&Hasnyć..."
-
-#: kgdialog.cpp:227
-msgid ""
-"_: session (location)\n"
-"%1 (%2)"
-msgstr "%1 (%2)"
+#: krootimage.cpp:96
+msgid "KRootImage"
+msgstr ""
 
 #: kchooser.cpp:57
 msgid "&Local Login"
@@ -125,6 +99,98 @@ msgstr "<njeznate>"
 #, c-format
 msgid "Unknown host %1"
 msgstr "Njeznaty host %1"
+
+#: kgreeter.cpp:349
+msgid "Custom"
+msgstr "Po nastajenju"
+
+#: kgreeter.cpp:350
+msgid "Failsafe"
+msgstr "Failsafe"
+
+#: kgreeter.cpp:423
+msgid " (previous)"
+msgstr "(prjedawše)"
+
+#: kgreeter.cpp:482
+msgid ""
+"Your saved session type '%1' is not valid any more.\n"
+"Please select a new one, otherwise 'default' will be used."
+msgstr ""
+"Waš zawěsćeny typ posedźenja '%1' wjace njeje płaćiwe.\n"
+"Wubjerće prošu nowy, hewak so standard wužiwa."
+
+#: kgreeter.cpp:582
+msgid "Warning: this is an unsecured session"
+msgstr "Kedźbu: To je njewěste posedźenje"
+
+#: kgreeter.cpp:584
+msgid ""
+"This display requires no X authorization.\n"
+"This means that anybody can connect to it,\n"
+"open windows on it or intercept your input."
+msgstr ""
+"Tuta wobrazowka sej nježada X-awtorizaciju.\n"
+"To rěka, zo móže so kóždy přizamknyć, wokna wočinić abo Waše "
+"zapodawanje wotpopadnyć."
+
+#: kgreeter.cpp:637
+msgid "L&ogin"
+msgstr "&Mjeno wužiwarja:"
+
+#: kgreeter.cpp:669 kgreeter.cpp:804
+msgid "Session &Type"
+msgstr "Druži&na posedźenja:"
+
+#: kgreeter.cpp:675 kgreeter.cpp:811
+msgid "&Authentication Method"
+msgstr "&Awtentifikacija"
+
+#: kgreeter.cpp:680 kgreeter.cpp:816
+msgid "&Remote Login"
+msgstr "&Přizjewjenje na druhim ličaku"
+
+#: kgreeter.cpp:750
+msgid "Login Failed."
+msgstr "Přizjewjenje je so zwrěšćiło."
+
+#: kconsole.cpp:75
+msgid "Cannot open console"
+msgstr "Njemóžu konsolu wočinić"
+
+#: kconsole.cpp:159
+msgid ""
+"\n"
+"*** Cannot open console log source ***"
+msgstr ""
+"\n"
+"**** Njemóžu protokolowu dataju za konsolu wočinić ***"
+
+#: kgdialog.cpp:61
+msgid "Sw&itch User"
+msgstr "&Hinaši wužiwar"
+
+#: kgdialog.cpp:73
+msgid "R&estart X Server"
+msgstr "X-serwer znowa &startować"
+
+#: kgdialog.cpp:73
+msgid "Clos&e Connection"
+msgstr "Zwisk &přetorhnyć"
+
+#: kgdialog.cpp:84
+msgid "Co&nsole Login"
+msgstr "Přizjewjenje na &terminalu"
+
+#: kgdialog.cpp:87
+msgid "&Shutdown..."
+msgstr "&Hasnyć..."
+
+#: kgdialog.cpp:227
+msgid ""
+"_: session (location)\n"
+"%1 (%2)"
+msgstr "%1 (%2)"
 
 #: kgverify.cpp:153
 msgid "No greeter widget plugin loaded. Check the configuration."
@@ -410,59 +476,85 @@ msgstr "swoje posedźenja přetorhnyć"
 msgid "cancel shutdown"
 msgstr "hasnjenje přetorhnyć"
 
-#: kgreeter.cpp:349
-msgid "Custom"
-msgstr "Po nastajenju"
-
-#: kgreeter.cpp:350
-msgid "Failsafe"
-msgstr "Failsafe"
-
-#: kgreeter.cpp:423
-msgid " (previous)"
-msgstr "(prjedawše)"
-
-#: kgreeter.cpp:482
-msgid ""
-"Your saved session type '%1' is not valid any more.\n"
-"Please select a new one, otherwise 'default' will be used."
+#: themer/kdmlabel.cpp:169
+msgid "Language"
 msgstr ""
-"Waš zawěsćeny typ posedźenja '%1' wjace njeje płaćiwe.\n"
-"Wubjerće prošu nowy, hewak so standard wužiwa."
 
-#: kgreeter.cpp:582
-msgid "Warning: this is an unsecured session"
-msgstr "Kedźbu: To je njewěste posedźenje"
-
-#: kgreeter.cpp:584
-msgid ""
-"This display requires no X authorization.\n"
-"This means that anybody can connect to it,\n"
-"open windows on it or intercept your input."
-msgstr ""
-"Tuta wobrazowka sej nježada X-awtorizaciju.\n"
-"To rěka, zo móže so kóždy přizamknyć, wokna wočinić abo Waše "
-"zapodawanje wotpopadnyć."
-
-#: kgreeter.cpp:637
-msgid "L&ogin"
-msgstr "&Mjeno wužiwarja:"
-
-#: kgreeter.cpp:669 kgreeter.cpp:804
-msgid "Session &Type"
+#: themer/kdmlabel.cpp:170
+#, fuzzy
+msgid "Session Type"
 msgstr "Druži&na posedźenja:"
 
-#: kgreeter.cpp:675 kgreeter.cpp:811
-msgid "&Authentication Method"
-msgstr "&Awtentifikacija"
+#: themer/kdmlabel.cpp:171
+#, fuzzy
+msgid "Menu"
+msgstr "&Meni"
 
-#: kgreeter.cpp:680 kgreeter.cpp:816
-msgid "&Remote Login"
-msgstr "&Přizjewjenje na druhim ličaku"
+#: themer/kdmlabel.cpp:172
+msgid "Disconnect"
+msgstr ""
 
-#: kgreeter.cpp:750
-msgid "Login Failed."
-msgstr "Přizjewjenje je so zwrěšćiło."
+#: themer/kdmlabel.cpp:174
+msgid "Power off"
+msgstr ""
+
+#: themer/kdmlabel.cpp:175
+#, fuzzy
+msgid "Suspend"
+msgstr "So njewužiwa"
+
+#: themer/kdmlabel.cpp:176
+msgid "Reboot"
+msgstr ""
+
+#: themer/kdmlabel.cpp:177
+#, fuzzy
+msgid "XDMCP Chooser"
+msgstr "XDMCP-meni"
+
+#: themer/kdmlabel.cpp:179
+msgid "You have got caps lock on."
+msgstr ""
+
+#: themer/kdmlabel.cpp:180
+#, c-format
+msgid "User %s will login in %d seconds"
+msgstr ""
+
+#: themer/kdmlabel.cpp:181
+#, c-format
+msgid "Welcome to %h"
+msgstr ""
+
+#: themer/kdmlabel.cpp:182
+msgid "Username:"
+msgstr ""
+
+#: themer/kdmlabel.cpp:183
+msgid "Password:"
+msgstr ""
+
+#: themer/kdmlabel.cpp:184
+#, fuzzy
+msgid "Login"
+msgstr "&Mjeno wužiwarja:"
+
+#: themer/kdmlabel.cpp:224
+#, no-c-format
+msgid ""
+"_: date format\n"
+"%a %d %B"
+msgstr ""
+
+#: themer/kdmthemer.cpp:67
+#, fuzzy, c-format
+msgid "Cannot open theme file %1"
+msgstr "Njemóžu konsolu wočinić"
+
+#: themer/kdmthemer.cpp:71
+#, c-format
+msgid "Cannot parse theme file %1"
+msgstr ""
 
 #~ msgid "Remote Login"
 #~ msgstr "Přizjewjenje na zdalenym ličaku"
