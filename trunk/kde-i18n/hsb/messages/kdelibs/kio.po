@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
-"POT-Creation-Date: 2005-02-23 01:21+0100\n"
+"POT-Creation-Date: 2005-04-20 15:04+0200\n"
 "PO-Revision-Date: 2005-02-02 18:46+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -23,22 +23,26 @@ msgstr ""
 msgid "File '%1' is not readable"
 msgstr "Dataja '%1' njehodźi so čitać"
 
-#: kio/global.cpp:715 kio/job.cpp:1676 kio/job.cpp:3101 kio/job.cpp:3560
-#: kio/paste.cpp:60
+#: kio/global.cpp:715 kio/job.cpp:1695 kio/job.cpp:3123 kio/job.cpp:3582
+#: kio/paste.cpp:65
 msgid "File Already Exists"
 msgstr "Dataja hižo eksistuje"
 
-#: kio/global.cpp:725 kio/job.cpp:2818
+#: kio/global.cpp:725 kio/job.cpp:2840
 msgid "Folder Already Exists"
 msgstr "Zapisk hižo eksistuje"
 
-#: kio/job.cpp:3101 kio/job.cpp:3560
+#: kio/job.cpp:3123 kio/job.cpp:3582
 msgid "Already Exists as Folder"
 msgstr "Eksistuje hižo jako zapisk"
 
 #: kio/kimageio.cpp:231
 msgid "All Pictures"
 msgstr "Wšitke wobrazy"
+
+#: kio/pastedialog.cpp:49
+msgid "Data format:"
+msgstr ""
 
 #: kio/renamedlg.cpp:119
 msgid "&Rename"
@@ -115,7 +119,7 @@ msgstr "změnjene %1"
 msgid "The source file is '%1'"
 msgstr "Žórłowa dataja je '%1'."
 
-#: kio/kdirlister.cpp:1988 kio/krun.cpp:777 kio/paste.cpp:97
+#: kio/kdirlister.cpp:2177 kio/krun.cpp:777 kio/paste.cpp:210
 #: kio/renamedlg.cpp:431
 #, c-format
 msgid ""
@@ -123,20 +127,54 @@ msgid ""
 "%1"
 msgstr "Hubjene mjeno za URL %1"
 
-#: kio/paste.cpp:44
+#: kio/paste.cpp:49 kio/paste.cpp:115
 msgid "Filename for clipboard content:"
 msgstr "Datajowe mjeno za wobsah clipboarda:"
 
-#: kio/paste.cpp:107 kio/paste.cpp:147
+#: kio/paste.cpp:108
+#, fuzzy
+msgid "%1 (%2)"
+msgstr "%1 (port %2)"
+
+#: kio/paste.cpp:123
+msgid ""
+"The clipboard has changed since you used 'paste': the chosen data format is "
+"no longer applicable. Please copy again what you wanted to paste."
+msgstr ""
+
+#: kio/paste.cpp:198 kio/paste.cpp:221 kio/paste.cpp:247
 msgid "The clipboard is empty"
 msgstr "Clipboard je prózdny"
 
-#: kio/observer.cpp:338 misc/uiserver.cpp:1217
+#: kio/paste.cpp:295
+#, fuzzy, c-format
+msgid ""
+"_n: &Paste file\n"
+"&Paste %n files"
+msgstr ""
+"%n datajow\n"
+"%n dataja\n"
+"%n dataji\n"
+"%n dataje"
+
+#: kio/paste.cpp:297
+#, c-format
+msgid ""
+"_n: &Paste URL\n"
+"&Paste %n URLs"
+msgstr ""
+
+#: kio/paste.cpp:299
+#, fuzzy
+msgid "&Paste clipboard contents"
+msgstr "Datajowe mjeno za wobsah clipboarda:"
+
+#: kio/observer.cpp:338 misc/uiserver.cpp:1218
 msgid "The peer SSL certificate appears to be corrupt."
 msgstr "SSL-certifikat peera njeje walidny."
 
-#: kio/observer.cpp:338 kio/tcpslavebase.cpp:720 kio/tcpslavebase.cpp:737
-#: misc/uiserver.cpp:1217
+#: kio/observer.cpp:338 kio/tcpslavebase.cpp:723 kio/tcpslavebase.cpp:740
+#: misc/uiserver.cpp:1218
 msgid "SSL"
 msgstr "SSL"
 
@@ -215,44 +253,44 @@ msgid ""
 "%1"
 msgstr "Njemóžach mime-družina %1 namakać"
 
-#: kio/kmimetype.cpp:789
+#: kio/kmimetype.cpp:797
 msgid "The desktop entry file %1 has no Type=... entry."
 msgstr "Desktop-entry-dataja %1 nima linku Type=..."
 
-#: kio/kmimetype.cpp:810
+#: kio/kmimetype.cpp:818
 msgid ""
 "The desktop entry of type\n"
 "%1\n"
 "is unknown."
 msgstr "Desktop entry družiny %1 njeje znaty."
 
-#: kio/kmimetype.cpp:824 kio/kmimetype.cpp:926 kio/kmimetype.cpp:1076
+#: kio/kmimetype.cpp:832 kio/kmimetype.cpp:934 kio/kmimetype.cpp:1084
 msgid ""
 "The desktop entry file\n"
 "%1\n"
 "is of type FSDevice but has no Dev=... entry."
 msgstr "Desktop-entry-dataja %1 ma typ FSDevice, ale nima linku Dev=...."
 
-#: kio/kmimetype.cpp:870
+#: kio/kmimetype.cpp:878
 msgid ""
 "The desktop entry file\n"
 "%1\n"
 "is of type Link but has no URL=... entry."
 msgstr "Desktop-entry-dataja %1 ma typ Link, ale nima linku URL=...."
 
-#: kio/kmimetype.cpp:936
+#: kio/kmimetype.cpp:944
 msgid "Mount"
 msgstr "montować"
 
-#: kio/kmimetype.cpp:947
+#: kio/kmimetype.cpp:955
 msgid "Eject"
 msgstr "Wućisnyć"
 
-#: kio/kmimetype.cpp:949
+#: kio/kmimetype.cpp:957
 msgid "Unmount"
 msgstr "Wotmontować"
 
-#: kio/kmimetype.cpp:1034
+#: kio/kmimetype.cpp:1042
 msgid ""
 "The desktop entry file\n"
 "%1\n"
@@ -260,7 +298,7 @@ msgid ""
 "%2."
 msgstr "Desktop-entry-dataja %1 ma njekorektny menijowy zapis %2."
 
-#: kio/tcpslavebase.cpp:316
+#: kio/tcpslavebase.cpp:319
 msgid ""
 "You are about to leave secure mode. Transmissions will no longer be "
 "encrypted.\n"
@@ -270,69 +308,69 @@ msgstr ""
 "zašifrowane. To rěka, zo móhła někajki třeći do wašich přenjesenych "
 "datow pohladać."
 
-#: kio/tcpslavebase.cpp:322 kio/tcpslavebase.cpp:1101
+#: kio/tcpslavebase.cpp:325 kio/tcpslavebase.cpp:1120
 msgid "Security Information"
 msgstr "Informacija wo wěstosći"
 
-#: kio/tcpslavebase.cpp:323
+#: kio/tcpslavebase.cpp:326
 msgid "C&ontinue Loading"
 msgstr "&Pokročować ze začitanjom"
 
-#: kio/tcpslavebase.cpp:677
+#: kio/tcpslavebase.cpp:680
 msgid "Enter the certificate password:"
 msgstr "zapodajće škitne hesło za certifikat:"
 
-#: kio/tcpslavebase.cpp:678
+#: kio/tcpslavebase.cpp:681
 msgid "SSL Certificate Password"
 msgstr "Škitne hesło za SSL-certifikat"
 
-#: kio/tcpslavebase.cpp:717
+#: kio/tcpslavebase.cpp:720
 msgid "Unable to open the certificate. Try a new password?"
 msgstr "Njemóžu certifikat wočinić. Chceće z hinašim škitnym hesłom spytać?"
 
-#: kio/tcpslavebase.cpp:735
+#: kio/tcpslavebase.cpp:738
 msgid "The procedure to set the client certificate for the session failed."
 msgstr "Clientowy certifikat za sesiju njehodźeše so nastajić."
 
-#: kio/tcpslavebase.cpp:889
+#: kio/tcpslavebase.cpp:908
 msgid ""
 "The IP address of the host %1 does not match the one the certificate was "
 "issued to."
 msgstr "IP-adresa hosta %1 so njekryje z adresu, za kotruž bu certifikat wupisany."
 
-#: kio/tcpslavebase.cpp:894 kio/tcpslavebase.cpp:902 kio/tcpslavebase.cpp:937
-#: kio/tcpslavebase.cpp:1011 kio/tcpslavebase.cpp:1023
-#: kio/tcpslavebase.cpp:1032 kio/tcpslavebase.cpp:1063
+#: kio/tcpslavebase.cpp:913 kio/tcpslavebase.cpp:921 kio/tcpslavebase.cpp:956
+#: kio/tcpslavebase.cpp:1030 kio/tcpslavebase.cpp:1042
+#: kio/tcpslavebase.cpp:1051 kio/tcpslavebase.cpp:1082
 msgid "Server Authentication"
 msgstr "Přepruwowanje servera"
 
-#: kio/tcpslavebase.cpp:895 kio/tcpslavebase.cpp:903 kio/tcpslavebase.cpp:1033
+#: kio/tcpslavebase.cpp:914 kio/tcpslavebase.cpp:922 kio/tcpslavebase.cpp:1052
 msgid "&Details"
 msgstr "&Detajle"
 
-#: kio/tcpslavebase.cpp:896 kio/tcpslavebase.cpp:904
+#: kio/tcpslavebase.cpp:915 kio/tcpslavebase.cpp:923
 msgid "Co&ntinue"
 msgstr "Po&kročować"
 
-#: kio/tcpslavebase.cpp:898 kio/tcpslavebase.cpp:1028
+#: kio/tcpslavebase.cpp:917 kio/tcpslavebase.cpp:1047
 msgid "The server certificate failed the authenticity test (%1)."
 msgstr "Certifikat servera njeje test awtentifikacije wobstał (%1)."
 
-#: kio/tcpslavebase.cpp:934 kio/tcpslavebase.cpp:1060
+#: kio/tcpslavebase.cpp:953 kio/tcpslavebase.cpp:1079
 msgid "Would you like to accept this certificate forever without being prompted?"
 msgstr ""
 "Chceće tutón certifikat na wšě časy bjez doprašowanja z mojeje strony "
 "akceptować?"
 
-#: kio/tcpslavebase.cpp:938 kio/tcpslavebase.cpp:1064
+#: kio/tcpslavebase.cpp:957 kio/tcpslavebase.cpp:1083
 msgid "&Forever"
 msgstr "&Na wšě časy"
 
-#: kio/tcpslavebase.cpp:939 kio/tcpslavebase.cpp:1065
+#: kio/tcpslavebase.cpp:958 kio/tcpslavebase.cpp:1084
 msgid "&Current Sessions Only"
 msgstr "&Jenož nětko"
 
-#: kio/tcpslavebase.cpp:1010
+#: kio/tcpslavebase.cpp:1029
 msgid ""
 "You have indicated that you wish to accept this certificate, but it is not "
 "issued to the server who is presenting it. Do you wish to continue loading?"
@@ -340,17 +378,17 @@ msgstr ""
 "Chceće certifikat akceptować, ale njewuchadźa ze servera, kiž jón "
 "wužiwa. Chceće najebać to dale činić?"
 
-#: kio/tcpslavebase.cpp:1022
+#: kio/tcpslavebase.cpp:1041
 msgid ""
 "SSL certificate is being rejected as requested. You can disable this in the "
 "KDE Control Center."
 msgstr "SSL-certifikat wotpokazany. To móžeće w KDE Control Center změnić."
 
-#: kio/tcpslavebase.cpp:1034
+#: kio/tcpslavebase.cpp:1053
 msgid "Co&nnect"
 msgstr "&Zwjazać"
 
-#: kio/tcpslavebase.cpp:1090
+#: kio/tcpslavebase.cpp:1109
 msgid ""
 "You are about to enter secure mode. All transmissions will be encrypted "
 "unless otherwise noted.\n"
@@ -361,11 +399,11 @@ msgstr ""
 "zašifruja, chiba zo so něšto hinaše praji. To rěka, zo žadyn třeći "
 "njemóže cyle jednorje do wot tebje přenjesenych datow pohladać."
 
-#: kio/tcpslavebase.cpp:1102
+#: kio/tcpslavebase.cpp:1121
 msgid "Display SSL &Information"
 msgstr "&SSL-informaciju pokazać"
 
-#: kio/tcpslavebase.cpp:1104
+#: kio/tcpslavebase.cpp:1123
 msgid "C&onnect"
 msgstr "&Zwjazać"
 
@@ -2230,29 +2268,29 @@ msgstr "Zastajene"
 msgid " %1/s "
 msgstr " %1/s "
 
-#: kio/passdlg.cpp:61
+#: kio/passdlg.cpp:57
 msgid "Password"
 msgstr "Hesło"
 
-#: kio/passdlg.cpp:102
+#: kio/passdlg.cpp:98
 msgid "You need to supply a username and a password"
 msgstr "Dyrbiće mjeno wužiwarja a škitne hesło zapodać"
 
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 134
-#: kfile/kpropertiesdialog.cpp:3522 kio/passdlg.cpp:112 rc.cpp:108
+#: kfile/kpropertiesdialog.cpp:3524 kio/passdlg.cpp:108 rc.cpp:108
 #, no-c-format
 msgid "&Username:"
 msgstr "Mjeno w&užiwarja:"
 
-#: kio/passdlg.cpp:129
+#: kio/passdlg.cpp:125
 msgid "&Password:"
 msgstr "Škitne &hesło:"
 
-#: kio/passdlg.cpp:151
+#: kio/passdlg.cpp:147
 msgid "&Keep password"
 msgstr "&Spomjatkuj"
 
-#: kio/passdlg.cpp:349 kpasswdserver/kpasswdserver.cpp:251
+#: kio/passdlg.cpp:345 kpasswdserver/kpasswdserver.cpp:251
 msgid "Authorization Dialog"
 msgstr "Awtorizacija"
 
@@ -2278,7 +2316,7 @@ msgstr "<qt>Nimaće prawa startować <b>%1</b>.</qt>"
 msgid "You are not authorized to open this file."
 msgstr "Nimaće prawo tutu dataju wočinić."
 
-#: kfile/kopenwith.cpp:853 kio/krun.cpp:193
+#: kfile/kopenwith.cpp:851 kio/krun.cpp:193
 msgid "Open with:"
 msgstr "Wočinić z:"
 
@@ -2303,45 +2341,45 @@ msgstr ""
 "<qt>Njemóžu komando wuwjesć. Dataja abo zapisk <b>%1</b> "
 "njeeksistujetej.</qt>"
 
-#: kio/krun.cpp:1284
+#: kio/krun.cpp:1290
 msgid "Could not find the program '%1'"
 msgstr "Njemóžach program namakać: %1."
 
-#: kio/kfileitem.cpp:643
+#: kio/kfileitem.cpp:654
 msgid "Symbolic Link"
 msgstr "Wotkaz"
 
-#: kio/kfileitem.cpp:645
+#: kio/kfileitem.cpp:656
 msgid "%1 (Link)"
 msgstr "%1 (wotkaz)"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:259
-#: bookmarks/kbookmarkmenu.cc:791 kfile/kpropertiesdialog.cpp:3753
-#: kio/kfileitem.cpp:684
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:270
+#: bookmarks/kbookmarkmenu.cc:794 kfile/kpropertiesdialog.cpp:3755
+#: kio/kfileitem.cpp:695
 msgid "Name:"
 msgstr "Mjeno:"
 
-#: kfile/kpropertiesdialog.cpp:892 kio/kfileitem.cpp:685
+#: kfile/kpropertiesdialog.cpp:894 kio/kfileitem.cpp:696
 msgid "Type:"
 msgstr "Družina:"
 
-#: kio/kfileitem.cpp:689
+#: kio/kfileitem.cpp:700
 msgid "Link to %1 (%2)"
 msgstr "Wotkaz na %1 (%2)"
 
-#: kfile/kpropertiesdialog.cpp:938 kio/kfileitem.cpp:694
+#: kfile/kpropertiesdialog.cpp:940 kio/kfileitem.cpp:705
 msgid "Size:"
 msgstr "Wulkosć:"
 
-#: kfile/kpropertiesdialog.cpp:1000 kio/kfileitem.cpp:699
+#: kfile/kpropertiesdialog.cpp:1002 kio/kfileitem.cpp:710
 msgid "Modified:"
 msgstr "Změnjeny:"
 
-#: kio/kfileitem.cpp:702
+#: kio/kfileitem.cpp:713
 msgid "Owner:"
 msgstr "Wobsydnik:"
 
-#: kio/kfileitem.cpp:703
+#: kio/kfileitem.cpp:714
 msgid "Permissions:"
 msgstr "Prawa:"
 
@@ -2383,11 +2421,11 @@ msgstr ""
 "Njemóžu io-slave stworić:\n"
 "klauncher praji: %1"
 
-#: kfile/kpropertiesdialog.cpp:2511 kio/kmimetypechooser.cpp:75
+#: kfile/kpropertiesdialog.cpp:2513 kio/kmimetypechooser.cpp:75
 msgid "Mime Type"
 msgstr "MIME-družina"
 
-#: kfile/kpropertiesdialog.cpp:2522 kio/kmimetypechooser.cpp:80
+#: kfile/kpropertiesdialog.cpp:2524 kio/kmimetypechooser.cpp:80
 msgid "Comment"
 msgstr "Komentar"
 
@@ -2435,45 +2473,45 @@ msgstr "Njeznaju"
 msgid "Signature Contents:"
 msgstr "Wobsah signatury:"
 
-#: kssl/ksslcertificate.cc:315
+#: kssl/ksslcertificate.cc:338
 msgid ""
 "_: Unknown\n"
 "Unknown key algorithm"
 msgstr "Njeznaty algoritmus za kluč"
 
-#: kssl/ksslcertificate.cc:318
+#: kssl/ksslcertificate.cc:341
 msgid "Key type: RSA (%1 bit)"
 msgstr "Družina kluča: RSA (%1 bit)"
 
-#: kssl/ksslcertificate.cc:321
+#: kssl/ksslcertificate.cc:344
 msgid "Modulus: "
 msgstr "Modulus:"
 
-#: kssl/ksslcertificate.cc:334
+#: kssl/ksslcertificate.cc:357
 msgid "Exponent: 0x"
 msgstr "Eksponent: 0x"
 
-#: kssl/ksslcertificate.cc:340
+#: kssl/ksslcertificate.cc:363
 msgid "Key type: DSA (%1 bit)"
 msgstr "Družina kluča: DSA (%1 bit)"
 
-#: kssl/ksslcertificate.cc:343
+#: kssl/ksslcertificate.cc:366
 msgid "Prime: "
 msgstr "Primska ličba: "
 
-#: kssl/ksslcertificate.cc:357
+#: kssl/ksslcertificate.cc:380
 msgid "160 bit prime factor: "
 msgstr "160-bitowy primski faktor:"
 
-#: kssl/ksslcertificate.cc:381
+#: kssl/ksslcertificate.cc:404
 msgid "Public key: "
 msgstr "Zjawny kluč:"
 
-#: kssl/ksslcertificate.cc:895
+#: kssl/ksslcertificate.cc:920
 msgid "The certificate is valid."
 msgstr "Certifikat je walidny."
 
-#: kssl/ksslcertificate.cc:899
+#: kssl/ksslcertificate.cc:924
 msgid ""
 "Certificate signing authority root files could not be found so the "
 "certificate is not verified."
@@ -2481,51 +2519,51 @@ msgstr ""
 "Zakładne dataje za přepruwowanje certifikata njehodźachu so namakać, tak "
 "zo tutón certifikat njeje werifikowany."
 
-#: kssl/ksslcertificate.cc:901
+#: kssl/ksslcertificate.cc:927
 msgid "Certificate signing authority is unknown or invalid."
 msgstr "Wobkrućaca instanca za tutón certifikat njeje znata abo njeje korektna."
 
-#: kssl/ksslcertificate.cc:903
+#: kssl/ksslcertificate.cc:929
 msgid "Certificate is self-signed and thus may not be trustworthy."
 msgstr "Certifikat je wot awtora podpisany a tuž snadź njeje dowěry hódny."
 
-#: kssl/ksslcertificate.cc:905
+#: kssl/ksslcertificate.cc:931
 msgid "Certificate has expired."
 msgstr "Certifikat je zestarjeny."
 
-#: kssl/ksslcertificate.cc:907
+#: kssl/ksslcertificate.cc:933
 msgid "Certificate has been revoked."
 msgstr "Certifikat je zběhnjeny."
 
-#: kssl/ksslcertificate.cc:909
+#: kssl/ksslcertificate.cc:935
 msgid "SSL support was not found."
 msgstr "Njemóžach SSL-podpěru zwěsćić."
 
-#: kssl/ksslcertificate.cc:911
+#: kssl/ksslcertificate.cc:937
 msgid "Signature is untrusted."
 msgstr "Podpis njeje dowěry hódny."
 
-#: kssl/ksslcertificate.cc:913
+#: kssl/ksslcertificate.cc:939
 msgid "Signature test failed."
 msgstr "Přepruwowanje podpisa so njeje poradźiło."
 
-#: kssl/ksslcertificate.cc:916
+#: kssl/ksslcertificate.cc:942
 msgid "Rejected, possibly due to an invalid purpose."
 msgstr "Wotpokazany, najskerje dokelž přičina njetrjechi."
 
-#: kssl/ksslcertificate.cc:918
+#: kssl/ksslcertificate.cc:944
 msgid "Private key test failed."
 msgstr "Přepruwowanje priwatneho kluča je so zwrěšćiło."
 
-#: kssl/ksslcertificate.cc:920
+#: kssl/ksslcertificate.cc:946
 msgid "The certificate has not been issued for this host."
 msgstr "Certifikat njebu za tutón server wupisany."
 
-#: kssl/ksslcertificate.cc:922
+#: kssl/ksslcertificate.cc:948
 msgid "This certificate is not relevant."
 msgstr "Certifikat njeje relewantny."
 
-#: kssl/ksslcertificate.cc:927
+#: kssl/ksslcertificate.cc:953
 msgid "The certificate is invalid."
 msgstr "Certifikat njeje walidny."
 
@@ -2549,7 +2587,7 @@ msgstr "Njepodpěrowana wulkosć kluča."
 msgid "KDE SSL Information"
 msgstr "KDE SSL-informacija"
 
-#: kssl/ksslkeygen.cc:97 kssl/ksslkeygen.cc:107 misc/uiserver.cpp:1382
+#: kssl/ksslkeygen.cc:97 kssl/ksslkeygen.cc:107 misc/uiserver.cpp:1383
 msgid "KDE"
 msgstr "KDE"
 
@@ -2629,77 +2667,77 @@ msgstr "Wupisowar:"
 msgid "IP address:"
 msgstr "IP-adresa:"
 
-#: kfile/kpropertiesdialog.cpp:2390 kssl/ksslinfodlg.cc:219
+#: kfile/kpropertiesdialog.cpp:2392 kssl/ksslinfodlg.cc:226
 msgid "URL:"
 msgstr "URL:"
 
-#: kssl/ksslinfodlg.cc:222
+#: kssl/ksslinfodlg.cc:229
 msgid "Certificate state:"
 msgstr "Staw certifikata:"
 
-#: kssl/ksslinfodlg.cc:228
+#: kssl/ksslinfodlg.cc:235
 msgid "Valid from:"
 msgstr "Płaći wot:"
 
-#: kssl/ksslinfodlg.cc:230
+#: kssl/ksslinfodlg.cc:237
 msgid "Valid until:"
 msgstr "Płaći hač do:"
 
-#: kssl/ksslinfodlg.cc:233
+#: kssl/ksslinfodlg.cc:240
 msgid "Serial number:"
 msgstr "Čisło serije"
 
-#: kssl/ksslinfodlg.cc:235
+#: kssl/ksslinfodlg.cc:242
 msgid "MD5 digest:"
 msgstr "MD5 digest:"
 
-#: kssl/ksslinfodlg.cc:238
+#: kssl/ksslinfodlg.cc:245
 msgid "Cipher in use:"
 msgstr "Wužiwane šifrowanje:"
 
-#: kssl/ksslinfodlg.cc:240
+#: kssl/ksslinfodlg.cc:247
 msgid "Details:"
 msgstr "Nadrobne informacije:"
 
-#: kssl/ksslinfodlg.cc:242
+#: kssl/ksslinfodlg.cc:249
 msgid "SSL version:"
 msgstr "SSL-wersija:"
 
-#: kssl/ksslinfodlg.cc:244
+#: kssl/ksslinfodlg.cc:251
 msgid "Cipher strength:"
 msgstr "Stopjeń šifrowanja:"
 
-#: kssl/ksslinfodlg.cc:245
+#: kssl/ksslinfodlg.cc:252
 msgid "%1 bits used of a %2 bit cipher"
 msgstr "%1 bitow  so z %2-bitoweho kluča wužiwa"
 
-#: kssl/ksslinfodlg.cc:392
+#: kssl/ksslinfodlg.cc:400
 msgid "Organization:"
 msgstr "Organizacija:"
 
-#: kssl/ksslinfodlg.cc:397
+#: kssl/ksslinfodlg.cc:405
 msgid "Organizational unit:"
 msgstr "Dźěl organizacije:"
 
-#: kssl/ksslinfodlg.cc:402
+#: kssl/ksslinfodlg.cc:410
 msgid "Locality:"
 msgstr "Městno:"
 
-#: kssl/ksslinfodlg.cc:407
+#: kssl/ksslinfodlg.cc:415
 msgid ""
 "_: Federal State\n"
 "State:"
 msgstr "Stat:"
 
-#: kssl/ksslinfodlg.cc:412
+#: kssl/ksslinfodlg.cc:420
 msgid "Country:"
 msgstr "Kraj:"
 
-#: kssl/ksslinfodlg.cc:417
+#: kssl/ksslinfodlg.cc:425
 msgid "Common name:"
 msgstr "Normalne pomjenowanje:"
 
-#: kssl/ksslinfodlg.cc:422
+#: kssl/ksslinfodlg.cc:430
 msgid "Email:"
 msgstr "email:"
 
@@ -2861,7 +2899,7 @@ msgstr ""
 "<qt>Aplikacija <b>%1</b> chce móšnjowu dataju <b>%2</b> wočinić. Prošu "
 "zapodajće wotpowědne hesło."
 
-#: kfile/kfiledialog.cpp:1817 misc/kwalletd/kwalletd.cpp:388
+#: kfile/kfiledialog.cpp:1816 misc/kwalletd/kwalletd.cpp:388
 #: misc/kwalletd/kwalletd.cpp:402
 msgid "&Open"
 msgstr "W&očinić"
@@ -3134,11 +3172,11 @@ msgid ""
 " Rem. Time: %1 "
 msgstr ""
 
-#: misc/uiserver.cpp:1383
+#: misc/uiserver.cpp:1384
 msgid "KDE Progress Information UI Server"
 msgstr "KDE Progress Information UI Server"
 
-#: misc/uiserver.cpp:1386 misc/uiserver.cpp:1387
+#: misc/uiserver.cpp:1387 misc/uiserver.cpp:1388
 msgid "Developer"
 msgstr "Programowar"
 
@@ -3192,42 +3230,42 @@ msgstr "elektroniska póšta"
 msgid "Mail service"
 msgstr "elektroniska póšta"
 
-#: kioexec/main.cpp:49
+#: kioexec/main.cpp:50
 msgid "KIO Exec - Opens remote files, watches modifications, asks for upload"
 msgstr ""
 
-#: kioexec/main.cpp:55
+#: kioexec/main.cpp:54
 msgid "Treat URLs as local files and delete them afterwards"
 msgstr ""
 
-#: kioexec/main.cpp:56
+#: kioexec/main.cpp:55
 #, fuzzy
 msgid "Command to execute"
 msgstr "Mjeno přikaza"
 
-#: kioexec/main.cpp:57
+#: kioexec/main.cpp:56
 msgid "URL(s) or local file(s) used for 'command'"
 msgstr ""
 
-#: kioexec/main.cpp:73
+#: kioexec/main.cpp:72
 msgid ""
 "'command' expected.\n"
 msgstr ""
 
-#: kioexec/main.cpp:98
+#: kioexec/main.cpp:97
 #, fuzzy
 msgid ""
 "The URL %1\n"
 "is malformed"
 msgstr "Service '%1' je hubjenje formatowany."
 
-#: kioexec/main.cpp:100
+#: kioexec/main.cpp:99
 msgid ""
 "Remote URL %1\n"
 "not allowed with --tempfiles switch"
 msgstr ""
 
-#: kioexec/main.cpp:227
+#: kioexec/main.cpp:226
 #, fuzzy
 msgid ""
 "The supposedly temporary file\n"
@@ -3238,12 +3276,12 @@ msgstr ""
 "Dokument \"%1\" je so změnił.\n"
 "Chceće jón zawěsćić?"
 
-#: kioexec/main.cpp:228 kioexec/main.cpp:235
+#: kioexec/main.cpp:227 kioexec/main.cpp:234
 #, fuzzy
 msgid "File Changed"
 msgstr "Dataja zawěsćena."
 
-#: kioexec/main.cpp:234
+#: kioexec/main.cpp:233
 #, fuzzy
 msgid ""
 "The file\n"
@@ -3254,7 +3292,7 @@ msgstr ""
 "Dokument \"%1\" je so změnił.\n"
 "Chceće jón zawěsćić?"
 
-#: kioexec/main.cpp:262
+#: kioexec/main.cpp:261
 #, fuzzy
 msgid "KIOExec"
 msgstr "Startować"
@@ -3317,7 +3355,7 @@ msgstr "Horje sunyć"
 msgid "Move Down"
 msgstr "Dele sunyć"
 
-#: kfile/kfiledialog.cpp:1660 kfile/kfilefiltercombo.cpp:32
+#: kfile/kfiledialog.cpp:1659 kfile/kfilefiltercombo.cpp:32
 msgid "*|All Files"
 msgstr "*|Wšitke dataje"
 
@@ -3330,15 +3368,15 @@ msgstr "Wšitke podpěrowane dataje"
 msgid "Known Applications"
 msgstr "Znate programy"
 
-#: kfile/kicondialog.cpp:329 kfile/kopenwith.cpp:317
+#: kfile/kicondialog.cpp:329 kfile/kopenwith.cpp:315
 msgid "Applications"
 msgstr "Programy"
 
-#: kfile/kopenwith.cpp:343
+#: kfile/kopenwith.cpp:341
 msgid "Open With"
 msgstr "Wočinić z"
 
-#: kfile/kopenwith.cpp:347
+#: kfile/kopenwith.cpp:345
 msgid ""
 "<qt>Select the program that should be used to open <b>%1</b>"
 ". If the program is not listed, enter the name or click the browse "
@@ -3348,16 +3386,16 @@ msgstr ""
 " wočinił. Jeli program njeje w lisćinje, zapodajće mjeno abo klikńće "
 "na pytanski knefl.</qt>"
 
-#: kfile/kopenwith.cpp:353
+#: kfile/kopenwith.cpp:351
 msgid "Choose the name of the program with which to open the selected files."
 msgstr "Wubjerće mjeno programa, z kotrymž maja so wubrane dataje wočinić."
 
-#: kfile/kopenwith.cpp:374
+#: kfile/kopenwith.cpp:372
 #, c-format
 msgid "Choose Application for %1"
 msgstr "Wubjerće program za %1"
 
-#: kfile/kopenwith.cpp:375
+#: kfile/kopenwith.cpp:373
 msgid ""
 "<qt>Select the program for the file type: <b>%1</b>. If the program is not "
 "listed, enter the name or click the browse button.</qt>"
@@ -3365,11 +3403,11 @@ msgstr ""
 "<qt>Wubjerće program za datajowu družinu: <b>%1</b>. Jeli program njeje w "
 "lisćinje, zapodajće mjeno abo klikńće na pytanski knefl.</qt>"
 
-#: kfile/kopenwith.cpp:387
+#: kfile/kopenwith.cpp:385
 msgid "Choose Application"
 msgstr "Wubjerće program"
 
-#: kfile/kopenwith.cpp:388
+#: kfile/kopenwith.cpp:386
 msgid ""
 "<qt>Select a program. If the program is not listed, enter the name or click "
 "the browse button.</qt>"
@@ -3377,11 +3415,11 @@ msgstr ""
 "<qt>Wubjerće program. Jeli program njeje w lisćinje, zapodajće mjeno abo "
 "klikńće na pytanski knefl.</qt>"
 
-#: kfile/kopenwith.cpp:427
+#: kfile/kopenwith.cpp:425
 msgid "Clear input field"
 msgstr "Wuprózdni zapodawanske pólko"
 
-#: kfile/kopenwith.cpp:457
+#: kfile/kopenwith.cpp:455
 #, fuzzy
 msgid ""
 "Following the command, you can have several place holders which will be "
@@ -3409,15 +3447,15 @@ msgstr ""
 "%m - minipiktogram\n"
 "%c - komentar"
 
-#: kfile/kopenwith.cpp:490
+#: kfile/kopenwith.cpp:488
 msgid "Run in &terminal"
 msgstr "W &terminalu"
 
-#: kfile/kopenwith.cpp:501
+#: kfile/kopenwith.cpp:499
 msgid "&Do not close when command exits"
 msgstr "&Njezačiń po zakónčenju přikaza"
 
-#: kfile/kopenwith.cpp:518
+#: kfile/kopenwith.cpp:516
 msgid "&Remember application association for this type of file"
 msgstr "&Spomjatkuj sej programowu asociaciju za tutón typ datajow"
 
@@ -3439,7 +3477,7 @@ msgid "O&ther icons:"
 msgstr "&Hewaše piktogramy:"
 
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 213
-#: kfile/kicondialog.cpp:282 kfile/kpropertiesdialog.cpp:3438 rc.cpp:298
+#: kfile/kicondialog.cpp:282 kfile/kpropertiesdialog.cpp:3440 rc.cpp:298
 #, no-c-format
 msgid "&Browse..."
 msgstr "&Přelistuj..."
@@ -3535,7 +3573,7 @@ msgstr "Dataja %1 hižo eksistuje."
 msgid "You do not have permission to create that folder."
 msgstr "Nimaće prawa tutón zapisk stworić."
 
-#: bookmarks/kbookmarkmenu.cc:797 kfile/kpropertiesdialog.cpp:930
+#: bookmarks/kbookmarkmenu.cc:800 kfile/kpropertiesdialog.cpp:932
 #: kfile/kurlrequesterdlg.cpp:47
 msgid "Location:"
 msgstr "Městno:"
@@ -3615,16 +3653,18 @@ msgid ""
 msgstr ""
 
 #: kfile/knotifydialog.cpp:339
-msgid "Fewer Op&tions"
-msgstr "&Mjenje opcijow"
+#, fuzzy
+msgid "Advanced <<"
+msgstr "Opcije za pokročenych"
 
 #: kfile/knotifydialog.cpp:340
 msgid "Hide advanced options"
 msgstr "Chowaj opcije za pokročenych"
 
 #: kfile/knotifydialog.cpp:356
-msgid "More Op&tions"
-msgstr "&Wjace opcijow"
+#, fuzzy
+msgid "Advanced >>"
+msgstr "Opcije za pokročenych"
 
 #: kfile/knotifydialog.cpp:357
 msgid "Show advanced options"
@@ -3665,28 +3705,28 @@ msgstr "Pominany zapisk snadź njeeksistuje."
 msgid "No description available"
 msgstr "Žane wopisanje namakał"
 
-#: kfile/kfiledialog.cpp:347
+#: kfile/kfiledialog.cpp:346
 #, fuzzy
 msgid "Please specify the filename to save to."
 msgstr "To je mjeno, pod kotrymž ma so dataja zawěsćić."
 
-#: kfile/kfiledialog.cpp:349
+#: kfile/kfiledialog.cpp:348
 #, fuzzy
 msgid "Please select the file to open."
 msgstr "To je mjeno dataje, kiž ma so wočinić."
 
-#: kfile/kfiledialog.cpp:409 kfile/kfiledialog.cpp:450
-#: kfile/kfiledialog.cpp:1536
+#: kfile/kfiledialog.cpp:408 kfile/kfiledialog.cpp:449
+#: kfile/kfiledialog.cpp:1535
 msgid "You can only select local files."
 msgstr "Móžeće jenož lokalne dataje wubrać."
 
-#: kfile/kfiledialog.cpp:410 kfile/kfiledialog.cpp:451
-#: kfile/kfiledialog.cpp:1537
+#: kfile/kfiledialog.cpp:409 kfile/kfiledialog.cpp:450
+#: kfile/kfiledialog.cpp:1536
 #, fuzzy
 msgid "Remote Files Not Accepted"
 msgstr "Njelokalne dataje so njeakceptuja"
 
-#: kfile/kfiledialog.cpp:443
+#: kfile/kfiledialog.cpp:442
 msgid ""
 "%1\n"
 "does not appear to be a valid URL.\n"
@@ -3694,11 +3734,11 @@ msgstr ""
 "%1\n"
 "njewupada kaž korektnyURL.\n"
 
-#: kfile/kfiledialog.cpp:443
+#: kfile/kfiledialog.cpp:442
 msgid "Invalid URL"
 msgstr "Njekorektny URL"
 
-#: kfile/kfiledialog.cpp:775
+#: kfile/kfiledialog.cpp:774
 msgid ""
 "<p>While typing in the text area, you may be presented with possible "
 "matches. This feature can be controlled by clicking with the right mouse "
@@ -3709,11 +3749,11 @@ msgstr ""
 "kliknjenjom praweje myšaceje tasty a wubranjom preferowaneho modusa z "
 "menija <b>Wudospołnjenje teksta</b>."
 
-#: kfile/kfiledialog.cpp:784
+#: kfile/kfiledialog.cpp:783
 msgid "This is the name to save the file as."
 msgstr "To je mjeno, pod kotrymž ma so dataja zawěsćić."
 
-#: kfile/kfiledialog.cpp:789
+#: kfile/kfiledialog.cpp:788
 msgid ""
 "This is the list of files to open. More than one file can be specified by "
 "listing several files, separated by spaces."
@@ -3721,16 +3761,16 @@ msgstr ""
 "To je lisćina datajow, kiž maja so wočinić. Wjacore dataje móža so "
 "podać jako lisćina datajowych mjenow, z mjezotami wotdźělenych."
 
-#: kfile/kfiledialog.cpp:796
+#: kfile/kfiledialog.cpp:795
 msgid "This is the name of the file to open."
 msgstr "To je mjeno dataje, kiž ma so wočinić."
 
-#: kfile/kfiledialog.cpp:834
+#: kfile/kfiledialog.cpp:833
 #, fuzzy
 msgid "Often used folders"
 msgstr "Husto wužiwane zapiski"
 
-#: kfile/kfiledialog.cpp:835
+#: kfile/kfiledialog.cpp:834
 #, fuzzy
 msgid ""
 "Commonly used locations are listed here. This includes standard locations, "
@@ -3740,27 +3780,27 @@ msgstr ""
 "Husto wužiwane městna so tu naličuja. To wobsahuje standardne městna "
 "kaž waš domjacy zapisk runje kaž městna, kiž su so njedawno wopytali."
 
-#: kfile/kfiledialog.cpp:841
+#: kfile/kfiledialog.cpp:840
 #, fuzzy, c-format
 msgid "Root Folder: %1"
 msgstr "Korjentny zapisk: %1"
 
-#: kfile/kfiledialog.cpp:847
+#: kfile/kfiledialog.cpp:846
 #, fuzzy, c-format
 msgid "Home Folder: %1"
 msgstr "Domjacy zapisk: %1"
 
-#: kfile/kfiledialog.cpp:856
+#: kfile/kfiledialog.cpp:855
 #, c-format
 msgid "Documents: %1"
 msgstr "Dokumenty: %1"
 
-#: kfile/kfiledialog.cpp:863
+#: kfile/kfiledialog.cpp:862
 #, c-format
 msgid "Desktop: %1"
 msgstr "Dźěłowy powjerch: %1"
 
-#: kfile/kfiledialog.cpp:904
+#: kfile/kfiledialog.cpp:903
 #, fuzzy
 msgid ""
 "<qt>Click this button to enter the parent folder."
@@ -3771,43 +3811,43 @@ msgstr ""
 "<p>Na př, jeli sće nětko we file:/home/%1 dóstanjeće so přez klik na "
 "tutón knefl do file:/home.</qt>"
 
-#: kfile/kfiledialog.cpp:908
+#: kfile/kfiledialog.cpp:907
 msgid "Click this button to move backwards one step in the browsing history."
 msgstr "Klikńće tutón knefl, zo by prjedawšu stronu wopytał."
 
-#: kfile/kfiledialog.cpp:910
+#: kfile/kfiledialog.cpp:909
 msgid "Click this button to move forward one step in the browsing history."
 msgstr "Klikńće tutón knefl, zo by přichodnu stronu wopytał."
 
-#: kfile/kfiledialog.cpp:912
+#: kfile/kfiledialog.cpp:911
 msgid "Click this button to reload the contents of the current location."
 msgstr "Klikńće tutón knefl, zo by napohlad aktualneho městna aktualizowali."
 
-#: kfile/kfiledialog.cpp:915
+#: kfile/kfiledialog.cpp:914
 #, fuzzy
 msgid "Click this button to create a new folder."
 msgstr "Klikńće tutón knefl, zo by nowy zapisk stworił."
 
-#: kfile/kfiledialog.cpp:918
+#: kfile/kfiledialog.cpp:917
 msgid "Show Quick Access Navigation Panel"
 msgstr "Pokaž nawigaciski pask"
 
-#: kfile/kfiledialog.cpp:919
+#: kfile/kfiledialog.cpp:918
 #, fuzzy
 msgid "Hide Quick Access Navigation Panel"
 msgstr "Pokaž nawigaciski pask"
 
-#: kfile/kfiledialog.cpp:924
+#: kfile/kfiledialog.cpp:923
 #, fuzzy
 msgid "Show Bookmarks"
 msgstr "Lubušk"
 
-#: kfile/kfiledialog.cpp:925
+#: kfile/kfiledialog.cpp:924
 #, fuzzy
 msgid "Hide Bookmarks"
 msgstr "K lubuškam dodać "
 
-#: kfile/kfiledialog.cpp:930
+#: kfile/kfiledialog.cpp:929
 #, fuzzy
 msgid ""
 "<qt>This is the configuration menu for the file dialog. Various options can "
@@ -3829,11 +3869,11 @@ msgstr ""
 "<li>přehladki datajow</li> "
 "<li>dźělenje zapiskow wot datajow</li></ul></qt>"
 
-#: kfile/kfiledialog.cpp:984
+#: kfile/kfiledialog.cpp:983
 msgid "&Location:"
 msgstr "&Městno:"
 
-#: kfile/kfiledialog.cpp:1009
+#: kfile/kfiledialog.cpp:1008
 msgid ""
 "<qt>This is the filter to apply to the file list. File names that do not "
 "match the filter will not be shown."
@@ -3847,11 +3887,11 @@ msgstr ""
 "Móžeće jedyn z predefinowanych filtrow w meniju wubrać abo tež swój do "
 "tekstoweho pólka napisać.<p> Jokery kaž * a ? su dowolene.</qt>"
 
-#: kfile/kfiledialog.cpp:1015
+#: kfile/kfiledialog.cpp:1014
 msgid "&Filter:"
 msgstr "&Filter:"
 
-#: kfile/kfiledialog.cpp:1467
+#: kfile/kfiledialog.cpp:1466
 #, fuzzy
 msgid ""
 "The chosen filenames do not\n"
@@ -3860,11 +3900,11 @@ msgstr ""
 "Wubrane datajowe mjena po zdaću\n"
 "njejsu korektne."
 
-#: kfile/kfiledialog.cpp:1469
+#: kfile/kfiledialog.cpp:1468
 msgid "Invalid Filenames"
 msgstr "Njekorektne datajowe mjena"
 
-#: kfile/kfiledialog.cpp:1499
+#: kfile/kfiledialog.cpp:1498
 #, fuzzy
 msgid ""
 "The requested filenames\n"
@@ -3877,34 +3917,34 @@ msgstr ""
 "njewupadaja korektne.\n"
 "Podaj kóžde datajowe mjeno w pazorkach."
 
-#: kfile/kfiledialog.cpp:1503
+#: kfile/kfiledialog.cpp:1502
 msgid "Filename Error"
 msgstr "Zmylk w datajowym mjenje"
 
-#: kfile/kfiledialog.cpp:1657
+#: kfile/kfiledialog.cpp:1656
 #, fuzzy
 msgid "*|All Folders"
 msgstr "*|Wšitke dataje"
 
-#: kfile/kfiledialog.cpp:1955
+#: kfile/kfiledialog.cpp:1954
 #, fuzzy
 msgid "Automatically select filename e&xtension (%1)"
 msgstr "Wubjerće e&kstensiju datajoweho mjena awtomatisce (%1)"
 
-#: kfile/kfiledialog.cpp:1956
+#: kfile/kfiledialog.cpp:1955
 msgid "the extension <b>%1</b>"
 msgstr "ekstensija <b>%1</b>"
 
-#: kfile/kfiledialog.cpp:1964
+#: kfile/kfiledialog.cpp:1963
 #, fuzzy
 msgid "Automatically select filename e&xtension"
 msgstr "Wubjerće e&kstensiju datajoweho mjena awtomatisce"
 
-#: kfile/kfiledialog.cpp:1965
+#: kfile/kfiledialog.cpp:1964
 msgid "a suitable extension"
 msgstr "kmana ekstensija"
 
-#: kfile/kfiledialog.cpp:1976
+#: kfile/kfiledialog.cpp:1975
 #, fuzzy
 msgid ""
 "This option enables some convenient features for saving files with "
@@ -3947,7 +3987,7 @@ msgstr ""
 "činić, wostajće tutu opciju zaswěćenu, dokelž tak budźe wobchadźenje "
 "z datajowymi mjenami jednoriše."
 
-#: kfile/kfiledialog.cpp:2227
+#: kfile/kfiledialog.cpp:2226
 msgid ""
 "<qt>This button allows you to bookmark specific locations. Click on this "
 "button to open the bookmark menu where you may add, edit or select a "
@@ -4007,7 +4047,7 @@ msgstr "Dataju zničić"
 #: kfile/kdiroperator.cpp:478
 #, fuzzy, c-format
 msgid ""
-"_n: translators: not called for n == 1\n"
+"_n: Do you really want to delete this item?\n"
 "Do you really want to delete these %n items?"
 msgstr ""
 "Chceće woprawdźe tute %n objektow zničić?\n"
@@ -4144,7 +4184,7 @@ msgstr "Prawa"
 msgid "Owner"
 msgstr "Wobsydnik"
 
-#: kfile/kfiledetailview.cpp:71 kfile/kpropertiesdialog.cpp:1866
+#: kfile/kfiledetailview.cpp:71 kfile/kpropertiesdialog.cpp:1868
 msgid "Group"
 msgstr "Skupina"
 
@@ -4153,78 +4193,78 @@ msgid "&Meta Info"
 msgstr "&Metainformacija"
 
 #: kfile/kpropertiesdialog.cpp:155 kfile/kpropertiesdialog.cpp:171
-#: kfile/kpropertiesdialog.cpp:185 kfile/kpropertiesdialog.cpp:208
-#: kfile/kpropertiesdialog.cpp:228 kfile/kpropertiesdialog.cpp:248
+#: kfile/kpropertiesdialog.cpp:187 kfile/kpropertiesdialog.cpp:210
+#: kfile/kpropertiesdialog.cpp:230 kfile/kpropertiesdialog.cpp:250
 #, c-format
 msgid "Properties for %1"
 msgstr "Swójstwa %1"
 
-#: kfile/kpropertiesdialog.cpp:184
+#: kfile/kpropertiesdialog.cpp:186
 #, fuzzy, c-format
 msgid ""
 "_n: <never used>\n"
 "Properties for %n Selected Items"
 msgstr "Swójstwa %1"
 
-#: kfile/kpropertiesdialog.cpp:702
+#: kfile/kpropertiesdialog.cpp:704
 msgid "&General"
 msgstr "&Powšitkownje"
 
-#: kfile/kpropertiesdialog.cpp:908
+#: kfile/kpropertiesdialog.cpp:910
 #, fuzzy
 msgid "Edit file type"
 msgstr "Datajowe družiny:"
 
-#: kfile/kpropertiesdialog.cpp:921
+#: kfile/kpropertiesdialog.cpp:923
 msgid "Contents:"
 msgstr "Wobsah:"
 
-#: kfile/kpropertiesdialog.cpp:957
+#: kfile/kpropertiesdialog.cpp:959
 msgid "Calculate"
 msgstr "Wobličić"
 
-#: kfile/kpropertiesdialog.cpp:968 kfile/kpropertiesdialog.cpp:1182
+#: kfile/kpropertiesdialog.cpp:970 kfile/kpropertiesdialog.cpp:1184
 msgid "Refresh"
 msgstr "Ponowić"
 
-#: kfile/kpropertiesdialog.cpp:976
+#: kfile/kpropertiesdialog.cpp:978
 msgid "Points to:"
 msgstr "Wotkazuje na:"
 
-#: kfile/kpropertiesdialog.cpp:989
+#: kfile/kpropertiesdialog.cpp:991
 msgid "Created:"
 msgstr "Stworjene:"
 
-#: kfile/kpropertiesdialog.cpp:1011
+#: kfile/kpropertiesdialog.cpp:1013
 msgid "Accessed:"
 msgstr "Wopytane:"
 
-#: kfile/kpropertiesdialog.cpp:1030
+#: kfile/kpropertiesdialog.cpp:1032
 #, fuzzy
 msgid "Mounted on:"
 msgstr "Cil montowanja:"
 
-#: kfile/kpropertiesdialog.cpp:1037 kfile/kpropertiesdialog.cpp:2713
+#: kfile/kpropertiesdialog.cpp:1039 kfile/kpropertiesdialog.cpp:2715
 #, fuzzy
 msgid "Free disk space:"
 msgstr "Swobodny rum na %1:"
 
-#: kfile/kpropertiesdialog.cpp:1133 kfile/kpropertiesdialog.cpp:1147
-#: kfile/kpropertiesdialog.cpp:2855
+#: kfile/kpropertiesdialog.cpp:1135 kfile/kpropertiesdialog.cpp:1149
+#: kfile/kpropertiesdialog.cpp:2857
 #, fuzzy
 msgid ""
 "_: Available space out of total partition size (percent used)\n"
 "%1 out of %2 (%3% used)"
 msgstr "%1/%2 (%3% so wužiwa)"
 
-#: kfile/kpropertiesdialog.cpp:1158
+#: kfile/kpropertiesdialog.cpp:1160
 #, fuzzy
 msgid ""
 "Calculating... %1 (%2)\n"
 "%3, %4"
 msgstr "Wobličuju ..."
 
-#: kfile/kpropertiesdialog.cpp:1161 kfile/kpropertiesdialog.cpp:1177
+#: kfile/kpropertiesdialog.cpp:1163 kfile/kpropertiesdialog.cpp:1179
 #, fuzzy, c-format
 msgid ""
 "_n: 1 file\n"
@@ -4235,7 +4275,7 @@ msgstr ""
 "%n dataji\n"
 "%n dataje"
 
-#: kfile/kpropertiesdialog.cpp:1162 kfile/kpropertiesdialog.cpp:1178
+#: kfile/kpropertiesdialog.cpp:1164 kfile/kpropertiesdialog.cpp:1180
 #, fuzzy, c-format
 msgid ""
 "_n: 1 sub-folder\n"
@@ -4246,23 +4286,23 @@ msgstr ""
 "%n zapiskaj\n"
 "%n zapiski"
 
-#: kfile/kpropertiesdialog.cpp:1191
+#: kfile/kpropertiesdialog.cpp:1193
 msgid "Calculating..."
 msgstr "Wobličuju ..."
 
-#: kfile/kpropertiesdialog.cpp:1209
+#: kfile/kpropertiesdialog.cpp:1211
 msgid "Stopped"
 msgstr "Zastajene"
 
-#: kfile/kpropertiesdialog.cpp:1249
+#: kfile/kpropertiesdialog.cpp:1251
 #, fuzzy
 msgid "The new file name is empty."
 msgstr "Nowe datajowe mjeno faluje!"
 
-#: kfile/kpropertiesdialog.cpp:1383 kfile/kpropertiesdialog.cpp:2446
-#: kfile/kpropertiesdialog.cpp:2603 kfile/kpropertiesdialog.cpp:2883
-#: kfile/kpropertiesdialog.cpp:3163 kfile/kpropertiesdialog.cpp:3659
-#: kfile/kpropertiesdialog.cpp:3903
+#: kfile/kpropertiesdialog.cpp:1385 kfile/kpropertiesdialog.cpp:2448
+#: kfile/kpropertiesdialog.cpp:2605 kfile/kpropertiesdialog.cpp:2885
+#: kfile/kpropertiesdialog.cpp:3165 kfile/kpropertiesdialog.cpp:3661
+#: kfile/kpropertiesdialog.cpp:3905
 msgid ""
 "<qt>"
 "Could not save properties. You do not have sufficient access to write to "
@@ -4271,141 +4311,141 @@ msgstr ""
 "<qt>Njemóžach swójstwa zawěsćić. Nimaće prawa pisanja do "
 "<b>%1</b>.</qt>"
 
-#: kfile/kpropertiesdialog.cpp:1453 kfile/kpropertiesdialog.cpp:1457
-#: kfile/kpropertiesdialog.cpp:1462
+#: kfile/kpropertiesdialog.cpp:1455 kfile/kpropertiesdialog.cpp:1459
+#: kfile/kpropertiesdialog.cpp:1464
 msgid "Forbidden"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1454
+#: kfile/kpropertiesdialog.cpp:1456
 #, fuzzy
 msgid "Can Read"
 msgstr "Čitać"
 
-#: kfile/kpropertiesdialog.cpp:1455
+#: kfile/kpropertiesdialog.cpp:1457
 msgid "Can Read & Write"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1458
+#: kfile/kpropertiesdialog.cpp:1460
 #, fuzzy
 msgid "Can View Content"
 msgstr "Žadyn wobsah"
 
-#: kfile/kpropertiesdialog.cpp:1459
+#: kfile/kpropertiesdialog.cpp:1461
 msgid "Can View & Modify Content"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1463
+#: kfile/kpropertiesdialog.cpp:1465
 msgid "Can View Content & Read"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1464
+#: kfile/kpropertiesdialog.cpp:1466
 msgid "Can View/Read & Modify/Write"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1553
+#: kfile/kpropertiesdialog.cpp:1555
 msgid "&Permissions"
 msgstr "&Prawa"
 
-#: kfile/kpropertiesdialog.cpp:1564 kfile/kpropertiesdialog.cpp:1800
+#: kfile/kpropertiesdialog.cpp:1566 kfile/kpropertiesdialog.cpp:1802
 msgid "Access Permissions"
 msgstr "Přistupne prawa"
 
-#: kfile/kpropertiesdialog.cpp:1575
+#: kfile/kpropertiesdialog.cpp:1577
 msgid ""
 "_n: This file is a link and does not have permissions.\n"
 "All files are links and do not have permissions."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1578
+#: kfile/kpropertiesdialog.cpp:1580
 #, fuzzy
 msgid "Only the owner can change permissions."
 msgstr ""
 "Njemóžach přistupne prawa změnić za\n"
 "%1"
 
-#: kfile/kpropertiesdialog.cpp:1581
+#: kfile/kpropertiesdialog.cpp:1583
 #, fuzzy
 msgid "O&wner:"
 msgstr "Wobsydnik:"
 
-#: kfile/kpropertiesdialog.cpp:1587
+#: kfile/kpropertiesdialog.cpp:1589
 msgid "Specifies the actions that the owner is allowed to do."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1589
+#: kfile/kpropertiesdialog.cpp:1591
 #, fuzzy
 msgid "Gro&up:"
 msgstr "Skupina:"
 
-#: kfile/kpropertiesdialog.cpp:1595
+#: kfile/kpropertiesdialog.cpp:1597
 msgid "Specifies the actions that the members of the group are allowed to do."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1597
+#: kfile/kpropertiesdialog.cpp:1599
 #, fuzzy
 msgid "O&thers:"
 msgstr "Druzy"
 
-#: kfile/kpropertiesdialog.cpp:1603
+#: kfile/kpropertiesdialog.cpp:1605
 msgid ""
 "Specifies the actions that all users, who are neither owner nor in the "
 "group, are allowed to do."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1608
+#: kfile/kpropertiesdialog.cpp:1610
 msgid "Only own&er can rename and delete folder content"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1609
+#: kfile/kpropertiesdialog.cpp:1611
 #, fuzzy
 msgid "Is &executable"
 msgstr "&Startować"
 
-#: kfile/kpropertiesdialog.cpp:1613
+#: kfile/kpropertiesdialog.cpp:1615
 msgid ""
 "Enable this option to allow only the folder's owner to delete or rename the "
 "contained files and folders. Other users can only add new files, which "
 "requires the 'Modify Content' permission."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1617
+#: kfile/kpropertiesdialog.cpp:1619
 msgid ""
 "Enable this option to mark the file as executable. This only makes sense for "
 "programs and scripts. It is required when you want to execute them."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1624
+#: kfile/kpropertiesdialog.cpp:1626
 #, fuzzy
 msgid "A&dvanced Permissions"
 msgstr "Přistupne prawa"
 
-#: kfile/kpropertiesdialog.cpp:1633
+#: kfile/kpropertiesdialog.cpp:1635
 msgid "Ownership"
 msgstr "Wobsydstwo"
 
-#: kfile/kpropertiesdialog.cpp:1642
+#: kfile/kpropertiesdialog.cpp:1644
 msgid "User:"
 msgstr "Wužiwar:"
 
-#: kfile/kpropertiesdialog.cpp:1728
+#: kfile/kpropertiesdialog.cpp:1730
 msgid "Group:"
 msgstr "Skupina:"
 
-#: kfile/kpropertiesdialog.cpp:1770
+#: kfile/kpropertiesdialog.cpp:1772
 #, fuzzy
 msgid "Apply changes to all subfolders and their contents"
 msgstr "Změny na wšitke podzapiski a jich wobsah nałožić"
 
-#: kfile/kpropertiesdialog.cpp:1792
+#: kfile/kpropertiesdialog.cpp:1794
 #, fuzzy
 msgid "Advanced Permissions"
 msgstr "Přistupne prawa"
 
-#: kfile/kpropertiesdialog.cpp:1808
+#: kfile/kpropertiesdialog.cpp:1810
 msgid "Class"
 msgstr "Klasa"
 
-#: kfile/kpropertiesdialog.cpp:1812
+#: kfile/kpropertiesdialog.cpp:1814
 msgid ""
 "Show\n"
 "Entries"
@@ -4413,19 +4453,19 @@ msgstr ""
 "Pokaž\n"
 "zapisy"
 
-#: kfile/kpropertiesdialog.cpp:1814
+#: kfile/kpropertiesdialog.cpp:1816
 msgid "Read"
 msgstr "Čitać"
 
-#: kfile/kpropertiesdialog.cpp:1818
+#: kfile/kpropertiesdialog.cpp:1820
 msgid "This flag allows viewing the content of the folder."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1820
+#: kfile/kpropertiesdialog.cpp:1822
 msgid "The Read flag allows viewing the content of the file."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1824
+#: kfile/kpropertiesdialog.cpp:1826
 msgid ""
 "Write\n"
 "Entries"
@@ -4433,225 +4473,225 @@ msgstr ""
 "Pisaj\n"
 "zapisy"
 
-#: kfile/kpropertiesdialog.cpp:1826
+#: kfile/kpropertiesdialog.cpp:1828
 msgid "Write"
 msgstr "Pisać"
 
-#: kfile/kpropertiesdialog.cpp:1830
+#: kfile/kpropertiesdialog.cpp:1832
 msgid ""
 "This flag allows adding, renaming and deleting of files. Note that deleting "
 "and renaming can be limited using the Sticky flag."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1833
+#: kfile/kpropertiesdialog.cpp:1835
 msgid "The Write flag allows modifying the content of the file."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1838
+#: kfile/kpropertiesdialog.cpp:1840
 #, fuzzy
 msgid ""
 "_: Enter folder\n"
 "Enter"
 msgstr "Zastupić"
 
-#: kfile/kpropertiesdialog.cpp:1839
+#: kfile/kpropertiesdialog.cpp:1841
 msgid "Enable this flag to allow entering the folder."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1842
+#: kfile/kpropertiesdialog.cpp:1844
 msgid "Exec"
 msgstr "Startować"
 
-#: kfile/kpropertiesdialog.cpp:1843
+#: kfile/kpropertiesdialog.cpp:1845
 msgid "Enable this flag to allow executing the file as a program."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1852
+#: kfile/kpropertiesdialog.cpp:1854
 msgid "Special"
 msgstr "Specialne"
 
-#: kfile/kpropertiesdialog.cpp:1856
+#: kfile/kpropertiesdialog.cpp:1858
 msgid ""
 "Special flag. Valid for the whole folder, the exact meaning of the flag can "
 "be seen in the right hand column."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1859
+#: kfile/kpropertiesdialog.cpp:1861
 msgid ""
 "Special flag. The exact meaning of the flag can be seen in the right hand "
 "column."
 msgstr ""
 
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 95
-#: kfile/kpropertiesdialog.cpp:1863 rc.cpp:99
+#: kfile/kpropertiesdialog.cpp:1865 rc.cpp:99
 #, no-c-format
 msgid "User"
 msgstr "Wužiwar"
 
-#: kfile/kpropertiesdialog.cpp:1869
+#: kfile/kpropertiesdialog.cpp:1871
 msgid "Others"
 msgstr "Druzy"
 
-#: kfile/kpropertiesdialog.cpp:1872
+#: kfile/kpropertiesdialog.cpp:1874
 msgid "Set UID"
 msgstr "Sadź UID"
 
-#: kfile/kpropertiesdialog.cpp:1876
+#: kfile/kpropertiesdialog.cpp:1878
 msgid ""
 "If this flag is set, the owner of this folder will be the owner of all new "
 "files."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1879
+#: kfile/kpropertiesdialog.cpp:1881
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
 "the permissions of the owner."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1883
+#: kfile/kpropertiesdialog.cpp:1885
 msgid "Set GID"
 msgstr "Sadź GID"
 
-#: kfile/kpropertiesdialog.cpp:1887
+#: kfile/kpropertiesdialog.cpp:1889
 msgid "If this flag is set, the group of this folder will be set for all new files."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1890
+#: kfile/kpropertiesdialog.cpp:1892
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
 "the permissions of the group."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1894
+#: kfile/kpropertiesdialog.cpp:1896
 #, fuzzy
 msgid ""
 "_: File permission\n"
 "Sticky"
 msgstr "Lěpjate"
 
-#: kfile/kpropertiesdialog.cpp:1898
+#: kfile/kpropertiesdialog.cpp:1900
 msgid ""
 "If the Sticky flag is set on a folder, only the owner and root can delete or "
 "rename files. Otherwise everybody with write permissions can do this."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1902
+#: kfile/kpropertiesdialog.cpp:1904
 msgid ""
 "The Sticky flag on a file is ignored on Linux, but may be used on some "
 "systems"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2037
+#: kfile/kpropertiesdialog.cpp:2039
 #, fuzzy
 msgid "Link"
 msgstr "in"
 
-#: kfile/kpropertiesdialog.cpp:2053
+#: kfile/kpropertiesdialog.cpp:2055
 msgid "Varying (No Change)"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2152
+#: kfile/kpropertiesdialog.cpp:2154
 msgid ""
 "_n: This file uses advanced permissions\n"
 "These files use advanced permissions."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2168
+#: kfile/kpropertiesdialog.cpp:2170
 msgid ""
 "_n: This folder uses advanced permissions.\n"
 "These folders use advanced permissions."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2183
+#: kfile/kpropertiesdialog.cpp:2185
 msgid "These files use advanced permissions."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2385
+#: kfile/kpropertiesdialog.cpp:2387
 msgid "U&RL"
 msgstr "U&RL"
 
-#: kfile/kpropertiesdialog.cpp:2490
+#: kfile/kpropertiesdialog.cpp:2492
 msgid "A&ssociation"
 msgstr "A&ssociacija"
 
-#: kfile/kpropertiesdialog.cpp:2499
+#: kfile/kpropertiesdialog.cpp:2501
 msgid "Pattern ( example: *.html;*.htm )"
 msgstr "Mustr (na př.: *.html;*.htm )"
 
-#: kfile/kpropertiesdialog.cpp:2532
+#: kfile/kpropertiesdialog.cpp:2534
 msgid "Left click previews"
 msgstr "Lěwy knefl přehladku pokaza"
 
-#: kfile/kpropertiesdialog.cpp:2651
+#: kfile/kpropertiesdialog.cpp:2653
 msgid "De&vice"
 msgstr "&Grat"
 
-#: kfile/kpropertiesdialog.cpp:2681
+#: kfile/kpropertiesdialog.cpp:2683
 msgid "Device (/dev/fd0):"
 msgstr "Grat (/dev/fd0):"
 
-#: kfile/kpropertiesdialog.cpp:2682
+#: kfile/kpropertiesdialog.cpp:2684
 msgid "Device:"
 msgstr "Grat:"
 
-#: kfile/kpropertiesdialog.cpp:2692
+#: kfile/kpropertiesdialog.cpp:2694
 msgid "Read only"
 msgstr "Jenož čitać"
 
-#: kfile/kpropertiesdialog.cpp:2696
+#: kfile/kpropertiesdialog.cpp:2698
 #, fuzzy
 msgid "File system:"
 msgstr "Datajowe systemy"
 
-#: kfile/kpropertiesdialog.cpp:2704
+#: kfile/kpropertiesdialog.cpp:2706
 msgid "Mount point (/mnt/floppy):"
 msgstr "Cil montowanja (/mnt/floppy):"
 
-#: kfile/kpropertiesdialog.cpp:2705
+#: kfile/kpropertiesdialog.cpp:2707
 msgid "Mount point:"
 msgstr "Cil montowanja:"
 
-#: kfile/kpropertiesdialog.cpp:2736
+#: kfile/kpropertiesdialog.cpp:2738
 msgid "Unmounted Icon"
 msgstr "Piktogram za 'njemontowany'"
 
-#: kfile/kpropertiesdialog.cpp:2915 kfile/kpropertiesdialog.cpp:3719
+#: kfile/kpropertiesdialog.cpp:2917 kfile/kpropertiesdialog.cpp:3721
 msgid "&Application"
 msgstr "&Program"
 
-#: kfile/kpropertiesdialog.cpp:3039
+#: kfile/kpropertiesdialog.cpp:3041
 #, c-format
 msgid "Add File Type for %1"
 msgstr ""
 
-#: bookmarks/kbookmarkmenu.cc:829 kfile/kpropertiesdialog.cpp:3042
+#: bookmarks/kbookmarkmenu.cc:832 kfile/kpropertiesdialog.cpp:3044
 msgid "&Add"
 msgstr "Dod&aj"
 
-#: kfile/kpropertiesdialog.cpp:3043 kfile/kpropertiesdialog.cpp:3044
+#: kfile/kpropertiesdialog.cpp:3045 kfile/kpropertiesdialog.cpp:3046
 msgid ""
 "Add the selected file types to\n"
 "the list of supported file types."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:3235 kfile/kpropertiesdialog.cpp:3691
+#: kfile/kpropertiesdialog.cpp:3237 kfile/kpropertiesdialog.cpp:3693
 msgid "Only executables on local file systems are supported."
 msgstr "Jenož programy za lokalnych datajowych systemach so podpěruja."
 
-#: kfile/kpropertiesdialog.cpp:3247
+#: kfile/kpropertiesdialog.cpp:3249
 #, fuzzy, c-format
 msgid "Advanced Options for %1"
 msgstr "Opcije za pokročenych"
 
-#: kfile/kpropertiesdialog.cpp:3406
+#: kfile/kpropertiesdialog.cpp:3408
 msgid "E&xecute"
 msgstr "&Startować"
 
-#: kfile/kpropertiesdialog.cpp:3413
+#: kfile/kpropertiesdialog.cpp:3415
 msgid "Comman&d:"
 msgstr "Při&kaz:"
 
-#: kfile/kpropertiesdialog.cpp:3422
+#: kfile/kpropertiesdialog.cpp:3424
 #, fuzzy
 msgid ""
 "Following the command, you can have several place holders which will be "
@@ -4679,51 +4719,51 @@ msgstr ""
 "%m - minipiktogram\n"
 "%c - komentar"
 
-#: kfile/kpropertiesdialog.cpp:3443
+#: kfile/kpropertiesdialog.cpp:3445
 msgid "Panel Embedding"
 msgstr "Zawjazanje paska"
 
-#: kfile/kpropertiesdialog.cpp:3452
+#: kfile/kpropertiesdialog.cpp:3454
 msgid "&Execute on click:"
 msgstr "Na klik &startować:"
 
-#: kfile/kpropertiesdialog.cpp:3460
+#: kfile/kpropertiesdialog.cpp:3462
 msgid "&Window title:"
 msgstr "&Titl wokna"
 
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 55
-#: kfile/kpropertiesdialog.cpp:3480 rc.cpp:84
+#: kfile/kpropertiesdialog.cpp:3482 rc.cpp:84
 #, no-c-format
 msgid "&Run in terminal"
 msgstr "w &terminalu startować"
 
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 77
-#: kfile/kpropertiesdialog.cpp:3495 rc.cpp:93
+#: kfile/kpropertiesdialog.cpp:3497 rc.cpp:93
 #, no-c-format
 msgid "Do not &close when command exits"
 msgstr "&Njezačiń po zakónčenju přikaza"
 
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 66
-#: kfile/kpropertiesdialog.cpp:3499 rc.cpp:90
+#: kfile/kpropertiesdialog.cpp:3501 rc.cpp:90
 #, no-c-format
 msgid "&Terminal options:"
 msgstr "&Opcije za terminal:"
 
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 106
-#: kfile/kpropertiesdialog.cpp:3519 rc.cpp:102
+#: kfile/kpropertiesdialog.cpp:3521 rc.cpp:102
 #, no-c-format
 msgid "Ru&n as a different user"
 msgstr "Jako &hinaši wužiwar startować"
 
-#: kfile/kpropertiesdialog.cpp:3760
+#: kfile/kpropertiesdialog.cpp:3762
 msgid "Description:"
 msgstr "Wopisanje:"
 
-#: kfile/kpropertiesdialog.cpp:3766
+#: kfile/kpropertiesdialog.cpp:3768
 msgid "Comment:"
 msgstr "Komentar:"
 
-#: kfile/kpropertiesdialog.cpp:3772
+#: kfile/kpropertiesdialog.cpp:3774
 msgid "File types:"
 msgstr "Datajowe družiny:"
 
@@ -4815,35 +4855,35 @@ msgstr ""
 "<p>Klik z prawej tastu wam dowoli skrótšenku dodać, změnić abo "
 "zničić.</qt>"
 
-#: kfile/kurlbar.cpp:736
+#: kfile/kurlbar.cpp:730
 msgid "&Large Icons"
 msgstr "&Wulke piktogramy"
 
-#: kfile/kurlbar.cpp:736
+#: kfile/kurlbar.cpp:730
 msgid "&Small Icons"
 msgstr "&Małke piktogramy"
 
-#: kfile/kurlbar.cpp:742
+#: kfile/kurlbar.cpp:736
 msgid "&Edit Entry..."
 msgstr "&Wobdźěłać..."
 
-#: kfile/kurlbar.cpp:746
+#: kfile/kurlbar.cpp:740
 msgid "&Add Entry..."
 msgstr "Dod&ać ..."
 
-#: kfile/kurlbar.cpp:750
+#: kfile/kurlbar.cpp:744
 msgid "&Remove Entry"
 msgstr "Z&ničić"
 
-#: kfile/kurlbar.cpp:782
+#: kfile/kurlbar.cpp:776
 msgid "Enter a description"
 msgstr "zapodajće wopisanje"
 
-#: kfile/kurlbar.cpp:928
+#: kfile/kurlbar.cpp:922
 msgid "Edit Quick Access Entry"
 msgstr "Spěšny přistup editować"
 
-#: kfile/kurlbar.cpp:931
+#: kfile/kurlbar.cpp:925
 msgid ""
 "<qt><b>Please provide a description, URL and icon for this Quick Access "
 "entry.</b></br></qt>"
@@ -4851,7 +4891,7 @@ msgstr ""
 "<qt><b>Prošu zapodajće wopisanje, URL a wubjerće piktogram za tutón "
 "element.</b></qt>"
 
-#: kfile/kurlbar.cpp:938
+#: kfile/kurlbar.cpp:932
 msgid ""
 "<qt>This is the text that will appear in the Quick Access panel."
 "<p>The description should consist of one or two words that will help you "
@@ -4862,12 +4902,12 @@ msgstr ""
 "dopominatej, wo čo so jednaše.</qt>"
 
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 125
-#: kfile/kurlbar.cpp:941 rc.cpp:249
+#: kfile/kurlbar.cpp:935 rc.cpp:249
 #, no-c-format
 msgid "&Description:"
 msgstr "&Wopisanje:"
 
-#: kfile/kurlbar.cpp:948
+#: kfile/kurlbar.cpp:942
 msgid ""
 "<qt>This is the location associated with the entry. Any valid URL may be "
 "used. For "
@@ -4886,11 +4926,11 @@ msgstr ""
 "<p> Z kliknjenjom na knefl pódla tekstoweho pólka móžeće k "
 "wotpowědnemu URL hić.</qt>"
 
-#: kfile/kurlbar.cpp:952
+#: kfile/kurlbar.cpp:946
 msgid "&URL:"
 msgstr "&URL:"
 
-#: kfile/kurlbar.cpp:959
+#: kfile/kurlbar.cpp:953
 msgid ""
 "<qt>This is the icon that will appear in the Quick Access panel."
 "<p>Click on the button to select a different icon.</qt>"
@@ -4898,15 +4938,15 @@ msgstr ""
 "<qt>Tutón piktogram so w nawigaciskim pasku zjewi."
 "<p>Klikńće na knefl, zo by druhi piktogram wubrał.</qt>"
 
-#: kfile/kurlbar.cpp:961
+#: kfile/kurlbar.cpp:955
 msgid "Choose an &icon:"
 msgstr "Wubjerće p&iktogram:"
 
-#: kfile/kurlbar.cpp:977
+#: kfile/kurlbar.cpp:971
 msgid "&Only show when using this application (%1)"
 msgstr "Jen&ož pokazać, hdyž so tutón program (%1) wužiwa"
 
-#: kfile/kurlbar.cpp:980
+#: kfile/kurlbar.cpp:974
 msgid ""
 "<qt>Select this setting if you want this entry to show only when using the "
 "current application (%1)."
@@ -5519,11 +5559,11 @@ msgid ""
 "DCOP options or to run it as a different user."
 msgstr ""
 
-#: ../kioslave/http/http.cc:4980 kpasswdserver/kpasswdserver.cpp:223
+#: ../kioslave/http/http.cc:4999 kpasswdserver/kpasswdserver.cpp:223
 msgid "  Do you want to retry?"
 msgstr "  Hišće raz spytać?"
 
-#: ../kioslave/http/http.cc:4981 kpasswdserver/kpasswdserver.cpp:225
+#: ../kioslave/http/http.cc:5000 kpasswdserver/kpasswdserver.cpp:225
 msgid "Authentication"
 msgstr "Identifikacija"
 
@@ -5585,73 +5625,73 @@ msgstr "Z lubuškow wumjetać"
 msgid "Bookmark Properties"
 msgstr "Swójstwa"
 
-#: bookmarks/kbookmarkmanager.cc:504 bookmarks/kbookmarkmenu.cc:340
+#: bookmarks/kbookmarkmanager.cc:504 bookmarks/kbookmarkmenu.cc:343
 #, fuzzy
 msgid "Cannot add bookmark with empty URL."
 msgstr "Njemóžu lubuška dodać bjez URL"
 
-#: bookmarks/kbookmarkmenu.cc:378
+#: bookmarks/kbookmarkmenu.cc:381
 msgid ""
 "Are you sure you wish to remove the bookmark folder\n"
 "\"%1\"?"
 msgstr ""
 
-#: bookmarks/kbookmarkmenu.cc:379
+#: bookmarks/kbookmarkmenu.cc:382
 msgid ""
 "Are you sure you wish to remove the bookmark\n"
 "\"%1\"?"
 msgstr ""
 
-#: bookmarks/kbookmarkmenu.cc:380
+#: bookmarks/kbookmarkmenu.cc:383
 #, fuzzy
 msgid "Bookmark Folder Deletion"
 msgstr "Nowy zapisk za lubuški  w %1 stworić"
 
-#: bookmarks/kbookmarkmenu.cc:381
+#: bookmarks/kbookmarkmenu.cc:384
 #, fuzzy
 msgid "Bookmark Deletion"
 msgstr "Wubjerće chorhoje"
 
-#: bookmarks/kbookmarkmenu.cc:483
+#: bookmarks/kbookmarkmenu.cc:486
 #, fuzzy
 msgid "Bookmark Tabs as Folder..."
 msgstr "&Nowy zapisk lubuškow..."
 
-#: bookmarks/kbookmarkmenu.cc:492
+#: bookmarks/kbookmarkmenu.cc:495
 msgid "Add a folder of bookmarks for all open tabs."
 msgstr ""
 
-#: bookmarks/kbookmarkmenu.cc:515
+#: bookmarks/kbookmarkmenu.cc:518
 msgid "Add a bookmark for the current document"
 msgstr "Aktualny dokument k lubuškam dodać"
 
-#: bookmarks/kbookmarkmenu.cc:529
+#: bookmarks/kbookmarkmenu.cc:532
 msgid "Edit your bookmark collection in a separate window"
 msgstr "Lubuški w nowym woknje editować"
 
-#: bookmarks/kbookmarkmenu.cc:538
+#: bookmarks/kbookmarkmenu.cc:541
 msgid "&New Bookmark Folder..."
 msgstr "&Nowy zapisk lubuškow..."
 
-#: bookmarks/kbookmarkmenu.cc:550
+#: bookmarks/kbookmarkmenu.cc:553
 msgid "Create a new bookmark folder in this menu"
 msgstr "Nowy zapisk za lubuškow w tutym meniju stworić"
 
-#: bookmarks/kbookmarkmenu.cc:684
+#: bookmarks/kbookmarkmenu.cc:687
 #, fuzzy
 msgid "Quick Actions"
 msgstr "Akcije"
 
-#: bookmarks/kbookmarkmenu.cc:831
+#: bookmarks/kbookmarkmenu.cc:834
 #, fuzzy
 msgid "&New Folder..."
 msgstr "Nowy zapisk..."
 
-#: bookmarks/kbookmarkmenu.cc:948
+#: bookmarks/kbookmarkmenu.cc:951
 msgid "Bookmark"
 msgstr "Lubušk"
 
-#: bookmarks/kbookmarkmenu.cc:1115
+#: bookmarks/kbookmarkmenu.cc:1118
 msgid "Netscape Bookmarks"
 msgstr "Lubuški z Netscape"
 
@@ -5716,18 +5756,18 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cc:595 ../kioslave/http/http.cc:4992
+#: ../kioslave/ftp/ftp.cc:595 ../kioslave/http/http.cc:5011
 #, fuzzy
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Dyrbiće mjeno wužiwarja a hesło podać, zo by k tutej dataji přistup "
 "dóstał."
 
-#: ../kioslave/ftp/ftp.cc:597 ../kioslave/http/http.cc:5000
+#: ../kioslave/ftp/ftp.cc:597 ../kioslave/http/http.cc:5019
 msgid "Site:"
 msgstr "Server:"
 
-#: ../kioslave/ftp/ftp.cc:598 ../kioslave/http/kcookiejar/kcookiewin.cpp:116
+#: ../kioslave/ftp/ftp.cc:598
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
@@ -5813,27 +5853,27 @@ msgstr ""
 "Sće %n plackaj dóstali z\n"
 "Sće %n placki dóstali z"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:118
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:129
 msgid " <b>[Cross Domain!]</b>"
 msgstr " <b>[Mjezydomainowy!]</b>"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:121
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:132
 msgid "Do you want to accept or reject?"
 msgstr "Přiwzać abo wotpokazać?"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:132
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:143
 msgid "Apply Choice To"
 msgstr "Wubraće nałožić na"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:135
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:146
 msgid "&Only this cookie"
 msgstr "&Jenož tutón plack"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:135
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:146
 msgid "&Only these cookies"
 msgstr "&Jenož tute placki"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:138
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:149
 msgid ""
 "Select this option to accept/reject only this cookie. You will be prompted "
 "if another cookie is received. <em>(see WebBrowsing/Cookies in the Control "
@@ -5843,11 +5883,11 @@ msgstr ""
 "(přiwzali/wotpokazali). Hdyž dóstanjeće dalši plack, so computer znowa "
 "wopraša."
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:143
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:154
 msgid "All cookies from this do&main"
 msgstr "Wšitke placki z tuteje &domeny"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:145
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:156
 msgid ""
 "Select this option to accept/reject all cookies from this site. Choosing "
 "this option will add a new policy for the site this cookie originated from. "
@@ -5857,11 +5897,11 @@ msgstr ""
 "Wubjerće tutu opciju, zo byšće wšitke placki z tuteje městnosće "
 "přiwzali/wotpokazali."
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:152
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:163
 msgid "All &cookies"
 msgstr "&Wšitke placki"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:154
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:165
 msgid ""
 "Select this option to accept/reject all cookies from anywhere. Choosing this "
 "option will change the global cookie policy set in the Control Center for "
@@ -5870,172 +5910,172 @@ msgstr ""
 "Wubjerće tutu opciju, zo byšće wšitke placki přiwzali/wotpokazali, "
 "wšojedne, zwotkel su přišli."
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:171
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:182
 msgid "&Accept"
 msgstr "&Přiwzać"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:176
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:187
 msgid "&Reject"
 msgstr "&Wotpokazać"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:186
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:217
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:197
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:228
 msgid "&Details <<"
 msgstr "&Nadrobnosće <<"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:186
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:209
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:197
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:220
 msgid "&Details >>"
 msgstr "&Nadrobnosće >>"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:190
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:201
 msgid "See or modify the cookie information"
 msgstr "Informaciju wo plackach sej wobhladać abo změnić"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:252
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:263
 msgid "Cookie Details"
 msgstr "Nadrobnosće wo placku"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:267
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:278
 msgid "Value:"
 msgstr "Hódnota:"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:274
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:285
 msgid "Expires:"
 msgstr "Płaći hač do"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:281
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:292
 msgid "Path:"
 msgstr "Puć:"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:288
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:299
 msgid "Domain:"
 msgstr "Domena:"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:295
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:306
 msgid "Exposure:"
 msgstr "Płaćiwy hač do:"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:304
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:315
 msgid ""
 "_: Next cookie\n"
 "&Next >>"
 msgstr ""
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:309
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:320
 msgid "Show details of the next cookie"
 msgstr "Pokaž nadrobne informacije wo přichodnym placku"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:342
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:353
 msgid "Not specified"
 msgstr "Ničo njepostajene"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:351
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:362
 msgid "End of Session"
 msgstr "Kónc sesije"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:356
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:367
 msgid "Secure servers only"
 msgstr "Jenož zawěsćene servery"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:358
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:369
 msgid "Secure servers, page scripts"
 msgstr "Zawěsćene servery, stronowe skripty"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:363
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:374
 msgid "Servers"
 msgstr "Servery"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:365
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:376
 msgid "Servers, page scripts"
 msgstr "Servery. stonowe skripty"
 
-#: ../kioslave/http/http.cc:438
+#: ../kioslave/http/http.cc:440
 #, fuzzy
 msgid "No host specified."
 msgstr "Žadyn server specifikowany!"
 
-#: ../kioslave/http/http.cc:1455
+#: ../kioslave/http/http.cc:1462
 msgid "Otherwise, the request would have succeeded."
 msgstr "Hewak by so poradźiło."
 
-#: ../kioslave/http/http.cc:1459
+#: ../kioslave/http/http.cc:1466
 msgid "retrieve property values"
 msgstr "hódnoty atributow dóstać"
 
-#: ../kioslave/http/http.cc:1462
+#: ../kioslave/http/http.cc:1469
 msgid "set property values"
 msgstr "hódnoty atributow postajić"
 
-#: ../kioslave/http/http.cc:1465
+#: ../kioslave/http/http.cc:1472
 #, fuzzy
 msgid "create the requested folder"
 msgstr "trěbny zapisk stworić"
 
-#: ../kioslave/http/http.cc:1468
+#: ../kioslave/http/http.cc:1475
 #, fuzzy
 msgid "copy the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk kopěrować"
 
-#: ../kioslave/http/http.cc:1471
+#: ../kioslave/http/http.cc:1478
 #, fuzzy
 msgid "move the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk přesunyć"
 
-#: ../kioslave/http/http.cc:1474
+#: ../kioslave/http/http.cc:1481
 #, fuzzy
 msgid "search in the specified folder"
 msgstr "we wotpowědnym zapisku pytać"
 
-#: ../kioslave/http/http.cc:1477
+#: ../kioslave/http/http.cc:1484
 #, fuzzy
 msgid "lock the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk blockować"
 
-#: ../kioslave/http/http.cc:1480
+#: ../kioslave/http/http.cc:1487
 #, fuzzy
 msgid "unlock the specified file or folder"
 msgstr "blokowanje wotpowědneje dataje abo zapiska zběhnyć"
 
-#: ../kioslave/http/http.cc:1483
+#: ../kioslave/http/http.cc:1490
 #, fuzzy
 msgid "delete the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk zničić"
 
-#: ../kioslave/http/http.cc:1486
+#: ../kioslave/http/http.cc:1493
 msgid "query the server's capabilities"
 msgstr "so za móžnosćemi servera woprašeć"
 
-#: ../kioslave/http/http.cc:1489
+#: ../kioslave/http/http.cc:1496
 #, fuzzy
 msgid "retrieve the contents of the specified file or folder"
 msgstr "wobsah wotpowědneje dataje abo zapiska dóstać"
 
-#: ../kioslave/http/http.cc:1501 ../kioslave/http/http.cc:1654
+#: ../kioslave/http/http.cc:1508 ../kioslave/http/http.cc:1661
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
 
-#: ../kioslave/http/http.cc:1509
+#: ../kioslave/http/http.cc:1516
 msgid "The server does not support the WebDAV protocol."
 msgstr "Tutón server WebDAV njepodpěruje."
 
-#: ../kioslave/http/http.cc:1550
+#: ../kioslave/http/http.cc:1557
 msgid ""
 "An error occurred while attempting to %1, %2. A summary of the reasons is "
 "below.<ul>"
 msgstr "Zmylk je so stał při pospyće %1, %2. Zjeće přičin namakaće deleka.<ul>"
 
-#: ../kioslave/http/http.cc:1562 ../kioslave/http/http.cc:1665
+#: ../kioslave/http/http.cc:1569 ../kioslave/http/http.cc:1672
 #, c-format
 msgid "Access was denied while attempting to %1."
 msgstr "Přistup bu wotpokazany, jako spytach %1."
 
-#: ../kioslave/http/http.cc:1569
+#: ../kioslave/http/http.cc:1576
 #, fuzzy
 msgid "The specified folder already exists."
 msgstr "Specifikowany zapisk hižo eksistuje."
 
-#: ../kioslave/http/http.cc:1575 ../kioslave/http/http.cc:1670
+#: ../kioslave/http/http.cc:1582 ../kioslave/http/http.cc:1677
 #, fuzzy
 msgid ""
 "A resource cannot be created at the destination until one or more "
@@ -6044,7 +6084,7 @@ msgstr ""
 "Resursa njehodźi so na tym městnje wutworić, doniž njebu žadyn zapisk "
 "stworjeny."
 
-#: ../kioslave/http/http.cc:1584
+#: ../kioslave/http/http.cc:1591
 #, c-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in "
@@ -6055,31 +6095,31 @@ msgstr ""
 "\"propertybehavior\", abo sće spytali dataju přepisać, hačrunjež "
 "běšće to do toho zakazali. %1"
 
-#: ../kioslave/http/http.cc:1594
+#: ../kioslave/http/http.cc:1601
 #, c-format
 msgid "The requested lock could not be granted. %1"
 msgstr "Pominane blokowanje njehodźeše so zarjadować. %1"
 
-#: ../kioslave/http/http.cc:1600
+#: ../kioslave/http/http.cc:1607
 msgid "The server does not support the request type of the body."
 msgstr "Server tutu družinu elementa \"Body\" njepodpěruje."
 
-#: ../kioslave/http/http.cc:1605 ../kioslave/http/http.cc:1677
+#: ../kioslave/http/http.cc:1612 ../kioslave/http/http.cc:1684
 msgid "Unable to %1 because the resource is locked."
 msgstr "Njemóžu %1; resursa je blokowana."
 
-#: ../kioslave/http/http.cc:1609
+#: ../kioslave/http/http.cc:1616
 msgid "This action was prevented by another error."
 msgstr "Tutej operaciji je někajki druhi zmylk zadźěwał."
 
-#: ../kioslave/http/http.cc:1616 ../kioslave/http/http.cc:1682
+#: ../kioslave/http/http.cc:1623 ../kioslave/http/http.cc:1689
 #, fuzzy
 msgid ""
 "Unable to %1 because the destination server refuses to accept the file or "
 "folder."
 msgstr "Njemóžu %1, dokelž cilowy server dataju abo zapisk njeakceptuje."
 
-#: ../kioslave/http/http.cc:1623 ../kioslave/http/http.cc:1688
+#: ../kioslave/http/http.cc:1630 ../kioslave/http/http.cc:1695
 msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
@@ -6087,67 +6127,67 @@ msgstr ""
 "Cilowa resursa nima dosć městna, zo by staw resursy po wuwjedźenju tuteje "
 "metody zawěsćiła."
 
-#: ../kioslave/http/http.cc:1645
+#: ../kioslave/http/http.cc:1652
 #, fuzzy, c-format
 msgid "upload %1"
 msgstr "Kopěrjuju %1 na server"
 
-#: ../kioslave/http/http.cc:1962
+#: ../kioslave/http/http.cc:1971
 msgid "Connecting to %1..."
 msgstr "Zwjazam so z %1..."
 
-#: ../kioslave/http/http.cc:1980 ../kioslave/http/http.cc:1984
+#: ../kioslave/http/http.cc:1989 ../kioslave/http/http.cc:1993
 msgid "Proxy %1 at port %2"
 msgstr "Proxy %1 na porće %2"
 
-#: ../kioslave/http/http.cc:2010
+#: ../kioslave/http/http.cc:2019
 msgid "Connection was to %1 at port %2"
 msgstr "Zwisk bě z %1 na porće %2"
 
-#: ../kioslave/http/http.cc:2016
+#: ../kioslave/http/http.cc:2025
 msgid "%1 (port %2)"
 msgstr "%1 (port %2)"
 
-#: ../kioslave/http/http.cc:2537
+#: ../kioslave/http/http.cc:2552
 msgid "%1 contacted. Waiting for reply..."
 msgstr "%1 kontaktowany. Čakam na wotmołwu..."
 
-#: ../kioslave/http/http.cc:2902
+#: ../kioslave/http/http.cc:2918
 msgid "Server processing request, please wait..."
 msgstr "Server hišće dźěła, prošu dočakajće..."
 
-#: ../kioslave/http/http.cc:3745
+#: ../kioslave/http/http.cc:3762
 msgid "Requesting data to send"
 msgstr "Pominam sej daty za pósłanje"
 
-#: ../kioslave/http/http.cc:3786
+#: ../kioslave/http/http.cc:3803
 #, c-format
 msgid "Sending data to %1"
 msgstr "Sćelu day na %1"
 
-#: ../kioslave/http/http.cc:4195
+#: ../kioslave/http/http.cc:4212
 msgid "Retrieving %1 from %2..."
 msgstr "Dóstawam %1 wot %2..."
 
-#: ../kioslave/http/http.cc:4202
+#: ../kioslave/http/http.cc:4221
 msgid "Retrieving from %1..."
 msgstr "Dóstawam daty wot %1..."
 
-#: ../kioslave/http/http.cc:4972 ../kioslave/http/http.cc:5120
+#: ../kioslave/http/http.cc:4991 ../kioslave/http/http.cc:5139
 #, fuzzy
 msgid "Authentication Failed."
 msgstr "Přizjewjenje je so zwrěšćiło!"
 
-#: ../kioslave/http/http.cc:4975 ../kioslave/http/http.cc:5123
+#: ../kioslave/http/http.cc:4994 ../kioslave/http/http.cc:5142
 #, fuzzy
 msgid "Proxy Authentication Failed."
 msgstr "Přizjewjenje na proxyju je so zwrěšćiło!"
 
-#: ../kioslave/http/http.cc:5001 ../kioslave/http/http.cc:5018
+#: ../kioslave/http/http.cc:5020 ../kioslave/http/http.cc:5037
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> at <b>%2</b>"
 
-#: ../kioslave/http/http.cc:5008
+#: ../kioslave/http/http.cc:5027
 #, fuzzy
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
@@ -6156,15 +6196,15 @@ msgstr ""
 "Dyrbiš na proxyju mjeno wužiwarja a škitne hesło zapodać, prjedy hač "
 "směš so z dalšimi ličakami zwjazać."
 
-#: ../kioslave/http/http.cc:5017
+#: ../kioslave/http/http.cc:5036
 msgid "Proxy:"
 msgstr "Proxy:"
 
-#: ../kioslave/http/http.cc:5039
+#: ../kioslave/http/http.cc:5058
 msgid "Authentication needed for %1 but authentication is disabled."
 msgstr "Přizjewjenje je trěbne za %1, ale přizjewjenje je znjemóžnjene."
 
-#: ../kioslave/http/http.cc:5659
+#: ../kioslave/http/http.cc:5678
 msgid "Unsupported method: authentication will fail. Please submit a bug report."
 msgstr ""
 
@@ -6172,6 +6212,12 @@ msgstr ""
 #, c-format
 msgid "No metainfo for %1"
 msgstr "Žana metainformacija za %1"
+
+#~ msgid "Fewer Op&tions"
+#~ msgstr "&Mjenje opcijow"
+
+#~ msgid "More Op&tions"
+#~ msgstr "&Wjace opcijow"
 
 #~ msgid "Network"
 #~ msgstr "Syć"
