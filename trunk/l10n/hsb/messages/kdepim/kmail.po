@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
-"POT-Creation-Date: 2005-06-08 01:28+0200\n"
+"POT-Creation-Date: 2005-06-09 01:28+0200\n"
 "PO-Revision-Date: 2005-02-04 21:00+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -500,7 +500,7 @@ msgid "<none>"
 msgstr "<žane>"
 
 #: accountdialog.cpp:1368 accountdialog.cpp:1375 kmfoldercachedimap.cpp:185
-#: kmfoldercachedimap.cpp:1693 kmfolderimap.cpp:175 kmfolderimap.cpp:853
+#: kmfoldercachedimap.cpp:1693 kmfolderimap.cpp:177 kmfolderimap.cpp:866
 #: kmkernel.cpp:1191 subscriptiondialog.cpp:167
 msgid "inbox"
 msgstr "póštowy kašćik"
@@ -1707,7 +1707,7 @@ msgstr ""
 msgid "No autosave"
 msgstr ""
 
-#: configuredialog.cpp:2580 kmcomposewin.cpp:5338
+#: configuredialog.cpp:2580 kmcomposewin.cpp:5361
 msgid "External Editor"
 msgstr "Eksterny editor"
 
@@ -2671,7 +2671,7 @@ msgid ""
 "\"%2\" is the detailed error description."
 msgstr ""
 
-#: filterlogdlg.cpp:262 kmcommands.cpp:2375 kmcommands.cpp:2395
+#: filterlogdlg.cpp:262 kmcommands.cpp:2395 kmcommands.cpp:2415
 #: kmmainwidget.cpp:1532 kmmainwidget.cpp:1549 urlhandlermanager.cpp:431
 msgid "KMail Error"
 msgstr "Zmylk w kmailu"
@@ -3135,7 +3135,7 @@ msgstr "&Signatura:"
 msgid "&Picture"
 msgstr "&Signatura:"
 
-#: identitydialog.cpp:449 identitydialog.cpp:461 kmcomposewin.cpp:3598
+#: identitydialog.cpp:449 identitydialog.cpp:461 kmcomposewin.cpp:3621
 #, fuzzy
 msgid "Invalid Email Address"
 msgstr "emailowa adresa"
@@ -3191,7 +3191,7 @@ msgstr ""
 "Konfigurowany zapisk za wotpósłane powěsće \"%1\" (hižo) njeeksistuje. Tuž so "
 "standardny zapisk wužiwa."
 
-#: identitydialog.cpp:580 kmcomposewin.cpp:3757
+#: identitydialog.cpp:580 kmcomposewin.cpp:3780
 #, fuzzy
 msgid ""
 "The custom drafts folder for identity \"%1\" does not exist (anymore); "
@@ -3237,80 +3237,80 @@ msgstr ""
 "Zmylk při pisanju dataje:\n"
 "%1"
 
-#: imapaccountbase.cpp:580
+#: imapaccountbase.cpp:596
 #, fuzzy
 msgid "Retrieving Namespaces"
 msgstr "%1:  Dóstawam nowe powěsće"
 
-#: imapaccountbase.cpp:670
+#: imapaccountbase.cpp:686
 msgid ""
 "KMail has detected a prefix entry in the configuration of the account \"%1\" "
 "which is obsolete with the support of IMAP namespaces."
 msgstr ""
 
-#: imapaccountbase.cpp:684 imapaccountbase.cpp:698
+#: imapaccountbase.cpp:700 imapaccountbase.cpp:714
 msgid ""
 "The configuration was automatically migrated but you should check your account "
 "configuration."
 msgstr ""
 
-#: imapaccountbase.cpp:702
+#: imapaccountbase.cpp:718
 msgid ""
 "It was not possible to migrate your configuration automatically so please check "
 "your account configuration."
 msgstr ""
 
-#: imapaccountbase.cpp:807 imapaccountbase.cpp:808
+#: imapaccountbase.cpp:823 imapaccountbase.cpp:824
 #, fuzzy
 msgid "<unknown>"
 msgstr "njeznaju"
 
-#: imapaccountbase.cpp:809
+#: imapaccountbase.cpp:825
 msgid "Error while uploading message"
 msgstr "Zmylk při pósłanju powěsće na server"
 
-#: imapaccountbase.cpp:811
+#: imapaccountbase.cpp:827
 #, fuzzy
 msgid ""
 "Could not upload the message dated %1 from %2 with subject %3 on the server."
 msgstr "Njemóžach powěsć %1 ze zapiska %2 na server %3 pósłać. "
 
-#: imapaccountbase.cpp:813
+#: imapaccountbase.cpp:829
 msgid "The destination folder was %1, which has the URL %2."
 msgstr ""
 
-#: imapaccountbase.cpp:815
+#: imapaccountbase.cpp:831
 #, fuzzy
 msgid "The error message from the server communication is here:"
 msgstr ""
 "To móže so stać, dokelž nimaće prawa za to. Tu je zmylkowa powěsć z "
 "komunikacije ze serverom:"
 
-#: imapaccountbase.cpp:858
+#: imapaccountbase.cpp:874
 msgid ""
 "The connection to the server %1 was unexpectedly closed or timed out. It will "
 "be re-established automatically if possible."
 msgstr ""
 
-#: imapaccountbase.cpp:864
+#: imapaccountbase.cpp:880
 msgid "The connection to account %1 was broken."
 msgstr ""
 
-#: imapaccountbase.cpp:867
+#: imapaccountbase.cpp:883
 msgid "The connection to account %1 timed out."
 msgstr ""
 
-#: imapaccountbase.cpp:1126
+#: imapaccountbase.cpp:1142
 #, fuzzy
 msgid "Error while uploading status of messages to server: "
 msgstr "Niču"
 
-#: imapaccountbase.cpp:1171 listjob.cpp:114
+#: imapaccountbase.cpp:1187 listjob.cpp:114
 #, fuzzy
 msgid "retrieving folders"
 msgstr "Nastajenje zapiskow"
 
-#: imapjob.cpp:153 kmfolderimap.cpp:454
+#: imapjob.cpp:153 kmfolderimap.cpp:463
 #, fuzzy
 msgid "Uploading message data"
 msgstr "Ně."
@@ -3354,7 +3354,7 @@ msgstr "Ně."
 msgid "Uploading message data completed."
 msgstr "Ně."
 
-#: imapjob.cpp:630
+#: imapjob.cpp:614
 #, fuzzy
 msgid "Error while copying messages."
 msgstr "Zmylk při pósłanju powěsće na server"
@@ -3753,11 +3753,11 @@ msgstr ""
 msgid "Checking account: "
 msgstr "Přepruwuju konto:"
 
-#: kmacctimap.cpp:389 kmfolderimap.cpp:804
+#: kmacctimap.cpp:389 kmfolderimap.cpp:817
 msgid " completed"
 msgstr " hotowe"
 
-#: kmacctimap.cpp:573 kmheaders.cpp:1199
+#: kmacctimap.cpp:573 kmheaders.cpp:1203
 msgid "Unable to process messages: "
 msgstr "Njemóžach powěsće předźěłać: "
 
@@ -4079,100 +4079,100 @@ msgstr "Do tutoho zapiska sunyć"
 msgid "Copy to This Folder"
 msgstr "Do tutoho zapiska kopěrować"
 
-#: kmcommands.cpp:1814
+#: kmcommands.cpp:1834
 #, fuzzy
 msgid "Moving messages"
 msgstr "Přesuwam powěsć %3 z %2 wot %1."
 
-#: kmcommands.cpp:1814
+#: kmcommands.cpp:1834
 #, fuzzy
 msgid "Deleting messages"
 msgstr "Powěsće zničić"
 
-#: kmcommands.cpp:2073
+#: kmcommands.cpp:2093
 msgid "Opening URL..."
 msgstr "Wočinjam URL..."
 
-#: kmcommands.cpp:2080
+#: kmcommands.cpp:2100
 msgid "<qt>Do you really want to execute <b>%1</b>?</qt>"
 msgstr "<qt>Chceće woprawdźe <b>%1</b> startować?</qt>"
 
-#: kmcommands.cpp:2162
+#: kmcommands.cpp:2182
 #, fuzzy
 msgid "Found no attachments to save."
 msgstr "Njepokazuje přiwěški w powěsći samej"
 
-#: kmcommands.cpp:2175
+#: kmcommands.cpp:2195
 #, fuzzy
 msgid "Save Attachments To"
 msgstr "Přiwěšk zawěsćić jako"
 
-#: kmcommands.cpp:2195
+#: kmcommands.cpp:2215
 msgid ""
 "_: filename for an unnamed attachment\n"
 "attachment.1"
 msgstr ""
 
-#: kmcommands.cpp:2223
+#: kmcommands.cpp:2243
 msgid ""
 "_: filename for the %1-th unnamed attachment\n"
 "attachment.%1"
 msgstr ""
 
-#: kmcommands.cpp:2262
+#: kmcommands.cpp:2282
 #, fuzzy
 msgid "A file named %1 already exists. Do you want to overwrite it?"
 msgstr ""
 "Dataja %1 eksistuje?\n"
 "Chceće ju přepisać?"
 
-#: kmcommands.cpp:2264
+#: kmcommands.cpp:2284
 msgid "File Already Exists"
 msgstr ""
 
-#: kmcommands.cpp:2264
+#: kmcommands.cpp:2284
 msgid "&Overwrite"
 msgstr ""
 
-#: kmcommands.cpp:2286
+#: kmcommands.cpp:2306
 msgid ""
 "The part %1 of the message is encrypted. Do you want to keep the encryption "
 "when saving?"
 msgstr ""
 
-#: kmcommands.cpp:2288 kmcommands.cpp:2297
+#: kmcommands.cpp:2308 kmcommands.cpp:2317
 #, fuzzy
 msgid "KMail Question"
 msgstr "KMail"
 
-#: kmcommands.cpp:2295
+#: kmcommands.cpp:2315
 msgid ""
 "The part %1 of the message is signed. Do you want to keep the signature when "
 "saving?"
 msgstr ""
 
-#: kmcommands.cpp:2372
+#: kmcommands.cpp:2392
 msgid ""
 "_: %2 is detailed error description\n"
 "Could not write the file %1:\n"
 "%2"
 msgstr ""
 
-#: kmcommands.cpp:2393
+#: kmcommands.cpp:2413
 #, fuzzy, c-format
 msgid "Could not write the file %1."
 msgstr ""
 "Njemóžach do dataje pisać:\n"
 "%1"
 
-#: kmcommands.cpp:2612
+#: kmcommands.cpp:2632
 msgid ""
 "There is no Address Book entry for this email address. Add them to the Address "
 "Book and then add instant messaging addresses using your preferred messaging "
 "client."
 msgstr ""
 
-#: kmcommands.cpp:2615
+#: kmcommands.cpp:2635
 msgid ""
 "More than one Address Book entry uses this email address:\n"
 " %1\n"
@@ -4201,7 +4201,7 @@ msgstr "Kodowanje"
 msgid "Compress"
 msgstr "Editor"
 
-#: kmcomposewin.cpp:475 kmcomposewin.cpp:3267
+#: kmcomposewin.cpp:475 kmcomposewin.cpp:3259
 #, fuzzy
 msgid "Name of the attachment:"
 msgstr "Přiwěšk: "
@@ -4319,7 +4319,7 @@ msgstr "Sendmail"
 msgid "&Send Mail Via"
 msgstr "&Haj, pósłać kaž je"
 
-#: kmcomposewin.cpp:1067 kmcomposewin.cpp:1076 kmcomposewin.cpp:3867
+#: kmcomposewin.cpp:1067 kmcomposewin.cpp:1076 kmcomposewin.cpp:3890
 #: redirectdialog.cpp:79
 msgid "Send &Later"
 msgstr "&Pozdźišo pósłać"
@@ -4513,32 +4513,32 @@ msgstr "Podpi&s"
 msgid "&Cryptographic Message Format"
 msgstr ""
 
-#: kmcomposewin.cpp:1349 kmcomposewin.cpp:4374
+#: kmcomposewin.cpp:1349 kmcomposewin.cpp:4397
 #, fuzzy
 msgid "Standard"
 msgstr "Standa&rd"
 
-#: kmcomposewin.cpp:1350 kmcomposewin.cpp:4376
+#: kmcomposewin.cpp:1350 kmcomposewin.cpp:4399
 msgid "Bulleted List (Disc)"
 msgstr ""
 
-#: kmcomposewin.cpp:1351 kmcomposewin.cpp:4378
+#: kmcomposewin.cpp:1351 kmcomposewin.cpp:4401
 msgid "Bulleted List (Circle)"
 msgstr ""
 
-#: kmcomposewin.cpp:1352 kmcomposewin.cpp:4380
+#: kmcomposewin.cpp:1352 kmcomposewin.cpp:4403
 msgid "Bulleted List (Square)"
 msgstr ""
 
-#: kmcomposewin.cpp:1353 kmcomposewin.cpp:4382
+#: kmcomposewin.cpp:1353 kmcomposewin.cpp:4405
 msgid "Ordered List (Decimal)"
 msgstr ""
 
-#: kmcomposewin.cpp:1354 kmcomposewin.cpp:4384
+#: kmcomposewin.cpp:1354 kmcomposewin.cpp:4407
 msgid "Ordered List (Alpha lower)"
 msgstr ""
 
-#: kmcomposewin.cpp:1355 kmcomposewin.cpp:4386
+#: kmcomposewin.cpp:1355 kmcomposewin.cpp:4409
 msgid "Ordered List (Alpha upper)"
 msgstr ""
 
@@ -4717,12 +4717,12 @@ msgstr ""
 msgid "Save Attachment As"
 msgstr "Přiwěšk zawěsćić jako"
 
-#: kmcomposewin.cpp:3450 kmfilterdlg.cpp:660 kmfolderdia.cpp:260
-#: kmfolderdia.cpp:584 kmfoldertree.cpp:1474
+#: kmcomposewin.cpp:3473 kmfilterdlg.cpp:660 kmfolderdia.cpp:260
+#: kmfolderdia.cpp:590 kmfoldertree.cpp:1474
 msgid "unnamed"
 msgstr "bjez mjena"
 
-#: kmcomposewin.cpp:3474
+#: kmcomposewin.cpp:3497
 msgid ""
 "<qt><p>You have requested that messages be encrypted to yourself, but the "
 "currently selected identity does not define an (OpenPGP or S/MIME) encryption "
@@ -4730,11 +4730,11 @@ msgid ""
 "configuration.</p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:3481
+#: kmcomposewin.cpp:3504
 msgid "Undefined Encryption Key"
 msgstr "Njedefinowany šifrowanski kluč"
 
-#: kmcomposewin.cpp:3524
+#: kmcomposewin.cpp:3547
 #, fuzzy
 msgid ""
 "<qt><p>In order to be able to sign this message you first have to define the "
@@ -4742,177 +4742,177 @@ msgid ""
 "the identity configuration.</p></qt>"
 msgstr "<qt><p></p><p> in</p></qt>"
 
-#: kmcomposewin.cpp:3531
+#: kmcomposewin.cpp:3554
 msgid "Undefined Signing Key"
 msgstr "Njedefinowane podpisowanski kluč"
 
-#: kmcomposewin.cpp:3619
+#: kmcomposewin.cpp:3642
 msgid ""
 "You must enter your email address in the From: field. You should also set your "
 "email address for all identities, so that you do not have to enter it for each "
 "message."
 msgstr ""
 
-#: kmcomposewin.cpp:3629
+#: kmcomposewin.cpp:3652
 #, fuzzy
 msgid ""
 "You must specify at least one receiver,either in the To: field or as CC or as "
 "BCC."
 msgstr "in Na."
 
-#: kmcomposewin.cpp:3652
+#: kmcomposewin.cpp:3675
 msgid "You did not specify a subject. Send message anyway?"
 msgstr ""
 
-#: kmcomposewin.cpp:3654
+#: kmcomposewin.cpp:3677
 msgid "No Subject Specified"
 msgstr "Žana tema podata"
 
-#: kmcomposewin.cpp:3655
+#: kmcomposewin.cpp:3678
 #, fuzzy
 msgid "S&end as Is"
 msgstr "&Haj, pósłać kaž je"
 
-#: kmcomposewin.cpp:3656
+#: kmcomposewin.cpp:3679
 #, fuzzy
 msgid "&Specify the Subject"
 msgstr "&Ně, podam hišće temu"
 
-#: kmcomposewin.cpp:3694
+#: kmcomposewin.cpp:3717
 msgid "&Keep markup, do not sign/encrypt"
 msgstr ""
 
-#: kmcomposewin.cpp:3695
+#: kmcomposewin.cpp:3718
 #, fuzzy
 msgid "&Keep markup, do not encrypt"
 msgstr "Šifrowanje"
 
-#: kmcomposewin.cpp:3696
+#: kmcomposewin.cpp:3719
 msgid "&Keep markup, do not sign"
 msgstr ""
 
-#: kmcomposewin.cpp:3698
+#: kmcomposewin.cpp:3721
 #, fuzzy
 msgid "Sign/Encrypt (delete markup)"
 msgstr "Powěsć šifrować?"
 
-#: kmcomposewin.cpp:3699
+#: kmcomposewin.cpp:3722
 #, fuzzy
 msgid "Encrypt (delete markup)"
 msgstr "&Zapisk zničić"
 
-#: kmcomposewin.cpp:3700
+#: kmcomposewin.cpp:3723
 #, fuzzy
 msgid "Sign (delete markup)"
 msgstr "&Zapisk zničić"
 
-#: kmcomposewin.cpp:3702
+#: kmcomposewin.cpp:3725
 msgid ""
 "<qt><p>Inline signing/encrypting of HTML messages is not possible;</p><p>"
 "do you want to delete your markup?</p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:3704
+#: kmcomposewin.cpp:3727
 #, fuzzy
 msgid "Sign/Encrypt Message?"
 msgstr "Powěsć šifrować?"
 
-#: kmcomposewin.cpp:3864
+#: kmcomposewin.cpp:3887
 msgid "About to send email..."
 msgstr "Sćelu mailki..."
 
-#: kmcomposewin.cpp:3865
+#: kmcomposewin.cpp:3888
 #, fuzzy
 msgid "Send Confirmation"
 msgstr "Wobkrućenje dochada"
 
-#: kmcomposewin.cpp:3866 redirectdialog.cpp:78
+#: kmcomposewin.cpp:3889 redirectdialog.cpp:78
 msgid "&Send Now"
 msgstr "&Nětko pósłać"
 
-#: kmcomposewin.cpp:4027
+#: kmcomposewin.cpp:4050
 msgid " Spell check canceled."
 msgstr " Prawopisna korektura přetorhnjena."
 
-#: kmcomposewin.cpp:4030
+#: kmcomposewin.cpp:4053
 msgid " Spell check stopped."
 msgstr " Prawopisna korektura zastajena."
 
-#: kmcomposewin.cpp:4033
+#: kmcomposewin.cpp:4056
 msgid " Spell check complete."
 msgstr " Prawopisna korektura zakónčena."
 
-#: kmcomposewin.cpp:4216 kmcomposewin.cpp:4223
+#: kmcomposewin.cpp:4239 kmcomposewin.cpp:4246
 msgid "Spellchecker"
 msgstr "Prawopisny program"
 
-#: kmcomposewin.cpp:4601
+#: kmcomposewin.cpp:4624
 msgid "Add as Text"
 msgstr ""
 
-#: kmcomposewin.cpp:4602
+#: kmcomposewin.cpp:4625
 #, fuzzy
 msgid "Add as Attachment"
 msgstr "Dodaj přiwěšk..."
 
-#: kmcomposewin.cpp:4898
+#: kmcomposewin.cpp:4921
 #, fuzzy
 msgid "vCard Import Failed"
 msgstr "iCal eksportować"
 
-#: kmcomposewin.cpp:4909
+#: kmcomposewin.cpp:4932
 #, fuzzy
 msgid "<qt>Unable to access <b>%1</b>.</qt>"
 msgstr "<qt>Njemóžach konto <b>%1</b> stworić.</qt>"
 
-#: kmcomposewin.cpp:4929
+#: kmcomposewin.cpp:4952
 msgid "Edit Recent Addresses..."
 msgstr ""
 
-#: kmcomposewin.cpp:5192
+#: kmcomposewin.cpp:5215
 msgid "Unable to start external editor."
 msgstr "Njemóžu eksterny editor startować."
 
-#: kmcomposewin.cpp:5243
+#: kmcomposewin.cpp:5266
 msgid "Suggestions"
 msgstr ""
 
-#: kmcomposewin.cpp:5292
+#: kmcomposewin.cpp:5315
 msgid "Automatic spellchecking is not possible on text with markup."
 msgstr ""
 
-#: kmcomposewin.cpp:5336
+#: kmcomposewin.cpp:5359
 msgid ""
 "The external editor is still running.\n"
 "Abort the external editor or leave it open?"
 msgstr ""
 
-#: kmcomposewin.cpp:5339
+#: kmcomposewin.cpp:5362
 #, fuzzy
 msgid "Abort Editor"
 msgstr "Přetorhnyć"
 
-#: kmcomposewin.cpp:5339
+#: kmcomposewin.cpp:5362
 msgid "Leave Editor Open"
 msgstr ""
 
-#: kmcomposewin.cpp:5364
+#: kmcomposewin.cpp:5387
 msgid "Spellcheck - KMail"
 msgstr "Prawopisna korektura - KMail"
 
-#: kmcomposewin.cpp:5526
+#: kmcomposewin.cpp:5549
 #, fuzzy
 msgid ""
 "ISpell/Aspell could not be started. Please make sure you have ISpell or Aspell "
 "properly configured and in your PATH."
 msgstr "Aspell Aspell in."
 
-#: kmcomposewin.cpp:5535
+#: kmcomposewin.cpp:5558
 #, fuzzy
 msgid "ISpell/Aspell seems to have crashed."
 msgstr "Aspell."
 
-#: kmcomposewin.cpp:5544
+#: kmcomposewin.cpp:5567
 #, fuzzy
 msgid "No misspellings encountered."
 msgstr "Žane prawopisne zmylki (kaž so zda)"
@@ -5406,7 +5406,7 @@ msgstr "Pytaj &jenož w:"
 msgid "I&nclude sub-folders"
 msgstr "Tež w &podzapiskach"
 
-#: kmfldsearch.cpp:178 kmheaders.cpp:175 kmheaders.cpp:738 kmheaders.cpp:2438
+#: kmfldsearch.cpp:178 kmheaders.cpp:175 kmheaders.cpp:742 kmheaders.cpp:2442
 #: kmpopfiltercnfrmdlg.cpp:39
 msgid "Subject"
 msgstr "Tema"
@@ -5415,7 +5415,7 @@ msgstr "Tema"
 msgid "Sender/Receiver"
 msgstr "Wotpósłar/Adresat"
 
-#: kmfldsearch.cpp:182 kmheaders.cpp:177 kmheaders.cpp:733 kmheaders.cpp:2433
+#: kmfldsearch.cpp:182 kmheaders.cpp:177 kmheaders.cpp:737 kmheaders.cpp:2437
 #: kmpopfiltercnfrmdlg.cpp:41
 msgid "Date"
 msgstr "Datum"
@@ -5536,12 +5536,12 @@ msgstr ""
 msgid "Searching in %1 (message %2)"
 msgstr "Pytam w %1 (powěsć %2)"
 
-#: kmfldsearch.cpp:732 kmheaders.cpp:2254 kmmainwidget.cpp:2671
+#: kmfldsearch.cpp:732 kmheaders.cpp:2258 kmmainwidget.cpp:2671
 #: kmreadermainwin.cpp:363
 msgid "&Copy To"
 msgstr "&Kopěruj do"
 
-#: kmfldsearch.cpp:733 kmheaders.cpp:2257 kmheaders.cpp:2263
+#: kmfldsearch.cpp:733 kmheaders.cpp:2261 kmheaders.cpp:2267
 #: kmmainwidget.cpp:2668
 msgid "&Move To"
 msgstr "&Suń do"
@@ -5832,14 +5832,15 @@ msgstr " Špalta: %1"
 
 #. i18n: file folderpropertiesdialog.ui line 520
 #: kmfolderdia.cpp:387 kmheaders.cpp:176 kmheaders.cpp:235 kmheaders.cpp:351
-#: kmheaders.cpp:728 kmpopfiltercnfrmdlg.cpp:40 rc.cpp:587
+#: kmheaders.cpp:522 kmheaders.cpp:732 kmpopfiltercnfrmdlg.cpp:40 rc.cpp:587
 #, no-c-format
 msgid "Sender"
 msgstr "Wotpósłar"
 
 #. i18n: file folderpropertiesdialog.ui line 525
 #: kmfolderdia.cpp:388 kmheaders.cpp:131 kmheaders.cpp:179 kmheaders.cpp:232
-#: kmheaders.cpp:237 kmheaders.cpp:353 kmheaders.cpp:730 rc.cpp:590
+#: kmheaders.cpp:237 kmheaders.cpp:353 kmheaders.cpp:524 kmheaders.cpp:734
+#: rc.cpp:590
 #, no-c-format
 msgid "Receiver"
 msgstr "Adresat"
@@ -5927,56 +5928,56 @@ msgstr "<qt>Njemózu zapisk <b>%1</b> wočinić.</qt>"
 msgid "<qt>Folder <b>%1</b> is unreadable.</qt>"
 msgstr "<qt>Zapisk <b>%1</b> njehodźi so čitać.</qt>"
 
-#: kmfolderimap.cpp:234
+#: kmfolderimap.cpp:236
 #, fuzzy
 msgid "Error while removing a folder."
 msgstr "Zmylk při pósłanju zapiska"
 
-#: kmfolderimap.cpp:455
+#: kmfolderimap.cpp:464
 #, fuzzy
 msgid "Destination folder: "
 msgstr "&Cilowy zapisk:"
 
-#: kmfolderimap.cpp:1009
+#: kmfolderimap.cpp:1022
 msgid "checking"
 msgstr ""
 
-#: kmfolderimap.cpp:1058
+#: kmfolderimap.cpp:1071
 #, fuzzy
 msgid "Error while querying the server status."
 msgstr "Zmylk při pósłanju zapiska"
 
-#: kmfolderimap.cpp:1162
+#: kmfolderimap.cpp:1175
 #, fuzzy
 msgid "Retrieving message status"
 msgstr "%1:  Dóstawam nowe powěsće"
 
-#: kmfolderimap.cpp:1176 kmfolderimap.cpp:1270
+#: kmfolderimap.cpp:1189 kmfolderimap.cpp:1283
 #, fuzzy
 msgid "Retrieving messages"
 msgstr "%1:  Dóstawam nowe powěsće"
 
-#: kmfolderimap.cpp:1201
+#: kmfolderimap.cpp:1214
 #, fuzzy, c-format
 msgid "Error while listing the contents of the folder %1."
 msgstr "Zmylk při pósłanju zapiska"
 
-#: kmfolderimap.cpp:1554
+#: kmfolderimap.cpp:1582
 #, fuzzy
 msgid "Error while retrieving messages."
 msgstr "Zmylk při pósłanju powěsće na server"
 
-#: kmfolderimap.cpp:1621
+#: kmfolderimap.cpp:1649
 #, fuzzy
 msgid "Error while creating a folder."
 msgstr "Zmylk při pósłanju zapiska"
 
-#: kmfolderimap.cpp:1941
+#: kmfolderimap.cpp:1971
 #, fuzzy
 msgid "updating message counts"
 msgstr "Ně."
 
-#: kmfolderimap.cpp:1965
+#: kmfolderimap.cpp:1995
 #, fuzzy
 msgid "Error while getting folder information."
 msgstr "Zmylk při pósłanju zapiska"
@@ -6280,15 +6281,15 @@ msgstr "&Ignorować"
 msgid "Signature"
 msgstr "&Signatura:"
 
-#: kmheaders.cpp:735 kmheaders.cpp:2435
+#: kmheaders.cpp:739 kmheaders.cpp:2439
 msgid "Date (Order of Arrival)"
 msgstr "Datum (po dochadźe)"
 
-#: kmheaders.cpp:740 kmheaders.cpp:2440
+#: kmheaders.cpp:744 kmheaders.cpp:2444
 msgid " (Status)"
 msgstr " (staw)"
 
-#: kmheaders.cpp:1284
+#: kmheaders.cpp:1288
 #, c-format
 msgid ""
 "_n: 1 unsent\n"
@@ -6299,11 +6300,11 @@ msgstr ""
 "%n nječitanej\n"
 "%n nječitane"
 
-#: kmheaders.cpp:1284
+#: kmheaders.cpp:1288
 msgid "0 unsent"
 msgstr "žane njepósłane"
 
-#: kmheaders.cpp:1286
+#: kmheaders.cpp:1290
 #, c-format
 msgid ""
 "_n: 1 unread\n"
@@ -6314,11 +6315,11 @@ msgstr ""
 "%n nječitanej\n"
 "%n nječitane"
 
-#: kmheaders.cpp:1286
+#: kmheaders.cpp:1290
 msgid "0 unread"
 msgstr "žane nječitane"
 
-#: kmheaders.cpp:1288
+#: kmheaders.cpp:1292
 msgid ""
 "_n: 1 message, %1.\n"
 "%n messages, %1."
@@ -6328,17 +6329,17 @@ msgstr ""
 "%n powěsći, %1.\n"
 "%n powěsće, %1."
 
-#: kmheaders.cpp:1289
+#: kmheaders.cpp:1293
 msgid "0 messages"
 msgstr "žane powěsće"
 
-#: kmheaders.cpp:1291
+#: kmheaders.cpp:1295
 msgid ""
 "_: %1 = n messages, m unread.\n"
 "%1 Folder is read-only."
 msgstr "Zapisk %1 hodźi so jenož čitać."
 
-#: kmheaders.cpp:1450
+#: kmheaders.cpp:1454
 #, c-format
 msgid ""
 "_n: <qt>Do you really want to delete the selected message?<br>"
@@ -6355,39 +6356,39 @@ msgstr ""
 "<qt>Chceće woprawdźe te %n wubrane powěsće zničić?<br>"
 "Njebudźe móžno je rekonstruować!</qt>"
 
-#: kmheaders.cpp:1452
+#: kmheaders.cpp:1456
 msgid "Delete Messages"
 msgstr "Powěsće zničić"
 
-#: kmheaders.cpp:1452
+#: kmheaders.cpp:1456
 msgid "Delete Message"
 msgstr "Powěsć zničić"
 
-#: kmheaders.cpp:1477
+#: kmheaders.cpp:1481
 msgid "Messages deleted successfully."
 msgstr "Powěsće wuspěšnje zničene."
 
-#: kmheaders.cpp:1477
+#: kmheaders.cpp:1481
 msgid "Messages moved successfully"
 msgstr "Powěsće wuspěšnje přesunjene"
 
-#: kmheaders.cpp:1500
+#: kmheaders.cpp:1504
 msgid "Deleting messages failed."
 msgstr "Njemóžach powěsće zničić."
 
-#: kmheaders.cpp:1500
+#: kmheaders.cpp:1504
 msgid "Moving messages failed."
 msgstr "Njemóžach powěsće přesunyć."
 
-#: kmheaders.cpp:1503
+#: kmheaders.cpp:1507
 msgid "Deleting messages canceled."
 msgstr "Zničenje powěsćow přetorhnjene."
 
-#: kmheaders.cpp:1503
+#: kmheaders.cpp:1507
 msgid "Moving messages canceled."
 msgstr "Přesunjenje powěsćow přetorhnjene."
 
-#: kmheaders.cpp:2599 kmheaders.cpp:2639
+#: kmheaders.cpp:2603 kmheaders.cpp:2643
 msgid ""
 "Failure modifying %1\n"
 "(No space left on device?)"
