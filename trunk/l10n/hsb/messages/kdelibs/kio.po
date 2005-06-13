@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
-"POT-Creation-Date: 2005-06-08 01:23+0200\n"
+"POT-Creation-Date: 2005-06-13 01:26+0200\n"
 "PO-Revision-Date: 2005-02-02 18:46+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -240,6 +240,15 @@ msgstr "Hz"
 #: kio/kfilemetainfo.cpp:864
 msgid "mm"
 msgstr "mm"
+
+#: kio/kfilemetainfo.cpp:1592
+msgid "Yes"
+msgstr ""
+
+#: kio/kfilemetainfo.cpp:1592
+#, fuzzy
+msgid "No"
+msgstr "Žane"
 
 #: kio/kmimetype.cpp:110
 msgid "No mime types installed."
@@ -2240,6 +2249,11 @@ msgstr "Zastajene"
 msgid " %1/s "
 msgstr " %1/s "
 
+#: kio/kemailsettings.cpp:254 kio/kemailsettings.cpp:257
+#: kio/kemailsettings.cpp:264
+msgid "Default"
+msgstr ""
+
 #: kio/passdlg.cpp:57
 msgid "Password"
 msgstr "Hesło"
@@ -2353,6 +2367,12 @@ msgstr "Wobsydnik:"
 #: kio/kfileitem.cpp:714
 msgid "Permissions:"
 msgstr "Prawa:"
+
+#. i18n: file ./misc/kwalletd/kwalletwizard.ui line 166
+#: kio/skipdlg.cpp:56 rc.cpp:34
+#, fuzzy, no-c-format
+msgid "Information"
+msgstr "KDE SSL-informacija"
 
 #: kio/skipdlg.cpp:63
 msgid "Skip"
@@ -2993,6 +3013,12 @@ msgstr "Nimaće prawa přistupa na protokol %1."
 msgid "Settings..."
 msgstr "Nastajenja..."
 
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 274
+#: kfile/kcustommenueditor.cpp:99 misc/uiserver.cpp:99 rc.cpp:319
+#, fuzzy, no-c-format
+msgid "Remove"
+msgstr "Z&ničić"
+
 #: misc/uiserver.cpp:126
 msgid "Configure Network Operation Window"
 msgstr "Konfiguracija wokna za syćowe akcije"
@@ -3102,6 +3128,11 @@ msgstr "Wobhladuju sej"
 #: misc/uiserver.cpp:370
 msgid "Mounting"
 msgstr "Montuju"
+
+#: misc/uiserver.cpp:600
+#, fuzzy
+msgid "Cancel"
+msgstr "Akciju přetorhnyć"
 
 #: misc/uiserver.cpp:608 misc/uiserver.cpp:1097
 msgid " Files: %1 "
@@ -3490,6 +3521,16 @@ msgstr "Mime-družiny"
 msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
 msgstr "*.png *.xpm|piktogramowe dataje (*.png *.xpm)"
 
+#: kfile/kencodingfiledialog.cpp:101 kfile/kencodingfiledialog.cpp:120
+#: kfile/kencodingfiledialog.cpp:135 kfile/kencodingfiledialog.cpp:153
+#: kfile/kfiledialog.cpp:1311 kfile/kfiledialog.cpp:1335
+#: kfile/kfiledialog.cpp:1351 kfile/kfiledialog.cpp:1365
+#: kfile/kfiledialog.cpp:1381 kfile/kfiledialog.cpp:1421
+#: kfile/kicondialog.cpp:544 kfile/kurlrequesterdlg.cpp:112
+#, fuzzy
+msgid "Open"
+msgstr "W&očinić"
+
 #: kfile/kfilemetainfowidget.cpp:111
 msgid "<Error>"
 msgstr "<Zmylk>"
@@ -3675,6 +3716,12 @@ msgstr "Pominany zapisk snadź njeeksistuje."
 msgid "No description available"
 msgstr "Žane wopisanje namakał"
 
+#: kfile/kencodingfiledialog.cpp:174 kfile/kencodingfiledialog.cpp:197
+#: kfile/kfiledialog.cpp:1586 kfile/kfiledialog.cpp:1615
+#: kfile/kfiledialog.cpp:1634
+msgid "Save As"
+msgstr ""
+
 #: kfile/kfiledialog.cpp:347
 #, fuzzy
 msgid "Please specify the filename to save to."
@@ -3816,6 +3863,11 @@ msgstr "Lubušk"
 msgid "Hide Bookmarks"
 msgstr "K lubuškam dodać "
 
+#: kfile/kfiledialog.cpp:933
+#, fuzzy
+msgid "Configure"
+msgstr "Po&kročować"
+
 #: kfile/kfiledialog.cpp:934
 #, fuzzy
 msgid ""
@@ -3952,6 +4004,12 @@ msgstr ""
 "tajki dypk, wón praji KDE jenož, zo so na tute datajowe mjeno nima ekstensija "
 "dodać). </li></ol>Jeli njewěsće, što činić, wostajće tutu opciju zaswěćenu, "
 "dokelž tak budźe wobchadźenje z datajowymi mjenami jednoriše."
+
+#: bookmarks/kbookmarkimporter_ns.cc:200 bookmarks/kbookmarkimporter_ns.cc:201
+#: bookmarks/kbookmarkmenu.cc:1006 kfile/kfiledialog.cpp:2229
+#, fuzzy
+msgid "Bookmarks"
+msgstr "Lubušk"
 
 #: kfile/kfiledialog.cpp:2233
 msgid ""
@@ -4090,6 +4148,16 @@ msgstr "Zapisk zničić"
 msgid "Move to Trash"
 msgstr "Na %1 sunyć"
 
+#: kfile/kdiroperator.cpp:1267
+#, fuzzy
+msgid "Delete"
+msgstr "Niču"
+
+#: kfile/kdiroperator.cpp:1270
+#, fuzzy
+msgid "Reload"
+msgstr "Čitać"
+
 #: kfile/kdiroperator.cpp:1275
 msgid "Sorting"
 msgstr "Rjadowanje"
@@ -4119,6 +4187,11 @@ msgstr "najprjedy zapiski"
 msgid "Case Insensitive"
 msgstr "njehladajo na wulko-/małopisanje"
 
+#: kfile/kdiroperator.cpp:1308
+#, fuzzy
+msgid "&View"
+msgstr "&Přehladka"
+
 #: kfile/kdiroperator.cpp:1317
 msgid "Show Hidden Files"
 msgstr "chowane dataje pokazować"
@@ -4136,6 +4209,12 @@ msgstr "Pokaž přehladku"
 #, fuzzy
 msgid "Hide Preview"
 msgstr "Přehladka"
+
+#: bookmarks/kbookmarkmenu.cc:282 bookmarks/kbookmarkmenu.cc:293
+#: kfile/kdiroperator.cpp:1344
+#, fuzzy
+msgid "Properties"
+msgstr "Swójstwa %1"
 
 #: kfile/kfiledetailview.cpp:66
 msgid "Name"
@@ -4191,6 +4270,11 @@ msgstr "Wobsah:"
 #: kfile/kpropertiesdialog.cpp:967
 msgid "Calculate"
 msgstr "Wobličić"
+
+#: kfile/kpropertiesdialog.cpp:968
+#, fuzzy
+msgid "Stop"
+msgstr "Zastajene"
 
 #: kfile/kpropertiesdialog.cpp:978 kfile/kpropertiesdialog.cpp:1192
 msgid "Refresh"
@@ -5634,6 +5718,10 @@ msgstr "Nowy zapisk za lubuškow w tutym meniju stworić"
 #, fuzzy
 msgid "Quick Actions"
 msgstr "Akcije"
+
+#: bookmarks/kbookmarkmenu.cc:829
+msgid "&Update"
+msgstr ""
 
 #: bookmarks/kbookmarkmenu.cc:831
 #, fuzzy
