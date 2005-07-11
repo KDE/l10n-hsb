@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2005-07-09 23:46+0000\n"
+"POT-Creation-Date: 2005-07-10 23:46+0000\n"
 "PO-Revision-Date: 2005-02-14 14:26+0100\n"
 "Last-Translator: Bianka Šwejdźic <hertn@gmx.de>\n"
 "Language-Team: Hornjoserbšćina\n"
@@ -2844,6 +2844,14 @@ msgstr ""
 msgid "Query=http://en.wikipedia.org/wiki/Special:Search?search=\\{@}&go=Go"
 msgstr ""
 
+#: kcontrol/ebrowsing/plugins/ikws/searchproviders/wiktionary.desktop:4
+msgid "Name=Wiktionary - The Free Dictionary"
+msgstr ""
+
+#: kcontrol/ebrowsing/plugins/ikws/searchproviders/wiktionary.desktop:7
+msgid "Query=http://en.wiktionary.org/wiki/Special:Search?search=\\{@}&go=Go"
+msgstr ""
+
 #: kcontrol/ebrowsing/plugins/ikws/searchproviders/wordref.desktop:5
 msgid "Name=WordReference.com English Dictionary"
 msgstr ""
@@ -4160,7 +4168,7 @@ msgstr "GenericName=Kartowa hra"
 #: kdesktop/init/Templates/CDWRITER-Device.desktop:12
 #: kdesktop/init/Templates/DVDROM-Device.desktop:12
 #: kdesktop/init/Templates/ZIP-Device.desktop:12
-#: kioslave/media/services/media_eject.desktop:7
+#: kioslave/media/services/media_eject.desktop:8
 msgid "Name=Eject"
 msgstr ""
 
@@ -4984,6 +4992,7 @@ msgid "Comment=A panel applet that displays your storage media"
 msgstr ""
 
 #: kicker/applets/media/mediaapplet.desktop:44
+#: kioslave/media/kcmodule/media.desktop:13
 #: kioslave/system/entries/media.desktop:6
 #: konqueror/sidebar/trees/init/services/media.desktop:6
 #, fuzzy
@@ -5261,19 +5270,37 @@ msgstr ""
 msgid "Name=KManPart"
 msgstr ""
 
-#: kioslave/media/kdedmodule/mediamanager.desktop:4
+#: kioslave/media/kcmodule/media.desktop:15
 #, fuzzy
-msgid "Name=KDED Media Manager"
-msgstr "Name=Datajowy manager"
+msgid "Comment=Configure Storage Media"
+msgstr "Comment=Nastajenja hesłow připrawić"
 
-#: kioslave/media/kdedmodule/mediamanager.desktop:46
-msgid "Comment=Keep track of media activities and allow to (un)mount (media:/)"
+#: kioslave/media/kcmodule/media.desktop:17
+msgid "Keywords=storage,media,usb,cdrom,device"
 msgstr ""
 
 #: kioslave/media/kfile-plugin/kfile_media.desktop:4
 #, fuzzy
 msgid "Name=Medium Information"
 msgstr "Name=Wotmontować"
+
+#: kioslave/media/mediamanager/mediamanager.desktop:4
+#, fuzzy
+msgid "Name=KDED Media Manager"
+msgstr "Name=Datajowy manager"
+
+#: kioslave/media/mediamanager/mediamanager.desktop:46
+msgid "Comment=Keep track of media activities and allow to (un)mount (media:/)"
+msgstr ""
+
+#: kioslave/media/medianotifier/medianotifier.desktop:10
+#, fuzzy
+msgid "Name=Media Notifier Deamon"
+msgstr "Name=Wotmontować"
+
+#: kioslave/media/medianotifier/medianotifier.desktop:11
+msgid "Comment=A media plugged notifier"
+msgstr ""
 
 #: kioslave/media/mimetypes/audiocd.desktop:5
 #, fuzzy
@@ -5396,15 +5423,15 @@ msgstr ""
 msgid "Comment=Unmounted Zip Disk"
 msgstr ""
 
-#: kioslave/media/services/media_mount.desktop:7
+#: kioslave/media/services/media_mount.desktop:8
 msgid "Name=Mount"
 msgstr "Name=montować"
 
-#: kioslave/media/services/media_safelyremove.desktop:7
+#: kioslave/media/services/media_safelyremove.desktop:8
 msgid "Name=Safely Remove"
 msgstr ""
 
-#: kioslave/media/services/media_unmount.desktop:7
+#: kioslave/media/services/media_unmount.desktop:8
 msgid "Name=Unmount"
 msgstr "Name=Wotmontować"
 
