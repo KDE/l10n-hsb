@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
-"POT-Creation-Date: 2005-09-08 03:00+0200\n"
+"POT-Creation-Date: 2005-09-11 01:40+0200\n"
 "PO-Revision-Date: 2005-01-28 13:28+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -331,17 +331,17 @@ msgstr ""
 msgid "Category:"
 msgstr ""
 
-#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:120
+#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:123
 #: rip/k3baudiocdview.cpp:480
 msgid "No CDDB entry found."
 msgstr ""
 
-#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:120
+#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:123
 #: option/k3boptiondialog.cpp:168 rip/k3baudiocdview.cpp:480
 msgid "CDDB"
 msgstr ""
 
-#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:123
+#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:126
 #: rip/k3baudiocdview.cpp:483
 msgid "Cddb error"
 msgstr ""
@@ -1246,7 +1246,7 @@ msgstr ""
 msgid "*.toc *.TOC|Cdrdao TOC Files and Cdrecord Clone Images"
 msgstr ""
 
-#: k3b.cpp:1267 k3bfileview.cpp:115 misc/k3bcdimagewritingdialog.cpp:184
+#: k3b.cpp:1267 k3bfileview.cpp:100 misc/k3bcdimagewritingdialog.cpp:184
 #: misc/k3bisoimagewritingdialog.cpp:150
 msgid "*|All Files"
 msgstr ""
@@ -1659,8 +1659,12 @@ msgstr ""
 msgid "Show Video Tracks"
 msgstr ""
 
-#: k3bdiroperator.cpp:42
+#: k3bdiroperator.cpp:43
 msgid "K3b Bookmarks"
+msgstr ""
+
+#: k3bdiroperator.cpp:50
+msgid "&Add to Project"
 msgstr ""
 
 #: _translatorinfo.cpp:1
@@ -2307,50 +2311,50 @@ msgid ""
 "when creating data projects."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:315
+#: k3bsystemproblemdialog.cpp:316
 msgid "Writing device %1 - %2 is automounted."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:317
+#: k3bsystemproblemdialog.cpp:318
 msgid ""
 "Automounting can cause problems with CD/DVD writing, especially with rewritable "
 "media. Although it might all work just fine it is recommended to disable "
 "automounting completely for now."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:320
+#: k3bsystemproblemdialog.cpp:321
 msgid "Replace the automounting entries in /etc/fstab with old-fashioned ones."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:330
+#: k3bsystemproblemdialog.cpp:332
 msgid "No ATAPI writing support in kernel"
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:331
+#: k3bsystemproblemdialog.cpp:333
 msgid ""
 "Your kernel does not support writing without SCSI emulation but there is at "
 "least one writer in your system not configured to use SCSI emulation."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:335
+#: k3bsystemproblemdialog.cpp:337
 msgid ""
 "The best and recommended solution is to enable ide-scsi (SCSI emulation) for "
 "all devices. This way you won't have any problems.Be aware that you may still "
 "enable DMA on ide-scsi emulated drives."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:352 k3bsystemproblemdialog.cpp:371
+#: k3bsystemproblemdialog.cpp:354 k3bsystemproblemdialog.cpp:373
 msgid "%1 %2 does not support ATAPI"
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:353 k3bsystemproblemdialog.cpp:373
+#: k3bsystemproblemdialog.cpp:355 k3bsystemproblemdialog.cpp:375
 msgid ""
 "The configured version of %1 does not support writing to ATAPI devices without "
 "SCSI emulation and there is at least one writer in your system not configured "
 "to use SCSI emulation."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:358
+#: k3bsystemproblemdialog.cpp:360
 #, c-format
 msgid ""
 "The best and recommended solution is to enable ide-scsi (SCSI emulation) for "
@@ -2358,12 +2362,12 @@ msgid ""
 "the default) a more recent version of %1."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:379
+#: k3bsystemproblemdialog.cpp:381
 msgid ""
 "Install cdrdao >= 1.1.8 which supports writing to ATAPI devices directly."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:381
+#: k3bsystemproblemdialog.cpp:383
 #, c-format
 msgid ""
 "The best, and recommended, solution is to use ide-scsi (SCSI emulation) for all "
@@ -2371,53 +2375,53 @@ msgid ""
 "(or select as the default) a more recent version of %1."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:396
+#: k3bsystemproblemdialog.cpp:398
 #, c-format
 msgid "No write access to device %1"
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:397
+#: k3bsystemproblemdialog.cpp:399
 msgid ""
 "K3b needs write access to all the devices to perform certain tasks. Without you "
 "might encounter problems with %1 - %2"
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:399 k3bsystemproblemdialog.cpp:411
+#: k3bsystemproblemdialog.cpp:401 k3bsystemproblemdialog.cpp:413
 msgid ""
 "Make sure you have write access to %1. In case you are not using devfs or udev "
 "K3bSetup is able to do this for you."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:408
+#: k3bsystemproblemdialog.cpp:410
 #, c-format
 msgid "No write access to generic SCSI device %1"
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:409
+#: k3bsystemproblemdialog.cpp:411
 msgid ""
 "Without write access to the generic device you might encounter problems with "
 "Audio CD ripping from %1 - %2"
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:426
+#: k3bsystemproblemdialog.cpp:428
 #, fuzzy, c-format
 msgid "User parameters specified for external program %1"
 msgstr "Eksterne programy nastajić"
 
-#: k3bsystemproblemdialog.cpp:427
+#: k3bsystemproblemdialog.cpp:429
 msgid ""
 "Sometimes it may be nessessary to specify user parameters in addition to the "
 "parameters generated by K3b. This is simply a warning to make sure that these "
 "parameters are really wanted and won't be pat of some bug report."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:430
+#: k3bsystemproblemdialog.cpp:432
 msgid ""
 "To remove the user parameters for the external program %1 open the K3b settings "
 "page 'Programs' and choose the tab 'User Parameters'."
 msgstr ""
 
-#: k3bsystemproblemdialog.cpp:469
+#: k3bsystemproblemdialog.cpp:471
 msgid "Unable to start K3bSetup2."
 msgstr ""
 
@@ -6220,31 +6224,27 @@ msgid ""
 "If you only hear noise you most likely need to swap the byte order."
 msgstr ""
 
-#: k3bfileview.cpp:80
-msgid "&Add to Project"
-msgstr ""
-
-#: k3bfileview.cpp:109
+#: k3bfileview.cpp:94
 msgid "Filter:"
 msgstr ""
 
-#: k3bfileview.cpp:116
+#: k3bfileview.cpp:101
 msgid "audio/x-mp3 audio/x-wav application/x-ogg |Sound Files"
 msgstr ""
 
-#: k3bfileview.cpp:117
+#: k3bfileview.cpp:102
 msgid "audio/x-wav |Wave Sound Files"
 msgstr ""
 
-#: k3bfileview.cpp:118
+#: k3bfileview.cpp:103
 msgid "audio/x-mp3 |MP3 Sound Files"
 msgstr ""
 
-#: k3bfileview.cpp:119
+#: k3bfileview.cpp:104
 msgid "application/x-ogg |Ogg Vorbis Sound Files"
 msgstr ""
 
-#: k3bfileview.cpp:120
+#: k3bfileview.cpp:105
 msgid "video/mpeg |MPEG Video Files"
 msgstr ""
 
@@ -8504,15 +8504,15 @@ msgstr ""
 msgid "Musepack"
 msgstr ""
 
-#: ../plugins/decoder/ffmpeg/k3bffmpegwrapper.cpp:166
+#: ../plugins/decoder/ffmpeg/k3bffmpegwrapper.cpp:194
 msgid "Windows Media v1"
 msgstr ""
 
-#: ../plugins/decoder/ffmpeg/k3bffmpegwrapper.cpp:168
+#: ../plugins/decoder/ffmpeg/k3bffmpegwrapper.cpp:196
 msgid "Windows Media v2"
 msgstr ""
 
-#: ../plugins/decoder/ffmpeg/k3bffmpegwrapper.cpp:170
+#: ../plugins/decoder/ffmpeg/k3bffmpegwrapper.cpp:198
 msgid "MPEG 1 Layer III"
 msgstr ""
 
