@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
-"POT-Creation-Date: 2006-03-15 03:59+0100\n"
+"POT-Creation-Date: 2006-03-21 04:00+0100\n"
 "PO-Revision-Date: 2005-02-04 21:00+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -3863,7 +3863,7 @@ msgstr "Zapisk"
 msgid "Which name shall the contact '%1' have in your addressbook?"
 msgstr ""
 
-#: kmaccount.cpp:45 kmaccount.cpp:355 kmsender.cpp:522
+#: kmaccount.cpp:45 kmaccount.cpp:355 kmsender.cpp:536
 #, c-format
 msgid "Executing precommand %1"
 msgstr "Wuwjedu předpřikaz %1"
@@ -6822,7 +6822,7 @@ msgstr ""
 "Wužiwanje HTML w mailkach přićahuje wjace čaporowych mailkow a powjetši "
 "prawdźepodobnosć, zo nastanu wěstotne problemy."
 
-#: kmmainwidget.cpp:1202 kmmainwidget.cpp:1226 kmsender.cpp:487
+#: kmmainwidget.cpp:1202 kmmainwidget.cpp:1226 kmsender.cpp:501
 msgid "Security Warning"
 msgstr "Wěstotne warnowanje"
 
@@ -8138,14 +8138,14 @@ msgstr ""
 msgid "Cannot add message to outbox folder"
 msgstr ""
 
-#: kmsender.cpp:359
+#: kmsender.cpp:373
 #, fuzzy
 msgid ""
 "Critical error: Unable to process sent mail (out of space?)Moving failing "
 "message to \"sent-mail\" folder."
 msgstr "Kritiski Přesuwam."
 
-#: kmsender.cpp:369
+#: kmsender.cpp:383
 #, fuzzy
 msgid ""
 "Moving the sent message \"%1\" from the \"outbox\" to the \"sent-mail\" folder "
@@ -8154,14 +8154,14 @@ msgid ""
 "the problem and move the message manually."
 msgstr "Přesuwam."
 
-#: kmsender.cpp:415
+#: kmsender.cpp:429
 msgid ""
 "It's not possible to send messages without specifying a sender address.\n"
 "Please set the email address of identity '%1' in the Identities section of the "
 "configuration dialog and then try again."
 msgstr ""
 
-#: kmsender.cpp:437
+#: kmsender.cpp:451
 #, fuzzy, c-format
 msgid ""
 "_n: %n queued message successfully sent.\n"
@@ -8172,45 +8172,45 @@ msgstr ""
 "%n čakacej powěsći buštej wuspěšnje wotpósłanej.\n"
 "%n čakace powěsće buchu wuspěšnje wotpósłane."
 
-#: kmsender.cpp:440
+#: kmsender.cpp:454
 msgid "%1 of %2 queued messages successfully sent."
 msgstr ""
 
-#: kmsender.cpp:455
+#: kmsender.cpp:469
 #, fuzzy
 msgid "Sending messages"
 msgstr "HTML-powěsće"
 
-#: kmsender.cpp:456
+#: kmsender.cpp:470
 msgid "Initiating sender process..."
 msgstr ""
 
-#: kmsender.cpp:486
+#: kmsender.cpp:500
 msgid ""
 "You have chosen to send all queued email using an unencrypted transport, do you "
 "want to continue? "
 msgstr ""
 
-#: kmsender.cpp:488
+#: kmsender.cpp:502
 #, fuzzy
 msgid "Send Unencrypted"
 msgstr "&Nješifrowane zawěsćić"
 
-#: kmsender.cpp:540
+#: kmsender.cpp:554
 msgid "Unrecognized transport protocol. Unable to send message."
 msgstr ""
 
-#: kmsender.cpp:581
+#: kmsender.cpp:595
 msgid ""
 "_: %3: subject of message\n"
 "Sending message %1 of %2: %3"
 msgstr "Sćelu powěsć %1 z %2: %3"
 
-#: kmsender.cpp:600
+#: kmsender.cpp:614
 msgid "Failed to send (some) queued messages."
 msgstr ""
 
-#: kmsender.cpp:677
+#: kmsender.cpp:691
 #, fuzzy
 msgid ""
 "Sending aborted:\n"
@@ -8222,11 +8222,11 @@ msgid ""
 msgstr ""
 "in\n"
 
-#: kmsender.cpp:685 kmsender.cpp:725
+#: kmsender.cpp:699 kmsender.cpp:739
 msgid "Sending aborted."
 msgstr ""
 
-#: kmsender.cpp:698
+#: kmsender.cpp:712
 #, fuzzy
 msgid ""
 "<p>Sending failed:</p>"
@@ -8238,22 +8238,22 @@ msgid ""
 "<p>Do you want me to continue sending the remaining messages?</p>"
 msgstr "<p></p><p></p><p> in</p><p></p><p></p>"
 
-#: kmsender.cpp:708
+#: kmsender.cpp:722
 #, fuzzy
 msgid "Continue Sending"
 msgstr "Pokročować"
 
-#: kmsender.cpp:708
+#: kmsender.cpp:722
 #, fuzzy
 msgid "&Continue Sending"
 msgstr "Pokročować"
 
-#: kmsender.cpp:709
+#: kmsender.cpp:723
 #, fuzzy
 msgid "&Abort Sending"
 msgstr "Přetorhnyć"
 
-#: kmsender.cpp:711
+#: kmsender.cpp:725
 #, fuzzy
 msgid ""
 "Sending failed:\n"
@@ -8265,12 +8265,12 @@ msgid ""
 msgstr ""
 "in\n"
 
-#: kmsender.cpp:910
+#: kmsender.cpp:924
 #, fuzzy
 msgid "Please specify a mailer program in the settings."
 msgstr "in."
 
-#: kmsender.cpp:911
+#: kmsender.cpp:925
 #, fuzzy
 msgid ""
 "Sending failed:\n"
@@ -8282,17 +8282,17 @@ msgid ""
 msgstr ""
 "in\n"
 
-#: kmsender.cpp:959
+#: kmsender.cpp:973
 #, c-format
 msgid "Failed to execute mailer program %1"
 msgstr ""
 
-#: kmsender.cpp:1009
+#: kmsender.cpp:1023
 #, fuzzy
 msgid "Sendmail exited abnormally."
 msgstr "Sendmail."
 
-#: kmsender.cpp:1071
+#: kmsender.cpp:1085
 #, fuzzy
 msgid "You need to supply a username and a password to use this SMTP server."
 msgstr ""
