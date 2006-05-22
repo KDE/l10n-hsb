@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
-"POT-Creation-Date: 2006-05-20 04:02+0200\n"
+"POT-Creation-Date: 2006-05-22 04:03+0200\n"
 "PO-Revision-Date: 2005-02-04 21:00+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -504,7 +504,7 @@ msgid "<none>"
 msgstr "<žane>"
 
 #: accountdialog.cpp:1377 accountdialog.cpp:1384 kmfoldercachedimap.cpp:187
-#: kmfoldercachedimap.cpp:1755 kmfolderimap.cpp:187 kmfolderimap.cpp:876
+#: kmfoldercachedimap.cpp:1755 kmfolderimap.cpp:188 kmfolderimap.cpp:880
 #: kmkernel.cpp:1312 subscriptiondialog.cpp:166
 msgid "inbox"
 msgstr "póštowy kašćik"
@@ -3408,7 +3408,7 @@ msgstr "Mjeno identity"
 msgid "Email Address"
 msgstr "emailowa adresa"
 
-#: imapaccountbase.cpp:276 popaccount.cpp:150
+#: imapaccountbase.cpp:276 popaccount.cpp:152
 msgid "You need to supply a username and a password to access this mailbox."
 msgstr ""
 "Dyrbiće mjeno wužiwarja a hesło podać, zo byšće přistup k tutomu listowemu "
@@ -3418,7 +3418,7 @@ msgstr ""
 msgid "Authorization Dialog"
 msgstr ""
 
-#: imapaccountbase.cpp:282 popaccount.cpp:151
+#: imapaccountbase.cpp:282 popaccount.cpp:153
 msgid "Account:"
 msgstr "Konto:"
 
@@ -3502,12 +3502,12 @@ msgstr ""
 msgid "Error while uploading status of messages to server: "
 msgstr "Niču"
 
-#: imapaccountbase.cpp:1194 listjob.cpp:114
+#: imapaccountbase.cpp:1194 listjob.cpp:117
 #, fuzzy
 msgid "retrieving folders"
 msgstr "Nastajenje zapiskow"
 
-#: imapjob.cpp:155 kmfolderimap.cpp:473
+#: imapjob.cpp:155 kmfolderimap.cpp:476
 #, fuzzy
 msgid "Uploading message data"
 msgstr "Ně."
@@ -3522,12 +3522,12 @@ msgstr "Wobkrućenje dochada"
 msgid "Source folder: %1 - Destination folder: %2"
 msgstr "&Cilowy zapisk:"
 
-#: imapjob.cpp:318
+#: imapjob.cpp:317
 #, fuzzy
 msgid "Downloading message data"
 msgstr "Zmylk při pósłanju powěsće na server"
 
-#: imapjob.cpp:319
+#: imapjob.cpp:318
 #, fuzzy
 msgid "Message with subject: "
 msgstr "Lisćina powěsćow"
@@ -3897,52 +3897,52 @@ msgid ""
 msgstr ""
 "Njemóžach powěsć dodać\n"
 
-#: kmacctimap.cpp:287
+#: kmacctimap.cpp:291
 msgid "Checking account: "
 msgstr "Přepruwuju konto:"
 
-#: kmacctimap.cpp:385 kmfolderimap.cpp:827
+#: kmacctimap.cpp:389 kmfolderimap.cpp:831
 msgid " completed"
 msgstr " hotowe"
 
-#: kmacctimap.cpp:594 kmheaders.cpp:1230
+#: kmacctimap.cpp:598 kmheaders.cpp:1230
 msgid "Unable to process messages: "
 msgstr "Njemóžach powěsće předźěłać: "
 
-#: kmacctlocal.cpp:127 kmacctlocal.cpp:162 kmacctmaildir.cpp:103
-#: kmacctmaildir.cpp:123 kmacctmaildir.cpp:134
+#: kmacctlocal.cpp:128 kmacctlocal.cpp:164 kmacctmaildir.cpp:105
+#: kmacctmaildir.cpp:126 kmacctmaildir.cpp:137
 msgid "Transmission failed."
 msgstr "Přenjesenje zwrěšćene."
 
-#: kmacctlocal.cpp:133 kmacctlocal.cpp:140 kmacctmaildir.cpp:108
-#: kmacctmaildir.cpp:114 popaccount.cpp:394
+#: kmacctlocal.cpp:134 kmacctlocal.cpp:142 kmacctmaildir.cpp:110
+#: kmacctmaildir.cpp:117 popaccount.cpp:397
 msgid "Preparing transmission from \"%1\"..."
 msgstr "Přihotuju přenjesenje wot \"%1\"..."
 
-#: kmacctlocal.cpp:149
+#: kmacctlocal.cpp:151
 msgid "Running precommand failed."
 msgstr "Njemóžach předpřikaz wuwjesć."
 
-#: kmacctlocal.cpp:156
+#: kmacctlocal.cpp:158
 msgid "Cannot open file:"
 msgstr "Njemóžu dataju wočinić:"
 
-#: kmacctlocal.cpp:170
+#: kmacctlocal.cpp:172
 #, c-format
 msgid "Transmission failed: Could not lock %1."
 msgstr "Přenjesenje zwrěšćene. Njemóžach %1 blokować."
 
-#: kmacctlocal.cpp:183 kmacctmaildir.cpp:147
+#: kmacctlocal.cpp:185 kmacctmaildir.cpp:150
 msgid "Moving message %3 of %2 from %1."
 msgstr "Přesuwam powěsć %3 z %2 wot %1."
 
-#: kmacctlocal.cpp:248
+#: kmacctlocal.cpp:250
 msgid "<qt>Cannot remove mail from mailbox <b>%1</b>:<br>%2</qt>"
 msgstr ""
 "<qt>Njemóžu powěsće z listoweho kašćika <b>%1</b> zwumjetać: "
 "<br>%2</qt>"
 
-#: kmacctlocal.cpp:258
+#: kmacctlocal.cpp:260
 msgid ""
 "_n: Fetched 1 message from mailbox %1.\n"
 "Fetched %n messages from mailbox %1."
@@ -3952,15 +3952,15 @@ msgstr ""
 "Sym %n powěsći z póštoweho kašćika %1 přenjesł.\n"
 "Sym %n powěsće z póštoweho kašćika %1 přenjesł."
 
-#: kmacctmaildir.cpp:130
+#: kmacctmaildir.cpp:133
 msgid "<qt>Cannot open folder <b>%1</b>.</qt>"
 msgstr "<qt>Njemózu zapisk <b>%1</b> wočinić.</qt>"
 
-#: kmacctmaildir.cpp:156
+#: kmacctmaildir.cpp:159
 msgid "Transmission aborted."
 msgstr "Přenjesenje přetorhnjene."
 
-#: kmacctmaildir.cpp:191
+#: kmacctmaildir.cpp:194
 msgid ""
 "_n: Fetched 1 message from maildir folder %1.\n"
 "Fetched %n messages from maildir folder %1."
@@ -5996,56 +5996,56 @@ msgstr "<qt>Njemózu zapisk <b>%1</b> wočinić.</qt>"
 msgid "<qt>Folder <b>%1</b> is unreadable.</qt>"
 msgstr "<qt>Zapisk <b>%1</b> njehodźi so čitać.</qt>"
 
-#: kmfolderimap.cpp:246
+#: kmfolderimap.cpp:249
 #, fuzzy
 msgid "Error while removing a folder."
 msgstr "Zmylk při pósłanju zapiska"
 
-#: kmfolderimap.cpp:474
+#: kmfolderimap.cpp:478
 #, fuzzy
 msgid "Destination folder: "
 msgstr "&Cilowy zapisk:"
 
-#: kmfolderimap.cpp:1037
+#: kmfolderimap.cpp:1041
 msgid "checking"
 msgstr ""
 
-#: kmfolderimap.cpp:1086
+#: kmfolderimap.cpp:1090
 #, fuzzy
 msgid "Error while querying the server status."
 msgstr "Zmylk při pósłanju zapiska"
 
-#: kmfolderimap.cpp:1196
+#: kmfolderimap.cpp:1200
 #, fuzzy
 msgid "Retrieving message status"
 msgstr "%1:  Dóstawam nowe powěsće"
 
-#: kmfolderimap.cpp:1211 kmfolderimap.cpp:1301
+#: kmfolderimap.cpp:1215 kmfolderimap.cpp:1305
 #, fuzzy
 msgid "Retrieving messages"
 msgstr "%1:  Dóstawam nowe powěsće"
 
-#: kmfolderimap.cpp:1236
+#: kmfolderimap.cpp:1240
 #, fuzzy, c-format
 msgid "Error while listing the contents of the folder %1."
 msgstr "Zmylk při pósłanju zapiska"
 
-#: kmfolderimap.cpp:1592
+#: kmfolderimap.cpp:1596
 #, fuzzy
 msgid "Error while retrieving messages."
 msgstr "Zmylk při pósłanju powěsće na server"
 
-#: kmfolderimap.cpp:1656
+#: kmfolderimap.cpp:1660
 #, fuzzy
 msgid "Error while creating a folder."
 msgstr "Zmylk při pósłanju zapiska"
 
-#: kmfolderimap.cpp:1980
+#: kmfolderimap.cpp:1984
 #, fuzzy
 msgid "updating message counts"
 msgstr "Ně."
 
-#: kmfolderimap.cpp:2004
+#: kmfolderimap.cpp:2008
 #, fuzzy
 msgid "Error while getting folder information."
 msgstr "Zmylk při pósłanju zapiska"
@@ -8527,7 +8527,7 @@ msgstr ""
 msgid "Invalid Hostname or Address"
 msgstr "emailowa adresa"
 
-#: listjob.cpp:173
+#: listjob.cpp:176
 #, fuzzy
 msgid "Error while listing folder %1: "
 msgstr "Zmylk při pósłanju zapiska"
@@ -9405,24 +9405,24 @@ msgstr "nutřkowny dźěl"
 msgid "body part"
 msgstr ""
 
-#: popaccount.cpp:366
+#: popaccount.cpp:368
 #, fuzzy, c-format
 msgid "Could not execute precommand: %1"
 msgstr "Njemóžach předpřikaz wuwjesć: %1"
 
-#: popaccount.cpp:367
+#: popaccount.cpp:369
 msgid "KMail Error Message"
 msgstr "KMail zmylkowa powěsć"
 
-#: popaccount.cpp:376
+#: popaccount.cpp:378
 msgid "Source URL is malformed"
 msgstr "Njekorektny URL žórła"
 
-#: popaccount.cpp:377
+#: popaccount.cpp:379
 msgid "Kioslave Error Message"
 msgstr "Kioslave zmylkowa powěsć"
 
-#: popaccount.cpp:485
+#: popaccount.cpp:488
 #, fuzzy
 msgid ""
 "Your POP3 server does not support the UIDL command: this command is required to "
@@ -9434,13 +9434,13 @@ msgstr ""
 "spušćomne wašnje zwěsćił, kotre powěsće je KMail hižo widźał.\n"
 "Opcija, powěsće na serveru wostajić, tuž njebudźe korektnje dźěłać."
 
-#: popaccount.cpp:733
+#: popaccount.cpp:736
 msgid ""
 "_n: Fetched 1 message from %1. Deleting messages from server...\n"
 "Fetched %n messages from %1. Deleting messages from server..."
 msgstr ""
 
-#: popaccount.cpp:742 popaccount.cpp:761
+#: popaccount.cpp:745 popaccount.cpp:764
 msgid ""
 "_n: Fetched 1 message from %1. Terminating transmission...\n"
 "Fetched %n messages from %1. Terminating transmission..."
@@ -9450,26 +9450,26 @@ msgstr ""
 "Sym %n powěsći z %1 přenjesł. Přetorhnu přenjesenje...\n"
 "Sym %n powěsće %1 přenjesł. Přetorhnu přenjesenje..."
 
-#: popaccount.cpp:877
+#: popaccount.cpp:880
 #, fuzzy
 msgid ""
 "Fetching message %1 of %2 (%3 of %4 KB) for %5@%6 (%7 KB remain on the server)."
 msgstr "Bjeru powěsć %1 z %2 (%3 z %4 KB) wot %5 (%6 KB hišće na serveru)."
 
-#: popaccount.cpp:884
+#: popaccount.cpp:887
 #, fuzzy
 msgid "Fetching message %1 of %2 (%3 of %4 KB) for %5@%6."
 msgstr "Bjeru powěsć %1 z %2 (%3 z %4 KB) wot %5."
 
-#: popaccount.cpp:949
+#: popaccount.cpp:952
 msgid "Unable to complete LIST operation."
 msgstr "Njemóžu LIST-operaciju zakónčić"
 
-#: popaccount.cpp:950
+#: popaccount.cpp:953
 msgid "Invalid Response From Server"
 msgstr "Njewalidna wotmołwa servera"
 
-#: popaccount.cpp:968
+#: popaccount.cpp:971
 msgid ""
 "Your server does not support the TOP command. Therefore it is not possible to "
 "fetch the headers of large emails first, before downloading them."
@@ -11677,27 +11677,27 @@ msgstr "je wjace abo runja"
 msgid " bytes"
 msgstr " byte"
 
-#: searchjob.cpp:238
+#: searchjob.cpp:240
 msgid ""
 "To execute your search all messages of the folder %1 have to be downloaded from "
 "the server. This may take some time. Do you want to continue your search?"
 msgstr ""
 
-#: searchjob.cpp:242
+#: searchjob.cpp:244
 #, fuzzy
 msgid "Continue Search"
 msgstr "Pokročować"
 
-#: searchjob.cpp:242 searchwindow.cpp:68
+#: searchjob.cpp:244 searchwindow.cpp:68
 msgid "&Search"
 msgstr "&Pytaj"
 
-#: searchjob.cpp:254
+#: searchjob.cpp:256
 #, fuzzy
 msgid "Downloading emails from IMAP server"
 msgstr "Niču"
 
-#: searchjob.cpp:336
+#: searchjob.cpp:339
 #, fuzzy
 msgid "Error while searching."
 msgstr "Zmylk při pósłanju zapiska"
