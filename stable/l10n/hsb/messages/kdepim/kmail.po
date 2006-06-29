@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
-"POT-Creation-Date: 2006-06-24 04:05+0200\n"
+"POT-Creation-Date: 2006-06-29 04:10+0200\n"
 "PO-Revision-Date: 2005-02-04 21:00+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -329,7 +329,7 @@ msgid "Check &What the Server Supports"
 msgstr "&Pohladaj, što server podpěruje"
 
 #. i18n: file encryptionconfigurationdialog.ui line 33
-#: accountdialog.cpp:759 accountdialog.cpp:1062 kmheaders.cpp:130
+#: accountdialog.cpp:759 accountdialog.cpp:1062 kmheaders.cpp:131
 #: kmtransport.cpp:502 rc.cpp:191
 #, no-c-format
 msgid "Encryption"
@@ -2813,7 +2813,7 @@ msgid ""
 "\"%2\" is the detailed error description."
 msgstr ""
 
-#: filterlogdlg.cpp:262 kmcommands.cpp:2450 kmcommands.cpp:2470
+#: filterlogdlg.cpp:262 kmcommands.cpp:2455 kmcommands.cpp:2475
 #: kmmainwidget.cpp:1575 kmmainwidget.cpp:1592 urlhandlermanager.cpp:438
 msgid "KMail Error"
 msgstr "Zmylk w kmailu"
@@ -2943,7 +2943,7 @@ msgstr ""
 msgid "Select Folder"
 msgstr "Zapisk zničić"
 
-#: folderrequester.cpp:95 kmcommands.cpp:1599 kmfoldermgr.cpp:39
+#: folderrequester.cpp:95 kmcommands.cpp:1604 kmfoldermgr.cpp:39
 #: kmfoldertree.cpp:527
 msgid "Local Folders"
 msgstr "Lokalne zapiski"
@@ -3906,7 +3906,7 @@ msgstr "Přepruwuju konto:"
 msgid " completed"
 msgstr " hotowe"
 
-#: kmacctimap.cpp:597 kmheaders.cpp:1230
+#: kmacctimap.cpp:597 kmheaders.cpp:1231
 msgid "Unable to process messages: "
 msgstr "Njemóžach powěsće předźěłać: "
 
@@ -4046,11 +4046,11 @@ msgstr "Opcije za &Groupware-zapiski"
 msgid "You do not have read/write permission to your %1 folder."
 msgstr "Nimaće prawo, do zapiska %1 čitać/pisać."
 
-#: kmcommands.cpp:292
+#: kmcommands.cpp:293
 msgid "Please wait"
 msgstr "Prošu dočakajće"
 
-#: kmcommands.cpp:294 kmcommands.cpp:395
+#: kmcommands.cpp:295 kmcommands.cpp:396
 #, c-format
 msgid ""
 "_n: Please wait while the message is transferred\n"
@@ -4061,31 +4061,31 @@ msgstr ""
 "Prošu dočakajće, doniž so njejstej tej %n powěsći přenjesłoj.\n"
 "Prošu dočakajće, doniž so njejsu te %n powěsće přenjesli."
 
-#: kmcommands.cpp:581
+#: kmcommands.cpp:582
 msgid "Address copied to clipboard."
 msgstr "Adresa bu do zapisnika kopěrowana."
 
-#: kmcommands.cpp:588
+#: kmcommands.cpp:589
 msgid "URL copied to clipboard."
 msgstr "URL do zapisknika kopěrowany."
 
-#: kmcommands.cpp:625
+#: kmcommands.cpp:626
 msgid "<qt>File <b>%1</b> exists.<br>Do you want to replace it?</qt>"
 msgstr "<qt>Dataja<b>%1</b> eksistuje.<br>Chceće ju narunać?</qt>"
 
-#: kmcommands.cpp:626 kmcommands.cpp:887 kmkernel.cpp:1864
+#: kmcommands.cpp:627 kmcommands.cpp:888 kmkernel.cpp:1864
 msgid "Save to File"
 msgstr "Do dataje zawěsćić"
 
-#: kmcommands.cpp:626 kmcommands.cpp:887 kmkernel.cpp:1864
+#: kmcommands.cpp:627 kmcommands.cpp:888 kmkernel.cpp:1864
 msgid "&Replace"
 msgstr "Na&runać"
 
-#: kmcommands.cpp:695
+#: kmcommands.cpp:696
 msgid "Message as Plain Text"
 msgstr "Powěsć jako prosty tekst"
 
-#: kmcommands.cpp:886 kmkernel.cpp:1863
+#: kmcommands.cpp:887 kmkernel.cpp:1863
 msgid ""
 "File %1 exists.\n"
 "Do you want to replace it?"
@@ -4093,34 +4093,34 @@ msgstr ""
 "Dataja %1 eksistuje?\n"
 "Chceće ju přepisać?"
 
-#: kmcommands.cpp:930
+#: kmcommands.cpp:931
 msgid "Open Message"
 msgstr "Powěsć wočinić"
 
-#: kmcommands.cpp:968 kmcommands.cpp:996
+#: kmcommands.cpp:969 kmcommands.cpp:997
 #, fuzzy
 msgid "The file does not contain a message."
 msgstr "njewobsahuje"
 
-#: kmcommands.cpp:1014
+#: kmcommands.cpp:1015
 msgid "The file contains multiple messages. Only the first message is shown."
 msgstr ""
 
-#: kmcommands.cpp:1148
+#: kmcommands.cpp:1149
 msgid "Forward selected messages as a MIME digest?"
 msgstr "Wubrane powěsće jako MIME-zjeće dopósłać?"
 
-#: kmcommands.cpp:1149
+#: kmcommands.cpp:1150
 #, fuzzy
 msgid "Send Digest"
 msgstr "&Nješifrowane zawěsćić"
 
-#: kmcommands.cpp:1149
+#: kmcommands.cpp:1150
 #, fuzzy
 msgid "Send"
 msgstr "Pó&sćel"
 
-#: kmcommands.cpp:1163
+#: kmcommands.cpp:1164
 msgid ""
 "\n"
 "This is a MIME digest forward. The content of the message is contained in the "
@@ -4133,189 +4133,194 @@ msgstr ""
 "\n"
 "\n"
 
-#: kmcommands.cpp:1486
+#: kmcommands.cpp:1481 kmheaders.cpp:1363
+#, fuzzy
+msgid "Filtering message %1 of %2"
+msgstr "Přesuwam powěsć %3 z %2 wot %1."
+
+#: kmcommands.cpp:1491
 #, fuzzy
 msgid "Not enough free disk space?"
 msgstr "Rum na disku njedosaha."
 
-#: kmcommands.cpp:1649 kmfoldertree.cpp:1819
+#: kmcommands.cpp:1654 kmfoldertree.cpp:1819
 #, fuzzy
 msgid "Move to This Folder"
 msgstr "Do tutoho zapiska sunyć"
 
-#: kmcommands.cpp:1651 kmfoldertree.cpp:1821
+#: kmcommands.cpp:1656 kmfoldertree.cpp:1821
 #, fuzzy
 msgid "Copy to This Folder"
 msgstr "Do tutoho zapiska kopěrować"
 
-#: kmcommands.cpp:1875
+#: kmcommands.cpp:1880
 #, fuzzy
 msgid "Moving messages"
 msgstr "Přesuwam powěsć %3 z %2 wot %1."
 
-#: kmcommands.cpp:1875
+#: kmcommands.cpp:1880
 #, fuzzy
 msgid "Deleting messages"
 msgstr "Powěsće zničić"
 
-#: kmcommands.cpp:2148
+#: kmcommands.cpp:2153
 msgid "Opening URL..."
 msgstr "Wočinjam URL..."
 
-#: kmcommands.cpp:2155
+#: kmcommands.cpp:2160
 msgid "<qt>Do you really want to execute <b>%1</b>?</qt>"
 msgstr "<qt>Chceće woprawdźe <b>%1</b> startować?</qt>"
 
-#: kmcommands.cpp:2156
+#: kmcommands.cpp:2161
 #, fuzzy
 msgid "Execute"
 msgstr "Wuwjedu předpřikaz %1"
 
-#: kmcommands.cpp:2237
+#: kmcommands.cpp:2242
 #, fuzzy
 msgid "Found no attachments to save."
 msgstr "Njepokazuje přiwěški w powěsći samej"
 
-#: kmcommands.cpp:2250
+#: kmcommands.cpp:2255
 #, fuzzy
 msgid "Save Attachments To"
 msgstr "Přiwěšk zawěsćić jako"
 
-#: kmcommands.cpp:2270
+#: kmcommands.cpp:2275
 msgid ""
 "_: filename for an unnamed attachment\n"
 "attachment.1"
 msgstr ""
 
-#: kmcommands.cpp:2298
+#: kmcommands.cpp:2303
 msgid ""
 "_: filename for the %1-th unnamed attachment\n"
 "attachment.%1"
 msgstr ""
 
-#: kmcommands.cpp:2337
+#: kmcommands.cpp:2342
 #, fuzzy
 msgid "A file named %1 already exists. Do you want to overwrite it?"
 msgstr ""
 "Dataja %1 eksistuje?\n"
 "Chceće ju přepisać?"
 
-#: kmcommands.cpp:2339
+#: kmcommands.cpp:2344
 msgid "File Already Exists"
 msgstr ""
 
-#: kmcommands.cpp:2339 kmcommands.cpp:2992
+#: kmcommands.cpp:2344 kmcommands.cpp:2997
 msgid "&Overwrite"
 msgstr ""
 
-#: kmcommands.cpp:2361
+#: kmcommands.cpp:2366
 msgid ""
 "The part %1 of the message is encrypted. Do you want to keep the encryption "
 "when saving?"
 msgstr ""
 
-#: kmcommands.cpp:2363 kmcommands.cpp:2372
+#: kmcommands.cpp:2368 kmcommands.cpp:2377
 #, fuzzy
 msgid "KMail Question"
 msgstr "KMail"
 
-#: kmcommands.cpp:2363
+#: kmcommands.cpp:2368
 #, fuzzy
 msgid "Keep Encryption"
 msgstr "Šifrowanje"
 
-#: kmcommands.cpp:2363 kmcommands.cpp:2372
+#: kmcommands.cpp:2368 kmcommands.cpp:2377
 #, fuzzy
 msgid "Do Not Keep"
 msgstr "Šifrowanje"
 
-#: kmcommands.cpp:2370
+#: kmcommands.cpp:2375
 msgid ""
 "The part %1 of the message is signed. Do you want to keep the signature when "
 "saving?"
 msgstr ""
 
-#: kmcommands.cpp:2372
+#: kmcommands.cpp:2377
 #, fuzzy
 msgid "Keep Signature"
 msgstr "&Signatura:"
 
-#: kmcommands.cpp:2447
+#: kmcommands.cpp:2452
 msgid ""
 "_: %2 is detailed error description\n"
 "Could not write the file %1:\n"
 "%2"
 msgstr ""
 
-#: kmcommands.cpp:2468
+#: kmcommands.cpp:2473
 #, fuzzy, c-format
 msgid "Could not write the file %1."
 msgstr ""
 "Njemóžach do dataje pisać:\n"
 "%1"
 
-#: kmcommands.cpp:2686
+#: kmcommands.cpp:2691
 msgid ""
 "There is no Address Book entry for this email address. Add them to the Address "
 "Book and then add instant messaging addresses using your preferred messaging "
 "client."
 msgstr ""
 
-#: kmcommands.cpp:2689
+#: kmcommands.cpp:2694
 msgid ""
 "More than one Address Book entry uses this email address:\n"
 " %1\n"
 " it is not possible to determine who to chat with."
 msgstr ""
 
-#: kmcommands.cpp:2913 kmcomposewin.cpp:4674 objecttreeparser.cpp:1606
+#: kmcommands.cpp:2918 kmcomposewin.cpp:4674 objecttreeparser.cpp:1606
 msgid ""
 "Chiasmus backend does not offer the \"x-obtain-keys\" function. Please report "
 "this bug."
 msgstr ""
 
-#: kmcommands.cpp:2915 kmcommands.cpp:2920 kmcommands.cpp:2929
-#: kmcommands.cpp:2938 kmcommands.cpp:2956 kmcommands.cpp:2967
-#: kmcommands.cpp:3024 kmcomposewin.cpp:4676 kmcomposewin.cpp:4681
+#: kmcommands.cpp:2920 kmcommands.cpp:2925 kmcommands.cpp:2934
+#: kmcommands.cpp:2943 kmcommands.cpp:2961 kmcommands.cpp:2972
+#: kmcommands.cpp:3029 kmcomposewin.cpp:4676 kmcomposewin.cpp:4681
 #: kmcomposewin.cpp:4690 messagecomposer.cpp:528 messagecomposer.cpp:536
 #: messagecomposer.cpp:550 objecttreeparser.cpp:1612
 msgid "Chiasmus Backend Error"
 msgstr ""
 
-#: kmcommands.cpp:2926 kmcomposewin.cpp:4687 objecttreeparser.cpp:1618
+#: kmcommands.cpp:2931 kmcomposewin.cpp:4687 objecttreeparser.cpp:1618
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-obtain-keys\" function "
 "did not return a string list. Please report this bug."
 msgstr ""
 
-#: kmcommands.cpp:2935 kmcomposewin.cpp:4696 objecttreeparser.cpp:1626
+#: kmcommands.cpp:2940 kmcomposewin.cpp:4696 objecttreeparser.cpp:1626
 msgid ""
 "No keys have been found. Please check that a valid key path has been set in the "
 "Chiasmus configuration."
 msgstr ""
 
-#: kmcommands.cpp:2942 objecttreeparser.cpp:1633
+#: kmcommands.cpp:2947 objecttreeparser.cpp:1633
 #, fuzzy
 msgid "Chiasmus Decryption Key Selection"
 msgstr "Šifrowanje"
 
-#: kmcommands.cpp:2954 objecttreeparser.cpp:1645
+#: kmcommands.cpp:2959 objecttreeparser.cpp:1645
 msgid ""
 "Chiasmus backend does not offer the \"x-decrypt\" function. Please report this "
 "bug."
 msgstr ""
 
-#: kmcommands.cpp:2965 objecttreeparser.cpp:1653
+#: kmcommands.cpp:2970 objecttreeparser.cpp:1653
 msgid ""
 "The \"x-decrypt\" function does not accept the expected parameters. Please "
 "report this bug."
 msgstr ""
 
-#: kmcommands.cpp:2973 kmcommands.cpp:3016 objecttreeparser.cpp:1659
+#: kmcommands.cpp:2978 kmcommands.cpp:3021 objecttreeparser.cpp:1659
 msgid "Chiasmus Decryption Error"
 msgstr ""
 
-#: kmcommands.cpp:2989
+#: kmcommands.cpp:2994
 #, fuzzy
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
@@ -4323,12 +4328,12 @@ msgstr ""
 "Dataja %1 eksistuje?\n"
 "Chceće ju přepisać?"
 
-#: kmcommands.cpp:2991
+#: kmcommands.cpp:2996
 #, fuzzy
 msgid "Overwrite File?"
 msgstr "Dataju zasunyć"
 
-#: kmcommands.cpp:3021 objecttreeparser.cpp:1665
+#: kmcommands.cpp:3026 objecttreeparser.cpp:1665
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-decrypt\" function did "
 "not return a byte array. Please report this bug."
@@ -4342,7 +4347,7 @@ msgstr "Emailowe adresy wubrać"
 msgid "Sticky"
 msgstr "Lěpjaty"
 
-#: kmcomposewin.cpp:316 kmheaders.cpp:131 kmheaders.cpp:176
+#: kmcomposewin.cpp:316 kmheaders.cpp:132 kmheaders.cpp:177
 #: kmmimeparttree.cpp:63 kmpopfiltercnfrmdlg.cpp:43
 msgid "Size"
 msgstr "Wulkosć"
@@ -5910,15 +5915,15 @@ msgid "Sho&w column:"
 msgstr " Špalta: %1"
 
 #. i18n: file folderpropertiesdialog.ui line 520
-#: kmfolderdia.cpp:385 kmheaders.cpp:174 kmheaders.cpp:233 kmheaders.cpp:349
-#: kmheaders.cpp:520 kmheaders.cpp:732 kmpopfiltercnfrmdlg.cpp:40 rc.cpp:524
+#: kmfolderdia.cpp:385 kmheaders.cpp:175 kmheaders.cpp:234 kmheaders.cpp:350
+#: kmheaders.cpp:521 kmheaders.cpp:733 kmpopfiltercnfrmdlg.cpp:40 rc.cpp:524
 #, no-c-format
 msgid "Sender"
 msgstr "Wotpósłar"
 
 #. i18n: file folderpropertiesdialog.ui line 525
-#: kmfolderdia.cpp:386 kmheaders.cpp:132 kmheaders.cpp:177 kmheaders.cpp:230
-#: kmheaders.cpp:235 kmheaders.cpp:351 kmheaders.cpp:522 kmheaders.cpp:734
+#: kmfolderdia.cpp:386 kmheaders.cpp:133 kmheaders.cpp:178 kmheaders.cpp:231
+#: kmheaders.cpp:236 kmheaders.cpp:352 kmheaders.cpp:523 kmheaders.cpp:735
 #: kmpopfiltercnfrmdlg.cpp:41 rc.cpp:527
 #, no-c-format
 msgid "Receiver"
@@ -6241,7 +6246,7 @@ msgstr "&Nowy podzapisk..."
 msgid "Create a new subfolder under the currently selected folder"
 msgstr ""
 
-#: kmfoldertree.cpp:335 kmheaders.cpp:121
+#: kmfoldertree.cpp:335 kmheaders.cpp:122
 #, fuzzy
 msgid "View Columns"
 msgstr "Napohlad špaltow"
@@ -6350,58 +6355,58 @@ msgstr "Dohromady"
 msgid "<qt>Cannot move folder <b>%1</b> into a subfolder below itself.</qt>"
 msgstr ""
 
-#: kmheaders.cpp:123
+#: kmheaders.cpp:124
 msgid "Status"
 msgstr "Staw"
 
-#: kmheaders.cpp:124 kmsearchpattern.h:218
+#: kmheaders.cpp:125 kmsearchpattern.h:218
 #, fuzzy
 msgid "Important"
 msgstr "&Importować"
 
-#: kmheaders.cpp:125
+#: kmheaders.cpp:126
 #, fuzzy
 msgid "Todo"
 msgstr "Na: "
 
-#: kmheaders.cpp:126
+#: kmheaders.cpp:127
 #, fuzzy
 msgid "Attachment"
 msgstr "Přiwěšk: "
 
-#: kmheaders.cpp:127
+#: kmheaders.cpp:128
 msgid "Spam/Ham"
 msgstr ""
 
-#: kmheaders.cpp:128
+#: kmheaders.cpp:129
 #, fuzzy
 msgid "Watched/Ignored"
 msgstr "&Ignorować"
 
-#: kmheaders.cpp:129
+#: kmheaders.cpp:130
 #, fuzzy
 msgid "Signature"
 msgstr "&Signatura:"
 
-#: kmheaders.cpp:173 kmheaders.cpp:742 kmheaders.cpp:2465
+#: kmheaders.cpp:174 kmheaders.cpp:743 kmheaders.cpp:2472
 #: kmpopfiltercnfrmdlg.cpp:39 searchwindow.cpp:179
 msgid "Subject"
 msgstr "Tema"
 
-#: kmheaders.cpp:175 kmheaders.cpp:737 kmheaders.cpp:2460
+#: kmheaders.cpp:176 kmheaders.cpp:738 kmheaders.cpp:2467
 #: kmpopfiltercnfrmdlg.cpp:42 searchwindow.cpp:183
 msgid "Date"
 msgstr "Datum"
 
-#: kmheaders.cpp:739 kmheaders.cpp:2462
+#: kmheaders.cpp:740 kmheaders.cpp:2469
 msgid "Date (Order of Arrival)"
 msgstr "Datum (po dochadźe)"
 
-#: kmheaders.cpp:744 kmheaders.cpp:2467
+#: kmheaders.cpp:745 kmheaders.cpp:2474
 msgid " (Status)"
 msgstr " (staw)"
 
-#: kmheaders.cpp:1315
+#: kmheaders.cpp:1316
 #, c-format
 msgid ""
 "_n: 1 unsent\n"
@@ -6412,11 +6417,11 @@ msgstr ""
 "%n nječitanej\n"
 "%n nječitane"
 
-#: kmheaders.cpp:1315
+#: kmheaders.cpp:1316
 msgid "0 unsent"
 msgstr "žane njepósłane"
 
-#: kmheaders.cpp:1317
+#: kmheaders.cpp:1318
 #, c-format
 msgid ""
 "_n: 1 unread\n"
@@ -6427,11 +6432,11 @@ msgstr ""
 "%n nječitanej\n"
 "%n nječitane"
 
-#: kmheaders.cpp:1317
+#: kmheaders.cpp:1318
 msgid "0 unread"
 msgstr "žane nječitane"
 
-#: kmheaders.cpp:1319
+#: kmheaders.cpp:1320
 msgid ""
 "_n: 1 message, %1.\n"
 "%n messages, %1."
@@ -6441,17 +6446,17 @@ msgstr ""
 "%n powěsći, %1.\n"
 "%n powěsće, %1."
 
-#: kmheaders.cpp:1320
+#: kmheaders.cpp:1321
 msgid "0 messages"
 msgstr "žane powěsće"
 
-#: kmheaders.cpp:1322
+#: kmheaders.cpp:1323
 msgid ""
 "_: %1 = n messages, m unread.\n"
 "%1 Folder is read-only."
 msgstr "Zapisk %1 hodźi so jenož čitać."
 
-#: kmheaders.cpp:1487
+#: kmheaders.cpp:1494
 #, c-format
 msgid ""
 "_n: <qt>Do you really want to delete the selected message?"
@@ -6468,49 +6473,49 @@ msgstr ""
 "<qt>Chceće woprawdźe te %n wubrane powěsće zničić?"
 "<br>Njebudźe móžno je rekonstruować!</qt>"
 
-#: kmheaders.cpp:1489
+#: kmheaders.cpp:1496
 msgid "Delete Messages"
 msgstr "Powěsće zničić"
 
-#: kmheaders.cpp:1489
+#: kmheaders.cpp:1496
 msgid "Delete Message"
 msgstr "Powěsć zničić"
 
-#: kmheaders.cpp:1513
+#: kmheaders.cpp:1520
 msgid "Messages deleted successfully."
 msgstr "Powěsće wuspěšnje zničene."
 
-#: kmheaders.cpp:1513
+#: kmheaders.cpp:1520
 msgid "Messages moved successfully"
 msgstr "Powěsće wuspěšnje přesunjene"
 
-#: kmheaders.cpp:1536
+#: kmheaders.cpp:1543
 msgid "Deleting messages failed."
 msgstr "Njemóžach powěsće zničić."
 
-#: kmheaders.cpp:1536
+#: kmheaders.cpp:1543
 msgid "Moving messages failed."
 msgstr "Njemóžach powěsće přesunyć."
 
-#: kmheaders.cpp:1539
+#: kmheaders.cpp:1546
 msgid "Deleting messages canceled."
 msgstr "Zničenje powěsćow přetorhnjene."
 
-#: kmheaders.cpp:1539
+#: kmheaders.cpp:1546
 msgid "Moving messages canceled."
 msgstr "Přesunjenje powěsćow přetorhnjene."
 
-#: kmheaders.cpp:2293 kmmainwidget.cpp:2637 kmreadermainwin.cpp:369
+#: kmheaders.cpp:2300 kmmainwidget.cpp:2637 kmreadermainwin.cpp:369
 #: searchwindow.cpp:737
 msgid "&Copy To"
 msgstr "&Kopěruj do"
 
-#: kmheaders.cpp:2296 kmheaders.cpp:2302 kmmainwidget.cpp:2634
+#: kmheaders.cpp:2303 kmheaders.cpp:2309 kmmainwidget.cpp:2634
 #: searchwindow.cpp:738
 msgid "&Move To"
 msgstr "&Suń do"
 
-#: kmheaders.cpp:2627 kmheaders.cpp:2667
+#: kmheaders.cpp:2634 kmheaders.cpp:2674
 msgid ""
 "Failure modifying %1\n"
 "(No space left on device?)"
