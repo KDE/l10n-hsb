@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
-"POT-Creation-Date: 2006-12-05 08:56+0100\n"
+"POT-Creation-Date: 2006-12-07 08:54+0100\n"
 "PO-Revision-Date: 2005-01-28 13:28+0000\n"
 "Last-Translator: Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -78,7 +78,7 @@ msgstr ""
 msgid "Files Exist"
 msgstr ""
 
-#: k3b.cpp:918 k3bdebuggingoutputdialog.cpp:142 k3bemptydiscwaiter.cpp:347
+#: k3b.cpp:919 k3bdebuggingoutputdialog.cpp:142 k3bemptydiscwaiter.cpp:347
 #: k3bemptydiscwaiter.cpp:417 misc/k3bcdcopydialog.cpp:297
 #: misc/k3bcdcopydialog.cpp:305 misc/k3bdvdcopydialog.cpp:251
 #: option/k3bthemeoptiontab.cpp:190 projects/k3bdataburndialog.cpp:183
@@ -1393,7 +1393,7 @@ msgid ""
 "There seems to be not enough free space in temporary directory. Write anyway?"
 msgstr ""
 
-#: k3b.cpp:917 k3bdebuggingoutputdialog.cpp:141 misc/k3bcdcopydialog.cpp:296
+#: k3b.cpp:918 k3bdebuggingoutputdialog.cpp:141 misc/k3bcdcopydialog.cpp:296
 #: misc/k3bcdcopydialog.cpp:304 misc/k3bdvdcopydialog.cpp:250
 #: projects/k3bdataburndialog.cpp:182 projects/k3bdvdburndialog.cpp:280
 #: projects/k3bmovixburndialog.cpp:227 projects/k3bmovixdvdburndialog.cpp:191
@@ -1401,7 +1401,7 @@ msgstr ""
 msgid "Do you want to overwrite %1?"
 msgstr ""
 
-#: k3b.cpp:918 k3bdebuggingoutputdialog.cpp:142 misc/k3bcdcopydialog.cpp:297
+#: k3b.cpp:919 k3bdebuggingoutputdialog.cpp:142 misc/k3bcdcopydialog.cpp:297
 #: misc/k3bcdcopydialog.cpp:305 misc/k3bdvdcopydialog.cpp:251
 #: projects/k3bdataburndialog.cpp:183 projects/k3bdvdburndialog.cpp:281
 #: projects/k3bmovixburndialog.cpp:228 projects/k3bmovixdvdburndialog.cpp:192
@@ -1473,7 +1473,7 @@ msgstr ""
 msgid "*.toc *.TOC|Cdrdao TOC Files and Cdrecord Clone Images"
 msgstr ""
 
-#: k3b.cpp:1245 k3bfileview.cpp:103 misc/k3bcdimagewritingdialog.cpp:191
+#: k3b.cpp:1246 k3bfileview.cpp:103 misc/k3bcdimagewritingdialog.cpp:191
 #: misc/k3bisoimagewritingdialog.cpp:157
 msgid "*|All Files"
 msgstr ""
@@ -1821,11 +1821,35 @@ msgstr ""
 msgid "Set Read Speed..."
 msgstr ""
 
-#: k3bappdevicemanager.cpp:202
+#: k3bappdevicemanager.cpp:62
+msgid "Display generic medium information"
+msgstr ""
+
+#: k3bappdevicemanager.cpp:63
+msgid "Unmount the medium"
+msgstr ""
+
+#: k3bappdevicemanager.cpp:64
+msgid "Mount the medium"
+msgstr ""
+
+#: k3bappdevicemanager.cpp:65
+msgid "Eject the medium"
+msgstr ""
+
+#: k3bappdevicemanager.cpp:66
+msgid "(Re)Load the medium"
+msgstr ""
+
+#: k3bappdevicemanager.cpp:67
+msgid "Force the drive's read speed"
+msgstr ""
+
+#: k3bappdevicemanager.cpp:222
 msgid "CD Read Speed"
 msgstr ""
 
-#: k3bappdevicemanager.cpp:203
+#: k3bappdevicemanager.cpp:223
 msgid ""
 "<p>Please enter the preferred read speed for <b>%1</b>"
 ". This speed will be used for the currently mounted medium."
@@ -1835,7 +1859,7 @@ msgid ""
 "speed again when copying CDs or DVDs."
 msgstr ""
 
-#: k3bappdevicemanager.cpp:221
+#: k3bappdevicemanager.cpp:241
 msgid "Setting the read speed failed."
 msgstr ""
 
@@ -2262,7 +2286,7 @@ msgstr ""
 msgid "Open the CD copy dialog, optionally specify the source device"
 msgstr ""
 
-#: k3b.cpp:335 main.cpp:60
+#: k3b.cpp:336 main.cpp:60
 msgid "Open the DVD copy dialog"
 msgstr ""
 
@@ -2554,220 +2578,224 @@ msgid "Open the CD copy dialog"
 msgstr "Ripowanje Widejo-CDki"
 
 #: k3b.cpp:334
-msgid "Write an Iso9660, cue/bin, or cdrecord clone image"
+msgid "Write an Iso9660, cue/bin, or cdrecord clone image to CD"
 msgstr ""
 
-#: k3b.cpp:336
-msgid "Opens an existing project"
+#: k3b.cpp:335
+msgid "Write an Iso9660 image to DVD"
 msgstr ""
 
 #: k3b.cpp:337
-msgid "Opens a recently used file"
+msgid "Opens an existing project"
 msgstr ""
 
 #: k3b.cpp:338
-msgid "Saves the current project"
+msgid "Opens a recently used file"
 msgstr ""
 
 #: k3b.cpp:339
-msgid "Saves the current project to a new url"
+msgid "Saves the current project"
 msgstr ""
 
 #: k3b.cpp:340
-msgid "Saves all open projects"
+msgid "Saves the current project to a new url"
 msgstr ""
 
 #: k3b.cpp:341
-msgid "Closes the current project"
+msgid "Saves all open projects"
 msgstr ""
 
 #: k3b.cpp:342
-msgid "Closes all open projects"
+msgid "Closes the current project"
 msgstr ""
 
 #: k3b.cpp:343
-msgid "Quits the application"
+msgid "Closes all open projects"
 msgstr ""
 
 #: k3b.cpp:344
+msgid "Quits the application"
+msgstr ""
+
+#: k3b.cpp:345
 #, fuzzy
 msgid "Configure K3b settings"
 msgstr "Nastajenja"
 
-#: k3b.cpp:346
+#: k3b.cpp:347
 msgid "Setup the system permissions (requires root privileges)"
 msgstr ""
 
-#: k3b.cpp:348
+#: k3b.cpp:349
 msgid "Digitally extract tracks from an audio CD"
 msgstr ""
 
-#: k3b.cpp:349
+#: k3b.cpp:350
 msgid "Transcode Video DVD titles"
 msgstr ""
 
-#: k3b.cpp:350
+#: k3b.cpp:351
 msgid "Extract tracks from a Video CD"
 msgstr ""
 
-#: k3b.cpp:351
+#: k3b.cpp:352
 msgid "Add files to the current project"
 msgstr ""
 
-#: k3b.cpp:352
+#: k3b.cpp:353
 msgid "Clear the current project"
 msgstr ""
 
-#: k3b.cpp:381
+#: k3b.cpp:382
 msgid "Project View"
 msgstr ""
 
-#: k3b.cpp:398
+#: k3b.cpp:399
 msgid "Current Projects"
 msgstr ""
 
-#: k3b.cpp:412
+#: k3b.cpp:413
 msgid "Quickstart"
 msgstr ""
 
-#: k3b.cpp:420
+#: k3b.cpp:421
 msgid "Sidepanel"
 msgstr ""
 
-#: k3b.cpp:434
+#: k3b.cpp:435
 msgid "Contents View"
 msgstr ""
 
-#: k3b.cpp:453
+#: k3b.cpp:454
 msgid "&Quick Dir Selector"
 msgstr ""
 
-#: k3b.cpp:457
+#: k3b.cpp:458
 msgid "Go"
 msgstr ""
 
-#: k3b.cpp:529 k3b.cpp:834 k3b.cpp:848
+#: k3b.cpp:530 k3b.cpp:835 k3b.cpp:849
 msgid "Opening file..."
 msgstr ""
 
-#: k3b.cpp:554
+#: k3b.cpp:555
 msgid "Could not open document!"
 msgstr ""
 
-#: k3b.cpp:554
+#: k3b.cpp:555
 msgid "Error!"
 msgstr ""
 
-#: k3b.cpp:803
+#: k3b.cpp:804
 msgid "%1 has unsaved data."
 msgstr ""
 
-#: k3b.cpp:804
+#: k3b.cpp:805
 msgid "Closing Project"
 msgstr ""
 
-#: k3b.cpp:837 k3b.cpp:904
+#: k3b.cpp:838 k3b.cpp:905
 msgid "*.k3b|K3b Projects"
 msgstr ""
 
-#: k3b.cpp:839
+#: k3b.cpp:840
 msgid "Open Files"
 msgstr ""
 
-#: k3b.cpp:872
+#: k3b.cpp:873
 msgid "Saving file..."
 msgstr ""
 
-#: k3b.cpp:881 k3b.cpp:922
+#: k3b.cpp:882 k3b.cpp:923
 msgid "Could not save the current document!"
 msgstr ""
 
-#: k3b.cpp:881 k3b.cpp:922
+#: k3b.cpp:882 k3b.cpp:923
 msgid "I/O Error"
 msgstr ""
 
-#: k3b.cpp:896
+#: k3b.cpp:897
 msgid "Saving file with a new filename..."
 msgstr ""
 
-#: k3b.cpp:935
+#: k3b.cpp:936
 msgid "Closing file..."
 msgstr ""
 
-#: k3b.cpp:1046
+#: k3b.cpp:1047
 msgid "Creating new Audio CD Project."
 msgstr ""
 
-#: k3b.cpp:1055
+#: k3b.cpp:1056
 msgid "Creating new Data CD Project."
 msgstr ""
 
-#: k3b.cpp:1065
+#: k3b.cpp:1066
 msgid "Creating new Data DVD Project."
 msgstr ""
 
-#: k3b.cpp:1081
+#: k3b.cpp:1082
 msgid "Creating new VideoDVD Project."
 msgstr ""
 
-#: k3b.cpp:1091
+#: k3b.cpp:1092
 msgid "Creating new Mixed Mode CD Project."
 msgstr ""
 
-#: k3b.cpp:1100
+#: k3b.cpp:1101
 msgid "Creating new Video CD Project."
 msgstr ""
 
-#: k3b.cpp:1110
+#: k3b.cpp:1111
 msgid "Creating new eMovix CD Project."
 msgstr ""
 
-#: k3b.cpp:1120
+#: k3b.cpp:1121
 msgid "Creating new eMovix DVD Project."
 msgstr ""
 
-#: k3b.cpp:1247
+#: k3b.cpp:1248
 msgid "Select Files to Add to Project"
 msgstr ""
 
-#: k3b.cpp:1261
+#: k3b.cpp:1262
 msgid "Please create a project before adding files"
 msgstr ""
 
-#: k3b.cpp:1261
+#: k3b.cpp:1262
 msgid "No Active Project"
 msgstr ""
 
-#: k3b.cpp:1270
+#: k3b.cpp:1271
 msgid ""
 "Could not find kdesu to run K3bSetup with root privileges. Please run it "
 "manually as root."
 msgstr ""
 
-#: k3b.cpp:1497
+#: k3b.cpp:1498
 msgid "Do you really want to clear the current project?"
 msgstr ""
 
-#: k3b.cpp:1498
+#: k3b.cpp:1499
 msgid "Clear Project"
 msgstr ""
 
-#: k3b.cpp:1540
+#: k3b.cpp:1541
 #, fuzzy
 msgid "Audio CD Rip"
 msgstr "Ripowanje Widejo-CDki"
 
-#: k3b.cpp:1555
+#: k3b.cpp:1556
 #, fuzzy
 msgid "Video DVD Rip"
 msgstr "Ripowanje Widejo-CDki"
 
-#: k3b.cpp:1576
+#: k3b.cpp:1577
 #, fuzzy
 msgid "Video CD Rip"
 msgstr "Ripowanje Widejo-CDki"
 
-#: k3b.cpp:1591
+#: k3b.cpp:1592
 msgid "Audio Output Problem"
 msgstr ""
 
@@ -3410,8 +3438,8 @@ msgid ""
 "the application manually."
 msgstr ""
 
-#: k3bwriterselectionwidget.cpp:260 projects/k3bdataurladdingdialog.cpp:424
-#: projects/k3bdataurladdingdialog.cpp:668
+#: k3bwriterselectionwidget.cpp:260 projects/k3bdataurladdingdialog.cpp:430
+#: projects/k3bdataurladdingdialog.cpp:674
 msgid "Ignore"
 msgstr ""
 
@@ -3477,64 +3505,64 @@ msgstr ""
 msgid "<p>Do you really want K3b to kill the following processes: <em>"
 msgstr ""
 
-#: k3bstatusbarmanager.cpp:59
+#: k3bstatusbarmanager.cpp:60
 msgid "Temp:"
 msgstr ""
 
-#: k3bstatusbarmanager.cpp:111
+#: k3bstatusbarmanager.cpp:113
 msgid "No info"
 msgstr ""
 
-#: k3bstatusbarmanager.cpp:167
+#: k3bstatusbarmanager.cpp:169
 msgid ""
 "_n: 1 file in %1\n"
 "%n files in %1"
 msgstr ""
 
-#: k3bstatusbarmanager.cpp:168
+#: k3bstatusbarmanager.cpp:170
 #, c-format
 msgid ""
 "_n: 1 folder\n"
 "%n folders"
 msgstr ""
 
-#: k3bstatusbarmanager.cpp:178
+#: k3bstatusbarmanager.cpp:196
 #, c-format
 msgid ""
 "_n: Audio CD (1 track)\n"
 "Audio CD (%n tracks)"
 msgstr ""
 
-#: k3bstatusbarmanager.cpp:184
+#: k3bstatusbarmanager.cpp:202
 msgid "Data CD (%1)"
 msgstr ""
 
-#: k3bstatusbarmanager.cpp:191
+#: k3bstatusbarmanager.cpp:209
 msgid ""
 "_n: Mixed CD (1 track and %1)\n"
 "Mixed CD (%n tracks and %1)"
 msgstr ""
 
-#: k3bstatusbarmanager.cpp:198
+#: k3bstatusbarmanager.cpp:216
 #, c-format
 msgid ""
 "_n: Video CD (1 track)\n"
 "Video CD (%n tracks)"
 msgstr ""
 
-#: k3bstatusbarmanager.cpp:204
+#: k3bstatusbarmanager.cpp:222
 msgid "eMovix CD (%1)"
 msgstr ""
 
-#: k3bstatusbarmanager.cpp:210
+#: k3bstatusbarmanager.cpp:228
 msgid "eMovix DVD (%1)"
 msgstr ""
 
-#: k3bstatusbarmanager.cpp:216
+#: k3bstatusbarmanager.cpp:234
 msgid "Data DVD (%1)"
 msgstr ""
 
-#: k3bstatusbarmanager.cpp:222
+#: k3bstatusbarmanager.cpp:240
 #, fuzzy
 msgid "Video DVD (%1)"
 msgstr "Ripowanje Widejo-CDki"
@@ -6838,8 +6866,8 @@ msgid "New Directory..."
 msgstr "Zapisk za output"
 
 #: projects/k3bdatadirtreeview.cpp:291 projects/k3bdatafileview.cpp:330
-#: projects/k3bdataurladdingdialog.cpp:430
-#: projects/k3bdataurladdingdialog.cpp:674
+#: projects/k3bdataurladdingdialog.cpp:436
+#: projects/k3bdataurladdingdialog.cpp:680
 msgid "Rename"
 msgstr ""
 
@@ -7727,56 +7755,56 @@ msgstr ""
 msgid "Moving files to project \"%1\"..."
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:409
-#: projects/k3bdataurladdingdialog.cpp:653
+#: projects/k3bdataurladdingdialog.cpp:415
+#: projects/k3bdataurladdingdialog.cpp:659
 msgid "File already exists"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:410
-#: projects/k3bdataurladdingdialog.cpp:654
+#: projects/k3bdataurladdingdialog.cpp:416
+#: projects/k3bdataurladdingdialog.cpp:660
 msgid "<p>File <em>%1</em> already exists in project folder <em>%2</em>."
-msgstr ""
-
-#: projects/k3bdataurladdingdialog.cpp:420
-#: projects/k3bdataurladdingdialog.cpp:664
-msgid "Replace the existing file"
-msgstr ""
-
-#: projects/k3bdataurladdingdialog.cpp:421
-#: projects/k3bdataurladdingdialog.cpp:665
-msgid "Replace All"
-msgstr ""
-
-#: projects/k3bdataurladdingdialog.cpp:423
-#: projects/k3bdataurladdingdialog.cpp:667
-msgid "Always replace existing files"
 msgstr ""
 
 #: projects/k3bdataurladdingdialog.cpp:426
 #: projects/k3bdataurladdingdialog.cpp:670
-msgid "Keep the existing file"
+msgid "Replace the existing file"
 msgstr ""
 
 #: projects/k3bdataurladdingdialog.cpp:427
 #: projects/k3bdataurladdingdialog.cpp:671
-msgid "Ignore All"
+msgid "Replace All"
 msgstr ""
 
 #: projects/k3bdataurladdingdialog.cpp:429
 #: projects/k3bdataurladdingdialog.cpp:673
-msgid "Always keep the existing file"
+msgid "Always replace existing files"
 msgstr ""
 
 #: projects/k3bdataurladdingdialog.cpp:432
 #: projects/k3bdataurladdingdialog.cpp:676
+msgid "Keep the existing file"
+msgstr ""
+
+#: projects/k3bdataurladdingdialog.cpp:433
+#: projects/k3bdataurladdingdialog.cpp:677
+msgid "Ignore All"
+msgstr ""
+
+#: projects/k3bdataurladdingdialog.cpp:435
+#: projects/k3bdataurladdingdialog.cpp:679
+msgid "Always keep the existing file"
+msgstr ""
+
+#: projects/k3bdataurladdingdialog.cpp:438
+#: projects/k3bdataurladdingdialog.cpp:682
 msgid "Rename the new file"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:473
+#: projects/k3bdataurladdingdialog.cpp:479
 msgid "Adding link to folder"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:474
+#: projects/k3bdataurladdingdialog.cpp:480
 msgid ""
 "<p>'%1' is a symbolic link to folder '%2'."
 "<p>If you intend to make K3b follow symbolic links you should consider letting "
@@ -7787,51 +7815,51 @@ msgid ""
 "project.</b>"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:486
+#: projects/k3bdataurladdingdialog.cpp:492
 msgid "Follow link now"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:487
+#: projects/k3bdataurladdingdialog.cpp:493
 msgid "Always follow links"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:488
+#: projects/k3bdataurladdingdialog.cpp:494
 #, fuzzy
 msgid "Add link to project"
 msgstr "Ripowane dataje do:"
 
-#: projects/k3bdataurladdingdialog.cpp:489
+#: projects/k3bdataurladdingdialog.cpp:495
 msgid "Always add links"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:742
+#: projects/k3bdataurladdingdialog.cpp:748
 msgid "Enter New Filename"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:743
+#: projects/k3bdataurladdingdialog.cpp:749
 msgid "A file with that name already exists. Please enter a new name:"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:759
+#: projects/k3bdataurladdingdialog.cpp:765
 msgid "Do you also want to add hidden files?"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:760
+#: projects/k3bdataurladdingdialog.cpp:766
 msgid "Hidden Files"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:760
-#: projects/k3bdataurladdingdialog.cpp:776
+#: projects/k3bdataurladdingdialog.cpp:766
+#: projects/k3bdataurladdingdialog.cpp:782
 msgid "Do Not Add"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:774
+#: projects/k3bdataurladdingdialog.cpp:780
 msgid ""
 "Do you also want to add system files (FIFOs, sockets, device files, and broken "
 "symlinks)?"
 msgstr ""
 
-#: projects/k3bdataurladdingdialog.cpp:776
+#: projects/k3bdataurladdingdialog.cpp:782
 msgid "System Files"
 msgstr ""
 
