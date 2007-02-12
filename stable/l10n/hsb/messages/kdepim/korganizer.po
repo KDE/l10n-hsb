@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
-"POT-Creation-Date: 2007-02-11 02:46+0100\n"
+"POT-Creation-Date: 2007-02-12 02:44+0100\n"
 "PO-Revision-Date: 2004-04-16 17:59+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -896,11 +896,20 @@ msgstr ""
 msgid "Edit Reminders"
 msgstr ""
 
-#: koagendaitem.cpp:780 koagendaitem.cpp:881
+#: koagendaitem.cpp:559
+msgid "Attendee \"%1\" added to the calendar item \"%2\""
+msgstr ""
+
+#: koagendaitem.cpp:559
+#, fuzzy
+msgid "Attendee added"
+msgstr "Titl"
+
+#: koagendaitem.cpp:779 koagendaitem.cpp:880
 msgid "%1 - %2"
 msgstr ""
 
-#: koagendaitem.cpp:789
+#: koagendaitem.cpp:788
 #, c-format
 msgid "- %1"
 msgstr ""
@@ -1529,8 +1538,8 @@ msgstr ""
 
 #: kolistview.cpp:208 kotodoview.cpp:387
 #: plugins/timespanview/timespanwidget.cpp:51
-#: printing/calprintdefaultplugins.cpp:998
-#: printing/calprintdefaultplugins.cpp:1080
+#: printing/calprintdefaultplugins.cpp:1003
+#: printing/calprintdefaultplugins.cpp:1085
 msgid "Summary"
 msgstr ""
 
@@ -1542,7 +1551,7 @@ msgstr ""
 msgid "Recurs"
 msgstr ""
 
-#: kolistview.cpp:211 printing/calprintdefaultplugins.cpp:999
+#: kolistview.cpp:211 printing/calprintdefaultplugins.cpp:1004
 msgid "Start Date"
 msgstr ""
 
@@ -1609,12 +1618,12 @@ msgstr "Na:"
 msgid "Click to add a new to-do"
 msgstr ""
 
-#: kotodoview.cpp:389 printing/calprintdefaultplugins.cpp:1001
-#: printing/calprintdefaultplugins.cpp:1072
+#: kotodoview.cpp:389 printing/calprintdefaultplugins.cpp:1006
+#: printing/calprintdefaultplugins.cpp:1077
 msgid "Priority"
 msgstr ""
 
-#: kotodoview.cpp:391 printing/calprintdefaultplugins.cpp:1087
+#: kotodoview.cpp:391 printing/calprintdefaultplugins.cpp:1092
 msgid "Complete"
 msgstr ""
 
@@ -2097,7 +2106,7 @@ msgid "Select a month"
 msgstr ""
 
 #: komonthview.cpp:883 navigatorbar.cpp:161
-#: printing/calprintdefaultplugins.cpp:912
+#: printing/calprintdefaultplugins.cpp:917
 msgid ""
 "_: monthname year\n"
 "%1 %2"
@@ -5040,7 +5049,7 @@ msgid ""
 msgstr ""
 
 #: printing/calprintdefaultplugins.cpp:340
-#: printing/calprintdefaultplugins.cpp:470
+#: printing/calprintdefaultplugins.cpp:475
 msgid ""
 "_: Spacer for the joined list of categories\n"
 ", "
@@ -5095,44 +5104,44 @@ msgstr ""
 msgid "Attendees:"
 msgstr ""
 
-#: printing/calprintdefaultplugins.cpp:444
+#: printing/calprintdefaultplugins.cpp:446
 #, fuzzy, c-format
 msgid "Status: %1"
 msgstr "Staw:"
 
-#: printing/calprintdefaultplugins.cpp:446
+#: printing/calprintdefaultplugins.cpp:450
 #, fuzzy, c-format
 msgid "Secrecy: %1"
 msgstr "Staw:"
 
-#: printing/calprintdefaultplugins.cpp:451
+#: printing/calprintdefaultplugins.cpp:456
 msgid "Show as: Busy"
 msgstr ""
 
-#: printing/calprintdefaultplugins.cpp:453
+#: printing/calprintdefaultplugins.cpp:458
 msgid "Show as: Free"
 msgstr ""
 
-#: printing/calprintdefaultplugins.cpp:459
+#: printing/calprintdefaultplugins.cpp:464
 msgid "This task is overdue!"
 msgstr ""
 
-#: printing/calprintdefaultplugins.cpp:465
+#: printing/calprintdefaultplugins.cpp:470
 msgid "Settings: "
 msgstr ""
 
-#: printing/calprintdefaultplugins.cpp:469
+#: printing/calprintdefaultplugins.cpp:474
 #, fuzzy
 msgid "Categories: "
 msgstr "Kategorije"
 
-#: printing/calprintdefaultplugins.cpp:736
+#: printing/calprintdefaultplugins.cpp:741
 msgid ""
 "_: date from-to\n"
 "%1 - %2"
 msgstr ""
 
-#: printing/calprintdefaultplugins.cpp:738
+#: printing/calprintdefaultplugins.cpp:743
 msgid ""
 "_: date from-\n"
 "to\n"
@@ -5140,13 +5149,13 @@ msgid ""
 "%2"
 msgstr ""
 
-#: printing/calprintdefaultplugins.cpp:755
+#: printing/calprintdefaultplugins.cpp:760
 msgid ""
 "_: date from - to (week number)\n"
 "%1 - %2 (Week %3)"
 msgstr ""
 
-#: printing/calprintdefaultplugins.cpp:757
+#: printing/calprintdefaultplugins.cpp:762
 msgid ""
 "_: date from -\n"
 "to (week number)\n"
@@ -5154,27 +5163,27 @@ msgid ""
 "%2 (Week %3)"
 msgstr ""
 
-#: printing/calprintdefaultplugins.cpp:1000
+#: printing/calprintdefaultplugins.cpp:1005
 msgid "Due Date"
 msgstr ""
 
-#: printing/calprintdefaultplugins.cpp:1002
+#: printing/calprintdefaultplugins.cpp:1007
 msgid "Percent Complete"
 msgstr ""
 
-#: printing/calprintdefaultplugins.cpp:1008
+#: printing/calprintdefaultplugins.cpp:1013
 msgid "Ascending"
 msgstr ""
 
-#: printing/calprintdefaultplugins.cpp:1009
+#: printing/calprintdefaultplugins.cpp:1014
 msgid "Descending"
 msgstr ""
 
-#: printing/calprintdefaultplugins.cpp:1018
+#: printing/calprintdefaultplugins.cpp:1023
 msgid "To-do list"
 msgstr ""
 
-#: printing/calprintdefaultplugins.cpp:1095
+#: printing/calprintdefaultplugins.cpp:1100
 msgid "Due"
 msgstr ""
 
