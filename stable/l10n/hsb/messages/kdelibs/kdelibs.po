@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 2007-03-16 02:14+0100\n"
+"POT-Creation-Date: 2007-03-23 14:05+0100\n"
 "PO-Revision-Date: 2005-02-04 20:55+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -919,7 +919,7 @@ msgstr "Kónc"
 msgid "&Quit"
 msgstr "Kón&c"
 
-#: common_texts.cpp:88 kdecore/kstdaccel.cpp:88 kded/kbuildsycoca.cpp:768
+#: common_texts.cpp:88 kdecore/kstdaccel.cpp:88 kded/kbuildsycoca.cpp:753
 msgid "Reload"
 msgstr "Znowa začitać"
 
@@ -2402,7 +2402,7 @@ msgstr ""
 msgid "kde-menu"
 msgstr "kde-meni"
 
-#: kded/kbuildsycoca.cpp:739 kded/kbuildsycoca.cpp:740 kded/kde-menu.cpp:119
+#: kded/kbuildsycoca.cpp:724 kded/kbuildsycoca.cpp:725 kded/kde-menu.cpp:119
 #: kded/khostname.cpp:362 kdeui/kaboutdialog.cpp:90
 msgid "Author"
 msgstr "Awtor"
@@ -2467,7 +2467,7 @@ msgstr "KDE Daemon"
 msgid "KDE Daemon - triggers Sycoca database updates when needed"
 msgstr "KDE-daemon startuje aktualizowanje datoweje bazy Sycoca, je-li trjeba."
 
-#: kded/kbuildsycoca.cpp:498
+#: kded/kbuildsycoca.cpp:483
 msgid ""
 "Error creating database '%1'.\n"
 "Check that the permissions are correct on the directory and the disk is not "
@@ -2476,12 +2476,12 @@ msgstr ""
 "Zmylk při stworjenju datoweje bazy '%1'.\n"
 "Přepruwujće, hač su prawa korektne a hač tačel njeje połna.\n"
 
-#: kded/kbuildsycoca.cpp:498 kded/kbuildsycoca.cpp:527
-#: kded/kbuildsycoca.cpp:736
+#: kded/kbuildsycoca.cpp:483 kded/kbuildsycoca.cpp:512
+#: kded/kbuildsycoca.cpp:721
 msgid "KBuildSycoca"
 msgstr "KBuildSycoca"
 
-#: kded/kbuildsycoca.cpp:527
+#: kded/kbuildsycoca.cpp:512
 msgid ""
 "Error writing database '%1'.\n"
 "Check that the permissions are correct on the directory and the disk is not "
@@ -2490,64 +2490,64 @@ msgstr ""
 "Zmylk při pisanju datoweje bazy '%1'.\n"
 "Přepruwujće, hač su prawa korektne a hač tačel njeje połna.\n"
 
-#: kded/kbuildsycoca.cpp:710
+#: kded/kbuildsycoca.cpp:695
 msgid "Do not signal applications to update"
 msgstr "Njepraj programam, zo maja so aktualizować"
 
-#: kded/kbuildsycoca.cpp:711
+#: kded/kbuildsycoca.cpp:696
 msgid "Disable incremental update, re-read everything"
 msgstr "Inkrementalny update znjemóžnić, wšitko znowa začitać."
 
-#: kded/kbuildsycoca.cpp:712
+#: kded/kbuildsycoca.cpp:697
 msgid "Check file timestamps"
 msgstr "Přepruwuj podaća časa na datajach."
 
-#: kded/kbuildsycoca.cpp:713
+#: kded/kbuildsycoca.cpp:698
 msgid "Disable checking files (dangerous)"
 msgstr "Přepruwowanje datajow znjemóžnić (strašne)"
 
-#: kded/kbuildsycoca.cpp:714
+#: kded/kbuildsycoca.cpp:699
 msgid "Create global database"
 msgstr "Globalnu datowu bazu stworić."
 
-#: kded/kbuildsycoca.cpp:715
+#: kded/kbuildsycoca.cpp:700
 msgid "Perform menu generation test run only"
 msgstr "Test za stworjenje menija jenož jónu přewjesć."
 
-#: kded/kbuildsycoca.cpp:716
+#: kded/kbuildsycoca.cpp:701
 msgid "Track menu id for debug purposes"
 msgstr "Menijowy id sćěhować za debugowanje"
 
-#: kded/kbuildsycoca.cpp:718
+#: kded/kbuildsycoca.cpp:703
 msgid "Silent - work without windows and stderr"
 msgstr "Ćiche dźěłanje bjez woknow a stderr"
 
-#: kded/kbuildsycoca.cpp:719
+#: kded/kbuildsycoca.cpp:704
 msgid "Show progress information (even if 'silent' mode is on)"
 msgstr "Pokaž informaciju wo postupje (samo w ćichim modusu)"
 
-#: kded/kbuildsycoca.cpp:737
+#: kded/kbuildsycoca.cpp:722
 msgid "Rebuilds the system configuration cache."
 msgstr "Reinitializuje cache za konfiguraciju systema."
 
-#: kded/kbuildsycoca.cpp:765
+#: kded/kbuildsycoca.cpp:750
 msgid "Reloading KDE configuration, please wait..."
 msgstr "Znowa KDE-konfiguraciju začitam, dočakajće prošu ..."
 
-#: kded/kbuildsycoca.cpp:766
+#: kded/kbuildsycoca.cpp:751
 msgid "KDE Configuration Manager"
 msgstr "KDE-rjadowar konfiguracije"
 
-#: kded/kbuildsycoca.cpp:768
+#: kded/kbuildsycoca.cpp:753
 msgid "Do you want to reload KDE configuration?"
 msgstr "Chceće KDE-konfiguraciju znowa začitać?"
 
-#: kded/kbuildsycoca.cpp:768
+#: kded/kbuildsycoca.cpp:753
 #, fuzzy
 msgid "Do Not Reload"
 msgstr "&Njezawěsćić"
 
-#: kded/kbuildsycoca.cpp:968
+#: kded/kbuildsycoca.cpp:953
 msgid "Configuration information reloaded successfully."
 msgstr "Konfiguracija znowa začitana."
 
@@ -5678,6 +5678,11 @@ msgstr "Test"
 #, fuzzy
 msgid "&Overwrite"
 msgstr "přepisać"
+
+#: kdeui/kjanuswidget.cpp:156
+#, fuzzy
+msgid "Empty Page"
+msgstr "&Poslednja strona"
 
 #: kdeui/ksyntaxhighlighter.cpp:477 kdeui/ksyntaxhighlighter.cpp:586
 msgid "As-you-type spell checking enabled."
