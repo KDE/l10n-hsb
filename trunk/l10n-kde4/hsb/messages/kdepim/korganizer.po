@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-21 05:12+0200\n"
+"POT-Creation-Date: 2007-06-24 05:32+0200\n"
 "PO-Revision-Date: 2004-04-16 17:59+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -1113,6 +1113,10 @@ msgstr ""
 
 #: tests/timezone.cpp:39
 msgid "KOrganizer Timezone Test"
+msgstr ""
+
+#: tests/korgplugins.cpp:37
+msgid "KOrgPlugins"
 msgstr ""
 
 #: koagendaitem.cpp:562
@@ -2441,6 +2445,10 @@ msgstr ""
 msgid "Maintainer"
 msgstr ""
 
+#: korgac/tests/testalarmdlg.cpp:37
+msgid "TestKabc"
+msgstr ""
+
 #: korgac/alarmdockwindow.cpp:69
 msgid "Suspend All"
 msgstr ""
@@ -2483,10 +2491,6 @@ msgstr "Staw:"
 
 #: korgac/alarmdockwindow.cpp:171
 msgid "Do Not Start"
-msgstr ""
-
-#: korgac/testalarmdlg.cpp:37
-msgid "TestKabc"
 msgstr ""
 
 #: korgac/alarmdialog.cpp:69
@@ -6819,10 +6823,6 @@ msgstr "Titl"
 msgid "Please specify a valid date, for example '%1'."
 msgstr ""
 
-#: korgplugins.cpp:37
-msgid "KOrgPlugins"
-msgstr ""
-
 #: templatemanagementdialog.cpp:51
 msgid "Manage Templates"
 msgstr ""
@@ -6942,11 +6942,11 @@ msgid ""
 "</p>\n"
 msgstr ""
 
-#: plugins/datenums/datenums.cpp:51
+#: plugins/datenums/datenums.cpp:59
 msgid "This plugin shows information on a day's position in the year."
 msgstr ""
 
-#: plugins/datenums/datenums.cpp:79
+#: plugins/datenums/datenums.cpp:80
 #, qt-format
 msgctxt "dayOfYear / daysTillEndOfYear"
 msgid "%1 / %2"
@@ -6990,7 +6990,44 @@ msgstr ""
 msgid "This plugin provides links to Wikipedia's 'This Day in History' pages."
 msgstr ""
 
-#: plugins/picoftheday/picoftheday.cpp:52
+#: plugins/picoftheday/configdialog.cpp:45
+msgid "Configure Picture of the Day"
+msgstr ""
+
+#: plugins/picoftheday/configdialog.cpp:56
+msgid "Thumbnail Aspect Ratio Mode"
+msgstr ""
+
+#: plugins/picoftheday/configdialog.cpp:62
+msgid "Ignore aspect ratio"
+msgstr ""
+
+#: plugins/picoftheday/configdialog.cpp:63
+msgid ""
+"The thumbnail will be scaled freely. The aspect ratio will not be preserved."
+msgstr ""
+
+#: plugins/picoftheday/configdialog.cpp:67
+msgid "Keep aspect ratio"
+msgstr ""
+
+#: plugins/picoftheday/configdialog.cpp:68
+msgid ""
+"The thumbnail will be scaled to a rectangle as large as possible inside a "
+"given rectangle, preserving the aspect ratio."
+msgstr ""
+
+#: plugins/picoftheday/configdialog.cpp:73
+msgid "Keep aspect ratio by expanding"
+msgstr ""
+
+#: plugins/picoftheday/configdialog.cpp:75
+msgid ""
+"The thumbnail will be scaled to a rectangle as small as possible outside a "
+"given rectangle, preserving the aspect ratio."
+msgstr ""
+
+#: plugins/picoftheday/picoftheday.cpp:60
 msgid "This plugin provides the Wikipedia <i>Picture of the Day</i>."
 msgstr ""
 
