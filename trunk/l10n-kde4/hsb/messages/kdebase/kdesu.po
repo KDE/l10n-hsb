@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdesu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-04 05:45+0200\n"
+"POT-Creation-Date: 2007-07-03 05:05+0200\n"
 "PO-Revision-Date: 2005-02-22 15:33+0100\n"
 "Last-Translator: Bianka Šwejdźic <hertn@gmx.de>\n"
 "Language-Team: Hornjoserbšćina\n"
@@ -16,93 +16,109 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: kdesu.cpp:56 kdesu.cpp:57
-msgid "Specifies the command to run"
-msgstr "Podawa přikaz, kotryž ma so wuwjesć"
-
-#: kdesu.cpp:58
-msgid "Run command under target uid if <file> is not writable"
-msgstr ""
-
-#: kdesu.cpp:59
-msgid "Specifies the target uid"
-msgstr ""
-
-#: kdesu.cpp:60
-msgid "Do not keep password"
-msgstr "Tajne hesło nic składować"
-
-#: kdesu.cpp:61
-msgid "Stop the daemon (forgets all passwords)"
-msgstr "Słužbu přetorhnyć (wšě tajne hesła so zhubja)"
-
-#: kdesu.cpp:62
-msgid "Enable terminal output (no password keeping)"
-msgstr ""
-
-#: kdesu.cpp:63
-msgid "Set priority value: 0 <= prio <= 100, 0 is lowest"
-msgstr "Prioritu wuzwolić: 0 <= prio <= 100, 0 je najniša"
-
-#: kdesu.cpp:64
-msgid "Use realtime scheduling"
-msgstr ""
-
-#: kdesu.cpp:66
-msgid "Do not display ignore button"
-msgstr ""
-
-#: kdesu.cpp:67
-msgid "Specify icon to use in the password dialog"
-msgstr "Symbol postajić, kiž ma so w dialogu tajneho hesła jewić"
-
-#: kdesu.cpp:68
-msgid "Do not show the command to be run in the dialog"
-msgstr "Přikaz, kiž ma so wuwjesć, w dialogu nic pokazać"
-
-#: kdesu.cpp:102
+#: kdesu.cpp:85
 msgid "KDE su"
 msgstr "KDE-su"
 
-#: kdesu.cpp:103
+#: kdesu.cpp:86
 msgid "Runs a program with elevated privileges."
 msgstr "Započina program z wjac wužiwarskimi prawami."
 
-#: kdesu.cpp:106
+#: kdesu.cpp:88
+msgid "Copyright (c) 1998-2000 Geert Jansen, Pietro Iglio"
+msgstr ""
+
+#: kdesu.cpp:89
+msgid "Geert Jansen"
+msgstr ""
+
+#: kdesu.cpp:89
 msgid "Maintainer"
 msgstr "Hladaćel"
 
-#: kdesu.cpp:108
+#: kdesu.cpp:91
+msgid "Pietro Iglio"
+msgstr ""
+
+#: kdesu.cpp:91
 msgid "Original author"
 msgstr "Poprawny spisaćel"
 
-#: kdesu.cpp:133
+#: kdesu.cpp:99 kdesu.cpp:100
+msgid "Specifies the command to run"
+msgstr "Podawa přikaz, kotryž ma so wuwjesć"
+
+#: kdesu.cpp:101
+msgid "Run command under target uid if <file> is not writable"
+msgstr ""
+
+#: kdesu.cpp:102
+msgid "Specifies the target uid"
+msgstr ""
+
+#: kdesu.cpp:103
+msgid "Do not keep password"
+msgstr "Tajne hesło nic składować"
+
+#: kdesu.cpp:104
+msgid "Stop the daemon (forgets all passwords)"
+msgstr "Słužbu přetorhnyć (wšě tajne hesła so zhubja)"
+
+#: kdesu.cpp:105
+msgid "Enable terminal output (no password keeping)"
+msgstr ""
+
+#: kdesu.cpp:106
+msgid "Set priority value: 0 <= prio <= 100, 0 is lowest"
+msgstr "Prioritu wuzwolić: 0 <= prio <= 100, 0 je najniša"
+
+#: kdesu.cpp:107
+msgid "Use realtime scheduling"
+msgstr ""
+
+#: kdesu.cpp:108
+msgid "Let command use existing dcopserver"
+msgstr ""
+
+#: kdesu.cpp:110
+msgid "Do not display ignore button"
+msgstr ""
+
+#: kdesu.cpp:111
+msgid "Specify icon to use in the password dialog"
+msgstr "Symbol postajić, kiž ma so w dialogu tajneho hesła jewić"
+
+#: kdesu.cpp:112
+msgid "Do not show the command to be run in the dialog"
+msgstr "Přikaz, kiž ma so wuwjesć, w dialogu nic pokazać"
+
+#: kdesu.cpp:135
 #, qt-format
 msgid "Command '%1' not found."
 msgstr "Njejsym přikaz %1namakał."
 
-#: kdesu.cpp:209
+#: kdesu.cpp:211
 #, qt-format
 msgid "Illegal priority: %1"
 msgstr "Njedopušćena priorita: %1"
 
-#: kdesu.cpp:240
+#: kdesu.cpp:242
 msgid "No command specified."
 msgstr "Njeje so ničo přikazało."
 
-#: kdesu.cpp:342
+#: kdesu.cpp:344
 msgid "Su returned with an error.\n"
 msgstr "Su je zmylk nadešoł.\n"
 
-#: kdesu.cpp:365
+#: kdesu.cpp:367
 msgid "Command:"
 msgstr "Přikaz:"
 
-#: kdesu.cpp:371
+#: kdesu.cpp:373
 msgid "realtime: "
 msgstr ""
 
-#: kdesu.cpp:374
+#: kdesu.cpp:376
 msgid "Priority:"
 msgstr "Priorita:"
 
