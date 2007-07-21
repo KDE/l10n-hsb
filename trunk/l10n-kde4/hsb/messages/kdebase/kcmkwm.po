@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-04 05:31+0200\n"
+"POT-Creation-Date: 2007-07-21 04:54+0200\n"
 "PO-Revision-Date: 2005-03-10 17:40+0100\n"
 "Last-Translator:  <hertn@gmx.de>\n"
 "Language-Team: Hornjoserbšćina <hsb@li.org>\n"
@@ -16,81 +16,77 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: main.cpp:103
+#: main.cpp:93
 msgid "&Focus"
 msgstr ""
 
-#: main.cpp:109 main.cpp:232
+#: main.cpp:99 main.cpp:213
 #, fuzzy
 msgid "&Titlebar Actions"
 msgstr "&Dwójce na titulowy pask stłóčić:"
 
-#: main.cpp:115 main.cpp:238
+#: main.cpp:105 main.cpp:219
 #, fuzzy
 msgid "Window Actio&ns"
 msgstr "Wokna"
 
-#: main.cpp:121
+#: main.cpp:111
 msgid "&Moving"
 msgstr ""
 
-#: main.cpp:127
+#: main.cpp:117
 msgid "Ad&vanced"
 msgstr ""
 
-#: main.cpp:133
-msgid "&Translucency"
-msgstr ""
-
-#: main.cpp:137
+#: main.cpp:121
 msgid "kcmkwinoptions"
 msgstr ""
 
-#: main.cpp:137
+#: main.cpp:121
 msgid "Window Behavior Configuration Module"
 msgstr ""
 
-#: main.cpp:139
+#: main.cpp:123
 msgid "(c) 1997 - 2002 KWin and KControl Authors"
 msgstr ""
 
-#: main.cpp:141
+#: main.cpp:125
 msgid "Matthias Ettrich"
 msgstr ""
 
-#: main.cpp:142
+#: main.cpp:126
 msgid "Waldo Bastian"
 msgstr ""
 
-#: main.cpp:143
+#: main.cpp:127
 msgid "Cristian Tibirna"
 msgstr ""
 
-#: main.cpp:144
+#: main.cpp:128
 msgid "Matthias Kalle Dalheimer"
 msgstr ""
 
-#: main.cpp:145
+#: main.cpp:129
 msgid "Daniel Molkentin"
 msgstr ""
 
-#: main.cpp:146
+#: main.cpp:130
 msgid "Wynn Wilkes"
 msgstr ""
 
-#: main.cpp:147
+#: main.cpp:131
 msgid "Pat Dowler"
 msgstr ""
 
-#: main.cpp:148
+#: main.cpp:132
 msgid "Bernd Wuebben"
 msgstr ""
 
-#: main.cpp:149
+#: main.cpp:133
 msgid "Matthias Hoelzer-Kluepfel"
 msgstr ""
 
-#: main.cpp:204
+#: main.cpp:185
 msgid ""
 "<h1>Window Behavior</h1> Here you can customize the way windows behave when "
 "being moved, resized or clicked on. You can also specify a focus policy as "
@@ -906,113 +902,3 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
-
-#: windows.cpp:1298
-msgid ""
-"<qt><b>It seems that alpha channel support is not available.</"
-"b><br><br>Please make sure you have <a href=\"http://www.freedesktop.org/"
-"\">Xorg &ge; 6.8</a>, and have installed the kompmgr that came with kwin."
-"<br>Also, make sure you have the following entries in your XConfig (e.g. /"
-"etc/X11/xorg.conf):<br><br><i>Section \"Extensions\"<br>Option \"Composite\" "
-"\"Enable\"<br>EndSection</i><br><br>And if your GPU provides hardware-"
-"accelerated Xrender support (mainly nVidia cards):<br><br><i>Option     "
-"\"RenderAccel\" \"true\"</i><br>In <i>Section \"Device\"</i></qt>"
-msgstr ""
-
-#: windows.cpp:1322
-msgid "Apply translucency only to decoration"
-msgstr ""
-
-#: windows.cpp:1332
-msgid "Active windows:"
-msgstr ""
-
-#: windows.cpp:1339
-msgid "Inactive windows:"
-msgstr ""
-
-#: windows.cpp:1346
-msgid "Moving windows:"
-msgstr ""
-
-#: windows.cpp:1353
-msgid "Dock windows:"
-msgstr ""
-
-#: windows.cpp:1362
-msgid "Treat 'keep above' windows as active ones"
-msgstr ""
-
-#: windows.cpp:1365
-msgid "Disable ARGB windows (ignores window alpha maps, fixes gtk1 apps)"
-msgstr ""
-
-#: windows.cpp:1369
-msgid "Opacity"
-msgstr ""
-
-#: windows.cpp:1377
-msgid "Use shadows"
-msgstr ""
-
-#: windows.cpp:1386
-msgid "Active window size:"
-msgstr ""
-
-#: windows.cpp:1393
-msgid "Inactive window size:"
-msgstr ""
-
-#: windows.cpp:1400
-msgid "Dock window size:"
-msgstr ""
-
-#: windows.cpp:1407
-msgid "Vertical offset:"
-msgstr ""
-
-#: windows.cpp:1414
-msgid "Horizontal offset:"
-msgstr ""
-
-#: windows.cpp:1421
-msgid "Shadow color:"
-msgstr ""
-
-#: windows.cpp:1427
-msgid "Remove shadows on move"
-msgstr ""
-
-#: windows.cpp:1429
-msgid "Remove shadows on resize"
-msgstr ""
-
-#: windows.cpp:1432
-msgid "Shadows"
-msgstr ""
-
-#: windows.cpp:1439
-msgid "Fade-in windows (including popups)"
-msgstr ""
-
-#: windows.cpp:1440
-msgid "Fade between opacity changes"
-msgstr ""
-
-#: windows.cpp:1453
-msgid "Effects"
-msgstr ""
-
-#: windows.cpp:1455
-msgid "Use translucency/shadows"
-msgstr ""
-
-#: windows.cpp:1707
-msgid ""
-"<qt>Translucency support is new and may cause problems<br> including crashes "
-"(sometimes the translucency engine, seldom even X).</qt>"
-msgstr ""
-
-#: windows.cpp:1707
-msgid "Warning"
-msgstr ""
