@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-16 05:34+0200\n"
+"POT-Creation-Date: 2007-08-17 05:41+0200\n"
 "PO-Revision-Date: 2005-02-02 18:46+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -31,6 +31,9 @@ msgid "ERROR: Unknown protocol '%1'"
 msgstr "Njeznaty protokol '%1'"
 
 #: kio/job.cpp:145
+#, fuzzy
+#| msgid "Moving"
+msgctxt "@title job"
 msgid "Moving"
 msgstr "Přesuwam"
 
@@ -45,11 +48,15 @@ msgid "Destination"
 msgstr "Cil:"
 
 #: kio/job.cpp:152
+#, fuzzy
+#| msgid "Copying"
+msgctxt "@title job"
 msgid "Copying"
 msgstr "Kopěruju"
 
 #: kio/job.cpp:159
 #, fuzzy
+msgctxt "@title job"
 msgid "Creating directory"
 msgstr "Stworju zapisk"
 
@@ -58,6 +65,9 @@ msgid "Directory"
 msgstr ""
 
 #: kio/job.cpp:165
+#, fuzzy
+#| msgid "Deleting"
+msgctxt "@title job"
 msgid "Deleting"
 msgstr "Niču"
 
@@ -68,14 +78,19 @@ msgstr "Žane dataje"
 
 #: kio/job.cpp:171
 #, fuzzy
+msgctxt "@title job"
 msgid "Stating"
 msgstr "Rjadowanje"
 
 #: kio/job.cpp:177
+msgctxt "@title job"
 msgid "Transferring"
 msgstr ""
 
 #: kio/job.cpp:183
+#, fuzzy
+#| msgid "Mounting"
+msgctxt "@title job"
 msgid "Mounting"
 msgstr "Montuju"
 
@@ -90,6 +105,9 @@ msgid "Mountpoint"
 msgstr "Cil montowanja:"
 
 #: kio/job.cpp:190
+#, fuzzy
+#| msgid "Unmounting"
+msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Wotmontuju"
 
@@ -185,7 +203,9 @@ msgstr[2] "%1 dataji"
 msgstr[3] "%1 dataje"
 
 #: kio/kfileitemdelegate.cpp:264 kio/kfileitemdelegate.cpp:267
-#: kssl/ksslcertificate.cpp:201
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "@info mimetype"
 msgid "Unknown"
 msgstr "Njeznaju"
 
@@ -953,7 +973,10 @@ msgstr "Protokol %1 njepodpěruje stworjenje zapiskow."
 msgid "Protocol %1 does not support action %2."
 msgstr "Protokol %1 njepodpěruje akciju %2"
 
-#: kio/global.cpp:448 kio/global.cpp:530
+#: kio/global.cpp:448
+#, fuzzy
+#| msgid "(unknown)"
+msgctxt "@info url"
 msgid "(unknown)"
 msgstr "(njeznaju)"
 
@@ -992,6 +1015,13 @@ msgstr "<p><b>Móžna přičina</b>:</p><ul><li>"
 #: kio/global.cpp:474
 msgid "<p><b>Possible solutions</b>:</p><ul><li>"
 msgstr "<p><b>Móžne rozrisanje</b>:</p><ul><li>"
+
+#: kio/global.cpp:530
+#, fuzzy
+#| msgid "(unknown)"
+msgctxt "@info protocol"
+msgid "(unknown)"
+msgstr "(njeznaju)"
 
 #: kio/global.cpp:540
 msgid ""
@@ -2320,45 +2350,45 @@ msgid ""
 "%2."
 msgstr "Desktop-entry-dataja %1 ma njekorektny menijowy zapis %2."
 
-#: kio/kfileitem.cpp:929
+#: kio/kfileitem.cpp:932
 #, fuzzy, qt-format
 #| msgid "Symbolic Link"
 msgid "(Symbolic Link to %1)"
 msgstr "Wotkaz"
 
-#: kio/kfileitem.cpp:931
+#: kio/kfileitem.cpp:934
 #, fuzzy, qt-format
 #| msgid "Link to %1 (%2)"
 msgid "(%1, Link to %2)"
 msgstr "Wotkaz na %1 (%2)"
 
-#: kio/kfileitem.cpp:958 bookmarks/kbookmarkmenu.cc:632
+#: kio/kfileitem.cpp:961 bookmarks/kbookmarkmenu.cc:632
 #: ../kioslave/http/kcookiejar/kcookiewin.cpp:218
 msgid "Name:"
 msgstr "Mjeno:"
 
-#: kio/kfileitem.cpp:959 kfile/kpropertiesdialog.cpp:979
+#: kio/kfileitem.cpp:962 kfile/kpropertiesdialog.cpp:979
 msgid "Type:"
 msgstr "Družina:"
 
-#: kio/kfileitem.cpp:963
+#: kio/kfileitem.cpp:966
 #, qt-format
 msgid "Link to %1 (%2)"
 msgstr "Wotkaz na %1 (%2)"
 
-#: kio/kfileitem.cpp:968 kfile/kpropertiesdialog.cpp:1027
+#: kio/kfileitem.cpp:971 kfile/kpropertiesdialog.cpp:1027
 msgid "Size:"
 msgstr "Wulkosć:"
 
-#: kio/kfileitem.cpp:973 kfile/kpropertiesdialog.cpp:1088
+#: kio/kfileitem.cpp:976 kfile/kpropertiesdialog.cpp:1088
 msgid "Modified:"
 msgstr "Změnjeny:"
 
-#: kio/kfileitem.cpp:976
+#: kio/kfileitem.cpp:979
 msgid "Owner:"
 msgstr "Wobsydnik:"
 
-#: kio/kfileitem.cpp:977
+#: kio/kfileitem.cpp:980
 msgid "Permissions:"
 msgstr "Prawa:"
 
@@ -2579,6 +2609,10 @@ msgstr "email:"
 #: kssl/ksslcertificate.cpp:200
 msgid "Signature Algorithm: "
 msgstr "signaturowy algoritmus:"
+
+#: kssl/ksslcertificate.cpp:201
+msgid "Unknown"
+msgstr "Njeznaju"
 
 #: kssl/ksslcertificate.cpp:204
 msgid "Signature Contents:"
@@ -5505,7 +5539,7 @@ msgstr "Zmylk je so stał při pospyće %1, %2. Zjeće přičin namakaće deleka
 msgid "An error occurred while accessing '%1'"
 msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
 
-#: ../kfile/kurlnavigator.cpp:563
+#: ../kfile/kurlnavigator.cpp:582
 msgid "Custom Path"
 msgstr ""
 
