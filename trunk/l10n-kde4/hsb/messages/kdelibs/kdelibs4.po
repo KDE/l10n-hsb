@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-17 05:40+0200\n"
+"POT-Creation-Date: 2007-08-18 05:29+0200\n"
 "PO-Revision-Date: 2007-06-18 11:34+0200\n"
 "Last-Translator: Bianka Šwejdźic <hertn@gmx.de>\n"
 "Language-Team: Upper Sorbian <hsb@li.org>\n"
@@ -711,7 +711,7 @@ msgstr "HTML-output pokazać"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 206
-#: rc.cpp:291
+#: rc.cpp:291 kutils/kpluginselector.cpp:62
 msgid "Settings"
 msgstr "Nastajenja"
 
@@ -10540,13 +10540,7 @@ msgstr ""
 "poćahuje, zničić. Jeli to njefunguje, wobroć so na swojeho distributora.</"
 "p></qt>"
 
-#: kutils/kpluginselector.cpp:62
-#, fuzzy
-#| msgid "Options"
-msgid "More Options"
-msgstr "Opcije"
-
-#: kutils/kpluginselector.cpp:63 kutils/kpluginselector.cpp:1558
+#: kutils/kpluginselector.cpp:63
 #, fuzzy
 #| msgid "&About"
 msgid "About"
@@ -10608,7 +10602,13 @@ msgstr[3] ""
 msgid " since the last time you asked for details"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:1486
+#: kutils/kpluginselector.cpp:1586
+#, fuzzy, qt-format
+#| msgid "About %1"
+msgid "About %1 plugin"
+msgstr "Wo %1"
+
+#: kutils/kpluginselector.cpp:1596
 #, fuzzy, qt-format
 #| msgid "Description:"
 msgid ""
@@ -10616,7 +10616,7 @@ msgid ""
 "\t%1"
 msgstr "Wopisanje:"
 
-#: kutils/kpluginselector.cpp:1493
+#: kutils/kpluginselector.cpp:1603
 #, fuzzy, qt-format
 #| msgid "Author:"
 msgid ""
@@ -10624,24 +10624,24 @@ msgid ""
 "\t%1"
 msgstr "Awtor:"
 
-#: kutils/kpluginselector.cpp:1500
+#: kutils/kpluginselector.cpp:1610
 #, fuzzy
 #| msgid "Main:"
 msgid "E-Mail:"
 msgstr "Hłowna dataja:"
 
-#: kutils/kpluginselector.cpp:1521
+#: kutils/kpluginselector.cpp:1631
 msgid "Website:"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:1542
+#: kutils/kpluginselector.cpp:1652
 #, fuzzy, qt-format
 msgid ""
 "Version:\n"
 "\t%1"
 msgstr "Wersija:"
 
-#: kutils/kpluginselector.cpp:1550
+#: kutils/kpluginselector.cpp:1660
 #, fuzzy, qt-format
 #| msgid "License:"
 msgid ""
@@ -11692,6 +11692,11 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br>Unicode kodowy dypk: U+%3<br>"
 "(decimalnje: %4)<br>(Pismik: %5)</qt>"
+
+#, fuzzy
+#~| msgid "Options"
+#~ msgid "More Options"
+#~ msgstr "Opcije"
 
 #~ msgctxt "Opposite to End"
 #~ msgid "Home"

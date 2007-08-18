@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-11 05:33+0200\n"
+"POT-Creation-Date: 2007-08-18 05:32+0200\n"
 "PO-Revision-Date: 2004-04-16 17:59+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -47,7 +47,7 @@ msgstr ""
 #: koeventpopupmenu.cpp:69 koeditorrecurrence.cpp:617 kotodoview.cpp:519
 #: calendarview.cpp:846 actionmanager.cpp:314 actionmanager.cpp:470
 #: actionmanager.cpp:1490 actionmanager.cpp:1518 rc.cpp:6 rc.cpp:2245
-#: koeditorattachments.cpp:426 journalview.cpp:192
+#: koeditorattachments.cpp:426 journalview.cpp:190
 #, fuzzy
 msgid "&Delete"
 msgstr "Titl"
@@ -273,7 +273,7 @@ msgstr ""
 msgid "New Filter %1"
 msgstr "Filtry wobdźěłać..."
 
-#: filtereditdialog.cpp:215 koeventeditor.cpp:366 kotodoeditor.cpp:339
+#: filtereditdialog.cpp:215 koeventeditor.cpp:368 kotodoeditor.cpp:340
 msgid "This item will be permanently deleted."
 msgstr ""
 
@@ -286,8 +286,8 @@ msgstr "Konfiguracija resursow"
 #. i18n: file template_management_dialog_base.ui line 41
 #. i18n: tag string
 #. i18n: file ./template_management_dialog_base.ui line 41
-#: filtereditdialog.cpp:215 kojournaleditor.cpp:198 rc.cpp:960 rc.cpp:1654
-#: koeventeditor.cpp:367
+#: filtereditdialog.cpp:215 kojournaleditor.cpp:200 rc.cpp:960 rc.cpp:1654
+#: koeventeditor.cpp:369
 msgid "Delete"
 msgstr ""
 
@@ -452,7 +452,7 @@ msgstr ""
 msgid "&Recur every"
 msgstr ""
 
-#: koeditorrecurrence.cpp:168 koeditorgeneral.cpp:229
+#: koeditorrecurrence.cpp:168 koeditorgeneral.cpp:237
 #: korgac/alarmdialog.cpp:94
 msgid "day(s)"
 msgstr ""
@@ -1526,7 +1526,7 @@ msgstr "Wobsydnik:"
 msgid "Sets the Title of this event or to-do."
 msgstr ""
 
-#: koeditorgeneral.cpp:103 koeditorgeneraljournal.cpp:68
+#: koeditorgeneral.cpp:103 koeditorgeneraljournal.cpp:71
 #, fuzzy
 msgid "T&itle:"
 msgstr "Titl"
@@ -1544,7 +1544,7 @@ msgid ""
 "Allows you to select the categories that this event or to-do belongs to."
 msgstr ""
 
-#: koeditorgeneral.cpp:138 koeditorgeneraljournal.cpp:156
+#: koeditorgeneral.cpp:138 koeditorgeneraljournal.cpp:140
 #, fuzzy
 msgid "Select Cate&gories..."
 msgstr "Kategorije"
@@ -1561,43 +1561,43 @@ msgid ""
 "events or to-dos marked as private or confidential may be visible to others."
 msgstr ""
 
-#: koeditorgeneral.cpp:177
+#: koeditorgeneral.cpp:185
 msgid ""
-"Sets the description for this event or to-do. This will be displayed in a "
-"reminder if one is set, as well as in a tooltip when you hover over the "
-"event."
+"Sets the description for this event, to-do or journal. This will be "
+"displayed in a reminder if one is set, as well as in a tooltip when you "
+"hover over the event."
 msgstr ""
 
-#: koeditorgeneral.cpp:211
+#: koeditorgeneral.cpp:219
 msgid "&Reminder:"
 msgstr ""
 
-#: koeditorgeneral.cpp:213
+#: koeditorgeneral.cpp:221
 msgid "Activates a reminder for this event or to-do."
 msgstr ""
 
-#: koeditorgeneral.cpp:216
+#: koeditorgeneral.cpp:224
 msgid "Sets how long before the event occurs the reminder will be triggered."
 msgstr ""
 
-#: koeditorgeneral.cpp:227 korgac/alarmdialog.cpp:92
+#: koeditorgeneral.cpp:235 korgac/alarmdialog.cpp:92
 msgid "minute(s)"
 msgstr ""
 
-#: koeditorgeneral.cpp:228 korgac/alarmdialog.cpp:93
+#: koeditorgeneral.cpp:236 korgac/alarmdialog.cpp:93
 msgid "hour(s)"
 msgstr ""
 
-#: koeditorgeneral.cpp:238
+#: koeditorgeneral.cpp:246
 #, fuzzy
 msgid "Advanced"
 msgstr "&wobdźěłać"
 
-#: koeditorgeneral.cpp:291
+#: koeditorgeneral.cpp:299
 msgid "Owner: "
 msgstr ""
 
-#: koeditorgeneral.cpp:323
+#: koeditorgeneral.cpp:331
 #, fuzzy, qt-format
 msgid "1 reminder configured"
 msgid_plural "%1 reminders configured"
@@ -1606,7 +1606,7 @@ msgstr[1] "Titl"
 msgstr[2] "Titl"
 msgstr[3] "Titl"
 
-#: koeditorgeneral.cpp:350
+#: koeditorgeneral.cpp:358
 msgid "1 advanced reminder configured"
 msgstr ""
 
@@ -2216,8 +2216,8 @@ msgid "The item \"%1\" will be permanently deleted."
 msgstr ""
 
 #: calendarview.cpp:845 calendarview.cpp:2021 calendarview.cpp:2084
-#: calendarview.cpp:2095 kojournaleditor.cpp:198 koeditorattachments.cpp:695
-#: koeventeditor.cpp:367 kotodoeditor.cpp:340
+#: calendarview.cpp:2095 kojournaleditor.cpp:200 koeditorattachments.cpp:695
+#: koeventeditor.cpp:369 kotodoeditor.cpp:341
 msgid "KOrganizer Confirmation"
 msgstr ""
 
@@ -2637,11 +2637,11 @@ msgstr ""
 msgid "Edit Journal Entry"
 msgstr ""
 
-#: kojournaleditor.cpp:197
+#: kojournaleditor.cpp:199
 msgid "This journal entry will be permanently deleted."
 msgstr ""
 
-#: kojournaleditor.cpp:213
+#: kojournaleditor.cpp:215
 msgid "Template does not contain a valid journal."
 msgstr ""
 
@@ -5204,7 +5204,7 @@ msgstr ""
 #. i18n: file ./korganizer_part.rc line 32
 #. i18n: tag text
 #. i18n: file ./korganizerui.rc line 26
-#: rc.cpp:792 rc.cpp:840 rc.cpp:1672 rc.cpp:1720 journalview.cpp:182
+#: rc.cpp:792 rc.cpp:840 rc.cpp:1672 rc.cpp:1720 journalview.cpp:180
 #, fuzzy
 msgid "&Edit"
 msgstr "&wobdźěłać"
@@ -6946,7 +6946,7 @@ msgstr ""
 msgid "New Event"
 msgstr "&Wróćo na prěnjotny staw"
 
-#: koeventeditor.cpp:375
+#: koeventeditor.cpp:377
 msgid "Template does not contain a valid event."
 msgstr ""
 
@@ -6959,7 +6959,7 @@ msgstr ""
 msgid "New To-do"
 msgstr "Na:"
 
-#: kotodoeditor.cpp:355
+#: kotodoeditor.cpp:356
 msgid "Template does not contain a valid to-do."
 msgstr ""
 
@@ -7213,32 +7213,32 @@ msgstr ""
 msgid "The archive file name is not valid.\n"
 msgstr ""
 
-#: journalview.cpp:185
+#: journalview.cpp:183
 #, fuzzy
 msgid "Edit this journal entry"
 msgstr "Konfiguracija resursow"
 
-#: journalview.cpp:186
+#: journalview.cpp:184
 #, fuzzy
 msgid "Opens an editor dialog for this journal entry"
 msgstr "Konfiguracija resursow"
 
-#: journalview.cpp:196 journalview.cpp:197
+#: journalview.cpp:194 journalview.cpp:195
 #, fuzzy
 msgid "Delete this journal entry"
 msgstr "Konfiguracija resursow"
 
-#: journalview.cpp:203
+#: journalview.cpp:201
 #, fuzzy
 msgid "&Print"
 msgstr "&wobdźěłać"
 
-#: journalview.cpp:207
+#: journalview.cpp:205
 #, fuzzy
 msgid "Print this journal entry"
 msgstr "Konfiguracija resursow"
 
-#: journalview.cpp:208
+#: journalview.cpp:206
 #, fuzzy
 msgid "Opens a print dialog for this journal entry"
 msgstr "Konfiguracija resursow"
@@ -7249,26 +7249,26 @@ msgctxt "'Month day' for month view cells"
 msgid "%1 %2"
 msgstr ""
 
-#: koeditorgeneraljournal.cpp:67
+#: koeditorgeneraljournal.cpp:70
 #, fuzzy
 msgid "Sets the title of this journal."
 msgstr "Konfiguracija resursow"
 
-#: koeditorgeneraljournal.cpp:87
+#: koeditorgeneraljournal.cpp:90
 #, fuzzy
 msgid "&Date:"
 msgstr "Titl"
 
-#: koeditorgeneraljournal.cpp:96
+#: koeditorgeneraljournal.cpp:99
 #, fuzzy
 msgid "&Time: "
 msgstr "Titl"
 
-#: koeditorgeneraljournal.cpp:152
+#: koeditorgeneraljournal.cpp:136
 msgid "Allows you to select the categories that this journal belongs to."
 msgstr ""
 
-#: koeditorgeneraljournal.cpp:249
+#: koeditorgeneraljournal.cpp:228
 #, qt-format
 msgid "Please specify a valid date, for example '%1'."
 msgstr ""
