@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-21 05:37+0200\n"
+"POT-Creation-Date: 2007-08-22 05:42+0200\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -889,11 +889,11 @@ msgid "<p>Messages classified as spam are not marked as read."
 msgstr "in"
 
 #: antispamwizard.cpp:579
-msgid "<br>Spam messages are moved into the folder named <i>"
+msgid "<br />Spam messages are moved into the folder named <i>"
 msgstr ""
 
 #: antispamwizard.cpp:582
-msgid "<br>Spam messages are not moved into a certain folder.</p>"
+msgid "<br />Spam messages are not moved into a certain folder.</p>"
 msgstr ""
 
 #: antispamwizard.cpp:606
@@ -925,7 +925,7 @@ msgid ""
 "during the scan of the messages for viruses, you may encounter problems with "
 "the responsiveness of KMail because anti-virus tool operations are usually "
 "time consuming; please consider deleting the filter rules created by the "
-"wizard to get back to the former behavior."
+"wizard to get back to the former behavior.</p>"
 msgstr ""
 
 #: antispamwizard.cpp:941
@@ -962,7 +962,7 @@ msgstr ""
 msgid ""
 "The default folder is the inbox folder, but you may change that in the "
 "folder view below.<p>Not all tools support a classification as unsure. If "
-"you haven't selected a capable tool, you can't select a folder as well."
+"you haven't selected a capable tool, you can't select a folder as well.</p>"
 msgstr ""
 
 #: antispamwizard.cpp:1097
@@ -1109,15 +1109,15 @@ msgstr "Konto %1"
 #: callback.cpp:178
 #, fuzzy
 msgid ""
-"<qt>None of your identities match the receiver of this message,<br>please "
-"choose which of the following addresses is yours, if any:"
+"<qt>None of your identities match the receiver of this message,<br />please "
+"choose which of the following addresses is yours, if any:</qt>"
 msgstr "Žane<br>:"
 
 #: callback.cpp:183
 #, fuzzy
 msgid ""
-"<qt>Several of your identities match the receiver of this message,<br>please "
-"choose which of the following addresses is yours:"
+"<qt>Several of your identities match the receiver of this message,<br /"
+">please choose which of the following addresses is yours:</qt>"
 msgstr "Žane<br>:"
 
 #: callback.cpp:190
@@ -1924,8 +1924,8 @@ msgstr "\"%f\" so naruna z mjenom dataje, kiž ma so wobdźěłać."
 #: configuredialog.cpp:3098
 #, fuzzy
 msgid ""
-"<qt>The following placeholders are supported in the reply phrases:"
-"<br><table><tr><td><b>%D</b>: date</td><td><b>%S</b>: subject</td><td></td></"
+"<qt>The following placeholders are supported in the reply phrases:<br /"
+"><table><tr><td><b>%D</b>: date</td><td><b>%S</b>: subject</td><td></td></"
 "tr><tr><td><b>%e</b>: sender's address</td><td><b>%F</b>: sender's name</"
 "td><td><b>%f</b>: sender's initials</td></tr><tr><td><b>%T</b>: recipient's "
 "name</td><td><b>%t</b>: recipient's name and address</td><td></td></"
@@ -2611,12 +2611,12 @@ msgstr ""
 msgid ""
 "<qt>Invitations are normally sent as attachments to a mail. This switch "
 "changes the invitation mails to be sent in the text of the mail instead; "
-"this is necessary to send invitations and replies to Microsoft Outlook."
-"<br>But, when you do this, you no longer get descriptive text that mail "
+"this is necessary to send invitations and replies to Microsoft Outlook.<br /"
+">But, when you do this, you no longer get descriptive text that mail "
 "programs can read; so, to people who have email programs that do not "
-"understand the invitations, the resulting messages look very odd.<br>People "
-"that have email programs that do understand invitations will still be able "
-"to work with this.</qt>"
+"understand the invitations, the resulting messages look very odd.<br /"
+">People that have email programs that do understand invitations will still "
+"be able to work with this.</qt>"
 msgstr ""
 
 #: configuredialog.cpp:5302
@@ -3307,14 +3307,15 @@ msgstr "Staw: "
 #: htmlstatusbar.cpp:93
 #, fuzzy
 msgid ""
-"<qt><b><br>H<br>T<br>M<br>L<br> <br>M<br>e<br>s<br>s<br>a<br>g<br>e</b></qt>"
+"<qt><b><br />H<br />T<br />M<br />L<br /> <br />M<br />e<br />s<br />s<br /"
+">a<br />g<br />e</b></qt>"
 msgstr "<b><br>H<br>T<br>M<br>L<br><br>p<br>o<br>w<br>ě<br>s<br>ć</b>"
 
 #: htmlstatusbar.cpp:96
 #, fuzzy
 msgid ""
-"<qt><br>N<br>o<br> <br>H<br>T<br>M<br>L<br> "
-"<br>M<br>e<br>s<br>s<br>a<br>g<br>e</qt>"
+"<qt><br />N<br />o<br /> <br />H<br />T<br />M<br />L<br /> <br />M<br /"
+">e<br />s<br />s<br />a<br />g<br />e</qt>"
 msgstr "<b><br>H<br>T<br>M<br>L<br><br>p<br>o<br>w<br>ě<br>s<br>ć</b>"
 
 #: identitydialog.cpp:95
@@ -3411,7 +3412,7 @@ msgid ""
 "can also use GnuPG keys.</p><p>You can leave this blank, but KMail will not "
 "be able to encrypt copies of outgoing messages to you using OpenPGP; normal "
 "mail functions will not be affected.</p><p>You can find out more about keys "
-"at <a>http://www.gnupg.org</a></qt>"
+"at <a>http://www.gnupg.org</a></p></qt>"
 msgstr ""
 
 #: identitydialog.cpp:225
@@ -4297,8 +4298,9 @@ msgid "Moving message %1 of %2 from %3."
 msgstr "Přesuwam powěsć %3 z %2 wot %1."
 
 #: kmacctlocal.cpp:238
-#, qt-format
-msgid "<qt>Cannot remove mail from mailbox <b>%1</b>:<br>%2</qt>"
+#, fuzzy, qt-format
+#| msgid "<qt>Cannot remove mail from mailbox <b>%1</b>:<br>%2</qt>"
+msgid "<qt>Cannot remove mail from mailbox <b>%1</b>:<br />%2</qt>"
 msgstr ""
 "<qt>Njemóžu powěsće z listoweho kašćika <b>%1</b> zwumjetać: <br>%2</qt>"
 
@@ -4375,8 +4377,8 @@ msgstr ""
 #, qt-format
 msgid ""
 "<qt>KMail found the following groupware folders in %1 and needs to perform "
-"the following operations: %2<br>If you do not want this, cancel and the IMAP "
-"resource will be disabled"
+"the following operations: %2<br />If you do not want this, cancel and the "
+"IMAP resource will be disabled"
 msgstr ""
 
 #: kmailicalifaceimpl.cpp:1687
@@ -4411,8 +4413,9 @@ msgid "URL copied to clipboard."
 msgstr "URL do zapisknika kopěrowany."
 
 #: kmcommands.cpp:639
-#, qt-format
-msgid "<qt>File <b>%1</b> exists.<br>Do you want to replace it?</qt>"
+#, fuzzy, qt-format
+#| msgid "<qt>File <b>%1</b> exists.<br>Do you want to replace it?</qt>"
+msgid "<qt>File <b>%1</b> exists.<br />Do you want to replace it?</qt>"
 msgstr "<qt>Dataja<b>%1</b> eksistuje.<br>Chceće ju narunać?</qt>"
 
 #: kmcommands.cpp:640 kmcommands.cpp:947 kmkernel.cpp:1826
@@ -5603,8 +5606,8 @@ msgstr "<qt> in<b></b></qt>"
 #: kmfilter.cpp:303
 #, fuzzy, qt-format
 msgid ""
-"<qt>Unknown filter action <b>%1</b><br>in filter rule <b>%2</b>.<br>Ignoring "
-"it.</qt>"
+"<qt>Unknown filter action <b>%1</b><br />in filter rule <b>%2</b>.<br /"
+">Ignoring it.</qt>"
 msgstr "<qt> Njeznate<b></b><br> in<b></b><br></qt>"
 
 #: kmfilteraction.cpp:593
@@ -6037,7 +6040,7 @@ msgstr ""
 
 #: kmfolder.cpp:83
 #, fuzzy, qt-format
-msgid "<qt>Error while creating file <b>%1</b>:<br>%2</qt>"
+msgid "<qt>Error while creating file <b>%1</b>:<br />%2</qt>"
 msgstr "<qt> Zmylk<b></b><br></qt>"
 
 #: kmfolder.cpp:282
@@ -7031,13 +7034,19 @@ msgid "%1 Folder is read-only."
 msgstr "Zapisk %1 hodźi so jenož čitać."
 
 #: kmheaders.cpp:1569
-#, qt-format
+#, fuzzy, qt-format
+#| msgid ""
+#| "<qt>Do you really want to delete the selected message?<br>Once deleted, "
+#| "it cannot be restored.</qt>"
+#| msgid_plural ""
+#| "<qt>Do you really want to delete the %1 selected messages?<br>Once "
+#| "deleted, they cannot be restored.</qt>"
 msgid ""
-"<qt>Do you really want to delete the selected message?<br>Once deleted, it "
+"<qt>Do you really want to delete the selected message?<br />Once deleted, it "
 "cannot be restored.</qt>"
 msgid_plural ""
-"<qt>Do you really want to delete the %1 selected messages?<br>Once deleted, "
-"they cannot be restored.</qt>"
+"<qt>Do you really want to delete the %1 selected messages?<br />Once "
+"deleted, they cannot be restored.</qt>"
 msgstr[0] ""
 "<qt>Chceće woprawdźe te %1 wubranych powěsćow zničić?<br>Njebudźe móžno je "
 "rekonstruować!</qt>"
@@ -7191,9 +7200,9 @@ msgstr "&Pytaj"
 msgctxt "%1-%3 is the application name, %4-%7 are folder path"
 msgid ""
 "<qt>The <i>%4</i> folder exists. %1 now uses the <i>%5</i> folder for its "
-"messages.<p>%2 can move the contents of <i>%6<i> into this folder for you, "
-"though this may replace any existing files with the same name in <i>%7</i>."
-"<p><strong>Would you like %3 to move the mail files now?</strong></qt>"
+"messages.<p>%2 can move the contents of <i>%6</i> into this folder for you, "
+"though this may replace any existing files with the same name in <i>%7</i>.</"
+"p><p><strong>Would you like %3 to move the mail files now?</strong></p></qt>"
 msgstr ""
 
 #: kmkernel.cpp:1714
@@ -7202,7 +7211,7 @@ msgctxt "%1-%3 is the application name, %4-%6 are folder path"
 msgid ""
 "<qt>The <i>%4</i> folder exists. %1 now uses the <i>%5</i> folder for its "
 "messages. %2 can move the contents of <i>%6</i> into this folder for you."
-"<p><strong>Would you like %3 to move the mail files now?</strong></qt>"
+"<p><strong>Would you like %3 to move the mail files now?</strong></p></qt>"
 msgstr ""
 
 #: kmkernel.cpp:1724
@@ -7320,9 +7329,11 @@ msgstr[2] "%1 nowej powěsći w %2."
 msgstr[3] "%1 nowe powěsće w %2."
 
 #: kmmainwidget.cpp:973
-#, qt-format
+#, fuzzy, qt-format
+#| msgctxt "%1 is a list of the number of new messages per folder"
+#| msgid "<b>New mail arrived</b><br>%1"
 msgctxt "%1 is a list of the number of new messages per folder"
-msgid "<b>New mail arrived</b><br>%1"
+msgid "<b>New mail arrived</b><br />%1"
 msgstr "<b>Nowa póšta je dóšła</b><br>%1"
 
 #: kmmainwidget.cpp:977
@@ -7386,8 +7397,8 @@ msgstr "<adresaća>"
 #: kmmainwidget.cpp:1219
 #, fuzzy, qt-format
 msgid ""
-"<qt>Are you sure you want to delete the search <b>%1</b>?<br>Any messages it "
-"shows will still be available in their original folder.</qt>"
+"<qt>Are you sure you want to delete the search <b>%1</b>?<br />Any messages "
+"it shows will still be available in their original folder.</qt>"
 msgstr ""
 "<qt>Chceće woprawdźe pytanski zapisk zničić <b>%1</b>? Powěsće so dla toho "
 "njezniča, dokelž su w druhich zapiskach zawěsćene.</qt>"
@@ -8415,8 +8426,8 @@ msgstr "POP-filtry"
 #, fuzzy, qt-format
 msgid ""
 "Messages to filter found on POP Account: <b>%1</b><p>The messages shown "
-"exceed the maximum size limit you defined for this account.<br>You can "
-"select what you want to do with them by checking the appropriate button."
+"exceed the maximum size limit you defined for this account.<br />You can "
+"select what you want to do with them by checking the appropriate button.</p>"
 msgstr "Konto<b></b><p><br>."
 
 #: kmpopfiltercnfrmdlg.cpp:314
@@ -9389,13 +9400,13 @@ msgstr "Šifrowana powěsć"
 #, qt-format
 msgid ""
 "<qt><p>Error: The backend did not return any encoded data.</p><p>Please "
-"report this bug:<br>%1</p></qt>"
+"report this bug:<br />%1</p></qt>"
 msgstr ""
 
 #: messagecomposer.cpp:2207
 msgid ""
-"<qt>Not all characters fit into the chosen encoding.<br><br>Send the message "
-"anyway?</qt>"
+"<qt>Not all characters fit into the chosen encoding.<br /><br />Send the "
+"message anyway?</qt>"
 msgstr ""
 
 #: messagecomposer.cpp:2209
@@ -9634,7 +9645,7 @@ msgstr ""
 
 #: objecttreeparser.cpp:1440
 #, qt-format
-msgid "Sorry, certificate could not be imported.<br>Reason: %1"
+msgid "Sorry, certificate could not be imported.<br />Reason: %1"
 msgstr ""
 
 #: objecttreeparser.cpp:1450
@@ -12711,7 +12722,7 @@ msgstr ""
 msgid ""
 "<qt>KMail can send a small (48x48 pixels), low-quality, monochrome picture "
 "with every message. For example, this could be a picture of you or a glyph. "
-"It is shown in the recipient's mail client (if supported)."
+"It is shown in the recipient's mail client (if supported).</qt>"
 msgstr ""
 
 #: xfaceconfigurator.cpp:192
