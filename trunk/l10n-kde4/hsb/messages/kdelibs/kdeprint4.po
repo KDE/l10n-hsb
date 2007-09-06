@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeprint4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-05 05:30+0200\n"
+"POT-Creation-Date: 2007-09-06 05:36+0200\n"
 "PO-Revision-Date: 2004-04-16 17:54+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -2306,6 +2306,65 @@ msgstr "Nastajenja proxyja"
 msgid "&Use proxy server"
 msgstr "&Wužiwaj proxy"
 
+#: kdeprintd/kprintprocess.cpp:79
+#, fuzzy
+msgid "File transfer failed."
+msgstr "Akcija je so zwrěšćiła."
+
+#: kdeprintd/kprintprocess.cpp:86
+#, qt-format
+msgid "Abnormal process termination (<b>%1</b>)."
+msgstr "Njewočakowane skónčenje procesa (<b>%1</b>)."
+
+#: kdeprintd/kprintprocess.cpp:88
+#, qt-format
+msgid "<b>%1</b>: execution failed with message:<p>%2</p>"
+msgstr "<b>%1</b>: wuwjedźenje je so zwrěšćiło z powěsću: <p>%2</p>"
+
+#: kdeprintd/kdeprintd.cpp:169 kprinter.cpp:807
+#, fuzzy, qt-format
+#| msgid ""
+#| "<p><nobr>A print error occurred. Error message received from system:</"
+#| "nobr></p><br>%1"
+msgid ""
+"<p><nobr>A print error occurred. Error message received from system:</nobr></"
+"p><br />%1"
+msgstr ""
+"<p><nobr> Zmylk je so při ćišćenju stał. Zmylkowa powěsć systema</nobr></"
+"p><br>%1"
+
+#: kdeprintd/kdeprintd.cpp:190
+#, fuzzy
+msgid ""
+"Some of the files to printed are not readable by the KDE print daemon. This "
+"may happen if you are trying to print as a different user to the one "
+"currently logged in. To continue printing, you need to provide root's "
+"password."
+msgstr ""
+"Někotre z datajow, kiž maja so ćišćeć, njehodźa so wot KDE-demona za "
+"ćišćenje čitać. To móže so stać, hdyž spytaće jako hinaši wužiwar ćišćeć. Za "
+"ćišćenje trjebaće hesło roota."
+
+#: kdeprintd/kdeprintd.cpp:195
+#, fuzzy
+msgid "Enter the root password"
+msgstr "Hesła roota"
+
+#: kdeprintd/kdeprintd.cpp:214 kdeprintd/kdeprintd.cpp:216
+#, qt-format
+msgid "Printing Status - %1"
+msgstr "Staw ćišćenja - %1"
+
+#: kdeprintd/kdeprintd.cpp:277
+#, fuzzy
+msgid "Printing system"
+msgstr "Ćišćenski system"
+
+#: kdeprintd/kdeprintd.cpp:283
+#, fuzzy, qt-format
+msgid "Authentication failed (user name=%1)"
+msgstr "Přizjewjenje je so zwrěšćiło!"
+
 #: kmjob.cpp:115
 msgid "Queued"
 msgstr "čaka"
@@ -3678,12 +3737,12 @@ msgstr "Opciju dodać"
 msgid "Delete item"
 msgstr "Element zničiić"
 
-#: management/kxmlcommanddlg.cpp:157 kfilelist.cpp:128
+#: management/kxmlcommanddlg.cpp:157 kfilelist.cpp:129
 #, fuzzy
 msgid "Move up"
 msgstr "Horje sunyć"
 
-#: management/kxmlcommanddlg.cpp:158 kfilelist.cpp:135
+#: management/kxmlcommanddlg.cpp:158 kfilelist.cpp:136
 #, fuzzy
 msgid "Move down"
 msgstr "Dele sunyć"
@@ -4445,21 +4504,21 @@ msgstr ""
 msgid "Path"
 msgstr "puć"
 
-#: kfilelist.cpp:108
+#: kfilelist.cpp:109
 #, fuzzy
 msgid "Add file"
 msgstr "Filter dodać"
 
-#: kfilelist.cpp:114
+#: kfilelist.cpp:115
 #, fuzzy
 msgid "Remove file"
 msgstr "Filter wotstronić"
 
-#: kfilelist.cpp:121
+#: kfilelist.cpp:122
 msgid "Open file"
 msgstr "Dataju wočinić"
 
-#: kfilelist.cpp:142
+#: kfilelist.cpp:143
 msgid ""
 "Drag file(s) here or use the button to open a file dialog. Leave empty for "
 "<b>&lt;STDIN&gt;</b>."
@@ -4555,18 +4614,6 @@ msgstr "Generuju daty za ćišćenje: strona %1"
 #: kprinter.cpp:536
 msgid "Previewing..."
 msgstr "Pokazuju..."
-
-#: kprinter.cpp:807 kdeprintd.cpp:168
-#, fuzzy, qt-format
-#| msgid ""
-#| "<p><nobr>A print error occurred. Error message received from system:</"
-#| "nobr></p><br>%1"
-msgid ""
-"<p><nobr>A print error occurred. Error message received from system:</nobr></"
-"p><br />%1"
-msgstr ""
-"<p><nobr> Zmylk je so při ćišćenju stał. Zmylkowa powěsć systema</nobr></"
-"p><br>%1"
 
 #: foomatic/kfoomaticprinterimpl.cpp:51 lpdunix/klpdunixprinterimpl.cpp:73
 msgid ""
@@ -5064,53 +5111,6 @@ msgstr "(wokpokazuje nadawki)"
 msgid "(accepting jobs)"
 msgstr "(přijimuje nadawki)"
 
-#: kprintprocess.cpp:73
-#, fuzzy
-msgid "File transfer failed."
-msgstr "Akcija je so zwrěšćiła."
-
-#: kprintprocess.cpp:81
-#, qt-format
-msgid "Abnormal process termination (<b>%1</b>)."
-msgstr "Njewočakowane skónčenje procesa (<b>%1</b>)."
-
-#: kprintprocess.cpp:83
-#, qt-format
-msgid "<b>%1</b>: execution failed with message:<p>%2</p>"
-msgstr "<b>%1</b>: wuwjedźenje je so zwrěšćiło z powěsću: <p>%2</p>"
-
-#: kdeprintd.cpp:189
-#, fuzzy
-msgid ""
-"Some of the files to printed are not readable by the KDE print daemon. This "
-"may happen if you are trying to print as a different user to the one "
-"currently logged in. To continue printing, you need to provide root's "
-"password."
-msgstr ""
-"Někotre z datajow, kiž maja so ćišćeć, njehodźa so wot KDE-demona za "
-"ćišćenje čitać. To móže so stać, hdyž spytaće jako hinaši wužiwar ćišćeć. Za "
-"ćišćenje trjebaće hesło roota."
-
-#: kdeprintd.cpp:194
-#, fuzzy
-msgid "Enter the root password"
-msgstr "Hesła roota"
-
-#: kdeprintd.cpp:213 kdeprintd.cpp:215
-#, qt-format
-msgid "Printing Status - %1"
-msgstr "Staw ćišćenja - %1"
-
-#: kdeprintd.cpp:276
-#, fuzzy
-msgid "Printing system"
-msgstr "Ćišćenski system"
-
-#: kdeprintd.cpp:282
-#, fuzzy, qt-format
-msgid "Authentication failed (user name=%1)"
-msgstr "Přizjewjenje je so zwrěšćiło!"
-
 #. i18n: tag text
 #. i18n: file kprintpreviewui.rc line 4
 #. i18n: tag text
@@ -5368,11 +5368,11 @@ msgstr ""
 "instalowany, pak nimaće trěbnu wersiu, kiž móžeće dóstać wot http://printing."
 "kde.org/downloads/."
 
-#: kprinterpropertydialog.cpp:87 kprinterpropertydialog.cpp:147
+#: kprinterpropertydialog.cpp:84 kprinterpropertydialog.cpp:144
 msgid "Printer Configuration"
 msgstr "Konfiguracija ćišćaka"
 
-#: kprinterpropertydialog.cpp:147
+#: kprinterpropertydialog.cpp:144
 #, fuzzy
 msgid "No configurable options for that printer."
 msgstr "Tutón ćišćak njehodźi so konfigurować!"
