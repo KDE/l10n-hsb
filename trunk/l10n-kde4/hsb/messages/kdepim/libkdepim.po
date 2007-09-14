@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkdepim\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-11 05:37+0200\n"
+"POT-Creation-Date: 2007-09-14 05:36+0200\n"
 "PO-Revision-Date: 2004-04-16 18:00+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -538,25 +538,25 @@ msgctxt "@item unknown mail account"
 msgid "Unknown"
 msgstr ""
 
-#: kaddrbook.cpp:90
+#: kaddrbookexternal.cpp:105
 #, qt-format
 msgid ""
 "<qt>The email address <b>%1</b> was added to your addressbook; you can add "
 "more information to this entry by opening the addressbook.</qt>"
 msgstr ""
 
-#: kaddrbook.cpp:96
+#: kaddrbookexternal.cpp:112
 #, qt-format
 msgid "<qt>The email address <b>%1</b> is already in your addressbook.</qt>"
 msgstr ""
 
-#: kaddrbook.cpp:127
+#: kaddrbookexternal.cpp:144
 msgid ""
 "The VCard was added to your addressbook; you can add more information to "
 "this entry by opening the addressbook."
 msgstr ""
 
-#: kaddrbook.cpp:134
+#: kaddrbookexternal.cpp:151
 msgid ""
 "The VCard's primary email address is already in your addressbook; however, "
 "you may save the VCard into a file and import it into the addressbook "
@@ -690,67 +690,85 @@ msgstr ""
 msgid "Description:"
 msgstr ""
 
-#: kconfigpropagator.cpp:39
+#: kconfigpropagator.cpp:41
 msgid "Change Config Value"
 msgstr ""
 
-#: kconfigwizard.cpp:41 kconfigwizard.cpp:53
+#: kconfigwizard.cpp:43 kconfigwizard.cpp:55
+#, fuzzy
+msgctxt "@title:window"
 msgid "Configuration Wizard"
-msgstr ""
+msgstr "Kategorije &wobdźěłać..."
 
-#: kconfigwizard.cpp:96
+#: kconfigwizard.cpp:98
+msgctxt "@title:tab"
 msgid "Rules"
 msgstr ""
 
-#: kconfigwizard.cpp:97
+#: kconfigwizard.cpp:99
+#, fuzzy
+msgctxt "@title:window"
 msgid "Setup Rules"
-msgstr ""
+msgstr "Kategorije wubrać"
 
-#: kconfigwizard.cpp:105
+#: kconfigwizard.cpp:107
+msgctxt "@title:column source file,group,entry"
 msgid "Source"
 msgstr ""
 
-#: kconfigwizard.cpp:106
+#: kconfigwizard.cpp:108
+msgctxt "@title:column target file,group,entry"
 msgid "Target"
 msgstr ""
 
-#: kconfigwizard.cpp:107
+#: kconfigwizard.cpp:109
+msgctxt "@title:column file,group,key,value"
 msgid "Condition"
 msgstr ""
 
-#: kconfigwizard.cpp:141
-msgid "Changes"
-msgstr ""
-
-#: kconfigwizard.cpp:142
+#: kconfigwizard.cpp:143
 #, fuzzy
+msgctxt "@title:tab"
+msgid "Changes"
+msgstr "Kategorije wubrać"
+
+#: kconfigwizard.cpp:144
+#, fuzzy
+msgctxt "@title:window"
 msgid "Setup Changes"
 msgstr "Kategorije wubrać"
 
-#: kconfigwizard.cpp:149
+#: kconfigwizard.cpp:151
+#, fuzzy
+msgctxt "@title:column change action"
 msgid "Action"
-msgstr ""
+msgstr "Wubraće mustra"
 
-#: kconfigwizard.cpp:150
+#: kconfigwizard.cpp:152
+msgctxt "@title:column option to change"
 msgid "Option"
 msgstr ""
 
-#: kconfigwizard.cpp:151
+#: kconfigwizard.cpp:153
+msgctxt "@title:column value for option"
 msgid "Value"
 msgstr ""
 
-#: kconfigwizard.cpp:184
+#: kconfigwizard.cpp:187
+msgctxt "@info"
 msgid ""
 "Please make sure that the programs which are configured by the wizard do not "
 "run in parallel to the wizard; otherwise, changes done by the wizard could "
 "be lost."
 msgstr ""
 
-#: kconfigwizard.cpp:187
+#: kconfigwizard.cpp:190
+msgctxt "@title:window warn about running instances"
 msgid "Warning"
 msgstr ""
 
-#: kconfigwizard.cpp:187
+#: kconfigwizard.cpp:191
+msgctxt "@action:button"
 msgid "Run Wizard Now"
 msgstr ""
 
