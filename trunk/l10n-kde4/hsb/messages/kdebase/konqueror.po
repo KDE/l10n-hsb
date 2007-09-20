@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-19 05:35+0200\n"
+"POT-Creation-Date: 2007-09-20 05:33+0200\n"
 "PO-Revision-Date: 2005-01-28 15:18+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -1231,10 +1231,6 @@ msgstr ""
 msgid "The D-Bus call startText failed."
 msgstr ""
 
-#: dirpart/konq_part.cc:101
-msgid "KonqPart"
-msgstr ""
-
 #: about/konq_aboutpage.cc:114 about/konq_aboutpage.cc:116
 #: about/konq_aboutpage.cc:179 about/konq_aboutpage.cc:181
 #: about/konq_aboutpage.cc:234 about/konq_aboutpage.cc:236
@@ -1493,7 +1489,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file sidebar/trees/history_module/history_dlg.ui line 134
-#: about/konq_aboutpage.cc:279 rc.cpp:143
+#: about/konq_aboutpage.cc:279 rc.cpp:107
 msgid "Details"
 msgstr "Nadrobnosće"
 
@@ -2181,11 +2177,7 @@ msgstr "&Městno"
 #. i18n: file ./src/konq-simplebrowser.rc line 22
 #. i18n: tag text
 #. i18n: file ./src/konqueror.rc line 21
-#. i18n: tag text
-#. i18n: file ./dirpart/konq_listview.rc line 4
-#. i18n: tag text
-#. i18n: file ./dirpart/konq_iconview.rc line 4
-#: rc.cpp:8 rc.cpp:38 rc.cpp:77 rc.cpp:95
+#: rc.cpp:8 rc.cpp:38
 msgid "&Edit"
 msgstr ""
 
@@ -2193,11 +2185,7 @@ msgstr ""
 #. i18n: file ./src/konq-simplebrowser.rc line 33
 #. i18n: tag text
 #. i18n: file ./src/konqueror.rc line 38
-#. i18n: tag text
-#. i18n: file ./dirpart/konq_listview.rc line 14
-#. i18n: tag text
-#. i18n: file ./dirpart/konq_iconview.rc line 14
-#: rc.cpp:11 rc.cpp:41 rc.cpp:83 rc.cpp:101
+#: rc.cpp:11 rc.cpp:41
 #, fuzzy
 msgid "&View"
 msgstr "Napohlad wot&kazow"
@@ -2212,7 +2200,7 @@ msgstr "Napohlad wot&kazow"
 #. i18n: file ./shellcmdplugin/kshellcmdplugin.rc line 4
 #. i18n: tag text
 #. i18n: file ./remoteencodingplugin/kremoteencodingplugin.rc line 4
-#: rc.cpp:14 rc.cpp:47 rc.cpp:71 rc.cpp:113 rc.cpp:116
+#: rc.cpp:14 rc.cpp:47 rc.cpp:71 rc.cpp:77 rc.cpp:80
 #, fuzzy
 msgid "&Tools"
 msgstr "Nastroje"
@@ -2286,65 +2274,33 @@ msgstr "&Wokno"
 msgid "Speech Toolbar"
 msgstr "Pas za štomikowy napohlad"
 
-#. i18n: tag text
-#. i18n: file ./dirpart/konq_listview.rc line 5
-#. i18n: tag text
-#. i18n: file ./dirpart/konq_iconview.rc line 5
-#: rc.cpp:80 rc.cpp:98
-msgid "Selection"
-msgstr "Markěrowanje"
-
-#. i18n: tag text
-#. i18n: file ./dirpart/konq_listview.rc line 15
-#. i18n: tag text
-#. i18n: file ./dirpart/konq_iconview.rc line 15
-#: rc.cpp:86 rc.cpp:104
-msgid "Icon Size"
-msgstr "Wulkosć piktogramow"
-
-#. i18n: tag text
-#. i18n: file ./dirpart/konq_listview.rc line 29
-#. i18n: tag text
-#. i18n: file ./dirpart/konq_iconview.rc line 29
-#: rc.cpp:89 rc.cpp:107
-msgid "Show Details"
-msgstr "Pokaž nadrobne informacije"
-
-#. i18n: tag text
-#. i18n: file ./dirpart/konq_listview.rc line 47
-#. i18n: tag text
-#. i18n: file ./dirpart/konq_iconview.rc line 47
-#: rc.cpp:92 rc.cpp:110
-msgid "Detailed Listview Toolbar"
-msgstr "Nastrojowy pas z dokładnej lisćinu"
-
 #. i18n: tag string
 #. i18n: file sidebar/trees/history_module/history_dlg.ui line 22
-#: rc.cpp:119
+#: rc.cpp:83
 msgid "Limits"
 msgstr "Wobmjezowanja"
 
 #. i18n: tag string
 #. i18n: file sidebar/trees/history_module/history_dlg.ui line 47
-#: rc.cpp:122
+#: rc.cpp:86
 msgid "URLs e&xpire after"
 msgstr "URL su &njeaktualne po"
 
 #. i18n: tag string
 #. i18n: file sidebar/trees/history_module/history_dlg.ui line 57
-#: rc.cpp:125
+#: rc.cpp:89
 msgid "Maximum &number of URLs:"
 msgstr "Maksimalna &ličba URL:"
 
 #. i18n: tag string
 #. i18n: file sidebar/trees/history_module/history_dlg.ui line 76
-#: rc.cpp:128
+#: rc.cpp:92
 msgid "Custom Fonts For"
 msgstr "Postajene pisma za"
 
 #. i18n: tag string
 #. i18n: file sidebar/trees/history_module/history_dlg.ui line 94
-#: rc.cpp:131
+#: rc.cpp:95
 msgid "URLs newer than"
 msgstr "Nowše URL hač"
 
@@ -2352,25 +2308,25 @@ msgstr "Nowše URL hač"
 #. i18n: file sidebar/trees/history_module/history_dlg.ui line 107
 #. i18n: tag string
 #. i18n: file sidebar/trees/history_module/history_dlg.ui line 124
-#: rc.cpp:134 rc.cpp:140
+#: rc.cpp:98 rc.cpp:104
 msgid "Choose Font..."
 msgstr "Wuběraj pIsmo..."
 
 #. i18n: tag string
 #. i18n: file sidebar/trees/history_module/history_dlg.ui line 114
-#: rc.cpp:137
+#: rc.cpp:101
 msgid "URLs older than"
 msgstr "starše URL hač"
 
 #. i18n: tag string
 #. i18n: file sidebar/trees/history_module/history_dlg.ui line 143
-#: rc.cpp:146
+#: rc.cpp:110
 msgid "Detailed tooltips"
 msgstr "Nadrobne tooltips"
 
 #. i18n: tag string
 #. i18n: file sidebar/trees/history_module/history_dlg.ui line 146
-#: rc.cpp:149
+#: rc.cpp:113
 msgid ""
 "Shows the number of times visited and the dates of the first and last "
 "visits, in addition to the URL"
@@ -2380,7 +2336,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file sidebar/trees/history_module/history_dlg.ui line 161
-#: rc.cpp:152
+#: rc.cpp:116
 msgid "Clear History"
 msgstr "Nachwilny pomjatk wuprózdnić"
 
@@ -4935,6 +4891,18 @@ msgid ""
 "improve Konqueror performance here. These include options for reusing "
 "already running instances and for keeping instances preloaded."
 msgstr ""
+
+#~ msgid "Selection"
+#~ msgstr "Markěrowanje"
+
+#~ msgid "Icon Size"
+#~ msgstr "Wulkosć piktogramow"
+
+#~ msgid "Show Details"
+#~ msgstr "Pokaž nadrobne informacije"
+
+#~ msgid "Detailed Listview Toolbar"
+#~ msgstr "Nastrojowy pas z dokładnej lisćinu"
 
 #, fuzzy
 #~ msgid "Size"
