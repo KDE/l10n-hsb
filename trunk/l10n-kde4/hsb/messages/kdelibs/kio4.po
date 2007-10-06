@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-05 05:39+0200\n"
+"POT-Creation-Date: 2007-10-06 05:38+0200\n"
 "PO-Revision-Date: 2005-02-02 18:46+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "File '%1' is not readable"
 msgstr "Dataja '%1' njehodźi so čitać"
 
-#: kio/netaccess.cpp:439
+#: kio/netaccess.cpp:438
 #, fuzzy, qt-format
 msgid "ERROR: Unknown protocol '%1'"
 msgstr "Njeznaty protokol '%1'"
@@ -111,7 +111,7 @@ msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Wotmontuju"
 
-#: kio/job.cpp:1979 kio/paste.cpp:63 kio/copyjob.cpp:1165 kio/copyjob.cpp:1685
+#: kio/job.cpp:1971 kio/paste.cpp:63 kio/copyjob.cpp:1166 kio/copyjob.cpp:1690
 #: kio/global.cpp:703
 msgid "File Already Exists"
 msgstr "Dataja hižo eksistuje"
@@ -152,7 +152,7 @@ msgid "The clipboard is empty"
 msgstr "Clipboard je prózdny"
 
 #: kio/paste.cpp:203 kio/renamedialog.cpp:393 kio/kdirlister.cpp:295
-#: kio/krun.cpp:829
+#: kio/krun.cpp:830
 #, qt-format
 msgid ""
 "Malformed URL\n"
@@ -448,11 +448,11 @@ msgstr "Přeskoč"
 msgid "AutoSkip"
 msgstr "Awtomatisce přeskoč"
 
-#: kio/copyjob.cpp:889 kio/global.cpp:713
+#: kio/copyjob.cpp:890 kio/global.cpp:713
 msgid "Folder Already Exists"
 msgstr "Zapisk hižo eksistuje"
 
-#: kio/copyjob.cpp:1165 kio/copyjob.cpp:1685
+#: kio/copyjob.cpp:1166 kio/copyjob.cpp:1690
 msgid "Already Exists as Folder"
 msgstr "Eksistuje hižo jako zapisk"
 
@@ -2226,13 +2226,13 @@ msgstr "Wubjerće hinaše datajowe mjeno za cilowu dataju."
 msgid "Undocumented Error"
 msgstr "Njedokumentowany zmylk"
 
-#: kio/kemailsettings.cpp:250 kio/kemailsettings.cpp:253
-#: kio/kemailsettings.cpp:260
+#: kio/kemailsettings.cpp:251 kio/kemailsettings.cpp:254
+#: kio/kemailsettings.cpp:261
 #, fuzzy
 msgid "Default"
 msgstr " (zničam)"
 
-#: kio/krun.cpp:143
+#: kio/krun.cpp:144
 #, qt-format
 msgid ""
 "<qt>Unable to enter <b>%1</b>.\n"
@@ -2241,41 +2241,41 @@ msgstr ""
 "<qt>Njemóžu zastupić do <b>%1</b>.\n"
 "Nimaće prawa na tute městno dóńć.</qt>"
 
-#: kio/krun.cpp:180
+#: kio/krun.cpp:181
 #, qt-format
 msgid ""
 "<qt>The file <b>%1</b> is an executable program. For safety it will not be "
 "started.</qt>"
 msgstr "<qt>Dataja <b>%1</b> je program. Wěstosće dla jón njestartuju.</qt>"
 
-#: kio/krun.cpp:187
+#: kio/krun.cpp:188
 #, qt-format
 msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
 msgstr "<qt>Nimaće prawa startować <b>%1</b>.</qt>"
 
-#: kio/krun.cpp:212
+#: kio/krun.cpp:213
 #, fuzzy
 msgid "You are not authorized to select an application to open this file."
 msgstr "Nimaće prawo tutu dataju wočinić."
 
-#: kio/krun.cpp:216
+#: kio/krun.cpp:217
 msgid "Open with:"
 msgstr "Wočinić z:"
 
-#: kio/krun.cpp:516
+#: kio/krun.cpp:517
 msgid "You are not authorized to execute this file."
 msgstr "Nimaće prawo tutu dataju wuwjesć."
 
-#: kio/krun.cpp:536
+#: kio/krun.cpp:537
 #, qt-format
 msgid "Launching %1"
 msgstr "Startuju %1"
 
-#: kio/krun.cpp:699
+#: kio/krun.cpp:700
 msgid "You are not authorized to execute this service."
 msgstr "Nimaće prawo tutón service startować."
 
-#: kio/krun.cpp:865
+#: kio/krun.cpp:866
 #, qt-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -2284,7 +2284,7 @@ msgstr ""
 "<qt>Njemóžu komando wuwjesć. Dataja abo zapisk <b>%1</b> njeeksistujetej.</"
 "qt>"
 
-#: kio/krun.cpp:1459
+#: kio/krun.cpp:1462
 #, qt-format
 msgid "Could not find the program '%1'"
 msgstr "Njemóžach program namakać: %1."
@@ -2294,7 +2294,7 @@ msgstr "Njemóžach program namakać: %1."
 msgid "The desktop entry file %1 has no Type=... entry."
 msgstr "Desktop-entry-dataja %1 nima linku Type=..."
 
-#: kio/kdesktopfileactions.cpp:66
+#: kio/kdesktopfileactions.cpp:63
 #, qt-format
 msgid ""
 "The desktop entry of type\n"
@@ -2302,8 +2302,8 @@ msgid ""
 "is unknown."
 msgstr "Desktop entry družiny %1 njeje znaty."
 
-#: kio/kdesktopfileactions.cpp:81 kio/kdesktopfileactions.cpp:159
-#: kio/kdesktopfileactions.cpp:311
+#: kio/kdesktopfileactions.cpp:77 kio/kdesktopfileactions.cpp:155
+#: kio/kdesktopfileactions.cpp:299
 #, qt-format
 msgid ""
 "The desktop entry file\n"
@@ -2311,7 +2311,7 @@ msgid ""
 "is of type FSDevice but has no Dev=... entry."
 msgstr "Desktop-entry-dataja %1 ma typ FSDevice, ale nima linku Dev=...."
 
-#: kio/kdesktopfileactions.cpp:124
+#: kio/kdesktopfileactions.cpp:121
 #, qt-format
 msgid ""
 "The desktop entry file\n"
@@ -2319,19 +2319,19 @@ msgid ""
 "is of type Link but has no URL=... entry."
 msgstr "Desktop-entry-dataja %1 ma typ Link, ale nima linku URL=...."
 
-#: kio/kdesktopfileactions.cpp:166
+#: kio/kdesktopfileactions.cpp:162
 msgid "Mount"
 msgstr "montować"
 
-#: kio/kdesktopfileactions.cpp:175
+#: kio/kdesktopfileactions.cpp:171
 msgid "Eject"
 msgstr "Wućisnyć"
 
-#: kio/kdesktopfileactions.cpp:177
+#: kio/kdesktopfileactions.cpp:173
 msgid "Unmount"
 msgstr "Wotmontować"
 
-#: kio/kdesktopfileactions.cpp:228
+#: kio/kdesktopfileactions.cpp:219
 #, fuzzy, qt-format
 #| msgid ""
 #| "The desktop entry file\n"
@@ -2341,7 +2341,7 @@ msgstr "Wotmontować"
 msgid "The desktop menu %1 has an invalid X-KDE-GetActionMenu entry."
 msgstr "Desktop-entry-dataja %1 ma njekorektny menijowy zapis %2."
 
-#: kio/kdesktopfileactions.cpp:283
+#: kio/kdesktopfileactions.cpp:272
 #, qt-format
 msgid ""
 "The desktop entry file\n"
@@ -2350,45 +2350,45 @@ msgid ""
 "%2."
 msgstr "Desktop-entry-dataja %1 ma njekorektny menijowy zapis %2."
 
-#: kio/kfileitem.cpp:939
+#: kio/kfileitem.cpp:940
 #, fuzzy, qt-format
 #| msgid "Symbolic Link"
 msgid "(Symbolic Link to %1)"
 msgstr "Wotkaz"
 
-#: kio/kfileitem.cpp:941
+#: kio/kfileitem.cpp:942
 #, fuzzy, qt-format
 #| msgid "Link to %1 (%2)"
 msgid "(%1, Link to %2)"
 msgstr "Wotkaz na %1 (%2)"
 
-#: kio/kfileitem.cpp:968 bookmarks/kbookmarkdialog.cc:251
+#: kio/kfileitem.cpp:969 bookmarks/kbookmarkdialog.cc:251
 #: ../kioslave/http/kcookiejar/kcookiewin.cpp:216
 msgid "Name:"
 msgstr "Mjeno:"
 
-#: kio/kfileitem.cpp:969 kfile/kpropertiesdialog.cpp:979
+#: kio/kfileitem.cpp:970 kfile/kpropertiesdialog.cpp:979
 msgid "Type:"
 msgstr "Družina:"
 
-#: kio/kfileitem.cpp:973
+#: kio/kfileitem.cpp:974
 #, qt-format
 msgid "Link to %1 (%2)"
 msgstr "Wotkaz na %1 (%2)"
 
-#: kio/kfileitem.cpp:978 kfile/kpropertiesdialog.cpp:1026
+#: kio/kfileitem.cpp:979 kfile/kpropertiesdialog.cpp:1026
 msgid "Size:"
 msgstr "Wulkosć:"
 
-#: kio/kfileitem.cpp:983 kfile/kpropertiesdialog.cpp:1087
+#: kio/kfileitem.cpp:984 kfile/kpropertiesdialog.cpp:1087
 msgid "Modified:"
 msgstr "Změnjeny:"
 
-#: kio/kfileitem.cpp:986
+#: kio/kfileitem.cpp:987
 msgid "Owner:"
 msgstr "Wobsydnik:"
 
-#: kio/kfileitem.cpp:987
+#: kio/kfileitem.cpp:988
 msgid "Permissions:"
 msgstr "Prawa:"
 
@@ -2441,53 +2441,53 @@ msgstr "&Wobdźěłać"
 msgid "Click this button to display the familiar KDE mime type editor."
 msgstr "Klikńće tutón knefl, zo byšće KDE-Mime-Type-editor startował."
 
-#: kio/connection.cpp:209
+#: kio/connection.cpp:210
 #, qt-format
 msgid "Unable to create io-slave: %1"
 msgstr "Njemóžach io-slave stworić: %1"
 
-#: kio/kdirmodel.cpp:609
+#: kio/kdirmodel.cpp:610
 #, fuzzy
 #| msgid "Name"
 msgctxt "@title:column"
 msgid "Name"
 msgstr "Mjeno"
 
-#: kio/kdirmodel.cpp:611
+#: kio/kdirmodel.cpp:612
 #, fuzzy
 #| msgid "Size"
 msgctxt "@title:column"
 msgid "Size"
 msgstr "Wulkosć"
 
-#: kio/kdirmodel.cpp:613
+#: kio/kdirmodel.cpp:614
 #, fuzzy
 msgctxt "@title:column"
 msgid "Modified"
 msgstr "Změnjeny:"
 
-#: kio/kdirmodel.cpp:615
+#: kio/kdirmodel.cpp:616
 #, fuzzy
 #| msgid "Permissions"
 msgctxt "@title:column"
 msgid "Permissions"
 msgstr "Prawa"
 
-#: kio/kdirmodel.cpp:617
+#: kio/kdirmodel.cpp:618
 #, fuzzy
 #| msgid "Owner"
 msgctxt "@title:column"
 msgid "Owner"
 msgstr "Wobsydnik"
 
-#: kio/kdirmodel.cpp:619
+#: kio/kdirmodel.cpp:620
 #, fuzzy
 #| msgid "Group"
 msgctxt "@title:column"
 msgid "Group"
 msgstr "Skupina"
 
-#: kio/kdirmodel.cpp:621
+#: kio/kdirmodel.cpp:622
 #, fuzzy
 msgctxt "@title:column"
 msgid "Type"
@@ -2872,7 +2872,7 @@ msgstr ""
 "<qt>Aplikacija <b>%1</b> chce móšnjowu dataju <b>%2</b> wočinić. Prošu "
 "zapodajće wotpowědne hesło."
 
-#: misc/kwalletd/kwalletd.cpp:395 ../kfile/kfilewidget.cpp:1575
+#: misc/kwalletd/kwalletd.cpp:395 ../kfile/kfilewidget.cpp:1577
 msgid "&Open"
 msgstr "W&očinić"
 
@@ -3004,15 +3004,15 @@ msgstr "Hesle so kryjetej"
 msgid "Passwords do not match."
 msgstr "Hesle so njekryjetej"
 
-#: misc/ktelnetservice.cpp:37
+#: misc/ktelnetservice.cpp:39
 msgid "telnet service"
 msgstr "telnet service"
 
-#: misc/ktelnetservice.cpp:38
+#: misc/ktelnetservice.cpp:40
 msgid "telnet protocol handler"
 msgstr "telnet protocol handler"
 
-#: misc/ktelnetservice.cpp:72
+#: misc/ktelnetservice.cpp:74
 #, qt-format
 msgid "You do not have permission to access the %1 protocol."
 msgstr "Nimaće prawa přistupa na protokol %1."
@@ -3066,12 +3066,12 @@ msgstr "Temowa linka"
 msgid "Recipient"
 msgstr "Adresat"
 
-#: misc/kmailservice.cpp:29
+#: misc/kmailservice.cpp:30
 #, fuzzy
 msgid "KMailService"
 msgstr "elektroniska póšta"
 
-#: misc/kmailservice.cpp:29
+#: misc/kmailservice.cpp:30
 #, fuzzy
 msgid "Mail service"
 msgstr "elektroniska póšta"
@@ -3084,9 +3084,9 @@ msgstr "Městno:"
 #: kfile/kurlrequesterdialog.cpp:130 kfile/kicondialog.cpp:588
 #: kfile/kencodingfiledialog.cpp:107 kfile/kencodingfiledialog.cpp:125
 #: kfile/kencodingfiledialog.cpp:140 kfile/kencodingfiledialog.cpp:158
-#: kfile/kfiledialog.cpp:224 kfile/kfiledialog.cpp:248
-#: kfile/kfiledialog.cpp:264 kfile/kfiledialog.cpp:278
-#: kfile/kfiledialog.cpp:294 kfile/kfiledialog.cpp:332
+#: kfile/kfiledialog.cpp:225 kfile/kfiledialog.cpp:249
+#: kfile/kfiledialog.cpp:265 kfile/kfiledialog.cpp:279
+#: kfile/kfiledialog.cpp:295 kfile/kfiledialog.cpp:333
 #, fuzzy
 msgid "Open"
 msgstr "W&očinić"
@@ -3296,12 +3296,12 @@ msgid "Encoding:"
 msgstr "Čitam"
 
 #: kfile/kencodingfiledialog.cpp:179 kfile/kencodingfiledialog.cpp:204
-#: kfile/kfiledialog.cpp:381 kfile/kfiledialog.cpp:414
-#: kfile/kfiledialog.cpp:433
+#: kfile/kfiledialog.cpp:382 kfile/kfiledialog.cpp:415
+#: kfile/kfiledialog.cpp:434
 msgid "Save As"
 msgstr ""
 
-#: kfile/kurlrequester.cpp:231
+#: kfile/kurlrequester.cpp:232
 #, fuzzy
 msgid "Open file dialog"
 msgstr "Dialog za wočinjenje dataje"
@@ -3311,15 +3311,15 @@ msgstr "Dialog za wočinjenje dataje"
 msgid "Device name"
 msgstr "Graty"
 
-#: kfile/kopenwithdialog.cpp:262
+#: kfile/kopenwithdialog.cpp:263
 msgid "Known Applications"
 msgstr "Znate programy"
 
-#: kfile/kopenwithdialog.cpp:464
+#: kfile/kopenwithdialog.cpp:465
 msgid "Open With"
 msgstr "Wočinić z"
 
-#: kfile/kopenwithdialog.cpp:469
+#: kfile/kopenwithdialog.cpp:470
 #, qt-format
 msgid ""
 "<qt>Select the program that should be used to open <b>%1</b>. If the program "
@@ -3328,16 +3328,16 @@ msgstr ""
 "<qt>Wubjerće program, kiž ma so wužiwać, zo by <b>%1</b> wočinił. Jeli "
 "program njeje w lisćinje, zapodajće mjeno abo klikńće na pytanski knefl.</qt>"
 
-#: kfile/kopenwithdialog.cpp:475
+#: kfile/kopenwithdialog.cpp:476
 msgid "Choose the name of the program with which to open the selected files."
 msgstr "Wubjerće mjeno programa, z kotrymž maja so wubrane dataje wočinić."
 
-#: kfile/kopenwithdialog.cpp:502
+#: kfile/kopenwithdialog.cpp:503
 #, qt-format
 msgid "Choose Application for %1"
 msgstr "Wubjerće program za %1"
 
-#: kfile/kopenwithdialog.cpp:503
+#: kfile/kopenwithdialog.cpp:504
 #, qt-format
 msgid ""
 "<qt>Select the program for the file type: <b>%1</b>. If the program is not "
@@ -3346,11 +3346,11 @@ msgstr ""
 "<qt>Wubjerće program za datajowu družinu: <b>%1</b>. Jeli program njeje w "
 "lisćinje, zapodajće mjeno abo klikńće na pytanski knefl.</qt>"
 
-#: kfile/kopenwithdialog.cpp:518
+#: kfile/kopenwithdialog.cpp:519
 msgid "Choose Application"
 msgstr "Wubjerće program"
 
-#: kfile/kopenwithdialog.cpp:519
+#: kfile/kopenwithdialog.cpp:520
 msgid ""
 "<qt>Select a program. If the program is not listed, enter the name or click "
 "the browse button.</qt>"
@@ -3358,7 +3358,7 @@ msgstr ""
 "<qt>Wubjerće program. Jeli program njeje w lisćinje, zapodajće mjeno abo "
 "klikńće na pytanski knefl.</qt>"
 
-#: kfile/kopenwithdialog.cpp:584
+#: kfile/kopenwithdialog.cpp:585
 #, fuzzy
 msgid ""
 "Following the command, you can have several place holders which will be "
@@ -3386,15 +3386,15 @@ msgstr ""
 "%m - minipiktogram\n"
 "%c - komentar"
 
-#: kfile/kopenwithdialog.cpp:619
+#: kfile/kopenwithdialog.cpp:620
 msgid "Run in &terminal"
 msgstr "W &terminalu"
 
-#: kfile/kopenwithdialog.cpp:632
+#: kfile/kopenwithdialog.cpp:633
 msgid "&Do not close when command exits"
 msgstr "&Njezačiń po zakónčenju přikaza"
 
-#: kfile/kopenwithdialog.cpp:649
+#: kfile/kopenwithdialog.cpp:650
 msgid "&Remember application association for this type of file"
 msgstr "&Spomjatkuj sej programowu asociaciju za tutón typ datajow"
 
@@ -4536,22 +4536,22 @@ msgstr "Njewočakowany kónc datow, snadź je so dźěl informacije zhubił."
 msgid "Receiving corrupt data."
 msgstr "Dóstawam skóncowane daty."
 
-#: bookmarks/konqbookmarkmenu.cc:63 bookmarks/konqbookmarkmenu.cc:80
+#: bookmarks/konqbookmarkmenu.cc:61 bookmarks/konqbookmarkmenu.cc:78
 #, fuzzy
 msgid "Hide in toolbar"
 msgstr "K lubuškam dodać "
 
-#: bookmarks/konqbookmarkmenu.cc:63 bookmarks/konqbookmarkmenu.cc:80
+#: bookmarks/konqbookmarkmenu.cc:61 bookmarks/konqbookmarkmenu.cc:78
 #, fuzzy
 #| msgid "Show toolbar"
 msgid "Show in toolbar"
 msgstr "Pokaž nastroje"
 
-#: bookmarks/konqbookmarkmenu.cc:73
+#: bookmarks/konqbookmarkmenu.cc:71
 msgid "Open in New Window"
 msgstr ""
 
-#: bookmarks/konqbookmarkmenu.cc:74
+#: bookmarks/konqbookmarkmenu.cc:72
 msgid "Open in New Tab"
 msgstr ""
 
@@ -4565,7 +4565,7 @@ msgid "<!-- This file was generated by Konqueror -->"
 msgstr "<!-- Tuta dataja bu wot Konquerora generowana -->"
 
 #: bookmarks/kbookmarkimporter_ns.cc:152 bookmarks/kbookmarkimporter_ns.cc:153
-#: bookmarks/kbookmarkdialog.cc:321 ../kfile/kfilewidget.cpp:2006
+#: bookmarks/kbookmarkdialog.cc:321 ../kfile/kfilewidget.cpp:2008
 #, fuzzy
 msgid "Bookmarks"
 msgstr "Lubušk"
@@ -4590,7 +4590,7 @@ msgstr "Wočinić w editorje lubuškow"
 msgid "Delete Folder"
 msgstr "Zapisk zničić"
 
-#: bookmarks/kbookmarkmenu.cc:263 ../kfile/kdiroperator.cpp:1544
+#: bookmarks/kbookmarkmenu.cc:263 ../kfile/kdiroperator.cpp:1546
 #, fuzzy
 msgid "Properties"
 msgstr "Swójstwa %1"
@@ -4717,13 +4717,13 @@ msgstr "K lubuškam dodać "
 msgid "Ok"
 msgstr ""
 
-#: bookmarks/kbookmarkdialog.cc:103 ../kfile/kdirselectdialog.cpp:223
+#: bookmarks/kbookmarkdialog.cc:103 ../kfile/kdirselectdialog.cpp:222
 #, fuzzy
 msgid "Select Folder"
 msgstr "Zapisk zničić"
 
-#: bookmarks/kbookmarkdialog.cc:128 ../kfile/kdirselectdialog.cpp:115
-#: ../kfile/kdirselectdialog.cpp:119 ../kfile/kdiroperator.cpp:617
+#: bookmarks/kbookmarkdialog.cc:128 ../kfile/kdirselectdialog.cpp:114
+#: ../kfile/kdirselectdialog.cpp:118 ../kfile/kdiroperator.cpp:617
 #: ../kfile/kdiroperator.cpp:625
 #, fuzzy
 msgid "New Folder"
@@ -4742,17 +4742,17 @@ msgstr "Nowy zapisk za lubuški  w %1 stworić"
 msgid "New folder:"
 msgstr "Nowy zapisk:"
 
-#: ../kioslave/ftp/ftp.cpp:320
+#: ../kioslave/ftp/ftp.cpp:321
 #, fuzzy, qt-format
 msgid "Opening connection to host %1"
 msgstr "Zwjazam so ze serverom <b>%1</b>"
 
-#: ../kioslave/ftp/ftp.cpp:338
+#: ../kioslave/ftp/ftp.cpp:339
 #, fuzzy, qt-format
 msgid "Connected to host %1"
 msgstr "Zwjazany ze serverom <b>%1</b>"
 
-#: ../kioslave/ftp/ftp.cpp:377
+#: ../kioslave/ftp/ftp.cpp:378
 #, qt-format
 msgid ""
 "%1.\n"
@@ -4760,11 +4760,11 @@ msgid ""
 "Reason: %2"
 msgstr ""
 
-#: ../kioslave/ftp/ftp.cpp:406
+#: ../kioslave/ftp/ftp.cpp:407
 msgid "Sending login information"
 msgstr "Sćelu informaciju za přizjewjenje"
 
-#: ../kioslave/ftp/ftp.cpp:453
+#: ../kioslave/ftp/ftp.cpp:454
 #, qt-format
 msgid ""
 "Message sent:\n"
@@ -4781,47 +4781,47 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:461 ../kioslave/http/http.cpp:5047
+#: ../kioslave/ftp/ftp.cpp:462 ../kioslave/http/http.cpp:5048
 #, fuzzy
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Dyrbiće mjeno wužiwarja a hesło podać, zo by k tutej dataji přistup dóstał."
 
-#: ../kioslave/ftp/ftp.cpp:463 ../kioslave/http/http.cpp:5055
+#: ../kioslave/ftp/ftp.cpp:464 ../kioslave/http/http.cpp:5056
 msgid "Site:"
 msgstr "Server:"
 
-#: ../kioslave/ftp/ftp.cpp:464
+#: ../kioslave/ftp/ftp.cpp:465
 #, qt-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: ../kioslave/ftp/ftp.cpp:527
+#: ../kioslave/ftp/ftp.cpp:528
 msgid "Login OK"
 msgstr "Přizjewjenje OK"
 
-#: ../kioslave/ftp/ftp.cpp:556
+#: ../kioslave/ftp/ftp.cpp:557
 #, qt-format
 msgid "Could not login to %1."
 msgstr "Njemóžach so na %1 přizjewić."
 
-#: ../kioslave/file/file.cpp:205
+#: ../kioslave/file/file.cpp:206
 #, fuzzy, qt-format
 msgid "Setting ACL for %1"
 msgstr "Sćelu day na %1"
 
-#: ../kioslave/file/file.cpp:234
+#: ../kioslave/file/file.cpp:235
 #, fuzzy, qt-format
 #| msgid "Could not enter folder %1."
 msgid "Could not get user id for given user name %1"
 msgstr "Njemóžach do zapiska %1 hić"
 
-#: ../kioslave/file/file.cpp:247
+#: ../kioslave/file/file.cpp:248
 #, qt-format
 msgid "Could not get group id for given group name %1"
 msgstr ""
 
-#: ../kioslave/file/file.cpp:777 ../kioslave/file/file.cpp:1011
+#: ../kioslave/file/file.cpp:778 ../kioslave/file/file.cpp:1012
 #, qt-format
 msgid ""
 "Could not change permissions for\n"
@@ -4830,127 +4830,127 @@ msgstr ""
 "Njemóžach přistupne prawa změnić za\n"
 "%1"
 
-#: ../kioslave/file/file.cpp:942
+#: ../kioslave/file/file.cpp:943
 #, qt-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr ""
 
-#: ../kioslave/file/file.cpp:1385
+#: ../kioslave/file/file.cpp:1386
 #, fuzzy, qt-format
 msgid "No media in device for %1"
 msgstr "Žana metainformacija za %1"
 
-#: ../kioslave/file/file.cpp:1537
+#: ../kioslave/file/file.cpp:1538
 msgid "No Media inserted or Media not recognized."
 msgstr ""
 
-#: ../kioslave/file/file.cpp:1547 ../kioslave/file/file.cpp:1748
+#: ../kioslave/file/file.cpp:1548 ../kioslave/file/file.cpp:1749
 msgid "\"vold\" is not running."
 msgstr ""
 
-#: ../kioslave/file/file.cpp:1582
+#: ../kioslave/file/file.cpp:1583
 #, fuzzy
 msgid "Could not find program \"mount\""
 msgstr "Njemóžach program namakać: %1."
 
-#: ../kioslave/file/file.cpp:1761
+#: ../kioslave/file/file.cpp:1762
 #, fuzzy
 msgid "Could not find program \"umount\""
 msgstr "Njemóžach program namakać: %1."
 
-#: ../kioslave/file/file.cpp:1849
+#: ../kioslave/file/file.cpp:1850
 #, qt-format
 msgid "Could not read %1"
 msgstr "Njemóžu %1 čitać"
 
-#: ../kioslave/http/http.cpp:450
+#: ../kioslave/http/http.cpp:451
 #, fuzzy
 msgid "No host specified."
 msgstr "Žadyn server specifikowany!"
 
-#: ../kioslave/http/http.cpp:1460
+#: ../kioslave/http/http.cpp:1461
 msgid "Otherwise, the request would have succeeded."
 msgstr "Hewak by so poradźiło."
 
-#: ../kioslave/http/http.cpp:1464
+#: ../kioslave/http/http.cpp:1465
 msgid "retrieve property values"
 msgstr "hódnoty atributow dóstać"
 
-#: ../kioslave/http/http.cpp:1467
+#: ../kioslave/http/http.cpp:1468
 msgid "set property values"
 msgstr "hódnoty atributow postajić"
 
-#: ../kioslave/http/http.cpp:1470
+#: ../kioslave/http/http.cpp:1471
 #, fuzzy
 msgid "create the requested folder"
 msgstr "trěbny zapisk stworić"
 
-#: ../kioslave/http/http.cpp:1473
+#: ../kioslave/http/http.cpp:1474
 #, fuzzy
 msgid "copy the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk kopěrować"
 
-#: ../kioslave/http/http.cpp:1476
+#: ../kioslave/http/http.cpp:1477
 #, fuzzy
 msgid "move the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk přesunyć"
 
-#: ../kioslave/http/http.cpp:1479
+#: ../kioslave/http/http.cpp:1480
 #, fuzzy
 msgid "search in the specified folder"
 msgstr "we wotpowědnym zapisku pytać"
 
-#: ../kioslave/http/http.cpp:1482
+#: ../kioslave/http/http.cpp:1483
 #, fuzzy
 msgid "lock the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk blockować"
 
-#: ../kioslave/http/http.cpp:1485
+#: ../kioslave/http/http.cpp:1486
 #, fuzzy
 msgid "unlock the specified file or folder"
 msgstr "blokowanje wotpowědneje dataje abo zapiska zběhnyć"
 
-#: ../kioslave/http/http.cpp:1488
+#: ../kioslave/http/http.cpp:1489
 #, fuzzy
 msgid "delete the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk zničić"
 
-#: ../kioslave/http/http.cpp:1491
+#: ../kioslave/http/http.cpp:1492
 msgid "query the server's capabilities"
 msgstr "so za móžnosćemi servera woprašeć"
 
-#: ../kioslave/http/http.cpp:1494
+#: ../kioslave/http/http.cpp:1495
 #, fuzzy
 msgid "retrieve the contents of the specified file or folder"
 msgstr "wobsah wotpowědneje dataje abo zapiska dóstać"
 
-#: ../kioslave/http/http.cpp:1506 ../kioslave/http/http.cpp:1659
+#: ../kioslave/http/http.cpp:1507 ../kioslave/http/http.cpp:1660
 #, qt-format
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
 
-#: ../kioslave/http/http.cpp:1514
+#: ../kioslave/http/http.cpp:1515
 msgid "The server does not support the WebDAV protocol."
 msgstr "Tutón server WebDAV njepodpěruje."
 
-#: ../kioslave/http/http.cpp:1555
+#: ../kioslave/http/http.cpp:1556
 #, qt-format
 msgid ""
 "An error occurred while attempting to %1, %2. A summary of the reasons is "
 "below.<ul>"
 msgstr "Zmylk je so stał při pospyće %1, %2. Zjeće přičin namakaće deleka.<ul>"
 
-#: ../kioslave/http/http.cpp:1567 ../kioslave/http/http.cpp:1670
+#: ../kioslave/http/http.cpp:1568 ../kioslave/http/http.cpp:1671
 #, qt-format
 msgid "Access was denied while attempting to %1."
 msgstr "Přistup bu wotpokazany, jako spytach %1."
 
-#: ../kioslave/http/http.cpp:1574
+#: ../kioslave/http/http.cpp:1575
 #, fuzzy
 msgid "The specified folder already exists."
 msgstr "Specifikowany zapisk hižo eksistuje."
 
-#: ../kioslave/http/http.cpp:1580 ../kioslave/http/http.cpp:1675
+#: ../kioslave/http/http.cpp:1581 ../kioslave/http/http.cpp:1676
 #, fuzzy
 msgid ""
 "A resource cannot be created at the destination until one or more "
@@ -4959,7 +4959,7 @@ msgstr ""
 "Resursa njehodźi so na tym městnje wutworić, doniž njebu žadyn zapisk "
 "stworjeny."
 
-#: ../kioslave/http/http.cpp:1589
+#: ../kioslave/http/http.cpp:1590
 #, qt-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in "
@@ -4970,32 +4970,32 @@ msgstr ""
 "\"propertybehavior\", abo sće spytali dataju přepisać, hačrunjež běšće to do "
 "toho zakazali. %1"
 
-#: ../kioslave/http/http.cpp:1599
+#: ../kioslave/http/http.cpp:1600
 #, qt-format
 msgid "The requested lock could not be granted. %1"
 msgstr "Pominane blokowanje njehodźeše so zarjadować. %1"
 
-#: ../kioslave/http/http.cpp:1605
+#: ../kioslave/http/http.cpp:1606
 msgid "The server does not support the request type of the body."
 msgstr "Server tutu družinu elementa \"Body\" njepodpěruje."
 
-#: ../kioslave/http/http.cpp:1610 ../kioslave/http/http.cpp:1682
+#: ../kioslave/http/http.cpp:1611 ../kioslave/http/http.cpp:1683
 #, qt-format
 msgid "Unable to %1 because the resource is locked."
 msgstr "Njemóžu %1; resursa je blokowana."
 
-#: ../kioslave/http/http.cpp:1614
+#: ../kioslave/http/http.cpp:1615
 msgid "This action was prevented by another error."
 msgstr "Tutej operaciji je někajki druhi zmylk zadźěwał."
 
-#: ../kioslave/http/http.cpp:1621 ../kioslave/http/http.cpp:1687
+#: ../kioslave/http/http.cpp:1622 ../kioslave/http/http.cpp:1688
 #, fuzzy, qt-format
 msgid ""
 "Unable to %1 because the destination server refuses to accept the file or "
 "folder."
 msgstr "Njemóžu %1, dokelž cilowy server dataju abo zapisk njeakceptuje."
 
-#: ../kioslave/http/http.cpp:1628 ../kioslave/http/http.cpp:1693
+#: ../kioslave/http/http.cpp:1629 ../kioslave/http/http.cpp:1694
 msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
@@ -5003,78 +5003,78 @@ msgstr ""
 "Cilowa resursa nima dosć městna, zo by staw resursy po wuwjedźenju tuteje "
 "metody zawěsćiła."
 
-#: ../kioslave/http/http.cpp:1650
+#: ../kioslave/http/http.cpp:1651
 #, fuzzy, qt-format
 msgid "upload %1"
 msgstr "Kopěrjuju %1 na server"
 
-#: ../kioslave/http/http.cpp:1968
+#: ../kioslave/http/http.cpp:1969
 #, qt-format
 msgid "Connecting to %1..."
 msgstr "Zwjazam so z %1..."
 
-#: ../kioslave/http/http.cpp:1986 ../kioslave/http/http.cpp:1990
+#: ../kioslave/http/http.cpp:1987 ../kioslave/http/http.cpp:1991
 #, qt-format
 msgid "Proxy %1 at port %2"
 msgstr "Proxy %1 na porće %2"
 
-#: ../kioslave/http/http.cpp:2022
+#: ../kioslave/http/http.cpp:2023
 #, qt-format
 msgid "%1 (port %2)"
 msgstr "%1 (port %2)"
 
-#: ../kioslave/http/http.cpp:2556
+#: ../kioslave/http/http.cpp:2557
 #, qt-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "%1 kontaktowany. Čakam na wotmołwu..."
 
-#: ../kioslave/http/http.cpp:2939
+#: ../kioslave/http/http.cpp:2940
 msgid "Server processing request, please wait..."
 msgstr "Server hišće dźěła, prošu dočakajće..."
 
-#: ../kioslave/http/http.cpp:3768
+#: ../kioslave/http/http.cpp:3769
 msgid "Requesting data to send"
 msgstr "Pominam sej daty za pósłanje"
 
-#: ../kioslave/http/http.cpp:3805
+#: ../kioslave/http/http.cpp:3806
 #, qt-format
 msgid "Sending data to %1"
 msgstr "Sćelu day na %1"
 
-#: ../kioslave/http/http.cpp:4211
+#: ../kioslave/http/http.cpp:4212
 #, qt-format
 msgid "Retrieving %1 from %2..."
 msgstr "Dóstawam %1 wot %2..."
 
-#: ../kioslave/http/http.cpp:4220
+#: ../kioslave/http/http.cpp:4221
 #, qt-format
 msgid "Retrieving from %1..."
 msgstr "Dóstawam daty wot %1..."
 
-#: ../kioslave/http/http.cpp:5027 ../kioslave/http/http.cpp:5173
+#: ../kioslave/http/http.cpp:5028 ../kioslave/http/http.cpp:5174
 #, fuzzy
 msgid "Authentication Failed."
 msgstr "Přizjewjenje je so zwrěšćiło!"
 
-#: ../kioslave/http/http.cpp:5030 ../kioslave/http/http.cpp:5176
+#: ../kioslave/http/http.cpp:5031 ../kioslave/http/http.cpp:5177
 #, fuzzy
 msgid "Proxy Authentication Failed."
 msgstr "Přizjewjenje na proxyju je so zwrěšćiło!"
 
-#: ../kioslave/http/http.cpp:5035
+#: ../kioslave/http/http.cpp:5036
 msgid "  Do you want to retry?"
 msgstr "  Hišće raz spytać?"
 
-#: ../kioslave/http/http.cpp:5036
+#: ../kioslave/http/http.cpp:5037
 msgid "Authentication"
 msgstr "Identifikacija"
 
-#: ../kioslave/http/http.cpp:5056 ../kioslave/http/http.cpp:5073
+#: ../kioslave/http/http.cpp:5057 ../kioslave/http/http.cpp:5074
 #, qt-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> at <b>%2</b>"
 
-#: ../kioslave/http/http.cpp:5063
+#: ../kioslave/http/http.cpp:5064
 #, fuzzy
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
@@ -5083,16 +5083,16 @@ msgstr ""
 "Dyrbiš na proxyju mjeno wužiwarja a škitne hesło zapodać, prjedy hač směš so "
 "z dalšimi ličakami zwjazać."
 
-#: ../kioslave/http/http.cpp:5072
+#: ../kioslave/http/http.cpp:5073
 msgid "Proxy:"
 msgstr "Proxy:"
 
-#: ../kioslave/http/http.cpp:5093
+#: ../kioslave/http/http.cpp:5094
 #, qt-format
 msgid "Authentication needed for %1 but authentication is disabled."
 msgstr "Přizjewjenje je trěbne za %1, ale přizjewjenje je znjemóžnjene."
 
-#: ../kioslave/http/http.cpp:5710
+#: ../kioslave/http/http.cpp:5711
 msgid ""
 "Unsupported method: authentication will fail. Please submit a bug report."
 msgstr ""
@@ -5313,7 +5313,7 @@ msgstr ""
 msgid "&Remove '%1'"
 msgstr "Z&ničić"
 
-#: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1440
+#: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1443
 msgid "*|All Files"
 msgstr "*|Wšitke dataje"
 
@@ -5322,7 +5322,7 @@ msgstr "*|Wšitke dataje"
 msgid "All Supported Files"
 msgstr "Wšitke podpěrowane dataje"
 
-#: ../kfile/kfilewidget.cpp:205
+#: ../kfile/kfilewidget.cpp:206
 #, fuzzy
 #| msgid ""
 #| "<p>While typing in the text area, you may be presented with possible "
@@ -5339,32 +5339,32 @@ msgstr ""
 "praweje myšaceje tasty a wubranjom preferowaneho modusa z menija "
 "<b>Wudospołnjenje teksta</b>."
 
-#: ../kfile/kfilewidget.cpp:246
+#: ../kfile/kfilewidget.cpp:247
 #, fuzzy, qt-format
 msgid "Drive: %1"
 msgstr "wulkosć %1"
 
-#: ../kfile/kfilewidget.cpp:253
+#: ../kfile/kfilewidget.cpp:254
 #, fuzzy, qt-format
 msgid "Root Folder: %1"
 msgstr "Korjentny zapisk: %1"
 
-#: ../kfile/kfilewidget.cpp:260
+#: ../kfile/kfilewidget.cpp:261
 #, fuzzy, qt-format
 msgid "Home Folder: %1"
 msgstr "Domjacy zapisk: %1"
 
-#: ../kfile/kfilewidget.cpp:269
+#: ../kfile/kfilewidget.cpp:270
 #, qt-format
 msgid "Documents: %1"
 msgstr "Dokumenty: %1"
 
-#: ../kfile/kfilewidget.cpp:276
+#: ../kfile/kfilewidget.cpp:277
 #, qt-format
 msgid "Desktop: %1"
 msgstr "Dźěłowy powjerch: %1"
 
-#: ../kfile/kfilewidget.cpp:325
+#: ../kfile/kfilewidget.cpp:326
 #, fuzzy, qt-format
 msgid ""
 "<qt>Click this button to enter the parent folder.<br /><br />For instance, "
@@ -5375,41 +5375,41 @@ msgstr ""
 "nětko we file:/home/%1 dóstanjeće so přez klik na tutón knefl do file:/home."
 "</qt>"
 
-#: ../kfile/kfilewidget.cpp:330
+#: ../kfile/kfilewidget.cpp:331
 msgid "Click this button to move backwards one step in the browsing history."
 msgstr "Klikńće tutón knefl, zo by prjedawšu stronu wopytał."
 
-#: ../kfile/kfilewidget.cpp:332
+#: ../kfile/kfilewidget.cpp:333
 msgid "Click this button to move forward one step in the browsing history."
 msgstr "Klikńće tutón knefl, zo by přichodnu stronu wopytał."
 
-#: ../kfile/kfilewidget.cpp:335
+#: ../kfile/kfilewidget.cpp:336
 msgid "Click this button to reload the contents of the current location."
 msgstr "Klikńće tutón knefl, zo by napohlad aktualneho městna aktualizowali."
 
-#: ../kfile/kfilewidget.cpp:338
+#: ../kfile/kfilewidget.cpp:339
 #, fuzzy
 msgid "Click this button to create a new folder."
 msgstr "Klikńće tutón knefl, zo by nowy zapisk stworił."
 
-#: ../kfile/kfilewidget.cpp:341
+#: ../kfile/kfilewidget.cpp:342
 #, fuzzy
 #| msgid "Show Quick Access Navigation Panel"
 msgid "Show Places Navigation Panel"
 msgstr "Pokaž nawigaciski pask"
 
-#: ../kfile/kfilewidget.cpp:348
+#: ../kfile/kfilewidget.cpp:349
 #, fuzzy
 msgid "Show Bookmarks"
 msgstr "Lubušk"
 
-#: ../kfile/kfilewidget.cpp:353
+#: ../kfile/kfilewidget.cpp:354
 #, fuzzy
 #| msgid "Operation"
 msgid "Options"
 msgstr "Operacija"
 
-#: ../kfile/kfilewidget.cpp:355
+#: ../kfile/kfilewidget.cpp:356
 #, fuzzy
 msgid ""
 "<qt>This is the preferences menu for the file dialog. Various options can be "
@@ -5424,11 +5424,11 @@ msgstr ""
 "<li>pokazowanje chowanych datajow</li> <li>nawigaciski pask</li> "
 "<li>přehladki datajow</li> <li>dźělenje zapiskow wot datajow</li></ul></qt>"
 
-#: ../kfile/kfilewidget.cpp:399 ../kfile/kfileplaceeditdialog.cpp:116
+#: ../kfile/kfilewidget.cpp:400 ../kfile/kfileplaceeditdialog.cpp:116
 msgid "&Location:"
 msgstr "&Městno:"
 
-#: ../kfile/kfilewidget.cpp:423
+#: ../kfile/kfilewidget.cpp:424
 #, fuzzy
 #| msgid ""
 #| "<qt>This is the filter to apply to the file list. File names that do not "
@@ -5446,32 +5446,32 @@ msgstr ""
 "filtrow w meniju wubrać abo tež swój do tekstoweho pólka napisać.<p> Jokery "
 "kaž * a ? su dowolene.</qt>"
 
-#: ../kfile/kfilewidget.cpp:429
+#: ../kfile/kfilewidget.cpp:430
 msgid "&Filter:"
 msgstr "&Filter:"
 
-#: ../kfile/kfilewidget.cpp:591
+#: ../kfile/kfilewidget.cpp:592
 #, fuzzy
 msgid "Please specify the filename to save to."
 msgstr "To je mjeno, pod kotrymž ma so dataja zawěsćić."
 
-#: ../kfile/kfilewidget.cpp:593
+#: ../kfile/kfilewidget.cpp:594
 #, fuzzy
 msgid "Please select the file to open."
 msgstr "To je mjeno dataje, kiž ma so wočinić."
 
-#: ../kfile/kfilewidget.cpp:652 ../kfile/kfilewidget.cpp:695
-#: ../kfile/kfilewidget.cpp:1373
+#: ../kfile/kfilewidget.cpp:653 ../kfile/kfilewidget.cpp:696
+#: ../kfile/kfilewidget.cpp:1376
 msgid "You can only select local files."
 msgstr "Móžeće jenož lokalne dataje wubrać."
 
-#: ../kfile/kfilewidget.cpp:653 ../kfile/kfilewidget.cpp:696
-#: ../kfile/kfilewidget.cpp:1374
+#: ../kfile/kfilewidget.cpp:654 ../kfile/kfilewidget.cpp:697
+#: ../kfile/kfilewidget.cpp:1377
 #, fuzzy
 msgid "Remote Files Not Accepted"
 msgstr "Njelokalne dataje so njeakceptuja"
 
-#: ../kfile/kfilewidget.cpp:687
+#: ../kfile/kfilewidget.cpp:688
 #, qt-format
 msgid ""
 "%1\n"
@@ -5480,15 +5480,15 @@ msgstr ""
 "%1\n"
 "njewupada kaž korektnyURL.\n"
 
-#: ../kfile/kfilewidget.cpp:687
+#: ../kfile/kfilewidget.cpp:688
 msgid "Invalid URL"
 msgstr "Njekorektny URL"
 
-#: ../kfile/kfilewidget.cpp:1011
+#: ../kfile/kfilewidget.cpp:1014
 msgid "This is the name to save the file as."
 msgstr "To je mjeno, pod kotrymž ma so dataja zawěsćić."
 
-#: ../kfile/kfilewidget.cpp:1016
+#: ../kfile/kfilewidget.cpp:1019
 msgid ""
 "This is the list of files to open. More than one file can be specified by "
 "listing several files, separated by spaces."
@@ -5496,11 +5496,11 @@ msgstr ""
 "To je lisćina datajow, kiž maja so wočinić. Wjacore dataje móža so podać "
 "jako lisćina datajowych mjenow, z mjezotami wotdźělenych."
 
-#: ../kfile/kfilewidget.cpp:1023
+#: ../kfile/kfilewidget.cpp:1026
 msgid "This is the name of the file to open."
 msgstr "To je mjeno dataje, kiž ma so wočinić."
 
-#: ../kfile/kfilewidget.cpp:1305
+#: ../kfile/kfilewidget.cpp:1308
 #, fuzzy
 msgid ""
 "The chosen filenames do not\n"
@@ -5509,11 +5509,11 @@ msgstr ""
 "Wubrane datajowe mjena po zdaću\n"
 "njejsu korektne."
 
-#: ../kfile/kfilewidget.cpp:1307
+#: ../kfile/kfilewidget.cpp:1310
 msgid "Invalid Filenames"
 msgstr "Njekorektne datajowe mjena"
 
-#: ../kfile/kfilewidget.cpp:1336
+#: ../kfile/kfilewidget.cpp:1339
 #, fuzzy, qt-format
 msgid ""
 "The requested filenames\n"
@@ -5526,35 +5526,35 @@ msgstr ""
 "njewupadaja korektne.\n"
 "Podaj kóžde datajowe mjeno w pazorkach."
 
-#: ../kfile/kfilewidget.cpp:1340
+#: ../kfile/kfilewidget.cpp:1343
 msgid "Filename Error"
 msgstr "Zmylk w datajowym mjenje"
 
-#: ../kfile/kfilewidget.cpp:1437
+#: ../kfile/kfilewidget.cpp:1440
 #, fuzzy
 msgid "*|All Folders"
 msgstr "*|Wšitke dataje"
 
-#: ../kfile/kfilewidget.cpp:1718
+#: ../kfile/kfilewidget.cpp:1720
 #, fuzzy, qt-format
 msgid "Automatically select filename e&xtension (%1)"
 msgstr "Wubjerće e&kstensiju datajoweho mjena awtomatisce (%1)"
 
-#: ../kfile/kfilewidget.cpp:1719
+#: ../kfile/kfilewidget.cpp:1721
 #, qt-format
 msgid "the extension <b>%1</b>"
 msgstr "ekstensija <b>%1</b>"
 
-#: ../kfile/kfilewidget.cpp:1727
+#: ../kfile/kfilewidget.cpp:1729
 #, fuzzy
 msgid "Automatically select filename e&xtension"
 msgstr "Wubjerće e&kstensiju datajoweho mjena awtomatisce"
 
-#: ../kfile/kfilewidget.cpp:1728
+#: ../kfile/kfilewidget.cpp:1730
 msgid "a suitable extension"
 msgstr "kmana ekstensija"
 
-#: ../kfile/kfilewidget.cpp:1738
+#: ../kfile/kfilewidget.cpp:1740
 #, fuzzy, qt-format
 msgid ""
 "This option enables some convenient features for saving files with "
@@ -5581,7 +5581,7 @@ msgstr ""
 "ekstensija dodać). </li></ol>Jeli njewěsće, što činić, wostajće tutu opciju "
 "zaswěćenu, dokelž tak budźe wobchadźenje z datajowymi mjenami jednoriše."
 
-#: ../kfile/kfilewidget.cpp:2010
+#: ../kfile/kfilewidget.cpp:2012
 #, fuzzy
 #| msgid ""
 #| "<qt>This button allows you to bookmark specific locations. Click on this "
@@ -5600,42 +5600,42 @@ msgstr ""
 "njeje wubrać.<p> Tute znamjenja su specifiske za datajowy dialog, hewak pak "
 "so kaž wšě druhe w KDE zadźerža.</qt>"
 
-#: ../kfile/kfileplacesmodel.cpp:80
+#: ../kfile/kfileplacesmodel.cpp:81
 msgid "Home"
 msgstr ""
 
-#: ../kfile/kfileplacesmodel.cpp:81
+#: ../kfile/kfileplacesmodel.cpp:82
 #, fuzzy
 msgid "Network"
 msgstr "Žane zapiski"
 
-#: ../kfile/kfileplacesmodel.cpp:84 ../kfile/kfileplacesmodel.cpp:86
+#: ../kfile/kfileplacesmodel.cpp:85 ../kfile/kfileplacesmodel.cpp:87
 msgid "Root"
 msgstr ""
 
-#: ../kfile/kfileplacesmodel.cpp:88
+#: ../kfile/kfileplacesmodel.cpp:89
 #, fuzzy
 msgid "Trash"
 msgstr "Papjernik"
 
-#: ../kfile/kfileplacesmodel.cpp:637
+#: ../kfile/kfileplacesmodel.cpp:638
 #, fuzzy, qt-format
 #| msgid "Eject"
 msgid "&Eject '%1'"
 msgstr "Wućisnyć"
 
-#: ../kfile/kfileplacesmodel.cpp:639
+#: ../kfile/kfileplacesmodel.cpp:640
 #, qt-format
 msgid "&Safely remove '%1'"
 msgstr ""
 
-#: ../kfile/kfileplacesmodel.cpp:641
+#: ../kfile/kfileplacesmodel.cpp:642
 #, fuzzy, qt-format
 #| msgid "Unmount"
 msgid "&Unmount '%1'"
 msgstr "Wotmontować"
 
-#: ../kfile/kfileplacesmodel.cpp:699
+#: ../kfile/kfileplacesmodel.cpp:700
 #, fuzzy, qt-format
 #| msgid ""
 #| "An error occurred while attempting to %1, %2. A summary of the reasons is "
@@ -5643,7 +5643,7 @@ msgstr "Wotmontować"
 msgid "An error occurred while accessing '%1', the system said: %2"
 msgstr "Zmylk je so stał při pospyće %1, %2. Zjeće přičin namakaće deleka.<ul>"
 
-#: ../kfile/kfileplacesmodel.cpp:703
+#: ../kfile/kfileplacesmodel.cpp:704
 #, fuzzy, qt-format
 #| msgid "An unexpected error (%1) occurred while attempting to %2."
 msgid "An error occurred while accessing '%1'"
@@ -5653,29 +5653,29 @@ msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
 msgid "Custom Path"
 msgstr ""
 
-#: ../kfile/kdirselectdialog.cpp:120 ../kfile/kdiroperator.cpp:626
+#: ../kfile/kdirselectdialog.cpp:119 ../kfile/kdiroperator.cpp:626
 #, fuzzy, qt-format
 msgid ""
 "Create new folder in:\n"
 "%1"
 msgstr "Nowy zapisk stworić w:"
 
-#: ../kfile/kdirselectdialog.cpp:143 ../kfile/kdiroperator.cpp:652
+#: ../kfile/kdirselectdialog.cpp:142 ../kfile/kdiroperator.cpp:652
 #, fuzzy, qt-format
 msgid "A file or folder named %1 already exists."
 msgstr "Dataja %1 hižo eksistuje."
 
-#: ../kfile/kdirselectdialog.cpp:147 ../kfile/kdiroperator.cpp:655
+#: ../kfile/kdirselectdialog.cpp:146 ../kfile/kdiroperator.cpp:655
 #, fuzzy
 msgid "You do not have permission to create that folder."
 msgstr "Nimaće prawa tutón zapisk stworić."
 
-#: ../kfile/kdirselectdialog.cpp:225 ../kfile/kdirselectdialog.cpp:263
-#: ../kfile/kdiroperator.cpp:1473
+#: ../kfile/kdirselectdialog.cpp:224 ../kfile/kdirselectdialog.cpp:262
+#: ../kfile/kdiroperator.cpp:1475
 msgid "New Folder..."
 msgstr "Nowy zapisk..."
 
-#: ../kfile/kdirselectdialog.cpp:270
+#: ../kfile/kdirselectdialog.cpp:269
 #, fuzzy
 msgid "Show Hidden Folders"
 msgstr "chowane dataje pokazować"
@@ -5788,34 +5788,34 @@ msgstr[3] "Chceće woprawdźe tute %1 objekty zničić?"
 msgid "Delete Files"
 msgstr "Dataje zničić"
 
-#: ../kfile/kdiroperator.cpp:731
+#: ../kfile/kdiroperator.cpp:732
 #, fuzzy
 msgid "You did not select a file to trash."
 msgstr "Njejsy dataju za zničenje wubrał(a)."
 
-#: ../kfile/kdiroperator.cpp:732
+#: ../kfile/kdiroperator.cpp:733
 #, fuzzy
 msgid "Nothing to Trash"
 msgstr "Ničo k zničenju"
 
-#: ../kfile/kdiroperator.cpp:749
+#: ../kfile/kdiroperator.cpp:750
 #, fuzzy, qt-format
 msgid ""
 "<qt>Do you really want to trash\n"
 " <b>'%1'</b>?</qt>"
 msgstr "<qt>Chceće <b>'%1'</b> woprawdźe zničić?</qt>"
 
-#: ../kfile/kdiroperator.cpp:751
+#: ../kfile/kdiroperator.cpp:752
 #, fuzzy
 msgid "Trash File"
 msgstr "Papjernik"
 
-#: ../kfile/kdiroperator.cpp:752 ../kfile/kdiroperator.cpp:759
+#: ../kfile/kdiroperator.cpp:753 ../kfile/kdiroperator.cpp:760
 msgctxt "to trash"
 msgid "&Trash"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:756
+#: ../kfile/kdiroperator.cpp:757
 #, fuzzy, qt-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
@@ -5824,89 +5824,89 @@ msgstr[1] "Chceće woprawdźe tutón %1 objekt zničić?"
 msgstr[2] "Chceće woprawdźe tutej %1 objektaj zničić?"
 msgstr[3] "Chceće woprawdźe tute %1 objekty zničić?"
 
-#: ../kfile/kdiroperator.cpp:758
+#: ../kfile/kdiroperator.cpp:759
 #, fuzzy
 msgid "Trash Files"
 msgstr "Temporarne dataje"
 
-#: ../kfile/kdiroperator.cpp:880 ../kfile/kdiroperator.cpp:993
+#: ../kfile/kdiroperator.cpp:882 ../kfile/kdiroperator.cpp:995
 #, fuzzy
 msgid "The specified folder does not exist or was not readable."
 msgstr "Specifowany zapisk njeeksistuje abo njehodźi so čitać."
 
-#: ../kfile/kdiroperator.cpp:1456
+#: ../kfile/kdiroperator.cpp:1458
 msgid "Menu"
 msgstr "Meni"
 
-#: ../kfile/kdiroperator.cpp:1460
+#: ../kfile/kdiroperator.cpp:1462
 #, fuzzy
 msgid "Parent Folder"
 msgstr "Zapisk zničić"
 
-#: ../kfile/kdiroperator.cpp:1467
+#: ../kfile/kdiroperator.cpp:1469
 #, fuzzy
 msgid "Home Folder"
 msgstr "Nowy zapisk..."
 
-#: ../kfile/kdiroperator.cpp:1470
+#: ../kfile/kdiroperator.cpp:1472
 #, fuzzy
 msgid "Reload"
 msgstr "Čitać"
 
-#: ../kfile/kdiroperator.cpp:1478
+#: ../kfile/kdiroperator.cpp:1480
 #, fuzzy
 msgid "Move to Trash"
 msgstr "Na %1 sunyć"
 
-#: ../kfile/kdiroperator.cpp:1484
+#: ../kfile/kdiroperator.cpp:1486
 #, fuzzy
 msgid "Delete"
 msgstr "Niču"
 
-#: ../kfile/kdiroperator.cpp:1491
+#: ../kfile/kdiroperator.cpp:1493
 msgid "Sorting"
 msgstr "Rjadowanje"
 
-#: ../kfile/kdiroperator.cpp:1494
+#: ../kfile/kdiroperator.cpp:1496
 msgid "By Name"
 msgstr "po mjenach"
 
-#: ../kfile/kdiroperator.cpp:1498
+#: ../kfile/kdiroperator.cpp:1500
 msgid "By Size"
 msgstr "po wulkosći"
 
-#: ../kfile/kdiroperator.cpp:1502
+#: ../kfile/kdiroperator.cpp:1504
 msgid "By Date"
 msgstr "po času"
 
-#: ../kfile/kdiroperator.cpp:1506
+#: ../kfile/kdiroperator.cpp:1508
 #, fuzzy
 msgid "By Type"
 msgstr "Družina:"
 
-#: ../kfile/kdiroperator.cpp:1510
+#: ../kfile/kdiroperator.cpp:1512
 #, fuzzy
 #| msgid "Deleting"
 msgid "Descending"
 msgstr "Niču"
 
-#: ../kfile/kdiroperator.cpp:1520
+#: ../kfile/kdiroperator.cpp:1522
 msgid "Short View"
 msgstr "Krótki napohlad"
 
-#: ../kfile/kdiroperator.cpp:1525
+#: ../kfile/kdiroperator.cpp:1527
 msgid "Detailed View"
 msgstr "Nadrobny napohlad"
 
-#: ../kfile/kdiroperator.cpp:1534
+#: ../kfile/kdiroperator.cpp:1536
 msgid "Show Hidden Files"
 msgstr "chowane dataje pokazować"
 
-#: ../kfile/kdiroperator.cpp:1538
+#: ../kfile/kdiroperator.cpp:1540
 msgid "Show Preview"
 msgstr "Pokaž přehladku"
 
-#: ../kfile/kdiroperator.cpp:1550
+#: ../kfile/kdiroperator.cpp:1552
 #, fuzzy
 msgid "&View"
 msgstr "&Přehladka"
