@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-10 05:33+0200\n"
+"POT-Creation-Date: 2007-10-11 05:42+0200\n"
 "PO-Revision-Date: 2004-04-16 17:59+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -233,12 +233,16 @@ msgid "name"
 msgstr "Mjeno"
 
 #: koeditordetails.cpp:506
-#, qt-format
+#, kde-format
+#| msgid "Organizer: %1"
 msgid "Organizer: %1"
 msgstr ""
 
 #: koeditordetails.cpp:525
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "%1 does not look like a valid email address. Are you sure you want to "
+#| "invite this participant?"
 msgid ""
 "%1 does not look like a valid email address. Are you sure you want to invite "
 "this participant?"
@@ -269,7 +273,7 @@ msgid "Press this button to remove the currently active filter."
 msgstr ""
 
 #: filtereditdialog.cpp:203
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "New Filter %1"
 msgstr "Filtry wobdźěłać..."
 
@@ -371,7 +375,11 @@ msgid "The meeting already has suitable start/end times."
 msgstr ""
 
 #: koeditorfreebusy.cpp:517
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The meeting has been moved to\n"
+#| "Start: %1\n"
+#| "End: %2."
 msgid ""
 "The meeting has been moved to\n"
 "Start: %1\n"
@@ -383,7 +391,10 @@ msgid "No suitable date found."
 msgstr ""
 
 #: koeditorfreebusy.cpp:659
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Of the %1 participants, %2 have accepted, %3 have tentatively accepted, "
+#| "and %4 have declined."
 msgid ""
 "Of the %1 participants, %2 have accepted, %3 have tentatively accepted, and %"
 "4 have declined."
@@ -870,7 +881,8 @@ msgid "Date after which the event or to-do should stop recurring"
 msgstr ""
 
 #: koeditorrecurrence.cpp:841
-#, qt-format
+#, kde-format
+#| msgid "Begins on: %1"
 msgid "Begins on: %1"
 msgstr ""
 
@@ -981,7 +993,10 @@ msgid "Exceptions..."
 msgstr ""
 
 #: koeditorrecurrence.cpp:1416
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The end date '%1' of the recurrence must be after the start date '%2' of "
+#| "the event."
 msgid ""
 "The end date '%1' of the recurrence must be after the start date '%2' of the "
 "event."
@@ -1020,12 +1035,14 @@ msgid ""
 msgstr ""
 
 #: koincidenceeditor.cpp:210
-#, qt-format
+#, kde-format
+#| msgid "Unable to find template '%1'."
 msgid "Unable to find template '%1'."
 msgstr ""
 
 #: koincidenceeditor.cpp:215
-#, qt-format
+#, kde-format
+#| msgid "Error loading template file '%1'."
 msgid "Error loading template file '%1'."
 msgstr ""
 
@@ -1046,31 +1063,39 @@ msgid "Audio"
 msgstr ""
 
 #: koeditoralarms.cpp:96 printing/calprintdefaultplugins.cpp:310
-#, qt-format
+#, kde-format
+#| msgctxt "N days/hours/minutes before/after the start/end"
+#| msgid "%1 before the start"
 msgctxt "N days/hours/minutes before/after the start/end"
 msgid "%1 before the start"
 msgstr ""
 
 #: koeditoralarms.cpp:99 printing/calprintdefaultplugins.cpp:313
-#, qt-format
+#, kde-format
+#| msgctxt "N days/hours/minutes before/after the start/end"
+#| msgid "%1 after the start"
 msgctxt "N days/hours/minutes before/after the start/end"
 msgid "%1 after the start"
 msgstr ""
 
 #: koeditoralarms.cpp:104 printing/calprintdefaultplugins.cpp:318
-#, qt-format
+#, kde-format
+#| msgctxt "N days/hours/minutes before/after the start/end"
+#| msgid "%1 before the end"
 msgctxt "N days/hours/minutes before/after the start/end"
 msgid "%1 before the end"
 msgstr ""
 
 #: koeditoralarms.cpp:107 printing/calprintdefaultplugins.cpp:321
-#, qt-format
+#, kde-format
+#| msgctxt "N days/hours/minutes before/after the start/end"
+#| msgid "%1 after the end"
 msgctxt "N days/hours/minutes before/after the start/end"
 msgid "%1 after the end"
 msgstr ""
 
 #: koeditoralarms.cpp:116 printing/calprintdefaultplugins.cpp:330
-#, qt-format
+#, kde-format
 msgid "1 day"
 msgid_plural "%1 days"
 msgstr[0] ""
@@ -1080,7 +1105,7 @@ msgstr[3] ""
 
 #: koeditoralarms.cpp:119 printing/calprintdefaultplugins.cpp:333
 #: koeditorgeneralevent.cpp:442
-#, qt-format
+#, kde-format
 msgid "1 hour"
 msgid_plural "%1 hours"
 msgstr[0] ""
@@ -1090,7 +1115,7 @@ msgstr[3] ""
 
 #: koeditoralarms.cpp:122 koprefsdialog.cpp:369
 #: printing/calprintdefaultplugins.cpp:336 koeditorgeneralevent.cpp:449
-#, qt-format
+#, kde-format
 msgid "1 minute"
 msgid_plural "%1 minutes"
 msgstr[0] ""
@@ -1115,7 +1140,8 @@ msgid "KOrgPlugins"
 msgstr ""
 
 #: koagendaitem.cpp:562
-#, qt-format
+#, kde-format
+#| msgid "Attendee \"%1\" added to the calendar item \"%2\""
 msgid "Attendee \"%1\" added to the calendar item \"%2\""
 msgstr ""
 
@@ -1125,12 +1151,14 @@ msgid "Attendee added"
 msgstr "Titl"
 
 #: koagendaitem.cpp:771 koagendaitem.cpp:875
-#, qt-format
+#, kde-format
+#| msgid "%1 - %2"
 msgid "%1 - %2"
 msgstr ""
 
 #: koagendaitem.cpp:783
-#, qt-format
+#, kde-format
+#| msgid "- %1"
 msgid "- %1"
 msgstr ""
 
@@ -1154,7 +1182,8 @@ msgid "Do Not Send"
 msgstr ""
 
 #: incidencechanger.cpp:320 kodialogmanager.cpp:115
-#, qt-format
+#, kde-format
+#| msgid "Unable to save %1 \"%2\"."
 msgid "Unable to save %1 \"%2\"."
 msgstr ""
 
@@ -1163,7 +1192,8 @@ msgid "Import Calendar"
 msgstr ""
 
 #: importdialog.cpp:59
-#, qt-format
+#, kde-format
+#| msgid "Import calendar at '%1' into KOrganizer."
 msgid "Import calendar at '%1' into KOrganizer."
 msgstr ""
 
@@ -1474,17 +1504,20 @@ msgid "Unable to configure this plugin"
 msgstr ""
 
 #: history.cpp:169
-#, qt-format
+#, kde-format
+#| msgid "Delete %1"
 msgid "Delete %1"
 msgstr ""
 
 #: history.cpp:198
-#, qt-format
+#, kde-format
+#| msgid "Add %1"
 msgid "Add %1"
 msgstr ""
 
 #: history.cpp:235
-#, qt-format
+#, kde-format
+#| msgid "Edit %1"
 msgid "Edit %1"
 msgstr ""
 
@@ -1500,7 +1533,8 @@ msgid "No Free/Busy Upload URL"
 msgstr ""
 
 #: freebusymanager.cpp:241
-#, qt-format
+#, kde-format
+#| msgid "<qt>The target URL '%1' provided is invalid.</qt>"
 msgid "<qt>The target URL '%1' provided is invalid.</qt>"
 msgstr ""
 
@@ -1509,7 +1543,12 @@ msgid "Invalid URL"
 msgstr ""
 
 #: freebusymanager.cpp:330
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt><p>The software could not upload your free/busy list to the URL '%1'. "
+#| "There might be a problem with the access rights, or you specified an "
+#| "incorrect URL. The system said: <em>%2</em>.</p><p>Please check the URL "
+#| "or contact your system administrator.</p></qt>"
 msgid ""
 "<qt><p>The software could not upload your free/busy list to the URL '%1'. "
 "There might be a problem with the access rights, or you specified an "
@@ -1601,7 +1640,7 @@ msgid "Owner: "
 msgstr ""
 
 #: koeditorgeneral.cpp:329
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "1 reminder configured"
 msgid_plural "%1 reminders configured"
 msgstr[0] "Titl"
@@ -1618,7 +1657,9 @@ msgid "Time Tracker"
 msgstr ""
 
 #: kotimespentview.cpp:71 kowhatsnextview.cpp:106
-#, qt-format
+#, kde-format
+#| msgctxt "Date from - to"
+#| msgid "%1 - %2"
 msgctxt "Date from - to"
 msgid "%1 - %2"
 msgstr ""
@@ -1629,7 +1670,8 @@ msgid "No category"
 msgstr "Kategorije"
 
 #: kotimespentview.cpp:127
-#, qt-format
+#, kde-format
+#| msgid "%1 hours ("
 msgid "%1 hours ("
 msgstr ""
 
@@ -1685,7 +1727,9 @@ msgid "Sets the current completion status of this to-do as a percentage."
 msgstr ""
 
 #: koeditorgeneraltodo.cpp:188
-#, no-c-format, qt-format
+#, no-c-format, kde-format
+#| msgctxt "Percent complete"
+#| msgid "%1 %"
 msgctxt "Percent complete"
 msgid "%1 %"
 msgstr ""
@@ -1768,12 +1812,13 @@ msgid "The start date cannot be after the due date."
 msgstr ""
 
 #: koeditorgeneraltodo.cpp:538
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Start: %1"
 msgstr "Staw:"
 
 #: koeditorgeneraltodo.cpp:549
-#, qt-format
+#, kde-format
+#| msgid "   Due: %1"
 msgid "   Due: %1"
 msgstr ""
 
@@ -1782,7 +1827,8 @@ msgid "co&mpleted on"
 msgstr ""
 
 #: kogroupware.cpp:162
-#, qt-format
+#, kde-format
+#| msgid "Error message: %1"
 msgid "Error message: %1"
 msgstr ""
 
@@ -1805,7 +1851,9 @@ msgid "journal entry"
 msgstr ""
 
 #: kogroupware.cpp:254
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "This %1 includes other people. Should email be sent out to the attendees?"
 msgid ""
 "This %1 includes other people. Should email be sent out to the attendees?"
 msgstr ""
@@ -1912,12 +1960,16 @@ msgid "End Time"
 msgstr ""
 
 #: eventarchiver.cpp:107
-#, qt-format
+#, kde-format
+#| msgid "There are no items before %1"
 msgid "There are no items before %1"
 msgstr ""
 
 #: eventarchiver.cpp:134
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Delete all items before %1 without saving?\n"
+#| "The following items will be deleted:"
 msgid ""
 "Delete all items before %1 without saving?\n"
 "The following items will be deleted:"
@@ -1929,7 +1981,8 @@ msgid "Delete Old Items"
 msgstr "Konfiguracija resursow"
 
 #: eventarchiver.cpp:208
-#, qt-format
+#, kde-format
+#| msgid "Cannot write archive file %1."
 msgid "Cannot write archive file %1."
 msgstr ""
 
@@ -2045,7 +2098,8 @@ msgid "&Edit timezones"
 msgstr ""
 
 #: koagendaview.cpp:407
-#, qt-format
+#, kde-format
+#| msgid "&Remove %1 timezone"
 msgid "&Remove %1 timezone"
 msgstr ""
 
@@ -2054,7 +2108,9 @@ msgid "All Day"
 msgstr ""
 
 #: koagendaview.cpp:965
-#, qt-format
+#, kde-format
+#| msgctxt "short_weekday date (e.g. Mon 13)"
+#| msgid "%1 %2"
 msgctxt "short_weekday date (e.g. Mon 13)"
 msgid "%1 %2"
 msgstr ""
@@ -2081,19 +2137,24 @@ msgid "Events and to-dos that need a reply:"
 msgstr ""
 
 #: kowhatsnextview.cpp:287 plugins/printing/year/yearprint.cpp:178
-#, qt-format
+#, kde-format
+#| msgctxt "date from - to"
+#| msgid "%1 - %2"
 msgctxt "date from - to"
 msgid "%1 - %2"
 msgstr ""
 
 #: kowhatsnextview.cpp:292
-#, qt-format
+#, kde-format
+#| msgctxt "date, from - to"
+#| msgid "%1, %2 - %3"
 msgctxt "date, from - to"
 msgid "%1, %2 - %3"
 msgstr ""
 
 #: kowhatsnextview.cpp:320
-#, qt-format
+#, kde-format
+#| msgid "  (Due: %1)"
 msgid "  (Due: %1)"
 msgstr ""
 
@@ -2172,7 +2233,8 @@ msgid ""
 msgstr ""
 
 #: calendarview.cpp:443
-#, qt-format
+#, kde-format
+#| msgid "Could not load calendar '%1'."
 msgid "Could not load calendar '%1'."
 msgstr ""
 
@@ -2196,17 +2258,22 @@ msgid "Move Times"
 msgstr ""
 
 #: calendarview.cpp:721
-#, qt-format
+#, kde-format
+#| msgid "Todo completed: %1 (%2)"
 msgid "Todo completed: %1 (%2)"
 msgstr ""
 
 #: calendarview.cpp:732
-#, qt-format
+#, kde-format
+#| msgid "Journal of %1"
 msgid "Journal of %1"
 msgstr ""
 
 #: calendarview.cpp:785
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The item \"%1\" is filtered by your current filter rules, so it will be "
+#| "hidden and not appear in the view."
 msgid ""
 "The item \"%1\" is filtered by your current filter rules, so it will be "
 "hidden and not appear in the view."
@@ -2218,7 +2285,8 @@ msgid "Filter Applied"
 msgstr "Filtry wobdźěłać..."
 
 #: calendarview.cpp:844
-#, qt-format
+#, kde-format
+#| msgid "The item \"%1\" will be permanently deleted."
 msgid "The item \"%1\" will be permanently deleted."
 msgstr ""
 
@@ -2270,7 +2338,8 @@ msgid "Publishing"
 msgstr ""
 
 #: calendarview.cpp:1345
-#, qt-format
+#, kde-format
+#| msgid "Unable to publish the item '%1'"
 msgid "Unable to publish the item '%1'"
 msgstr ""
 
@@ -2279,7 +2348,8 @@ msgid "Forwarding"
 msgstr ""
 
 #: calendarview.cpp:1408
-#, qt-format
+#, kde-format
+#| msgid "Unable to forward the item '%1'"
 msgid "Unable to forward the item '%1'"
 msgstr ""
 
@@ -2300,14 +2370,23 @@ msgid "The item has no attendees."
 msgstr ""
 
 #: calendarview.cpp:1471
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The groupware message for item '%1'was successfully sent.\n"
+#| "Method: %2"
 msgid ""
 "The groupware message for item '%1'was successfully sent.\n"
 "Method: %2"
 msgstr ""
 
 #: calendarview.cpp:1480
-#, qt-format
+#, kde-format
+#| msgctxt ""
+#| "Groupware message sending failed. %2 is request/reply/add/cancel/counter/"
+#| "etc."
+#| msgid ""
+#| "Unable to send the item '%1'.\n"
+#| "Method: %2"
 msgctxt ""
 "Groupware message sending failed. %2 is request/reply/add/cancel/counter/etc."
 msgid ""
@@ -2340,7 +2419,7 @@ msgid "&Previous Day"
 msgstr ""
 
 #: calendarview.cpp:1595 actionmanager.cpp:348 actionmanager.cpp:1251
-#, qt-format
+#, kde-format
 msgid "&Next Day"
 msgid_plural "&Next %1 Days"
 msgstr[0] ""
@@ -2362,7 +2441,11 @@ msgid "No filter"
 msgstr "Filtry wobdźěłać..."
 
 #: calendarview.cpp:2016
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The item \"%1\" has sub-to-dos. Do you want to delete just this item and "
+#| "make all its sub-to-dos independent, or delete the to-do with all its sub-"
+#| "to-dos?"
 msgid ""
 "The item \"%1\" has sub-to-dos. Do you want to delete just this item and "
 "make all its sub-to-dos independent, or delete the to-do with all its sub-to-"
@@ -2384,7 +2467,10 @@ msgid "Deleting sub-to-dos"
 msgstr ""
 
 #: calendarview.cpp:2049
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The item \"%1\" is marked read-only and cannot be deleted; it probably "
+#| "belongs to a read-only calendar resource."
 msgid ""
 "The item \"%1\" is marked read-only and cannot be deleted; it probably "
 "belongs to a read-only calendar resource."
@@ -2395,14 +2481,21 @@ msgid "Removing not possible"
 msgstr ""
 
 #: calendarview.cpp:2081
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The calendar item \"%1\" recurs over multiple dates; are you sure you "
+#| "want to delete it and all its recurrences?"
 msgid ""
 "The calendar item \"%1\" recurs over multiple dates; are you sure you want "
 "to delete it and all its recurrences?"
 msgstr ""
 
 #: calendarview.cpp:2090
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The calendar item \"%1\" recurs over multiple dates. Do you want to "
+#| "delete only the current one on %2, only all future recurrences, or all "
+#| "its recurrences?"
 msgid ""
 "The calendar item \"%1\" recurs over multiple dates. Do you want to delete "
 "only the current one on %2, only all future recurrences, or all its "
@@ -2450,7 +2543,8 @@ msgid "Unable to edit item: it is locked by another process."
 msgstr ""
 
 #: calendarview.cpp:2251
-#, qt-format
+#, kde-format
+#| msgid "Unable to copy the item to %1."
 msgid "Unable to copy the item to %1."
 msgstr ""
 
@@ -2459,7 +2553,8 @@ msgid "Copying Failed"
 msgstr ""
 
 #: calendarview.cpp:2293
-#, qt-format
+#, kde-format
+#| msgid "Unable to move the item to  %1."
 msgid "Unable to move the item to  %1."
 msgstr ""
 
@@ -2472,7 +2567,9 @@ msgid "No running instance of KMail found."
 msgstr ""
 
 #: kdatenavigator.cpp:190
-#, qt-format
+#, kde-format
+#| msgctxt "start/end week number of line in date picker"
+#| msgid "%1/%2"
 msgctxt "start/end week number of line in date picker"
 msgid "%1/%2"
 msgstr ""
@@ -2499,7 +2596,9 @@ msgstr ""
 
 #: navigatorbar.cpp:162 printing/calprintdefaultplugins.cpp:931
 #: komonthview.cpp:922
-#, qt-format
+#, kde-format
+#| msgctxt "monthname year"
+#| msgid "%1 %2"
 msgctxt "monthname year"
 msgid "%1 %2"
 msgstr ""
@@ -2559,7 +2658,7 @@ msgid "Start Reminder Daemon at Login"
 msgstr ""
 
 #: korgac/alarmdockwindow.cpp:112
-#, qt-format
+#, kde-format
 msgid "There is 1 active reminder."
 msgid_plural "There are %1 active reminders."
 msgstr[0] ""
@@ -2636,7 +2735,8 @@ msgid "Edit Free/Busy Location"
 msgstr ""
 
 #: freebusyurldialog.cpp:77
-#, qt-format
+#, kde-format
+#| msgid "Location of Free/Busy information for %1 <%2>:"
 msgid "Location of Free/Busy information for %1 <%2>:"
 msgstr ""
 
@@ -2910,32 +3010,38 @@ msgid ""
 msgstr ""
 
 #: actionmanager.cpp:865
-#, qt-format
+#, kde-format
+#| msgid "New calendar '%1'."
 msgid "New calendar '%1'."
 msgstr ""
 
 #: actionmanager.cpp:898
-#, qt-format
+#, kde-format
+#| msgid "Cannot download calendar from '%1'."
 msgid "Cannot download calendar from '%1'."
 msgstr ""
 
 #: actionmanager.cpp:937
-#, qt-format
+#, kde-format
+#| msgid "Added calendar resource for URL '%1'."
 msgid "Added calendar resource for URL '%1'."
 msgstr ""
 
 #: actionmanager.cpp:945
-#, qt-format
+#, kde-format
+#| msgid "Unable to create calendar resource '%1'."
 msgid "Unable to create calendar resource '%1'."
 msgstr ""
 
 #: actionmanager.cpp:956
-#, qt-format
+#, kde-format
+#| msgid "Merged calendar '%1'."
 msgid "Merged calendar '%1'."
 msgstr ""
 
 #: actionmanager.cpp:959
-#, qt-format
+#, kde-format
+#| msgid "Opened calendar '%1'."
 msgid "Opened calendar '%1'."
 msgstr ""
 
@@ -2950,12 +3056,14 @@ msgid "Format Conversion"
 msgstr ""
 
 #: actionmanager.cpp:1010
-#, qt-format
+#, kde-format
+#| msgid "Cannot upload calendar to '%1'"
 msgid "Cannot upload calendar to '%1'"
 msgstr ""
 
 #: actionmanager.cpp:1023
-#, qt-format
+#, kde-format
+#| msgid "Saved calendar '%1'."
 msgid "Saved calendar '%1'."
 msgstr ""
 
@@ -2964,7 +3072,8 @@ msgid "Could not upload file."
 msgstr ""
 
 #: actionmanager.cpp:1123
-#, qt-format
+#, kde-format
+#| msgid "Unable to save calendar to the file %1."
 msgid "Unable to save calendar to the file %1."
 msgstr ""
 
@@ -3046,7 +3155,8 @@ msgid "Undo"
 msgstr ""
 
 #: actionmanager.cpp:1780
-#, qt-format
+#, kde-format
+#| msgid "Undo (%1)"
 msgid "Undo (%1)"
 msgstr ""
 
@@ -3055,7 +3165,8 @@ msgid "Redo"
 msgstr ""
 
 #: actionmanager.cpp:1792
-#, qt-format
+#, kde-format
+#| msgid "Redo (%1)"
 msgid "Redo (%1)"
 msgstr ""
 
@@ -3074,7 +3185,10 @@ msgid "Unable to exit. Saving still in progress."
 msgstr ""
 
 #: actionmanager.cpp:1869
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Saving of '%1' failed. Check that the resource is properly configured.\n"
+#| "Ignore problem and continue without saving or cancel save?"
 msgid ""
 "Saving of '%1' failed. Check that the resource is properly configured.\n"
 "Ignore problem and continue without saving or cancel save?"
@@ -3085,7 +3199,8 @@ msgid "Save Error"
 msgstr ""
 
 #: actionmanager.cpp:1883
-#, qt-format
+#, kde-format
+#| msgid "URL '%1' is invalid."
 msgid "URL '%1' is invalid."
 msgstr ""
 
@@ -6156,7 +6271,8 @@ msgid "[Binary data]"
 msgstr ""
 
 #: koeditorattachments.cpp:195
-#, qt-format
+#, kde-format
+#| msgid "Properties for %1"
 msgid "Properties for %1"
 msgstr ""
 
@@ -6247,7 +6363,8 @@ msgid "Add Attachment"
 msgstr ""
 
 #: koeditorattachments.cpp:692
-#, qt-format
+#, kde-format
+#| msgid "The item labeled \"%1\" will be permanently deleted."
 msgid "The item labeled \"%1\" will be permanently deleted."
 msgstr ""
 
@@ -6495,17 +6612,20 @@ msgid "Please select type of the new resource:"
 msgstr "Prošu družinu noweje resursy wubrać:"
 
 #: resourceview.cpp:292
-#, qt-format
+#, kde-format
+#| msgid "<qt>Unable to create resource of type <b>%1</b>.</qt>"
 msgid "<qt>Unable to create resource of type <b>%1</b>.</qt>"
 msgstr ""
 
 #: resourceview.cpp:297
-#, qt-format
+#, kde-format
+#| msgid "%1 resource"
 msgid "%1 resource"
 msgstr ""
 
 #: resourceview.cpp:400
-#, qt-format
+#, kde-format
+#| msgid "<qt>Do you really want to delete the resource <b>%1</b>?</qt>"
 msgid "<qt>Do you really want to delete the resource <b>%1</b>?</qt>"
 msgstr ""
 
@@ -6610,7 +6730,7 @@ msgid "Duration: "
 msgstr ""
 
 #: printing/calprintdefaultplugins.cpp:153
-#, qt-format
+#, kde-format
 msgid "1 hour "
 msgid_plural "%1 hours "
 msgstr[0] ""
@@ -6619,7 +6739,7 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: printing/calprintdefaultplugins.cpp:156
-#, qt-format
+#, kde-format
 msgid "1 minute "
 msgid_plural "%1 minutes "
 msgstr[0] ""
@@ -6652,7 +6772,7 @@ msgid "No reminders"
 msgstr "Titl"
 
 #: printing/calprintdefaultplugins.cpp:297
-#, qt-format
+#, kde-format
 msgid "Reminder: "
 msgid_plural "%1 reminders: "
 msgstr[0] ""
@@ -6698,7 +6818,7 @@ msgid "No Attendees"
 msgstr "Titl"
 
 #: printing/calprintdefaultplugins.cpp:426
-#, qt-format
+#, kde-format
 msgid "1 Attendee:"
 msgid_plural "%1 Attendees:"
 msgstr[0] ""
@@ -6707,7 +6827,11 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: printing/calprintdefaultplugins.cpp:433
-#, qt-format
+#, kde-format
+#| msgctxt ""
+#| "Formatting of an attendee: 'Name (Role): Status', e.g. 'Reinhold "
+#| "Kainhofer <reinhold@kainhofer.com> (Participant): Awaiting Response'"
+#| msgid "%1 (%2): %3"
 msgctxt ""
 "Formatting of an attendee: 'Name (Role): Status', e.g. 'Reinhold Kainhofer "
 "<reinhold@kainhofer.com> (Participant): Awaiting Response'"
@@ -6719,12 +6843,12 @@ msgid "Attendees:"
 msgstr ""
 
 #: printing/calprintdefaultplugins.cpp:443
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Status: %1"
 msgstr "Staw:"
 
 #: printing/calprintdefaultplugins.cpp:447
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Secrecy: %1"
 msgstr "Staw:"
 
@@ -6750,13 +6874,21 @@ msgid "Categories: "
 msgstr "Kategorije"
 
 #: printing/calprintdefaultplugins.cpp:752
-#, qt-format
+#, kde-format
+#| msgctxt "date from-to"
+#| msgid "%1 - %2"
 msgctxt "date from-to"
 msgid "%1 - %2"
 msgstr ""
 
 #: printing/calprintdefaultplugins.cpp:754
-#, qt-format
+#, kde-format
+#| msgctxt ""
+#| "date from-\n"
+#| "to"
+#| msgid ""
+#| "%1 -\n"
+#| "%2"
 msgctxt ""
 "date from-\n"
 "to"
@@ -6766,13 +6898,21 @@ msgid ""
 msgstr ""
 
 #: printing/calprintdefaultplugins.cpp:770
-#, qt-format
+#, kde-format
+#| msgctxt "date from - to (week number)"
+#| msgid "%1 - %2 (Week %3)"
 msgctxt "date from - to (week number)"
 msgid "%1 - %2 (Week %3)"
 msgstr ""
 
 #: printing/calprintdefaultplugins.cpp:773
-#, qt-format
+#, kde-format
+#| msgctxt ""
+#| "date from -\n"
+#| "to (week number)"
+#| msgid ""
+#| "%1 -\n"
+#| "%2 (Week %3)"
 msgctxt ""
 "date from -\n"
 "to (week number)"
@@ -6810,40 +6950,50 @@ msgid "This printing style does not have any configuration options."
 msgstr ""
 
 #: printing/calprintpluginbase.cpp:892
-#, qt-format
+#, kde-format
+#| msgctxt "weekday month date"
+#| msgid "%1 %2 %3"
 msgctxt "weekday month date"
 msgid "%1 %2 %3"
 msgstr ""
 
 #: printing/calprintpluginbase.cpp:954
-#, qt-format
+#, kde-format
+#| msgid "To-do: %1"
 msgid "To-do: %1"
 msgstr ""
 
 #: printing/calprintpluginbase.cpp:1502
-#, qt-format
+#, kde-format
+#| msgid "%1%"
 msgid "%1%"
 msgstr ""
 
 #: printing/calprintpluginbase.cpp:1602
-#, qt-format
+#, kde-format
+#| msgctxt "Description - date"
+#| msgid "%1 - %2"
 msgctxt "Description - date"
 msgid "%1 - %2"
 msgstr ""
 
 #: printing/calprintpluginbase.cpp:1623
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Person: %1"
 msgstr "Wersija:"
 
 #: printing/calprintpluginbase.cpp:1643
-#, qt-format
+#, kde-format
+#| msgctxt "Date range: Month dayStart - dayEnd"
+#| msgid "%1 %2 - %3"
 msgctxt "Date range: Month dayStart - dayEnd"
 msgid "%1 %2 - %3"
 msgstr ""
 
 #: printing/calprintpluginbase.cpp:1648
-#, qt-format
+#, kde-format
+#| msgctxt "Date range: monthStart dayStart - monthEnd dayEnd"
+#| msgid "%1 %2 - %3 %4"
 msgctxt "Date range: monthStart dayStart - monthEnd dayEnd"
 msgid "%1 %2 - %3 %4"
 msgstr ""
@@ -7030,7 +7180,7 @@ msgid "Free"
 msgstr ""
 
 #: koeditorgeneralevent.cpp:427
-#, qt-format
+#, kde-format
 msgid "1 Day"
 msgid_plural "%1 Days"
 msgstr[0] ""
@@ -7049,27 +7199,32 @@ msgid ""
 msgstr ""
 
 #: koeditorgeneralevent.cpp:474
-#, qt-format
+#, kde-format
+#| msgid "From: %1   To: %2   %3"
 msgid "From: %1   To: %2   %3"
 msgstr ""
 
 #: koeditorgeneralevent.cpp:487
-#, qt-format
+#, kde-format
+#| msgid "Please specify a valid start time, for example '%1'."
 msgid "Please specify a valid start time, for example '%1'."
 msgstr ""
 
 #: koeditorgeneralevent.cpp:494
-#, qt-format
+#, kde-format
+#| msgid "Please specify a valid end time, for example '%1'."
 msgid "Please specify a valid end time, for example '%1'."
 msgstr ""
 
 #: koeditorgeneralevent.cpp:502
-#, qt-format
+#, kde-format
+#| msgid "Please specify a valid start date, for example '%1'."
 msgid "Please specify a valid start date, for example '%1'."
 msgstr ""
 
 #: koeditorgeneralevent.cpp:509
-#, qt-format
+#, kde-format
+#| msgid "Please specify a valid end date, for example '%1'."
 msgid "Please specify a valid end date, for example '%1'."
 msgstr ""
 
@@ -7224,7 +7379,9 @@ msgid "Opens a print dialog for this journal entry"
 msgstr "Konfiguracija resursow"
 
 #: komonthview.cpp:367
-#, qt-format
+#, kde-format
+#| msgctxt "'Month day' for month view cells"
+#| msgid "%1 %2"
 msgctxt "'Month day' for month view cells"
 msgid "%1 %2"
 msgstr ""
@@ -7249,7 +7406,8 @@ msgid "Allows you to select the categories that this journal belongs to."
 msgstr ""
 
 #: koeditorgeneraljournal.cpp:231
-#, qt-format
+#, kde-format
+#| msgid "Please specify a valid date, for example '%1'."
 msgid "Please specify a valid date, for example '%1'."
 msgstr ""
 
@@ -7377,7 +7535,7 @@ msgid "This plugin shows information on a day's position in the year."
 msgstr ""
 
 #: plugins/datenums/datenums.cpp:75
-#, qt-format
+#, kde-format
 msgid "1 day before the end of the year"
 msgid_plural "%1 days before the end of the year"
 msgstr[0] ""
@@ -7386,13 +7544,15 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: plugins/datenums/datenums.cpp:82
-#, qt-format
+#, kde-format
+#| msgctxt "dayOfYear / daysTillEndOfYear"
+#| msgid "%1 / %2"
 msgctxt "dayOfYear / daysTillEndOfYear"
 msgid "%1 / %2"
 msgstr ""
 
 #: plugins/datenums/datenums.cpp:84
-#, qt-format
+#, kde-format
 msgid "1 day since the beginning of the year,\n"
 msgid_plural "%1 days since the beginning of the year,\n"
 msgstr[0] ""
@@ -7401,7 +7561,7 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: plugins/datenums/datenums.cpp:87
-#, qt-format
+#, kde-format
 msgid "1 day until the end of the year"
 msgid_plural "%1 days until the end of the year"
 msgstr[0] ""
@@ -7410,7 +7570,7 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: plugins/datenums/datenums.cpp:119
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "&Week"
 msgctxt "Week weekOfYear"
 msgid "Week %1"
@@ -7418,7 +7578,7 @@ msgstr "&Tydźeń"
 
 #: plugins/datenums/datenums.cpp:120 plugins/datenums/datenums.cpp:134
 #: plugins/datenums/datenums.cpp:141
-#, qt-format
+#, kde-format
 msgid "1 week since the beginning of the year"
 msgid_plural "%1 weeks since the beginning of the year"
 msgstr[0] ""
@@ -7427,19 +7587,21 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: plugins/datenums/datenums.cpp:126
-#, qt-format
+#, kde-format
+#| msgctxt "weekOfYear (year)"
+#| msgid "%1 (%2)"
 msgctxt "weekOfYear (year)"
 msgid "%1 (%2)"
 msgstr ""
 
 #: plugins/datenums/datenums.cpp:128
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgctxt "Week weekOfYear (year)"
 msgid "Week %1 (%2)"
 msgstr "&Tydźeń"
 
 #: plugins/datenums/datenums.cpp:148
-#, qt-format
+#, kde-format
 msgid "1 week remaining"
 msgid_plural "%1 weeks remaining"
 msgstr[0] ""
@@ -7448,7 +7610,7 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: plugins/datenums/datenums.cpp:150
-#, qt-format
+#, kde-format
 msgid "1 week until the end of the year"
 msgid_plural "%1 weeks until the end of the year"
 msgstr[0] ""
@@ -7457,13 +7619,21 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: plugins/datenums/datenums.cpp:154
-#, qt-format
+#, kde-format
+#| msgctxt "weekOfYear / weeksTillEndOfYear"
+#| msgid "%1 / %2"
 msgctxt "weekOfYear / weeksTillEndOfYear"
 msgid "%1 / %2"
 msgstr ""
 
 #: plugins/datenums/datenums.cpp:173
-#, qt-format
+#, kde-format
+#| msgctxt ""
+#| "n weeks since the beginning of the year\n"
+#| "n weeks until the end of the year"
+#| msgid ""
+#| "%1\n"
+#| "%2"
 msgctxt ""
 "n weeks since the beginning of the year\n"
 "n weeks until the end of the year"
@@ -7995,7 +8165,14 @@ msgid "Show Chol HaMoed"
 msgstr ""
 
 #: plugins/hebrew/hebrew.cpp:87
-#, qt-format
+#, kde-format
+#| msgctxt ""
+#| "Change the next two strings if emphasis is done differently in your "
+#| "language."
+#| msgid ""
+#| "<qt><p align=\"center\"><i>\n"
+#| "%1\n"
+#| "</i></p></qt>"
 msgctxt ""
 "Change the next two strings if emphasis is done differently in your language."
 msgid ""
@@ -8043,7 +8220,13 @@ msgid "Prints a list of events and to-dos"
 msgstr ""
 
 #: plugins/printing/year/yearprint.cpp:180
-#, qt-format
+#, kde-format
+#| msgctxt ""
+#| "date from -\n"
+#| "to"
+#| msgid ""
+#| "%1 -\n"
+#| "%2"
 msgctxt ""
 "date from -\n"
 "to"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-06 05:38+0200\n"
+"POT-Creation-Date: 2007-10-11 05:40+0200\n"
 "PO-Revision-Date: 2007-05-06 18:45+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -82,7 +82,7 @@ msgid "<unknown>"
 msgstr "<njeznate>"
 
 #: kchooser.cpp:221
-#, qt-format
+#, kde-format
 msgid "Unknown host %1"
 msgstr "Njeznaty host %1"
 
@@ -103,7 +103,7 @@ msgid " (previous)"
 msgstr "(prjedawše)"
 
 #: kgreeter.cpp:498
-#, qt-format
+#, kde-format
 msgid ""
 "Your saved session type '%1' is not valid any more.\n"
 "Please select a new one, otherwise 'default' will be used."
@@ -184,7 +184,7 @@ msgid "&Shutdown..."
 msgstr "&Hasnyć..."
 
 #: kgdialog.cpp:231
-#, qt-format
+#, kde-format
 msgctxt "session (location)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
@@ -194,7 +194,10 @@ msgid "No greeter widget plugin loaded. Check the configuration."
 msgstr "Žadyn powitanski plugin začitany. Přepruwujće konfiguraciju."
 
 #: kgverify.cpp:455
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Logging in %1 ...\n"
+#| "\n"
 msgid ""
 "Logging in %1 ...\n"
 "\n"
@@ -248,7 +251,7 @@ msgstr ""
 "skontaktujće so ze swojim administratorom."
 
 #: kgverify.cpp:501
-#, qt-format
+#, kde-format
 msgid "Your account expires tomorrow."
 msgid_plural "Your account expires in %1 days."
 msgstr[0] "Waše konto budźe za %1 dnjow njepłaćiwe."
@@ -261,7 +264,7 @@ msgid "Your account expires today."
 msgstr "Waše konto budźe dźensa njepłaćiwe."
 
 #: kgverify.cpp:509
-#, qt-format
+#, kde-format
 msgid "Your password expires tomorrow."
 msgid_plural "Your password expires in %1 days."
 msgstr[0] "Waše hesło budźe za %1 dnjow njepłaćiwe."
@@ -278,12 +281,12 @@ msgid "Authentication failed"
 msgstr "Přizjewjenje je so zwrěšćiło"
 
 #: kgverify.cpp:724
-#, qt-format
+#, kde-format
 msgid "Authenticated user (%1) does not match requested user (%2).\n"
 msgstr "Přizjewjeny wužiwar (%1) njeje identiski z trěbnym wužiwarjom (%2).\n"
 
 #: kgverify.cpp:1004
-#, qt-format
+#, kde-format
 msgid "Automatic login in 1 second ..."
 msgid_plural "Automatic login in %1 seconds ..."
 msgstr[0] "Awtomatiske přizjewjenje za %1 sekundu ..."
@@ -304,7 +307,7 @@ msgid "Login failed"
 msgstr "Přizjewjenje je so zwrěšćiło"
 
 #: kgverify.cpp:1071
-#, qt-format
+#, kde-format
 msgid "Theme not usable with authentication method '%1'."
 msgstr "Tema so njehodźi z přizjewjenskej metodu \"%1\" wužiwać."
 
@@ -365,7 +368,7 @@ msgid "&Restart Computer"
 msgstr "kompjuter &znowa startować"
 
 #: kdmshutdown.cpp:515
-#, qt-format
+#, kde-format
 msgctxt "current option in boot loader"
 msgid "%1 (current)"
 msgstr "%1 (tuchwilu nastajene)"
@@ -383,7 +386,7 @@ msgid "Restart Computer"
 msgstr "kompjuter znowa startować"
 
 #: kdmshutdown.cpp:628
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "<br>(Next boot: %1)"
 msgid "<br/>(Next boot: %1)"
 msgstr "<br>(Při přichodnym starowanju: %1)"
@@ -437,7 +440,7 @@ msgid "restart computer"
 msgstr "kompjuter znowa startować"
 
 #: kdmshutdown.cpp:725
-#, qt-format
+#, kde-format
 msgid ""
 "\n"
 "Next boot: %1"
@@ -446,7 +449,7 @@ msgstr ""
 "Při přichodnym starowanju: %1"
 
 #: kdmshutdown.cpp:711
-#, qt-format
+#, kde-format
 msgid ""
 "Owner: %1\n"
 "Type: %2%5\n"
@@ -471,7 +474,7 @@ msgid "cancel shutdown"
 msgstr "hasnjenje přetorhnyć"
 
 #: kdmshutdown.cpp:728
-#, qt-format
+#, kde-format
 msgid ""
 "\n"
 "After timeout: %1"
@@ -556,22 +559,22 @@ msgid "%a %d %B"
 msgstr "%a %d %B"
 
 #: themer/kdmthemer.cpp:67
-#, qt-format
+#, kde-format
 msgid "Cannot open theme file %1"
 msgstr "Njemóžu temowu dataju %1 wočinić"
 
 #: themer/kdmthemer.cpp:72
-#, qt-format
+#, kde-format
 msgid "Cannot parse theme file %1"
 msgstr "Njemóžu temowu dataju %1 analyzować"
 
 #: themer/kdmthemer.cpp:79
-#, qt-format
+#, kde-format
 msgid "%1 does not seem to be a correct theme file"
 msgstr "%1 po zdaću njeje korektna temowa dataja"
 
 #: utils.cpp:92
-#, qt-format
+#, kde-format
 msgid "%2: TTY login"
 msgid_plural "%2: %1 TTY logins"
 msgstr[0] "%2: TTY-přizjewjenje"
@@ -584,13 +587,13 @@ msgid "Unused"
 msgstr "So njewužiwa"
 
 #: utils.cpp:105
-#, qt-format
+#, kde-format
 msgctxt "user: session type"
 msgid "%1: %2"
 msgstr "%1: %2"
 
 #: utils.cpp:107
-#, qt-format
+#, kde-format
 msgctxt "... host"
 msgid "X login on %1"
 msgstr "X přizjewjenje na %1"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicker\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-10 05:31+0200\n"
+"POT-Creation-Date: 2007-10-11 05:40+0200\n"
 "PO-Revision-Date: 2003-06-02 17:14+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -24,7 +24,7 @@ msgid "Bookmarks"
 msgstr "Lubuški"
 
 #: buttons/browserbutton.cpp:77
-#, qt-format
+#, kde-format
 msgid "Browse: %1"
 msgstr "Pohladaj: %1"
 
@@ -60,7 +60,7 @@ msgid "Applications"
 msgstr "Programy"
 
 #: buttons/urlbutton.cpp:197
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "The file %1 does not exist"
 msgstr "Dataja %1 njeeksistuje."
 
@@ -74,17 +74,18 @@ msgid "Window list"
 msgstr "Lisćina woknow"
 
 #: core/applethandle.cpp:112
-#, qt-format
+#, kde-format
 msgid "%1 menu"
 msgstr "%1 meni"
 
 #: core/applethandle.cpp:115
-#, qt-format
+#, kde-format
 msgid "%1 applet handle"
 msgstr "%1 appletowy handle"
 
 #: core/container_applet.cpp:108
-#, qt-format
+#, kde-format
+#| msgid "The %1 applet could not be loaded. Please check your installation."
 msgid "The %1 applet could not be loaded. Please check your installation."
 msgstr ""
 
@@ -265,37 +266,44 @@ msgid "Load Applet"
 msgstr "Applet"
 
 #: ui/addappletvisualfeedback.cpp:68
-#, qt-format
+#, kde-format
+#| msgid "%1 Added"
 msgid "%1 Added"
 msgstr ""
 
 #: ui/appletop_mnu.cpp:57
-#, qt-format
+#, kde-format
+#| msgid "&Move %1 Menu"
 msgid "&Move %1 Menu"
 msgstr ""
 
 #: ui/appletop_mnu.cpp:58
-#, qt-format
+#, kde-format
+#| msgid "&Move %1 Button"
 msgid "&Move %1 Button"
 msgstr ""
 
 #: ui/appletop_mnu.cpp:59
-#, qt-format
+#, kde-format
+#| msgid "&Move %1"
 msgid "&Move %1"
 msgstr ""
 
 #: ui/appletop_mnu.cpp:81
-#, qt-format
+#, kde-format
+#| msgid "&Remove %1 Menu"
 msgid "&Remove %1 Menu"
 msgstr ""
 
 #: ui/appletop_mnu.cpp:82
-#, qt-format
+#, kde-format
+#| msgid "&Remove %1 Button"
 msgid "&Remove %1 Button"
 msgstr ""
 
 #: ui/appletop_mnu.cpp:83
-#, qt-format
+#, kde-format
+#| msgid "&Remove %1"
 msgid "&Remove %1"
 msgstr ""
 
@@ -304,17 +312,17 @@ msgid "Report &Bug..."
 msgstr ""
 
 #: ui/appletop_mnu.cpp:111
-#, qt-format
+#, kde-format
 msgid "&About %1"
 msgstr "W&o %1"
 
 #: ui/appletop_mnu.cpp:131
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "&Configure %1 Button..."
 msgstr "%1 &konfigurować ..."
 
 #: ui/appletop_mnu.cpp:136 ui/extensionop_mnu.cpp:66
-#, qt-format
+#, kde-format
 msgid "&Configure %1..."
 msgstr "%1 &konfigurować ..."
 
@@ -324,7 +332,7 @@ msgid "Applet Menu"
 msgstr "Applet"
 
 #: ui/appletop_mnu.cpp:150
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "%1 Menu"
 msgstr "%1 meni"
 
@@ -363,7 +371,8 @@ msgid "Select Folder"
 msgstr "Program wubrać"
 
 #: ui/browser_dlg.cpp:118
-#, qt-format
+#, kde-format
+#| msgid "'%1' is not a valid folder."
 msgid "'%1' is not a valid folder."
 msgstr ""
 
@@ -453,7 +462,15 @@ msgid "Start New Session"
 msgstr "Nowu sesiju započeć"
 
 #: ui/k_mnu.cpp:378
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<p>You have chosen to open another desktop session.<br>The current "
+#| "session will be hidden and a new login screen will be displayed.<br>An F-"
+#| "key is assigned to each session; F%1 is usually assigned to the first "
+#| "session, F%2 to the second session and so on. You can switch between "
+#| "sessions by pressing Ctrl, Alt and the appropriate F-key at the same "
+#| "time. Additionally, the KDE Panel and Desktop menus have actions for "
+#| "switching between sessions.</p>"
 msgid ""
 "<p>You have chosen to open another desktop session.<br>The current session "
 "will be hidden and a new login screen will be displayed.<br>An F-key is "
@@ -513,27 +530,32 @@ msgid "Appli&cation"
 msgstr "Programy"
 
 #: ui/removeextension_mnu.cpp:68
-#, qt-format
+#, kde-format
+#| msgid "%1 (Top)"
 msgid "%1 (Top)"
 msgstr ""
 
 #: ui/removeextension_mnu.cpp:71
-#, qt-format
+#, kde-format
+#| msgid "%1 (Right)"
 msgid "%1 (Right)"
 msgstr ""
 
 #: ui/removeextension_mnu.cpp:74
-#, qt-format
+#, kde-format
+#| msgid "%1 (Bottom)"
 msgid "%1 (Bottom)"
 msgstr ""
 
 #: ui/removeextension_mnu.cpp:77
-#, qt-format
+#, kde-format
+#| msgid "%1 (Left)"
 msgid "%1 (Left)"
 msgstr ""
 
 #: ui/removeextension_mnu.cpp:80
-#, qt-format
+#, kde-format
+#| msgid "%1 (Floating)"
 msgid "%1 (Floating)"
 msgstr ""
 
@@ -551,13 +573,17 @@ msgid "Add Non-KDE Application"
 msgstr "Programy (žane KDE-programy)"
 
 #: ui/service_mnu.cpp:320
-#, qt-format
+#, kde-format
+#| msgctxt "Entries in K-menu: %1 app name, %2 description"
+#| msgid "%1 - %2"
 msgctxt "Entries in K-menu: %1 app name, %2 description"
 msgid "%1 - %2"
 msgstr ""
 
 #: ui/service_mnu.cpp:330
-#, qt-format
+#, kde-format
+#| msgctxt "Entries in K-menu: %1 description, %2 app name"
+#| msgid "%1 (%2)"
 msgctxt "Entries in K-menu: %1 description, %2 app name"
 msgid "%1 (%2)"
 msgstr ""

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminfo\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-31 05:49+0200\n"
+"POT-Creation-Date: 2007-10-11 05:40+0200\n"
 "PO-Revision-Date: 2005-03-15 22:49+0100\n"
 "Last-Translator:  <hertn@gmx.de>\n"
 "Language-Team: Hornjoserbšćina <hsb@li.org>\n"
@@ -21,7 +21,8 @@ msgid "Maybe this system is not completely supported yet :-("
 msgstr ""
 
 #: info.cpp:148
-#, qt-format
+#, kde-format
+#| msgid "Screen # %1"
 msgid "Screen # %1"
 msgstr ""
 
@@ -34,7 +35,7 @@ msgid "Dimensions"
 msgstr "Dimensije"
 
 #: info.cpp:154
-#, qt-format
+#, kde-format
 msgid "%1 x %2 Pixel (%3 x %4 mm)"
 msgstr "%1 x %2 pikslow (%3 x %4 mm)"
 
@@ -43,12 +44,13 @@ msgid "Resolution"
 msgstr "Rozpušćenje"
 
 #: info.cpp:161
-#, qt-format
+#, kde-format
 msgid "%1 x %2 dpi"
 msgstr "%1 x %2 dpi"
 
 #: info.cpp:177
-#, qt-format
+#, kde-format
+#| msgid "Depths (%1)"
 msgid "Depths (%1)"
 msgstr ""
 
@@ -61,12 +63,12 @@ msgid "Depth of Root Window"
 msgstr ""
 
 #: info.cpp:185
-#, qt-format
+#, kde-format
 msgid "%1 plane"
 msgstr "%1 runina"
 
 #: info.cpp:186
-#, qt-format
+#, kde-format
 msgid "%1 planes"
 msgstr "%1 runinow"
 
@@ -75,7 +77,8 @@ msgid "Number of Colormaps"
 msgstr ""
 
 #: info.cpp:188
-#, qt-format
+#, kde-format
+#| msgid "minimum %1, maximum %2"
 msgid "minimum %1, maximum %2"
 msgstr ""
 
@@ -92,7 +95,7 @@ msgid "Preallocated Pixels"
 msgstr "Předdefinowane piksle"
 
 #: info.cpp:195
-#, qt-format
+#, kde-format
 msgid "Black %1, White %2"
 msgstr "Čorne %1, Běłe %2"
 
@@ -113,7 +116,8 @@ msgid "When mapped"
 msgstr ""
 
 #: info.cpp:202
-#, qt-format
+#, kde-format
+#| msgid "backing-store: %1, save-unders: %2"
 msgid "backing-store: %1, save-unders: %2"
 msgstr ""
 
@@ -130,7 +134,8 @@ msgid "Current Input Event Mask"
 msgstr ""
 
 #: info.cpp:220
-#, qt-format
+#, kde-format
+#| msgid "Event = %1"
 msgid "Event = %1"
 msgstr ""
 
@@ -143,12 +148,12 @@ msgid "MSBFirst"
 msgstr "MSBFirst"
 
 #: info.cpp:231
-#, qt-format
+#, kde-format
 msgid "Unknown Order %1"
 msgstr "Njeznaty slěd %1"
 
 #: info.cpp:236
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "1 Bit"
 msgid_plural "%1 Bits"
 msgstr[0] "1 Bit"
@@ -159,7 +164,7 @@ msgid "1 Byte"
 msgstr "1 Byte"
 
 #: info.cpp:245
-#, qt-format
+#, kde-format
 msgid "%1 Bytes"
 msgstr "%1 Bytow"
 
@@ -208,12 +213,14 @@ msgid "Supported Pixmap Formats"
 msgstr ""
 
 #: info.cpp:311
-#, qt-format
+#, kde-format
+#| msgid "Pixmap Format #%1"
 msgid "Pixmap Format #%1"
 msgstr ""
 
 #: info.cpp:312
-#, qt-format
+#, kde-format
+#| msgid "%1 BPP, Depth: %2, Scanline padding: %3"
 msgid "%1 BPP, Depth: %2, Scanline padding: %3"
 msgstr ""
 
@@ -246,7 +253,7 @@ msgid "Image Byte Order"
 msgstr ""
 
 #: info.cpp:362
-#, qt-format
+#, kde-format
 msgid "No information available about %1."
 msgstr "Nimam žane informacije wo %1"
 
@@ -332,12 +339,13 @@ msgid "n/a"
 msgstr "n/a"
 
 #: info_fbsd.cpp:92
-#, qt-format
+#, kde-format
 msgid "CPU %1: %2, %3 MHz"
 msgstr "Procesor %1: %2, %3 MHz"
 
 #: info_fbsd.cpp:94
-#, qt-format
+#, kde-format
+#| msgid "CPU %1: %2, unknown speed"
 msgid "CPU %1: %2, unknown speed"
 msgstr ""
 
@@ -365,7 +373,8 @@ msgid ""
 msgstr ""
 
 #: info_fbsd.cpp:248
-#, qt-format
+#, kde-format
+#| msgid "PCI subsystem could not be queried: %1 could not be executed"
 msgid "PCI subsystem could not be queried: %1 could not be executed"
 msgstr ""
 
@@ -720,22 +729,26 @@ msgid "Unable to run /sbin/mount."
 msgstr ""
 
 #: info_osx.cpp:84
-#, qt-format
+#, kde-format
+#| msgid "Kernel is configured for %1 CPUs"
 msgid "Kernel is configured for %1 CPUs"
 msgstr ""
 
 #: info_osx.cpp:86
-#, qt-format
+#, kde-format
+#| msgid "CPU %1: %2"
 msgid "CPU %1: %2"
 msgstr ""
 
 #: info_osx.cpp:140
-#, qt-format
+#, kde-format
+#| msgid "Device Name: %1"
 msgid "Device Name: %1"
 msgstr ""
 
 #: info_osx.cpp:148
-#, qt-format
+#, kde-format
+#| msgid "Manufacturer: %1"
 msgid "Manufacturer: %1"
 msgstr ""
 
@@ -860,17 +873,20 @@ msgid "OpenGL"
 msgstr ""
 
 #: memory.cpp:89
-#, qt-format
+#, kde-format
+#| msgid "%1 GB"
 msgid "%1 GB"
 msgstr ""
 
 #: memory.cpp:91
-#, qt-format
+#, kde-format
+#| msgid "%1 MB"
 msgid "%1 MB"
 msgstr ""
 
 #: memory.cpp:93
-#, qt-format
+#, kde-format
+#| msgid "%1 KB"
 msgid "%1 KB"
 msgstr ""
 
@@ -961,12 +977,14 @@ msgid ""
 msgstr ""
 
 #: memory.cpp:362
-#, qt-format
+#, kde-format
+#| msgid "%1 free"
 msgid "%1 free"
 msgstr ""
 
 #: memory.cpp:383
-#, qt-format
+#, kde-format
+#| msgid "%1 bytes ="
 msgid "%1 bytes ="
 msgstr ""
 

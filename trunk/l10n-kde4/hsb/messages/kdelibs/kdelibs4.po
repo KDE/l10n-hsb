@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-10 05:30+0200\n"
+"POT-Creation-Date: 2007-10-11 05:39+0200\n"
 "PO-Revision-Date: 2007-06-18 11:34+0200\n"
 "Last-Translator: Bianka Šwejdźic <hertn@gmx.de>\n"
 "Language-Team: Upper Sorbian <hsb@li.org>\n"
@@ -1686,7 +1686,7 @@ msgid "URI error"
 msgstr "URI-zmylk"
 
 #: interfaces/ktexteditor/editorchooser.cpp:71
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "System Default (currently: %1)"
 msgstr "Systemowy standard (%1)"
 
@@ -1751,7 +1751,7 @@ msgid "Check Sycoca database only once"
 msgstr "Přepruwuj datowu bazu Sycoca jenož jónu."
 
 #: kded/kbuildsycoca.cpp:483
-#, qt-format
+#, kde-format
 msgid ""
 "Error creating database '%1'.\n"
 "Check that the permissions are correct on the directory and the disk is not "
@@ -1766,7 +1766,7 @@ msgid "KBuildSycoca"
 msgstr "KBuildSycoca"
 
 #: kded/kbuildsycoca.cpp:514
-#, qt-format
+#, kde-format
 msgid ""
 "Error writing database '%1'.\n"
 "Check that the permissions are correct on the directory and the disk is not "
@@ -2054,12 +2054,13 @@ msgid "UNIX Sockets (specific for both current host and current user)"
 msgstr ""
 
 #: kdecore/kde-config.cpp:157
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "%1 - unknown type\n"
 msgstr "Njeznata družina"
 
 #: kdecore/kde-config.cpp:219
-#, qt-format
+#, kde-format
+#| msgid "%1 - unknown type of userpath\n"
 msgid "%1 - unknown type of userpath\n"
 msgstr ""
 
@@ -3191,20 +3192,24 @@ msgid "KLibLoader: Unknown error"
 msgstr "Njeznaty zmylk"
 
 #: kdecore/util/kpluginloader.cpp:125
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The service '%1' provides no library or the Library key is missing in "
+#| "the .desktop file"
 msgid ""
 "The service '%1' provides no library or the Library key is missing in the ."
 "desktop file"
 msgstr ""
 
 #: kdecore/util/kpluginloader.cpp:159
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "The library %1 does not offer a KDE compatible factory."
 msgid "The library %1 does not offer a KDE 4 compatible factory."
 msgstr "Biblioteka '%1' njeje KDE-kompatibelna."
 
 #: kdecore/util/kpluginloader.cpp:183
-#, qt-format
+#, kde-format
+#| msgid "The plugin '%1' uses incompatible KDE library. (%2)"
 msgid "The plugin '%1' uses incompatible KDE library. (%2)"
 msgstr ""
 
@@ -3213,7 +3218,9 @@ msgid "Please contact your system administrator."
 msgstr "Prošu skontaktujće so z administratorom systema."
 
 #: kdecore/network/k3socketaddress.cpp:623
-#, qt-format
+#, kde-format
+#| msgctxt "1: the unknown socket address family number"
+#| msgid "Unknown family %1"
 msgctxt "1: the unknown socket address family number"
 msgid "Unknown family %1"
 msgstr ""
@@ -3371,7 +3378,7 @@ msgid "unknown error"
 msgstr "njeznaty zmylk"
 
 #: kdecore/network/k3resolver.cpp:557
-#, qt-format
+#, kde-format
 msgctxt "1: the i18n'ed system error code, from errno"
 msgid "system error: %1"
 msgstr "systemowy zmylk: %1"
@@ -3550,19 +3557,19 @@ msgid "KDE"
 msgstr "KDE"
 
 #: kdecore/kernel/kcmdlineargs.cpp:792 kdecore/kernel/kcmdlineargs.cpp:812
-#, qt-format
+#, kde-format
 msgid "Unknown option '%1'."
 msgstr "Njeznata opcija '%1'."
 
 #: kdecore/kernel/kcmdlineargs.cpp:820
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "'%1' missing."
 msgctxt "@info:shell %1 is cmdoption name"
 msgid "'%1' missing."
 msgstr "'%1' faluje."
 
 #: kdecore/kernel/kcmdlineargs.cpp:905
-#, qt-format
+#, kde-format
 msgctxt "the 2nd argument is a list of name+address, one on each line"
 msgid ""
 "%1 was written by\n"
@@ -3584,14 +3591,14 @@ msgstr ""
 "bjezposrědnje awtoram.\n"
 
 #: kdecore/kernel/kcmdlineargs.cpp:918 kdecore/kernel/kcmdlineargs.cpp:920
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Please report bugs to %1.\n"
 msgstr ""
 "Prošu wužiwajće '%1', zo by wo zmylku rozprawił, njepisajće bjezposrědnje "
 "awtoram.\n"
 
 #: kdecore/kernel/kcmdlineargs.cpp:946
-#, qt-format
+#, kde-format
 msgid "Unexpected argument '%1'."
 msgstr "Njewočakowany argument '%1'."
 
@@ -3604,12 +3611,12 @@ msgid "[options] "
 msgstr "[opcije] "
 
 #: kdecore/kernel/kcmdlineargs.cpp:1092
-#, qt-format
+#, kde-format
 msgid "[%1-options]"
 msgstr "[%1-opcije]"
 
 #: kdecore/kernel/kcmdlineargs.cpp:1113
-#, qt-format
+#, kde-format
 msgid "Usage: %1 %2\n"
 msgstr "Wužiwanje: %1 %2\n"
 
@@ -3625,7 +3632,7 @@ msgid "Show help about options"
 msgstr "Pomhaj mi z opcijemi"
 
 #: kdecore/kernel/kcmdlineargs.cpp:1125
-#, qt-format
+#, kde-format
 msgid "Show %1 specific options"
 msgstr "Pokaž %1 specifiske opcije"
 
@@ -3650,7 +3657,7 @@ msgid "End of options"
 msgstr "Kónc opcijow"
 
 #: kdecore/kernel/kcmdlineargs.cpp:1157
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "\n"
 "%1 options:\n"
@@ -3681,7 +3688,7 @@ msgid "KDE-tempfile"
 msgstr ""
 
 #: kdecore/kernel/ktoolinvocation_x11.cpp:96
-#, qt-format
+#, kde-format
 msgid ""
 "Could not launch the KDE Help Center:\n"
 "\n"
@@ -3696,7 +3703,7 @@ msgid "Could not Launch Help Center"
 msgstr "Njemóžach pomocny centrum startować"
 
 #: kdecore/kernel/ktoolinvocation_x11.cpp:359
-#, qt-format
+#, kde-format
 msgid ""
 "Could not launch the mail client:\n"
 "\n"
@@ -3711,7 +3718,7 @@ msgid "Could not Launch Mail Client"
 msgstr "Njemóžach emailowy program startować."
 
 #: kdecore/kernel/ktoolinvocation_x11.cpp:374
-#, qt-format
+#, kde-format
 msgid ""
 "Could not launch the browser:\n"
 "\n"
@@ -3749,7 +3756,7 @@ msgstr ""
 " wuměnjenjow dla.\n"
 
 #: kdecore/kernel/kaboutdata.cpp:602
-#, qt-format
+#, kde-format
 msgid "This program is distributed under the terms of the %1."
 msgstr "Program so dale dawa pod wuměnjenjemi w %1."
 
@@ -3802,7 +3809,7 @@ msgid "Function must be called from the main thread."
 msgstr ""
 
 #: kdecore/kernel/ktoolinvocation.cpp:110
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "KLauncher could not be reached via D-Bus, error when calling %1:\n"
 "%2\n"
@@ -3917,25 +3924,25 @@ msgid "extended"
 msgstr ""
 
 #: kdecore/sonnet/loader.cpp:231
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgctxt "dictionary name. %1-language, %2-country and %3 variant name"
 msgid "%1 (%2) [%3]"
 msgstr "%1 %2, %3"
 
 #: kdecore/sonnet/loader.cpp:238
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgctxt "dictionary name. %1-language and %2-country name"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: kdecore/sonnet/loader.cpp:244
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgctxt "dictionary name. %1-language and %2-variant name"
 msgid "%1 [%2]"
 msgstr "%1 - [%2]"
 
 #: kdecore/services/kmimetype.cpp:58
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Could not find mime type <resource>%2</resource>"
 msgid_plural ""
 "Could not find mime types:\n"
@@ -4072,27 +4079,31 @@ msgid "Thai"
 msgstr "Tailandske"
 
 #: kdecore/localization/klocale.cpp:1152
-#, qt-format
+#, kde-format
+#| msgid "%1 TiB"
 msgid "%1 TiB"
 msgstr ""
 
 #: kdecore/localization/klocale.cpp:1154
-#, qt-format
+#, kde-format
+#| msgid "%1 GiB"
 msgid "%1 GiB"
 msgstr ""
 
 #: kdecore/localization/klocale.cpp:1160
-#, qt-format
+#, kde-format
+#| msgid "%1 MiB"
 msgid "%1 MiB"
 msgstr ""
 
 #: kdecore/localization/klocale.cpp:1166
-#, qt-format
+#, kde-format
+#| msgid "%1 KiB"
 msgid "%1 KiB"
 msgstr ""
 
 #: kdecore/localization/klocale.cpp:1171
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "%1 B"
 msgstr "%1%2"
 
@@ -4101,27 +4112,30 @@ msgid "0 B"
 msgstr ""
 
 #: kdecore/localization/klocale.cpp:1184
-#, qt-format
+#, kde-format
+#| msgid "%1 days"
 msgid "%1 days"
 msgstr ""
 
 #: kdecore/localization/klocale.cpp:1187
-#, qt-format
+#, kde-format
+#| msgid "%1 hours"
 msgid "%1 hours"
 msgstr ""
 
 #: kdecore/localization/klocale.cpp:1190
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "%1 minutes"
 msgstr "%1 opcije"
 
 #: kdecore/localization/klocale.cpp:1193
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "%1 seconds"
 msgstr "%1 opcije"
 
 #: kdecore/localization/klocale.cpp:1196
-#, qt-format
+#, kde-format
+#| msgid "%1 milliseconds"
 msgid "%1 milliseconds"
 msgstr ""
 
@@ -4136,13 +4150,13 @@ msgid "Yesterday"
 msgstr "Wutoru"
 
 #: kdecore/localization/klocale.cpp:1857
-#, qt-format
+#, kde-format
 msgctxt "concatenation of dates and time"
 msgid "%1 %2"
 msgstr "%1%2"
 
 #: kdecore/localization/klocale.cpp:1918
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgctxt "concatenation of date/time and time zone"
 msgid "%1 %2"
 msgstr "%1%2"
@@ -4169,7 +4183,7 @@ msgid "Other"
 msgstr "Druhe"
 
 #: kdecore/localization/kcharsets.cpp:660
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgctxt "Descriptive Encoding Name"
 #| msgid "%1 ( %2 )"
 msgctxt "@item %1 character set, %2 encoding"
@@ -4177,13 +4191,13 @@ msgid "%1 ( %2 )"
 msgstr "%1 (%2)"
 
 #: kdecore/localization/kcharsets.cpp:663
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgctxt "@item"
 msgid "Other encoding (%1)"
 msgstr "&Kodowanje nastajić"
 
 #: kdecore/localization/kcharsets.cpp:689
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgctxt "Descriptive Encoding Name"
 #| msgid "%1 ( %2 )"
 msgctxt "@item Text encoding: %1 character set, %2 encoding"
@@ -4201,63 +4215,75 @@ msgstr "%1 (%2)"
 #. - the proper quotes, those used in msgid are English-standard
 #. - the <i> and <b> tags, does your language script work well with them?
 #: kdecore/localization/kuitsemantics.cpp:484
-#, qt-format
+#, kde-format
+#| msgctxt "@title/plain"
+#| msgid "== %1 =="
 msgctxt "@title/plain"
 msgid "== %1 =="
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:488
-#, qt-format
+#, kde-format
+#| msgctxt "@title/rich"
+#| msgid "<h2>%1</h2>"
 msgctxt "@title/rich"
 msgid "<h2>%1</h2>"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:494
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgctxt "@subtitle/plain"
 msgid "~ %1 ~"
 msgstr "(%1/s)"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:498
-#, qt-format
+#, kde-format
+#| msgctxt "@subtitle/rich"
+#| msgid "<h3>%1</h3>"
 msgctxt "@subtitle/rich"
 msgid "<h3>%1</h3>"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:524
-#, qt-format
+#, kde-format
+#| msgctxt "@item/plain"
+#| msgid "  * %1"
 msgctxt "@item/plain"
 msgid "  * %1"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:528
-#, qt-format
+#, kde-format
+#| msgctxt "@item/rich"
+#| msgid "<li>%1</li>"
 msgctxt "@item/rich"
 msgid "<li>%1</li>"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:534
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgctxt "@note/plain"
 msgid "Note: %1"
 msgstr "Přispomnjenje"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:538
-#, qt-format
+#, kde-format
+#| msgctxt "@note/rich"
+#| msgid "<i>Note</i>: %1"
 msgctxt "@note/rich"
 msgid "<i>Note</i>: %1"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:543
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgctxt "concatenation of dates and time"
 #| msgid "%1 %2"
 msgctxt ""
@@ -4268,7 +4294,11 @@ msgstr "%1%2"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:548
-#, qt-format
+#, kde-format
+#| msgctxt ""
+#| "@note-with-label/rich\n"
+#| "%1 is the note label, %2 is the text"
+#| msgid "<i>%1</i>: %2"
 msgctxt ""
 "@note-with-label/rich\n"
 "%1 is the note label, %2 is the text"
@@ -4277,14 +4307,16 @@ msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:554
-#, qt-format
+#, kde-format
+#| msgctxt "@warning/plain"
+#| msgid "WARNING: %1"
 msgctxt "@warning/plain"
 msgid "WARNING: %1"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:558
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "<b>Error</b>: %1: %2"
 msgctxt "@warning/rich"
 msgid "<b>Warning</b>: %1"
@@ -4292,7 +4324,7 @@ msgstr "<b>Zmylk</b>: %1: %2"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:563
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgctxt "concatenation of dates and time"
 #| msgid "%1 %2"
 msgctxt ""
@@ -4303,7 +4335,7 @@ msgstr "%1%2"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:568
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "<b>Error</b>: %1: %2"
 msgctxt ""
 "@warning-with-label/rich\n"
@@ -4313,7 +4345,7 @@ msgstr "<b>Zmylk</b>: %1: %2"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:583
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "%2 (%1 K)"
 msgctxt ""
 "@link-with-description/plain\n"
@@ -4323,7 +4355,7 @@ msgstr "%2 (%1 K)"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:588
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "   <a href=\"%1\">[Properties]</a>"
 msgctxt ""
 "@link-with-description/rich\n"
@@ -4333,21 +4365,25 @@ msgstr "   <a href=\"%1\">[swójstwa]</a>"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:594
-#, qt-format
+#, kde-format
+#| msgctxt "@filename/plain"
+#| msgid "‘%1’"
 msgctxt "@filename/plain"
 msgid "‘%1’"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:598
-#, qt-format
+#, kde-format
+#| msgctxt "@filename/rich"
+#| msgid "<tt>%1</tt>"
 msgctxt "@filename/rich"
 msgid "<tt>%1</tt>"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:604
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@application/plain"
 msgid "%1"
@@ -4355,7 +4391,7 @@ msgstr "%1%"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:608
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@application/rich"
 msgid "%1"
@@ -4363,7 +4399,7 @@ msgstr "%1%"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:614
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@command/plain"
 msgid "%1"
@@ -4371,14 +4407,16 @@ msgstr "%1%"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:618
-#, qt-format
+#, kde-format
+#| msgctxt "@command/rich"
+#| msgid "<tt>%1</tt>"
 msgctxt "@command/rich"
 msgid "<tt>%1</tt>"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:623
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgctxt ""
 "@command-with-section/plain\n"
 "%1 is the command name, %2 is its man section"
@@ -4387,7 +4425,11 @@ msgstr "%1 (%2)"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:628
-#, qt-format
+#, kde-format
+#| msgctxt ""
+#| "@command-with-section/rich\n"
+#| "%1 is the command name, %2 is its man section"
+#| msgid "<tt>%1(%2)</tt>"
 msgctxt ""
 "@command-with-section/rich\n"
 "%1 is the command name, %2 is its man section"
@@ -4396,21 +4438,25 @@ msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:634
-#, qt-format
+#, kde-format
+#| msgctxt "@resource/plain"
+#| msgid "“%1”"
 msgctxt "@resource/plain"
 msgid "“%1”"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:638
-#, qt-format
+#, kde-format
+#| msgctxt "@resource/rich"
+#| msgid "“%1”"
 msgctxt "@resource/rich"
 msgid "“%1”"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:664
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@shortcut/plain"
 msgid "%1"
@@ -4418,63 +4464,79 @@ msgstr "%1%"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:668
-#, qt-format
+#, kde-format
+#| msgctxt "@shortcut/rich"
+#| msgid "<b>%1</b>"
 msgctxt "@shortcut/rich"
 msgid "<b>%1</b>"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:674
-#, qt-format
+#, kde-format
+#| msgctxt "@interface/plain"
+#| msgid "|%1|"
 msgctxt "@interface/plain"
 msgid "|%1|"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:678
-#, qt-format
+#, kde-format
+#| msgctxt "@interface/rich"
+#| msgid "<i>%1</i>"
 msgctxt "@interface/rich"
 msgid "<i>%1</i>"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:684
-#, qt-format
+#, kde-format
+#| msgctxt "@emphasis/plain"
+#| msgid "*%1*"
 msgctxt "@emphasis/plain"
 msgid "*%1*"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:688
-#, qt-format
+#, kde-format
+#| msgctxt "@emphasis/rich"
+#| msgid "<i>%1</i>"
 msgctxt "@emphasis/rich"
 msgid "<i>%1</i>"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:694
-#, qt-format
+#, kde-format
+#| msgctxt "@placeholder/plain"
+#| msgid "<%1>"
 msgctxt "@placeholder/plain"
 msgid "<%1>"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:698
-#, qt-format
+#, kde-format
+#| msgctxt "@placeholder/rich"
+#| msgid "&lt;<i>%1</i>&gt;"
 msgctxt "@placeholder/rich"
 msgid "&lt;<i>%1</i>&gt;"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:704
-#, qt-format
+#, kde-format
+#| msgctxt "@email/plain"
+#| msgid "<%1>"
 msgctxt "@email/plain"
 msgid "<%1>"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:708
-#, fuzzy
+#, fuzzy, kde-format
 msgctxt "@email/rich"
 msgid "&lt;<a href=\"mailto:%1\">%1</a>&gt;"
 msgstr ""
@@ -4483,7 +4545,7 @@ msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:713
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgctxt "concatenation of dates and time"
 #| msgid "%1 %2"
 msgctxt ""
@@ -4494,7 +4556,7 @@ msgstr "%1%2"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:718
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgctxt ""
 "@email-with-name/rich\n"
 "%1 is name, %2 is address"
@@ -4505,7 +4567,7 @@ msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:724
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@envar/plain"
 msgid "$%1"
@@ -4513,21 +4575,23 @@ msgstr "%1%"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:728
-#, qt-format
+#, kde-format
+#| msgctxt "@envar/rich"
+#| msgid "<tt>$%1</tt>"
 msgctxt "@envar/rich"
 msgid "<tt>$%1</tt>"
 msgstr ""
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:734
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgctxt "@message/plain"
 msgid "/%1/"
 msgstr "(%1/s)"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:738
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "<b>Error</b>: %1: %2"
 msgctxt "@message/rich"
 msgid "<i>%1</i>"
@@ -4848,7 +4912,9 @@ msgid "Search:"
 msgstr "&Pytać:"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:420
-#, qt-format
+#, kde-format
+#| msgctxt "Program name followed by 'Add On Installer'"
+#| msgid "%1 Add On Installer"
 msgctxt "Program name followed by 'Add On Installer'"
 msgid "%1 Add On Installer"
 msgstr ""
@@ -4954,17 +5020,17 @@ msgid "Contact on Jabber"
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:255
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Server: %1"
 msgstr "<%1 zjednoćić>"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:256
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Provider: %1"
 msgstr "Chowaj %1"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:257
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Version: %1"
 msgstr "Wersija:"
 
@@ -5035,7 +5101,7 @@ msgstr ""
 
 #: knewstuff/knewstuff2/ui/knewstuffaction.cpp:35
 #: knewstuff/knewstuff2/ui/knewstuffbutton.cpp:63
-#, qt-format
+#, kde-format
 msgid "Download New %1"
 msgstr "Sćahnyć nowe %1"
 
@@ -5053,7 +5119,7 @@ msgid "Download New Stuff"
 msgstr "Nowe wěcy wobstarać"
 
 #: knewstuff/knewstuff2/ui/kdxschanges.cpp:55
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Version %1"
 msgstr "Wersija"
 
@@ -5094,7 +5160,10 @@ msgid ""
 msgstr ""
 
 #: knewstuff/knewstuff2/core/security.cpp:216
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;%"
+#| "3&gt;</i><br />:</qt>"
 msgid ""
 "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;%3&gt;</"
 "i><br />:</qt>"
@@ -5127,17 +5196,20 @@ msgid " Stalled "
 msgstr ""
 
 #: kdeui/jobs/kstatusbarjobtracker.cpp:219
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid " %1/s "
 msgstr "(%1/s)"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:264
-#, qt-format
+#, kde-format
+#| msgid "%1 of %2 complete"
 msgid "%1 of %2 complete"
 msgstr ""
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:275 kdeui/jobs/kwidgetjobtracker.cpp:287
-#, qt-format
+#, kde-format
+#| msgid "%2 / %1 folder"
+#| msgid_plural "%2 / %1 folders"
 msgid "%2 / %1 folder"
 msgid_plural "%2 / %1 folders"
 msgstr[0] ""
@@ -5146,7 +5218,9 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:277 kdeui/jobs/kwidgetjobtracker.cpp:290
-#, qt-format
+#, kde-format
+#| msgid "%2 / %1 file"
+#| msgid_plural "%2 / %1 files"
 msgid "%2 / %1 file"
 msgid_plural "%2 / %1 files"
 msgstr[0] ""
@@ -5155,12 +5229,14 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:300
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "%1 % of %2 "
 msgstr "%1 (%2)"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:303
-#, qt-format
+#, kde-format
+#| msgid "%2 % of 1 file"
+#| msgid_plural "%2 % of %1 files"
 msgid "%2 % of 1 file"
 msgid_plural "%2 % of %1 files"
 msgstr[0] ""
@@ -5169,7 +5245,7 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:305
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "%1 %"
 msgstr "%1%2"
 
@@ -5179,12 +5255,13 @@ msgid "Stalled"
 msgstr "Staw"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:324
-#, qt-format
+#, kde-format
+#| msgid "%1/s ( %2 remaining )"
 msgid "%1/s ( %2 remaining )"
 msgstr ""
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:343
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "%1/s (done)"
 msgstr "%1 (wotkaz)"
 
@@ -5222,7 +5299,7 @@ msgid "Progress Dialog"
 msgstr ""
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:494
-#, qt-format
+#, kde-format
 msgid "%1 folder"
 msgid_plural "%1 folders"
 msgstr[0] ""
@@ -5231,7 +5308,7 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:495
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "%1 file"
 msgid_plural "%1 files"
 msgstr[0] "Dataju wočinić"
@@ -5278,7 +5355,7 @@ msgid "&Restore"
 msgstr "&Prěnjotny staw"
 
 #: kdeui/util/ksystemtrayicon.cpp:187
-#, qt-format
+#, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr "<qt>Chceće woprawdźe <b>%1</b> wopušćić?</qt>"
 
@@ -5631,7 +5708,7 @@ msgstr "Hesło je prózdne"
 
 #: kdeui/dialogs/knewpassworddialog.cpp:109
 #: kde3support/kdeui/k3passworddialog.cpp:622
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Password must be at least 1 character long"
 msgid_plural "Password must be at least %1 characters long"
 msgstr[0] "Hesło dyrbi znajmjeńša  %2 pismikow dołhe być"
@@ -5719,7 +5796,7 @@ msgstr "Konflikt tastow"
 
 #: kdeui/dialogs/kshortcutsdialog.cpp:693
 #: kdeui/widgets/kkeysequencewidget.cpp:128
-#, qt-format
+#, kde-format
 msgid ""
 "The '%1' key combination has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
@@ -5740,7 +5817,7 @@ msgid "Conflict with Standard Application Shortcut"
 msgstr "Konflikt ze standardowym outputom programa"
 
 #: kdeui/dialogs/kshortcutsdialog.cpp:710
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "The '%1' key combination has already been allocated to the standard action "
 "\"%2\" that many applications use.\n"
@@ -5750,7 +5827,7 @@ msgstr ""
 " Chceće ju město toho z aktualnej akciju zwjazać?"
 
 #: kdeui/dialogs/kshortcutsdialog.cpp:722
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
@@ -5759,7 +5836,7 @@ msgstr ""
 "toho z aktualnej akciju zwjazać? "
 
 #: kdeui/dialogs/kshortcutsdialog.cpp:738
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
@@ -5805,7 +5882,7 @@ msgstr "Njepokaž tutu zdźělenku přichodny raz"
 #: kdeui/dialogs/kmessagebox.cpp:1010
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:58
 #: kdeui/widgets/khelpmenu.cpp:255 kde3support/kdeui/k3aboutdialog.cpp:1045
-#, qt-format
+#, kde-format
 msgid "About %1"
 msgstr "Wo %1"
 
@@ -5849,8 +5926,8 @@ msgstr ""
 msgid "Reset ToolBars"
 msgstr "Nastrojowe pasy"
 
-#: kdeui/dialogs/kedittoolbar.cpp:484 khtml/khtmlview.cpp:2692
-#: khtml/khtmlview.cpp:2725 khtml/html/html_formimpl.cpp:2162
+#: kdeui/dialogs/kedittoolbar.cpp:484 khtml/khtmlview.cpp:2694
+#: khtml/khtmlview.cpp:2727 khtml/html/html_formimpl.cpp:2162
 msgid "Reset"
 msgstr "Stary staw"
 
@@ -5880,7 +5957,7 @@ msgid "<Merge>"
 msgstr "<zjednoćić>"
 
 #: kdeui/dialogs/kedittoolbar.cpp:1017
-#, qt-format
+#, kde-format
 msgid "<Merge %1>"
 msgstr "<%1 zjednoćić>"
 
@@ -5894,7 +5971,7 @@ msgstr ""
 "njemóžeće ju zaso dodać."
 
 #: kdeui/dialogs/kedittoolbar.cpp:1024
-#, qt-format
+#, kde-format
 msgid "ActionList: %1"
 msgstr "Lisćina akcijow: %1"
 
@@ -5908,14 +5985,17 @@ msgstr ""
 "Podaty objekt KAboutData njeeksistuje."
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:83
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE %"
+#| "3</html>"
 msgid ""
 "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE %3</"
 "html>"
 msgstr ""
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:111
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "License:"
 msgid "License: %1"
 msgstr "Licensa:"
@@ -5950,7 +6030,7 @@ msgstr ""
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:142
 #: kde3support/kdeui/k3aboutapplication.cpp:111
 #: kde3support/kdeui/k3aboutapplication.cpp:114
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
 msgstr ""
 "Prošu wužiwajće <a href=\"mailto:%1\">%1</a>', zo by wo zmylku rozprawił, "
@@ -6008,7 +6088,7 @@ msgid "Send bug report."
 msgstr "Pósćel rozprawu wo zmylku."
 
 #: kdeui/dialogs/kbugreport.cpp:164
-#, qt-format
+#, kde-format
 msgid "Send this bug report to %1."
 msgstr "Pósćel rozprawu wo zmylku na %1."
 
@@ -6178,7 +6258,10 @@ msgid "About KDE"
 msgstr "Wo &KDE"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:49
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<html><font size=\"5\">K Desktop Environment</font><br /><b>Version %1</"
+#| "b></html>"
 msgid ""
 "<html><font size=\"5\">K Desktop Environment</font><br /><b>Version %1</b></"
 "html>"
@@ -6401,12 +6484,12 @@ msgstr ""
 "\"Wubrać...\"."
 
 #: kdeui/fonts/kfontrequester.cpp:173
-#, qt-format
+#, kde-format
 msgid "Preview of the \"%1\" font"
 msgstr "Přehladka pisma \"%1\""
 
 #: kdeui/fonts/kfontrequester.cpp:174
-#, qt-format
+#, kde-format
 msgid ""
 "This is a preview of the \"%1\" font. You can change it by clicking the "
 "\"Choose...\" button."
@@ -6787,7 +6870,8 @@ msgid "Complete Match"
 msgstr "Přichodne wudospołnjenje"
 
 #: kdeui/findreplace/kfinddialog.cpp:541
-#, qt-format
+#, kde-format
+#| msgid "Captured Text (%1)"
 msgid "Captured Text (%1)"
 msgstr ""
 
@@ -6812,7 +6896,7 @@ msgid "&Skip"
 msgstr "Pře&skočić"
 
 #: kdeui/findreplace/kreplace.cpp:64
-#, qt-format
+#, kde-format
 msgid "Replace '%1' with '%2'?"
 msgstr "'%1' z '%2' narunać?"
 
@@ -6821,7 +6905,7 @@ msgid "No text was replaced."
 msgstr "Žadyn tekst njebu narunany."
 
 #: kdeui/findreplace/kreplace.cpp:141 kdeui/findreplace/kreplace.cpp:337
-#, qt-format
+#, kde-format
 msgid "1 replacement done."
 msgid_plural "%1 replacements done."
 msgstr[0] "%1 narunanjow."
@@ -6851,12 +6935,14 @@ msgid "Restart"
 msgstr "Stary staw"
 
 #: kdeui/findreplace/kreplacedialog.cpp:154
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Your replacement string is referencing a capture greater than '\\%1', "
 msgid "Your replacement string is referencing a capture greater than '\\%1', "
 msgstr ""
 
 #: kdeui/findreplace/kreplacedialog.cpp:156
-#, qt-format
+#, kde-format
 msgid "but your pattern only defines 1 capture."
 msgid_plural "but your pattern only defines %1 captures."
 msgstr[0] ""
@@ -6879,12 +6965,12 @@ msgid "Find Next"
 msgstr "Dale pytać"
 
 #: kdeui/findreplace/kfind.cpp:58
-#, qt-format
+#, kde-format
 msgid "<qt>Find next occurrence of '<b>%1</b>'?</qt>"
 msgstr "<qt>Přichodne '<b>%1</b>' namakać?</qt>"
 
 #: kdeui/findreplace/kfind.cpp:587 kdeui/findreplace/kfind.cpp:607
-#, qt-format
+#, kde-format
 msgid "1 match found."
 msgid_plural "%1 matches found."
 msgstr[0] "%1 namakankow"
@@ -6893,12 +6979,12 @@ msgstr[2] "%1 namakance"
 msgstr[3] "%1 namakanki"
 
 #: kdeui/findreplace/kfind.cpp:589
-#, qt-format
+#, kde-format
 msgid "<qt>No matches found for '<b>%1</b>'.</qt>"
 msgstr "<qt>Njejsym '<b>%1</b>' namakał.</qt>"
 
 #: kdeui/findreplace/kfind.cpp:609
-#, qt-format
+#, kde-format
 msgid "No matches found for '<b>%1</b>'."
 msgstr "Njejsym '<b>%1</b>' namakał."
 
@@ -6932,7 +7018,7 @@ msgid "Conflict with Global Shortcut"
 msgstr "Konflikt z globalnej skrótšenku"
 
 #: kdeui/shortcuts/kglobalaccel.cpp:281
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "The '%1' key combination has already been allocated to the global action \"%2"
 "\" in %3.\n"
@@ -6962,7 +7048,11 @@ msgid "invalid button"
 msgstr ""
 
 #: kdeui/shortcuts/kgesture.cpp:540
-#, qt-format
+#, kde-format
+#| msgctxt ""
+#| "a kind of mouse gesture: hold down one mouse button, then press another "
+#| "button"
+#| msgid "Hold %1, then push %2"
 msgctxt ""
 "a kind of mouse gesture: hold down one mouse button, then press another "
 "button"
@@ -7353,7 +7443,7 @@ msgid "LTR"
 msgstr ""
 
 #: kdeui/kernel/kapplication.cpp:839
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "The style %1 was not found\n"
 msgid "The style '%1' was not found"
 msgstr "Stil %1 njejsym namakał\n"
@@ -7429,7 +7519,7 @@ msgstr ""
 #: kdeui/windowmanagement/kwindowsystem_x11.cpp:855
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:168
 #: kdeui/windowmanagement/kwindowsystem_win.cpp:169
-#, qt-format
+#, kde-format
 msgid "Desktop %1"
 msgstr "Dźěłowy powjerch %1"
 
@@ -8419,7 +8509,7 @@ msgid "Dropdown List && Automatic"
 msgstr "Menijowa lisćina && awtomatisce"
 
 #: kdeui/widgets/kdatepicker.cpp:175
-#, qt-format
+#, kde-format
 msgid "Week %1"
 msgstr "Tydźeń %1"
 
@@ -8614,7 +8704,10 @@ msgid "Shortcut conflict"
 msgstr "Skrótšenka"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:140
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>The '%1' key combination is already used by the <b>%2</b> action."
+#| "<br>Please select a different one.</qt>"
 msgid ""
 "<qt>The '%1' key combination is already used by the <b>%2</b> action."
 "<br>Please select a different one.</qt>"
@@ -8663,7 +8756,7 @@ msgid "Rotate &Counterclockwise"
 msgstr "Přeći&wo časnikej wjerćeć"
 
 #: kdeui/widgets/khelpmenu.cpp:153 kdeui/actions/kstandardaction_p.h:109
-#, qt-format
+#, kde-format
 msgid "%1 &Handbook"
 msgstr "&Přiručka za %1"
 
@@ -8681,7 +8774,7 @@ msgid "Switch Application &Language..."
 msgstr "Program wopušćić"
 
 #: kdeui/widgets/khelpmenu.cpp:185 kdeui/actions/kstandardaction_p.h:114
-#, qt-format
+#, kde-format
 msgid "&About %1"
 msgstr "W&o %1"
 
@@ -8742,22 +8835,22 @@ msgid "Icon Size"
 msgstr "Wulkosć piktogramow"
 
 #: kdeui/widgets/ktoolbar.cpp:296 kdeui/widgets/ktoolbar.cpp:316
-#, qt-format
+#, kde-format
 msgid "Small (%1x%2)"
 msgstr "Małe (%1x%2)"
 
 #: kdeui/widgets/ktoolbar.cpp:298 kdeui/widgets/ktoolbar.cpp:318
-#, qt-format
+#, kde-format
 msgid "Medium (%1x%2)"
 msgstr "Srěnje (%1x%2)"
 
 #: kdeui/widgets/ktoolbar.cpp:300 kdeui/widgets/ktoolbar.cpp:320
-#, qt-format
+#, kde-format
 msgid "Large (%1x%2)"
 msgstr "Wulke (%1x%2)"
 
 #: kdeui/widgets/ktoolbar.cpp:302 kdeui/widgets/ktoolbar.cpp:322
-#, qt-format
+#, kde-format
 msgid "Huge (%1x%2)"
 msgstr "Hoberske (%1x%2)"
 
@@ -8802,13 +8895,13 @@ msgid "Unknown View"
 msgstr "Njeznate pólko"
 
 #: kfile/kfileplacesview.cpp:277
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "&Edit..."
 msgid "&Edit '%1'..."
 msgstr "&Wobdźěłać"
 
 #: kfile/kfileplacesview.cpp:280
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "Hide %1"
 msgid "&Hide '%1'"
 msgstr "Chowaj %1"
@@ -8819,7 +8912,7 @@ msgid "&Show All Entries"
 msgstr "Pokaž wšitke opcije"
 
 #: kfile/kfileplacesview.cpp:298
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "&Remove"
 msgid "&Remove '%1'"
 msgstr "Wotst&ronić"
@@ -8842,32 +8935,39 @@ msgid ""
 msgstr ""
 
 #: kfile/kfilewidget.cpp:247
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Drive: %1"
 msgstr "Chowaj %1"
 
 #: kfile/kfilewidget.cpp:254
-#, qt-format
+#, kde-format
+#| msgid "Root Folder: %1"
 msgid "Root Folder: %1"
 msgstr ""
 
 #: kfile/kfilewidget.cpp:261
-#, qt-format
+#, kde-format
+#| msgid "Home Folder: %1"
 msgid "Home Folder: %1"
 msgstr ""
 
 #: kfile/kfilewidget.cpp:270
-#, qt-format
+#, kde-format
+#| msgid "Documents: %1"
 msgid "Documents: %1"
 msgstr ""
 
 #: kfile/kfilewidget.cpp:277
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Desktop: %1"
 msgstr "Dźěłowy powjerch %1"
 
 #: kfile/kfilewidget.cpp:326
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>Click this button to enter the parent folder.<br /><br />For "
+#| "instance, if the current location is file:/home/%1 clicking this button "
+#| "will take you to file:/home.</qt>"
 msgid ""
 "<qt>Click this button to enter the parent folder.<br /><br />For instance, "
 "if the current location is file:/home/%1 clicking this button will take you "
@@ -8949,7 +9049,10 @@ msgid "Remote Files Not Accepted"
 msgstr ""
 
 #: kfile/kfilewidget.cpp:688
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "%1\n"
+#| "does not appear to be a valid URL.\n"
 msgid ""
 "%1\n"
 "does not appear to be a valid URL.\n"
@@ -8986,7 +9089,12 @@ msgid "Invalid Filenames"
 msgstr "njekorektne opcije"
 
 #: kfile/kfilewidget.cpp:1339
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The requested filenames\n"
+#| "%1\n"
+#| "do not appear to be valid;\n"
+#| "make sure every filename is enclosed in double quotes."
 msgid ""
 "The requested filenames\n"
 "%1\n"
@@ -9008,12 +9116,14 @@ msgid "&Open"
 msgstr "W&očinić"
 
 #: kfile/kfilewidget.cpp:1720
-#, qt-format
+#, kde-format
+#| msgid "Automatically select filename e&xtension (%1)"
 msgid "Automatically select filename e&xtension (%1)"
 msgstr ""
 
 #: kfile/kfilewidget.cpp:1721
-#, qt-format
+#, kde-format
+#| msgid "the extension <b>%1</b>"
 msgid "the extension <b>%1</b>"
 msgstr ""
 
@@ -9026,7 +9136,19 @@ msgid "a suitable extension"
 msgstr ""
 
 #: kfile/kfilewidget.cpp:1740
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "This option enables some convenient features for saving files with "
+#| "extensions:<br /><ol><li>Any extension specified in the <b>%1</b> text "
+#| "area will be updated if you change the file type to save in.<br /><br /></"
+#| "li><li>If no extension is specified in the <b>%2</b> text area when you "
+#| "click <b>Save</b>, %3 will be added to the end of the filename (if the "
+#| "filename does not already exist). This extension is based on the file "
+#| "type that you have chosen to save in.<br /><br />If you do not want KDE "
+#| "to supply an extension for the filename, you can either turn this option "
+#| "off or you can suppress it by adding a period (.) to the end of the "
+#| "filename (the period will be automatically removed).</li></ol>If unsure, "
+#| "keep this option enabled as it makes your files more manageable."
 msgid ""
 "This option enables some convenient features for saving files with "
 "extensions:<br /><ol><li>Any extension specified in the <b>%1</b> text area "
@@ -9073,30 +9195,31 @@ msgid "Trash"
 msgstr "Papjernik"
 
 #: kfile/kfileplacesmodel.cpp:638
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "&Open with '%1'"
 msgid "&Eject '%1'"
 msgstr "&Z '%1' wočinić?"
 
 #: kfile/kfileplacesmodel.cpp:640
-#, qt-format
+#, kde-format
+#| msgid "&Safely remove '%1'"
 msgid "&Safely remove '%1'"
 msgstr ""
 
 #: kfile/kfileplacesmodel.cpp:642
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "&About %1"
 msgid "&Unmount '%1'"
 msgstr "W&o %1"
 
 #: kfile/kfileplacesmodel.cpp:700
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "An error occurred while loading <B>%1</B>:"
 msgid "An error occurred while accessing '%1', the system said: %2"
 msgstr "Zmylk je so stał při čitanju <B>%1</B>:"
 
 #: kfile/kfileplacesmodel.cpp:704
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "An error occurred while loading <B>%1</B>:"
 msgid "An error occurred while accessing '%1'"
 msgstr "Zmylk je so stał při čitanju <B>%1</B>:"
@@ -9113,14 +9236,18 @@ msgid "New Folder"
 msgstr "Nowa dataja."
 
 #: kfile/kdirselectdialog.cpp:119 kfile/kdiroperator.cpp:626
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Create new folder in:\n"
+#| "%1"
 msgid ""
 "Create new folder in:\n"
 "%1"
 msgstr ""
 
 #: kfile/kdirselectdialog.cpp:142 kfile/kdiroperator.cpp:652
-#, qt-format
+#, kde-format
+#| msgid "A file or folder named %1 already exists."
 msgid "A file or folder named %1 already exists."
 msgstr ""
 
@@ -9160,7 +9287,12 @@ msgid "&Description:"
 msgstr "Wopisanje:"
 
 #: kfile/kfileplaceeditdialog.cpp:112
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>This is the location associated with the entry. Any valid URL may be "
+#| "used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp."
+#| "kde.org/pub/kde/stable<br /><br />By clicking on the button next to the "
+#| "text edit box you can browse to an appropriate URL.</qt>"
 msgid ""
 "<qt>This is the location associated with the entry. Any valid URL may be "
 "used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
@@ -9179,12 +9311,17 @@ msgid "Choose an &icon:"
 msgstr ""
 
 #: kfile/kfileplaceeditdialog.cpp:147
-#, qt-format
+#, kde-format
+#| msgid "&Only show when using this application (%1)"
 msgid "&Only show when using this application (%1)"
 msgstr ""
 
 #: kfile/kfileplaceeditdialog.cpp:149
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>Select this setting if you want this entry to show only when using "
+#| "the current application (%1).<br /><br />If this setting is not selected, "
+#| "the entry will be available in all applications.</qt>"
 msgid ""
 "<qt>Select this setting if you want this entry to show only when using the "
 "current application (%1).<br /><br />If this setting is not selected, the "
@@ -9200,7 +9337,7 @@ msgid "Nothing to Delete"
 msgstr ""
 
 #: kfile/kdiroperator.cpp:692
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "<qt>Do you really want to delete\n"
 " <b>'%1'</b>?</qt>"
@@ -9212,7 +9349,7 @@ msgid "Delete File"
 msgstr "Wšě zničić"
 
 #: kfile/kdiroperator.cpp:699
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "Chceće woprawdźe '%1' startować?"
@@ -9234,7 +9371,7 @@ msgid "Nothing to Trash"
 msgstr ""
 
 #: kfile/kdiroperator.cpp:750
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "<qt>Do you really want to trash\n"
 " <b>'%1'</b>?</qt>"
@@ -9252,7 +9389,7 @@ msgid "&Trash"
 msgstr "Papjernik"
 
 #: kfile/kdiroperator.cpp:757
-#, qt-format
+#, kde-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
 msgstr[0] ""
@@ -9379,22 +9516,22 @@ msgid "Save As"
 msgstr "Zawěsćić jako"
 
 #: khtml/khtmlimage.cpp:189
-#, qt-format
+#, kde-format
 msgid "%1 (%2 - %3x%4 Pixels)"
 msgstr "%1 (%2 - %3%4 dypkow)"
 
 #: khtml/khtmlimage.cpp:191
-#, qt-format
+#, kde-format
 msgid "%1 - %2x%3 Pixels"
 msgstr "%1 - %2x%3 dypkow"
 
 #: khtml/khtmlimage.cpp:196
-#, qt-format
+#, kde-format
 msgid "%1 (%2x%3 Pixels)"
 msgstr "%1 (%2x%3) dypkow"
 
 #: khtml/khtmlimage.cpp:198
-#, qt-format
+#, kde-format
 msgid "Image - %1x%2 Pixels"
 msgstr "Wobraz - %1x%2  dypkow"
 
@@ -9469,17 +9606,17 @@ msgid "&Copy Text"
 msgstr "Tekst &kopěrować"
 
 #: khtml/khtml_ext.cpp:478
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Search for '%1' with %2"
 msgstr "'%1' při '%2' pytać"
 
 #: khtml/khtml_ext.cpp:490
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Search for '%1' with"
 msgstr "'%1' při '%2' pytać"
 
 #: khtml/khtml_ext.cpp:524
-#, qt-format
+#, kde-format
 msgid "Open '%1'"
 msgstr "Wočinjam '%1'"
 
@@ -9550,7 +9687,7 @@ msgid "Copy Image Location"
 msgstr "Městno wobraza kopěrować"
 
 #: khtml/khtml_ext.cpp:669
-#, qt-format
+#, kde-format
 msgid "View Image (%1)"
 msgstr "Wobraz (%1) pokazać"
 
@@ -9560,7 +9697,8 @@ msgid "Block Image..."
 msgstr "Wobraz kopěrować"
 
 #: khtml/khtml_ext.cpp:683
-#, qt-format
+#, kde-format
+#| msgid "Block Images From %1"
 msgid "Block Images From %1"
 msgstr ""
 
@@ -9585,7 +9723,7 @@ msgid "Enter the URL:"
 msgstr ""
 
 #: khtml/khtml_ext.cpp:910
-#, qt-format
+#, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "Dataja z mjenom \"%1\" hižo eksistuje. Chceće ju woprawdźe přepisać?"
@@ -9599,7 +9737,7 @@ msgid "Overwrite"
 msgstr "přepisać"
 
 #: khtml/khtml_ext.cpp:971 kparts/browserrun.cpp:405
-#, qt-format
+#, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr "Download Manager (%1) njeje so w $PATH namakał"
 
@@ -9620,7 +9758,7 @@ msgid "Default Font Size (100%)"
 msgstr "Standardowa wulkosć pIsma (100%)"
 
 #: khtml/khtml_ext.cpp:1071
-#, no-c-format, qt-format
+#, no-c-format, kde-format
 msgid "%1%"
 msgstr "%1%"
 
@@ -9809,7 +9947,7 @@ msgid "Toggle Caret Mode"
 msgstr "Caret-modus zaswěćić/hasnyć"
 
 #: khtml/khtml_part.cpp:611
-#, qt-format
+#, kde-format
 msgid "The fake user-agent '%1' is in use."
 msgstr "Wudawany user-agent '%1' so wužiwa."
 
@@ -9826,12 +9964,12 @@ msgid "&Disable Error Reporting"
 msgstr "Rozprawy wo zmylkach &znjemóžnić"
 
 #: khtml/khtml_part.cpp:1183
-#, qt-format
+#, kde-format
 msgid "<b>Error</b>: %1: %2"
 msgstr "<b>Zmylk</b>: %1: %2"
 
 #: khtml/khtml_part.cpp:1230
-#, qt-format
+#, kde-format
 msgid "<b>Error</b>: node %1: %2"
 msgstr "<b>Zmylk</b>: suk %1: %2"
 
@@ -9840,12 +9978,12 @@ msgid "Display Images on Page"
 msgstr "Wobrazy na stronje pokazać"
 
 #: khtml/khtml_part.cpp:1708
-#, qt-format
+#, kde-format
 msgid "Error while loading %1"
 msgstr "Zmylk při začitanju %1"
 
 #: khtml/khtml_part.cpp:1710
-#, qt-format
+#, kde-format
 msgid "An error occurred while loading <B>%1</B>:"
 msgstr "Zmylk je so stał při čitanju <B>%1</B>:"
 
@@ -9866,17 +10004,17 @@ msgid "Details of the Request:"
 msgstr "Nadrobnosće pominanja:"
 
 #: khtml/khtml_part.cpp:1761
-#, qt-format
+#, kde-format
 msgid "URL: %1"
 msgstr "URL: %1"
 
 #: khtml/khtml_part.cpp:1768
-#, qt-format
+#, kde-format
 msgid "Date and Time: %1"
 msgstr "Datum a čas: %1"
 
 #: khtml/khtml_part.cpp:1770
-#, qt-format
+#, kde-format
 msgid "Additional Information: %1"
 msgstr "Dalša informacija: %1"
 
@@ -9897,7 +10035,7 @@ msgid "Page loaded."
 msgstr "Strona začitana."
 
 #: khtml/khtml_part.cpp:2128
-#, qt-format
+#, kde-format
 msgid "%1 Image of %2 loaded."
 msgid_plural "%1 Images of %2 loaded."
 msgstr[0] "%1 wobrazow z %2 začitane."
@@ -9919,17 +10057,17 @@ msgid "Symbolic Link"
 msgstr "Wotkaz"
 
 #: khtml/khtml_part.cpp:3770
-#, qt-format
+#, kde-format
 msgid "%1 (Link)"
 msgstr "%1 (wotkaz)"
 
 #: khtml/khtml_part.cpp:3790
-#, qt-format
+#, kde-format
 msgid "%2 (%1 bytes)"
 msgstr "%2 (%1 bytes)"
 
 #: khtml/khtml_part.cpp:3794
-#, qt-format
+#, kde-format
 msgid "%2 (%1 K)"
 msgstr "%2 (%1 K)"
 
@@ -9954,7 +10092,7 @@ msgid " - BCC: "
 msgstr " - Dalša kopija na: "
 
 #: khtml/khtml_part.cpp:3926
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid ""
 #| "<qt>This untrusted page links to<BR><B>%1</B>.<BR>Do you want to follow "
 #| "the link?"
@@ -9974,7 +10112,7 @@ msgid "Frame Information"
 msgstr "Informacija wo ramiku"
 
 #: khtml/khtml_part.cpp:4039
-#, qt-format
+#, kde-format
 msgid "   <a href=\"%1\">[Properties]</a>"
 msgstr "   <a href=\"%1\">[swójstwa]</a>"
 
@@ -10037,7 +10175,7 @@ msgid "&Send Email"
 msgstr "&Mailku pósłać"
 
 #: khtml/khtml_part.cpp:4814
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid ""
 #| "<qt>The form will be submitted to <BR><B>%1</B><BR>on your local "
 #| "filesystem.<BR>Do you want to submit the form?"
@@ -10048,7 +10186,7 @@ msgstr ""
 "<qt>Formular so pósćele na <br><b>%1</b><br> na wašim lokalnym datajowym "
 "systemje. <br>Chceće formular wotpósłać?"
 
-#: khtml/khtml_part.cpp:4815 khtml/khtmlview.cpp:2678 khtml/khtmlview.cpp:2720
+#: khtml/khtml_part.cpp:4815 khtml/khtmlview.cpp:2680 khtml/khtmlview.cpp:2722
 #: khtml/html/html_formimpl.cpp:1559 khtml/html/html_formimpl.cpp:2170
 msgid "Submit"
 msgstr "Wotpósłać"
@@ -10062,7 +10200,7 @@ msgstr ""
 "připójsnyć. Přiwěšk je so z wěstotnych přičin wotstronił."
 
 #: khtml/khtml_part.cpp:5814
-#, qt-format
+#, kde-format
 msgid "(%1/s)"
 msgstr "(%1/s)"
 
@@ -10071,7 +10209,7 @@ msgid "Security Warning"
 msgstr "Wěstotne warnowanje"
 
 #: khtml/khtml_part.cpp:6864
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "<qt>Access by untrusted page to<BR><B>%1</B><BR> denied."
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr ""
@@ -10082,7 +10220,7 @@ msgid "Security Alert"
 msgstr "Wěstotny alarm"
 
 #: khtml/khtml_part.cpp:7212
-#, qt-format
+#, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr "Móšnja '%1' je wočinjena a so wužiwa za hesła a daty do formularow."
 
@@ -10113,7 +10251,7 @@ msgid ""
 msgstr ""
 
 #: khtml/khtml_part.cpp:7369
-#, qt-format
+#, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "Show %1 Blocked Popup Windows"
 msgstr[0] ""
@@ -10143,7 +10281,8 @@ msgid "Please choose a valid 'khtml/' build directory."
 msgstr ""
 
 #: khtml/test_regression_gui_window.cpp:532
-#, qt-format
+#, kde-format
+#| msgid "Available Tests: %1 (ignored: %2)"
 msgid "Available Tests: %1 (ignored: %2)"
 msgstr ""
 
@@ -10171,46 +10310,41 @@ msgstr "&Dźi na linku..."
 msgid "Remove from ignores..."
 msgstr ""
 
-#: khtml/khtmlview.cpp:1688
+#: khtml/khtmlview.cpp:1690
 msgid "Find stopped."
 msgstr "Pytanje přetorhnjene."
 
-#: khtml/khtmlview.cpp:1699
+#: khtml/khtmlview.cpp:1701
 msgid "Starting -- find links as you type"
 msgstr "Startuju -- wotkazy so při zapodawanju wudospołnjeja"
 
-#: khtml/khtmlview.cpp:1705
+#: khtml/khtmlview.cpp:1707
 msgid "Starting -- find text as you type"
 msgstr "Startuju -- tekst so při zapodawanju wudospołnja"
 
-#: khtml/khtmlview.cpp:1728
-#, qt-format
+#: khtml/khtmlview.cpp:1730
+#, kde-format
 msgid "Link found: \"%1\"."
 msgstr "Wotkaz na %1 namakał"
 
-#: khtml/khtmlview.cpp:1733
-#, qt-format
+#: khtml/khtmlview.cpp:1735
+#, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "Njejsym wotkaz namakał: \"%1\""
 
-#: khtml/khtmlview.cpp:1741
-#, qt-format
+#: khtml/khtmlview.cpp:1743
+#, kde-format
 msgid "Text found: \"%1\"."
 msgstr "Tekst namakał: \"%1\""
 
-#: khtml/khtmlview.cpp:1746
-#, qt-format
+#: khtml/khtmlview.cpp:1748
+#, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "Njejsym tekst namakał: \"%1\" "
 
-#: khtml/khtmlview.cpp:1792
+#: khtml/khtmlview.cpp:1794
 msgid "Access Keys activated"
 msgstr "Tastowe skrótki aktiwizowane"
-
-#: khtml/khtmlview.cpp:2900
-#, qt-format
-msgid "Print %1"
-msgstr "%1 wućišćeć"
 
 #: khtml/test_regression_gui_main.cpp:34
 msgid "TestRegressionGui"
@@ -10265,7 +10399,7 @@ msgid "the document is not in the correct file format"
 msgstr "dokument njeje w korektnym datajowym formaće"
 
 #: khtml/xml/xml_tokenizer.cpp:321
-#, qt-format
+#, kde-format
 msgid "fatal parsing error: %1 in line %2, column %3"
 msgstr "fatalny zmylk parsowanja: %1 w lince %2, špalta %3"
 
@@ -10324,12 +10458,12 @@ msgid "Next"
 msgstr ""
 
 #: khtml/ecma/kjs_debugwin.cpp:848
-#, qt-format
+#, kde-format
 msgid "Parse error at %1 line %2"
 msgstr "Zmylk parsowanja při %1 na lince %2"
 
 #: khtml/ecma/kjs_debugwin.cpp:859
-#, qt-format
+#, kde-format
 msgid ""
 "An error occurred while attempting to run a script on this page.\n"
 "\n"
@@ -10340,7 +10474,7 @@ msgstr ""
 "%1"
 
 #: khtml/ecma/kjs_debugwin.cpp:870
-#, qt-format
+#, kde-format
 msgid ""
 "An error occurred while attempting to run a script on this page.\n"
 "\n"
@@ -10383,7 +10517,7 @@ msgstr ""
 "Chceće to jemu dowolić?"
 
 #: khtml/ecma/kjs_window.cpp:1570
-#, qt-format
+#, kde-format
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
 "JavaScript.<br />Do you want to allow this?</qt>"
@@ -10410,14 +10544,14 @@ msgid "Confirmation Required"
 msgstr "Wobkrućenje trěbne"
 
 #: khtml/ecma/kjs_window.cpp:2814
-#, qt-format
+#, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr "Chceće městno \"%1\" k swojim najlubšim městnam dodać?"
 
 #: khtml/ecma/kjs_window.cpp:2817
-#, qt-format
+#, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
@@ -10445,7 +10579,7 @@ msgstr ""
 "Chceće to jemu dowolić?"
 
 #: khtml/ecma/kjs_html.cpp:2113
-#, qt-format
+#, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
 "browser window via JavaScript.<br />Do you want to allow the form to be "
@@ -10566,7 +10700,7 @@ msgstr ""
 "Chceće informaciju za přizjewjenje nětko zawěsćić?"
 
 #: khtml/html/html_formimpl.cpp:646
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "Konqueror has the ability to store the password in an encrypted wallet. When "
 "the wallet is unlocked, it can then automatically restore the login "
@@ -10601,22 +10735,22 @@ msgid "KDE Java Applet Plugin"
 msgstr "KDE Java miniprogram Plugin"
 
 #: khtml/java/kjavaapplet.cpp:224
-#, qt-format
+#, kde-format
 msgid "Initializing Applet \"%1\"..."
 msgstr "Initializuju miniprogram \"%1\" ..."
 
 #: khtml/java/kjavaapplet.cpp:231
-#, qt-format
+#, kde-format
 msgid "Starting Applet \"%1\"..."
 msgstr "Startuju miniprogram \"%1\" ..."
 
 #: khtml/java/kjavaapplet.cpp:238
-#, qt-format
+#, kde-format
 msgid "Applet \"%1\" started"
 msgstr "miniprogram \"%1\" startowany"
 
 #: khtml/java/kjavaapplet.cpp:244
-#, qt-format
+#, kde-format
 msgid "Applet \"%1\" stopped"
 msgstr "miniprogram \"%1\" zastajeny"
 
@@ -10709,7 +10843,7 @@ msgid "&Grant All"
 msgstr "&Wšě akceptować"
 
 #: khtml/kmultipart/kmultipart.cpp:321
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "No handler found for %1."
 msgstr "Njejsym žadyn handler namakał za %1!"
 
@@ -10730,7 +10864,7 @@ msgid "Spell Checking"
 msgstr "Přepruwowanje prawopisa"
 
 #: khtml/rendering/render_frames.cpp:944
-#, qt-format
+#, kde-format
 msgid ""
 "No plugin found for '%1'.\n"
 "Do you want to download one from %2?"
@@ -10767,12 +10901,12 @@ msgid ""
 msgstr ""
 
 #: kinit/kinit.cpp:527
-#, qt-format
+#, kde-format
 msgid "Could not find '%1' executable."
 msgstr "Njemóžach program '%1' namakać"
 
 #: kinit/kinit.cpp:545
-#, qt-format
+#, kde-format
 msgid ""
 "Could not open library '%1'.\n"
 "%2"
@@ -10781,7 +10915,7 @@ msgstr ""
 "%2"
 
 #: kinit/kinit.cpp:591
-#, qt-format
+#, kde-format
 msgid ""
 "Could not find 'kdemain' in '%1'.\n"
 "%2"
@@ -10799,32 +10933,32 @@ msgstr ""
 "klauncher: Wón so awtomatisce wot kdeinit startuje.\n"
 
 #: kinit/klauncher.cpp:490
-#, qt-format
+#, kde-format
 msgid "KDEInit could not launch '%1'."
 msgstr "KDEinit njemóžeše '%1' startować"
 
 #: kinit/klauncher.cpp:655 kinit/klauncher.cpp:680 kinit/klauncher.cpp:695
-#, qt-format
+#, kde-format
 msgid "Could not find service '%1'."
 msgstr "Njemóžach service '%1' namakać"
 
 #: kinit/klauncher.cpp:711 kinit/klauncher.cpp:747
-#, qt-format
+#, kde-format
 msgid "Service '%1' is malformatted."
 msgstr "Service '%1' je hubjenje formatowany."
 
 #: kinit/klauncher.cpp:819
-#, qt-format
+#, kde-format
 msgid "Launching %1"
 msgstr "Startuju %1"
 
 #: kinit/klauncher.cpp:1023
-#, qt-format
+#, kde-format
 msgid "Unknown protocol '%1'.\n"
 msgstr "Njeznaty protokol '%1'.\n"
 
 #: kinit/klauncher.cpp:1084
-#, qt-format
+#, kde-format
 msgid "Error loading '%1'.\n"
 msgstr "Zmylk při začitanju '%1'.\n"
 
@@ -10881,7 +11015,7 @@ msgid "Remove selected script."
 msgstr ""
 
 #: kross/core/interpreter.cpp:132
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Could not load interpreter library \"%1\""
 msgstr ""
 "Njemóžach biblioteku '%1' wočinić.\n"
@@ -10900,32 +11034,36 @@ msgid "Restricted mode for untrusted scripts"
 msgstr ""
 
 #: kross/core/action.cpp:377
-#, qt-format
+#, kde-format
+#| msgid "There exists no such scriptfile \"%1\""
 msgid "There exists no such scriptfile \"%1\""
 msgstr ""
 
 #: kross/core/action.cpp:381
-#, qt-format
+#, kde-format
+#| msgid "Failed to determinate interpreter for scriptfile \"%1\""
 msgid "Failed to determinate interpreter for scriptfile \"%1\""
 msgstr ""
 
 #: kross/core/action.cpp:385
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Failed to open scriptfile \"%1\""
 msgstr "Njemóžu skript \"%1\" namakać."
 
 #: kross/core/action.cpp:396
-#, qt-format
+#, kde-format
+#| msgid "Failed to load interpreter \"%1\": %2"
 msgid "Failed to load interpreter \"%1\": %2"
 msgstr ""
 
 #: kross/core/action.cpp:398
-#, qt-format
+#, kde-format
+#| msgid "No such interpreter \"%1\""
 msgid "No such interpreter \"%1\""
 msgstr ""
 
 #: kross/core/action.cpp:404
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Failed to create script for interpreter \"%1\""
 msgstr "Njemóžu KScript Runner startować z družinu \"%1\"."
 
@@ -11098,7 +11236,8 @@ msgid "Please insert the name of the new tag"
 msgstr "Prošu družinu noweje resursy wubrać:"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:197
-#, qt-format
+#, kde-format
+#| msgid "The tag %1 already exists"
 msgid "The tag %1 already exists"
 msgstr ""
 
@@ -11131,7 +11270,7 @@ msgid "Unknown error"
 msgstr "Njeznaty zmylk"
 
 #: kparts/browserextension.cpp:652
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "<qt>Do you want to search the Internet for <b>%1</b>?"
 msgid "<qt>Do you want to search the Internet for <b>%1</b>?</qt>"
 msgstr "<qt>Chceće <b>'%1'</b> w interneće pytać?</qt>"
@@ -11149,7 +11288,7 @@ msgid "Untitled"
 msgstr "Bjez titla"
 
 #: kparts/part.cpp:756
-#, qt-format
+#, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
 "Do you want to save your changes or discard them?"
@@ -11162,7 +11301,7 @@ msgid "Close Document"
 msgstr "Dokument začinić"
 
 #: kparts/browserrun.cpp:294
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "Do you really want to execute '%1'? "
 msgid "Do you really want to execute '%1'?"
 msgstr "Chceće woprawdźe '%1' startować?"
@@ -11172,7 +11311,7 @@ msgid "Execute File?"
 msgstr "Dataju wuwjesć?"
 
 #: kparts/browserrun.cpp:313
-#, qt-format
+#, kde-format
 msgid ""
 "Open '%2'?\n"
 "Type: %1"
@@ -11181,7 +11320,7 @@ msgstr ""
 "Družina: %1"
 
 #: kparts/browserrun.cpp:315
-#, qt-format
+#, kde-format
 msgid ""
 "Open '%3'?\n"
 "Name: %2\n"
@@ -11192,7 +11331,7 @@ msgstr ""
 "Družina: %1"
 
 #: kparts/browserrun.cpp:330
-#, qt-format
+#, kde-format
 msgid "&Open with '%1'"
 msgstr "&Z '%1' wočinić?"
 
@@ -11201,19 +11340,22 @@ msgid "&Open With..."
 msgstr "&Wočinić z ..."
 
 #: kutils/kcmoduleloader.cpp:76
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "The module %1 could not be found."
 msgstr "njejsym host namakał"
 
 #: kutils/kcmoduleloader.cpp:77
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt><p>The diagnostics is:<br />The desktop file %1 could not be found.</"
+#| "p></qt>"
 msgid ""
 "<qt><p>The diagnostics is:<br />The desktop file %1 could not be found.</p></"
 "qt>"
 msgstr ""
 
 #: kutils/kcmoduleloader.cpp:79
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "The module %1 is disabled."
 msgstr "Nowy zapis njehodźeše so dodać."
 
@@ -11224,12 +11366,15 @@ msgid ""
 msgstr ""
 
 #: kutils/kcmoduleloader.cpp:133
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "The module %1 is not a valid configuration module."
 msgstr "Konfiguracija resursow"
 
 #: kutils/kcmoduleloader.cpp:134
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>The diagnostics is:<br />The desktop file %1 does not specify a "
+#| "library.</qt>"
 msgid ""
 "<qt>The diagnostics is:<br />The desktop file %1 does not specify a library."
 "</qt>"
@@ -11240,7 +11385,7 @@ msgid "There was an error loading the module."
 msgstr "Zmylk při začitanju modula"
 
 #: kutils/kcmoduleloader.cpp:153
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid ""
 #| "<qt><p>The diagnostics is:<br>%1<p>Possible reasons:</p><ul><li>An error "
 #| "occurred during your last KDE upgrade leaving an orphaned control "
@@ -11303,7 +11448,11 @@ msgid ""
 msgstr ""
 
 #: kutils/kpluginselector.cpp:229
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "\n"
+#| "    %1 plugin has been automatically checked because the dependency of %2 "
+#| "plugin"
 msgid ""
 "\n"
 "    %1 plugin has been automatically checked because the dependency of %2 "
@@ -11311,7 +11460,11 @@ msgid ""
 msgstr ""
 
 #: kutils/kpluginselector.cpp:231
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "\n"
+#| "    %1 plugin has been automatically unchecked becase its dependency on %"
+#| "2 plugin"
 msgid ""
 "\n"
 "    %1 plugin has been automatically unchecked becase its dependency on %2 "
@@ -11323,7 +11476,7 @@ msgid "Dependency Check"
 msgstr ""
 
 #: kutils/kpluginselector.cpp:251
-#, qt-format
+#, kde-format
 msgid "%1 plugin added"
 msgid_plural "%1 plugins added"
 msgstr[0] ""
@@ -11336,7 +11489,7 @@ msgid ", "
 msgstr ""
 
 #: kutils/kpluginselector.cpp:257
-#, qt-format
+#, kde-format
 msgid "%1 plugin removed"
 msgid_plural "%1 plugins removed"
 msgstr[0] ""
@@ -11349,13 +11502,13 @@ msgid " since the last time you asked for details"
 msgstr ""
 
 #: kutils/kpluginselector.cpp:1625
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "About %1"
 msgid "About %1 plugin"
 msgstr "Wo %1"
 
 #: kutils/kpluginselector.cpp:1635
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "Description:"
 msgid ""
 "Description:\n"
@@ -11363,7 +11516,7 @@ msgid ""
 msgstr "Wopisanje:"
 
 #: kutils/kpluginselector.cpp:1642
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "Author:"
 msgid ""
 "Author:\n"
@@ -11381,14 +11534,14 @@ msgid "Website:"
 msgstr ""
 
 #: kutils/kpluginselector.cpp:1691
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "Version:\n"
 "\t%1"
 msgstr "Wersija:"
 
 #: kutils/kpluginselector.cpp:1699
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "License:"
 msgid ""
 "License:\n"
@@ -11423,7 +11576,9 @@ msgid ""
 msgstr ""
 
 #: kutils/kcmoduleproxy.cpp:159
-#, qt-format
+#, kde-format
+#| msgctxt "Argument is application name"
+#| msgid "This configuration section is already opened in %1"
 msgctxt "Argument is application name"
 msgid "This configuration section is already opened in %1"
 msgstr ""
@@ -11466,7 +11621,8 @@ msgid "Script to execute"
 msgstr ""
 
 #: kjsembed/kjsembed/qlayout_binding.cpp:90
-#, qt-format
+#, kde-format
+#| msgid "'%1' is not a valid QLayout."
 msgid "'%1' is not a valid QLayout."
 msgstr ""
 
@@ -11487,34 +11643,38 @@ msgid "Incorrect number of arguments."
 msgstr ""
 
 #: kjsembed/kjsembed/qobject_binding.cpp:409
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The slot sked for %1 arguments but there are only %2 arguments available."
 msgid ""
 "The slot sked for %1 arguments but there are only %2 arguments available."
 msgstr ""
 
 #: kjsembed/kjsembed/qobject_binding.cpp:597
-#, qt-format
+#, kde-format
+#| msgid "Failure to cast to %1 value from Type %2 (%3)"
 msgid "Failure to cast to %1 value from Type %2 (%3)"
 msgstr ""
 
 #: kjsembed/kjsembed/qobject_binding.cpp:632
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "No such method '%1'."
 msgstr "Žadyn menijowy zapis '%1'."
 
 #: kjsembed/kjsembed/qobject_binding.cpp:647
-#, qt-format
+#, kde-format
+#| msgid "Call to method '%1' failed, unable to get argument %2: %3"
 msgid "Call to method '%1' failed, unable to get argument %2: %3"
 msgstr ""
 
 #: kjsembed/kjsembed/qobject_binding.cpp:662
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Call to '%1' failed."
 msgstr "Instalacija so njeje poradźiła."
 
 #: kjsembed/kjsembed/qobject_binding.cpp:747
 #: kjsembed/kjsembed/object_binding.h:219
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "%1 is not an Object type"
 msgstr "Baza njeje objekt"
 
@@ -11524,22 +11684,24 @@ msgid "Could not construct value"
 msgstr "Njemóžach dataju začitać."
 
 #: kjsembed/kjsembed/eventproxy.cpp:108
-#, qt-format
+#, kde-format
+#| msgid "Bad event handler: Object %1 Identifier %2 Method %3 Type: %4."
 msgid "Bad event handler: Object %1 Identifier %2 Method %3 Type: %4."
 msgstr ""
 
 #: kjsembed/kjsembed/eventproxy.cpp:135
-#, qt-format
+#, kde-format
+#| msgid "Exception calling '%1' function from %2:%3:%4"
 msgid "Exception calling '%1' function from %2:%3:%4"
 msgstr ""
 
 #: kjsembed/kjsembed/qformbuilder_binding.cpp:59
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "There was an error reading the file '%1'"
 msgstr "Zmylk při začitanju modula"
 
 #: kjsembed/kjsembed/qformbuilder_binding.cpp:67
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Could not read file '%1'"
 msgstr "Njemóžach service '%1' namakać"
 
@@ -11549,17 +11711,20 @@ msgid "Must supply a filename."
 msgstr ""
 
 #: kjsembed/kjsembed/slotproxy.cpp:113
-#, qt-format
+#, kde-format
+#| msgid "Bad slot handler: Object %1 Identifier %2 Method %3 Signature: %4."
 msgid "Bad slot handler: Object %1 Identifier %2 Method %3 Signature: %4."
 msgstr ""
 
 #: kjsembed/kjsembed/slotproxy.cpp:135
-#, qt-format
+#, kde-format
+#| msgid "Exception calling '%1' slot from %2:%3:%4"
 msgid "Exception calling '%1' slot from %2:%3:%4"
 msgstr ""
 
 #: kjsembed/kjsembed/qwidget_binding.cpp:161
-#, qt-format
+#, kde-format
+#| msgid "'%1' is not a valid QWidget."
 msgid "'%1' is not a valid QWidget."
 msgstr ""
 
@@ -11600,19 +11765,19 @@ msgid "Failed to create Widget."
 msgstr "Njemóžu dataju stworić za pósłanje."
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:122
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Could not open file '%1': %2"
 msgstr ""
 "Njemóžach biblioteku '%1' wočinić.\n"
 "%2"
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:129
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Failed to load file '%1'"
 msgstr "Njemóžu resursy začitać '%1'"
 
 #: kjsembed/kjsembed/fileio.cpp:69
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Could not open file '%1'"
 msgstr ""
 "Njemóžach biblioteku '%1' wočinić.\n"
@@ -11624,27 +11789,31 @@ msgid "Could not create temporary file."
 msgstr "Njemóžach nowu dataju stworić."
 
 #: kjsembed/kjsembed/builtins.cpp:88 kjsembed/kjsembed/builtins.cpp:128
-#, qt-format
+#, kde-format
+#| msgid "Error seen while processing include '%1' line %2: %3"
 msgid "Error seen while processing include '%1' line %2: %3"
 msgstr ""
 
 #: kjsembed/kjsembed/builtins.cpp:94
-#, qt-format
+#, kde-format
+#| msgid "include only takes 1 argument, not %1."
 msgid "include only takes 1 argument, not %1."
 msgstr ""
 
 #: kjsembed/kjsembed/builtins.cpp:132
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "File %1 not found."
 msgstr "Stil %1 njejsym namakał\n"
 
 #: kjsembed/kjsembed/builtins.cpp:138
-#, qt-format
+#, kde-format
+#| msgid "library only takes 1 argument, not %1."
 msgid "library only takes 1 argument, not %1."
 msgstr ""
 
 #: kjsembed/kjsembed/kjsembed.cpp:278 kjsembed/kjsembed/kjsembed.cpp:300
-#, qt-format
+#, kde-format
+#| msgid "%1 is not a function and cannot be called."
 msgid "%1 is not a function and cannot be called."
 msgstr ""
 
@@ -11669,7 +11838,7 @@ msgid "&Finished"
 msgstr "&Zakónčene"
 
 #: kde3support/kdeui/k3listviewsearchline.cpp:307
-#, qt-format
+#, kde-format
 msgctxt "Column number %1"
 msgid "Column No. %1"
 msgstr "Špalta čo. %1"
@@ -11691,12 +11860,12 @@ msgid "&License Agreement"
 msgstr "&Licensowe dorěčenje"
 
 #: kde3support/kdeui/k3command.cpp:388
-#, qt-format
+#, kde-format
 msgid "Undo: %1"
 msgstr "Wróćo: %1"
 
 #: kde3support/kdeui/k3command.cpp:394
-#, qt-format
+#, kde-format
 msgid "Redo: %1"
 msgstr "Znowa činić: %1"
 
@@ -11709,12 +11878,12 @@ msgid "&Redo"
 msgstr "Hišće &raz"
 
 #: kde3support/kdeui/k3command.cpp:426
-#, qt-format
+#, kde-format
 msgid "&Undo: %1"
 msgstr "W&róćo: %1"
 
 #: kde3support/kdeui/k3command.cpp:429
-#, qt-format
+#, kde-format
 msgid "&Redo: %1"
 msgstr "&Hišće raz: %1"
 
@@ -11970,7 +12139,7 @@ msgid "<application>ISpell</application> Default"
 msgstr ""
 
 #: kde3support/kdeui/k3sconfig.cpp:510 kde3support/kdeui/k3sconfig.cpp:666
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgctxt "default spelling dictionary"
 #| msgid "Default - %1 [%2]"
 msgctxt "@item Spelling dictionary: %1 dictionary name, %2 file name"
@@ -11983,7 +12152,7 @@ msgid "<application>ASpell</application> Default"
 msgstr ""
 
 #: kde3support/kdeui/k3sconfig.cpp:596 kde3support/kdeui/k3sconfig.cpp:758
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgctxt "default spelling dictionary"
 #| msgid "Default - %1"
 msgctxt "@item Spelling dictionary: %1 dictionary name"
@@ -12003,14 +12172,17 @@ msgid "Task"
 msgstr "Task"
 
 #: kde3support/kdeui/k3aboutdialog.cpp:684
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<html><font size=\"5\">%1</font><br/><b>version %2</b><br/>Using KDE %3</"
+#| "html>"
 msgid ""
 "<html><font size=\"5\">%1</font><br/><b>version %2</b><br/>Using KDE %3</"
 "html>"
 msgstr ""
 
 #: kde3support/kdeui/k3aboutdialog.cpp:686
-#, qt-format
+#, kde-format
 msgid "%1 %2, %3"
 msgstr "%1 %2, %3"
 
@@ -12041,12 +12213,12 @@ msgid "Detach"
 msgstr "Wotlěpić"
 
 #: kde3support/kdeui/k3dockwidget.cpp:3043
-#, qt-format
+#, kde-format
 msgid "Hide %1"
 msgstr "Chowaj %1"
 
 #: kde3support/kdeui/k3dockwidget.cpp:3049
-#, qt-format
+#, kde-format
 msgid "Show %1"
 msgstr "Pokaž %1"
 
@@ -12278,7 +12450,9 @@ msgid "qttest"
 msgstr "Najnowše"
 
 #: kdecore/services/kservice.h:513
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The service '%1' does not provide an interface '%2' with keyword '%3'"
 msgid "The service '%1' does not provide an interface '%2' with keyword '%3'"
 msgstr ""
 
@@ -12427,7 +12601,7 @@ msgid "Configure S&hortcuts..."
 msgstr "Konfiguracija &skrótšenkow..."
 
 #: kdeui/actions/kstandardaction_p.h:102
-#, qt-format
+#, kde-format
 msgid "&Configure %1..."
 msgstr "%1 &konfigurować ..."
 
@@ -12448,7 +12622,7 @@ msgid "Tip of the &Day"
 msgstr "Pokiw &dnja"
 
 #: kdeui/widgets/kcharselect_p.h:175
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgctxt "Character"
 msgid ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Unicode code point: "
@@ -12456,6 +12630,9 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br>Unicode kodowy dypk: U+%3<br>"
 "(decimalnje: %4)<br>(Pismik: %5)</qt>"
+
+#~ msgid "Print %1"
+#~ msgstr "%1 wućišćeć"
 
 #~ msgid "Will not save configuration.\n"
 #~ msgstr "Njezawěsću konfiguraciju.\n"
