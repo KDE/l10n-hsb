@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeprint4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-11 05:39+0200\n"
+"POT-Creation-Date: 2007-10-19 05:38+0200\n"
 "PO-Revision-Date: 2004-04-16 17:54+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -1839,22 +1839,33 @@ msgstr "<b>Wopisanje</b>: %1<br>"
 msgid "<b>Model</b>: %1<br />"
 msgstr "<b>Model</b>: %1<br>"
 
-#: cups/kmwippprinter.cpp:180 kmprinter.cpp:135
+#: cups/kmwippprinter.cpp:180
+#, fuzzy
+#| msgid "Idle"
+msgctxt "@item:intext Printer state"
 msgid "Idle"
 msgstr "lěnjeho pase"
 
-#: cups/kmwippprinter.cpp:181 kmprinter.cpp:137
+#: cups/kmwippprinter.cpp:181
+#, fuzzy
+#| msgid "Stopped"
+msgctxt "@item:intext Printer state"
 msgid "Stopped"
 msgstr "Zastajene"
 
-#: cups/kmwippprinter.cpp:182 kmjob.cpp:110 kmprinter.cpp:136
+#: cups/kmwippprinter.cpp:182
+#, fuzzy
+#| msgid "Processing..."
+msgctxt "@item:intext Printer state"
 msgid "Processing..."
 msgstr "Wobličuju..."
 
-#: cups/kmwippprinter.cpp:183 kmjob.cpp:131 kmprinter.cpp:138
-msgctxt "Unknown State"
+#: cups/kmwippprinter.cpp:183
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "@item:intext Printer state"
 msgid "Unknown"
-msgstr "njeznaju"
+msgstr "Njeznaju"
 
 #: cups/kmwippprinter.cpp:185
 #, fuzzy, kde-format
@@ -2365,6 +2376,10 @@ msgstr "Ćišćenski system"
 msgid "Authentication failed (user name=%1)"
 msgstr "Přizjewjenje je so zwrěšćiło!"
 
+#: kmjob.cpp:110 kmprinter.cpp:136
+msgid "Processing..."
+msgstr "Wobličuju..."
+
 #: kmjob.cpp:113
 msgid "Queued"
 msgstr "čaka"
@@ -2389,6 +2404,11 @@ msgstr "přetorhnjene"
 #: kmjob.cpp:128
 msgid "Completed"
 msgstr "zakónčene"
+
+#: kmjob.cpp:131 kmprinter.cpp:138
+msgctxt "Unknown State"
+msgid "Unknown"
+msgstr "njeznaju"
 
 #: tests/main.cpp:18
 msgid "helpviewer"
@@ -5102,6 +5122,14 @@ msgstr "Žana opcija wubrana"
 #, kde-format
 msgid "Configuration of %1"
 msgstr "Konfiguracija %1"
+
+#: kmprinter.cpp:135
+msgid "Idle"
+msgstr "lěnjeho pase"
+
+#: kmprinter.cpp:137
+msgid "Stopped"
+msgstr "Zastajene"
 
 #: kmprinter.cpp:140
 msgid "(rejecting jobs)"
