@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-29 06:09+0100\n"
+"POT-Creation-Date: 2007-11-03 05:51+0100\n"
 "PO-Revision-Date: 2004-04-16 18:01+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -818,41 +818,261 @@ msgstr "Nowy..."
 msgid "Automatically refresh data"
 msgstr ""
 
+#. i18n: tag text
+#. i18n: file part/kword.rc line 3
+#. i18n: tag text
+#. i18n: file part/kword_readonly.rc line 3
+#: rc.cpp:377 rc.cpp:479
+#, fuzzy
+msgid "&File"
+msgstr "Wuslědk &filtra"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 9
+#. i18n: tag text
+#. i18n: file part/kword_readonly.rc line 6
+#: rc.cpp:380 rc.cpp:482
+msgid "&Edit"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 27
+#. i18n: tag text
+#. i18n: file part/kword_readonly.rc line 12
+#: rc.cpp:383 rc.cpp:485
+#, fuzzy
+msgid "&View"
+msgstr "&Nowe"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 32
+#. i18n: tag text
+#. i18n: file part/kword_readonly.rc line 14
+#: rc.cpp:386 rc.cpp:488
+#, fuzzy
+msgid "&Display Mode"
+msgstr "pokazowanje"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 48
+#: rc.cpp:389
+#, fuzzy
+msgctxt "Insert menu"
+msgid "&Insert"
+msgstr "Zasunyć"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 75
+#: rc.cpp:392
+msgid "F&ormat"
+msgstr "F&ormat"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 80
+#. i18n: tag Text
+#. i18n: file part/kword.rc line 279
+#: rc.cpp:395 rc.cpp:455
+#, fuzzy
+#| msgid "Formula"
+msgid "Formula"
+msgstr "Formula"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 81
+#: rc.cpp:398
+msgid "Matrix"
+msgstr "Matriks"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 113
+#: rc.cpp:401
+#, fuzzy
+#| msgid "Fra&mes"
+msgid "Fra&mes"
+msgstr "Ra&miki"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 131
+#: rc.cpp:404
+#, fuzzy
+msgid "Configure Frame Border"
+msgstr "Kromy ramika nastajeć"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 141
+#: rc.cpp:407
+msgid "Ta&ble"
+msgstr "Ta&bulka"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 144
+#. i18n: tag text
+#. i18n: file part/kword.rc line 486
+#: rc.cpp:410 rc.cpp:470
+msgid "Row"
+msgstr "Linka"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 148
+#. i18n: tag text
+#. i18n: file part/kword.rc line 490
+#: rc.cpp:413 rc.cpp:473
+msgid "Column"
+msgstr "Špalta"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 154
+#. i18n: tag text
+#. i18n: file part/kword.rc line 480
+#: rc.cpp:416 rc.cpp:467
+msgid "Cell"
+msgstr "Bańka"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 167
+#. i18n: tag text
+#. i18n: file part/kword_readonly.rc line 29
+#. i18n: tag text
+#. i18n: file plugins/scripting/scripting.rc line 4
+#: rc.cpp:419 rc.cpp:491 rc.cpp:603
+msgid "&Tools"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 168
+#: rc.cpp:422
+msgid "Spellcheck"
+msgstr "Prawopisna kontrola"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 173
+#: rc.cpp:425
+msgid "Autocorrection"
+msgstr "Awtomatiska korektura"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 188
+#: rc.cpp:428
+#, fuzzy
+msgid "&Settings"
+msgstr "Wšelčizny"
+
+#. i18n: tag Text
+#. i18n: file part/kword.rc line 200
+#. i18n: tag Text
+#. i18n: file part/kword_readonly.rc line 34
+#: rc.cpp:431 rc.cpp:494
+#, fuzzy
+msgid "Edit"
+msgstr "Sortěrować"
+
+#. i18n: tag Text
+#. i18n: file part/kword.rc line 213
+#: rc.cpp:434
+msgid "Table"
+msgstr "Tabulka"
+
+#. i18n: tag Text
+#. i18n: file part/kword.rc line 223
+#: rc.cpp:437
+#, fuzzy
+msgid "Insert"
+msgstr "Zasunyć"
+
+#. i18n: tag Text
+#. i18n: file part/kword.rc line 231
+#: rc.cpp:440
+msgid "Paragraph"
+msgstr "Wotrězk"
+
+#. i18n: tag Text
+#. i18n: file part/kword.rc line 245
+#: rc.cpp:443
+#, fuzzy
+msgid "Font"
+msgstr "PIsmo."
+
+#. i18n: tag Text
+#. i18n: file part/kword.rc line 251
+#: rc.cpp:446
+#, fuzzy
+#| msgid "F&ormat"
+msgid "Format"
+msgstr "F&ormat"
+
+#. i18n: tag Text
+#. i18n: file part/kword.rc line 260
+#: rc.cpp:449
+#, fuzzy
+msgid "Borders"
+msgstr "Kromy"
+
+#. i18n: tag Text
+#. i18n: file part/kword.rc line 273
+#: rc.cpp:452
+msgid "MailMerge"
+msgstr "Do mejlki zapřijeć"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 356
+#: rc.cpp:458
+msgid "Spell Check Result"
+msgstr "Wuslědki prawopisneje kontrole"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 385
+#: rc.cpp:461
+msgid "Change Variable To"
+msgstr "Wariablu změnić na"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 455
+#: rc.cpp:464
+#, fuzzy
+msgid "Configure Frame Borders"
+msgstr "Kromy ramika nastajeć"
+
+#. i18n: tag text
+#. i18n: file part/kword.rc line 496
+#: rc.cpp:476
+msgid "Configure Table Borders"
+msgstr "Kromy tabulki nastajeć"
+
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/ooimportconfig.ui line 20
-#: rc.cpp:377
+#: rc.cpp:497
 msgid "The host-address the OpenOffice.org Server runs on."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/ooimportconfig.ui line 34
-#: rc.cpp:380
+#: rc.cpp:500
 #, fuzzy
 msgid "Host:"
 msgstr "Mjeno servera:"
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/ooimportconfig.ui line 44
-#: rc.cpp:383
+#: rc.cpp:503
 msgid "localhost"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/ooimportconfig.ui line 79
-#: rc.cpp:386
+#: rc.cpp:506
 msgid "The port the OpenOffice.org Server runs on."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/ooimportconfig.ui line 93
-#: rc.cpp:389
+#: rc.cpp:509
 #, fuzzy
 msgid "Port:"
 msgstr "&Port:"
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/ooimportconfig.ui line 144
-#: rc.cpp:392
+#: rc.cpp:512
 msgid ""
 "Number of seconds we try to connect before aborting. If set to 0 we try to "
 "connect only once and if failed abort. If the timeout is disabled, we try to "
@@ -861,13 +1081,13 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/ooimportconfig.ui line 158
-#: rc.cpp:395
+#: rc.cpp:515
 msgid "Timeout:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/ooimportconfig.ui line 212
-#: rc.cpp:398
+#: rc.cpp:518
 msgid ""
 "If the first try to connect with OpenOffice.org failed, we are able to start "
 "OpenOffice.org for you, connect with that instance and once the work is "
@@ -876,110 +1096,110 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/ooimportconfig.ui line 222
-#: rc.cpp:401
+#: rc.cpp:521
 msgid "Startup and shutdown OpenOffice.org instance if not running already."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/ooimportconfig.ui line 241
-#: rc.cpp:404
+#: rc.cpp:524
 msgid "Hide the temporary OpenOffice.org window."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/ooimportconfig.ui line 251
-#: rc.cpp:407
+#: rc.cpp:527
 msgid "Automatic close documents not needed any longer."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/importdoxyxmloptions.ui line 18
-#: rc.cpp:410
+#: rc.cpp:530
 #, fuzzy
 msgid "Table of Content"
 msgstr "Zasunyć"
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/importdoxyxmloptions.ui line 38
-#: rc.cpp:413
+#: rc.cpp:533
 #, fuzzy
 msgid "Pages"
 msgstr "Strona"
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/importdoxyxmloptions.ui line 68
-#: rc.cpp:416
+#: rc.cpp:536
 msgid "Page Description"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/importdoxyxmloptions.ui line 80
-#: rc.cpp:419
+#: rc.cpp:539
 #, fuzzy
 msgid "Index Page"
 msgstr "Zasunyć"
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/importdoxyxmloptions.ui line 90
-#: rc.cpp:422
+#: rc.cpp:542
 #, fuzzy
 msgid "Other Pages"
 msgstr "Zasunyć"
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/importdoxyxmloptions.ui line 130
-#: rc.cpp:425
+#: rc.cpp:545
 msgid "Classes"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/importdoxyxmloptions.ui line 160
-#: rc.cpp:428
+#: rc.cpp:548
 msgid "Class Description"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/importdoxyxmloptions.ui line 170
-#: rc.cpp:431
+#: rc.cpp:551
 msgid "Member Description"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/importdoxyxmloptions.ui line 182
-#: rc.cpp:434
+#: rc.cpp:554
 #, fuzzy
 msgid "Slots"
 msgstr "Sortěrować"
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/importdoxyxmloptions.ui line 192
-#: rc.cpp:437
+#: rc.cpp:557
 msgid "Signals"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/importdoxyxmloptions.ui line 202
-#: rc.cpp:440
+#: rc.cpp:560
 #, fuzzy
 msgid "Properties"
 msgstr "Swójstwa"
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/importdoxyxmloptions.ui line 229
-#: rc.cpp:443
+#: rc.cpp:563
 msgid "Functions"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/importdoxyxmloptions.ui line 236
-#: rc.cpp:446
+#: rc.cpp:566
 #, fuzzy
 msgid "Variables"
 msgstr "Zasunyć"
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/importdoxyxmlstyle.ui line 35
-#: rc.cpp:449
+#: rc.cpp:569
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1027,7 +1247,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/ooimport.ui line 18
-#: rc.cpp:471
+#: rc.cpp:591
 msgid ""
 "The intermedia format the OpenOffice.org Server saves the loaded document "
 "to. KWord then imports the content from those file and once the job is done, "
@@ -1036,20 +1256,20 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/ooimport.ui line 31
-#: rc.cpp:474
+#: rc.cpp:594
 msgid "ISO OASIS OpenDocument Text"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/ooimport.ui line 41
-#: rc.cpp:477
+#: rc.cpp:597
 #, fuzzy
 msgid "HTML Document"
 msgstr "Kónc"
 
 #. i18n: tag string
 #. i18n: file plugins/scripting/scripts/ooimport.ui line 51
-#: rc.cpp:480
+#: rc.cpp:600
 #, fuzzy
 msgid "Encoded Text"
 msgstr "Sortěrować"
@@ -2381,56 +2601,6 @@ msgstr ""
 #~ msgid "Form"
 #~ msgstr "Format"
 
-#, fuzzy
-#~ msgid "&Display Mode"
-#~ msgstr "pokazowanje"
-
-#~ msgid "F&ormat"
-#~ msgstr "F&ormat"
-
-#~ msgid "Matrix"
-#~ msgstr "Matriks"
-
-#, fuzzy
-#~ msgid "Configure Frame Border"
-#~ msgstr "Kromy ramika nastajeć"
-
-#~ msgid "Ta&ble"
-#~ msgstr "Ta&bulka"
-
-#~ msgid "Row"
-#~ msgstr "Linka"
-
-#~ msgid "Column"
-#~ msgstr "Špalta"
-
-#~ msgid "Cell"
-#~ msgstr "Bańka"
-
-#~ msgid "Spellcheck"
-#~ msgstr "Prawopisna kontrola"
-
-#~ msgid "Autocorrection"
-#~ msgstr "Awtomatiska korektura"
-
-#~ msgid "Table"
-#~ msgstr "Tabulka"
-
-#~ msgid "Paragraph"
-#~ msgstr "Wotrězk"
-
-#~ msgid "MailMerge"
-#~ msgstr "Do mejlki zapřijeć"
-
-#~ msgid "Spell Check Result"
-#~ msgstr "Wuslědki prawopisneje kontrole"
-
-#~ msgid "Change Variable To"
-#~ msgstr "Wariablu změnić na"
-
-#~ msgid "Configure Table Borders"
-#~ msgstr "Kromy tabulki nastajeć"
-
 #~ msgid "Create New Bookmark"
 #~ msgstr "Nowe znamješko do knihi"
 
@@ -2501,10 +2671,6 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Misc"
-#~ msgstr "Wšelčizny"
-
-#, fuzzy
-#~ msgid "Misc Settings"
 #~ msgstr "Wšelčizny"
 
 #, fuzzy
@@ -2800,10 +2966,6 @@ msgstr ""
 #~ msgstr "Skupina:"
 
 #, fuzzy
-#~ msgid "&New"
-#~ msgstr "&Nowe"
-
-#, fuzzy
 #~ msgid "New"
 #~ msgstr "Nowe"
 
@@ -2870,10 +3032,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Vertical Lines"
 #~ msgstr "Padorunje"
-
-#, fuzzy
-#~ msgid "&Borders"
-#~ msgstr "Kromy"
 
 #, fuzzy
 #~ msgid "St&yle:"
@@ -2952,10 +3110,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "File does not contain any styles. It may be the wrong version."
 #~ msgstr "Dataja."
-
-#, fuzzy
-#~ msgid "Insert Row"
-#~ msgstr "Zasunyć"
 
 #, fuzzy
 #~ msgid "Insert Column"
@@ -3248,10 +3402,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Fi&le..."
 #~ msgstr "Dataja."
-
-#, fuzzy
-#~ msgid "&Font..."
-#~ msgstr "PIsmo."
 
 #, fuzzy
 #~ msgid "Change character size, font, boldface, italics etc."
@@ -3651,10 +3801,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Save the picture in a separate file."
 #~ msgstr "Zawěsćić in."
-
-#, fuzzy
-#~ msgid "Edit Text"
-#~ msgstr "Sortěrować"
 
 #, fuzzy
 #~ msgid "Speak Text"
