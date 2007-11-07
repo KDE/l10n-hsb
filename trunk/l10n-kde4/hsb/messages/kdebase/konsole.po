@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-06 05:55+0100\n"
+"POT-Creation-Date: 2007-11-07 05:56+0100\n"
 "PO-Revision-Date: 2003-12-23 17:19+0100\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -326,39 +326,52 @@ msgstr "Konfiguracija wulkosće"
 msgid "Output"
 msgstr "Nachwilny pomjatk zawěsćić"
 
-#: MainWindow.cpp:172
+#: MainWindow.cpp:176
 msgid "New &Tab"
 msgstr ""
 
-#: MainWindow.cpp:178
+#: MainWindow.cpp:182
 #, fuzzy
 msgid "New &Window"
 msgstr "Nowa se&sija"
 
-#: MainWindow.cpp:183
+#: MainWindow.cpp:187
 #, fuzzy
 #| msgid "&Rename Session..."
 msgid "Remote Connection..."
 msgstr "&Posedźenje přemjenować..."
 
-#: MainWindow.cpp:197
+#: MainWindow.cpp:201
 #, fuzzy
 msgid "&Bookmarks"
 msgstr "Interpreter na spomjatkowanym městnje"
 
-#: MainWindow.cpp:206
+#: MainWindow.cpp:210
 msgid "Show Menu Bar"
 msgstr ""
 
-#: MainWindow.cpp:208
+#: MainWindow.cpp:212
 msgid "Hide Menu Bar"
 msgstr ""
 
-#: MainWindow.cpp:229
+#: MainWindow.cpp:233
 #, fuzzy
 #| msgid "Save Sessions &Profile..."
 msgid "Manage Profiles..."
 msgstr "&Profilowu dataju zawěsćić..."
+
+#: MainWindow.cpp:293
+msgid "You have multiple tabs in this window, are you sure you want to quit?"
+msgstr ""
+
+#: MainWindow.cpp:295
+msgid "Really Quit?"
+msgstr "Woprawdźe zakónčić?"
+
+#: MainWindow.cpp:297
+#, fuzzy
+msgid "Close current tab"
+msgstr "Interpreter &zakónčić"
 
 #: ManageProfilesDialog.cpp:45
 #, fuzzy
@@ -398,46 +411,46 @@ msgstr "&Posedźenje přemjenować..."
 msgid "Connect"
 msgstr ""
 
-#: Session.cpp:417
+#: Session.cpp:420
 #, fuzzy, kde-format
 msgid "Silence in session '%1'"
 msgstr "in"
 
-#: Session.cpp:434
+#: Session.cpp:437
 #, fuzzy, kde-format
 msgid "Bell in session '%1'"
 msgstr "in"
 
-#: Session.cpp:445
+#: Session.cpp:448
 #, fuzzy, kde-format
 msgid "Activity in session '%1'"
 msgstr "in"
 
-#: Session.cpp:564
+#: Session.cpp:567
 msgid "<Finished>"
 msgstr ""
 
-#: Session.cpp:573
+#: Session.cpp:576
 #, fuzzy, kde-format
 msgid "Session '%1' exited with status %2."
 msgstr "Interpreter."
 
-#: Session.cpp:577
+#: Session.cpp:580
 #, fuzzy, kde-format
 msgid "Session '%1' exited with signal %2 and dumped core."
 msgstr "Interpreter."
 
-#: Session.cpp:579
+#: Session.cpp:582
 #, fuzzy, kde-format
 msgid "Session '%1' exited with signal %2."
 msgstr "Interpreter."
 
-#: Session.cpp:582
+#: Session.cpp:585
 #, fuzzy, kde-format
 msgid "Session '%1' exited unexpectedly."
 msgstr "Interpreter."
 
-#: Session.cpp:781
+#: Session.cpp:784
 msgid "ZModem Progress"
 msgstr ""
 
@@ -752,164 +765,168 @@ msgid ""
 "Create a new tab in an existing window rather than creating a new window"
 msgstr ""
 
-#: main.cpp:94
-msgid "Change the value of a profile property."
-msgstr ""
-
-#: main.cpp:95
-msgid "Command to execute"
+#: main.cpp:93
+msgid "Set the initial working directory of the new tab or window to 'dir'"
 msgstr ""
 
 #: main.cpp:96
+msgid "Change the value of a profile property."
+msgstr ""
+
+#: main.cpp:97
+msgid "Command to execute"
+msgstr ""
+
+#: main.cpp:98
 msgid "Arguments passed to command"
 msgstr ""
 
-#: main.cpp:102
+#: main.cpp:104
 msgid "Robert Knight"
 msgstr ""
 
-#: main.cpp:102
+#: main.cpp:104
 #, fuzzy
 msgid "Maintainer"
 msgstr "Maintainer"
 
-#: main.cpp:103
+#: main.cpp:105
 msgid "Lars Doelle"
 msgstr ""
 
-#: main.cpp:103
+#: main.cpp:105
 #, fuzzy
 msgid "Author"
 msgstr "Awtor"
 
-#: main.cpp:104
+#: main.cpp:106
 msgid "Kurt V. Hindenburg"
 msgstr ""
 
-#: main.cpp:105 main.cpp:108 main.cpp:111
+#: main.cpp:107 main.cpp:110 main.cpp:113
 msgid "Bug fixes and general improvements"
 msgstr ""
 
-#: main.cpp:107
+#: main.cpp:109
 msgid "Waldo Bastian"
 msgstr ""
 
-#: main.cpp:110
+#: main.cpp:112
 msgid "Stephan Binner"
 msgstr ""
 
-#: main.cpp:113
+#: main.cpp:115
 msgid "Chris Machemer"
 msgstr ""
 
-#: main.cpp:114 main.cpp:150 main.cpp:153 main.cpp:156 main.cpp:159
+#: main.cpp:116 main.cpp:152 main.cpp:155 main.cpp:158 main.cpp:161
 msgid "Bug fixes"
 msgstr ""
 
-#: main.cpp:116
+#: main.cpp:118
 msgid "Stephan Kulow"
 msgstr ""
 
-#: main.cpp:117
+#: main.cpp:119
 #, fuzzy
 msgid "Solaris support and history"
 msgstr "Njemóžach nachwilny pomjatk zawěsćić."
 
-#: main.cpp:119
+#: main.cpp:121
 msgid "Alexander Neundorf"
 msgstr ""
 
-#: main.cpp:120
+#: main.cpp:122
 msgid "Bug fixes and improved startup performance"
 msgstr ""
 
-#: main.cpp:122
+#: main.cpp:124
 msgid "Peter Silva"
 msgstr ""
 
-#: main.cpp:123
+#: main.cpp:125
 msgid "Marking improvements"
 msgstr ""
 
-#: main.cpp:125
+#: main.cpp:127
 msgid "Lotzi Boloni"
 msgstr ""
 
-#: main.cpp:126
+#: main.cpp:128
 msgid ""
 "Embedded Konsole\n"
 "Toolbar and session names"
 msgstr ""
 
-#: main.cpp:129
+#: main.cpp:131
 msgid "David Faure"
 msgstr ""
 
-#: main.cpp:130
+#: main.cpp:132
 msgid ""
 "Embedded Konsole\n"
 "General improvements"
 msgstr ""
 
-#: main.cpp:133
+#: main.cpp:135
 msgid "Antonio Larrosa"
 msgstr ""
 
-#: main.cpp:134
+#: main.cpp:136
 msgid "Visual effects"
 msgstr ""
 
-#: main.cpp:136
+#: main.cpp:138
 msgid "Matthias Ettrich"
 msgstr ""
 
-#: main.cpp:137
+#: main.cpp:139
 msgid ""
 "Code from the kvt project\n"
 "General improvements"
 msgstr ""
 
-#: main.cpp:140
+#: main.cpp:142
 msgid "Warwick Allison"
 msgstr ""
 
-#: main.cpp:141
+#: main.cpp:143
 msgid "Schema and text selection improvements"
 msgstr ""
 
-#: main.cpp:143
+#: main.cpp:145
 msgid "Dan Pilone"
 msgstr ""
 
-#: main.cpp:144
+#: main.cpp:146
 msgid "SGI port"
 msgstr ""
 
-#: main.cpp:146
+#: main.cpp:148
 msgid "Kevin Street"
 msgstr ""
 
-#: main.cpp:147
+#: main.cpp:149
 msgid "FreeBSD port"
 msgstr ""
 
-#: main.cpp:149
+#: main.cpp:151
 msgid "Sven Fischer"
 msgstr ""
 
-#: main.cpp:152
+#: main.cpp:154
 msgid "Dale M. Flaven"
 msgstr ""
 
-#: main.cpp:155
+#: main.cpp:157
 msgid "Martin Jones"
 msgstr ""
 
-#: main.cpp:158
+#: main.cpp:160
 msgid "Lars Knoll"
 msgstr ""
 
-#: main.cpp:161
+#: main.cpp:163
 msgid "Thanks to many others.\n"
 msgstr ""
 
@@ -2233,10 +2250,6 @@ msgstr ""
 #~ msgid "New Sess&ion"
 #~ msgstr "Nowa se&sija"
 
-#, fuzzy
-#~ msgid "Close the current session"
-#~ msgstr "Interpreter &zakónčić"
-
 #~ msgid "Session"
 #~ msgstr "Interpreter"
 
@@ -2494,9 +2507,6 @@ msgstr ""
 #~ "Maće tu dalše interpretery (nimo aktualneho). Tute so zakónča, jeli "
 #~ "pokročujeće.\n"
 #~ "Chceće je woprawdźe zakónčić?"
-
-#~ msgid "Really Quit?"
-#~ msgstr "Woprawdźe zakónčić?"
 
 #~ msgid ""
 #~ "The application running in Konsole does not respond to the close request. "
