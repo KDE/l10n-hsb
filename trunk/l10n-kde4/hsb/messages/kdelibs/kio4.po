@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-07 05:55+0100\n"
+"POT-Creation-Date: 2007-11-08 06:00+0100\n"
 "PO-Revision-Date: 2005-02-02 18:46+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -4814,59 +4814,78 @@ msgid "Otherwise, the request would have succeeded."
 msgstr "Hewak by so poradźiło."
 
 #: ../kioslave/http/http.cpp:1465
+#, fuzzy
+#| msgid "retrieve property values"
+msgctxt "request type"
 msgid "retrieve property values"
 msgstr "hódnoty atributow dóstać"
 
 #: ../kioslave/http/http.cpp:1468
+#, fuzzy
+#| msgid "set property values"
+msgctxt "request type"
 msgid "set property values"
 msgstr "hódnoty atributow postajić"
 
 #: ../kioslave/http/http.cpp:1471
 #, fuzzy
+msgctxt "request type"
 msgid "create the requested folder"
 msgstr "trěbny zapisk stworić"
 
 #: ../kioslave/http/http.cpp:1474
 #, fuzzy
+msgctxt "request type"
 msgid "copy the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk kopěrować"
 
 #: ../kioslave/http/http.cpp:1477
 #, fuzzy
+msgctxt "request type"
 msgid "move the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk přesunyć"
 
 #: ../kioslave/http/http.cpp:1480
 #, fuzzy
+msgctxt "request type"
 msgid "search in the specified folder"
 msgstr "we wotpowědnym zapisku pytać"
 
 #: ../kioslave/http/http.cpp:1483
 #, fuzzy
+msgctxt "request type"
 msgid "lock the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk blockować"
 
 #: ../kioslave/http/http.cpp:1486
 #, fuzzy
+msgctxt "request type"
 msgid "unlock the specified file or folder"
 msgstr "blokowanje wotpowědneje dataje abo zapiska zběhnyć"
 
 #: ../kioslave/http/http.cpp:1489
 #, fuzzy
+msgctxt "request type"
 msgid "delete the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk zničić"
 
 #: ../kioslave/http/http.cpp:1492
+#, fuzzy
+#| msgid "query the server's capabilities"
+msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr "so za móžnosćemi servera woprašeć"
 
 #: ../kioslave/http/http.cpp:1495
 #, fuzzy
+msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
 msgstr "wobsah wotpowědneje dataje abo zapiska dóstać"
 
-#: ../kioslave/http/http.cpp:1507 ../kioslave/http/http.cpp:1660
-#, kde-format
+#: ../kioslave/http/http.cpp:1507
+#, fuzzy, kde-format
+#| msgid "An unexpected error (%1) occurred while attempting to %2."
+msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
 
@@ -4875,14 +4894,20 @@ msgid "The server does not support the WebDAV protocol."
 msgstr "Tutón server WebDAV njepodpěruje."
 
 #: ../kioslave/http/http.cpp:1556
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "An error occurred while attempting to %1, %2. A summary of the reasons is "
+#| "below.<ul>"
+msgctxt "%1: request type, %2: url"
 msgid ""
 "An error occurred while attempting to %1, %2. A summary of the reasons is "
 "below.<ul>"
 msgstr "Zmylk je so stał při pospyće %1, %2. Zjeće přičin namakaće deleka.<ul>"
 
 #: ../kioslave/http/http.cpp:1568 ../kioslave/http/http.cpp:1671
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Access was denied while attempting to %1."
+msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr "Přistup bu wotpokazany, jako spytach %1."
 
@@ -4921,7 +4946,9 @@ msgid "The server does not support the request type of the body."
 msgstr "Server tutu družinu elementa \"Body\" njepodpěruje."
 
 #: ../kioslave/http/http.cpp:1611 ../kioslave/http/http.cpp:1683
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Unable to %1 because the resource is locked."
+msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr "Njemóžu %1; resursa je blokowana."
 
@@ -4931,6 +4958,7 @@ msgstr "Tutej operaciji je někajki druhi zmylk zadźěwał."
 
 #: ../kioslave/http/http.cpp:1622 ../kioslave/http/http.cpp:1688
 #, fuzzy, kde-format
+msgctxt "%1: request type"
 msgid ""
 "Unable to %1 because the destination server refuses to accept the file or "
 "folder."
@@ -4946,8 +4974,16 @@ msgstr ""
 
 #: ../kioslave/http/http.cpp:1651
 #, fuzzy, kde-format
+msgctxt "request type"
 msgid "upload %1"
 msgstr "Kopěrjuju %1 na server"
+
+#: ../kioslave/http/http.cpp:1660
+#, fuzzy, kde-format
+#| msgid "An unexpected error (%1) occurred while attempting to %2."
+msgctxt "%1: response code, %2: request type"
+msgid "An unexpected error (%1) occurred while attempting to %2."
+msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
 
 #: ../kioslave/http/http.cpp:1969
 #, kde-format
