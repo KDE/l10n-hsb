@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-21 05:59+0100\n"
+"POT-Creation-Date: 2007-11-22 05:53+0100\n"
 "PO-Revision-Date: 2007-06-18 11:34+0200\n"
 "Last-Translator: Bianka Šwejdźic <hertn@gmx.de>\n"
 "Language-Team: Upper Sorbian <hsb@li.org>\n"
@@ -3268,7 +3268,7 @@ msgstr ""
 msgid "Please contact your system administrator."
 msgstr "Prošu skontaktujće so z administratorom systema."
 
-#: kdecore/network/k3socketaddress.cpp:621
+#: kdecore/network/k3socketaddress.cpp:623
 #, kde-format
 msgctxt "1: the unknown socket address family number"
 msgid "Unknown family %1"
@@ -5737,7 +5737,7 @@ msgstr "Prošu na wobraz kliknyć a ćahnyć za wuběranje dźěla:"
 msgid "Default:"
 msgstr "Standard"
 
-#: kdeui/dialogs/kshortcutsdialog.cpp:368 kdeui/widgets/klineedit.cpp:1048
+#: kdeui/dialogs/kshortcutsdialog.cpp:368 kdeui/widgets/klineedit.cpp:1078
 msgid "None"
 msgstr "Žane"
 
@@ -5905,7 +5905,7 @@ msgid "Reset ToolBars"
 msgstr "Nastrojowe pasy"
 
 #: kdeui/dialogs/kedittoolbar.cpp:505 khtml/khtmlview.cpp:2796
-#: khtml/khtmlview.cpp:2829 khtml/html/html_formimpl.cpp:2169
+#: khtml/khtmlview.cpp:2829 khtml/html/html_formimpl.cpp:2166
 msgid "Reset"
 msgstr "Stary staw"
 
@@ -7453,7 +7453,7 @@ msgstr "&Cyła wobrazowka"
 msgid "Exit F&ull Screen Mode"
 msgstr "&Wokna"
 
-#: kdeui/actions/kcodecaction.cpp:93 kdeui/widgets/klineedit.cpp:1075
+#: kdeui/actions/kcodecaction.cpp:93 kdeui/widgets/klineedit.cpp:1105
 #: kdeui/widgets/ktoolbar.cpp:276
 msgid "Default"
 msgstr "Standard"
@@ -8462,32 +8462,32 @@ msgctxt "KCharselect unicode block name"
 msgid "Specials"
 msgstr ""
 
-#: kdeui/widgets/klineedit.cpp:183
+#: kdeui/widgets/klineedit.cpp:212
 #, fuzzy
 msgid "Clear text"
 msgstr "Skrótšenku zničić"
 
-#: kdeui/widgets/klineedit.cpp:1041
+#: kdeui/widgets/klineedit.cpp:1071
 msgid "Text Completion"
 msgstr "Wudospołnjowanje teksta"
 
-#: kdeui/widgets/klineedit.cpp:1049
+#: kdeui/widgets/klineedit.cpp:1079
 msgid "Manual"
 msgstr "Manuelnje"
 
-#: kdeui/widgets/klineedit.cpp:1050
+#: kdeui/widgets/klineedit.cpp:1080
 msgid "Automatic"
 msgstr "Awtomatisce"
 
-#: kdeui/widgets/klineedit.cpp:1051
+#: kdeui/widgets/klineedit.cpp:1081
 msgid "Dropdown List"
 msgstr "Menijowa lisćina"
 
-#: kdeui/widgets/klineedit.cpp:1052
+#: kdeui/widgets/klineedit.cpp:1082
 msgid "Short Automatic"
 msgstr "Krótke awtomatiske"
 
-#: kdeui/widgets/klineedit.cpp:1053
+#: kdeui/widgets/klineedit.cpp:1083
 msgid "Dropdown List && Automatic"
 msgstr "Menijowa lisćina && awtomatisce"
 
@@ -8888,24 +8888,24 @@ msgstr "Tabulatory dowolić"
 msgid "Unknown View"
 msgstr "Njeznate pólko"
 
-#: kfile/kfileplacesview.cpp:366
+#: kfile/kfileplacesview.cpp:365
 #, fuzzy, kde-format
 #| msgid "&Edit..."
 msgid "&Edit '%1'..."
 msgstr "&Wobdźěłać"
 
-#: kfile/kfileplacesview.cpp:369
+#: kfile/kfileplacesview.cpp:368
 #, fuzzy, kde-format
 #| msgid "Hide %1"
 msgid "&Hide '%1'"
 msgstr "Chowaj %1"
 
-#: kfile/kfileplacesview.cpp:376
+#: kfile/kfileplacesview.cpp:375
 #, fuzzy
 msgid "&Show All Entries"
 msgstr "Pokaž wšitke opcije"
 
-#: kfile/kfileplacesview.cpp:387
+#: kfile/kfileplacesview.cpp:386
 #, fuzzy, kde-format
 #| msgid "&Remove"
 msgid "&Remove '%1'"
@@ -10116,7 +10116,7 @@ msgstr ""
 "systemje. <br>Chceće formular wotpósłać?"
 
 #: khtml/khtml_part.cpp:4724 khtml/khtmlview.cpp:2782 khtml/khtmlview.cpp:2824
-#: khtml/html/html_formimpl.cpp:1566 khtml/html/html_formimpl.cpp:2177
+#: khtml/html/html_formimpl.cpp:1563 khtml/html/html_formimpl.cpp:2174
 msgid "Submit"
 msgstr "Wotpósłać"
 
@@ -10181,8 +10181,10 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:7276
 #, kde-format
+#| msgid "&Show Blocked Popup Window"
+#| msgid_plural "Show %1 Blocked Popup Windows"
 msgid "&Show Blocked Popup Window"
-msgid_plural "Show %1 Blocked Popup Windows"
+msgid_plural "&Show %1 Blocked Popup Windows"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -10432,11 +10434,11 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "&Přetorhnyć"
 
-#: khtml/ecma/kjs_window.cpp:1570 khtml/ecma/kjs_html.cpp:2117
+#: khtml/ecma/kjs_window.cpp:1566 khtml/ecma/kjs_html.cpp:2109
 msgid "Confirmation: JavaScript Popup"
 msgstr "Wobkrućenje: JavaScript Woknješko"
 
-#: khtml/ecma/kjs_window.cpp:1573
+#: khtml/ecma/kjs_window.cpp:1569
 msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
@@ -10444,7 +10446,7 @@ msgstr ""
 "Tutón server chce nowe wokno z JavaScript wočinić.\n"
 "Chceće to jemu dowolić?"
 
-#: khtml/ecma/kjs_window.cpp:1576
+#: khtml/ecma/kjs_window.cpp:1572
 #, kde-format
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
@@ -10453,51 +10455,51 @@ msgstr ""
 "<qt>Tutón server chce <p>%1</p> w nowym woknje z JavaScript wočinić.<br/"
 ">Chceće to jemu dowolić?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1578 khtml/ecma/kjs_html.cpp:2124
+#: khtml/ecma/kjs_window.cpp:1574 khtml/ecma/kjs_html.cpp:2116
 #, fuzzy
 msgid "Allow"
 msgstr "Wšě"
 
-#: khtml/ecma/kjs_window.cpp:1578 khtml/ecma/kjs_html.cpp:2124
+#: khtml/ecma/kjs_window.cpp:1574 khtml/ecma/kjs_html.cpp:2116
 #, fuzzy
 msgid "Do Not Allow"
 msgstr "Wšitke importow&ać"
 
-#: khtml/ecma/kjs_window.cpp:1870
+#: khtml/ecma/kjs_window.cpp:1866
 msgid "Close window?"
 msgstr "Wokno začinić?"
 
-#: khtml/ecma/kjs_window.cpp:1870
+#: khtml/ecma/kjs_window.cpp:1866
 msgid "Confirmation Required"
 msgstr "Wobkrućenje trěbne"
 
-#: khtml/ecma/kjs_window.cpp:2820
+#: khtml/ecma/kjs_window.cpp:2816
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr "Chceće městno \"%1\" k swojim najlubšim městnam dodać?"
 
-#: khtml/ecma/kjs_window.cpp:2823
+#: khtml/ecma/kjs_window.cpp:2819
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr "Chceće městno \"%1\" z titlom \"%2\" k swojim najlubšim městnam dodać?"
 
-#: khtml/ecma/kjs_window.cpp:2831
+#: khtml/ecma/kjs_window.cpp:2827
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "JavaScript spyta znamjo do knihi dodać"
 
-#: khtml/ecma/kjs_window.cpp:2835
+#: khtml/ecma/kjs_window.cpp:2831
 msgid "Insert"
 msgstr "Zasunyć"
 
-#: khtml/ecma/kjs_window.cpp:2835
+#: khtml/ecma/kjs_window.cpp:2831
 msgid "Disallow"
 msgstr "Wotpokazać"
 
-#: khtml/ecma/kjs_html.cpp:2119
+#: khtml/ecma/kjs_html.cpp:2111
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -10506,7 +10508,7 @@ msgstr ""
 "Tutón server sćele formular, kiž nowe wokno z JavaScript wočini.\n"
 "Chceće to jemu dowolić?"
 
-#: khtml/ecma/kjs_html.cpp:2122
+#: khtml/ecma/kjs_html.cpp:2114
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -10620,7 +10622,7 @@ msgstr "Licensa:"
 msgid "This is a searchable index. Enter search keywords: "
 msgstr "W tutym indeksu móžeće pytać. zapodajće klučowe słowa:"
 
-#: khtml/html/html_formimpl.cpp:370
+#: khtml/html/html_formimpl.cpp:367
 msgid ""
 "The following files will not be uploaded because they could not be found.\n"
 "Do you want to continue?"
@@ -10628,15 +10630,15 @@ msgstr ""
 "Slědowace dataje so njehodźach pósłać, dokelž je namakał njejsym.\n"
 "Chceće pokročować?"
 
-#: khtml/html/html_formimpl.cpp:374
+#: khtml/html/html_formimpl.cpp:371
 msgid "Submit Confirmation"
 msgstr "Wobkrućenje pósłanja formulara"
 
-#: khtml/html/html_formimpl.cpp:374
+#: khtml/html/html_formimpl.cpp:371
 msgid "&Submit Anyway"
 msgstr "&Při wšěm pósłać"
 
-#: khtml/html/html_formimpl.cpp:385
+#: khtml/html/html_formimpl.cpp:382
 #, fuzzy
 msgid ""
 "You are about to transfer the following files from your local computer to "
@@ -10646,33 +10648,33 @@ msgstr ""
 "Pósćeleće slědowace dataje ze swojeho lokalneho computera do interneta.\n"
 "Chceće to woprawdźe činić?"
 
-#: khtml/html/html_formimpl.cpp:389
+#: khtml/html/html_formimpl.cpp:386
 msgid "Send Confirmation"
 msgstr "Wobkrućenje pósłanja"
 
-#: khtml/html/html_formimpl.cpp:389
+#: khtml/html/html_formimpl.cpp:386
 msgid "&Send Files"
 msgstr "&Dataje pósłać"
 
-#: khtml/html/html_formimpl.cpp:631
+#: khtml/html/html_formimpl.cpp:628
 msgid "Save Login Information"
 msgstr "Informaciju za přizjewjenje zawěsćić"
 
-#: khtml/html/html_formimpl.cpp:633
+#: khtml/html/html_formimpl.cpp:630
 #, fuzzy
 msgid "Store"
 msgstr "Dróha"
 
-#: khtml/html/html_formimpl.cpp:634
+#: khtml/html/html_formimpl.cpp:631
 msgid "Ne&ver for This Site"
 msgstr "Ženje za &tutón serwer"
 
-#: khtml/html/html_formimpl.cpp:635
+#: khtml/html/html_formimpl.cpp:632
 #, fuzzy
 msgid "Do Not Store"
 msgstr "&Njezawěsćić"
 
-#: khtml/html/html_formimpl.cpp:644
+#: khtml/html/html_formimpl.cpp:641
 #, fuzzy
 msgid ""
 "Konqueror has the ability to store the password in an encrypted wallet. When "
@@ -10684,7 +10686,7 @@ msgstr ""
 "móže so přichodny raz informacija za přizjewjenje awtomatisce zapodać. "
 "Chceće informaciju za přizjewjenje nětko zawěsćić?"
 
-#: khtml/html/html_formimpl.cpp:649
+#: khtml/html/html_formimpl.cpp:646
 #, fuzzy, kde-format
 msgid ""
 "Konqueror has the ability to store the password in an encrypted wallet. When "
@@ -10695,7 +10697,7 @@ msgstr ""
 "móže so přichodny raz informacija za přizjewjenje awtomatisce zapodać. "
 "Chceće informaciju za přizjewjenje nětko zawěsćić?"
 
-#: khtml/html/html_formimpl.cpp:2558
+#: khtml/html/html_formimpl.cpp:2555
 #, fuzzy
 #| msgid "General"
 msgid "Key Generator"
