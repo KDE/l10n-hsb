@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-05 05:57+0100\n"
+"POT-Creation-Date: 2007-12-06 06:00+0100\n"
 "PO-Revision-Date: 2007-06-18 11:34+0200\n"
 "Last-Translator: Bianka Šwejdźic <hertn@gmx.de>\n"
 "Language-Team: Upper Sorbian <hsb@li.org>\n"
@@ -714,7 +714,7 @@ msgstr "HTML-output pokazać"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 206
-#: rc.cpp:291 kutils/kpluginselector.cpp:62
+#: rc.cpp:291 kutils/kpluginselector.cpp:63
 msgid "Settings"
 msgstr "Nastajenja"
 
@@ -4944,7 +4944,7 @@ msgstr "Nowe wěcy za wšěch"
 msgid "Please give some information about yourself."
 msgstr ""
 
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:67
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:67 kutils/kpluginselector.cpp:1671
 msgid "Author:"
 msgstr "Awtor:"
 
@@ -4963,11 +4963,11 @@ msgid "Name:"
 msgstr "Mjeno:"
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:85
-#: kdeui/dialogs/kbugreport.cpp:205
+#: kdeui/dialogs/kbugreport.cpp:205 kutils/kpluginselector.cpp:1715
 msgid "Version:"
 msgstr "Wersija:"
 
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:90
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:90 kutils/kpluginselector.cpp:1724
 msgid "License:"
 msgstr "Licensa:"
 
@@ -6046,15 +6046,15 @@ msgstr "Konfiguracija"
 msgid "&Try"
 msgstr "&Spytaj"
 
-#: kdeui/dialogs/kdialog.cpp:453
+#: kdeui/dialogs/kdialog.cpp:458
 msgid "modified"
 msgstr "změnjene"
 
-#: kdeui/dialogs/kdialog.cpp:833
+#: kdeui/dialogs/kdialog.cpp:838
 msgid "&Details"
 msgstr "&Detajle"
 
-#: kdeui/dialogs/kdialog.cpp:981
+#: kdeui/dialogs/kdialog.cpp:986
 msgid "Get help..."
 msgstr "Na pomoc ..."
 
@@ -6077,8 +6077,8 @@ msgstr ""
 msgid "Reset ToolBars"
 msgstr "Nastrojowe pasy"
 
-#: kdeui/dialogs/kedittoolbar.cpp:506 khtml/khtmlview.cpp:2798
-#: khtml/khtmlview.cpp:2831 khtml/html/html_formimpl.cpp:2163
+#: kdeui/dialogs/kedittoolbar.cpp:506 khtml/khtmlview.cpp:2801
+#: khtml/khtmlview.cpp:2834 khtml/html/html_formimpl.cpp:2163
 msgid "Reset"
 msgstr "Stary staw"
 
@@ -10177,7 +10177,7 @@ msgstr "Datum a čas: %1"
 msgid "Additional Information: %1"
 msgstr "Dalša informacija: %1"
 
-#: khtml/khtml_part.cpp:1762
+#: khtml/khtml_part.cpp:1762 kutils/kpluginselector.cpp:1661
 msgid "Description:"
 msgstr "Wopisanje:"
 
@@ -10345,7 +10345,7 @@ msgstr ""
 "<qt>Formular so pósćele na <br><b>%1</b><br> na wašim lokalnym datajowym "
 "systemje. <br>Chceće formular wotpósłać?"
 
-#: khtml/khtml_part.cpp:4725 khtml/khtmlview.cpp:2784 khtml/khtmlview.cpp:2826
+#: khtml/khtml_part.cpp:4725 khtml/khtmlview.cpp:2787 khtml/khtmlview.cpp:2829
 #: khtml/html/html_formimpl.cpp:1563 khtml/html/html_formimpl.cpp:2171
 msgid "Submit"
 msgstr "Wotpósłać"
@@ -10468,39 +10468,39 @@ msgstr "&Dźi na linku..."
 msgid "Remove from ignores..."
 msgstr ""
 
-#: khtml/khtmlview.cpp:1754
+#: khtml/khtmlview.cpp:1757
 msgid "Find stopped."
 msgstr "Pytanje přetorhnjene."
 
-#: khtml/khtmlview.cpp:1765
+#: khtml/khtmlview.cpp:1768
 msgid "Starting -- find links as you type"
 msgstr "Startuju -- wotkazy so při zapodawanju wudospołnjeja"
 
-#: khtml/khtmlview.cpp:1771
+#: khtml/khtmlview.cpp:1774
 msgid "Starting -- find text as you type"
 msgstr "Startuju -- tekst so při zapodawanju wudospołnja"
 
-#: khtml/khtmlview.cpp:1794
+#: khtml/khtmlview.cpp:1797
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "Wotkaz na %1 namakał"
 
-#: khtml/khtmlview.cpp:1799
+#: khtml/khtmlview.cpp:1802
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "Njejsym wotkaz namakał: \"%1\""
 
-#: khtml/khtmlview.cpp:1807
+#: khtml/khtmlview.cpp:1810
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "Tekst namakał: \"%1\""
 
-#: khtml/khtmlview.cpp:1812
+#: khtml/khtmlview.cpp:1815
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "Njejsym tekst namakał: \"%1\" "
 
-#: khtml/khtmlview.cpp:1858
+#: khtml/khtmlview.cpp:1861
 msgid "Access Keys activated"
 msgstr "Tastowe skrótki aktiwizowane"
 
@@ -11597,23 +11597,23 @@ msgstr ""
 "poćahuje, zničić. Jeli to njefunguje, wobroć so na swojeho distributora.</"
 "p></qt>"
 
-#: kutils/kpluginselector.cpp:63
+#: kutils/kpluginselector.cpp:64
 #, fuzzy
 #| msgid "&About"
 msgid "About"
 msgstr "&Wo tutym programje"
 
-#: kutils/kpluginselector.cpp:157
+#: kutils/kpluginselector.cpp:158
 msgid "Automatic changes have been performed due to plugin dependencies"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:224
+#: kutils/kpluginselector.cpp:225
 msgid ""
 "Automatically changes have been performed in order to satisfy plugin "
 "dependencies:\n"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:228
+#: kutils/kpluginselector.cpp:229
 #, kde-format
 msgid ""
 "\n"
@@ -11621,7 +11621,7 @@ msgid ""
 "plugin"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:230
+#: kutils/kpluginselector.cpp:231
 #, kde-format
 msgid ""
 "\n"
@@ -11629,11 +11629,11 @@ msgid ""
 "plugin"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:232
+#: kutils/kpluginselector.cpp:233
 msgid "Dependency Check"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:250
+#: kutils/kpluginselector.cpp:251
 #, kde-format
 msgid "%1 plugin added"
 msgid_plural "%1 plugins added"
@@ -11642,11 +11642,11 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: kutils/kpluginselector.cpp:253
+#: kutils/kpluginselector.cpp:254
 msgid ", "
 msgstr ""
 
-#: kutils/kpluginselector.cpp:256
+#: kutils/kpluginselector.cpp:257
 #, kde-format
 msgid "%1 plugin removed"
 msgid_plural "%1 plugins removed"
@@ -11655,56 +11655,25 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: kutils/kpluginselector.cpp:259
+#: kutils/kpluginselector.cpp:260
 msgid " since the last time you asked for details"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:1634
+#: kutils/kpluginselector.cpp:1646
 #, fuzzy, kde-format
 #| msgid "About %1"
 msgid "About %1 plugin"
 msgstr "Wo %1"
 
-#: kutils/kpluginselector.cpp:1642
-#, fuzzy, kde-format
-#| msgid "Description:"
-msgid ""
-"Description:\n"
-"\t%1"
-msgstr "Wopisanje:"
-
-#: kutils/kpluginselector.cpp:1647
-#, fuzzy, kde-format
-#| msgid "Author:"
-msgid ""
-"Author:\n"
-"\t%1"
-msgstr "Awtor:"
-
-#: kutils/kpluginselector.cpp:1652
+#: kutils/kpluginselector.cpp:1679
 #, fuzzy
 #| msgid "Main:"
 msgid "E-Mail:"
 msgstr "Hłowna dataja:"
 
-#: kutils/kpluginselector.cpp:1658
+#: kutils/kpluginselector.cpp:1697
 msgid "Website:"
 msgstr ""
-
-#: kutils/kpluginselector.cpp:1664
-#, fuzzy, kde-format
-msgid ""
-"Version:\n"
-"\t%1"
-msgstr "Wersija:"
-
-#: kutils/kpluginselector.cpp:1669
-#, fuzzy, kde-format
-#| msgid "License:"
-msgid ""
-"License:\n"
-"\t%1"
-msgstr "Licensa:"
 
 #: kutils/kprintpreview.cpp:123
 #, fuzzy
@@ -12781,6 +12750,33 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br>Unicode kodowy dypk: U+%3<br>"
 "(decimalnje: %4)<br>(Pismik: %5)</qt>"
+
+#, fuzzy
+#~| msgid "Description:"
+#~ msgid ""
+#~ "Description:\n"
+#~ "\t%1"
+#~ msgstr "Wopisanje:"
+
+#, fuzzy
+#~| msgid "Author:"
+#~ msgid ""
+#~ "Author:\n"
+#~ "\t%1"
+#~ msgstr "Awtor:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Version:\n"
+#~ "\t%1"
+#~ msgstr "Wersija:"
+
+#, fuzzy
+#~| msgid "License:"
+#~ msgid ""
+#~ "License:\n"
+#~ "\t%1"
+#~ msgstr "Licensa:"
 
 #, fuzzy
 #~| msgid "Popup Menu Context"
