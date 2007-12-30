@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-29 06:17+0100\n"
+"POT-Creation-Date: 2007-12-30 06:22+0100\n"
 "PO-Revision-Date: 2004-04-16 17:59+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -92,34 +92,34 @@ msgid ""
 "whether or not a response is requested from the attendee."
 msgstr ""
 
-#: koeditordetails.cpp:220
+#: koeditordetails.cpp:220 koeditorfreebusy.cpp:273
 #, fuzzy
 #| msgid "Name"
 msgctxt "@title:column attendee name"
 msgid "Name"
 msgstr "Mjeno"
 
-#: koeditordetails.cpp:221
+#: koeditordetails.cpp:221 koeditorfreebusy.cpp:274
 #, fuzzy
 #| msgid "Email"
 msgctxt "@title:column attendee email"
 msgid "Email"
 msgstr "email"
 
-#: koeditordetails.cpp:222
+#: koeditordetails.cpp:222 koeditorfreebusy.cpp:275
 #, fuzzy
 msgctxt "@title:column attendee role"
 msgid "Role"
 msgstr "Ponowić"
 
-#: koeditordetails.cpp:223
+#: koeditordetails.cpp:223 koeditorfreebusy.cpp:276
 #, fuzzy
 #| msgid "Status"
 msgctxt "@title:column attendee status"
 msgid "Status"
 msgstr "Staw:"
 
-#: koeditordetails.cpp:224
+#: koeditordetails.cpp:224 koeditorfreebusy.cpp:277
 msgctxt "@title:column attendee has RSVPed?"
 msgid "RSVP"
 msgstr ""
@@ -284,7 +284,7 @@ msgstr ""
 msgid "New Filter %1"
 msgstr "Filtry wobdźěłać..."
 
-#: filtereditdialog.cpp:215 koeventeditor.cpp:366 kotodoeditor.cpp:344
+#: filtereditdialog.cpp:215
 msgid "This item will be permanently deleted."
 msgstr ""
 
@@ -298,11 +298,11 @@ msgstr "Konfiguracija resursow"
 #. i18n: tag string
 #. i18n: file ./template_management_dialog_base.ui line 41
 #: filtereditdialog.cpp:215 kojournaleditor.cpp:206 rc.cpp:966 rc.cpp:1666
-#: koeventeditor.cpp:367
 msgid "Delete"
 msgstr ""
 
-#: koeditorfreebusy.cpp:208
+#: koeditorfreebusy.cpp:209
+msgctxt "@info:whatsthis"
 msgid ""
 "Sets the zoom level on the Gantt chart. 'Hour' shows a range of several "
 "hours, 'Day' shows a range of a few days, 'Week' shows a range of a few "
@@ -310,734 +310,874 @@ msgid ""
 "the range most appropriate for the current event or to-do."
 msgstr ""
 
-#: koeditorfreebusy.cpp:215
+#: koeditorfreebusy.cpp:216
+msgctxt "@label"
 msgid "Scale: "
 msgstr ""
 
-#: koeditorfreebusy.cpp:221
+#: koeditorfreebusy.cpp:222
+msgctxt "@item:inlistbox range in hours"
 msgid "Hour"
 msgstr ""
 
-#: koeditorfreebusy.cpp:222
+#: koeditorfreebusy.cpp:223
+msgctxt "@item:inlistbox range in days"
 msgid "Day"
 msgstr ""
 
-#: koeditorfreebusy.cpp:223
-msgid "Week"
-msgstr ""
-
 #: koeditorfreebusy.cpp:224
-msgid "Month"
-msgstr ""
+#, fuzzy
+#| msgid "&Week"
+msgctxt "@item:inlistbox range in weeks"
+msgid "Week"
+msgstr "&Tydźeń"
 
 #: koeditorfreebusy.cpp:225
+#, fuzzy
+#| msgid "&Month"
+msgctxt "@item:inlistbox range in months"
+msgid "Month"
+msgstr "&Měsac"
+
+#: koeditorfreebusy.cpp:226
+msgctxt "@item:inlistbox range is computed automatically"
 msgid "Automatic"
 msgstr ""
 
-#: koeditorfreebusy.cpp:231
+#: koeditorfreebusy.cpp:232
+msgctxt "@action:button"
 msgid "Center on Start"
 msgstr ""
 
-#: koeditorfreebusy.cpp:233
+#: koeditorfreebusy.cpp:234
+msgctxt "@info:whatsthis"
 msgid "Centers the Gantt chart on the start time and day of this event."
 msgstr ""
 
-#: koeditorfreebusy.cpp:238
+#: koeditorfreebusy.cpp:239
 #, fuzzy
+msgctxt "@action:button"
 msgid "Zoom to Fit"
 msgstr "Won zoomować"
 
-#: koeditorfreebusy.cpp:240
+#: koeditorfreebusy.cpp:241
+msgctxt "@info:whatsthis"
 msgid ""
 "Zooms the Gantt chart so that you can see the entire duration of the event "
 "on it."
 msgstr ""
 
-#: koeditorfreebusy.cpp:247
+#: koeditorfreebusy.cpp:248
+msgctxt "@action:button"
 msgid "Pick Date"
 msgstr ""
 
-#: koeditorfreebusy.cpp:249
+#: koeditorfreebusy.cpp:250
+msgctxt "@info:whatsthis"
 msgid "Moves the event to a date and time when all the attendees are free."
 msgstr ""
 
-#: koeditorfreebusy.cpp:256
+#: koeditorfreebusy.cpp:257
+msgctxt "@action:button reload freebusy data"
 msgid "Reload"
 msgstr ""
 
-#: koeditorfreebusy.cpp:258
+#: koeditorfreebusy.cpp:259
+msgctxt "@info:whatsthis"
 msgid ""
 "Reloads Free/Busy data for all attendees from the corresponding servers."
 msgstr ""
 
-#: koeditorfreebusy.cpp:265
+#: koeditorfreebusy.cpp:266
+msgctxt "@info:whatsthis"
 msgid ""
 "Shows the free/busy status of all attendees. Double-clicking on an attendees "
 "entry in the list will allow you to enter the location of their Free/Busy "
 "Information."
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file publishdialog_base.ui line 26
-#. i18n: tag string
-#. i18n: file ./publishdialog_base.ui line 26
-#: koeditorfreebusy.cpp:272 koprefsdialog.cpp:1147 rc.cpp:885 rc.cpp:2083
-msgid "Name"
-msgstr "Mjeno"
-
-#. i18n: tag string
-#. i18n: file publishdialog_base.ui line 31
-#. i18n: tag string
-#. i18n: file ./publishdialog_base.ui line 31
-#: koeditorfreebusy.cpp:273 koprefsdialog.cpp:911 rc.cpp:888 rc.cpp:2086
-msgid "Email"
-msgstr "email"
-
-#: koeditorfreebusy.cpp:274
-msgid "Role"
-msgstr ""
-
-#: koeditorfreebusy.cpp:275
-msgid "Status"
-msgstr "Staw:"
-
-#: koeditorfreebusy.cpp:276
-msgid "RSVP"
-msgstr ""
-
-#: koeditorfreebusy.cpp:506
+#: koeditorfreebusy.cpp:508
+msgctxt "@info"
 msgid "The meeting already has suitable start/end times."
 msgstr ""
 
-#: koeditorfreebusy.cpp:513
+#: koeditorfreebusy.cpp:516
 #, kde-format
+msgctxt "@info"
 msgid ""
 "The meeting has been moved to\n"
 "Start: %1\n"
 "End: %2."
 msgstr ""
 
-#: koeditorfreebusy.cpp:518
+#: koeditorfreebusy.cpp:521
+#, fuzzy
+msgctxt "@info"
 msgid "No suitable date found."
-msgstr ""
+msgstr "Staw:"
 
-#: koeditorfreebusy.cpp:655
+#: koeditorfreebusy.cpp:658
 #, kde-format
+msgctxt "@label"
 msgid ""
 "Of the %1 participants, %2 have accepted, %3 have tentatively accepted, and %"
 "4 have declined."
 msgstr ""
 
-#: koeditorrecurrence.cpp:93
+#: koeditorrecurrence.cpp:97
+msgctxt "@info:whatsthis"
 msgid ""
 "The number of the week from the beginning of the month on which this event "
 "or to-do should recur."
 msgstr ""
 
-#: koeditorrecurrence.cpp:96 koeditorrecurrence.cpp:263
+#: koeditorrecurrence.cpp:100 koeditorrecurrence.cpp:269
+msgctxt "@item:inlistbox"
 msgid "1st"
 msgstr ""
 
-#: koeditorrecurrence.cpp:97 koeditorrecurrence.cpp:264
+#: koeditorrecurrence.cpp:101 koeditorrecurrence.cpp:270
+msgctxt "@item:inlistbox"
 msgid "2nd"
 msgstr ""
 
-#: koeditorrecurrence.cpp:98 koeditorrecurrence.cpp:265
+#: koeditorrecurrence.cpp:102 koeditorrecurrence.cpp:271
+msgctxt "@item:inlistbox"
 msgid "3rd"
 msgstr ""
 
-#: koeditorrecurrence.cpp:99 koeditorrecurrence.cpp:266
+#: koeditorrecurrence.cpp:103 koeditorrecurrence.cpp:272
+msgctxt "@item:inlistbox"
 msgid "4th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:100 koeditorrecurrence.cpp:267
+#: koeditorrecurrence.cpp:104 koeditorrecurrence.cpp:273
+msgctxt "@item:inlistbox"
 msgid "5th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:101 koeditorrecurrence.cpp:294
+#: koeditorrecurrence.cpp:105
+msgctxt "@item:inlistbox last week of the month"
 msgid "Last"
 msgstr ""
 
-#: koeditorrecurrence.cpp:102 koeditorrecurrence.cpp:295
+#: koeditorrecurrence.cpp:106 koeditorrecurrence.cpp:301
+msgctxt "@item:inlistbox"
 msgid "2nd Last"
 msgstr ""
 
-#: koeditorrecurrence.cpp:103 koeditorrecurrence.cpp:296
+#: koeditorrecurrence.cpp:107 koeditorrecurrence.cpp:302
+msgctxt "@item:inlistbox"
 msgid "3rd Last"
 msgstr ""
 
-#: koeditorrecurrence.cpp:104 koeditorrecurrence.cpp:297
+#: koeditorrecurrence.cpp:108 koeditorrecurrence.cpp:303
+msgctxt "@item:inlistbox"
 msgid "4th Last"
 msgstr ""
 
-#: koeditorrecurrence.cpp:105 koeditorrecurrence.cpp:298
+#: koeditorrecurrence.cpp:109 koeditorrecurrence.cpp:304
+msgctxt "@item:inlistbox"
 msgid "5th Last"
 msgstr ""
 
-#: koeditorrecurrence.cpp:114
+#: koeditorrecurrence.cpp:121
+msgctxt "@info:whatsthis"
 msgid "The weekday on which this event or to-do should recur."
 msgstr ""
 
-#: koeditorrecurrence.cpp:127
+#: koeditorrecurrence.cpp:134
+msgctxt "@info:whatsthis"
 msgid "The month during which this event or to-do should recur."
 msgstr ""
 
-#: koeditorrecurrence.cpp:145
+#: koeditorrecurrence.cpp:154
+msgctxt "@info:whatsthis"
 msgid "Sets how often this event or to-do should recur."
 msgstr ""
 
-#: koeditorrecurrence.cpp:168 koeditorrecurrence.cpp:181
-#: koeditorrecurrence.cpp:232 koeditorrecurrence.cpp:408
+#: koeditorrecurrence.cpp:178 koeditorrecurrence.cpp:191
+#: koeditorrecurrence.cpp:243 koeditorrecurrence.cpp:420
+msgctxt "@label"
 msgid "&Recur every"
 msgstr ""
 
-#: koeditorrecurrence.cpp:168 koeditorgeneral.cpp:296
-#: korgac/alarmdialog.cpp:94
+#: koeditorrecurrence.cpp:178
+msgctxt "@label"
 msgid "day(s)"
 msgstr ""
 
-#: koeditorrecurrence.cpp:181
+#: koeditorrecurrence.cpp:191
+#, fuzzy
+msgctxt "@label"
 msgid "week(s) on:"
-msgstr ""
+msgstr "&Tydźeń"
 
-#: koeditorrecurrence.cpp:199
+#: koeditorrecurrence.cpp:210
+msgctxt "@info:whatsthis"
 msgid "Day of the week on which this event or to-do should recur."
 msgstr ""
 
-#: koeditorrecurrence.cpp:232
+#: koeditorrecurrence.cpp:243
+#, fuzzy
+msgctxt "@label"
 msgid "month(s)"
-msgstr ""
+msgstr "&Měsac"
 
-#: koeditorrecurrence.cpp:248
+#: koeditorrecurrence.cpp:253
+msgctxt "@option:radio"
 msgid "&Recur on the"
 msgstr ""
 
-#: koeditorrecurrence.cpp:253
+#: koeditorrecurrence.cpp:258
+msgctxt "@info:whatsthis"
 msgid ""
 "Sets a specific day of the month on which this event or to-do should recur."
 msgstr ""
 
-#: koeditorrecurrence.cpp:258 koeditorrecurrence.cpp:438
+#: koeditorrecurrence.cpp:264 koeditorrecurrence.cpp:445
+msgctxt "@info:whatsthis"
 msgid "The day of the month on which this event or to-do should recur."
 msgstr ""
 
-#: koeditorrecurrence.cpp:268
+#: koeditorrecurrence.cpp:274
+msgctxt "@item:inlistbox"
 msgid "6th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:269
+#: koeditorrecurrence.cpp:275
+msgctxt "@item:inlistbox"
 msgid "7th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:270
+#: koeditorrecurrence.cpp:276
+msgctxt "@item:inlistbox"
 msgid "8th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:271
+#: koeditorrecurrence.cpp:277
+msgctxt "@item:inlistbox"
 msgid "9th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:272
+#: koeditorrecurrence.cpp:278
+msgctxt "@item:inlistbox"
 msgid "10th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:273
+#: koeditorrecurrence.cpp:279
+msgctxt "@item:inlistbox"
 msgid "11th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:274
+#: koeditorrecurrence.cpp:280
+msgctxt "@item:inlistbox"
 msgid "12th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:275
+#: koeditorrecurrence.cpp:281
+msgctxt "@item:inlistbox"
 msgid "13th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:276
+#: koeditorrecurrence.cpp:282
+msgctxt "@item:inlistbox"
 msgid "14th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:277
+#: koeditorrecurrence.cpp:283
+msgctxt "@item:inlistbox"
 msgid "15th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:278
+#: koeditorrecurrence.cpp:284
+msgctxt "@item:inlistbox"
 msgid "16th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:279
+#: koeditorrecurrence.cpp:285
+msgctxt "@item:inlistbox"
 msgid "17th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:280
+#: koeditorrecurrence.cpp:286
+msgctxt "@item:inlistbox"
 msgid "18th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:281
+#: koeditorrecurrence.cpp:287
+msgctxt "@item:inlistbox"
 msgid "19th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:282
+#: koeditorrecurrence.cpp:288
+msgctxt "@item:inlistbox"
 msgid "20th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:283
+#: koeditorrecurrence.cpp:289
+msgctxt "@item:inlistbox"
 msgid "21st"
 msgstr ""
 
-#: koeditorrecurrence.cpp:284
+#: koeditorrecurrence.cpp:290
+msgctxt "@item:inlistbox"
 msgid "22nd"
 msgstr ""
 
-#: koeditorrecurrence.cpp:285
+#: koeditorrecurrence.cpp:291
+msgctxt "@item:inlistbox"
 msgid "23rd"
 msgstr ""
 
-#: koeditorrecurrence.cpp:286
+#: koeditorrecurrence.cpp:292
+msgctxt "@item:inlistbox"
 msgid "24th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:287
+#: koeditorrecurrence.cpp:293
+msgctxt "@item:inlistbox"
 msgid "25th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:288
+#: koeditorrecurrence.cpp:294
+msgctxt "@item:inlistbox"
 msgid "26th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:289
+#: koeditorrecurrence.cpp:295
+msgctxt "@item:inlistbox"
 msgid "27th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:290
+#: koeditorrecurrence.cpp:296
+msgctxt "@item:inlistbox"
 msgid "28th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:291
+#: koeditorrecurrence.cpp:297
+msgctxt "@item:inlistbox"
 msgid "29th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:292
+#: koeditorrecurrence.cpp:298
+msgctxt "@item:inlistbox"
 msgid "30th"
 msgstr ""
 
-#: koeditorrecurrence.cpp:293
+#: koeditorrecurrence.cpp:299
+msgctxt "@item:inlistbox"
 msgid "31st"
 msgstr ""
 
-#: koeditorrecurrence.cpp:299
-msgid "6th Last"
-msgstr ""
-
 #: koeditorrecurrence.cpp:300
-msgid "7th Last"
-msgstr ""
-
-#: koeditorrecurrence.cpp:301
-msgid "8th Last"
-msgstr ""
-
-#: koeditorrecurrence.cpp:302
-msgid "9th Last"
-msgstr ""
-
-#: koeditorrecurrence.cpp:303
-msgid "10th Last"
-msgstr ""
-
-#: koeditorrecurrence.cpp:304
-msgid "11th Last"
+msgctxt "@item:inlistbox last day of the month"
+msgid "Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:305
-msgid "12th Last"
+msgctxt "@item:inlistbox"
+msgid "6th Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:306
-msgid "13th Last"
+msgctxt "@item:inlistbox"
+msgid "7th Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:307
-msgid "14th Last"
+msgctxt "@item:inlistbox"
+msgid "8th Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:308
-msgid "15th Last"
+msgctxt "@item:inlistbox"
+msgid "9th Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:309
-msgid "16th Last"
+msgctxt "@item:inlistbox"
+msgid "10th Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:310
-msgid "17th Last"
+msgctxt "@item:inlistbox"
+msgid "11th Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:311
-msgid "18th Last"
+msgctxt "@item:inlistbox"
+msgid "12th Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:312
-msgid "19th Last"
+msgctxt "@item:inlistbox"
+msgid "13th Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:313
-msgid "20th Last"
+msgctxt "@item:inlistbox"
+msgid "14th Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:314
-msgid "21st Last"
+msgctxt "@item:inlistbox"
+msgid "15th Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:315
-msgid "22nd Last"
+msgctxt "@item:inlistbox"
+msgid "16th Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:316
-msgid "23rd Last"
+msgctxt "@item:inlistbox"
+msgid "17th Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:317
-msgid "24th Last"
+msgctxt "@item:inlistbox"
+msgid "18th Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:318
-msgid "25th Last"
+msgctxt "@item:inlistbox"
+msgid "19th Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:319
-msgid "26th Last"
+msgctxt "@item:inlistbox"
+msgid "20th Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:320
-msgid "27th Last"
+msgctxt "@item:inlistbox"
+msgid "21st Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:321
-msgid "28th Last"
+msgctxt "@item:inlistbox"
+msgid "22nd Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:322
-msgid "29th Last"
+msgctxt "@item:inlistbox"
+msgid "23rd Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:323
-msgid "30th Last"
+msgctxt "@item:inlistbox"
+msgid "24th Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:324
-msgid "31st Last"
+msgctxt "@item:inlistbox"
+msgid "25th Last"
+msgstr ""
+
+#: koeditorrecurrence.cpp:325
+msgctxt "@item:inlistbox"
+msgid "26th Last"
+msgstr ""
+
+#: koeditorrecurrence.cpp:326
+msgctxt "@item:inlistbox"
+msgid "27th Last"
 msgstr ""
 
 #: koeditorrecurrence.cpp:327
+msgctxt "@item:inlistbox"
+msgid "28th Last"
+msgstr ""
+
+#: koeditorrecurrence.cpp:328
+msgctxt "@item:inlistbox"
+msgid "29th Last"
+msgstr ""
+
+#: koeditorrecurrence.cpp:329
+msgctxt "@item:inlistbox"
+msgid "30th Last"
+msgstr ""
+
+#: koeditorrecurrence.cpp:330
+msgctxt "@item:inlistbox"
+msgid "31st Last"
+msgstr ""
+
+#: koeditorrecurrence.cpp:333
+msgctxt "@label"
 msgid "day"
 msgstr ""
 
-#: koeditorrecurrence.cpp:334
+#: koeditorrecurrence.cpp:339
+msgctxt "@info:whatsthis"
 msgid ""
 "Sets a weekday and specific week in the month on which this event or to-do "
 "should recur"
 msgstr ""
 
-#: koeditorrecurrence.cpp:408
+#: koeditorrecurrence.cpp:420
+msgctxt "@label"
 msgid "year(s)"
 msgstr ""
 
-#: koeditorrecurrence.cpp:426
-msgctxt "part before XXX of 'Recur on day XXX of month YYY'"
+#: koeditorrecurrence.cpp:431
+msgctxt "@option:radio part before XXX of 'Recur on day XXX of month YYY'"
 msgid "&Recur on day "
 msgstr ""
 
-#: koeditorrecurrence.cpp:428
+#: koeditorrecurrence.cpp:433
+msgctxt "@option:radio"
 msgid "&Day "
 msgstr ""
 
-#: koeditorrecurrence.cpp:432
+#: koeditorrecurrence.cpp:438
+msgctxt "@info:whatsthis"
 msgid ""
 "Sets a specific day in a specific month on which this event or to-do should "
 "recur."
 msgstr ""
 
-#: koeditorrecurrence.cpp:442
-msgctxt "part between XXX and YYY of 'Recur on day XXX of month YYY'"
+#: koeditorrecurrence.cpp:450
+msgctxt "@label part between XXX and YYY of 'Recur on day XXX of month YYY'"
 msgid " &of "
 msgstr ""
 
-#: koeditorrecurrence.cpp:457
-msgctxt "Part before XXX in 'Recur on NNN. WEEKDAY of MONTH', short version"
+#: koeditorrecurrence.cpp:466
+msgctxt ""
+"@option:radio Part before XXX in 'Recur on NNN. WEEKDAY of MONTH', short "
+"version"
 msgid "&On"
 msgstr ""
 
-#: koeditorrecurrence.cpp:459
-msgctxt "Part before XXX in 'Recur on NNN. WEEKDAY of MONTH'"
+#: koeditorrecurrence.cpp:470
+#, fuzzy
+#| msgid "&Month"
+msgctxt "@option:radio Part before XXX in 'Recur on NNN. WEEKDAY of MONTH'"
 msgid "&On the"
-msgstr ""
+msgstr "&Měsac"
 
-#: koeditorrecurrence.cpp:463
+#: koeditorrecurrence.cpp:475
+msgctxt "@info:whatsthis"
 msgid ""
 "Sets a specific day in a specific week of a specific month on which this "
 "event or to-do should recur."
 msgstr ""
 
-#: koeditorrecurrence.cpp:474
-msgctxt "part between WEEKDAY and MONTH in 'Recur on NNN. WEEKDAY of MONTH'"
+#: koeditorrecurrence.cpp:488
+msgctxt ""
+"@label part between WEEKDAY and MONTH in 'Recur on NNN. WEEKDAY of MONTH'"
 msgid " o&f "
 msgstr ""
 
-#: koeditorrecurrence.cpp:490
+#: koeditorrecurrence.cpp:503
+msgctxt "@option:radio"
 msgid "Day #"
 msgstr ""
 
-#: koeditorrecurrence.cpp:492
+#: koeditorrecurrence.cpp:505
+msgctxt "@option:radio"
 msgid "Recur on &day #"
 msgstr ""
 
-#: koeditorrecurrence.cpp:494
+#: koeditorrecurrence.cpp:508
+msgctxt "@info:whatsthis"
 msgid ""
 "Sets a specific day within the year on which this event or to-do should "
 "recur."
 msgstr ""
 
-#: koeditorrecurrence.cpp:506
-msgctxt "part after NNN of 'Recur on day #NNN of the year'"
+#: koeditorrecurrence.cpp:522
+msgctxt "@label part after NNN of 'Recur on day #NNN of the year'"
 msgid " of the &year"
 msgstr ""
 
-#: koeditorrecurrence.cpp:509
-msgctxt "part after NNN of 'Recur on day #NNN of the year', short version"
+#: koeditorrecurrence.cpp:526
+msgctxt ""
+"@label part after NNN of 'Recur on day #NNN of the year', short version"
 msgid " of the year"
 msgstr ""
 
-#: koeditorrecurrence.cpp:596
+#: koeditorrecurrence.cpp:619
+#, fuzzy
+msgctxt "@title:group"
 msgid "E&xceptions"
-msgstr ""
+msgstr "Wopisanje:"
 
-#: koeditorrecurrence.cpp:603
+#: koeditorrecurrence.cpp:627
+msgctxt "@info:whatsthis"
 msgid ""
 "A date that should be considered an exception to the recurrence rules for "
 "this event or to-do."
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file koeditoralarms_base.ui line 483
-#. i18n: tag string
-#. i18n: file ./koeditoralarms_base.ui line 483
-#: koeditorrecurrence.cpp:608 kodaymatrix.cpp:488 rc.cpp:154 rc.cpp:2191
+#: koeditorrecurrence.cpp:633
+#, fuzzy
+msgctxt "@action:button"
 msgid "&Add"
-msgstr ""
+msgstr "&wobdźěłać"
 
-#: koeditorrecurrence.cpp:610
+#: koeditorrecurrence.cpp:636
+msgctxt "@info:whatsthis"
 msgid ""
 "Add this date as an exception to the recurrence rules for this event or to-"
 "do."
 msgstr ""
 
-#: koeditorrecurrence.cpp:613
+#: koeditorrecurrence.cpp:641
+#, fuzzy
+msgctxt "@action:button"
 msgid "&Change"
-msgstr ""
+msgstr "Konfiguracija &skrótšenkow..."
 
-#: koeditorrecurrence.cpp:615
+#: koeditorrecurrence.cpp:644
+msgctxt "@info:whatsthis"
 msgid "Replace the currently selected date with this date."
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file filteredit_base.ui line 35
-#. i18n: tag string
-#. i18n: file ./filteredit_base.ui line 35
-#: koeditorrecurrence.cpp:617 kotodoview.cpp:506 calendarview.cpp:789
-#: actionmanager.cpp:328 actionmanager.cpp:522 actionmanager.cpp:1593
-#: actionmanager.cpp:1622 rc.cpp:6 rc.cpp:2299 journalview.cpp:188
+#: koeditorrecurrence.cpp:648
 #, fuzzy
+msgctxt "@action:button"
 msgid "&Delete"
 msgstr "Titl"
 
-#: koeditorrecurrence.cpp:619
+#: koeditorrecurrence.cpp:651
+msgctxt "@info:whatsthis"
 msgid ""
 "Delete the currently selected date from the list of dates that should be "
 "considered exceptions to the recurrence rules for this event or to-do."
 msgstr ""
 
-#: koeditorrecurrence.cpp:626
+#: koeditorrecurrence.cpp:659
+msgctxt "@info:whatsthis"
 msgid ""
 "Displays current dates that are being considered exceptions to the "
 "recurrence rules for this event or to-do."
 msgstr ""
 
-#: koeditorrecurrence.cpp:693
+#: koeditorrecurrence.cpp:727
+#, fuzzy
+msgctxt "@title:window"
 msgid "Edit Exceptions"
-msgstr ""
+msgstr "Titl"
 
-#: koeditorrecurrence.cpp:719
+#: koeditorrecurrence.cpp:751
+msgctxt "@title:group"
 msgid "Recurrence Range"
 msgstr ""
 
-#: koeditorrecurrence.cpp:721
+#: koeditorrecurrence.cpp:753
+msgctxt "@info:whatsthis"
 msgid ""
 "Sets a range for which these recurrence rules will apply to this event or to-"
 "do."
 msgstr ""
 
-#: koeditorrecurrence.cpp:728
+#: koeditorrecurrence.cpp:760
+msgctxt "@label"
 msgid "Begin on:"
 msgstr ""
 
-#: koeditorrecurrence.cpp:730
+#: koeditorrecurrence.cpp:762
+msgctxt "@info:whatsthis"
 msgid "The date on which the recurrences for this event or to-do should begin."
 msgstr ""
 
-#: koeditorrecurrence.cpp:738
+#: koeditorrecurrence.cpp:769
+#, fuzzy
+msgctxt "@option radio"
 msgid "&No ending date"
-msgstr ""
+msgstr "Titl"
 
-#: koeditorrecurrence.cpp:739
+#: koeditorrecurrence.cpp:771
+msgctxt "@info:whatsthis"
 msgid "Sets the event or to-do to recur forever."
 msgstr ""
 
-#: koeditorrecurrence.cpp:748
+#: koeditorrecurrence.cpp:782
+msgctxt "@info:whatsthis"
 msgid ""
 "Sets the event or to-do to stop recurring after a certain number of "
 "occurrences."
 msgstr ""
 
-#: koeditorrecurrence.cpp:750
+#: koeditorrecurrence.cpp:784
+#, fuzzy
+msgctxt "@option:radio"
 msgid "End &after"
-msgstr ""
+msgstr "Titl"
 
-#: koeditorrecurrence.cpp:759
+#: koeditorrecurrence.cpp:793
+msgctxt "@label"
 msgid "&occurrence(s)"
 msgstr ""
 
-#: koeditorrecurrence.cpp:768
+#: koeditorrecurrence.cpp:802
+msgctxt "@info:whatsthis"
 msgid "Sets the event or to-do to stop recurring on a certain date."
 msgstr ""
 
-#: koeditorrecurrence.cpp:771
+#: koeditorrecurrence.cpp:804
+msgctxt "@option:radio"
 msgid "End &on:"
 msgstr ""
 
-#: koeditorrecurrence.cpp:776
+#: koeditorrecurrence.cpp:811
+msgctxt "@info:whatsthis"
 msgid "Date after which the event or to-do should stop recurring"
 msgstr ""
 
-#: koeditorrecurrence.cpp:841
-#, kde-format
+#: koeditorrecurrence.cpp:873
+#, fuzzy, kde-format
+msgctxt "@label"
 msgid "Begins on: %1"
-msgstr ""
+msgstr "Wersija:"
 
-#: koeditorrecurrence.cpp:850
+#: koeditorrecurrence.cpp:881
+msgctxt "@title:window"
 msgid "Edit Recurrence Range"
 msgstr ""
 
-#: koeditorrecurrence.cpp:896
+#: koeditorrecurrence.cpp:927
+msgctxt "@info:whatsthis"
 msgid "Sets the type of recurrence this event or to-do should have."
 msgstr ""
 
-#: koeditorrecurrence.cpp:898
+#: koeditorrecurrence.cpp:929
+#, fuzzy
+#| msgid "Email"
+msgctxt "@item:inlistbox recur daily"
 msgid "Daily"
-msgstr ""
+msgstr "email"
 
-#: koeditorrecurrence.cpp:899
+#: koeditorrecurrence.cpp:930
+#, fuzzy
+msgctxt "@item:inlistbox recur weekly"
 msgid "Weekly"
-msgstr ""
+msgstr "&Tydźeń"
 
-#: koeditorrecurrence.cpp:900
+#: koeditorrecurrence.cpp:931
+#, fuzzy
+msgctxt "@item:inlistbox recur monthly"
 msgid "Monthly"
-msgstr ""
+msgstr "&Měsac"
 
-#: koeditorrecurrence.cpp:901
+#: koeditorrecurrence.cpp:932
+msgctxt "@item:inlistbox recur yearly"
 msgid "Yearly"
 msgstr ""
 
-#: koeditorrecurrence.cpp:909
+#: koeditorrecurrence.cpp:940
+msgctxt "@title:group"
 msgid "Recurrency Types"
 msgstr ""
 
-#: koeditorrecurrence.cpp:918
+#: koeditorrecurrence.cpp:947
+msgctxt "@option:radio recur daily"
 msgid "&Daily"
 msgstr ""
 
-#: koeditorrecurrence.cpp:919
+#: koeditorrecurrence.cpp:950
+msgctxt "@info:whatsthis"
 msgid ""
 "Sets the event or to-do to recur daily according to the specified rules."
 msgstr ""
 
-#: koeditorrecurrence.cpp:922
+#: koeditorrecurrence.cpp:954
 #, fuzzy
+msgctxt "@option:radio recur weekly"
 msgid "&Weekly"
 msgstr "&Tydźeń"
 
-#: koeditorrecurrence.cpp:923
+#: koeditorrecurrence.cpp:957
+msgctxt "@info:whatsthis"
 msgid ""
 "Sets the event or to-do to recur weekly according to the specified rules."
 msgstr ""
 
-#: koeditorrecurrence.cpp:926
+#: koeditorrecurrence.cpp:961
 #, fuzzy
+msgctxt "@option:radio recur monthly"
 msgid "&Monthly"
 msgstr "&Měsac"
 
-#: koeditorrecurrence.cpp:927
+#: koeditorrecurrence.cpp:964
+msgctxt "@info:whatsthis"
 msgid ""
 "Sets the event or to-do to recur monthly according to the specified rules."
 msgstr ""
 
-#: koeditorrecurrence.cpp:930
+#: koeditorrecurrence.cpp:968
+msgctxt "@option:radio recur yearly"
 msgid "&Yearly"
 msgstr ""
 
-#: koeditorrecurrence.cpp:931
+#: koeditorrecurrence.cpp:971
+msgctxt "@info:whatsthis"
 msgid ""
 "Sets the event or to-do to recur yearly according to the specified rules."
 msgstr ""
 
-#: koeditorrecurrence.cpp:993
+#: koeditorrecurrence.cpp:1036
+msgctxt "@option:check"
 msgid "&Enable recurrence"
 msgstr ""
 
-#: koeditorrecurrence.cpp:995
+#: koeditorrecurrence.cpp:1039
+msgctxt "@info:whatsthis"
 msgid ""
 "Enables recurrence for this event or to-do according to the specified rules."
 msgstr ""
 
-#: koeditorrecurrence.cpp:1002
+#: koeditorrecurrence.cpp:1044
+msgctxt "@title:group"
 msgid "Appointment Time "
 msgstr ""
 
-#: koeditorrecurrence.cpp:1004
+#: koeditorrecurrence.cpp:1047
+msgctxt "@info:whatsthis"
 msgid "Displays appointment time information."
 msgstr ""
 
-#: koeditorrecurrence.cpp:1017
+#: koeditorrecurrence.cpp:1060
+msgctxt "@title:group"
 msgid "Recurrence Rule"
 msgstr ""
 
-#: koeditorrecurrence.cpp:1019
+#: koeditorrecurrence.cpp:1063
+msgctxt "@info:whatsthis"
 msgid ""
 "Options concerning the type of recurrence this event or to-do should have."
 msgstr ""
 
-#: koeditorrecurrence.cpp:1061
+#: koeditorrecurrence.cpp:1105
+msgctxt "@action:button"
 msgid "Recurrence Range..."
 msgstr ""
 
-#: koeditorrecurrence.cpp:1064 koeditorrecurrence.cpp:1081
+#: koeditorrecurrence.cpp:1108 koeditorrecurrence.cpp:1125
+msgctxt "@info:whatsthis"
 msgid ""
 "Options concerning the time range during which this event or to-do should "
 "recur."
 msgstr ""
 
-#: koeditorrecurrence.cpp:1073
+#: koeditorrecurrence.cpp:1117
+msgctxt "@action:button"
 msgid "Exceptions..."
 msgstr ""
 
-#: koeditorrecurrence.cpp:1416
+#: koeditorrecurrence.cpp:1486
 #, kde-format
+msgctxt "@info"
 msgid ""
 "The end date '%1' of the recurrence must be after the start date '%2' of the "
 "event."
 msgstr ""
 
-#: koeditorrecurrence.cpp:1430
+#: koeditorrecurrence.cpp:1503
+msgctxt "@info"
 msgid ""
 "A weekly recurring event or task has to have at least one weekday associated "
 "with it."
@@ -1261,214 +1401,248 @@ msgstr ""
 msgid "Theme to use"
 msgstr ""
 
-#: koprefsdialog.cpp:88 koprefs.cpp:177
+#: koprefsdialog.cpp:87
 #, fuzzy
+msgctxt "@title:tab personal settings"
 msgid "Personal"
 msgstr "Wosobinski"
 
-#: koprefsdialog.cpp:96
+#: koprefsdialog.cpp:95
+msgctxt "@title:group email settings"
 msgid "Email settings"
 msgstr ""
 
-#: koprefsdialog.cpp:113
+#: koprefsdialog.cpp:114
+msgctxt "@title:tab"
 msgid "Save"
 msgstr ""
 
-#: koprefsdialog.cpp:116
-msgid "Saving Calendar"
-msgstr ""
-
-#: koprefsdialog.cpp:187
+#: koprefsdialog.cpp:117
 #, fuzzy
+msgctxt "@title:group"
+msgid "Saving Calendar"
+msgstr "Konfiguracija &skrótšenkow..."
+
+#: koprefsdialog.cpp:189
+#, fuzzy
+msgctxt "@title:tab"
 msgid "Regional"
 msgstr "Wosobinski"
 
-#: koprefsdialog.cpp:195
+#: koprefsdialog.cpp:197
+#, fuzzy
+msgctxt "@label"
 msgid "Time zone:"
-msgstr ""
+msgstr "Titl"
 
-#: koprefsdialog.cpp:196
+#: koprefsdialog.cpp:199
+msgctxt "@info:whatsthis"
 msgid ""
 "Select your time zone from the list of locations on this drop down box. If "
 "your city is not listed, select one which shares the same time zone. "
 "KOrganizer will automatically adjust for daylight savings."
 msgstr ""
 
-#: koprefsdialog.cpp:207
+#: koprefsdialog.cpp:210
+#, fuzzy
+msgctxt "@item:inlistbox unknown timezone"
 msgid "Unknown"
-msgstr ""
+msgstr "Njeznaty zmylk"
 
-#: koprefsdialog.cpp:219
+#: koprefsdialog.cpp:225
+msgctxt "@item:inlistbox no timezone selected"
 msgid "[No selection]"
 msgstr ""
 
-#. i18n: tag label
-#. i18n: file korganizer.kcfg line 140
-#. i18n: tag label
-#. i18n: file ./korganizer.kcfg line 140
-#: koprefsdialog.cpp:240 rc.cpp:435 rc.cpp:1306
+#: koprefsdialog.cpp:244
+msgctxt "@label"
 msgid "Use holiday region:"
 msgstr ""
 
-#. i18n: tag whatsthis
-#. i18n: file korganizer.kcfg line 141
-#. i18n: tag whatsthis
-#. i18n: file ./korganizer.kcfg line 141
-#: koprefsdialog.cpp:241 rc.cpp:438 rc.cpp:1309
+#: koprefsdialog.cpp:246
+msgctxt "@info:whatsthis"
 msgid ""
 "Select from which region you want to use the holidays here. Defined holidays "
 "are shown as non-working days in the date navigator, the agenda view, etc."
 msgstr ""
 
-#: koprefsdialog.cpp:277
+#: koprefsdialog.cpp:285
+msgctxt "@item:inlistbox do not use holidays"
 msgid "(None)"
 msgstr ""
 
-#: koprefsdialog.cpp:293
+#: koprefsdialog.cpp:302
+msgctxt "@title:group"
 msgid "Working Hours"
 msgstr ""
 
-#: koprefsdialog.cpp:313
+#: koprefsdialog.cpp:323
+msgctxt "@info:whatsthis"
 msgid ""
 "Check this box to make KOrganizer mark the working hours for this day of the "
 "week. If this is a work day for you, check this box, or the working hours "
 "will not be marked with color."
 msgstr ""
 
-#: koprefsdialog.cpp:353
+#: koprefsdialog.cpp:361
+msgctxt "@title:tab"
 msgid "Default values"
 msgstr ""
 
-#: koprefsdialog.cpp:368 printing/calprintdefaultplugins.cpp:358
-#: koeditorgeneralevent.cpp:437
-#, kde-format
+#: koprefsdialog.cpp:376
+#, fuzzy
+msgctxt "@item:inlistbox"
 msgid "1 minute"
-msgid_plural "%1 minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr "&Měsac"
 
-#: koprefsdialog.cpp:368
+#: koprefsdialog.cpp:377
+#, fuzzy
+msgctxt "@item:inlistbox"
 msgid "5 minutes"
-msgstr ""
+msgstr "&Měsac"
 
-#: koprefsdialog.cpp:369
+#: koprefsdialog.cpp:378
+#, fuzzy
+msgctxt "@item:inlistbox"
 msgid "10 minutes"
-msgstr ""
+msgstr "&Měsac"
 
-#: koprefsdialog.cpp:369
+#: koprefsdialog.cpp:379
+#, fuzzy
+msgctxt "@item:inlistbox"
 msgid "15 minutes"
-msgstr ""
+msgstr "&Měsac"
 
-#: koprefsdialog.cpp:370
+#: koprefsdialog.cpp:380
+#, fuzzy
+msgctxt "@item:inlistbox"
 msgid "30 minutes"
-msgstr ""
+msgstr "&Měsac"
 
-#: koprefsdialog.cpp:371
+#: koprefsdialog.cpp:381
+msgctxt "@label"
 msgid "Default reminder time:"
 msgstr ""
 
-#: koprefsdialog.cpp:374 koprefsdialog.cpp:377
+#: koprefsdialog.cpp:385 koprefsdialog.cpp:389
+msgctxt "@info:whatsthis"
 msgid "Enter the default reminder time here."
 msgstr ""
 
-#: koprefsdialog.cpp:475 kojournaleditor.cpp:79 koeventeditor.cpp:113
-#: kotodoeditor.cpp:94
+#: koprefsdialog.cpp:493
+#, fuzzy
+#| msgid "General"
+msgctxt "@title:tab general settings"
 msgid "General"
 msgstr "Powšitkownje"
 
-#: koprefsdialog.cpp:489
+#: koprefsdialog.cpp:506
+msgctxt "@title:group"
 msgid "Date Navigator"
 msgstr ""
 
-#: koprefsdialog.cpp:502
+#: koprefsdialog.cpp:518
+#, fuzzy
+msgctxt "@title:tab"
 msgid "Agenda View"
-msgstr ""
+msgstr "&Měsac"
 
-#: koprefsdialog.cpp:511
-msgctxt "suffix in the hour size spin box"
+#: koprefsdialog.cpp:528
+msgctxt "@label suffix in the hour size spin box"
 msgid " pixel"
 msgstr ""
 
-#: koprefsdialog.cpp:523
-msgctxt "suffix in the N days spin box"
+#: koprefsdialog.cpp:540
+msgctxt "@label suffix in the N days spin box"
 msgid " days"
 msgstr ""
 
-#: koprefsdialog.cpp:553
+#: koprefsdialog.cpp:567
 #, fuzzy
+msgctxt "@title:tab"
 msgid "Month View"
 msgstr "&Měsac"
 
-#: koprefsdialog.cpp:572
+#: koprefsdialog.cpp:583
 #, fuzzy
+msgctxt "@title:tab"
 msgid "Todo View"
 msgstr "&Měsac"
 
-#: koprefsdialog.cpp:616
+#: koprefsdialog.cpp:622
+msgctxt "@title:tab"
 msgid "Colors"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file filteredit_base.ui line 172
-#. i18n: tag string
-#. i18n: file ./filteredit_base.ui line 172
-#: koprefsdialog.cpp:659 kolistview.cpp:222 kotodoview.cpp:137 rc.cpp:42
-#: rc.cpp:2335
+#: koprefsdialog.cpp:666
+#, fuzzy
+#| msgid "Categories"
+msgctxt "@title:group"
 msgid "Categories"
 msgstr "Kategorije"
 
-#: koprefsdialog.cpp:668
+#: koprefsdialog.cpp:676
+msgctxt "@info:whatsthis"
 msgid ""
 "Select here the event category you want to modify. You can change the "
 "selected category color using the button below."
 msgstr ""
 
-#: koprefsdialog.cpp:676
+#: koprefsdialog.cpp:685
+msgctxt "@info:whatsthis"
 msgid ""
 "Choose here the color of the event category selected using the combo box "
 "above."
 msgstr ""
 
-#: koprefsdialog.cpp:684
+#: koprefsdialog.cpp:693
 #, fuzzy
+msgctxt "@title:group"
 msgid "Resources"
 msgstr "Konfiguracija resursow"
 
-#: koprefsdialog.cpp:692
+#: koprefsdialog.cpp:702
+msgctxt "@info:whatsthis"
 msgid ""
 "Select here resource you want to modify. You can change the selected "
 "resource color using the button below."
 msgstr ""
 
-#: koprefsdialog.cpp:700
+#: koprefsdialog.cpp:711
+msgctxt "@info:whatsthis"
 msgid ""
 "Choose here the color of the resource selected using the combo box above."
 msgstr ""
 
-#: koprefsdialog.cpp:712
+#: koprefsdialog.cpp:722
 #, fuzzy
+msgctxt "@title:tab"
 msgid "Fonts"
 msgstr "&Měsac"
 
-#: koprefsdialog.cpp:727 koprefsdialog.cpp:735
+#: koprefsdialog.cpp:737 koprefsdialog.cpp:745
+#, fuzzy
+msgctxt "@label"
 msgid "Event text"
-msgstr ""
+msgstr "&Wróćo na prěnjotny staw"
 
-#: koprefsdialog.cpp:890
+#: koprefsdialog.cpp:895
+msgctxt "@title"
 msgid "Scheduler Mail Client"
 msgstr ""
 
-#: koprefsdialog.cpp:893
+#: koprefsdialog.cpp:897
+msgctxt "@option:radio"
 msgid "Mail client"
 msgstr ""
 
-#: koprefsdialog.cpp:898
+#: koprefsdialog.cpp:903
+msgctxt "@label"
 msgid "Additional email addresses:"
 msgstr ""
 
-#: koprefsdialog.cpp:899
+#: koprefsdialog.cpp:905
+msgctxt "@info:whatsthis"
 msgid ""
 "Add, edit or remove additional e-mails addresses here. These email addresses "
 "are the ones you have in addition to the one set in personal preferences. If "
@@ -1476,80 +1650,113 @@ msgid ""
 "need to list this address here so KOrganizer can recognize it as yours."
 msgstr ""
 
-#: koprefsdialog.cpp:914
+#: koprefsdialog.cpp:917
+#, fuzzy
+#| msgid "Email"
+msgctxt "@title:column email addresses"
+msgid "Email"
+msgstr "email"
+
+#: koprefsdialog.cpp:920
+msgctxt "@label"
 msgid "Additional email address:"
 msgstr ""
 
-#: koprefsdialog.cpp:915
+#: koprefsdialog.cpp:922
+msgctxt "@info:whatsthis"
 msgid ""
 "Edit additional e-mails addresses here. To edit an address select it from "
 "the list above or press the \"New\" button below. These email addresses are "
 "the ones you have in addition to the one set in personal preferences."
 msgstr ""
 
-#: koprefsdialog.cpp:927
+#: koprefsdialog.cpp:935
 #, fuzzy
+msgctxt "@action:button add a new email address"
 msgid "New"
 msgstr "Nowy"
 
-#: koprefsdialog.cpp:929
+#: koprefsdialog.cpp:938
+msgctxt "@info:whatsthis"
 msgid ""
 "Press this button to add a new entry to the additional e-mail addresses "
 "list. Use the edit box above to edit the new entry."
 msgstr ""
 
-#: koprefsdialog.cpp:934
+#: koprefsdialog.cpp:943
 #, fuzzy
+msgctxt "@action:button"
 msgid "Remove"
 msgstr "Ponowić"
 
-#: koprefsdialog.cpp:977 publishdialog.cpp:105
+#: koprefsdialog.cpp:985
+msgctxt "@label"
 msgid "(EmptyEmail)"
 msgstr ""
 
-#: koprefsdialog.cpp:1165
+#: koprefsdialog.cpp:1197
 #, fuzzy
+#| msgid "Name"
+msgctxt "@title:column plugin name"
+msgid "Name"
+msgstr "Mjeno"
+
+#: koprefsdialog.cpp:1216
+#, fuzzy
+msgctxt "@action:button"
 msgid "Configure &Plugin..."
 msgstr "Konfiguracija &skrótšenkow..."
 
-#: koprefsdialog.cpp:1166
+#: koprefsdialog.cpp:1219
+msgctxt "@info:whatsthis"
 msgid ""
 "This button allows you to configure the plugin that you have selected in the "
 "list above"
 msgstr ""
 
-#: koprefsdialog.cpp:1173
+#: koprefsdialog.cpp:1226
 #, fuzzy
+msgctxt "@title:group"
 msgid "Position"
 msgstr "Wopisanje:"
 
-#: koprefsdialog.cpp:1174
+#: koprefsdialog.cpp:1228
 #, fuzzy
+msgctxt "@option:check"
 msgid "Show in the month view"
 msgstr "Konfiguracija resursow"
 
-#: koprefsdialog.cpp:1176
+#: koprefsdialog.cpp:1230
+#, fuzzy
+msgctxt "@option:check"
 msgid "Show at the top of the agenda views"
-msgstr ""
+msgstr "Konfiguracija resursow"
 
-#: koprefsdialog.cpp:1178
+#: koprefsdialog.cpp:1232
+#, fuzzy
+msgctxt "@option:check"
 msgid "Show at the bottom of the agenda views"
-msgstr ""
+msgstr "Konfiguracija resursow"
 
-#: koprefsdialog.cpp:1215
+#: koprefsdialog.cpp:1264
+msgctxt "@title:group"
 msgid "Calendar decorations"
 msgstr ""
 
-#: koprefsdialog.cpp:1217
-msgid "Print plugins"
-msgstr ""
-
-#: koprefsdialog.cpp:1219
+#: koprefsdialog.cpp:1267
 #, fuzzy
+msgctxt "@title:group"
+msgid "Print plugins"
+msgstr "Wopisanje:"
+
+#: koprefsdialog.cpp:1270
+#, fuzzy
+msgctxt "@title:group"
 msgid "Other plugins"
 msgstr "Wopisanje:"
 
-#: koprefsdialog.cpp:1281
+#: koprefsdialog.cpp:1338
+msgctxt "@info"
 msgid "Unable to configure this plugin"
 msgstr ""
 
@@ -1739,6 +1946,10 @@ msgstr ""
 
 #: koeditorgeneral.cpp:295 korgac/alarmdialog.cpp:93
 msgid "hour(s)"
+msgstr ""
+
+#: koeditorgeneral.cpp:296 korgac/alarmdialog.cpp:94
+msgid "day(s)"
 msgstr ""
 
 #: koeditorgeneral.cpp:305
@@ -2034,6 +2245,10 @@ msgstr ""
 msgid "(EmptyName)"
 msgstr ""
 
+#: publishdialog.cpp:105
+msgid "(EmptyEmail)"
+msgstr ""
+
 #: kodaymatrix.cpp:240 kocorehelper.cpp:44 komonthview.cpp:870
 msgctxt "delimiter for joining holiday names"
 msgid ","
@@ -2045,6 +2260,14 @@ msgstr ""
 
 #: kodaymatrix.cpp:485
 msgid "&Copy"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file koeditoralarms_base.ui line 483
+#. i18n: tag string
+#. i18n: file ./koeditoralarms_base.ui line 483
+#: kodaymatrix.cpp:488 rc.cpp:154 rc.cpp:2191
+msgid "&Add"
 msgstr ""
 
 #. i18n: tag string
@@ -2086,6 +2309,14 @@ msgstr ""
 msgid "End Time"
 msgstr ""
 
+#. i18n: tag string
+#. i18n: file filteredit_base.ui line 172
+#. i18n: tag string
+#. i18n: file ./filteredit_base.ui line 172
+#: kolistview.cpp:222 kotodoview.cpp:137 rc.cpp:42 rc.cpp:2335
+msgid "Categories"
+msgstr "Kategorije"
+
 #: eventarchiver.cpp:107
 #, kde-format
 msgid "There are no items before %1"
@@ -2118,6 +2349,7 @@ msgid "Priority"
 msgstr ""
 
 #: kotodoview.cpp:133
+msgctxt "@title:column percent complete"
 msgid "Complete"
 msgstr ""
 
@@ -2156,14 +2388,17 @@ msgid "unspecified"
 msgstr ""
 
 #: kotodoview.cpp:459
+msgctxt "@action:inmenu highest priority"
 msgid "1 (highest)"
 msgstr ""
 
 #: kotodoview.cpp:463
+msgctxt "@action:inmenu medium priority"
 msgid "5 (medium)"
 msgstr ""
 
 #: kotodoview.cpp:467
+msgctxt "@action:inmenu lowest priority"
 msgid "9 (lowest)"
 msgstr ""
 
@@ -2174,6 +2409,17 @@ msgstr ""
 #: kotodoview.cpp:488
 msgid "&Copy To"
 msgstr ""
+
+#. i18n: tag string
+#. i18n: file filteredit_base.ui line 35
+#. i18n: tag string
+#. i18n: file ./filteredit_base.ui line 35
+#: kotodoview.cpp:506 calendarview.cpp:789 actionmanager.cpp:328
+#: actionmanager.cpp:522 actionmanager.cpp:1593 actionmanager.cpp:1622
+#: rc.cpp:6 rc.cpp:2299 journalview.cpp:188
+#, fuzzy
+msgid "&Delete"
+msgstr "Titl"
 
 #: kotodoview.cpp:512 actionmanager.cpp:490
 msgid "New &To-do..."
@@ -2318,6 +2564,11 @@ msgid "Special Occasion"
 msgstr ""
 
 #: koprefs.cpp:177
+#, fuzzy
+msgid "Personal"
+msgstr "Wosobinski"
+
+#: koprefs.cpp:177
 msgid "Travel"
 msgstr ""
 
@@ -2394,8 +2645,7 @@ msgid "The item \"%1\" will be permanently deleted."
 msgstr ""
 
 #: calendarview.cpp:788 calendarview.cpp:1999 calendarview.cpp:2063
-#: calendarview.cpp:2074 kojournaleditor.cpp:205 koeventeditor.cpp:367
-#: kotodoeditor.cpp:345
+#: calendarview.cpp:2074 kojournaleditor.cpp:205
 msgid "KOrganizer Confirmation"
 msgstr ""
 
@@ -2811,15 +3061,22 @@ msgstr ""
 msgid "Location of Free/Busy information for %1 <placeholder>%2</placeholder>:"
 msgstr ""
 
-#: kojournaleditor.cpp:50
+#: kojournaleditor.cpp:49
 msgid "Edit Journal Entry"
 msgstr ""
+
+#: kojournaleditor.cpp:78
+#, fuzzy
+#| msgid "General"
+msgctxt "@title general journal settings"
+msgid "General"
+msgstr "Powšitkownje"
 
 #: kojournaleditor.cpp:204
 msgid "This journal entry will be permanently deleted."
 msgstr ""
 
-#: kojournaleditor.cpp:221
+#: kojournaleditor.cpp:220
 msgid "Template does not contain a valid journal."
 msgstr ""
 
@@ -4461,6 +4718,24 @@ msgid ""
 msgstr ""
 
 #. i18n: tag label
+#. i18n: file korganizer.kcfg line 140
+#. i18n: tag label
+#. i18n: file ./korganizer.kcfg line 140
+#: rc.cpp:435 rc.cpp:1306
+msgid "Use holiday region:"
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file korganizer.kcfg line 141
+#. i18n: tag whatsthis
+#. i18n: file ./korganizer.kcfg line 141
+#: rc.cpp:438 rc.cpp:1309
+msgid ""
+"Select from which region you want to use the holidays here. Defined holidays "
+"are shown as non-working days in the date navigator, the agenda view, etc."
+msgstr ""
+
+#. i18n: tag label
 #. i18n: file korganizer.kcfg line 144
 #. i18n: tag label
 #. i18n: file ./korganizer.kcfg line 144
@@ -5625,6 +5900,22 @@ msgid "Filters Toolbar"
 msgstr ""
 
 #. i18n: tag string
+#. i18n: file publishdialog_base.ui line 26
+#. i18n: tag string
+#. i18n: file ./publishdialog_base.ui line 26
+#: rc.cpp:885 rc.cpp:2083
+msgid "Name"
+msgstr "Mjeno"
+
+#. i18n: tag string
+#. i18n: file publishdialog_base.ui line 31
+#. i18n: tag string
+#. i18n: file ./publishdialog_base.ui line 31
+#: rc.cpp:888 rc.cpp:2086
+msgid "Email"
+msgstr "email"
+
+#. i18n: tag string
 #. i18n: file publishdialog_base.ui line 46
 #. i18n: tag string
 #. i18n: file ./publishdialog_base.ui line 46
@@ -6669,7 +6960,7 @@ msgctxt "@info"
 msgid "The item labeled \"%1\" will be permanently deleted."
 msgstr ""
 
-#: koeditorattachments.cpp:704
+#: koeditorattachments.cpp:704 koeventeditor.cpp:379 kotodoeditor.cpp:358
 #, fuzzy
 msgctxt "@title:window"
 msgid "KOrganizer Confirmation"
@@ -7140,6 +7431,15 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
+#: printing/calprintdefaultplugins.cpp:358 koeditorgeneralevent.cpp:437
+#, kde-format
+msgid "1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
 #: printing/calprintdefaultplugins.cpp:362
 #: printing/calprintdefaultplugins.cpp:502
 msgctxt "Spacer for the joined list of categories"
@@ -7382,62 +7682,110 @@ msgstr "Na:"
 msgid "Prints all to-dos in a (tree-like) list"
 msgstr ""
 
-#: koeventeditor.cpp:115 koeventeditor.cpp:142
+#: koeventeditor.cpp:112
+#, fuzzy
+#| msgid "General"
+msgctxt "@title:tab general event settings"
+msgid "General"
+msgstr "Powšitkownje"
+
+#: koeventeditor.cpp:114 koeventeditor.cpp:141
+msgctxt "@info:whatsthis"
 msgid ""
 "The General tab allows you to set the most common options for the event."
 msgstr ""
 
-#: koeventeditor.cpp:130 kotodoeditor.cpp:109
-msgid "Details"
-msgstr ""
-
-#: koeventeditor.cpp:140 kotodoeditor.cpp:126
+#: koeventeditor.cpp:129 kotodoeditor.cpp:111
 #, fuzzy
+msgctxt "@title:tab"
+msgid "Details"
+msgstr "Filtry wobdźěłać..."
+
+#: koeventeditor.cpp:139
+#, fuzzy
+msgctxt "@title:tab general event settings"
 msgid "&General"
 msgstr "Powšitkownje"
 
-#: koeventeditor.cpp:179 kotodoeditor.cpp:160
+#: koeventeditor.cpp:180 kotodoeditor.cpp:162
+#, fuzzy
+msgctxt "@title:tab"
 msgid "Rec&urrence"
-msgstr ""
+msgstr "Konfiguracija resursow"
 
-#: koeventeditor.cpp:182
+#: koeventeditor.cpp:183
+msgctxt "@info:whatsthis"
 msgid ""
 "The Recurrence tab allows you to set options on how often this event recurs."
 msgstr ""
 
-#: koeventeditor.cpp:194
+#: koeventeditor.cpp:195
+msgctxt "@title:tab"
 msgid "&Free/Busy"
 msgstr ""
 
-#: koeventeditor.cpp:196
+#: koeventeditor.cpp:197
+msgctxt "@info:whatsthis"
 msgid ""
 "The Free/Busy tab allows you to see whether other attendees are free or busy "
 "during your event."
 msgstr ""
 
-#: koeventeditor.cpp:215
-msgid "Edit Event"
-msgstr ""
-
-#: koeventeditor.cpp:223
+#: koeventeditor.cpp:217
 #, fuzzy
+msgctxt "@title:window"
+msgid "Edit Event"
+msgstr "&Wróćo na prěnjotny staw"
+
+#: koeventeditor.cpp:225
+#, fuzzy
+msgctxt "@title:window"
 msgid "New Event"
 msgstr "&Wróćo na prěnjotny staw"
 
-#: koeventeditor.cpp:375
+#: koeventeditor.cpp:378 kotodoeditor.cpp:357
+msgctxt "@info"
+msgid "This item will be permanently deleted."
+msgstr ""
+
+#: koeventeditor.cpp:380
+#, fuzzy
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "Titl"
+
+#: koeventeditor.cpp:387
+msgctxt "@info"
 msgid "Template does not contain a valid event."
 msgstr ""
 
-#: kotodoeditor.cpp:184
-msgid "Edit To-do"
-msgstr ""
-
-#: kotodoeditor.cpp:192
+#: kotodoeditor.cpp:96
 #, fuzzy
+#| msgid "General"
+msgctxt "@title:tab general to-do settings"
+msgid "General"
+msgstr "Powšitkownje"
+
+#: kotodoeditor.cpp:128
+#, fuzzy
+msgctxt "@title:tab general to-do settings"
+msgid "&General"
+msgstr "Powšitkownje"
+
+#: kotodoeditor.cpp:185
+#, fuzzy
+msgctxt "@title:window"
+msgid "Edit To-do"
+msgstr "&wobdźěłać"
+
+#: kotodoeditor.cpp:193
+#, fuzzy
+msgctxt "@title:window"
 msgid "New To-do"
 msgstr "Na:"
 
-#: kotodoeditor.cpp:360
+#: kotodoeditor.cpp:375
+msgctxt "@info"
 msgid "Template does not contain a valid to-do."
 msgstr ""
 
@@ -8629,6 +8977,9 @@ msgstr ""
 #: koagenda.cpp:1145
 msgid "Unable to add the future items to the calendar. No change will be done."
 msgstr ""
+
+#~ msgid "Status"
+#~ msgstr "Staw:"
 
 #~ msgid "Owner:"
 #~ msgstr "Wobsydnik:"
