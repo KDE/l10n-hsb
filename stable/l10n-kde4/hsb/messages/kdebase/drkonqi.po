@@ -1,0 +1,267 @@
+# translation of drkonqi.po to
+# Copyright (C) 2003, 2004, 2005, 2007 Free Software Foundation, Inc.
+#
+# Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>, 2003, 2004.
+# Eduard Werner <edi.werner@gmx.de>, 2005.
+# Eduard Werner/Edward Wornar <edi.werner@gmx.de>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: drkonqi\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-12-23 06:21+0100\n"
+"PO-Revision-Date: 2007-05-06 18:32+0200\n"
+"Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
+"Language-Team:  <hsb@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
+"100==4 ? 2 : 3;\n"
+
+#: backtrace.cpp:80
+#, kde-format
+msgid "Could not generate a backtrace as the debugger '%1' was not found."
+msgstr "Njemóžach backtrace stworić, dokelž njejsym debugger '%1' namakał."
+
+#: debugger.cpp:75
+msgid "C&opy"
+msgstr "K&opěrować"
+
+#: debugger.cpp:96
+msgid "Done."
+msgstr "Hotowo."
+
+#: debugger.cpp:121
+#, kde-format
+msgid "Backtrace saved to %1"
+msgstr "Backtrace zawěsćene w %1"
+
+#: debugger.cpp:125
+msgid "Cannot create a file to save the backtrace in"
+msgstr "Njemóžu dataju stworić za zawěsćenje backtracea"
+
+#: debugger.cpp:130
+msgid "Select Filename"
+msgstr "Mjeno dataje wubrać"
+
+#: debugger.cpp:138
+#, kde-format
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr "Dataja z mjenom \"%1\" hižo eksistuje. Chceće ju woprawdźe přepisać?"
+
+#: debugger.cpp:140
+msgid "Overwrite File?"
+msgstr "Dataju přepisać?"
+
+#: debugger.cpp:141
+msgid "&Overwrite"
+msgstr "&Přepisać"
+
+#: debugger.cpp:153
+#, kde-format
+msgid "Cannot open file %1 for writing"
+msgstr "Njemóžu do dataje %1 pisać"
+
+#: debugger.cpp:161
+msgid "Unable to create a valid backtrace."
+msgstr "Njemóžu korektny backtrace stworić."
+
+#: debugger.cpp:162
+msgid ""
+"This backtrace appears to be of no use.\n"
+"This is probably because your packages are built in a way which prevents "
+"creation of proper backtraces, or the stack frame was seriously corrupted in "
+"the crash.\n"
+"\n"
+msgstr ""
+"Tutón backtrace njeje wužitny.\n"
+"Najskerje to na tym zaleži, zo su waše pakćiki tak stworjene, zo njehodźi so "
+"korektny backtrace stworić, abo stack bu zničeny.\n"
+"\n"
+
+#: debugger.cpp:171
+msgid "Loading backtrace..."
+msgstr "Čitam backtrace..."
+
+#: debugger.cpp:194
+msgid ""
+"The following options are enabled:\n"
+"\n"
+msgstr ""
+"Slědowace opcije su wubrane:\n"
+"\n"
+
+#: debugger.cpp:196
+msgid ""
+"\n"
+"As the usage of these options is not recommended - because they can, in rare "
+"cases, be responsible for KDE problems - a backtrace will not be generated.\n"
+"You need to turn these options off and reproduce the problem again in order "
+"to get a backtrace.\n"
+msgstr ""
+"\n"
+"Dokelž so wužiwanje tutych opcijow njedoporuči - w rědkich padach móža "
+"problemy z KDE zawinić - so backtrace njegeneruje.\n"
+"Dyrbiće tute opcije hasnyć a problem bjez nich měć, chceće-li backtrace "
+"dóstać.\n"
+
+#: debugger.cpp:201
+msgid "Backtrace will not be created."
+msgstr "Backtrace so njestwori."
+
+#: debugger.cpp:209
+msgid "Loading symbols..."
+msgstr "Čitam symbole ..."
+
+#: debugger.cpp:230
+msgid "System configuration startup check disabled.\n"
+msgstr "Žane přepruwowanje systemoweje konfiguracije při startowanju.\n"
+
+#: drbugreport.cpp:53
+msgid "You have to edit the description before the report can be sent."
+msgstr "Dyrbiće wopisanje připrawić, prjedy hač móže so rozprawa wotpósłać."
+
+#: krashconf.cpp:78
+msgid "unknown"
+msgstr "njeznate"
+
+#: main.cpp:43
+msgid "KDE crash handler gives the user feedback if a program crashed"
+msgstr ""
+"KDE Crash Handler wužiwarjej informacije podawa, hdyž je so program pójsnył."
+
+#: main.cpp:59
+msgid "The KDE Crash Handler"
+msgstr "KDE Crash Handler"
+
+#: main.cpp:63
+msgid "(C) 2000-2003, Hans Petter Bieker"
+msgstr ""
+
+#: main.cpp:64
+msgid "Hans Petter Bieker"
+msgstr ""
+
+#: main.cpp:69
+msgid "The signal number that was caught"
+msgstr "Čisło signala, kiž je program dóstał"
+
+#: main.cpp:70
+msgid "Name of the program"
+msgstr "Mjeno programa"
+
+#: main.cpp:71
+msgid "Path to the executable"
+msgstr "Puć k programej"
+
+#: main.cpp:72
+msgid "The version of the program"
+msgstr "Wersija programa"
+
+#: main.cpp:73
+msgid "The bug address to use"
+msgstr "Adresa za zmylki, kiž ma so wužiwać"
+
+#: main.cpp:74
+msgid "Translated name of the program"
+msgstr "Přełožene mjeno programa"
+
+#: main.cpp:75
+msgid "The PID of the program"
+msgstr "PID programa"
+
+#: main.cpp:76
+msgid "Startup ID of the program"
+msgstr "Startowanska ID programa"
+
+#: main.cpp:77
+msgid "The program was started by kdeinit"
+msgstr "Program bu wot kdeinit startowany"
+
+#: main.cpp:78
+msgid "Disable arbitrary disk access"
+msgstr "Arbitrarny přistup na disk znjemóžnić"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Edward Wornar"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "e.werner@rz.uni-leipzig.de"
+
+#: toplevel.cpp:64
+msgid "&Bug report"
+msgstr "&Rozprawa wo zmylku"
+
+#: toplevel.cpp:65
+msgid "&Debugger"
+msgstr "&Debugger"
+
+#: toplevel.cpp:71
+msgid "General"
+msgstr "Powšitkownje"
+
+#: toplevel.cpp:95
+msgid "Backtrace"
+msgstr "Backtrace"
+
+#: toplevel.cpp:119
+#, kde-format
+msgid "<p><b>Short description</b></p><p>%1</p>"
+msgstr "<p><b>Krótke wopisanje</b></p><p>%1</p>"
+
+#: toplevel.cpp:123
+#, kde-format
+msgid "<p><b>What is this?</b></p><p>%1</p>"
+msgstr "<p><b>Što to je?</b></p><p>%1</p>"
+
+#: toplevel.cpp:127
+#, kde-format
+msgid "<p><b>What can I do?</b></p><p>%1</p>"
+msgstr "<p><b>Što móžu ja činić?</b></p><p>%1</p>"
+
+#: toplevel.cpp:132
+#, c-format
+msgid "<p><b>Application crashed</b></p><p>The program %appname crashed.</p>"
+msgstr "<p><b>Program so pójsnył</b></p><p>Program %appname je so pójsnył.</p>"
+
+#: toplevel.cpp:151
+msgid ""
+"<p>Do you want to generate a backtrace? This will help the developers to "
+"figure out what went wrong.</p>\n"
+"<p>Unfortunately this will take some time on slow machines.</p><p><b>Note: A "
+"backtrace is not a substitute for a proper description of the bug and "
+"information on how to reproduce it. It is not possible to fix the bug "
+"without a proper description.</b></p>"
+msgstr ""
+"<p>Chceće backtrace stworić? To budźe wuwiwarjam pomhać, zo bychu zwěsćili, "
+"što njeje fungowało.</p>\n"
+"<p>Bohužel to na pomałkim computeru trochu traje.</p><p><b>Kedźbu: Backtrace "
+"njenaruna dokładne wopisanje zmylka a informaciju, kak hodźi so zmylk "
+"prowokować. Bjez dokładneho wopisanja njebudźe móžno, zmylk wotstronić.</b></"
+"p>"
+
+#: toplevel.cpp:163
+msgid "Include Backtrace"
+msgstr "Dodaj backtrace"
+
+#: toplevel.cpp:163
+msgid "Generate"
+msgstr "Stworić"
+
+#: toplevel.cpp:163
+msgid "Do Not Generate"
+msgstr "Nic stworić"
+
+#: toplevel.cpp:230
+msgid "It was not possible to generate a backtrace."
+msgstr "Njebě móžno, backtrace stworić."
+
+#: toplevel.cpp:231
+msgid "Backtrace Not Possible"
+msgstr "Backtrace njeje móžny"
