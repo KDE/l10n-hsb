@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-20 08:55+0100\n"
+"POT-Creation-Date: 2008-01-21 07:41+0100\n"
 "PO-Revision-Date: 2007-06-18 11:34+0200\n"
 "Last-Translator: Bianka Šwejdźic <hertn@gmx.de>\n"
 "Language-Team: Upper Sorbian <hsb@li.org>\n"
@@ -612,7 +612,7 @@ msgstr "&Sunyć"
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 100
 #. i18n: tag text
 #. i18n: file ./khtml/khtml_browser.rc line 20
-#: rc.cpp:237 rc.cpp:378 kfile/kdiroperator.cpp:1618
+#: rc.cpp:237 rc.cpp:378 kfile/kdiroperator.cpp:1648
 msgid "&View"
 msgstr "&Napohlad"
 
@@ -3227,13 +3227,13 @@ msgctxt "@item Calendar system"
 msgid "Invalid Calendar Type"
 msgstr "njekorektne opcije"
 
-#: kdecore/date/kdatetime.cpp:1467 kdecore/date/kdatetime.cpp:1477
-#: kdecore/date/kdatetime.cpp:2814 kdecore/localization/klocale.cpp:1713
+#: kdecore/date/kdatetime.cpp:1466 kdecore/date/kdatetime.cpp:1476
+#: kdecore/date/kdatetime.cpp:2813 kdecore/localization/klocale.cpp:1713
 #: kdecore/localization/klocale.cpp:1839
 msgid "am"
 msgstr "rano"
 
-#: kdecore/date/kdatetime.cpp:2822 kdecore/localization/klocale.cpp:1704
+#: kdecore/date/kdatetime.cpp:2821 kdecore/localization/klocale.cpp:1704
 #: kdecore/localization/klocale.cpp:1837
 msgid "pm"
 msgstr "popołdnju"
@@ -5743,7 +5743,7 @@ msgstr "Wotstronić"
 msgid "Test"
 msgstr "Test"
 
-#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1611
+#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1641
 msgid "Properties"
 msgstr "Swójstwa"
 
@@ -7814,25 +7814,43 @@ msgctxt "@action:button"
 msgid "&Finished"
 msgstr "&Zakónčene"
 
+#: kdeui/sonnet/dialog.cpp:156
+#, fuzzy
+#| msgid "Spell Checker"
+msgid "Spell check stopped."
+msgstr "Prawopisny program"
+
+#: kdeui/sonnet/dialog.cpp:164
+#, fuzzy
+#| msgid "Spell Checker"
+msgid "Spell check canceled."
+msgstr "Prawopisny program"
+
+#: kdeui/sonnet/dialog.cpp:298
+#, fuzzy
+#| msgid "Spell Checker"
+msgid "Spell check complete."
+msgstr "Prawopisny program"
+
 #: kdeui/sonnet/configdialog.cpp:42
 #, fuzzy
 #| msgid "KSpell2 Configuration"
 msgid "Sonnet Configuration"
 msgstr "Konfiguracija za KSpell2"
 
-#: kdeui/sonnet/highlighter.cpp:222 kdeui/sonnet/highlighter.cpp:243
+#: kdeui/sonnet/highlighter.cpp:221 kdeui/sonnet/highlighter.cpp:242
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:470
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:576
 msgid "As-you-type spell checking enabled."
 msgstr "Přepruwuje hnydom při zapodawanju"
 
-#: kdeui/sonnet/highlighter.cpp:224
+#: kdeui/sonnet/highlighter.cpp:223
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:578
 msgid "Too many misspelled words. As-you-type spell checking disabled."
 msgstr ""
 "Přewjele wopak pismikowanych słowow. Inkrementelne přepruwowanje hasnjene."
 
-#: kdeui/sonnet/highlighter.cpp:245
+#: kdeui/sonnet/highlighter.cpp:244
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:472
 msgid "As-you-type spell checking disabled."
 msgstr "Žane přepruwowanje při zapodawanju"
@@ -9179,19 +9197,19 @@ msgstr "Kónčina"
 msgid "Comment"
 msgstr "Komentar"
 
-#: kdeui/widgets/ktextedit.cpp:320 kde3support/kdeui/k3textedit.cpp:232
+#: kdeui/widgets/ktextedit.cpp:326 kde3support/kdeui/k3textedit.cpp:232
 msgid "Check Spelling..."
 msgstr "Přepruwuj prawopis ..."
 
-#: kdeui/widgets/ktextedit.cpp:325 kde3support/kdeui/k3textedit.cpp:238
+#: kdeui/widgets/ktextedit.cpp:331 kde3support/kdeui/k3textedit.cpp:238
 msgid "Auto Spell Check"
 msgstr "Awtomatiska prawopisna korektura"
 
-#: kdeui/widgets/ktextedit.cpp:330 kde3support/kdeui/k3textedit.cpp:242
+#: kdeui/widgets/ktextedit.cpp:336 kde3support/kdeui/k3textedit.cpp:242
 msgid "Allow Tabulations"
 msgstr "Tabulatory dowolić"
 
-#: kdeui/widgets/ktextedit.cpp:436
+#: kdeui/widgets/ktextedit.cpp:442
 #, fuzzy
 #| msgid "Auto Spell Check"
 msgid "Nothing to spell check."
@@ -9485,24 +9503,24 @@ msgid "Custom Path"
 msgstr "Po wužiwarju"
 
 #: kfile/kdirselectdialog.cpp:115 kfile/kdirselectdialog.cpp:119
-#: kfile/kdiroperator.cpp:640 kfile/kdiroperator.cpp:648
+#: kfile/kdiroperator.cpp:642 kfile/kdiroperator.cpp:650
 #, fuzzy
 msgid "New Folder"
 msgstr "Nowa dataja."
 
-#: kfile/kdirselectdialog.cpp:120 kfile/kdiroperator.cpp:649
+#: kfile/kdirselectdialog.cpp:120 kfile/kdiroperator.cpp:651
 #, kde-format
 msgid ""
 "Create new folder in:\n"
 "%1"
 msgstr ""
 
-#: kfile/kdirselectdialog.cpp:143 kfile/kdiroperator.cpp:675
+#: kfile/kdirselectdialog.cpp:143 kfile/kdiroperator.cpp:677
 #, kde-format
 msgid "A file or folder named %1 already exists."
 msgstr ""
 
-#: kfile/kdirselectdialog.cpp:147 kfile/kdiroperator.cpp:678
+#: kfile/kdirselectdialog.cpp:147 kfile/kdiroperator.cpp:680
 msgid "You do not have permission to create that folder."
 msgstr ""
 
@@ -9512,7 +9530,7 @@ msgid "Select Folder"
 msgstr "Barbu wubrać"
 
 #: kfile/kdirselectdialog.cpp:225 kfile/kdirselectdialog.cpp:261
-#: kfile/kdiroperator.cpp:1540
+#: kfile/kdiroperator.cpp:1570
 #, fuzzy
 msgid "New Folder..."
 msgstr "Nowa dataja."
@@ -9569,27 +9587,27 @@ msgid ""
 "entry will be available in all applications.</qt>"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:693
+#: kfile/kdiroperator.cpp:695
 msgid "You did not select a file to delete."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:694
+#: kfile/kdiroperator.cpp:696
 msgid "Nothing to Delete"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:715
+#: kfile/kdiroperator.cpp:717
 #, fuzzy, kde-format
 msgid ""
 "<qt>Do you really want to delete\n"
 " <b>'%1'</b>?</qt>"
 msgstr "<qt>Chceće woprawdźe <b>%1</b> wopušćić?</qt>"
 
-#: kfile/kdiroperator.cpp:717
+#: kfile/kdiroperator.cpp:719
 #, fuzzy
 msgid "Delete File"
 msgstr "Wšě zničić"
 
-#: kfile/kdiroperator.cpp:722
+#: kfile/kdiroperator.cpp:724
 #, fuzzy, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
@@ -9598,38 +9616,38 @@ msgstr[1] "Chceće woprawdźe '%1' startować?"
 msgstr[2] "Chceće woprawdźe '%1' startować?"
 msgstr[3] "Chceće woprawdźe '%1' startować?"
 
-#: kfile/kdiroperator.cpp:724
+#: kfile/kdiroperator.cpp:726
 #, fuzzy
 msgid "Delete Files"
 msgstr "Elementy zničić"
 
-#: kfile/kdiroperator.cpp:755
+#: kfile/kdiroperator.cpp:757
 msgid "You did not select a file to trash."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:756
+#: kfile/kdiroperator.cpp:758
 msgid "Nothing to Trash"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:773
+#: kfile/kdiroperator.cpp:775
 #, fuzzy, kde-format
 msgid ""
 "<qt>Do you really want to trash\n"
 " <b>'%1'</b>?</qt>"
 msgstr "<qt>Chceće woprawdźe <b>%1</b> wopušćić?</qt>"
 
-#: kfile/kdiroperator.cpp:775
+#: kfile/kdiroperator.cpp:777
 #, fuzzy
 msgid "Trash File"
 msgstr "Papjernik"
 
-#: kfile/kdiroperator.cpp:776 kfile/kdiroperator.cpp:783
+#: kfile/kdiroperator.cpp:778 kfile/kdiroperator.cpp:785
 #, fuzzy
 msgctxt "to trash"
 msgid "&Trash"
 msgstr "Papjernik"
 
-#: kfile/kdiroperator.cpp:780
+#: kfile/kdiroperator.cpp:782
 #, kde-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
@@ -9638,85 +9656,85 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: kfile/kdiroperator.cpp:782
+#: kfile/kdiroperator.cpp:784
 #, fuzzy
 msgid "Trash Files"
 msgstr "Dataje"
 
-#: kfile/kdiroperator.cpp:905 kfile/kdiroperator.cpp:1018
+#: kfile/kdiroperator.cpp:907 kfile/kdiroperator.cpp:1020
 msgid "The specified folder does not exist or was not readable."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1523
+#: kfile/kdiroperator.cpp:1553
 #, fuzzy
 msgid "Menu"
 msgstr "Meni"
 
-#: kfile/kdiroperator.cpp:1527
+#: kfile/kdiroperator.cpp:1557
 #, fuzzy
 msgid "Parent Folder"
 msgstr "Hłójčku ćišćeć"
 
-#: kfile/kdiroperator.cpp:1534
+#: kfile/kdiroperator.cpp:1564
 #, fuzzy
 msgid "Home Folder"
 msgstr "Telefon doma"
 
-#: kfile/kdiroperator.cpp:1537
+#: kfile/kdiroperator.cpp:1567
 msgid "Reload"
 msgstr "Znowa začitać"
 
-#: kfile/kdiroperator.cpp:1545
+#: kfile/kdiroperator.cpp:1575
 msgid "Move to Trash"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1551
+#: kfile/kdiroperator.cpp:1581
 msgid "Delete"
 msgstr "Zničić"
 
-#: kfile/kdiroperator.cpp:1558
+#: kfile/kdiroperator.cpp:1588
 #, fuzzy
 msgid "Sorting"
 msgstr "Rjadowanski kluč"
 
-#: kfile/kdiroperator.cpp:1561
+#: kfile/kdiroperator.cpp:1591
 #, fuzzy
 msgid "By Name"
 msgstr "Mjeno"
 
-#: kfile/kdiroperator.cpp:1565
+#: kfile/kdiroperator.cpp:1595
 #, fuzzy
 msgid "By Size"
 msgstr "Wulkosć"
 
-#: kfile/kdiroperator.cpp:1569
+#: kfile/kdiroperator.cpp:1599
 #, fuzzy
 msgid "By Date"
 msgstr "Terminy"
 
-#: kfile/kdiroperator.cpp:1573
+#: kfile/kdiroperator.cpp:1603
 msgid "By Type"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1577
+#: kfile/kdiroperator.cpp:1607
 msgid "Descending"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1587
+#: kfile/kdiroperator.cpp:1617
 msgid "Short View"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1592
+#: kfile/kdiroperator.cpp:1622
 #, fuzzy
 msgid "Detailed View"
 msgstr "Nadrobnosće"
 
-#: kfile/kdiroperator.cpp:1601
+#: kfile/kdiroperator.cpp:1631
 #, fuzzy
 msgid "Show Hidden Files"
 msgstr "&Dataje pósłać"
 
-#: kfile/kdiroperator.cpp:1605
+#: kfile/kdiroperator.cpp:1635
 msgid "Show Preview"
 msgstr ""
 
