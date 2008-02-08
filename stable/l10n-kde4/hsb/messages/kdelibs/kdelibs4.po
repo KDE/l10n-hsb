@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-06 07:55+0100\n"
+"POT-Creation-Date: 2008-02-08 07:57+0100\n"
 "PO-Revision-Date: 2007-06-18 11:34+0200\n"
 "Last-Translator: Bianka Šwejdźic <hertn@gmx.de>\n"
 "Language-Team: Upper Sorbian <hsb@li.org>\n"
@@ -5520,7 +5520,7 @@ msgstr "&OK"
 msgid "&Cancel"
 msgstr "&Přetorhnyć"
 
-#: kdeui/util/kstandardguiitem.cpp:116 khtml/java/kjavaappletserver.cpp:849
+#: kdeui/util/kstandardguiitem.cpp:116 khtml/java/kjavaappletserver.cpp:817
 msgid "&Yes"
 msgstr "&Haj"
 
@@ -5528,7 +5528,7 @@ msgstr "&Haj"
 msgid "Yes"
 msgstr "Haj"
 
-#: kdeui/util/kstandardguiitem.cpp:121 khtml/java/kjavaappletserver.cpp:842
+#: kdeui/util/kstandardguiitem.cpp:121 khtml/java/kjavaappletserver.cpp:810
 msgid "&No"
 msgstr "&Ně"
 
@@ -8965,7 +8965,7 @@ msgstr ""
 msgid "Separator, Space"
 msgstr "Započeć narunać"
 
-#: kdeui/widgets/kcharselectdata.cpp:530 khtml/java/kjavaappletserver.cpp:697
+#: kdeui/widgets/kcharselectdata.cpp:530
 msgid "Unknown"
 msgstr "Njeznate"
 
@@ -10491,7 +10491,7 @@ msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr ""
 "<qt>Přistup na <br><b>%1</b><br> přez njepřepruwowanu stronu wotpokazany."
 
-#: khtml/khtml_part.cpp:6891 khtml/java/kjavaappletserver.cpp:823
+#: khtml/khtml_part.cpp:6891 khtml/java/kjavaappletserver.cpp:791
 msgid "Security Alert"
 msgstr "Wěstotny alarm"
 
@@ -11076,82 +11076,30 @@ msgid "Error: java executable not found"
 msgstr "Zmylk: njejsym java-program namakał"
 
 #: khtml/java/kjavaappletserver.cpp:663
-msgid "Signed by (validation: "
+#, fuzzy, kde-format
+#| msgid "Signed by (validation: "
+msgid "Signed by (validation: %1)"
 msgstr "Podpisane wot (přepruwowanje: "
 
 #: khtml/java/kjavaappletserver.cpp:665
-msgid "Certificate (validation: "
+#, fuzzy, kde-format
+#| msgid "Certificate (validation: "
+msgid "Certificate (validation: %1)"
 msgstr "Certifikat (přepruwowanje: "
 
-#: khtml/java/kjavaappletserver.cpp:668
-msgid "Ok"
-msgstr "OK"
-
-#: khtml/java/kjavaappletserver.cpp:670
-msgid "NoCARoot"
-msgstr "Žadyn CARoot"
-
-#: khtml/java/kjavaappletserver.cpp:672
-msgid "InvalidPurpose"
-msgstr "Njekorektny zaměr"
-
-#: khtml/java/kjavaappletserver.cpp:674
-msgid "PathLengthExceeded"
-msgstr "Předołhi puć"
-
-#: khtml/java/kjavaappletserver.cpp:676
-msgid "InvalidCA"
-msgstr "Njekorektny CA"
-
-#: khtml/java/kjavaappletserver.cpp:678
-msgid "Expired"
-msgstr "hižo njepłaći"
-
-#: khtml/java/kjavaappletserver.cpp:680
-msgid "SelfSigned"
-msgstr "wot serwera samoho podpisane"
-
-#: khtml/java/kjavaappletserver.cpp:682
-msgid "ErrorReadingRoot"
-msgstr "ErrorReadingRoot"
-
-#: khtml/java/kjavaappletserver.cpp:684
-msgid "Revoked"
-msgstr "zběhnjene"
-
-#: khtml/java/kjavaappletserver.cpp:686
-msgid "Untrusted"
-msgstr "njewěsty"
-
-#: khtml/java/kjavaappletserver.cpp:688
-msgid "SignatureFailed"
-msgstr "signatura zwrěšćena"
-
-#: khtml/java/kjavaappletserver.cpp:690
-msgid "Rejected"
-msgstr "Wotpokazane"
-
-#: khtml/java/kjavaappletserver.cpp:692
-msgid "PrivateKeyFailed"
-msgstr "Priwatny kluč zwrěšćił."
-
-#: khtml/java/kjavaappletserver.cpp:694
-msgid "InvalidHost"
-msgstr "Njekorektny serwer"
-
-#: khtml/java/kjavaappletserver.cpp:830
+#: khtml/java/kjavaappletserver.cpp:798
 msgid "Do you grant Java applet with certificate(s):"
 msgstr "Chceće certifikowany Java-miniprogram dowolić:"
 
-#: khtml/java/kjavaappletserver.cpp:832
+#: khtml/java/kjavaappletserver.cpp:800
 msgid "the following permission"
 msgstr "slědowacu dowolnosć"
 
-#: khtml/java/kjavaappletserver.cpp:846
+#: khtml/java/kjavaappletserver.cpp:814
 msgid "&Reject All"
 msgstr "&Wšě wotpokazać"
 
-#: khtml/java/kjavaappletserver.cpp:852
+#: khtml/java/kjavaappletserver.cpp:820
 msgid "&Grant All"
 msgstr "&Wšě akceptować"
 
@@ -12862,6 +12810,48 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br>Unicode kodowy dypk: U+%3<br>"
 "(decimalnje: %4)<br>(Pismik: %5)</qt>"
+
+#~ msgid "Ok"
+#~ msgstr "OK"
+
+#~ msgid "NoCARoot"
+#~ msgstr "Žadyn CARoot"
+
+#~ msgid "InvalidPurpose"
+#~ msgstr "Njekorektny zaměr"
+
+#~ msgid "PathLengthExceeded"
+#~ msgstr "Předołhi puć"
+
+#~ msgid "InvalidCA"
+#~ msgstr "Njekorektny CA"
+
+#~ msgid "Expired"
+#~ msgstr "hižo njepłaći"
+
+#~ msgid "SelfSigned"
+#~ msgstr "wot serwera samoho podpisane"
+
+#~ msgid "ErrorReadingRoot"
+#~ msgstr "ErrorReadingRoot"
+
+#~ msgid "Revoked"
+#~ msgstr "zběhnjene"
+
+#~ msgid "Untrusted"
+#~ msgstr "njewěsty"
+
+#~ msgid "SignatureFailed"
+#~ msgstr "signatura zwrěšćena"
+
+#~ msgid "Rejected"
+#~ msgstr "Wotpokazane"
+
+#~ msgid "PrivateKeyFailed"
+#~ msgstr "Priwatny kluč zwrěšćił."
+
+#~ msgid "InvalidHost"
+#~ msgstr "Njekorektny serwer"
 
 #~ msgid "Rating"
 #~ msgstr "Hódnoćenje"
