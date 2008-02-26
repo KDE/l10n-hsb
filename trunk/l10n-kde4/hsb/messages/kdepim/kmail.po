@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-25 13:34+0100\n"
+"POT-Creation-Date: 2008-02-26 14:47+0100\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -465,7 +465,7 @@ msgstr "&Papjernik:"
 
 #: accountdialog.cpp:1032
 #, fuzzy
-msgid "Use Default Identity"
+msgid "Use default identity"
 msgstr "Wotst&ronić"
 
 #: accountdialog.cpp:1038
@@ -983,15 +983,14 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file customtemplates_base.ui line 86
-#: attachmentlistview.cpp:47 configuredialog.cpp:2390 configuredialog.cpp:3602
-#: distributionlistdialog.cpp:125 favoritefolderview.cpp:463 rc.cpp:59
-#: recipientspicker.cpp:367
+#: attachmentlistview.cpp:47 configuredialog.cpp:3602
+#: distributionlistdialog.cpp:125 rc.cpp:59 recipientspicker.cpp:367
 msgid "Name"
 msgstr "Mjeno"
 
 #: attachmentlistview.cpp:47 kmfoldertree.cpp:1758 kmheaders.cpp:168
-#: kmheaders.cpp:217 kmmainwidget.cpp:604 kmmainwidget.cpp:611
-#: kmmainwidget.cpp:618 kmmimeparttree.cpp:64 kmpopfiltercnfrmdlg.cpp:54
+#: kmheaders.cpp:217 kmmainwidget.cpp:588 kmmainwidget.cpp:595
+#: kmmainwidget.cpp:602 kmmimeparttree.cpp:64 kmpopfiltercnfrmdlg.cpp:54
 msgid "Size"
 msgstr "Wulkosć"
 
@@ -1543,7 +1542,7 @@ msgid "Recycle colors on deep &quoting"
 msgstr "Za dalše runiny citowanja prjedawše barby &znowa wužiwać"
 
 #: configuredialog.cpp:1527
-msgid "Close to quota threshold"
+msgid "Close to quota threshold:"
 msgstr ""
 
 #: configuredialog.cpp:1535
@@ -1834,26 +1833,33 @@ msgstr ""
 msgid "Ta&g Settings"
 msgstr "&Pósłanje"
 
+#: configuredialog.cpp:2390 favoritefolderview.cpp:464
+#, fuzzy
+msgid "Name:"
+msgstr "&Mjeno:"
+
 #: configuredialog.cpp:2398
-msgid "Change Te&xt Color"
+msgid "Change te&xt color:"
 msgstr ""
 
 #: configuredialog.cpp:2413
 #, fuzzy
-msgid "Change Fo&nt"
+msgid "Change fo&nt:"
 msgstr "Wužiwaj &kodowanje"
 
 #: configuredialog.cpp:2432
 #, fuzzy
-msgid "Message Tag &Icon"
+msgid "Message tag &icon:"
 msgstr "Lisćina powěsćow"
 
-#: configuredialog.cpp:2445
-msgid "Shortc&ut"
+#. i18n: tag string
+#. i18n: file customtemplates_base.ui line 168
+#: configuredialog.cpp:2445 rc.cpp:74
+msgid "Shortc&ut:"
 msgstr ""
 
 #: configuredialog.cpp:2460
-msgid "Enable &Toolbar Button"
+msgid "Enable &toolbar button"
 msgstr ""
 
 #: configuredialog.cpp:2802
@@ -2953,12 +2959,12 @@ msgstr "&Nowy Zapisk..."
 msgid "Remove From Favorites"
 msgstr "Citowanske pismiki z&ničić"
 
-#: favoritefolderview.cpp:374 favoritefolderview.cpp:463
+#: favoritefolderview.cpp:374
 #, fuzzy
-msgid "Rename Favorite"
+msgid "Rename Favorite..."
 msgstr "&Filter stworić"
 
-#: favoritefolderview.cpp:387 kmfoldertree.cpp:1157 kmmainwidget.cpp:2863
+#: favoritefolderview.cpp:387 kmfoldertree.cpp:1157 kmmainwidget.cpp:2847
 #, fuzzy
 msgid "&Assign Shortcut..."
 msgstr "S&krótšenki konfigurować..."
@@ -2974,17 +2980,22 @@ msgstr "&Stare zwumjetać"
 msgid "Add Favorite Folder..."
 msgstr "&Nowy Zapisk..."
 
-#: favoritefolderview.cpp:480
+#: favoritefolderview.cpp:464
+#, fuzzy
+msgid "Rename Favorite"
+msgstr "&Filter stworić"
+
+#: favoritefolderview.cpp:481
 #, fuzzy
 msgid "Local Inbox"
 msgstr "&Lokalny póštowy kašćik"
 
-#: favoritefolderview.cpp:482
+#: favoritefolderview.cpp:483
 #, kde-format
 msgid "Inbox of %1"
 msgstr ""
 
-#: favoritefolderview.cpp:486
+#: favoritefolderview.cpp:487
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "%1: name; %2: number appended to it to make it unique among a list of "
@@ -2993,7 +3004,7 @@ msgstr ""
 msgid "%1 on %2"
 msgstr "%1 %2"
 
-#: favoritefolderview.cpp:488
+#: favoritefolderview.cpp:489
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "%1: identity name. Used in the config dialog, section Identity, to "
@@ -3002,7 +3013,7 @@ msgstr "%1 %2"
 msgid "%1 (local)"
 msgstr "%1 (standard)"
 
-#: favoritefolderview.cpp:528
+#: favoritefolderview.cpp:529
 #, fuzzy
 msgid "Add Favorite Folder"
 msgstr "&Nowy Zapisk..."
@@ -3100,7 +3111,7 @@ msgid ""
 msgstr ""
 
 #: filterlogdlg.cpp:271 kmcommands.cpp:2612 kmcommands.cpp:2637
-#: kmmainwidget.cpp:1938 kmmainwidget.cpp:1949 urlhandlermanager.cpp:442
+#: kmmainwidget.cpp:1922 kmmainwidget.cpp:1933 urlhandlermanager.cpp:442
 msgid "KMail Error"
 msgstr "Zmylk w kmailu"
 
@@ -3325,7 +3336,7 @@ msgid "Unknown"
 msgstr "Njeznaju"
 
 #: headeritem.cpp:176 headerstyle.cpp:121 headerstyle.cpp:219
-#: headerstyle.cpp:419 headerstyle.cpp:556 kmmainwidget.cpp:1205
+#: headerstyle.cpp:419 headerstyle.cpp:556 kmmainwidget.cpp:1189
 #: kmpopfiltercnfrmdlg.cpp:405
 msgid "No Subject"
 msgstr "Žana tema"
@@ -4719,7 +4730,7 @@ msgstr ""
 "Njemóžach do dataje pisać:\n"
 "%1"
 
-#: kmcommands.cpp:3044 kmcomposewin.cpp:4501 objecttreeparser.cpp:1641
+#: kmcommands.cpp:3044 kmcomposewin.cpp:4508 objecttreeparser.cpp:1641
 msgid ""
 "Chiasmus backend does not offer the \"x-obtain-keys\" function. Please "
 "report this bug."
@@ -4727,19 +4738,19 @@ msgstr ""
 
 #: kmcommands.cpp:3046 kmcommands.cpp:3051 kmcommands.cpp:3060
 #: kmcommands.cpp:3069 kmcommands.cpp:3087 kmcommands.cpp:3098
-#: kmcommands.cpp:3138 kmcomposewin.cpp:4503 kmcomposewin.cpp:4508
-#: kmcomposewin.cpp:4517 messagecomposer.cpp:594 messagecomposer.cpp:602
+#: kmcommands.cpp:3138 kmcomposewin.cpp:4510 kmcomposewin.cpp:4515
+#: kmcomposewin.cpp:4524 messagecomposer.cpp:594 messagecomposer.cpp:602
 #: messagecomposer.cpp:616 objecttreeparser.cpp:1647
 msgid "Chiasmus Backend Error"
 msgstr ""
 
-#: kmcommands.cpp:3057 kmcomposewin.cpp:4514 objecttreeparser.cpp:1653
+#: kmcommands.cpp:3057 kmcomposewin.cpp:4521 objecttreeparser.cpp:1653
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-obtain-keys\" "
 "function did not return a string list. Please report this bug."
 msgstr ""
 
-#: kmcommands.cpp:3066 kmcomposewin.cpp:4523 objecttreeparser.cpp:1661
+#: kmcommands.cpp:3066 kmcomposewin.cpp:4530 objecttreeparser.cpp:1661
 msgid ""
 "No keys have been found. Please check that a valid key path has been set in "
 "the Chiasmus configuration."
@@ -5506,61 +5517,61 @@ msgstr "Wobkrućenje dochada"
 msgid "&Send Now"
 msgstr "&Nětko pósłać"
 
-#: kmcomposewin.cpp:4023
+#: kmcomposewin.cpp:4030
 #, fuzzy
 msgid "Spellcheck: on"
 msgstr "Prawopisny program"
 
-#: kmcomposewin.cpp:4025
+#: kmcomposewin.cpp:4032
 #, fuzzy
 msgid "Spellcheck: off"
 msgstr "Prawopisny program"
 
-#: kmcomposewin.cpp:4488
+#: kmcomposewin.cpp:4495
 msgid ""
 "Please configure a Crypto Backend to use for Chiasmus encryption first.\n"
 "You can do this in the Crypto Backends tab of the configure dialog's "
 "Security page."
 msgstr ""
 
-#: kmcomposewin.cpp:4492
+#: kmcomposewin.cpp:4499
 msgid ""
 "It looks as though libkleopatra was compiled without Chiasmus support. You "
 "might want to recompile libkleopatra with --enable-chiasmus."
 msgstr ""
 
-#: kmcomposewin.cpp:4495
+#: kmcomposewin.cpp:4502
 msgid "No Chiasmus Backend Configured"
 msgstr ""
 
-#: kmcomposewin.cpp:4526
+#: kmcomposewin.cpp:4533
 #, fuzzy
 msgid "No Chiasmus Keys Found"
 msgstr "Žana signatura"
 
-#: kmcomposewin.cpp:4530
+#: kmcomposewin.cpp:4537
 #, fuzzy
 msgid "Chiasmus Encryption Key Selection"
 msgstr "Šifrowanje"
 
-#: kmcomposewin.cpp:4612
+#: kmcomposewin.cpp:4619
 #, fuzzy
 #| msgid "Message was signed by %1."
 msgid "Message will be signed"
 msgstr "Powěsć bu podpisana wot %1."
 
-#: kmcomposewin.cpp:4613
+#: kmcomposewin.cpp:4620
 #, fuzzy
 #| msgid "Message List - Date Field"
 msgid "Message will not be signed"
 msgstr "Lisćina powěsćow - datumowe pólko"
 
-#: kmcomposewin.cpp:4615
+#: kmcomposewin.cpp:4622
 #, fuzzy
 msgid "Message will be encrypted"
 msgstr "PGP-ŝifrowana powěsć"
 
-#: kmcomposewin.cpp:4616
+#: kmcomposewin.cpp:4623
 #, fuzzy
 msgid "Message will not be encrypted"
 msgstr "PGP-ŝifrowana powěsć"
@@ -5972,7 +5983,7 @@ msgstr ""
 #. i18n: file kmail_part.rc line 10
 #. i18n: tag text
 #. i18n: file kmmainwin.rc line 10
-#: kmfilterdlg.cpp:645 kmmainwidget.cpp:2953 rc.cpp:409 rc.cpp:475
+#: kmfilterdlg.cpp:645 kmmainwidget.cpp:2937 rc.cpp:409 rc.cpp:475
 #: kmsearchpattern.h:236
 msgid "New"
 msgstr "Nowe"
@@ -6045,7 +6056,7 @@ msgstr "IMAP Cache ponowić"
 
 #: kmfoldercachedimap.cpp:129
 msgid ""
-"<p><b>Troubleshooting the IMAP cache.</b></p><p>If you have problems with "
+"<p><b>Troubleshooting the IMAP Cache</b></p><p>If you have problems with "
 "synchronizing an IMAP folder, you should first try rebuilding the index "
 "file. This will take some time to rebuild, but will not cause any problems.</"
 "p><p>If that is not enough, you can try refreshing the IMAP cache. If you do "
@@ -6054,7 +6065,7 @@ msgid ""
 msgstr ""
 
 #: kmfoldercachedimap.cpp:145
-msgid "Rebuild &Index"
+msgid "Rebuild &index"
 msgstr ""
 
 #: kmfoldercachedimap.cpp:150
@@ -6063,22 +6074,22 @@ msgstr ""
 
 #: kmfoldercachedimap.cpp:153
 #, fuzzy
-msgid "Only current folder"
+msgid "Only Current Folder"
 msgstr "Njemóžach zapisk stworić"
 
 #: kmfoldercachedimap.cpp:154
 #, fuzzy
-msgid "Current folder and all subfolders"
+msgid "Current Folder & All Subfolders"
 msgstr "Groupware-zapiski su &podzapiski wot:"
 
 #: kmfoldercachedimap.cpp:155
 #, fuzzy
-msgid "All folders of this account"
+msgid "All Folders of This Account"
 msgstr "Groupware-zapiski su &podzapiski wot:"
 
 #: kmfoldercachedimap.cpp:160
 #, fuzzy
-msgid "Refresh &Cache"
+msgid "Refresh &cache"
 msgstr "IMAP Cache ponowić"
 
 #: kmfoldercachedimap.cpp:515
@@ -6099,11 +6110,11 @@ msgid ""
 "This will remove all changes you have done locally to your folders."
 msgstr ""
 
-#: kmfoldercachedimap.cpp:630 kmmainwidget.cpp:1515
+#: kmfoldercachedimap.cpp:630 kmmainwidget.cpp:1499
 msgid "Refresh IMAP Cache"
 msgstr "IMAP Cache ponowić"
 
-#: kmfoldercachedimap.cpp:631 kmmainwidget.cpp:1515
+#: kmfoldercachedimap.cpp:631 kmmainwidget.cpp:1499
 msgid "&Refresh"
 msgstr ""
 
@@ -6406,7 +6417,7 @@ msgstr ""
 
 #: kmfolderdialog.cpp:433
 #, fuzzy
-msgid "Use &Default Identity"
+msgid "Use &default identity"
 msgstr "Wotst&ronić"
 
 #: kmfolderdialog.cpp:439
@@ -6714,12 +6725,12 @@ msgstr "Ně"
 msgid "Are you sure you want to expire old messages?"
 msgstr ""
 
-#: kmfoldermgr.cpp:65 kmmainwidget.cpp:1529
+#: kmfoldermgr.cpp:65 kmmainwidget.cpp:1513
 #, fuzzy
 msgid "Expire Old Messages?"
 msgstr "&Stare powěsće zwumjetać"
 
-#: kmfoldermgr.cpp:65 kmmainwidget.cpp:1529
+#: kmfoldermgr.cpp:65 kmmainwidget.cpp:1513
 msgid "Expire"
 msgstr ""
 
@@ -6806,11 +6817,11 @@ msgstr "&Kopěruj do"
 msgid "Do Not Go To"
 msgstr ""
 
-#: kmfoldertree.cpp:1065 kmmainwidget.cpp:2850
+#: kmfoldertree.cpp:1065 kmmainwidget.cpp:2834
 msgid "&New Folder..."
 msgstr "&Nowy Zapisk..."
 
-#: kmfoldertree.cpp:1076 kmmainwidget.cpp:2674
+#: kmfoldertree.cpp:1076 kmmainwidget.cpp:2658
 msgid "Check &Mail"
 msgstr "Pohladaj za &póštu"
 
@@ -6844,7 +6855,7 @@ msgstr "Wopisanje"
 msgid "Refresh Folder List"
 msgstr "&Pokaž chowane zapiski"
 
-#: kmfoldertree.cpp:1144 kmmainwidget.cpp:3985
+#: kmfoldertree.cpp:1144 kmmainwidget.cpp:3969
 #, fuzzy
 msgid "&Troubleshoot IMAP Cache..."
 msgstr "IMAP Cache ponowić"
@@ -6857,13 +6868,13 @@ msgid ""
 "your administrator to grant you rights to do so.</qt> "
 msgstr ""
 
-#: kmfoldertree.cpp:1733 kmmainwidget.cpp:600 kmmainwidget.cpp:607
-#: kmmainwidget.cpp:614 kmsearchpattern.h:237
+#: kmfoldertree.cpp:1733 kmmainwidget.cpp:584 kmmainwidget.cpp:591
+#: kmmainwidget.cpp:598 kmsearchpattern.h:237
 msgid "Unread"
 msgstr "Nječitane"
 
-#: kmfoldertree.cpp:1746 kmmainwidget.cpp:602 kmmainwidget.cpp:609
-#: kmmainwidget.cpp:616
+#: kmfoldertree.cpp:1746 kmmainwidget.cpp:586 kmmainwidget.cpp:593
+#: kmmainwidget.cpp:600
 msgid "Total"
 msgstr "Dohromady"
 
@@ -7057,12 +7068,12 @@ msgstr "Zničenje powěsćow přetorhnjene."
 msgid "Moving messages canceled."
 msgstr "Přesunjenje powěsćow přetorhnjene."
 
-#: kmheaders.cpp:2501 kmmainwidget.cpp:3090 kmreadermainwin.cpp:328
+#: kmheaders.cpp:2501 kmmainwidget.cpp:3074 kmreadermainwin.cpp:328
 #: searchwindow.cpp:812
 msgid "&Copy To"
 msgstr "&Kopěruj do"
 
-#: kmheaders.cpp:2505 kmheaders.cpp:2511 kmmainwidget.cpp:3087
+#: kmheaders.cpp:2505 kmheaders.cpp:2511 kmmainwidget.cpp:3071
 #: searchwindow.cpp:814
 msgid "&Move To"
 msgstr "&Suń do"
@@ -7097,11 +7108,11 @@ msgstr ""
 msgid "KMail is currently in offline mode. How do you want to proceed?"
 msgstr ""
 
-#: kmkernel.cpp:1160 kmmainwidget.cpp:2039
+#: kmkernel.cpp:1160 kmmainwidget.cpp:2023
 msgid "Work Online"
 msgstr ""
 
-#: kmkernel.cpp:1161 kmmainwidget.cpp:2035
+#: kmkernel.cpp:1161 kmmainwidget.cpp:2019
 msgid "Work Offline"
 msgstr ""
 
@@ -7197,7 +7208,7 @@ msgid ""
 "%1"
 msgstr "KMail"
 
-#: kmkernel.cpp:2021 kmmainwidget.cpp:1337
+#: kmkernel.cpp:2021 kmmainwidget.cpp:1321
 msgid "Empty Trash"
 msgstr "Papjernik wuprózdnić"
 
@@ -7240,52 +7251,52 @@ msgstr "<qt>Njemóžach konto <b>%1</b> stworić.</qt>"
 msgid "Recent Addresses"
 msgstr "Emailowe adresy wubrać"
 
-#: kmmainwidget.cpp:882
+#: kmmainwidget.cpp:866
 msgid "Remove Duplicate Messages"
 msgstr "Dwójne powěsće wotstronić"
 
-#: kmmainwidget.cpp:888 kmmainwidget.cpp:1856
+#: kmmainwidget.cpp:872 kmmainwidget.cpp:1840
 msgid "Move Message to Folder"
 msgstr "Suń powěsće do zapiska"
 
-#: kmmainwidget.cpp:894 kmmainwidget.cpp:1955
+#: kmmainwidget.cpp:878 kmmainwidget.cpp:1939
 msgid "Copy Message to Folder"
 msgstr "Kopěruj powěsće do zapiska"
 
-#: kmmainwidget.cpp:900 kmmainwidget.cpp:1844
+#: kmmainwidget.cpp:884 kmmainwidget.cpp:1828
 #, fuzzy
 msgid "Jump to Folder"
 msgstr "Do tutoho zapiska kopěrować"
 
-#: kmmainwidget.cpp:906
+#: kmmainwidget.cpp:890
 msgid "Abort Current Operation"
 msgstr "Aktualnu operaciju přetorhnyć"
 
-#: kmmainwidget.cpp:914
+#: kmmainwidget.cpp:898
 msgid "Focus on Next Folder"
 msgstr "Fokus na přichodnym zapisku"
 
-#: kmmainwidget.cpp:922
+#: kmmainwidget.cpp:906
 msgid "Focus on Previous Folder"
 msgstr "Fokus na prjedawšim zapisku"
 
-#: kmmainwidget.cpp:930
+#: kmmainwidget.cpp:914
 msgid "Select Folder with Focus"
 msgstr "Zapisk wubrać za fokus"
 
-#: kmmainwidget.cpp:938
+#: kmmainwidget.cpp:922
 msgid "Focus on Next Message"
 msgstr "Fokus na přichodnej powěsći"
 
-#: kmmainwidget.cpp:946
+#: kmmainwidget.cpp:930
 msgid "Focus on Previous Message"
 msgstr "Fokus na prjedawšej powěsći"
 
-#: kmmainwidget.cpp:954
+#: kmmainwidget.cpp:938
 msgid "Select Message with Focus"
 msgstr "Powěsć za fokus wubrać"
 
-#: kmmainwidget.cpp:1118
+#: kmmainwidget.cpp:1102
 #, kde-format
 msgid "1 new message in %2"
 msgid_plural "%1 new messages in %2"
@@ -7294,7 +7305,7 @@ msgstr[1] "%1 nowa powěsć w %2."
 msgstr[2] "%1 nowej powěsći w %2."
 msgstr[3] "%1 nowe powěsće w %2."
 
-#: kmmainwidget.cpp:1135
+#: kmmainwidget.cpp:1119
 #, fuzzy, kde-format
 #| msgctxt "%1 is a list of the number of new messages per folder"
 #| msgid "<b>New mail arrived</b><br>%1"
@@ -7302,46 +7313,46 @@ msgctxt "%1 is a list of the number of new messages per folder"
 msgid "<b>New mail arrived</b><br />%1"
 msgstr "<b>Nowa póšta je dóšła</b><br>%1"
 
-#: kmmainwidget.cpp:1139
+#: kmmainwidget.cpp:1123
 msgid "New mail arrived"
 msgstr "Nowa póšta je dóšła"
 
-#: kmmainwidget.cpp:1216
+#: kmmainwidget.cpp:1200
 #, fuzzy
 msgid "(no templates)"
 msgstr "Wubrane powěsće markěrować jako nowe"
 
-#: kmmainwidget.cpp:1289
+#: kmmainwidget.cpp:1273
 #, kde-format
 msgid "Properties of Folder %1"
 msgstr "Swójstwa zapiska %1"
 
-#: kmmainwidget.cpp:1310
+#: kmmainwidget.cpp:1294
 msgid "This folder does not have any expiry options set"
 msgstr ""
 
-#: kmmainwidget.cpp:1318
+#: kmmainwidget.cpp:1302
 #, kde-format
 msgid "<qt>Are you sure you want to expire the folder <b>%1</b>?</qt>"
 msgstr ""
 
-#: kmmainwidget.cpp:1319
+#: kmmainwidget.cpp:1303
 msgid "Expire Folder"
 msgstr ""
 
-#: kmmainwidget.cpp:1320
+#: kmmainwidget.cpp:1304
 msgid "&Expire"
 msgstr "&Stare zwumjetać"
 
-#: kmmainwidget.cpp:1337
+#: kmmainwidget.cpp:1321
 msgid "Move to Trash"
 msgstr "Do papjernika sunyć"
 
-#: kmmainwidget.cpp:1339
+#: kmmainwidget.cpp:1323
 msgid "Are you sure you want to empty the trash folder?"
 msgstr "Chceće woprawdźe papjernik wuprózdnić?"
 
-#: kmmainwidget.cpp:1340
+#: kmmainwidget.cpp:1324
 #, kde-format
 msgid ""
 "<qt>Are you sure you want to move all messages from folder <b>%1</b> to the "
@@ -7350,16 +7361,16 @@ msgstr ""
 "<qt>Chceće woprawdźe wšitke powěsće ze zapiska <b>%1</b> do papjernika "
 "přesunyć?</qt>"
 
-#: kmmainwidget.cpp:1359
+#: kmmainwidget.cpp:1343
 msgid "Moved all messages to the trash"
 msgstr "Sym wšitke powěsće do papjernika sunył"
 
-#: kmmainwidget.cpp:1381
+#: kmmainwidget.cpp:1365
 #, fuzzy
 msgid "Delete Search"
 msgstr "<adresaća>"
 
-#: kmmainwidget.cpp:1382
+#: kmmainwidget.cpp:1366
 #, fuzzy, kde-format
 msgid ""
 "<qt>Are you sure you want to delete the search <b>%1</b>?<br />Any messages "
@@ -7368,16 +7379,16 @@ msgstr ""
 "<qt>Chceće woprawdźe pytanski zapisk zničić <b>%1</b>? Powěsće so dla toho "
 "njezniča, dokelž su w druhich zapiskach zawěsćene.</qt>"
 
-#: kmmainwidget.cpp:1386
+#: kmmainwidget.cpp:1370
 msgid "Delete Folder"
 msgstr "Zapisk zničić"
 
-#: kmmainwidget.cpp:1389
+#: kmmainwidget.cpp:1373
 #, kde-format
 msgid "<qt>Are you sure you want to delete the empty folder <b>%1</b>?</qt>"
 msgstr "<qt>Chceće woprawdźe prózdny zapisk <b>%1</b> zničić?</qt>"
 
-#: kmmainwidget.cpp:1394
+#: kmmainwidget.cpp:1378
 #, fuzzy, kde-format
 msgid ""
 "<qt>Are you sure you want to delete the empty folder <b>%1</b> and all its "
@@ -7388,7 +7399,7 @@ msgstr ""
 "<qt>Chceće woprawdźe prózdny zapisk <b>%1</b> ze wšěmi podzapiskami zničić? "
 "W poodzapiskach móhło něšto nutřka być, štož so potom sobu zniči.</qt>"
 
-#: kmmainwidget.cpp:1403
+#: kmmainwidget.cpp:1387
 #, fuzzy, kde-format
 msgid ""
 "<qt>Are you sure you want to delete the folder <b>%1</b>, discarding its "
@@ -7398,7 +7409,7 @@ msgstr ""
 "<qt>Chceće woprawdźe zapisk <b>%1</b> zničić a wšitke powěsće w nim zničić?</"
 "qt>"
 
-#: kmmainwidget.cpp:1410
+#: kmmainwidget.cpp:1394
 #, fuzzy, kde-format
 msgid ""
 "<qt>Are you sure you want to delete the folder <b>%1</b> and all its "
@@ -7409,12 +7420,12 @@ msgstr ""
 "<qt>Chceće woprawdźe prózdny zapisk <b>%1</b> ze wšěmi podzapiskami zničić? "
 "W poodzapiskach móhło něšto nutřka być, štož so potom sobu zniči.</qt>"
 
-#: kmmainwidget.cpp:1420 kmmainwidget.cpp:2814
+#: kmmainwidget.cpp:1404 kmmainwidget.cpp:2798
 #, fuzzy
 msgid "&Delete"
 msgstr "Z&ničić"
 
-#: kmmainwidget.cpp:1431
+#: kmmainwidget.cpp:1415
 #, kde-format
 msgid ""
 "<qt>The folder you deleted was associated with the account <b>%1</b> which "
@@ -7422,17 +7433,17 @@ msgid ""
 "reset to the main Inbox folder.</qt>"
 msgstr ""
 
-#: kmmainwidget.cpp:1512
+#: kmmainwidget.cpp:1496
 msgid ""
 "Are you sure you want to refresh the IMAP cache?\n"
 "This will remove all changes that you have done locally to your IMAP folders."
 msgstr ""
 
-#: kmmainwidget.cpp:1528
+#: kmmainwidget.cpp:1512
 msgid "Are you sure you want to expire all old messages?"
 msgstr "Chceće woprawdźe wšitke stare powěsće zničić?"
 
-#: kmmainwidget.cpp:1552
+#: kmmainwidget.cpp:1536
 msgid ""
 "Use of HTML in mail will make you more vulnerable to \"spam\" and may "
 "increase the likelihood that your system will be compromised by other "
@@ -7441,35 +7452,35 @@ msgstr ""
 "Wužiwanje HTML w mailkach přićahuje wjace čaporowych mailkow a powjetši "
 "prawdźepodobnosć, zo nastanu wěstotne problemy."
 
-#: kmmainwidget.cpp:1555 kmmainwidget.cpp:1580 kmsender.cpp:552
+#: kmmainwidget.cpp:1539 kmmainwidget.cpp:1564 kmsender.cpp:552
 msgid "Security Warning"
 msgstr "Wěstotne warnowanje"
 
-#: kmmainwidget.cpp:1556
+#: kmmainwidget.cpp:1540
 msgid "Use HTML"
 msgstr "Wužiwaj HTML"
 
-#: kmmainwidget.cpp:1577
+#: kmmainwidget.cpp:1561
 msgid ""
 "Loading external references in html mail will make you more vulnerable to "
 "\"spam\" and may increase the likelihood that your system will be "
 "compromised by other present and anticipated security exploits."
 msgstr ""
 
-#: kmmainwidget.cpp:1581
+#: kmmainwidget.cpp:1565
 msgid "Load External References"
 msgstr "Eksterne wotkazy začitać"
 
-#: kmmainwidget.cpp:1806
+#: kmmainwidget.cpp:1790
 msgid "Filter on Mailing-List..."
 msgstr "Lisćinu filtrować..."
 
-#: kmmainwidget.cpp:1811
+#: kmmainwidget.cpp:1795
 #, kde-format
 msgid "Filter on Mailing-List %1..."
 msgstr "Lisćinu %1 filtrować..."
 
-#: kmmainwidget.cpp:1908
+#: kmmainwidget.cpp:1892
 #, fuzzy
 msgid ""
 "KMail's Out of Office Reply functionality relies on server-side filtering. "
@@ -7477,18 +7488,18 @@ msgid ""
 "You can do this on the \"Filtering\" tab of the IMAP account configuration."
 msgstr "KMail s."
 
-#: kmmainwidget.cpp:1913
+#: kmmainwidget.cpp:1897
 #, fuzzy
 msgid "No Server-Side Filtering Configured"
 msgstr "Ně"
 
-#: kmmainwidget.cpp:1936
+#: kmmainwidget.cpp:1920
 msgid "Could not start certificate manager; please check your installation."
 msgstr ""
 "Njemóžach certifikatowy manager startować. Prošu přepruwujće swoju "
 "instalaciju!"
 
-#: kmmainwidget.cpp:1947
+#: kmmainwidget.cpp:1931
 msgid ""
 "Could not start GnuPG LogViewer (kwatchgnupg); please check your "
 "installation."
@@ -7496,324 +7507,324 @@ msgstr ""
 "Njemóžach GnuPG LogViewer kwatchgnupg startować. Prošu přepruwujće swoju "
 "instalaciju!"
 
-#: kmmainwidget.cpp:2645 kmmimeparttree.cpp:133
+#: kmmainwidget.cpp:2629 kmmimeparttree.cpp:133
 msgid "Save &As..."
 msgstr "Z&awěsćić jako..."
 
-#: kmmainwidget.cpp:2654
+#: kmmainwidget.cpp:2638
 msgid "&Compact All Folders"
 msgstr "&Wšě zapiski komprimować"
 
-#: kmmainwidget.cpp:2659
+#: kmmainwidget.cpp:2643
 msgid "&Expire All Folders"
 msgstr "&Ze wšěch zapiskow zestarjene powěsće zwumjetać"
 
-#: kmmainwidget.cpp:2664
+#: kmmainwidget.cpp:2648
 msgid "&Refresh Local IMAP Cache"
 msgstr "Lokalny &IMAP-Cache ponowić"
 
-#: kmmainwidget.cpp:2669
+#: kmmainwidget.cpp:2653
 msgid "Empty All &Trash Folders"
 msgstr "&Wšě papjerniki komprimować"
 
-#: kmmainwidget.cpp:2681
+#: kmmainwidget.cpp:2665
 #, fuzzy
 msgid "Check Mail in Favorite Folders"
 msgstr "Za póštu pohladać &w"
 
-#: kmmainwidget.cpp:2689
+#: kmmainwidget.cpp:2673
 #, fuzzy
 msgid "Check Ma&il"
 msgstr "Pohladaj za &póštu"
 
-#: kmmainwidget.cpp:2699
+#: kmmainwidget.cpp:2683
 msgid "&Send Queued Messages"
 msgstr "&Pósćel čakace powěsće"
 
-#: kmmainwidget.cpp:2704
+#: kmmainwidget.cpp:2688
 msgid "Onlinestatus (unknown)"
 msgstr ""
 
-#: kmmainwidget.cpp:2709
+#: kmmainwidget.cpp:2693
 #, fuzzy
 msgid "Send Queued Messages Via"
 msgstr "&Pósćel čakace powěsće"
 
-#: kmmainwidget.cpp:2719
+#: kmmainwidget.cpp:2703
 msgid "&Address Book..."
 msgstr "&Adresnik..."
 
-#: kmmainwidget.cpp:2726
+#: kmmainwidget.cpp:2710
 msgid "Certificate Manager..."
 msgstr "Rjadowanje certifikatow..."
 
-#: kmmainwidget.cpp:2733
+#: kmmainwidget.cpp:2717
 #, fuzzy
 msgid "GnuPG Log Viewer..."
 msgstr "&Filtrowy protokol wobhladać..."
 
-#: kmmainwidget.cpp:2740
+#: kmmainwidget.cpp:2724
 msgid "&Import Messages..."
 msgstr "Powěsće &importować ..."
 
-#: kmmainwidget.cpp:2748
+#: kmmainwidget.cpp:2732
 msgid "&Debug Sieve..."
 msgstr ""
 
-#: kmmainwidget.cpp:2756 kmmainwidget.cpp:2778
+#: kmmainwidget.cpp:2740 kmmainwidget.cpp:2762
 msgid "Edit \"Out of Office\" Replies..."
 msgstr "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 
-#: kmmainwidget.cpp:2761 kmmainwidget.cpp:2784
+#: kmmainwidget.cpp:2745 kmmainwidget.cpp:2768
 msgid "Filter &Log Viewer..."
 msgstr "&Filtrowy protokol wobhladać..."
 
-#: kmmainwidget.cpp:2766 kmmainwidget.cpp:2790
+#: kmmainwidget.cpp:2750 kmmainwidget.cpp:2774
 msgid "&Anti-Spam Wizard..."
 msgstr "&Kuzłar pře čaporowu mailku..."
 
-#: kmmainwidget.cpp:2771 kmmainwidget.cpp:2796
+#: kmmainwidget.cpp:2755 kmmainwidget.cpp:2780
 msgid "&Anti-Virus Wizard..."
 msgstr "&Kuzłar pře wirusy..."
 
-#: kmmainwidget.cpp:2802 kmreadermainwin.cpp:275
+#: kmmainwidget.cpp:2786 kmreadermainwin.cpp:275
 msgid "&Move to Trash"
 msgstr "Do papjernika &sunyć"
 
-#: kmmainwidget.cpp:2805 kmreadermainwin.cpp:276
+#: kmmainwidget.cpp:2789 kmreadermainwin.cpp:276
 #, fuzzy
 msgid "Trash"
 msgstr "&Dalše opcije"
 
-#: kmmainwidget.cpp:2807 kmreadermainwin.cpp:277
+#: kmmainwidget.cpp:2791 kmreadermainwin.cpp:277
 msgid "Move message to trashcan"
 msgstr "Powěsć do papjernika sunyć"
 
-#: kmmainwidget.cpp:2819
+#: kmmainwidget.cpp:2803
 msgid "M&ove Thread to Trash"
 msgstr "Diskusiju do &papjernika sunyć"
 
-#: kmmainwidget.cpp:2823
+#: kmmainwidget.cpp:2807
 msgid "Move thread to trashcan"
 msgstr "Diskusiju do papjernika sunyć"
 
-#: kmmainwidget.cpp:2826
+#: kmmainwidget.cpp:2810
 msgid "Delete T&hread"
 msgstr "Diskusiju z&ničić"
 
-#: kmmainwidget.cpp:2832
+#: kmmainwidget.cpp:2816
 msgid "&Find Messages..."
 msgstr "Powěsće &namakać ..."
 
-#: kmmainwidget.cpp:2837
+#: kmmainwidget.cpp:2821
 msgid "&Find in Message..."
 msgstr "W powěsći &pytać..."
 
-#: kmmainwidget.cpp:2843
+#: kmmainwidget.cpp:2827
 msgid "Select &All Messages"
 msgstr "&Wšitke powěsće wubrać"
 
-#: kmmainwidget.cpp:2854
+#: kmmainwidget.cpp:2838
 msgid "&Properties"
 msgstr "&Swójstwa"
 
-#: kmmainwidget.cpp:2858
+#: kmmainwidget.cpp:2842
 #, fuzzy
 msgid "&Mailing List Management..."
 msgstr "Přirjadowana mailowa lisćina"
 
-#: kmmainwidget.cpp:2868
+#: kmmainwidget.cpp:2852
 msgid "Mark All Messages as &Read"
 msgstr "Markěruj wšě powěsće jako č&itane"
 
-#: kmmainwidget.cpp:2872
+#: kmmainwidget.cpp:2856
 #, fuzzy
 msgid "&Expiration Settings"
 msgstr "&Eksistowace identity:"
 
-#: kmmainwidget.cpp:2876
+#: kmmainwidget.cpp:2860
 #, fuzzy
 msgid "&Compact Folder"
 msgstr "&Wšě zapiski komprimować"
 
-#: kmmainwidget.cpp:2880
+#: kmmainwidget.cpp:2864
 #, fuzzy
 msgid "Check Mail &in This Folder"
 msgstr "Za póštu pohladać &w"
 
-#: kmmainwidget.cpp:2896
+#: kmmainwidget.cpp:2880
 msgid "Prefer &HTML to Plain Text"
 msgstr "&HTML porno prostemu tekstej preferować"
 
-#: kmmainwidget.cpp:2900
+#: kmmainwidget.cpp:2884
 msgid "Load E&xternal References"
 msgstr ""
 
-#: kmmainwidget.cpp:2904
+#: kmmainwidget.cpp:2888
 msgid "&Thread Messages"
 msgstr "Powěsće &skupinkować"
 
-#: kmmainwidget.cpp:2908
+#: kmmainwidget.cpp:2892
 msgid "Thread Messages also by &Subject"
 msgstr "Powěsće po temje skupinkować"
 
-#: kmmainwidget.cpp:2913
+#: kmmainwidget.cpp:2897
 #, fuzzy
 msgid "Copy Folder"
 msgstr "Do tutoho zapiska kopěrować"
 
-#: kmmainwidget.cpp:2919
+#: kmmainwidget.cpp:2903
 #, fuzzy
 msgid "Cut Folder"
 msgstr "Zapisk"
 
-#: kmmainwidget.cpp:2925
+#: kmmainwidget.cpp:2909
 #, fuzzy
 msgid "Paste Folder"
 msgstr "&Nowy Zapisk..."
 
-#: kmmainwidget.cpp:2931
+#: kmmainwidget.cpp:2915
 #, fuzzy
 msgid "Copy Messages"
 msgstr "Powěsć wočinić"
 
-#: kmmainwidget.cpp:2937
+#: kmmainwidget.cpp:2921
 #, fuzzy
 msgid "Cut Messages"
 msgstr "žane powěsće"
 
-#: kmmainwidget.cpp:2943
+#: kmmainwidget.cpp:2927
 #, fuzzy
 msgid "Paste Messages"
 msgstr "Powěsće zničić"
 
-#: kmmainwidget.cpp:2951
+#: kmmainwidget.cpp:2935
 msgid "&New Message..."
 msgstr "&Nowa powěsć..."
 
-#: kmmainwidget.cpp:2958
+#: kmmainwidget.cpp:2942
 #, fuzzy
 msgid "Message From &Template"
 msgstr "Ně"
 
-#: kmmainwidget.cpp:2968
+#: kmmainwidget.cpp:2952
 msgid "New Message t&o Mailing-List..."
 msgstr "N&owa powěsć emailowej lisćinje..."
 
-#: kmmainwidget.cpp:2974 kmreadermainwin.cpp:294 searchwindow.cpp:317
+#: kmmainwidget.cpp:2958 kmreadermainwin.cpp:294 searchwindow.cpp:317
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "&Dopósłać"
 
-#: kmmainwidget.cpp:2979 kmreadermainwin.cpp:299 searchwindow.cpp:325
+#: kmmainwidget.cpp:2963 kmreadermainwin.cpp:299 searchwindow.cpp:325
 msgctxt "Message->Forward->"
 msgid "As &Attachment..."
 msgstr ""
 
-#: kmmainwidget.cpp:2984 kmreadermainwin.cpp:305 searchwindow.cpp:321
+#: kmmainwidget.cpp:2968 kmreadermainwin.cpp:305 searchwindow.cpp:321
 msgid "&Inline..."
 msgstr ""
 
-#: kmmainwidget.cpp:2991
+#: kmmainwidget.cpp:2975
 msgid "Send A&gain..."
 msgstr "Znowa pósł&ać..."
 
-#: kmmainwidget.cpp:2995 kmreadermainwin.cpp:311
+#: kmmainwidget.cpp:2979 kmreadermainwin.cpp:311
 msgctxt "Message->Forward->"
 msgid "&Redirect..."
 msgstr "Do&pósłać..."
 
-#: kmmainwidget.cpp:3002
+#: kmmainwidget.cpp:2986
 msgid "&Create Filter"
 msgstr "&Filter stworić"
 
-#: kmmainwidget.cpp:3006
+#: kmmainwidget.cpp:2990
 msgid "Filter on &Subject..."
 msgstr "Filter nałožić na &temu..."
 
-#: kmmainwidget.cpp:3011
+#: kmmainwidget.cpp:2995
 msgid "Filter on &From..."
 msgstr "&Filter na wotpósłarja nałožić..."
 
-#: kmmainwidget.cpp:3016
+#: kmmainwidget.cpp:3000
 msgid "Filter on &To..."
 msgstr "Fil&ter nałožić na adresata ..."
 
-#: kmmainwidget.cpp:3021
+#: kmmainwidget.cpp:3005
 msgid "Filter on Mailing-&List..."
 msgstr "Fi&lter na lisćinu nałožić..."
 
-#: kmmainwidget.cpp:3028
+#: kmmainwidget.cpp:3012
 #, fuzzy
 msgid "New Message From &Template"
 msgstr "Ně"
 
-#: kmmainwidget.cpp:3034
+#: kmmainwidget.cpp:3018
 msgid "Mark &Thread"
 msgstr "&Temu markěrować"
 
-#: kmmainwidget.cpp:3037
+#: kmmainwidget.cpp:3021
 msgid "Mark Thread as &Read"
 msgstr ""
 
-#: kmmainwidget.cpp:3040
+#: kmmainwidget.cpp:3024
 #, fuzzy
 msgid "Mark all messages in the selected thread as read"
 msgstr "in"
 
-#: kmmainwidget.cpp:3043
+#: kmmainwidget.cpp:3027
 msgid "Mark Thread as &New"
 msgstr ""
 
-#: kmmainwidget.cpp:3046
+#: kmmainwidget.cpp:3030
 #, fuzzy
 msgid "Mark all messages in the selected thread as new"
 msgstr "in"
 
-#: kmmainwidget.cpp:3049
+#: kmmainwidget.cpp:3033
 msgid "Mark Thread as &Unread"
 msgstr ""
 
-#: kmmainwidget.cpp:3052
+#: kmmainwidget.cpp:3036
 #, fuzzy
 msgid "Mark all messages in the selected thread as unread"
 msgstr "in"
 
-#: kmmainwidget.cpp:3058
+#: kmmainwidget.cpp:3042
 #, fuzzy
 #| msgid "Mark Message as &Important"
 msgid "Mark Thread as &Important"
 msgstr "Powěsć markěrować jako &wažnu"
 
-#: kmmainwidget.cpp:3061
+#: kmmainwidget.cpp:3045
 #, fuzzy
 msgid "Remove &Important Thread Mark"
 msgstr "Wažna powěsć"
 
-#: kmmainwidget.cpp:3064
+#: kmmainwidget.cpp:3048
 #, fuzzy
 #| msgid "Mark Message as &Important"
 msgid "Mark Thread as &Action Item"
 msgstr "Powěsć markěrować jako &wažnu"
 
-#: kmmainwidget.cpp:3067
+#: kmmainwidget.cpp:3051
 #, fuzzy
 msgid "Remove &To-do Thread Mark"
 msgstr "Wažna powěsć"
 
-#: kmmainwidget.cpp:3071
+#: kmmainwidget.cpp:3055
 msgid "&Watch Thread"
 msgstr "&Temu slědować"
 
-#: kmmainwidget.cpp:3075
+#: kmmainwidget.cpp:3059
 msgid "&Ignore Thread"
 msgstr "Temu &ignorować"
 
-#: kmmainwidget.cpp:3083 kmreadermainwin.cpp:272
+#: kmmainwidget.cpp:3067 kmreadermainwin.cpp:272
 msgid "Save A&ttachments..."
 msgstr "&Přiwěški zawěsćić ..."
 
-#: kmmainwidget.cpp:3093
+#: kmmainwidget.cpp:3077
 #, fuzzy
 msgid "Appl&y All Filters"
 msgstr "Filtry &nałožić"
@@ -7822,226 +7833,226 @@ msgstr "Filtry &nałožić"
 #. i18n: file kmail_part.rc line 149
 #. i18n: tag text
 #. i18n: file kmmainwin.rc line 152
-#: kmmainwidget.cpp:3098 rc.cpp:433 rc.cpp:499
+#: kmmainwidget.cpp:3082 rc.cpp:433 rc.cpp:499
 #, fuzzy
 msgid "A&pply Filter"
 msgstr "Filtry &nałožić"
 
-#: kmmainwidget.cpp:3103
+#: kmmainwidget.cpp:3087
 msgctxt "View->"
 msgid "&Unread Count"
 msgstr "Pokaž ličbu &nječitanych powěsćow"
 
-#: kmmainwidget.cpp:3105
+#: kmmainwidget.cpp:3089
 msgid "Choose how to display the count of unread messages"
 msgstr "Wubjerće sej, kak ma so ličba nječitanych powěsćow pokazać"
 
-#: kmmainwidget.cpp:3108
+#: kmmainwidget.cpp:3092
 msgctxt "View->Unread Count"
 msgid "View in &Separate Column"
 msgstr "... we &wosebitej špalće"
 
-#: kmmainwidget.cpp:3116
+#: kmmainwidget.cpp:3100
 msgctxt "View->Unread Count"
 msgid "View After &Folder Name"
 msgstr ".. po mjenje &zapiska"
 
-#: kmmainwidget.cpp:3124
+#: kmmainwidget.cpp:3108
 msgctxt "View->"
 msgid "&Total Column"
 msgstr "Špalta \"Dohromady\""
 
-#: kmmainwidget.cpp:3128
+#: kmmainwidget.cpp:3112
 #, fuzzy
 msgid ""
 "Toggle display of column showing the total number of messages in folders."
 msgstr "in."
 
-#: kmmainwidget.cpp:3130
+#: kmmainwidget.cpp:3114
 #, fuzzy
 msgctxt "View->"
 msgid "&Size Column"
 msgstr "Napohlad špaltow"
 
-#: kmmainwidget.cpp:3135
+#: kmmainwidget.cpp:3119
 #, fuzzy
 msgid "Toggle display of column showing the total size of messages in folders."
 msgstr "in."
 
-#: kmmainwidget.cpp:3139
+#: kmmainwidget.cpp:3123
 msgctxt "View->"
 msgid "&Expand Thread"
 msgstr "&Skupinu rozćahnyć"
 
-#: kmmainwidget.cpp:3142
+#: kmmainwidget.cpp:3126
 msgid "Expand the current thread"
 msgstr "Rozćehnje aktualnu skupinu powěsćow"
 
-#: kmmainwidget.cpp:3146
+#: kmmainwidget.cpp:3130
 msgctxt "View->"
 msgid "&Collapse Thread"
 msgstr "&Skupinu sćahnyć"
 
-#: kmmainwidget.cpp:3149
+#: kmmainwidget.cpp:3133
 msgid "Collapse the current thread"
 msgstr "Sćehnje aktualnu skupinu"
 
-#: kmmainwidget.cpp:3153
+#: kmmainwidget.cpp:3137
 msgctxt "View->"
 msgid "Ex&pand All Threads"
 msgstr "Wšitke skupiny z&rozćahać"
 
-#: kmmainwidget.cpp:3156
+#: kmmainwidget.cpp:3140
 msgid "Expand all threads in the current folder"
 msgstr "Zrozćaha wšitke skupiny w aktualnym zapisku."
 
-#: kmmainwidget.cpp:3160
+#: kmmainwidget.cpp:3144
 msgctxt "View->"
 msgid "C&ollapse All Threads"
 msgstr "Wšitke skupiny ze&sćahać"
 
-#: kmmainwidget.cpp:3163
+#: kmmainwidget.cpp:3147
 msgid "Collapse all threads in the current folder"
 msgstr "Zesćaha wšitke skupiny w aktualnym zapisku"
 
-#: kmmainwidget.cpp:3167 kmreadermainwin.cpp:288
+#: kmmainwidget.cpp:3151 kmreadermainwin.cpp:288
 msgid "&View Source"
 msgstr "&Pokaž žórło"
 
-#: kmmainwidget.cpp:3172
+#: kmmainwidget.cpp:3156
 #, fuzzy
 msgid "&Display Message"
 msgstr "Pokaž &wulkosć powěsćow"
 
-#: kmmainwidget.cpp:3179
+#: kmmainwidget.cpp:3163
 msgid "&Next Message"
 msgstr "Přichod&na powěsć"
 
-#: kmmainwidget.cpp:3182
+#: kmmainwidget.cpp:3166
 msgid "Go to the next message"
 msgstr "Dźi k přichodnej powěsći"
 
-#: kmmainwidget.cpp:3186
+#: kmmainwidget.cpp:3170
 msgid "Next &Unread Message"
 msgstr "Přichodna nj&ečitana powěsć"
 
-#: kmmainwidget.cpp:3194
+#: kmmainwidget.cpp:3178
 msgid "Next"
 msgstr ""
 
-#: kmmainwidget.cpp:3195
+#: kmmainwidget.cpp:3179
 msgid "Go to the next unread message"
 msgstr "Dźi k přichodnej nječitanej powěsći"
 
-#: kmmainwidget.cpp:3199
+#: kmmainwidget.cpp:3183
 msgid "&Previous Message"
 msgstr "&Prjedawša powěsć"
 
-#: kmmainwidget.cpp:3201
+#: kmmainwidget.cpp:3185
 msgid "Go to the previous message"
 msgstr "Dźi k prjedawšej powěsći"
 
-#: kmmainwidget.cpp:3206
+#: kmmainwidget.cpp:3190
 msgid "Previous Unread &Message"
 msgstr "Prjedawša nječ&itana powěsć"
 
-#: kmmainwidget.cpp:3214
+#: kmmainwidget.cpp:3198
 #, fuzzy
 msgid "Previous"
 msgstr "&Prjedawša powěsć"
 
-#: kmmainwidget.cpp:3215
+#: kmmainwidget.cpp:3199
 msgid "Go to the previous unread message"
 msgstr "Dźi k prjedawšej nječitanej powěsći"
 
-#: kmmainwidget.cpp:3219
+#: kmmainwidget.cpp:3203
 msgid "Next Unread &Folder"
 msgstr "Přichodny nječitany zapis&k"
 
-#: kmmainwidget.cpp:3223
+#: kmmainwidget.cpp:3207
 msgid "Go to the next folder with unread messages"
 msgstr "Dźi k přichodnemu zapiskej z nječitanymi powěsćemi"
 
-#: kmmainwidget.cpp:3229
+#: kmmainwidget.cpp:3213
 msgid "Previous Unread F&older"
 msgstr "Prjedawši nječitany &zapisk"
 
-#: kmmainwidget.cpp:3232
+#: kmmainwidget.cpp:3216
 msgid "Go to the previous folder with unread messages"
 msgstr "Dźi k prjedawšemu zapiskej z nječitanymi powěsćemi"
 
-#: kmmainwidget.cpp:3239
+#: kmmainwidget.cpp:3223
 msgctxt "Go->"
 msgid "Next Unread &Text"
 msgstr "Dźi k přichodnemu nječitanemu &tekstej"
 
-#: kmmainwidget.cpp:3242
+#: kmmainwidget.cpp:3226
 msgid "Go to the next unread text"
 msgstr "Dźi k přichodnemu nječitanemu tekstej"
 
-#: kmmainwidget.cpp:3243
+#: kmmainwidget.cpp:3227
 msgid ""
 "Scroll down current message. If at end of current message, go to next unread "
 "message."
 msgstr ""
 
-#: kmmainwidget.cpp:3251
+#: kmmainwidget.cpp:3235
 msgid "Configure &Filters..."
 msgstr "Kon&figuracija filtrow..."
 
-#: kmmainwidget.cpp:3256
+#: kmmainwidget.cpp:3240
 msgid "Configure &POP Filters..."
 msgstr "&POP-filtry konfigurować..."
 
-#: kmmainwidget.cpp:3261
+#: kmmainwidget.cpp:3245
 #, fuzzy
 msgid "Manage &Sieve Scripts..."
 msgstr "Filtry k dispoziciji"
 
-#: kmmainwidget.cpp:3266
+#: kmmainwidget.cpp:3250
 msgid "KMail &Introduction"
 msgstr "Zawod do KMa&ila"
 
-#: kmmainwidget.cpp:3268
+#: kmmainwidget.cpp:3252
 msgid "Display KMail's Welcome Page"
 msgstr "KMailowu powitansku stronu pokazać"
 
-#: kmmainwidget.cpp:3277
+#: kmmainwidget.cpp:3261
 msgid "Configure &Notifications..."
 msgstr "&Zdźělenki konfigurować ..."
 
-#: kmmainwidget.cpp:3284
+#: kmmainwidget.cpp:3268
 msgid "&Configure KMail..."
 msgstr "KMail &konfigurować..."
 
-#: kmmainwidget.cpp:3570
+#: kmmainwidget.cpp:3554
 msgid "E&mpty Trash"
 msgstr "Pa&pjernik wuprózdnić"
 
-#: kmmainwidget.cpp:3570
+#: kmmainwidget.cpp:3554
 msgid "&Move All Messages to Trash"
 msgstr "&Wšitke powěsće do papjernika sunyć"
 
-#: kmmainwidget.cpp:3572
+#: kmmainwidget.cpp:3556
 #, fuzzy
 msgid "&Delete Search"
 msgstr "&Zapisk zničić"
 
-#: kmmainwidget.cpp:3572
+#: kmmainwidget.cpp:3556
 msgid "&Delete Folder"
 msgstr "&Zapisk zničić"
 
-#: kmmainwidget.cpp:3684
+#: kmmainwidget.cpp:3668
 #, fuzzy, kde-format
 msgid "Toggle Message Tag %1"
 msgstr "Powěsć &wobdźěłać"
 
-#: kmmainwidget.cpp:3755
+#: kmmainwidget.cpp:3739
 #, fuzzy, kde-format
 msgid "Message Tag %1"
 msgstr "Lisćina powěsćow"
 
-#: kmmainwidget.cpp:3859
+#: kmmainwidget.cpp:3843
 #, fuzzy, kde-format
 msgid "Removed %1 duplicate message."
 msgid_plural "Removed %1 duplicate messages."
@@ -8050,31 +8061,31 @@ msgstr[1] "Sym %1 duplikat zničił."
 msgstr[2] "Sym %1 duplikataj zničił."
 msgstr[3] "Sym %1 duplikaty zničił."
 
-#: kmmainwidget.cpp:3862
+#: kmmainwidget.cpp:3846
 #, fuzzy
 msgid "No duplicate messages found."
 msgstr "Ně."
 
-#: kmmainwidget.cpp:3929
+#: kmmainwidget.cpp:3913
 #, fuzzy, kde-format
 msgid "Filter %1"
 msgstr "Filtrowa akcija %1"
 
-#: kmmainwidget.cpp:4015 kmmainwidget.cpp:4016
+#: kmmainwidget.cpp:3999 kmmainwidget.cpp:4000
 #, kde-format
 msgid "Folder Shortcut %1"
 msgstr ""
 
-#: kmmainwidget.cpp:4075
+#: kmmainwidget.cpp:4059
 msgid "Subscription"
 msgstr ""
 
-#: kmmainwidget.cpp:4094
+#: kmmainwidget.cpp:4078
 #, fuzzy
 msgid "Local Subscription"
 msgstr "Wopisanje"
 
-#: kmmainwidget.cpp:4235
+#: kmmainwidget.cpp:4207
 #, fuzzy
 #| msgid "Edit \"Out of Office\" Replies..."
 msgid "Out of office reply active"
@@ -9034,7 +9045,7 @@ msgid "Subscribe to List"
 msgstr ""
 
 #: mailinglistpropertiesdialog.cpp:152
-msgid "Unsubscribe from List"
+msgid "Unsubscribe From List"
 msgstr ""
 
 #: mailinglistpropertiesdialog.cpp:153
@@ -10274,12 +10285,6 @@ msgstr "Wšě&m wotmołwić..."
 #, fuzzy
 msgid "Forward"
 msgstr "Do&pósłać"
-
-#. i18n: tag string
-#. i18n: file customtemplates_base.ui line 168
-#: rc.cpp:74
-msgid "Shortc&ut:"
-msgstr ""
 
 #. i18n: tag string
 #. i18n: file customtemplates_base.ui line 189
@@ -13779,10 +13784,6 @@ msgstr "Přiwěšk: "
 
 #~ msgid " Initializing..."
 #~ msgstr " Přihotuju ..."
-
-#, fuzzy
-#~ msgid "Name:"
-#~ msgstr "&Mjeno:"
 
 #, fuzzy
 #~ msgid "Forward With Custom Template"
