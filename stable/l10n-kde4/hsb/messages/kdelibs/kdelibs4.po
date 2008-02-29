@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-24 10:12+0100\n"
+"POT-Creation-Date: 2008-02-29 10:26+0100\n"
 "PO-Revision-Date: 2007-06-18 11:34+0200\n"
 "Last-Translator: Bianka Šwejdźic <hertn@gmx.de>\n"
 "Language-Team: Upper Sorbian <hsb@li.org>\n"
@@ -1773,12 +1773,12 @@ msgstr "Informuje KDE wo změnje mjena serwera."
 msgid "(c) 2001 Waldo Bastian"
 msgstr ""
 
-#: kded/khostname.cpp:221 kded/kbuildsycoca.cpp:709 khtml/khtml_global.cpp:198
+#: kded/khostname.cpp:221 kded/kbuildsycoca.cpp:654 khtml/khtml_global.cpp:198
 #: kconf_update/kconf_update.cpp:964
 msgid "Waldo Bastian"
 msgstr ""
 
-#: kded/khostname.cpp:221 kded/kbuildsycoca.cpp:708 kded/kbuildsycoca.cpp:709
+#: kded/khostname.cpp:221 kded/kbuildsycoca.cpp:653 kded/kbuildsycoca.cpp:654
 #: kross/test/main.cpp:140 kross/console/main.cpp:102
 #: kde3support/kdeui/k3aboutdialog.cpp:184
 msgid "Author"
@@ -1804,7 +1804,7 @@ msgstr "KDE-daemon startuje aktualizowanje datoweje bazy Sycoca, je-li trjeba."
 msgid "Check Sycoca database only once"
 msgstr "Přepruwuj datowu bazu Sycoca jenož jónu."
 
-#: kded/kbuildsycoca.cpp:483
+#: kded/kbuildsycoca.cpp:428
 #, kde-format
 msgid ""
 "Error creating database '%1'.\n"
@@ -1814,12 +1814,12 @@ msgstr ""
 "Zmylk při stworjenju datoweje bazy '%1'.\n"
 "Přepruwujće, hač su prawa korektne a hač tačel njeje połna.\n"
 
-#: kded/kbuildsycoca.cpp:483 kded/kbuildsycoca.cpp:514
-#: kded/kbuildsycoca.cpp:705
+#: kded/kbuildsycoca.cpp:428 kded/kbuildsycoca.cpp:459
+#: kded/kbuildsycoca.cpp:650
 msgid "KBuildSycoca"
 msgstr "KBuildSycoca"
 
-#: kded/kbuildsycoca.cpp:514
+#: kded/kbuildsycoca.cpp:459
 #, kde-format
 msgid ""
 "Error writing database '%1'.\n"
@@ -1829,79 +1829,79 @@ msgstr ""
 "Zmylk při pisanju datoweje bazy '%1'.\n"
 "Přepruwujće, hač su prawa korektne a hač tačel njeje połna.\n"
 
-#: kded/kbuildsycoca.cpp:706
+#: kded/kbuildsycoca.cpp:651
 msgid "Rebuilds the system configuration cache."
 msgstr "Reinitializuje cache za konfiguraciju systema."
 
-#: kded/kbuildsycoca.cpp:707
+#: kded/kbuildsycoca.cpp:652
 msgid "(c) 1999-2002 KDE Developers"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:708
+#: kded/kbuildsycoca.cpp:653
 msgid "David Faure"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:712
+#: kded/kbuildsycoca.cpp:657
 msgid "Do not signal applications to update"
 msgstr "Njepraj programam, zo maja so aktualizować"
 
-#: kded/kbuildsycoca.cpp:713
+#: kded/kbuildsycoca.cpp:658
 msgid "Disable incremental update, re-read everything"
 msgstr "Inkrementalny update znjemóžnić, wšitko znowa začitać."
 
-#: kded/kbuildsycoca.cpp:714
+#: kded/kbuildsycoca.cpp:659
 msgid "Check file timestamps"
 msgstr "Přepruwuj podaća časa na datajach."
 
-#: kded/kbuildsycoca.cpp:715
+#: kded/kbuildsycoca.cpp:660
 msgid "Disable checking files (dangerous)"
 msgstr "Přepruwowanje datajow znjemóžnić (strašne)"
 
-#: kded/kbuildsycoca.cpp:716
+#: kded/kbuildsycoca.cpp:661
 msgid "Create global database"
 msgstr "Globalnu datowu bazu stworić."
 
-#: kded/kbuildsycoca.cpp:717
+#: kded/kbuildsycoca.cpp:662
 msgid "Perform menu generation test run only"
 msgstr "Test za stworjenje menija jenož jónu přewjesć."
 
-#: kded/kbuildsycoca.cpp:718
+#: kded/kbuildsycoca.cpp:663
 msgid "Track menu id for debug purposes"
 msgstr "Menijowy id sćěhować za debugowanje"
 
-#: kded/kbuildsycoca.cpp:720
+#: kded/kbuildsycoca.cpp:665
 msgid "Silent - work without windows and stderr"
 msgstr "Ćiche dźěłanje bjez woknow a stderr"
 
-#: kded/kbuildsycoca.cpp:721
+#: kded/kbuildsycoca.cpp:666
 msgid "Show progress information (even if 'silent' mode is on)"
 msgstr "Pokaž informaciju wo postupje (samo w ćichim modusu)"
 
-#: kded/kbuildsycoca.cpp:746
+#: kded/kbuildsycoca.cpp:691
 msgid "Reloading KDE configuration, please wait..."
 msgstr "Znowa KDE-konfiguraciju začitam, dočakajće prošu ..."
 
-#: kded/kbuildsycoca.cpp:747
+#: kded/kbuildsycoca.cpp:692
 msgid "KDE Configuration Manager"
 msgstr "KDE-rjadowar konfiguracije"
 
-#: kded/kbuildsycoca.cpp:749
+#: kded/kbuildsycoca.cpp:694
 msgid "Do you want to reload KDE configuration?"
 msgstr "Chceće KDE-konfiguraciju znowa začitać?"
 
-#: kded/kbuildsycoca.cpp:749
+#: kded/kbuildsycoca.cpp:694
 #, fuzzy
 #| msgid "Reload"
 msgctxt "Reload KDE configuration messagebox"
 msgid "Reload"
 msgstr "Znowa začitać"
 
-#: kded/kbuildsycoca.cpp:749
+#: kded/kbuildsycoca.cpp:694
 #, fuzzy
 msgid "Do Not Reload"
 msgstr "&Njezawěsćić"
 
-#: kded/kbuildsycoca.cpp:919
+#: kded/kbuildsycoca.cpp:864
 msgid "Configuration information reloaded successfully."
 msgstr "Konfiguracija znowa začitana."
 
@@ -12623,7 +12623,7 @@ msgstr "Wopisanje:"
 msgid "qttest"
 msgstr "Najnowše"
 
-#: kdecore/services/kservice.h:519
+#: kdecore/services/kservice.h:512
 #, kde-format
 msgid "The service '%1' does not provide an interface '%2' with keyword '%3'"
 msgstr ""
