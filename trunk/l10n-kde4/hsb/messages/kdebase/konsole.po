@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-19 11:17+0100\n"
+"POT-Creation-Date: 2008-03-20 08:05+0100\n"
 "PO-Revision-Date: 2003-12-23 17:19+0100\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -399,38 +399,64 @@ msgstr "&Posedźenje přemjenować..."
 msgid "Connect"
 msgstr ""
 
-#: Session.cpp:435
+#: Session.cpp:287
+#, fuzzy
+#| msgid "Could not save history."
+msgid "Could not find binary: "
+msgstr "Njemóžach nachwilny pomjatk zawěsćić."
+
+#: Session.cpp:296
+msgid "Warning: "
+msgstr ""
+
+#: Session.cpp:333
+#, kde-format
+msgid ""
+"Could not find '%1', starting '%2' instead.  Please check your profile "
+"settings."
+msgstr ""
+
+#: Session.cpp:338
+msgid "Could not find an interactive shell to start."
+msgstr ""
+
+#: Session.cpp:373
+#, kde-format
+msgid "Could not start program '%1' with arguments '%2'."
+msgstr ""
+
+#: Session.cpp:483
 #, fuzzy, kde-format
 msgid "Silence in session '%1'"
 msgstr "in"
 
-#: Session.cpp:452
+#: Session.cpp:500
 #, fuzzy, kde-format
 msgid "Bell in session '%1'"
 msgstr "in"
 
-#: Session.cpp:463
+#: Session.cpp:511
 #, fuzzy, kde-format
 msgid "Activity in session '%1'"
 msgstr "in"
 
-#: Session.cpp:590
+#: Session.cpp:638
 #, fuzzy
 #| msgid "Find"
 msgid "Finished"
 msgstr "Pytać"
 
-#: Session.cpp:600
+#: Session.cpp:647
 #, fuzzy, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "Interpreter."
 
-#: Session.cpp:602
+#: Session.cpp:649
 #, fuzzy, kde-format
-msgid "Program '%1' exited unexpectedly."
+msgid "Program '%1' crashed."
 msgstr "Interpreter."
 
-#: Session.cpp:813
+#: Session.cpp:863
 msgid "ZModem Progress"
 msgstr ""
 
@@ -2567,9 +2593,6 @@ msgstr "Terminal &wuprózdnić"
 
 #~ msgid "Unable to write to file."
 #~ msgstr "Njemóžu do dataje pisać."
-
-#~ msgid "Could not save history."
-#~ msgstr "Njemóžach nachwilny pomjatk zawěsćić."
 
 #~ msgid ""
 #~ "<p>The current session already has a ZModem file transfer in progress."
