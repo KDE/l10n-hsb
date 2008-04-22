@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-19 21:54+0200\n"
+"POT-Creation-Date: 2008-04-21 20:02+0200\n"
 "PO-Revision-Date: 2005-02-02 18:46+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -440,6 +440,39 @@ msgid ""
 "SSL certificate is being rejected as requested. You can disable this in the "
 "KDE Control Center."
 msgstr "SSL-certifikat wotpokazany. To móžeće w KDE Control Center změnić."
+
+#: kio/jobuidelegate.cpp:129 ../kfile/kdiroperator.cpp:725
+#, fuzzy, kde-format
+msgid "Do you really want to delete this item?"
+msgid_plural "Do you really want to delete these %1 items?"
+msgstr[0] "Chceće woprawdźe tute %1 objektow zničić?"
+msgstr[1] "Chceće woprawdźe tutón %1 objekt zničić?"
+msgstr[2] "Chceće woprawdźe tutej %1 objektaj zničić?"
+msgstr[3] "Chceće woprawdźe tute %1 objekty zničić?"
+
+#: kio/jobuidelegate.cpp:131 ../kfile/kdiroperator.cpp:727
+msgid "Delete Files"
+msgstr "Dataje zničić"
+
+#: kio/jobuidelegate.cpp:141
+#, fuzzy, kde-format
+msgid "Do you really want to move this item to the trash?"
+msgid_plural "Do you really want to move these %1 items to the trash?"
+msgstr[0] "Chceće woprawdźe tute %1 objektow zničić?"
+msgstr[1] "Chceće woprawdźe tutón %1 objekt zničić?"
+msgstr[2] "Chceće woprawdźe tutej %1 objektaj zničić?"
+msgstr[3] "Chceće woprawdźe tute %1 objekty zničić?"
+
+#: kio/jobuidelegate.cpp:143 ../kfile/kdiroperator.cpp:1577
+#, fuzzy
+msgid "Move to Trash"
+msgstr "Na %1 sunyć"
+
+#: kio/jobuidelegate.cpp:144
+#, fuzzy
+msgctxt "Verb"
+msgid "&Trash"
+msgstr "Papjernik"
 
 #: kio/skipdialog.cpp:40
 #, fuzzy
@@ -6090,19 +6123,6 @@ msgstr "<qt>Chceće <b>'%1'</b> woprawdźe zničić?</qt>"
 msgid "Delete File"
 msgstr "Dataju zničić"
 
-#: ../kfile/kdiroperator.cpp:725
-#, fuzzy, kde-format
-msgid "Do you really want to delete this item?"
-msgid_plural "Do you really want to delete these %1 items?"
-msgstr[0] "Chceće woprawdźe tute %1 objektow zničić?"
-msgstr[1] "Chceće woprawdźe tutón %1 objekt zničić?"
-msgstr[2] "Chceće woprawdźe tutej %1 objektaj zničić?"
-msgstr[3] "Chceće woprawdźe tute %1 objekty zničić?"
-
-#: ../kfile/kdiroperator.cpp:727
-msgid "Delete Files"
-msgstr "Dataje zničić"
-
 #: ../kfile/kdiroperator.cpp:758
 #, fuzzy
 msgid "You did not select a file to trash."
@@ -6171,11 +6191,6 @@ msgstr "Čitać"
 #: ../kfile/kdiroperator.cpp:1572
 msgid "New Folder..."
 msgstr "Nowy zapisk..."
-
-#: ../kfile/kdiroperator.cpp:1577
-#, fuzzy
-msgid "Move to Trash"
-msgstr "Na %1 sunyć"
 
 #: ../kfile/kdiroperator.cpp:1583
 #, fuzzy
