@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-19 21:58+0200\n"
+"POT-Creation-Date: 2008-04-24 01:55+0200\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -990,17 +990,17 @@ msgstr "Mjeno"
 
 #: attachmentlistview.cpp:47 kmfoldertree.cpp:1764 kmheaders.cpp:168
 #: kmheaders.cpp:217 kmmainwidget.cpp:588 kmmainwidget.cpp:595
-#: kmmainwidget.cpp:602 kmmimeparttree.cpp:64 kmpopfiltercnfrmdlg.cpp:54
+#: kmmainwidget.cpp:602 kmmimeparttree.cpp:66 kmpopfiltercnfrmdlg.cpp:54
 msgid "Size"
 msgstr "Wulkosć"
 
-#: attachmentlistview.cpp:47 kmmimeparttree.cpp:63
+#: attachmentlistview.cpp:47 kmmimeparttree.cpp:66
 msgid "Encoding"
 msgstr "Kodowanje"
 
 #. i18n: tag string
 #. i18n: file customtemplates_base.ui line 81
-#: attachmentlistview.cpp:48 kmfilterdlg.cpp:235 kmmimeparttree.cpp:62
+#: attachmentlistview.cpp:48 kmfilterdlg.cpp:235 kmmimeparttree.cpp:65
 #: rc.cpp:56
 msgid "Type"
 msgstr "družina"
@@ -1961,15 +1961,15 @@ msgstr "Do&pósłać:"
 msgid "&Quote indicator:"
 msgstr "&Znamješko za citowanje:"
 
-#: configuredialog.cpp:3232 kmmessage.cpp:3902
+#: configuredialog.cpp:3232 kmmessage.cpp:3912
 msgid "On %D, you wrote:"
 msgstr "%D sće pisali:"
 
-#: configuredialog.cpp:3233 kmmessage.cpp:3904
+#: configuredialog.cpp:3233 kmmessage.cpp:3914
 msgid "On %D, %F wrote:"
 msgstr "%D %F pisaše:"
 
-#: configuredialog.cpp:3234 kmmessage.cpp:3906
+#: configuredialog.cpp:3234 kmmessage.cpp:3916
 msgid "Forwarded Message"
 msgstr "Dopósłana powěsć"
 
@@ -2695,7 +2695,7 @@ msgstr "&Profile"
 msgid "Available Profiles"
 msgstr "Dotalne profile"
 
-#: configuredialog_p.cpp:308 kmmimeparttree.cpp:61
+#: configuredialog_p.cpp:308 kmmimeparttree.cpp:65
 msgid "Description"
 msgstr "Wopisanje"
 
@@ -3111,7 +3111,7 @@ msgid ""
 msgstr ""
 
 #: filterlogdlg.cpp:271 kmcommands.cpp:2611 kmcommands.cpp:2636
-#: kmmainwidget.cpp:1932 kmmainwidget.cpp:1943 urlhandlermanager.cpp:442
+#: kmmainwidget.cpp:1932 kmmainwidget.cpp:1943 urlhandlermanager.cpp:445
 msgid "KMail Error"
 msgstr "Zmylk w kmailu"
 
@@ -5319,7 +5319,7 @@ msgstr "Zjawny"
 msgid "Select the public key which should be attached."
 msgstr ""
 
-#: kmcomposewin.cpp:2662 kmmimeparttree.cpp:137 kmreaderwin.cpp:1905
+#: kmcomposewin.cpp:2662 kmmimeparttree.cpp:229 kmreaderwin.cpp:1905
 msgctxt "to open"
 msgid "Open"
 msgstr ""
@@ -5344,7 +5344,7 @@ msgstr "wobdźěłać..."
 msgid "Save As..."
 msgstr "Z&awěsćić jako..."
 
-#: kmcomposewin.cpp:2672 kmmimeparttree.cpp:162 kmreaderwin.cpp:1941
+#: kmcomposewin.cpp:2672 kmmimeparttree.cpp:257 kmreaderwin.cpp:1941
 #, fuzzy
 msgid "Properties"
 msgstr "&Swójstwa"
@@ -6015,7 +6015,7 @@ msgstr ""
 msgid "New"
 msgstr "Nowe"
 
-#: kmfilterdlg.cpp:653 kmmimeparttree.cpp:152 kmreaderwin.cpp:1921
+#: kmfilterdlg.cpp:653 kmmimeparttree.cpp:246 kmreaderwin.cpp:1921
 #, fuzzy
 msgid "Copy"
 msgstr "&Kopěruj do"
@@ -6802,7 +6802,7 @@ msgstr ""
 "Njemóžu dataju '%1' w '%2' stworić.\n"
 "KMail njemóže bjez njeje startować."
 
-#: kmfoldertree.cpp:379 kmheaders.cpp:143
+#: kmfoldertree.cpp:379 kmheaders.cpp:143 kmmimeparttree.cpp:163
 #, fuzzy
 msgid "View Columns"
 msgstr "Napohlad špaltow"
@@ -7544,7 +7544,7 @@ msgstr ""
 "Njemóžach GnuPG LogViewer kwatchgnupg startować. Prošu přepruwujće swoju "
 "instalaciju!"
 
-#: kmmainwidget.cpp:2657 kmmimeparttree.cpp:133
+#: kmmainwidget.cpp:2657 kmmimeparttree.cpp:225
 msgid "Save &As..."
 msgstr "Z&awěsćić jako..."
 
@@ -8218,7 +8218,7 @@ msgstr "Opcije njeznate"
 msgid "Receipt: "
 msgstr ""
 
-#: kmmessage.cpp:3090 urlhandlermanager.cpp:504
+#: kmmessage.cpp:3100 urlhandlermanager.cpp:507
 #, fuzzy, kde-format
 msgid "Attachment: %1"
 msgstr "Přiwěšk: "
@@ -8238,32 +8238,32 @@ msgstr ""
 msgid "Later"
 msgstr "Pozdźišo pósłać"
 
-#: kmmimeparttree.cpp:139 kmreaderwin.cpp:1909
+#: kmmimeparttree.cpp:231 kmreaderwin.cpp:1909
 msgid "Open With..."
 msgstr "Wočinić z ..."
 
-#: kmmimeparttree.cpp:140 kmreaderwin.cpp:1913
+#: kmmimeparttree.cpp:232 kmreaderwin.cpp:1913
 msgctxt "to view something"
 msgid "View"
 msgstr ""
 
-#: kmmimeparttree.cpp:147
+#: kmmimeparttree.cpp:241
 #, fuzzy
 msgid "Save All Attachments..."
 msgstr "&Přiwěšk zawěsćić jako..."
 
-#: kmmimeparttree.cpp:155 kmreaderwin.cpp:1931 kmreaderwin.cpp:2571
+#: kmmimeparttree.cpp:249 kmreaderwin.cpp:1931 kmreaderwin.cpp:2571
 #, fuzzy
 #| msgid "&Remove Attachment"
 msgid "Delete Attachment"
 msgstr "Přiwěšk &zničić"
 
-#: kmmimeparttree.cpp:158 kmreaderwin.cpp:1926 kmreaderwin.cpp:2584
+#: kmmimeparttree.cpp:252 kmreaderwin.cpp:1926 kmreaderwin.cpp:2584
 #, fuzzy
 msgid "Edit Attachment"
 msgstr "Přiwěšk: "
 
-#: kmmimeparttree.cpp:376
+#: kmmimeparttree.cpp:501
 msgid "Unspecified Binary Data"
 msgstr ""
 
@@ -12888,40 +12888,40 @@ msgstr ""
 msgid "There is nothing to undo."
 msgstr ""
 
-#: urlhandlermanager.cpp:381
+#: urlhandlermanager.cpp:384
 msgid "Turn on HTML rendering for this message."
 msgstr "Zaswěć HTML, zo by tutu powěsć čitał."
 
-#: urlhandlermanager.cpp:383
+#: urlhandlermanager.cpp:386
 #, fuzzy
 msgid "Load external references from the Internet for this message."
 msgstr "Powěsćam dowolić, e&ksterne linki z interneta začitać"
 
-#: urlhandlermanager.cpp:385
+#: urlhandlermanager.cpp:388
 msgid "Work online"
 msgstr ""
 
-#: urlhandlermanager.cpp:417
+#: urlhandlermanager.cpp:420
 msgid "Expand all quoted text."
 msgstr ""
 
-#: urlhandlermanager.cpp:419
+#: urlhandlermanager.cpp:422
 msgid "Collapse quoted text."
 msgstr ""
 
-#: urlhandlermanager.cpp:440
+#: urlhandlermanager.cpp:443
 #, fuzzy
 msgid "Could not start certificate manager. Please check your installation."
 msgstr ""
 "Njemóžach certifikatowy manager startować. Prošu přepruwujće swoju "
 "instalaciju!"
 
-#: urlhandlermanager.cpp:450
+#: urlhandlermanager.cpp:453
 #, kde-format
 msgid "Show certificate 0x%1"
 msgstr "Pokaž certifikat 0x%1"
 
-#: urlhandlermanager.cpp:505
+#: urlhandlermanager.cpp:508
 #, fuzzy, kde-format
 msgid "Attachment #%1 (unnamed)"
 msgstr "Přiwěšk: "
