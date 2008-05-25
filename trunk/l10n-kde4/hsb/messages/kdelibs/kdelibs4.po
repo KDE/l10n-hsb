@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-23 10:50+0200\n"
+"POT-Creation-Date: 2008-05-25 11:00+0200\n"
 "PO-Revision-Date: 2007-06-18 11:34+0200\n"
 "Last-Translator: Bianka Šwejdźic <hertn@gmx.de>\n"
 "Language-Team: Upper Sorbian <hsb@li.org>\n"
@@ -3456,7 +3456,7 @@ msgstr "Biblioteka '%1' njeje KDE-kompatibelna."
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr ""
 
-#: kdecore/config/kconfig.cpp:679
+#: kdecore/config/kconfig.cpp:677
 msgid "Please contact your system administrator."
 msgstr "Prošu skontaktujće so z administratorom systema."
 
@@ -5889,24 +5889,24 @@ msgstr "Znowa činić"
 msgid "Undo"
 msgstr "Wróćo"
 
-#: kdeui/util/ksystemtrayicon.cpp:130
+#: kdeui/util/ksystemtrayicon.cpp:133
 msgid "Minimize"
 msgstr "Minimalizować"
 
-#: kdeui/util/ksystemtrayicon.cpp:189
+#: kdeui/util/ksystemtrayicon.cpp:192
 msgid "&Minimize"
 msgstr "&Minimalizować"
 
-#: kdeui/util/ksystemtrayicon.cpp:193
+#: kdeui/util/ksystemtrayicon.cpp:196
 msgid "&Restore"
 msgstr "&Prěnjotny staw"
 
-#: kdeui/util/ksystemtrayicon.cpp:213
+#: kdeui/util/ksystemtrayicon.cpp:216
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr "<qt>Chceće woprawdźe <b>%1</b> wopušćić?</qt>"
 
-#: kdeui/util/ksystemtrayicon.cpp:216
+#: kdeui/util/ksystemtrayicon.cpp:219
 msgid "Confirm Quit From System Tray"
 msgstr "Confirm Quit From System Tray"
 
@@ -7272,10 +7272,9 @@ msgstr ""
 msgid "Choose..."
 msgstr "Wubrać..."
 
-#. i18n: Filtering message, so that translators can translate the
-#. font names on their own should they want. May be replaced in
-#. the future with conventional messages in a PO file.
-#: kdeui/fonts/kfontrequester.cpp:200 kdeui/fonts/fonthelpers.cpp:58
+#. i18n: Filter by which the translators can translate, or otherwise
+#. operate on the font names not put up for regular translation.
+#: kdeui/fonts/kfontrequester.cpp:200 kdeui/fonts/fonthelpers.cpp:81
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@item Font name"
@@ -7511,7 +7510,32 @@ msgctxt "@item Font style"
 msgid "%1"
 msgstr "%1%"
 
-#: kdeui/fonts/fonthelpers.cpp:60
+#. i18n: Generic sans serif font presented in font choosers. When selected,
+#. the system will choose a real font, mandated by distro settings.
+#: kdeui/fonts/fonthelpers.cpp:32
+msgctxt "@item Font name"
+msgid "Sans Serif"
+msgstr ""
+
+#. i18n: Generic serif font presented in font choosers. When selected,
+#. the system will choose a real font, mandated by distro settings.
+#: kdeui/fonts/fonthelpers.cpp:35
+#, fuzzy
+#| msgid "&Verify:"
+msgctxt "@item Font name"
+msgid "Serif"
+msgstr "&Přepruwować:"
+
+#. i18n: Generic monospace font presented in font choosers. When selected,
+#. the system will choose a real font, mandated by distro settings.
+#: kdeui/fonts/fonthelpers.cpp:38
+msgctxt "@item Font name"
+msgid "Monospace"
+msgstr ""
+
+#. i18n: Filter by which the translators can translate, or otherwise
+#. operate on the font names not put up for regular translation.
+#: kdeui/fonts/fonthelpers.cpp:85
 #, fuzzy, kde-format
 msgctxt "@item Font name [foundry]"
 msgid "%1 [%2]"
@@ -11548,7 +11572,7 @@ msgstr "fatalny zmylk parsowanja: %1 w lince %2, špalta %3"
 msgid "XML parsing error"
 msgstr "XML zmylk parsowanja"
 
-#: khtml/xml/dom_docimpl.cpp:2208
+#: khtml/xml/dom_docimpl.cpp:2215
 msgid "Basic Page Style"
 msgstr "Jednory stil strony"
 
