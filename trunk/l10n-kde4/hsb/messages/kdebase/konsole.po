@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-21 09:00+0200\n"
+"POT-Creation-Date: 2008-05-26 16:26+0200\n"
 "PO-Revision-Date: 2003-12-23 17:19+0100\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -188,19 +188,19 @@ msgstr ""
 msgid "%1, size %2"
 msgstr "%1 čo. %2"
 
-#: EditProfileDialog.cpp:663 EditProfileDialog.cpp:672
+#: EditProfileDialog.cpp:661 EditProfileDialog.cpp:670
 msgid "New Color Scheme"
 msgstr ""
 
-#: EditProfileDialog.cpp:665
+#: EditProfileDialog.cpp:663
 msgid "Edit Color Scheme"
 msgstr ""
 
-#: EditProfileDialog.cpp:798 EditProfileDialog.cpp:809
+#: EditProfileDialog.cpp:796 EditProfileDialog.cpp:807
 msgid "New Key Binding List"
 msgstr ""
 
-#: EditProfileDialog.cpp:800
+#: EditProfileDialog.cpp:798
 msgid "Edit Key Binding List"
 msgstr ""
 
@@ -579,11 +579,7 @@ msgstr "&Pomjatk wuprózdnić"
 msgid "Edit Current Profile..."
 msgstr ""
 
-#. i18n: tag text
-#. i18n: file ../desktop/sessionui.rc line 61
-#. i18n: tag text
-#. i18n: file ../desktop/partui.rc line 26
-#: SessionController.cpp:580 rc.cpp:824 rc.cpp:830
+#: SessionController.cpp:580
 #, fuzzy
 #| msgid "Save Sessions &Profile..."
 msgid "Change Profile"
@@ -2091,6 +2087,16 @@ msgid "Debug"
 msgstr ""
 
 #. i18n: tag text
+#. i18n: file ../desktop/sessionui.rc line 61
+#. i18n: tag text
+#. i18n: file ../desktop/partui.rc line 26
+#: rc.cpp:824 rc.cpp:830
+#, fuzzy
+#| msgid "Save Sessions &Profile..."
+msgid "&Change Profile"
+msgstr "&Profilowu dataju zawěsćić..."
+
+#. i18n: tag text
 #. i18n: file ../desktop/partui.rc line 8
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 18
@@ -2098,45 +2104,51 @@ msgstr ""
 #, fuzzy
 #| msgctxt "Unlimited (number of lines)"
 #| msgid "Unlimited"
-msgid "Scrollback"
+msgid "S&crollback"
 msgstr "Bjez wobmjezowanja"
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 5
 #: rc.cpp:833
-msgid "File"
-msgstr ""
+#, fuzzy
+#| msgid "S&ize"
+msgid "&File"
+msgstr "&Wulkosć"
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 15
 #: rc.cpp:836
 #, fuzzy
-msgid "Edit"
+msgid "&Edit"
 msgstr "&Editować"
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 21
 #: rc.cpp:842
-msgid "View"
-msgstr ""
+#, fuzzy
+#| msgid "S&ize"
+msgid "&View"
+msgstr "&Wulkosć"
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 22
 #: rc.cpp:845
 #, fuzzy
-msgid "Split View"
+msgid "Split &View"
 msgstr "Mjeńše pismo"
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 40
 #: rc.cpp:848
-msgid "Settings"
+#, fuzzy
+#| msgid "Settings"
+msgid "&Settings"
 msgstr "Nastajenja"
 
 #. i18n: tag text
 #. i18n: file ../desktop/konsoleui.rc line 47
 #: rc.cpp:851
-msgid "Help"
+msgid "&Help"
 msgstr ""
 
 #: schemas.cpp:1
@@ -2522,9 +2534,6 @@ msgstr "Terminal &wuprózdnić"
 #, fuzzy
 #~ msgid "Default"
 #~ msgstr "Jako &standard zawěsćić"
-
-#~ msgid "S&ize"
-#~ msgstr "&Wulkosć"
 
 #~ msgid "40x15 (&Small)"
 #~ msgstr "40x15 (&Mały terminal)"
