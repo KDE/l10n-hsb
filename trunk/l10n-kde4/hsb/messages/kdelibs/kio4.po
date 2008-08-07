@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-05 08:25+0200\n"
+"POT-Creation-Date: 2008-08-07 08:20+0200\n"
 "PO-Revision-Date: 2005-02-02 18:46+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -2641,48 +2641,11 @@ msgstr "Hłowny dźěl tutoho dokumenta je z SSL zawěsćeny, ale nic wšitko."
 msgid "Some of this document is secured with SSL, but the main part is not."
 msgstr "Dźěle tutoho dokumenta su z SSL zawěsćene, hłowny dźěl pak nic."
 
-#: kssl/ksslinfodialog.cpp:205
+#: kssl/ksslinfodialog.cpp:190
 #, fuzzy, kde-format
 #| msgid "%1 bits used of a %2 bit cipher"
 msgid "%1, using %2 bits of a %3 bit key"
 msgstr "%1 bitow  so z %2-bitoweho kluča wužiwa"
-
-#. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 43
-#: kssl/ksslinfodialog.cpp:328 rc.cpp:66
-msgid "Organization:"
-msgstr "Organizacija:"
-
-#. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 70
-#: kssl/ksslinfodialog.cpp:335 rc.cpp:72
-msgid "Organizational unit:"
-msgstr "Dźěl organizacije:"
-
-#: kssl/ksslinfodialog.cpp:342
-msgid "Locality:"
-msgstr "Městno:"
-
-#: kssl/ksslinfodialog.cpp:349
-msgctxt "Federal State"
-msgid "State:"
-msgstr "Stat:"
-
-#. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 97
-#: kssl/ksslinfodialog.cpp:356 rc.cpp:78
-msgid "Country:"
-msgstr "Kraj:"
-
-#. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 16
-#: kssl/ksslinfodialog.cpp:363 rc.cpp:60
-msgid "Common name:"
-msgstr "Normalne pomjenowanje:"
-
-#: kssl/ksslinfodialog.cpp:370
-msgid "Email:"
-msgstr "email:"
 
 #: kssl/ksslcertificate.cpp:204
 msgid "Signature Algorithm: "
@@ -4392,10 +4355,22 @@ msgstr ""
 "pomocnik ma was přewodźeć. Móžeće akciju kóždy čas přetorhnyć."
 
 #. i18n: tag string
+#. i18n: file ./kssl/certificateparty.ui line 16
+#: rc.cpp:60
+msgid "Common name:"
+msgstr "Normalne pomjenowanje:"
+
+#. i18n: tag string
 #. i18n: file ./kssl/certificateparty.ui line 23
 #: rc.cpp:63
 msgid "Acme Co."
 msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kssl/certificateparty.ui line 43
+#: rc.cpp:66
+msgid "Organization:"
+msgstr "Organizacija:"
 
 #. i18n: tag string
 #. i18n: file ./kssl/certificateparty.ui line 50
@@ -4404,10 +4379,22 @@ msgid "Acme Sundry Products Company"
 msgstr ""
 
 #. i18n: tag string
+#. i18n: file ./kssl/certificateparty.ui line 70
+#: rc.cpp:72
+msgid "Organizational unit:"
+msgstr "Dźěl organizacije:"
+
+#. i18n: tag string
 #. i18n: file ./kssl/certificateparty.ui line 77
 #: rc.cpp:75
 msgid "Fraud Department"
 msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kssl/certificateparty.ui line 97
+#: rc.cpp:78
+msgid "Country:"
+msgstr "Kraj:"
 
 #. i18n: tag string
 #. i18n: file ./kssl/certificateparty.ui line 104
@@ -5730,42 +5717,42 @@ msgstr "Žana metainformacija za %1"
 msgid "No metainfo for %1"
 msgstr "Žana metainformacija za %1"
 
-#: ../kfile/kfileplacesview.cpp:422
+#: ../kfile/kfileplacesview.cpp:557
 #, fuzzy
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
 msgstr "Papjernik"
 
-#: ../kfile/kfileplacesview.cpp:428
+#: ../kfile/kfileplacesview.cpp:563
 #, fuzzy, kde-format
 #| msgid "&Edit..."
 msgid "&Edit '%1'..."
 msgstr "&Wobdźěłać"
 
-#: ../kfile/kfileplacesview.cpp:431
+#: ../kfile/kfileplacesview.cpp:566
 #, kde-format
 msgid "&Hide '%1'"
 msgstr ""
 
-#: ../kfile/kfileplacesview.cpp:438
+#: ../kfile/kfileplacesview.cpp:573
 #, fuzzy
 msgid "&Show All Entries"
 msgstr ""
 "Pokaž\n"
 "zapisy"
 
-#: ../kfile/kfileplacesview.cpp:448
+#: ../kfile/kfileplacesview.cpp:583
 #, fuzzy, kde-format
 msgid "&Remove '%1'"
 msgstr "Z&ničić"
 
-#: ../kfile/kfileplacesview.cpp:464
+#: ../kfile/kfileplacesview.cpp:599
 #, fuzzy
 msgctxt "@info"
 msgid "Do you really want to empty the Trash? All items will be deleted."
 msgstr "Chceće woprawdźe tute %1 objektow zničić?"
 
-#: ../kfile/kfileplacesview.cpp:468
+#: ../kfile/kfileplacesview.cpp:603
 #, fuzzy
 msgctxt "@action:button"
 msgid "Empty Trash"
@@ -6411,6 +6398,16 @@ msgstr ""
 #: ../kfile/kurlbutton.cpp:119
 msgid "Show Full Path"
 msgstr ""
+
+#~ msgid "Locality:"
+#~ msgstr "Městno:"
+
+#~ msgctxt "Federal State"
+#~ msgid "State:"
+#~ msgstr "Stat:"
+
+#~ msgid "Email:"
+#~ msgstr "email:"
 
 #, fuzzy
 #~| msgid "An unexpected error (%1) occurred while attempting to %2."
