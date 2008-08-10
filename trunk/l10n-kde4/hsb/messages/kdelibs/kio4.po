@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-07 08:20+0200\n"
+"POT-Creation-Date: 2008-08-10 08:30+0200\n"
 "PO-Revision-Date: 2005-02-02 18:46+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -133,13 +133,13 @@ msgstr ""
 msgid "Data format:"
 msgstr ""
 
-#: kio/slaveinterface.cpp:488
+#: kio/slaveinterface.cpp:476
 #, fuzzy
 #| msgid "The peer SSL certificate appears to be corrupt."
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "SSL-certifikat peera njeje walidny."
 
-#: kio/slaveinterface.cpp:490 kio/tcpslavebase.cpp:656
+#: kio/slaveinterface.cpp:478 kio/tcpslavebase.cpp:675
 msgid "SSL"
 msgstr "SSL"
 
@@ -335,7 +335,7 @@ msgstr ""
 "Wopušćiće nětko zawěsćeny modus. Transmisije hižo njebudu zašifrowane. To "
 "rěka, zo móhła někajki třeći do wašich přenjesenych datow pohladać."
 
-#: kio/tcpslavebase.cpp:266 kio/tcpslavebase.cpp:488
+#: kio/tcpslavebase.cpp:266 kio/tcpslavebase.cpp:507
 msgid "Security Information"
 msgstr "Informacija wo wěstosći"
 
@@ -349,7 +349,7 @@ msgctxt "%1 is a host name"
 msgid "%1: SSL negotiation failed"
 msgstr "Přizjewjenje je so zwrěšćiło!"
 
-#: kio/tcpslavebase.cpp:482
+#: kio/tcpslavebase.cpp:501
 msgid ""
 "You are about to enter secure mode. All transmissions will be encrypted "
 "unless otherwise noted.\n"
@@ -360,32 +360,32 @@ msgstr ""
 "chiba zo so něšto hinaše praji. To rěka, zo žadyn třeći njemóže cyle "
 "jednorje do wot tebje přenjesenych datow pohladać."
 
-#: kio/tcpslavebase.cpp:489
+#: kio/tcpslavebase.cpp:508
 msgid "Display SSL &Information"
 msgstr "&SSL-informaciju pokazać"
 
-#: kio/tcpslavebase.cpp:490
+#: kio/tcpslavebase.cpp:509
 msgid "C&onnect"
 msgstr "&Zwjazać"
 
-#: kio/tcpslavebase.cpp:627
+#: kio/tcpslavebase.cpp:646
 msgid "Enter the certificate password:"
 msgstr "zapodajće škitne hesło za certifikat:"
 
-#: kio/tcpslavebase.cpp:628
+#: kio/tcpslavebase.cpp:647
 msgid "SSL Certificate Password"
 msgstr "Škitne hesło za SSL-certifikat"
 
-#: kio/tcpslavebase.cpp:641
+#: kio/tcpslavebase.cpp:660
 #, fuzzy
 msgid "Unable to open the certificate. Try a new password?"
 msgstr "Njemóžu certifikat wočinić. Chceće z hinašim škitnym hesłom spytać?"
 
-#: kio/tcpslavebase.cpp:654
+#: kio/tcpslavebase.cpp:673
 msgid "The procedure to set the client certificate for the session failed."
 msgstr "Clientowy certifikat za sesiju njehodźeše so nastajić."
 
-#: kio/tcpslavebase.cpp:712
+#: kio/tcpslavebase.cpp:731
 #, fuzzy, kde-format
 #| msgid "The server certificate failed the authenticity test (%1)."
 msgid ""
@@ -393,35 +393,35 @@ msgid ""
 "\n"
 msgstr "Certifikat servera njeje test awtentifikacije wobstał (%1)."
 
-#: kio/tcpslavebase.cpp:761 kio/tcpslavebase.cpp:778 kio/tcpslavebase.cpp:880
-#: kio/tcpslavebase.cpp:892
+#: kio/tcpslavebase.cpp:780 kio/tcpslavebase.cpp:797 kio/tcpslavebase.cpp:899
+#: kio/tcpslavebase.cpp:911
 msgid "Server Authentication"
 msgstr "Přepruwowanje servera"
 
-#: kio/tcpslavebase.cpp:762
+#: kio/tcpslavebase.cpp:781
 msgid "&Details"
 msgstr "&Detajle"
 
-#: kio/tcpslavebase.cpp:762
+#: kio/tcpslavebase.cpp:781
 msgid "Co&ntinue"
 msgstr "Po&kročować"
 
-#: kio/tcpslavebase.cpp:775
+#: kio/tcpslavebase.cpp:794
 msgid ""
 "Would you like to accept this certificate forever without being prompted?"
 msgstr ""
 "Chceće tutón certifikat na wšě časy bjez doprašowanja z mojeje strony "
 "akceptować?"
 
-#: kio/tcpslavebase.cpp:779
+#: kio/tcpslavebase.cpp:798
 msgid "&Forever"
 msgstr "&Na wšě časy"
 
-#: kio/tcpslavebase.cpp:780
+#: kio/tcpslavebase.cpp:799
 msgid "&Current Sessions Only"
 msgstr "&Jenož nětko"
 
-#: kio/tcpslavebase.cpp:879
+#: kio/tcpslavebase.cpp:898
 msgid ""
 "You have indicated that you wish to accept this certificate, but it is not "
 "issued to the server who is presenting it. Do you wish to continue loading?"
@@ -429,7 +429,7 @@ msgstr ""
 "Chceće certifikat akceptować, ale njewuchadźa ze servera, kiž jón wužiwa. "
 "Chceće najebać to dale činić?"
 
-#: kio/tcpslavebase.cpp:891
+#: kio/tcpslavebase.cpp:910
 msgid ""
 "SSL certificate is being rejected as requested. You can disable this in the "
 "KDE Control Center."
@@ -2602,50 +2602,59 @@ msgstr "Družina:"
 msgid "Certificate password"
 msgstr "Hesło certifikata"
 
-#: kssl/ksslinfodialog.cpp:73 kssl/ksslkeygen.cpp:125
+#: kssl/ksslinfodialog.cpp:74 kssl/ksslkeygen.cpp:125
 msgid "KDE SSL Information"
 msgstr "KDE SSL-informacija"
 
-#: kssl/ksslinfodialog.cpp:80
+#: kssl/ksslinfodialog.cpp:81
 #, fuzzy
 #| msgid "Subject line"
 msgid "Subject"
 msgstr "Temowa linka"
 
-#: kssl/ksslinfodialog.cpp:81
+#: kssl/ksslinfodialog.cpp:82
 #, fuzzy
 #| msgid "Issuer:"
 msgid "Issuer"
 msgstr "Wupisowar:"
 
-#: kssl/ksslinfodialog.cpp:91 kssl/ksslinfodialog.cpp:136
+#: kssl/ksslinfodialog.cpp:92 kssl/ksslinfodialog.cpp:137
 msgid "Current connection is secured with SSL."
 msgstr "Zwisk je tuchwilu z SSL zawěsćeny."
 
-#: kssl/ksslinfodialog.cpp:94 kssl/ksslinfodialog.cpp:149
+#: kssl/ksslinfodialog.cpp:95 kssl/ksslinfodialog.cpp:150
 msgid "Current connection is not secured with SSL."
 msgstr "Zwisk tuchwilu z SSL zawěsćeny njeje."
 
-#: kssl/ksslinfodialog.cpp:98
+#: kssl/ksslinfodialog.cpp:99
 msgid "SSL support is not available in this build of KDE."
 msgstr "Do tuteho KDE so SSL njeje zakompilowało."
 
-#: kssl/ksslinfodialog.cpp:139
+#: kssl/ksslinfodialog.cpp:140
 msgid ""
 "The main part of this document is secured with SSL, but some parts are not."
 msgstr "Hłowny dźěl tutoho dokumenta je z SSL zawěsćeny, ale nic wšitko."
 
-#: kssl/ksslinfodialog.cpp:145
+#: kssl/ksslinfodialog.cpp:146
 #, fuzzy
 #| msgid "Some of this document is secured with SSL, but the main part is not."
 msgid "Some of this document is secured with SSL, but the main part is not."
 msgstr "Dźěle tutoho dokumenta su z SSL zawěsćene, hłowny dźěl pak nic."
 
-#: kssl/ksslinfodialog.cpp:190
+#: kssl/ksslinfodialog.cpp:193
 #, fuzzy, kde-format
 #| msgid "%1 bits used of a %2 bit cipher"
 msgid "%1, using %2 bits of a %3 bit key"
 msgstr "%1 bitow  so z %2-bitoweho kluča wužiwa"
+
+#: kssl/ksslinfodialog.cpp:212
+msgid "NO, there were errors:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:219
+#, fuzzy
+msgid "Yes"
+msgstr "Stary staw"
 
 #: kssl/ksslcertificate.cpp:204
 msgid "Signature Algorithm: "
@@ -3114,7 +3123,7 @@ msgstr ""
 "<qt>Aplikacija <b>%1</b> chce móšnjowu dataju <b>%2</b> wočinić. Prošu "
 "zapodajće wotpowědne hesło."
 
-#: misc/kwalletd/kwalletd.cpp:395 ../kfile/kfilewidget.cpp:1800
+#: misc/kwalletd/kwalletd.cpp:395 ../kfile/kfilewidget.cpp:1801
 msgid "&Open"
 msgstr "W&očinić"
 
@@ -4956,7 +4965,7 @@ msgid "<!-- This file was generated by Konqueror -->"
 msgstr "<!-- Tuta dataja bu wot Konquerora generowana -->"
 
 #: bookmarks/kbookmarkimporter_ns.cc:157 bookmarks/kbookmarkimporter_ns.cc:158
-#: bookmarks/kbookmarkdialog.cc:325 ../kfile/kfilewidget.cpp:2271
+#: bookmarks/kbookmarkdialog.cc:325 ../kfile/kfilewidget.cpp:2276
 #, fuzzy
 msgid "Bookmarks"
 msgstr "Lubušk"
@@ -5758,7 +5767,7 @@ msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "Papjernik"
 
-#: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1661
+#: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1662
 msgid "*|All Files"
 msgstr "*|Wšitke dataje"
 
@@ -5784,12 +5793,12 @@ msgstr ""
 "praweje myšaceje tasty a wubranjom preferowaneho modusa z menija "
 "<b>Wudospołnjenje teksta</b>."
 
-#: ../kfile/kfilewidget.cpp:312
+#: ../kfile/kfilewidget.cpp:313
 #, fuzzy, kde-format
 msgid "Drive: %1"
 msgstr "wulkosć %1"
 
-#: ../kfile/kfilewidget.cpp:367
+#: ../kfile/kfilewidget.cpp:368
 #, fuzzy, kde-format
 msgid ""
 "<qt>Click this button to enter the parent folder.<br /><br />For instance, "
@@ -5800,41 +5809,41 @@ msgstr ""
 "nětko we file:/home/%1 dóstanjeće so přez klik na tutón knefl do file:/home."
 "</qt>"
 
-#: ../kfile/kfilewidget.cpp:372
+#: ../kfile/kfilewidget.cpp:373
 msgid "Click this button to move backwards one step in the browsing history."
 msgstr "Klikńće tutón knefl, zo by prjedawšu stronu wopytał."
 
-#: ../kfile/kfilewidget.cpp:374
+#: ../kfile/kfilewidget.cpp:375
 msgid "Click this button to move forward one step in the browsing history."
 msgstr "Klikńće tutón knefl, zo by přichodnu stronu wopytał."
 
-#: ../kfile/kfilewidget.cpp:377
+#: ../kfile/kfilewidget.cpp:378
 msgid "Click this button to reload the contents of the current location."
 msgstr "Klikńće tutón knefl, zo by napohlad aktualneho městna aktualizowali."
 
-#: ../kfile/kfilewidget.cpp:380
+#: ../kfile/kfilewidget.cpp:381
 #, fuzzy
 msgid "Click this button to create a new folder."
 msgstr "Klikńće tutón knefl, zo by nowy zapisk stworił."
 
-#: ../kfile/kfilewidget.cpp:386
+#: ../kfile/kfilewidget.cpp:387
 #, fuzzy
 #| msgid "Show Quick Access Navigation Panel"
 msgid "Show Places Navigation Panel"
 msgstr "Pokaž nawigaciski pask"
 
-#: ../kfile/kfilewidget.cpp:393
+#: ../kfile/kfilewidget.cpp:394
 #, fuzzy
 msgid "Show Bookmarks"
 msgstr "Lubušk"
 
-#: ../kfile/kfilewidget.cpp:398
+#: ../kfile/kfilewidget.cpp:399
 #, fuzzy
 #| msgid "Operation"
 msgid "Options"
 msgstr "Operacija"
 
-#: ../kfile/kfilewidget.cpp:400
+#: ../kfile/kfilewidget.cpp:401
 #, fuzzy
 msgid ""
 "<qt>This is the preferences menu for the file dialog. Various options can be "
@@ -5849,11 +5858,11 @@ msgstr ""
 "<li>pokazowanje chowanych datajow</li> <li>nawigaciski pask</li> "
 "<li>přehladki datajow</li> <li>dźělenje zapiskow wot datajow</li></ul></qt>"
 
-#: ../kfile/kfilewidget.cpp:446 ../kfile/kfileplaceeditdialog.cpp:116
+#: ../kfile/kfilewidget.cpp:447 ../kfile/kfileplaceeditdialog.cpp:116
 msgid "&Location:"
 msgstr "&Městno:"
 
-#: ../kfile/kfilewidget.cpp:482
+#: ../kfile/kfilewidget.cpp:483
 #, fuzzy
 #| msgid ""
 #| "<qt>This is the filter to apply to the file list. File names that do not "
@@ -5871,22 +5880,22 @@ msgstr ""
 "filtrow w meniju wubrać abo tež swój do tekstoweho pólka napisać.<p> Jokery "
 "kaž * a ? su dowolene.</qt>"
 
-#: ../kfile/kfilewidget.cpp:488
+#: ../kfile/kfilewidget.cpp:489
 msgid "&Filter:"
 msgstr "&Filter:"
 
-#: ../kfile/kfilewidget.cpp:715 ../kfile/kfilewidget.cpp:764
-#: ../kfile/kfilewidget.cpp:1598
+#: ../kfile/kfilewidget.cpp:716 ../kfile/kfilewidget.cpp:765
+#: ../kfile/kfilewidget.cpp:1599
 msgid "You can only select local files."
 msgstr "Móžeće jenož lokalne dataje wubrać."
 
-#: ../kfile/kfilewidget.cpp:716 ../kfile/kfilewidget.cpp:765
-#: ../kfile/kfilewidget.cpp:1599
+#: ../kfile/kfilewidget.cpp:717 ../kfile/kfilewidget.cpp:766
+#: ../kfile/kfilewidget.cpp:1600
 #, fuzzy
 msgid "Remote Files Not Accepted"
 msgstr "Njelokalne dataje so njeakceptuja"
 
-#: ../kfile/kfilewidget.cpp:755
+#: ../kfile/kfilewidget.cpp:756
 #, kde-format
 msgid ""
 "%1\n"
@@ -5895,15 +5904,15 @@ msgstr ""
 "%1\n"
 "njewupada kaž korektnyURL.\n"
 
-#: ../kfile/kfilewidget.cpp:755
+#: ../kfile/kfilewidget.cpp:756
 msgid "Invalid URL"
 msgstr "Njekorektny URL"
 
-#: ../kfile/kfilewidget.cpp:1189
+#: ../kfile/kfilewidget.cpp:1190
 msgid "This is the name to save the file as."
 msgstr "To je mjeno, pod kotrymž ma so dataja zawěsćić."
 
-#: ../kfile/kfilewidget.cpp:1194
+#: ../kfile/kfilewidget.cpp:1195
 msgid ""
 "This is the list of files to open. More than one file can be specified by "
 "listing several files, separated by spaces."
@@ -5911,22 +5920,22 @@ msgstr ""
 "To je lisćina datajow, kiž maja so wočinić. Wjacore dataje móža so podać "
 "jako lisćina datajowych mjenow, z mjezotami wotdźělenych."
 
-#: ../kfile/kfilewidget.cpp:1201
+#: ../kfile/kfilewidget.cpp:1202
 msgid "This is the name of the file to open."
 msgstr "To je mjeno dataje, kiž ma so wočinić."
 
-#: ../kfile/kfilewidget.cpp:1375
+#: ../kfile/kfilewidget.cpp:1376
 #, kde-format
 msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
 msgstr ""
 
-#: ../kfile/kfilewidget.cpp:1376
+#: ../kfile/kfilewidget.cpp:1377
 #, fuzzy
 #| msgid "O&verwrite All"
 msgid "Overwrite File?"
 msgstr "&Wšitke přepisać"
 
-#: ../kfile/kfilewidget.cpp:1530
+#: ../kfile/kfilewidget.cpp:1531
 #, fuzzy
 msgid ""
 "The chosen filenames do not\n"
@@ -5935,11 +5944,11 @@ msgstr ""
 "Wubrane datajowe mjena po zdaću\n"
 "njejsu korektne."
 
-#: ../kfile/kfilewidget.cpp:1532
+#: ../kfile/kfilewidget.cpp:1533
 msgid "Invalid Filenames"
 msgstr "Njekorektne datajowe mjena"
 
-#: ../kfile/kfilewidget.cpp:1561
+#: ../kfile/kfilewidget.cpp:1562
 #, fuzzy, kde-format
 msgid ""
 "The requested filenames\n"
@@ -5952,35 +5961,35 @@ msgstr ""
 "njewupadaja korektne.\n"
 "Podaj kóžde datajowe mjeno w pazorkach."
 
-#: ../kfile/kfilewidget.cpp:1565
+#: ../kfile/kfilewidget.cpp:1566
 msgid "Filename Error"
 msgstr "Zmylk w datajowym mjenje"
 
-#: ../kfile/kfilewidget.cpp:1658
+#: ../kfile/kfilewidget.cpp:1659
 #, fuzzy
 msgid "*|All Folders"
 msgstr "*|Wšitke dataje"
 
-#: ../kfile/kfilewidget.cpp:1956
+#: ../kfile/kfilewidget.cpp:1957
 #, fuzzy, kde-format
 msgid "Automatically select filename e&xtension (%1)"
 msgstr "Wubjerće e&kstensiju datajoweho mjena awtomatisce (%1)"
 
-#: ../kfile/kfilewidget.cpp:1957
+#: ../kfile/kfilewidget.cpp:1958
 #, kde-format
 msgid "the extension <b>%1</b>"
 msgstr "ekstensija <b>%1</b>"
 
-#: ../kfile/kfilewidget.cpp:1965
+#: ../kfile/kfilewidget.cpp:1966
 #, fuzzy
 msgid "Automatically select filename e&xtension"
 msgstr "Wubjerće e&kstensiju datajoweho mjena awtomatisce"
 
-#: ../kfile/kfilewidget.cpp:1966
+#: ../kfile/kfilewidget.cpp:1967
 msgid "a suitable extension"
 msgstr "kmana ekstensija"
 
-#: ../kfile/kfilewidget.cpp:1976
+#: ../kfile/kfilewidget.cpp:1977
 #, fuzzy, kde-format
 msgid ""
 "This option enables some convenient features for saving files with "
@@ -6007,7 +6016,7 @@ msgstr ""
 "ekstensija dodać). </li></ol>Jeli njewěsće, što činić, wostajće tutu opciju "
 "zaswěćenu, dokelž tak budźe wobchadźenje z datajowymi mjenami jednoriše."
 
-#: ../kfile/kfilewidget.cpp:2275
+#: ../kfile/kfilewidget.cpp:2280
 #, fuzzy
 #| msgid ""
 #| "<qt>This button allows you to bookmark specific locations. Click on this "
@@ -6435,10 +6444,6 @@ msgstr ""
 #~ msgctxt "Items in a folder"
 #~ msgid "? items"
 #~ msgstr "Žane objekty"
-
-#, fuzzy
-#~ msgid "Yes"
-#~ msgstr "Stary staw"
 
 #, fuzzy
 #~ msgid "Please specify the filename to save to."
