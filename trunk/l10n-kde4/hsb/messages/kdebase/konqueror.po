@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-16 09:47+0200\n"
+"POT-Creation-Date: 2008-08-18 08:36+0200\n"
 "PO-Revision-Date: 2005-01-28 15:18+0000\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: Hornjoserbsce <en@li.org>\n"
@@ -461,7 +461,7 @@ msgstr ""
 #: src/konqmainwindow.cpp:2385 src/konqmainwindow.cpp:2474
 #: src/konqmainwindow.cpp:2492 src/konqmainwindow.cpp:2512
 #: src/konqmainwindow.cpp:2549 src/konqmainwindow.cpp:2582
-#: src/konqmainwindow.cpp:5045 src/konqviewmanager.cpp:1354
+#: src/konqmainwindow.cpp:5053 src/konqviewmanager.cpp:1354
 msgid "Discard Changes?"
 msgstr "Změny zaćisnyć?"
 
@@ -469,7 +469,7 @@ msgstr "Změny zaćisnyć?"
 #: src/konqmainwindow.cpp:2385 src/konqmainwindow.cpp:2474
 #: src/konqmainwindow.cpp:2492 src/konqmainwindow.cpp:2512
 #: src/konqmainwindow.cpp:2549 src/konqmainwindow.cpp:2582
-#: src/konqmainwindow.cpp:5045 src/konqviewmanager.cpp:1354
+#: src/konqmainwindow.cpp:5053 src/konqviewmanager.cpp:1354
 msgid "&Discard Changes"
 msgstr "&Změny zaćisnyć"
 
@@ -945,104 +945,115 @@ msgstr "Sunyć Dataje."
 msgid "&Save View Profile \"%1\"..."
 msgstr "Zawě&sćić Napohlad."
 
-#: src/konqmainwindow.cpp:4614
+#: src/konqmainwindow.cpp:4446
+msgid ""
+"You have requested to open more than 20 bookmarks in tabs.This might take a "
+"while. Continue?"
+msgstr ""
+
+#: src/konqmainwindow.cpp:4448
+#, fuzzy
+msgid "Open folder in new tabs"
+msgstr "Wočinić Zapisk in"
+
+#: src/konqmainwindow.cpp:4622
 #, fuzzy
 msgid "Open in T&his Window"
 msgstr "&Wočinić in"
 
-#: src/konqmainwindow.cpp:4615
+#: src/konqmainwindow.cpp:4623
 #, fuzzy
 msgid "Open the document in current window"
 msgstr "Wočinić in"
 
-#: src/konqmainwindow.cpp:4621 sidebar/web_module/web_module.h:54
+#: src/konqmainwindow.cpp:4629 sidebar/web_module/web_module.h:54
 #: sidebar/web_module/web_module.h:57
 #, fuzzy
 msgid "Open in New &Window"
 msgstr "&Wočinić in"
 
-#: src/konqmainwindow.cpp:4622
+#: src/konqmainwindow.cpp:4630
 #, fuzzy
 msgid "Open the document in a new window"
 msgstr "Wočinić in"
 
-#: src/konqmainwindow.cpp:4628
+#: src/konqmainwindow.cpp:4636
 #, fuzzy
 msgid "Open in &New Tab"
 msgstr "Woči&nić in"
 
-#: src/konqmainwindow.cpp:4630
+#: src/konqmainwindow.cpp:4638
 #, fuzzy
 msgid "Open the document in a new tab"
 msgstr "Wočinić in"
 
-#: src/konqmainwindow.cpp:4829
+#: src/konqmainwindow.cpp:4837
 #, fuzzy
 msgid "&Open With"
 msgstr "Wočinić"
 
-#: src/konqmainwindow.cpp:4843
+#: src/konqmainwindow.cpp:4851
 #, fuzzy, kde-format
 msgid "Open with %1"
 msgstr "Wočinić"
 
-#: src/konqmainwindow.cpp:4889
+#: src/konqmainwindow.cpp:4897
 #, fuzzy
 msgctxt "@action:inmenu View"
 msgid "&View Mode"
 msgstr "Napohlad"
 
-#: src/konqmainwindow.cpp:5005
+#: src/konqmainwindow.cpp:5013
 #, fuzzy
 msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "in?"
 
-#: src/konqmainwindow.cpp:5007 src/konqviewmanager.cpp:1336
+#: src/konqmainwindow.cpp:5015 src/konqviewmanager.cpp:1336
 msgid "Confirmation"
 msgstr ""
 
-#: src/konqmainwindow.cpp:5009
+#: src/konqmainwindow.cpp:5017
 #, fuzzy
 msgid "C&lose Current Tab"
 msgstr "Wotlěpić"
 
-#: src/konqmainwindow.cpp:5044
+#: src/konqmainwindow.cpp:5052
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
 msgstr ""
 
-#: src/konqmainwindow.cpp:5084 src/konqmainwindow.cpp:5146
+#: src/konqmainwindow.cpp:5092 src/konqmainwindow.cpp:5154
 #: src/konqundomanager.cpp:590
 #, fuzzy
 msgid "no name"
 msgstr "Edward Wornar"
 
-#: src/konqmainwindow.cpp:5213
+#: src/konqmainwindow.cpp:5221
 msgid ""
 "Your sidebar is not functional or unavailable. A new entry cannot be added."
 msgstr ""
 
-#: src/konqmainwindow.cpp:5213 src/konqmainwindow.cpp:5220
+#: src/konqmainwindow.cpp:5221 src/konqmainwindow.cpp:5228
 msgid "Web Sidebar"
 msgstr ""
 
-#: src/konqmainwindow.cpp:5218
+#: src/konqmainwindow.cpp:5226
 #, fuzzy, kde-format
 msgid "Add new web extension \"%1\" to your sidebar?"
 msgstr "Dodać?"
 
-#: src/konqmainwindow.cpp:5220
+#: src/konqmainwindow.cpp:5228
 #, fuzzy
 msgid "Add"
 msgstr "adresa"
 
-#: src/konqmainwindow.cpp:5220
+#: src/konqmainwindow.cpp:5228
 msgid "Do Not Add"
 msgstr ""
 
-#: src/konqmainwindow.cpp:5516
+#: src/konqmainwindow.cpp:5524
 #, kde-format
 msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
