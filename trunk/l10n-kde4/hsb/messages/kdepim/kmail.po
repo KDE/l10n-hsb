@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-08 10:30+0200\n"
+"POT-Creation-Date: 2008-10-12 09:42+0200\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -94,7 +94,7 @@ msgstr "časowy kołk za statusowe powěsće wo zakónčenju přenjesenja"
 msgid "multiple encryption keys per address"
 msgstr "wjacore šifrowanske kluče za kóždu adresu"
 
-#: aboutdata.cpp:213 kmreaderwin.cpp:1333 kmstartup.cpp:140
+#: aboutdata.cpp:213 kmreaderwin.cpp:1372 kmstartup.cpp:140
 #: mailinglistpropertiesdialog.cpp:109
 msgid "KMail"
 msgstr "KMail"
@@ -2542,8 +2542,8 @@ msgstr "Zapisk zničić"
 #, kde-format
 msgctxt "@info"
 msgid ""
-"<para>Distribution list with the given name <placeholder>%1</placeholder> "
-"already exists. Please select a different name.</para>"
+"<para>Distribution list with the given name <resource>%1</resource> already "
+"exists. Please select a different name.</para>"
 msgstr ""
 
 #: editorwatcher.cpp:69
@@ -4774,7 +4774,7 @@ msgstr "&Zbytne mjezoty zničić"
 
 #. i18n: file: kmail.kcfg:328
 #. i18n: ectx: label, entry (UseFixedFont), group (Composer)
-#: kmcomposewin.cpp:1146 kmreaderwin.cpp:674 rc.cpp:431
+#: kmcomposewin.cpp:1146 kmreaderwin.cpp:713 rc.cpp:431
 msgid "Use Fi&xed Font"
 msgstr "Wužiwaj pismo z &krutej šěrokosću"
 
@@ -5067,7 +5067,7 @@ msgstr "Zjawny"
 msgid "Select the public key which should be attached."
 msgstr ""
 
-#: kmcomposewin.cpp:2592 kmmimeparttree.cpp:173 kmreaderwin.cpp:1988
+#: kmcomposewin.cpp:2592 kmmimeparttree.cpp:173 kmreaderwin.cpp:2027
 msgctxt "to open"
 msgid "Open"
 msgstr ""
@@ -5077,7 +5077,7 @@ msgctxt "to view"
 msgid "View"
 msgstr ""
 
-#: kmcomposewin.cpp:2596 kmreaderwin.cpp:2671 vacation.cpp:659
+#: kmcomposewin.cpp:2596 kmreaderwin.cpp:2710 vacation.cpp:659
 #, fuzzy
 msgid "Edit"
 msgstr "wobdźěłać..."
@@ -5087,12 +5087,12 @@ msgstr "wobdźěłać..."
 msgid "Edit With..."
 msgstr "wobdźěłać..."
 
-#: kmcomposewin.cpp:2600 kmreaderwin.cpp:2000
+#: kmcomposewin.cpp:2600 kmreaderwin.cpp:2039
 #, fuzzy
 msgid "Save As..."
 msgstr "Z&awěsćić jako..."
 
-#: kmcomposewin.cpp:2602 kmmimeparttree.cpp:203 kmreaderwin.cpp:2024
+#: kmcomposewin.cpp:2602 kmmimeparttree.cpp:203 kmreaderwin.cpp:2063
 #, fuzzy
 msgid "Properties"
 msgstr "&Swójstwa"
@@ -5786,7 +5786,7 @@ msgctxt "@action:button in filter list manipulator"
 msgid "New"
 msgstr "Nowe"
 
-#: kmfilterdlg.cpp:652 kmmimeparttree.cpp:192 kmreaderwin.cpp:2004
+#: kmfilterdlg.cpp:652 kmmimeparttree.cpp:192 kmreaderwin.cpp:2043
 #, fuzzy
 msgid "Copy"
 msgstr "&Kopěruj do"
@@ -7317,7 +7317,7 @@ msgstr "<qt>Chceće woprawdźe prózdny zapisk <b>%1</b> zničić?</qt>"
 #: kmmainwidget.cpp:1359
 #, fuzzy, kde-format
 msgid ""
-"<qt>Are you sure you want to delete the empty folder <filename>%1</filename> "
+"<qt>Are you sure you want to delete the empty folder <resource>%1</resource> "
 "and all its subfolders? Those subfolders might not be empty and their "
 "contents will be discarded as well. <p><b>Beware</b> that discarded messages "
 "are not saved into your Trash folder and are permanently deleted.</p></qt>"
@@ -7328,7 +7328,7 @@ msgstr ""
 #: kmmainwidget.cpp:1368
 #, fuzzy, kde-format
 msgid ""
-"<qt>Are you sure you want to delete the folder <filename>%1</filename>, "
+"<qt>Are you sure you want to delete the folder <resource>%1</resource>, "
 "discarding its contents? <p><b>Beware</b> that discarded messages are not "
 "saved into your Trash folder and are permanently deleted.</p></qt>"
 msgstr ""
@@ -7338,7 +7338,7 @@ msgstr ""
 #: kmmainwidget.cpp:1375
 #, fuzzy, kde-format
 msgid ""
-"<qt>Are you sure you want to delete the folder <filename>%1</filename> and "
+"<qt>Are you sure you want to delete the folder <resource>%1</resource> and "
 "all its subfolders, discarding their contents? <p><b>Beware</b> that "
 "discarded messages are not saved into your Trash folder and are permanently "
 "deleted.</p></qt>"
@@ -8178,11 +8178,11 @@ msgstr "Pozdźišo pósłać"
 msgid "Encoding"
 msgstr "Kodowanje"
 
-#: kmmimeparttree.cpp:175 kmreaderwin.cpp:1992
+#: kmmimeparttree.cpp:175 kmreaderwin.cpp:2031
 msgid "Open With..."
 msgstr "Wočinić z ..."
 
-#: kmmimeparttree.cpp:176 kmreaderwin.cpp:1996
+#: kmmimeparttree.cpp:176 kmreaderwin.cpp:2035
 msgctxt "to view something"
 msgid "View"
 msgstr ""
@@ -8192,13 +8192,13 @@ msgstr ""
 msgid "Save All Attachments..."
 msgstr "&Přiwěšk zawěsćić jako..."
 
-#: kmmimeparttree.cpp:195 kmreaderwin.cpp:2014 kmreaderwin.cpp:2658
+#: kmmimeparttree.cpp:195 kmreaderwin.cpp:2053 kmreaderwin.cpp:2697
 #, fuzzy
 #| msgid "&Remove Attachment"
 msgid "Delete Attachment"
 msgstr "Přiwěšk &zničić"
 
-#: kmmimeparttree.cpp:198 kmreaderwin.cpp:2009 kmreaderwin.cpp:2671
+#: kmmimeparttree.cpp:198 kmreaderwin.cpp:2048 kmreaderwin.cpp:2710
 #, fuzzy
 msgid "Edit Attachment"
 msgstr "Přiwěšk: "
@@ -8612,87 +8612,88 @@ msgstr "Njepokazuje přiwěški w powěsći samej"
 msgid "&Set Encoding"
 msgstr "Kodowanje po&stajić"
 
-#: kmreaderwin.cpp:641
+#: kmreaderwin.cpp:647
 #, fuzzy
 msgid "New Message To..."
 msgstr "&Nowa powěsć..."
 
-#: kmreaderwin.cpp:644
+#: kmreaderwin.cpp:654
 #, fuzzy
 msgid "Reply To..."
 msgstr "Wotmołwu pósłać na..."
 
-#: kmreaderwin.cpp:647
+#: kmreaderwin.cpp:661
 msgid "Forward To..."
 msgstr "Dopósłać na ..."
 
-#: kmreaderwin.cpp:650
+#: kmreaderwin.cpp:668
 msgid "Add to Address Book"
 msgstr "Dodać do adresnika"
 
-#: kmreaderwin.cpp:653
+#: kmreaderwin.cpp:675
 msgid "Open in Address Book"
 msgstr "Wočinić w adresniku"
 
-#: kmreaderwin.cpp:657
+#: kmreaderwin.cpp:685
 #, fuzzy
 msgid "Select All Text"
 msgstr "&Wšitke powěsće wubrać"
 
-#: kmreaderwin.cpp:661
+#: kmreaderwin.cpp:692
 #, fuzzy
-msgid "Copy Link Address"
-msgstr "Wočinić w adresniku"
+#| msgid "Email Address"
+msgid "Copy Email Address"
+msgstr "emailowa adresa"
 
-#: kmreaderwin.cpp:664
+#: kmreaderwin.cpp:697
 msgid "Open URL"
 msgstr "URL wočinić"
 
-#: kmreaderwin.cpp:667
+#: kmreaderwin.cpp:702
 msgid "Bookmark This Link"
 msgstr ""
 
-#: kmreaderwin.cpp:670
+#: kmreaderwin.cpp:708
 msgid "Save Link As..."
 msgstr "Wotkaz zawěsćić jako..."
 
-#: kmreaderwin.cpp:682
+#: kmreaderwin.cpp:721
 #, fuzzy
 #| msgid "Select &All Messages"
 msgid "Scroll Message Up"
 msgstr "&Wšitke powěsće wubrać"
 
-#: kmreaderwin.cpp:688
+#: kmreaderwin.cpp:727
 #, fuzzy
 #| msgid "Select &All Messages"
 msgid "Scroll Message Down"
 msgstr "&Wšitke powěsće wubrać"
 
-#: kmreaderwin.cpp:694
+#: kmreaderwin.cpp:733
 msgid "Scroll Message Up (More)"
 msgstr ""
 
-#: kmreaderwin.cpp:700
+#: kmreaderwin.cpp:739
 msgid "Scroll Message Down (More)"
 msgstr ""
 
-#: kmreaderwin.cpp:1335
+#: kmreaderwin.cpp:1374
 msgid "The email client for the K Desktop Environment."
 msgstr ""
 
-#: kmreaderwin.cpp:1343
+#: kmreaderwin.cpp:1382
 msgid ""
 "<h2 style='margin-top: 0px;'>Retrieving Folder Contents</h2><p>Please "
 "wait . . .</p>&nbsp;"
 msgstr ""
 
-#: kmreaderwin.cpp:1351
+#: kmreaderwin.cpp:1390
 msgid ""
 "<h2 style='margin-top: 0px;'>Offline</h2><p>KMail is currently in offline "
 "mode. Click <a href=\"kmail:goOnline\">here</a> to go online . . .</p>&nbsp;"
 msgstr ""
 
-#: kmreaderwin.cpp:1367
+#: kmreaderwin.cpp:1406
 #, fuzzy, kde-format
 msgctxt ""
 "%1: KMail version; %2: help:// URL; %3: homepage URL; %4: generated list of "
@@ -8725,14 +8726,14 @@ msgstr ""
 "<p></p>\n"
 "<p>&nbsp;&nbsp; KMail</p>"
 
-#: kmreaderwin.cpp:1387
+#: kmreaderwin.cpp:1426
 #, kde-format
 msgid ""
 "<p>Some of the new features in this release of KMail include (compared to "
 "KMail %1, which is part of KDE %2):</p>\n"
 msgstr ""
 
-#: kmreaderwin.cpp:1400
+#: kmreaderwin.cpp:1439
 #, fuzzy
 msgid ""
 "<p>Please take a moment to fill in the KMail configuration panel at Settings-"
@@ -8741,37 +8742,37 @@ msgid ""
 "outgoing mail account.</p>\n"
 msgstr "<p> in KMail&gt; Konfiguracija KMail</p>"
 
-#: kmreaderwin.cpp:1412
+#: kmreaderwin.cpp:1451
 #, kde-format
 msgid ""
 "<p><span style='font-size:125%; font-weight:bold;'>Important changes</span> "
 "(compared to KMail %1):</p>\n"
 msgstr ""
 
-#: kmreaderwin.cpp:1417
+#: kmreaderwin.cpp:1456
 #, kde-format
 msgid "<li>%1</li>\n"
 msgstr "<li>%1</li>\n"
 
-#: kmreaderwin.cpp:1549
+#: kmreaderwin.cpp:1588
 msgid "( body part )"
 msgstr "( hłowny dźěl powěsće )"
 
-#: kmreaderwin.cpp:1863
+#: kmreaderwin.cpp:1902
 #, fuzzy
 msgid "Could not send MDN."
 msgstr "Njemóžach MDN pósłać!"
 
-#: kmreaderwin.cpp:2020
+#: kmreaderwin.cpp:2059
 msgid "Decrypt With Chiasmus..."
 msgstr ""
 
-#: kmreaderwin.cpp:2186 kmreaderwin.cpp:2222 kmreaderwin.cpp:2241
+#: kmreaderwin.cpp:2225 kmreaderwin.cpp:2261 kmreaderwin.cpp:2280
 #, kde-format
 msgid "View Attachment: %1"
 msgstr "Pokaž přiwěšk: %1"
 
-#: kmreaderwin.cpp:2233
+#: kmreaderwin.cpp:2272
 #, fuzzy, kde-format
 msgid ""
 "[KMail: Attachment contains binary data. Trying to show first character.]"
@@ -8784,16 +8785,16 @@ msgstr[2] ""
 "[KMail: Přiwěšk ma binarne daty. Spytam prěnjej %2 pismikaj pokazać.]"
 msgstr[3] "[KMail: Přiwěšk ma binarne daty. Spytam prěnje %2 pismiki pokazać.]"
 
-#: kmreaderwin.cpp:2331
+#: kmreaderwin.cpp:2370
 #, fuzzy, kde-format
 msgid "&Open with '%1'"
 msgstr "Přiwěšk %1 wočinić?"
 
-#: kmreaderwin.cpp:2333
+#: kmreaderwin.cpp:2372
 msgid "&Open With..."
 msgstr "W&očinić z ..."
 
-#: kmreaderwin.cpp:2335
+#: kmreaderwin.cpp:2374
 #, fuzzy, kde-format
 msgid ""
 "Open attachment '%1'?\n"
@@ -8803,23 +8804,23 @@ msgstr ""
 "\n"
 "Njezabudźće, zo móhło wočinjenje přiwěška wěstosć wašeho systema wohrozyć!"
 
-#: kmreaderwin.cpp:2340
+#: kmreaderwin.cpp:2379
 msgid "Open Attachment?"
 msgstr "Přiwěšk wočinić?"
 
-#: kmreaderwin.cpp:2657
+#: kmreaderwin.cpp:2696
 msgid ""
 "Deleting an attachment might invalidate any digital signature on this "
 "message."
 msgstr ""
 
-#: kmreaderwin.cpp:2670
+#: kmreaderwin.cpp:2709
 msgid ""
 "Modifying an attachment might invalidate any digital signature on this "
 "message."
 msgstr ""
 
-#: kmreaderwin.cpp:2722
+#: kmreaderwin.cpp:2761
 #, fuzzy
 #| msgctxt "View->"
 #| msgid "&Attachments"
@@ -12679,21 +12680,24 @@ msgstr[2] "%1 nječitanej"
 msgstr[3] "%1 nječitane"
 
 #: recipientseditor.cpp:823
-msgctxt "@info:tooltip"
-msgid "<interface>To:</interface><nl/>"
-msgstr ""
-
-#: recipientseditor.cpp:824
-msgctxt "@info:tooltip"
-msgid "<interface>CC:</interface><nl/>"
+#, kde-format
+msgctxt "@info:tooltip %1 list of emails"
+msgid "<interface>To:</interface><nl/>%1"
 msgstr ""
 
 #: recipientseditor.cpp:825
-msgctxt "@info:tooltip"
-msgid "<interface>BCC:</interface><nl/>"
+#, kde-format
+msgctxt "@info:tooltip %1 list of emails"
+msgid "<interface>CC:</interface><nl/>%1"
 msgstr ""
 
-#: recipientseditor.cpp:919
+#: recipientseditor.cpp:828
+#, kde-format
+msgctxt "@info:tooltip %1 list of emails"
+msgid "<interface>BCC:</interface><nl/>%1"
+msgstr ""
+
+#: recipientseditor.cpp:923
 #, kde-format
 msgctxt "@info:status"
 msgid "Truncating recipients list to %1 of %2 entries."
@@ -14234,6 +14238,10 @@ msgstr "Přiwěšk: "
 #, kde-format
 msgid "%1 of %2 %3 used"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Copy Link Address"
+#~ msgstr "Wočinić w adresniku"
 
 #, fuzzy
 #~ msgid "<unknown>"
