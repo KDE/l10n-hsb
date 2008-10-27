@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-26 09:02+0100\n"
+"POT-Creation-Date: 2008-10-27 10:16+0100\n"
 "PO-Revision-Date: 2007-06-18 11:34+0200\n"
 "Last-Translator: Bianka Šwejdźic <hertn@gmx.de>\n"
 "Language-Team: Upper Sorbian <hsb@li.org>\n"
@@ -6013,6 +6013,12 @@ msgstr "<qt>Chceće woprawdźe <b>%1</b> wopušćić?</qt>"
 msgid "Confirm Quit From System Tray"
 msgstr "Confirm Quit From System Tray"
 
+#: kdeui/util/knotificationrestrictions.cpp:179
+#, fuzzy
+#| msgid "Quit application"
+msgid "Unknown Application"
+msgstr "Program wopušćić"
+
 #: kdeui/util/kstandardguiitem.cpp:105
 msgid "&OK"
 msgstr "&OK"
@@ -6744,8 +6750,8 @@ msgstr ""
 msgid "Reset Toolbars"
 msgstr "Nastrojowe pasy"
 
-#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2973
-#: khtml/khtmlview.cpp:3006 khtml/html/html_formimpl.cpp:2165
+#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2971
+#: khtml/khtmlview.cpp:3004 khtml/html/html_formimpl.cpp:2165
 msgid "Reset"
 msgstr "Stary staw"
 
@@ -6816,7 +6822,7 @@ msgstr "&Piktogram změnić..."
 
 #: kdeui/dialogs/kshortcutseditor.cpp:508
 #: kdeui/dialogs/kshortcutseditor.cpp:524
-#: kdeui/widgets/kkeysequencewidget.cpp:152
+#: kdeui/widgets/kkeysequencewidget.cpp:236
 msgid "Key Conflict"
 msgstr "Konflikt tastow"
 
@@ -6832,8 +6838,9 @@ msgstr ""
 #: kdeui/dialogs/kshortcutseditor.cpp:513
 #: kdeui/dialogs/kshortcutseditor.cpp:529 kdeui/shortcuts/kglobalaccel.cpp:429
 #: kdeui/shortcuts/kglobalaccel.cpp:468
-#: kdeui/widgets/kkeysequencewidget.cpp:160
-#: kdeui/widgets/kkeysequencewidget.cpp:483
+#: kdeui/widgets/kkeysequencewidget.cpp:173
+#: kdeui/widgets/kkeysequencewidget.cpp:244
+#: kdeui/widgets/kkeysequencewidget.cpp:578
 #, fuzzy
 msgid "Reassign"
 msgstr "Rusce"
@@ -10286,7 +10293,23 @@ msgstr "Njeznate"
 msgid "&Copy Full Text"
 msgstr "Tekst &kopěrować"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:154
+#: kdeui/widgets/kkeysequencewidget.cpp:160
+#, kde-format
+msgid "Shortcut '%1' in Application %2 for action %3\n"
+msgstr ""
+
+#: kdeui/widgets/kkeysequencewidget.cpp:167
+#, kde-format
+msgid "The shortcut '%1' conflicts with the following key combinations:\n"
+msgstr ""
+
+#: kdeui/widgets/kkeysequencewidget.cpp:171
+#, fuzzy
+#| msgid "Conflict with Global Shortcut"
+msgid "Conflict With Registered Global Shortcut(s)"
+msgstr "Konflikt z globalnej skrótšenku"
+
+#: kdeui/widgets/kkeysequencewidget.cpp:238
 #, fuzzy, kde-format
 msgid ""
 "The \"%1\" key sequence conflicts with \"%2\" for the \"%3\" action.\n"
@@ -10295,24 +10318,24 @@ msgstr ""
 "Tastowa kombinacija '%1' je so hižo z akciju '%2' zwjazała. Chceće ju město "
 "toho z aktualnej akciju zwjazać? "
 
-#: kdeui/widgets/kkeysequencewidget.cpp:168
+#: kdeui/widgets/kkeysequencewidget.cpp:252
 #, fuzzy
 #| msgid "Shortcut"
 msgid "Shortcut conflict"
 msgstr "Skrótšenka"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:169
+#: kdeui/widgets/kkeysequencewidget.cpp:253
 #, kde-format
 msgid ""
 "<qt>The '%1' key combination is already used by the <b>%2</b> action."
 "<br>Please select a different one.</qt>"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:477
+#: kdeui/widgets/kkeysequencewidget.cpp:572
 msgid "Conflict with Standard Application Shortcut"
 msgstr "Konflikt ze standardowym outputom programa"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:478
+#: kdeui/widgets/kkeysequencewidget.cpp:573
 #, fuzzy, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -10322,18 +10345,27 @@ msgstr ""
 "Tasta '%1' je so hižo z akciju '%2' zwjazała.\n"
 " Chceće ju město toho z aktualnej akciju zwjazać?"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:510
+#: kdeui/widgets/kkeysequencewidget.cpp:605
 #, fuzzy
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "Inputowa dataja"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:517
+#: kdeui/widgets/kkeysequencewidget.cpp:612
 #, fuzzy
 #| msgid "None"
 msgctxt "No shortcut defined"
 msgid "None"
 msgstr "Žane"
+
+#: kdeui/widgets/kkeysequencewidget.cpp:655
+msgid "The key you just pressed isn't supported by qt."
+msgstr ""
+
+#: kdeui/widgets/kkeysequencewidget.cpp:656
+#, fuzzy
+msgid "Unsupported Key"
+msgstr "njewěsty"
 
 #: kdeui/widgets/keditlistbox.cpp:328
 msgid "&Add"
@@ -11304,7 +11336,7 @@ msgstr ""
 "<qt>Formular so pósćele na <br><b>%1</b><br> na wašim lokalnym datajowym "
 "systemje. <br>Chceće formular wotpósłać?"
 
-#: khtml/khtml_part.cpp:4952 khtml/khtmlview.cpp:2959 khtml/khtmlview.cpp:3001
+#: khtml/khtml_part.cpp:4952 khtml/khtmlview.cpp:2957 khtml/khtmlview.cpp:2999
 #: khtml/html/html_formimpl.cpp:1579 khtml/html/html_formimpl.cpp:2173
 msgid "Submit"
 msgstr "Wotpósłać"
@@ -11427,39 +11459,39 @@ msgstr "&Dźi na linku..."
 msgid "Remove from ignores..."
 msgstr ""
 
-#: khtml/khtmlview.cpp:1923
+#: khtml/khtmlview.cpp:1921
 msgid "Find stopped."
 msgstr "Pytanje přetorhnjene."
 
-#: khtml/khtmlview.cpp:1934
+#: khtml/khtmlview.cpp:1932
 msgid "Starting -- find links as you type"
 msgstr "Startuju -- wotkazy so při zapodawanju wudospołnjeja"
 
-#: khtml/khtmlview.cpp:1940
+#: khtml/khtmlview.cpp:1938
 msgid "Starting -- find text as you type"
 msgstr "Startuju -- tekst so při zapodawanju wudospołnja"
 
-#: khtml/khtmlview.cpp:1963
+#: khtml/khtmlview.cpp:1961
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "Wotkaz na %1 namakał"
 
-#: khtml/khtmlview.cpp:1968
+#: khtml/khtmlview.cpp:1966
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "Njejsym wotkaz namakał: \"%1\""
 
-#: khtml/khtmlview.cpp:1976
+#: khtml/khtmlview.cpp:1974
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "Tekst namakał: \"%1\""
 
-#: khtml/khtmlview.cpp:1981
+#: khtml/khtmlview.cpp:1979
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "Njejsym tekst namakał: \"%1\" "
 
-#: khtml/khtmlview.cpp:2029
+#: khtml/khtmlview.cpp:2027
 msgid "Access Keys activated"
 msgstr "Tastowe skrótki aktiwizowane"
 
