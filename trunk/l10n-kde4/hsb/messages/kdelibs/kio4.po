@@ -4,21 +4,21 @@
 # Copyright (C) 2003,2004, 2005 Free Software Foundation, Inc.
 # Eduard Werner <e.werner@rz.uni-leipzig.de>, 2003.
 # Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>, 2003,2004.
-# Eduard Werner <edi.werner@gmx.de>, 2005.
+# Eduard Werner <edi.werner@gmx.de>, 2005, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-11-01 10:36+0100\n"
-"PO-Revision-Date: 2005-02-02 18:46+0000\n"
+"PO-Revision-Date: 2008-11-03 23:41+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
-"Language-Team: Hornjoserbsce <en@li.org>\n"
+"Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
-"100==4 ? 2 : 3;\n"
-"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: KAider 0.1\n"
 
 #: kio/netaccess.cpp:105
 #, kde-format
@@ -26,58 +26,50 @@ msgid "File '%1' is not readable"
 msgstr "Dataja '%1' njehodźi so čitać"
 
 #: kio/netaccess.cpp:446
-#, fuzzy, kde-format
+#, kde-format
 msgid "ERROR: Unknown protocol '%1'"
-msgstr "Njeznaty protokol '%1'"
+msgstr "ZMYLK: Njeznaty protokol '%1'"
 
 #: kio/job.cpp:135
-#, fuzzy
 #| msgid "Moving"
 msgctxt "@title job"
 msgid "Moving"
 msgstr "Přesuwam"
 
 #: kio/job.cpp:136 kio/job.cpp:143 kio/job.cpp:168 kio/fileundomanager.cpp:120
-#, fuzzy
 msgid "Source"
 msgstr "Žórło"
 
 #: kio/job.cpp:137 kio/job.cpp:144 kio/fileundomanager.cpp:121
-#, fuzzy
 msgid "Destination"
-msgstr "Cil:"
+msgstr "Cil"
 
 #: kio/job.cpp:142
-#, fuzzy
 #| msgid "Copying"
 msgctxt "@title job"
 msgid "Copying"
 msgstr "Kopěruju"
 
 #: kio/job.cpp:149
-#, fuzzy
 msgctxt "@title job"
 msgid "Creating directory"
 msgstr "Stworju zapisk"
 
 #: kio/job.cpp:150 kio/fileundomanager.cpp:117
 msgid "Directory"
-msgstr ""
+msgstr "Zapisk"
 
 #: kio/job.cpp:155
-#, fuzzy
 #| msgid "Deleting"
 msgctxt "@title job"
 msgid "Deleting"
-msgstr "Niču"
+msgstr "Wumazam"
 
 #: kio/job.cpp:156 kio/job.cpp:162 kio/fileundomanager.cpp:124
-#, fuzzy
 msgid "File"
-msgstr "Žane dataje"
+msgstr "Dataja"
 
 #: kio/job.cpp:161
-#, fuzzy
 #| msgid "Examining"
 msgctxt "@title job"
 msgid "Examining"
@@ -86,27 +78,23 @@ msgstr "Wobhladuju sej"
 #: kio/job.cpp:167
 msgctxt "@title job"
 msgid "Transferring"
-msgstr ""
+msgstr "Přenjesu"
 
 #: kio/job.cpp:173
-#, fuzzy
 #| msgid "Mounting"
 msgctxt "@title job"
 msgid "Mounting"
 msgstr "Montuju"
 
 #: kio/job.cpp:174
-#, fuzzy
 msgid "Device"
-msgstr "Graty"
+msgstr "Grat"
 
 #: kio/job.cpp:175 kio/job.cpp:181
-#, fuzzy
 msgid "Mountpoint"
-msgstr "Cil montowanja:"
+msgstr "Cil montowanja"
 
 #: kio/job.cpp:180
-#, fuzzy
 #| msgid "Unmounting"
 msgctxt "@title job"
 msgid "Unmounting"
@@ -122,20 +110,18 @@ msgid "All Pictures"
 msgstr "Wšitke wobrazy"
 
 #: kio/slavebase.h:266 kio/slavebase.h:286
-#, fuzzy
 msgid "&Yes"
-msgstr "Stary staw"
+msgstr "&Haj"
 
 #: kio/slavebase.h:267 kio/slavebase.h:287
 msgid "&No"
-msgstr ""
+msgstr "&Ně"
 
 #: kio/pastedialog.cpp:57
 msgid "Data format:"
-msgstr ""
+msgstr "Format datow:"
 
 #: kio/slaveinterface.cpp:460
-#, fuzzy
 #| msgid "The peer SSL certificate appears to be corrupt."
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "SSL-certifikat peera njeje walidny."
@@ -149,15 +135,17 @@ msgid "Filename for clipboard content:"
 msgstr "Datajowe mjeno za wobsah clipboarda:"
 
 #: kio/paste.cpp:110
-#, fuzzy, kde-format
+#, kde-format
 msgid "%1 (%2)"
-msgstr "%1 (port %2)"
+msgstr "%1 (%2)"
 
 #: kio/paste.cpp:126
 msgid ""
 "The clipboard has changed since you used 'paste': the chosen data format is "
 "no longer applicable. Please copy again what you wanted to paste."
 msgstr ""
+"Clipboard je so změnił, po tym zo sće 'zasunyli'; datowy format hižo "
+"njepłaći. Prošu kopěrujće hišće raz, štož sće chcyli zasunyć."
 
 #: kio/paste.cpp:191 kio/paste.cpp:239
 msgid "The clipboard is empty"
@@ -169,51 +157,51 @@ msgstr "Clipboard je prózdny"
 msgid ""
 "Malformed URL\n"
 "%1"
-msgstr "Hubjene mjeno za URL %1"
+msgstr ""
+"Hubjene mjeno za URL\n "
+"%1"
 
 #: kio/paste.cpp:282
-#, fuzzy, kde-format
+#, kde-format
 msgid "&Paste File"
 msgid_plural "&Paste %1 Files"
-msgstr[0] "%1 datajow"
-msgstr[1] "%1 dataja"
-msgstr[2] "%1 dataji"
-msgstr[3] "%1 dataje"
+msgstr[0] "%1 datajow &zasunyć"
+msgstr[1] "%1 dataju  &zasunyć"
+msgstr[2] "%1 dataji  &zasunyć"
+msgstr[3] "%1 dataje  &zasunyć"
 
 #: kio/paste.cpp:284
 #, kde-format
 msgid "&Paste URL"
 msgid_plural "&Paste %1 URLs"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%1 URLow &zasunyć"
+msgstr[1] "%1 URL &zasunyć"
+msgstr[2] "%1 URLaj &zasunyć"
+msgstr[3] "%1 URLe &zasunyć"
 
 #: kio/paste.cpp:286
-#, fuzzy
 msgid "&Paste Clipboard Contents"
-msgstr "Datajowe mjeno za wobsah clipboarda:"
+msgstr "Wobsah clipboarda &zasunyć"
 
 #: kio/passworddialog.cpp:62
 msgid "Authorization Dialog"
-msgstr "Awtorizacija"
+msgstr "Awtorizaciski dialog"
 
 #: kio/kfileitemdelegate.cpp:221
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Items in a folder"
 msgid "1 item"
 msgid_plural "%1 items"
-msgstr[0] "%1 datajow"
-msgstr[1] "%1 dataja"
-msgstr[2] "%1 dataji"
-msgstr[3] "%1 dataje"
+msgstr[0] "%1 objektow"
+msgstr[1] "%1 objekt"
+msgstr[2] "%1 objektaj"
+msgstr[3] "%1 objekty"
 
 #: kio/kfileitemdelegate.cpp:277 kio/kfileitemdelegate.cpp:281
-#, fuzzy
 #| msgid "Unknown"
 msgctxt "@info mimetype"
 msgid "Unknown"
-msgstr "Njeznaju"
+msgstr "Njeznate"
 
 #: kio/renamedialog.cpp:102
 msgid "&Rename"
@@ -230,10 +218,12 @@ msgstr "Pře&skočić"
 #: kio/renamedialog.cpp:111
 msgid "Do not copy or move this folder, skip to the next item instead"
 msgstr ""
+"Tutón zapisk nic kopěrować ani přesuwać, ale z přichodnym objektom pokročować"
 
 #: kio/renamedialog.cpp:112
 msgid "Do not copy or move this file, skip to the next item instead"
 msgstr ""
+"Tutu dataju nic kopěrować ani přesuwać, ale z přichodnym objektom pokročować"
 
 #: kio/renamedialog.cpp:115
 msgid "&Auto Skip"
@@ -246,6 +236,8 @@ msgid ""
 "You will be prompted again in case of a conflict with an existing file "
 "though."
 msgstr ""
+"Ničo njekopěrować abo přesuwać, štož w cilowym zapisku hižo eksistuje.\n"
+"W padźe konflikta so kompjuter hišće raz wopraša."
 
 #: kio/renamedialog.cpp:117
 msgid ""
@@ -253,13 +245,14 @@ msgid ""
 "You will be prompted again in case of a conflict with an existing directory "
 "though."
 msgstr ""
+"Ničo njekopěrować abo přesuwać, štož w cilowym zapisku hižo eksistuje.\n"
+"W padźe konflikta so kompjuter hišće raz wopraša."
 
 #: kio/renamedialog.cpp:122
-#, fuzzy
 #| msgid "Write"
 msgctxt "Write files into an existing folder"
 msgid "&Write Into"
-msgstr "Pisać"
+msgstr "Pisać &do"
 
 #: kio/renamedialog.cpp:122
 msgid "&Overwrite"
@@ -272,16 +265,16 @@ msgid ""
 "You will be prompted again in case of a conflict with an existing file in "
 "the directory."
 msgstr ""
+"Dataje a zapiski so do eksistowaceho zapiska kopěruja ze swojim wobsahom.\n"
+"W padźe konflikta z eksistowacym zapiskom so kompjuter wopraša."
 
 #: kio/renamedialog.cpp:128
-#, fuzzy
 #| msgid "O&verwrite All"
 msgctxt "Write files into any existing directory"
 msgid "&Write Into All"
-msgstr "&Wšitke přepisać"
+msgstr "&Pisać do wšěch"
 
 #: kio/renamedialog.cpp:128
-#, fuzzy
 #| msgid "O&verwrite All"
 msgid "&Overwrite All"
 msgstr "&Wšitke přepisać"
@@ -293,6 +286,9 @@ msgid ""
 "You will be prompted again in case of a conflict with an existing file in a "
 "directory, but not in case of another existing directory."
 msgstr ""
+"Dataje a zapiski so do kóždeho eksistowaceho zapiska kopěruja, hromadźe ze "
+"swojim wobsahom.\n"
+"W padźe konflikta so kompjuter hišće raz wopraša."
 
 #: kio/renamedialog.cpp:136
 msgid "&Resume"
@@ -352,7 +348,7 @@ msgstr "Žórłowa dataja je '%1'."
 
 #: kio/kstatusbarofflineindicator.cpp:53
 msgid "The desktop is offline"
-msgstr ""
+msgstr "Dźěłowy powjerch je offline."
 
 #: kio/chmodjob.cpp:213
 #, kde-format
@@ -381,6 +377,8 @@ msgid ""
 "URL cannot be listed\n"
 "%1"
 msgstr ""
+"URL njehodźi so přelistować\n"
+"%1"
 
 #: kio/tcpslavebase.cpp:258
 msgid ""
@@ -400,10 +398,10 @@ msgid "C&ontinue Loading"
 msgstr "&Pokročować ze začitanjom"
 
 #: kio/tcpslavebase.cpp:329
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "%1 is a host name"
 msgid "%1: SSL negotiation failed"
-msgstr "Přizjewjenje je so zwrěšćiło!"
+msgstr "%1: SSL-přizjewjenje je so zwrěšćiło!"
 
 #: kio/tcpslavebase.cpp:507
 msgid ""
@@ -433,7 +431,6 @@ msgid "SSL Certificate Password"
 msgstr "Škitne hesło za SSL-certifikat"
 
 #: kio/tcpslavebase.cpp:666
-#, fuzzy
 msgid "Unable to open the certificate. Try a new password?"
 msgstr "Njemóžu certifikat wočinić. Chceće z hinašim škitnym hesłom spytać?"
 
@@ -442,12 +439,14 @@ msgid "The procedure to set the client certificate for the session failed."
 msgstr "Clientowy certifikat za sesiju njehodźeše so nastajić."
 
 #: kio/tcpslavebase.cpp:737
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "The server certificate failed the authenticity test (%1)."
 msgid ""
 "The server failed the authenticity check (%1).\n"
 "\n"
-msgstr "Certifikat servera njeje test awtentifikacije wobstał (%1)."
+msgstr ""
+"Certifikat servera njeje test awtentifikacije wobstał (%1).\n"
+"\n"
 
 #: kio/tcpslavebase.cpp:783 kio/tcpslavebase.cpp:800 kio/tcpslavebase.cpp:902
 #: kio/tcpslavebase.cpp:914
@@ -492,7 +491,7 @@ msgid ""
 msgstr "SSL-certifikat wotpokazany. To móžeće w KDE Control Center změnić."
 
 #: kio/jobuidelegate.cpp:130 ../kfile/kdiroperator.cpp:808
-#, fuzzy, kde-format
+#, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "Chceće woprawdźe tute %1 objektow zničić?"
@@ -505,36 +504,32 @@ msgid "Delete Files"
 msgstr "Dataje zničić"
 
 #: kio/jobuidelegate.cpp:142
-#, fuzzy, kde-format
+#, kde-format
 msgid "Do you really want to move this item to the trash?"
 msgid_plural "Do you really want to move these %1 items to the trash?"
-msgstr[0] "Chceće woprawdźe tute %1 objektow zničić?"
-msgstr[1] "Chceće woprawdźe tutón %1 objekt zničić?"
-msgstr[2] "Chceće woprawdźe tutej %1 objektaj zničić?"
-msgstr[3] "Chceće woprawdźe tute %1 objekty zničić?"
+msgstr[0] "Chceće woprawdźe tute %1 objektow do papjernika sunyć?"
+msgstr[1] "Chceće woprawdźe tutón %1 objekt do papjernika sunyć?"
+msgstr[2] "Chceće woprawdźe tutej %1 objektaj do papjernika sunyć?"
+msgstr[3] "Chceće woprawdźe tute %1 objekty do papjernika sunyć?"
 
 #: kio/jobuidelegate.cpp:144 ../kfile/kdiroperator.cpp:1823
-#, fuzzy
 msgid "Move to Trash"
-msgstr "Na %1 sunyć"
+msgstr "do papjernika sunyć"
 
 #: kio/jobuidelegate.cpp:145
-#, fuzzy
 msgctxt "Verb"
 msgid "&Trash"
-msgstr "Papjernik"
+msgstr "&Papjernik"
 
 #: kio/skipdialog.cpp:40
-#, fuzzy
 msgid "Information"
-msgstr "KDE SSL-informacija"
+msgstr "informacija"
 
 #: kio/skipdialog.cpp:47
 msgid "Skip"
 msgstr "Přeskoč"
 
 #: kio/skipdialog.cpp:50
-#, fuzzy
 msgid "AutoSkip"
 msgstr "Awtomatisce přeskoč"
 
@@ -558,10 +553,10 @@ msgstr "OCR-wobraz"
 #, kde-format
 msgid "1 day %2"
 msgid_plural "%1 days %2"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%1 dnjow %2"
+msgstr[1] "%1 dźeń %2"
+msgstr[2] "%1 dnaj %2"
+msgstr[3] "%1 dny %2"
 
 #: kio/global.cpp:122
 msgid "No Items"
@@ -608,16 +603,16 @@ msgid "(%1 Total)"
 msgstr "(%1 dohromady)"
 
 #: kio/global.cpp:127
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Items (Folders, Files), Size"
 msgid "%1 (%2, %3), %4"
-msgstr "%1 (port %2)"
+msgstr "%1 (%2, %3), %4"
 
 #: kio/global.cpp:129
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Items (Folders, Files)"
 msgid "%1 (%2, %3)"
-msgstr "%1 (port %2)"
+msgstr "%1 (%2, %3)"
 
 #: kio/global.cpp:157
 #, kde-format
@@ -822,7 +817,7 @@ msgid "Could not change permissions for %1."
 msgstr "Njemóžach přistupne prawa změnić za %1"
 
 #: kio/global.cpp:278
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Could not change permissions for %1."
 msgid "Could not change ownership for %1."
 msgstr "Njemóžach přistupne prawa změnić za %1"
@@ -1038,7 +1033,7 @@ msgid "Changing the attributes of files is not supported with protocol %1."
 msgstr "Protokol %1 njepodpěruje změnjenje datajowych atributow."
 
 #: kio/global.cpp:390
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Changing the attributes of files is not supported with protocol %1."
 msgid "Changing the ownership of files is not supported with protocol %1."
 msgstr "Protokol %1 njepodpěruje změnjenje datajowych atributow."
@@ -1054,9 +1049,9 @@ msgid "Multiple get is not supported with protocol %1."
 msgstr "Protokol %1 njepodpěruje wjacekróćny get. "
 
 #: kio/global.cpp:396
-#, fuzzy, kde-format
+#, kde-format
 msgid "Opening files is not supported with protocol %1."
-msgstr "Protokol %1 njepodpěruje stworjenje zapiskow."
+msgstr "Protokol %1 njepodpěruje wočinjenje datajow."
 
 #: kio/global.cpp:398
 #, kde-format
@@ -1064,33 +1059,31 @@ msgid "Protocol %1 does not support action %2."
 msgstr "Protokol %1 njepodpěruje akciju %2"
 
 #: kio/global.cpp:418
-#, fuzzy
 #| msgid "(unknown)"
 msgctxt "@info url"
 msgid "(unknown)"
-msgstr "(njeznaju)"
+msgstr "(njeznate)"
 
 #: kio/global.cpp:426
 #, kde-format
 msgctxt "@info %1 error name, %2 description"
 msgid "<qt><p><b>%1</b></p><p>%2</p></qt>"
-msgstr ""
+msgstr "<qt><p><b>%1</b></p><p>%2</p></qt>"
 
 #: kio/global.cpp:430
 msgid "<b>Technical reason</b>: "
 msgstr "<b>Techniska přičina</b>"
 
 #: kio/global.cpp:432
-#, fuzzy
 #| msgid "</p><p><b>Details of the request</b>:"
 msgid "<b>Details of the request</b>:"
-msgstr "</p><p><b>Detajle naprašowanja</b>:"
+msgstr "<b>Nadrobnosće naprašowanja</b>:"
 
 #: kio/global.cpp:433
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "</p><ul><li>URL: %1</li>"
 msgid "<li>URL: %1</li>"
-msgstr "</p><ul><li>URL: %1</li>"
+msgstr "<li>URL: %1</li>"
 
 #: kio/global.cpp:435
 #, kde-format
@@ -1103,29 +1096,26 @@ msgid "<li>Date and time: %1</li>"
 msgstr "<li>Datum a čas: %1</li>"
 
 #: kio/global.cpp:438
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "<li>Additional information: %1</li></ul>"
 msgid "<li>Additional information: %1</li>"
-msgstr "<li>Dodatna informacija: %1</li></ul>"
+msgstr "<li>Dodatna informacija: %1</li>"
 
 #: kio/global.cpp:441
-#, fuzzy
 #| msgid "<p><b>Possible causes</b>:</p><ul><li>"
 msgid "<b>Possible causes</b>:"
-msgstr "<p><b>Móžna přičina</b>:</p><ul><li>"
+msgstr "<b>Móžna přičina</b>:"
 
 #: kio/global.cpp:446
-#, fuzzy
 #| msgid "<p><b>Possible solutions</b>:</p><ul><li>"
 msgid "<b>Possible solutions</b>:"
-msgstr "<p><b>Móžne rozrisanje</b>:</p><ul><li>"
+msgstr "<b>Móžne rozrisanje</b>:"
 
 #: kio/global.cpp:479
-#, fuzzy
 #| msgid "(unknown)"
 msgctxt "@info protocol"
 msgid "(unknown)"
-msgstr "(njeznaju)"
+msgstr "(njeznate)"
 
 #: kio/global.cpp:489
 msgid ""
@@ -2024,13 +2014,12 @@ msgstr ""
 "poradźił."
 
 #: kio/global.cpp:978
-#, fuzzy
 #| msgid "Could Not Alter Permissions of Resource"
 msgid "Could Not Change Ownership of Resource"
-msgstr "Njemóžach prawa resursy změnić"
+msgstr "Njemóžach wobsydstwo resursy změnić"
 
 #: kio/global.cpp:979
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "An attempt to alter the permissions on the specified resource <strong>%1</"
 #| "strong> failed."
@@ -2038,7 +2027,7 @@ msgid ""
 "An attempt to change the ownership of the specified resource <strong>%1</"
 "strong> failed."
 msgstr ""
-"Pospyt, přistupne prawa resursy <strong>%1</strong> změnić, njeje so "
+"Pospyt, wobsydstwo resursy <strong>%1</strong> změnić, njeje so "
 "poradźił."
 
 #: kio/global.cpp:986
@@ -2138,13 +2127,13 @@ msgid "Internal Error in Server"
 msgstr "Nutřkowny zmylk w serveru"
 
 #: kio/global.cpp:1046
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "The program on the server which provides access to the <strong>%1</strong> "
 "protocol has reported an internal error: %2."
 msgstr ""
-"Program na serveru, kiž zaruči přistup k protokolej <strong>%1</strong> je "
-"zdźělił nutřkowny zmylk: %0."
+"Program na serweru, kiž zaruči přistup k protokolej <strong>%1</strong> je  "
+"zdźělił nutřkowny zmylk: %2."
 
 #: kio/global.cpp:1049
 msgid ""
@@ -2332,9 +2321,8 @@ msgstr "Njedokumentowany zmylk"
 
 #: kio/kemailsettings.cpp:251 kio/kemailsettings.cpp:254
 #: kio/kemailsettings.cpp:261
-#, fuzzy
 msgid "Default"
-msgstr " (zničam)"
+msgstr "Standard"
 
 #: kio/krun.cpp:112
 #, kde-format
@@ -2358,9 +2346,8 @@ msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
 msgstr "<qt>Nimaće prawa startować <b>%1</b>.</qt>"
 
 #: kio/krun.cpp:182
-#, fuzzy
 msgid "You are not authorized to select an application to open this file."
-msgstr "Nimaće prawo tutu dataju wočinić."
+msgstr "Nimaće prawo aplikaciju wubrać za wočinjenje tuteje dataje wočinić."
 
 #: kio/krun.cpp:194
 msgid "Open with:"
@@ -2378,7 +2365,7 @@ msgstr "Startuju %1"
 #: kio/krun.cpp:626
 #, kde-format
 msgid "Error processing Exec field in %1"
-msgstr ""
+msgstr "Zmylk při wuwjedźenju Exec-zapisa w %1"
 
 #: kio/krun.cpp:693
 msgid "You are not authorized to execute this service."
@@ -2441,22 +2428,22 @@ msgid "Unmount"
 msgstr "Wotmontować"
 
 #: kio/kfileitem.cpp:958
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Symbolic Link"
 msgid "(Symbolic Link to %1)"
-msgstr "Wotkaz"
+msgstr "(Symboliski wotkaz na %1)"
 
 #: kio/kfileitem.cpp:960
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Link to %1 (%2)"
 msgid "(%1, Link to %2)"
-msgstr "Wotkaz na %1 (%2)"
+msgstr "(%1, wotkaz na %2)"
 
 #: kio/kfileitem.cpp:964
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Points to:"
 msgid " (Points to %1)"
-msgstr "Wotkazuje na:"
+msgstr "(wotkazuje na %1)"
 
 #: kio/kfileitem.cpp:991 ../kioslave/http/kcookiejar/kcookiewin.cpp:215
 msgid "Name:"
@@ -2493,54 +2480,48 @@ msgid "No service implementing %1"
 msgstr "Žadyn service za %1"
 
 #: kio/fileundomanager.cpp:116
-#, fuzzy
 msgid "Creating directory"
 msgstr "Stworju zapisk"
 
 #: kio/fileundomanager.cpp:119
-#, fuzzy
 #| msgid "Moving"
 msgid "Moving"
 msgstr "Přesuwam"
 
 #: kio/fileundomanager.cpp:123
-#, fuzzy
 #| msgid "Deleting"
 msgid "Deleting"
 msgstr "Niču"
 
 #: kio/fileundomanager.cpp:279
 msgid "Und&o"
-msgstr ""
+msgstr "W&róćo"
 
 #: kio/fileundomanager.cpp:283
 msgid "Und&o: Copy"
-msgstr ""
+msgstr "W&róćo: kopěrowanje"
 
 #: kio/fileundomanager.cpp:285
 msgid "Und&o: Link"
-msgstr ""
+msgstr "W&róćo: wotkazać"
 
 #: kio/fileundomanager.cpp:287
 msgid "Und&o: Move"
-msgstr ""
+msgstr "W&róćo: přesuwać"
 
 #: kio/fileundomanager.cpp:289
-#, fuzzy
 #| msgid "&Rename"
 msgid "Und&o: Rename"
-msgstr "&Hinak pomjenować"
+msgstr "W&róćo: přemjenować"
 
 #: kio/fileundomanager.cpp:291
-#, fuzzy
 msgid "Und&o: Trash"
-msgstr "Papjernik"
+msgstr "W&róćo: do papjernika sunyć"
 
 #: kio/fileundomanager.cpp:293
-#, fuzzy
 #| msgid "Could Not Create Folder"
 msgid "Und&o: Create Folder"
-msgstr "Njemóžach zapisk stworić"
+msgstr "W&róćo: zapisk stworić"
 
 #: kio/fileundomanager.cpp:759
 #, kde-format
@@ -2550,12 +2531,14 @@ msgid ""
 "Undoing the copy will delete the file, and all modifications will be lost.\n"
 "Are you sure you want to delete %4?"
 msgstr ""
+"Dataja %1 bu  z %2 kopěrowana, ale potom bu w %3 změnjena.\n"
+"Wróćenje kopěrowanja dataju wumaznje, a wšitke změny budu zhubjene.\n"
+"Chceće woprawdźe %4 wumaznyć?"
 
 #: kio/fileundomanager.cpp:762
-#, fuzzy
 #| msgid "Updating System Configuration"
 msgid "Undo File Copy Confirmation"
-msgstr "Aktualizuju konfiguraciju systema"
+msgstr "Wobkrućenje wróćenja kopěrowanja dataje"
 
 #: kio/slave.cpp:409
 #, kde-format
@@ -2568,9 +2551,9 @@ msgid "Can not find io-slave for protocol '%1'."
 msgstr "Njemóžu io-slave za protokol %1 namakać."
 
 #: kio/slave.cpp:435
-#, fuzzy, kde-format
+#, kde-format
 msgid "Cannot talk to klauncher: %1"
-msgstr "Njemóžu so z klauncherom zwjazać."
+msgstr "Njemóžu so z klauncherom zwjazać: %1"
 
 #: kio/slave.cpp:443
 #, kde-format
@@ -2607,52 +2590,45 @@ msgid "Unable to create io-slave: %1"
 msgstr "Njemóžach io-slave stworić: %1"
 
 #: kio/kdirmodel.cpp:781
-#, fuzzy
 #| msgid "Name"
 msgctxt "@title:column"
 msgid "Name"
 msgstr "Mjeno"
 
 #: kio/kdirmodel.cpp:783
-#, fuzzy
 #| msgid "Size"
 msgctxt "@title:column"
 msgid "Size"
 msgstr "Wulkosć"
 
 #: kio/kdirmodel.cpp:785
-#, fuzzy
 #| msgid "Date"
 msgctxt "@title:column"
 msgid "Date"
 msgstr "Datum"
 
 #: kio/kdirmodel.cpp:787
-#, fuzzy
 #| msgid "Permissions"
 msgctxt "@title:column"
 msgid "Permissions"
 msgstr "Prawa"
 
 #: kio/kdirmodel.cpp:789
-#, fuzzy
 #| msgid "Owner"
 msgctxt "@title:column"
 msgid "Owner"
 msgstr "Wobsydnik"
 
 #: kio/kdirmodel.cpp:791
-#, fuzzy
 #| msgid "Group"
 msgctxt "@title:column"
 msgid "Group"
 msgstr "Skupina"
 
 #: kio/kdirmodel.cpp:793
-#, fuzzy
 msgctxt "@title:column"
 msgid "Type"
-msgstr "Družina:"
+msgstr "Družina"
 
 #: kssl/ksslpemcallback.cpp:37
 msgid "Certificate password"
@@ -2663,16 +2639,14 @@ msgid "KDE SSL Information"
 msgstr "KDE SSL-informacija"
 
 #: kssl/ksslinfodialog.cpp:81
-#, fuzzy
 #| msgid "Subject line"
 msgid "Subject"
-msgstr "Temowa linka"
+msgstr "Tema"
 
 #: kssl/ksslinfodialog.cpp:82
-#, fuzzy
 #| msgid "Issuer:"
 msgid "Issuer"
-msgstr "Wupisowar:"
+msgstr "Wupisowar"
 
 #: kssl/ksslinfodialog.cpp:92 kssl/ksslinfodialog.cpp:137
 msgid "Current connection is secured with SSL."
@@ -2692,25 +2666,23 @@ msgid ""
 msgstr "Hłowny dźěl tutoho dokumenta je z SSL zawěsćeny, ale nic wšitko."
 
 #: kssl/ksslinfodialog.cpp:146
-#, fuzzy
 #| msgid "Some of this document is secured with SSL, but the main part is not."
 msgid "Some of this document is secured with SSL, but the main part is not."
 msgstr "Dźěle tutoho dokumenta su z SSL zawěsćene, hłowny dźěl pak nic."
 
 #: kssl/ksslinfodialog.cpp:193
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 bits used of a %2 bit cipher"
 msgid "%1, using %2 bits of a %3 bit key"
-msgstr "%1 bitow  so z %2-bitoweho kluča wužiwa"
+msgstr "%1, %2 bitow  so z %3-bitoweho kluča wužiwa"
 
 #: kssl/ksslinfodialog.cpp:212
 msgid "NO, there were errors:"
-msgstr ""
+msgstr "Ně, dokelž su so zmylki stali:"
 
 #: kssl/ksslinfodialog.cpp:219
-#, fuzzy
 msgid "Yes"
-msgstr "Stary staw"
+msgstr "Haj"
 
 #: kssl/ksslcertificate.cpp:204
 msgid "Signature Algorithm: "
@@ -2768,9 +2740,10 @@ msgid ""
 "Retrieval of the issuer certificate failed. This means the CA's (Certificate "
 "Authority) certificate can not be found."
 msgstr ""
+"Certifikat wupisowarja njehodźi so wobstarać. To rěka, zo so certifikat CA "
+"(Certificate Authority) njehodźi namakać. "
 
 #: kssl/ksslcertificate.cpp:1055
-#, fuzzy
 #| msgid ""
 #| "Certificate signing authority root files could not be found so the "
 #| "certificate is not verified."
@@ -2778,14 +2751,16 @@ msgid ""
 "Retrieval of the CRL (Certificate Revocation List) failed. This means the "
 "CA's (Certificate Authority) CRL can not be found."
 msgstr ""
-"Zakładne dataje za přepruwowanje certifikata njehodźachu so namakać, tak zo "
-"tutón certifikat njeje werifikowany."
+"Certificate Revocation List njehodźi so wobstarać. To rěka, zo so CRL tuteje "
+"CA (Certificate Authority) njehodźi namakać. "
 
 #: kssl/ksslcertificate.cpp:1057
 msgid ""
 "The decryption of the certificate's signature failed. This means it could "
 "not even be calculated as opposed to just not matching the expected result."
 msgstr ""
+"Podpismo certifikata njehodźi so dešifrować. To rěka, zo so ani wobličić "
+"njehodźi, nic jehož, zo wuslědk njetrjechi."
 
 #: kssl/ksslcertificate.cpp:1059
 msgid ""
@@ -2793,6 +2768,8 @@ msgid ""
 "This means it could not even be calculated as opposed to just not matching "
 "the expected result."
 msgstr ""
+"Podpismo CRL (Certificate Revocation List) njehodźi so dešifrować. To rěka, "
+"zo so ani wobličić njehodźi, nic jehož, zo wuslědk njetrjechi."
 
 #: kssl/ksslcertificate.cpp:1061
 msgid ""
@@ -2800,9 +2777,11 @@ msgid ""
 "CA's (Certificate Authority) certificate can not be used to verify the "
 "certificate you wanted to use."
 msgstr ""
+"Zjawny kluč wupisowarja njehodźi so dekodować. To rěka, zo so certifikat CA "
+"(Certificate Authority) njehodźi wužiwać za wopodstatnjenje certifikata, "
+"kotryž chceće wužić."
 
 #: kssl/ksslcertificate.cpp:1063
-#, fuzzy
 #| msgid ""
 #| "Certificate signing authority root files could not be found so the "
 #| "certificate is not verified."
@@ -2810,8 +2789,8 @@ msgid ""
 "The certificate's signature is invalid. This means that the certificate can "
 "not be verified."
 msgstr ""
-"Zakładne dataje za přepruwowanje certifikata njehodźachu so namakać, tak zo "
-"tutón certifikat njeje werifikowany."
+"Podpismo certifikata njetrjechi. To rěka, zo "
+"tutón certifikat so njehodźi werifikować."
 
 #: kssl/ksslcertificate.cpp:1065
 #, fuzzy
@@ -2826,50 +2805,49 @@ msgstr ""
 "tutón certifikat njeje werifikowany."
 
 #: kssl/ksslcertificate.cpp:1067
-#, fuzzy
 #| msgid "The certificate is invalid."
 msgid "The certificate is not valid, yet."
-msgstr "Certifikat njeje walidny."
+msgstr "Certifikat njeje hišće walidny."
 
 #: kssl/ksslcertificate.cpp:1069
-#, fuzzy
 #| msgid "The certificate is invalid."
 msgid "The certificate is not valid, any more."
-msgstr "Certifikat njeje walidny."
+msgstr "Certifikat hižo njeje walidny."
 
 #: kssl/ksslcertificate.cpp:1071 kssl/ksslcertificate.cpp:1073
-#, fuzzy
 #| msgid "The certificate is invalid."
 msgid "The CRL (Certificate Revocation List) is not valid, yet."
-msgstr "Certifikat njeje walidny."
+msgstr "CRL (Certificate Revocation List) njeje hišće walidny."
 
 #: kssl/ksslcertificate.cpp:1075
 msgid "The time format of the certificate's 'notBefore' field is invalid."
-msgstr ""
+msgstr "Časowy format (hódnota za 'notBefore') certifikata njetrjechi."
 
 #: kssl/ksslcertificate.cpp:1077
 msgid "The time format of the certificate's 'notAfter' field is invalid."
-msgstr ""
+msgstr "Časowy format (hódnota za 'notAfter') certifikata njetrjechi."
 
 #: kssl/ksslcertificate.cpp:1079
-#, fuzzy
 #| msgid "The certificate is invalid."
 msgid ""
 "The time format of the CRL's (Certificate Revocation List) 'lastUpdate' "
 "field is invalid."
-msgstr "Certifikat njeje walidny."
+msgstr ""
+"Časowy format (hódnota za 'lastUpdate') CRL (Certificate Revocation List) "
+"njetrjechi."
 
 #: kssl/ksslcertificate.cpp:1081
-#, fuzzy
 #| msgid "The certificate is invalid."
 msgid ""
 "The time format of the CRL's (Certificate Revocation List) 'nextUpdate' "
 "field is invalid."
-msgstr "Certifikat njeje walidny."
+msgstr ""
+"Časowy format (hódnota za 'nextUpdate') CRL (Certificate Revocation List) "
+"njetrjechi."
 
 #: kssl/ksslcertificate.cpp:1083
 msgid "The OpenSSL process ran out of memory."
-msgstr ""
+msgstr "OpenSSL-procesej pomjatk njedosaha."
 
 #: kssl/ksslcertificate.cpp:1085
 msgid ""
@@ -2877,6 +2855,8 @@ msgid ""
 "If you want to accept this certificate, import it into the list of trusted "
 "certificates."
 msgstr ""
+"Certifikat je wot wobsydnika wupisany a njeje w lisćinje dowěryhódnych "
+"certifikatow. Jeli chceće jón akceptować, importujće jón do tuteje lisćiny."
 
 #: kssl/ksslcertificate.cpp:1088
 msgid ""
@@ -2902,7 +2882,6 @@ msgid "The certificate chain is longer than the maximum depth specified."
 msgstr ""
 
 #: kssl/ksslcertificate.cpp:1097
-#, fuzzy
 #| msgid "Certificate has been revoked."
 msgid "The certificate has been revoked."
 msgstr "Certifikat je zběhnjeny."
@@ -2974,7 +2953,7 @@ msgstr ""
 
 #: kssl/ksslcertificate.cpp:1119
 msgid "OpenSSL could not be verified."
-msgstr ""
+msgstr "OpenSSL njehodźeše so werifikować."
 
 #: kssl/ksslcertificate.cpp:1124
 msgid ""
@@ -3052,14 +3031,12 @@ msgid "Do you wish to store the passphrase in your wallet file?"
 msgstr "Chceće swoju hesłowu sadu w móšnjowej dataji zawěsćić?"
 
 #: kssl/ksslkeygen.cpp:145
-#, fuzzy
 msgid "Store"
-msgstr "Zastajene"
+msgstr "Zawěsćić"
 
 #: kssl/ksslkeygen.cpp:145
-#, fuzzy
 msgid "Do Not Store"
-msgstr "Njemóžach staw resursy zwěsćić"
+msgstr "Nic zawěsćić"
 
 #: kssl/ksslkeygen.cpp:261
 msgid "2048 (High Grade)"
@@ -3090,13 +3067,12 @@ msgid "Save selection for this host."
 msgstr "Wubraće za tutón server zawěsćić."
 
 #: kssl/ksslcertdialog.cpp:80
-#, fuzzy
 msgid "Send certificate"
-msgstr "Pósćel certifikat..."
+msgstr "Certifikat pósłać"
 
 #: kssl/ksslcertdialog.cpp:84
 msgid "Do not send a certificate"
-msgstr "Njepósćel certifikat"
+msgstr "Certifikat nic pósłać"
 
 #: kssl/ksslcertdialog.cpp:89
 msgid "KDE SSL Certificate Dialog"
@@ -3108,6 +3084,8 @@ msgid ""
 "The server <b>%1</b> requests a certificate.<br /><br />Select a certificate "
 "to use from the list below:"
 msgstr ""
+"Serwer <b>%1</b> sej certifikat žada.<br /><br /> Wubjerće certifikat z "
+"lisćiny deleka:"
 
 #: misc/kpac/proxyscout.cpp:131
 #, kde-format
@@ -3188,11 +3166,11 @@ msgstr "Sćele krótku rozprawu wo zmylku na submit@bugs.kde.org"
 
 #: misc/ksendbugmail/main.cpp:74
 msgid "(c) 2000 Stephan Kulow"
-msgstr ""
+msgstr "(c) 2000 Stephan Kulow"
 
 #: misc/ksendbugmail/main.cpp:75
 msgid "Stephan Kulow"
-msgstr ""
+msgstr "Stephan Kulow"
 
 #: misc/ksendbugmail/main.cpp:75
 msgid "Author"
@@ -3207,12 +3185,10 @@ msgid "Recipient"
 msgstr "Adresat"
 
 #: misc/kmailservice.cpp:30
-#, fuzzy
 msgid "KMailService"
-msgstr "elektroniska póšta"
+msgstr "KMailService"
 
 #: misc/kmailservice.cpp:30
-#, fuzzy
 msgid "Mail service"
 msgstr "elektroniska póšta"
 
@@ -3227,14 +3203,12 @@ msgstr "Městno:"
 #: kfile/kfiledialog.cpp:438 kfile/kfiledialog.cpp:454
 #: kfile/kfiledialog.cpp:462 kfile/kfiledialog.cpp:481
 #: kfile/kfiledialog.cpp:502 kfile/kfiledialog.cpp:557
-#, fuzzy
 msgid "Open"
-msgstr "W&očinić"
+msgstr "Wočinić"
 
 #: kfile/kpreviewprops.cpp:50
-#, fuzzy
 msgid "P&review"
-msgstr "Přehladka"
+msgstr "Pře&hladka"
 
 #: kfile/kicondialog.cpp:262 kfile/kicondialog.cpp:274
 msgid "Select Icon"
@@ -3245,7 +3219,6 @@ msgid "Icon Source"
 msgstr "Žórło piktograma"
 
 #: kfile/kicondialog.cpp:305
-#, fuzzy
 msgid "S&ystem icons:"
 msgstr "&Systemowe piktogramy:"
 
@@ -3260,22 +3233,20 @@ msgid "&Browse..."
 msgstr "&Přelistuj..."
 
 #: kfile/kicondialog.cpp:326
-#, fuzzy
 msgid "&Search:"
-msgstr "měrca"
+msgstr "&Pytać:"
 
 #: kfile/kicondialog.cpp:333
 msgid "Search interactively for icon names (e.g. folder)."
-msgstr ""
+msgstr "Pyta interaktiwnje za mjenami piktogramow (na př. zapisk)."
 
 #: kfile/kicondialog.cpp:354
 msgid "Actions"
 msgstr "Akcije"
 
 #: kfile/kicondialog.cpp:355
-#, fuzzy
 msgid "Animations"
-msgstr "Programy"
+msgstr "Animacije"
 
 #: kfile/kicondialog.cpp:356
 msgid "Applications"
@@ -3283,7 +3254,7 @@ msgstr "Programy"
 
 #: kfile/kicondialog.cpp:357
 msgid "Categories"
-msgstr ""
+msgstr "Kategorije"
 
 #: kfile/kicondialog.cpp:358
 msgid "Devices"
@@ -3291,20 +3262,19 @@ msgstr "Graty"
 
 #: kfile/kicondialog.cpp:359
 msgid "Emblems"
-msgstr ""
+msgstr "Emblemy"
 
 #: kfile/kicondialog.cpp:360
 msgid "Emotes"
-msgstr ""
+msgstr "Emotikony"
 
 #: kfile/kicondialog.cpp:361
 msgid "Filesystems"
 msgstr "Datajowe systemy"
 
 #: kfile/kicondialog.cpp:362
-#, fuzzy
 msgid "International"
-msgstr "KDE SSL-informacija"
+msgstr "Mjezynarodny"
 
 #: kfile/kicondialog.cpp:363
 msgid "Mimetypes"
@@ -3312,17 +3282,16 @@ msgstr "Mime-družiny"
 
 #: kfile/kicondialog.cpp:364 ../kfile/kfilewidget.cpp:1202
 msgid "Places"
-msgstr ""
+msgstr "Městna"
 
 #: kfile/kicondialog.cpp:365
-#, fuzzy
 msgid "Status"
-msgstr "Z&apočeć"
+msgstr "Status"
 
 #: kfile/kicondialog.cpp:571
-#, fuzzy
 msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
-msgstr "*.png *.xpm|piktogramowe dataje (*.png *.xpm)"
+msgstr ""
+"*.png *.xpm *.svg *.svgz|piktogramowe dataje (*.png *.xpm *.svg *.svgz)"
 
 #: kfile/kfilemetainfowidget.cpp:162
 msgid "<Error>"
@@ -3334,7 +3303,7 @@ msgstr "Wobsydnik"
 
 #: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:464
 msgid "Owning Group"
-msgstr ""
+msgstr "Wobsedźaca skupina"
 
 #: kfile/kacleditwidget.cpp:63 kfile/kacleditwidget.cpp:469
 #: kfile/kpropertiesdialog.cpp:1981
@@ -3343,36 +3312,31 @@ msgstr "Druzy"
 
 #: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:474
 msgid "Mask"
-msgstr ""
+msgstr "Maska"
 
 #: kfile/kacleditwidget.cpp:65
 msgid "Named User"
-msgstr ""
+msgstr "Wužiwar z mjenom"
 
 #: kfile/kacleditwidget.cpp:66
-#, fuzzy
 msgid "Named Group"
-msgstr "Skupina"
+msgstr "Skupina z mjenom"
 
 #: kfile/kacleditwidget.cpp:100 ../kfile/kfileplacesview.cpp:590
-#, fuzzy
 msgid "Add Entry..."
-msgstr "Dod&ać ..."
+msgstr "Zapis dodać ..."
 
 #: kfile/kacleditwidget.cpp:104
-#, fuzzy
 msgid "Edit Entry..."
-msgstr "&Wobdźěłać..."
+msgstr "Zapis wobdźěłać..."
 
 #: kfile/kacleditwidget.cpp:108
-#, fuzzy
 msgid "Delete Entry"
-msgstr "Niču"
+msgstr "Zapis wumaznyć"
 
 #: kfile/kacleditwidget.cpp:309
-#, fuzzy
 msgid " (Default)"
-msgstr " (zničam)"
+msgstr "(standard)"
 
 #: kfile/kacleditwidget.cpp:433
 #, fuzzy
@@ -7406,3 +7370,4 @@ msgstr ""
 
 #~ msgid "Connection was to %1 at port %2"
 #~ msgstr "Zwisk bě z %1 na porće %2"
+
