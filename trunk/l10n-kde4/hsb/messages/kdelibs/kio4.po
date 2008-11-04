@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
+"100==4 ? 2 : 3;\n"
 "X-Generator: KAider 0.1\n"
 
 #: kio/netaccess.cpp:105
@@ -31,7 +31,6 @@ msgid "ERROR: Unknown protocol '%1'"
 msgstr "ZMYLK: Njeznaty protokol '%1'"
 
 #: kio/job.cpp:135
-#| msgid "Moving"
 msgctxt "@title job"
 msgid "Moving"
 msgstr "Přesuwam"
@@ -45,7 +44,6 @@ msgid "Destination"
 msgstr "Cil"
 
 #: kio/job.cpp:142
-#| msgid "Copying"
 msgctxt "@title job"
 msgid "Copying"
 msgstr "Kopěruju"
@@ -60,7 +58,6 @@ msgid "Directory"
 msgstr "Zapisk"
 
 #: kio/job.cpp:155
-#| msgid "Deleting"
 msgctxt "@title job"
 msgid "Deleting"
 msgstr "Wumazam"
@@ -70,7 +67,6 @@ msgid "File"
 msgstr "Dataja"
 
 #: kio/job.cpp:161
-#| msgid "Examining"
 msgctxt "@title job"
 msgid "Examining"
 msgstr "Wobhladuju sej"
@@ -81,7 +77,6 @@ msgid "Transferring"
 msgstr "Přenjesu"
 
 #: kio/job.cpp:173
-#| msgid "Mounting"
 msgctxt "@title job"
 msgid "Mounting"
 msgstr "Montuju"
@@ -95,7 +90,6 @@ msgid "Mountpoint"
 msgstr "Cil montowanja"
 
 #: kio/job.cpp:180
-#| msgid "Unmounting"
 msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Wotmontuju"
@@ -122,7 +116,6 @@ msgid "Data format:"
 msgstr "Format datow:"
 
 #: kio/slaveinterface.cpp:460
-#| msgid "The peer SSL certificate appears to be corrupt."
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "SSL-certifikat peera njeje walidny."
 
@@ -158,8 +151,8 @@ msgid ""
 "Malformed URL\n"
 "%1"
 msgstr ""
-"Hubjene mjeno za URL\n "
-"%1"
+"Hubjene mjeno za URL\n"
+" %1"
 
 #: kio/paste.cpp:282
 #, kde-format
@@ -198,7 +191,6 @@ msgstr[2] "%1 objekty"
 msgstr[3] "%1 objektow"
 
 #: kio/kfileitemdelegate.cpp:277 kio/kfileitemdelegate.cpp:281
-#| msgid "Unknown"
 msgctxt "@info mimetype"
 msgid "Unknown"
 msgstr "Njeznate"
@@ -249,7 +241,6 @@ msgstr ""
 "W padźe konflikta so kompjuter hišće raz wopraša."
 
 #: kio/renamedialog.cpp:122
-#| msgid "Write"
 msgctxt "Write files into an existing folder"
 msgid "&Write Into"
 msgstr "Pisać &do"
@@ -269,13 +260,11 @@ msgstr ""
 "W padźe konflikta z eksistowacym zapiskom so kompjuter wopraša."
 
 #: kio/renamedialog.cpp:128
-#| msgid "O&verwrite All"
 msgctxt "Write files into any existing directory"
 msgid "&Write Into All"
 msgstr "&Pisać do wšěch"
 
 #: kio/renamedialog.cpp:128
-#| msgid "O&verwrite All"
 msgid "&Overwrite All"
 msgstr "&Wšitke přepisać"
 
@@ -440,7 +429,6 @@ msgstr "Clientowy certifikat za sesiju njehodźeše so nastajić."
 
 #: kio/tcpslavebase.cpp:737
 #, kde-format
-#| msgid "The server certificate failed the authenticity test (%1)."
 msgid ""
 "The server failed the authenticity check (%1).\n"
 "\n"
@@ -818,7 +806,6 @@ msgstr "Njemóžach přistupne prawa změnić za %1"
 
 #: kio/global.cpp:278
 #, kde-format
-#| msgid "Could not change permissions for %1."
 msgid "Could not change ownership for %1."
 msgstr "Njemóžach přistupne prawa změnić za %1"
 
@@ -1034,7 +1021,6 @@ msgstr "Protokol %1 njepodpěruje změnjenje datajowych atributow."
 
 #: kio/global.cpp:390
 #, kde-format
-#| msgid "Changing the attributes of files is not supported with protocol %1."
 msgid "Changing the ownership of files is not supported with protocol %1."
 msgstr "Protokol %1 njepodpěruje změnjenje datajowych atributow."
 
@@ -1059,7 +1045,6 @@ msgid "Protocol %1 does not support action %2."
 msgstr "Protokol %1 njepodpěruje akciju %2"
 
 #: kio/global.cpp:418
-#| msgid "(unknown)"
 msgctxt "@info url"
 msgid "(unknown)"
 msgstr "(njeznate)"
@@ -1075,13 +1060,11 @@ msgid "<b>Technical reason</b>: "
 msgstr "<b>Techniska přičina</b>"
 
 #: kio/global.cpp:432
-#| msgid "</p><p><b>Details of the request</b>:"
 msgid "<b>Details of the request</b>:"
 msgstr "<b>Nadrobnosće naprašowanja</b>:"
 
 #: kio/global.cpp:433
 #, kde-format
-#| msgid "</p><ul><li>URL: %1</li>"
 msgid "<li>URL: %1</li>"
 msgstr "<li>URL: %1</li>"
 
@@ -1097,22 +1080,18 @@ msgstr "<li>Datum a čas: %1</li>"
 
 #: kio/global.cpp:438
 #, kde-format
-#| msgid "<li>Additional information: %1</li></ul>"
 msgid "<li>Additional information: %1</li>"
 msgstr "<li>Dodatna informacija: %1</li>"
 
 #: kio/global.cpp:441
-#| msgid "<p><b>Possible causes</b>:</p><ul><li>"
 msgid "<b>Possible causes</b>:"
 msgstr "<b>Móžna přičina</b>:"
 
 #: kio/global.cpp:446
-#| msgid "<p><b>Possible solutions</b>:</p><ul><li>"
 msgid "<b>Possible solutions</b>:"
 msgstr "<b>Móžne rozrisanje</b>:"
 
 #: kio/global.cpp:479
-#| msgid "(unknown)"
 msgctxt "@info protocol"
 msgid "(unknown)"
 msgstr "(njeznate)"
@@ -2014,21 +1993,16 @@ msgstr ""
 "poradźił."
 
 #: kio/global.cpp:978
-#| msgid "Could Not Alter Permissions of Resource"
 msgid "Could Not Change Ownership of Resource"
 msgstr "Njemóžach wobsydstwo resursy změnić"
 
 #: kio/global.cpp:979
 #, kde-format
-#| msgid ""
-#| "An attempt to alter the permissions on the specified resource <strong>%1</"
-#| "strong> failed."
 msgid ""
 "An attempt to change the ownership of the specified resource <strong>%1</"
 "strong> failed."
 msgstr ""
-"Pospyt, wobsydstwo resursy <strong>%1</strong> změnić, njeje so "
-"poradźił."
+"Pospyt, wobsydstwo resursy <strong>%1</strong> změnić, njeje so poradźił."
 
 #: kio/global.cpp:986
 msgid "Could Not Delete Resource"
@@ -2429,19 +2403,16 @@ msgstr "Wotmontować"
 
 #: kio/kfileitem.cpp:958
 #, kde-format
-#| msgid "Symbolic Link"
 msgid "(Symbolic Link to %1)"
 msgstr "(Symboliski wotkaz na %1)"
 
 #: kio/kfileitem.cpp:960
 #, kde-format
-#| msgid "Link to %1 (%2)"
 msgid "(%1, Link to %2)"
 msgstr "(%1, wotkaz na %2)"
 
 #: kio/kfileitem.cpp:964
 #, kde-format
-#| msgid "Points to:"
 msgid " (Points to %1)"
 msgstr "(wotkazuje na %1)"
 
@@ -2484,12 +2455,10 @@ msgid "Creating directory"
 msgstr "Stworju zapisk"
 
 #: kio/fileundomanager.cpp:119
-#| msgid "Moving"
 msgid "Moving"
 msgstr "Přesuwam"
 
 #: kio/fileundomanager.cpp:123
-#| msgid "Deleting"
 msgid "Deleting"
 msgstr "Niču"
 
@@ -2510,7 +2479,6 @@ msgid "Und&o: Move"
 msgstr "W&róćo: přesuwać"
 
 #: kio/fileundomanager.cpp:289
-#| msgid "&Rename"
 msgid "Und&o: Rename"
 msgstr "W&róćo: přemjenować"
 
@@ -2519,7 +2487,6 @@ msgid "Und&o: Trash"
 msgstr "W&róćo: do papjernika sunyć"
 
 #: kio/fileundomanager.cpp:293
-#| msgid "Could Not Create Folder"
 msgid "Und&o: Create Folder"
 msgstr "W&róćo: zapisk stworić"
 
@@ -2536,7 +2503,6 @@ msgstr ""
 "Chceće woprawdźe %4 wumaznyć?"
 
 #: kio/fileundomanager.cpp:762
-#| msgid "Updating System Configuration"
 msgid "Undo File Copy Confirmation"
 msgstr "Wobkrućenje wróćenja kopěrowanja dataje"
 
@@ -2590,37 +2556,31 @@ msgid "Unable to create io-slave: %1"
 msgstr "Njemóžach io-slave stworić: %1"
 
 #: kio/kdirmodel.cpp:781
-#| msgid "Name"
 msgctxt "@title:column"
 msgid "Name"
 msgstr "Mjeno"
 
 #: kio/kdirmodel.cpp:783
-#| msgid "Size"
 msgctxt "@title:column"
 msgid "Size"
 msgstr "Wulkosć"
 
 #: kio/kdirmodel.cpp:785
-#| msgid "Date"
 msgctxt "@title:column"
 msgid "Date"
 msgstr "Datum"
 
 #: kio/kdirmodel.cpp:787
-#| msgid "Permissions"
 msgctxt "@title:column"
 msgid "Permissions"
 msgstr "Prawa"
 
 #: kio/kdirmodel.cpp:789
-#| msgid "Owner"
 msgctxt "@title:column"
 msgid "Owner"
 msgstr "Wobsydnik"
 
 #: kio/kdirmodel.cpp:791
-#| msgid "Group"
 msgctxt "@title:column"
 msgid "Group"
 msgstr "Skupina"
@@ -2639,12 +2599,10 @@ msgid "KDE SSL Information"
 msgstr "KDE SSL-informacija"
 
 #: kssl/ksslinfodialog.cpp:81
-#| msgid "Subject line"
 msgid "Subject"
 msgstr "Tema"
 
 #: kssl/ksslinfodialog.cpp:82
-#| msgid "Issuer:"
 msgid "Issuer"
 msgstr "Wupisowar"
 
@@ -2666,13 +2624,11 @@ msgid ""
 msgstr "Hłowny dźěl tutoho dokumenta je z SSL zawěsćeny, ale nic wšitko."
 
 #: kssl/ksslinfodialog.cpp:146
-#| msgid "Some of this document is secured with SSL, but the main part is not."
 msgid "Some of this document is secured with SSL, but the main part is not."
 msgstr "Dźěle tutoho dokumenta su z SSL zawěsćene, hłowny dźěl pak nic."
 
 #: kssl/ksslinfodialog.cpp:193
 #, kde-format
-#| msgid "%1 bits used of a %2 bit cipher"
 msgid "%1, using %2 bits of a %3 bit key"
 msgstr "%1, %2 bitow  so z %3-bitoweho kluča wužiwa"
 
@@ -2744,9 +2700,6 @@ msgstr ""
 "(Certificate Authority) njehodźi namakać. "
 
 #: kssl/ksslcertificate.cpp:1055
-#| msgid ""
-#| "Certificate signing authority root files could not be found so the "
-#| "certificate is not verified."
 msgid ""
 "Retrieval of the CRL (Certificate Revocation List) failed. This means the "
 "CA's (Certificate Authority) CRL can not be found."
@@ -2782,15 +2735,12 @@ msgstr ""
 "kotryž chceće wužić."
 
 #: kssl/ksslcertificate.cpp:1063
-#| msgid ""
-#| "Certificate signing authority root files could not be found so the "
-#| "certificate is not verified."
 msgid ""
 "The certificate's signature is invalid. This means that the certificate can "
 "not be verified."
 msgstr ""
-"Podpismo certifikata njetrjechi. To rěka, zo "
-"tutón certifikat so njehodźi werifikować."
+"Podpismo certifikata njetrjechi. To rěka, zo tutón certifikat so njehodźi "
+"werifikować."
 
 #: kssl/ksslcertificate.cpp:1065
 #, fuzzy
@@ -2805,17 +2755,14 @@ msgstr ""
 "tutón certifikat njeje werifikowany."
 
 #: kssl/ksslcertificate.cpp:1067
-#| msgid "The certificate is invalid."
 msgid "The certificate is not valid, yet."
 msgstr "Certifikat njeje hišće walidny."
 
 #: kssl/ksslcertificate.cpp:1069
-#| msgid "The certificate is invalid."
 msgid "The certificate is not valid, any more."
 msgstr "Certifikat hižo njeje walidny."
 
 #: kssl/ksslcertificate.cpp:1071 kssl/ksslcertificate.cpp:1073
-#| msgid "The certificate is invalid."
 msgid "The CRL (Certificate Revocation List) is not valid, yet."
 msgstr "CRL (Certificate Revocation List) njeje hišće walidny."
 
@@ -2828,7 +2775,6 @@ msgid "The time format of the certificate's 'notAfter' field is invalid."
 msgstr "Časowy format (hódnota za 'notAfter') certifikata njetrjechi."
 
 #: kssl/ksslcertificate.cpp:1079
-#| msgid "The certificate is invalid."
 msgid ""
 "The time format of the CRL's (Certificate Revocation List) 'lastUpdate' "
 "field is invalid."
@@ -2837,7 +2783,6 @@ msgstr ""
 "njetrjechi."
 
 #: kssl/ksslcertificate.cpp:1081
-#| msgid "The certificate is invalid."
 msgid ""
 "The time format of the CRL's (Certificate Revocation List) 'nextUpdate' "
 "field is invalid."
@@ -2882,7 +2827,6 @@ msgid "The certificate chain is longer than the maximum depth specified."
 msgstr ""
 
 #: kssl/ksslcertificate.cpp:1097
-#| msgid "Certificate has been revoked."
 msgid "The certificate has been revoked."
 msgstr "Certifikat je zběhnjeny."
 
@@ -3395,7 +3339,6 @@ msgid "Effective"
 msgstr "efektiwny"
 
 #: kfile/kencodingfiledialog.cpp:50
-#| msgid "Loading"
 msgid "Encoding:"
 msgstr "Koděrowanje:"
 
@@ -3406,7 +3349,6 @@ msgid "Save As"
 msgstr "Zawěsćić jako"
 
 #: kfile/kfiledialog.cpp:115
-#| msgid "*|All Files"
 msgid "*|All files"
 msgstr "*|Wšitke dataje"
 
@@ -3618,7 +3560,6 @@ msgstr "Wobličuju ..."
 
 #: kfile/kpropertiesdialog.cpp:1274
 #, kde-format
-#| msgid " Files: %1 "
 msgid "At least %1"
 msgstr "Znajmjeńša %1"
 
@@ -4753,7 +4694,6 @@ msgid "Edit your bookmark collection in a separate window"
 msgstr "Lubuški w nowym woknje editować"
 
 #: bookmarks/kbookmarkmenu.cc:516
-#| msgid "&New Bookmark Folder..."
 msgid "New Bookmark Folder..."
 msgstr "Nowy zapisk lubuškow..."
 
@@ -4786,13 +4726,11 @@ msgid "Bookmark Properties"
 msgstr "Swójstwa lubuškow"
 
 #: bookmarks/kbookmarkdialog.cc:48 bookmarks/kbookmarkdialog.cc:77
-#| msgid "&Add"
 msgctxt "@action:button"
 msgid "Add"
 msgstr "Dodać"
 
 #: bookmarks/kbookmarkdialog.cc:49
-#| msgid "Add Bookmark"
 msgctxt "@title:window"
 msgid "Add Bookmark"
 msgstr "K lubuškam dodać "
@@ -4804,7 +4742,6 @@ msgid "&New Folder..."
 msgstr "&Nowy zapisk..."
 
 #: bookmarks/kbookmarkdialog.cc:78
-#| msgid "Add Bookmark"
 msgctxt "@title:window"
 msgid "Add Bookmarks"
 msgstr "Lubuški dodać "
@@ -4820,32 +4757,27 @@ msgid "New Folder"
 msgstr "Nowy zapisk"
 
 #: bookmarks/kbookmarkdialog.cc:255
-#| msgid "Name:"
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "Mjeno:"
 
 #: bookmarks/kbookmarkdialog.cc:259
-#| msgid "Location:"
 msgctxt "@label:textbox"
 msgid "Location:"
 msgstr "Městno:"
 
 #: bookmarks/kbookmarkdialog.cc:289
-#| msgid "Create New Bookmark Folder"
 msgctxt "@title:window"
 msgid "Create New Bookmark Folder"
 msgstr "Nowy zapisk za lubuški stworić"
 
 #: bookmarks/kbookmarkdialog.cc:290
 #, kde-format
-#| msgid "Create New Bookmark Folder in %1"
 msgctxt "@title:window"
 msgid "Create New Bookmark Folder in %1"
 msgstr "Nowy zapisk za lubuški  w %1 stworić"
 
 #: bookmarks/kbookmarkdialog.cc:293
-#| msgid "New folder:"
 msgctxt "@label:textbox"
 msgid "New folder:"
 msgstr "Nowy zapisk:"
@@ -4987,13 +4919,11 @@ msgid "Otherwise, the request would have succeeded."
 msgstr "Hewak by so poradźiło."
 
 #: ../kioslave/http/http.cpp:1456
-#| msgid "retrieve property values"
 msgctxt "request type"
 msgid "retrieve property values"
 msgstr "hódnoty atributow wobstarać"
 
 #: ../kioslave/http/http.cpp:1459
-#| msgid "set property values"
 msgctxt "request type"
 msgid "set property values"
 msgstr "hódnoty atributow postajić"
@@ -5034,7 +4964,6 @@ msgid "delete the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk zničić"
 
 #: ../kioslave/http/http.cpp:1483
-#| msgid "query the server's capabilities"
 msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr "so za móžnosćemi servera woprašeć"
@@ -5046,7 +4975,6 @@ msgstr "wobsah wotpowědneje dataje abo zapiska dóstać"
 
 #: ../kioslave/http/http.cpp:1498
 #, kde-format
-#| msgid "An unexpected error (%1) occurred while attempting to %2."
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
@@ -5057,9 +4985,6 @@ msgstr "Tutón server WebDAV njepodpěruje."
 
 #: ../kioslave/http/http.cpp:1548
 #, kde-format
-#| msgid ""
-#| "An error occurred while attempting to %1, %2. A summary of the reasons is "
-#| "below.<ul>"
 msgctxt "%1: request type, %2: url"
 msgid ""
 "An error occurred while attempting to %1, %2. A summary of the reasons is "
@@ -5068,7 +4993,6 @@ msgstr "Zmylk je so stał při pospyće %1, %2. Zjeće přičin namakaće deleka
 
 #: ../kioslave/http/http.cpp:1562 ../kioslave/http/http.cpp:1667
 #, kde-format
-#| msgid "Access was denied while attempting to %1."
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr "Přistup bu wotpokazany, jako spytach %1."
@@ -5107,7 +5031,6 @@ msgstr "Server tutu družinu elementa \"Body\" njepodpěruje."
 
 #: ../kioslave/http/http.cpp:1605 ../kioslave/http/http.cpp:1679
 #, kde-format
-#| msgid "Unable to %1 because the resource is locked."
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr "Njemóžu %1; resursa je blokowana."
@@ -5140,7 +5063,6 @@ msgstr "kopěrować %1 na serwer"
 
 #: ../kioslave/http/http.cpp:1656
 #, kde-format
-#| msgid "An unexpected error (%1) occurred while attempting to %2."
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
@@ -5183,7 +5105,6 @@ msgid "Proxy Authentication Failed."
 msgstr "Přizjewjenje na proxyju je so zwrěšćiło!"
 
 #: ../kioslave/http/http.cpp:4834
-#| msgid "  Do you want to retry?"
 msgid " Do you want to retry?"
 msgstr "  Hišće raz spytać?"
 
@@ -5203,8 +5124,7 @@ msgid ""
 "below before you are allowed to access any sites."
 msgstr ""
 "Dyrbiće na proxyju mjeno wužiwarja a škitne hesło zapodać, prjedy hač směće "
-"so "
-"z dalšimi ličakami zwjazać."
+"so z dalšimi ličakami zwjazać."
 
 #: ../kioslave/http/http.cpp:4872 ../kioslave/http/http.cpp:5736
 msgid "Proxy:"
@@ -5392,7 +5312,6 @@ msgid "Servers, page scripts"
 msgstr "Servery. stonowe skripty"
 
 #: ../kioslave/metainfo/metainfo.cpp:39
-#| msgid "No metainfo for %1"
 msgid "kio_metainfo"
 msgstr "kio_metainfo"
 
@@ -5408,7 +5327,6 @@ msgstr "Papjernik wuprózdnić"
 
 #: ../kfile/kfileplacesview.cpp:567
 #, kde-format
-#| msgid "&Edit..."
 msgid "&Edit '%1'..."
 msgstr "'%1' &wobdźěłać"
 
@@ -7293,4 +7211,3 @@ msgstr ""
 
 #~ msgid "Connection was to %1 at port %2"
 #~ msgstr "Zwisk bě z %1 na porće %2"
-
