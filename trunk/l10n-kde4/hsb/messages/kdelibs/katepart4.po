@@ -3,26 +3,25 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Eduard Werner/Edward Wornar <edi.werner@gmx.de>, 2007.
+# Eduard Werner/Edward Wornar <edi.werner@gmx.de>, 2007, 2008.
 # Bianka Šwejdźic <hertn@gmx.de>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-11-05 10:42+0100\n"
-"PO-Revision-Date: 2007-06-19 15:56+0200\n"
-"Last-Translator: Bianka Šwejdźic <hertn@gmx.de>\n"
-"Language-Team: Upper Sorbian <hsb@li.org>\n"
+"PO-Revision-Date: 2008-11-05 16:07+0100\n"
+"Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
+"Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
-"100==4 ? 2 : 3;\n"
-"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+"X-Generator: KAider 0.1\n"
 
 #: mode/katemodeconfigpage.cpp:68
 msgid "<Unchanged>"
-msgstr ""
+msgstr "<Njezměnjene>"
 
 #: mode/katemodeconfigpage.cpp:174
 msgid "New Filetype"
@@ -31,13 +30,13 @@ msgstr "Nowy datajowy typ"
 #: mode/katemodeconfigpage.cpp:223
 #, kde-format
 msgid "Properties of %1"
-msgstr ""
+msgstr "Swójstwa %1"
 
 #. i18n: file: dialogs/filetypeconfigwidget.ui:82
 #. i18n: ectx: property (title), widget (QGroupBox, gbProperties)
 #: mode/katemodeconfigpage.cpp:247 rc.cpp:135
 msgid "Properties"
-msgstr ""
+msgstr "Swójstwa"
 
 #: mode/katemodeconfigpage.cpp:266
 msgid ""
@@ -45,10 +44,12 @@ msgid ""
 "Please note that this will automatically edit the associated file extensions "
 "as well."
 msgstr ""
+"Wubjerće Mime-družiny za tutu datajowu družinu.\nProšu wobkedźbujće, zo to tež asociěrowane "
+"datajowe ekstensije změni."
 
 #: mode/katemodeconfigpage.cpp:268
 msgid "Select Mime Types"
-msgstr ""
+msgstr "Mime-družiny wubrać"
 
 #: view/kateviewhelpers.cpp:355
 msgid "Available Commands"
@@ -58,7 +59,7 @@ msgstr "Móžne přikazy"
 msgid ""
 "<p>For help on individual commands, do <code>'help &lt;command&gt;'</code></"
 "p>"
-msgstr ""
+msgstr "<p>Po pomoc za jednotliwe přikazy, zapodajće <code>'help &lt;command&gt;'</code></p>"
 
 #: view/kateviewhelpers.cpp:368
 #, kde-format
@@ -77,19 +78,23 @@ msgid ""
 "<code><b>help list</b></code><br />For help for individual commands, enter "
 "<code><b>help &lt;command&gt;</b></code></p>"
 msgstr ""
+"<p>To je Katepartowa <b>přikazowa linka</b>.<br />Syntaksa: <code><b>přikaz "
+"[ argumenty ]</b></code><br />Po lisćinu móžnych přikazow zapodajće"
+"<code><b>help list</b></code><br />Po pomoc k jednotliwym přikazam, zapodajće"
+"<code><b>help &lt;přikaz&gt;</b></code></p>"
 
 #: view/kateviewhelpers.cpp:467
 #, kde-format
 msgid "Error: No range allowed for command \"%1\"."
-msgstr ""
+msgstr "Zmylk: Přikaz \"%1\" njewužiwa so z wokruhom (kaž 'a-d')"
 
 #: view/kateviewhelpers.cpp:483
 msgid "Success: "
-msgstr ""
+msgstr "Wuspěch:"
 
 #: view/kateviewhelpers.cpp:485
 msgid "Success"
-msgstr ""
+msgstr "Wuspěch"
 
 #: view/kateviewhelpers.cpp:490
 msgid "Error: "
@@ -112,21 +117,21 @@ msgstr "Lubušk"
 #: view/kateviewhelpers.cpp:1476 view/kateviewhelpers.cpp:1477
 #, kde-format
 msgid "Mark Type %1"
-msgstr ""
+msgstr "Marka družiny %1"
 
 #: view/kateviewhelpers.cpp:1496
 msgid "Set Default Mark Type"
-msgstr ""
+msgstr "Standardnu marku postajić"
 
 #: view/kateviewhelpers.cpp:1645
 msgctxt "Encodings menu"
 msgid "Disabled"
-msgstr ""
+msgstr "Znjepřistupnjene"
 
 #: view/kateviewhelpers.cpp:1648 view/kateviewhelpers.cpp:1660
 msgctxt "Encodings menu"
 msgid "Autodetect"
-msgstr ""
+msgstr "Awtomatisce namakać"
 
 #: view/kateview.cpp:302
 msgid "Cut the selected text and move it to the clipboard"
@@ -137,8 +142,7 @@ msgid "Paste previously copied or cut clipboard contents"
 msgstr "Zasuń kopěrowane a wutřihane wobsahi mjezyskładowanki"
 
 #: view/kateview.cpp:308
-msgid ""
-"Use this command to copy the currently selected text to the system clipboard."
+msgid "Use this command to copy the currently selected text to the system clipboard."
 msgstr ""
 "Wužiwaj tutón přikaz k kopěrowanju wubraneho teksta do systemoweje "
 "mjezyskładowanki"
@@ -800,8 +804,7 @@ msgid "Modes & Filetypes"
 msgstr ""
 
 #: dialogs/katedialogs.cpp:754
-msgid ""
-"You did not provide a backup suffix or prefix. Using default suffix: '~'"
+msgid "You did not provide a backup suffix or prefix. Using default suffix: '~'"
 msgstr ""
 
 #: dialogs/katedialogs.cpp:755
@@ -896,8 +899,7 @@ msgid "&Reload File"
 msgstr ""
 
 #: dialogs/katedialogs.cpp:1206
-msgid ""
-"Reload the file from disk. If you have unsaved changes, they will be lost."
+msgid "Reload the file from disk. If you have unsaved changes, they will be lost."
 msgstr ""
 
 #: dialogs/katedialogs.cpp:1211
@@ -1370,8 +1372,7 @@ msgstr ""
 
 #: tests/katetest.cpp:823
 #, kde-format
-msgid ""
-"The file '%1' could not be opened: it is not a normal file, it is a folder."
+msgid "The file '%1' could not be opened: it is not a normal file, it is a folder."
 msgstr ""
 
 #: tests/katetest.cpp:840
@@ -1411,8 +1412,7 @@ msgstr "&linki čisłować"
 msgid ""
 "<p>If enabled, line numbers will be printed on the left side of the page(s)."
 "</p>"
-msgstr ""
-"<p>Hdyž to nakliknjeće, ćišća so čisła linkow po lěwym boku stron(y). </p>"
+msgstr "<p>Hdyž to nakliknjeće, ćišća so čisła linkow po lěwym boku stron(y). </p>"
 
 #: utils/kateprinter.cpp:669
 msgid ""
@@ -2619,8 +2619,7 @@ msgstr "Ćišć tuchwilny dokument."
 #. i18n: file: dialogs/filetypeconfigwidget.ui:98
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, edtName)
 #: rc.cpp:141
-msgid ""
-"The name of the filetype will be the text of the corresponding menu item."
+msgid "The name of the filetype will be the text of the corresponding menu item."
 msgstr ""
 
 #. i18n: file: dialogs/filetypeconfigwidget.ui:105
@@ -3569,8 +3568,7 @@ msgstr ""
 #. i18n: file: dialogs/appearanceconfigwidget.ui:188
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, gbSortBookmarks)
 #: rc.cpp:586
-msgid ""
-"Choose how the bookmarks should be ordered in the <b>Bookmarks</b> menu."
+msgid "Choose how the bookmarks should be ordered in the <b>Bookmarks</b> menu."
 msgstr ""
 
 #. i18n: file: dialogs/appearanceconfigwidget.ui:191
@@ -5450,8 +5448,7 @@ msgstr ""
 
 #: syntax/katesyntaxdocument.cpp:83
 #, kde-format
-msgid ""
-"<qt>The error <b>%4</b><br /> has been detected in the file %1 at %2/%3</qt>"
+msgid "<qt>The error <b>%4</b><br /> has been detected in the file %1 at %2/%3</qt>"
 msgstr ""
 
 #: syntax/katesyntaxdocument.cpp:91
@@ -5567,8 +5564,7 @@ msgstr ""
 
 #: syntax/katehighlight.cpp:1290
 #, kde-format
-msgid ""
-"<B>%1</B>:Deprecated syntax. Context %2 not addressed by a symbolic name"
+msgid "<B>%1</B>:Deprecated syntax. Context %2 not addressed by a symbolic name"
 msgstr ""
 
 #: syntax/katehighlight.cpp:1408
@@ -5596,8 +5592,7 @@ msgstr ""
 
 #: document/katedocument.cpp:139
 #, kde-format
-msgid ""
-"The filter/check plugin '%1' could not be found, still continue saving of %2"
+msgid "The filter/check plugin '%1' could not be found, still continue saving of %2"
 msgstr ""
 
 #: document/katedocument.cpp:140
@@ -5740,8 +5735,7 @@ msgstr ""
 
 #: document/katedocument.cpp:5935
 #, kde-format
-msgid ""
-"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgid "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
 
 #: document/katedocument.cpp:5937
@@ -5776,3 +5770,4 @@ msgstr ""
 
 #~ msgid "Print %1"
 #~ msgstr "%1 ćišćeć"
+
