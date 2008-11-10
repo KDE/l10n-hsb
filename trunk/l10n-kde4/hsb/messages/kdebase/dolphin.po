@@ -6,15 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-06 09:43+0100\n"
+"POT-Creation-Date: 2008-11-10 10:09+0100\n"
 "PO-Revision-Date: 2008-11-08 21:43+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
+"100==4 ? 2 : 3;\n"
 "X-Generator: KAider 0.1\n"
 
 #: filterbar.cpp:41
@@ -48,6 +48,16 @@ msgctxt "@info:tooltip"
 msgid "Size: %1 pixels"
 msgstr "Wulkosć: %1 pikslow"
 
+#: draganddrophelper.cpp:105
+#, kde-format
+msgctxt "@info:status"
+msgid "The dropped item is already inside the folder %2"
+msgid_plural "The dropped items are already inside the folder %2"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
 #: dolphinfontrequester.cpp:40
 msgctxt "@item:inlistbox Font"
 msgid "System Font"
@@ -80,9 +90,6 @@ msgstr[3] "%1 zapiskow wubranych"
 
 #: dolphinview.cpp:534
 #, kde-format
-#| msgctxt "@info:status"
-#| msgid "1 Folder selected"
-#| msgid_plural "%1 Folders selected"
 msgctxt "@info:status"
 msgid "1 File selected"
 msgid_plural "%1 Files selected"
@@ -99,9 +106,6 @@ msgstr "%1, %2 (%3)"
 
 #: dolphinview.cpp:539
 #, kde-format
-#| msgctxt "@info:status"
-#| msgid "1 File (%2)"
-#| msgid_plural "%1 Files (%2)"
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
@@ -1429,167 +1433,167 @@ msgctxt "@label"
 msgid "Detailed Description (optional):"
 msgstr ""
 
-#: dolphinmainwindow.cpp:146
+#: dolphinmainwindow.cpp:147
 msgctxt "@info:status"
 msgid "Copy operation completed."
 msgstr ""
 
-#: dolphinmainwindow.cpp:150
+#: dolphinmainwindow.cpp:151
 msgctxt "@info:status"
 msgid "Move operation completed."
 msgstr ""
 
-#: dolphinmainwindow.cpp:154
+#: dolphinmainwindow.cpp:155
 msgctxt "@info:status"
 msgid "Link operation completed."
 msgstr ""
 
-#: dolphinmainwindow.cpp:158
+#: dolphinmainwindow.cpp:159
 msgctxt "@info:status"
 msgid "Move to trash operation completed."
 msgstr ""
 
-#: dolphinmainwindow.cpp:162
+#: dolphinmainwindow.cpp:163
 msgctxt "@info:status"
 msgid "Renaming operation completed."
 msgstr ""
 
-#: dolphinmainwindow.cpp:167
+#: dolphinmainwindow.cpp:168
 msgctxt "@info:status"
 msgid "Created folder."
 msgstr ""
 
-#: dolphinmainwindow.cpp:780
+#: dolphinmainwindow.cpp:789
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr ""
 
-#: dolphinmainwindow.cpp:783
+#: dolphinmainwindow.cpp:792
 msgctxt "@action:inmenu"
 msgid "Close Other Tabs"
 msgstr ""
 
-#: dolphinmainwindow.cpp:785
+#: dolphinmainwindow.cpp:794
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr ""
 
-#: dolphinmainwindow.cpp:949
+#: dolphinmainwindow.cpp:958
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
 msgstr ""
 
-#: dolphinmainwindow.cpp:956
+#: dolphinmainwindow.cpp:965
 msgctxt "@action:inmenu File"
 msgid "New &Window"
 msgstr ""
 
-#: dolphinmainwindow.cpp:962
+#: dolphinmainwindow.cpp:971
 msgctxt "@action:inmenu File"
 msgid "New Tab"
 msgstr ""
 
-#: dolphinmainwindow.cpp:966
+#: dolphinmainwindow.cpp:975
 msgctxt "@action:inmenu File"
 msgid "Close Tab"
 msgstr ""
 
-#: dolphinmainwindow.cpp:989
+#: dolphinmainwindow.cpp:998
 msgctxt "@action:inmenu Edit"
 msgid "Select All"
 msgstr ""
 
-#: dolphinmainwindow.cpp:994
+#: dolphinmainwindow.cpp:1003
 msgctxt "@action:inmenu Edit"
 msgid "Invert Selection"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1007
+#: dolphinmainwindow.cpp:1016
 msgctxt "@action:inmenu View"
 msgid "Reload"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1013
+#: dolphinmainwindow.cpp:1022
 msgctxt "@action:inmenu View"
 msgid "Stop"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1018
+#: dolphinmainwindow.cpp:1027
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1023
+#: dolphinmainwindow.cpp:1032
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Replace Location"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1039
+#: dolphinmainwindow.cpp:1048
 msgctxt "@action:inmenu Tools"
 msgid "Show Filter Bar"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1044
+#: dolphinmainwindow.cpp:1053
 msgctxt "@action:inmenu Tools"
 msgid "Compare Files"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1050
+#: dolphinmainwindow.cpp:1059
 msgctxt "@action:inmenu Tools"
 msgid "Quick View"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1062
+#: dolphinmainwindow.cpp:1071
 msgctxt "@action:inmenu"
 msgid "Activate Next Tab"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1068
+#: dolphinmainwindow.cpp:1077
 msgctxt "@action:inmenu"
 msgid "Activate Previous Tab"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1075
+#: dolphinmainwindow.cpp:1084
 msgctxt "@action:inmenu"
 msgid "Open in New Tab"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1080
+#: dolphinmainwindow.cpp:1089
 msgctxt "@action:inmenu"
 msgid "Open in New Window"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1088 dolphinmainwindow.cpp:1094
+#: dolphinmainwindow.cpp:1097 dolphinmainwindow.cpp:1103
 msgctxt "@title:window"
 msgid "Information"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1107 dolphinmainwindow.cpp:1113
+#: dolphinmainwindow.cpp:1116 dolphinmainwindow.cpp:1122
 msgctxt "@title:window"
 msgid "Folders"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1127 dolphinmainwindow.cpp:1135
+#: dolphinmainwindow.cpp:1136 dolphinmainwindow.cpp:1144
 msgctxt "@title:window Shell terminal"
 msgid "Terminal"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1152 dolphinmainwindow.cpp:1161
+#: dolphinmainwindow.cpp:1161 dolphinmainwindow.cpp:1170
 msgctxt "@title:window"
 msgid "Places"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1254
+#: dolphinmainwindow.cpp:1263
 msgctxt "@action:intoolbar Close right view"
 msgid "Close"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1257
+#: dolphinmainwindow.cpp:1266
 msgctxt "@action:intoolbar Close left view"
 msgid "Close"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1261
+#: dolphinmainwindow.cpp:1270
 msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr ""
@@ -1956,4 +1960,3 @@ msgstr ""
 #~ msgstr[1] "%1 dataji wubranej (%2)"
 #~ msgstr[2] "%1 dataje wubrane (%2)"
 #~ msgstr[3] "%1 datajow wubranych (%2)"
-
