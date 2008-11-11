@@ -10,14 +10,14 @@ msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-11-10 10:08+0100\n"
-"PO-Revision-Date: 2008-11-05 16:00+0100\n"
+"PO-Revision-Date: 2008-11-11 01:29+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
-"100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
 "X-Generator: KAider 0.1\n"
 
 #: kio/netaccess.cpp:105
@@ -547,24 +547,23 @@ msgstr[2] "%1 dny %2"
 msgstr[3] "%1 dnjow %2"
 
 #: kio/global.cpp:123
-#, fuzzy
 #| msgid "No Items"
 msgid "0 Items"
 msgstr "Žane objekty"
 
 #: kio/global.cpp:127
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 folder"
 #| msgid_plural "%1 folders"
 msgid "1 Folder"
 msgid_plural "%1 Folders"
-msgstr[0] "%1 zapiskow"
-msgstr[1] "%1 zapisk"
-msgstr[2] "%1 zapiskaj"
-msgstr[3] "%1 zapiski"
+msgstr[0] "%1 zapisk"
+msgstr[1] "%1 zapiskaj"
+msgstr[2] "%1 zapiski"
+msgstr[3] "%1 zapiskow"
 
 #: kio/global.cpp:128
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "1 file"
 #| msgid_plural "%1 files"
 msgid "1 File"
@@ -575,29 +574,29 @@ msgstr[2] "%1 dataje"
 msgstr[3] "%1 datajow"
 
 #: kio/global.cpp:131
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Items (Folders, Files)"
 #| msgid "%1 (%2, %3)"
 msgctxt "folders, files (size)"
 msgid "%1, %2 (%3)"
-msgstr "%1 (%2, %3)"
+msgstr "%1, %2 (%3)"
 
 #: kio/global.cpp:132
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 %"
 msgctxt "folders, files"
 msgid "%1, %2"
-msgstr "%1 %"
+msgstr "%1, %2"
 
 #: kio/global.cpp:134
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 (%2)"
 msgctxt "files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: kio/global.cpp:140
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Items in a folder"
 #| msgid "1 item"
 #| msgid_plural "%1 items"
@@ -609,11 +608,11 @@ msgstr[2] "%1 objekty"
 msgstr[3] "%1 objektow"
 
 #: kio/global.cpp:141
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 %"
 msgctxt "items: folders, files (size)"
 msgid "%1: %2"
-msgstr "%1 %"
+msgstr "%1: %2"
 
 #: kio/global.cpp:172
 #, kde-format
@@ -3468,7 +3467,7 @@ msgstr ""
 #: kfile/kopenwithdialog.cpp:840
 #, kde-format
 msgid "'%1' not found, please type a valid program name."
-msgstr ""
+msgstr "Njenamakam  '%1', prošu zapodajće mjeno programa."
 
 #: kfile/kmetaprops.cpp:101
 msgid "&Meta Info"
@@ -3616,11 +3615,11 @@ msgstr "Smě wobsah widźeć a změnić"
 
 #: kfile/kpropertiesdialog.cpp:1537
 msgid "Can View Content & Read"
-msgstr ""
+msgstr "smě wobsah wohladować & čitać"
 
 #: kfile/kpropertiesdialog.cpp:1538
 msgid "Can View/Read & Modify/Write"
-msgstr ""
+msgstr "smě wobhladować/čitać a modifikować/pisać"
 
 #: kfile/kpropertiesdialog.cpp:1634
 msgid "&Permissions"
@@ -3633,17 +3632,14 @@ msgstr "Přistupne prawa"
 #: kfile/kpropertiesdialog.cpp:1657
 msgid "This file is a link and does not have permissions."
 msgid_plural "All files are links and do not have permissions."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Dataja je wotkaz a nima prawa."
+msgstr[1] "Dataji stej wotkazaj a nimatej prawa."
+msgstr[2] "Dataje su wotkazy a nimaja prawa."
+msgstr[3] "Dataje su wotkazy a nimaja prawa."
 
 #: kfile/kpropertiesdialog.cpp:1661
-#, fuzzy
 msgid "Only the owner can change permissions."
-msgstr ""
-"Njemóžach přistupne prawa změnić za\n"
-"%1"
+msgstr "Jenož wobsydnik móže prawa změnić."
 
 #: kfile/kpropertiesdialog.cpp:1664
 msgid "O&wner:"
@@ -7252,3 +7248,4 @@ msgstr ""
 
 #~ msgid "Connection was to %1 at port %2"
 #~ msgstr "Zwisk bě z %1 na porće %2"
+
