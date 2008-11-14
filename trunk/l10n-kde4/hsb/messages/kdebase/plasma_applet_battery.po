@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-12 10:46+0100\n"
+"POT-Creation-Date: 2008-11-14 10:03+0100\n"
 "PO-Revision-Date: 2008-11-13 00:41+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,74 +17,117 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: battery.cpp:362
+#: battery.cpp:371
 msgid "Screen Brightness"
 msgstr "Swětłosć wobrazowki"
 
-#: battery.cpp:393
+#: battery.cpp:402
 msgid "Power Profile"
 msgstr "Milinowy profil"
 
-#: battery.cpp:407
+#: battery.cpp:416
 msgid "Actions"
 msgstr "Akcije"
 
-#: battery.cpp:425
+#: battery.cpp:434
 msgid "Sleep"
 msgstr "Wusnyć"
 
-#: battery.cpp:435
+#: battery.cpp:444
 msgid "Hibernate"
 msgstr "Přezymować"
 
-#: battery.cpp:449
+#: battery.cpp:458
 msgid "More..."
 msgstr "Dalše móžnosće..."
 
-#: battery.cpp:465
+#: battery.cpp:474
 msgid "Power Management"
 msgstr "Lutowanje miliny"
 
-#: battery.cpp:492
+#: battery.cpp:510
+#, kde-format
+msgid "<b>1 hour 1 minute</b> remaining<br />"
+msgid_plural "<b>1 hour %1 minutes</b> remaining<br />"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: battery.cpp:516
+#, kde-format
+msgid "<b>%1 hour 1 minute</b> remaining<br />"
+msgid_plural "<b>%1 hours 1 minute</b> remaining<br />"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: battery.cpp:518
+#, kde-format
+msgid "<b>%1 hour %2 minutes</b> remaining<br />"
+msgid_plural "<b>%1 hours %2 minutes</b> remaining<br />"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: battery.cpp:521
+#, kde-format
+msgid "<b>%1 hours</b> remaining<br />"
+msgstr ""
+
+#: battery.cpp:525
+#, kde-format
+msgid "<b>%1 minutes</b> remaining<br />"
+msgid_plural "<b>%1 minutes</b> remaining<br />"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: battery.cpp:542
 #, kde-format
 msgid "<b>Battery:</b> %1% (fully charged)<br />"
 msgstr "<b>Aku:</b> %1% (donabity)<br />"
 
-#: battery.cpp:494
-#, kde-format
+#: battery.cpp:544
+#, fuzzy, kde-format
+#| msgid "<b>Battery:</b> %1% (discharging)<br />"
+msgctxt "Shown when a time estimate is not available"
 msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgstr "<b>Aku:</b> %1% (so wužiwa)<br />"
 
-#: battery.cpp:496
+#: battery.cpp:546
 #, kde-format
 msgid "<b>Battery:</b> %1% (charging)<br />"
 msgstr "<b>Aku:</b> %1% (so nabiwa)<br />"
 
-#: battery.cpp:499
+#: battery.cpp:549
 msgctxt "Battery is not plugged in"
 msgid "<b>Battery:</b> not present<br />"
 msgstr "<b>Aku:</b> njeje tu<br />"
 
-#: battery.cpp:503
+#: battery.cpp:553
 #, kde-format
 msgid "<b>Battery %1:</b> %2% (fully charged)<br />"
 msgstr "<b>Aku %1:</b> %2% (donabity)<br />"
 
-#: battery.cpp:505
+#: battery.cpp:555
 #, kde-format
 msgid "<b>Battery %1:</b> %2% (discharging)<br />"
 msgstr "<b>Aku %1:</b> %2% (so wužiwa)<br />"
 
-#: battery.cpp:507
+#: battery.cpp:557
 #, kde-format
 msgid "<b>Battery %1:</b> %2% (charging)<br />"
 msgstr "<b>Aku %1:</b> %2% (so nabiwa)<br />"
 
-#: battery.cpp:512
+#: battery.cpp:564
 msgid "<b>AC Adapter:</b> Plugged in"
 msgstr "<b>Milinowy adapter:</b> přizamknjeny"
 
-#: battery.cpp:514
+#: battery.cpp:566
 msgid "<b>AC Adapter:</b> Not plugged in"
 msgstr "<b>Milinowy adapter:</b> njepřizamknjeny"
 
