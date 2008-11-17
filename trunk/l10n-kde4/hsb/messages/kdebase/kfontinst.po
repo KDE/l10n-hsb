@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-24 09:41+0200\n"
+"POT-Creation-Date: 2008-11-17 09:40+0100\n"
 "PO-Revision-Date: 2008-11-16 18:23+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -14,8 +14,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KAider 0.1\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
+"100==4 ? 2 : 3;\n"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -138,10 +138,14 @@ msgid "No duplicate fonts found."
 msgstr "Žane dublety namakane."
 
 #: kcmfontinst/DuplicatesDialog.cpp:128
-#, kde-format
-msgid "%1 duplicate fonts found."
-
-msgstr "%1 dubletow namakane."
+#, fuzzy, kde-format
+#| msgid "%1 duplicate fonts found."
+msgid "%1 duplicate font found."
+msgid_plural "%1 duplicate fonts found."
+msgstr[0] "%1 dubletow namakane."
+msgstr[1] "%1 dubletow namakane."
+msgstr[2] "%1 dubletow namakane."
+msgstr[3] "%1 dubletow namakane."
 
 #: kcmfontinst/DuplicatesDialog.cpp:222
 #, kde-format
@@ -278,9 +282,9 @@ msgid ""
 "li><li>Bold</li><li>Bold Italic</li><li>Italic</li></ul></li></ul>"
 msgstr ""
 "<p>Tuta lisćina pokazuje Waše instalowane pisma; čisła w róžkatych spinkach "
-"praja, w kelko stilach je swójba přistupna, na př.</p><ul><li>Times [4]<ul><"
-"li>Normalny</"
-"li><li>Tučny</li><li>Tučny/Kursiwny</li><li>Kursiwny</li></ul></li></ul>"
+"praja, w kelko stilach je swójba přistupna, na př.</p><ul><li>Times [4]"
+"<ul><li>Normalny</li><li>Tučny</li><li>Tučny/Kursiwny</li><li>Kursiwny</li></"
+"ul></li></ul>"
 
 #: kcmfontinst/FontList.cpp:1184 kcmfontinst/FontList.cpp:1208
 #, kde-format
@@ -399,10 +403,10 @@ msgid ""
 "within a \"Custom\" group.</li>"
 msgstr ""
 "<li><i>Wšě pisma</i> su wšě pisma, kiž su so na Wašim systemje instalowali - "
-"systemowe a wosobinske</"
-"li><li><i>Systemowe pisma</i> su přistupne za wšitkich wužiwarjow.</li><li><"
-"i>Wosobinske</i> su Waše wosobinske pisma.</li><li><i>Njeklasifikowane</i> "
-"su wšitke pisma, kiž so hišće njejsu do žaneje skupiny rjadowali.</li>"
+"systemowe a wosobinske</li><li><i>Systemowe pisma</i> su přistupne za "
+"wšitkich wužiwarjow.</li><li><i>Wosobinske</i> su Waše wosobinske pisma.</"
+"li><li><i>Njeklasifikowane</i> su wšitke pisma, kiž so hišće njejsu do "
+"žaneje skupiny rjadowali.</li>"
 
 #: kcmfontinst/GroupList.cpp:627
 #, kde-format
@@ -523,9 +527,7 @@ msgstr "Wopačne tajne hesło, prošu spytajće hišće raz."
 
 #: kcmfontinst/JobRunner.cpp:160
 msgid "Internal error: illegal return from SuProcess::checkInstall()"
-msgstr ""
-"Nutřkowny zmylk: illegal return z "
-"SuProcess:checkInstall()"
+msgstr "Nutřkowny zmylk: illegal return z SuProcess:checkInstall()"
 
 #: kcmfontinst/JobRunner.cpp:214
 msgid "Authentication failed."
@@ -761,9 +763,7 @@ msgstr "Ničo k wumaznjenju"
 #: kcmfontinst/KCmFontInst.cpp:839
 #, kde-format
 msgid "<p>Do you really want to delete</p><p>'<b>%1</b>'?</p>"
-msgstr ""
-"<p>Chceće woprawdźe</p><p>"
-" <b>'%1'</b> wumaznyć?</p>"
+msgstr "<p>Chceće woprawdźe</p><p> <b>'%1'</b> wumaznyć?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:841
 msgid "Delete Font"
@@ -2486,4 +2486,3 @@ msgstr ""
 
 #~ msgid "Could not install %1:%2"
 #~ msgstr "Njemóžu %1:%2 instalować."
-

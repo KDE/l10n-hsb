@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-16 09:58+0100\n"
+"POT-Creation-Date: 2008-11-17 09:43+0100\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -2364,7 +2364,7 @@ msgstr "družina"
 msgid "Encoding"
 msgstr "Kodowanje"
 
-#: kmmimeparttree.cpp:66 messagelistview/core/view.cpp:1535
+#: kmmimeparttree.cpp:66 messagelistview/core/view.cpp:1698
 msgid "Size"
 msgstr "Wulkosć"
 
@@ -2839,13 +2839,13 @@ msgstr "Powěsće zničić"
 #: kmmainwidget.cpp:1761
 #, fuzzy
 #| msgid "Messages deleted successfully."
-msgid "Messages deleted succesfully."
+msgid "Messages deleted successfully."
 msgstr "Powěsće wuspěšnje zničene."
 
 #: kmmainwidget.cpp:1763
 #, fuzzy
 #| msgid "Messages moved successfully"
-msgid "Messages moved succesfully."
+msgid "Messages moved successfully."
 msgstr "Powěsće wuspěšnje přesunjene"
 
 #: kmmainwidget.cpp:1768
@@ -2877,7 +2877,7 @@ msgstr "Přesuwam powěsć %3 z %2 wot %1."
 #: kmmainwidget.cpp:1912
 #, fuzzy
 #| msgid "Messages moved successfully"
-msgid "Messages copied succesfully."
+msgid "Messages copied successfully."
 msgstr "Powěsće wuspěšnje přesunjene"
 
 #: kmmainwidget.cpp:1915
@@ -2907,7 +2907,7 @@ msgstr "Powěsć do papjernika sunyć"
 #: kmmainwidget.cpp:2043
 #, fuzzy
 #| msgid "Messages moved successfully"
-msgid "Messages moved to trash succesfully."
+msgid "Messages moved to trash successfully."
 msgstr "Powěsće wuspěšnje přesunjene"
 
 #: kmmainwidget.cpp:2046
@@ -7636,22 +7636,23 @@ msgstr "Nječitane"
 #: messagelistview/core/manager.cpp:709
 #, fuzzy
 #| msgctxt "msg status"
+#| msgid "Replied"
+msgid "Replied"
+msgstr "Wotmołwjene"
+
+#: messagelistview/core/manager.cpp:710
+#, fuzzy
+#| msgctxt "msg status"
 #| msgid "Important"
 msgctxt "Message importance indication"
 msgid "Important"
 msgstr "Wažne"
 
-#: messagelistview/core/manager.cpp:710
-#, fuzzy
-msgid "To Do"
-msgstr "Na: "
-
 #: messagelistview/core/manager.cpp:711
+#: messagelistview/core/widgetbase.cpp:861
 #, fuzzy
-#| msgctxt "msg status"
-#| msgid "Replied"
-msgid "Replied"
-msgstr "Wotmołwjene"
+msgid "Action Item"
+msgstr "Wažna powěsć"
 
 #: messagelistview/core/manager.cpp:712
 #, fuzzy
@@ -7676,29 +7677,29 @@ msgstr "Šifrowanje"
 msgid "Tag List"
 msgstr "&Filter stworić"
 
-#: messagelistview/core/manager.cpp:723
+#: messagelistview/core/manager.cpp:725
 msgid "Fancy"
 msgstr ""
 
-#: messagelistview/core/manager.cpp:724
+#: messagelistview/core/manager.cpp:726
 msgid "A fancy multiline and multi item theme"
 msgstr ""
 
-#: messagelistview/core/manager.cpp:728
+#: messagelistview/core/manager.cpp:730
 #, fuzzy
 #| msgid "&Message"
 msgid "Message"
 msgstr "Po&wěsć"
 
-#: messagelistview/core/manager.cpp:813
+#: messagelistview/core/manager.cpp:817
 msgid "Fancy with Clickable Status"
 msgstr ""
 
-#: messagelistview/core/manager.cpp:814
+#: messagelistview/core/manager.cpp:818
 msgid "A fancy multiline and multi item theme with a clickable status column"
 msgstr ""
 
-#: messagelistview/core/manager.cpp:817 messagelistview/core/view.cpp:1522
+#: messagelistview/core/manager.cpp:821 messagelistview/core/view.cpp:1685
 msgid "Status"
 msgstr "Staw"
 
@@ -7732,7 +7733,7 @@ msgid "Customize Themes"
 msgstr "Na&runać"
 
 #: messagelistview/core/configurethemesdialog.cpp:93
-#: messagelistview/core/configurethemesdialog.cpp:319
+#: messagelistview/core/configurethemesdialog.cpp:324
 #, fuzzy
 #| msgid "New Message"
 msgid "New Theme"
@@ -7748,13 +7749,13 @@ msgstr ""
 msgid "Delete Theme"
 msgstr "Diskusiju z&ničić"
 
-#: messagelistview/core/configurethemesdialog.cpp:302
+#: messagelistview/core/configurethemesdialog.cpp:307
 #, fuzzy
 #| msgid "Unnamed"
 msgid "Unnamed Theme"
 msgstr "Bjez mjena"
 
-#: messagelistview/core/configurethemesdialog.cpp:321
+#: messagelistview/core/configurethemesdialog.cpp:326
 #: messagelistview/core/themeeditor.cpp:1226
 #, fuzzy
 msgid "New Column"
@@ -7797,28 +7798,28 @@ msgstr "Adresat"
 msgid "Sender"
 msgstr "Wotpósłar"
 
-#: messagelistview/core/model.cpp:3381
+#: messagelistview/core/model.cpp:3379
 #, kde-format
 msgid "Processed %1 Messages of %2"
 msgstr ""
 
-#: messagelistview/core/model.cpp:3384 messagelistview/core/model.cpp:3387
+#: messagelistview/core/model.cpp:3382 messagelistview/core/model.cpp:3385
 #, fuzzy, kde-format
 #| msgid "&Thread Messages"
 msgid "Threaded %1 Messages of %2"
 msgstr "Powěsće &skupinkować"
 
-#: messagelistview/core/model.cpp:3390
+#: messagelistview/core/model.cpp:3388
 #, kde-format
 msgid "Grouped %1 Threads of %2"
 msgstr ""
 
-#: messagelistview/core/model.cpp:3393
+#: messagelistview/core/model.cpp:3391
 #, kde-format
 msgid "Updated %1 Groups of %2"
 msgstr ""
 
-#: messagelistview/core/model.cpp:3473
+#: messagelistview/core/model.cpp:3475
 #, fuzzy
 #| msgid "Ready."
 msgctxt "@info:status Finished view fill"
@@ -7879,8 +7880,8 @@ msgstr ""
 
 #: messagelistview/core/theme.cpp:106
 #, fuzzy
-msgid "To Do Icon"
-msgstr "Na: "
+msgid "Action Item Icon"
+msgstr "Wažna powěsć"
 
 #: messagelistview/core/theme.cpp:109
 #, fuzzy
@@ -7938,47 +7939,47 @@ msgctxt "Description for an Unknown Type"
 msgid "Unknown"
 msgstr "&Dopósłać"
 
-#: messagelistview/core/theme.cpp:712
+#: messagelistview/core/theme.cpp:722
 #, fuzzy
 #| msgid "Receiver"
 msgid "Never Show"
 msgstr "Adresat"
 
-#: messagelistview/core/theme.cpp:713
+#: messagelistview/core/theme.cpp:723
 #, fuzzy
 #| msgid "Al&ways send"
 msgid "Always Show"
 msgstr "Pře&co pósłać"
 
-#: messagelistview/core/theme.cpp:720
+#: messagelistview/core/theme.cpp:730
 msgid "Plain Rectangles"
 msgstr ""
 
-#: messagelistview/core/theme.cpp:721
+#: messagelistview/core/theme.cpp:731
 msgid "Plain Joined Rectangle"
 msgstr ""
 
-#: messagelistview/core/theme.cpp:722
+#: messagelistview/core/theme.cpp:732
 msgid "Rounded Rectangles"
 msgstr ""
 
-#: messagelistview/core/theme.cpp:723
+#: messagelistview/core/theme.cpp:733
 msgid "Rounded Joined Rectangle"
 msgstr ""
 
-#: messagelistview/core/theme.cpp:724
+#: messagelistview/core/theme.cpp:734
 msgid "Gradient Rectangles"
 msgstr ""
 
-#: messagelistview/core/theme.cpp:725
+#: messagelistview/core/theme.cpp:735
 msgid "Gradient Joined Rectangle"
 msgstr ""
 
-#: messagelistview/core/theme.cpp:726
+#: messagelistview/core/theme.cpp:736
 msgid "Styled Rectangles"
 msgstr ""
 
-#: messagelistview/core/theme.cpp:727
+#: messagelistview/core/theme.cpp:737
 msgid "Styled Joined Rectangles"
 msgstr ""
 
@@ -8060,6 +8061,10 @@ msgid "Message Status"
 msgstr "Po&wěsć"
 
 #: messagelistview/core/widgetbase.cpp:817
+msgid "Any Status"
+msgstr "Kóždy staw"
+
+#: messagelistview/core/widgetbase.cpp:826
 #, fuzzy
 #| msgctxt "msg status"
 #| msgid "New"
@@ -8067,7 +8072,7 @@ msgctxt "@action:inmenu Status of a message"
 msgid "New"
 msgstr "Nowe"
 
-#: messagelistview/core/widgetbase.cpp:824
+#: messagelistview/core/widgetbase.cpp:833
 #, fuzzy
 #| msgctxt "msg status"
 #| msgid "Unread"
@@ -8075,7 +8080,7 @@ msgctxt "@action:inmenu Status of a message"
 msgid "Unread"
 msgstr "Nječitane"
 
-#: messagelistview/core/widgetbase.cpp:831
+#: messagelistview/core/widgetbase.cpp:840
 #, fuzzy
 #| msgctxt "msg status"
 #| msgid "Replied"
@@ -8083,7 +8088,7 @@ msgctxt "@action:inmenu Status of a message"
 msgid "Replied"
 msgstr "Wotmołwjene"
 
-#: messagelistview/core/widgetbase.cpp:838
+#: messagelistview/core/widgetbase.cpp:847
 #, fuzzy
 #| msgctxt "msg status"
 #| msgid "Forwarded"
@@ -8091,7 +8096,7 @@ msgctxt "@action:inmenu Status of a message"
 msgid "Forwarded"
 msgstr "Dopósłane"
 
-#: messagelistview/core/widgetbase.cpp:845
+#: messagelistview/core/widgetbase.cpp:854
 #, fuzzy
 #| msgctxt "msg status"
 #| msgid "Important"
@@ -8099,232 +8104,228 @@ msgctxt "@action:inmenu Status of a message"
 msgid "Important"
 msgstr "Wažne"
 
-#: messagelistview/core/widgetbase.cpp:852
-#, fuzzy
-msgid "Action Item"
-msgstr "Wažna powěsć"
-
-#: messagelistview/core/widgetbase.cpp:859
+#: messagelistview/core/widgetbase.cpp:868
 #, fuzzy
 msgid "Watched"
 msgstr "Čitane"
 
-#: messagelistview/core/widgetbase.cpp:866
+#: messagelistview/core/widgetbase.cpp:875
 #, fuzzy
 msgid "Ignored"
 msgstr "Nječitane"
 
-#: messagelistview/core/widgetbase.cpp:873
+#: messagelistview/core/widgetbase.cpp:882
 #, fuzzy
 msgid "Has Attachment"
 msgstr "Přiwěšk: "
 
-#: messagelistview/core/widgetbase.cpp:880 antispamwizard.cpp:403
+#: messagelistview/core/widgetbase.cpp:889 antispamwizard.cpp:403
 msgid "Spam"
 msgstr ""
 
-#: messagelistview/core/widgetbase.cpp:887 antispamwizard.cpp:446
+#: messagelistview/core/widgetbase.cpp:896 antispamwizard.cpp:446
 msgid "Ham"
 msgstr ""
 
-#: messagelistview/core/widgetbase.cpp:896
-msgid "Any Status"
-msgstr "Kóždy staw"
-
-#: messagelistview/core/aggregation.cpp:299
+#: messagelistview/core/aggregation.cpp:300
 #, fuzzy
 msgctxt "No grouping of messages"
 msgid "None"
 msgstr "&Žane"
 
-#: messagelistview/core/aggregation.cpp:300
+#: messagelistview/core/aggregation.cpp:301
 msgid "by Exact Date (of Thread Leaders)"
 msgstr ""
 
-#: messagelistview/core/aggregation.cpp:301
+#: messagelistview/core/aggregation.cpp:302
 msgid "by Smart Date Ranges (of Thread Leaders)"
 msgstr ""
 
-#: messagelistview/core/aggregation.cpp:302
-#: messagelistview/core/aggregation.cpp:399
+#: messagelistview/core/aggregation.cpp:303
+#: messagelistview/core/aggregation.cpp:401
 #, fuzzy
 #| msgid "Sender/Receiver"
 msgid "by Smart Sender/Receiver"
 msgstr "Wotpósłar/Adresat"
 
-#: messagelistview/core/aggregation.cpp:303
-#: messagelistview/core/aggregation.cpp:320
-#: messagelistview/core/aggregation.cpp:397
+#: messagelistview/core/aggregation.cpp:304
+#: messagelistview/core/aggregation.cpp:321
+#: messagelistview/core/aggregation.cpp:399
 #, fuzzy
 #| msgid "Sender"
 msgid "by Sender"
 msgstr "Wotpósłar"
 
-#: messagelistview/core/aggregation.cpp:304
-#: messagelistview/core/aggregation.cpp:322
-#: messagelistview/core/aggregation.cpp:398
+#: messagelistview/core/aggregation.cpp:305
+#: messagelistview/core/aggregation.cpp:323
+#: messagelistview/core/aggregation.cpp:400
 #, fuzzy
 #| msgid "Receiver"
 msgid "by Receiver"
 msgstr "Adresat"
 
-#: messagelistview/core/aggregation.cpp:313
-#: messagelistview/core/aggregation.cpp:393
+#: messagelistview/core/aggregation.cpp:314
+#: messagelistview/core/aggregation.cpp:395
 msgid "None (Storage Order)"
 msgstr ""
 
-#: messagelistview/core/aggregation.cpp:315
-#: messagelistview/core/aggregation.cpp:394
+#: messagelistview/core/aggregation.cpp:316
+#: messagelistview/core/aggregation.cpp:396
 msgid "by Date/Time"
 msgstr ""
 
-#: messagelistview/core/aggregation.cpp:316
+#: messagelistview/core/aggregation.cpp:317
 msgid "by Date/Time of Most Recent Message in Group"
 msgstr ""
 
-#: messagelistview/core/aggregation.cpp:318
+#: messagelistview/core/aggregation.cpp:319
 #, fuzzy
 #| msgid "Sender/Receiver"
 msgid "by Sender/Receiver"
 msgstr "Wotpósłar/Adresat"
 
-#: messagelistview/core/aggregation.cpp:335
-#: messagelistview/core/aggregation.cpp:417
+#: messagelistview/core/aggregation.cpp:336
+#: messagelistview/core/aggregation.cpp:419
 msgid "Least Recent on Top"
 msgstr ""
 
-#: messagelistview/core/aggregation.cpp:336
-#: messagelistview/core/aggregation.cpp:418
+#: messagelistview/core/aggregation.cpp:337
+#: messagelistview/core/aggregation.cpp:420
 msgid "Most Recent on Top"
 msgstr ""
 
-#: messagelistview/core/aggregation.cpp:339
+#: messagelistview/core/aggregation.cpp:340
 #, fuzzy
 #| msgid "&Sending"
 msgctxt "Sort order for mail groups"
 msgid "Ascending"
 msgstr "&Pósłanje"
 
-#: messagelistview/core/aggregation.cpp:340
+#: messagelistview/core/aggregation.cpp:341
 #, fuzzy
 #| msgid "&Sending"
 msgctxt "Sort order for mail groups"
 msgid "Descending"
 msgstr "&Pósłanje"
 
-#: messagelistview/core/aggregation.cpp:349
+#: messagelistview/core/aggregation.cpp:350
 msgid "Never Expand Groups"
 msgstr ""
 
-#: messagelistview/core/aggregation.cpp:351
+#: messagelistview/core/aggregation.cpp:352
 #, fuzzy
 #| msgid "Expand the current thread"
 msgid "Expand Recent Groups"
 msgstr "Rozćehnje aktualnu skupinu powěsćow"
 
-#: messagelistview/core/aggregation.cpp:352
+#: messagelistview/core/aggregation.cpp:353
 msgid "Always Expand Groups"
 msgstr ""
 
-#: messagelistview/core/aggregation.cpp:359
+#: messagelistview/core/aggregation.cpp:360
 #, fuzzy
 msgctxt "No threading of messages"
 msgid "None"
 msgstr "&Žane"
 
-#: messagelistview/core/aggregation.cpp:360
+#: messagelistview/core/aggregation.cpp:361
 msgid "Perfect Only"
 msgstr ""
 
-#: messagelistview/core/aggregation.cpp:361
+#: messagelistview/core/aggregation.cpp:362
 msgid "Perfect and by References"
 msgstr ""
 
-#: messagelistview/core/aggregation.cpp:362
+#: messagelistview/core/aggregation.cpp:363
 msgid "Perfect, by References and by Subject"
 msgstr ""
 
-#: messagelistview/core/aggregation.cpp:371
+#: messagelistview/core/aggregation.cpp:372
 #, fuzzy
 msgid "Topmost Message"
 msgstr "Powěsć &wobdźěłać"
 
-#: messagelistview/core/aggregation.cpp:374
+#: messagelistview/core/aggregation.cpp:375
 #, fuzzy
 msgid "Most Recent Message"
 msgstr "Powěsće zničić"
 
-#: messagelistview/core/aggregation.cpp:383
+#: messagelistview/core/aggregation.cpp:384
 #, fuzzy
 #| msgctxt "View->"
 #| msgid "&Expand Thread"
 msgid "Never Expand Threads"
 msgstr "&Skupinu rozćahnyć"
 
-#: messagelistview/core/aggregation.cpp:384
+#: messagelistview/core/aggregation.cpp:385
 #, fuzzy
 #| msgid "&Thread Messages"
 msgid "Expand Threads With New Messages"
 msgstr "Powěsće &skupinkować"
 
-#: messagelistview/core/aggregation.cpp:385
+#: messagelistview/core/aggregation.cpp:386
 #, fuzzy
 #| msgid "Message List - Unread Messages"
 msgid "Expand Threads With Unread Messages"
 msgstr "Lisćina powěsćow - nječitane powěsće"
 
-#: messagelistview/core/aggregation.cpp:386
+#: messagelistview/core/aggregation.cpp:387
+#, fuzzy
+#| msgid "Message List - Unread Messages"
+msgid "Expand Threads With Unread or Important Messages"
+msgstr "Lisćina powěsćow - nječitane powěsće"
+
+#: messagelistview/core/aggregation.cpp:388
 #, fuzzy
 #| msgctxt "View->"
 #| msgid "&Expand Thread"
 msgid "Always Expand Threads"
 msgstr "&Skupinu rozćahnyć"
 
-#: messagelistview/core/aggregation.cpp:396
+#: messagelistview/core/aggregation.cpp:398
 msgid "by Date/Time of Most Recent in Subtree"
 msgstr ""
 
-#: messagelistview/core/aggregation.cpp:400
+#: messagelistview/core/aggregation.cpp:402
 #, fuzzy
 #| msgid "Subject"
 msgid "by Subject"
 msgstr "Tema"
 
-#: messagelistview/core/aggregation.cpp:401
+#: messagelistview/core/aggregation.cpp:403
 #, fuzzy
 #| msgid "Size"
 msgid "by Size"
 msgstr "Wulkosć"
 
-#: messagelistview/core/aggregation.cpp:402
+#: messagelistview/core/aggregation.cpp:404
 #, fuzzy
-#| msgid "Any Status"
-msgid "by To Do Status"
-msgstr "Kóždy staw"
+msgid "by Action Item Status"
+msgstr "Wažna powěsć"
 
-#: messagelistview/core/aggregation.cpp:422
+#: messagelistview/core/aggregation.cpp:424
 #, fuzzy
 #| msgid "&Sending"
 msgctxt "Sort order for messages"
 msgid "Ascending"
 msgstr "&Pósłanje"
 
-#: messagelistview/core/aggregation.cpp:423
+#: messagelistview/core/aggregation.cpp:425
 #, fuzzy
 #| msgid "&Sending"
 msgctxt "Sort order for messages"
 msgid "Descending"
 msgstr "&Pósłanje"
 
-#: messagelistview/core/aggregation.cpp:430
+#: messagelistview/core/aggregation.cpp:432
 msgid "Favor Interactivity"
 msgstr ""
 
-#: messagelistview/core/aggregation.cpp:431
+#: messagelistview/core/aggregation.cpp:433
 msgid "Favor Speed"
 msgstr ""
 
-#: messagelistview/core/aggregation.cpp:432
+#: messagelistview/core/aggregation.cpp:434
 msgid "Batch Job (No Interactivity)"
 msgstr ""
 
@@ -8449,8 +8450,8 @@ msgstr "Wažne"
 #: messagelistview/core/item.cpp:173
 #, fuzzy
 msgctxt "Status of an item"
-msgid "ToDo"
-msgstr "Na: "
+msgid "Action Item"
+msgstr "Wažna powěsć"
 
 #: messagelistview/core/item.cpp:176
 #, fuzzy
@@ -8716,35 +8717,39 @@ msgctxt "@label:textbox Description of the option"
 msgid "Description:"
 msgstr "&Wopisanje:"
 
-#: messagelistview/core/view.cpp:383
+#: messagelistview/core/view.cpp:519
 #, fuzzy
 msgid "Show Columns"
 msgstr " Špalta: %1"
 
-#: messagelistview/core/view.cpp:401
+#: messagelistview/core/view.cpp:537
+msgid "Adjust Column Sizes"
+msgstr ""
+
+#: messagelistview/core/view.cpp:540
 #, fuzzy
 #| msgid "[Details]"
 msgid "Show Default Columns"
 msgstr "[Nadrobnosće]"
 
-#: messagelistview/core/view.cpp:1483 kmsearchpatternedit.cpp:56
+#: messagelistview/core/view.cpp:1646 kmsearchpatternedit.cpp:56
 #, fuzzy
 #| msgid "&From"
 msgid "From"
 msgstr "&Wot"
 
-#: messagelistview/core/view.cpp:1496
+#: messagelistview/core/view.cpp:1659
 #, fuzzy
 msgctxt "Receiver of the emial"
 msgid "To"
 msgstr "&Na"
 
-#: messagelistview/core/view.cpp:1509 messagelistview/core/view.cpp:1869
+#: messagelistview/core/view.cpp:1672 messagelistview/core/view.cpp:2032
 #: templatesinsertcommand.cpp:68 templatesinsertcommand.cpp:192
 msgid "Date"
 msgstr "Datum"
 
-#: messagelistview/core/view.cpp:1554
+#: messagelistview/core/view.cpp:1717
 #, kde-format
 msgid "<b>%1</b> reply"
 msgid_plural "<b>%1</b> replies"
@@ -8753,7 +8758,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: messagelistview/core/view.cpp:1558
+#: messagelistview/core/view.cpp:1721
 #, kde-format
 msgid "<b>%1</b> message in subtree (<b>%2</b> new + <b>%3</b> unread)"
 msgid_plural "<b>%1</b> messages in subtree (<b>%2</b> new + <b>%3</b> unread)"
@@ -8762,32 +8767,32 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: messagelistview/core/view.cpp:1604
+#: messagelistview/core/view.cpp:1767
 #, kde-format
 msgctxt ""
 "@info:tooltip Formats to something like 'Threads started on 2008-12-21'"
 msgid "Threads started on %1"
 msgstr ""
 
-#: messagelistview/core/view.cpp:1610
+#: messagelistview/core/view.cpp:1773
 #, kde-format
 msgctxt "@info:tooltip Formats to something like 'Threads started Yesterday'"
 msgid "Threads started %1"
 msgstr ""
 
-#: messagelistview/core/view.cpp:1615
+#: messagelistview/core/view.cpp:1778
 #, fuzzy, kde-format
 msgid "Threads with messages dated %1"
 msgstr "Powěsće &skupinkować"
 
-#: messagelistview/core/view.cpp:1627
+#: messagelistview/core/view.cpp:1790
 #, fuzzy, kde-format
 #| msgid "Message was signed by %1."
 msgctxt "@info:tooltip Formats to something like 'Messages sent on 2008-12-21'"
 msgid "Messages sent on %1"
 msgstr "Powěsć bu podpisana wot %1."
 
-#: messagelistview/core/view.cpp:1633
+#: messagelistview/core/view.cpp:1796
 #, fuzzy, kde-format
 #| msgid "Message was signed by %1."
 msgctxt ""
@@ -8795,86 +8800,86 @@ msgctxt ""
 msgid "Messages received on %1"
 msgstr "Powěsć bu podpisana wot %1."
 
-#: messagelistview/core/view.cpp:1640
+#: messagelistview/core/view.cpp:1803
 #, fuzzy, kde-format
 msgctxt "@info:tooltip Formats to something like 'Messages sent Yesterday'"
 msgid "Messages sent %1"
 msgstr "Lisćina powěsćow"
 
-#: messagelistview/core/view.cpp:1646
+#: messagelistview/core/view.cpp:1809
 #, fuzzy, kde-format
 #| msgid "Message was signed by %1."
 msgctxt "@info:tooltip Formats to something like 'Messages received Yesterday'"
 msgid "Messages received %1"
 msgstr "Powěsć bu podpisana wot %1."
 
-#: messagelistview/core/view.cpp:1658
+#: messagelistview/core/view.cpp:1821
 #, kde-format
 msgid "Threads started within %1"
 msgstr ""
 
-#: messagelistview/core/view.cpp:1661
+#: messagelistview/core/view.cpp:1824
 #, kde-format
 msgid "Threads containing messages with dates within %1"
 msgstr ""
 
-#: messagelistview/core/view.cpp:1669
+#: messagelistview/core/view.cpp:1832
 #, fuzzy, kde-format
 #| msgid "Message was signed with key %1."
 msgid "Messages sent within %1"
 msgstr "Powěsć bu podpisana z klučom %1."
 
-#: messagelistview/core/view.cpp:1671
+#: messagelistview/core/view.cpp:1834
 #, fuzzy, kde-format
 #| msgid "Message was signed with key %1."
 msgid "Messages received within %1"
 msgstr "Powěsć bu podpisana z klučom %1."
 
-#: messagelistview/core/view.cpp:1681
+#: messagelistview/core/view.cpp:1844
 #, kde-format
 msgid "Threads started by %1"
 msgstr ""
 
-#: messagelistview/core/view.cpp:1684
+#: messagelistview/core/view.cpp:1847
 #, kde-format
 msgid "Threads with most recent message by %1"
 msgstr ""
 
-#: messagelistview/core/view.cpp:1694 messagelistview/core/view.cpp:1720
+#: messagelistview/core/view.cpp:1857 messagelistview/core/view.cpp:1883
 #, fuzzy, kde-format
 #| msgid "Message was signed by %1."
 msgid "Messages sent to %1"
 msgstr "Powěsć bu podpisana wot %1."
 
-#: messagelistview/core/view.cpp:1696
+#: messagelistview/core/view.cpp:1859
 #, fuzzy, kde-format
 #| msgid "Message was signed by %1."
 msgid "Messages sent by %1"
 msgstr "Powěsć bu podpisana wot %1."
 
-#: messagelistview/core/view.cpp:1698
+#: messagelistview/core/view.cpp:1861
 #, fuzzy, kde-format
 #| msgid "Message was signed by %1."
 msgid "Messages received from %1"
 msgstr "Powěsć bu podpisana wot %1."
 
-#: messagelistview/core/view.cpp:1708
+#: messagelistview/core/view.cpp:1871
 #, fuzzy, kde-format
 msgid "Threads directed to %1"
 msgstr "Skupiny jako standard w&očinjene wostajić"
 
-#: messagelistview/core/view.cpp:1711
+#: messagelistview/core/view.cpp:1874
 #, kde-format
 msgid "Threads with most recent message directed to %1"
 msgstr ""
 
-#: messagelistview/core/view.cpp:1722
+#: messagelistview/core/view.cpp:1885
 #, fuzzy, kde-format
 #| msgid "Message was signed by %1."
 msgid "Messages received by %1"
 msgstr "Powěsć bu podpisana wot %1."
 
-#: messagelistview/core/view.cpp:1751
+#: messagelistview/core/view.cpp:1914
 #, fuzzy, kde-format
 msgid "<b>%1</b> thread"
 msgid_plural "<b>%1</b> threads"
@@ -8883,7 +8888,7 @@ msgstr[1] "Hubjena signatura."
 msgstr[2] "Hubjena signatura."
 msgstr[3] "Hubjena signatura."
 
-#: messagelistview/core/view.cpp:1756
+#: messagelistview/core/view.cpp:1919
 #, kde-format
 msgid "<b>%1</b> message (<b>%2</b> new + <b>%3</b> unread)"
 msgid_plural "<b>%1</b> messages (<b>%2</b> new + <b>%3</b> unread)"
@@ -8892,11 +8897,11 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: messagelistview/core/view.cpp:1871
+#: messagelistview/core/view.cpp:2034
 msgid "Date (Order of Arrival)"
 msgstr "Datum (po dochadźe)"
 
-#: messagelistview/core/view.cpp:1882
+#: messagelistview/core/view.cpp:2045
 #, fuzzy, kde-format
 #| msgid "1 unsent"
 #| msgid_plural "%1 unsent"
@@ -8908,11 +8913,11 @@ msgstr[1] "%1 nječitana"
 msgstr[2] "%1 nječitanej"
 msgstr[3] "%1 nječitane"
 
-#: messagelistview/core/view.cpp:1882
+#: messagelistview/core/view.cpp:2045
 msgid "0 unsent"
 msgstr "žane njepósłane"
 
-#: messagelistview/core/view.cpp:1884
+#: messagelistview/core/view.cpp:2047
 #, fuzzy, kde-format
 #| msgid "1 unread"
 #| msgid_plural "%1 unread"
@@ -8924,14 +8929,14 @@ msgstr[1] "%1 nječitana"
 msgstr[2] "%1 nječitanej"
 msgstr[3] "%1 nječitane"
 
-#: messagelistview/core/view.cpp:1885
+#: messagelistview/core/view.cpp:2048
 #, fuzzy
 #| msgid "0 unread"
 msgctxt "No unread messages"
 msgid "0 unread"
 msgstr "žane nječitane"
 
-#: messagelistview/core/view.cpp:1887
+#: messagelistview/core/view.cpp:2050
 #, fuzzy, kde-format
 #| msgid "1 message, %2."
 #| msgid_plural "%1 messages, %2."
@@ -8943,14 +8948,14 @@ msgstr[1] "%1 powěsć, %2."
 msgstr[2] "%1 powěsći, %2."
 msgstr[3] "%1 powěsće, %2."
 
-#: messagelistview/core/view.cpp:1888
+#: messagelistview/core/view.cpp:2051
 #, fuzzy
 #| msgid "0 messages"
 msgctxt "No unread messages"
 msgid "0 messages"
 msgstr "žane powěsće"
 
-#: messagelistview/core/view.cpp:1890
+#: messagelistview/core/view.cpp:2053
 #, kde-format
 msgctxt "%1 = n messages, m unread."
 msgid "%1 Folder is read-only."
@@ -12582,8 +12587,9 @@ msgid "GnuPG support"
 msgstr "Podpěra za GnuPG"
 
 #: aboutdata.cpp:139
-msgid "Summer of Code student<br/>New message list and new folder tree"
-msgstr ""
+#, fuzzy
+msgid "New message list and new folder tree"
+msgstr "Ně."
 
 #: aboutdata.cpp:172
 msgid "Anti-virus support"
@@ -15697,6 +15703,24 @@ msgstr "Dataju zasunyć"
 #: kmfawidgets.cpp:119
 msgid "Select Sound File"
 msgstr "Wubjerće zwukowu dataju"
+
+#, fuzzy
+#~ msgid "To Do"
+#~ msgstr "Na: "
+
+#, fuzzy
+#~ msgid "To Do Icon"
+#~ msgstr "Na: "
+
+#, fuzzy
+#~| msgid "Any Status"
+#~ msgid "by To Do Status"
+#~ msgstr "Kóždy staw"
+
+#, fuzzy
+#~ msgctxt "Status of an item"
+#~ msgid "ToDo"
+#~ msgstr "Na: "
 
 #, fuzzy
 #~| msgid "Email Address"
