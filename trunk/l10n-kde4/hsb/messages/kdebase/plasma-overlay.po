@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-10 10:10+0100\n"
+"POT-Creation-Date: 2008-11-18 09:55+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,9 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#. i18n: file: BackgroundDialog.ui:34
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: backgrounddialog.cpp:43 rc.cpp:3
+#: backgrounddialog.cpp:43
 #, fuzzy
 #| msgid "Backward Word"
 msgid "Background Settings"
@@ -30,6 +28,12 @@ msgid ""
 "This picture of a monitor contains a preview of what the current settings "
 "will look like on your desktop."
 msgstr ""
+
+#: backgrounddialog.cpp:120
+#, fuzzy
+#| msgid "Wallpapers"
+msgid "No Wallpaper"
+msgstr "Tapety"
 
 #: main.cpp:29
 msgid "Plasma widgets over the screensaver"
@@ -75,21 +79,28 @@ msgstr ""
 msgid "Start unlocked for configuration."
 msgstr ""
 
-#. i18n: file: BackgroundDialog.ui:49
-#. i18n: ectx: property (text), widget (QLabel, m_monitor)
+#. i18n: file: BackgroundDialog.ui:36
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperLabel_2)
+#: rc.cpp:3
+msgid "Widget Translucency"
+msgstr ""
+
+#. i18n: file: BackgroundDialog.ui:59
+#. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:6
 #, fuzzy
-#| msgid "Mount"
-msgid "Monitor"
-msgstr "montować"
+#| msgctxt "Name"
+#| msgid "Activity Bar"
+msgid "User Activity:"
+msgstr "Pas aktiwitow"
 
-#. i18n: file: BackgroundDialog.ui:94
-#. i18n: ectx: property (text), widget (QLabel, m_wallpaperTypeLabel)
+#. i18n: file: BackgroundDialog.ui:85
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:9
-msgid "Type:"
-msgstr "Družina:"
+msgid "While Idle:"
+msgstr ""
 
-#. i18n: file: BackgroundDialog.ui:150
+#. i18n: file: BackgroundDialog.ui:136
 #. i18n: ectx: property (text), widget (QLabel, m_wallpaperLabel)
 #: rc.cpp:12
 #, fuzzy
@@ -97,62 +108,26 @@ msgstr "Družina:"
 msgid "Wallpaper"
 msgstr "Tapety"
 
-#. i18n: file: BackgroundDialog.ui:170
-#. i18n: ectx: property (title), widget (QGroupBox, compositeGroup)
+#. i18n: file: BackgroundDialog.ui:159
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperTypeLabel)
 #: rc.cpp:15
-#, fuzzy
-msgid "Transparency"
-msgstr "Name=Papjernik"
+msgid "Type:"
+msgstr "Družina:"
 
-#. i18n: file: BackgroundDialog.ui:176
-#. i18n: ectx: property (title), widget (QGroupBox, activeGroup)
+#. i18n: file: BackgroundDialog.ui:198
+#. i18n: ectx: property (text), widget (QLabel, m_monitor)
 #: rc.cpp:18
 #, fuzzy
-#| msgid "Archives"
-msgid "Active"
-msgstr "Archiwy"
+#| msgid "Mount"
+msgid "Monitor"
+msgstr "montować"
 
-#. i18n: file: BackgroundDialog.ui:182
-#. i18n: ectx: property (text), widget (QRadioButton, activeScreensaver)
-#. i18n: file: BackgroundDialog.ui:228
-#. i18n: ectx: property (text), widget (QRadioButton, idleScreensaver)
-#: rc.cpp:21 rc.cpp:33
-#, fuzzy
-msgid "show screensaver"
-msgstr "Name=Škitaki za wobrazowku"
-
-#. i18n: file: BackgroundDialog.ui:189
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: file: BackgroundDialog.ui:235
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:24 rc.cpp:36
-msgid "Widget Transparency"
-msgstr ""
-
-#. i18n: file: BackgroundDialog.ui:212
-#. i18n: ectx: property (text), widget (QRadioButton, activeWallpaper)
-#. i18n: file: BackgroundDialog.ui:255
-#. i18n: ectx: property (text), widget (QRadioButton, idleWallpaper)
-#: rc.cpp:27 rc.cpp:39
-#, fuzzy
-msgid "show wallpaper"
-msgstr "Name=Hódančka"
-
-#. i18n: file: BackgroundDialog.ui:222
-#. i18n: ectx: property (title), widget (QGroupBox, idleGroup)
-#: rc.cpp:30
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Index"
-msgid "Idle"
-msgstr "Indeks"
-
-#: rc.cpp:40
+#: rc.cpp:19
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: rc.cpp:41
+#: rc.cpp:20
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
@@ -164,6 +139,29 @@ msgstr ""
 #: saverview.cpp:148
 msgid "Setup Mode - Screen is NOT locked"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Transparency"
+#~ msgstr "Name=Papjernik"
+
+#, fuzzy
+#~| msgid "Archives"
+#~ msgid "Active"
+#~ msgstr "Archiwy"
+
+#, fuzzy
+#~ msgid "show screensaver"
+#~ msgstr "Name=Škitaki za wobrazowku"
+
+#, fuzzy
+#~ msgid "show wallpaper"
+#~ msgstr "Name=Hódančka"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Index"
+#~ msgid "Idle"
+#~ msgstr "Indeks"
 
 #~ msgid "Editor Chooser"
 #~ msgstr "Wuběranje editora"
@@ -21904,10 +21902,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Default Plasma Animator"
 #~ msgstr "Standardny Plasma-animator"
-
-#~ msgctxt "Name"
-#~ msgid "Activity Bar"
-#~ msgstr "Pas aktiwitow"
 
 #~ msgctxt "Comment"
 #~ msgid "Tabbar to switch activities"

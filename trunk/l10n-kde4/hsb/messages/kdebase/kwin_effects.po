@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-15 11:37+0100\n"
+"POT-Creation-Date: 2008-11-18 09:55+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "Snow"
 msgstr ""
 
-#: invert_config.cpp:47 invert.cpp:47
+#: invert_config.cpp:45 invert.cpp:47
 msgid "Toggle Invert Effect"
 msgstr ""
 
-#: invert_config.cpp:52 invert.cpp:52
-msgid "Toggle Invert Effect On Window"
+#: invert_config.cpp:50 invert.cpp:52
+msgid "Toggle Invert Effect on Window"
 msgstr ""
 
 #: presentwindows_config.cpp:57 presentwindows.cpp:70
@@ -41,7 +41,7 @@ msgstr ""
 msgid "Show Desktop Grid"
 msgstr ""
 
-#: trackmouse_config.cpp:44
+#: trackmouse_config.cpp:42
 msgid "Hold Ctrl+Meta keys to see where the mouse cursor is."
 msgstr ""
 
@@ -49,7 +49,7 @@ msgstr ""
 msgid "Desktop Cube"
 msgstr ""
 
-#: thumbnailaside.cpp:38 thumbnailaside_config.cpp:67
+#: thumbnailaside.cpp:38 thumbnailaside_config.cpp:65
 msgid "Toggle Thumbnail for Current Window"
 msgstr ""
 
@@ -62,38 +62,50 @@ msgid "Top"
 msgstr ""
 
 #: desktopgrid_config.cpp:68
-msgid "Top-right"
-msgstr ""
+#, fuzzy
+#| msgctxt "keyboard-key-name"
+#| msgid "Right"
+msgid "Top-Right"
+msgstr "Naprawo"
 
 #: desktopgrid_config.cpp:70
 msgid "Right"
 msgstr ""
 
 #: desktopgrid_config.cpp:72
-msgid "Bottom-right"
-msgstr ""
+#, fuzzy
+#| msgctxt "toolbar position string"
+#| msgid "Bottom"
+msgid "Bottom-Right"
+msgstr "Deleka"
 
 #: desktopgrid_config.cpp:74
 msgid "Bottom"
 msgstr ""
 
 #: desktopgrid_config.cpp:76
-msgid "Bottom-left"
-msgstr ""
+#, fuzzy
+#| msgctxt "toolbar position string"
+#| msgid "Bottom"
+msgid "Bottom-Left"
+msgstr "Deleka"
 
 #: desktopgrid_config.cpp:78
 msgid "Left"
 msgstr ""
 
 #: desktopgrid_config.cpp:80
-msgid "Top-left"
-msgstr ""
+#, fuzzy
+#| msgctxt "keyboard-key-name"
+#| msgid "Left"
+msgid "Top-Left"
+msgstr "Nalěwo"
 
 #: desktopgrid_config.cpp:82
 msgid "Center"
 msgstr ""
 
-#: sharpen_config.cpp:46 sharpen.cpp:40
+#: sharpen_config.cpp:44 sharpen.cpp:40
 msgctxt "@action Enables/Disables an effect that makes windows more sharp"
 msgid "Toggle Sharpen Effect"
 msgstr ""
@@ -108,22 +120,22 @@ msgctxt "@title:tab Advanced Settings"
 msgid "Advanced"
 msgstr ""
 
-#: snow_config.cpp:66
+#: snow_config.cpp:64
 msgid "Toggle Snow on Desktop"
 msgstr ""
 
-#: mousemark_config.cpp:64
+#: mousemark_config.cpp:62
 msgid "Clear Mouse Marks"
 msgstr ""
 
-#: mousemark_config.cpp:69 mousemark.cpp:56
+#: mousemark_config.cpp:67 mousemark.cpp:56
 msgid "Clear Last Mouse Mark"
 msgstr ""
 
 #. i18n: file: boxswitch_config.ui:16
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:3 rc.cpp:732
-msgid "Background Window &Opacity:"
+msgid "Background window &opacity:"
 msgstr ""
 
 #. i18n: file: boxswitch_config.ui:26
@@ -445,8 +457,10 @@ msgstr ""
 #. i18n: file: sphere_config.ui:32
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: rc.cpp:69 rc.cpp:165 rc.cpp:576 rc.cpp:777 rc.cpp:928 rc.cpp:1342
-msgid "Background Color:"
-msgstr ""
+#, fuzzy
+#| msgid "Backward Word"
+msgid "Background color:"
+msgstr "Wo słowo dozady"
 
 #. i18n: file: cube_config.ui:55
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -686,8 +700,11 @@ msgstr ""
 #. i18n: file: sphere_config.ui:283
 #. i18n: ectx: property (text), widget (QLabel, capColorLabel)
 #: rc.cpp:118 rc.cpp:214 rc.cpp:625 rc.cpp:826 rc.cpp:977 rc.cpp:1391
-msgid "Cap Color:"
-msgstr ""
+#, fuzzy
+#| msgctxt "@label stroke color"
+#| msgid "Color"
+msgid "Cap color:"
+msgstr "Barba"
 
 #. i18n: file: cube_config.ui:306
 #. i18n: ectx: property (text), widget (QCheckBox, capsImageBox)
@@ -734,8 +751,10 @@ msgstr ""
 #. i18n: file: sphere_config.ui:380
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_9)
 #: rc.cpp:136 rc.cpp:232 rc.cpp:643 rc.cpp:844 rc.cpp:995 rc.cpp:1409
-msgid "Additional options"
-msgstr ""
+#, fuzzy
+#| msgid "Additional Information: %1"
+msgid "Additional Options"
+msgstr "Dalša informacija: %1"
 
 #. i18n: file: cube_config.ui:389
 #. i18n: ectx: property (text), widget (QCheckBox, animateDesktopChangeBox)
@@ -901,8 +920,10 @@ msgstr ""
 #. i18n: file: flipswitch_config.ui:29
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:305 rc.cpp:723
-msgid "F&lip Animation duration:"
-msgstr ""
+#, fuzzy
+#| msgid "Saturday"
+msgid "F&lip animation duration:"
+msgstr "Sobotu"
 
 #. i18n: file: lookingglass_config.ui:19
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -975,8 +996,11 @@ msgstr ""
 #. i18n: file: maketransparent_config.ui:19
 #. i18n: ectx: property (title), widget (QGroupBox, m_opacityGroupBox)
 #: rc.cpp:335 rc.cpp:1173
-msgid "General translucency settings:"
-msgstr ""
+#, fuzzy
+#| msgctxt "KCharselect unicode block name"
+#| msgid "General Punctuation"
+msgid "General Translucency Settings"
+msgstr "Interpunkcija"
 
 #. i18n: file: maketransparent_config.ui:31
 #. i18n: ectx: property (text), widget (QLabel, decorations_label)
@@ -1005,7 +1029,7 @@ msgstr ""
 #. i18n: file: maketransparent_config.ui:189
 #. i18n: ectx: property (text), widget (QLabel, comboboxpopup_label)
 #: rc.cpp:350 rc.cpp:1188
-msgid "Combobox Popups:"
+msgid "Combobox popups:"
 msgstr ""
 
 #. i18n: file: maketransparent_config.ui:227
@@ -1029,7 +1053,7 @@ msgstr ""
 #. i18n: file: maketransparent_config.ui:339
 #. i18n: ectx: property (title), widget (QGroupBox, individualmenuconfig)
 #: rc.cpp:371 rc.cpp:1209
-msgid "Set menu translucency independently:"
+msgid "Set menu translucency independently"
 msgstr ""
 
 #. i18n: file: maketransparent_config.ui:357
@@ -1101,13 +1125,16 @@ msgstr ""
 #. i18n: file: presentwindows_config.ui:85
 #. i18n: ectx: property (text), item, widget (QComboBox, layoutCombo)
 #: rc.cpp:428 rc.cpp:1077
-msgid "Regular grid"
-msgstr ""
+#, fuzzy
+#| msgctxt "@item font"
+#| msgid "Regular"
+msgid "Regular Grid"
+msgstr "normalne"
 
 #. i18n: file: presentwindows_config.ui:90
 #. i18n: ectx: property (text), item, widget (QComboBox, layoutCombo)
 #: rc.cpp:431 rc.cpp:1080
-msgid "Flexible grid"
+msgid "Flexible Grid"
 msgstr ""
 
 #. i18n: file: presentwindows_config.ui:98
@@ -1163,7 +1190,7 @@ msgstr ""
 #: rc.cpp:461 rc.cpp:1260
 #, fuzzy
 #| msgid "&Defaults"
-msgid "Default shadow"
+msgid "Default Shadow"
 msgstr "&Standardy"
 
 #. i18n: file: shadow_config.ui:22
@@ -1221,7 +1248,7 @@ msgstr "Wulkosć:"
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Technorati Tags"
-msgid "Decoration shadows"
+msgid "Decoration Shadows"
 msgstr "Technorati Tags"
 
 #. i18n: file: shadow_config.ui:275
@@ -1377,8 +1404,11 @@ msgstr ""
 #. i18n: file: sphere_config.ui:423
 #. i18n: ectx: property (title), widget (QGroupBox, capDeformationGroupBox)
 #: rc.cpp:656 rc.cpp:1422
-msgid "Cap deformation"
-msgstr ""
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "PCI information"
+msgid "Cap Deformation"
+msgstr "Informacija wo PCI"
 
 #. i18n: file: sphere_config.ui:445
 #. i18n: ectx: property (text), widget (QLabel, capDeformationSphereLabel)
@@ -1464,7 +1494,7 @@ msgstr ""
 msgid "More"
 msgstr ""
 
-#: videorecord.cpp:69 videorecord_config.cpp:64
+#: videorecord.cpp:69 videorecord_config.cpp:62
 msgid "Toggle Video Recording"
 msgstr ""
 
@@ -1479,7 +1509,7 @@ msgstr ""
 msgid "Clear All Mouse Marks"
 msgstr ""
 
-#: videorecord_config.cpp:55
+#: videorecord_config.cpp:53
 msgid "Path to save video:"
 msgstr ""
 
@@ -4588,10 +4618,6 @@ msgstr ""
 #~ msgstr "Einfg"
 
 #~ msgctxt "keyboard-key-name"
-#~ msgid "Left"
-#~ msgstr "Nalěwo"
-
-#~ msgctxt "keyboard-key-name"
 #~ msgid "Menu"
 #~ msgstr "Meni"
 
@@ -4634,10 +4660,6 @@ msgstr ""
 #~ msgctxt "keyboard-key-name"
 #~ msgid "Return"
 #~ msgstr "Return"
-
-#~ msgctxt "keyboard-key-name"
-#~ msgid "Right"
-#~ msgstr "Naprawo"
 
 #~ msgctxt "keyboard-key-name"
 #~ msgid "ScrollLock"
@@ -6118,10 +6140,6 @@ msgstr ""
 #~ msgstr "Tu móžeće pismowy stil wubrać."
 
 #~ msgctxt "@item font"
-#~ msgid "Regular"
-#~ msgstr "normalne"
-
-#~ msgctxt "@item font"
 #~ msgid "Italic"
 #~ msgstr "kursiwne"
 
@@ -7358,10 +7376,6 @@ msgstr ""
 #~ msgstr "Rozšěrjena grjekšćina"
 
 #~ msgctxt "KCharselect unicode block name"
-#~ msgid "General Punctuation"
-#~ msgstr "Interpunkcija"
-
-#~ msgctxt "KCharselect unicode block name"
 #~ msgid "Superscripts and Subscripts"
 #~ msgstr "Superskripty a subskripty"
 
@@ -7703,10 +7717,6 @@ msgstr ""
 #~ msgctxt "@action"
 #~ msgid "Text &Color..."
 #~ msgstr "Barba te&ksta"
-
-#~ msgctxt "@label stroke color"
-#~ msgid "Color"
-#~ msgstr "Barba"
 
 #~ msgctxt "@action"
 #~ msgid "Text &Highlight..."
@@ -8055,10 +8065,6 @@ msgstr ""
 #~ msgctxt "toolbar position string"
 #~ msgid "Right"
 #~ msgstr "Naprawo"
-
-#~ msgctxt "toolbar position string"
-#~ msgid "Bottom"
-#~ msgstr "Deleka"
 
 #~ msgid "Text Position"
 #~ msgstr "Pozicija teksta"
@@ -8530,9 +8536,6 @@ msgstr ""
 
 #~ msgid "Date and Time: %1"
 #~ msgstr "Datum a čas: %1"
-
-#~ msgid "Additional Information: %1"
-#~ msgstr "Dalša informacija: %1"
 
 #~ msgid "Description:"
 #~ msgstr "Wopisanje:"
@@ -10758,11 +10761,6 @@ msgstr ""
 
 #~ msgid "KDE Certificate Part"
 #~ msgstr "KDE certifikatowy objekt"
-
-#, fuzzy
-#~| msgid "Backward Word"
-#~ msgid "Background Mode"
-#~ msgstr "Wo słowo dozady"
 
 #, fuzzy
 #~| msgid "Main:"
@@ -17805,10 +17803,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "PCI"
 #~ msgstr "PCI"
-
-#~ msgctxt "Comment"
-#~ msgid "PCI information"
-#~ msgstr "Informacija wo PCI"
 
 #~ msgctxt "Name"
 #~ msgid "Samba Status"

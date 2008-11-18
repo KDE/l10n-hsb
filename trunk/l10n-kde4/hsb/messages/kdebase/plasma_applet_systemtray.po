@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-10 10:10+0100\n"
+"POT-Creation-Date: 2008-11-18 09:55+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,16 +17,54 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: ui/applet.cpp:113
-msgid "No notifications..."
-msgstr ""
+#: ui/applet.cpp:117
+#, fuzzy
+msgid "No notifications and no jobs"
+msgstr "GenericName=Kartowa hra"
 
-#: ui/applet.cpp:220
+#: ui/applet.cpp:227
 msgid "Visible icons:"
 msgstr ""
 
-#: ui/applet.cpp:221
+#: ui/applet.cpp:228
 msgid "Hidden icons:"
+msgstr ""
+
+#: ui/extendertask.cpp:78
+msgid "Show or hide notifications and jobs"
+msgstr ""
+
+#: ui/extendertask.cpp:105
+msgid "toggle visibility of notifications and jobs"
+msgstr ""
+
+#: ui/jobwidget.cpp:84
+#, fuzzy
+#| msgid "Pause"
+msgid "Pause job"
+msgstr "Pause/Untbr"
+
+#: ui/jobwidget.cpp:94
+#, fuzzy
+#| msgid "Resume"
+msgid "Resume job"
+msgstr "Pokročować"
+
+#: ui/jobwidget.cpp:104
+#, fuzzy
+#| msgid "Cancel Job"
+msgid "Cancel job"
+msgstr "Akciju přetorhnyć"
+
+#: ui/jobwidget.cpp:134 ui/jobwidget.cpp:168
+#, fuzzy, kde-format
+#| msgid "&Finished"
+msgid "(finished) %1"
+msgstr "&Zakónčene"
+
+#: ui/jobwidget.cpp:166
+#, kde-format
+msgid "(paused) %1"
 msgstr ""
 
 #: ui/notificationwidget.cpp:136
@@ -460,9 +498,6 @@ msgstr ""
 
 #~ msgid "Pause/Continue regression testing process"
 #~ msgstr "Přepruwowanje regresije zastajić/pokročować"
-
-#~ msgid "Pause"
-#~ msgstr "Pause/Untbr"
 
 #~ msgid ""
 #~ "You may select a file where the log content is stored, before the "
@@ -3569,9 +3604,6 @@ msgstr ""
 #~ msgctxt "speed in bytes per second"
 #~ msgid "%1/s"
 #~ msgstr "(%1/s)"
-
-#~ msgid "Resume"
-#~ msgstr "Pokročować"
 
 #~ msgid "Source:"
 #~ msgstr "Žórło:"
@@ -8279,9 +8311,6 @@ msgstr ""
 
 #~ msgid "Check Spelling"
 #~ msgstr "Přepruwuj prawopis"
-
-#~ msgid "&Finished"
-#~ msgstr "&Zakónčene"
 
 #~ msgctxt "Column number %1"
 #~ msgid "Column No. %1"
@@ -14388,9 +14417,6 @@ msgstr ""
 
 #~ msgid " %1 kB/s "
 #~ msgstr " %1 kB/s"
-
-#~ msgid "Cancel Job"
-#~ msgstr "Akciju přetorhnyć"
 
 #~ msgid "KDE Progress Information UI Server"
 #~ msgstr "KDE Progress Information UI Server"
@@ -22260,11 +22286,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Network Settings"
 #~ msgstr "Name=Nastajenja"
-
-#, fuzzy
-#~ msgctxt "Name"
-#~ msgid "Notifications"
-#~ msgstr "GenericName=Kartowa hra"
 
 #, fuzzy
 #~ msgctxt "Name"
