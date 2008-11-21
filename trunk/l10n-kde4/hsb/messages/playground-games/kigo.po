@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-17 09:48+0100\n"
+"POT-Creation-Date: 2008-11-21 10:14+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,17 +17,17 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: gui/screens/gamescreen.cpp:58 gui/screens/gamescreen.cpp:62
+#: gui/screens/gamescreen.cpp:55 gui/screens/gamescreen.cpp:59
 #, kde-format
 msgid "Computer (Level %1)"
 msgstr ""
 
-#: gui/screens/gamescreen.cpp:75
+#: gui/screens/gamescreen.cpp:73
 #, kde-format
 msgid "  (W %1)"
 msgstr ""
 
-#: gui/screens/gamescreen.cpp:76
+#: gui/screens/gamescreen.cpp:75
 #, kde-format
 msgid "  (B %1)"
 msgstr ""
@@ -38,13 +38,13 @@ msgstr ""
 
 #. i18n: file: gui/screens/setupscreen.ui:568
 #. i18n: ectx: property (text), widget (QLineEdit, playerLabel)
-#: gui/screens/gamescreen.cpp:81 gui/screens/setupscreen.cpp:135 rc.cpp:206
+#: gui/screens/gamescreen.cpp:81 gui/screens/setupscreen.cpp:135 rc.cpp:215
 msgid "Black's move"
 msgstr ""
 
 #. i18n: file: gui/screens/setupscreen.ui:957
 #. i18n: ectx: property (text), widget (KPushButton, startButton)
-#: gui/screens/setupscreen.cpp:54 rc.cpp:242
+#: gui/screens/setupscreen.cpp:54 rc.cpp:251
 msgid "Start new game"
 msgstr ""
 
@@ -66,8 +66,8 @@ msgstr ""
 #. i18n: file: gui/screens/setupscreen.ui:299
 #. i18n: ectx: property (text), item, widget (KComboBox, whitePlayerCombo)
 #: gui/screens/setupscreen.cpp:230 gui/screens/setupscreen.cpp:237
-#: gui/screens/setupscreen.cpp:267 gui/screens/setupscreen.cpp:271 rc.cpp:131
-#: rc.cpp:161
+#: gui/screens/setupscreen.cpp:267 gui/screens/setupscreen.cpp:271 rc.cpp:140
+#: rc.cpp:170
 msgid "Human"
 msgstr ""
 
@@ -79,32 +79,32 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, blackPlayerCombo)
 #. i18n: file: gui/screens/setupscreen.ui:304
 #. i18n: ectx: property (text), item, widget (KComboBox, whitePlayerCombo)
-#: gui/screens/setupscreen.cpp:232 gui/screens/setupscreen.cpp:239 rc.cpp:134
-#: rc.cpp:164
+#: gui/screens/setupscreen.cpp:232 gui/screens/setupscreen.cpp:239 rc.cpp:143
+#: rc.cpp:173
 msgid "Computer"
 msgstr ""
 
-#: gui/graphicsview/gamescene.cpp:190
+#: gui/graphicsview/gamescene.cpp:197
 msgid "The computer recommends these moves ..."
 msgstr ""
 
-#: gui/graphicsview/gamescene.cpp:203
+#: gui/graphicsview/gamescene.cpp:210
 msgid ""
 "Both players passed, decide if you want to finish the game and count "
 "scores..."
 msgstr ""
 
-#: gui/graphicsview/gamescene.cpp:210
+#: gui/graphicsview/gamescene.cpp:217
 #, kde-format
 msgid "%1 has resigned and you have won the game, please count your scores..."
 msgstr ""
 
-#: gui/graphicsview/gamescene.cpp:240
+#: gui/graphicsview/gamescene.cpp:258
 #, kde-format
 msgid "Made move at %1"
 msgstr ""
 
-#: gui/graphicsview/gamescene.cpp:242
+#: gui/graphicsview/gamescene.cpp:260
 #, kde-format
 msgid "Making a move at %1 is not allowed!"
 msgstr ""
@@ -275,7 +275,7 @@ msgstr ""
 #. i18n: ectx: label, entry (Komi), group (Game)
 #. i18n: file: gui/screens/setupscreen.ui:419
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:43 rc.cpp:185
+#: rc.cpp:43 rc.cpp:194
 msgid "Komi"
 msgstr ""
 
@@ -319,93 +319,124 @@ msgstr ""
 msgid "Main ToolBar"
 msgstr ""
 
-#. i18n: file: gui/config.ui:22
+#. i18n: file: gui/config.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:64
-msgid "Go backend"
-msgstr ""
+#. i18n: file: gui/config.ui:55
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: file: gui/config.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: file: gui/config.ui:55
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:64 rc.cpp:73
+#, fuzzy
+#| msgid "Back"
+msgid "Backend"
+msgstr "Wróćo"
 
-#. i18n: file: gui/config.ui:28
-#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: gui/config.ui:38
+#. i18n: ectx: property (text), widget (KPushButton, kpushbutton)
 #: rc.cpp:67
-msgid "Executable"
-msgstr ""
+#, fuzzy
+#| msgctxt "addition"
+#| msgid "+"
+msgid "+"
+msgstr "+"
 
-#. i18n: file: gui/config.ui:47
-#. i18n: ectx: property (toolTip), widget (KUrlRequester, engineExecutable)
-#: rc.cpp:70
-msgid "Select the executable file to start the Go engine"
-msgstr ""
-
-#. i18n: file: gui/config.ui:54
-#. i18n: ectx: property (toolTip), widget (KLineEdit, engineParameters)
-#: rc.cpp:73
-msgid "Add here the necessary parameters to start the Engine in GTP mode"
+#. i18n: file: gui/config.ui:45
+#. i18n: ectx: property (text), widget (KPushButton, kpushbutton_2)
+#. i18n: file: gui/screens/messagescreen.ui:121
+#. i18n: ectx: property (text), widget (QLabel, errorMessageLabel)
+#. i18n: file: gui/config.ui:45
+#. i18n: ectx: property (text), widget (KPushButton, kpushbutton_2)
+#. i18n: file: gui/screens/messagescreen.ui:121
+#. i18n: ectx: property (text), widget (QLabel, errorMessageLabel)
+#: rc.cpp:70 rc.cpp:134
+msgid "-"
 msgstr ""
 
 #. i18n: file: gui/config.ui:61
-#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:76
+#, fuzzy
+#| msgid "Execute"
+msgid "Executable:"
+msgstr "Wuwjesć"
+
+#. i18n: file: gui/config.ui:83
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, engineExecutable)
+#: rc.cpp:79
+msgid "Select the executable file to start the Go engine"
+msgstr ""
+
+#. i18n: file: gui/config.ui:90
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:82
 msgid "Parameters:"
 msgstr ""
 
-#. i18n: file: gui/config.ui:80
-#. i18n: ectx: property (toolTip), widget (KLed, engineLed)
-#: rc.cpp:79
-msgid "Indicates whether the Go engine works correctly"
+#. i18n: file: gui/config.ui:106
+#. i18n: ectx: property (toolTip), widget (KLineEdit, engineParameters)
+#: rc.cpp:85
+msgid "Add here the necessary parameters to start the Engine in GTP mode"
 msgstr ""
 
-#. i18n: file: gui/config.ui:99
+#. i18n: file: gui/config.ui:119
 #. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_EngineCommand)
-#: rc.cpp:82
+#: rc.cpp:88
 msgid "This is the resulting engine command which will be used by Kigo"
 msgstr ""
 
-#. i18n: file: gui/config.ui:121
+#. i18n: file: gui/config.ui:144
+#. i18n: ectx: property (toolTip), widget (KLed, engineLed)
+#: rc.cpp:91
+msgid "Indicates whether the Go engine works correctly"
+msgstr ""
+
+#. i18n: file: gui/config.ui:173
 #. i18n: ectx: property (title), widget (QGroupBox, s)
-#: rc.cpp:85
+#: rc.cpp:94
 msgid "Appearance"
 msgstr ""
 
-#. i18n: file: gui/config.ui:130
+#. i18n: file: gui/config.ui:182
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowBoardLabels)
-#: rc.cpp:88
+#: rc.cpp:97
 msgid "Display board labels"
 msgstr ""
 
-#. i18n: file: gui/config.ui:137
+#. i18n: file: gui/config.ui:189
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:91
+#: rc.cpp:100
 msgid "Move hint visibility:"
 msgstr ""
 
-#. i18n: file: gui/config.ui:156
+#. i18n: file: gui/config.ui:208
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, kcfg_HintVisibleTime)
-#: rc.cpp:94
+#: rc.cpp:103
 msgid " Seconds"
 msgstr ""
 
-#. i18n: file: gui/config.ui:188
+#. i18n: file: gui/config.ui:246
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:97
+#: rc.cpp:106
 msgid "Advanced"
 msgstr ""
 
-#. i18n: file: gui/config.ui:197
+#. i18n: file: gui/config.ui:255
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AdvancedStatistics)
-#: rc.cpp:100
+#: rc.cpp:109
 msgid "Show detailed statistics"
 msgstr ""
 
-#. i18n: file: gui/config.ui:207
+#. i18n: file: gui/config.ui:265
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AdvancedGameOptions)
-#: rc.cpp:103
+#: rc.cpp:112
 msgid "Enable expert game options"
 msgstr ""
 
 #. i18n: file: gui/screens/messagescreen.ui:66
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:106
+#: rc.cpp:115
 #, fuzzy
 #| msgid ""
 #| "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
@@ -433,7 +464,7 @@ msgstr ""
 
 #. i18n: file: gui/screens/messagescreen.ui:83
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:113
+#: rc.cpp:122
 msgid ""
 "The game needs GnuGo or a compatible Go engine backend to work correctly. "
 "Please set up your Go engine in the configuration dialog."
@@ -441,32 +472,26 @@ msgstr ""
 
 #. i18n: file: gui/screens/messagescreen.ui:96
 #. i18n: ectx: property (text), widget (KPushButton, configureButton)
-#: rc.cpp:116
+#: rc.cpp:125
 #, fuzzy
 msgid "&Configure Kigo"
 msgstr "&Pokročować"
 
 #. i18n: file: gui/screens/messagescreen.ui:103
 #. i18n: ectx: property (text), widget (KPushButton, quitButton)
-#: rc.cpp:119
+#: rc.cpp:128
 msgid "&Quit"
 msgstr "Kón&c"
 
 #. i18n: file: gui/screens/messagescreen.ui:110
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:122
+#: rc.cpp:131
 msgid "Error message"
-msgstr ""
-
-#. i18n: file: gui/screens/messagescreen.ui:121
-#. i18n: ectx: property (text), widget (QLabel, errorMessageLabel)
-#: rc.cpp:125
-msgid "-"
 msgstr ""
 
 #. i18n: file: gui/screens/setupscreen.ui:41
 #. i18n: ectx: property (title), widget (QGroupBox, playerBox)
-#: rc.cpp:128
+#: rc.cpp:137
 msgid "Players"
 msgstr ""
 
@@ -482,7 +507,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KLineEdit, whitePlayerName)
 #. i18n: file: gui/screens/gamescreen.ui:99
 #. i18n: ectx: property (text), widget (KLineEdit, whitePlayerName)
-#: rc.cpp:137 rc.cpp:146 rc.cpp:263
+#: rc.cpp:146 rc.cpp:155 rc.cpp:272
 msgid "Name"
 msgstr "Mjeno"
 
@@ -494,7 +519,7 @@ msgstr "Mjeno"
 #. i18n: ectx: property (text), widget (QLabel, label2_3)
 #. i18n: file: gui/screens/setupscreen.ui:233
 #. i18n: ectx: property (text), widget (QLabel, label2)
-#: rc.cpp:140 rc.cpp:152
+#: rc.cpp:149 rc.cpp:161
 msgid "Strong"
 msgstr ""
 
@@ -506,7 +531,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label1_3)
 #. i18n: file: gui/screens/setupscreen.ui:217
 #. i18n: ectx: property (text), widget (QLabel, label1)
-#: rc.cpp:143 rc.cpp:149
+#: rc.cpp:152 rc.cpp:158
 msgid "Weak"
 msgstr ""
 
@@ -518,7 +543,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: file: gui/screens/setupscreen.ui:601
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:155 rc.cpp:212
+#: rc.cpp:164 rc.cpp:221
 msgid "White:"
 msgstr ""
 
@@ -530,43 +555,43 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: gui/screens/setupscreen.ui:611
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:158 rc.cpp:215
+#: rc.cpp:167 rc.cpp:224
 msgid "Black:"
 msgstr ""
 
 #. i18n: file: gui/screens/setupscreen.ui:348
 #. i18n: ectx: property (title), widget (QGroupBox, newGameBox)
-#: rc.cpp:167
+#: rc.cpp:176
 msgid "New game"
 msgstr ""
 
 #. i18n: file: gui/screens/setupscreen.ui:354
 #. i18n: ectx: property (title), widget (KButtonGroup, sizeGroupBox)
-#: rc.cpp:170
+#: rc.cpp:179
 msgid "Board size"
 msgstr ""
 
 #. i18n: file: gui/screens/setupscreen.ui:366
 #. i18n: ectx: property (text), widget (QRadioButton, sizeSmall)
-#: rc.cpp:173
+#: rc.cpp:182
 msgid "Tiny (9x9)"
 msgstr ""
 
 #. i18n: file: gui/screens/setupscreen.ui:376
 #. i18n: ectx: property (text), widget (QRadioButton, sizeMedium)
-#: rc.cpp:176
+#: rc.cpp:185
 msgid "Small (13x13)"
 msgstr ""
 
 #. i18n: file: gui/screens/setupscreen.ui:383
 #. i18n: ectx: property (text), widget (QRadioButton, sizeBig)
-#: rc.cpp:179
+#: rc.cpp:188
 msgid "Normal (19x19)"
 msgstr ""
 
 #. i18n: file: gui/screens/setupscreen.ui:393
 #. i18n: ectx: property (text), widget (QRadioButton, sizeOther)
-#: rc.cpp:182
+#: rc.cpp:191
 msgid "Other:"
 msgstr ""
 
@@ -582,13 +607,13 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, infoKomi)
 #. i18n: file: gui/screens/gamescreen.ui:221
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, komiSpinBox)
-#: rc.cpp:188 rc.cpp:230 rc.cpp:275
+#: rc.cpp:197 rc.cpp:239 rc.cpp:284
 msgid " Points"
 msgstr ""
 
 #. i18n: file: gui/screens/setupscreen.ui:444
 #. i18n: ectx: property (title), widget (QGroupBox, handicapGroupBox)
-#: rc.cpp:191
+#: rc.cpp:200
 msgid "Fixed handicap"
 msgstr ""
 
@@ -604,55 +629,55 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QSpinBox, infoHandicap)
 #. i18n: file: gui/screens/gamescreen.ui:193
 #. i18n: ectx: property (suffix), widget (QSpinBox, handicapSpinBox)
-#: rc.cpp:194 rc.cpp:239 rc.cpp:272
+#: rc.cpp:203 rc.cpp:248 rc.cpp:281
 msgid " Stones"
 msgstr ""
 
 #. i18n: file: gui/screens/setupscreen.ui:527
 #. i18n: ectx: property (title), widget (QGroupBox, loadedGameBox)
-#: rc.cpp:197
+#: rc.cpp:206
 msgid "Loaded game"
 msgstr ""
 
 #. i18n: file: gui/screens/setupscreen.ui:533
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:200
+#: rc.cpp:209
 msgid "Continue with move:"
 msgstr ""
 
 #. i18n: file: gui/screens/setupscreen.ui:546
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, startMoveSpinBox)
-#: rc.cpp:203
+#: rc.cpp:212
 msgid " of 999999"
 msgstr ""
 
 #. i18n: file: gui/screens/setupscreen.ui:581
 #. i18n: ectx: property (title), widget (QGroupBox, infoBox)
-#: rc.cpp:209
+#: rc.cpp:218
 msgid "Additional information"
 msgstr ""
 
 #. i18n: file: gui/screens/setupscreen.ui:621
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:218
+#: rc.cpp:227
 msgid "Event:"
 msgstr ""
 
 #. i18n: file: gui/screens/setupscreen.ui:631
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: rc.cpp:221
+#: rc.cpp:230
 msgid "Location:"
 msgstr "Městno:"
 
 #. i18n: file: gui/screens/setupscreen.ui:641
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: rc.cpp:224
+#: rc.cpp:233
 msgid "Round:"
 msgstr ""
 
 #. i18n: file: gui/screens/setupscreen.ui:770
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: rc.cpp:227
+#: rc.cpp:236
 msgid "Score:"
 msgstr ""
 
@@ -664,7 +689,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: file: gui/screens/gamescreen.ui:122
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:233 rc.cpp:266
+#: rc.cpp:242 rc.cpp:275
 msgid "Komi:"
 msgstr ""
 
@@ -676,19 +701,19 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: file: gui/screens/gamescreen.ui:135
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:236 rc.cpp:269
+#: rc.cpp:245 rc.cpp:278
 msgid "Handicap:"
 msgstr ""
 
 #. i18n: file: gui/screens/setupscreen.ui:960
 #. i18n: ectx: property (shortcut), widget (KPushButton, startButton)
-#: rc.cpp:245
+#: rc.cpp:254
 msgid "Ctrl+S"
 msgstr ""
 
 #. i18n: file: gui/screens/gamescreen.ui:41
 #. i18n: ectx: property (title), widget (QGroupBox, capturesBox)
-#: rc.cpp:248
+#: rc.cpp:257
 msgid "White"
 msgstr ""
 
@@ -700,7 +725,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: file: gui/screens/gamescreen.ui:268
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:251 rc.cpp:284
+#: rc.cpp:260 rc.cpp:293
 msgid "Captures:"
 msgstr ""
 
@@ -712,7 +737,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, whiteCapturesLabel)
 #. i18n: file: gui/screens/gamescreen.ui:278
 #. i18n: ectx: property (text), widget (QLabel, blackCapturesLabel)
-#: rc.cpp:254 rc.cpp:287
+#: rc.cpp:263 rc.cpp:296
 msgid "0"
 msgstr "0"
 
@@ -724,7 +749,7 @@ msgstr "0"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: gui/screens/gamescreen.ui:288
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:257 rc.cpp:290
+#: rc.cpp:266 rc.cpp:299
 msgid "Time left:"
 msgstr ""
 
@@ -736,25 +761,25 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, whiteTimeLabel)
 #. i18n: file: gui/screens/gamescreen.ui:298
 #. i18n: ectx: property (text), widget (QLabel, blackTimeLabel)
-#: rc.cpp:260 rc.cpp:293
+#: rc.cpp:269 rc.cpp:302
 msgid "00:00"
 msgstr ""
 
 #. i18n: file: gui/screens/gamescreen.ui:252
 #. i18n: ectx: property (prefix), widget (QSpinBox, moveSpinBox)
-#: rc.cpp:278
+#: rc.cpp:287
 msgid "Move "
 msgstr ""
 
 #. i18n: file: gui/screens/gamescreen.ui:262
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:281
+#: rc.cpp:290
 msgid "Black"
 msgstr ""
 
 #. i18n: file: gui/screens/gamescreen.ui:320
 #. i18n: ectx: property (text), widget (KLineEdit, blackPlayerName)
-#: rc.cpp:296
+#: rc.cpp:305
 msgid "Computer (Level 10)"
 msgstr ""
 
@@ -1516,10 +1541,6 @@ msgstr ""
 #~ msgid "JS Calculator"
 #~ msgstr "JS ličak"
 
-#~ msgctxt "addition"
-#~ msgid "+"
-#~ msgstr "+"
-
 #~ msgid "AC"
 #~ msgstr "AC"
 
@@ -1548,9 +1569,6 @@ msgstr ""
 
 #~ msgid "MainWindow"
 #~ msgstr "Hłownewokno"
-
-#~ msgid "Execute"
-#~ msgstr "Wuwjesć"
 
 #~ msgid "Open Script"
 #~ msgstr "Skript wočinić"
@@ -6223,9 +6241,6 @@ msgstr ""
 
 #~ msgid "Enter a search term or character here"
 #~ msgstr "Zapodaj pytany wuraz abo pismik tu"
-
-#~ msgid "Back"
-#~ msgstr "Wróćo"
 
 #~ msgid "Previous Character"
 #~ msgstr "Prjedawši pismik"
