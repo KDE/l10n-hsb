@@ -7,15 +7,14 @@ msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-10-13 09:42+0200\n"
-"PO-Revision-Date: 2008-11-06 22:08+0100\n"
+"PO-Revision-Date: 2008-11-22 23:21+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KAider 0.1\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
-"100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
 
 #: ikwsopts.cpp:96
 msgid ""
@@ -27,10 +26,13 @@ msgid ""
 "specified search engine by simply typing them into applications, such as "
 "Konqueror, that have built-in support for such a feature.</p>"
 msgstr ""
+"<p>W tutym modulu móžeće skrótšenki za internet připrawić. Intenetowe skrótšenki Wam dowola, w interneće spěšnje pytać. Zo "
+"byšće na př. wo KDE-projekće z Googleom pytali, zapodaće prosće <b>gg:KDE</b> abo <b>google:KDE</b>.</p><p>Hdyž sej wubjerjeće "
+"standardne pytadło, so z nim pyta, hdyž zapodaće słowo do aplikacije kaž konquerora, kiž tutu móžnosć podpěruja.</p>"
 
 #: kurisearchfilter.cpp:85
 msgid "Search F&ilters"
-msgstr ""
+msgstr "Pytanske &filtry"
 
 #. i18n: file: ikwsopts_ui.ui:18
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbEnableShortcuts)
@@ -41,13 +43,18 @@ msgid ""
 "web. For example, entering the shortcut <b>gg:KDE</b> will result in a "
 "search for the word <b>KDE</b> on the Google(TM) search engine.\n"
 "</qt>"
+
 msgstr ""
+"<qt>\n"
+"Zaswěći skrótšenki, kotrež Wam dowoli spěšnje za informaciju na interneće pytać. Na př., hdyž zapodaće skrótšenku <b>gg:KDE</b>"
+", so z Googleom(TM) za <b>KDE<b> pyta.\n"
+"</qt>"
 
 #. i18n: file: ikwsopts_ui.ui:21
 #. i18n: ectx: property (text), widget (QCheckBox, cbEnableShortcuts)
 #: rc.cpp:8
 msgid "&Enable Web shortcuts"
-msgstr ""
+msgstr "&Internetowe skrótšenki zaswěćić"
 
 #. i18n: file: ikwsopts_ui.ui:28
 #. i18n: ectx: property (whatsThis), widget (QTreeWidget, lvSearchProviders)
@@ -55,7 +62,7 @@ msgstr ""
 msgid ""
 "List of search providers, their associated shortcuts and whether they should "
 "be listed in menus."
-msgstr ""
+msgstr "Lisćina pytadłow, jich asociěrowane skrótšenki a hač maja so w menijach naličić."
 
 #. i18n: file: ikwsopts_ui.ui:35
 #. i18n: ectx: property (text), widget (QTreeWidget, lvSearchProviders)
@@ -73,37 +80,37 @@ msgstr "Skrótšenki"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbNew)
 #: rc.cpp:20
 msgid "Add a search provider."
-msgstr ""
+msgstr "Pytadło dodać"
 
 #. i18n: file: ikwsopts_ui.ui:51
 #. i18n: ectx: property (text), widget (QPushButton, pbNew)
 #: rc.cpp:23
 msgid "&New..."
-msgstr ""
+msgstr "&Nowe..."
 
 #. i18n: file: ikwsopts_ui.ui:61
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbChange)
 #: rc.cpp:26
 msgid "Modify a search provider."
-msgstr ""
+msgstr "Pytadło připrawić"
 
 #. i18n: file: ikwsopts_ui.ui:64
 #. i18n: ectx: property (text), widget (QPushButton, pbChange)
 #: rc.cpp:29
 msgid "Chan&ge..."
-msgstr ""
+msgstr "Připra&wić..."
 
 #. i18n: file: ikwsopts_ui.ui:74
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbDelete)
 #: rc.cpp:32
 msgid "Delete the selected search provider."
-msgstr ""
+msgstr "Wubrane pytadło wumaznyć."
 
 #. i18n: file: ikwsopts_ui.ui:77
 #. i18n: ectx: property (text), widget (QPushButton, pbDelete)
 #: rc.cpp:35
 msgid "De&lete"
-msgstr ""
+msgstr "Wu&maznyć"
 
 #. i18n: file: ikwsopts_ui.ui:111
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbDefaultEngine)
@@ -117,12 +124,16 @@ msgid ""
 "To disable this feature select <b>None</b> from the list.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"Pytadło wubrać za zapodawanske kašćiki, kiž pytansku słužbu k dispoziciji stajeja, hdyž zapodaće normalne słowa abo wurazy "
+"město URLa. Za hasnjenje tuteje móžnosće wubjerće <b>Žane</b> z lisćiny.\n"
+"</qt>"
 
 #. i18n: file: ikwsopts_ui.ui:114
 #. i18n: ectx: property (text), widget (QLabel, lbDefaultEngine)
 #: rc.cpp:43
 msgid "Default &search engine:"
-msgstr ""
+msgstr "Standardne &pytadło:"
 
 #. i18n: file: ikwsopts_ui.ui:142
 #. i18n: ectx: property (text), item, widget (KComboBox, cmbDefaultEngine)
@@ -138,25 +149,25 @@ msgstr "Žane"
 msgid ""
 "Choose the delimiter that separates the keyword from the phrase or word to "
 "be searched."
-msgstr ""
+msgstr "Wubjerće dźělenske znamješko, kiž dźěli klučowe słowo wot frazy abo słowa, za kotrymž so pyta."
 
 #. i18n: file: ikwsopts_ui.ui:159
 #. i18n: ectx: property (text), widget (QLabel, lbDelimiter)
 #: rc.cpp:57
 msgid "&Keyword delimiter:"
-msgstr ""
+msgstr "&Dźělenske znamješko za klučowe słowa:"
 
 #. i18n: file: ikwsopts_ui.ui:182
 #. i18n: ectx: property (text), item, widget (KComboBox, cmbDelimiter)
 #: rc.cpp:63
 msgid "Colon"
-msgstr ""
+msgstr "Dwudypk"
 
 #. i18n: file: ikwsopts_ui.ui:187
 #. i18n: ectx: property (text), item, widget (KComboBox, cmbDelimiter)
 #: rc.cpp:66
 msgid "Space"
-msgstr ""
+msgstr "Mjezota"
 
 #. i18n: file: searchproviderdlg_ui.ui:19
 #. i18n: ectx: property (toolTip), widget (KLineEdit, leName)
@@ -166,19 +177,19 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbName)
 #: rc.cpp:69 rc.cpp:72 rc.cpp:90
 msgid "Enter the human-readable name of the search provider here."
-msgstr ""
+msgstr "Zapodajće normalne mjeno pytadła tu."
 
 #. i18n: file: searchproviderdlg_ui.ui:29
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbCharset)
 #: rc.cpp:75
 msgid "Select the character set that will be used to encode your search query"
-msgstr ""
+msgstr "Zapodajće kodowanje, kotrež so za Waše pytanje wužiwa"
 
 #. i18n: file: searchproviderdlg_ui.ui:32
 #. i18n: ectx: property (text), widget (QLabel, lbCharset)
 #: rc.cpp:78
 msgid "&Charset:"
-msgstr ""
+msgstr "&Kodowanje:"
 
 #. i18n: file: searchproviderdlg_ui.ui:48
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbQuery)
@@ -202,18 +213,26 @@ msgid ""
 "nothing matches from the left of the reference list.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"Zapodajće tu URI, kotrež so wužiwa za pytanje z tutym pytadłom.<br/> Cyły tekst, za kotrymž so pyta, hodźi so zapodać jako "
+"\\{@} abo  \\{0}.<br/>\n"
+"Doporuča so \\{@}, dokelž zwotstronja wšitke pytanske wariable (mjeno=hódnota) ze skónčneho wuraza, mjeztym zo steji \\{0} za "
+"njezměnjeny pytanski wuraz.<br/> Nimo toho je móžno wjacore referency (mjena, ličby a wurazy) podać "
+"(\\{mjeno1,mjeno2,\"wuraz\"}.<br/> Prěnja so hodźaca hódnota (wotlěwa) so za wuslědkowe URI wužiwa.<br/> Wuraz w pazorkach "
+"hodźi so jako standardowa hódnota wužiwać, jeli so ničo z lěweho boka referencneje lisćiny njehodźi.\n"
+"</qt>"
 
 #. i18n: file: searchproviderdlg_ui.ui:51
 #. i18n: ectx: property (text), widget (QLabel, lbQuery)
 #: rc.cpp:87
 msgid "Search &URI:"
-msgstr ""
+msgstr "&URI pytać:"
 
 #. i18n: file: searchproviderdlg_ui.ui:67
 #. i18n: ectx: property (text), widget (QLabel, lbName)
 #: rc.cpp:93
 msgid "Search &provider name:"
-msgstr "Mjeno &prowidera pytać:"
+msgstr "Mjeno &pytadła:"
 
 #. i18n: file: searchproviderdlg_ui.ui:82
 #. i18n: ectx: property (toolTip), widget (KLineEdit, leShortcut)
@@ -229,6 +248,10 @@ msgid ""
 "b>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"Tu zapodate skrótšenki hodźa so jako pseudo-URI w KDE wužiwać. Na př. móžeće skrótšenku <b>av</b> wužiwać jako <b>av</b>:<b>"
+"moje pytanje</b>\n"
+"</qt>"
 
 #. i18n: file: searchproviderdlg_ui.ui:102
 #. i18n: ectx: property (text), widget (QLabel, lbShortcut)
@@ -240,7 +263,7 @@ msgstr "Skrótšenki za UR&I:"
 #. i18n: ectx: property (whatsThis), widget (KComboBox, cbCharset)
 #: rc.cpp:126
 msgid "Select the character set that will be used to encode your search query."
-msgstr ""
+msgstr "Zapodajće kodowanje, kotrež so wužiwa za Waše pytanje."
 
 #: searchproviderdlg.cpp:48
 msgid "Default"
@@ -248,11 +271,11 @@ msgstr "Standard"
 
 #: searchproviderdlg.cpp:53
 msgid "Modify Search Provider"
-msgstr ""
+msgstr "Pytadło připrawić"
 
 #: searchproviderdlg.cpp:63
 msgid "New Search Provider"
-msgstr ""
+msgstr "Nowe pytadło"
 
 #: searchproviderdlg.cpp:81
 msgid ""
@@ -260,10 +283,12 @@ msgid ""
 "This means that the same page is always going to be visited, regardless of "
 "what the user types."
 msgstr ""
+"URI njewobsahuje wariabla \\{...} za pytanje wužiwarja.\n"
+"To rěka, zo so přeco samsna strona wopyta, njehladajo na to, što wužiwar zapoda."
 
 #: searchproviderdlg.cpp:84
 msgid "Keep It"
-msgstr ""
+msgstr "Zdźeržeć"
 
 #~ msgid "Editor Chooser"
 #~ msgstr "Wuběranje editora"
@@ -23043,3 +23068,4 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Users Folders"
 #~ msgstr "Name=Tekstowe dataje"
+
