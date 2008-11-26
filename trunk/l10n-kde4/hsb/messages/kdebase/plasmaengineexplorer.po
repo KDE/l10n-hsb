@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-18 09:55+0100\n"
+"POT-Creation-Date: 2008-11-26 10:45+0100\n"
 "PO-Revision-Date: 2008-11-22 12:57+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -231,12 +231,24 @@ msgstr "edi.werner@gmx.de"
 msgid "Start Operation"
 msgstr "Operaciju započeć"
 
-#: serviceviewer.cpp:51 serviceviewer.cpp:52
+#: serviceviewer.cpp:51
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "Plasma engine with unknown name"
+msgid "Unknown"
+msgstr "Njeznate"
+
+#: serviceviewer.cpp:52
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "Plasma service with unknown name"
 msgid "Unknown"
 msgstr "Njeznate"
 
 #: serviceviewer.cpp:65
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "%1 Service Explorer"
+msgctxt "%1 is a Plasma service name"
 msgid "%1 Service Explorer"
 msgstr "%1 Wuslědźer słužbow"
 
@@ -267,10 +279,18 @@ msgstr ""
 "Operacija %1 z cilom %2 je so wuspěšnje zakónčiła. Wuslědk bě: <p><b>%3</b>"
 
 #: serviceviewer.cpp:204
-#, kde-format
-msgctxt "One active operation ..."
-msgid "%1 operations active ..."
-msgstr "%1 aktiwnych operacijow ..."
+#, fuzzy, kde-format
+#| msgid "Continue operation"
+msgid "One active operation ..."
+msgid_plural "%1 operations active ..."
+msgstr[0] "Z akciju pokročować"
+msgstr[1] "Z akciju pokročować"
+msgstr[2] "Z akciju pokročować"
+msgstr[3] "Z akciju pokročować"
+
+#~ msgctxt "One active operation ..."
+#~ msgid "%1 operations active ..."
+#~ msgstr "%1 aktiwnych operacijow ..."
 
 #~ msgid "Editor Chooser"
 #~ msgstr "Wuběranje editora"
@@ -3958,9 +3978,6 @@ msgstr "%1 aktiwnych operacijow ..."
 
 #~ msgid "Opens the print dialog to print the current document"
 #~ msgstr "Wočini ćišćenski dialog za ćišćenje aktualneho dokumenta"
-
-#~ msgid "Continue operation"
-#~ msgstr "Z akciju pokročować"
 
 #~ msgid "&Delete"
 #~ msgstr "Z&ničić"
