@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-05 10:16+0100\n"
+"POT-Creation-Date: 2008-12-06 11:07+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -338,35 +338,21 @@ msgstr "Akcije"
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, rotationDurationSpin)
 #. i18n: file: cylinder_config.ui:145
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, rotationDurationSpin)
-#. i18n: file: desktopgrid_config.ui:41
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, zoomDurationSpin)
-#. i18n: file: flipswitch_config.ui:48
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, spinFlipDuration)
-#. i18n: file: maketransparent_config.ui:278
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, duration)
-#. i18n: file: presentwindows_config.ui:41
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, rearrangeDurationSpin)
 #. i18n: file: sphere_config.ui:145
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, rotationDurationSpin)
-#. i18n: file: flipswitch_config.ui:48
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, spinFlipDuration)
 #. i18n: file: cube_config.ui:145
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, rotationDurationSpin)
 #. i18n: file: cylinder_config.ui:145
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, rotationDurationSpin)
 #. i18n: file: coverswitch_config.ui:149
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, spinDuration)
-#. i18n: file: presentwindows_config.ui:41
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, rearrangeDurationSpin)
-#. i18n: file: desktopgrid_config.ui:41
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, zoomDurationSpin)
-#. i18n: file: maketransparent_config.ui:278
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, duration)
 #. i18n: file: sphere_config.ui:145
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, rotationDurationSpin)
-#: rc.cpp:54 rc.cpp:90 rc.cpp:186 rc.cpp:251 rc.cpp:308 rc.cpp:359 rc.cpp:416
-#: rc.cpp:597 rc.cpp:726 rc.cpp:798 rc.cpp:949 rc.cpp:1050 rc.cpp:1065
-#: rc.cpp:1131 rc.cpp:1197 rc.cpp:1363
+#: rc.cpp:54 rc.cpp:90 rc.cpp:186 rc.cpp:597 rc.cpp:798 rc.cpp:949 rc.cpp:1050
+#: rc.cpp:1363
+#, fuzzy
+#| msgid "Default"
+msgctxt "Duration of rotation"
 msgid "Default"
 msgstr "Standard"
 
@@ -833,6 +819,15 @@ msgstr ""
 msgid "Zoom &duration:"
 msgstr ""
 
+#. i18n: file: desktopgrid_config.ui:41
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, zoomDurationSpin)
+#: rc.cpp:251 rc.cpp:1131
+#, fuzzy
+#| msgid "Default"
+msgctxt "Duration of zoom"
+msgid "Default"
+msgstr "Standard"
+
 #. i18n: file: desktopgrid_config.ui:57
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:257 rc.cpp:1137
@@ -924,6 +919,15 @@ msgstr ""
 #| msgid "Saturday"
 msgid "F&lip animation duration:"
 msgstr "Sobotu"
+
+#. i18n: file: flipswitch_config.ui:48
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, spinFlipDuration)
+#: rc.cpp:308 rc.cpp:726
+#, fuzzy
+#| msgid "Default"
+msgctxt "Duration of flip animation"
+msgid "Default"
+msgstr "Standard"
 
 #. i18n: file: lookingglass_config.ui:19
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1044,6 +1048,15 @@ msgstr ""
 msgid "Fading duration:"
 msgstr ""
 
+#. i18n: file: maketransparent_config.ui:278
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, duration)
+#: rc.cpp:359 rc.cpp:1197
+#, fuzzy
+#| msgid "Default"
+msgctxt "Duration of fading"
+msgid "Default"
+msgstr "Standard"
+
 #. i18n: file: maketransparent_config.ui:281
 #. i18n: ectx: property (suffix), widget (QSpinBox, duration)
 #: rc.cpp:362 rc.cpp:1200
@@ -1109,6 +1122,15 @@ msgstr ""
 #: rc.cpp:413 rc.cpp:1062
 msgid "Rearrange &duration:"
 msgstr ""
+
+#. i18n: file: presentwindows_config.ui:41
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, rearrangeDurationSpin)
+#: rc.cpp:416 rc.cpp:1065
+#, fuzzy
+#| msgid "Default"
+msgctxt "Duration of rearrangement"
+msgid "Default"
+msgstr "Standard"
 
 #. i18n: file: presentwindows_config.ui:60
 #. i18n: ectx: property (text), widget (QLabel, label_3)
