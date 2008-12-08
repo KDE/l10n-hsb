@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-07 09:30+0000\n"
+"POT-Creation-Date: 2008-12-08 09:31+0000\n"
 "PO-Revision-Date: 2008-11-25 00:15+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -2382,16 +2382,6 @@ msgctxt "Comment"
 msgid "Remote Encoding Plugin for Konqueror"
 msgstr "Zašćěpka za dalnokoděrowanje za konqueror"
 
-#: apps/konqueror/settings/css/kcmcss.desktop:12
-msgctxt "Name"
-msgid "Stylesheets"
-msgstr "Stilowe łopjena"
-
-#: apps/konqueror/settings/css/kcmcss.desktop:87
-msgctxt "Comment"
-msgid "Configure the stylesheets used to render web pages"
-msgstr "Konfiguracija stilowych łopjenow za pokazowanje internetnych stronow"
-
 #: apps/konqueror/settings/ebrowsing/ebrowsing.desktop:11
 #: workspace/plasma/runners/webshortcuts/plasma-runner-webshortcuts.desktop:2
 msgctxt "Name"
@@ -2633,6 +2623,7 @@ msgstr "Městna změnić, hdźež so wažne dataje namakaja"
 
 #: apps/konqueror/settings/konq/fileappearance.desktop:11
 #: apps/konqueror/settings/konq/webappearance.desktop:12
+#: apps/konqueror/settings/konqhtml/khtml_appearance.desktop:13
 #: workspace/systemsettings/categories/settings-appearance.desktop:8
 msgctxt "Name"
 msgid "Appearance"
@@ -2656,26 +2647,20 @@ msgctxt "Comment"
 msgid "You can configure how Konqueror behaves as a file manager here"
 msgstr "Tu móžeće nastajić, kak so konqueror jako datajowy manager zadźerži."
 
-#: apps/konqueror/settings/konq/filebrowser.desktop:12
-#: runtime/kcontrol/componentchooser/componentservices/kcm_filemanager.desktop:1
+#: apps/konqueror/settings/konqhtml/css/kcmcss.desktop:12
 msgctxt "Name"
-msgid "File Manager"
-msgstr "Datajowy manager"
+msgid "Stylesheets"
+msgstr "Stilowe łopjena"
 
-#: apps/konqueror/settings/konq/filebrowser.desktop:92
+#: apps/konqueror/settings/konqhtml/css/kcmcss.desktop:87
 msgctxt "Comment"
-msgid "You can configure Konqueror's file manager mode here"
-msgstr "Tu móžeće konqueror jako datajowy manager konfigurować."
+msgid "Configure the stylesheets used to render web pages"
+msgstr "Konfiguracija stilowych łopjenow za pokazowanje internetnych stronow"
 
-#: apps/konqueror/settings/konq/filepreviews.desktop:11
-msgctxt "Name"
-msgid "Previews & Meta-Data"
-msgstr "Přehladki a Meta-daty"
-
-#: apps/konqueror/settings/konq/filepreviews.desktop:88
+#: apps/konqueror/settings/konqhtml/khtml_appearance.desktop:94
 msgctxt "Comment"
-msgid "You can configure how Konqueror Previews & Meta-data work here"
-msgstr "Tu móžeće nastajić, kak přehladki a meta-daty w konqueroru dźěłaja."
+msgid "Configure the fonts used on web pages"
+msgstr "Pisma na web-stronach nastajić"
 
 #: apps/konqueror/settings/konqhtml/khtml_behavior.desktop:12
 msgctxt "Name"
@@ -2696,18 +2681,6 @@ msgstr "AdBlocK filtry"
 msgctxt "Comment"
 msgid "Configure Konqueror AdBlocK filters"
 msgstr "AdBlocK-filtry konquerora připrawić"
-
-#: apps/konqueror/settings/konqhtml/khtml_fonts.desktop:13
-#: workspace/kcontrol/fonts/fonts.desktop:14
-#: workspace/kcontrol/kfontinst/kio/fonts.desktop:5
-msgctxt "Name"
-msgid "Fonts"
-msgstr "Pisma"
-
-#: apps/konqueror/settings/konqhtml/khtml_fonts.desktop:92
-msgctxt "Comment"
-msgid "Configure the fonts used on web pages"
-msgstr "Pisma na web-stronach nastajić"
 
 #: apps/konqueror/settings/konqhtml/khtml_general.desktop:12
 #: workspace/systemsettings/categories/settings-general.desktop:8
@@ -3382,6 +3355,11 @@ msgid ""
 msgstr ""
 "Tule móžeće swój standardny web-browser připrawić.Wšitke KDE-aplikacije, kiž "
 "dźěłaja z hyperlinkami měli so po tutych nastajenjach měć."
+
+#: runtime/kcontrol/componentchooser/componentservices/kcm_filemanager.desktop:1
+msgctxt "Name"
+msgid "File Manager"
+msgstr "Datajowy manager"
 
 #: runtime/kcontrol/componentchooser/componentservices/kcm_filemanager.desktop:80
 msgctxt "Comment"
@@ -7236,6 +7214,12 @@ msgctxt "Comment"
 msgid "Settings for display power management"
 msgstr "Nastajenja za milinu za wobrazowku"
 
+#: workspace/kcontrol/fonts/fonts.desktop:14
+#: workspace/kcontrol/kfontinst/kio/fonts.desktop:5
+msgctxt "Name"
+msgid "Fonts"
+msgstr "Pisma"
+
 #: workspace/kcontrol/fonts/fonts.desktop:94
 msgctxt "Comment"
 msgid "Font settings"
@@ -10339,7 +10323,7 @@ msgctxt "Name"
 msgid "Calculator"
 msgstr ""
 
-#: workspace/plasma/runners/calculator/plasma-runner-calculator.desktop:59
+#: workspace/plasma/runners/calculator/plasma-runner-calculator.desktop:60
 msgctxt "Comment"
 msgid "Calculate expressions"
 msgstr ""
@@ -11070,6 +11054,18 @@ msgstr ""
 msgctxt "Name"
 msgid "Vector Sunset"
 msgstr ""
+
+#~ msgctxt "Comment"
+#~ msgid "You can configure Konqueror's file manager mode here"
+#~ msgstr "Tu móžeće konqueror jako datajowy manager konfigurować."
+
+#~ msgctxt "Name"
+#~ msgid "Previews & Meta-Data"
+#~ msgstr "Přehladki a Meta-daty"
+
+#~ msgctxt "Comment"
+#~ msgid "You can configure how Konqueror Previews & Meta-data work here"
+#~ msgstr "Tu móžeće nastajić, kak přehladki a meta-daty w konqueroru dźěłaja."
 
 #~ msgctxt "Comment"
 #~ msgid "You can configure how the desktop behaves here"
