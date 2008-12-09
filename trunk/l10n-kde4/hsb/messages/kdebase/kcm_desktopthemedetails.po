@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-30 09:47+0100\n"
+"POT-Creation-Date: 2008-12-09 09:47+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,94 +17,175 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
+#: desktopthemedetails.cpp:267
+#, fuzzy
+#| msgid "Current Scheme:"
+msgctxt "plasma name"
+msgid "Color Scheme"
+msgstr "Tuchwilna šema:"
+
+#: desktopthemedetails.cpp:268
+#, fuzzy
+#| msgid "Save Background Image As"
+msgctxt "plasma name"
+msgid "Panel Background"
+msgstr "Pozadkowy wobraz zawěsćić jako"
+
+#: desktopthemedetails.cpp:269
+msgctxt "plasma name"
+msgid "Kickoff"
+msgstr ""
+
+#: desktopthemedetails.cpp:270
+#, fuzzy
+#| msgid "No Items"
+msgctxt "plasma name"
+msgid "Task Items"
+msgstr "Žane objekty"
+
+#: desktopthemedetails.cpp:271
+#, fuzzy
+#| msgid "Backward Word"
+msgctxt "plasma name"
+msgid "Widget Background"
+msgstr "Wo słowo dozady"
+
+#: desktopthemedetails.cpp:272
+#, fuzzy
+msgctxt "plasma name"
+msgid "Translucent Background"
+msgstr "Name=Papjernik"
+
+#: desktopthemedetails.cpp:273
+#, fuzzy
+msgctxt "plasma name"
+msgid "Dialog Background"
+msgstr "GenericName=Wobdźěłar dialogow"
+
+#: desktopthemedetails.cpp:274
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Analog Clock"
+msgctxt "plasma name"
+msgid "Analog Clock"
+msgstr "Analogny časnik"
+
+#: desktopthemedetails.cpp:275
+#, fuzzy
+#| msgid "Notes:"
+msgctxt "plasma name"
+msgid "Notes"
+msgstr "Přispomnjenja:"
+
+#: desktopthemedetails.cpp:276
+#, fuzzy
+msgctxt "plasma name"
+msgid "Tooltip"
+msgstr "Name=Hrajki"
+
+#: desktopthemedetails.cpp:277
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Pager"
+msgctxt "plasma name"
+msgid "Pager"
+msgstr "Listowar"
+
+#: desktopthemedetails.cpp:278
+#, fuzzy
+msgctxt "plasma name"
+msgid "Run Command Dialog"
+msgstr "Name=(5) Datajowe formaty"
+
+#: desktopthemedetails.cpp:279
+#, fuzzy
+msgctxt "plasma name"
+msgid "Shutdown Dialog"
+msgstr "Comment=Montowany CD-palak"
+
 #. i18n: file: DesktopThemeDetails.ui:25
 #. i18n: ectx: property (windowTitle), widget (QWidget, DesktopThemeItems)
-#: desktopthemedetails.cpp:263 desktopthemedetails.cpp:414
-#: desktopthemedetails.cpp:524 rc.cpp:3
+#: desktopthemedetails.cpp:289 desktopthemedetails.cpp:447 rc.cpp:3
 msgid "Desktop Theme Details"
 msgstr ""
 
-#: desktopthemedetails.cpp:414
+#: desktopthemedetails.cpp:447
 msgid "Unable to save theme."
 msgstr ""
 
-#: desktopthemedetails.cpp:431
+#: desktopthemedetails.cpp:464
 #, kde-format
 msgid ""
 "To change your desktop theme to \"%1\", open\n"
 "Desktop Settings and select \"%2\" from the droplist."
 msgstr ""
 
-#: desktopthemedetails.cpp:431
+#: desktopthemedetails.cpp:464
 #, fuzzy
 msgid "How to Change Desktop Theme"
 msgstr "Name=Dźěłowy powjerch"
 
-#: desktopthemedetails.cpp:442
+#: desktopthemedetails.cpp:475
 #, kde-format
 msgid ""
 "Theme items have been changed.  Do you still wish remove the \"%1\" theme?"
 msgstr ""
 
-#: desktopthemedetails.cpp:442 desktopthemedetails.cpp:447
-#: desktopthemedetails.cpp:450
+#: desktopthemedetails.cpp:475 desktopthemedetails.cpp:480
+#: desktopthemedetails.cpp:483
 #, fuzzy
 msgid "Remove Desktop Theme"
 msgstr "Name=Dźěłowy powjerch"
 
-#: desktopthemedetails.cpp:447
+#: desktopthemedetails.cpp:480
 msgid "Removal of the default KDE theme is not allowed."
 msgstr ""
 
-#: desktopthemedetails.cpp:450
+#: desktopthemedetails.cpp:483
 #, kde-format
 msgid "Are you sure you wish remove the \"%1\" theme?"
 msgstr ""
 
-#: desktopthemedetails.cpp:468
+#: desktopthemedetails.cpp:501
 msgid "Unfortunately, this feature is not yet implemented."
 msgstr ""
 
-#: desktopthemedetails.cpp:468
+#: desktopthemedetails.cpp:501
 #, fuzzy
 msgid "Export Desktop Theme"
 msgstr "Name=Dźěłowy powjerch"
 
-#: desktopthemedetails.cpp:524
-msgid "Theme items data file could not be found."
-msgstr ""
-
-#: desktopthemedetails.cpp:530
+#: desktopthemedetails.cpp:545
 msgid "Theme Item"
 msgstr ""
 
-#: desktopthemedetails.cpp:530
+#: desktopthemedetails.cpp:545
 msgid "Source"
 msgstr "Žórło"
 
-#: desktopthemedetails.cpp:591
+#: desktopthemedetails.cpp:606
 #, fuzzy, kde-format
 #| msgctxt "concatenation of dates and time"
 #| msgid "%1 %2"
 msgid "%1 %2"
 msgstr "%1%2"
 
-#: desktopthemedetails.cpp:600 desktopthemedetails.cpp:618
+#: desktopthemedetails.cpp:615 desktopthemedetails.cpp:633
 msgid "File..."
 msgstr ""
 
-#: desktopthemedetails.cpp:620
+#: desktopthemedetails.cpp:635
 #, fuzzy, kde-format
 #| msgid "Select File to Execute"
 msgid "Select File to Use for %1"
 msgstr "Wubjerće program, kiž ma so startować"
 
-#: desktopthemedetails.cpp:657
+#: desktopthemedetails.cpp:672
 #, kde-format
 msgid " Author: %1"
 msgstr ""
 
-#: desktopthemedetails.cpp:664
+#: desktopthemedetails.cpp:679
 #, kde-format
 msgid "Version: %1"
 msgstr "Wersija: %1"
@@ -4055,9 +4136,6 @@ msgstr ""
 #~ msgid "Shortcut Schemes"
 #~ msgstr "Šemy skrótšenkow"
 
-#~ msgid "Current Scheme:"
-#~ msgstr "Tuchwilna šema:"
-
 #~ msgid "More Actions"
 #~ msgstr "Dalše akcije"
 
@@ -5710,9 +5788,6 @@ msgstr ""
 #~ msgid "Alias names:"
 #~ msgstr "Pseudonymy:"
 
-#~ msgid "Notes:"
-#~ msgstr "Přispomnjenja:"
-
 #~ msgid "See also:"
 #~ msgstr "Hlej tež:"
 
@@ -7292,9 +7367,6 @@ msgstr ""
 
 #~ msgid "   <a href=\"%1\">[Properties]</a>"
 #~ msgstr "   <a href=\"%1\">[swójstwa]</a>"
-
-#~ msgid "Save Background Image As"
-#~ msgstr "Pozadkowy wobraz zawěsćić jako"
 
 #~ msgid "Save Frame As"
 #~ msgstr "Ramik zawěsćić jako"
@@ -9462,11 +9534,6 @@ msgstr ""
 #~ msgstr "KDE certifikatowy objekt"
 
 #, fuzzy
-#~| msgid "Backward Word"
-#~ msgid "Background Mode"
-#~ msgstr "Wo słowo dozady"
-
-#, fuzzy
 #~| msgid "Main:"
 #~ msgid "Plain"
 #~ msgstr "Hłowna dataja:"
@@ -10381,11 +10448,6 @@ msgstr ""
 #~ msgstr[1] "%1 dnaj %2"
 #~ msgstr[2] "%1 dny %2"
 #~ msgstr[3] "%1 dnjow %2"
-
-#, fuzzy
-#~| msgid "No Items"
-#~ msgid "0 Items"
-#~ msgstr "Žane objekty"
 
 #, fuzzy
 #~| msgid "%1 folder"
@@ -21520,11 +21582,6 @@ msgstr ""
 #~ msgstr "Name=Dźěłowy powjerch"
 
 #, fuzzy
-#~ msgctxt "Name"
-#~ msgid "Dialog Parent"
-#~ msgstr "GenericName=Wobdźěłar dialogow"
-
-#, fuzzy
 #~ msgctxt "Comment"
 #~ msgid "Darken inactive windows"
 #~ msgstr "Name=Zakładne wokno"
@@ -21543,11 +21600,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "KWin Effect"
 #~ msgstr "Comment=Montowany CD-palak"
-
-#, fuzzy
-#~ msgctxt "Name"
-#~ msgid "Translucency"
-#~ msgstr "Name=Papjernik"
 
 #, fuzzy
 #~ msgctxt "Name"
@@ -21851,11 +21903,6 @@ msgstr ""
 
 #, fuzzy
 #~ msgctxt "Name"
-#~ msgid "New Dialog"
-#~ msgstr "Comment=Montowany CD-palak"
-
-#, fuzzy
-#~ msgctxt "Name"
 #~ msgid "Window Move Start"
 #~ msgstr "Comment=Montowany CD-palak"
 
@@ -21936,10 +21983,6 @@ msgstr ""
 #~ msgid "Tabbar to switch activities"
 #~ msgstr "Tabulatorowy pas za přešaltowanje mjez aktiwitami"
 
-#~ msgctxt "Name"
-#~ msgid "Analog Clock"
-#~ msgstr "Analogny časnik"
-
 #~ msgctxt "Comment"
 #~ msgid "An SVG themable clock"
 #~ msgstr "SVG-časnik z temami"
@@ -22011,10 +22054,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Lock the screen or log out"
 #~ msgstr "Wobrazowku zamknyć abo so wotzjewić"
-
-#~ msgctxt "Name"
-#~ msgid "Pager"
-#~ msgstr "Listowar"
 
 #~ msgctxt "Comment"
 #~ msgid "Switch between virtual desktops"
@@ -22097,11 +22136,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Dictionary"
 #~ msgstr "Name=Wjace programow"
-
-#, fuzzy
-#~ msgctxt "Name"
-#~ msgid "Run Commands"
-#~ msgstr "Name=(5) Datajowe formaty"
 
 #, fuzzy
 #~ msgctxt "Comment"
@@ -22548,11 +22582,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Settings-Modules"
 #~ msgstr "Name=Nastajenja -module"
-
-#, fuzzy
-#~ msgctxt "X-KDE-PluginInfo-Category"
-#~ msgid "Tools"
-#~ msgstr "Name=Hrajki"
 
 #, fuzzy
 #~ msgctxt "X-KDE-PluginInfo-Category"
