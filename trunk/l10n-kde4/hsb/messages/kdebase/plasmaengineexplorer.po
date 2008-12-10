@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-05 10:17+0100\n"
+"POT-Creation-Date: 2008-12-10 10:57+0100\n"
 "PO-Revision-Date: 2008-11-22 12:57+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,39 +17,39 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: engineexplorer.cpp:56 main.cpp:32
+#: engineexplorer.cpp:57 main.cpp:32
 msgid "Plasma Engine Explorer"
 msgstr "Plasma Engine Explorer"
 
-#: engineexplorer.cpp:72
+#: engineexplorer.cpp:73
 msgid "Search"
 msgstr "Pytać"
 
-#: engineexplorer.cpp:78
+#: engineexplorer.cpp:79
 msgid "Collapse All"
 msgstr "Wšě zesćahać"
 
-#: engineexplorer.cpp:79
+#: engineexplorer.cpp:80
 msgid "Expand All"
 msgstr "Wšě zrozćahać"
 
-#: engineexplorer.cpp:147
+#: engineexplorer.cpp:148
 msgid "DataSource"
 msgstr "Žórło za daty"
 
 #. i18n: file: serviceviewer.ui:67
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:147 rc.cpp:28 serviceviewer.cpp:139
+#: engineexplorer.cpp:148 rc.cpp:28 serviceviewer.cpp:140
 msgid "Key"
 msgstr "Kluč"
 
 #. i18n: file: serviceviewer.ui:72
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:147 rc.cpp:31 serviceviewer.cpp:139
+#: engineexplorer.cpp:148 rc.cpp:31 serviceviewer.cpp:140
 msgid "Value"
 msgstr "Hódnota"
 
-#: engineexplorer.cpp:147
+#: engineexplorer.cpp:148
 msgid "Type"
 msgstr "Družina"
 
@@ -92,14 +92,14 @@ msgstr[1] "&lt;%1 objektaj&gt;"
 msgstr[2] "&lt;%1 objekty&gt;"
 msgstr[3] "&lt;%1 objektow&gt;"
 
-#: engineexplorer.cpp:365
+#: engineexplorer.cpp:376
 #, fuzzy
 #| msgid "<empty>"
 msgctxt "The user did a query to a dataengine and it returned empty data"
 msgid "<empty>"
 msgstr "<prózdny>"
 
-#: engineexplorer.cpp:372
+#: engineexplorer.cpp:383
 #, fuzzy
 #| msgid "<not displayable>"
 msgctxt ""
@@ -110,11 +110,11 @@ msgstr "<njepokazujomny>"
 
 #. i18n: file: engineexplorer.ui:19
 #. i18n: ectx: property (text), widget (KTitleWidget, m_title)
-#: engineexplorer.cpp:409 rc.cpp:3
+#: engineexplorer.cpp:420 rc.cpp:3
 msgid "Plasma DataEngine Explorer"
 msgstr "Plasma DataEngine Explorer"
 
-#: engineexplorer.cpp:414
+#: engineexplorer.cpp:425
 #, kde-format
 msgctxt "The name of the engine followed by the number of data sources"
 msgid "%1 Engine - 1 data source"
@@ -173,6 +173,12 @@ msgid "The data engine to use"
 msgstr "Data engine, kiž ma so wužiwać"
 
 #: main.cpp:47
+#, fuzzy
+#| msgid "The subscription request failed."
+msgid "The source to request"
+msgstr "Subskripcija zwrěšćena."
+
+#: main.cpp:48
 msgid "Update Interval in milliseconds."
 msgstr "Interwal aktualzowanja w milisekundach."
 
@@ -253,32 +259,32 @@ msgctxt "Plasma service with unknown name"
 msgid "Unknown"
 msgstr "Njeznate"
 
-#: serviceviewer.cpp:65
+#: serviceviewer.cpp:66
 #, fuzzy, kde-format
 #| msgid "%1 Service Explorer"
 msgctxt "%1 is a Plasma service name"
 msgid "%1 Service Explorer"
 msgstr "%1 Wuslědźer słužbow"
 
-#: serviceviewer.cpp:67
+#: serviceviewer.cpp:68
 #, kde-format
 msgid "DataEngine: <b>%1</b>; Source: <b>%2</b>; Service <b>%3</b>"
 msgstr "DataEngine: <b>%1</b>; Žórło: <b>%2</b>; Słužba <b>%3</b>"
 
-#: serviceviewer.cpp:168
+#: serviceviewer.cpp:169
 #, kde-format
 msgid "%1 operation with destination %2 failed. The error was:<p><b>%3</b>"
 msgstr "Operacija %1 z cilom %2 je so zwrěšćiła. Zmylk:<p><b>%3</b>"
 
-#: serviceviewer.cpp:171 serviceviewer.cpp:182
+#: serviceviewer.cpp:172 serviceviewer.cpp:183
 msgid "Operation Result"
 msgstr "Wuslědk operacije"
 
-#: serviceviewer.cpp:175
+#: serviceviewer.cpp:176
 msgid "No response from job!"
 msgstr "Žana reakcija nadawka!"
 
-#: serviceviewer.cpp:179
+#: serviceviewer.cpp:180
 #, kde-format
 msgid ""
 "%1 operation with destination %2 returned successfully. The result was:<p><b>"
@@ -286,7 +292,7 @@ msgid ""
 msgstr ""
 "Operacija %1 z cilom %2 je so wuspěšnje zakónčiła. Wuslědk bě: <p><b>%3</b>"
 
-#: serviceviewer.cpp:204
+#: serviceviewer.cpp:205
 #, fuzzy, kde-format
 #| msgid "Continue operation"
 msgid "One active operation ..."
@@ -3673,9 +3679,6 @@ msgstr[3] "Z akciju pokročować"
 
 #~ msgid "Subscription to entry"
 #~ msgstr "Subskribować k zapisej"
-
-#~ msgid "The subscription request failed."
-#~ msgstr "Subskripcija zwrěšćena."
 
 #~ msgid "The rating was submitted successfully."
 #~ msgstr "Hódnoćenje wuspěšnje wotpósłane."
