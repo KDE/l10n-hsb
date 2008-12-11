@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-09 09:47+0100\n"
+"POT-Creation-Date: 2008-12-11 10:37+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -105,87 +105,100 @@ msgstr "Comment=Montowany CD-palak"
 
 #. i18n: file: DesktopThemeDetails.ui:25
 #. i18n: ectx: property (windowTitle), widget (QWidget, DesktopThemeItems)
-#: desktopthemedetails.cpp:289 desktopthemedetails.cpp:447 rc.cpp:3
+#: desktopthemedetails.cpp:289 desktopthemedetails.cpp:448 rc.cpp:3
 msgid "Desktop Theme Details"
 msgstr ""
 
-#: desktopthemedetails.cpp:447
+#: desktopthemedetails.cpp:423 desktopthemedetails.cpp:438
+#: desktopthemedetails.cpp:573 desktopthemedetails.cpp:606
+#: desktopthemedetails.cpp:684
+#, fuzzy
+#| msgctxt "@item license"
+#| msgid "Custom"
+msgid "(Customized)"
+msgstr "Konfigurowane"
+
+#: desktopthemedetails.cpp:438
+msgid "User customized theme"
+msgstr ""
+
+#: desktopthemedetails.cpp:448
 msgid "Unable to save theme."
 msgstr ""
 
-#: desktopthemedetails.cpp:464
+#: desktopthemedetails.cpp:465
 #, kde-format
 msgid ""
 "To change your desktop theme to \"%1\", open\n"
 "Desktop Settings and select \"%2\" from the droplist."
 msgstr ""
 
-#: desktopthemedetails.cpp:464
+#: desktopthemedetails.cpp:465
 #, fuzzy
 msgid "How to Change Desktop Theme"
 msgstr "Name=Dźěłowy powjerch"
 
-#: desktopthemedetails.cpp:475
+#: desktopthemedetails.cpp:476
 #, kde-format
 msgid ""
 "Theme items have been changed.  Do you still wish remove the \"%1\" theme?"
 msgstr ""
 
-#: desktopthemedetails.cpp:475 desktopthemedetails.cpp:480
-#: desktopthemedetails.cpp:483
+#: desktopthemedetails.cpp:476 desktopthemedetails.cpp:481
+#: desktopthemedetails.cpp:484
 #, fuzzy
 msgid "Remove Desktop Theme"
 msgstr "Name=Dźěłowy powjerch"
 
-#: desktopthemedetails.cpp:480
+#: desktopthemedetails.cpp:481
 msgid "Removal of the default KDE theme is not allowed."
 msgstr ""
 
-#: desktopthemedetails.cpp:483
+#: desktopthemedetails.cpp:484
 #, kde-format
 msgid "Are you sure you wish remove the \"%1\" theme?"
 msgstr ""
 
-#: desktopthemedetails.cpp:501
+#: desktopthemedetails.cpp:502
 msgid "Unfortunately, this feature is not yet implemented."
 msgstr ""
 
-#: desktopthemedetails.cpp:501
+#: desktopthemedetails.cpp:502
 #, fuzzy
 msgid "Export Desktop Theme"
 msgstr "Name=Dźěłowy powjerch"
 
-#: desktopthemedetails.cpp:545
+#: desktopthemedetails.cpp:546
 msgid "Theme Item"
 msgstr ""
 
-#: desktopthemedetails.cpp:545
+#: desktopthemedetails.cpp:546
 msgid "Source"
 msgstr "Žórło"
 
-#: desktopthemedetails.cpp:606
+#: desktopthemedetails.cpp:607
 #, fuzzy, kde-format
 #| msgctxt "concatenation of dates and time"
 #| msgid "%1 %2"
 msgid "%1 %2"
 msgstr "%1%2"
 
-#: desktopthemedetails.cpp:615 desktopthemedetails.cpp:633
+#: desktopthemedetails.cpp:616 desktopthemedetails.cpp:634
 msgid "File..."
 msgstr ""
 
-#: desktopthemedetails.cpp:635
+#: desktopthemedetails.cpp:636
 #, fuzzy, kde-format
 #| msgid "Select File to Execute"
 msgid "Select File to Use for %1"
 msgstr "Wubjerće program, kiž ma so startować"
 
-#: desktopthemedetails.cpp:672
+#: desktopthemedetails.cpp:673
 #, kde-format
 msgid " Author: %1"
 msgstr ""
 
-#: desktopthemedetails.cpp:679
+#: desktopthemedetails.cpp:680
 #, kde-format
 msgid "Version: %1"
 msgstr "Wersija: %1"
@@ -2720,10 +2733,6 @@ msgstr ""
 #~ msgctxt "@item license"
 #~ msgid "GNU Lesser General Public License Version 3"
 #~ msgstr "GNU Lesser General Public License Version 3"
-
-#~ msgctxt "@item license"
-#~ msgid "Custom"
-#~ msgstr "Konfigurowane"
 
 #~ msgctxt "@item license"
 #~ msgid "Not specified"
