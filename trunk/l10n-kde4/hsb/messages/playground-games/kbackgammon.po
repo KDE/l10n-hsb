@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-19 11:04+0100\n"
+"POT-Creation-Date: 2008-12-19 10:01+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,92 +17,116 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: kbg.cpp:142 kbg.cpp:163 main.cpp:43
+#: kbg.cpp:138 kbg.cpp:159 main.cpp:43
 msgid "KBackgammon"
 msgstr ""
 
-#: kbg.cpp:143
+#: kbg.cpp:139
 msgid "FIBS"
 msgstr ""
 
-#: kbg.cpp:144
+#: kbg.cpp:140
 msgid "GNU Backgammon (Experimental)"
 msgstr ""
 
-#: kbg.cpp:147
+#: kbg.cpp:143
 msgid "FIBS Home"
 msgstr ""
 
-#: kbg.cpp:150
+#: kbg.cpp:146
 msgid "Backgammon Rules"
 msgstr ""
 
+#: kbg.cpp:172
+msgid "&Play offline"
+msgstr ""
+
+#: kbg.cpp:176
+msgid "With a friend"
+msgstr ""
+
+#: kbg.cpp:182
+#, fuzzy
+msgid "Advanced AI"
+msgstr "Opcije za pokročenych"
+
+#: kbg.cpp:187
+msgid "Expert AI"
+msgstr ""
+
+#: kbg.cpp:192
+msgid "&Play online"
+msgstr ""
+
 #: kbg.cpp:196
+msgid "&FIBS"
+msgstr ""
+
+#: kbg.cpp:222
 msgid "Double Cube"
 msgstr ""
 
-#: kbg.cpp:207
+#: kbg.cpp:233
 msgid "&Backgammon on the Web"
 msgstr ""
 
-#: kbg.cpp:224
+#: kbg.cpp:249
 msgid "Command: "
 msgstr ""
 
-#: kbg.cpp:264
+#: kbg.cpp:289
 msgid ""
 "This area contains the status messages for the game. Most of these messages "
 "are sent to you from the current engine."
 msgstr ""
 
-#: kbg.cpp:268
+#: kbg.cpp:293
 msgid ""
 "This is the command line. You can type special commands related to the "
 "current engine in here. Most relevant commands are also available through "
 "the menus."
 msgstr ""
 
-#: kbg.cpp:273
+#: kbg.cpp:298
 msgid ""
 "This is the button bar tool bar. It gives you easy access to game related "
 "commands. You can drag the bar to a different location within the window."
 msgstr ""
 
-#: kbg.cpp:278
+#: kbg.cpp:303
 msgid ""
 "This is the status bar. It shows you the currently selected engine in the "
 "left corner."
 msgstr ""
 
-#: kbg.cpp:606
+#: kbg.cpp:603
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Font settings"
+msgid "KBackgammon settings"
+msgstr "Nastajenja za pisma"
+
+#: kbg.cpp:615
 msgid "General settings"
 msgstr ""
 
-#: kbg.cpp:607
+#: kbg.cpp:616
 msgid "General"
 msgstr "Generelnje"
 
-#: kbg.cpp:614
-msgid "Game Type"
-msgstr ""
-
-#: kbg.cpp:615
+#: kbg.cpp:623
 msgid "Messages"
 msgstr ""
 
-#: kbg.cpp:616
+#: kbg.cpp:624
 msgid "Timer"
 msgstr ""
 
-#: kbg.cpp:617
+#: kbg.cpp:625
 msgid "Autosave"
 msgstr ""
 
-#: kbg.cpp:618
-msgid "Events"
-msgstr "Eventy"
-
-#: kbg.cpp:640
+#: kbg.cpp:630
 msgid ""
 "After you finished your moves, they have to be sent to the engine. You can "
 "either do that manually (in which case you should not enable this feature), "
@@ -112,59 +136,41 @@ msgid ""
 "like to review the result of your move."
 msgstr ""
 
-#: kbg.cpp:647
+#: kbg.cpp:637
 msgid "Enable timeout"
 msgstr ""
 
-#: kbg.cpp:652
+#: kbg.cpp:642
 msgid "Move timeout in seconds:"
 msgstr ""
 
-#: kbg.cpp:666
+#: kbg.cpp:656
 msgid ""
 "Check the box to enable all the messages that you have previously disabled "
 "by choosing the \"Do not show this message again\" option."
 msgstr ""
 
-#: kbg.cpp:671
+#: kbg.cpp:661
 msgid "Reenable all messages"
 msgstr ""
 
-#: kbg.cpp:677
+#: kbg.cpp:667
 msgid ""
 "Check the box to automatically save all window positions on program exit. "
 "They will be restored at next start."
 msgstr ""
 
-#: kbg.cpp:682
+#: kbg.cpp:672
 msgid "Save settings on exit"
 msgstr ""
 
-#: kbg.cpp:689
-#, kde-format
-msgid ""
-"Event notification of %1 is configured as part of the system-wide "
-"notification process. Click here, and you will be able to configure system "
-"sounds, etc."
-msgstr ""
-
-#: kbg.cpp:698
-#, fuzzy
-msgid "Configure events"
-msgstr "&Pokročować"
-
-#: kbg.cpp:764
-#, kde-format
-msgid "Print %1"
-msgstr ""
-
-#: kbg.cpp:782
+#: kbg.cpp:740
 msgid ""
 "You can enable the menubar again with the right mouse button menu of the "
 "board."
 msgstr ""
 
-#: kbg.cpp:784
+#: kbg.cpp:742
 msgid "Information"
 msgstr "informacija"
 
@@ -1634,36 +1640,36 @@ msgid "Current maintainer"
 msgstr ""
 
 #. i18n: file: kbackgammonui.rc:6
-#. i18n: ectx: Menu (move)
+#. i18n: ectx: Menu (game)
 #: rc.cpp:3
+msgid "&Game"
+msgstr "&Hra"
+
+#. i18n: file: kbackgammonui.rc:14
+#. i18n: ectx: Menu (move)
+#: rc.cpp:6
 msgid "&Move"
 msgstr ""
 
-#. i18n: file: kbackgammonui.rc:11
+#. i18n: file: kbackgammonui.rc:18
 #. i18n: ectx: Menu (command_menu)
-#: rc.cpp:6
+#: rc.cpp:9
 msgid "&Command"
 msgstr ""
 
-#. i18n: file: kbackgammonui.rc:13
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:9
-msgid "&Settings"
-msgstr "&Nastajenja"
-
-#. i18n: file: kbackgammonui.rc:16
+#. i18n: file: kbackgammonui.rc:20
 #. i18n: ectx: Menu (help)
 #: rc.cpp:12
 msgid "&Help"
 msgstr "Po&moc"
 
-#. i18n: file: kbackgammonui.rc:21
+#. i18n: file: kbackgammonui.rc:25
 #. i18n: ectx: ToolBar (mainToolBar)
 #: rc.cpp:15
 msgid "Main Toolbar"
 msgstr "Hłowny nastrojowy pas"
 
-#. i18n: file: kbackgammonui.rc:37
+#. i18n: file: kbackgammonui.rc:40
 #. i18n: ectx: ToolBar (cmdToolBar)
 #: rc.cpp:18
 msgid "Command Toolbar"
@@ -1678,6 +1684,16 @@ msgstr ""
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
+
+#~ msgid "Events"
+#~ msgstr "Eventy"
+
+#, fuzzy
+#~ msgid "Configure events"
+#~ msgstr "&Pokročować"
+
+#~ msgid "&Settings"
+#~ msgstr "&Nastajenja"
 
 #~ msgid "Editor Chooser"
 #~ msgstr "Wuběranje editora"
@@ -2056,9 +2072,6 @@ msgstr ""
 
 #~ msgid "&File"
 #~ msgstr "&Dataja"
-
-#~ msgid "&Game"
-#~ msgstr "&Hra"
 
 #~ msgid "&Edit"
 #~ msgstr "&Wobdźěłać"
@@ -16075,10 +16088,6 @@ msgstr ""
 #~ msgid "Notification Settings"
 #~ msgstr "Nastajenja zdźělenja"
 
-#, fuzzy
-#~ msgid "Advanced <<"
-#~ msgstr "Opcije za pokročenych"
-
 #~ msgid "Hide advanced options"
 #~ msgstr "Chowaj opcije za pokročenych"
 
@@ -21939,10 +21948,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Settings for display power management"
 #~ msgstr "Nastajenja za milinu za wobrazowku"
-
-#~ msgctxt "Comment"
-#~ msgid "Font settings"
-#~ msgstr "Nastajenja za pisma"
 
 #~ msgctxt "Name"
 #~ msgid "Display"
