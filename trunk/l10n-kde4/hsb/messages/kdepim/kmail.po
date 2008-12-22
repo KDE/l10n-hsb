@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-19 09:55+0100\n"
+"POT-Creation-Date: 2008-12-22 10:21+0100\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -182,30 +182,30 @@ msgstr "<qt> Zmylk<b></b><br></qt>"
 msgid "Failed to create folder"
 msgstr "Njemóžach zapisk stworić"
 
-#: keyresolver.cpp:228
+#: keyresolver.cpp:263
 msgid ""
 "One or more of your configured OpenPGP encryption keys or S/MIME "
 "certificates is not fully trusted for encryption."
 msgstr ""
 
-#: keyresolver.cpp:234
+#: keyresolver.cpp:269
 msgid ""
 "\n"
 "The following keys are only marginally trusted: \n"
 msgstr ""
 
-#: keyresolver.cpp:238
+#: keyresolver.cpp:273
 msgid ""
 "\n"
 "The following keys or certificates have unknown trust level: \n"
 msgstr ""
 
-#: keyresolver.cpp:242
+#: keyresolver.cpp:277
 #, fuzzy
 msgid "Not Fully Trusted Encryption Keys"
 msgstr "Njedefinowany šifrowanski kluč"
 
-#: keyresolver.cpp:544
+#: keyresolver.cpp:579
 #, kde-format
 msgid ""
 "<p>Your OpenPGP signing key</p><p align=\"center\"><b>%2</b> (KeyID 0x%3)</"
@@ -218,7 +218,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: keyresolver.cpp:548
+#: keyresolver.cpp:583
 #, kde-format
 msgid ""
 "<p>Your OpenPGP encryption key</p><p align=\"center\"><b>%2</b> (KeyID 0x%3)"
@@ -231,7 +231,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: keyresolver.cpp:552
+#: keyresolver.cpp:587
 #, kde-format
 msgid ""
 "<p>The OpenPGP key for</p><p align=\"center\"><b>%2</b> (KeyID 0x%3)</"
@@ -244,7 +244,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: keyresolver.cpp:563
+#: keyresolver.cpp:598
 #, kde-format
 msgid ""
 "<p>The root certificate</p><p align=\"center\"><b>%4</b></p><p>for your S/"
@@ -259,7 +259,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: keyresolver.cpp:569
+#: keyresolver.cpp:604
 #, kde-format
 msgid ""
 "<p>The root certificate</p><p align=\"center\"><b>%4</b></p><p>for your S/"
@@ -269,79 +269,6 @@ msgid_plural ""
 "<p>The root certificate</p><p align=\"center\"><b>%4</b></p><p>for your S/"
 "MIME encryption certificate</p><p align=\"center\"><b>%2</b> (serial number %"
 "3)</p><p>expires in less than %1 days.</p>"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: keyresolver.cpp:575
-#, kde-format
-msgid ""
-"<p>The root certificate</p><p align=\"center\"><b>%4</b></p><p>for S/MIME "
-"certificate</p><p align=\"center\"><b>%2</b> (serial number %3)</"
-"p><p>expires in less than a day.</p>"
-msgid_plural ""
-"<p>The root certificate</p><p align=\"center\"><b>%4</b></p><p>for S/MIME "
-"certificate</p><p align=\"center\"><b>%2</b> (serial number %3)</"
-"p><p>expires in less than %1 days.</p>"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: keyresolver.cpp:582
-#, kde-format
-msgid ""
-"<p>The intermediate CA certificate</p><p align=\"center\"><b>%4</b></"
-"p><p>for your S/MIME signing certificate</p><p align=\"center\"><b>%2</b> "
-"(serial number %3)</p><p>expires in less than a day.</p>"
-msgid_plural ""
-"<p>The intermediate CA certificate</p><p align=\"center\"><b>%4</b></"
-"p><p>for your S/MIME signing certificate</p><p align=\"center\"><b>%2</b> "
-"(serial number %3)</p><p>expires in less than %1 days.</p>"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: keyresolver.cpp:588
-#, kde-format
-msgid ""
-"<p>The intermediate CA certificate</p><p align=\"center\"><b>%4</b></"
-"p><p>for your S/MIME encryption certificate</p><p align=\"center\"><b>%2</b> "
-"(serial number %3)</p><p>expires in less than a day.</p>"
-msgid_plural ""
-"<p>The intermediate CA certificate</p><p align=\"center\"><b>%4</b></"
-"p><p>for your S/MIME encryption certificate</p><p align=\"center\"><b>%2</b> "
-"(serial number %3)</p><p>expires in less than %1 days.</p>"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: keyresolver.cpp:594
-#, kde-format
-msgid ""
-"<p>The intermediate CA certificate</p><p align=\"center\"><b>%4</b></"
-"p><p>for S/MIME certificate</p><p align=\"center\"><b>%2</b> (serial number %"
-"3)</p><p>expires in less than a day.</p>"
-msgid_plural ""
-"<p>The intermediate CA certificate</p><p align=\"center\"><b>%4</b></"
-"p><p>for S/MIME certificate</p><p align=\"center\"><b>%2</b> (serial number %"
-"3)</p><p>expires in less than %1 days.</p>"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: keyresolver.cpp:606
-#, kde-format
-msgid ""
-"<p>Your S/MIME signing certificate</p><p align=\"center\"><b>%2</b> (serial "
-"number %3)</p><p>expires in less than a day.</p>"
-msgid_plural ""
-"<p>Your S/MIME signing certificate</p><p align=\"center\"><b>%2</b> (serial "
-"number %3)</p><p>expires in less than %1 days.</p>"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -350,6 +277,79 @@ msgstr[3] ""
 #: keyresolver.cpp:610
 #, kde-format
 msgid ""
+"<p>The root certificate</p><p align=\"center\"><b>%4</b></p><p>for S/MIME "
+"certificate</p><p align=\"center\"><b>%2</b> (serial number %3)</"
+"p><p>expires in less than a day.</p>"
+msgid_plural ""
+"<p>The root certificate</p><p align=\"center\"><b>%4</b></p><p>for S/MIME "
+"certificate</p><p align=\"center\"><b>%2</b> (serial number %3)</"
+"p><p>expires in less than %1 days.</p>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: keyresolver.cpp:617
+#, kde-format
+msgid ""
+"<p>The intermediate CA certificate</p><p align=\"center\"><b>%4</b></"
+"p><p>for your S/MIME signing certificate</p><p align=\"center\"><b>%2</b> "
+"(serial number %3)</p><p>expires in less than a day.</p>"
+msgid_plural ""
+"<p>The intermediate CA certificate</p><p align=\"center\"><b>%4</b></"
+"p><p>for your S/MIME signing certificate</p><p align=\"center\"><b>%2</b> "
+"(serial number %3)</p><p>expires in less than %1 days.</p>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: keyresolver.cpp:623
+#, kde-format
+msgid ""
+"<p>The intermediate CA certificate</p><p align=\"center\"><b>%4</b></"
+"p><p>for your S/MIME encryption certificate</p><p align=\"center\"><b>%2</b> "
+"(serial number %3)</p><p>expires in less than a day.</p>"
+msgid_plural ""
+"<p>The intermediate CA certificate</p><p align=\"center\"><b>%4</b></"
+"p><p>for your S/MIME encryption certificate</p><p align=\"center\"><b>%2</b> "
+"(serial number %3)</p><p>expires in less than %1 days.</p>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: keyresolver.cpp:629
+#, kde-format
+msgid ""
+"<p>The intermediate CA certificate</p><p align=\"center\"><b>%4</b></"
+"p><p>for S/MIME certificate</p><p align=\"center\"><b>%2</b> (serial number %"
+"3)</p><p>expires in less than a day.</p>"
+msgid_plural ""
+"<p>The intermediate CA certificate</p><p align=\"center\"><b>%4</b></"
+"p><p>for S/MIME certificate</p><p align=\"center\"><b>%2</b> (serial number %"
+"3)</p><p>expires in less than %1 days.</p>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: keyresolver.cpp:641
+#, kde-format
+msgid ""
+"<p>Your S/MIME signing certificate</p><p align=\"center\"><b>%2</b> (serial "
+"number %3)</p><p>expires in less than a day.</p>"
+msgid_plural ""
+"<p>Your S/MIME signing certificate</p><p align=\"center\"><b>%2</b> (serial "
+"number %3)</p><p>expires in less than %1 days.</p>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: keyresolver.cpp:645
+#, kde-format
+msgid ""
 "<p>Your S/MIME encryption certificate</p><p align=\"center\"><b>%2</b> "
 "(serial number %3)</p><p>expires in less than a day.</p>"
 msgid_plural ""
@@ -360,7 +360,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: keyresolver.cpp:614
+#: keyresolver.cpp:649
 #, kde-format
 msgid ""
 "<p>The S/MIME certificate for</p><p align=\"center\"><b>%2</b> (serial "
@@ -373,15 +373,15 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: keyresolver.cpp:624
+#: keyresolver.cpp:659
 msgid "OpenPGP Key Expires Soon"
 msgstr ""
 
-#: keyresolver.cpp:625
+#: keyresolver.cpp:660
 msgid "S/MIME Certificate Expires Soon"
 msgstr ""
 
-#: keyresolver.cpp:659
+#: keyresolver.cpp:694
 msgid ""
 "One or more of your configured OpenPGP encryption keys or S/MIME "
 "certificates is not usable for encryption. Please reconfigure your "
@@ -391,12 +391,12 @@ msgid ""
 "prompted to specify the keys to use."
 msgstr ""
 
-#: keyresolver.cpp:667 keyresolver.cpp:980 keyresolver.cpp:1007
+#: keyresolver.cpp:702 keyresolver.cpp:1015 keyresolver.cpp:1042
 #, fuzzy
 msgid "Unusable Encryption Keys"
 msgstr "Njedefinowany šifrowanski kluč"
 
-#: keyresolver.cpp:703
+#: keyresolver.cpp:738
 msgid ""
 "One or more of your configured OpenPGP signing keys or S/MIME signing "
 "certificates is not usable for signing. Please reconfigure your signing keys "
@@ -405,12 +405,12 @@ msgid ""
 "prompted to specify the keys to use."
 msgstr ""
 
-#: keyresolver.cpp:711 keyresolver.cpp:1034 keyresolver.cpp:1051
+#: keyresolver.cpp:746 keyresolver.cpp:1069 keyresolver.cpp:1086
 #, fuzzy
 msgid "Unusable Signing Keys"
 msgstr "Njedefinowane podpisowanski kluč"
 
-#: keyresolver.cpp:971
+#: keyresolver.cpp:1006
 msgid ""
 "Examination of recipient's encryption preferences yielded that the message "
 "should be encrypted using OpenPGP, at least for some recipients;\n"
@@ -420,7 +420,7 @@ msgid ""
 "not be able to read your own messages if you do so."
 msgstr ""
 
-#: keyresolver.cpp:998
+#: keyresolver.cpp:1033
 msgid ""
 "Examination of recipient's encryption preferences yielded that the message "
 "should be encrypted using S/MIME, at least for some recipients;\n"
@@ -430,7 +430,7 @@ msgid ""
 "not be able to read your own messages if you do so."
 msgstr ""
 
-#: keyresolver.cpp:1028
+#: keyresolver.cpp:1063
 msgid ""
 "Examination of recipient's signing preferences yielded that the message "
 "should be signed using OpenPGP, at least for some recipients;\n"
@@ -438,11 +438,11 @@ msgid ""
 "identity."
 msgstr ""
 
-#: keyresolver.cpp:1035
+#: keyresolver.cpp:1070
 msgid "Do Not OpenPGP-Sign"
 msgstr ""
 
-#: keyresolver.cpp:1045
+#: keyresolver.cpp:1080
 msgid ""
 "Examination of recipient's signing preferences yielded that the message "
 "should be signed using S/MIME, at least for some recipients;\n"
@@ -450,73 +450,73 @@ msgid ""
 "identity."
 msgstr ""
 
-#: keyresolver.cpp:1052
+#: keyresolver.cpp:1087
 msgid "Do Not S/MIME-Sign"
 msgstr ""
 
-#: keyresolver.cpp:1109
+#: keyresolver.cpp:1144
 msgid ""
 "Examination of recipient's signing preferences showed no common type of "
 "signature matching your available signing keys.\n"
 "Send message without signing?"
 msgstr ""
 
-#: keyresolver.cpp:1113
+#: keyresolver.cpp:1148
 #, fuzzy
 msgid "No signing possible"
 msgstr "Pozicija zapiska"
 
-#: keyresolver.cpp:1268
+#: keyresolver.cpp:1303
 msgid ""
 "You did not select an encryption key for yourself (encrypt to self). You "
 "will not be able to decrypt your own message if you encrypt it."
 msgstr ""
 
-#: keyresolver.cpp:1272 keyresolver.cpp:1296 keyresolver.cpp:1310
+#: keyresolver.cpp:1307 keyresolver.cpp:1331 keyresolver.cpp:1345
 #, fuzzy
 msgid "Missing Key Warning"
 msgstr "KMail"
 
-#: keyresolver.cpp:1273 keyresolver.cpp:1311 messagecomposer.cpp:919
+#: keyresolver.cpp:1308 keyresolver.cpp:1346 messagecomposer.cpp:919
 #: messagecomposer.cpp:944 messagecomposer.cpp:991
 msgid "&Encrypt"
 msgstr ""
 
-#: keyresolver.cpp:1289
+#: keyresolver.cpp:1324
 msgid ""
 "You did not select an encryption key for the recipient of this message; "
 "therefore, the message will not be encrypted."
 msgstr ""
 
-#: keyresolver.cpp:1292
+#: keyresolver.cpp:1327
 msgid ""
 "You did not select an encryption key for any of the recipients of this "
 "message; therefore, the message will not be encrypted."
 msgstr ""
 
-#: keyresolver.cpp:1297 messagecomposer.cpp:967
+#: keyresolver.cpp:1332 messagecomposer.cpp:967
 #, fuzzy
 msgid "Send &Unencrypted"
 msgstr "&Nješifrowane zawěsćić"
 
-#: keyresolver.cpp:1302
+#: keyresolver.cpp:1337
 msgid ""
 "You did not select an encryption key for one of the recipients: this person "
 "will not be able to decrypt the message if you encrypt it."
 msgstr ""
 
-#: keyresolver.cpp:1305
+#: keyresolver.cpp:1340
 msgid ""
 "You did not select encryption keys for some of the recipients: these persons "
 "will not be able to decrypt the message if you encrypt it."
 msgstr ""
 
-#: keyresolver.cpp:1360
+#: keyresolver.cpp:1395
 #, fuzzy
 msgid "Encryption Key Selection"
 msgstr "Šifrowanje"
 
-#: keyresolver.cpp:1400
+#: keyresolver.cpp:1435
 #, kde-format
 msgctxt ""
 "if in your language something like 'key(s)' is not possible please use the "
@@ -527,7 +527,7 @@ msgid ""
 "Please re-select the key(s) which should be used for this recipient."
 msgstr ""
 
-#: keyresolver.cpp:1443
+#: keyresolver.cpp:1478
 #, kde-format
 msgctxt ""
 "if in your language something like 'key(s)' is not possible please use the "
@@ -538,7 +538,7 @@ msgid ""
 "Select the key(s) which should be used for this recipient."
 msgstr ""
 
-#: keyresolver.cpp:1450
+#: keyresolver.cpp:1485
 #, kde-format
 msgctxt ""
 "if in your language something like 'key(s)' is not possible please use the "
@@ -549,12 +549,12 @@ msgid ""
 "Select the key(s) which should be used for this recipient."
 msgstr ""
 
-#: keyresolver.cpp:1557
+#: keyresolver.cpp:1592
 #, fuzzy
 msgid "Name Selection"
 msgstr "Zapisk"
 
-#: keyresolver.cpp:1557
+#: keyresolver.cpp:1592
 #, kde-format
 msgid "Which name shall the contact '%1' have in your addressbook?"
 msgstr ""
@@ -2396,18 +2396,18 @@ msgstr "&Přiwěšk zawěsćić jako..."
 msgid "Copy"
 msgstr "&Kopěruj do"
 
-#: kmmimeparttree.cpp:195 kmreaderwin.cpp:2047 kmreaderwin.cpp:2695
+#: kmmimeparttree.cpp:195 kmreaderwin.cpp:2050 kmreaderwin.cpp:2699
 #, fuzzy
 #| msgid "&Remove Attachment"
 msgid "Delete Attachment"
 msgstr "Přiwěšk &zničić"
 
-#: kmmimeparttree.cpp:198 kmreaderwin.cpp:2042 kmreaderwin.cpp:2708
+#: kmmimeparttree.cpp:198 kmreaderwin.cpp:2044 kmreaderwin.cpp:2712
 #, fuzzy
 msgid "Edit Attachment"
 msgstr "Přiwěšk: "
 
-#: kmmimeparttree.cpp:203 kmreaderwin.cpp:2057 kmcomposewin.cpp:2646
+#: kmmimeparttree.cpp:203 kmreaderwin.cpp:2061 kmcomposewin.cpp:2646
 #, fuzzy
 msgid "Properties"
 msgstr "&Swójstwa"
@@ -5858,7 +5858,7 @@ msgstr "Opcije njeznate"
 msgid "Receipt: "
 msgstr ""
 
-#: kmmessage.cpp:3021 urlhandlermanager.cpp:540
+#: kmmessage.cpp:3029 urlhandlermanager.cpp:540
 #, fuzzy, kde-format
 msgid "Attachment: %1"
 msgstr "Přiwěšk: "
@@ -13170,16 +13170,16 @@ msgstr "Njemóžach MDN pósłać!"
 msgid "Save As..."
 msgstr "Z&awěsćić jako..."
 
-#: kmreaderwin.cpp:2053
+#: kmreaderwin.cpp:2057
 msgid "Decrypt With Chiasmus..."
 msgstr ""
 
-#: kmreaderwin.cpp:2219 kmreaderwin.cpp:2255 kmreaderwin.cpp:2274
+#: kmreaderwin.cpp:2223 kmreaderwin.cpp:2259 kmreaderwin.cpp:2278
 #, kde-format
 msgid "View Attachment: %1"
 msgstr "Pokaž přiwěšk: %1"
 
-#: kmreaderwin.cpp:2266
+#: kmreaderwin.cpp:2270
 #, fuzzy, kde-format
 msgid ""
 "[KMail: Attachment contains binary data. Trying to show first character.]"
@@ -13192,16 +13192,16 @@ msgstr[2] ""
 "[KMail: Přiwěšk ma binarne daty. Spytam prěnjej %2 pismikaj pokazać.]"
 msgstr[3] "[KMail: Přiwěšk ma binarne daty. Spytam prěnje %2 pismiki pokazać.]"
 
-#: kmreaderwin.cpp:2368
+#: kmreaderwin.cpp:2372
 #, fuzzy, kde-format
 msgid "&Open with '%1'"
 msgstr "Přiwěšk %1 wočinić?"
 
-#: kmreaderwin.cpp:2370
+#: kmreaderwin.cpp:2374
 msgid "&Open With..."
 msgstr "W&očinić z ..."
 
-#: kmreaderwin.cpp:2372
+#: kmreaderwin.cpp:2376
 #, fuzzy, kde-format
 msgid ""
 "Open attachment '%1'?\n"
@@ -13211,28 +13211,28 @@ msgstr ""
 "\n"
 "Njezabudźće, zo móhło wočinjenje přiwěška wěstosć wašeho systema wohrozyć!"
 
-#: kmreaderwin.cpp:2377
+#: kmreaderwin.cpp:2381
 msgid "Open Attachment?"
 msgstr "Přiwěšk wočinić?"
 
-#: kmreaderwin.cpp:2694
+#: kmreaderwin.cpp:2698
 msgid ""
 "Deleting an attachment might invalidate any digital signature on this "
 "message."
 msgstr ""
 
-#: kmreaderwin.cpp:2707
+#: kmreaderwin.cpp:2711
 msgid ""
 "Modifying an attachment might invalidate any digital signature on this "
 "message."
 msgstr ""
 
-#: kmreaderwin.cpp:2708 kmcomposewin.cpp:2640 vacation.cpp:659
+#: kmreaderwin.cpp:2712 kmcomposewin.cpp:2640 vacation.cpp:659
 #, fuzzy
 msgid "Edit"
 msgstr "wobdźěłać..."
 
-#: kmreaderwin.cpp:2759
+#: kmreaderwin.cpp:2763
 #, fuzzy
 #| msgctxt "View->"
 #| msgid "&Attachments"
@@ -15725,7 +15725,7 @@ msgstr[1] "Sym %1 powěsć z póštoweho kašćika %2 přenjesł."
 msgstr[2] "Sym %1 powěsći z póštoweho kašćika %2 přenjesł."
 msgstr[3] "Sym %1 powěsće z póštoweho kašćika %2 přenjesł."
 
-#: templateparser.cpp:247 templateparser.cpp:280
+#: templateparser.cpp:249 templateparser.cpp:282
 #, fuzzy, kde-format
 msgctxt "@info:status"
 msgid "Cannot insert content from file %1: %2"
@@ -15733,7 +15733,7 @@ msgstr ""
 "Njemóžu dataju \"%1\" wočinić:\n"
 "%2"
 
-#: templateparser.cpp:1031
+#: templateparser.cpp:1053
 #, kde-format
 msgctxt "@info"
 msgid "Pipe command <command>%1</command> failed."
