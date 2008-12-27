@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-18 09:55+0100\n"
+"POT-Creation-Date: 2008-12-27 11:10+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -82,11 +82,13 @@ msgid "Dummy"
 msgstr ""
 
 #: ksgrd/SensorAgent.cc:105
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Resuming from %1"
+msgctxt "%1 is a host name"
 msgid ""
 "Message from %1:\n"
 "%2"
-msgstr ""
+msgstr "Znowa započnu wot %1"
 
 #: ksgrd/SensorShellAgent.cc:127
 #, kde-format
@@ -122,11 +124,11 @@ msgstr ""
 msgid "User Load"
 msgstr ""
 
-#. i18n: tag WorkSheet attribute title
-#. i18n: file: ./SystemLoad.sgrd:3
-#: ksgrd/SensorManager.cc:63 rc.cpp:149
+#: ksgrd/SensorManager.cc:63
+#, fuzzy
+msgctxt "@item sensor description"
 msgid "System Load"
-msgstr ""
+msgstr "GenericName=Kartowa hra"
 
 #: ksgrd/SensorManager.cc:64
 msgid "Waiting"
@@ -299,8 +301,11 @@ msgid "Packets"
 msgstr ""
 
 #: ksgrd/SensorManager.cc:106
+#, fuzzy
+#| msgid "Carriage Return"
+msgctxt "@item sensor description ('carrier' is a type of network signal)"
 msgid "Carrier"
-msgstr ""
+msgstr "Return"
 
 #: ksgrd/SensorManager.cc:107
 msgid "Collisions"
@@ -660,6 +665,9 @@ msgid "Size ratio:"
 msgstr ""
 
 #: KSGAppletSettings.cc:63
+#, fuzzy
+#| msgid "%"
+msgctxt "Number suffix in spinbox"
 msgid "%"
 msgstr "%"
 
@@ -765,6 +773,7 @@ msgid "Upper limit:"
 msgstr ""
 
 #: SensorDisplayLib/DancingBarsSettings.cc:157
+msgctxt "@title:tab Appearance of the bar graph"
 msgid "Look"
 msgstr ""
 
@@ -998,14 +1007,18 @@ msgid "99999 XXXX"
 msgstr ""
 
 #: SensorDisplayLib/FancyPlotter.cc:344
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "<b>%1</b>"
+msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
 msgid "<p><b>%1:</b><br>"
-msgstr ""
+msgstr "<b>%1</b>"
 
 #: SensorDisplayLib/FancyPlotter.cc:391
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "%1% of %2"
+msgctxt "%1 and %2 are sensor's last and maximum value"
 msgid "%1 of %2"
-msgstr ""
+msgstr "%1% z %2"
 
 #: SensorDisplayLib/SensorLogger.cc:138
 msgid "Logging"
@@ -1076,8 +1089,11 @@ msgid "Foreground color:"
 msgstr ""
 
 #: SensorDisplayLib/MultiMeterSettings.cc:31
+#, fuzzy
+msgctxt ""
+"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
 msgid "Multimeter Settings"
-msgstr ""
+msgstr "Nastajenja ..."
 
 #: SensorDisplayLib/ListViewSettings.cc:30
 msgid "List View Settings"
@@ -1260,6 +1276,12 @@ msgstr ""
 msgid "Process Table"
 msgstr ""
 
+#. i18n: tag WorkSheet attribute title
+#. i18n: file: ./SystemLoad.sgrd:3
+#: rc.cpp:149
+msgid "System Load"
+msgstr ""
+
 #. i18n: tag display attribute title
 #. i18n: file: ./SystemLoad.sgrd:5
 #: rc.cpp:152
@@ -1361,8 +1383,12 @@ msgstr ""
 
 #: ksysguard.cc:449
 #, kde-format
-msgid " %1 processes "
-msgstr ""
+msgid " 1 process "
+msgid_plural " %1 processes "
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ksysguard.cc:455
 #, kde-format
@@ -1370,18 +1396,22 @@ msgid " CPU: %1% "
 msgstr ""
 
 #: ksysguard.cc:469
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Error: %1 - %2"
+msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid " Memory: %1 / %2 "
-msgstr ""
+msgstr "Zmylk: %1 - %2"
 
 #: ksysguard.cc:496
 msgid " No swap space available "
 msgstr ""
 
 #: ksysguard.cc:498
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "%1 / %2"
+msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid " Swap: %1 / %2 "
-msgstr ""
+msgstr "%1 / %2"
 
 #: ksysguard.cc:543
 msgid "(c) 1996-2008 The KDE System Monitor Developers"
@@ -4934,9 +4964,6 @@ msgstr ""
 #~ msgstr[2] "%2 z %3 zakónčene"
 #~ msgstr[3] "%2 z %3 zakónčene"
 
-#~ msgid "%1% of %2"
-#~ msgstr "%1% z %2"
-
 #~ msgid "%2% of 1 file"
 #~ msgid_plural "%2% of %1 files"
 #~ msgstr[0] "%2% z %1 dataje"
@@ -6287,9 +6314,6 @@ msgstr ""
 
 #~ msgid "Newline"
 #~ msgstr "Nowa linka"
-
-#~ msgid "Carriage Return"
-#~ msgstr "Return"
 
 #~ msgid "White Space"
 #~ msgstr "Běła mjezota (spacij, TAB)"
@@ -8446,9 +8470,6 @@ msgstr ""
 
 #~ msgid "Display Images on Page"
 #~ msgstr "Wobrazy na stronje pokazać"
-
-#~ msgid "Error: %1 - %2"
-#~ msgstr "Zmylk: %1 - %2"
 
 #~ msgid "The requested operation could not be completed"
 #~ msgstr "Pominana akcija so njehodźeše zakónčić"
@@ -14370,9 +14391,6 @@ msgstr ""
 #~ msgid "Site:"
 #~ msgstr "Server:"
 
-#~ msgid "<b>%1</b>"
-#~ msgstr "<b>%1</b>"
-
 #~ msgid "Login OK"
 #~ msgstr "Přizjewjenje OK"
 
@@ -15583,9 +15601,6 @@ msgstr ""
 #~ msgid "Mounting %1"
 #~ msgstr "Montuju %1"
 
-#~ msgid "Resuming from %1"
-#~ msgstr "Znowa započnu wot %1"
-
 #~ msgid "Not resumable"
 #~ msgstr "Njemóžu znowa započeć"
 
@@ -15732,9 +15747,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Local Filename"
 #~ msgstr "Mjeno lokalneje dataje"
-
-#~ msgid "%1 / %2"
-#~ msgstr "%1 / %2"
 
 #~ msgid "%1/s"
 #~ msgstr "%1/s"
@@ -16012,10 +16024,6 @@ msgstr ""
 
 #~ msgid "Less Options"
 #~ msgstr "Mjenje opcijow"
-
-#, fuzzy
-#~ msgid "Player Settings"
-#~ msgstr "Nastajenja ..."
 
 #~ msgid "Retry"
 #~ msgstr "Dalši pospyt"
@@ -24124,11 +24132,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "KDE 4 Default"
 #~ msgstr "Name=Standard"
-
-#, fuzzy
-#~ msgctxt "GenericName"
-#~ msgid "System Locations"
-#~ msgstr "GenericName=Kartowa hra"
 
 #, fuzzy
 #~ msgctxt "Name"
