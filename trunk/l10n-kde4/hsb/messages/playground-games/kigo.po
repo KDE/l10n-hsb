@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-02 10:51+0100\n"
+"POT-Creation-Date: 2009-01-20 10:24+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,26 +17,29 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: gui/widgets/gamewidget.cpp:46 gui/widgets/gamewidget.cpp:50
+#: gui/widgets/gamewidget.cpp:47 gui/widgets/gamewidget.cpp:51
 #, kde-format
 msgid "Computer (Level %1)"
 msgstr ""
 
-#: gui/widgets/gamewidget.cpp:64
-#, kde-format
-msgid "  (W %1)"
-msgstr ""
+#: gui/widgets/gamewidget.cpp:65
+#, fuzzy, kde-format
+#| msgid "Write"
+msgid " (White %1)"
+msgstr "Pisać"
 
-#: gui/widgets/gamewidget.cpp:66
-#, kde-format
-msgid "  (B %1)"
-msgstr ""
+#: gui/widgets/gamewidget.cpp:67
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Back"
+msgid " (Black %1)"
+msgstr "Wróćo"
 
-#: gui/widgets/gamewidget.cpp:71
+#: gui/widgets/gamewidget.cpp:73
 msgid "White's move"
 msgstr ""
 
-#: gui/widgets/gamewidget.cpp:72
+#: gui/widgets/gamewidget.cpp:75
 msgid "Black's move"
 msgstr ""
 
@@ -45,13 +48,13 @@ msgstr ""
 msgid " of %1"
 msgstr ""
 
-#: gui/widgets/setupwidget.cpp:143
+#: gui/widgets/setupwidget.cpp:147
 msgid "for White"
 msgstr ""
 
 #. i18n: file: gui/widgets/setupwidget.ui:657
 #. i18n: ectx: property (text), widget (KLineEdit, playerLabel)
-#: gui/widgets/setupwidget.cpp:144 rc.cpp:202
+#: gui/widgets/setupwidget.cpp:149 rc.cpp:202
 #, fuzzy
 #| msgctxt "@action"
 #| msgid "Back"
@@ -66,8 +69,8 @@ msgstr "Wróćo"
 #. i18n: ectx: property (text), item, widget (KComboBox, blackPlayerCombo)
 #. i18n: file: gui/widgets/setupwidget.ui:257
 #. i18n: ectx: property (text), item, widget (KComboBox, whitePlayerCombo)
-#: gui/widgets/setupwidget.cpp:215 gui/widgets/setupwidget.cpp:222
-#: gui/widgets/setupwidget.cpp:260 gui/widgets/setupwidget.cpp:261 rc.cpp:115
+#: gui/widgets/setupwidget.cpp:220 gui/widgets/setupwidget.cpp:227
+#: gui/widgets/setupwidget.cpp:265 gui/widgets/setupwidget.cpp:266 rc.cpp:115
 #: rc.cpp:145
 msgid "Human"
 msgstr ""
@@ -80,103 +83,89 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, blackPlayerCombo)
 #. i18n: file: gui/widgets/setupwidget.ui:262
 #. i18n: ectx: property (text), item, widget (KComboBox, whitePlayerCombo)
-#: gui/widgets/setupwidget.cpp:217 gui/widgets/setupwidget.cpp:224 rc.cpp:118
+#: gui/widgets/setupwidget.cpp:222 gui/widgets/setupwidget.cpp:229 rc.cpp:118
 #: rc.cpp:148
 msgid "Computer"
 msgstr ""
 
-#: gui/mainwindow.cpp:99
+#: gui/mainwindow.cpp:94
 #, fuzzy
 #| msgid "Step to next line..."
 msgid "Setup a new game..."
 msgstr "Kročić do přichodneje linki ..."
 
-#: gui/mainwindow.cpp:130
+#: gui/mainwindow.cpp:123
 #, fuzzy
 #| msgid "Page loaded."
 msgid "Setup a loaded game..."
 msgstr "Strona začitana."
 
-#: gui/mainwindow.cpp:132
+#: gui/mainwindow.cpp:125
 #, fuzzy
 #| msgid "Page loaded."
 msgid "Unable to load game..."
 msgstr "Strona začitana."
 
-#: gui/mainwindow.cpp:164
-#, fuzzy
-#| msgid "Edit Entry..."
-msgid "Editor started..."
-msgstr "Zapis wobdźěłać..."
-
-#: gui/mainwindow.cpp:176
+#: gui/mainwindow.cpp:139
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Camera Device..."
 msgid "Game saved..."
 msgstr "Kamerowy grat..."
 
-#: gui/mainwindow.cpp:178
+#: gui/mainwindow.cpp:141
 #, fuzzy
 #| msgid "Unable to Enter Folder"
 msgid "Unable to save game!"
 msgstr "Njemóžu do zapiska hić"
 
-#: gui/mainwindow.cpp:220
+#: gui/mainwindow.cpp:184
 msgid "Game started..."
 msgstr ""
 
-#: gui/mainwindow.cpp:261
+#: gui/mainwindow.cpp:225
 msgid "These are the recommended moves ..."
 msgstr ""
 
-#: gui/mainwindow.cpp:270
+#: gui/mainwindow.cpp:234
 msgid "General"
 msgstr "Generelnje"
 
-#: gui/mainwindow.cpp:271
+#: gui/mainwindow.cpp:235
 msgid "Themes"
 msgstr ""
 
-#: gui/mainwindow.cpp:321
+#: gui/mainwindow.cpp:282
 msgid "Error"
 msgstr "Zmylk"
 
-#: gui/mainwindow.cpp:356
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Editors"
-msgctxt "@action:inmenu Game"
-msgid "&Editor"
-msgstr "Wobdźěłanje teksta"
-
-#: gui/mainwindow.cpp:362
+#: gui/mainwindow.cpp:317
 #, fuzzy
 #| msgid "Start replace"
 msgctxt "@action"
 msgid "Start game"
 msgstr "Započeć narunać"
 
-#: gui/mainwindow.cpp:367
+#: gui/mainwindow.cpp:322
 #, fuzzy
 #| msgid "Finish"
 msgctxt "@action"
 msgid "Finish game"
 msgstr "Zakónčić"
 
-#: gui/mainwindow.cpp:376
+#: gui/mainwindow.cpp:331
 msgctxt "@action:inmenu Move"
 msgid "Pass move"
 msgstr ""
 
-#: gui/mainwindow.cpp:381
+#: gui/mainwindow.cpp:336
 #, fuzzy
 #| msgid "Show &Menubar"
 msgctxt "@action:inmenu View"
 msgid "Show move &numbers"
 msgstr "&Meni pokazać"
 
-#: gui/mainwindow.cpp:394
+#: gui/mainwindow.cpp:349
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Games"
@@ -184,22 +173,14 @@ msgctxt "@title:window"
 msgid "Game setup"
 msgstr "Hry"
 
-#: gui/mainwindow.cpp:405
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Editors"
-msgctxt "@title:window"
-msgid "Editor"
-msgstr "Wobdźěłanje teksta"
-
-#: gui/mainwindow.cpp:415 gui/mainwindow.cpp:418
+#: gui/mainwindow.cpp:360 gui/mainwindow.cpp:363
 #, fuzzy
 #| msgid "Information"
 msgctxt "@title:window"
 msgid "Information"
 msgstr "informacija"
 
-#: gui/mainwindow.cpp:424 gui/mainwindow.cpp:429
+#: gui/mainwindow.cpp:369 gui/mainwindow.cpp:374
 #, fuzzy
 #| msgctxt "@title:menu Game move"
 #| msgid "&Move"
@@ -207,44 +188,38 @@ msgctxt "@title:window"
 msgid "Moves"
 msgstr "&Sunyć"
 
-#: gui/mainwindow.cpp:427
+#: gui/mainwindow.cpp:372
 #, fuzzy
 #| msgid "Remove"
 msgid "No move"
 msgstr "Zničić"
 
-#: game/goengine.cpp:405 game/goengine.cpp:479 game/goengine.cpp:544
+#: game/engine.cpp:279 game/engine.cpp:318
 #, fuzzy
 #| msgid "Write"
 msgid "White "
 msgstr "Pisać"
 
-#: game/goengine.cpp:408 game/goengine.cpp:482 game/goengine.cpp:542
+#: game/engine.cpp:281 game/engine.cpp:321
 #, fuzzy
 #| msgctxt "@action"
 #| msgid "Back"
 msgid "Black "
 msgstr "Wróćo"
 
-#: game/goengine.cpp:439
+#: game/engine.cpp:286
 #, fuzzy
-#| msgid "White Space"
-msgid "White pass"
-msgstr "Běła mjezota (spacij, TAB)"
+#| msgid "Class"
+msgid "passed"
+msgstr "Klasa"
 
-#: game/goengine.cpp:442
-#, fuzzy
-#| msgid "Backspace"
-msgid "Black pass"
-msgstr "Backspace"
-
-#: game/goengine.cpp:491 game/goengine.cpp:552
+#: game/engine.cpp:330
 #, fuzzy
 #| msgid "Class"
 msgid "pass"
 msgstr "Klasa"
 
-#: game/goengine.cpp:494 game/goengine.cpp:555
+#: game/engine.cpp:333
 #, fuzzy
 #| msgid "Reassign"
 msgid "resign"
@@ -358,15 +333,11 @@ msgstr ""
 #. i18n: ectx: label, entry (Komi), group (Game)
 #. i18n: file: gui/widgets/setupwidget.ui:376
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#. i18n: file: gui/widgets/editwidget.ui:201
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #. i18n: file: kigo.kcfg:84
 #. i18n: ectx: label, entry (Komi), group (Game)
 #. i18n: file: gui/widgets/setupwidget.ui:376
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#. i18n: file: gui/widgets/editwidget.ui:201
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:46 rc.cpp:169 rc.cpp:253
+#: rc.cpp:46 rc.cpp:169
 msgid "Komi"
 msgstr ""
 
@@ -401,7 +372,7 @@ msgctxt "@title:menu"
 msgid "&Game"
 msgstr "&Hra"
 
-#. i18n: file: gui/kigoui.rc:13
+#. i18n: file: gui/kigoui.rc:15
 #. i18n: ectx: Menu (move)
 #: rc.cpp:61
 #, fuzzy
@@ -411,7 +382,7 @@ msgctxt "@title:menu"
 msgid "&Move"
 msgstr "&Sunyć"
 
-#. i18n: file: gui/kigoui.rc:18
+#. i18n: file: gui/kigoui.rc:20
 #. i18n: ectx: Menu (settings)
 #: rc.cpp:64
 #, fuzzy
@@ -420,7 +391,7 @@ msgctxt "@title:menu"
 msgid "&Settings"
 msgstr "&Nastajenja"
 
-#. i18n: file: gui/kigoui.rc:20
+#. i18n: file: gui/kigoui.rc:22
 #. i18n: ectx: Menu (dockers)
 #: rc.cpp:67
 #, fuzzy
@@ -430,7 +401,7 @@ msgctxt "@title:menu"
 msgid "&Dockers"
 msgstr "Přibić"
 
-#. i18n: file: gui/kigoui.rc:29
+#. i18n: file: gui/kigoui.rc:30
 #. i18n: ectx: ToolBar (mainToolBar)
 #: rc.cpp:70
 #, fuzzy
@@ -439,7 +410,7 @@ msgctxt "@title:menu"
 msgid "Main Toolbar"
 msgstr "Hłowny nastrojowy pas"
 
-#. i18n: file: gui/kigoui.rc:35
+#. i18n: file: gui/kigoui.rc:39
 #. i18n: ectx: ToolBar (moveToolBar)
 #: rc.cpp:73
 #, fuzzy
@@ -520,17 +491,13 @@ msgstr ""
 
 #. i18n: file: gui/widgets/setupwidget.ui:19
 #. i18n: ectx: property (windowTitle), widget (QWidget, SetupWidget)
-#. i18n: file: gui/widgets/editwidget.ui:19
-#. i18n: ectx: property (windowTitle), widget (QWidget, EditWidget)
 #. i18n: file: gui/widgets/gamewidget.ui:19
 #. i18n: ectx: property (windowTitle), widget (QWidget, GameWidget)
 #. i18n: file: gui/widgets/setupwidget.ui:19
 #. i18n: ectx: property (windowTitle), widget (QWidget, SetupWidget)
-#. i18n: file: gui/widgets/editwidget.ui:19
-#. i18n: ectx: property (windowTitle), widget (QWidget, EditWidget)
 #. i18n: file: gui/widgets/gamewidget.ui:19
 #. i18n: ectx: property (windowTitle), widget (QWidget, GameWidget)
-#: rc.cpp:109 rc.cpp:208 rc.cpp:268
+#: rc.cpp:109 rc.cpp:208
 msgid "Form"
 msgstr "Formular"
 
@@ -544,23 +511,15 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KLineEdit, blackPlayerName)
 #. i18n: file: gui/widgets/setupwidget.ui:155
 #. i18n: ectx: property (text), widget (KLineEdit, whitePlayerName)
-#. i18n: file: gui/widgets/editwidget.ui:34
-#. i18n: ectx: property (text), widget (KLineEdit, blackPlayerName)
-#. i18n: file: gui/widgets/editwidget.ui:44
-#. i18n: ectx: property (text), widget (KLineEdit, whitePlayerName)
 #. i18n: file: gui/widgets/gamewidget.ui:127
 #. i18n: ectx: property (text), widget (KLineEdit, whitePlayerName)
 #. i18n: file: gui/widgets/setupwidget.ui:64
 #. i18n: ectx: property (text), widget (KLineEdit, blackPlayerName)
 #. i18n: file: gui/widgets/setupwidget.ui:155
 #. i18n: ectx: property (text), widget (KLineEdit, whitePlayerName)
-#. i18n: file: gui/widgets/editwidget.ui:34
-#. i18n: ectx: property (text), widget (KLineEdit, blackPlayerName)
-#. i18n: file: gui/widgets/editwidget.ui:44
-#. i18n: ectx: property (text), widget (KLineEdit, whitePlayerName)
 #. i18n: file: gui/widgets/gamewidget.ui:127
 #. i18n: ectx: property (text), widget (KLineEdit, whitePlayerName)
-#: rc.cpp:121 rc.cpp:130 rc.cpp:214 rc.cpp:217 rc.cpp:289
+#: rc.cpp:121 rc.cpp:130 rc.cpp:229
 msgid "Name"
 msgstr "Mjeno"
 
@@ -590,25 +549,13 @@ msgstr ""
 
 #. i18n: file: gui/widgets/setupwidget.ui:230
 #. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: file: gui/widgets/editwidget.ui:80
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: file: gui/widgets/setupwidget.ui:230
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: file: gui/widgets/editwidget.ui:80
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:139 rc.cpp:223
+#: rc.cpp:139
 msgid "White:"
 msgstr ""
 
 #. i18n: file: gui/widgets/setupwidget.ui:243
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: file: gui/widgets/editwidget.ui:93
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: file: gui/widgets/setupwidget.ui:243
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: file: gui/widgets/editwidget.ui:93
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:142 rc.cpp:226
+#: rc.cpp:142
 msgid "Black:"
 msgstr ""
 
@@ -620,105 +567,61 @@ msgstr ""
 
 #. i18n: file: gui/widgets/setupwidget.ui:311
 #. i18n: ectx: property (title), widget (KButtonGroup, sizeGroupBox)
-#. i18n: file: gui/widgets/editwidget.ui:136
-#. i18n: ectx: property (title), widget (KButtonGroup, sizeGroupBox)
-#. i18n: file: gui/widgets/setupwidget.ui:311
-#. i18n: ectx: property (title), widget (KButtonGroup, sizeGroupBox)
-#. i18n: file: gui/widgets/editwidget.ui:136
-#. i18n: ectx: property (title), widget (KButtonGroup, sizeGroupBox)
-#: rc.cpp:154 rc.cpp:238
+#: rc.cpp:154
 msgid "Board size"
 msgstr ""
 
 #. i18n: file: gui/widgets/setupwidget.ui:323
 #. i18n: ectx: property (text), widget (QRadioButton, sizeSmall)
-#. i18n: file: gui/widgets/editwidget.ui:148
-#. i18n: ectx: property (text), widget (QRadioButton, sizeSmall)
-#. i18n: file: gui/widgets/setupwidget.ui:323
-#. i18n: ectx: property (text), widget (QRadioButton, sizeSmall)
-#. i18n: file: gui/widgets/editwidget.ui:148
-#. i18n: ectx: property (text), widget (QRadioButton, sizeSmall)
-#: rc.cpp:157 rc.cpp:241
+#: rc.cpp:157
 msgid "Tiny (9x9)"
 msgstr ""
 
 #. i18n: file: gui/widgets/setupwidget.ui:333
 #. i18n: ectx: property (text), widget (QRadioButton, sizeMedium)
-#. i18n: file: gui/widgets/editwidget.ui:158
-#. i18n: ectx: property (text), widget (QRadioButton, sizeMedium)
-#. i18n: file: gui/widgets/setupwidget.ui:333
-#. i18n: ectx: property (text), widget (QRadioButton, sizeMedium)
-#. i18n: file: gui/widgets/editwidget.ui:158
-#. i18n: ectx: property (text), widget (QRadioButton, sizeMedium)
-#: rc.cpp:160 rc.cpp:244
+#: rc.cpp:160
 msgid "Small (13x13)"
 msgstr ""
 
 #. i18n: file: gui/widgets/setupwidget.ui:340
 #. i18n: ectx: property (text), widget (QRadioButton, sizeBig)
-#. i18n: file: gui/widgets/editwidget.ui:165
-#. i18n: ectx: property (text), widget (QRadioButton, sizeBig)
-#. i18n: file: gui/widgets/setupwidget.ui:340
-#. i18n: ectx: property (text), widget (QRadioButton, sizeBig)
-#. i18n: file: gui/widgets/editwidget.ui:165
-#. i18n: ectx: property (text), widget (QRadioButton, sizeBig)
-#: rc.cpp:163 rc.cpp:247
+#: rc.cpp:163
 msgid "Normal (19x19)"
 msgstr ""
 
 #. i18n: file: gui/widgets/setupwidget.ui:350
 #. i18n: ectx: property (text), widget (QRadioButton, sizeOther)
-#. i18n: file: gui/widgets/editwidget.ui:175
-#. i18n: ectx: property (text), widget (QRadioButton, sizeOther)
-#. i18n: file: gui/widgets/setupwidget.ui:350
-#. i18n: ectx: property (text), widget (QRadioButton, sizeOther)
-#. i18n: file: gui/widgets/editwidget.ui:175
-#. i18n: ectx: property (text), widget (QRadioButton, sizeOther)
-#: rc.cpp:166 rc.cpp:250
+#: rc.cpp:166
 msgid "Other:"
 msgstr ""
 
 #. i18n: file: gui/widgets/setupwidget.ui:382
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, komiSpinBox)
-#. i18n: file: gui/widgets/editwidget.ui:207
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, komiSpinBox)
 #. i18n: file: gui/widgets/gamewidget.ui:263
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, komiSpinBox)
 #. i18n: file: gui/widgets/setupwidget.ui:382
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, komiSpinBox)
-#. i18n: file: gui/widgets/editwidget.ui:207
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, komiSpinBox)
 #. i18n: file: gui/widgets/gamewidget.ui:263
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, komiSpinBox)
-#: rc.cpp:172 rc.cpp:256 rc.cpp:313
+#: rc.cpp:172 rc.cpp:253
 msgid " Points"
 msgstr ""
 
 #. i18n: file: gui/widgets/setupwidget.ui:401
 #. i18n: ectx: property (title), widget (QGroupBox, handicapGroupBox)
-#. i18n: file: gui/widgets/editwidget.ui:226
-#. i18n: ectx: property (title), widget (QGroupBox, handicapGroupBox)
-#. i18n: file: gui/widgets/setupwidget.ui:401
-#. i18n: ectx: property (title), widget (QGroupBox, handicapGroupBox)
-#. i18n: file: gui/widgets/editwidget.ui:226
-#. i18n: ectx: property (title), widget (QGroupBox, handicapGroupBox)
-#: rc.cpp:175 rc.cpp:259
+#: rc.cpp:175
 msgid "Fixed handicap"
 msgstr ""
 
 #. i18n: file: gui/widgets/setupwidget.ui:416
 #. i18n: ectx: property (suffix), widget (QSpinBox, handicapSpinBox)
-#. i18n: file: gui/widgets/editwidget.ui:241
-#. i18n: ectx: property (suffix), widget (QSpinBox, handicapSpinBox)
 #. i18n: file: gui/widgets/gamewidget.ui:304
 #. i18n: ectx: property (suffix), widget (QSpinBox, handicapSpinBox)
 #. i18n: file: gui/widgets/setupwidget.ui:416
 #. i18n: ectx: property (suffix), widget (QSpinBox, handicapSpinBox)
-#. i18n: file: gui/widgets/editwidget.ui:241
-#. i18n: ectx: property (suffix), widget (QSpinBox, handicapSpinBox)
 #. i18n: file: gui/widgets/gamewidget.ui:304
 #. i18n: ectx: property (suffix), widget (QSpinBox, handicapSpinBox)
-#: rc.cpp:178 rc.cpp:262 rc.cpp:319
+#: rc.cpp:178 rc.cpp:259
 msgid " Stones"
 msgstr ""
 
@@ -742,55 +645,31 @@ msgstr ""
 #. i18n: ectx: property (prefix), widget (KIntSpinBox, startMoveSpinBox)
 #. i18n: file: gui/widgets/gamewidget.ui:40
 #. i18n: ectx: property (prefix), widget (QSpinBox, moveSpinBox)
-#: rc.cpp:187 rc.cpp:271
+#: rc.cpp:187 rc.cpp:211
 msgid "Move "
 msgstr ""
 
 #. i18n: file: gui/widgets/setupwidget.ui:554
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#. i18n: file: gui/widgets/editwidget.ui:106
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#. i18n: file: gui/widgets/setupwidget.ui:554
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#. i18n: file: gui/widgets/editwidget.ui:106
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:190 rc.cpp:229
+#: rc.cpp:190
 msgid "Event:"
 msgstr ""
 
 #. i18n: file: gui/widgets/setupwidget.ui:564
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#. i18n: file: gui/widgets/editwidget.ui:116
-#. i18n: ectx: property (text), widget (QLabel, label_9)
-#. i18n: file: gui/widgets/setupwidget.ui:564
-#. i18n: ectx: property (text), widget (QLabel, label_9)
-#. i18n: file: gui/widgets/editwidget.ui:116
-#. i18n: ectx: property (text), widget (QLabel, label_9)
-#: rc.cpp:193 rc.cpp:232
+#: rc.cpp:193
 msgid "Location:"
 msgstr "Městno:"
 
 #. i18n: file: gui/widgets/setupwidget.ui:581
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#. i18n: file: gui/widgets/editwidget.ui:64
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#. i18n: file: gui/widgets/setupwidget.ui:581
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#. i18n: file: gui/widgets/editwidget.ui:64
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: rc.cpp:196 rc.cpp:220
+#: rc.cpp:196
 msgid "Score:"
 msgstr ""
 
 #. i18n: file: gui/widgets/setupwidget.ui:591
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#. i18n: file: gui/widgets/editwidget.ui:126
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#. i18n: file: gui/widgets/setupwidget.ui:591
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#. i18n: file: gui/widgets/editwidget.ui:126
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#: rc.cpp:199 rc.cpp:235
+#: rc.cpp:199
 msgid "Round:"
 msgstr ""
 
@@ -800,26 +679,9 @@ msgstr ""
 msgid "Continue"
 msgstr "Dale"
 
-#. i18n: file: gui/widgets/editwidget.ui:25
-#. i18n: ectx: property (title), widget (QGroupBox, gameSetup)
-#: rc.cpp:211
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Games"
-msgid "Game setup"
-msgstr "Hry"
-
-#. i18n: file: gui/widgets/editwidget.ui:279
-#. i18n: ectx: property (title), widget (QGroupBox, editorControls)
-#: rc.cpp:265
-#, fuzzy
-#| msgid "Editor Chooser"
-msgid "Editor controls"
-msgstr "Wuběranje editora"
-
 #. i18n: file: gui/widgets/gamewidget.ui:69
 #. i18n: ectx: property (title), widget (QGroupBox, capturesBox)
-#: rc.cpp:274
+#: rc.cpp:214
 msgid "White"
 msgstr ""
 
@@ -831,7 +693,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: file: gui/widgets/gamewidget.ui:156
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:277 rc.cpp:295
+#: rc.cpp:217 rc.cpp:235
 msgid "Captures:"
 msgstr ""
 
@@ -843,7 +705,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, whiteCapturesLabel)
 #. i18n: file: gui/widgets/gamewidget.ui:166
 #. i18n: ectx: property (text), widget (QLabel, blackCapturesLabel)
-#: rc.cpp:280 rc.cpp:298
+#: rc.cpp:220 rc.cpp:238
 msgid "0"
 msgstr "0"
 
@@ -855,7 +717,7 @@ msgstr "0"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: gui/widgets/gamewidget.ui:176
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:283 rc.cpp:301
+#: rc.cpp:223 rc.cpp:241
 msgid "Time left:"
 msgstr ""
 
@@ -867,33 +729,73 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, whiteTimeLabel)
 #. i18n: file: gui/widgets/gamewidget.ui:186
 #. i18n: ectx: property (text), widget (QLabel, blackTimeLabel)
-#: rc.cpp:286 rc.cpp:304
+#: rc.cpp:226 rc.cpp:244
 msgid "00:00"
 msgstr ""
 
 #. i18n: file: gui/widgets/gamewidget.ui:150
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:292
+#: rc.cpp:232
 msgid "Black"
 msgstr ""
 
 #. i18n: file: gui/widgets/gamewidget.ui:208
 #. i18n: ectx: property (text), widget (KLineEdit, blackPlayerName)
-#: rc.cpp:307
+#: rc.cpp:247
 msgid "Computer (Level 10)"
 msgstr ""
 
 #. i18n: file: gui/widgets/gamewidget.ui:238
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:310
+#: rc.cpp:250
 msgid "Komi:"
 msgstr ""
 
 #. i18n: file: gui/widgets/gamewidget.ui:279
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:316
+#: rc.cpp:256
 msgid "Handicap:"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Edit Entry..."
+#~ msgid "Editor started..."
+#~ msgstr "Zapis wobdźěłać..."
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Editors"
+#~ msgctxt "@action:inmenu Game"
+#~ msgid "&Editor"
+#~ msgstr "Wobdźěłanje teksta"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Editors"
+#~ msgctxt "@title:window"
+#~ msgid "Editor"
+#~ msgstr "Wobdźěłanje teksta"
+
+#, fuzzy
+#~| msgid "White Space"
+#~ msgid "White pass"
+#~ msgstr "Běła mjezota (spacij, TAB)"
+
+#, fuzzy
+#~| msgid "Backspace"
+#~ msgid "Black pass"
+#~ msgstr "Backspace"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Games"
+#~ msgid "Game setup"
+#~ msgstr "Hry"
+
+#, fuzzy
+#~| msgid "Editor Chooser"
+#~ msgid "Editor controls"
+#~ msgstr "Wuběranje editora"
 
 #, fuzzy
 #~| msgid "Frame Information"
