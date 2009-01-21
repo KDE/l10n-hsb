@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-20 10:18+0100\n"
+"POT-Creation-Date: 2009-01-21 10:51+0100\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -1302,8 +1302,8 @@ msgstr "Bjez mjena"
 msgid "Sendmail"
 msgstr "Sendmail"
 
-#: accountwizard.cpp:526 accountwizard.cpp:565 accountmanager.cpp:233
-#: accountmanager.cpp:236
+#: accountwizard.cpp:526 accountwizard.cpp:565 accountmanager.cpp:214
+#: accountmanager.cpp:217
 msgid "Local Account"
 msgstr "Lokalne konto"
 
@@ -2619,7 +2619,7 @@ msgstr ""
 msgid "&Expire"
 msgstr "&Stare zwumjetać"
 
-#: kmmainwidget.cpp:1327 kmkernel.cpp:2095
+#: kmmainwidget.cpp:1327 kmkernel.cpp:2094
 msgid "Empty Trash"
 msgstr "Papjernik wuprózdnić"
 
@@ -9288,7 +9288,7 @@ msgstr ""
 msgid "Could Not Create Folder"
 msgstr "Njemóžach zapisk stworić"
 
-#: kmfoldermgr.cpp:322 kmkernel.cpp:1562
+#: kmfoldermgr.cpp:322 kmkernel.cpp:1561
 #, kde-format
 msgid ""
 "Cannot create file `%1' in %2.\n"
@@ -11411,7 +11411,7 @@ msgid ""
 msgstr ""
 
 #. i18n: file: snippetdlgbase.ui:13
-#. i18n: ectx: property (windowTitle), widget (KDialog, SnippetDlgBase)
+#. i18n: ectx: property (windowTitle), widget (QDialog, SnippetDlgBase)
 #: rc.cpp:1031
 msgid "Add Snippet"
 msgstr ""
@@ -12379,12 +12379,12 @@ msgid ""
 "another folder now?</p>"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:3132 kmkernel.cpp:1778
+#: kmfoldercachedimap.cpp:3132 kmkernel.cpp:1777
 #, fuzzy
 msgid "Move"
 msgstr "&Suń do"
 
-#: kmfoldercachedimap.cpp:3132 kmkernel.cpp:1780
+#: kmfoldercachedimap.cpp:3132 kmkernel.cpp:1779
 msgid "Do Not Move"
 msgstr ""
 
@@ -12746,7 +12746,7 @@ msgstr "Na&runać"
 msgid "You do not have read/write permission to your templates folder."
 msgstr "Nimaće prawo, do zapiska %1 čitać/pisać."
 
-#: kmkernel.cpp:1753
+#: kmkernel.cpp:1752
 #, kde-format
 msgctxt "%1-%3 is the application name, %4-%7 are folder path"
 msgid ""
@@ -12756,7 +12756,7 @@ msgid ""
 "p><p><strong>Would you like %3 to move the mail files now?</strong></p></qt>"
 msgstr ""
 
-#: kmkernel.cpp:1767
+#: kmkernel.cpp:1766
 #, kde-format
 msgctxt "%1-%3 is the application name, %4-%6 are folder path"
 msgid ""
@@ -12765,11 +12765,11 @@ msgid ""
 "<p><strong>Would you like %3 to move the mail files now?</strong></p></qt>"
 msgstr ""
 
-#: kmkernel.cpp:1777
+#: kmkernel.cpp:1776
 msgid "Migrate Mail Files?"
 msgstr ""
 
-#: kmkernel.cpp:1887 kmcommands.cpp:954
+#: kmkernel.cpp:1886 kmcommands.cpp:954
 #, kde-format
 msgid ""
 "File %1 exists.\n"
@@ -12778,20 +12778,20 @@ msgstr ""
 "Dataja %1 eksistuje?\n"
 "Chceće ju přepisać?"
 
-#: kmkernel.cpp:1888 kmcommands.cpp:646 kmcommands.cpp:955
+#: kmkernel.cpp:1887 kmcommands.cpp:646 kmcommands.cpp:955
 msgid "Save to File"
 msgstr "Do dataje zawěsćić"
 
-#: kmkernel.cpp:1888 kmcommands.cpp:646 kmcommands.cpp:955
+#: kmkernel.cpp:1887 kmcommands.cpp:646 kmcommands.cpp:955
 msgid "&Replace"
 msgstr "Na&runać"
 
-#: kmkernel.cpp:1969
+#: kmkernel.cpp:1968
 #, fuzzy
 msgid "KMail encountered a fatal error and will terminate now"
 msgstr "KMail"
 
-#: kmkernel.cpp:1972
+#: kmkernel.cpp:1971
 #, fuzzy, kde-format
 msgid ""
 "KMail encountered a fatal error and will terminate now.\n"
@@ -12799,11 +12799,11 @@ msgid ""
 "%1"
 msgstr "KMail"
 
-#: kmkernel.cpp:2096
+#: kmkernel.cpp:2095
 msgid "Are you sure you want to empty the trash folders of all accounts?"
 msgstr ""
 
-#: kmkernel.cpp:2355
+#: kmkernel.cpp:2354
 #, kde-format
 msgid "This identity has been changed to use the default transport:"
 msgid_plural ""
@@ -12813,7 +12813,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: kmkernel.cpp:2378
+#: kmkernel.cpp:2377
 #, kde-format
 msgid "This identity has been changed to use the modified transport:"
 msgid_plural ""
@@ -14806,12 +14806,12 @@ msgctxt "@info:status"
 msgid "Unable to process messages: "
 msgstr "Njemóžach powěsće předźěłać: "
 
-#: accountmanager.cpp:118
+#: accountmanager.cpp:98
 #, kde-format
 msgid "Account %1"
 msgstr "Konto %1"
 
-#: accountmanager.cpp:199
+#: accountmanager.cpp:180
 #, kde-format
 msgid ""
 "Account %1 has no mailbox defined:\n"
@@ -14822,26 +14822,26 @@ msgstr ""
 "Rezignuju na pytanje za nowej póštu.\n"
 "Přepruwujće nastajenja swojeho konta!"
 
-#: accountmanager.cpp:214
+#: accountmanager.cpp:195
 #, kde-format
 msgid "Checking account %1 for new mail"
 msgstr "Přepruwuju konto %1, hač je nowa póšta přišła"
 
-#: accountmanager.cpp:239
+#: accountmanager.cpp:220
 msgid "POP Account"
 msgstr "POP-konto"
 
-#: accountmanager.cpp:242 accountmanager.cpp:244
+#: accountmanager.cpp:223 accountmanager.cpp:225
 msgid "IMAP Account"
 msgstr "IMAP-konto"
 
-#: accountmanager.cpp:332
+#: accountmanager.cpp:313
 msgid ""
 "You need to add an account in the network section of the settings in order "
 "to receive mail."
 msgstr "Dyrbiće w syćowych nastajenjach konto dodać, zo byšće póštu dóstali."
 
-#: accountmanager.cpp:449
+#: accountmanager.cpp:430
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "%1: name; %2: number appended to it to make it unique among a list of "
