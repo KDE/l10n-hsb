@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-17 09:42+0100\n"
+"POT-Creation-Date: 2009-01-27 08:25+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,18 +17,63 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: barapplet/kgetbarapplet.cpp:146
+#: barchart.cpp:157
 #, kde-format
 msgid "Showing %1-%2 of %3 transfers"
 msgstr ""
 
-#: common/kgetappletutils.cpp:75
+#: errorgraph.cpp:48
 msgid "Launch KGet"
 msgstr ""
 
-#: panelbar/kgetpanelbar.cpp:70
-msgid "KGet Active transfers"
+#: linegraphwidget.cpp:77
+msgid "n/a"
 msgstr ""
+
+#: plasma-kget.cpp:148
+msgid "Bar Chart"
+msgstr ""
+
+#: plasma-kget.cpp:149
+msgid "Pie Graph"
+msgstr ""
+
+#: plasma-kget.cpp:150
+#, fuzzy
+#| msgid "Speed"
+msgid "Speed Graph"
+msgstr "Spěšnosć"
+
+#: plasma-kget.cpp:151
+#, fuzzy
+#| msgid "Configure Toolbars"
+msgid "Configure KGet-Plasmoid"
+msgstr "Konfiguracija nastrojowych pasow"
+
+#. i18n: file: kgetConfig.ui:16
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:3
+msgid "Graph type:"
+msgstr ""
+
+#. i18n: file: kgetConfig.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:6
+#, fuzzy
+#| msgid "Refresh"
+msgid "Refresh time:"
+msgstr "Ponowić"
+
+#. i18n: file: kgetConfig.ui:33
+#. i18n: ectx: property (suffix), widget (QSpinBox, refreshTime)
+#: rc.cpp:9
+msgid "ms"
+msgstr "ms"
+
+#: transfergraph.cpp:52
+#, fuzzy
+msgid "KGet downloads"
+msgstr "Najhusćišo sćehnjene"
 
 #~ msgid "Editor Chooser"
 #~ msgstr "Wuběranje editora"
@@ -4064,9 +4109,6 @@ msgstr ""
 
 #~ msgid "Get help..."
 #~ msgstr "Na pomoc ..."
-
-#~ msgid "Configure Toolbars"
-#~ msgstr "Konfiguracija nastrojowych pasow"
 
 #~ msgid ""
 #~ "Do you really want to reset all toolbars of this application to their "
@@ -9063,10 +9105,6 @@ msgstr ""
 #~ "%2"
 
 #, fuzzy
-#~ msgid "Most downloads"
-#~ msgstr "Najhusćišo sćehnjene"
-
-#, fuzzy
 #~ msgid "Not yet rated"
 #~ msgstr "Swójstwa"
 
@@ -12404,9 +12442,6 @@ msgstr ""
 #~ msgid "Calculate"
 #~ msgstr "Wobličić"
 
-#~ msgid "Refresh"
-#~ msgstr "Ponowić"
-
 #~ msgid "Points to:"
 #~ msgstr "Wotkazuje na:"
 
@@ -14090,11 +14125,6 @@ msgstr ""
 #~ msgstr "Pokročowanje"
 
 #, fuzzy
-#~| msgid "Speed"
-#~ msgid "SpeedApp"
-#~ msgstr "Spěšnosć"
-
-#, fuzzy
 #~ msgid "safesitetest"
 #~ msgstr "Test ćišćaka"
 
@@ -14126,9 +14156,6 @@ msgstr ""
 
 #~ msgid "s"
 #~ msgstr "s"
-
-#~ msgid "ms"
-#~ msgstr "ms"
 
 #~ msgid "bps"
 #~ msgstr "bps"

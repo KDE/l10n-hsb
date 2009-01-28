@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-28 10:13+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-11-13 00:55+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: devicenotifier.cpp:171
+#: devicenotifier.cpp:252
 #, kde-format
 msgid "1 action for this device"
 msgid_plural "%1 actions for this device"
@@ -26,16 +26,7 @@ msgstr[1] "%1 akciji za tutón grat"
 msgstr[2] "%1 akcije za tutón grat"
 msgstr[3] "%1 akcijow za tutón grat"
 
-#: devicenotifier.cpp:223
-#, kde-format
-msgid "Last plugged in device: %1"
-msgstr "Posledni přizamknjeny grat: %1"
-
-#: devicenotifier.cpp:226
-msgid "No devices plugged in"
-msgstr "Žane graty njepřizamknjene"
-
-#: notifierdialog.cpp:297
+#: devicenotifier.cpp:451
 msgid ""
 "Cannot unmount the device.\n"
 "One or more files on this device are open within an application."
@@ -43,7 +34,7 @@ msgstr ""
 "Njemóžu grat wotmontować.\n"
 "Někajka aplikacija hišće jednu abo wjace datajow na tutym graće wužiwa."
 
-#: notifierdialog.cpp:313
+#: devicenotifier.cpp:466
 msgid ""
 "Cannot eject the disc.\n"
 "One or more files on this disc are open within an application."
@@ -51,7 +42,45 @@ msgstr ""
 "Njemóžu CD/DVD wućisnyć.\n"
 "Někajka aplikacija hišće jednu abo wjace datajow na tutym disku wužiwa."
 
-#: notifierdialog.cpp:400
+#: devicenotifier.cpp:502
 #, kde-format
 msgid "<font color=\"%1\">Devices recently plugged in:</font>"
 msgstr "<font color=\"%1\">Njedawno přizamknjene graty:</font>"
+
+#. i18n: file: deviceNotifierConfig.ui:16
+#. i18n: ectx: property (text), widget (QLabel, labelSize_2)
+#: rc.cpp:3
+msgid "&Time to stay on top:"
+msgstr ""
+
+#. i18n: file: deviceNotifierConfig.ui:35
+#. i18n: ectx: property (suffix), widget (QSpinBox, spinTime)
+#: rc.cpp:6
+msgid " sec"
+msgstr ""
+
+#. i18n: file: deviceNotifierConfig.ui:42
+#. i18n: ectx: property (text), widget (QLabel, labelSize)
+#: rc.cpp:9
+msgid "&Number of items displayed:"
+msgstr ""
+
+#. i18n: file: deviceNotifierConfig.ui:61
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, spinItems)
+#. i18n: file: deviceNotifierConfig.ui:90
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, spinTimeItems)
+#: rc.cpp:12 rc.cpp:18
+msgid "Unlimited"
+msgstr ""
+
+#. i18n: file: deviceNotifierConfig.ui:71
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:15
+msgid "&Display time of items:"
+msgstr ""
+
+#~ msgid "Last plugged in device: %1"
+#~ msgstr "Posledni přizamknjeny grat: %1"
+
+#~ msgid "No devices plugged in"
+#~ msgstr "Žane graty njepřizamknjene"

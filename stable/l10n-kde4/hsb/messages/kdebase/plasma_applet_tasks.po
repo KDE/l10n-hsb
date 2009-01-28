@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-15 10:44+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-11-22 12:33+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -18,122 +18,87 @@ msgstr ""
 "100==4 ? 2 : 3;\n"
 
 #. i18n: file: tasksConfig.ui:22
-#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QCheckBox, showTooltip)
 #: rc.cpp:3
-msgid "Appearance"
-msgstr "Napohlad"
-
-#. i18n: file: tasksConfig.ui:29
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:6
-msgid "Show tooltips:"
+#, fuzzy
+#| msgid "Show tooltips:"
+msgid "Show tooltips"
 msgstr "Tooltips pokazać:"
 
-#. i18n: file: tasksConfig.ui:46
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:9
-msgid "Force row settings:"
-msgstr "Nastajenja za linki přetłóčić"
-
-#. i18n: file: tasksConfig.ui:76
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:12
-msgid "Maximum rows:"
-msgstr "Maksimalna ličba linkow:"
-
-#. i18n: file: tasksConfig.ui:135
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:15
-msgid "Grouping & Sorting"
-msgstr "Skupiny a sortěrowanje"
-
-#. i18n: file: tasksConfig.ui:142
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:18
-msgid "Grouping:"
-msgstr "Skupiny:"
-
-#. i18n: file: tasksConfig.ui:200
-#. i18n: ectx: property (text), widget (QCheckBox, groupWhenFull)
-#: rc.cpp:21
-msgid "Only when the taskbar is full"
-msgstr "Jenož hdyž je pas nadawkow połny"
-
-#. i18n: file: tasksConfig.ui:212
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:24
-msgid "Sorting:"
-msgstr "Sortěrowanje:"
-
-#. i18n: file: tasksConfig.ui:255
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:27
-msgid "Filters"
-msgstr "Filtry"
-
-#. i18n: file: tasksConfig.ui:278
+#. i18n: file: tasksConfig.ui:29
 #. i18n: ectx: property (text), widget (QCheckBox, showOnlyCurrentDesktop)
-#: rc.cpp:30
+#: rc.cpp:6
 msgid "Only show tasks from the current desktop"
 msgstr "Jenož nadawki na aktualnym dźěłowym powjerchu pokazać"
 
-#. i18n: file: tasksConfig.ui:285
+#. i18n: file: tasksConfig.ui:36
 #. i18n: ectx: property (text), widget (QCheckBox, showOnlyCurrentScreen)
-#: rc.cpp:33
+#: rc.cpp:9
 msgid "Only show tasks from the current screen"
 msgstr "Jenož nadawki na aktualnej wobrazowce pokazać"
 
-#. i18n: file: tasksConfig.ui:292
-#. i18n: ectx: property (text), widget (QCheckBox, showOnlyMinimized)
-#: rc.cpp:36
-msgid "Only show tasks that are minimized"
-msgstr "Jenož minimalizowane nadawki pokazać"
-
-#: taskgroupitem.cpp:244 windowtaskitem.cpp:183
+#: windowtaskitem.cpp:559
 #, kde-format
 msgctxt "Which virtual desktop a window is currently on"
 msgid "On %1"
 msgstr "Na %1"
 
-#: taskgroupitem.cpp:331
-msgid "Collapse Group"
-msgstr "Skupinu sćahnyć"
+#~ msgid "Appearance"
+#~ msgstr "Napohlad"
 
-#: taskgroupitem.cpp:334
-msgid "Expand Group"
-msgstr "Skupinu rozćahnyć"
+#~ msgid "Force row settings:"
+#~ msgstr "Nastajenja za linki přetłóčić"
 
-#: tasks.cpp:253
-msgid "General"
-msgstr "Powšitkownje"
+#~ msgid "Maximum rows:"
+#~ msgstr "Maksimalna ličba linkow:"
 
-#: tasks.cpp:261
-msgid "Do Not Group"
-msgstr "Nic skupinkować"
+#~ msgid "Grouping & Sorting"
+#~ msgstr "Skupiny a sortěrowanje"
 
-#: tasks.cpp:262 tasks.cpp:286
-msgid "Manually"
-msgstr "Manuelnje"
+#~ msgid "Grouping:"
+#~ msgstr "Skupiny:"
 
-#: tasks.cpp:263
-msgid "By Program Name"
-msgstr "Po mjenje programa"
+#~ msgid "Only when the taskbar is full"
+#~ msgstr "Jenož hdyž je pas nadawkow połny"
 
-#: tasks.cpp:285
-msgid "Do Not Sort"
-msgstr "Nic sortěrować"
+#~ msgid "Sorting:"
+#~ msgstr "Sortěrowanje:"
 
-#: tasks.cpp:287
-msgid "Alphabetically"
-msgstr "Alfabetisce"
+#~ msgid "Filters"
+#~ msgstr "Filtry"
 
-#: tasks.cpp:288
-msgid "By Desktop"
-msgstr "Po dźěłowych powjerchach"
+#~ msgid "Only show tasks that are minimized"
+#~ msgstr "Jenož minimalizowane nadawki pokazać"
 
-#: windowtaskitem.cpp:267
-msgid "Collapse Parent Group"
-msgstr "Nadrjadowanu skupinu sćahnyć"
+#~ msgid "Collapse Group"
+#~ msgstr "Skupinu sćahnyć"
+
+#~ msgid "Expand Group"
+#~ msgstr "Skupinu rozćahnyć"
+
+#~ msgid "General"
+#~ msgstr "Powšitkownje"
+
+#~ msgid "Do Not Group"
+#~ msgstr "Nic skupinkować"
+
+#~ msgid "Manually"
+#~ msgstr "Manuelnje"
+
+#~ msgid "By Program Name"
+#~ msgstr "Po mjenje programa"
+
+#~ msgid "Do Not Sort"
+#~ msgstr "Nic sortěrować"
+
+#~ msgid "Alphabetically"
+#~ msgstr "Alfabetisce"
+
+#~ msgid "By Desktop"
+#~ msgstr "Po dźěłowych powjerchach"
+
+#~ msgid "Collapse Parent Group"
+#~ msgstr "Nadrjadowanu skupinu sćahnyć"
 
 #~ msgid "Editor Chooser"
 #~ msgstr "Wuběranje editora"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-17 10:20+0200\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-11-22 22:55+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -36,18 +36,6 @@ msgstr "%1 wobdźěłane z %2/sek"
 #, kde-format
 msgid "%1 processed"
 msgstr "%1 wobdźěłane"
-
-#: progresslistdelegate.cpp:265 progresslistdelegate.cpp:301
-msgid "Pause"
-msgstr "Přestawka"
-
-#: progresslistdelegate.cpp:266
-msgid "Cancel"
-msgstr "Přetorhnyć"
-
-#: progresslistdelegate.cpp:305
-msgid "Resume"
-msgstr "Pokročować"
 
 #. i18n: file: kuiserversettings.kcfg:8
 #. i18n: ectx: label, entry, group (Configuration)
@@ -131,7 +119,15 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "edi.werner@gmx.de"
 
-#: uiserver.cpp:101 uiserver.cpp:117
+#: uiserver.cpp:100 uiserver.cpp:245 uiserver.cpp:401 uiserver.cpp:420
+msgid "Pause"
+msgstr "Přestawka"
+
+#: uiserver.cpp:105 uiserver.cpp:395 uiserver.cpp:427
+msgid "Resume"
+msgstr "Pokročować"
+
+#: uiserver.cpp:119 uiserver.cpp:135
 #, kde-format
 msgid "%1 file"
 msgid_plural "%1 files"
@@ -140,7 +136,7 @@ msgstr[1] "%1 dataji"
 msgstr[2] "%1 dataje"
 msgstr[3] "%1 datajow"
 
-#: uiserver.cpp:104 uiserver.cpp:120
+#: uiserver.cpp:122 uiserver.cpp:138
 #, kde-format
 msgid "%1 folder"
 msgid_plural "%1 folders"
@@ -149,55 +145,59 @@ msgstr[1] "%1 zapiskaj"
 msgstr[2] "%1 zapiski"
 msgstr[3] "%1 zapiskow"
 
-#: uiserver.cpp:187
+#: uiserver.cpp:205
 msgid "Configure..."
 msgstr "Připrawić..."
 
-#: uiserver.cpp:206
+#: uiserver.cpp:224
 msgid "Search"
 msgstr "Pytać"
 
-#: uiserver.cpp:224
+#: uiserver.cpp:244
+msgid "Cancel"
+msgstr "Přetorhnyć"
+
+#: uiserver.cpp:260
 msgid "In Progress"
 msgstr "W dźěle"
 
-#: uiserver.cpp:310
+#: uiserver.cpp:363
 msgid "Behavior"
 msgstr "Zadźerženje"
 
-#: uiserver.cpp:348
+#: uiserver.cpp:468
 msgid "Progress Manager"
 msgstr "Rjadowar postupa"
 
-#: uiserver.cpp:349
+#: uiserver.cpp:469
 msgid "KDE Progress Information UI Server"
 msgstr "KDE UI Serwer za informaciju wo postupje"
 
-#: uiserver.cpp:350
+#: uiserver.cpp:470
 msgid "(C) 2000-2008, KDE Team"
 msgstr "(C) 2000-2008, KDE skupina"
 
-#: uiserver.cpp:351
+#: uiserver.cpp:471
 msgid "Rafael Fernández López"
 msgstr "Rafael Fernández López"
 
-#: uiserver.cpp:351
+#: uiserver.cpp:471
 msgid "Maintainer"
 msgstr "Zastaraćel"
 
-#: uiserver.cpp:352
+#: uiserver.cpp:472
 msgid "David Faure"
 msgstr "David Faure"
 
-#: uiserver.cpp:352
+#: uiserver.cpp:472
 msgid "Former maintainer"
 msgstr "Prjedawši zastaraćel"
 
-#: uiserver.cpp:353
+#: uiserver.cpp:473
 msgid "Matej Koss"
 msgstr "Matej Koss"
 
-#: uiserver.cpp:353
+#: uiserver.cpp:473
 msgid "Developer"
 msgstr "Wuwiwar"
 

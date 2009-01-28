@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-10 11:23+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-11-22 12:19+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,31 +17,29 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: pager.cpp:173
+#: pager.cpp:148
 msgid "&Configure Desktops..."
 msgstr "Dźěłowy powjerch &konfigurować..."
 
-#: pager.cpp:193
-msgid "General"
-msgstr "Powšitkownje"
+#: pager.cpp:174
+#, fuzzy
+#| msgid "Desktop number"
+msgid "Desktop Number"
+msgstr "Čisło dźěłoweho powjercha"
 
-#: pager.cpp:1139
-#, kde-format
-msgid "One window:"
-msgid_plural "%1 windows:"
-msgstr[0] "%1 wokno:"
-msgstr[1] "%1 woknje"
-msgstr[2] "%1 wokna:"
-msgstr[3] "%1 woknow"
+#: pager.cpp:175
+#, fuzzy
+#| msgid "Desktop name"
+msgid "Desktop Name"
+msgstr "Mjeno dźěłoweho powjercha"
 
-#: pager.cpp:1143
-#, kde-format
-msgid "and 1 other"
-msgid_plural "and %1 others"
-msgstr[0] "a %1 dalši"
-msgstr[1] "a %1 dalšej"
-msgstr[2] "a %1 dalše"
-msgstr[3] "a %1 dalšich"
+#: pager.cpp:176
+msgid "None"
+msgstr "Žane"
+
+#: pager.cpp:178
+msgid "What will appear when the mouse is over a desktop miniature"
+msgstr ""
 
 #. i18n: file: pagerConfig.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, pagerConfig)
@@ -51,55 +49,58 @@ msgstr[3] "a %1 dalšich"
 msgid "Configure Pager"
 msgstr "Pager připrawić"
 
-#. i18n: file: pagerConfig.ui:43
-#. i18n: ectx: property (text), widget (QLabel, displayLabel)
+#. i18n: file: pagerConfig.ui:25
+#. i18n: ectx: property (text), widget (QLabel, labelText)
 #: rc.cpp:9
-msgid "Display text:"
+#, fuzzy
+#| msgid "Display text:"
+msgid "Displayed text:"
 msgstr "Tekst pokazać:"
 
-#. i18n: file: pagerConfig.ui:53
-#. i18n: ectx: property (text), widget (QRadioButton, desktopNumberRadioButton)
+#. i18n: file: pagerConfig.ui:35
+#. i18n: ectx: property (text), widget (QCheckBox, showWindowIconsCheckBox)
 #: rc.cpp:12
-msgid "Desktop number"
-msgstr "Čisło dźěłoweho powjercha"
-
-#. i18n: file: pagerConfig.ui:60
-#. i18n: ectx: property (text), widget (QRadioButton, desktopNameRadioButton)
-#: rc.cpp:15
-msgid "Desktop name"
-msgstr "Mjeno dźěłoweho powjercha"
-
-#. i18n: file: pagerConfig.ui:67
-#. i18n: ectx: property (text), widget (QRadioButton, displayNoneRadioButton)
-#: rc.cpp:18
-msgid "No text"
-msgstr "Žadyn tekst"
-
-#. i18n: file: pagerConfig.ui:74
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:21
-msgid "Display icons:"
+#, fuzzy
+#| msgid "Display icons:"
+msgid "Display window &icons"
 msgstr "Piktogramy pokazać:"
 
-#. i18n: file: pagerConfig.ui:94
+#. i18n: file: pagerConfig.ui:42
 #. i18n: ectx: property (text), widget (QLabel, labelRows)
-#: rc.cpp:24
+#: rc.cpp:15
 msgid "Number of rows:"
 msgstr "Ličba linkow:"
 
-#. i18n: file: pagerConfig.ui:107
+#. i18n: file: pagerConfig.ui:52
 #. i18n: ectx: property (toolTip), widget (QSpinBox, spinRows)
-#. i18n: file: pagerConfig.ui:110
+#. i18n: file: pagerConfig.ui:55
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, spinRows)
-#: rc.cpp:27 rc.cpp:30
+#: rc.cpp:18 rc.cpp:21
 msgid "Change the number of rows"
 msgstr "Ličbu linkow změnić"
 
-#. i18n: file: pagerConfig.ui:170
-#. i18n: ectx: property (text), widget (QPushButton, configureDesktopsButton)
-#: rc.cpp:33
-msgid "Configure Desktops..."
-msgstr "Dźěłowe powjerchi připrawić..."
+#~ msgid "General"
+#~ msgstr "Powšitkownje"
+
+#~ msgid "One window:"
+#~ msgid_plural "%1 windows:"
+#~ msgstr[0] "%1 wokno:"
+#~ msgstr[1] "%1 woknje"
+#~ msgstr[2] "%1 wokna:"
+#~ msgstr[3] "%1 woknow"
+
+#~ msgid "and 1 other"
+#~ msgid_plural "and %1 others"
+#~ msgstr[0] "a %1 dalši"
+#~ msgstr[1] "a %1 dalšej"
+#~ msgstr[2] "a %1 dalše"
+#~ msgstr[3] "a %1 dalšich"
+
+#~ msgid "No text"
+#~ msgstr "Žadyn tekst"
+
+#~ msgid "Configure Desktops..."
+#~ msgstr "Dźěłowe powjerchi připrawić..."
 
 #~ msgid "Editor Chooser"
 #~ msgstr "Wuběranje editora"
@@ -9585,9 +9586,6 @@ msgstr "Dźěłowe powjerchi připrawić..."
 
 #~ msgid "--- separator ---"
 #~ msgstr "--- dźělak ---"
-
-#~ msgid "None"
-#~ msgstr "Žane"
 
 #~ msgid "Password"
 #~ msgstr "Hesło"
