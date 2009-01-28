@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-12 10:00+0100\n"
+"POT-Creation-Date: 2009-01-28 09:13+0100\n"
 "PO-Revision-Date: 2008-11-19 23:51+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -79,7 +79,7 @@ msgid ""
 "holding the Shift key while calling 'Move to Trash'."
 msgstr ""
 
-#: globalpaths.cpp:95
+#: globalpaths.cpp:86
 msgid ""
 "<h1>Paths</h1>\n"
 "This module allows you to choose where in the filesystem the files on your "
@@ -91,11 +91,13 @@ msgstr ""
 "dźěłowym powjerchu składuja.\n"
 "Wužiwajće \"Što to je?\" (Wulkopis+F1) po pomoc za specielne opcije."
 
-#: globalpaths.cpp:102
-msgid "Des&ktop path:"
+#: globalpaths.cpp:91
+#, fuzzy
+#| msgid "Des&ktop path:"
+msgid "Desktop path:"
 msgstr "Puć za &dźěłowy powjerch:"
 
-#: globalpaths.cpp:110
+#: globalpaths.cpp:92
 msgid ""
 "This folder contains all the files which you see on your desktop. You can "
 "change the location of this folder if you want to, and the contents will "
@@ -105,11 +107,13 @@ msgstr ""
 "městno tutoho zapiska změnić, jeli chceće, a wobsah so awtomatisce na nowe "
 "městno přesunje."
 
-#: globalpaths.cpp:118
-msgid "A&utostart path:"
+#: globalpaths.cpp:97
+#, fuzzy
+#| msgid "A&utostart path:"
+msgid "Autostart path:"
 msgstr "Puć za awtostart:"
 
-#: globalpaths.cpp:126
+#: globalpaths.cpp:98
 msgid ""
 "This folder contains applications or links to applications (shortcuts) that "
 "you want to have started automatically whenever KDE starts. You can change "
@@ -120,24 +124,107 @@ msgstr ""
 "chceće awtomatisce wuwjesć, hdyž KDE startuje.  Móžeće městno tutoho zapiska "
 "změnić, jeli chceće, a wobsah so awtomatisce na nowe městno přesunje."
 
-#: globalpaths.cpp:135
-msgid "D&ocuments path:"
+#: globalpaths.cpp:104
+#, fuzzy
+#| msgid "D&ocuments path:"
+msgid "Documents path:"
 msgstr "Puć za &dokumenty:"
 
-#: globalpaths.cpp:143
+#: globalpaths.cpp:105
 msgid ""
 "This folder will be used by default to load or save documents from or to."
 msgstr "To je standardny zapisk za čitanje a składowanje dokumentow."
 
-#: globalpaths.cpp:271 globalpaths.cpp:288
+#: globalpaths.cpp:108
+#, fuzzy
+#| msgid "Downloads: "
+msgid "Downloads path:"
+msgstr "Sćehnjene:"
+
+#: globalpaths.cpp:109
+#, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to save your downloaded items."
+msgstr "To je standardny zapisk za čitanje a składowanje dokumentow."
+
+#: globalpaths.cpp:112
+#, fuzzy
+#| msgid "D&ocuments path:"
+msgid "Movies path:"
+msgstr "Puć za &dokumenty:"
+
+#: globalpaths.cpp:113
+#, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to load or save movies from or to."
+msgstr "To je standardny zapisk za čitanje a składowanje dokumentow."
+
+#: globalpaths.cpp:116
+#, fuzzy
+#| msgid "D&ocuments path:"
+msgid "Pictures path:"
+msgstr "Puć za &dokumenty:"
+
+#: globalpaths.cpp:117
+#, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid ""
+"This folder will be used by default to load or save pictures from or to."
+msgstr "To je standardny zapisk za čitanje a składowanje dokumentow."
+
+#: globalpaths.cpp:120
+msgid "Music path:"
+msgstr ""
+
+#: globalpaths.cpp:121
+#, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to load or save music from or to."
+msgstr "To je standardny zapisk za čitanje a składowanje dokumentow."
+
+#: globalpaths.cpp:257 globalpaths.cpp:275
 msgid "Autostart"
 msgstr "Awtostart"
 
-#: globalpaths.cpp:275
+#: globalpaths.cpp:261
 msgid "Desktop"
 msgstr "Dźěłowy powjerch"
 
-#: globalpaths.cpp:351
+#: globalpaths.cpp:285
+msgid "Documents"
+msgstr "Dokumenty"
+
+#: globalpaths.cpp:288
+#, fuzzy
+#| msgid "Download"
+msgid "Downloads"
+msgstr "Sćahnyć"
+
+#: globalpaths.cpp:291
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "XMovie"
+msgid "Movies"
+msgstr "XMovie"
+
+#: globalpaths.cpp:294
+#, fuzzy
+#| msgid "All Pictures"
+msgid "Pictures"
+msgstr "Wšitke wobrazy"
+
+#: globalpaths.cpp:297
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "MusE"
+msgid "Music"
+msgstr "MusE"
+
+#: globalpaths.cpp:336
 #, kde-format
 msgid ""
 "The path for '%1' has been changed.\n"
@@ -146,14 +233,24 @@ msgstr ""
 "Puć za '%1' je so změnił.\n"
 "Chceće dataje z '%2' na '%3' přesunyć?"
 
-#: globalpaths.cpp:352
+#: globalpaths.cpp:337
 msgid "Confirmation Required"
 msgstr "Wobkrućenje trěbne"
 
-#: globalpaths.cpp:352
-msgctxt "Move desktop files from old to new place"
+#: globalpaths.cpp:338
+#, fuzzy
+#| msgctxt "Move desktop files from old to new place"
+#| msgid "Move"
+msgctxt "Move files from old to new place"
 msgid "Move"
 msgstr "Přesunyć"
+
+#: globalpaths.cpp:339
+#, fuzzy
+#| msgid "&Do Not Save"
+msgctxt "Use the new directory but do not move files"
+msgid "Do not Move"
+msgstr "&Njezawěsćić"
 
 #: kcustommenueditor.cpp:96
 msgid "Menu Editor"
@@ -3396,9 +3493,6 @@ msgstr "Dele sunyć"
 #~ msgid "Rating: "
 #~ msgstr "Hódnoćenje:"
 
-#~ msgid "Downloads: "
-#~ msgstr "Sćehnjene:"
-
 #~ msgid "Translate this entry"
 #~ msgstr "Přełožić"
 
@@ -3805,9 +3899,6 @@ msgstr "Dele sunyć"
 
 #~ msgid "Save data"
 #~ msgstr "Daty zawěsćić"
-
-#~ msgid "&Do Not Save"
-#~ msgstr "&Njezawěsćić"
 
 #~ msgid "Do not save data"
 #~ msgstr "Daty njezawěsćić"
@@ -7774,9 +7865,6 @@ msgstr "Dele sunyć"
 #~ msgid "Missing Plugin"
 #~ msgstr "Falowacy plugin"
 
-#~ msgid "Download"
-#~ msgstr "Sćahnyć"
-
 #~ msgid "Do Not Download"
 #~ msgstr "Nic sćahnyć"
 
@@ -10084,9 +10172,6 @@ msgstr "Dele sunyć"
 
 #~ msgid "File Already Exists"
 #~ msgstr "Dataja hižo eksistuje"
-
-#~ msgid "All Pictures"
-#~ msgstr "Wšitke wobrazy"
 
 #~ msgid "Data format:"
 #~ msgstr "Format datow:"
@@ -14599,9 +14684,6 @@ msgstr "Dele sunyć"
 #~ msgid "KIOExec"
 #~ msgstr "Startować"
 
-#~ msgid "Documents"
-#~ msgstr "Dokumenty"
-
 #~ msgid "Clear input field"
 #~ msgstr "Wuprózdni zapodawanske pólko"
 
@@ -15754,10 +15836,6 @@ msgstr "Dele sunyć"
 #~ msgid "MP3 Info"
 #~ msgstr "MP3 Info"
 
-#~ msgctxt "Name"
-#~ msgid "XMovie"
-#~ msgstr "XMovie"
-
 #~ msgctxt "GenericName"
 #~ msgid "Video Player"
 #~ msgstr "Widejowy wothrawak"
@@ -15925,10 +16003,6 @@ msgstr "Dele sunyć"
 #~ msgctxt "Name"
 #~ msgid "MpegTV"
 #~ msgstr "MpegTV"
-
-#~ msgctxt "Name"
-#~ msgid "MusE"
-#~ msgstr "MusE"
 
 #~ msgctxt "GenericName"
 #~ msgid "Music Sequencer"

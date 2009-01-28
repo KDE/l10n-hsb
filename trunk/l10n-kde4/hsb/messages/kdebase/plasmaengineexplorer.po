@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-19 10:30+0100\n"
+"POT-Creation-Date: 2009-01-28 09:13+0100\n"
 "PO-Revision-Date: 2008-11-22 12:57+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -33,39 +33,39 @@ msgstr "Wšě zesćahać"
 msgid "Expand All"
 msgstr "Wšě zrozćahać"
 
-#: engineexplorer.cpp:148
+#: engineexplorer.cpp:157
 msgid "DataSource"
 msgstr "Žórło za daty"
 
 #. i18n: file: serviceviewer.ui:67
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:148 rc.cpp:25 serviceviewer.cpp:140
+#: engineexplorer.cpp:157 rc.cpp:25 serviceviewer.cpp:140
 msgid "Key"
 msgstr "Kluč"
 
 #. i18n: file: serviceviewer.ui:72
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:148 rc.cpp:28 serviceviewer.cpp:140
+#: engineexplorer.cpp:157 rc.cpp:28 serviceviewer.cpp:140
 msgid "Value"
 msgstr "Hódnota"
 
-#: engineexplorer.cpp:148
+#: engineexplorer.cpp:157
 msgid "Type"
 msgstr "Družina"
 
-#: engineexplorer.cpp:257
+#: engineexplorer.cpp:266
 msgid "Get associated service"
 msgstr "Asociěrowanu słužbu wobstarać"
 
-#: engineexplorer.cpp:258
+#: engineexplorer.cpp:267
 msgid "Update source now"
 msgstr "Žórło nětko aktualizować"
 
-#: engineexplorer.cpp:259
+#: engineexplorer.cpp:268
 msgid "Remove source"
 msgstr "Žórło wotstronić"
 
-#: engineexplorer.cpp:279
+#: engineexplorer.cpp:288
 #, kde-format
 msgid "&lt;1 bit&gt;"
 msgid_plural "&lt;%1 bits&gt;"
@@ -74,7 +74,7 @@ msgstr[1] "&lt;%1 bitaj&gt;"
 msgstr[2] "&lt;%1 bity&gt;"
 msgstr[3] "&lt;%1 bitow&gt;"
 
-#: engineexplorer.cpp:288
+#: engineexplorer.cpp:297
 #, kde-format
 msgid "&lt;1 byte&gt;"
 msgid_plural "&lt;%1 bytes&gt;"
@@ -83,7 +83,7 @@ msgstr[1] "&lt;%1 bajtaj&gt;"
 msgstr[2] "&lt;%1 bajty&gt;"
 msgstr[3] "&lt;%1 bajtow&gt;"
 
-#: engineexplorer.cpp:310
+#: engineexplorer.cpp:319
 #, kde-format
 msgid "&lt;1 item&gt;"
 msgid_plural "&lt;%1 items&gt;"
@@ -92,14 +92,14 @@ msgstr[1] "&lt;%1 objektaj&gt;"
 msgstr[2] "&lt;%1 objekty&gt;"
 msgstr[3] "&lt;%1 objektow&gt;"
 
-#: engineexplorer.cpp:376
+#: engineexplorer.cpp:385
 #, fuzzy
 #| msgid "<empty>"
 msgctxt "The user did a query to a dataengine and it returned empty data"
 msgid "<empty>"
 msgstr "<prózdny>"
 
-#: engineexplorer.cpp:383
+#: engineexplorer.cpp:392
 #, fuzzy
 #| msgid "<not displayable>"
 msgctxt ""
@@ -110,11 +110,11 @@ msgstr "<njepokazujomny>"
 
 #. i18n: file: engineexplorer.ui:19
 #. i18n: ectx: property (text), widget (KTitleWidget, m_title)
-#: engineexplorer.cpp:420 rc.cpp:3
+#: engineexplorer.cpp:429 rc.cpp:3
 msgid "Plasma DataEngine Explorer"
 msgstr "Plasma DataEngine Explorer"
 
-#: engineexplorer.cpp:425
+#: engineexplorer.cpp:434
 #, kde-format
 msgctxt "The name of the engine followed by the number of data sources"
 msgid "%1 Engine - 1 data source"
@@ -179,8 +179,16 @@ msgid "The source to request"
 msgstr "Subskripcija zwrěšćena."
 
 #: main.cpp:48
-msgid "Update Interval in milliseconds."
+#, fuzzy
+#| msgid "Update Interval in milliseconds."
+msgid "Update interval in milliseconds"
 msgstr "Interwal aktualzowanja w milisekundach."
+
+#: main.cpp:49
+msgid ""
+"Only show engines associated with the parent application; maps to the X-KDE-"
+"ParentApp entry in the DataEngine's .desktop file."
+msgstr ""
 
 #. i18n: file: engineexplorer.ui:34
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, m_sourceRequester)
@@ -260,7 +268,9 @@ msgid "%1 Service Explorer"
 msgstr "%1 Wuslědźer słužbow"
 
 #: serviceviewer.cpp:68
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "DataEngine: <b>%1</b>; Source: <b>%2</b>; Service <b>%3</b>"
+msgctxt "Source: name of the data, Service: writes data instead of fetching"
 msgid "DataEngine: <b>%1</b>; Source: <b>%2</b>; Service <b>%3</b>"
 msgstr "DataEngine: <b>%1</b>; Žórło: <b>%2</b>; Słužba <b>%3</b>"
 

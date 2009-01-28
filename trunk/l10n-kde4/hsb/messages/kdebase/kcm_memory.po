@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-09 09:46+0200\n"
+"POT-Creation-Date: 2009-01-28 09:13+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -144,9 +144,14 @@ msgid ""
 msgstr ""
 
 #: memory.cpp:272
-#, kde-format
-msgid "%1 bytes ="
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "%2 (%1 bytes)"
+msgid "%1 byte ="
+msgid_plural "%1 bytes ="
+msgstr[0] "%2 (%1 bytes)"
+msgstr[1] "%2 (%1 bytes)"
+msgstr[2] "%2 (%1 bytes)"
+msgstr[3] "%2 (%1 bytes)"
 
 #: physicalMemoryChart.cpp:51
 msgid "Free Physical Memory"
@@ -7263,9 +7268,6 @@ msgstr ""
 
 #~ msgid "Symbolic Link"
 #~ msgstr "Wotkaz"
-
-#~ msgid "%2 (%1 bytes)"
-#~ msgstr "%2 (%1 bytes)"
 
 #~ msgid "%2 (%1 K)"
 #~ msgstr "%2 (%1 K)"
