@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:20+0100\n"
 "PO-Revision-Date: 2008-11-22 13:18+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,64 +17,73 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: main.cpp:36
+#: main.cpp:42
 msgid "Install, list, remove Plasma packages"
 msgstr "Plasma-pakćiki instalować, naličić, wumaznyć"
 
-#: main.cpp:47
-msgid "Listing is not yet implemented."
-msgstr ""
-
-#: main.cpp:52
+#: main.cpp:77
 msgid "Plasma Package Manager"
 msgstr "Plasma rjadowar pakćikow"
 
-#: main.cpp:54
+#: main.cpp:79
 msgid "(C) 2008, Aaron Seigo"
 msgstr "(C) 2008, Aaron Seigo"
 
-#: main.cpp:55
+#: main.cpp:80
 msgid "Aaron Seigo"
 msgstr "Aaron Seigo"
 
-#: main.cpp:56
+#: main.cpp:81
 msgid "Original author"
 msgstr "Prěnjotny awtor"
 
-#: main.cpp:65
+#: main.cpp:90
 msgid "For install or remove, operates on packages installed for all users."
 msgstr ""
 "Za instalowanje a wumazanje, dźěła z pakćikami, kiž su za wšěch wužiwarjow "
 "instalowane."
 
-#: main.cpp:68
+#: main.cpp:96
 #, fuzzy
 #| msgid ""
 #| "The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
 #| "etc."
+msgctxt ""
+"theme, wallpaper, etc. are keywords, but they may be translated, as both "
+"versions are recognized by the application (if translated, should be same as "
+"messages with 'package type' context below)"
 msgid ""
-"The type of package, e.g. theme, wallpaper, plasmoid, DataEngine, Runner, "
+"The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
 "etc."
 msgstr ""
 "Typ pakćika, na př. tema, tapeta, plasmoid, dataengine, startowar, etc."
 
-#: main.cpp:72
+#: main.cpp:100
 #, fuzzy
 #| msgid "Install the package at <path>"
+msgctxt "Do not translate <path>"
 msgid "Install the package at <path>"
 msgstr "Pakćik instalować w <puću>"
 
-#: main.cpp:74
+#: main.cpp:102
+#, fuzzy
+#| msgid "Upgrade the package at <path>"
+msgctxt "Do not translate <path>"
+msgid "Upgrade the package at <path>"
+msgstr "Pakćik w <puću> aktualizować"
+
+#: main.cpp:104
 msgid "List installed packages"
 msgstr "Instalowane pakćiki naličić"
 
-#: main.cpp:76
+#: main.cpp:106
 #, fuzzy
 #| msgid "Remove the package named <name>"
+msgctxt "Do not translate <name>"
 msgid "Remove the package named <name>"
 msgstr "Pakćik z mjenom <mjeno> wumaznyć"
 
-#: main.cpp:78
+#: main.cpp:108
 msgid ""
 "Absolute path to the package root. If not supplied, then the standard data "
 "directories for this KDE session will be searched instead."
@@ -82,70 +91,83 @@ msgstr ""
 "Absolutny puć ke korjenjej pakćika. Jeli so podawa, so město toho standardne "
 "datowe zapiski za tute KDE-posedźenje přepytuja."
 
-#: main.cpp:97
+#: main.cpp:120
 #, fuzzy
 #| msgid "plasmoid"
+msgctxt "package type"
 msgid "plasmoid"
 msgstr "plasmoid"
 
-#: main.cpp:100
+#: main.cpp:124
 #, fuzzy
 #| msgid "theme"
+msgctxt "package type"
 msgid "theme"
 msgstr "tema"
 
-#: main.cpp:102
+#: main.cpp:126
 #, fuzzy
 #| msgid "wallpaper"
+msgctxt "package type"
 msgid "wallpaper"
 msgstr "tapeta"
 
-#: main.cpp:104
+#: main.cpp:128
 #, fuzzy
 #| msgid "dataengine"
+msgctxt "package type"
 msgid "dataengine"
 msgstr "dataengine"
 
-#: main.cpp:107
+#: main.cpp:132
 #, fuzzy
 #| msgid "runner"
+msgctxt "package type"
 msgid "runner"
 msgstr "startowar"
 
-#: main.cpp:118
+#: main.cpp:140
 #, kde-format
 msgid "Could not find a suitable installer for package of type %1"
 msgstr "Njemóžach kmany instalowar namakać za pakćik typa %1"
 
-#: main.cpp:127
+#: main.cpp:149
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr "Njemóžach instalowar začitać za pakćik typa %1. Zmylk bě: %2"
 
-#: main.cpp:150
-#, kde-format
-msgid "Successfully installed %1"
-msgstr "%1 wuspěšnje instalowane"
-
-#: main.cpp:152
-#, kde-format
-msgid "Installation of %1 failed."
-msgstr "Instalacija pakćika %1 je so zwrěšćiła."
-
-#: main.cpp:158
+#: main.cpp:205
 #, kde-format
 msgid "Successfully removed %1"
 msgstr "%1 wuspěšnje wumaznjene"
 
-#: main.cpp:160
+#: main.cpp:207
 #, kde-format
 msgid "Removal of %1 failed."
 msgstr "Wumazanje pakćika %1 je so zwrěšćiło."
 
-#: main.cpp:164
+#: main.cpp:211
+#, kde-format
+msgid "Plugin %1 is not installed."
+msgstr "Zašćěpka %1 njeje instalowana."
+
+#: main.cpp:216
+#, kde-format
+msgid "Successfully installed %1"
+msgstr "%1 wuspěšnje instalowane"
+
+#: main.cpp:218
+#, kde-format
+msgid "Installation of %1 failed."
+msgstr "Instalacija pakćika %1 je so zwrěšćiła."
+
+#: main.cpp:223
 #, fuzzy
 #| msgid "One of install, remove, upgrade or list is required."
-msgid "One of install, remove or list is required."
+msgctxt ""
+"No option was given, this is the error message telling the user he needs at "
+"least one, do not translate install, remove, upgrade nor list"
+msgid "One of install, remove, upgrade or list is required."
 msgstr ""
 "Pak instalowanje, wumazanje, aktualizowanje abo naličenje dyrbi so žadać."
 
@@ -158,15 +180,6 @@ msgstr "Edward Wornar"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "edi.werner@gmx.de"
-
-#, fuzzy
-#~| msgid "Upgrade the package at <path>"
-#~ msgctxt "Do not translate <path>"
-#~ msgid "Upgrade the package at <path>"
-#~ msgstr "Pakćik w <puću> aktualizować"
-
-#~ msgid "Plugin %1 is not installed."
-#~ msgstr "Zašćěpka %1 njeje instalowana."
 
 #~ msgid "Editor Chooser"
 #~ msgstr "Wuběranje editora"

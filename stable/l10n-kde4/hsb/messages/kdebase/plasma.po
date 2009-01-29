@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:20+0100\n"
 "PO-Revision-Date: 2008-11-22 13:20+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,24 +17,41 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: dashboardview.cpp:61
+#: backgrounddialog.cpp:364
+msgid "Desktop Settings"
+msgstr "Nastajenja za dźěłowy powjerch"
+
+#: backgrounddialog.cpp:390
+msgid ""
+"This picture of a monitor contains a preview of what the current settings "
+"will look like on your desktop."
+msgstr ""
+"Tutón wobrazk z wobrazowku wobsahuje přehladku, kiž pokazuje, kak tuchwilne "
+"nastajenja na Wašim dźěłowym powjerchu wupadaja."
+
+#: dashboardview.cpp:62
 msgid "Hide Dashboard"
 msgstr "Chwatawku schować"
 
-#: dashboardview.cpp:93
+#: dashboardview.cpp:94
 #, fuzzy
-msgid "Plasma Dashboard"
-msgstr "Name=Xboard"
+#| msgid "Hide Dashboard"
+msgid "Widget Dashboard"
+msgstr "Chwatawku schować"
 
-#: dashboardview.cpp:140 plasmaapp.cpp:423
+#: dashboardview.cpp:141 plasmaapp.cpp:554
 msgid "Add Widgets"
 msgstr "Widgety dodać"
 
-#: desktopview.cpp:63
+#: desktopcorona.cpp:95
+msgid "Desktop"
+msgstr "Dźěłowy powjerch"
+
+#: desktopview.cpp:83
 msgid "Next Activity"
 msgstr "Přichodna aktiwita"
 
-#: desktopview.cpp:68
+#: desktopview.cpp:88
 msgid "Previous Activity"
 msgstr "Předchadna aktiwita"
 
@@ -66,97 +83,212 @@ msgstr ""
 msgid "In memory of his contributions, 1937-1998."
 msgstr ""
 
-#: main.cpp:52
+#: panelcontroller.cpp:389
 #, fuzzy
-#| msgid ""
-#| "Start searching at the current cursor location rather than at the top."
-msgid "Starts plasma as an ordinary window rather than as the desktop."
-msgstr "Započnje pytać na městnje cursora a nic na započatku dokumenta."
+#| msgctxt "Name"
+#| msgid "Enlightenment"
+msgid "Panel Alignment"
+msgstr "Enlightenment"
 
-#: panelcontroller.cpp:354
-msgid "Align panel to left"
+#: panelcontroller.cpp:392 panelcontroller.cpp:657
+#, fuzzy
+#| msgctxt "keyboard-key-name"
+#| msgid "Left"
+msgid "Left"
+msgstr "Nalěwo"
+
+#: panelcontroller.cpp:398
+#, fuzzy
+#| msgctxt "@label center justify"
+#| msgid "Center"
+msgid "Center"
+msgstr "Centrować"
+
+#: panelcontroller.cpp:403 panelcontroller.cpp:658
+#, fuzzy
+#| msgctxt "keyboard-key-name"
+#| msgid "Right"
+msgid "Right"
+msgstr "Naprawo"
+
+#: panelcontroller.cpp:414
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Accessibility"
+msgid "Visibility"
+msgstr "Přistupnosć"
+
+#: panelcontroller.cpp:417
+msgid "Always visible"
 msgstr ""
 
-#: panelcontroller.cpp:359
+#: panelcontroller.cpp:422
 #, fuzzy
-#| msgctxt "@action"
-#| msgid "Align &Center"
-msgid "Align panel to center"
-msgstr "&Centrowane"
+msgid "Auto hide"
+msgstr "Awtomatisce"
 
-#: panelcontroller.cpp:363
+#: panelcontroller.cpp:427
 #, fuzzy
-#| msgctxt "@action"
-#| msgid "Align &Right"
-msgid "Align panel to right"
-msgstr "P&rawa kroma"
+#| msgctxt "Name"
+#| msgid "Window Manager"
+msgid "Windows can cover"
+msgstr "Woknowy manager"
 
-#: panelcontroller.cpp:371
+#: panelcontroller.cpp:433
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Saver"
+msgid "Screen Edge"
+msgstr "Škitak za wobrazowku"
+
+#: panelcontroller.cpp:439 panelcontroller.cpp:654
+#, fuzzy
+#| msgctxt "keyboard-key-name"
+#| msgid "Right"
+msgid "Height"
+msgstr "Naprawo"
+
+#: panelcontroller.cpp:449
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Mouse settings"
+msgid "More Settings"
+msgstr "Nastajenja za myš"
+
+#: panelcontroller.cpp:461
+msgid "Maximize Panel"
+msgstr ""
+
+#: panelcontroller.cpp:467
 msgid "Close this configuration window"
 msgstr ""
 
-#: plasmaapp.cpp:222
+#: panelcontroller.cpp:641
+#, fuzzy
+#| msgid "Write"
+msgid "Width"
+msgstr "Pisać"
+
+#: panelcontroller.cpp:644
+#, fuzzy
+#| msgctxt "toolbar position string"
+#| msgid "Top"
+msgid "Top"
+msgstr "Horjeka"
+
+#: panelcontroller.cpp:645
+#, fuzzy
+#| msgctxt "toolbar position string"
+#| msgid "Bottom"
+msgid "Bottom"
+msgstr "Deleka"
+
+#: plasmaapp.cpp:220
 msgid "Show Dashboard"
 msgstr ""
 
-#: positioningruler.cpp:453
+#: positioningruler.cpp:460
 msgid "Move this slider to set the panel position"
 msgstr ""
 
-#: positioningruler.cpp:456
+#: positioningruler.cpp:463
 msgid "Move this slider to set the maximum panel size"
 msgstr ""
 
-#: positioningruler.cpp:459
+#: positioningruler.cpp:466
 msgid "Move this slider to set the minimum panel size"
 msgstr ""
 
-#: rc.cpp:1
+#. i18n: file: BackgroundDialog.ui:34
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:3
+#, fuzzy
+#| msgid "Next Activity"
+msgid "Desktop Activity"
+msgstr "Přichodna aktiwita"
+
+#. i18n: file: BackgroundDialog.ui:41
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: BackgroundDialog.ui:244
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperTypeLabel)
+#: rc.cpp:6 rc.cpp:27
+msgid "Type:"
+msgstr "Družina:"
+
+#. i18n: file: BackgroundDialog.ui:92
+#. i18n: ectx: property (text), widget (QLabel, m_monitor)
+#: rc.cpp:9
+#, fuzzy
+#| msgid "Mount"
+msgid "Monitor"
+msgstr "montować"
+
+#. i18n: file: BackgroundDialog.ui:117
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:12
+msgid "Name:"
+msgstr "Mjeno:"
+
+#. i18n: file: BackgroundDialog.ui:159
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:15
+#, fuzzy
+msgid "Desktop Theme"
+msgstr "Name=Dźěłowy powjerch"
+
+#. i18n: file: BackgroundDialog.ui:172
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:18
+msgid "Theme:"
+msgstr ""
+
+#. i18n: file: BackgroundDialog.ui:198
+#. i18n: ectx: property (text), widget (QPushButton, m_newThemeButton)
+#: rc.cpp:21
+#, fuzzy
+#| msgid "New Scheme"
+msgid "New Theme..."
+msgstr "Nowa šema"
+
+#. i18n: file: BackgroundDialog.ui:217
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperLabel)
+#: rc.cpp:24
+#, fuzzy
+#| msgid "Wallpapers"
+msgid "Wallpaper"
+msgstr "Tapety"
+
+#: rc.cpp:28
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: rc.cpp:2
+#: rc.cpp:29
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#~ msgid "Desktop Settings"
-#~ msgstr "Nastajenja za dźěłowy powjerch"
-
-#~ msgid ""
-#~ "This picture of a monitor contains a preview of what the current settings "
-#~ "will look like on your desktop."
-#~ msgstr ""
-#~ "Tutón wobrazk z wobrazowku wobsahuje přehladku, kiž pokazuje, kak "
-#~ "tuchwilne nastajenja na Wašim dźěłowym powjerchu wupadaja."
-
-#~ msgid "Desktop"
-#~ msgstr "Dźěłowy powjerch"
+#, fuzzy
+#~ msgid "Plasma Dashboard"
+#~ msgstr "Name=Xboard"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Enlightenment"
-#~ msgid "Panel Alignment"
-#~ msgstr "Enlightenment"
+#~| msgid ""
+#~| "Start searching at the current cursor location rather than at the top."
+#~ msgid "Starts plasma as an ordinary window rather than as the desktop."
+#~ msgstr "Započnje pytać na městnje cursora a nic na započatku dokumenta."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Screen Saver"
-#~ msgid "Screen Edge"
-#~ msgstr "Škitak za wobrazowku"
+#~| msgctxt "@action"
+#~| msgid "Align &Center"
+#~ msgid "Align panel to center"
+#~ msgstr "&Centrowane"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Mouse settings"
-#~ msgid "More Settings"
-#~ msgstr "Nastajenja za myš"
-
-#~ msgid "Type:"
-#~ msgstr "Družina:"
-
-#~ msgid "Name:"
-#~ msgstr "Mjeno:"
+#~| msgctxt "@action"
+#~| msgid "Align &Right"
+#~ msgid "Align panel to right"
+#~ msgstr "P&rawa kroma"
 
 #~ msgid "Editor Chooser"
 #~ msgstr "Wuběranje editora"
@@ -1357,9 +1489,6 @@ msgstr ""
 
 #~ msgid "Templates"
 #~ msgstr "Mustry"
-
-#~ msgid "Wallpapers"
-#~ msgstr "Tapety"
 
 #~ msgid "XDG Application menu (.desktop files)"
 #~ msgstr "XDG Aplikaciski meni (.desktop dataje)"
@@ -3264,10 +3393,6 @@ msgstr ""
 #~ msgstr "Einfg"
 
 #~ msgctxt "keyboard-key-name"
-#~ msgid "Left"
-#~ msgstr "Nalěwo"
-
-#~ msgctxt "keyboard-key-name"
 #~ msgid "Menu"
 #~ msgstr "Meni"
 
@@ -3310,10 +3435,6 @@ msgstr ""
 #~ msgctxt "keyboard-key-name"
 #~ msgid "Return"
 #~ msgstr "Return"
-
-#~ msgctxt "keyboard-key-name"
-#~ msgid "Right"
-#~ msgstr "Naprawo"
 
 #~ msgctxt "keyboard-key-name"
 #~ msgid "ScrollLock"
@@ -4051,9 +4172,6 @@ msgstr ""
 
 #~ msgid "Name for New Scheme:"
 #~ msgstr "Mjeno za nowu šemu:"
-
-#~ msgid "New Scheme"
-#~ msgstr "Nowa šema"
 
 #~ msgid "The scheme with this name already exists"
 #~ msgstr "Šema z tutym mjenom hižo eksistuje"
@@ -6419,10 +6537,6 @@ msgstr ""
 #~ msgid "Left"
 #~ msgstr "Nalěwo"
 
-#~ msgctxt "@label center justify"
-#~ msgid "Center"
-#~ msgstr "Centrować"
-
 #~ msgctxt "@label right justify"
 #~ msgid "Right"
 #~ msgstr "Naprawo"
@@ -6712,20 +6826,12 @@ msgstr ""
 #~ msgstr "Orientacija"
 
 #~ msgctxt "toolbar position string"
-#~ msgid "Top"
-#~ msgstr "Horjeka"
-
-#~ msgctxt "toolbar position string"
 #~ msgid "Left"
 #~ msgstr "Nalěwo"
 
 #~ msgctxt "toolbar position string"
 #~ msgid "Right"
 #~ msgstr "Naprawo"
-
-#~ msgctxt "toolbar position string"
-#~ msgid "Bottom"
-#~ msgstr "Deleka"
 
 #~ msgid "Text Position"
 #~ msgstr "Pozicija teksta"
@@ -9217,10 +9323,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "GHNS Providers"
 #~ msgstr "Prowidery za nowe wěcy"
-
-#, fuzzy
-#~ msgid "Automatic choice"
-#~ msgstr "Awtomatisce"
 
 #, fuzzy
 #~ msgid "KDXSView"
@@ -11776,9 +11878,6 @@ msgstr ""
 #~ "is of type Link but has no URL=... entry."
 #~ msgstr "Desktop-entry-dataja %1 ma typ Link, ale nima linku URL=...."
 
-#~ msgid "Mount"
-#~ msgstr "montować"
-
 #~ msgid "Eject"
 #~ msgstr "Wućisnyć"
 
@@ -12645,9 +12744,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Pisaj\n"
 #~ "zapisy"
-
-#~ msgid "Write"
-#~ msgstr "Pisać"
 
 #, fuzzy
 #~ msgctxt "Enter folder"
@@ -17432,10 +17528,6 @@ msgstr ""
 #~ "Wšitke KDE-aplikacije, kotrež trjebaja terminalowy program, měli so po "
 #~ "tutych nastajenjach měć."
 
-#~ msgctxt "Name"
-#~ msgid "Window Manager"
-#~ msgstr "Woknowy manager"
-
 #~ msgctxt "Comment"
 #~ msgid ""
 #~ "Here you can select the window manager to be run in your KDE session."
@@ -20063,10 +20155,6 @@ msgstr ""
 #~ msgid "Lost & Found"
 #~ msgstr "Pytane & Namakane"
 
-#~ msgctxt "Name"
-#~ msgid "Accessibility"
-#~ msgstr "Přistupnosć"
-
 #~ msgctxt "Comment"
 #~ msgid "Accessibility"
 #~ msgstr "Přistupnosć"
@@ -21526,11 +21614,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Slide"
 #~ msgstr "Name=XSoldier"
-
-#, fuzzy
-#~ msgctxt "Name"
-#~ msgid "Desktop Sphere"
-#~ msgstr "Name=Dźěłowy powjerch"
 
 #, fuzzy
 #~ msgctxt "Comment"

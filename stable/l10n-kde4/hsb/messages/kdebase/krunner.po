@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-11-18 00:29+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -16,6 +16,54 @@ msgstr ""
 "X-Generator: KAider 0.1\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
+
+#: interfaces/default/interface.cpp:76 interfaces/default/interface.cpp:77
+#: interfaces/quicksand/qs_dialog.cpp:50 interfaces/quicksand/qs_dialog.cpp:51
+msgid "Settings"
+msgstr "Nastajenja"
+
+#: interfaces/default/interface.cpp:96 interfaces/default/interface.cpp:97
+#: krunnerapp.cpp:202 krunnerapp.cpp:203
+msgid "Show System Activity"
+msgstr "Wućeženosć systema pokazować"
+
+#: interfaces/default/interface.cpp:456
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@note-with-label/plain\n"
+#| "%1 is the note label, %2 is the text"
+#| msgid "%1: %2"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: interfaces/quicksand/qs_dialog.cpp:80
+msgid "Actions"
+msgstr "Akcije"
+
+#: interfaces/quicksand/qs_dialog.cpp:81
+msgid "actions"
+msgstr "akcije"
+
+#: interfaces/quicksand/qs_matchview.cpp:122
+msgid "items"
+msgstr "elementy"
+
+#: interfaces/quicksand/qs_matchview.cpp:176
+msgid "Type to search."
+msgstr "Typ, za čimž so pyta."
+
+#: interfaces/quicksand/qs_matchview.cpp:251
+#, kde-format
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: interfaces/quicksand/qs_matchview.cpp:334
+msgid "Loading..."
+msgstr "Začitam..."
+
+#: interfaces/quicksand/qs_matchview.cpp:418
+msgid "No results found."
+msgstr "Žane wuslědki namakane."
 
 #: lock/autologout.cc:44
 msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
@@ -62,48 +110,52 @@ msgstr "Jenož škitak startować"
 msgid "Only use the blank screen saver"
 msgstr "Jenož prózdny škitak wužiwać"
 
-#: lock/lockprocess.cc:764
+#: lock/main.cc:67
+msgid "start with plasma unlocked for configuring"
+msgstr "z njezamknjenej plasmu startować za připrawjenje"
+
+#: lock/lockprocess.cc:796
 msgid "Will not lock the session, as unlocking would be impossible:\n"
 msgstr "Njezamknu posedźenje, dokelž njeby móžno było je wotamknyć:\n"
 
-#: lock/lockprocess.cc:768
+#: lock/lockprocess.cc:800
 msgid "Cannot start <i>kcheckpass</i>."
 msgstr "Njemóžu startować <i>kcheckpass</p>."
 
-#: lock/lockprocess.cc:769
+#: lock/lockprocess.cc:801
 msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
 msgstr "<i>kcheckpass</i> njedźěła. Snano njeje setuid root."
 
-#: lock/lockprocess.cc:812
+#: lock/lockprocess.cc:863
 msgid "No appropriate greeter plugin configured."
 msgstr "Žana powitanska zašćka připrawjena."
 
-#: lock/lockdlg.cc:96
+#: lock/lockdlg.cc:98
 msgid "<nobr><b>The session is locked</b></nobr><br />"
 msgstr "<nobr><b>Posedźenje je zamknjene</b></nobr><br />"
 
-#: lock/lockdlg.cc:97
+#: lock/lockdlg.cc:99
 #, kde-format
 msgid "<nobr><b>The session was locked by %1</b></nobr><br />"
 msgstr "<nobr><b>%1 je posedźenje zamknył</b></nobr><br />"
 
-#: lock/lockdlg.cc:108
+#: lock/lockdlg.cc:112
 msgid "Unl&ock"
 msgstr "&Wotamknyć"
 
-#: lock/lockdlg.cc:110
+#: lock/lockdlg.cc:114
 msgid "Sw&itch User..."
 msgstr "Na &hinašeho wužiwarja přešaltować..."
 
-#: lock/lockdlg.cc:178
+#: lock/lockdlg.cc:182
 msgid "<b>Unlocking failed</b>"
 msgstr "<b>Wotamkanje je so zwrěšćiło</b>"
 
-#: lock/lockdlg.cc:186
+#: lock/lockdlg.cc:190
 msgid "<b>Warning: Caps Lock on</b>"
 msgstr "<b>Kedźbu: Stajne wulkopisanje</b>"
 
-#: lock/lockdlg.cc:418
+#: lock/lockdlg.cc:422
 #, kde-format
 msgid ""
 "Cannot unlock the session because the authentication system failed to work;\n"
@@ -112,11 +164,11 @@ msgstr ""
 "Njemóžu posedźenje wotamknyć,  dokelž awtentifikacija njefunguje;\n"
 "dyrbiće manuelnje krunner_lock (pid %1) wottřělić."
 
-#: lock/lockdlg.cc:507
+#: lock/lockdlg.cc:511
 msgid "&Start New Session"
 msgstr "&Nowe posedźenje startować"
 
-#: lock/lockdlg.cc:515
+#: lock/lockdlg.cc:519
 #, kde-format
 msgid ""
 "You have chosen to open another desktop session instead of resuming the "
@@ -130,198 +182,132 @@ msgid ""
 "between sessions."
 msgstr ""
 
-#: lock/lockdlg.cc:528
+#: lock/lockdlg.cc:532
 msgid "&Do not ask again"
 msgstr "&Njeprašej so hišće raz"
 
-#: lock/lockdlg.cc:584
+#: lock/lockdlg.cc:588
 msgid "Session"
 msgstr "Posedźenje"
 
-#: lock/lockdlg.cc:584
+#: lock/lockdlg.cc:588
 msgid "Location"
 msgstr "Městno"
 
-#: lock/lockdlg.cc:612
+#: lock/lockdlg.cc:616
 msgctxt "session"
 msgid "&Activate"
 msgstr "&Aktiwizować"
 
-#: lock/lockdlg.cc:621
+#: lock/lockdlg.cc:625
 msgid "Start &New Session"
 msgstr "&Nowe posedźenje startować"
 
-#: main.cpp:33
-msgid "KDE run command interface"
-msgstr "KDE-interfejs za wuwjedźenje přikazow"
-
-#: main.cpp:39
-msgid "Run Command Interface"
-msgstr ""
-
-#: main.cpp:41
-msgid "(c) 2006, Aaron Seigo"
-msgstr ""
-
-#: main.cpp:42
-msgid "Aaron J. Seigo"
-msgstr ""
-
-#: main.cpp:43
-msgid "Author and maintainer"
-msgstr ""
-
-#: interface.cpp:70 krunnerapp.cpp:143 krunnerapp.cpp:144
+#: krunnerdialog.cpp:57 krunnerapp.cpp:191 krunnerapp.cpp:192
 msgid "Run Command"
 msgstr "Přikaz wuwjesć"
 
-#: interface.cpp:84 interface.cpp:85
-msgid "Settings"
-msgstr "Nastajenja"
+#: main.cpp:37
+msgid "KDE run command interface"
+msgstr "KDE-interfejs za wuwjedźenje přikazow"
 
-#: interface.cpp:104 interface.cpp:105 krunnerapp.cpp:154 krunnerapp.cpp:155
-msgid "Show System Activity"
-msgstr "Wućeženosć systema pokazować"
+#: main.cpp:43
+msgid "Run Command Interface"
+msgstr ""
 
-#: interface.cpp:112
+#: main.cpp:45
+msgid "(c) 2006, Aaron Seigo"
+msgstr ""
+
+#: main.cpp:46
+msgid "Aaron J. Seigo"
+msgstr ""
+
+#: main.cpp:47
+msgid "Author and maintainer"
+msgstr ""
+
+#: configdialog.cpp:53
 #, fuzzy
-#| msgid "Launching %1"
-msgid "Launch"
-msgstr "Startuju %1"
+#| msgctxt "Name"
+#| msgid "Plugins"
+msgid "Plugins"
+msgstr "Pluginy"
 
-#: interface.cpp:113
+#: configdialog.cpp:60
 #, fuzzy
-#| msgid "Execute the selected script."
-msgid "Click to execute the selected item above"
-msgstr "Wubrany skript wuwjesć."
+msgid "Command oriented"
+msgstr "Name=Wjace programow"
 
-#: interface.cpp:114
+#: configdialog.cpp:61
 #, fuzzy
-#| msgid "Show all options"
-msgid "Show Options"
-msgstr "Pokaž wšitke opcije"
+msgid "Task oriented"
+msgstr "Name=Wjace programow"
 
-#: configdialog.cpp:44
+#: configdialog.cpp:75
+msgid "Preview"
+msgstr "Přehladka"
+
+#: configdialog.cpp:83
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Network Interfaces"
+msgid "User Interface"
+msgstr "Syćowe interfejsy"
+
+#: configdialog.cpp:86
 msgid "KRunner Settings"
 msgstr ""
 
-#: configdialog.cpp:51
+#: configdialog.cpp:93
 #, fuzzy
-#| msgid "Run"
-msgid "Runners"
-msgstr "Wuwjesć"
+#| msgid "Available Tests: 0"
+msgid "Available Features"
+msgstr "Přistupne testy: 0"
 
-#. i18n: file: krunner.kcfg:16
-#. i18n: ectx: label, entry, group (TaskDialog)
-#: rc.cpp:11
-msgid "Completion mode used for the query text."
-msgstr ""
-
-#. i18n: file: krunner.kcfg:21
-#. i18n: ectx: label, entry (PastQueries), group (TaskDialog)
-#: rc.cpp:14
-#, fuzzy
-#| msgid "The subscription was successfully completed."
-msgid "History if past queries successfully completed"
-msgstr "Subskripcija wuspěšna."
-
-#. i18n: file: krunner.kcfg:27
-#. i18n: ectx: label, entry (KeepTaskDialogAbove), group (TaskDialog)
-#: rc.cpp:18
-msgid "Whether to keep the tasks dialog above other windows when shown."
-msgstr ""
-
-#. i18n: file: kscreensaversettings.kcfg:11
-#. i18n: ectx: label, entry (ScreenSaverEnabled), group (ScreenSaver)
-#: rc.cpp:22
-#, fuzzy
-#| msgid "Only start screen saver"
-msgid "Enable screen saver"
-msgstr "Jenož škitak startować"
-
-#. i18n: file: kscreensaversettings.kcfg:12
-#. i18n: ectx: whatsthis, entry (ScreenSaverEnabled), group (ScreenSaver)
-#: rc.cpp:25
-#, fuzzy
-#| msgid "Only use the blank screen saver"
-msgid "Enables the screen saver."
-msgstr "Jenož prózdny škitak wužiwać"
-
-#. i18n: file: kscreensaversettings.kcfg:16
-#. i18n: ectx: label, entry, group (ScreenSaver)
-#: rc.cpp:28
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgid "Screen saver timeout"
-msgstr "Škitak za wobrazowku"
-
-#. i18n: file: kscreensaversettings.kcfg:17
-#. i18n: ectx: whatsthis, entry, group (ScreenSaver)
-#: rc.cpp:31
-msgid "Sets the seconds after which the screen saver is started."
-msgstr ""
-
-#. i18n: file: kscreensaversettings.kcfg:21
-#. i18n: ectx: label, entry (SuspendWhenInvisible), group (ScreenSaver)
-#: rc.cpp:34
-msgid "Suspend screen saver when DPMS kicks in"
-msgstr ""
-
-#. i18n: file: kscreensaversettings.kcfg:24
-#. i18n: ectx: whatsthis, entry (SuspendWhenInvisible), group (ScreenSaver)
-#: rc.cpp:37
-msgid ""
-"Usually the screen saver is suspended when display power saving kicks in,\n"
-"       as nothing can be seen on the screen anyway, obviously. However, some "
-"screen savers\n"
-"       actually perform useful computations, so it is not desirable to "
-"suspend them."
-msgstr ""
-
-#: rc.cpp:64
+#: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: rc.cpp:65
+#: rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: krunnerapp.cpp:148 krunnerapp.cpp:149
+#: krunnerapp.cpp:196 krunnerapp.cpp:197
 msgid "Run Command on clipboard contents"
 msgstr ""
 
-#: krunnerapp.cpp:166 krunnerapp.cpp:167
+#: krunnerapp.cpp:214 krunnerapp.cpp:215
 msgid "Switch User"
 msgstr ""
 
-#: krunnerapp.cpp:172 krunnerapp.cpp:173
+#: krunnerapp.cpp:221 krunnerapp.cpp:222
 msgid "Lock Session"
 msgstr ""
 
-#: krunnerapp.cpp:179 krunnerapp.cpp:180
+#: krunnerapp.cpp:229 krunnerapp.cpp:230
 msgid "Log Out"
 msgstr ""
 
-#: krunnerapp.cpp:184 krunnerapp.cpp:185
+#: krunnerapp.cpp:234 krunnerapp.cpp:235
 msgid "Log Out Without Confirmation"
 msgstr ""
 
-#: krunnerapp.cpp:189 krunnerapp.cpp:190
+#: krunnerapp.cpp:239 krunnerapp.cpp:240
 msgid "Halt Without Confirmation"
 msgstr ""
 
-#: krunnerapp.cpp:194 krunnerapp.cpp:195
+#: krunnerapp.cpp:244 krunnerapp.cpp:245
 msgid "Reboot Without Confirmation"
 msgstr ""
 
-#: krunnerapp.cpp:243
+#: krunnerapp.cpp:296
 msgid "System Activity"
 msgstr ""
 
-#: krunnerapp.cpp:322
+#: krunnerapp.cpp:405
 msgid ""
 "Could not log out properly.\n"
 "The session manager cannot be contacted. You can try to force a shutdown by "
@@ -330,49 +316,45 @@ msgid ""
 msgstr ""
 
 #, fuzzy
-#~| msgctxt ""
-#~| "@note-with-label/plain\n"
-#~| "%1 is the note label, %2 is the text"
-#~| msgid "%1: %2"
-#~ msgid "%1: %2"
-#~ msgstr "%1: %2"
-
-#~ msgid "Actions"
-#~ msgstr "Akcije"
-
-#~ msgid "actions"
-#~ msgstr "akcije"
-
-#~ msgid "items"
-#~ msgstr "elementy"
-
-#~ msgid "Type to search."
-#~ msgstr "Typ, za čimž so pyta."
-
-#~ msgid "%1 %2"
-#~ msgstr "%1 %2"
-
-#~ msgid "Loading..."
-#~ msgstr "Začitam..."
-
-#~ msgid "No results found."
-#~ msgstr "Žane wuslědki namakane."
-
-#~ msgid "start with plasma unlocked for configuring"
-#~ msgstr "z njezamknjenej plasmu startować za připrawjenje"
+#~| msgid "Launching %1"
+#~ msgid "Launch"
+#~ msgstr "Startuju %1"
 
 #, fuzzy
-#~ msgid "Command oriented"
-#~ msgstr "Name=Wjace programow"
+#~| msgid "Execute the selected script."
+#~ msgid "Click to execute the selected item above"
+#~ msgstr "Wubrany skript wuwjesć."
 
-#~ msgid "Preview"
-#~ msgstr "Přehladka"
+#, fuzzy
+#~| msgid "Show all options"
+#~ msgid "Show Options"
+#~ msgstr "Pokaž wšitke opcije"
+
+#, fuzzy
+#~| msgid "Run"
+#~ msgid "Runners"
+#~ msgstr "Wuwjesć"
+
+#, fuzzy
+#~| msgid "The subscription was successfully completed."
+#~ msgid "History if past queries successfully completed"
+#~ msgstr "Subskripcija wuspěšna."
+
+#, fuzzy
+#~| msgid "Only start screen saver"
+#~ msgid "Enable screen saver"
+#~ msgstr "Jenož škitak startować"
+
+#, fuzzy
+#~| msgid "Only use the blank screen saver"
+#~ msgid "Enables the screen saver."
+#~ msgstr "Jenož prózdny škitak wužiwać"
 
 #, fuzzy
 #~| msgctxt "Name"
-#~| msgid "Network Interfaces"
-#~ msgid "User Interface"
-#~ msgstr "Syćowe interfejsy"
+#~| msgid "Screen Saver"
+#~ msgid "Screen saver timeout"
+#~ msgstr "Škitak za wobrazowku"
 
 #~ msgid "Editor Chooser"
 #~ msgstr "Wuběranje editora"
@@ -7593,9 +7575,6 @@ msgstr ""
 
 #~ msgid "&Configure JavaScript New Window Policies..."
 #~ msgstr "JS nastajenja wo nowych woknach &konfigurować..."
-
-#~ msgid "Available Tests: 0"
-#~ msgstr "Přistupne testy: 0"
 
 #~ msgid "Please choose a valid 'khtmltests/regression/' directory."
 #~ msgstr "Prošu wubjerće walidny zapisk 'khtmltests/regression/'."
@@ -17420,10 +17399,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Plugin for the Konqueror Popup Menu"
 #~ msgstr "Plugin za popup-meni w konqueroru"
-
-#~ msgctxt "Name"
-#~ msgid "Plugins"
-#~ msgstr "Pluginy"
 
 #~ msgctxt "Comment"
 #~ msgid "Configure the browser plugins"

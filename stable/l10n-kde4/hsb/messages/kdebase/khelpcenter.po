@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2005-02-23 17:53+0100\n"
 "Last-Translator: Bianka Šwejdźic <hertn@gmx.de>\n"
 "Language-Team: Hornjoserbšćina\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: application.cpp:57 navigator.cpp:483
+#: application.cpp:57 navigator.cpp:470
 msgid "KDE Help Center"
 msgstr "KDE pomoc"
 
@@ -84,12 +84,14 @@ msgstr "Wulkosće"
 #: fontdialog.cpp:74
 #, fuzzy
 #| msgid "M&inimum font size:"
+msgctxt "The smallest size a will have"
 msgid "M&inimum font size:"
 msgstr "Naj&mjeńša wulkosć pisma:"
 
 #: fontdialog.cpp:81
 #, fuzzy
 #| msgid "M&edium font size:"
+msgctxt "The normal size a font will have"
 msgid "M&edium font size:"
 msgstr "&Srjedźanska wulkosć pisma:"
 
@@ -129,7 +131,7 @@ msgstr "Zaklučowanje"
 msgid "&Default encoding:"
 msgstr "&Standardne zaklučowanje:"
 
-#: fontdialog.cpp:147 fontdialog.cpp:215
+#: fontdialog.cpp:147 fontdialog.cpp:217
 msgid "Use Language Encoding"
 msgstr "Rěčne zaklučowanje wužiwać"
 
@@ -182,43 +184,42 @@ msgstr "ht://dig"
 
 #: htmlsearchconfig.cpp:59
 msgid ""
-"The fulltext search feature makes use of the ht://dig HTML search engine. "
-"You can get ht://dig at the"
+"The fulltext search feature makes use of the ht://dig HTML search engine."
 msgstr ""
 
-#: htmlsearchconfig.cpp:64
+#: htmlsearchconfig.cpp:63
 msgid "Information about where to get the ht://dig package."
 msgstr "Informacija wo tym, hdźe dóstanjeće pakćik ht://dig."
 
-#: htmlsearchconfig.cpp:68
-msgid "ht://dig home page"
-msgstr "Započatna strona ht://dig"
+#: htmlsearchconfig.cpp:67
+msgid "You can get ht://dig at the ht://dig home page"
+msgstr ""
 
-#: htmlsearchconfig.cpp:74
+#: htmlsearchconfig.cpp:73
 msgid "Program Locations"
 msgstr ""
 
-#: htmlsearchconfig.cpp:83
+#: htmlsearchconfig.cpp:82
 msgid "htsearch:"
 msgstr "htsearch:"
 
-#: htmlsearchconfig.cpp:89
+#: htmlsearchconfig.cpp:88
 msgid "Enter the URL of the htsearch CGI program."
 msgstr "Zapodajće adresu za CGI-program htsearch."
 
-#: htmlsearchconfig.cpp:94
+#: htmlsearchconfig.cpp:93
 msgid "Indexer:"
 msgstr ""
 
-#: htmlsearchconfig.cpp:100
+#: htmlsearchconfig.cpp:99
 msgid "Enter the path to your htdig indexer program here."
 msgstr ""
 
-#: htmlsearchconfig.cpp:106
+#: htmlsearchconfig.cpp:105
 msgid "htdig database:"
 msgstr "Datowa banka za htdig:"
 
-#: htmlsearchconfig.cpp:112
+#: htmlsearchconfig.cpp:111
 msgid "Enter the path to the htdig database folder."
 msgstr ""
 
@@ -351,11 +352,11 @@ msgstr ""
 msgid "No indexing command specified for document type '%1'."
 msgstr ""
 
-#: kcmhelpcenter.cpp:531
+#: kcmhelpcenter.cpp:541
 msgid "Failed to build index."
 msgstr "Zhotowjenje hesłarja so njeje poradźiło."
 
-#: kcmhelpcenter.cpp:586
+#: kcmhelpcenter.cpp:596
 #, kde-format
 msgid ""
 "Error executing indexing build command:\n"
@@ -467,23 +468,23 @@ msgstr "Pytanske wuslědki"
 msgid "G&lossary"
 msgstr ""
 
-#: navigator.cpp:482
+#: navigator.cpp:469
 msgid "Start Page"
 msgstr "Spočatna strona"
 
-#: navigator.cpp:570
+#: navigator.cpp:557
 msgid "Unable to run search program."
 msgstr "Njemóžu program za pytanje započinać."
 
-#: navigator.cpp:610
+#: navigator.cpp:597
 msgid "A search index does not yet exist. Do you want to create the index now?"
 msgstr "Nimam hišće žadyn hesłar za pytanje. Chceće jón nětko zhotowić?"
 
-#: navigator.cpp:614
+#: navigator.cpp:601
 msgid "Create"
 msgstr ""
 
-#: navigator.cpp:615
+#: navigator.cpp:602
 msgid "Do Not Create"
 msgstr ""
 
@@ -645,86 +646,51 @@ msgctxt "Label for Unknown search scope, that should never appear"
 msgid "unknown"
 msgstr ""
 
-#: view.cpp:119
-msgid "Conquer your Desktop!"
-msgstr "Přepruwujće Waš dźěłowy powjerch!"
-
-#: view.cpp:123
-msgid "Help Center"
-msgstr "KDE-pomoc"
-
-#: view.cpp:125
-msgid "Welcome to the K Desktop Environment"
-msgstr "Witajće do KDE"
-
-#: view.cpp:126
-msgid "The KDE team welcomes you to user-friendly UNIX computing"
-msgstr "KDE-nicy Was wutrobnje witaja do lochce wužiwajomneho UNIX-systema."
-
-#: view.cpp:127
-msgid ""
-"KDE is a powerful graphical desktop environment for UNIX workstations. A\n"
-"KDE desktop combines ease of use, contemporary functionality and "
-"outstanding\n"
-"graphical design with the technological superiority of the UNIX operating\n"
-"system."
-msgstr ""
-
-#: view.cpp:131
-msgid "What is the K Desktop Environment?"
-msgstr "Što je KDE?"
-
-#: view.cpp:132
-msgid "Contacting the KDE Project"
-msgstr "So z KDE-nikami skontaktować"
-
-#: view.cpp:133
-msgid "Supporting the KDE Project"
-msgstr "KDE-projekt podpěrać"
-
-#: view.cpp:134
-msgid "Useful links"
-msgstr ""
-
-#: view.cpp:135
-msgid "Getting the most out of KDE"
-msgstr "Kak wužiwaće KDE najlěpje?"
-
-#: view.cpp:136
-msgid "General Documentation"
-msgstr "Powšitkowna dokumentacija"
-
-#: view.cpp:137
-msgid "A Quick Start Guide to the Desktop"
-msgstr "Krótki zawod do dźěłoweho powjercha"
-
-#: view.cpp:138
-msgid "KDE Users' guide"
-msgstr "KDE-přiručka za wužiwarjow"
-
-#: view.cpp:139
-msgid "Frequently asked questions"
-msgstr "Připołdnički"
-
-#: view.cpp:140
-msgid "Basic Applications"
-msgstr ""
-
-#: view.cpp:141
-msgid "The Kicker Desktop Panel"
-msgstr ""
-
-#: view.cpp:142
-msgid "The KDE Control Center"
-msgstr "Kontrolnišćo za KDE"
-
-#: view.cpp:143
-msgid "The Konqueror File manager and Web Browser"
-msgstr ""
-
-#: view.cpp:267
+#: view.cpp:209
 msgid "Copy Link Address"
 msgstr ""
+
+#~ msgid "ht://dig home page"
+#~ msgstr "Započatna strona ht://dig"
+
+#~ msgid "Conquer your Desktop!"
+#~ msgstr "Přepruwujće Waš dźěłowy powjerch!"
+
+#~ msgid "Help Center"
+#~ msgstr "KDE-pomoc"
+
+#~ msgid "Welcome to the K Desktop Environment"
+#~ msgstr "Witajće do KDE"
+
+#~ msgid "The KDE team welcomes you to user-friendly UNIX computing"
+#~ msgstr "KDE-nicy Was wutrobnje witaja do lochce wužiwajomneho UNIX-systema."
+
+#~ msgid "What is the K Desktop Environment?"
+#~ msgstr "Što je KDE?"
+
+#~ msgid "Contacting the KDE Project"
+#~ msgstr "So z KDE-nikami skontaktować"
+
+#~ msgid "Supporting the KDE Project"
+#~ msgstr "KDE-projekt podpěrać"
+
+#~ msgid "Getting the most out of KDE"
+#~ msgstr "Kak wužiwaće KDE najlěpje?"
+
+#~ msgid "General Documentation"
+#~ msgstr "Powšitkowna dokumentacija"
+
+#~ msgid "A Quick Start Guide to the Desktop"
+#~ msgstr "Krótki zawod do dźěłoweho powjercha"
+
+#~ msgid "KDE Users' guide"
+#~ msgstr "KDE-přiručka za wužiwarjow"
+
+#~ msgid "Frequently asked questions"
+#~ msgstr "Připołdnički"
+
+#~ msgid "The KDE Control Center"
+#~ msgstr "Kontrolnišćo za KDE"
 
 #~ msgid "Details >>"
 #~ msgstr "Nadrobnosće >>"

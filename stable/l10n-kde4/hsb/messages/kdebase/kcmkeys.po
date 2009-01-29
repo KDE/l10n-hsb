@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-11-14 19:28+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,19 +17,19 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: globalshortcuts.cpp:67
+#: globalshortcuts.cpp:56
 #, fuzzy
 #| msgid "Import Scheme..."
-msgid "Import scheme..."
+msgid "Import Scheme..."
 msgstr "Šemu importować..."
 
-#: globalshortcuts.cpp:72
+#: globalshortcuts.cpp:61
 #, fuzzy
 #| msgid "Export Scheme..."
-msgid "Export scheme..."
+msgid "Export Scheme..."
 msgstr "Šemu eksportować ..."
 
-#: globalshortcuts.cpp:112
+#: globalshortcuts.cpp:103
 #, kde-format
 msgid ""
 "Message: %1\n"
@@ -38,11 +38,11 @@ msgstr ""
 "Powěsć: %1\n"
 "Zmylk: %2"
 
-#: globalshortcuts.cpp:116
+#: globalshortcuts.cpp:108
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "Njemóžu KDE-demon za globalne skrótšenki skontaktować\n"
 
-#: globalshortcuts.cpp:182
+#: globalshortcuts.cpp:234
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
 "this one"
@@ -50,17 +50,17 @@ msgstr ""
 "Waše nětuše změny so zhubja, hdyž začitaće druhu šemu, prjedy hač tutu "
 "zawěsćiće"
 
-#: globalshortcuts.cpp:183
+#: globalshortcuts.cpp:235
 #, fuzzy
 #| msgid "Load Shortcurt Scheme"
-msgid "Load shortcurt scheme"
+msgid "Load Shortcurt Scheme"
 msgstr "Šemu skrótšenkow začitać"
 
-#: globalshortcuts.cpp:184
+#: globalshortcuts.cpp:236
 msgid "Load"
 msgstr "Začitać"
 
-#: globalshortcuts.cpp:197
+#: globalshortcuts.cpp:249
 #, kde-format
 msgid "This file (%1) does not exist. You can only select local files."
 msgstr "Tuta dataja (%1) njeeksistuje. Móžeće jenož lokalne dataje wubrać."
@@ -80,10 +80,8 @@ msgstr "Skrótšenki"
 #. i18n: file: select_scheme_dialog.ui:20
 #. i18n: ectx: property (windowTitle), widget (KDialog, SelectSchemeDialog)
 #: rc.cpp:9
-#, fuzzy
-#| msgid "Select a shortcut scheme file"
-msgid "Select a shortcut scheme"
-msgstr "Wubjerje šemowu dataju za skrótšenki"
+msgid "Select Shortcut Scheme"
+msgstr "Šemu skrótšenkow wubrać"
 
 #. i18n: file: select_scheme_dialog.ui:47
 #. i18n: ectx: property (whatsThis), widget (QLabel, label)
@@ -96,7 +94,7 @@ msgstr "Wubjerje jedym ze standardnych skrótšenkowych šemow za KDE"
 #: rc.cpp:15
 #, fuzzy
 #| msgid "&Standard scheme:"
-msgid "&Standard Scheme"
+msgid "&Standard scheme:"
 msgstr "&Standardna šema:"
 
 #. i18n: file: select_scheme_dialog.ui:100
@@ -110,8 +108,10 @@ msgstr "Wubjerje šemowu dataju za skrótšenki"
 #: rc.cpp:21
 #, fuzzy
 #| msgid "&Path:"
-msgid "&Path"
+msgid "&Path:"
 msgstr "&Puć:"
 
-#~ msgid "Select Shortcut Scheme"
-#~ msgstr "Šemu skrótšenkow wubrać"
+#, fuzzy
+#~| msgid "Select a shortcut scheme file"
+#~ msgid "Select a shortcut scheme"
+#~ msgstr "Wubjerje šemowu dataju za skrótšenki"

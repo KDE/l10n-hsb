@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-11-10 23:47+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,170 +17,202 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: ui/flipscrollview.cpp:146
+#: ui/flipscrollview.cpp:138
 msgid "All Applications"
 msgstr "Wšitke aplikacije"
 
-#: ui/contextmenufactory.cpp:78
+#: ui/contextmenufactory.cpp:79
 msgid "Advanced"
 msgstr "Pokročene"
 
-#: ui/contextmenufactory.cpp:121
+#: ui/contextmenufactory.cpp:122
 msgid "Remove From Favorites"
 msgstr "Z najlubšich wumazać"
 
-#: ui/contextmenufactory.cpp:124
+#: ui/contextmenufactory.cpp:127
 msgid "Add to Favorites"
 msgstr "K najlubšim dodać"
 
-#: ui/contextmenufactory.cpp:143
+#: ui/contextmenufactory.cpp:151
 msgid "Add to Desktop"
 msgstr "Na dźěłowy powjerch"
 
-#: ui/contextmenufactory.cpp:150
+#: ui/contextmenufactory.cpp:158
 msgid "Add to Panel"
 msgstr "Na pas"
 
-#: ui/contextmenufactory.cpp:172
+#: ui/contextmenufactory.cpp:181
 msgid "Eject"
 msgstr "Wućisnyć"
 
-#: ui/launcher.cpp:162 simpleapplet/simpleapplet.cpp:357
+#: ui/contextmenufactory.cpp:183
+#, fuzzy
+msgid "Safely Remove"
+msgstr "Z&ničić"
+
+#: ui/launcher.cpp:159
 msgid "Leave"
 msgstr "Won hić"
 
-#: ui/launcher.cpp:174 core/favoritesmodel.cpp:43
+#: ui/launcher.cpp:170 core/favoritesmodel.cpp:44
 msgid "Favorites"
 msgstr "Najlubše programy"
 
-#: ui/launcher.cpp:192 core/recentlyusedmodel.cpp:107 core/systemmodel.cpp:90
-#: core/searchmodel.cpp:137
+#: ui/launcher.cpp:173
+msgid "Sort Alphabetically (A to Z)"
+msgstr ""
+
+#: ui/launcher.cpp:176
+msgid "Sort Alphabetically (Z to A)"
+msgstr ""
+
+#: ui/launcher.cpp:199 core/recentlyusedmodel.cpp:101 core/systemmodel.cpp:88
+#: core/searchmodel.cpp:135
 msgid "Applications"
 msgstr "Programy"
 
-#: ui/launcher.cpp:205
+#: ui/launcher.cpp:211
 msgid "Recently Used"
 msgstr "Njedawno wužiwane"
 
-#: ui/launcher.cpp:207
+#: ui/launcher.cpp:213
 msgid "Clear Recent Applications"
 msgstr "Njedawno wužiwane wuprózdnić"
 
-#: ui/launcher.cpp:208
+#: ui/launcher.cpp:214
 msgid "Clear Recent Documents"
 msgstr "Njedawno wužiwane dokumenty wuprózdnić"
 
-#: ui/launcher.cpp:226
+#: ui/launcher.cpp:231
 msgid "Computer"
 msgstr "Kompjuter"
 
-#: ui/launcher.cpp:572
+#: ui/launcher.cpp:489
 #, fuzzy, kde-format
-#| msgctxt "login name, hostname"
-#| msgid "User <b>%1</b> on <b>%2</b>"
-msgid "User&nbsp;<b>%1</b>&nbsp;on&nbsp;<b>%2</b>"
-msgstr "Wužiwar <b>%1</b> na <b>%2</b>"
+#| msgid "<b>%1</b> at <b>%2</b>"
+msgctxt "login name, hostname"
+msgid "User <b>%1</b> on <b>%2</b>"
+msgstr "<b>%1</b> at <b>%2</b>"
 
-#: ui/searchbar.cpp:68
+#: ui/launcher.cpp:491
+#, kde-format
+msgctxt "full name, login name, hostname"
+msgid "<b>%1 (%2)</b> on <b>%3</b>"
+msgstr "<b>%1 (%2)</b> na <b>%3</b>"
+
+#: ui/searchbar.cpp:72
 msgid "Search:"
 msgstr "Pytać:"
 
-#: core/leavemodel.cpp:46
+#: core/leavemodel.cpp:49
 msgid "Logout"
 msgstr "Wotzjewić"
 
-#: core/leavemodel.cpp:48
+#: core/leavemodel.cpp:51
 msgid "End session"
 msgstr "Kónc posedźenja"
 
-#: core/leavemodel.cpp:51 simpleapplet/simpleapplet.cpp:355
+#: core/leavemodel.cpp:53 simpleapplet/simpleapplet.cpp:392
 msgid "Lock"
 msgstr "Zamknyć"
 
-#: core/leavemodel.cpp:53
+#: core/leavemodel.cpp:55
 msgid "Lock the screen"
 msgstr "Wobrazowku zamknyć"
 
-#: core/leavemodel.cpp:56 simpleapplet/simpleapplet.cpp:353
+#: core/leavemodel.cpp:57 simpleapplet/simpleapplet.cpp:390
 msgid "Switch User"
 msgstr "Na hinašeho wužiwarja prešaltować"
 
-#: core/leavemodel.cpp:58
+#: core/leavemodel.cpp:59
 msgid "Start a parallel session as a different user"
 msgstr "Paralelne posedźenje za hinašeho wužiwarja startować"
 
 #: core/leavemodel.cpp:61
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Sweep"
-msgid "Sleep"
-msgstr "Sweep"
-
-#: core/leavemodel.cpp:66
-#, fuzzy
-#| msgid "Alternate"
-msgid "Hibernate"
-msgstr "Alternate"
-
-#: core/leavemodel.cpp:71
 msgid "Shutdown"
 msgstr "Kompjuter hasnyć"
 
-#: core/leavemodel.cpp:73
+#: core/leavemodel.cpp:63
 msgid "Turn off the computer"
 msgstr "Hasnje kompjuter"
 
-#: core/leavemodel.cpp:76
+#: core/leavemodel.cpp:65
 #, fuzzy
 #| msgid "Restart"
+msgctxt "Restart the computer"
 msgid "Restart"
 msgstr "Znowa startować"
 
-#: core/leavemodel.cpp:78
+#: core/leavemodel.cpp:67
 msgid "Restart the computer"
 msgstr "Kompjuter znowa startować"
 
-#: core/leavemodel.cpp:93
+#: core/leavemodel.cpp:69
+msgid "Save Session"
+msgstr "Posedźenje zawěsćić"
+
+#: core/leavemodel.cpp:71
+msgid "Save current session for next login"
+msgstr "Posedźenje za přichodne přizjewjenje zawěsćić"
+
+#: core/leavemodel.cpp:73
+msgctxt "Puts the system on standby"
+msgid "Standby"
+msgstr "Wusnyć"
+
+#: core/leavemodel.cpp:75 core/leavemodel.cpp:79 core/leavemodel.cpp:83
+msgid "Pause without logging out"
+msgstr "Přestawka bjez wotzjewjenja"
+
+#: core/leavemodel.cpp:77
+msgid "Suspend to Disk"
+msgstr "Do kruteho diska zawěsćić"
+
+#: core/leavemodel.cpp:81
+msgid "Suspend to RAM"
+msgstr "Do RAMa zawěsćić"
+
+#: core/leavemodel.cpp:103
 msgid "Session"
 msgstr "Posedźenje"
 
-#: core/leavemodel.cpp:108
+#: core/leavemodel.cpp:125
 msgid "System"
 msgstr "System"
 
-#: core/applicationmodel.cpp:323
+#: core/applicationmodel.cpp:356
 msgid "Known Applications"
 msgstr "Znate programy"
 
-#: core/models.cpp:119
+#: core/models.cpp:117
 msgid "Home Folder"
 msgstr "Domjacy zapisk"
 
-#: core/models.cpp:122
+#: core/models.cpp:120
 msgid "Network Folders"
 msgstr "Syćowe zapiski"
 
-#: core/recentlyusedmodel.cpp:98 core/searchmodel.cpp:223
+#: core/recentlyusedmodel.cpp:93 core/searchmodel.cpp:221
 msgid "Documents"
 msgstr "Dokumenty"
 
-#: core/systemmodel.cpp:91
+#: core/systemmodel.cpp:89
 msgid "Places"
 msgstr "Městna"
 
-#: core/systemmodel.cpp:92
+#: core/systemmodel.cpp:90
 msgid "Removable Storage"
 msgstr "Stajnje njepřizamknjeny skład"
 
-#: core/systemmodel.cpp:93
+#: core/systemmodel.cpp:91
 msgid "Storage"
 msgstr "Skład"
 
-#: core/searchmodel.cpp:206
+#: core/searchmodel.cpp:204
 msgid "Web Searches"
 msgstr "Pytanje po interneće"
 
-#: core/searchmodel.cpp:213
+#: core/searchmodel.cpp:211
 #, kde-format
 msgid "Search web for '%1'"
 msgstr "Pytanje po interneće za '%1'"
@@ -193,17 +225,33 @@ msgstr "Kickoff"
 msgid "Application Launcher"
 msgstr "Startowar aplikacijow"
 
-#: applet/applet.cpp:102 simpleapplet/simpleapplet.cpp:209
+#: applet/applet.cpp:84
+msgid "Kickoff Application Launcher"
+msgstr "Kickoff startowar aplikacijow"
+
+#: applet/applet.cpp:85
+msgid ""
+"Favorites, applications, computer places, recently used items and desktop "
+"sessions"
+msgstr ""
+"Lubuški, aplikacije, městna na kompjuteru, njedawno wužiwane elementy a "
+"posedźenje"
+
+#: applet/applet.cpp:108 simpleapplet/simpleapplet.cpp:245
 msgid "Menu Editor"
 msgstr "Menijowy editor"
 
-#: applet/applet.cpp:110
+#: applet/applet.cpp:114
 msgid "Switch to Classic Menu Style"
 msgstr "Klasiski menijowy stil wubrać"
 
-#: applet/applet.cpp:158
+#: applet/applet.cpp:148
 msgid "Switch tabs on hover"
 msgstr ""
+
+#: applet/applet.cpp:154
+msgid "General"
+msgstr "Generelnje"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -215,122 +263,102 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "edi.werner@gmx.de"
 
-#: simpleapplet/simpleapplet.cpp:215
+#: simpleapplet/simpleapplet.cpp:251
 msgid "Switch to Kickoff Menu Style"
 msgstr "Přešaltować na menijowy stil Kickoffa"
 
-#: simpleapplet/simpleapplet.cpp:259
+#: simpleapplet/simpleapplet.cpp:295
 msgctxt "@label:listbox Which category of items to view in a KMenu-like menu"
 msgid "View:"
 msgstr "Napohlad:"
 
-#: simpleapplet/simpleapplet.cpp:263
+#: simpleapplet/simpleapplet.cpp:299
 msgctxt "@item:inlistbox View:"
 msgid "Standard"
 msgstr "Standard"
 
-#: simpleapplet/simpleapplet.cpp:264
+#: simpleapplet/simpleapplet.cpp:300
 msgctxt "@item:inlistbox View:"
 msgid "Favorites"
 msgstr "Lubuški"
 
-#: simpleapplet/simpleapplet.cpp:265
+#: simpleapplet/simpleapplet.cpp:301
+msgctxt "@item:inlistbox View:"
+msgid "Bookmarks"
+msgstr "Lubuški"
+
+#: simpleapplet/simpleapplet.cpp:302
 msgctxt "@item:inlistbox View:"
 msgid "Applications"
 msgstr "Aplikacije"
 
-#: simpleapplet/simpleapplet.cpp:266
+#: simpleapplet/simpleapplet.cpp:303
 msgctxt "@item:inlistbox View:"
 msgid "Computer"
 msgstr "Kompjuter"
 
-#: simpleapplet/simpleapplet.cpp:267
+#: simpleapplet/simpleapplet.cpp:304
 msgctxt "@item:inlistbox View:"
 msgid "Recently Used"
 msgstr "Njedawno wužiwane"
 
-#: simpleapplet/simpleapplet.cpp:268
+#: simpleapplet/simpleapplet.cpp:305
 msgctxt "@item:inlistbox View:"
 msgid "Leave"
 msgstr "Won hić"
 
-#: simpleapplet/simpleapplet.cpp:271
+#: simpleapplet/simpleapplet.cpp:308
 msgctxt "@label:listbox How to present applications in a KMenu-like menu"
 msgid "Format:"
 msgstr "Format:"
 
-#: simpleapplet/simpleapplet.cpp:275
+#: simpleapplet/simpleapplet.cpp:312
 msgctxt "@item:inlistbox Format:"
 msgid "Name Only"
 msgstr "Jenož mjeno"
 
-#: simpleapplet/simpleapplet.cpp:276
+#: simpleapplet/simpleapplet.cpp:313
 msgctxt "@item:inlistbox Format:"
 msgid "Description Only"
 msgstr "Jenož wopisanje"
 
-#: simpleapplet/simpleapplet.cpp:277
+#: simpleapplet/simpleapplet.cpp:314
 msgctxt "@item:inlistbox Format:"
 msgid "Name Description"
 msgstr "Mjeno a wopisanje"
 
-#: simpleapplet/simpleapplet.cpp:278
+#: simpleapplet/simpleapplet.cpp:315
 msgctxt "@item:inlistbox Format:"
 msgid "Description (Name)"
 msgstr "Wopisanje (mjeno)"
 
+#: simpleapplet/simpleapplet.cpp:316
+msgctxt "@item:inlistbox Format:"
+msgid "Name - Description"
+msgstr "Mjeno - wopisanje"
+
+#: simpleapplet/simpleapplet.cpp:394
 #, fuzzy
-#~ msgid "Safely Remove"
-#~ msgstr "Z&ničić"
-
-#~ msgctxt "full name, login name, hostname"
-#~ msgid "<b>%1 (%2)</b> on <b>%3</b>"
-#~ msgstr "<b>%1 (%2)</b> na <b>%3</b>"
-
-#~ msgid "Save Session"
-#~ msgstr "Posedźenje zawěsćić"
-
-#~ msgid "Save current session for next login"
-#~ msgstr "Posedźenje za přichodne přizjewjenje zawěsćić"
-
-#~ msgctxt "Puts the system on standby"
-#~ msgid "Standby"
-#~ msgstr "Wusnyć"
-
-#~ msgid "Pause without logging out"
-#~ msgstr "Přestawka bjez wotzjewjenja"
-
-#~ msgid "Suspend to Disk"
-#~ msgstr "Do kruteho diska zawěsćić"
-
-#~ msgid "Suspend to RAM"
-#~ msgstr "Do RAMa zawěsćić"
-
-#~ msgid "Kickoff Application Launcher"
-#~ msgstr "Kickoff startowar aplikacijow"
-
-#~ msgid ""
-#~ "Favorites, applications, computer places, recently used items and desktop "
-#~ "sessions"
-#~ msgstr ""
-#~ "Lubuški, aplikacije, městna na kompjuteru, njedawno wužiwane elementy a "
-#~ "posedźenje"
-
-#~ msgid "General"
-#~ msgstr "Generelnje"
-
-#~ msgctxt "@item:inlistbox View:"
-#~ msgid "Bookmarks"
-#~ msgstr "Lubuški"
-
-#~ msgctxt "@item:inlistbox Format:"
-#~ msgid "Name - Description"
-#~ msgstr "Mjeno - wopisanje"
+#| msgid "Leave"
+msgid "Leave..."
+msgstr "Won hić"
 
 #, fuzzy
-#~| msgid "Leave"
-#~ msgid "Leave..."
-#~ msgstr "Won hić"
+#~| msgctxt "login name, hostname"
+#~| msgid "User <b>%1</b> on <b>%2</b>"
+#~ msgid "User&nbsp;<b>%1</b>&nbsp;on&nbsp;<b>%2</b>"
+#~ msgstr "Wužiwar <b>%1</b> na <b>%2</b>"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Sweep"
+#~ msgid "Sleep"
+#~ msgstr "Sweep"
+
+#, fuzzy
+#~| msgid "Alternate"
+#~ msgid "Hibernate"
+#~ msgstr "Alternate"
 
 #, fuzzy
 #~| msgid "Sorting"
@@ -13473,9 +13501,6 @@ msgstr "Wopisanje (mjeno)"
 
 #~ msgid "Authentication"
 #~ msgstr "Identifikacija"
-
-#~ msgid "<b>%1</b> at <b>%2</b>"
-#~ msgstr "<b>%1</b> at <b>%2</b>"
 
 #~ msgid ""
 #~ "You need to supply a username and a password for the proxy server listed "

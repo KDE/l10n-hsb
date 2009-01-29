@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:20+0100\n"
 "PO-Revision-Date: 2008-11-22 12:57+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,43 +17,59 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: engineexplorer.cpp:55 main.cpp:32
+#: engineexplorer.cpp:57 main.cpp:32
 msgid "Plasma Engine Explorer"
 msgstr "Plasma Engine Explorer"
 
-#: engineexplorer.cpp:70
+#: engineexplorer.cpp:73
 msgid "Search"
 msgstr "Pytać"
 
-#: engineexplorer.cpp:76
+#: engineexplorer.cpp:79
 #, fuzzy
 #| msgid "Collapse All"
-msgid "Collapse all"
+msgid "Collapse All"
 msgstr "Wšě zesćahać"
 
-#: engineexplorer.cpp:77
+#: engineexplorer.cpp:80
 #, fuzzy
 #| msgid "Expand All"
-msgid "Expand all"
+msgid "Expand All"
 msgstr "Wšě zrozćahać"
 
-#: engineexplorer.cpp:141
+#: engineexplorer.cpp:148
 msgid "DataSource"
 msgstr "Žórło za daty"
 
-#: engineexplorer.cpp:141
+#. i18n: file: serviceviewer.ui:67
+#. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
+#: engineexplorer.cpp:148 rc.cpp:25 serviceviewer.cpp:140
 msgid "Key"
 msgstr "Kluč"
 
-#: engineexplorer.cpp:141
+#. i18n: file: serviceviewer.ui:72
+#. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
+#: engineexplorer.cpp:148 rc.cpp:28 serviceviewer.cpp:140
 msgid "Value"
 msgstr "Hódnota"
 
-#: engineexplorer.cpp:141
+#: engineexplorer.cpp:148
 msgid "Type"
 msgstr "Družina"
 
-#: engineexplorer.cpp:240
+#: engineexplorer.cpp:257
+msgid "Get associated service"
+msgstr "Asociěrowanu słužbu wobstarać"
+
+#: engineexplorer.cpp:258
+msgid "Update source now"
+msgstr "Žórło nětko aktualizować"
+
+#: engineexplorer.cpp:259
+msgid "Remove source"
+msgstr "Žórło wotstronić"
+
+#: engineexplorer.cpp:279
 #, kde-format
 msgid "&lt;1 bit&gt;"
 msgid_plural "&lt;%1 bits&gt;"
@@ -62,7 +78,7 @@ msgstr[1] "&lt;%1 bitaj&gt;"
 msgstr[2] "&lt;%1 bity&gt;"
 msgstr[3] "&lt;%1 bitow&gt;"
 
-#: engineexplorer.cpp:249
+#: engineexplorer.cpp:288
 #, kde-format
 msgid "&lt;1 byte&gt;"
 msgid_plural "&lt;%1 bytes&gt;"
@@ -71,7 +87,7 @@ msgstr[1] "&lt;%1 bajtaj&gt;"
 msgstr[2] "&lt;%1 bajty&gt;"
 msgstr[3] "&lt;%1 bajtow&gt;"
 
-#: engineexplorer.cpp:271
+#: engineexplorer.cpp:310
 #, kde-format
 msgid "&lt;1 item&gt;"
 msgid_plural "&lt;%1 items&gt;"
@@ -80,25 +96,29 @@ msgstr[1] "&lt;%1 objektaj&gt;"
 msgstr[2] "&lt;%1 objekty&gt;"
 msgstr[3] "&lt;%1 objektow&gt;"
 
-#: engineexplorer.cpp:326
+#: engineexplorer.cpp:376
 #, fuzzy
 #| msgid "<empty>"
+msgctxt "The user did a query to a dataengine and it returned empty data"
 msgid "<empty>"
 msgstr "<prózdny>"
 
-#: engineexplorer.cpp:333
+#: engineexplorer.cpp:383
 #, fuzzy
 #| msgid "<not displayable>"
+msgctxt ""
+"A the dataengine returned something that the humble view on the "
+"engineexplorer can't display, like a picture"
 msgid "<not displayable>"
 msgstr "<njepokazujomny>"
 
 #. i18n: file: engineexplorer.ui:19
 #. i18n: ectx: property (text), widget (KTitleWidget, m_title)
-#: engineexplorer.cpp:370 rc.cpp:3
+#: engineexplorer.cpp:420 rc.cpp:3
 msgid "Plasma DataEngine Explorer"
 msgstr "Plasma DataEngine Explorer"
 
-#: engineexplorer.cpp:375
+#: engineexplorer.cpp:425
 #, kde-format
 msgctxt "The name of the engine followed by the number of data sources"
 msgid "%1 Engine - 1 data source"
@@ -157,6 +177,12 @@ msgid "The data engine to use"
 msgstr "Data engine, kiž ma so wužiwać"
 
 #: main.cpp:47
+#, fuzzy
+#| msgid "The subscription request failed."
+msgid "The source to request"
+msgstr "Subskripcija zwrěšćena."
+
+#: main.cpp:48
 msgid "Update Interval in milliseconds."
 msgstr "Interwal aktualzowanja w milisekundach."
 
@@ -190,84 +216,88 @@ msgstr "Aktualizować kóžde"
 msgid "Request"
 msgstr "Požadanje"
 
-#: rc.cpp:19
+#. i18n: file: serviceviewer.ui:33
+#. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
+#: rc.cpp:22
+msgid "&Operation:"
+msgstr "&Operacija:"
+
+#. i18n: file: serviceviewer.ui:80
+#. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
+#: rc.cpp:31
+msgid "Operation count"
+msgstr "Ličba operacijow"
+
+#: rc.cpp:32
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Edward Wornar"
 
-#: rc.cpp:20
+#: rc.cpp:33
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "edi.werner@gmx.de"
 
-#~ msgid "Get associated service"
-#~ msgstr "Asociěrowanu słužbu wobstarać"
+#: serviceviewer.cpp:44
+msgid "Start Operation"
+msgstr "Operaciju započeć"
 
-#~ msgid "Update source now"
-#~ msgstr "Žórło nětko aktualizować"
-
-#~ msgid "Remove source"
-#~ msgstr "Žórło wotstronić"
-
+#: serviceviewer.cpp:51
 #, fuzzy
-#~| msgid "The subscription request failed."
-#~ msgid "The source to request"
-#~ msgstr "Subskripcija zwrěšćena."
+#| msgid "Unknown"
+msgctxt "Plasma engine with unknown name"
+msgid "Unknown"
+msgstr "Njeznate"
 
-#~ msgid "&Operation:"
-#~ msgstr "&Operacija:"
-
-#~ msgid "Operation count"
-#~ msgstr "Ličba operacijow"
-
-#~ msgid "Start Operation"
-#~ msgstr "Operaciju započeć"
-
+#: serviceviewer.cpp:52
 #, fuzzy
-#~| msgid "Unknown"
-#~ msgctxt "Plasma engine with unknown name"
-#~ msgid "Unknown"
-#~ msgstr "Njeznate"
+#| msgid "Unknown"
+msgctxt "Plasma service with unknown name"
+msgid "Unknown"
+msgstr "Njeznate"
 
-#, fuzzy
-#~| msgid "Unknown"
-#~ msgctxt "Plasma service with unknown name"
-#~ msgid "Unknown"
-#~ msgstr "Njeznate"
+#: serviceviewer.cpp:66
+#, fuzzy, kde-format
+#| msgid "%1 Service Explorer"
+msgctxt "%1 is a Plasma service name"
+msgid "%1 Service Explorer"
+msgstr "%1 Wuslědźer słužbow"
 
-#, fuzzy
-#~| msgid "%1 Service Explorer"
-#~ msgctxt "%1 is a Plasma service name"
-#~ msgid "%1 Service Explorer"
-#~ msgstr "%1 Wuslědźer słužbow"
+#: serviceviewer.cpp:68
+#, kde-format
+msgid "DataEngine: <b>%1</b>; Source: <b>%2</b>; Service <b>%3</b>"
+msgstr "DataEngine: <b>%1</b>; Žórło: <b>%2</b>; Słužba <b>%3</b>"
 
-#~ msgid "DataEngine: <b>%1</b>; Source: <b>%2</b>; Service <b>%3</b>"
-#~ msgstr "DataEngine: <b>%1</b>; Žórło: <b>%2</b>; Słužba <b>%3</b>"
+#: serviceviewer.cpp:169
+#, kde-format
+msgid "%1 operation with destination %2 failed. The error was:<p><b>%3</b>"
+msgstr "Operacija %1 z cilom %2 je so zwrěšćiła. Zmylk:<p><b>%3</b>"
 
-#~ msgid "%1 operation with destination %2 failed. The error was:<p><b>%3</b>"
-#~ msgstr "Operacija %1 z cilom %2 je so zwrěšćiła. Zmylk:<p><b>%3</b>"
+#: serviceviewer.cpp:172 serviceviewer.cpp:183
+msgid "Operation Result"
+msgstr "Wuslědk operacije"
 
-#~ msgid "Operation Result"
-#~ msgstr "Wuslědk operacije"
+#: serviceviewer.cpp:176
+msgid "No response from job!"
+msgstr "Žana reakcija nadawka!"
 
-#~ msgid "No response from job!"
-#~ msgstr "Žana reakcija nadawka!"
+#: serviceviewer.cpp:180
+#, kde-format
+msgid ""
+"%1 operation with destination %2 returned successfully. The result was:<p><b>"
+"%3</b>"
+msgstr ""
+"Operacija %1 z cilom %2 je so wuspěšnje zakónčiła. Wuslědk bě: <p><b>%3</b>"
 
-#~ msgid ""
-#~ "%1 operation with destination %2 returned successfully. The result was:"
-#~ "<p><b>%3</b>"
-#~ msgstr ""
-#~ "Operacija %1 z cilom %2 je so wuspěšnje zakónčiła. Wuslědk bě: <p><b>%3</"
-#~ "b>"
-
-#, fuzzy
-#~| msgid "Continue operation"
-#~ msgid "One active operation ..."
-#~ msgid_plural "%1 operations active ..."
-#~ msgstr[0] "Z akciju pokročować"
-#~ msgstr[1] "Z akciju pokročować"
-#~ msgstr[2] "Z akciju pokročować"
-#~ msgstr[3] "Z akciju pokročować"
+#: serviceviewer.cpp:205
+#, fuzzy, kde-format
+#| msgid "Continue operation"
+msgid "One active operation ..."
+msgid_plural "%1 operations active ..."
+msgstr[0] "Z akciju pokročować"
+msgstr[1] "Z akciju pokročować"
+msgstr[2] "Z akciju pokročować"
+msgstr[3] "Z akciju pokročować"
 
 #~ msgid "%1 service for %2 DataEngine source %3"
 #~ msgstr "Słužba %1 za DataEngine %2, žórło %3"

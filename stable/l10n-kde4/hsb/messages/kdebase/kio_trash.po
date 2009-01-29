@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,49 +17,119 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: ktrash.cpp:34
+#: ktrash.cpp:32
 msgid "ktrash"
 msgstr ""
 
-#: ktrash.cpp:36
+#: ktrash.cpp:34
 msgid ""
 "Helper program to handle the KDE trash can\n"
-"Note: to move files to the trash, do not use ktrash, but \"kfmclient move "
+"Note: to move files to the trash, do not use ktrash, but \"kioclient move "
 "'url' trash:/\""
 msgstr ""
 
-#: ktrash.cpp:40
+#: ktrash.cpp:38
 msgid "Empty the contents of the trash"
 msgstr ""
 
-#: ktrash.cpp:42
+#: ktrash.cpp:40
 msgid "Restore a trashed file to its original location"
 msgstr ""
 
-#: ktrash.cpp:44
+#: ktrash.cpp:42
 msgid "Ignored"
 msgstr ""
 
-#: kio_trash.cpp:52
+#: trashimpl.cpp:1070
+msgid ""
+"The trash has reached its maximum size!\n"
+"Cleanup the trash manually."
+msgstr ""
+
+#: trashimpl.cpp:1081
+msgid "The file is too large to be trashed."
+msgstr ""
+
+#: kcmtrash.cpp:119
+#, fuzzy
+#| msgid "By Date"
+msgid "Byte"
+msgstr "po času"
+
+#: kcmtrash.cpp:121
+#, fuzzy
+#| msgid "By Date"
+msgid "KByte"
+msgstr "po času"
+
+#: kcmtrash.cpp:125
+#, fuzzy
+#| msgid "By Date"
+msgid "MByte"
+msgstr "po času"
+
+#: kcmtrash.cpp:129
+#, fuzzy
+#| msgid "By Date"
+msgid "GByte"
+msgstr "po času"
+
+#: kcmtrash.cpp:133
+#, fuzzy
+#| msgid "By Date"
+msgid "TByte"
+msgstr "po času"
+
+#: kcmtrash.cpp:137
+#, fuzzy, kde-format
+#| msgid "%1 (%2)"
+msgid "(%1 %2)"
+msgstr "%1 (%2)"
+
+#: kcmtrash.cpp:264
+#, fuzzy
+#| msgid "Delete Folder"
+msgid "Delete files older than:"
+msgstr "Zapisk zničić"
+
+#: kcmtrash.cpp:275
+msgid "Limit to maximum size"
+msgstr ""
+
+#: kcmtrash.cpp:286
+msgid "Maximum size:"
+msgstr ""
+
+#: kcmtrash.cpp:299
+msgid "When limit reached:"
+msgstr ""
+
+#: kcmtrash.cpp:303
 #, fuzzy
 #| msgctxt "Name"
-#| msgid "Protocols"
-msgid "Protocol name"
-msgstr "Protokole"
+#| msgid "Warning Message"
+msgid "Warn Me"
+msgstr "Warnowaca zdźělenka"
 
-#: kio_trash.cpp:53 kio_trash.cpp:54
+#: kcmtrash.cpp:304
 #, fuzzy
-#| msgid "Speak event name"
-msgid "Socket name"
-msgstr "Mjeno podawka prajić"
+#| msgid "Delete File(s) Progress"
+msgid "Delete Oldest Files From Trash"
+msgstr "Pokročowanje zničenja datajow"
 
-#: kio_trash.cpp:102 kio_trash.cpp:165 kio_trash.cpp:313 kio_trash.cpp:345
-#: kio_trash.cpp:511 kio_trash.cpp:523
+#: kcmtrash.cpp:305
+#, fuzzy
+#| msgid "Delete File(s) Progress"
+msgid "Delete Biggest Files From Trash"
+msgstr "Pokročowanje zničenja datajow"
+
+#: kio_trash.cpp:91 kio_trash.cpp:154 kio_trash.cpp:302 kio_trash.cpp:334
+#: kio_trash.cpp:500 kio_trash.cpp:512
 #, kde-format
 msgid "Malformed URL %1"
 msgstr ""
 
-#: kio_trash.cpp:121
+#: kio_trash.cpp:110
 #, kde-format
 msgid ""
 "The directory %1 does not exist anymore, so it is not possible to restore "
@@ -68,25 +138,20 @@ msgid ""
 "restore it."
 msgstr ""
 
-#: kio_trash.cpp:150
+#: kio_trash.cpp:139
 msgid "This file is already in the trash bin."
 msgstr ""
 
 #, fuzzy
 #~| msgctxt "Name"
-#~| msgid "Warning Message"
-#~ msgid "Warn Me"
-#~ msgstr "Warnowaca zdźělenka"
+#~| msgid "Protocols"
+#~ msgid "Protocol name"
+#~ msgstr "Protokole"
 
 #, fuzzy
-#~| msgid "Delete File(s) Progress"
-#~ msgid "Delete Oldest Files From Trash"
-#~ msgstr "Pokročowanje zničenja datajow"
-
-#, fuzzy
-#~| msgid "Delete File(s) Progress"
-#~ msgid "Delete Biggest Files From Trash"
-#~ msgstr "Pokročowanje zničenja datajow"
+#~| msgid "Speak event name"
+#~ msgid "Socket name"
+#~ msgstr "Mjeno podawka prajić"
 
 #~ msgid "Editor Chooser"
 #~ msgstr "Wuběranje editora"
@@ -9845,9 +9910,6 @@ msgstr ""
 #~ msgid "By Size"
 #~ msgstr "po wulkosći"
 
-#~ msgid "By Date"
-#~ msgstr "po času"
-
 #~ msgid "Detailed View"
 #~ msgstr "Nadrobny napohlad"
 
@@ -9993,9 +10055,6 @@ msgstr ""
 
 #~ msgid "Filename for clipboard content:"
 #~ msgstr "Datajowe mjeno za wobsah clipboarda:"
-
-#~ msgid "%1 (%2)"
-#~ msgstr "%1 (%2)"
 
 #~ msgid ""
 #~ "The clipboard has changed since you used 'paste': the chosen data format "
@@ -12937,9 +12996,6 @@ msgstr ""
 
 #~ msgid "Open Folder in Bookmark Editor"
 #~ msgstr "Zapisk wočinić w editorje lubuškow"
-
-#~ msgid "Delete Folder"
-#~ msgstr "Zapisk zničić"
 
 #~ msgid "Delete Bookmark"
 #~ msgstr "Z lubuškow wumjetać"

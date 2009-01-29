@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-11-21 23:03+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,13 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: advanced.cpp:39
-#, fuzzy
-#| msgid "Ad&vanced Options"
-msgid "Advanced Compositing Options"
-msgstr "Opcije za po&kročenych"
-
-#: ktimerdialog.cpp:169
+#: ktimerdialog.cpp:166
 #, kde-format
 msgid "1 second remaining:"
 msgid_plural "%1 seconds remaining:"
@@ -32,19 +26,19 @@ msgstr[1] "Hišće %1 sekundźe wostanjetej:"
 msgstr[2] "Hišće %1 sekundy wostanu:"
 msgstr[3] "Hišće %1 sekundow wostanje:"
 
-#: main.cpp:52
+#: main.cpp:55
 msgid "Confirm Desktop Effects Change"
 msgstr "Změnu efektow za dźěłowy powjerch wobkrućić"
 
-#: main.cpp:55
+#: main.cpp:59
 msgid "&Accept Configuration"
 msgstr "&Konfiguraciju přiwzać"
 
-#: main.cpp:56
+#: main.cpp:60
 msgid "&Return to Previous Configuration"
 msgstr "W&róćo k prjedawšej konfiguraciji"
 
-#: main.cpp:58
+#: main.cpp:62
 msgid ""
 "Desktop effects settings have changed.\n"
 "Do you want to keep the new settings?\n"
@@ -54,231 +48,236 @@ msgstr ""
 "Chceće nowe nastajenja wobchhować?\n"
 "Stare so za 10 sekundow awtomatisce znowja. "
 
-#: main.cpp:113
+#: main.cpp:149
 msgid "Compositing is not supported on your system."
 msgstr "Zestajenje so na Wašim systemje njepodpěruje."
 
-#: main.cpp:120
+#: main.cpp:157
 msgid "kcmkwincompositing"
 msgstr "kcmkwincompositing"
 
-#: main.cpp:121
+#: main.cpp:158
 msgid "KWin Desktop Effects Configuration Module"
 msgstr "KWin konfiguraciski modul efektow za dźěłowy powjerch"
 
-#: main.cpp:122
+#: main.cpp:159
 msgid "(c) 2007 Rivo Laks"
 msgstr "(c) 2007 Rivo Laks"
 
-#: main.cpp:123
+#: main.cpp:160
 msgid "Rivo Laks"
 msgstr "Rivo Laks"
 
-#: main.cpp:176
+#: main.cpp:188 main.cpp:194 main.cpp:657
+#, fuzzy
+#| msgid "All Effects"
+msgid "No Effect"
+msgstr "Wšitke efekty"
+
+#: main.cpp:226
+msgid ""
+"Failed to activate desktop effects using the given configuration options. "
+"Settings will be reverted to their previous values.\n"
+"\n"
+"Check your X configuration. You may also consider changing advanced options, "
+"especially changing the compositing type."
+msgstr ""
+
+#: main.cpp:263
 msgid "Appearance"
 msgstr "Napohlad"
 
-#: main.cpp:177
+#: main.cpp:264
 msgid "Accessibility"
 msgstr "Přistupnosć"
 
-#: main.cpp:178
+#: main.cpp:265
+msgid "Focus"
+msgstr "Fokus"
+
+#: main.cpp:266
 msgid "Window Management"
 msgstr "Rjadowanje woknow"
 
-#: main.cpp:179
+#: main.cpp:267
+msgid "Candy"
+msgstr "Candy"
+
+#: main.cpp:268
 msgid "Demos"
 msgstr "Demo"
 
-#: main.cpp:180
+#: main.cpp:269
 msgid "Tests"
 msgstr "Testy"
 
-#: main.cpp:181
-#, fuzzy
-#| msgctxt "@item:inmenu disc list style"
-#| msgid "Disc"
-msgid "Misc"
-msgstr "Disk"
+#: main.cpp:270
+msgid "Tools"
+msgstr "Nastroje"
 
-#: main.cpp:347
+#: main.cpp:652
 msgid "<h1>Desktop Effects</h1>"
 msgstr "<h1>Efekty za dźěłowy powjerch</h1>"
 
-#. i18n: file: advanced.ui:18
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:3 rc.cpp:86
-msgid "Compositing type:"
-msgstr "Družina zestajenja:"
+#: main.cpp:665
+msgid "All Desktops"
+msgstr "Wšitke dźěłowe powjerchi"
 
-#. i18n: file: advanced.ui:26
-#. i18n: ectx: property (text), item, widget (QComboBox, compositingType)
-#: rc.cpp:6 rc.cpp:89
-msgid "OpenGL"
-msgstr "OpenGL"
-
-#. i18n: file: advanced.ui:31
-#. i18n: ectx: property (text), item, widget (QComboBox, compositingType)
-#: rc.cpp:9 rc.cpp:92
-msgid "XRender"
-msgstr "XRender"
-
-#. i18n: file: advanced.ui:41
-#. i18n: ectx: property (text), widget (QCheckBox, updateThumbnails)
-#: rc.cpp:12 rc.cpp:95
-msgid "Keep thumbnails of hidden windows up to date"
-msgstr ""
-
-#. i18n: file: advanced.ui:48
-#. i18n: ectx: property (title), widget (QGroupBox, glGroup)
-#: rc.cpp:15 rc.cpp:98
-msgid "OpenGL Options"
-msgstr "OpenGL opcije"
-
-#. i18n: file: advanced.ui:56
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:18 rc.cpp:101
-msgid "OpenGL mode:"
-msgstr "OpenGL modus:"
-
-#. i18n: file: advanced.ui:64
-#. i18n: ectx: property (text), item, widget (QComboBox, glMode)
-#: rc.cpp:21 rc.cpp:104
-msgid "Texture From Pixmap"
-msgstr "Tekstura z pixmapa"
-
-#. i18n: file: advanced.ui:69
-#. i18n: ectx: property (text), item, widget (QComboBox, glMode)
-#: rc.cpp:24 rc.cpp:107
-msgid "Shared Memory"
-msgstr "Zhromadny pomjatk"
-
-#. i18n: file: advanced.ui:74
-#. i18n: ectx: property (text), item, widget (QComboBox, glMode)
-#: rc.cpp:27 rc.cpp:110
-msgid "Fallback"
-msgstr "Nuzowe rozrisanje"
-
-#. i18n: file: advanced.ui:86
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:30 rc.cpp:113
-msgid "Texture filter:"
-msgstr "Teksturowy filter:"
-
-#. i18n: file: advanced.ui:94
-#. i18n: ectx: property (text), item, widget (QComboBox, glTextureFilter)
-#: rc.cpp:33 rc.cpp:116
-msgid "Nearest (fastest)"
-msgstr "Najbliši (najspěšnišo)"
-
-#. i18n: file: advanced.ui:99
-#. i18n: ectx: property (text), item, widget (QComboBox, glTextureFilter)
-#: rc.cpp:36 rc.cpp:119
-msgid "Bilinear"
-msgstr "Bilinearny"
-
-#. i18n: file: advanced.ui:104
-#. i18n: ectx: property (text), item, widget (QComboBox, glTextureFilter)
-#: rc.cpp:39 rc.cpp:122
-msgid "Trilinear (best quality)"
-msgstr "Trilinearny (najlěpša kwalita)"
-
-#. i18n: file: advanced.ui:114
-#. i18n: ectx: property (text), widget (QCheckBox, glDirect)
-#: rc.cpp:42 rc.cpp:125
-#, fuzzy
-#| msgid "Enable direct rendering"
-msgid "Direct rendering"
-msgstr "Direktne renderowanje zmóžnić"
-
-#. i18n: file: advanced.ui:121
-#. i18n: ectx: property (text), widget (QCheckBox, glVSync)
-#: rc.cpp:45 rc.cpp:128
-msgid "Use VSync"
-msgstr "VSync wužiwać"
-
-#. i18n: file: advanced.ui:131
-#. i18n: ectx: property (title), widget (QGroupBox, xrenderGroup)
-#: rc.cpp:48 rc.cpp:131
-msgid "XRender Options"
-msgstr "XRender Opcije"
-
-#. i18n: file: advanced.ui:137
-#. i18n: ectx: property (text), widget (QCheckBox, xrenderSmoothScale)
-#: rc.cpp:51 rc.cpp:134
-msgid "Smooth scaling (slower)"
-msgstr "Hładke skalěrowanje (pomalšo)"
+#: main.cpp:666
+msgid "Current Desktop"
+msgstr "Aktualny dźěłowy powjerch"
 
 #. i18n: file: main.ui:20
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:54 rc.cpp:137
+#: rc.cpp:3 rc.cpp:141
 msgid "General"
 msgstr "Powšitkownje"
 
-#. i18n: file: main.ui:26
+#. i18n: file: main.ui:29
 #. i18n: ectx: property (text), widget (QCheckBox, useCompositing)
-#: rc.cpp:57 rc.cpp:140
+#: rc.cpp:6 rc.cpp:144
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Enable desktop effects"
+msgctxt "@option:check"
 msgid "Enable desktop effects"
 msgstr "Efekty za dźěłowy powjerch zmóžnić"
 
-#. i18n: file: main.ui:39
+#. i18n: file: main.ui:42
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:60 rc.cpp:143
-#, fuzzy
-#| msgid "No Effect"
-msgid "Common Effects"
-msgstr "Žadyn efekt"
+#: rc.cpp:9 rc.cpp:147
+msgid "Common Settings"
+msgstr "Powšitkowne nastajenja"
 
-#. i18n: file: main.ui:45
+#. i18n: file: main.ui:48
 #. i18n: ectx: property (text), widget (QCheckBox, effectWinManagement)
-#: rc.cpp:63 rc.cpp:146
+#: rc.cpp:12 rc.cpp:150
 msgid "Improved window management"
 msgstr "Zlěpšene rjadowanje woknow"
 
-#. i18n: file: main.ui:55
+#. i18n: file: main.ui:58
 #. i18n: ectx: property (text), widget (QCheckBox, effectShadows)
-#: rc.cpp:66 rc.cpp:149
+#: rc.cpp:15 rc.cpp:153
 msgid "Shadows"
 msgstr "Sćiny"
 
-#. i18n: file: main.ui:65
+#. i18n: file: main.ui:68
 #. i18n: ectx: property (text), widget (QCheckBox, effectAnimations)
-#: rc.cpp:69 rc.cpp:152
+#: rc.cpp:18 rc.cpp:156
 msgid "Various animations"
 msgstr "Wšelake animacije"
 
-#. i18n: file: main.ui:75
+#. i18n: file: main.ui:94
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:72 rc.cpp:155
+#: rc.cpp:21 rc.cpp:159
 #, fuzzy
 #| msgid ""
 #| "You can find more effects, as well as effect-specific settings, in the "
 #| "\"All Effects\" tab above."
-msgid "You can find more effects in the 'All Effects' tab"
+msgid ""
+"You can find more effects, as well as effect-specific settings, in the \"All "
+"Effects\" tab above."
 msgstr ""
 "Wjace efektow a tež nastajenja za specifiske efekty namakaće w tabulatoru "
 "\"Wšitke efekty\" horjeka."
 
-#. i18n: file: main.ui:100
-#. i18n: ectx: property (text), widget (QPushButton, advancedOptions)
-#: rc.cpp:75 rc.cpp:158
-#, fuzzy
-#| msgid "Ad&vanced Options"
-msgid "Advanced Options"
-msgstr "Opcije za po&kročenych"
+#. i18n: file: main.ui:104
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:24 rc.cpp:162
+msgid "Effect for window switching:"
+msgstr "Efekt za přešaltowanje mjez woknami:"
 
-#. i18n: file: main.ui:129
+#. i18n: file: main.ui:127
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:27 rc.cpp:165
+msgid "Effect for desktop switching:"
+msgstr "Efekt za přešaltowanje mjez dźěłowymi powjerchami:"
+
+#. i18n: file: main.ui:176
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:30 rc.cpp:168
+msgid "Instant"
+msgstr "Hnydom"
+
+#. i18n: file: main.ui:181
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:33 rc.cpp:171
+msgid "Very Fast"
+msgstr "Jara spěšnje"
+
+#. i18n: file: main.ui:186
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:36 rc.cpp:174
+msgid "Fast"
+msgstr "Spěšnje"
+
+#. i18n: file: main.ui:191
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:39 rc.cpp:177
+msgid "Normal"
+msgstr "Normalnje"
+
+#. i18n: file: main.ui:196
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:42 rc.cpp:180
+msgid "Slow"
+msgstr "Pomału"
+
+#. i18n: file: main.ui:201
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:45 rc.cpp:183
+msgid "Very Slow"
+msgstr "Jara pomału"
+
+#. i18n: file: main.ui:206
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:48 rc.cpp:186
+msgid "Extremely Slow"
+msgstr "Nimoměry pomału"
+
+#. i18n: file: main.ui:214
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:51 rc.cpp:189
+msgid "Animation speed:"
+msgstr "Spěšnosć animacije:"
+
+#. i18n: file: main.ui:250
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: rc.cpp:54 rc.cpp:192
+msgid "Screen Edges"
+msgstr "Kromy wobrazowki"
+
+#. i18n: file: main.ui:276
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:57 rc.cpp:195
+msgid ""
+"Active screen edges allow you to activate effects by pushing your mouse "
+"cursor against the edge of the screen. Here you can configure which effect "
+"will get activated on each edge and corner of the screen."
+msgstr ""
+"Aktiwne kromy Wam dowola efekty aktiwizować, hdyž z myšacym cursorom do "
+"kromy wobrazowki jědźeće. Tu móžeće nastajić, kotry efekt so na kotrej "
+"kromje a w kotrym kuće wobrazowki wužije. "
+
+#. i18n: file: main.ui:318
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: rc.cpp:60 rc.cpp:198
+msgid ""
+"If you are looking for the setting to enable switching of desktops by "
+"pushing your mouse cursor against the edge of the screen you can find it in "
+"the \"Window Behavior\" advanced tab under the name of \"Active Desktop "
+"Borders\"."
+msgstr ""
+
+#. i18n: file: main.ui:345
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:78 rc.cpp:161
+#: rc.cpp:63 rc.cpp:201
 msgid "All Effects"
 msgstr "Wšitke efekty"
 
-#. i18n: file: main.ui:135
+#. i18n: file: main.ui:351
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:81 rc.cpp:164
+#: rc.cpp:66 rc.cpp:204
 msgid ""
 "Hint: To find out or configure how to activate an effect, look at the "
 "effect's settings."
@@ -286,93 +285,180 @@ msgstr ""
 "Pokiw: Kak so efekt aktiwizuje abo konfiguruje, namakaće w nastajenjach "
 "efekta."
 
-#: rc.cpp:82
+#. i18n: file: main.ui:372
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: rc.cpp:69 rc.cpp:207
+msgid "Advanced"
+msgstr "Za pokročenych"
+
+#. i18n: file: main.ui:384
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: rc.cpp:72 rc.cpp:210
+msgid "Compositing type:"
+msgstr "Družina zestajenja:"
+
+#. i18n: file: main.ui:404
+#. i18n: ectx: property (text), item, widget (QComboBox, compositingType)
+#: rc.cpp:75 rc.cpp:213
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#. i18n: file: main.ui:409
+#. i18n: ectx: property (text), item, widget (QComboBox, compositingType)
+#: rc.cpp:78 rc.cpp:216
+msgid "XRender"
+msgstr "XRender"
+
+#. i18n: file: main.ui:423
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: rc.cpp:81 rc.cpp:219
+msgid "Keep window thumbnails:"
+msgstr "Miniwobrazi woknow wobchować:"
+
+#. i18n: file: main.ui:443
+#. i18n: ectx: property (text), item, widget (QComboBox, windowThumbnails)
+#: rc.cpp:84 rc.cpp:222
+msgid "Always"
+msgstr "Přeco"
+
+#. i18n: file: main.ui:448
+#. i18n: ectx: property (text), item, widget (QComboBox, windowThumbnails)
+#: rc.cpp:87 rc.cpp:225
+msgid "Only for Shown Windows"
+msgstr "Jenož za pokazowane wokna"
+
+#. i18n: file: main.ui:453
+#. i18n: ectx: property (text), item, widget (QComboBox, windowThumbnails)
+#: rc.cpp:90 rc.cpp:228
+msgid "Never"
+msgstr "Ženje"
+
+#. i18n: file: main.ui:462
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, disableChecks)
+#: rc.cpp:93 rc.cpp:231
+msgid ""
+"Enabling this option allows compositing to be activated even if some of the "
+"internal checks fail. Doing so may make the whole desktop unusable and its "
+"use is not recommened. Use only if KWin refuses to activate compositing on a "
+"system that should be capable of compositing.\n"
+msgstr ""
+
+#. i18n: file: main.ui:465
+#. i18n: ectx: property (text), widget (QCheckBox, disableChecks)
+#: rc.cpp:97 rc.cpp:235
+msgid "Disable functionality checks"
+msgstr "Žane přepruwowanje funkcionalnosće"
+
+#. i18n: file: main.ui:472
+#. i18n: ectx: property (title), widget (QGroupBox, glGroup)
+#: rc.cpp:100 rc.cpp:238
+msgid "OpenGL Options"
+msgstr "OpenGL opcije"
+
+#. i18n: file: main.ui:484
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: rc.cpp:103 rc.cpp:241
+msgid "OpenGL mode:"
+msgstr "OpenGL modus:"
+
+#. i18n: file: main.ui:504
+#. i18n: ectx: property (text), item, widget (QComboBox, glMode)
+#: rc.cpp:106 rc.cpp:244
+msgid "Texture From Pixmap"
+msgstr "Tekstura z pixmapa"
+
+#. i18n: file: main.ui:509
+#. i18n: ectx: property (text), item, widget (QComboBox, glMode)
+#: rc.cpp:109 rc.cpp:247
+msgid "Shared Memory"
+msgstr "Zhromadny pomjatk"
+
+#. i18n: file: main.ui:514
+#. i18n: ectx: property (text), item, widget (QComboBox, glMode)
+#: rc.cpp:112 rc.cpp:250
+msgid "Fallback"
+msgstr "Nuzowe rozrisanje"
+
+#. i18n: file: main.ui:528
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: rc.cpp:115 rc.cpp:253
+msgid "Texture filter:"
+msgstr "Teksturowy filter:"
+
+#. i18n: file: main.ui:548
+#. i18n: ectx: property (text), item, widget (QComboBox, glTextureFilter)
+#: rc.cpp:118 rc.cpp:256
+msgid "Nearest (fastest)"
+msgstr "Najbliši (najspěšnišo)"
+
+#. i18n: file: main.ui:553
+#. i18n: ectx: property (text), item, widget (QComboBox, glTextureFilter)
+#: rc.cpp:121 rc.cpp:259
+msgid "Bilinear"
+msgstr "Bilinearny"
+
+#. i18n: file: main.ui:558
+#. i18n: ectx: property (text), item, widget (QComboBox, glTextureFilter)
+#: rc.cpp:124 rc.cpp:262
+msgid "Trilinear (best quality)"
+msgstr "Trilinearny (najlěpša kwalita)"
+
+#. i18n: file: main.ui:566
+#. i18n: ectx: property (text), widget (QCheckBox, glDirect)
+#: rc.cpp:127 rc.cpp:265
+#, fuzzy
+#| msgid "Enable direct rendering"
+msgid "Enable direct rendering"
+msgstr "Direktne renderowanje zmóžnić"
+
+#. i18n: file: main.ui:576
+#. i18n: ectx: property (text), widget (QCheckBox, glVSync)
+#: rc.cpp:130 rc.cpp:268
+msgid "Use VSync"
+msgstr "VSync wužiwać"
+
+#. i18n: file: main.ui:589
+#. i18n: ectx: property (title), widget (QGroupBox, xrenderGroup)
+#: rc.cpp:133 rc.cpp:271
+msgid "XRender Options"
+msgstr "XRender Opcije"
+
+#. i18n: file: main.ui:595
+#. i18n: ectx: property (text), widget (QCheckBox, xrenderSmoothScale)
+#: rc.cpp:136 rc.cpp:274
+msgid "Smooth scaling (slower)"
+msgstr "Hładke skalěrowanje (pomalšo)"
+
+#: rc.cpp:137
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Edward Wornar"
 
-#: rc.cpp:83
+#: rc.cpp:138
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "edi.werner@gmx.de"
 
-#~ msgid "Focus"
-#~ msgstr "Fokus"
+#, fuzzy
+#~| msgid "Ad&vanced Options"
+#~ msgid "Advanced Compositing Options"
+#~ msgstr "Opcije za po&kročenych"
 
-#~ msgid "Candy"
-#~ msgstr "Candy"
+#, fuzzy
+#~| msgctxt "@item:inmenu disc list style"
+#~| msgid "Disc"
+#~ msgid "Misc"
+#~ msgstr "Disk"
 
-#~ msgid "Tools"
-#~ msgstr "Nastroje"
+#, fuzzy
+#~| msgid "No Effect"
+#~ msgid "Common Effects"
+#~ msgstr "Žadyn efekt"
 
-#~ msgid "All Desktops"
-#~ msgstr "Wšitke dźěłowe powjerchi"
-
-#~ msgid "Current Desktop"
-#~ msgstr "Aktualny dźěłowy powjerch"
-
-#~ msgid "Common Settings"
-#~ msgstr "Powšitkowne nastajenja"
-
-#~ msgid "Effect for window switching:"
-#~ msgstr "Efekt za přešaltowanje mjez woknami:"
-
-#~ msgid "Effect for desktop switching:"
-#~ msgstr "Efekt za přešaltowanje mjez dźěłowymi powjerchami:"
-
-#~ msgid "Instant"
-#~ msgstr "Hnydom"
-
-#~ msgid "Very Fast"
-#~ msgstr "Jara spěšnje"
-
-#~ msgid "Fast"
-#~ msgstr "Spěšnje"
-
-#~ msgid "Normal"
-#~ msgstr "Normalnje"
-
-#~ msgid "Slow"
-#~ msgstr "Pomału"
-
-#~ msgid "Very Slow"
-#~ msgstr "Jara pomału"
-
-#~ msgid "Extremely Slow"
-#~ msgstr "Nimoměry pomału"
-
-#~ msgid "Animation speed:"
-#~ msgstr "Spěšnosć animacije:"
-
-#~ msgid "Screen Edges"
-#~ msgstr "Kromy wobrazowki"
-
-#~ msgid ""
-#~ "Active screen edges allow you to activate effects by pushing your mouse "
-#~ "cursor against the edge of the screen. Here you can configure which "
-#~ "effect will get activated on each edge and corner of the screen."
-#~ msgstr ""
-#~ "Aktiwne kromy Wam dowola efekty aktiwizować, hdyž z myšacym cursorom do "
-#~ "kromy wobrazowki jědźeće. Tu móžeće nastajić, kotry efekt so na kotrej "
-#~ "kromje a w kotrym kuće wobrazowki wužije. "
-
-#~ msgid "Advanced"
-#~ msgstr "Za pokročenych"
-
-#~ msgid "Keep window thumbnails:"
-#~ msgstr "Miniwobrazi woknow wobchować:"
-
-#~ msgid "Always"
-#~ msgstr "Přeco"
-
-#~ msgid "Only for Shown Windows"
-#~ msgstr "Jenož za pokazowane wokna"
-
-#~ msgid "Never"
-#~ msgstr "Ženje"
-
-#~ msgid "Disable functionality checks"
-#~ msgstr "Žane přepruwowanje funkcionalnosće"
+#, fuzzy
+#~| msgid "Ad&vanced Options"
+#~ msgid "Advanced Options"
+#~ msgstr "Opcije za po&kročenych"
 
 #~ msgid "Editor Chooser"
 #~ msgstr "Wuběranje editora"

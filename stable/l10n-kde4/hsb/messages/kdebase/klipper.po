@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -90,10 +90,16 @@ msgid ""
 msgstr ""
 
 #: configdialog.cpp:97
+#, fuzzy
+#| msgid "Print images"
+msgid "Ignore images"
+msgstr "Wobrazy ćišćeć"
+
+#: configdialog.cpp:100
 msgid "Clipboard/Selection Behavior"
 msgstr ""
 
-#: configdialog.cpp:98
+#: configdialog.cpp:101
 msgid ""
 "<qt>There are two different clipboard buffers available:<br /><br /"
 "><b>Clipboard</b> is filled by selecting something and pressing Ctrl+C, or "
@@ -103,41 +109,41 @@ msgid ""
 "the relationship between Clipboard and Selection.</qt>"
 msgstr ""
 
-#: configdialog.cpp:111
+#: configdialog.cpp:114
 msgid "Sy&nchronize contents of the clipboard and the selection"
 msgstr ""
 
-#: configdialog.cpp:112
+#: configdialog.cpp:115
 msgid "Selecting this option synchronizes these two buffers."
 msgstr ""
 
-#: configdialog.cpp:116
+#: configdialog.cpp:119
 msgid "Separate clipboard and selection"
 msgstr ""
 
-#: configdialog.cpp:117
+#: configdialog.cpp:120
 msgid ""
 "Using this option will only set the selection when highlighting something "
 "and the clipboard when choosing e.g. \"Copy\" in a menubar."
 msgstr ""
 
-#: configdialog.cpp:126
+#: configdialog.cpp:129
 msgid "Tim&eout for action popups:"
 msgstr ""
 
-#: configdialog.cpp:128
+#: configdialog.cpp:131
 msgid " sec"
 msgstr ""
 
-#: configdialog.cpp:129
+#: configdialog.cpp:132
 msgid "A value of 0 disables the timeout"
 msgstr ""
 
-#: configdialog.cpp:133
+#: configdialog.cpp:136
 msgid "C&lipboard history size:"
 msgstr ""
 
-#: configdialog.cpp:149
+#: configdialog.cpp:152
 msgid " entry"
 msgid_plural " entries"
 msgstr[0] ""
@@ -145,82 +151,84 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: configdialog.cpp:196
+#: configdialog.cpp:199
 msgid "Action &list (right click to add/remove commands):"
 msgstr ""
 
-#: configdialog.cpp:202
+#: configdialog.cpp:205
 msgid "Regular Expression"
 msgstr ""
 
-#: configdialog.cpp:202
+#: configdialog.cpp:205
 msgid "Description"
 msgstr "Wopisanje"
 
-#: configdialog.cpp:241
+#: configdialog.cpp:244
 msgid "&Use graphical editor for editing regular expressions"
 msgstr ""
 
-#: configdialog.cpp:252
+#: configdialog.cpp:255
 msgid "&Add Action"
 msgstr ""
 
-#: configdialog.cpp:256
+#: configdialog.cpp:259
 msgid "&Delete Action"
 msgstr ""
 
-#: configdialog.cpp:262
+#: configdialog.cpp:265
 #, fuzzy
-msgid "Advanced..."
+msgid "Advanced"
 msgstr "Opcije za pokročenych"
 
-#: configdialog.cpp:266
+#: configdialog.cpp:269
 #, c-format
 msgid ""
 "Click on a highlighted item's column to change it. \"%s\" in a command will "
 "be replaced with the clipboard contents."
 msgstr ""
 
-#: configdialog.cpp:271
+#: configdialog.cpp:274
 msgid ""
 "For more information about regular expressions, you could have a look at the "
 "<a href=\"http://en.wikipedia.org/wiki/Regular_expression\">Wikipedia entry "
 "about this topic</a>."
 msgstr ""
 
-#: configdialog.cpp:297
+#: configdialog.cpp:300
 msgid "Add Command"
 msgstr ""
 
-#: configdialog.cpp:298
+#: configdialog.cpp:301
 msgid "Remove Command"
 msgstr ""
 
-#: configdialog.cpp:307
+#: configdialog.cpp:310
 msgid "Double-click here to set the command to be executed"
 msgstr ""
 
-#: configdialog.cpp:308
+#: configdialog.cpp:311
 msgid "<new command>"
 msgstr ""
 
-#: configdialog.cpp:332
-msgid "Double-click here to set the regexp"
-msgstr ""
+#: configdialog.cpp:335
+#, fuzzy
+#| msgid "If enabled, search for a regular expression."
+msgid "Double-click here to set the regular expression"
+msgstr "Pyta prawidłowny wuraz"
 
-#: configdialog.cpp:333
+#: configdialog.cpp:336
 msgid "<new action>"
 msgstr ""
 
-#: configdialog.cpp:376
+#: configdialog.cpp:379
 msgid "Advanced Settings"
 msgstr ""
 
-#: configdialog.cpp:394
+#: configdialog.cpp:397
 msgid "D&isable Actions for Windows of Type WM_CLASS"
 msgstr ""
 
-#: configdialog.cpp:399
+#: configdialog.cpp:402
 msgid ""
 "<qt>This lets you specify windows in which Klipper should not invoke "
 "\"actions\". Use<br /><br /><center><b>xprop | grep WM_CLASS</b></"
@@ -229,114 +237,108 @@ msgid ""
 "equal sign is the one you need to enter here.</qt>"
 msgstr ""
 
-#: klipper.cpp:142
+#: klipper.cpp:139
+msgid "Enable &Actions"
+msgstr ""
+
+#: klipper.cpp:143
 msgid "C&lear Clipboard History"
 msgstr ""
 
-#: klipper.cpp:148
+#: klipper.cpp:149
 msgid "&Configure Klipper..."
 msgstr ""
 
-#: klipper.cpp:153
+#: klipper.cpp:154
 msgid "&Quit"
 msgstr "Kón&c"
 
-#: klipper.cpp:172
+#: klipper.cpp:173
 msgid "Show Klipper Popup-Menu"
 msgstr ""
 
-#: klipper.cpp:177
+#: klipper.cpp:178
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr ""
 
-#: klipper.cpp:182
+#: klipper.cpp:183
 msgid "Enable/Disable Clipboard Actions"
 msgstr ""
 
-#: klipper.cpp:476
+#: klipper.cpp:485
 msgid ""
 "You can enable URL actions later by right-clicking on the Klipper icon and "
 "selecting 'Enable Actions'"
 msgstr ""
 
-#: klipper.cpp:541
+#: klipper.cpp:552
 msgid "Should Klipper start automatically when you login?"
 msgstr ""
 
-#: klipper.cpp:542
+#: klipper.cpp:553
 msgid "Automatically Start Klipper?"
 msgstr ""
 
-#: klipper.cpp:542
+#: klipper.cpp:553
 msgid "Start"
 msgstr "Započeć"
 
-#: klipper.cpp:543
+#: klipper.cpp:554
 msgid "Do Not Start"
 msgstr ""
 
-#: klipper.cpp:596
-msgid "Enable &Actions"
-msgstr ""
-
-#: klipper.cpp:600
-#, fuzzy
-#| msgid "Action Name"
-msgid "&Actions Enabled"
-msgstr "Mjeno akcije"
-
-#: klipper.cpp:1047
+#: klipper.cpp:1049
 msgid "KDE cut & paste history utility"
 msgstr ""
 
-#: klipper.cpp:1051
+#: klipper.cpp:1053
 msgid "Klipper"
 msgstr ""
 
-#: klipper.cpp:1053
+#: klipper.cpp:1055
 msgid ""
 "(c) 1998, Andrew Stanley-Jones\n"
 "1998-2002, Carsten Pfeiffer\n"
 "2001, Patrick Dubroy"
 msgstr ""
 
-#: klipper.cpp:1057
+#: klipper.cpp:1059
 msgid "Carsten Pfeiffer"
 msgstr ""
 
-#: klipper.cpp:1058
+#: klipper.cpp:1060
 msgid "Author"
 msgstr "Awtor"
 
-#: klipper.cpp:1061
+#: klipper.cpp:1063
 msgid "Andrew Stanley-Jones"
 msgstr ""
 
-#: klipper.cpp:1062
+#: klipper.cpp:1064
 msgid "Original Author"
 msgstr ""
 
-#: klipper.cpp:1065
+#: klipper.cpp:1067
 msgid "Patrick Dubroy"
 msgstr ""
 
-#: klipper.cpp:1066
+#: klipper.cpp:1068
 msgid "Contributor"
 msgstr ""
 
-#: klipper.cpp:1069
+#: klipper.cpp:1071
 msgid "Luboš Luňák"
 msgstr ""
 
-#: klipper.cpp:1070
+#: klipper.cpp:1072
 msgid "Bugfixes and optimizations"
 msgstr ""
 
-#: klipper.cpp:1073
+#: klipper.cpp:1075
 msgid "Esben Mose Hansen"
 msgstr ""
 
-#: klipper.cpp:1074
+#: klipper.cpp:1076
 msgid "Maintainer"
 msgstr ""
 
@@ -352,7 +354,7 @@ msgstr ""
 msgid "Klipper - Clipboard Tool"
 msgstr ""
 
-#: popupproxy.cpp:161
+#: popupproxy.cpp:163
 msgid "&More"
 msgstr ""
 
@@ -371,26 +373,31 @@ msgid "Klipper - clipboard tool"
 msgstr ""
 
 #: urlgrabber.cpp:179
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Actions"
-msgid " - Actions For: "
+msgid "%1 - Actions For: %2"
 msgstr "Akcije"
 
-#: urlgrabber.cpp:205
+#: urlgrabber.cpp:204
 msgid "Disable This Popup"
 msgstr ""
 
-#: urlgrabber.cpp:211
+#: urlgrabber.cpp:210
 msgid "&Edit Contents..."
 msgstr ""
 
-#: urlgrabber.cpp:215
+#: urlgrabber.cpp:214
 msgid "&Cancel"
 msgstr "&Přetorhnyć"
 
-#: urlgrabber.cpp:286
+#: urlgrabber.cpp:285
 msgid "Edit Contents"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Action Name"
+#~ msgid "&Actions Enabled"
+#~ msgstr "Mjeno akcije"
 
 #~ msgid "Editor Chooser"
 #~ msgstr "Wuběranje editora"
@@ -5170,9 +5177,6 @@ msgstr ""
 #~ "Enter a pattern to search for, or select a previous pattern from the list."
 #~ msgstr "Zapodajće mustr za pytanje abo wubjerće prjedawši z lisćiny."
 
-#~ msgid "If enabled, search for a regular expression."
-#~ msgstr "Pyta prawidłowny wuraz"
-
 #~ msgid "Click here to edit your regular expression using a graphical editor."
 #~ msgstr ""
 #~ "Klikńće tu za wobdźěłanje prawidłowneho wuraza z grafiskim editorom."
@@ -7290,9 +7294,6 @@ msgstr ""
 
 #~ msgid "Printer friendly mode (black text, no background)"
 #~ msgstr "Zlutniwy modus (čorny tekst, žadyn pozadk)"
-
-#~ msgid "Print images"
-#~ msgstr "Wobrazy ćišćeć"
 
 #~ msgid "Print header"
 #~ msgstr "Hłójčku ćišćeć"
