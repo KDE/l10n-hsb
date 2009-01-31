@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-29 07:21+0100\n"
+"POT-Creation-Date: 2009-01-31 07:06+0100\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -632,7 +632,7 @@ msgid ""
 msgstr ""
 
 #: filterlogdlg.cpp:269 kmmainwidget.cpp:2678 kmmainwidget.cpp:2689
-#: urlhandlermanager.cpp:478 kmcommands.cpp:2636 kmcommands.cpp:2661
+#: urlhandlermanager.cpp:478 kmcommands.cpp:2627 kmcommands.cpp:2652
 msgid "KMail Error"
 msgstr "Zmylk w kmailu"
 
@@ -826,54 +826,54 @@ msgstr ""
 msgid "New or changed: %1"
 msgstr ""
 
-#: objecttreeparser.cpp:1642 kmcommands.cpp:3073 kmcomposewin.cpp:4236
+#: objecttreeparser.cpp:1642 kmcommands.cpp:3064 kmcomposewin.cpp:4236
 msgid ""
 "Chiasmus backend does not offer the \"x-obtain-keys\" function. Please "
 "report this bug."
 msgstr ""
 
 #: objecttreeparser.cpp:1648 messagecomposer.cpp:585 messagecomposer.cpp:593
-#: messagecomposer.cpp:607 kmcommands.cpp:3075 kmcommands.cpp:3080
-#: kmcommands.cpp:3089 kmcommands.cpp:3098 kmcommands.cpp:3116
-#: kmcommands.cpp:3127 kmcommands.cpp:3167 kmcomposewin.cpp:4238
+#: messagecomposer.cpp:607 kmcommands.cpp:3066 kmcommands.cpp:3071
+#: kmcommands.cpp:3080 kmcommands.cpp:3089 kmcommands.cpp:3107
+#: kmcommands.cpp:3118 kmcommands.cpp:3158 kmcomposewin.cpp:4238
 #: kmcomposewin.cpp:4243 kmcomposewin.cpp:4252
 msgid "Chiasmus Backend Error"
 msgstr ""
 
-#: objecttreeparser.cpp:1654 kmcommands.cpp:3086 kmcomposewin.cpp:4249
+#: objecttreeparser.cpp:1654 kmcommands.cpp:3077 kmcomposewin.cpp:4249
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-obtain-keys\" "
 "function did not return a string list. Please report this bug."
 msgstr ""
 
-#: objecttreeparser.cpp:1662 kmcommands.cpp:3095 kmcomposewin.cpp:4258
+#: objecttreeparser.cpp:1662 kmcommands.cpp:3086 kmcomposewin.cpp:4258
 msgid ""
 "No keys have been found. Please check that a valid key path has been set in "
 "the Chiasmus configuration."
 msgstr ""
 
-#: objecttreeparser.cpp:1669 kmcommands.cpp:3102
+#: objecttreeparser.cpp:1669 kmcommands.cpp:3093
 #, fuzzy
 msgid "Chiasmus Decryption Key Selection"
 msgstr "Šifrowanje"
 
-#: objecttreeparser.cpp:1681 kmcommands.cpp:3114
+#: objecttreeparser.cpp:1681 kmcommands.cpp:3105
 msgid ""
 "Chiasmus backend does not offer the \"x-decrypt\" function. Please report "
 "this bug."
 msgstr ""
 
-#: objecttreeparser.cpp:1689 kmcommands.cpp:3125
+#: objecttreeparser.cpp:1689 kmcommands.cpp:3116
 msgid ""
 "The \"x-decrypt\" function does not accept the expected parameters. Please "
 "report this bug."
 msgstr ""
 
-#: objecttreeparser.cpp:1695 kmcommands.cpp:3133 kmcommands.cpp:3159
+#: objecttreeparser.cpp:1695 kmcommands.cpp:3124 kmcommands.cpp:3150
 msgid "Chiasmus Decryption Error"
 msgstr ""
 
-#: objecttreeparser.cpp:1701 kmcommands.cpp:3164
+#: objecttreeparser.cpp:1701 kmcommands.cpp:3155
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-decrypt\" function "
 "did not return a byte array. Please report this bug."
@@ -13308,98 +13308,98 @@ msgstr "Přesuwam powěsć %3 z %2 wot %1."
 msgid "Deleting messages"
 msgstr "Powěsće zničić"
 
-#: kmcommands.cpp:2319
+#: kmcommands.cpp:2310
 msgid "Opening URL..."
 msgstr "Wočinjam URL..."
 
-#: kmcommands.cpp:2328
+#: kmcommands.cpp:2319
 #, fuzzy, kde-format
 #| msgid "<qt>Do you really want to execute <b>%1</b>?</qt>"
 msgctxt "@info"
 msgid "Do you really want to execute <filename>%1</filename>?"
 msgstr "<qt>Chceće woprawdźe <b>%1</b> startować?</qt>"
 
-#: kmcommands.cpp:2329
+#: kmcommands.cpp:2320
 #, fuzzy
 msgid "Execute"
 msgstr "Wuwjedu předpřikaz %1"
 
-#: kmcommands.cpp:2411
+#: kmcommands.cpp:2402
 #, fuzzy
 msgid "Found no attachments to save."
 msgstr "Njepokazuje přiwěški w powěsći samej"
 
-#: kmcommands.cpp:2424
+#: kmcommands.cpp:2415
 #, fuzzy
 msgid "Save Attachments To"
 msgstr "Přiwěšk zawěsćić jako"
 
-#: kmcommands.cpp:2444
+#: kmcommands.cpp:2435
 msgctxt "filename for an unnamed attachment"
 msgid "attachment.1"
 msgstr ""
 
-#: kmcommands.cpp:2473
+#: kmcommands.cpp:2464
 #, kde-format
 msgctxt "filename for the %1-th unnamed attachment"
 msgid "attachment.%1"
 msgstr ""
 
-#: kmcommands.cpp:2513 kmcommands.cpp:2522
+#: kmcommands.cpp:2504 kmcommands.cpp:2513
 #, fuzzy, kde-format
 msgid "A file named %1 already exists. Do you want to overwrite it?"
 msgstr ""
 "Dataja %1 eksistuje?\n"
 "Chceće ju přepisać?"
 
-#: kmcommands.cpp:2515 kmcommands.cpp:2524
+#: kmcommands.cpp:2506 kmcommands.cpp:2515
 msgid "File Already Exists"
 msgstr ""
 
-#: kmcommands.cpp:2515 kmcommands.cpp:2524
+#: kmcommands.cpp:2506 kmcommands.cpp:2515
 msgid "&Overwrite"
 msgstr ""
 
-#: kmcommands.cpp:2525
+#: kmcommands.cpp:2516
 #, fuzzy
 msgid "Overwrite &All"
 msgstr "Dataju zasunyć"
 
-#: kmcommands.cpp:2550
+#: kmcommands.cpp:2541
 #, kde-format
 msgid ""
 "The part %1 of the message is encrypted. Do you want to keep the encryption "
 "when saving?"
 msgstr ""
 
-#: kmcommands.cpp:2552 kmcommands.cpp:2561
+#: kmcommands.cpp:2543 kmcommands.cpp:2552
 #, fuzzy
 msgid "KMail Question"
 msgstr "KMail"
 
-#: kmcommands.cpp:2552
+#: kmcommands.cpp:2543
 #, fuzzy
 msgid "Keep Encryption"
 msgstr "Šifrowanje"
 
-#: kmcommands.cpp:2552 kmcommands.cpp:2561
+#: kmcommands.cpp:2543 kmcommands.cpp:2552
 #, fuzzy
 msgid "Do Not Keep"
 msgstr "Šifrowanje"
 
-#: kmcommands.cpp:2559
+#: kmcommands.cpp:2550
 #, kde-format
 msgid ""
 "The part %1 of the message is signed. Do you want to keep the signature when "
 "saving?"
 msgstr ""
 
-#: kmcommands.cpp:2561
+#: kmcommands.cpp:2552
 #, fuzzy
 msgid "Keep Signature"
 msgstr "&Signatura:"
 
-#: kmcommands.cpp:2633
+#: kmcommands.cpp:2624
 #, kde-format
 msgctxt "%2 is detailed error description"
 msgid ""
@@ -13407,25 +13407,25 @@ msgid ""
 "%2"
 msgstr ""
 
-#: kmcommands.cpp:2659
+#: kmcommands.cpp:2650
 #, fuzzy, kde-format
 msgid "Could not write the file %1."
 msgstr ""
 "Njemóžach do dataje pisać:\n"
 "%1"
 
-#: kmcommands.cpp:3319
+#: kmcommands.cpp:3310
 #, fuzzy
 #| msgid "Show attachments as suggested by sender."
 msgid "This attachment has been deleted."
 msgstr "Pokazuje přiwěški kaž wot wotpósłarja namjetowane."
 
-#: kmcommands.cpp:3321
+#: kmcommands.cpp:3312
 #, kde-format
 msgid "The attachment '%1' has been deleted."
 msgstr ""
 
-#: kmcommands.cpp:3441
+#: kmcommands.cpp:3432
 #, kde-format
 msgid ""
 "From: %1\n"
@@ -13433,7 +13433,7 @@ msgid ""
 "Subject: %3"
 msgstr ""
 
-#: kmcommands.cpp:3456
+#: kmcommands.cpp:3447
 #, fuzzy, kde-format
 msgid "Mail: %1"
 msgstr "KMail"
