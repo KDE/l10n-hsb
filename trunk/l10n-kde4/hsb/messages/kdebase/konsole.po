@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-28 09:13+0100\n"
+"POT-Creation-Date: 2009-02-02 11:20+0100\n"
 "PO-Revision-Date: 2003-12-23 17:19+0100\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -220,20 +220,20 @@ msgstr ""
 msgid "Copy Email Address"
 msgstr ""
 
-#: HistorySizeDialog.cpp:49 SessionController.cpp:478
+#: HistorySizeDialog.cpp:51 SessionController.cpp:478
 #, fuzzy
 #| msgid "History Configuration"
 msgid "Scrollback Options"
 msgstr "Konfiguracija nachwilneho pomjatka"
 
-#: HistorySizeDialog.cpp:62
+#: HistorySizeDialog.cpp:64
 #, fuzzy
 #| msgctxt "Unlimited (number of lines)"
 #| msgid "Unlimited"
 msgid "No scrollback"
 msgstr "Bjez wobmjezowanja"
 
-#: HistorySizeDialog.cpp:63
+#: HistorySizeDialog.cpp:65
 #, fuzzy
 #| msgid "&Find in History..."
 msgid "Fixed size scrollback: "
@@ -241,14 +241,20 @@ msgstr "&Namakać w pomjatku..."
 
 #. i18n: file: EditProfileDialog.ui:684
 #. i18n: ectx: property (text), widget (QRadioButton, unlimitedScrollbackButton)
-#: HistorySizeDialog.cpp:64 rc.cpp:199 rc.cpp:584
+#: HistorySizeDialog.cpp:66 rc.cpp:199 rc.cpp:584
 #, fuzzy
 #| msgctxt "Unlimited (number of lines)"
 #| msgid "Unlimited"
 msgid "Unlimited scrollback"
 msgstr "Bjez wobmjezowanja"
 
-#: HistorySizeDialog.cpp:84
+#: HistorySizeDialog.cpp:67
+#, fuzzy
+#| msgid "Save Sessions Profile"
+msgid "Save to current profile"
+msgstr "Profil posedźenja zawěsćić"
+
+#: HistorySizeDialog.cpp:87
 msgid "lines"
 msgstr ""
 
@@ -399,7 +405,7 @@ msgstr ""
 msgid "Shell"
 msgstr "&Zwónčk"
 
-#: ProfileList.cpp:48
+#: ProfileList.cpp:58
 msgid "No profiles available"
 msgstr ""
 
@@ -604,17 +610,17 @@ msgid ""
 "want to close it?"
 msgstr ""
 
-#: SessionController.cpp:1068
+#: SessionController.cpp:1087
 #, fuzzy, kde-format
 msgid "Save Output From %1"
 msgstr "Nachwilny pomjatk zawěsćić"
 
-#: SessionController.cpp:1079
+#: SessionController.cpp:1098
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 
-#: SessionController.cpp:1168
+#: SessionController.cpp:1187
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2384,9 +2390,6 @@ msgstr "Terminal &wuprózdnić"
 #, fuzzy
 #~ msgid "Close sessions"
 #~ msgstr "Interpreter &zakónčić"
-
-#~ msgid "Save Sessions Profile"
-#~ msgstr "Profil posedźenja zawěsćić"
 
 #~ msgid "Enter name under which the profile should be saved:"
 #~ msgstr "Zapodajće mjeno, pod kotrymž ma so profil zawěsćić:"
