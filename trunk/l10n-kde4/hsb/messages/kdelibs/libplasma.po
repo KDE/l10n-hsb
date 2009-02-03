@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-29 19:53+0100\n"
+"POT-Creation-Date: 2009-02-03 11:12+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,93 +17,109 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: applet.cpp:172
+#: applet.cpp:173
 msgid "Script initialization failed"
 msgstr ""
 
-#: applet.cpp:321
+#: applet.cpp:322
 msgid "Unable to load the widget"
 msgstr ""
 
-#: applet.cpp:641
+#: applet.cpp:507 applet.cpp:950
+msgid "Ok"
+msgstr "OK"
+
+#: applet.cpp:510 applet.cpp:956
+msgid "Yes"
+msgstr "Haj"
+
+#: applet.cpp:513 applet.cpp:962
+msgid "No"
+msgstr "Ně"
+
+#: applet.cpp:516 applet.cpp:968
+msgid "Cancel"
+msgstr "Přetorhnyć"
+
+#: applet.cpp:662
 msgid "Unknown Activity"
 msgstr ""
 
-#: applet.cpp:646
+#: applet.cpp:667
 #, kde-format
 msgid "%1 Activity"
 msgstr ""
 
-#: applet.cpp:649
+#: applet.cpp:670
 msgid "Unknown Widget"
 msgstr ""
 
-#: applet.cpp:686 applet.cpp:1581 applet.cpp:1582
+#: applet.cpp:707 applet.cpp:1670 applet.cpp:1671
 msgctxt "misc category"
 msgid "Miscellaneous"
 msgstr ""
 
-#: applet.cpp:879
+#: applet.cpp:900
 msgid "Configure..."
 msgstr ""
 
-#: applet.cpp:916 containment.cpp:561
+#: applet.cpp:1005 containment.cpp:561
 #, kde-format
 msgctxt "%1 is the name of the applet"
 msgid "Remove this %1"
 msgstr ""
 
-#: applet.cpp:1174
+#: applet.cpp:1263
 #, kde-format
 msgid "Activate %1 Widget"
 msgstr ""
 
-#: applet.cpp:1283 applet.cpp:1428
+#: applet.cpp:1372 applet.cpp:1517
 #, kde-format
 msgid "%1 Settings"
 msgstr ""
 
-#: applet.cpp:1428
+#: applet.cpp:1517
 msgid "Settings"
 msgstr "Nastajenja"
 
-#: applet.cpp:1451
+#: applet.cpp:1540
 #, kde-format
 msgctxt "@title:window"
 msgid "%1 Settings"
 msgstr ""
 
-#: applet.cpp:1489
+#: applet.cpp:1578
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Global Keyboard Shortcuts"
 msgid "Keyboard Shortcut"
 msgstr "Globalne tastaturowe skrótšenki"
 
-#: applet.cpp:1946
+#: applet.cpp:2035
 #, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not locate the %1 package required for the %2 widget."
 msgstr ""
 
-#: applet.cpp:1967
+#: applet.cpp:2056
 #, kde-format
 msgctxt ""
 "API or programming language the widget was written in, name of the widget"
 msgid "Could not create a %1 ScriptEngine for the %2 widget."
 msgstr ""
 
-#: applet.cpp:1972
+#: applet.cpp:2061
 #, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not open the %1 package required for the %2 widget."
 msgstr ""
 
-#: applet.cpp:2106
+#: applet.cpp:2195
 msgid "This object could not be created."
 msgstr ""
 
-#: applet.cpp:2108
+#: applet.cpp:2197
 #, kde-format
 msgid ""
 "This object could not be created for the following reason:<p><b>%1</b></p>"
@@ -1250,9 +1266,6 @@ msgstr ""
 
 #~ msgid "Select Files..."
 #~ msgstr "Dataje wubrać ..."
-
-#~ msgid "Cancel"
-#~ msgstr "Přetorhnyć"
 
 #~ msgid "Suspend"
 #~ msgstr "Zastajić"
@@ -3927,9 +3940,6 @@ msgstr ""
 
 #~ msgid "&Cancel"
 #~ msgstr "&Přetorhnyć"
-
-#~ msgid "No"
-#~ msgstr "Ně"
 
 #~ msgid "&Discard"
 #~ msgstr "&Zaćisnyć"
@@ -9309,9 +9319,6 @@ msgstr ""
 #~ msgid "Tag Resource"
 #~ msgstr "Resursy"
 
-#~ msgid "Ok"
-#~ msgstr "OK"
-
 #~ msgid "NoCARoot"
 #~ msgstr "Žadyn CARoot"
 
@@ -9781,9 +9788,6 @@ msgstr ""
 
 #~ msgid "&Yes"
 #~ msgstr "&Haj"
-
-#~ msgid "Yes"
-#~ msgstr "Haj"
 
 #~ msgid "&No"
 #~ msgstr "&Ně"
