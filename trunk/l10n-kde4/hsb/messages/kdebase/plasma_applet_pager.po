@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-06 10:59+0100\n"
+"POT-Creation-Date: 2009-02-21 10:18+0100\n"
 "PO-Revision-Date: 2008-11-22 12:19+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: pager.cpp:180
+#: pager.cpp:184
 msgid "&Configure Desktops..."
 msgstr "Dźěłowy powjerch &konfigurować..."
 
-#: pager.cpp:200
+#: pager.cpp:204
 msgid "General"
 msgstr "Powšitkownje"
 
-#: pager.cpp:1157
+#: pager.cpp:1206
 #, kde-format
 msgid "One window:"
 msgid_plural "%1 windows:"
@@ -34,7 +34,7 @@ msgstr[1] "%1 woknje"
 msgstr[2] "%1 wokna:"
 msgstr[3] "%1 woknow"
 
-#: pager.cpp:1161
+#: pager.cpp:1210
 #, kde-format
 msgid "and 1 other"
 msgid_plural "and %1 others"
@@ -95,9 +95,41 @@ msgstr "Ličba linkow:"
 msgid "Change the number of rows"
 msgstr "Ličbu linkow změnić"
 
-#. i18n: file: pagerConfig.ui:170
-#. i18n: ectx: property (text), widget (QPushButton, configureDesktopsButton)
+#. i18n: file: pagerConfig.ui:136
+#. i18n: ectx: property (text), widget (QLabel, currentLabel)
 #: rc.cpp:33
+#, fuzzy
+#| msgid "Select the current day"
+msgid "Selecting current desktop:"
+msgstr "Aktualnu dźeń wubrać"
+
+#. i18n: file: pagerConfig.ui:149
+#. i18n: ectx: property (text), widget (QRadioButton, doNothingRadioButton)
+#: rc.cpp:36
+#, fuzzy
+#| msgctxt "@title job"
+#| msgid "Mounting"
+msgid "Do nothing"
+msgstr "Montuju"
+
+#. i18n: file: pagerConfig.ui:156
+#. i18n: ectx: property (text), widget (QRadioButton, showDesktopRadioButton)
+#: rc.cpp:39
+#, fuzzy
+msgid "Shows desktops"
+msgstr "Name=Dźěłowy powjerch"
+
+#. i18n: file: pagerConfig.ui:163
+#. i18n: ectx: property (text), widget (QRadioButton, showDashboardRadioButton)
+#: rc.cpp:42
+#, fuzzy
+#| msgid "Show statusbar"
+msgid "Show the dashboard"
+msgstr "Pokaž statusowy pask"
+
+#. i18n: file: pagerConfig.ui:204
+#. i18n: ectx: property (text), widget (QPushButton, configureDesktopsButton)
+#: rc.cpp:45
 msgid "Configure Desktops..."
 msgstr "Dźěłowe powjerchi připrawić..."
 
@@ -6313,9 +6345,6 @@ msgstr "Dźěłowe powjerchi připrawić..."
 #~ msgid "Select a year"
 #~ msgstr "Wubjerće lěto"
 
-#~ msgid "Select the current day"
-#~ msgstr "Aktualnu dźeń wubrać"
-
 #~ msgctxt "@action"
 #~ msgid "Text &Color..."
 #~ msgstr "Barba te&ksta"
@@ -9977,10 +10006,6 @@ msgstr "Dźěłowe powjerchi připrawić..."
 #~ msgctxt "@title job"
 #~ msgid "Transferring"
 #~ msgstr "Přenjesu"
-
-#~ msgctxt "@title job"
-#~ msgid "Mounting"
-#~ msgstr "Montuju"
 
 #~ msgid "Device"
 #~ msgstr "Grat"
@@ -14411,9 +14436,6 @@ msgstr "Dźěłowe powjerchi připrawić..."
 
 #~ msgid "Show column headers"
 #~ msgstr "Pokaž hłójčki špaltow"
-
-#~ msgid "Show statusbar"
-#~ msgstr "Pokaž statusowy pask"
 
 #~ msgid "Column widths are user adjustable"
 #~ msgstr "Šěrokosć špaltow móže wužiwar postajić"
@@ -22691,11 +22713,6 @@ msgstr "Dźěłowe powjerchi připrawić..."
 #~ msgctxt "Comment"
 #~ msgid "A menu that lists files in a given folder"
 #~ msgstr "Comment=Tutón signal njeje znaty."
-
-#, fuzzy
-#~ msgctxt "Name"
-#~ msgid "Show Desktop"
-#~ msgstr "Name=Dźěłowy powjerch"
 
 #, fuzzy
 #~ msgctxt "Name"

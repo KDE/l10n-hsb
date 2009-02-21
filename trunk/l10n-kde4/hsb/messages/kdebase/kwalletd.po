@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-18 08:59+0100\n"
+"POT-Creation-Date: 2009-02-21 10:18+0100\n"
 "PO-Revision-Date: 2008-11-22 23:39+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,9 +17,9 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: main.cpp:38 main.cpp:39 kwalletd.cpp:356 kwalletd.cpp:445 kwalletd.cpp:506
-#: kwalletd.cpp:581 kwalletd.cpp:672 kwalletd.cpp:684 kwalletd.cpp:693
-#: kwalletd.cpp:698 kwalletd.cpp:1208
+#: main.cpp:38 main.cpp:39 kwalletd.cpp:356 kwalletd.cpp:445 kwalletd.cpp:508
+#: kwalletd.cpp:583 kwalletd.cpp:674 kwalletd.cpp:686 kwalletd.cpp:695
+#: kwalletd.cpp:700 kwalletd.cpp:1210
 msgid "KDE Wallet Service"
 msgstr "KDE móšnjowa słužba"
 
@@ -75,7 +75,14 @@ msgstr ""
 msgid "&Open"
 msgstr "W&očinić"
 
-#: kwalletd.cpp:455
+#: kwalletd.cpp:454
+#, fuzzy
+#| msgid "Ignore"
+msgctxt "Text of a button to ignore the open-wallet notification"
+msgid "Ignore"
+msgstr "ignorować"
+
+#: kwalletd.cpp:456
 #, fuzzy, kde-format
 #| msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgid "<b>KDE</b> has requested to open a wallet (%1)."
@@ -99,15 +106,15 @@ msgid "<b>%1</b> has requested to open a wallet (%2)."
 msgstr ""
 "<qt>Aplikacija '<b>%1</b>' chce móšnjowu dataju '<b>%2</b>' wočinić.</qt>"
 
-#: kwalletd.cpp:465
+#: kwalletd.cpp:464
 #, fuzzy, kde-format
 #| msgid "Show %1"
 msgctxt ""
-"Text of a button for switching to the application requesting a password."
+"Text of a button for switching to the application requesting a password"
 msgid "Switch to %1"
 msgstr "Pokaž %1"
 
-#: kwalletd.cpp:477 kwalletd.cpp:515
+#: kwalletd.cpp:479 kwalletd.cpp:517
 #, kde-format
 msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
@@ -116,7 +123,7 @@ msgstr ""
 "<qt>Zmylk při wočinjenju móšnjoweje dataje '<b>%1</b>'. Prošu spytajće hišće "
 "raz.<br /> (Zmylkowy kod %2: %3)</qt>"
 
-#: kwalletd.cpp:494
+#: kwalletd.cpp:496
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
 "in a secure fashion. Please enter a password to use with this wallet or "
@@ -126,7 +133,7 @@ msgstr ""
 "zapodajće hesło za tutu móšnju abo klikńće \"přetorhnyć\", hdyž chceće "
 "próstwu wotpokazać."
 
-#: kwalletd.cpp:496
+#: kwalletd.cpp:498
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
@@ -138,7 +145,7 @@ msgstr ""
 "zawěsćenje wažnych datow. Prošu zapodajće hesło za tutu móšnju abo klikńće "
 "\"přetorhnyć\", hdyž chceće próstwu wotpokazać.</qt>"
 
-#: kwalletd.cpp:500
+#: kwalletd.cpp:502
 #, kde-format
 msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
@@ -149,7 +156,7 @@ msgstr ""
 "za tutu móšnju abo klikńće \"přetorhnyć\", hdyž chceće próstwu wotpokazać.</"
 "qt>"
 
-#: kwalletd.cpp:502
+#: kwalletd.cpp:504
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
@@ -160,16 +167,16 @@ msgstr ""
 "Prošu wubjerće hesło za tutu móšnju abo klikńće \"přetorhnyć\", hdyž chceće "
 "próstwu wotpokazać.</qt>"
 
-#: kwalletd.cpp:507
+#: kwalletd.cpp:509
 msgid "C&reate"
 msgstr "S&tworić"
 
-#: kwalletd.cpp:583
+#: kwalletd.cpp:585
 #, kde-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>KDE chce móšnjowu dataju '<b>%1</b>' wočinić.</qt>"
 
-#: kwalletd.cpp:585
+#: kwalletd.cpp:587
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>%"
@@ -177,27 +184,27 @@ msgid ""
 msgstr ""
 "<qt>Aplikacija '<b>%1</b>' chce móšnjowu dataju '<b>%2</b>' wočinić.</qt>"
 
-#: kwalletd.cpp:672
+#: kwalletd.cpp:674
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
 "password."
 msgstr ""
 "Njemóžu móšnju wočinić. Móšnja dyrbi so wočinić, hdyž chceće hesło změnić."
 
-#: kwalletd.cpp:683
+#: kwalletd.cpp:685
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>Prošu zapodajće nowe hesło za móšnjowu dataju '<b>%1</b>'.</qt>"
 
-#: kwalletd.cpp:693
+#: kwalletd.cpp:695
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr "Zmylk při nowym šifrowanjom móšnje. Hesło njebu změnjene."
 
-#: kwalletd.cpp:698
+#: kwalletd.cpp:700
 msgid "Error reopening the wallet. Data may be lost."
 msgstr "Zmylk při znowawočinjenju móšnje. Snano su so daty zhubili."
 
-#: kwalletd.cpp:1208
+#: kwalletd.cpp:1210
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
 "application may be misbehaving."
@@ -7043,9 +7050,6 @@ msgstr "Hesle so njekryjetej"
 
 #~ msgid "Suggestions"
 #~ msgstr "Namjety"
-
-#~ msgid "Ignore"
-#~ msgstr "ignorować"
 
 #~ msgid "Add to Dictionary"
 #~ msgstr "k słownikej dodać"
