@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-19 09:33+0100\n"
+"POT-Creation-Date: 2009-02-22 09:47+0100\n"
 "PO-Revision-Date: 2008-11-14 19:28+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,15 +17,25 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: globalshortcuts.cpp:47
-msgid "Import Scheme..."
+#: kglobalshortcutseditor.cpp:114
+#, fuzzy
+#| msgid "Import Scheme..."
+msgid "Import Scheme ..."
 msgstr "Šemu importować..."
 
-#: globalshortcuts.cpp:52
-msgid "Export Scheme..."
+#: kglobalshortcutseditor.cpp:115
+#, fuzzy
+#| msgid "Export Scheme..."
+msgid "Export Scheme ..."
 msgstr "Šemu eksportować ..."
 
-#: globalshortcuts.cpp:99
+#: kglobalshortcutseditor.cpp:116
+#, fuzzy
+#| msgid "KDE component:"
+msgid "Revise Component"
+msgstr "KDE-komponenta:"
+
+#: kglobalshortcutseditor.cpp:234
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
 "this one"
@@ -33,20 +43,20 @@ msgstr ""
 "Waše nětuše změny so zhubja, hdyž začitaće druhu šemu, prjedy hač tutu "
 "zawěsćiće"
 
-#: globalshortcuts.cpp:100
+#: kglobalshortcutseditor.cpp:235
 msgid "Load Shortcurt Scheme"
 msgstr "Šemu skrótšenkow začitać"
 
-#: globalshortcuts.cpp:101
+#: kglobalshortcutseditor.cpp:236
 msgid "Load"
 msgstr "Začitać"
 
-#: globalshortcuts.cpp:114
+#: kglobalshortcutseditor.cpp:249
 #, kde-format
 msgid "This file (%1) does not exist. You can only select local files."
 msgstr "Tuta dataja (%1) njeeksistuje. Móžeće jenož lokalne dataje wubrać."
 
-#: kglobalshortcutseditor.cpp:230 kglobalshortcutseditor.cpp:253
+#: kglobalshortcutseditor.cpp:278 kglobalshortcutseditor.cpp:301
 #, kde-format
 msgid ""
 "Message: %1\n"
@@ -55,11 +65,11 @@ msgstr ""
 "Powěsć: %1\n"
 "Zmylk: %2"
 
-#: kglobalshortcutseditor.cpp:235 kglobalshortcutseditor.cpp:258
+#: kglobalshortcutseditor.cpp:283 kglobalshortcutseditor.cpp:306
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "Njemóžu KDE-demon za globalne skrótšenki skontaktować\n"
 
-#: kglobalshortcutseditor.cpp:337
+#: kglobalshortcutseditor.cpp:385
 #, kde-format
 msgid ""
 "This will remove all currently not active global shortcuts for %1 from this "
@@ -68,7 +78,7 @@ msgid ""
 "the next time!"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:339
+#: kglobalshortcutseditor.cpp:387
 #, fuzzy
 #| msgid "KDE component:"
 msgid "Clean component"
@@ -81,9 +91,9 @@ msgid "KDE component:"
 msgstr "KDE-komponenta:"
 
 #. i18n: file: kglobalshortcutseditor.ui:36
-#. i18n: ectx: property (text), widget (QPushButton, clean_component)
+#. i18n: ectx: property (text), widget (QPushButton, menu_button)
 #: rc.cpp:6
-msgid "Clean"
+msgid "File"
 msgstr ""
 
 #. i18n: file: select_scheme_dialog.ui:15
