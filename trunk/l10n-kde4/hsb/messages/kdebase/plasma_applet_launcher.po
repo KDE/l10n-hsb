@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-23 09:45+0100\n"
+"POT-Creation-Date: 2009-02-25 11:41+0100\n"
 "PO-Revision-Date: 2008-11-10 23:47+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: ui/flipscrollview.cpp:138 simpleapplet/simpleapplet.cpp:440
+#: ui/flipscrollview.cpp:138 simpleapplet/simpleapplet.cpp:441
 msgid "All Applications"
 msgstr "Wšitke aplikacije"
 
@@ -50,11 +50,12 @@ msgstr "Wućisnyć"
 msgid "Safely Remove"
 msgstr "Z&ničić"
 
-#: ui/launcher.cpp:159
+#: ui/launcher.cpp:159 simpleapplet/simpleapplet.cpp:197
 msgid "Leave"
 msgstr "Won hić"
 
 #: ui/launcher.cpp:170 core/favoritesmodel.cpp:44
+#: simpleapplet/simpleapplet.cpp:191
 msgid "Favorites"
 msgstr "Najlubše programy"
 
@@ -67,11 +68,11 @@ msgid "Sort Alphabetically (Z to A)"
 msgstr ""
 
 #: ui/launcher.cpp:199 core/recentlyusedmodel.cpp:115 core/systemmodel.cpp:88
-#: core/searchmodel.cpp:135
+#: core/searchmodel.cpp:135 simpleapplet/simpleapplet.cpp:193
 msgid "Applications"
 msgstr "Programy"
 
-#: ui/launcher.cpp:211
+#: ui/launcher.cpp:211 simpleapplet/simpleapplet.cpp:195
 msgid "Recently Used"
 msgstr "Njedawno wužiwane"
 
@@ -83,7 +84,7 @@ msgstr "Njedawno wužiwane wuprózdnić"
 msgid "Clear Recent Documents"
 msgstr "Njedawno wužiwane dokumenty wuprózdnić"
 
-#: ui/launcher.cpp:231
+#: ui/launcher.cpp:231 simpleapplet/simpleapplet.cpp:194
 msgid "Computer"
 msgstr "Kompjuter"
 
@@ -119,7 +120,7 @@ msgstr "Zamknyć"
 msgid "Lock the screen"
 msgstr "Wobrazowku zamknyć"
 
-#: core/leavemodel.cpp:57 simpleapplet/simpleapplet.cpp:457
+#: core/leavemodel.cpp:57 simpleapplet/simpleapplet.cpp:456
 msgid "Switch User"
 msgstr "Na hinašeho wužiwarja prešaltować"
 
@@ -150,7 +151,7 @@ msgstr "Znowa startować"
 msgid "Restart computer"
 msgstr "Kompjuter znowa startować"
 
-#: core/leavemodel.cpp:69 simpleapplet/simpleapplet.cpp:462
+#: core/leavemodel.cpp:69 simpleapplet/simpleapplet.cpp:461
 msgid "Save Session"
 msgstr "Posedźenje zawěsćić"
 
@@ -240,7 +241,7 @@ msgstr ""
 "Lubuški, aplikacije, městna na kompjuteru, njedawno wužiwane elementy a "
 "posedźenje"
 
-#: applet/applet.cpp:107 simpleapplet/simpleapplet.cpp:265
+#: applet/applet.cpp:107 simpleapplet/simpleapplet.cpp:274
 msgid "Menu Editor"
 msgstr "Menijowy editor"
 
@@ -252,7 +253,7 @@ msgstr "Klasiski menijowy stil wubrać"
 msgid "Switch tabs on hover"
 msgstr ""
 
-#: applet/applet.cpp:154 simpleapplet/simpleapplet.cpp:357
+#: applet/applet.cpp:154 simpleapplet/simpleapplet.cpp:362
 msgid "General"
 msgstr "Generelnje"
 
@@ -266,118 +267,124 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "edi.werner@gmx.de"
 
-#: simpleapplet/simpleapplet.cpp:271
+#: simpleapplet/simpleapplet.cpp:190
+#, fuzzy
+#| msgctxt "@item:inlistbox View:"
+#| msgid "Standard"
+msgid "Standard"
+msgstr "Standard"
+
+#: simpleapplet/simpleapplet.cpp:192
+msgid "Bookmarks"
+msgstr "Lubuški"
+
+#: simpleapplet/simpleapplet.cpp:196
+#, fuzzy
+msgid "System Settings"
+msgstr "GenericName=Kartowa hra"
+
+#: simpleapplet/simpleapplet.cpp:217
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Traditional menu based application launcher"
+msgid "Traditional menu based application launcher"
+msgstr "Tradicionalny, na meniju bazowacy startowar aplikacijow"
+
+#: simpleapplet/simpleapplet.cpp:280
 msgid "Switch to Kickoff Menu Style"
 msgstr "Přešaltować na menijowy stil Kickoffa"
 
-#: simpleapplet/simpleapplet.cpp:315
+#: simpleapplet/simpleapplet.cpp:326
 msgctxt "@label:listbox Which category of items to view in a KMenu-like menu"
 msgid "View:"
 msgstr "Napohlad:"
 
-#: simpleapplet/simpleapplet.cpp:319
-msgctxt "@item:inlistbox View:"
-msgid "Standard"
-msgstr "Standard"
-
-#: simpleapplet/simpleapplet.cpp:320
-msgctxt "@item:inlistbox View:"
-msgid "Favorites"
-msgstr "Lubuški"
-
-#: simpleapplet/simpleapplet.cpp:321
-msgctxt "@item:inlistbox View:"
-msgid "Bookmarks"
-msgstr "Lubuški"
-
-#: simpleapplet/simpleapplet.cpp:322
-msgctxt "@item:inlistbox View:"
-msgid "Applications"
-msgstr "Aplikacije"
-
-#: simpleapplet/simpleapplet.cpp:323
-msgctxt "@item:inlistbox View:"
-msgid "Computer"
-msgstr "Kompjuter"
-
-#: simpleapplet/simpleapplet.cpp:324
-msgctxt "@item:inlistbox View:"
-msgid "Recently Used"
-msgstr "Njedawno wužiwane"
-
-#: simpleapplet/simpleapplet.cpp:325
-#, fuzzy
-msgctxt "@item:inlistbox View:"
-msgid "System Settings"
-msgstr "GenericName=Kartowa hra"
-
-#: simpleapplet/simpleapplet.cpp:326
-msgctxt "@item:inlistbox View:"
-msgid "Leave"
-msgstr "Won hić"
-
-#: simpleapplet/simpleapplet.cpp:329
+#: simpleapplet/simpleapplet.cpp:334
 msgctxt "@label:listbox How to present applications in a KMenu-like menu"
 msgid "Format:"
 msgstr "Format:"
 
-#: simpleapplet/simpleapplet.cpp:333
+#: simpleapplet/simpleapplet.cpp:338
 msgctxt "@item:inlistbox Format:"
 msgid "Name Only"
 msgstr "Jenož mjeno"
 
-#: simpleapplet/simpleapplet.cpp:334
+#: simpleapplet/simpleapplet.cpp:339
 msgctxt "@item:inlistbox Format:"
 msgid "Description Only"
 msgstr "Jenož wopisanje"
 
-#: simpleapplet/simpleapplet.cpp:335
+#: simpleapplet/simpleapplet.cpp:340
 msgctxt "@item:inlistbox Format:"
 msgid "Name Description"
 msgstr "Mjeno a wopisanje"
 
-#: simpleapplet/simpleapplet.cpp:336
+#: simpleapplet/simpleapplet.cpp:341
 msgctxt "@item:inlistbox Format:"
 msgid "Description (Name)"
 msgstr "Wopisanje (mjeno)"
 
-#: simpleapplet/simpleapplet.cpp:337
+#: simpleapplet/simpleapplet.cpp:342
 msgctxt "@item:inlistbox Format:"
 msgid "Name - Description"
 msgstr "Mjeno - wopisanje"
 
-#: simpleapplet/simpleapplet.cpp:340
+#: simpleapplet/simpleapplet.cpp:345
 #, fuzzy
 #| msgid "Clear Recent Applications"
 msgid "Recently Used Applications:"
 msgstr "Njedawno wužiwane wuprózdnić"
 
-#: simpleapplet/simpleapplet.cpp:434
+#: simpleapplet/simpleapplet.cpp:436
 #, fuzzy
 #| msgid "Clear Recent Applications"
 msgid "Recently Used Applications"
 msgstr "Njedawno wužiwane wuprózdnić"
 
-#: simpleapplet/simpleapplet.cpp:453
+#: simpleapplet/simpleapplet.cpp:452
 msgid "Actions"
 msgstr "Akcije"
 
-#: simpleapplet/simpleapplet.cpp:454
+#: simpleapplet/simpleapplet.cpp:453
 #, fuzzy
 msgid "Run Command..."
 msgstr "Name=(5) Datajowe formaty"
 
-#: simpleapplet/simpleapplet.cpp:466
+#: simpleapplet/simpleapplet.cpp:465
 #, fuzzy
 #| msgid "Lock the screen"
 msgid "Lock Screen"
 msgstr "Wobrazowku zamknyć"
 
-#: simpleapplet/simpleapplet.cpp:468
+#: simpleapplet/simpleapplet.cpp:467
 #, fuzzy
 #| msgid "Leave"
 msgid "Leave..."
 msgstr "Won hić"
+
+#~ msgctxt "@item:inlistbox View:"
+#~ msgid "Favorites"
+#~ msgstr "Lubuški"
+
+#~ msgctxt "@item:inlistbox View:"
+#~ msgid "Bookmarks"
+#~ msgstr "Lubuški"
+
+#~ msgctxt "@item:inlistbox View:"
+#~ msgid "Applications"
+#~ msgstr "Aplikacije"
+
+#~ msgctxt "@item:inlistbox View:"
+#~ msgid "Computer"
+#~ msgstr "Kompjuter"
+
+#~ msgctxt "@item:inlistbox View:"
+#~ msgid "Recently Used"
+#~ msgstr "Njedawno wužiwane"
+
+#~ msgctxt "@item:inlistbox View:"
+#~ msgid "Leave"
+#~ msgstr "Won hić"
 
 #, fuzzy
 #~| msgid "Sorting"
@@ -10009,9 +10016,6 @@ msgstr "Won hić"
 
 #~ msgid "Filename Error"
 #~ msgstr "Zmylk w datajowym mjenje"
-
-#~ msgid "Bookmarks"
-#~ msgstr "Lubuški"
 
 #, fuzzy
 #~ msgid "Network"
@@ -22184,10 +22188,6 @@ msgstr "Won hić"
 #~ msgctxt "Name"
 #~ msgid "Application Launcher Menu"
 #~ msgstr "Meni startowarja aplikacijow"
-
-#~ msgctxt "Comment"
-#~ msgid "Traditional menu based application launcher"
-#~ msgstr "Tradicionalny, na meniju bazowacy startowar aplikacijow"
 
 #~ msgctxt "Name"
 #~ msgid "Lock/Logout"
