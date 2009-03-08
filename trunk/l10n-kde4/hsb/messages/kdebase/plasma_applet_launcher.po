@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-04 11:12+0100\n"
+"POT-Creation-Date: 2009-03-08 10:10+0100\n"
 "PO-Revision-Date: 2008-11-10 23:47+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -50,12 +50,12 @@ msgstr "Wućisnyć"
 msgid "Safely Remove"
 msgstr "Z&ničić"
 
-#: ui/launcher.cpp:159 simpleapplet/simpleapplet.cpp:164
+#: ui/launcher.cpp:159 simpleapplet/simpleapplet.cpp:171
 msgid "Leave"
 msgstr "Won hić"
 
 #: ui/launcher.cpp:170 core/favoritesmodel.cpp:44
-#: simpleapplet/simpleapplet.cpp:151
+#: simpleapplet/simpleapplet.cpp:153
 msgid "Favorites"
 msgstr "Najlubše programy"
 
@@ -68,11 +68,11 @@ msgid "Sort Alphabetically (Z to A)"
 msgstr ""
 
 #: ui/launcher.cpp:199 core/recentlyusedmodel.cpp:115 core/systemmodel.cpp:88
-#: core/searchmodel.cpp:135 simpleapplet/simpleapplet.cpp:153
+#: core/searchmodel.cpp:135 simpleapplet/simpleapplet.cpp:155
 msgid "Applications"
 msgstr "Programy"
 
-#: ui/launcher.cpp:211 simpleapplet/simpleapplet.cpp:155
+#: ui/launcher.cpp:211 simpleapplet/simpleapplet.cpp:157
 msgid "Recently Used"
 msgstr "Njedawno wužiwane"
 
@@ -84,7 +84,7 @@ msgstr "Njedawno wužiwane wuprózdnić"
 msgid "Clear Recent Documents"
 msgstr "Njedawno wužiwane dokumenty wuprózdnić"
 
-#: ui/launcher.cpp:231 simpleapplet/simpleapplet.cpp:154
+#: ui/launcher.cpp:231 simpleapplet/simpleapplet.cpp:156
 msgid "Computer"
 msgstr "Kompjuter"
 
@@ -104,7 +104,7 @@ msgstr "<b>%1 (%2)</b> na <b>%3</b>"
 msgid "Search:"
 msgstr "Pytać:"
 
-#: core/leavemodel.cpp:49 simpleapplet/simpleapplet.cpp:163
+#: core/leavemodel.cpp:49 simpleapplet/simpleapplet.cpp:170
 msgid "Logout"
 msgstr "Wotzjewić"
 
@@ -116,11 +116,11 @@ msgstr "Kónc posedźenja"
 msgid "Lock"
 msgstr "Zamknyć"
 
-#: core/leavemodel.cpp:55
+#: core/leavemodel.cpp:55 simpleapplet/simpleapplet.cpp:164
 msgid "Lock the screen"
 msgstr "Wobrazowku zamknyć"
 
-#: core/leavemodel.cpp:57 simpleapplet/simpleapplet.cpp:160
+#: core/leavemodel.cpp:57 simpleapplet/simpleapplet.cpp:162
 msgid "Switch User"
 msgstr "Na hinašeho wužiwarja prešaltować"
 
@@ -128,7 +128,7 @@ msgstr "Na hinašeho wužiwarja prešaltować"
 msgid "Start a parallel session as a different user"
 msgstr "Paralelne posedźenje za hinašeho wužiwarja startować"
 
-#: core/leavemodel.cpp:61
+#: core/leavemodel.cpp:61 simpleapplet/simpleapplet.cpp:169
 msgid "Shutdown"
 msgstr "Kompjuter hasnyć"
 
@@ -138,7 +138,7 @@ msgstr "Kompjuter hasnyć"
 msgid "Turn off computer"
 msgstr "Hasnje kompjuter"
 
-#: core/leavemodel.cpp:65
+#: core/leavemodel.cpp:65 simpleapplet/simpleapplet.cpp:168
 #, fuzzy
 #| msgid "Restart"
 msgctxt "Restart computer"
@@ -151,7 +151,7 @@ msgstr "Znowa startować"
 msgid "Restart computer"
 msgstr "Kompjuter znowa startować"
 
-#: core/leavemodel.cpp:69 simpleapplet/simpleapplet.cpp:161
+#: core/leavemodel.cpp:69 simpleapplet/simpleapplet.cpp:163
 msgid "Save Session"
 msgstr "Posedźenje zawěsćić"
 
@@ -159,7 +159,7 @@ msgstr "Posedźenje zawěsćić"
 msgid "Save current session for next login"
 msgstr "Posedźenje za přichodne přizjewjenje zawěsćić"
 
-#: core/leavemodel.cpp:73
+#: core/leavemodel.cpp:73 simpleapplet/simpleapplet.cpp:165
 msgctxt "Puts the system on standby"
 msgid "Standby"
 msgstr "Wusnyć"
@@ -168,11 +168,11 @@ msgstr "Wusnyć"
 msgid "Pause without logging out"
 msgstr "Přestawka bjez wotzjewjenja"
 
-#: core/leavemodel.cpp:77
+#: core/leavemodel.cpp:77 simpleapplet/simpleapplet.cpp:166
 msgid "Suspend to Disk"
 msgstr "Do kruteho diska zawěsćić"
 
-#: core/leavemodel.cpp:81
+#: core/leavemodel.cpp:81 simpleapplet/simpleapplet.cpp:167
 msgid "Suspend to RAM"
 msgstr "Do RAMa zawěsćić"
 
@@ -212,7 +212,7 @@ msgstr "Stajnje njepřizamknjeny skład"
 msgid "Storage"
 msgstr "Skład"
 
-#: core/systemmodel.cpp:248
+#: core/systemmodel.cpp:248 simpleapplet/simpleapplet.cpp:161
 #, fuzzy
 msgid "Run Command..."
 msgstr "Name=(5) Datajowe formaty"
@@ -254,7 +254,7 @@ msgstr ""
 "Lubuški, aplikacije, městna na kompjuteru, njedawno wužiwane elementy a "
 "posedźenje"
 
-#: applet/applet.cpp:107 simpleapplet/simpleapplet.cpp:267
+#: applet/applet.cpp:107 simpleapplet/simpleapplet.cpp:291
 msgid "Menu Editor"
 msgstr "Menijowy editor"
 
@@ -280,104 +280,107 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "edi.werner@gmx.de"
 
-#: simpleapplet/simpleapplet.cpp:152
+#: simpleapplet/simpleapplet.cpp:154
 msgid "Bookmarks"
 msgstr "Lubuški"
 
-#: simpleapplet/simpleapplet.cpp:156
+#: simpleapplet/simpleapplet.cpp:158
 #, fuzzy
 #| msgid "Clear Recent Applications"
 msgid "Recently Used Applications"
 msgstr "Njedawno wužiwane wuprózdnić"
 
-#: simpleapplet/simpleapplet.cpp:157
+#: simpleapplet/simpleapplet.cpp:159
 #, fuzzy
 #| msgid "Recently Used"
 msgid "Recently Used Documents"
 msgstr "Njedawno wužiwane"
 
-#: simpleapplet/simpleapplet.cpp:158
+#: simpleapplet/simpleapplet.cpp:160
 #, fuzzy
 msgid "System Settings"
 msgstr "GenericName=Kartowa hra"
 
-#: simpleapplet/simpleapplet.cpp:159
+#: simpleapplet/simpleapplet.cpp:227
 #, fuzzy
-msgid "Run Command"
-msgstr "Name=(5) Datajowe formaty"
+#| msgctxt "Name"
+#| msgid "Application Launcher Menu"
+msgid "Application Launcher Menu"
+msgstr "Meni startowarja aplikacijow"
 
-#: simpleapplet/simpleapplet.cpp:162
-#, fuzzy
-#| msgid "Lock the screen"
-msgid "Lock Screen"
-msgstr "Wobrazowku zamknyć"
-
-#: simpleapplet/simpleapplet.cpp:201
-#, fuzzy
-#| msgid "Application Launcher"
-msgid "Classic Application Launcher"
-msgstr "Startowar aplikacijow"
-
-#: simpleapplet/simpleapplet.cpp:201
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Traditional menu based application launcher"
-msgid "Traditional menu based application launcher"
-msgstr "Tradicionalny, na meniju bazowacy startowar aplikacijow"
-
-#: simpleapplet/simpleapplet.cpp:273
+#: simpleapplet/simpleapplet.cpp:297
 msgid "Switch to Kickoff Menu Style"
 msgstr "Přešaltować na menijowy stil Kickoffa"
 
-#: simpleapplet/simpleapplet.cpp:331
+#: simpleapplet/simpleapplet.cpp:356
 #, fuzzy
 msgid "View"
 msgstr "&Přehladka"
 
-#: simpleapplet/simpleapplet.cpp:337
+#: simpleapplet/simpleapplet.cpp:362
 msgid "Icon:"
 msgstr "Piktogram:"
 
-#: simpleapplet/simpleapplet.cpp:344
+#: simpleapplet/simpleapplet.cpp:369
 msgctxt "@label:listbox How to present applications in a KMenu-like menu"
 msgid "Format:"
 msgstr "Format:"
 
-#: simpleapplet/simpleapplet.cpp:348
+#: simpleapplet/simpleapplet.cpp:373
 msgctxt "@item:inlistbox Format:"
 msgid "Name Only"
 msgstr "Jenož mjeno"
 
-#: simpleapplet/simpleapplet.cpp:349
+#: simpleapplet/simpleapplet.cpp:374
 msgctxt "@item:inlistbox Format:"
 msgid "Description Only"
 msgstr "Jenož wopisanje"
 
-#: simpleapplet/simpleapplet.cpp:350
+#: simpleapplet/simpleapplet.cpp:375
 msgctxt "@item:inlistbox Format:"
 msgid "Name Description"
 msgstr "Mjeno a wopisanje"
 
-#: simpleapplet/simpleapplet.cpp:351
+#: simpleapplet/simpleapplet.cpp:376
 msgctxt "@item:inlistbox Format:"
 msgid "Description (Name)"
 msgstr "Wopisanje (mjeno)"
 
-#: simpleapplet/simpleapplet.cpp:352
+#: simpleapplet/simpleapplet.cpp:377
 msgctxt "@item:inlistbox Format:"
 msgid "Name - Description"
 msgstr "Mjeno - wopisanje"
 
-#: simpleapplet/simpleapplet.cpp:356
+#: simpleapplet/simpleapplet.cpp:381
 #, fuzzy
 #| msgid "Clear Recent Applications"
 msgid "Recently Used Applications:"
 msgstr "Njedawno wužiwane wuprózdnić"
 
-#: simpleapplet/simpleapplet.cpp:366
+#: simpleapplet/simpleapplet.cpp:391
 #, fuzzy
 msgid "Options"
 msgstr "Operacija"
+
+#, fuzzy
+#~ msgid "Run Command"
+#~ msgstr "Name=(5) Datajowe formaty"
+
+#, fuzzy
+#~| msgid "Lock the screen"
+#~ msgid "Lock Screen"
+#~ msgstr "Wobrazowku zamknyć"
+
+#, fuzzy
+#~| msgid "Application Launcher"
+#~ msgid "Classic Application Launcher"
+#~ msgstr "Startowar aplikacijow"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Traditional menu based application launcher"
+#~ msgid "Traditional menu based application launcher"
+#~ msgstr "Tradicionalny, na meniju bazowacy startowar aplikacijow"
 
 #, fuzzy
 #~| msgctxt "@item:inlistbox View:"
@@ -22209,10 +22212,6 @@ msgstr "Operacija"
 #~ msgctxt "Comment"
 #~ msgid "Launcher to start applications"
 #~ msgstr "Startowar, kiž aplikacije wuwjedźe"
-
-#~ msgctxt "Name"
-#~ msgid "Application Launcher Menu"
-#~ msgstr "Meni startowarja aplikacijow"
 
 #~ msgctxt "Name"
 #~ msgid "Lock/Logout"
