@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkonq\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-04 11:12+0100\n"
+"POT-Creation-Date: 2009-03-10 10:18+0100\n"
 "PO-Revision-Date: 2004-04-16 17:35+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -87,22 +87,31 @@ msgctxt "@title:menu"
 msgid "&Actions"
 msgstr "&Operacije"
 
-#: konq_menuactions.cpp:461
+#: konq_menuactions.cpp:493
+#, fuzzy
+#| msgid "&Open With"
+msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "W&očinić z"
 
-#: konq_menuactions.cpp:490
-#, fuzzy, kde-format
-msgid "Open &with %1"
-msgstr "W&očinić z"
-
-#: konq_menuactions.cpp:504
+#: konq_menuactions.cpp:510
+#, fuzzy
+#| msgid "&Other..."
+msgctxt "@action:inmenu Open With"
 msgid "&Other..."
 msgstr "&Druhe..."
 
-#: konq_menuactions.cpp:507 konq_menuactions.cpp:518
+#: konq_menuactions.cpp:512 konq_menuactions.cpp:522
+#, fuzzy
+#| msgid "&Open With..."
+msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr "W&očinić z ..."
+
+#: konq_menuactions.cpp:550
+#, fuzzy, kde-format
+msgid "Open &with %1"
+msgstr "W&očinić z"
 
 #: konq_operations.cpp:262
 msgid "You cannot drop a folder on to itself"
