@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-02 09:58+0100\n"
+"POT-Creation-Date: 2009-03-21 11:05+0100\n"
 "PO-Revision-Date: 2005-02-24 17:31+0100\n"
 "Last-Translator: Bianka Šwejdźic <hertn@gmx.de>\n"
 "Language-Team: Hornjoserbšćina\n"
@@ -24,7 +24,7 @@ msgstr "Dataje/rjadowaki pytać"
 msgid "Ready."
 msgstr "Hotowy."
 
-#: kfinddlg.cpp:114 kfinddlg.cpp:219
+#: kfinddlg.cpp:114 kfinddlg.cpp:218 kfinddlg.cpp:247
 #, fuzzy, kde-format
 msgid "one file found"
 msgid_plural "%1 files found"
@@ -386,98 +386,81 @@ msgstr ""
 msgid "Do Not Set"
 msgstr ""
 
-#: kfwin.cpp:49
+#: kfwin.cpp:31
 msgid "Read-write"
 msgstr "Čitać-pisać"
 
-#: kfwin.cpp:50
+#: kfwin.cpp:32
 msgid "Read-only"
 msgstr "Jenož čitać"
 
-#: kfwin.cpp:51
+#: kfwin.cpp:33
 msgid "Write-only"
 msgstr "Jenož pisać"
 
-#: kfwin.cpp:52
+#: kfwin.cpp:34
 msgid "Inaccessible"
 msgstr "Žadyn přistup"
 
-#: kfwin.cpp:116
+#: kfwin.cpp:112
 msgid "Name"
 msgstr "Mjeno"
 
-#: kfwin.cpp:117
+#: kfwin.cpp:112
 msgid "In Subfolder"
 msgstr "W podrjadowaku"
 
-#: kfwin.cpp:118
+#: kfwin.cpp:112
 msgid "Size"
 msgstr "Wulkosć"
 
-#: kfwin.cpp:120
+#: kfwin.cpp:112
 msgid "Modified"
 msgstr "Změnjene"
 
-#: kfwin.cpp:122
+#: kfwin.cpp:112
 msgid "Permissions"
 msgstr "Dowolnosć"
 
-#: kfwin.cpp:125
+#: kfwin.cpp:112
 msgid "First Matching Line"
 msgstr ""
 
-#: kfwin.cpp:194
+#: kfwin.cpp:216
+msgid "&Open containing folder(s)"
+msgstr ""
+
+#: kfwin.cpp:220
+msgid "&Delete"
+msgstr ""
+
+#: kfwin.cpp:225
+msgid "&Move to Trash"
+msgstr ""
+
+#: kfwin.cpp:287
 msgid "Save Results As"
 msgstr "Wuslědk składować jako"
 
-#: kfwin.cpp:219
+#: kfwin.cpp:288
+msgid "HTML page"
+msgstr ""
+
+#: kfwin.cpp:288
+msgid "Text file"
+msgstr ""
+
+#: kfwin.cpp:308
 msgid "Unable to save results."
 msgstr "Njemóžu wuslědk składować"
 
-#: kfwin.cpp:230 kfwin.cpp:231 kfwin.cpp:232
+#: kfwin.cpp:323
 msgid "KFind Results File"
 msgstr "KFind-dataja wuslědkow"
 
-#: kfwin.cpp:259
+#: kfwin.cpp:346
 msgid "Results were saved to file\n"
 msgstr "Wuslědki su składowane\n"
-
-#: kfwin.cpp:288
-#, fuzzy, kde-format
-msgid "Do you really want to delete the selected file?"
-msgid_plural "Do you really want to delete the %1 selected files?"
-msgstr[0] "Chceće Wy woprawdźe wuzwolenu dataju wušmórnyć?"
-msgstr[1] "Chceće Wy woprawdźe wuzwolene %1 dataje wušmórnyć?"
-
-#: kfwin.cpp:410
-msgctxt "Menu item"
-msgid "Open"
-msgstr ""
-
-#: kfwin.cpp:411
-msgid "Open Folder"
-msgstr "Rjadowak wočinić"
-
-#: kfwin.cpp:413 kfwin.cpp:423
-msgid "Copy"
-msgstr ""
-
-#: kfwin.cpp:414 kfwin.cpp:424
-msgid "Delete"
-msgstr ""
-
-#: kfwin.cpp:416
-msgid "Open With..."
-msgstr "Wočinić z..."
-
-#: kfwin.cpp:418
-#, fuzzy
-msgid "Properties"
-msgstr "&Kajkosće"
-
-#: kfwin.cpp:422
-msgid "Selected Files"
-msgstr "Wuzwolene dataje"
 
 #: kquery.cpp:486
 msgid "Error while using locate"
@@ -584,6 +567,25 @@ msgstr ""
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Do you really want to delete the selected file?"
+#~ msgid_plural "Do you really want to delete the %1 selected files?"
+#~ msgstr[0] "Chceće Wy woprawdźe wuzwolenu dataju wušmórnyć?"
+#~ msgstr[1] "Chceće Wy woprawdźe wuzwolene %1 dataje wušmórnyć?"
+
+#~ msgid "Open Folder"
+#~ msgstr "Rjadowak wočinić"
+
+#~ msgid "Open With..."
+#~ msgstr "Wočinić z..."
+
+#, fuzzy
+#~ msgid "Properties"
+#~ msgstr "&Kajkosće"
+
+#~ msgid "Selected Files"
+#~ msgstr "Wuzwolene dataje"
 
 #~ msgid "&Find"
 #~ msgstr "&Pytać"
