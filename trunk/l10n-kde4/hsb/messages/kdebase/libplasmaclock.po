@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-27 10:50+0100\n"
+"POT-Creation-Date: 2009-03-23 10:20+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,19 +17,32 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: clockapplet.cpp:240
+#: clockapplet.cpp:180
+#, fuzzy, kde-format
+#| msgid "At least %1"
+msgctxt "Sent to KTTSD to be read aloud as the current time"
+msgid "It is %1"
+msgstr "Znajmjeńša %1"
+
+#: clockapplet.cpp:255
+msgid "General"
+msgstr "Generelnje"
+
+#: clockapplet.cpp:268
 msgid "Time Zones"
 msgstr ""
 
-#: clockapplet.cpp:258 clockapplet.cpp:395
+#. i18n: file: generalConfig.ui:23
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: clockapplet.cpp:414 rc.cpp:3
 msgid "Calendar"
 msgstr ""
 
-#: clockapplet.cpp:413
+#: clockapplet.cpp:432
 msgid "Today"
 msgstr "dźensa"
 
-#: clockapplet.cpp:520
+#: clockapplet.cpp:541
 #, fuzzy
 #| msgid "Locality:"
 msgctxt "Local time zone"
@@ -42,15 +55,7 @@ msgstr "Městno:"
 msgid "Holiday: %1"
 msgstr "Chowaj %1"
 
-#. i18n: file: calendarConfig.ui:23
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:3
-#, fuzzy
-#| msgid "Hide %1"
-msgid "Holidays"
-msgstr "Chowaj %1"
-
-#. i18n: file: calendarConfig.ui:59
+#. i18n: file: generalConfig.ui:46
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:6
 #, fuzzy
@@ -59,21 +64,63 @@ msgstr "Chowaj %1"
 msgid "Display holidays:"
 msgstr "Nastajenja za wobrazowku"
 
-#. i18n: file: calendarConfig.ui:76
+#. i18n: file: generalConfig.ui:76
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:9
 msgid "Use holiday region:"
 msgstr ""
 
+#. i18n: file: generalConfig.ui:95
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:12
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Text-to-Speech"
+msgid "Text to Speech"
+msgstr "Tekst-na-reč"
+
+#. i18n: file: generalConfig.ui:118
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:15
+#, fuzzy
+#| msgid "Specific Time"
+msgid "Speak Time:"
+msgstr "Postajeny čas"
+
+#. i18n: file: generalConfig.ui:128
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, interval)
+#: rc.cpp:18
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Revert"
+msgid "Never"
+msgstr "Wróćo na prěnjotny staw"
+
+#. i18n: file: generalConfig.ui:131
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, interval)
+#: rc.cpp:21
+#, fuzzy
+#| msgctxt "@item:intext"
+#| msgid "1 minute"
+#| msgid_plural "%1 minutes"
+msgid "th minute"
+msgstr "%1 mjeńšina"
+
+#. i18n: file: generalConfig.ui:134
+#. i18n: ectx: property (prefix), widget (KIntSpinBox, interval)
+#: rc.cpp:24
+msgid "Every "
+msgstr ""
+
 #. i18n: file: timezonesConfig.ui:22
 #. i18n: ectx: property (toolTip), widget (KTimeZoneWidget, timeZones)
-#: rc.cpp:12
+#: rc.cpp:27
 msgid "Select one or several time zones."
 msgstr ""
 
 #. i18n: file: timezonesConfig.ui:32
 #. i18n: ectx: property (whatsThis), widget (KTimeZoneWidget, timeZones)
-#: rc.cpp:15
+#: rc.cpp:30
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -105,41 +152,46 @@ msgstr ""
 
 #. i18n: file: timezonesConfig.ui:39
 #. i18n: ectx: property (text), widget (KTimeZoneWidget, timeZones)
-#: rc.cpp:25
+#: rc.cpp:40
 msgid "Area"
 msgstr ""
 
 #. i18n: file: timezonesConfig.ui:44
 #. i18n: ectx: property (text), widget (KTimeZoneWidget, timeZones)
-#: rc.cpp:28
+#: rc.cpp:43
 msgid "Region"
 msgstr ""
 
 #. i18n: file: timezonesConfig.ui:49
 #. i18n: ectx: property (text), widget (KTimeZoneWidget, timeZones)
-#: rc.cpp:31
+#: rc.cpp:46
 msgid "Comment"
 msgstr "Komentar"
 
 #. i18n: file: timezonesConfig.ui:59
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:34
+#: rc.cpp:49
 msgid "Clock defaults to:"
 msgstr ""
 
 #. i18n: file: timezonesConfig.ui:72
 #. i18n: ectx: property (toolTip), widget (QComboBox, clockDefaultsTo)
-#: rc.cpp:37
+#: rc.cpp:52
 msgid "The time the clock will display"
 msgstr ""
 
 #. i18n: file: timezonesConfig.ui:76
 #. i18n: ectx: property (whatsThis), widget (QComboBox, clockDefaultsTo)
-#: rc.cpp:40
+#: rc.cpp:55
 msgid ""
 "The clock will display the time for the selected default zone.\n"
 "Local is the time you set in System Settings."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Hide %1"
+#~ msgid "Holidays"
+#~ msgstr "Chowaj %1"
 
 #~ msgid "Editor Chooser"
 #~ msgstr "Wuběranje editora"
@@ -621,9 +673,6 @@ msgstr ""
 
 #~ msgid "Document Information"
 #~ msgstr "Informacija wo dokumenće "
-
-#~ msgid "General"
-#~ msgstr "Generelnje"
 
 #~ msgid "Title:"
 #~ msgstr "Titl:"
@@ -2884,14 +2933,6 @@ msgstr ""
 #~ msgstr[3] "%1 hodźin"
 
 #~ msgctxt "@item:intext"
-#~ msgid "1 minute"
-#~ msgid_plural "%1 minutes"
-#~ msgstr[0] "%1 mjeńšina"
-#~ msgstr[1] "%1 mjeńšinje"
-#~ msgstr[2] "%1 mjeńšiny"
-#~ msgstr[3] "%1 mjeńšin"
-
-#~ msgctxt "@item:intext"
 #~ msgid "1 second"
 #~ msgid_plural "%1 seconds"
 #~ msgstr[0] "%1 sekunda"
@@ -4334,9 +4375,6 @@ msgstr ""
 #~ msgid "Weekend (Saturday to Sunday)"
 #~ msgstr "Kónc tydźenja (sobota a njedźela)"
 
-#~ msgid "Specific Time"
-#~ msgstr "Postajeny čas"
-
 #~ msgid "Manage Link"
 #~ msgstr "Wotkaz modifikować"
 
@@ -5371,10 +5409,6 @@ msgstr ""
 #~ msgctxt "@action"
 #~ msgid "Save As"
 #~ msgstr "Zawěsćić jako"
-
-#~ msgctxt "@action"
-#~ msgid "Revert"
-#~ msgstr "Wróćo na prěnjotny staw"
 
 #~ msgctxt "@action"
 #~ msgid "Print Preview"
@@ -12552,9 +12586,6 @@ msgstr ""
 #~ msgid "Calculating..."
 #~ msgstr "Wobličuju ..."
 
-#~ msgid "At least %1"
-#~ msgstr "Znajmjeńša %1"
-
 #~ msgid "The new file name is empty."
 #~ msgstr "Nowe datajowe mjeno faluje!"
 
@@ -16541,10 +16572,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "File Manager - Super User Mode"
 #~ msgstr "Datajowy manager - modus superwužiwarja"
-
-#~ msgctxt "Name"
-#~ msgid "Text-to-Speech"
-#~ msgstr "Tekst-na-reč"
 
 #~ msgctxt "Comment"
 #~ msgid "Produces audio output for text in the current page"
