@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-22 10:16+0100\n"
+"POT-Creation-Date: 2009-03-24 10:53+0100\n"
 "PO-Revision-Date: 2008-12-19 22:49+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -3278,6 +3278,14 @@ msgstr "Prošu skontaktujće so z administratorom systema."
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr "Do konfiguraciskeje dataje \"%1\" njehodźi so pisać.\n"
 
+#: kdecore/network/klocalsocket_win.cpp:31
+#: kdecore/network/klocalsocket_win.cpp:36
+#, fuzzy
+#| msgctxt "Socket error code NotSupported"
+#| msgid "operation is not supported"
+msgid "Operation not supported"
+msgstr "operacija so njepodpěruje"
+
 #: kdecore/network/k3socketaddress.cpp:623
 #, kde-format
 msgctxt "1: the unknown socket address family number"
@@ -3411,6 +3419,86 @@ msgstr "'ai_socktype' njepodpěrany"
 #: kdecore/network/netsupp.cpp:902
 msgid "system error"
 msgstr "systemowy zmylk"
+
+#: kdecore/network/klocalsocket_unix.cpp:178
+#: kdecore/network/klocalsocket_unix.cpp:246
+msgid "Specified socket path is invalid"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:187
+#: kdecore/network/klocalsocket_unix.cpp:234
+#: kdecore/network/klocalsocket_unix.cpp:255
+#, fuzzy
+#| msgctxt "Socket error code NotSupported"
+#| msgid "operation is not supported"
+msgid "The socket operation is not supported"
+msgstr "operacija so njepodpěruje"
+
+#: kdecore/network/klocalsocket_unix.cpp:200
+#, fuzzy
+#| msgctxt "Socket error code ConnectionRefused"
+#| msgid "connection actively refused"
+msgid "Connection refused"
+msgstr "zwisk je so aktiwnje wotpokazał"
+
+#: kdecore/network/klocalsocket_unix.cpp:205
+#: kdecore/network/klocalsocket_unix.cpp:268
+#, fuzzy
+msgid "Permission denied"
+msgstr "Njeje dowolene."
+
+#: kdecore/network/klocalsocket_unix.cpp:209
+#, fuzzy
+#| msgctxt "Socket error code ConnectionTimedOut"
+#| msgid "connection timed out"
+msgid "Connection timed out"
+msgstr "sym předołho na zwisk čakał"
+
+#: kdecore/network/klocalsocket_unix.cpp:213
+#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:475
+msgid "Unknown error"
+msgstr "Njeznaty zmylk"
+
+#: kdecore/network/klocalsocket_unix.cpp:221
+#: kdecore/network/klocalsocket_unix.cpp:301
+msgid "Could not set non-blocking mode"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:272
+#, fuzzy
+#| msgctxt "Socket error code AddressInUse"
+#| msgid "address already in use"
+msgid "Address is already in use"
+msgstr "adresa so hižo wužiwa"
+
+#: kdecore/network/klocalsocket_unix.cpp:277
+#, fuzzy
+#| msgid "This file cannot be opened."
+msgid "Path cannot be used"
+msgstr "Tuta dataja njehodźi so wočinić."
+
+#: kdecore/network/klocalsocket_unix.cpp:281
+#, fuzzy
+#| msgid "No such interpreter \"%1\""
+msgid "No such file or directory"
+msgstr "Žadyn tajki interpreter: %1"
+
+#: kdecore/network/klocalsocket_unix.cpp:285
+#, fuzzy
+#| msgid "Path to the autostart directory"
+msgid "Not a directory"
+msgstr "Puć k awtostartowemu zapiskej"
+
+#: kdecore/network/klocalsocket_unix.cpp:289
+msgid "Read-only filesystem"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:354
+#: kdecore/network/klocalsocket_unix.cpp:386
+#, fuzzy
+#| msgid "Unknown error"
+msgid "Unknown socket error"
+msgstr "Njeznaty zmylk"
 
 #: kdecore/network/k3resolver.cpp:546
 msgid "requested family not supported for this host name"
@@ -11510,10 +11598,6 @@ msgstr "Komunikaciski zmylk"
 msgid "Invalid type in Database"
 msgstr "Njewalidny typ w datowej bazy"
 
-#: nepomuk/core/resource.cpp:475
-msgid "Unknown error"
-msgstr "Njeznaty zmylk"
-
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:214
 msgid "Create New Tag..."
 msgstr "Nowy tag stworić..."
@@ -13469,10 +13553,6 @@ msgstr "Žana tajka funkcija '%1'"
 #~ msgstr "Terminy"
 
 #, fuzzy
-#~ msgid "Permissions"
-#~ msgstr "Njeje dowolene."
-
-#, fuzzy
 #~ msgid "Group"
 #~ msgstr "Swójstwa"
 
@@ -13660,9 +13740,6 @@ msgstr "Žana tajka funkcija '%1'"
 
 #~ msgid "The certificate file could not be loaded. Try a different password?"
 #~ msgstr "Certifikat njehodźeše so začitać. Z hinašim hesłom spytać?"
-
-#~ msgid "This file cannot be opened."
-#~ msgstr "Tuta dataja njehodźi so wočinić."
 
 #, fuzzy
 #~ msgid "I do not know how to handle this type of file."

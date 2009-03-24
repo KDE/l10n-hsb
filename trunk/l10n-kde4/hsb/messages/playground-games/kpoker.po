@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-19 10:35+0100\n"
+"POT-Creation-Date: 2009-03-24 11:04+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -62,6 +62,320 @@ msgstr ""
 #: rc.cpp:5
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
+msgstr ""
+
+#: gameengine/kpoker.cpp:193 gameengine/player.cpp:104
+#, kde-format
+msgid ""
+"Received an admin message from a non-admin client.\n"
+"Admin: %1\n"
+"Message Id: %2\n"
+"Sender: %3\n"
+"\n"
+"The message has been ignored."
+msgstr ""
+
+#: gameengine/kpoker.cpp:306
+msgid ""
+"Tried to start a game, but there is already a game running. You've found a "
+"bug"
+msgstr ""
+
+#: gameengine/kpoker.cpp:324
+msgid ""
+"A network command tried to start a game, but there is already a game "
+"running. You've found a bug"
+msgstr ""
+
+#: gameengine/kpoker.cpp:333
+msgid ""
+"No KPokerDealer object was created, although you are the admin. You have "
+"found a bug - cannot start a game"
+msgstr ""
+
+#: gameengine/kpokerdealer.cpp:340
+#, kde-format
+msgid ""
+"No player is left in the round. You have encountered a bug!\n"
+"Status: %1\n"
+"Players in the game: %2\n"
+"\n"
+"Trying to start a new round now"
+msgstr ""
+
+#: gameengine/kcard.cpp:82
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Columns"
+msgid "Clubs"
+msgstr "Stołpiki"
+
+#: gameengine/kcard.cpp:85
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Rocks n Diamonds"
+msgid "Diamonds"
+msgstr "Rocks n Diamonds"
+
+#: gameengine/kcard.cpp:88
+#, fuzzy
+#| msgid "Restart"
+msgid "Hearts"
+msgstr "Znowa startować"
+
+#: gameengine/kcard.cpp:91
+#, fuzzy
+#| msgctxt "keyboard-key-name"
+#| msgid "Space"
+msgid "Spades"
+msgstr "Spacij/Mjezota"
+
+#: gameengine/kcard.cpp:94 gameengine/kcard.cpp:138
+msgid "Error"
+msgstr "Zmylk"
+
+#: gameengine/kcard.cpp:99
+#, fuzzy
+#| msgid "Accept"
+msgid "Ace"
+msgstr "Přiwzać"
+
+#: gameengine/kcard.cpp:102
+#, fuzzy
+#| msgid "in"
+msgid "King"
+msgstr "in"
+
+#: gameengine/kcard.cpp:105
+#, fuzzy
+#| msgid "Question"
+msgid "Queen"
+msgstr "Prašenje"
+
+#: gameengine/kcard.cpp:108
+#, fuzzy
+#| msgid "Back"
+msgid "Jack"
+msgstr "Wróćo"
+
+#: gameengine/kcard.cpp:111
+#, fuzzy
+#| msgid "To:"
+msgid "Two"
+msgstr "Na:"
+
+#: gameengine/kcard.cpp:114
+#, fuzzy
+#| msgid "Tishrey"
+msgid "Three"
+msgstr "Tishrey"
+
+#: gameengine/kcard.cpp:117
+#, fuzzy
+#| msgid "Form"
+msgid "Four"
+msgstr "Formular"
+
+#: gameengine/kcard.cpp:120
+#, fuzzy
+#| msgid "File"
+msgid "Five"
+msgstr "Dataja"
+
+#: gameengine/kcard.cpp:123
+msgid "Six"
+msgstr ""
+
+#: gameengine/kcard.cpp:126
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Sweden"
+msgid "Seven"
+msgstr "Šwedska"
+
+#: gameengine/kcard.cpp:129
+#, fuzzy
+#| msgctxt "keyboard-key-name"
+#| msgid "Right"
+msgid "Eight"
+msgstr "Naprawo"
+
+#: gameengine/kcard.cpp:132
+#, fuzzy
+#| msgid "Line"
+msgid "Nine"
+msgstr "Linka"
+
+#: gameengine/kcard.cpp:135
+#, fuzzy
+#| msgctxt "Tuesday"
+#| msgid "Tue"
+msgid "Ten"
+msgstr "Wu"
+
+#: gameengine/kcard.cpp:144
+#, fuzzy, kde-format
+#| msgctxt "concatenation of dates and time"
+#| msgid "%1 %2"
+msgctxt "[SuitesString] [ValueString]"
+msgid "%1 %2"
+msgstr "%1%2"
+
+#: gameview/playerbox.cpp:92
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Folder"
+msgid "Fold"
+msgstr "Zapisk"
+
+#: gameview/playerbox.cpp:154 gameview/graphicsitems/playermoney.cpp:58
+#, kde-format
+msgid "Cash: %1"
+msgstr ""
+
+#: gameview/playerbox.cpp:164
+#, fuzzy, kde-format
+#| msgid "Re: %1"
+msgid "Bet: %1"
+msgstr "Wotmołwa: %1"
+
+#: gameview/playerbox.cpp:339
+#: gameview/graphicsitems/playercardcontainer.cpp:60
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Help"
+msgid "Held"
+msgstr "Pomoc"
+
+#: gameview/topwidget.cpp:62
+msgid "New single player game"
+msgstr ""
+
+#: gameview/topwidget.cpp:66
+msgid "New multi player game"
+msgstr ""
+
+#: gameview/topwidget.cpp:103
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Dice Game"
+msgid "Debug KGame"
+msgstr "Kóstkowe hry"
+
+#: gameview/topwidget.cpp:110
+msgid "Draw Cards"
+msgstr ""
+
+#: gameview/topwidget.cpp:119
+#, kde-format
+msgid "Exchange Card %1"
+msgstr ""
+
+#: gameview/topwidget.cpp:132
+#, fuzzy
+#| msgid "&Restore"
+msgid "Bet More"
+msgstr "&Prěnjotny staw"
+
+#: gameview/topwidget.cpp:138
+msgid "Bet Less"
+msgstr ""
+
+#: gameview/topwidget.cpp:251
+#, fuzzy
+#| msgid "Do you really want to execute '%1'?"
+msgid "Do you really want to end the current game?"
+msgstr "Chceće woprawdźe '%1' startować?"
+
+#: gameview/localiowidget.cpp:63
+msgid "&Draw"
+msgstr ""
+
+#: gameview/localiowidget.cpp:253
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Sound Processor"
+msgid "Round over"
+msgstr "Předźěłanje zwukow"
+
+#: gameview/localiowidget.cpp:256
+#, fuzzy, kde-format
+#| msgctxt "Column number %1"
+#| msgid "Column No. %1"
+msgid "You won %1"
+msgstr "Špalta čo. %1"
+
+#: gameview/localiowidget.cpp:259
+#, fuzzy, kde-format
+#| msgid "%1% of %2"
+msgid "%1 won %2"
+msgstr "%1% z %2"
+
+#: gameview/localiowidget.cpp:298
+msgid "You won 500"
+msgstr ""
+
+#: gameview/kpokerwidget.cpp:135
+#, fuzzy
+#| msgid "Pause"
+msgid "Phase: "
+msgstr "Pause/Untbr"
+
+#: gameview/kpokerwidget.cpp:197
+msgid "You"
+msgstr ""
+
+#: gameview/kpokerwidget.cpp:212
+#, fuzzy, kde-format
+#| msgid "About %1"
+msgid "Computer %1"
+msgstr "Wo %1"
+
+#: gameview/kpokerwidget.cpp:354
+msgid "Draw"
+msgstr ""
+
+#: gameview/kpokerwidget.cpp:372
+msgid "Bet/Exchange"
+msgstr ""
+
+#: gameview/kpokerwidget.cpp:376
+msgid "Exchange"
+msgstr ""
+
+#: gameview/kpokerwidget.cpp:380
+#, fuzzy
+#| msgctxt "@item font size"
+#| msgid "Relative"
+msgid "Raise"
+msgstr "relatiwne"
+
+#: gameview/kpokerwidget.cpp:383
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Sweep"
+msgid "See"
+msgstr "Sweep"
+
+#: gameview/kpokerwidget.cpp:430
+msgid ""
+"The game is over, you lost\n"
+"A new game is started now."
+msgstr ""
+
+#: gameview/kpokerwidget.cpp:436
+msgid "The game is over, you won the game!\n"
+msgstr ""
+
+#: gameview/kpokerwidget.cpp:439
+#, kde-format
+msgid ""
+"The game is over, you lost.\n"
+"%1 has won this game."
+msgstr ""
+
+#: gameview/kpokerwidget.cpp:444
+msgid "The game is over"
 msgstr ""
 
 #~ msgid "Editor Chooser"
@@ -487,9 +801,6 @@ msgstr ""
 
 #~ msgid "Pause/Continue regression testing process"
 #~ msgstr "Přepruwowanje regresije zastajić/pokročować"
-
-#~ msgid "Pause"
-#~ msgstr "Pause/Untbr"
 
 #~ msgid ""
 #~ "You may select a file where the log content is stored, before the "
@@ -990,9 +1301,6 @@ msgstr ""
 #~ "style:normal; text-decoration:none;\"><p style=\" margin-top:0px; margin-"
 #~ "bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
 #~ "indent:0px;\">(hišće njeznate)</p></body></html>"
-
-#~ msgid "Error"
-#~ msgstr "Zmylk"
 
 #~ msgid "Evaluation error"
 #~ msgstr "Wuhódnoćenski zmylk "
@@ -1853,10 +2161,6 @@ msgstr ""
 #~ msgid "Mon"
 #~ msgstr "Pó"
 
-#~ msgctxt "Tuesday"
-#~ msgid "Tue"
-#~ msgstr "Wu"
-
 #~ msgctxt "Wednesday"
 #~ msgid "Wed"
 #~ msgstr "Srj"
@@ -1939,9 +2243,6 @@ msgstr ""
 
 #~ msgid "of Adar II"
 #~ msgstr "Adar II"
-
-#~ msgid "Tishrey"
-#~ msgstr "Tishrey"
 
 #~ msgid "Heshvan"
 #~ msgstr "Heshvan"
@@ -2846,10 +3147,6 @@ msgstr ""
 #~ msgid "Yesterday"
 #~ msgstr "wčera"
 
-#~ msgctxt "concatenation of dates and time"
-#~ msgid "%1 %2"
-#~ msgstr "%1%2"
-
 #~ msgctxt "concatenation of date/time and time zone"
 #~ msgid "%1 %2"
 #~ msgstr "%1 %2"
@@ -3215,20 +3512,12 @@ msgstr ""
 #~ msgstr "Return"
 
 #~ msgctxt "keyboard-key-name"
-#~ msgid "Right"
-#~ msgstr "Naprawo"
-
-#~ msgctxt "keyboard-key-name"
 #~ msgid "ScrollLock"
 #~ msgstr "Pause/Untbr"
 
 #~ msgctxt "keyboard-key-name"
 #~ msgid "Shift"
 #~ msgstr "Wulkopisanje"
-
-#~ msgctxt "keyboard-key-name"
-#~ msgid "Space"
-#~ msgstr "Spacij/Mjezota"
 
 #~ msgctxt "keyboard-key-name"
 #~ msgid "Super"
@@ -3344,9 +3633,6 @@ msgstr ""
 
 #~ msgid "Report bad entry"
 #~ msgstr "wo hubjenym zapisu rozprawić "
-
-#~ msgid "Re: %1"
-#~ msgstr "Wotmołwa: %1"
 
 #~ msgid "Timeout. Check Internet connection!"
 #~ msgstr "Čas překročeny. Přepruwujće zwisk do interneta!"
@@ -3573,9 +3859,6 @@ msgstr ""
 #~ msgstr[2] "%2 z %3 zakónčene"
 #~ msgstr[3] "%2 z %3 zakónčene"
 
-#~ msgid "%1% of %2"
-#~ msgstr "%1% z %2"
-
 #~ msgid "%2% of 1 file"
 #~ msgid_plural "%2% of %1 files"
 #~ msgstr[0] "%2% z %1 dataje"
@@ -3627,9 +3910,6 @@ msgstr ""
 
 #~ msgid "&Minimize"
 #~ msgstr "&Minimalizować"
-
-#~ msgid "&Restore"
-#~ msgstr "&Prěnjotny staw"
 
 #~ msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 #~ msgstr "<qt>Chceće woprawdźe <b>%1</b> wopušćić?</qt>"
@@ -4065,9 +4345,6 @@ msgstr ""
 #~ msgid "Details"
 #~ msgstr "Nadrobnosće"
 
-#~ msgid "Question"
-#~ msgstr "Prašenje"
-
 #~ msgid "Do not ask again"
 #~ msgstr "Njeprašej so hišće raz"
 
@@ -4079,9 +4356,6 @@ msgstr ""
 
 #~ msgid "Do not show this message again"
 #~ msgstr "Njepokaž tutu zdźělenku přichodny raz"
-
-#~ msgid "About %1"
-#~ msgstr "Wo %1"
 
 #~ msgctxt "@item:intable Action name in shortcuts configuration"
 #~ msgid "%1"
@@ -4287,9 +4561,6 @@ msgstr ""
 
 #~ msgid "The email address this bug report is sent to."
 #~ msgstr "Emailowa adresa, na kotruž ma so tuta rozprawa wo zmylku pósłać."
-
-#~ msgid "To:"
-#~ msgstr "Na:"
 
 #~ msgid "&Send"
 #~ msgstr "&Pósćel"
@@ -4719,10 +4990,6 @@ msgstr ""
 #~ msgid "Bold Italic"
 #~ msgstr "tučne a kursiwne"
 
-#~ msgctxt "@item font size"
-#~ msgid "Relative"
-#~ msgstr "relatiwne"
-
 #~ msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
 #~ msgstr ""
 #~ "Wulkosć pisma <br><i>absolutnje</i> nastajić abo<i>relatiwnje</i><br>"
@@ -4981,9 +5248,6 @@ msgstr ""
 
 #~ msgid "Do you want to restart search at the beginning?"
 #~ msgstr "Chceće wot započatka dale pytać?"
-
-#~ msgid "Restart"
-#~ msgstr "Znowa startować"
 
 #~ msgid ""
 #~ "Your replacement string is referencing a capture greater than '\\%1', "
@@ -5254,10 +5518,6 @@ msgstr ""
 #~ msgctxt "@action"
 #~ msgid "Activate Previous Tab"
 #~ msgstr "Prjedawši tabulator aktiwizować"
-
-#~ msgctxt "@action"
-#~ msgid "Help"
-#~ msgstr "Pomoc"
 
 #~ msgctxt "@action"
 #~ msgid "What's This"
@@ -5551,9 +5811,6 @@ msgstr ""
 
 #~ msgid "Enter a search term or character here"
 #~ msgstr "Zapodaj pytany wuraz abo pismik tu"
-
-#~ msgid "Back"
-#~ msgstr "Wróćo"
 
 #~ msgid "Previous Character"
 #~ msgstr "Prjedawši pismik"
@@ -6978,9 +7235,6 @@ msgstr ""
 #~ msgid "Print header"
 #~ msgstr "Hłójčku ćišćeć"
 
-#~ msgid "Accept"
-#~ msgstr "Přiwzać"
-
 #~ msgid "Reject"
 #~ msgstr "Wotpokazać"
 
@@ -7565,9 +7819,6 @@ msgstr ""
 #~ msgid "Call"
 #~ msgstr "Zwołać"
 
-#~ msgid "Line"
-#~ msgstr "Linka"
-
 #~ msgid "This is a searchable index. Enter search keywords: "
 #~ msgstr "W tutym indeksu móžeće pytać. zapodajće klučowe słowa:"
 
@@ -7983,9 +8234,6 @@ msgstr ""
 #~ msgid "Close Document"
 #~ msgstr "Dokument začinić"
 
-#~ msgid "Do you really want to execute '%1'?"
-#~ msgstr "Chceće woprawdźe '%1' startować?"
-
 #~ msgid "Execute File?"
 #~ msgstr "Dataju wuwjesć?"
 
@@ -8309,10 +8557,6 @@ msgstr ""
 
 #~ msgid "&Finished"
 #~ msgstr "&Zakónčene"
-
-#~ msgctxt "Column number %1"
-#~ msgid "Column No. %1"
-#~ msgstr "Špalta čo. %1"
 
 #~ msgid "??"
 #~ msgstr "??"
@@ -8797,9 +9041,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "No such function \"%1\""
 #~ msgstr "Žadyn menijowy zapis '%1'."
-
-#~ msgid "Form"
-#~ msgstr "Formular"
 
 #, fuzzy
 #~ msgid "%1 %"
@@ -9433,9 +9674,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Log to a file"
 #~ msgstr "&Protokolowanje do dataje:"
-
-#~ msgid "File"
-#~ msgstr "Dataja"
 
 #~ msgid "Stop"
 #~ msgstr "Zastajić"
@@ -14167,9 +14405,6 @@ msgstr ""
 #~ msgid "pixels"
 #~ msgstr "dypki"
 
-#~ msgid "in"
-#~ msgstr "in"
-
 #~ msgid "cm"
 #~ msgstr "cm"
 
@@ -14736,10 +14971,6 @@ msgstr ""
 #~ msgid "Details"
 #~ msgstr "Nadrobnosće"
 
-#~ msgctxt "Name"
-#~ msgid "Columns"
-#~ msgstr "Stołpiki"
-
 #~ msgctxt "Comment"
 #~ msgid "This service allows configuration of the Dolphin views."
 #~ msgstr "Tutón serwis dowoli konfiguraciju napohladow Dolphina."
@@ -14966,10 +15197,6 @@ msgstr ""
 #~ msgid "cxhextris"
 #~ msgstr "cxhextris"
 
-#~ msgctxt "Name"
-#~ msgid "Rocks n Diamonds"
-#~ msgstr "Rocks n Diamonds"
-
 #~ msgctxt "GenericName"
 #~ msgid "Tactical Game"
 #~ msgstr "Taktiske hry"
@@ -15089,10 +15316,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "GTali"
 #~ msgstr "GTali"
-
-#~ msgctxt "GenericName"
-#~ msgid "Dice Game"
-#~ msgstr "Kóstkowe hry"
 
 #~ msgctxt "Name"
 #~ msgid "Angband"
@@ -15791,10 +16014,6 @@ msgstr ""
 #~ msgstr "Jazz"
 
 #~ msgctxt "GenericName"
-#~ msgid "Sound Processor"
-#~ msgstr "Předźěłanje zwukow"
-
-#~ msgctxt "GenericName"
 #~ msgid "Dual Channel VU-Meter"
 #~ msgstr "Dual Channel VU-Meter"
 
@@ -15869,10 +16088,6 @@ msgstr ""
 #~ msgctxt "GenericName"
 #~ msgid "Audio Recorder"
 #~ msgstr "Awdijowy nahrawak"
-
-#~ msgctxt "Name"
-#~ msgid "Sweep"
-#~ msgstr "Sweep"
 
 #~ msgctxt "Name"
 #~ msgid "vkeybd"
@@ -16847,10 +17062,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "This is the list of your bookmarks, for a faster access"
 #~ msgstr "Tu je lisćina lubuškow jednorišeje přistupnosće dla."
-
-#~ msgctxt "Name"
-#~ msgid "Folder"
-#~ msgstr "Zapisk"
 
 #~ msgctxt "Name"
 #~ msgid "History"
@@ -19650,10 +19861,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Sudan"
 #~ msgstr "Sudan"
-
-#~ msgctxt "Name"
-#~ msgid "Sweden"
-#~ msgstr "Šwedska"
 
 #~ msgctxt "Name"
 #~ msgid "Singapore"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-14 10:47+0100\n"
+"POT-Creation-Date: 2009-03-24 10:55+0100\n"
 "PO-Revision-Date: 2008-11-22 12:27+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -21,35 +21,35 @@ msgstr ""
 msgid "No notifications and no jobs"
 msgstr "Žane zdźělenki a žane nadawki"
 
-#: ui/applet.cpp:327
+#: ui/applet.cpp:328
 msgid "Visible icons:"
 msgstr "Widźomne piktogramy:"
 
-#: ui/applet.cpp:328
+#: ui/applet.cpp:329
 msgid "Hidden icons:"
 msgstr "Schowane piktogramy:"
 
-#: ui/applet.cpp:334
+#: ui/applet.cpp:335
 msgid ""
 "Select the types of application feedback that should be integrated with the "
 "system tray:"
 msgstr ""
 
-#: ui/applet.cpp:337
+#: ui/applet.cpp:338
 msgid "Jobs, such as file transfers"
 msgstr ""
 
-#: ui/applet.cpp:339
+#: ui/applet.cpp:340
 msgid "Notifications, such as chat requests"
 msgstr ""
 
-#: ui/applet.cpp:352
+#: ui/applet.cpp:353
 #, fuzzy
 #| msgid "&Auto Skip"
 msgid "Auto Hide"
 msgstr "&Awtomatisce přeskočić"
 
-#: ui/applet.cpp:353
+#: ui/applet.cpp:354
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Notification"
@@ -66,19 +66,19 @@ msgstr "Zdźělenki a nadawki pokazać abo schować"
 msgid "Toggle visibility of notifications and jobs"
 msgstr "Widźomnosć zdźělenkow a nadawkow přešaltować"
 
-#: ui/jobwidget.cpp:92
+#: ui/jobwidget.cpp:96
 msgid "Pause job"
 msgstr "Nadawk zastajić"
 
-#: ui/jobwidget.cpp:102
+#: ui/jobwidget.cpp:106
 msgid "Resume job"
 msgstr "Z nadawkom pokročować"
 
-#: ui/jobwidget.cpp:112
+#: ui/jobwidget.cpp:116
 msgid "Cancel job"
 msgstr "Nadawk přetorhnyć"
 
-#: ui/jobwidget.cpp:176
+#: ui/jobwidget.cpp:180
 #, fuzzy, kde-format
 #| msgid "(paused) %1"
 msgctxt ""
@@ -86,13 +86,35 @@ msgctxt ""
 msgid "(paused) %1"
 msgstr "(zastajeny) %1"
 
-#: ui/jobwidget.cpp:180
+#: ui/jobwidget.cpp:184
 #, fuzzy, kde-format
 #| msgid "(finished) %1"
 msgctxt ""
 "%1 is the name of the job, can be things like Copying, deleting, moving"
 msgid "(finished) %1"
 msgstr "(zakónčeny)  %1"
+
+#: ui/jobwidget.cpp:210
+#, fuzzy, kde-format
+#| msgid "%2 / %1 folder"
+#| msgid_plural "%2 / %1 folders"
+msgid "%2 / 1 folder"
+msgid_plural "%2 / %1 folders"
+msgstr[0] "%2 / %1 zapiskow"
+msgstr[1] "%2 / %1 zapisk"
+msgstr[2] "%2 / %1 zapiskaj"
+msgstr[3] "%2 / %1 zapiski"
+
+#: ui/jobwidget.cpp:216
+#, fuzzy, kde-format
+#| msgid "%2 / %1 file"
+#| msgid_plural "%2 / %1 files"
+msgid "%2 / 1 file"
+msgid_plural "%2 / %1 files"
+msgstr[0] "%2 z %1 datajow"
+msgstr[1] "%2 z %1 dataje"
+msgstr[2] "%2 z %1 datajow"
+msgstr[3] "%2 z %1 datajow"
 
 #: ui/notificationwidget.cpp:137
 #, kde-format
@@ -9498,20 +9520,6 @@ msgstr "Zdźělenka wot %1"
 
 #~ msgid " %1/s "
 #~ msgstr " %1/s "
-
-#~ msgid "%2 / %1 folder"
-#~ msgid_plural "%2 / %1 folders"
-#~ msgstr[0] "%2 / %1 zapiskow"
-#~ msgstr[1] "%2 / %1 zapisk"
-#~ msgstr[2] "%2 / %1 zapiskaj"
-#~ msgstr[3] "%2 / %1 zapiski"
-
-#~ msgid "%2 / %1 file"
-#~ msgid_plural "%2 / %1 files"
-#~ msgstr[0] "%2 z %1 datajow"
-#~ msgstr[1] "%2 z %1 dataje"
-#~ msgstr[2] "%2 z %1 datajow"
-#~ msgstr[3] "%2 z %1 datajow"
 
 #~ msgid "Stalled"
 #~ msgstr "Zastajene"
