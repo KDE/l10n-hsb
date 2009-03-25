@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-02 09:56+0100\n"
+"POT-Creation-Date: 2009-03-25 11:22+0100\n"
 "PO-Revision-Date: 2008-11-18 00:29+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -27,7 +27,26 @@ msgstr "Nastajenja"
 msgid "Show System Activity"
 msgstr "Wućeženosć systema pokazować"
 
-#: interfaces/default/interface.cpp:456
+#: interfaces/default/interface.cpp:106
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Help"
+msgid "Help"
+msgstr "Pomoc"
+
+#: interfaces/default/interface.cpp:107
+#, fuzzy
+#| msgid "&Only show when using this application (%1)"
+msgid "Information on using this application"
+msgstr "Jen&ož pokazać, hdyž so tutón program (%1) wužiwa"
+
+#: interfaces/default/interface.cpp:388
+#, fuzzy, kde-format
+#| msgid "%1 %"
+msgid "(From %1, %2)"
+msgstr "%1 %"
+
+#: interfaces/default/interface.cpp:512
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "@note-with-label/plain\n"
@@ -306,11 +325,11 @@ msgstr ""
 msgid "Reboot Without Confirmation"
 msgstr ""
 
-#: krunnerapp.cpp:242
+#: krunnerapp.cpp:233
 msgid "System Activity"
 msgstr ""
 
-#: krunnerapp.cpp:351
+#: krunnerapp.cpp:342
 msgid ""
 "Could not log out properly.\n"
 "The session manager cannot be contacted. You can try to force a shutdown by "
@@ -5507,10 +5526,6 @@ msgstr ""
 #~ msgstr "Prjedawši tabulator aktiwizować"
 
 #~ msgctxt "@action"
-#~ msgid "Help"
-#~ msgstr "Pomoc"
-
-#~ msgctxt "@action"
 #~ msgid "What's This"
 #~ msgstr "Što to je?"
 
@@ -10557,12 +10572,6 @@ msgstr ""
 #~ msgstr "%1 (%2, %3)"
 
 #, fuzzy
-#~| msgid "%1 %"
-#~ msgctxt "folders, files"
-#~ msgid "%1, %2"
-#~ msgstr "%1 %"
-
-#, fuzzy
 #~| msgid "%1 (%2)"
 #~ msgctxt "files (size)"
 #~ msgid "%1 (%2)"
@@ -13883,9 +13892,6 @@ msgstr ""
 
 #~ msgid "Choose an &icon:"
 #~ msgstr "Wubjerće p&iktogram:"
-
-#~ msgid "&Only show when using this application (%1)"
-#~ msgstr "Jen&ož pokazać, hdyž so tutón program (%1) wužiwa"
 
 #, fuzzy
 #~| msgid ""
