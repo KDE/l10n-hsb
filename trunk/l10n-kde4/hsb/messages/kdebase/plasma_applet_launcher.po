@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-07 11:07+0200\n"
+"POT-Creation-Date: 2009-04-08 11:57+0200\n"
 "PO-Revision-Date: 2008-11-10 23:47+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: ui/flipscrollview.cpp:138 simpleapplet/simpleapplet.cpp:543
+#: ui/flipscrollview.cpp:138 core/applicationmodel.cpp:377
 msgid "All Applications"
 msgstr "Wšitke aplikacije"
 
@@ -50,11 +50,12 @@ msgstr "Wućisnyć"
 msgid "Safely Remove"
 msgstr "Z&ničić"
 
-#: ui/launcher.cpp:161 simpleapplet/simpleapplet.cpp:189
+#: ui/launcher.cpp:161 core/leavemodel.cpp:106
+#: simpleapplet/simpleapplet.cpp:189
 msgid "Leave"
 msgstr "Won hić"
 
-#: ui/launcher.cpp:172 core/favoritesmodel.cpp:44
+#: ui/launcher.cpp:172 core/favoritesmodel.cpp:44 core/favoritesmodel.cpp:265
 #: simpleapplet/simpleapplet.cpp:171
 msgid "Favorites"
 msgstr "Najlubše programy"
@@ -72,7 +73,8 @@ msgstr ""
 msgid "Applications"
 msgstr "Programy"
 
-#: ui/launcher.cpp:213 simpleapplet/simpleapplet.cpp:175
+#: ui/launcher.cpp:213 core/recentlyusedmodel.cpp:176
+#: simpleapplet/simpleapplet.cpp:175
 msgid "Recently Used"
 msgstr "Njedawno wužiwane"
 
@@ -84,7 +86,8 @@ msgstr "Njedawno wužiwane wuprózdnić"
 msgid "Clear Recent Documents"
 msgstr "Njedawno wužiwane dokumenty wuprózdnić"
 
-#: ui/launcher.cpp:233 simpleapplet/simpleapplet.cpp:174
+#: ui/launcher.cpp:233 core/systemmodel.cpp:369
+#: simpleapplet/simpleapplet.cpp:174
 msgid "Computer"
 msgstr "Kompjuter"
 
@@ -176,17 +179,13 @@ msgstr "Do kruteho diska zawěsćić"
 msgid "Suspend to RAM"
 msgstr "Do RAMa zawěsćić"
 
-#: core/leavemodel.cpp:103
+#: core/leavemodel.cpp:118
 msgid "Session"
 msgstr "Posedźenje"
 
-#: core/leavemodel.cpp:125
+#: core/leavemodel.cpp:140
 msgid "System"
 msgstr "System"
-
-#: core/applicationmodel.cpp:377
-msgid "Known Applications"
-msgstr "Znate programy"
 
 #: core/models.cpp:117
 msgid "Home Folder"
@@ -199,6 +198,18 @@ msgstr "Syćowe zapiski"
 #: core/recentlyusedmodel.cpp:107 core/searchmodel.cpp:221
 msgid "Documents"
 msgstr "Dokumenty"
+
+#: core/recentlyusedmodel.cpp:178 simpleapplet/simpleapplet.cpp:177
+#, fuzzy
+#| msgid "Recently Used"
+msgid "Recently Used Documents"
+msgstr "Njedawno wužiwane"
+
+#: core/recentlyusedmodel.cpp:180 simpleapplet/simpleapplet.cpp:176
+#, fuzzy
+#| msgid "Clear Recent Applications"
+msgid "Recently Used Applications"
+msgstr "Njedawno wužiwane wuprózdnić"
 
 #: core/systemmodel.cpp:89
 msgid "Places"
@@ -296,18 +307,6 @@ msgstr "edi.werner@gmx.de"
 msgid "Bookmarks"
 msgstr "Lubuški"
 
-#: simpleapplet/simpleapplet.cpp:176 simpleapplet/simpleapplet.cpp:559
-#, fuzzy
-#| msgid "Clear Recent Applications"
-msgid "Recently Used Applications"
-msgstr "Njedawno wužiwane wuprózdnić"
-
-#: simpleapplet/simpleapplet.cpp:177 simpleapplet/simpleapplet.cpp:566
-#, fuzzy
-#| msgid "Recently Used"
-msgid "Recently Used Documents"
-msgstr "Njedawno wužiwane"
-
 #: simpleapplet/simpleapplet.cpp:178
 #, fuzzy
 msgid "System Settings"
@@ -376,9 +375,12 @@ msgstr "Schowane dataje pokazać"
 msgid "Options"
 msgstr "Operacija"
 
-#: simpleapplet/simpleapplet.cpp:545
+#: simpleapplet/simpleapplet.cpp:546
 msgid "Actions"
 msgstr "Akcije"
+
+#~ msgid "Known Applications"
+#~ msgstr "Znate programy"
 
 #, fuzzy
 #~ msgid "Run Command"
