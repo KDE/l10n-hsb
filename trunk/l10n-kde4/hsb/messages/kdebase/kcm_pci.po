@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-21 20:03+0200\n"
+"POT-Creation-Date: 2009-04-10 11:06+0200\n"
 "PO-Revision-Date: 2008-11-23 22:02+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -488,19 +488,19 @@ msgstr ""
 msgid "Power management events"
 msgstr ""
 
-#: kpci.cpp:531
+#: kpci.cpp:531 kpci_private.h:761
 msgid "D0"
 msgstr ""
 
-#: kpci.cpp:532
+#: kpci.cpp:532 kpci_private.h:762
 msgid "D1"
 msgstr ""
 
-#: kpci.cpp:533
+#: kpci.cpp:533 kpci_private.h:763
 msgid "D2"
 msgstr ""
 
-#: kpci.cpp:534
+#: kpci.cpp:534 kpci_private.h:764
 msgid "D3 hot"
 msgstr ""
 
@@ -512,7 +512,7 @@ msgstr ""
 msgid "Power state"
 msgstr ""
 
-#: kpci.cpp:539
+#: kpci.cpp:539 kpci_private.h:678
 msgid "Power management"
 msgstr ""
 
@@ -609,7 +609,7 @@ msgstr ""
 msgid "Configuration"
 msgstr ""
 
-#: kpci.cpp:591
+#: kpci.cpp:591 kpci_private.h:679
 msgid "AGP"
 msgstr ""
 
@@ -625,7 +625,7 @@ msgstr ""
 msgid "Message control"
 msgstr ""
 
-#: kpci.cpp:625
+#: kpci.cpp:625 kpci_private.h:682
 msgid "Message signaled interrupts"
 msgstr ""
 
@@ -693,6 +693,1119 @@ msgstr ""
 #: rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
+msgstr ""
+
+#: kpci_private.h:25
+#, fuzzy
+#| msgctxt "@item Text character set"
+#| msgid "Disabled"
+msgid "Enabled"
+msgstr "njesteji k dispoziciji"
+
+#: kpci_private.h:26
+#, fuzzy
+#| msgctxt "@item Text character set"
+#| msgid "Disabled"
+msgid "Disabled"
+msgstr "njesteji k dispoziciji"
+
+#: kpci_private.h:27
+msgid "Yes"
+msgstr "Haj"
+
+#: kpci_private.h:28
+msgid "No"
+msgstr "Ně"
+
+#: kpci_private.h:29
+msgid "Unknown"
+msgstr "Njeznaju"
+
+#: kpci_private.h:437
+#, fuzzy
+#| msgctxt "Banner page"
+#| msgid "Unclassified"
+msgid "Unclassified device"
+msgstr "Njeklasifikowane"
+
+#: kpci_private.h:438 kpci_private.h:472
+msgid "Mass storage controller"
+msgstr ""
+
+#: kpci_private.h:439 kpci_private.h:482
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Network Tool"
+msgid "Network controller"
+msgstr "Syćowy nastroj"
+
+#: kpci_private.h:440 kpci_private.h:488
+msgid "Display controller"
+msgstr ""
+
+#: kpci_private.h:441 kpci_private.h:494
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Multimedia Player"
+msgid "Multimedia controller"
+msgstr "Multimedijowy wothrawak"
+
+#: kpci_private.h:442 kpci_private.h:499
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "MLDonkey GTK+ Core Controller"
+msgid "Memory controller"
+msgstr "MLDonkey GTK+ Core Controller"
+
+#: kpci_private.h:443 kpci_private.h:513 kpci_private.h:716
+msgid "Bridge"
+msgstr ""
+
+#: kpci_private.h:444 kpci_private.h:522
+#, fuzzy
+#| msgid "Communication error"
+msgid "Communication controller"
+msgstr "Komunikaciski zmylk"
+
+#: kpci_private.h:445
+msgid "Generic system peripheral"
+msgstr ""
+
+#: kpci_private.h:446 kpci_private.h:538
+msgid "Input device controller"
+msgstr ""
+
+#: kpci_private.h:447 kpci_private.h:542
+#, fuzzy
+#| msgid "Orientation"
+msgid "Docking station"
+msgstr "Orientacija"
+
+#: kpci_private.h:448
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Processor"
+msgid "Processor"
+msgstr "procesor"
+
+#: kpci_private.h:449
+msgid "Serial bus controller"
+msgstr ""
+
+#: kpci_private.h:450 kpci_private.h:573
+msgid "Wireless controller"
+msgstr ""
+
+#: kpci_private.h:451
+msgid "Intelligent controller"
+msgstr ""
+
+#: kpci_private.h:452
+msgid "Satellite communications controller"
+msgstr ""
+
+#: kpci_private.h:453 kpci_private.h:587
+#, fuzzy
+msgid "Encryption controller"
+msgstr "Wopisanje:"
+
+#: kpci_private.h:454 kpci_private.h:594
+msgid "Signal processing controller"
+msgstr ""
+
+#: kpci_private.h:455
+#, fuzzy
+#| msgid "Device Subclass"
+msgid "Unknown device class"
+msgstr "Podklasa gratow"
+
+#: kpci_private.h:461
+msgid "Non-VGA unclassified device"
+msgstr ""
+
+#: kpci_private.h:462
+#, fuzzy
+#| msgctxt "Banner page"
+#| msgid "Unclassified"
+msgid "VGA unclassified device"
+msgstr "Njeklasifikowane"
+
+#: kpci_private.h:463
+#, fuzzy
+#| msgctxt "Banner page"
+#| msgid "Unclassified"
+msgid "Unknown unclassified device"
+msgstr "Njeklasifikowane"
+
+#: kpci_private.h:465
+msgid "SCSI storage controller"
+msgstr ""
+
+#: kpci_private.h:466
+msgid "IDE controller"
+msgstr ""
+
+#: kpci_private.h:467
+msgid "Floppy disk controller"
+msgstr ""
+
+#: kpci_private.h:468
+msgid "IPI bus controller"
+msgstr ""
+
+#: kpci_private.h:469
+msgid "RAID bus controller"
+msgstr ""
+
+#: kpci_private.h:470
+msgid "ATA controller"
+msgstr ""
+
+#: kpci_private.h:471
+msgid "Serial ATA direct port access"
+msgstr ""
+
+#: kpci_private.h:473
+#, fuzzy
+#| msgid "Unknown error"
+msgid "Unknown storage controller"
+msgstr "Njeznaty zmylk"
+
+#: kpci_private.h:475
+#, fuzzy
+#| msgid "Other, Control"
+msgid "Ethernet controller"
+msgstr "Druhe, Kontrola"
+
+#: kpci_private.h:476
+msgid "Token ring network controller"
+msgstr ""
+
+#: kpci_private.h:477
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "A network usage monitor"
+msgid "FDDI network controller"
+msgstr "Monitor, kiž pokazuje wućeženosć syće"
+
+#: kpci_private.h:478
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "A network usage monitor"
+msgid "ATM network controller"
+msgstr "Monitor, kiž pokazuje wućeženosć syće"
+
+#: kpci_private.h:479
+msgid "ISDN controller"
+msgstr ""
+
+#: kpci_private.h:480
+msgid "WorldFip controller"
+msgstr ""
+
+#: kpci_private.h:481
+msgid "PICMG 2.14 multi computing"
+msgstr ""
+
+#: kpci_private.h:483
+#, fuzzy
+#| msgid "Unknown error"
+msgid "Unknown network controller"
+msgstr "Njeznaty zmylk"
+
+#: kpci_private.h:485
+msgid "VGA compatible controller"
+msgstr ""
+
+#: kpci_private.h:486
+msgid "XGA compatible controller"
+msgstr ""
+
+#: kpci_private.h:487
+#, fuzzy
+#| msgid "Control"
+msgid "3D controller"
+msgstr "Kontrola"
+
+#: kpci_private.h:489
+msgid "Unknown display controller"
+msgstr ""
+
+#: kpci_private.h:491
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Multimedia Player"
+msgid "Multimedia video controller"
+msgstr "Multimedijowy wothrawak"
+
+#: kpci_private.h:492
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Multimedia Player"
+msgid "Multimedia audio controller"
+msgstr "Multimedijowy wothrawak"
+
+#: kpci_private.h:493
+msgid "Computer telephony device"
+msgstr ""
+
+#: kpci_private.h:495
+msgid "Unknown multimedia controller"
+msgstr ""
+
+#: kpci_private.h:497
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Memory"
+msgid "RAM memory"
+msgstr "Pomjatk"
+
+#: kpci_private.h:498
+msgid "FLASH memory"
+msgstr ""
+
+#: kpci_private.h:500
+#, fuzzy
+#| msgid "Unknown error"
+msgid "Unknown memory controller"
+msgstr "Njeznaty zmylk"
+
+#: kpci_private.h:502
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Meterbridge"
+msgid "Host bridge"
+msgstr "Meterbridge"
+
+#: kpci_private.h:503
+msgid "ISA bridge"
+msgstr ""
+
+#: kpci_private.h:504
+msgid "EISA bridge"
+msgstr ""
+
+#: kpci_private.h:505
+msgid "MicroChannel bridge"
+msgstr ""
+
+#: kpci_private.h:506
+msgid "PCI bridge"
+msgstr ""
+
+#: kpci_private.h:507
+msgid "PCMCIA bridge"
+msgstr ""
+
+#: kpci_private.h:508
+msgid "NuBus bridge"
+msgstr ""
+
+#: kpci_private.h:509
+msgid "CardBus bridge"
+msgstr ""
+
+#: kpci_private.h:510
+msgid "RACEway bridge"
+msgstr ""
+
+#: kpci_private.h:511
+msgid "Semi-transparent PCI-to-PCI bridge"
+msgstr ""
+
+#: kpci_private.h:512
+msgid "InfiniBand to PCI host bridge"
+msgstr ""
+
+#: kpci_private.h:514
+#, fuzzy
+#| msgid "Unknown word"
+msgid "Unknown bridge"
+msgstr "Njeznate słowo"
+
+#: kpci_private.h:516
+#, fuzzy
+#| msgid "Serial number:"
+msgid "Serial controller"
+msgstr "Čisło serije"
+
+#: kpci_private.h:517
+#, fuzzy
+msgid "Parallel controller"
+msgstr "Zapisk zničić"
+
+#: kpci_private.h:518
+msgid "Multiport serial controller"
+msgstr ""
+
+#: kpci_private.h:519
+#, fuzzy
+msgid "Modem"
+msgstr "Změnjeny:"
+
+#: kpci_private.h:520
+msgid "GPIB (IEEE 488.1/2) controller"
+msgstr ""
+
+#: kpci_private.h:521
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Smartcards"
+msgid "Smart card"
+msgstr "Smartcards"
+
+#: kpci_private.h:523
+#, fuzzy
+#| msgid "Communication error"
+msgid "Unknown communication controller"
+msgstr "Komunikaciski zmylk"
+
+#: kpci_private.h:525
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "PCI"
+msgid "PIC"
+msgstr "PCI"
+
+#: kpci_private.h:526
+msgid "DMA controller"
+msgstr ""
+
+#: kpci_private.h:527
+#, fuzzy
+msgid "Timer"
+msgstr "Name=(6) Hry"
+
+#: kpci_private.h:528
+msgid "RTC"
+msgstr ""
+
+#: kpci_private.h:529
+msgid "PCI Hot-plug controller"
+msgstr ""
+
+#: kpci_private.h:530
+#, fuzzy
+#| msgid "System error"
+msgid "System peripheral"
+msgstr "Systemowy zmylk"
+
+#: kpci_private.h:531
+msgid "Unknown system peripheral"
+msgstr ""
+
+#: kpci_private.h:533
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Keyboard Map Tool"
+msgid "Keyboard controller"
+msgstr "Pomocnik za předefinowanje tastatury "
+
+#: kpci_private.h:534
+msgid "Digitizer Pen"
+msgstr ""
+
+#: kpci_private.h:535
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Power Control"
+msgid "Mouse controller"
+msgstr "Milinowa kontrola"
+
+#: kpci_private.h:536
+msgid "Scanner controller"
+msgstr ""
+
+#: kpci_private.h:537
+msgid "Gameport controller"
+msgstr ""
+
+#: kpci_private.h:539
+msgid "Unknown input device controller"
+msgstr ""
+
+#: kpci_private.h:541
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "Generic options:\n"
+msgid "Generic docking station"
+msgstr ""
+"\n"
+"Powšitkowne opcije:\n"
+
+#: kpci_private.h:543
+#, fuzzy
+#| msgid "Unknown Application"
+msgid "Unknown docking station"
+msgstr "Njeznaty program"
+
+#: kpci_private.h:545
+msgid "386"
+msgstr ""
+
+#: kpci_private.h:546
+msgid "486"
+msgstr ""
+
+#: kpci_private.h:547
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Platinum"
+msgid "Pentium"
+msgstr "Platinum"
+
+#: kpci_private.h:548
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Alephone"
+msgid "Alpha"
+msgstr "Alephone"
+
+#: kpci_private.h:549
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Power Control"
+msgid "Power PC"
+msgstr "Milinowa kontrola"
+
+#: kpci_private.h:550
+msgid "MIPS"
+msgstr ""
+
+#: kpci_private.h:551
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Processor"
+msgid "Co-processor"
+msgstr "procesor"
+
+#: kpci_private.h:552
+#, fuzzy
+#| msgid "Unknown error"
+msgid "Unknown processor"
+msgstr "Njeznaty zmylk"
+
+#: kpci_private.h:554
+msgid "FireWire (IEEE 1394)"
+msgstr ""
+
+#: kpci_private.h:555
+msgid "ACCESS bus"
+msgstr ""
+
+#: kpci_private.h:556
+#, fuzzy
+#| msgid "SSL"
+msgid "SSA"
+msgstr "SSL"
+
+#: kpci_private.h:557
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Scrollkeeper"
+msgid "USB controller"
+msgstr "Scrollkeeper"
+
+#: kpci_private.h:558
+#, fuzzy
+msgid "Fibre channel"
+msgstr "Dataja zawěsćena."
+
+#: kpci_private.h:559
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "MusE"
+msgid "SMBus"
+msgstr "MusE"
+
+#: kpci_private.h:560
+msgid "InfiniBand"
+msgstr ""
+
+#: kpci_private.h:561
+msgid "IPMI interface"
+msgstr ""
+
+#: kpci_private.h:562
+msgid "SERCOS interface"
+msgstr ""
+
+#: kpci_private.h:563
+msgid "CANbus"
+msgstr ""
+
+#: kpci_private.h:564
+#, fuzzy
+#| msgid "Unknown error"
+msgid "Unknown serial bus controller"
+msgstr "Njeznaty zmylk"
+
+#: kpci_private.h:566
+msgid "IRDA controller"
+msgstr ""
+
+#: kpci_private.h:567
+msgid "Consumer IR controller"
+msgstr ""
+
+#: kpci_private.h:568
+#, fuzzy
+#| msgid "Control"
+msgid "RF controller"
+msgstr "Kontrola"
+
+#: kpci_private.h:569
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Fake Bluetooth"
+msgid "Bluetooth"
+msgstr "Pozdatny bluetooth"
+
+#: kpci_private.h:570
+msgid "Broadband"
+msgstr ""
+
+#: kpci_private.h:571
+msgid "Ethernet (802.11a - 5 GHz)"
+msgstr ""
+
+#: kpci_private.h:572
+msgid "Ethernet (802.11b - 2.4 GHz)"
+msgstr ""
+
+#: kpci_private.h:574
+#, fuzzy
+#| msgid "Unknown error"
+msgid "Unknown wireless controller"
+msgstr "Njeznaty zmylk"
+
+#: kpci_private.h:576
+msgid "I2O"
+msgstr ""
+
+#: kpci_private.h:577
+msgid "Unknown intelligent controller"
+msgstr ""
+
+#: kpci_private.h:579
+msgid "Satellite TV controller"
+msgstr ""
+
+#: kpci_private.h:580
+msgid "Satellite audio communication controller"
+msgstr ""
+
+#: kpci_private.h:581
+msgid "Satellite voice communication controller"
+msgstr ""
+
+#: kpci_private.h:582
+msgid "Satellite data communication controller"
+msgstr ""
+
+#: kpci_private.h:583
+msgid "Unknown satellite communications controller"
+msgstr ""
+
+#: kpci_private.h:585
+msgid "Network and computing encryption device"
+msgstr ""
+
+#: kpci_private.h:586
+#, fuzzy
+#| msgid "Enter a description"
+msgid "Entertainment encryption device"
+msgstr "zapodajće wopisanje"
+
+#: kpci_private.h:588
+#, fuzzy
+msgid "Unknown encryption controller"
+msgstr "Njeznata opcija '%1'."
+
+#: kpci_private.h:590
+msgid "DPIO module"
+msgstr ""
+
+#: kpci_private.h:591
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Performance"
+msgid "Performance counters"
+msgstr "Spěšnosć"
+
+#: kpci_private.h:592
+#, fuzzy
+#| msgid "Communication error"
+msgid "Communication synchronizer"
+msgstr "Komunikaciski zmylk"
+
+#: kpci_private.h:593
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "File Management"
+msgid "Management card"
+msgstr "Datajowy manager"
+
+#: kpci_private.h:595
+msgid "Unknown signal processing controller"
+msgstr ""
+
+#: kpci_private.h:597
+msgid "Unknown subdevice class"
+msgstr ""
+
+#: kpci_private.h:604
+msgid "single DMA"
+msgstr ""
+
+#: kpci_private.h:605
+msgid "chained DMA"
+msgstr ""
+
+#: kpci_private.h:607
+msgid "VGA compatible"
+msgstr ""
+
+#: kpci_private.h:608
+msgid "8514 compatible"
+msgstr ""
+
+#: kpci_private.h:610
+#, fuzzy
+#| msgctxt "normal severity"
+#| msgid "Normal"
+msgid "Normal decode"
+msgstr "Normalny"
+
+#: kpci_private.h:611
+msgid "Subtractive decode"
+msgstr ""
+
+#: kpci_private.h:613
+#, fuzzy
+#| msgid "Translate"
+msgid "Transparent mode"
+msgstr "Přełožić"
+
+#: kpci_private.h:614
+msgid "Endpoint mode"
+msgstr ""
+
+#: kpci_private.h:616
+msgid "Primary bus towards host CPU"
+msgstr ""
+
+#: kpci_private.h:617
+msgid "Secondary bus towards host CPU"
+msgstr ""
+
+#: kpci_private.h:619
+#, fuzzy
+#| msgctxt "dictionary variant"
+#| msgid "80"
+msgid "8250"
+msgstr "80"
+
+#: kpci_private.h:620
+msgid "16450"
+msgstr ""
+
+#: kpci_private.h:621
+msgid "16550"
+msgstr ""
+
+#: kpci_private.h:622
+msgid "16650"
+msgstr ""
+
+#: kpci_private.h:623
+msgid "16750"
+msgstr ""
+
+#: kpci_private.h:624
+msgid "16850"
+msgstr ""
+
+#: kpci_private.h:625
+msgid "16950"
+msgstr ""
+
+#: kpci_private.h:627
+msgid "SPP"
+msgstr ""
+
+#: kpci_private.h:628
+msgid "BiDir"
+msgstr ""
+
+#: kpci_private.h:629
+msgid "ECP"
+msgstr ""
+
+#: kpci_private.h:630
+msgid "IEEE1284"
+msgstr ""
+
+#: kpci_private.h:631
+msgid "IEEE1284 Target"
+msgstr ""
+
+#: kpci_private.h:633 kpci_private.h:653 kpci_private.h:656 kpci_private.h:659
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Gnumeric"
+msgid "Generic"
+msgstr "Gnumeric"
+
+#: kpci_private.h:634
+msgid "Hayes/16450"
+msgstr ""
+
+#: kpci_private.h:635
+msgid "Hayes/16550"
+msgstr ""
+
+#: kpci_private.h:636
+msgid "Hayes/16650"
+msgstr ""
+
+#: kpci_private.h:637
+msgid "Hayes/16750"
+msgstr ""
+
+#: kpci_private.h:639
+msgid "8259"
+msgstr ""
+
+#: kpci_private.h:640
+msgid "ISA PIC"
+msgstr ""
+
+#: kpci_private.h:641
+msgid "EISA PIC"
+msgstr ""
+
+#: kpci_private.h:642
+msgid "IO-APIC"
+msgstr ""
+
+#: kpci_private.h:643
+msgid "IO(X)-APIC"
+msgstr ""
+
+#: kpci_private.h:645
+msgid "8237"
+msgstr ""
+
+#: kpci_private.h:646
+msgid "ISA DMA"
+msgstr ""
+
+#: kpci_private.h:647
+msgid "EISA DMA"
+msgstr ""
+
+#: kpci_private.h:649
+msgid "8254"
+msgstr ""
+
+#: kpci_private.h:650
+msgid "ISA timer"
+msgstr ""
+
+#: kpci_private.h:651
+msgid "EISA timers"
+msgstr ""
+
+#: kpci_private.h:654
+msgid "ISA RTC"
+msgstr ""
+
+#: kpci_private.h:657
+#, fuzzy
+#| msgctxt "dictionary variant"
+#| msgid "extended"
+msgid "Extended"
+msgstr "rošěrjene"
+
+#: kpci_private.h:660 kpci_private.h:663
+msgid "OHCI"
+msgstr ""
+
+#: kpci_private.h:662
+msgid "UHCI"
+msgstr ""
+
+#: kpci_private.h:664
+msgid "EHCI"
+msgstr ""
+
+#: kpci_private.h:665
+#, fuzzy
+#| msgid "Not specified"
+msgid "Unspecified"
+msgstr "Ničo njepostajene"
+
+#: kpci_private.h:666
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "USB Devices"
+msgid "USB Device"
+msgstr "USB-graty"
+
+#: kpci_private.h:668
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "SILC"
+msgid "SMIC"
+msgstr "SILC"
+
+#: kpci_private.h:669
+msgid "Keyboard controller style"
+msgstr ""
+
+#: kpci_private.h:670
+#, fuzzy
+#| msgid "Block IFrame..."
+msgid "Block transfer"
+msgstr "IFrame blokować..."
+
+#: kpci_private.h:680
+msgid "Vital product data"
+msgstr ""
+
+#: kpci_private.h:681
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Browser Identification"
+msgid "Slot identification"
+msgstr "Identifikacija browsera"
+
+#: kpci_private.h:683
+msgid "CompactPCI hot swap"
+msgstr ""
+
+#: kpci_private.h:684
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "PCI"
+msgid "PCI-X"
+msgstr "PCI"
+
+#: kpci_private.h:685
+msgid "HyperTransport"
+msgstr ""
+
+#: kpci_private.h:686
+#, fuzzy
+msgid "Vendor specific"
+msgstr "Name=Strategija"
+
+#: kpci_private.h:687
+#, fuzzy
+#| msgid "Send bug report."
+msgid "Debug port"
+msgstr "Pósćel rozprawu wo zmylku."
+
+#: kpci_private.h:688
+msgid "CompactPCI central resource control"
+msgstr ""
+
+#: kpci_private.h:689
+msgid "PCI hot-plug"
+msgstr ""
+
+#: kpci_private.h:690
+msgid "AGP x8"
+msgstr ""
+
+#: kpci_private.h:691
+#, fuzzy
+#| msgid "Services"
+msgid "Secure device"
+msgstr "Serwisy"
+
+#: kpci_private.h:692
+msgid "PCI express"
+msgstr ""
+
+#: kpci_private.h:693
+msgid "MSI-X"
+msgstr ""
+
+#: kpci_private.h:699
+#, fuzzy
+msgid "Fast"
+msgstr "Datum"
+
+#: kpci_private.h:700
+#, fuzzy
+#| msgctxt "dictionary variant"
+#| msgid "medium"
+msgid "Medium"
+msgstr "srjedźanske"
+
+#: kpci_private.h:701
+#, fuzzy
+#| msgid "Allow"
+msgid "Slow"
+msgstr "dowolić"
+
+#: kpci_private.h:707
+msgid "32 bit"
+msgstr ""
+
+#: kpci_private.h:708
+msgid "Below 1M"
+msgstr ""
+
+#: kpci_private.h:709
+msgid "64 bit"
+msgstr ""
+
+#: kpci_private.h:715
+#, fuzzy
+#| msgctxt "Banner page"
+#| msgid "Standard"
+msgid "Standard"
+msgstr "Standard"
+
+#: kpci_private.h:717
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Cyprus"
+msgid "CardBus"
+msgstr "Cypriska"
+
+#: kpci_private.h:723
+#, fuzzy
+#| msgid "1"
+msgid "1X"
+msgstr "1"
+
+#: kpci_private.h:724
+#, fuzzy
+#| msgid "2"
+msgid "2X"
+msgstr "2"
+
+#: kpci_private.h:725
+msgid "1X & 2X"
+msgstr ""
+
+#: kpci_private.h:726 kpci_private.h:730
+#, fuzzy
+#| msgid "4"
+msgid "4X"
+msgstr "4"
+
+#: kpci_private.h:727
+msgid "1X & 4X"
+msgstr ""
+
+#: kpci_private.h:728
+msgid "2X & 4X"
+msgstr ""
+
+#: kpci_private.h:729
+msgid "1X & 2X & 4X"
+msgstr ""
+
+#: kpci_private.h:731
+#, fuzzy
+#| msgid "8"
+msgid "8X"
+msgstr "8"
+
+#: kpci_private.h:732
+msgid "4X & 8X"
+msgstr ""
+
+#: kpci_private.h:738
+#, fuzzy
+#| msgid "ms"
+msgid "4 ms"
+msgstr "ms"
+
+#: kpci_private.h:739
+msgid "16 ms"
+msgstr ""
+
+#: kpci_private.h:740
+msgid "64 ms"
+msgstr ""
+
+#: kpci_private.h:741
+msgid "256 ms"
+msgstr ""
+
+#: kpci_private.h:742
+#, fuzzy
+#| msgid "Not connected."
+msgid "Not needed"
+msgstr "Žadyn zwisk"
+
+#: kpci_private.h:748
+msgid "0 (self powered)"
+msgstr ""
+
+#: kpci_private.h:749
+msgid "55 mA"
+msgstr ""
+
+#: kpci_private.h:750
+msgid "100 mA"
+msgstr ""
+
+#: kpci_private.h:751
+msgid "160 mA"
+msgstr ""
+
+#: kpci_private.h:752
+msgid "220 mA"
+msgstr ""
+
+#: kpci_private.h:753
+msgid "270 mA"
+msgstr ""
+
+#: kpci_private.h:754
+msgid "320 mA"
+msgstr ""
+
+#: kpci_private.h:755
+msgid "375 mA"
+msgstr ""
+
+#: kpci_private.h:770
+#, fuzzy
+#| msgctxt "@item:intext"
+#| msgid "1 second"
+#| msgid_plural "%1 seconds"
+msgid "1 vector"
+msgstr "%1 sekunda"
+
+#: kpci_private.h:771
+msgid "2 vectors"
+msgstr ""
+
+#: kpci_private.h:772
+msgid "4 vectors"
+msgstr ""
+
+#: kpci_private.h:773
+msgid "8 vectors"
+msgstr ""
+
+#: kpci_private.h:774
+#, fuzzy
+#| msgid "%1 seconds"
+msgid "16 vectors"
+msgstr "%1 sekundow"
+
+#: kpci_private.h:775
+msgid "32 vectors"
 msgstr ""
 
 #~ msgid "Editor Chooser"
@@ -769,20 +1882,11 @@ msgstr ""
 #~ msgid "Pages Per Sheet"
 #~ msgstr "Strony na łopjeno"
 
-#~ msgid "1"
-#~ msgstr "1"
-
 #~ msgid "6"
 #~ msgstr "6"
 
-#~ msgid "2"
-#~ msgstr "2"
-
 #~ msgid "9"
 #~ msgstr "9"
-
-#~ msgid "4"
-#~ msgstr "4"
 
 #~ msgid "16"
 #~ msgstr "16"
@@ -898,9 +2002,6 @@ msgstr ""
 
 #~ msgid "Unknown word:"
 #~ msgstr "Njeznate słowo:"
-
-#~ msgid "Unknown word"
-#~ msgstr "Njeznate słowo"
 
 #~ msgid "<b>misspelled</b>"
 #~ msgstr "<b>wopak pisane</b>"
@@ -1486,9 +2587,6 @@ msgstr ""
 #~ msgid "7"
 #~ msgstr "7"
 
-#~ msgid "8"
-#~ msgstr "8"
-
 #~ msgid "MainWindow"
 #~ msgstr "Hłownewokno"
 
@@ -1879,9 +2977,6 @@ msgstr ""
 
 #~ msgid "Qt plugins"
 #~ msgstr "Qt plugins"
-
-#~ msgid "Services"
-#~ msgstr "Serwisy"
 
 #~ msgid "Service types"
 #~ msgstr "Družiny serwisow"
@@ -2981,13 +4076,6 @@ msgstr ""
 #~ msgid "Usage: %1 %2\n"
 #~ msgstr "Wužiwanje: %1 %2\n"
 
-#~ msgid ""
-#~ "\n"
-#~ "Generic options:\n"
-#~ msgstr ""
-#~ "\n"
-#~ "Powšitkowne opcije:\n"
-
 #~ msgid "Show help about options"
 #~ msgstr "Pomhaj mi z opcijemi"
 
@@ -3197,10 +4285,6 @@ msgstr ""
 #~ msgstr "60"
 
 #~ msgctxt "dictionary variant"
-#~ msgid "80"
-#~ msgstr "80"
-
-#~ msgctxt "dictionary variant"
 #~ msgid "-ise suffixes"
 #~ msgstr "sufiksy -ise"
 
@@ -3227,10 +4311,6 @@ msgstr ""
 #~ msgctxt "dictionary variant"
 #~ msgid "large"
 #~ msgstr "wulke"
-
-#~ msgctxt "dictionary variant"
-#~ msgid "medium"
-#~ msgstr "srjedźanske"
 
 #~ msgctxt "dictionary variant"
 #~ msgid "small"
@@ -3267,10 +4347,6 @@ msgstr ""
 #~ msgctxt "dictionary variant"
 #~ msgid "with yo"
 #~ msgstr "z yo"
-
-#~ msgctxt "dictionary variant"
-#~ msgid "extended"
-#~ msgstr "rošěrjene"
 
 #~ msgctxt "dictionary name. %1-language, %2-country and %3 variant name"
 #~ msgid "%1 (%2) [%3]"
@@ -3323,10 +4399,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Žane mime-družiny instalowane. Přepruwujće, hač je mime-info instalowane, "
 #~ "a zo XDG_DATA_DIRS njeje postajene abo zo wopřijmuje /usr/share."
-
-#~ msgctxt "@item Text character set"
-#~ msgid "Disabled"
-#~ msgstr "njesteji k dispoziciji"
 
 #~ msgctxt "@item Text character set"
 #~ msgid "Universal"
@@ -3412,9 +4484,6 @@ msgstr ""
 #~ msgid "%1 minutes"
 #~ msgstr "%1 mjeńšin"
 
-#~ msgid "%1 seconds"
-#~ msgstr "%1 sekundow"
-
 #~ msgid "%1 milliseconds"
 #~ msgstr "%1 milisekundow"
 
@@ -3441,14 +4510,6 @@ msgstr ""
 #~ msgstr[1] "%1 mjeńšinje"
 #~ msgstr[2] "%1 mjeńšiny"
 #~ msgstr[3] "%1 mjeńšin"
-
-#~ msgctxt "@item:intext"
-#~ msgid "1 second"
-#~ msgid_plural "%1 seconds"
-#~ msgstr[0] "%1 sekunda"
-#~ msgstr[1] "%1 sekundźe"
-#~ msgstr[2] "%1 sekundy"
-#~ msgstr[3] "%1 sekundow"
 
 #~ msgctxt ""
 #~ "@item:intext days and hours. This uses the previous item:intext messages. "
@@ -3967,9 +5028,6 @@ msgstr ""
 #~ msgid "View Comments"
 #~ msgstr "Komentary wobhladać"
 
-#~ msgid "Translate"
-#~ msgstr "Přełožić"
-
 #~ msgid "Subscribe"
 #~ msgstr "subskribować"
 
@@ -4268,17 +5326,11 @@ msgstr ""
 #~ msgid "Confirm Quit From System Tray"
 #~ msgstr "Confirm Quit From System Tray"
 
-#~ msgid "Unknown Application"
-#~ msgstr "Njeznaty program"
-
 #~ msgid "&OK"
 #~ msgstr "&OK"
 
 #~ msgid "&Cancel"
 #~ msgstr "&Přetorhnyć"
-
-#~ msgid "No"
-#~ msgstr "Ně"
 
 #~ msgid "&Discard"
 #~ msgstr "&Zaćisnyć"
@@ -4650,14 +5702,6 @@ msgstr ""
 #~ msgstr "Žane"
 
 #~ msgctxt "Banner page"
-#~ msgid "Standard"
-#~ msgstr "Standard"
-
-#~ msgctxt "Banner page"
-#~ msgid "Unclassified"
-#~ msgstr "Njeklasifikowane"
-
-#~ msgctxt "Banner page"
 #~ msgid "Confidential"
 #~ msgstr "Dowěrliwe"
 
@@ -4925,9 +5969,6 @@ msgstr ""
 #~ msgid "&Send"
 #~ msgstr "&Pósćel"
 
-#~ msgid "Send bug report."
-#~ msgstr "Pósćel rozprawu wo zmylku."
-
 #~ msgid "Send this bug report to %1."
 #~ msgstr "Pósćel rozprawu wo zmylku na %1."
 
@@ -4963,10 +6004,6 @@ msgstr ""
 
 #~ msgid "Grave"
 #~ msgstr "Ćežki"
-
-#~ msgctxt "normal severity"
-#~ msgid "Normal"
-#~ msgstr "Normalny"
 
 #~ msgid "Wishlist"
 #~ msgstr "Lisćina přećow"
@@ -7060,9 +8097,6 @@ msgstr ""
 #~ msgid "<not assigned>"
 #~ msgstr "<njespecifikowane>"
 
-#~ msgid "Other, Control"
-#~ msgstr "Druhe, Kontrola"
-
 #~ msgid "Other, Format"
 #~ msgstr "Druhe, format"
 
@@ -7253,9 +8287,6 @@ msgstr ""
 
 #~ msgid "Toolbar Menu"
 #~ msgstr "Nastrojowy meni"
-
-#~ msgid "Orientation"
-#~ msgstr "Orientacija"
 
 #~ msgctxt "toolbar position string"
 #~ msgid "Top"
@@ -7484,9 +8515,6 @@ msgstr ""
 
 #~ msgid "View Frame Information"
 #~ msgstr "Informacija wo ramiku"
-
-#~ msgid "Block IFrame..."
-#~ msgstr "IFrame blokować..."
 
 #~ msgid "Save Image As..."
 #~ msgstr "Wobraz zawěsćić jako ..."
@@ -8086,9 +9114,6 @@ msgstr ""
 #~ "<qt>Tutón server chce <p>%1</p> w nowym woknje z JavaScript wočinić.<br/"
 #~ ">Chceće to jemu dowolić?</qt>"
 
-#~ msgid "Allow"
-#~ msgstr "dowolić"
-
 #~ msgid "Do Not Allow"
 #~ msgstr "nic dowolić"
 
@@ -8562,14 +9587,8 @@ msgstr ""
 #~ msgid "Success"
 #~ msgstr "Wuspěšnje"
 
-#~ msgid "Communication error"
-#~ msgstr "Komunikaciski zmylk"
-
 #~ msgid "Invalid type in Database"
 #~ msgstr "Njewalidny typ w datowej bazy"
-
-#~ msgid "Unknown error"
-#~ msgstr "Njeznaty zmylk"
 
 #~ msgid "Create New Tag..."
 #~ msgstr "Nowy tag stworić..."
@@ -9453,16 +10472,8 @@ msgstr ""
 #~ msgstr "Zmylk při wuběranju GSM-dataje: "
 
 #, fuzzy
-#~ msgid "Unknown encryption scheme."
-#~ msgstr "Njeznata opcija '%1'."
-
-#, fuzzy
 #~ msgid "Corrupt file?"
 #~ msgstr "Dataja za &output:"
-
-#, fuzzy
-#~ msgid "Decryption error."
-#~ msgstr "Wopisanje:"
 
 #, fuzzy
 #~| msgid "Open &Recent"
@@ -9899,9 +10910,6 @@ msgstr ""
 #~ msgid "Valid from:"
 #~ msgstr "Płaći wot:"
 
-#~ msgid "Serial number:"
-#~ msgstr "Čisło serije"
-
 #~ msgid "MD5 digest:"
 #~ msgstr "MD5 digest:"
 
@@ -10134,9 +11142,6 @@ msgstr ""
 #~ msgid "&Yes"
 #~ msgstr "&Haj"
 
-#~ msgid "Yes"
-#~ msgstr "Haj"
-
 #~ msgid "&No"
 #~ msgstr "&Ně"
 
@@ -10158,10 +11163,6 @@ msgstr ""
 
 #~ msgid "Open"
 #~ msgstr "Wočinić"
-
-#, fuzzy
-#~ msgid "Paste"
-#~ msgstr "Datum"
 
 #~ msgid "New..."
 #~ msgstr "Nowy..."
@@ -10189,9 +11190,6 @@ msgstr ""
 #~ msgid "&Skip"
 #~ msgstr "Pře&skočić"
 
-#~ msgid "Unknown"
-#~ msgstr "Njeznaju"
-
 #, fuzzy
 #~ msgid "Icon Size"
 #~ msgstr "Piktogramy"
@@ -10205,9 +11203,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Overwrite File?"
 #~ msgstr "&Wšitke přepisać"
-
-#~ msgid "SSL"
-#~ msgstr "SSL"
 
 #~ msgid "%1 (Link)"
 #~ msgstr "%1 (wotkaz)"
@@ -10421,10 +11416,6 @@ msgstr ""
 
 #~ msgid "Menu"
 #~ msgstr "Meni"
-
-#, fuzzy
-#~ msgid "Parent Folder"
-#~ msgstr "Zapisk zničić"
 
 #, fuzzy
 #~ msgid "Home Folder"
@@ -12766,9 +13757,6 @@ msgstr ""
 #~ msgid "Error connecting to server."
 #~ msgstr "Zmylk při zwjazanju ze serverom."
 
-#~ msgid "Not connected."
-#~ msgstr "Žadyn zwisk"
-
 #~ msgid "Connection timed out."
 #~ msgstr "Čakanski čas za zwisk nimo."
 
@@ -13963,9 +14951,6 @@ msgstr ""
 #~ msgid "Show details of the next cookie"
 #~ msgstr "Pokaž nadrobne informacije wo přichodnym placku"
 
-#~ msgid "Not specified"
-#~ msgstr "Ničo njepostajene"
-
 #~ msgid "End of Session"
 #~ msgstr "Kónc sesije"
 
@@ -13986,9 +14971,6 @@ msgstr ""
 
 #~ msgid "No metainfo for %1"
 #~ msgstr "Žana metainformacija za %1"
-
-#~ msgid "Enter a description"
-#~ msgstr "zapodajće wopisanje"
 
 #, fuzzy
 #~| msgid ""
@@ -14613,11 +15595,6 @@ msgstr ""
 #~ msgstr "%1 (port %2)"
 
 #, fuzzy
-#~ msgctxt "@title:column"
-#~ msgid "Modified"
-#~ msgstr "Změnjeny:"
-
-#, fuzzy
 #~| msgid ""
 #~| "The desktop entry file\n"
 #~| "%1\n"
@@ -14767,9 +15744,6 @@ msgstr ""
 
 #~ msgid "s"
 #~ msgstr "s"
-
-#~ msgid "ms"
-#~ msgstr "ms"
 
 #~ msgid "bps"
 #~ msgstr "bps"
@@ -15058,10 +16032,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Dokument \"%1\" je so změnił.\n"
 #~ "Chceće jón zawěsćić?"
-
-#, fuzzy
-#~ msgid "File Changed"
-#~ msgstr "Dataja zawěsćena."
 
 #, fuzzy
 #~ msgid "Do Not Delete"
@@ -15541,10 +16511,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "XSoldier"
 #~ msgstr "XSoldier"
-
-#~ msgctxt "Name"
-#~ msgid "Alephone"
-#~ msgstr "Alephone"
 
 #~ msgctxt "Comment"
 #~ msgid "An open source version of Marathon Infinity for SDL"
@@ -16069,10 +17035,6 @@ msgstr ""
 #~ msgstr "SILC Client"
 
 #~ msgctxt "Name"
-#~ msgid "SILC"
-#~ msgstr "SILC"
-
-#~ msgctxt "Name"
 #~ msgid "Slrn"
 #~ msgstr "Slrn"
 
@@ -16175,10 +17137,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Licq"
 #~ msgstr "Licq"
-
-#~ msgctxt "Name"
-#~ msgid "MLDonkey GTK+ Core Controller"
-#~ msgstr "MLDonkey GTK+ Core Controller"
 
 #~ msgctxt "GenericName"
 #~ msgid "MLDonkey GUI"
@@ -16409,10 +17367,6 @@ msgstr ""
 #~ msgstr "Dual Channel VU-Meter"
 
 #~ msgctxt "Name"
-#~ msgid "Meterbridge"
-#~ msgstr "Meterbridge"
-
-#~ msgctxt "Name"
 #~ msgid "Mixxx"
 #~ msgstr "Mixxx"
 
@@ -16423,10 +17377,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "MpegTV"
 #~ msgstr "MpegTV"
-
-#~ msgctxt "Name"
-#~ msgid "MusE"
-#~ msgstr "MusE"
 
 #~ msgctxt "GenericName"
 #~ msgid "Music Sequencer"
@@ -16520,10 +17470,6 @@ msgstr ""
 #~ msgid "Enqueue in XMMS"
 #~ msgstr "Enqueue in XMMS"
 
-#~ msgctxt "GenericName"
-#~ msgid "Multimedia Player"
-#~ msgstr "Multimedijowy wothrawak"
-
 #~ msgctxt "Name"
 #~ msgid "XMMS"
 #~ msgstr "XMMS"
@@ -16571,10 +17517,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "GNOME Time Tracker"
 #~ msgstr "GNOME Time Tracker"
-
-#~ msgctxt "Name"
-#~ msgid "Gnumeric"
-#~ msgstr "Gnumeric"
 
 #~ msgctxt "GenericName"
 #~ msgid "Spread Sheet"
@@ -16836,10 +17778,6 @@ msgstr ""
 #~ msgid "X Traceroute"
 #~ msgstr "X Traceroute"
 
-#~ msgctxt "GenericName"
-#~ msgid "Network Tool"
-#~ msgstr "Syćowy nastroj"
-
 #~ msgctxt "Name"
 #~ msgid "X Calc"
 #~ msgstr "X Calc"
@@ -16940,10 +17878,6 @@ msgstr ""
 #~ msgid "IO-port information"
 #~ msgstr "Informacija wo IO-portach"
 
-#~ msgctxt "Name"
-#~ msgid "Processor"
-#~ msgstr "procesor"
-
 #~ msgctxt "Comment"
 #~ msgid "Processor information"
 #~ msgstr "Informacija wo procesoru"
@@ -16988,10 +17922,6 @@ msgstr ""
 #~ msgid "Info Center"
 #~ msgstr "Centralna informacija"
 
-#~ msgctxt "Name"
-#~ msgid "Memory"
-#~ msgstr "Pomjatk"
-
 #~ msgctxt "Comment"
 #~ msgid "Memory information"
 #~ msgstr "Informacija wo pomjatku"
@@ -17020,10 +17950,6 @@ msgstr ""
 #~ msgid "Partition information"
 #~ msgstr "Informacije wo particijach"
 
-#~ msgctxt "Name"
-#~ msgid "PCI"
-#~ msgstr "PCI"
-
 #~ msgctxt "Comment"
 #~ msgid "PCI information"
 #~ msgstr "Informacija wo PCI"
@@ -17043,10 +17969,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Processor Information"
 #~ msgstr "Informacija wo procesoru"
-
-#~ msgctxt "Name"
-#~ msgid "USB Devices"
-#~ msgstr "USB-graty"
 
 #~ msgctxt "Comment"
 #~ msgid "USB devices attached to this computer"
@@ -17103,10 +18025,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Reduces Konqueror startup time"
 #~ msgstr "Zredukuje čas za wuwjedźenje konquerora"
-
-#~ msgctxt "Name"
-#~ msgid "File Management"
-#~ msgstr "Datajowy manager"
 
 #~ msgctxt "Name"
 #~ msgid "File Preview"
@@ -17321,10 +18239,6 @@ msgstr ""
 #~ msgid "UADescription (Wget 1.5.3)"
 #~ msgstr "UADescription (Wget 1.5.3)"
 
-#~ msgctxt "Name"
-#~ msgid "Browser Identification"
-#~ msgstr "Identifikacija browsera"
-
 #~ msgctxt "Comment"
 #~ msgid "Configure the way Konqueror reports itself"
 #~ msgstr "Nastajić, pod kotrym mjenom so konqueror přizjewi"
@@ -17413,10 +18327,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Configure the behavior of Java and JavaScript"
 #~ msgstr "Zadźerženje Javy a JavaSkripta připrawić"
-
-#~ msgctxt "Name"
-#~ msgid "Performance"
-#~ msgstr "Spěšnosć"
 
 #~ msgctxt "Comment"
 #~ msgid "Configure settings that can improve Konqueror performance"
@@ -18135,10 +19045,6 @@ msgstr ""
 #~ msgstr "(n) Nowe"
 
 #~ msgctxt "Name"
-#~ msgid "Scrollkeeper"
-#~ msgstr "Scrollkeeper"
-
-#~ msgctxt "Name"
 #~ msgid "Tutorials"
 #~ msgstr "Tutorije"
 
@@ -18561,10 +19467,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Built-in enhanced Motif style"
 #~ msgstr "Integrowany, polěpšeny Motif-stil"
-
-#~ msgctxt "Name"
-#~ msgid "Platinum"
-#~ msgstr "Platinum"
 
 #~ msgctxt "Comment"
 #~ msgid "Built-in unthemed Platinum style"
@@ -19708,10 +20610,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Christmas Island"
 #~ msgstr "Hodowna kupa"
-
-#~ msgctxt "Name"
-#~ msgid "Cyprus"
-#~ msgstr "Cypriska"
 
 #~ msgctxt "Name"
 #~ msgid "Czech Republic"
@@ -21012,10 +21910,6 @@ msgstr ""
 #~ msgid "Date and time settings"
 #~ msgstr "Nastajenja za datum a čas"
 
-#~ msgctxt "Name"
-#~ msgid "Power Control"
-#~ msgstr "Milinowa kontrola"
-
 #~ msgctxt "Comment"
 #~ msgid "Settings for display power management"
 #~ msgstr "Nastajenja za milinu za wobrazowku"
@@ -21189,10 +22083,6 @@ msgstr ""
 #~ msgstr "Tastaturowy layout"
 
 #~ msgctxt "Name"
-#~ msgid "Keyboard Map Tool"
-#~ msgstr "Pomocnik za předefinowanje tastatury "
-
-#~ msgctxt "Name"
 #~ msgid "Launch Feedback"
 #~ msgstr "Feedback za startowanje"
 
@@ -21227,10 +22117,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Screen Saver Settings"
 #~ msgstr "Nastajenja za škitaki"
-
-#~ msgctxt "Name"
-#~ msgid "Smartcards"
-#~ msgstr "Smartcards"
 
 #~ msgctxt "Comment"
 #~ msgid "Configure smartcard support"
@@ -22119,11 +23005,6 @@ msgstr ""
 #~ msgstr "Comment=Nastajenja hesłow připrawić"
 
 #, fuzzy
-#~ msgctxt "Name"
-#~ msgid "Window-Specific"
-#~ msgstr "Name=Strategija"
-
-#, fuzzy
 #~ msgctxt "Comment"
 #~ msgid "The KDE Window Manager"
 #~ msgstr "Name=Woknowe managery"
@@ -22410,10 +23291,6 @@ msgstr ""
 #~ msgid "The daemon received a new message sent with wall(1) or write(1)"
 #~ msgstr "Demon je powěsć dóstał, pósłanu z wall(1) abo write(1)"
 
-#~ msgctxt "Name"
-#~ msgid "Fake Bluetooth"
-#~ msgstr "Pozdatny bluetooth"
-
 #~ msgctxt "Comment"
 #~ msgid "Fake Bluetooth Management"
 #~ msgstr "Rjadowanje pozdatneho bluetootha"
@@ -22561,10 +23438,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "System Monitor - Network"
 #~ msgstr "Systemowy monitor - syć"
-
-#~ msgctxt "Comment"
-#~ msgid "A network usage monitor"
-#~ msgstr "Monitor, kiž pokazuje wućeženosć syće"
 
 #~ msgctxt "Name"
 #~ msgid "System Monitor - Temperature"
@@ -22751,11 +23624,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Ruby Web Browser"
 #~ msgstr "Name=Web-browser"
-
-#, fuzzy
-#~ msgctxt "Name"
-#~ msgid "Tiger"
-#~ msgstr "Name=(6) Hry"
 
 #, fuzzy
 #~ msgctxt "Name"
