@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-07 11:14+0200\n"
+"POT-Creation-Date: 2009-04-12 11:06+0200\n"
 "PO-Revision-Date: 2004-04-16 18:01+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -73,9 +73,7 @@ msgstr "Tekst"
 
 #. i18n: file: part/dialogs/KWStatistics.ui:150
 #. i18n: ectx: property (text), widget (QCheckBox, footEndNotes)
-#. i18n: file: part/dockers/KWStatisticsDocker.ui:84
-#. i18n: ectx: property (text), widget (QCheckBox, footEndNotes)
-#: rc.cpp:23 rc.cpp:232
+#: rc.cpp:23
 msgid "Include text from foot- and endnotes"
 msgstr ""
 
@@ -477,7 +475,7 @@ msgstr "Špalta"
 msgid "Column spacing:"
 msgstr "Standard:"
 
-#. i18n: file: part/dockers/KWStatisticsDocker.ui:22
+#. i18n: file: part/dockers/KWStatisticsDocker.ui:21
 #. i18n: ectx: property (text), item, widget (QComboBox, statistics)
 #: rc.cpp:205
 #, fuzzy
@@ -485,59 +483,66 @@ msgstr "Standard:"
 msgid "Words"
 msgstr "Kromy"
 
-#. i18n: file: part/dockers/KWStatisticsDocker.ui:27
+#. i18n: file: part/dockers/KWStatisticsDocker.ui:26
 #. i18n: ectx: property (text), item, widget (QComboBox, statistics)
 #: rc.cpp:208
 msgid "Sentences"
 msgstr ""
 
-#. i18n: file: part/dockers/KWStatisticsDocker.ui:32
+#. i18n: file: part/dockers/KWStatisticsDocker.ui:31
 #. i18n: ectx: property (text), item, widget (QComboBox, statistics)
 #: rc.cpp:211
 msgid "Syllables"
 msgstr ""
 
-#. i18n: file: part/dockers/KWStatisticsDocker.ui:37
+#. i18n: file: part/dockers/KWStatisticsDocker.ui:36
 #. i18n: ectx: property (text), item, widget (QComboBox, statistics)
 #: rc.cpp:214
 msgid "Lines"
 msgstr ""
 
-#. i18n: file: part/dockers/KWStatisticsDocker.ui:42
+#. i18n: file: part/dockers/KWStatisticsDocker.ui:41
 #. i18n: ectx: property (text), item, widget (QComboBox, statistics)
 #: rc.cpp:217
 msgid "Characters incl. spaces"
 msgstr ""
 
-#. i18n: file: part/dockers/KWStatisticsDocker.ui:47
+#. i18n: file: part/dockers/KWStatisticsDocker.ui:46
 #. i18n: ectx: property (text), item, widget (QComboBox, statistics)
 #: rc.cpp:220
 msgid "Characters without spaces"
 msgstr ""
 
-#. i18n: file: part/dockers/KWStatisticsDocker.ui:52
+#. i18n: file: part/dockers/KWStatisticsDocker.ui:51
 #. i18n: ectx: property (text), item, widget (QComboBox, statistics)
 #: rc.cpp:223
 msgid "Flesch reading ease"
 msgstr ""
 
-#. i18n: file: part/dockers/KWStatisticsDocker.ui:63
+#. i18n: file: part/dockers/KWStatisticsDocker.ui:59
 #. i18n: ectx: property (text), widget (QLineEdit, count)
 #: rc.cpp:226
 msgid "0"
 msgstr ""
 
-#. i18n: file: part/dockers/KWStatisticsDocker.ui:73
+#. i18n: file: part/dockers/KWStatisticsDocker.ui:75
 #. i18n: ectx: property (text), widget (QToolButton, refresh)
 #: rc.cpp:229
 #, fuzzy
 msgid "..."
 msgstr "Nowy..."
 
-#. i18n: file: part/dockers/KWStatisticsDocker.ui:91
+#. i18n: file: part/dockers/KWStatisticsDocker.ui:82
 #. i18n: ectx: property (text), widget (QCheckBox, autoRefresh)
+#: rc.cpp:232
+#, fuzzy
+msgid "Automatically recount"
+msgstr "Awtomatisce"
+
+#. i18n: file: part/dockers/KWStatisticsDocker.ui:89
+#. i18n: ectx: property (text), widget (QCheckBox, footEndNotes)
 #: rc.cpp:235
-msgid "Automatically refresh data"
+msgid "Only count main text"
 msgstr ""
 
 #. i18n: file: part/kword.rc:3
@@ -1001,7 +1006,7 @@ msgstr "Tekst"
 msgid "Options"
 msgstr ""
 
-#: part/dialogs/KWStatistics.cpp:257
+#: part/dialogs/KWStatistics.cpp:264
 #, kde-format
 msgid "approximately %1"
 msgstr ""
@@ -2106,10 +2111,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Choose..."
 #~ msgstr "Wubrać..."
-
-#, fuzzy
-#~ msgid "Automatic hyphenation"
-#~ msgstr "Awtomatisce"
 
 #, fuzzy
 #~ msgid "No autosave"
