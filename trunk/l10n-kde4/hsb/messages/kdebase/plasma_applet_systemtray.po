@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-26 10:54+0200\n"
+"POT-Creation-Date: 2009-04-30 11:42+0200\n"
 "PO-Revision-Date: 2008-11-22 12:27+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -87,33 +87,50 @@ msgstr "Serwisy"
 msgid "Hardware control"
 msgstr "Name=Hardware"
 
-#: ui/applet.cpp:160
+#: ui/applet.cpp:158
 msgid "No notifications and no jobs"
 msgstr "Žane zdźělenki a žane nadawki"
 
-#: ui/applet.cpp:365
+#: ui/applet.cpp:380
 msgid "Visible icons:"
 msgstr "Widźomne piktogramy:"
 
-#: ui/applet.cpp:366
+#: ui/applet.cpp:381
 msgid "Hidden icons:"
 msgstr "Schowane piktogramy:"
 
-#: ui/applet.cpp:385
+#: ui/applet.cpp:400
 msgid "Information"
 msgstr ""
 
-#: ui/applet.cpp:387
+#: ui/applet.cpp:402
 msgid "Select which kinds of information to show"
 msgstr ""
 
-#: ui/applet.cpp:388
+#: ui/applet.cpp:403
 #, fuzzy
 #| msgid "&Auto Skip"
 msgid "Auto Hide"
 msgstr "&Awtomatisce přeskočić"
 
-#: ui/extendertask.cpp:83
+#: ui/applet.cpp:536
+msgid "clear all"
+msgstr ""
+
+#: ui/applet.cpp:554 ui/applet.cpp:558
+msgid "Destination"
+msgstr ""
+
+#: ui/applet.cpp:616
+#, kde-format
+msgid "Destination: %1"
+msgstr ""
+
+#: ui/applet.cpp:644
+msgid "Completed jobs"
+msgstr ""
+
+#: ui/extendertask.cpp:94
 #, kde-format
 msgid "%1 running job"
 msgid_plural "%1 running jobs"
@@ -122,7 +139,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: ui/extendertask.cpp:86
+#: ui/extendertask.cpp:97
 #, kde-format
 msgid "%1 suspended job"
 msgid_plural "%1 suspended jobs"
@@ -131,7 +148,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: ui/extendertask.cpp:89
+#: ui/extendertask.cpp:100
 #, fuzzy, kde-format
 #| msgctxt "Name"
 #| msgid "Notification"
@@ -142,17 +159,17 @@ msgstr[1] "Zdźělenka"
 msgstr[2] "Zdźělenka"
 msgstr[3] "Zdźělenka"
 
-#: ui/extendertask.cpp:93
+#: ui/extendertask.cpp:104
 #, fuzzy
 #| msgid "No notifications and no jobs"
 msgid "Notifications and jobs"
 msgstr "Žane zdźělenki a žane nadawki"
 
-#: ui/extendertask.cpp:162
+#: ui/extendertask.cpp:176
 msgid "Show or hide notifications and jobs"
 msgstr "Zdźělenki a nadawki pokazać abo schować"
 
-#: ui/jobwidget.cpp:95 ui/jobwidget.cpp:281
+#: ui/jobwidget.cpp:95 ui/jobwidget.cpp:269
 #, fuzzy
 #| msgid "Store"
 msgid "more"
@@ -170,13 +187,13 @@ msgstr "Z nadawkom pokročować"
 msgid "Cancel job"
 msgstr "Nadawk přetorhnyć"
 
-#: ui/jobwidget.cpp:188
+#: ui/jobwidget.cpp:178
 #, fuzzy, kde-format
 #| msgid "%1/s ( %2 remaining )"
 msgid "%1 (%2 remaining)"
 msgstr "%1/s (hišće %2)"
 
-#: ui/jobwidget.cpp:193
+#: ui/jobwidget.cpp:183
 #, fuzzy, kde-format
 #| msgid "(paused) %1"
 msgctxt ""
@@ -184,13 +201,13 @@ msgctxt ""
 msgid "(paused) %1"
 msgstr "(zastajeny) %1"
 
-#: ui/jobwidget.cpp:194
+#: ui/jobwidget.cpp:184
 #, fuzzy
 #| msgid "Pause"
 msgid "paused"
 msgstr "Pause/Untbr"
 
-#: ui/jobwidget.cpp:198
+#: ui/jobwidget.cpp:188
 #, fuzzy, kde-format
 #| msgid "(finished) %1"
 msgctxt ""
@@ -198,7 +215,7 @@ msgctxt ""
 msgid "(finished) %1"
 msgstr "(zakónčeny)  %1"
 
-#: ui/jobwidget.cpp:224
+#: ui/jobwidget.cpp:214
 #, fuzzy, kde-format
 #| msgid "%2 / %1 folder"
 #| msgid_plural "%2 / %1 folders"
@@ -209,7 +226,7 @@ msgstr[1] "%2 / %1 zapisk"
 msgstr[2] "%2 / %1 zapiskaj"
 msgstr[3] "%2 / %1 zapiski"
 
-#: ui/jobwidget.cpp:229
+#: ui/jobwidget.cpp:219
 #, fuzzy, kde-format
 #| msgid "%2 / %1 file"
 #| msgid_plural "%2 / %1 files"
@@ -220,7 +237,7 @@ msgstr[1] "%2 z %1 dataje"
 msgstr[2] "%2 z %1 datajow"
 msgstr[3] "%2 z %1 datajow"
 
-#: ui/jobwidget.cpp:272
+#: ui/jobwidget.cpp:260
 #, fuzzy
 #| msgid "Tests"
 msgid "less"
