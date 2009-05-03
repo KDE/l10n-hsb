@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-02 11:50+0200\n"
+"POT-Creation-Date: 2009-05-03 11:05+0200\n"
 "PO-Revision-Date: 2008-11-22 12:27+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -30,15 +30,44 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
+#. i18n: file: ui/autohide.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, AutoHideConfig)
+#: rc.cpp:5
+msgid "Form"
+msgstr ""
+
+#. i18n: file: ui/autohide.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Notification"
+msgid "Jobs and notifications:"
+msgstr "Zdźělenka"
+
+#. i18n: file: ui/autohide.ui:33
+#. i18n: ectx: property (text), widget (QCheckBox, autoHide)
+#: rc.cpp:11
+msgid "Automatically hide new notifications and jobs after a short delay"
+msgstr ""
+
+#. i18n: file: ui/autohide.ui:46
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:14
+#, fuzzy
+#| msgid "Show system tray icon"
+msgid "Systemtray icons:"
+msgstr "Pokaž systemowe piktogramy"
+
 #. i18n: file: ui/protocols.ui:26
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:5
+#: rc.cpp:17
 msgid "Pop Up Notices"
 msgstr ""
 
 #. i18n: file: ui/protocols.ui:33
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:8
+#: rc.cpp:20
 #, fuzzy
 #| msgid "Application sounds"
 msgid "Application notifications"
@@ -46,19 +75,19 @@ msgstr "Programowe zwuki"
 
 #. i18n: file: ui/protocols.ui:50
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:11
+#: rc.cpp:23
 msgid "File transfers and other jobs"
 msgstr ""
 
 #. i18n: file: ui/protocols.ui:73
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:14
+#: rc.cpp:26
 msgid "Icons"
 msgstr "piktogramy"
 
 #. i18n: file: ui/protocols.ui:80
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:17
+#: rc.cpp:29
 #, fuzzy
 #| msgid "Application sounds"
 msgid "Application status"
@@ -66,7 +95,7 @@ msgstr "Programowe zwuki"
 
 #. i18n: file: ui/protocols.ui:97
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:20
+#: rc.cpp:32
 #, fuzzy
 #| msgid "Communication error"
 msgid "Communications"
@@ -74,7 +103,7 @@ msgstr "Komunikaciski zmylk"
 
 #. i18n: file: ui/protocols.ui:114
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: rc.cpp:23
+#: rc.cpp:35
 #, fuzzy
 #| msgid "Services"
 msgid "System services"
@@ -82,51 +111,51 @@ msgstr "Serwisy"
 
 #. i18n: file: ui/protocols.ui:131
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: rc.cpp:26
+#: rc.cpp:38
 #, fuzzy
 msgid "Hardware control"
 msgstr "Name=Hardware"
 
-#: ui/applet.cpp:158
+#: ui/applet.cpp:160
 msgid "No notifications and no jobs"
 msgstr "Žane zdźělenki a žane nadawki"
 
-#: ui/applet.cpp:380
+#: ui/applet.cpp:402
 msgid "Visible icons:"
 msgstr "Widźomne piktogramy:"
 
-#: ui/applet.cpp:381
+#: ui/applet.cpp:403
 msgid "Hidden icons:"
 msgstr "Schowane piktogramy:"
 
-#: ui/applet.cpp:400
+#: ui/applet.cpp:411
 msgid "Information"
 msgstr ""
 
-#: ui/applet.cpp:402
+#: ui/applet.cpp:413
 msgid "Select which kinds of information to show"
 msgstr ""
 
-#: ui/applet.cpp:403
+#: ui/applet.cpp:414
 #, fuzzy
 #| msgid "&Auto Skip"
 msgid "Auto Hide"
 msgstr "&Awtomatisce přeskočić"
 
-#: ui/applet.cpp:536
+#: ui/applet.cpp:554
 msgid "clear all"
 msgstr ""
 
-#: ui/applet.cpp:554 ui/applet.cpp:558
+#: ui/applet.cpp:572 ui/applet.cpp:576
 msgid "Destination"
 msgstr ""
 
-#: ui/applet.cpp:616
+#: ui/applet.cpp:634
 #, kde-format
 msgid "Destination: %1"
 msgstr ""
 
-#: ui/applet.cpp:644
+#: ui/applet.cpp:662
 msgid "Completed jobs"
 msgstr ""
 
@@ -253,11 +282,6 @@ msgstr "Zdźělenka wot %1"
 #~| msgid "Notification"
 #~ msgid "Notifications"
 #~ msgstr "Zdźělenka"
-
-#, fuzzy
-#~| msgid "Show system tray icon"
-#~ msgid "Traditional system tray icons"
-#~ msgstr "Pokaž systemowe piktogramy"
 
 #, fuzzy
 #~| msgctxt "Comment"
