@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-01 11:16+0200\n"
+"POT-Creation-Date: 2009-05-04 12:05+0200\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -5397,8 +5397,11 @@ msgid "Forward To"
 msgstr "Dopósłać na ..."
 
 #: kmfilteraction.cpp:1523
-msgid "The addressee the message will be forwarded to"
-msgstr ""
+#, fuzzy
+#| msgid "Please wait while the message is transferred"
+#| msgid_plural "Please wait while the %1 messages are transferred"
+msgid "The addressee to whom the message will be forwarded."
+msgstr "Prošu dočakajće, doniž so njejsu te %1 powěsćow přenjesli."
 
 #: kmfilteraction.cpp:1524
 msgid "The filter will forward the message to the addressee entered here."
@@ -5421,7 +5424,7 @@ msgstr ""
 
 #: kmfilteraction.cpp:1625
 #, kde-format
-msgid "Forward to %1 with default template "
+msgid "Forward to %1 with default template"
 msgstr ""
 
 #: kmfilteraction.cpp:1627
@@ -6104,7 +6107,7 @@ msgstr "&Kopěruj do"
 msgid "C&ancel"
 msgstr "Přetorhnyć"
 
-#: folderview.cpp:2383
+#: folderview.cpp:2385
 #, fuzzy, kde-format
 msgid "Copy or Move Messages to %1"
 msgstr "Suń powěsće do zapiska"
@@ -7446,8 +7449,10 @@ msgid "Additional recipients of the message when forwarding"
 msgstr "Powěsće awtomatisce šifrować &hdyžkuli móžno"
 
 #: customtemplates.cpp:112
-msgid "Additional recipients who get a copy of the message when forwarding"
-msgstr ""
+#, fuzzy
+msgid ""
+"Additional recipients who are sent a copy of the message when forwarding."
+msgstr "Powěsće awtomatisce šifrować &hdyžkuli móžno"
 
 #: customtemplates.cpp:113
 msgid ""
@@ -7458,7 +7463,7 @@ msgstr ""
 #: customtemplates.cpp:114
 msgid ""
 "When using this template for forwarding, the recipients you enter here will "
-"by default get a copy of this message. This is a comma-separated list of "
+"be sent a copy of the message by default. This is a comma-separated list of "
 "mail addresses."
 msgstr ""
 
