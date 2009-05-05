@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-04 12:03+0200\n"
+"POT-Creation-Date: 2009-05-05 11:22+0200\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -233,16 +233,16 @@ msgstr "%1/s"
 
 #. i18n: file: conf/dlgadvanced.ui:40
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_AfterFinishAction)
-#: core/transferhandler.cpp:392 core/transferhandler.cpp:402
+#: core/transferhandler.cpp:397 core/transferhandler.cpp:407
 #: ui/droptarget.cpp:93 rc.cpp:65
 msgid "Quit KGet"
 msgstr ""
 
-#: core/transferhandler.cpp:393
+#: core/transferhandler.cpp:398
 msgid "KGet is now closing, as all downloads have completed."
 msgstr ""
 
-#: core/transferhandler.cpp:403
+#: core/transferhandler.cpp:408
 msgid "The computer will now turn off, as all downloads have completed."
 msgstr ""
 
@@ -294,61 +294,61 @@ msgstr ""
 msgid "Error trying to get %1"
 msgstr ""
 
-#: core/kget.cpp:202
+#: core/kget.cpp:204
 msgid "Rename transfer"
 msgstr ""
 
-#: core/kget.cpp:463
+#: core/kget.cpp:465
 #, kde-format
 msgid ""
 "The file %1 already exists.\n"
 "Overwrite?"
 msgstr ""
 
-#: core/kget.cpp:464
+#: core/kget.cpp:466
 msgid "Overwrite existing file?"
 msgstr ""
 
-#: core/kget.cpp:477
+#: core/kget.cpp:479
 #, kde-format
 msgid "Unable to save to: %1"
 msgstr ""
 
-#: core/kget.cpp:478 core/kget.cpp:831 core/kget.cpp:839
+#: core/kget.cpp:480 core/kget.cpp:833 core/kget.cpp:841
 #: transfer-plugins/bittorrent/bttransfer.cpp:333
 #: transfer-plugins/bittorrent/bttransfer.cpp:344
 msgid "Error"
 msgstr "Zmylk"
 
-#: core/kget.cpp:687 ui/contextmenu.cpp:138
+#: core/kget.cpp:689 ui/contextmenu.cpp:138
 msgid "My Downloads"
 msgstr ""
 
 #. i18n: file: ui/newtransferwidget.ui:25
 #. i18n: ectx: property (text), widget (KTitleWidget, titleWidget)
-#: core/kget.cpp:799 ui/newtransferdialog.cpp:238 rc.cpp:472
+#: core/kget.cpp:801 ui/newtransferdialog.cpp:238 rc.cpp:472
 msgid "New Download"
 msgstr ""
 
-#: core/kget.cpp:799
+#: core/kget.cpp:801
 msgid "Enter URL:"
 msgstr ""
 
-#: core/kget.cpp:830
+#: core/kget.cpp:832
 #, kde-format
 msgid ""
 "Malformed URL:\n"
 "%1"
 msgstr ""
 
-#: core/kget.cpp:838
+#: core/kget.cpp:840
 #, kde-format
 msgid ""
 "Malformed URL, protocol missing:\n"
 "%1"
 msgstr ""
 
-#: core/kget.cpp:851
+#: core/kget.cpp:853
 #, kde-format
 msgid ""
 "URL already saved:\n"
@@ -356,15 +356,15 @@ msgid ""
 "Download again?"
 msgstr ""
 
-#: core/kget.cpp:852
+#: core/kget.cpp:854
 msgid "Download URL again?"
 msgstr ""
 
-#: core/kget.cpp:880 core/kget.cpp:887
+#: core/kget.cpp:882 core/kget.cpp:889
 msgid "Directory is not writable"
 msgstr ""
 
-#: core/kget.cpp:897
+#: core/kget.cpp:899
 #, kde-format
 msgid ""
 "Destination file \n"
@@ -373,19 +373,19 @@ msgid ""
 "Do you want to overwrite it?"
 msgstr ""
 
-#: core/kget.cpp:898
+#: core/kget.cpp:900
 #, fuzzy
 #| msgid "Destination"
 msgid "Overwrite destination"
 msgstr "Cil"
 
-#: core/kget.cpp:1027
+#: core/kget.cpp:1029
 #, kde-format
 msgid ""
 "<html><p>Plugin loader could not load the plugin:<br/><i>%1</i></p></html>"
 msgstr ""
 
-#: core/kget.cpp:1045
+#: core/kget.cpp:1047
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -393,7 +393,7 @@ msgid ""
 "as it is a directory."
 msgstr ""
 
-#: core/kget.cpp:1055
+#: core/kget.cpp:1057
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -453,9 +453,7 @@ msgstr "Pytanska mašina"
 msgid "Engine name:"
 msgstr "Mjeno grata"
 
-#. i18n: file: transfer-plugins/mirrorsearch/dlgengineediting.ui:30
-#. i18n: ectx: property (text), widget (QLabel, urlLabel)
-#: transfer-plugins/mirrorsearch/dlgmirrorsearch.cpp:29 rc.cpp:161
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.cpp:29
 #, fuzzy
 #| msgid "User:"
 msgid "Url:"
@@ -710,7 +708,10 @@ msgstr ""
 msgid "Whether we are interested in downloading from this peer"
 msgstr ""
 
+#. i18n: file: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:32
+#. i18n: ectx: property (text), widget (QTreeWidget, enginesTreeWidget)
 #: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:124
+#: rc.cpp:170
 msgid "URL"
 msgstr "URL"
 
@@ -1473,7 +1474,7 @@ msgstr "Wubrany skript wobdźěłać."
 msgid "Set script file"
 msgstr "Skriptowa dataja"
 
-#: ui/tray.cpp:63
+#: ui/tray.cpp:60
 msgid "KGet - Download Manager"
 msgstr ""
 
@@ -1504,7 +1505,6 @@ msgid "Semantic desktop"
 msgstr ""
 
 #: ui/contextmenu.cpp:147 mainwindow.cpp:182
-#| msgid "Delete Group"
 msgid "Delete Group"
 msgid_plural "Delete Groups"
 msgstr[0] ""
@@ -1513,7 +1513,6 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: ui/contextmenu.cpp:151 mainwindow.cpp:187
-#| msgid "Rename Group"
 msgid "Rename Group"
 msgid_plural "Rename Groups"
 msgstr[0] ""
@@ -1527,6 +1526,14 @@ msgstr ""
 
 #: ui/transfersview.cpp:152
 msgid "Select columns"
+msgstr ""
+
+#: ui/tray_newproto.cpp:47 main.cpp:113 mainwindow.cpp:85 mainwindow.cpp:441
+msgid "KGet"
+msgstr ""
+
+#: ui/tray_newproto.cpp:51 extensions/konqueror/kget_plug_in.cpp:47
+msgid "Download Manager"
 msgstr ""
 
 #: ui/history/transferhistorycategorizeddelegate.cpp:45
@@ -1695,15 +1702,15 @@ msgctxt "fix position for droptarget"
 msgid "Sticky"
 msgstr ""
 
-#: ui/droptarget.cpp:214 mainwindow.cpp:886
+#: ui/droptarget.cpp:214 mainwindow.cpp:907
 msgid "The dropped file is a KGet Transfer List"
 msgstr ""
 
-#: ui/droptarget.cpp:215 mainwindow.cpp:887
+#: ui/droptarget.cpp:215 mainwindow.cpp:908
 msgid "&Download"
 msgstr ""
 
-#: ui/droptarget.cpp:216 mainwindow.cpp:888
+#: ui/droptarget.cpp:216 mainwindow.cpp:909
 msgid "&Load transfer list"
 msgstr ""
 
@@ -1816,9 +1823,7 @@ msgstr ""
 msgid "&Select all filtered"
 msgstr "Wubjerće tydźeń"
 
-#. i18n: file: ui/linkview/importlinkdialog.ui:227
-#. i18n: ectx: property (text), widget (KPushButton, selectAll)
-#: ui/linkview/kget_linkview.cpp:264 rc.cpp:635
+#: ui/linkview/kget_linkview.cpp:264
 #, fuzzy
 #| msgctxt "@action"
 #| msgid "Select All"
@@ -1829,17 +1834,11 @@ msgstr "Wšitko wubrać"
 msgid "D&eselect all filtered"
 msgstr ""
 
-#. i18n: file: ui/linkview/importlinkdialog.ui:217
-#. i18n: ectx: property (text), widget (KPushButton, deselectAll)
-#: ui/linkview/kget_linkview.cpp:265 rc.cpp:632
+#: ui/linkview/kget_linkview.cpp:265
 #, fuzzy
 #| msgid "Dese&lect"
 msgid "D&eselect all"
 msgstr "Wubraće z&běhnyć"
-
-#: extensions/konqueror/kget_plug_in.cpp:47
-msgid "Download Manager"
-msgstr ""
 
 #: extensions/konqueror/kget_plug_in.cpp:54 mainwindow.cpp:298
 msgid "Show Drop Target"
@@ -1982,10 +1981,6 @@ msgstr ""
 #: extensions/webinterface/httpserver.cpp:179
 msgctxt "@label text in footer"
 msgid "KGet Web Interface | Valid XHTML 1.0 Strict &amp; CSS"
-msgstr ""
-
-#: main.cpp:113 mainwindow.cpp:85 mainwindow.cpp:436
-msgid "KGet"
 msgstr ""
 
 #: main.cpp:115
@@ -2178,7 +2173,7 @@ msgstr "Zastajić"
 msgid "Open Destination"
 msgstr ""
 
-#: mainwindow.cpp:283 mainwindow.cpp:418
+#: mainwindow.cpp:283 mainwindow.cpp:423
 msgid "Open File"
 msgstr ""
 
@@ -2206,53 +2201,53 @@ msgstr ""
 msgid "Import &Links..."
 msgstr ""
 
-#: mainwindow.cpp:358
+#: mainwindow.cpp:363
 msgid ""
 "This is the first time you have run KGet.\n"
 "Would you like to enable KGet as the download manager for Konqueror?"
 msgstr ""
 
-#: mainwindow.cpp:360
+#: mainwindow.cpp:365
 msgid "Konqueror Integration"
 msgstr ""
 
-#: mainwindow.cpp:360
+#: mainwindow.cpp:365
 msgid "Enable"
 msgstr ""
 
-#: mainwindow.cpp:361
+#: mainwindow.cpp:366
 msgid "Do Not Enable"
 msgstr ""
 
-#: mainwindow.cpp:417
+#: mainwindow.cpp:422
 msgid "All Openable Files"
 msgstr ""
 
-#: mainwindow.cpp:434
+#: mainwindow.cpp:439
 #, kde-format
 msgctxt "window title including overall download progress in percent"
 msgid "KGet - %1%"
 msgstr ""
 
-#: mainwindow.cpp:444
+#: mainwindow.cpp:449
 msgid ""
 "Some transfers are still running.\n"
 "Are you sure you want to close KGet?"
 msgstr ""
 
-#: mainwindow.cpp:446
+#: mainwindow.cpp:451
 msgid "Confirm Quit"
 msgstr ""
 
-#: mainwindow.cpp:501
+#: mainwindow.cpp:506
 msgid "Enter Group Name"
 msgstr ""
 
-#: mainwindow.cpp:502
+#: mainwindow.cpp:507
 msgid "Group name:"
 msgstr ""
 
-#: mainwindow.cpp:570
+#: mainwindow.cpp:575
 msgid "Are you sure you want to delete the selected transfer?"
 msgid_plural "Are you sure you want to delete the selected transfers?"
 msgstr[0] ""
@@ -2260,11 +2255,11 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: mainwindow.cpp:572
+#: mainwindow.cpp:577
 msgid "Confirm transfer delete"
 msgstr ""
 
-#: mainwindow.cpp:759
+#: mainwindow.cpp:777
 msgid ""
 "KGet has been temporarily disabled as download manager for Konqueror. If you "
 "want to disable it forever, go to Settings->Advanced and disable \"Use as "
@@ -2284,7 +2279,7 @@ msgstr ""
 #. i18n: file: conf/dlgnetwork.ui:19
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_LimitDownloads)
 #: rc.cpp:5
-msgid "Limit maximum downloads per group"
+msgid "Limit Maximum Downloads Per Group"
 msgstr ""
 
 #. i18n: file: conf/dlgnetwork.ui:28
@@ -2304,13 +2299,13 @@ msgstr ""
 #. i18n: file: conf/dlgnetwork.ui:62
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_SpeedLimit)
 #: rc.cpp:14
-msgid "Speed limit"
+msgid "Speed Limit"
 msgstr ""
 
 #. i18n: file: conf/dlgnetwork.ui:71
 #. i18n: ectx: property (text), widget (QLabel, dllimitlb)
 #: rc.cpp:17
-msgid "Global Download Limit:"
+msgid "Global download limit:"
 msgstr ""
 
 #. i18n: file: conf/dlgnetwork.ui:78
@@ -2326,19 +2321,19 @@ msgstr ""
 #. i18n: file: conf/dlgnetwork.ui:94
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:23
-msgid "Global Upload Limit:"
+msgid "Global upload limit:"
 msgstr ""
 
 #. i18n: file: conf/dlgnetwork.ui:117
 #. i18n: ectx: property (text), widget (QLabel, lb_per_transfer)
 #: rc.cpp:29
-msgid "Per Transfer:"
+msgid "Per transfer:"
 msgstr ""
 
 #. i18n: file: conf/dlgnetwork.ui:140
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_ReconnectOnBroken)
 #: rc.cpp:35
-msgid "Reconnect on error or broken connection"
+msgid "Reconnect on Error or Broken Connection"
 msgstr ""
 
 #. i18n: file: conf/dlgnetwork.ui:149
@@ -2412,14 +2407,16 @@ msgstr "Najhusćišo sćehnjene"
 #. i18n: file: conf/dlgadvanced.ui:61
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartupAction)
 #: rc.cpp:74
-msgid "Start all Downloads"
+msgid "Start All Downloads"
 msgstr ""
 
 #. i18n: file: conf/dlgadvanced.ui:66
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartupAction)
 #: rc.cpp:77
-msgid "Stop all Downloads"
-msgstr ""
+#, fuzzy
+#| msgid "Do Not Download"
+msgid "Stop All Downloads"
+msgstr "Nic sćahnyć"
 
 #. i18n: file: conf/dlgadvanced.ui:76
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -2571,6 +2568,16 @@ msgstr ""
 msgid "Use search engines"
 msgstr ""
 
+#. i18n: file: transfer-plugins/mirrorsearch/dlgengineediting.ui:30
+#. i18n: ectx: property (text), widget (QLabel, urlLabel)
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:34
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: ui/newtransferwidget.ui:34
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:161 rc.cpp:283 rc.cpp:475
+msgid "URL:"
+msgstr "URL:"
+
 #. i18n: file: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:16
 #. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
 #: rc.cpp:164
@@ -2585,14 +2592,8 @@ msgstr "Pytanska mašina"
 #: rc.cpp:167
 #, fuzzy
 #| msgid "Device name"
-msgid "Engine name"
+msgid "Engine Name"
 msgstr "Mjeno grata"
-
-#. i18n: file: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:32
-#. i18n: ectx: property (text), widget (QTreeWidget, enginesTreeWidget)
-#: rc.cpp:170
-msgid "Url"
-msgstr ""
 
 #. i18n: file: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:55
 #. i18n: ectx: property (text), widget (QPushButton, newEngineBt)
@@ -2666,7 +2667,7 @@ msgstr "Přetorhnyć"
 #. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:48
 #. i18n: ectx: property (text), widget (QLabel, uploadLimitLabel)
 #: rc.cpp:215
-msgid "Upload Limit per Transfer:"
+msgid "Upload limit per transfer:"
 msgstr ""
 
 #. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:55
@@ -2696,8 +2697,10 @@ msgstr ""
 #. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:68
 #. i18n: ectx: property (text), widget (QLabel, downloadLabel)
 #: rc.cpp:224
-msgid "Download Limit per Transfer:"
-msgstr ""
+#, fuzzy
+#| msgid "Download"
+msgid "Download limit per transfer:"
+msgstr "Sćahnyć"
 
 #. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:97
 #. i18n: ectx: property (title), widget (QGroupBox, folderGroupBox)
@@ -2806,14 +2809,6 @@ msgstr "Wulkosć:"
 msgid "Current Tracker"
 msgstr ""
 
-#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:34
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: file: ui/newtransferwidget.ui:34
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:283 rc.cpp:475
-msgid "URL:"
-msgstr "URL:"
-
 #. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:78
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:47
@@ -2833,13 +2828,15 @@ msgstr ""
 #. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:126
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: rc.cpp:295
-msgid "Times Downloaded:"
-msgstr ""
+#, fuzzy
+#| msgid "No Downloads"
+msgid "Times downloaded:"
+msgstr "Ničo sćehnjene"
 
 #. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:150
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: rc.cpp:298
-msgid "Next Update In:"
+msgid "Next update in:"
 msgstr ""
 
 #. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:189
@@ -2918,14 +2915,14 @@ msgstr ""
 #: rc.cpp:331
 #, fuzzy
 #| msgid "Download"
-msgid "Download Speed:"
+msgid "Download speed:"
 msgstr "Sćahnyć"
 
 #. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:125
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #: rc.cpp:343
 #, fuzzy
-msgid "Upload Speed:"
+msgid "Upload speed:"
 msgstr "Čitać"
 
 #. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:177
@@ -2970,15 +2967,17 @@ msgstr "Dataja:"
 #. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:33
 #. i18n: ectx: property (text), item, widget (QComboBox, fileNameComboBox)
 #: rc.cpp:388
-msgid "Use normalized name"
-msgstr ""
+#, fuzzy
+#| msgid "Username:"
+msgid "Use Normalized Name"
+msgstr "Wužiwar:"
 
 #. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:38
 #. i18n: ectx: property (text), item, widget (QComboBox, fileNameComboBox)
 #: rc.cpp:391
 #, fuzzy
 #| msgid "Username:"
-msgid "Use literal name"
+msgid "Use Literal Name"
 msgstr "Wužiwar:"
 
 #. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:46
@@ -2992,13 +2991,13 @@ msgstr "Městno:"
 #. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:54
 #. i18n: ectx: property (text), item, widget (QComboBox, qualityComboBox)
 #: rc.cpp:397
-msgid "Best quality (.mp4)"
+msgid "Best Quality (.mp4)"
 msgstr ""
 
 #. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:59
 #. i18n: ectx: property (text), item, widget (QComboBox, qualityComboBox)
 #: rc.cpp:400
-msgid "Normal quality (.flv)"
+msgid "Normal Quality (.flv)"
 msgstr ""
 
 #. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:70
@@ -3112,19 +3111,22 @@ msgstr "Přenjesu"
 #. i18n: file: ui/transfersettingsdialog.ui:31
 #. i18n: ectx: property (text), widget (QCheckBox, uploadCheck)
 #: rc.cpp:457
-msgid "Upload Limit"
-msgstr ""
+#, fuzzy
+msgid "Upload limit:"
+msgstr "Čitać"
 
 #. i18n: file: ui/transfersettingsdialog.ui:51
 #. i18n: ectx: property (text), widget (QCheckBox, downloadCheck)
 #: rc.cpp:463
-msgid "Download Limit"
-msgstr ""
+#, fuzzy
+#| msgid "Download"
+msgid "Download limit:"
+msgstr "Sćahnyć"
 
 #. i18n: file: ui/transfersettingsdialog.ui:71
 #. i18n: ectx: property (text), widget (QCheckBox, ratioCheck)
 #: rc.cpp:469
-msgid "Maximum Share Ratio"
+msgid "Maximum share ratio:"
 msgstr ""
 
 #. i18n: file: ui/newtransferwidget.ui:44
@@ -3136,13 +3138,16 @@ msgstr "Cil:"
 #. i18n: file: ui/newtransferwidget.ui:54
 #. i18n: ectx: property (text), widget (QLabel, groupLabel)
 #: rc.cpp:481
-msgid "Transfer Group:"
-msgstr ""
+#, fuzzy
+#| msgctxt "@title job"
+#| msgid "Transferring"
+msgid "Transfer group:"
+msgstr "Přenjesu"
 
 #. i18n: file: ui/transferdetailsfrm.ui:164
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:497
-msgid "Remaining Time:"
+msgid "Remaining time:"
 msgstr ""
 
 #. i18n: file: ui/groupsettingsdialog.ui:32
@@ -3183,14 +3188,17 @@ msgstr ""
 #. i18n: file: ui/groupsettingsdialog.ui:75
 #. i18n: ectx: property (text), widget (QCheckBox, downloadCheck)
 #: rc.cpp:515
-msgid "Maximum download speed"
-msgstr ""
+#, fuzzy
+#| msgid "Download"
+msgid "Maximum download speed:"
+msgstr "Sćahnyć"
 
 #. i18n: file: ui/groupsettingsdialog.ui:101
 #. i18n: ectx: property (text), widget (QCheckBox, uploadCheck)
 #: rc.cpp:521
-msgid "Maximum upload speed"
-msgstr ""
+#, fuzzy
+msgid "Maximum upload speed:"
+msgstr "Čitać"
 
 #. i18n: file: ui/groupsettingsdialog.ui:141
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -3203,7 +3211,7 @@ msgstr ""
 #. i18n: file: ui/groupsettingsdialog.ui:166
 #. i18n: ectx: property (text), widget (QPushButton, tagButton)
 #: rc.cpp:530
-msgid "Modify the tags"
+msgid "Modify Tags"
 msgstr ""
 
 #. i18n: file: ui/grouptagssettingsdialog.ui:14
@@ -3250,8 +3258,10 @@ msgstr ""
 #. i18n: file: ui/history/transferhistory.ui:99
 #. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup_2)
 #: rc.cpp:554
-msgid "Select ranges"
-msgstr ""
+#, fuzzy
+#| msgid "Select Icon"
+msgid "Select Ranges"
+msgstr "Wubjerće piktogram"
 
 #. i18n: file: ui/history/transferhistory.ui:115
 #. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
@@ -3269,7 +3279,7 @@ msgstr "Host"
 #. i18n: file: ui/history/transferhistory.ui:136
 #. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup_3)
 #: rc.cpp:566
-msgid "Filter history"
+msgid "Filter History"
 msgstr ""
 
 #. i18n: file: ui/history/transferhistory.ui:165
@@ -3302,7 +3312,7 @@ msgstr ""
 #: rc.cpp:584
 #, fuzzy
 #| msgid "&Import"
-msgid "&Import links"
+msgid "&Import Links"
 msgstr "&Importować"
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:49
@@ -3390,15 +3400,32 @@ msgstr ""
 #: rc.cpp:629
 #, fuzzy
 #| msgid "Do not ask again"
-msgid "Does not contain"
+msgid "Does Not Contain"
 msgstr "Njeprašej so hišće raz"
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:217
+#. i18n: ectx: property (text), widget (KPushButton, deselectAll)
+#: rc.cpp:632
+#, fuzzy
+#| msgid "Dese&lect"
+msgid "D&eselect All"
+msgstr "Wubraće z&běhnyć"
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:227
+#. i18n: ectx: property (text), widget (KPushButton, selectAll)
+#: rc.cpp:635
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Select All"
+msgid "&Select All"
+msgstr "Wšitko wubrać"
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:237
 #. i18n: ectx: property (text), widget (KPushButton, invertSelection)
 #: rc.cpp:638
 #, fuzzy
 #| msgid "Language Selection"
-msgid "Inver&t selection"
+msgid "Inver&t Selection"
 msgstr "Wuběr rěče"
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:247
@@ -3408,7 +3435,7 @@ msgstr "Wuběr rěče"
 #| msgctxt "@action"
 #| msgid "Deselect"
 msgctxt "Check as in mark, not as in verify"
-msgid "Chec&k selected"
+msgid "Chec&k Selected"
 msgstr "Nic wubrać"
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:254
