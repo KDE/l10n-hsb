@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-06 12:09+0200\n"
+"POT-Creation-Date: 2009-05-07 11:16+0200\n"
 "PO-Revision-Date: 2008-11-22 12:27+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -24,6 +24,61 @@ msgstr ""
 msgid "notificationitemwatcher"
 msgstr "Zdźělenka"
 
+#: core/extendertask.cpp:151
+#, kde-format
+msgid "%1 Recently Completed Job:"
+msgid_plural "%1 Recently Completed Jobs:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: core/extendertask.cpp:174
+#, kde-format
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: core/extendertask.cpp:178
+#, kde-format
+msgid "%1 suspended job"
+msgid_plural "%1 suspended jobs"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: core/extendertask.cpp:182
+#, fuzzy, kde-format
+#| msgctxt "Name"
+#| msgid "Notification"
+msgid "%1 notification"
+msgid_plural "%1 notifications"
+msgstr[0] "Zdźělenka"
+msgstr[1] "Zdźělenka"
+msgstr[2] "Zdźělenka"
+msgstr[3] "Zdźělenka"
+
+#: core/extendertask.cpp:187
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Notification"
+msgid "No active jobs or notifications"
+msgstr "Zdźělenka"
+
+#: core/extendertask.cpp:190
+#, fuzzy
+#| msgid "No notifications and no jobs"
+msgid "Notifications and jobs"
+msgstr "Žane zdźělenki a žane nadawki"
+
+#: core/extendertask.cpp:243
+msgid "Show or hide notifications and jobs"
+msgstr "Zdźělenki a nadawki pokazać abo schować"
+
 #: core/job.cpp:170
 #, kde-format
 msgid "%1 file, to: %2"
@@ -33,7 +88,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: core/manager.cpp:198
+#: core/manager.cpp:214
 #, fuzzy, kde-format
 #| msgid "%1/s ( %2 remaining )"
 msgid "1 running job (%2 remaining)"
@@ -43,7 +98,7 @@ msgstr[1] "%1/s (hišće %2)"
 msgstr[2] "%1/s (hišće %2)"
 msgstr[3] "%1/s (hišće %2)"
 
-#: core/manager.cpp:203
+#: core/manager.cpp:219
 msgid "no running jobs"
 msgstr ""
 
@@ -75,7 +130,7 @@ msgstr "Zdźělenka"
 msgid "Automatically hide new notifications and jobs after a short delay"
 msgstr ""
 
-#. i18n: file: ui/autohide.ui:43
+#. i18n: file: ui/autohide.ui:59
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:11
 #, fuzzy
@@ -140,93 +195,37 @@ msgstr "Serwisy"
 msgid "Hardware control"
 msgstr "Name=Hardware"
 
-#: ui/applet.cpp:174
+#: ui/applet.cpp:171
 msgid "No notifications and no jobs"
 msgstr "Žane zdźělenki a žane nadawki"
 
-#: ui/applet.cpp:416
-msgid "Visible icons:"
-msgstr "Widźomne piktogramy:"
-
-#: ui/applet.cpp:417
-msgid "Hidden icons:"
-msgstr "Schowane piktogramy:"
-
-#: ui/applet.cpp:425
+#: ui/applet.cpp:422
 msgid "Information"
 msgstr ""
 
-#: ui/applet.cpp:427
+#: ui/applet.cpp:424
 msgid "Choose which information to show"
 msgstr ""
 
-#: ui/applet.cpp:428
+#: ui/applet.cpp:425
 #, fuzzy
 #| msgid "&Auto Skip"
 msgid "Auto Hide"
 msgstr "&Awtomatisce přeskočić"
 
-#: ui/applet.cpp:568
+#: ui/applet.cpp:564
 msgid "clear all"
 msgstr ""
 
-#: ui/applet.cpp:655
+#: ui/applet.cpp:635
 #, fuzzy, kde-format
 #| msgid "(finished) %1"
 msgid "%1 [Finished]"
 msgstr "(zakónčeny)  %1"
 
-#: ui/applet.cpp:689
+#: ui/applet.cpp:669
 msgid "Recently Completed Jobs"
 msgstr ""
-
-#: ui/extendertask.cpp:73
-#, kde-format
-msgid "%1 Recently Completed Job:"
-msgid_plural "%1 Recently Completed Jobs:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: ui/extendertask.cpp:96
-#, kde-format
-msgid "%1 running job"
-msgid_plural "%1 running jobs"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: ui/extendertask.cpp:99
-#, kde-format
-msgid "%1 suspended job"
-msgid_plural "%1 suspended jobs"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: ui/extendertask.cpp:102
-#, fuzzy, kde-format
-#| msgctxt "Name"
-#| msgid "Notification"
-msgid "%1 notification"
-msgid_plural "%1 notifications"
-msgstr[0] "Zdźělenka"
-msgstr[1] "Zdźělenka"
-msgstr[2] "Zdźělenka"
-msgstr[3] "Zdźělenka"
-
-#: ui/extendertask.cpp:106
-#, fuzzy
-#| msgid "No notifications and no jobs"
-msgid "Notifications and jobs"
-msgstr "Žane zdźělenki a žane nadawki"
-
-#: ui/extendertask.cpp:178
-msgid "Show or hide notifications and jobs"
-msgstr "Zdźělenki a nadawki pokazać abo schować"
 
 #: ui/jobwidget.cpp:95
 #, fuzzy
@@ -312,6 +311,12 @@ msgstr "Zawěsćić"
 #, kde-format
 msgid "Notification from %1"
 msgstr "Zdźělenka wot %1"
+
+#~ msgid "Visible icons:"
+#~ msgstr "Widźomne piktogramy:"
+
+#~ msgid "Hidden icons:"
+#~ msgstr "Schowane piktogramy:"
 
 #, fuzzy
 #~| msgid "(paused) %1"
