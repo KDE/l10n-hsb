@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-14 13:51+0200\n"
+"POT-Creation-Date: 2009-05-19 11:23+0200\n"
 "PO-Revision-Date: 2008-11-17 23:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -30,73 +30,73 @@ msgstr "Dataja '%1' njehodźi so čitać"
 msgid "ERROR: Unknown protocol '%1'"
 msgstr "ZMYLK: Njeznaty protokol '%1'"
 
-#: kio/job.cpp:131
+#: kio/job.cpp:129
 msgctxt "@title job"
 msgid "Moving"
 msgstr "Přesuwam"
 
-#: kio/job.cpp:132 kio/job.cpp:139 kio/job.cpp:164 kio/fileundomanager.cpp:120
+#: kio/job.cpp:130 kio/job.cpp:137 kio/job.cpp:162 kio/fileundomanager.cpp:120
 msgctxt "The source of a file operation"
 msgid "Source"
 msgstr "Žórło"
 
-#: kio/job.cpp:133 kio/job.cpp:140 kio/fileundomanager.cpp:121
+#: kio/job.cpp:131 kio/job.cpp:138 kio/fileundomanager.cpp:121
 msgctxt "The destination of a file operation"
 msgid "Destination"
 msgstr "Cil"
 
-#: kio/job.cpp:138
+#: kio/job.cpp:136
 msgctxt "@title job"
 msgid "Copying"
 msgstr "Kopěruju"
 
-#: kio/job.cpp:145
+#: kio/job.cpp:143
 msgctxt "@title job"
 msgid "Creating directory"
 msgstr "Stworju zapisk"
 
-#: kio/job.cpp:146 kio/fileundomanager.cpp:117
+#: kio/job.cpp:144 kio/fileundomanager.cpp:117
 msgid "Directory"
 msgstr "Zapisk"
 
-#: kio/job.cpp:151
+#: kio/job.cpp:149
 msgctxt "@title job"
 msgid "Deleting"
 msgstr "Wumazam"
 
-#: kio/job.cpp:152 kio/job.cpp:158 kio/fileundomanager.cpp:124
+#: kio/job.cpp:150 kio/job.cpp:156 kio/fileundomanager.cpp:124
 msgid "File"
 msgstr "Dataja"
 
-#: kio/job.cpp:157
+#: kio/job.cpp:155
 msgctxt "@title job"
 msgid "Examining"
 msgstr "Wobhladuju sej"
 
-#: kio/job.cpp:163
+#: kio/job.cpp:161
 msgctxt "@title job"
 msgid "Transferring"
 msgstr "Přenjesu"
 
-#: kio/job.cpp:169
+#: kio/job.cpp:167
 msgctxt "@title job"
 msgid "Mounting"
 msgstr "Montuju"
 
-#: kio/job.cpp:170
+#: kio/job.cpp:168
 msgid "Device"
 msgstr "Grat"
 
-#: kio/job.cpp:171 kio/job.cpp:177
+#: kio/job.cpp:169 kio/job.cpp:175
 msgid "Mountpoint"
 msgstr "Cil montowanja"
 
-#: kio/job.cpp:176
+#: kio/job.cpp:174
 msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Wotmontuju"
 
-#: kio/job.cpp:1992 kio/paste.cpp:64 kio/copyjob.cpp:1198 kio/copyjob.cpp:1743
+#: kio/job.cpp:1978 kio/paste.cpp:64 kio/copyjob.cpp:1198 kio/copyjob.cpp:1743
 #: kio/global.cpp:664
 msgid "File Already Exists"
 msgstr "Dataja hižo eksistuje"
@@ -434,7 +434,7 @@ msgstr "Njemóžu certifikat wočinić. Chceće z hinašim škitnym hesłom spyt
 msgid "The procedure to set the client certificate for the session failed."
 msgstr "Clientowy certifikat za sesiju njehodźeše so nastajić."
 
-#: kio/tcpslavebase.cpp:758 kssl/ksslcertificatemanager.cpp:332
+#: kio/tcpslavebase.cpp:758 kssl/sslui.cpp:71
 #, kde-format
 msgid ""
 "The server failed the authenticity check (%1).\n"
@@ -444,31 +444,30 @@ msgstr ""
 "\n"
 
 #: kio/tcpslavebase.cpp:768 kio/tcpslavebase.cpp:785 kio/tcpslavebase.cpp:887
-#: kio/tcpslavebase.cpp:899 kssl/ksslcertificatemanager.cpp:341
-#: kssl/ksslcertificatemanager.cpp:380
+#: kio/tcpslavebase.cpp:899 kssl/sslui.cpp:80 kssl/sslui.cpp:119
 msgid "Server Authentication"
 msgstr "Přepruwowanje servera"
 
-#: kio/tcpslavebase.cpp:769 kssl/ksslcertificatemanager.cpp:342
+#: kio/tcpslavebase.cpp:769 kssl/sslui.cpp:81
 msgid "&Details"
 msgstr "&Detajle"
 
-#: kio/tcpslavebase.cpp:769 kssl/ksslcertificatemanager.cpp:343
+#: kio/tcpslavebase.cpp:769 kssl/sslui.cpp:82
 msgid "Co&ntinue"
 msgstr "Po&kročować"
 
-#: kio/tcpslavebase.cpp:782 kssl/ksslcertificatemanager.cpp:377
+#: kio/tcpslavebase.cpp:782 kssl/sslui.cpp:116
 msgid ""
 "Would you like to accept this certificate forever without being prompted?"
 msgstr ""
 "Chceće tutón certifikat na wšě časy bjez doprašowanja z mojeje strony "
 "akceptować?"
 
-#: kio/tcpslavebase.cpp:786 kssl/ksslcertificatemanager.cpp:381
+#: kio/tcpslavebase.cpp:786 kssl/sslui.cpp:120
 msgid "&Forever"
 msgstr "&Na wšě časy"
 
-#: kio/tcpslavebase.cpp:787 kssl/ksslcertificatemanager.cpp:382
+#: kio/tcpslavebase.cpp:787 kssl/sslui.cpp:121
 msgid "&Current Sessions Only"
 msgstr "&Jenož nětko"
 
@@ -3031,12 +3030,6 @@ msgstr "Certifikat njeje walidny."
 msgid "GMT"
 msgstr "GMT"
 
-#: kssl/ksslcertificatemanager.cpp:313
-msgid ""
-"The remote host did not send any SSL certificates.\n"
-"Aborting because the identity of the host cannot be established."
-msgstr ""
-
 #: kssl/ksslkeygen.cpp:83
 msgid "KDE Certificate Request"
 msgstr "KDE pominanje certifikata"
@@ -3088,6 +3081,12 @@ msgstr "512  (jara niski stopjeń)"
 #: kssl/ksslkeygen.cpp:266
 msgid "No SSL support."
 msgstr "SSL njeje podpěrany."
+
+#: kssl/sslui.cpp:52
+msgid ""
+"The remote host did not send any SSL certificates.\n"
+"Aborting because the identity of the host cannot be established."
+msgstr ""
 
 #: kssl/ksslcertdialog.cpp:61
 msgid "Certificate"
