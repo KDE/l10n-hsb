@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-08 20:30+0200\n"
+"POT-Creation-Date: 2009-07-01 12:45+0200\n"
 "PO-Revision-Date: 2008-11-22 12:24+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -27,16 +27,7 @@ msgstr "CPU"
 msgid "total"
 msgstr "Opcionalnje"
 
-#: cpu.cpp:185
-msgid "CPUs"
-msgstr "CPUwy"
-
-#: cpu.cpp:192 net.cpp:200 ram.cpp:184 temperature.cpp:118
-#, fuzzy
-msgid "Advanced"
-msgstr "Opcije za pokročenych"
-
-#: cpu.cpp:200 net.cpp:208 ram.cpp:192 temperature.cpp:126
+#: cpu.cpp:183 net.cpp:190 ram.cpp:175 temperature.cpp:107
 #, fuzzy
 #| msgid "seconds"
 msgid " second"
@@ -45,6 +36,15 @@ msgstr[0] "sekundy"
 msgstr[1] "sekundy"
 msgstr[2] "sekundy"
 msgstr[3] "sekundy"
+
+#: cpu.cpp:184
+msgid "CPUs"
+msgstr "CPUwy"
+
+#: cpu.cpp:191 net.cpp:199 ram.cpp:183 temperature.cpp:117
+#, fuzzy
+msgid "Advanced"
+msgstr "Opcije za pokročenych"
 
 #: hdd.cpp:50
 msgid "Disk Space"
@@ -58,11 +58,7 @@ msgstr "Cil montowanja"
 msgid "Name"
 msgstr "Mjeno"
 
-#: hdd.cpp:85
-msgid "Partitions"
-msgstr "Particije"
-
-#: hdd.cpp:93
+#: hdd.cpp:83
 #, fuzzy
 #| msgid "minutes"
 msgid " minute"
@@ -72,16 +68,20 @@ msgstr[1] "mjeńšiny"
 msgstr[2] "mjeńšiny"
 msgstr[3] "mjeńšiny"
 
-#: hdd.cpp:134
+#: hdd.cpp:85
+msgid "Partitions"
+msgstr "Particije"
+
+#: hdd.cpp:128
 msgctxt "the root filesystem"
 msgid "root"
 msgstr "korjeń"
 
-#: hdd.cpp:141
+#: hdd.cpp:135
 msgid "Unknown filesystem"
 msgstr "Njeznaty datajowy system"
 
-#: hdd.cpp:151
+#: hdd.cpp:145
 #, kde-format
 msgctxt "hard disk label (not mounted or accessible)"
 msgid "%1 (not accessible)"
@@ -113,11 +113,11 @@ msgstr "Syć"
 msgid "Network Interface"
 msgstr "Syćowy interfejs"
 
-#: net.cpp:192
+#: net.cpp:191
 msgid "Interfaces"
 msgstr "Interfejsy"
 
-#: ram.cpp:45 ram.cpp:156 ram.cpp:177
+#: ram.cpp:45 ram.cpp:156 ram.cpp:176
 msgid "RAM"
 msgstr ""
 
@@ -270,7 +270,7 @@ msgstr "Plotery pokazać"
 msgid "&Available temperatures:"
 msgstr "&Móžne temperatury:"
 
-#: temperature.cpp:49 temperature.cpp:110
+#: temperature.cpp:49 temperature.cpp:109
 msgid "Temperature"
 msgstr "Temperatura"
 
@@ -278,12 +278,12 @@ msgstr "Temperatura"
 msgid "Sensor"
 msgstr "Sensor"
 
-#: temperature.cpp:267
+#: temperature.cpp:261
 #, kde-format
 msgid "%1 °C"
 msgstr "%1 °C"
 
-#: temperature.cpp:269
+#: temperature.cpp:263
 #, kde-format
 msgid "%1 °F"
 msgstr "%1 °F"

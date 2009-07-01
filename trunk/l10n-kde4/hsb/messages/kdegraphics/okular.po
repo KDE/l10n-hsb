@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-30 11:38+0200\n"
+"POT-Creation-Date: 2009-07-01 12:46+0200\n"
 "PO-Revision-Date: 2008-11-04 23:10+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -150,6 +150,14 @@ msgctxt "@label:listbox %1 is the screen number (0, 1, ...)"
 msgid "Screen %1"
 msgstr "Wobrazowka %1"
 
+#: conf/dlgpresentation.cpp:48
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
 #: core/action.cpp:91
 #, kde-format
 msgid "Go to page %1"
@@ -230,7 +238,7 @@ msgstr "%1 x %2 in"
 msgid "%1 x %2 mm"
 msgstr "%1 x %2 mm"
 
-#: core/document.cpp:1021
+#: core/document.cpp:1025
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
@@ -238,12 +246,12 @@ msgstr ""
 "Kónc dokumenta.\n"
 "Wot spočatka pokročować?"
 
-#: core/document.cpp:1085 core/document.cpp:1188
+#: core/document.cpp:1089 core/document.cpp:1192
 #, kde-format
 msgid "No matches found for '%1'."
 msgstr "Žane namakanki za '%1'."
 
-#: core/document.cpp:1124
+#: core/document.cpp:1128
 msgid ""
 "Beginning of document reached.\n"
 "Continue from the bottom?"
@@ -251,29 +259,29 @@ msgstr ""
 "Započatk dokumenta.\n"
 "Wot kónca pokročować?"
 
-#: core/document.cpp:1576
+#: core/document.cpp:1580
 msgid ""
 "Can not find a plugin which is able to handle the document being passed."
 msgstr "Njemóžu plugin namakać, kotryž so za tutón dokument hodźi."
 
-#: core/document.cpp:1953
+#: core/document.cpp:1957
 msgid "File Size"
 msgstr ""
 
-#: core/document.cpp:1957
+#: core/document.cpp:1961
 msgid "Page Size"
 msgstr "Wulkosć strony"
 
-#: core/document.cpp:2512
+#: core/document.cpp:2516
 msgid "Search in progress..."
 msgstr "Pytam ..."
 
-#: core/document.cpp:2514
+#: core/document.cpp:2518
 #, kde-format
 msgid "Searching for %1"
 msgstr "Pytam %1"
 
-#: core/document.cpp:2828 core/document.cpp:2836
+#: core/document.cpp:2832 core/document.cpp:2840
 msgid ""
 "The document is trying to execute an external application and, for your "
 "safety, Okular does not allow that."
@@ -281,60 +289,60 @@ msgstr ""
 "Dokument spyta eksterny program wuwjesć, štož okular z wěstotnych přičin "
 "njedowoli."
 
-#: core/document.cpp:2849
+#: core/document.cpp:2853
 #, kde-format
 msgid "No application found for opening file of mimetype %1."
 msgstr ""
 
-#: core/document.cpp:3681
+#: core/document.cpp:3685
 msgid "Title"
 msgstr ""
 
-#: core/document.cpp:3684
+#: core/document.cpp:3688
 msgid "Subject"
 msgstr ""
 
-#: core/document.cpp:3687
+#: core/document.cpp:3691
 msgid "Description"
 msgstr "Wopisanje"
 
-#: core/document.cpp:3690
+#: core/document.cpp:3694
 msgid "Author"
 msgstr "Awtor"
 
-#: core/document.cpp:3693
+#: core/document.cpp:3697
 msgid "Creator"
 msgstr ""
 
-#: core/document.cpp:3696
+#: core/document.cpp:3700
 msgid "Producer"
 msgstr ""
 
-#: core/document.cpp:3699
+#: core/document.cpp:3703
 msgid "Copyright"
 msgstr ""
 
-#: core/document.cpp:3702
+#: core/document.cpp:3706
 msgid "Pages"
 msgstr "Strony"
 
-#: core/document.cpp:3705
+#: core/document.cpp:3709
 msgid "Created"
 msgstr ""
 
-#: core/document.cpp:3708
+#: core/document.cpp:3712
 msgid "Modified"
 msgstr ""
 
-#: core/document.cpp:3711
+#: core/document.cpp:3715
 msgid "Mime Type"
 msgstr ""
 
-#: core/document.cpp:3714
+#: core/document.cpp:3718
 msgid "Category"
 msgstr ""
 
-#: core/document.cpp:3717
+#: core/document.cpp:3721
 msgid "Keywords"
 msgstr ""
 
@@ -1987,7 +1995,7 @@ msgid "Advance every:"
 msgstr ""
 
 #. i18n: file: conf/dlgpresentationbase.ui:49
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_SlidesAdvanceTime)
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_SlidesAdvanceTime)
 #: rc.cpp:116
 msgid " sec."
 msgstr ""
