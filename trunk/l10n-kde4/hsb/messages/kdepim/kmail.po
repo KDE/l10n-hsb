@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-16 11:37+0200\n"
+"POT-Creation-Date: 2009-07-17 12:04+0200\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -1028,7 +1028,7 @@ msgstr ""
 msgid "New or changed: %1"
 msgstr ""
 
-#: objecttreeparser.cpp:1840 kmcommands.cpp:3145 kmcomposewin.cpp:4271
+#: objecttreeparser.cpp:1840 kmcommands.cpp:3145 kmcomposewin.cpp:4276
 msgid ""
 "Chiasmus backend does not offer the \"x-obtain-keys\" function. Please "
 "report this bug."
@@ -1037,18 +1037,18 @@ msgstr ""
 #: objecttreeparser.cpp:1846 messagecomposer.cpp:591 messagecomposer.cpp:599
 #: messagecomposer.cpp:613 kmcommands.cpp:3147 kmcommands.cpp:3152
 #: kmcommands.cpp:3161 kmcommands.cpp:3170 kmcommands.cpp:3188
-#: kmcommands.cpp:3199 kmcommands.cpp:3239 kmcomposewin.cpp:4273
-#: kmcomposewin.cpp:4278 kmcomposewin.cpp:4287
+#: kmcommands.cpp:3199 kmcommands.cpp:3239 kmcomposewin.cpp:4278
+#: kmcomposewin.cpp:4283 kmcomposewin.cpp:4292
 msgid "Chiasmus Backend Error"
 msgstr ""
 
-#: objecttreeparser.cpp:1852 kmcommands.cpp:3158 kmcomposewin.cpp:4284
+#: objecttreeparser.cpp:1852 kmcommands.cpp:3158 kmcomposewin.cpp:4289
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-obtain-keys\" "
 "function did not return a string list. Please report this bug."
 msgstr ""
 
-#: objecttreeparser.cpp:1860 kmcommands.cpp:3167 kmcomposewin.cpp:4293
+#: objecttreeparser.cpp:1860 kmcommands.cpp:3167 kmcomposewin.cpp:4298
 msgid ""
 "No keys have been found. Please check that a valid key path has been set in "
 "the Chiasmus configuration."
@@ -2070,7 +2070,7 @@ msgstr "Zapisk"
 msgid "Search folder &name:"
 msgstr ""
 
-#: searchwindow.cpp:257 searchwindow.cpp:483 kmkernel.cpp:1448
+#: searchwindow.cpp:257 searchwindow.cpp:483 kmkernel.cpp:1449
 #, fuzzy
 msgid "Last Search"
 msgstr "&Pytaj"
@@ -2859,7 +2859,7 @@ msgstr ""
 msgid "&Expire"
 msgstr "&Stare zwumjetać"
 
-#: kmmainwidget.cpp:1338 kmkernel.cpp:2110
+#: kmmainwidget.cpp:1338 kmkernel.cpp:2111
 msgid "Empty Trash"
 msgstr "Papjernik wuprózdnić"
 
@@ -3228,11 +3228,11 @@ msgstr ""
 "Njemóžach GnuPG LogViewer kwatchgnupg startować. Prošu přepruwujće swoju "
 "instalaciju!"
 
-#: kmmainwidget.cpp:2736 kmkernel.cpp:1191
+#: kmmainwidget.cpp:2736 kmkernel.cpp:1192
 msgid "Work Offline"
 msgstr ""
 
-#: kmmainwidget.cpp:2740 kmkernel.cpp:1190
+#: kmmainwidget.cpp:2740 kmkernel.cpp:1191
 msgid "Work Online"
 msgstr ""
 
@@ -6492,7 +6492,7 @@ msgid "Exit"
 msgstr "wobdźěłać..."
 
 #: subscriptiondialog.cpp:183 kmfoldercachedimap.cpp:272
-#: kmfoldercachedimap.cpp:2242 kmkernel.cpp:1321 accountdialog.cpp:607
+#: kmfoldercachedimap.cpp:2242 kmkernel.cpp:1322 accountdialog.cpp:607
 #: accountdialog.cpp:614 kmfolderimap.cpp:207 kmfolderimap.cpp:925
 msgid "inbox"
 msgstr "póštowy kašćik"
@@ -9438,14 +9438,14 @@ msgid ""
 "Please move the file out of the way."
 msgstr ""
 
-#: kmfoldermgr.cpp:146 kmkernel.cpp:1271
+#: kmfoldermgr.cpp:146 kmkernel.cpp:1272
 #, kde-format
 msgid ""
 "The permissions of the folder '%1' are incorrect;\n"
 "please make sure that you can view and modify the content of this folder."
 msgstr ""
 
-#: kmfoldermgr.cpp:156 kmkernel.cpp:1263
+#: kmfoldermgr.cpp:156 kmkernel.cpp:1264
 #, kde-format
 msgid ""
 "KMail could not create folder '%1';\n"
@@ -9463,7 +9463,7 @@ msgstr ""
 msgid "Could Not Create Folder"
 msgstr "Njemóžach zapisk stworić"
 
-#: kmfoldermgr.cpp:322 kmkernel.cpp:1577
+#: kmfoldermgr.cpp:322 kmkernel.cpp:1578
 #, kde-format
 msgid ""
 "Cannot create file `%1' in %2.\n"
@@ -10278,14 +10278,11 @@ msgstr "&Interwal pohladanja (mjeńšiny):"
 
 #. i18n: file: ui/imapsettings.ui:241
 #. i18n: ectx: attribute (title), widget (QWidget, optionsTab)
-#. i18n: file: ui/popsettings.ui:237
-#. i18n: ectx: attribute (title), widget (QWidget, page2)
-#: rc.cpp:279 rc.cpp:618
+#: rc.cpp:279
 #, fuzzy
-#| msgid "&Advanced"
-msgctxt "@title:tab Advanced settings"
-msgid "Advanced"
-msgstr "&Za pokročenych"
+msgctxt "@title:tab"
+msgid "IMAP Settings"
+msgstr "&Pósłanje"
 
 #. i18n: file: ui/imapsettings.ui:247
 #. i18n: ectx: property (text), widget (QCheckBox, autoExpungeCheck)
@@ -10887,6 +10884,14 @@ msgstr "Do manualneho přepruwowanja mailkow přiwzać"
 #: rc.cpp:612
 msgid "Chec&k interval:"
 msgstr "&Interwal pohladanja:"
+
+#. i18n: file: ui/popsettings.ui:237
+#. i18n: ectx: attribute (title), widget (QWidget, page2)
+#: rc.cpp:618
+#, fuzzy
+msgctxt "@title:tab"
+msgid "POP Settings"
+msgstr "&Pósłanje"
 
 #. i18n: file: ui/popsettings.ui:246
 #. i18n: ectx: property (toolTip), widget (QCheckBox, leaveOnServerCheck)
@@ -13563,12 +13568,12 @@ msgid ""
 "another folder now?</p>"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:3199 kmkernel.cpp:1793
+#: kmfoldercachedimap.cpp:3199 kmkernel.cpp:1794
 #, fuzzy
 msgid "Move"
 msgstr "&Suń do"
 
-#: kmfoldercachedimap.cpp:3199 kmkernel.cpp:1795
+#: kmfoldercachedimap.cpp:3199 kmkernel.cpp:1796
 msgid "Do Not Move"
 msgstr ""
 
@@ -13877,82 +13882,82 @@ msgstr "KDE emailowy program"
 msgid "(c) 1997-2009, The KMail developers"
 msgstr "(c) 1997-2005 programowarjo KMaila"
 
-#: kmkernel.cpp:695
+#: kmkernel.cpp:696
 #, fuzzy
 msgid "Certificate Signature Request"
 msgstr "Certifikat Signatura"
 
-#: kmkernel.cpp:698
+#: kmkernel.cpp:699
 msgid "Please create a certificate from attachment and return to sender."
 msgstr ""
 
-#: kmkernel.cpp:1155
+#: kmkernel.cpp:1156
 msgid "KMail is set to be offline; all network jobs are suspended"
 msgstr ""
 
-#: kmkernel.cpp:1166
+#: kmkernel.cpp:1167
 msgid "KMail is set to be online; all network jobs resumed"
 msgstr ""
 
-#: kmkernel.cpp:1187
+#: kmkernel.cpp:1188
 msgid "KMail is currently in offline mode. How do you want to proceed?"
 msgstr ""
 
-#: kmkernel.cpp:1189 kmcomposewin.cpp:3431
+#: kmkernel.cpp:1190 kmcomposewin.cpp:3431
 msgid "Online/Offline"
 msgstr ""
 
-#: kmkernel.cpp:1326
+#: kmkernel.cpp:1327
 #, fuzzy
 msgid "You do not have read/write permission to your inbox folder."
 msgstr "póštowy kašćik."
 
-#: kmkernel.cpp:1334
+#: kmkernel.cpp:1335
 #, fuzzy
 msgid "outbox"
 msgstr "Awtomatisce"
 
-#: kmkernel.cpp:1336
+#: kmkernel.cpp:1337
 msgid "You do not have read/write permission to your outbox folder."
 msgstr ""
 
-#: kmkernel.cpp:1353
+#: kmkernel.cpp:1354
 #, fuzzy
 msgid "sent-mail"
 msgstr "Sendmail"
 
-#: kmkernel.cpp:1355
+#: kmkernel.cpp:1356
 msgid "You do not have read/write permission to your sent-mail folder."
 msgstr ""
 
-#: kmkernel.cpp:1362
+#: kmkernel.cpp:1363
 #, fuzzy
 msgid "trash"
 msgstr "&Dalše opcije"
 
-#: kmkernel.cpp:1364
+#: kmkernel.cpp:1365
 msgid "You do not have read/write permission to your trash folder."
 msgstr ""
 
-#: kmkernel.cpp:1371
+#: kmkernel.cpp:1372
 msgid "drafts"
 msgstr ""
 
-#: kmkernel.cpp:1373
+#: kmkernel.cpp:1374
 msgid "You do not have read/write permission to your drafts folder."
 msgstr ""
 
-#: kmkernel.cpp:1380
+#: kmkernel.cpp:1381
 #, fuzzy
 msgid "templates"
 msgstr "Na&runać"
 
-#: kmkernel.cpp:1382
+#: kmkernel.cpp:1383
 #, fuzzy
 msgid "You do not have read/write permission to your templates folder."
 msgstr "Nimaće prawo, do zapiska %1 čitać/pisać."
 
-#: kmkernel.cpp:1768
+#: kmkernel.cpp:1769
 #, kde-format
 msgctxt "%1-%3 is the application name, %4-%7 are folder path"
 msgid ""
@@ -13962,7 +13967,7 @@ msgid ""
 "p><p><strong>Would you like %3 to move the mail files now?</strong></p></qt>"
 msgstr ""
 
-#: kmkernel.cpp:1782
+#: kmkernel.cpp:1783
 #, kde-format
 msgctxt "%1-%3 is the application name, %4-%6 are folder path"
 msgid ""
@@ -13971,11 +13976,11 @@ msgid ""
 "<p><strong>Would you like %3 to move the mail files now?</strong></p></qt>"
 msgstr ""
 
-#: kmkernel.cpp:1792
+#: kmkernel.cpp:1793
 msgid "Migrate Mail Files?"
 msgstr ""
 
-#: kmkernel.cpp:1902 kmcommands.cpp:951
+#: kmkernel.cpp:1903 kmcommands.cpp:951
 #, kde-format
 msgid ""
 "File %1 exists.\n"
@@ -13984,20 +13989,20 @@ msgstr ""
 "Dataja %1 eksistuje?\n"
 "Chceće ju přepisać?"
 
-#: kmkernel.cpp:1903 kmcommands.cpp:647 kmcommands.cpp:952
+#: kmkernel.cpp:1904 kmcommands.cpp:647 kmcommands.cpp:952
 msgid "Save to File"
 msgstr "Do dataje zawěsćić"
 
-#: kmkernel.cpp:1903 kmcommands.cpp:647 kmcommands.cpp:952
+#: kmkernel.cpp:1904 kmcommands.cpp:647 kmcommands.cpp:952
 msgid "&Replace"
 msgstr "Na&runać"
 
-#: kmkernel.cpp:1984
+#: kmkernel.cpp:1985
 #, fuzzy
 msgid "KMail encountered a fatal error and will terminate now"
 msgstr "KMail"
 
-#: kmkernel.cpp:1987
+#: kmkernel.cpp:1988
 #, fuzzy, kde-format
 msgid ""
 "KMail encountered a fatal error and will terminate now.\n"
@@ -14005,11 +14010,11 @@ msgid ""
 "%1"
 msgstr "KMail"
 
-#: kmkernel.cpp:2111
+#: kmkernel.cpp:2112
 msgid "Are you sure you want to empty the trash folders of all accounts?"
 msgstr ""
 
-#: kmkernel.cpp:2369
+#: kmkernel.cpp:2370
 #, kde-format
 msgid "This identity has been changed to use the default transport:"
 msgid_plural ""
@@ -14019,7 +14024,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: kmkernel.cpp:2392
+#: kmkernel.cpp:2393
 #, kde-format
 msgid "This identity has been changed to use the modified transport:"
 msgid_plural ""
@@ -14910,12 +14915,12 @@ msgstr "KMail &konfigurować..."
 msgid " Spellcheck: %1 "
 msgstr "Prawopisny program"
 
-#: kmcomposewin.cpp:1350 kmcomposewin.cpp:4212
+#: kmcomposewin.cpp:1350 kmcomposewin.cpp:4217
 #, kde-format
 msgid " Column: %1 "
 msgstr " Špalta: %1"
 
-#: kmcomposewin.cpp:1352 kmcomposewin.cpp:4210
+#: kmcomposewin.cpp:1352 kmcomposewin.cpp:4215
 #, fuzzy, kde-format
 #| msgid " Line: %1 "
 msgctxt "Shows the linenumber of the cursor position."
@@ -14965,7 +14970,7 @@ msgstr ""
 msgid "File Attachment Reminder"
 msgstr "Pokaž přiwěšk: "
 
-#: kmcomposewin.cpp:1966 kmcomposewin.cpp:3773
+#: kmcomposewin.cpp:1966 kmcomposewin.cpp:3778
 #, fuzzy
 msgid "&Send as Is"
 msgstr "&Haj, pósłać kaž je"
@@ -15214,93 +15219,93 @@ msgstr "Sćelu mailki..."
 msgid "Send Confirmation"
 msgstr "Wobkrućenje dochada"
 
-#: kmcomposewin.cpp:3771
+#: kmcomposewin.cpp:3776
 #, kde-format
 msgid ""
 "You are trying to send the mail to more than %1 recipients. Send message "
 "anyway?"
 msgstr ""
 
-#: kmcomposewin.cpp:3772
+#: kmcomposewin.cpp:3777
 #, fuzzy
 msgid "Too many recipients"
 msgstr "<adresaća>"
 
-#: kmcomposewin.cpp:3774
+#: kmcomposewin.cpp:3779
 #, fuzzy
 msgid "&Edit Recipients"
 msgstr "<adresaća>"
 
-#: kmcomposewin.cpp:3864
+#: kmcomposewin.cpp:3869
 msgid ""
 "Turning HTML mode off will cause the text to lose the formatting. Are you "
 "sure?"
 msgstr ""
 
-#: kmcomposewin.cpp:3866
+#: kmcomposewin.cpp:3871
 msgid "Lose the formatting?"
 msgstr ""
 
-#: kmcomposewin.cpp:3866
+#: kmcomposewin.cpp:3871
 #, fuzzy
 msgid "Lose Formatting"
 msgstr "Wobkrućenje dochada"
 
-#: kmcomposewin.cpp:3920
+#: kmcomposewin.cpp:3925
 #, fuzzy
 msgid "Spellcheck: on"
 msgstr "Prawopisny program"
 
-#: kmcomposewin.cpp:3922
+#: kmcomposewin.cpp:3927
 #, fuzzy
 msgid "Spellcheck: off"
 msgstr "Prawopisny program"
 
-#: kmcomposewin.cpp:4258
+#: kmcomposewin.cpp:4263
 msgid ""
 "Please configure a Crypto Backend to use for Chiasmus encryption first.\n"
 "You can do this in the Crypto Backends tab of the configure dialog's "
 "Security page."
 msgstr ""
 
-#: kmcomposewin.cpp:4262
+#: kmcomposewin.cpp:4267
 msgid ""
 "It looks as though libkleopatra was compiled without Chiasmus support. You "
 "might want to recompile libkleopatra with --enable-chiasmus."
 msgstr ""
 
-#: kmcomposewin.cpp:4265
+#: kmcomposewin.cpp:4270
 msgid "No Chiasmus Backend Configured"
 msgstr ""
 
-#: kmcomposewin.cpp:4296
+#: kmcomposewin.cpp:4301
 #, fuzzy
 msgid "No Chiasmus Keys Found"
 msgstr "Žana signatura"
 
-#: kmcomposewin.cpp:4300
+#: kmcomposewin.cpp:4305
 #, fuzzy
 msgid "Chiasmus Encryption Key Selection"
 msgstr "Šifrowanje"
 
-#: kmcomposewin.cpp:4382
+#: kmcomposewin.cpp:4387
 #, fuzzy
 #| msgid "Message was signed by %1."
 msgid "Message will be signed"
 msgstr "Powěsć bu podpisana wot %1."
 
-#: kmcomposewin.cpp:4383
+#: kmcomposewin.cpp:4388
 #, fuzzy
 #| msgid "Message List - Date Field"
 msgid "Message will not be signed"
 msgstr "Lisćina powěsćow - datumowe pólko"
 
-#: kmcomposewin.cpp:4385
+#: kmcomposewin.cpp:4390
 #, fuzzy
 msgid "Message will be encrypted"
 msgstr "PGP-ŝifrowana powěsć"
 
-#: kmcomposewin.cpp:4386
+#: kmcomposewin.cpp:4391
 #, fuzzy
 msgid "Message will not be encrypted"
 msgstr "PGP-ŝifrowana powěsć"
@@ -17079,6 +17084,12 @@ msgstr "Wočinić w adresniku"
 #: kmfawidgets.cpp:123
 msgid "Select Sound File"
 msgstr "Wubjerće zwukowu dataju"
+
+#, fuzzy
+#~| msgid "&Advanced"
+#~ msgctxt "@title:tab Advanced settings"
+#~ msgid "Advanced"
+#~ msgstr "&Za pokročenych"
 
 #, fuzzy
 #~| msgid "Name"
