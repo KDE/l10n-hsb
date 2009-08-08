@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-06 06:18+0200\n"
+"POT-Creation-Date: 2009-08-08 06:21+0200\n"
 "PO-Revision-Date: 2008-11-22 12:27+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -138,15 +138,27 @@ msgstr ""
 msgid "System Tray Icons"
 msgstr "Pokaž systemowe piktogramy"
 
+#. i18n: file: ui/autohide.ui:79
+#. i18n: ectx: property (text), widget (QTreeWidget, icons)
+#: rc.cpp:14
+msgid "1"
+msgstr ""
+
+#. i18n: file: ui/autohide.ui:84
+#. i18n: ectx: property (text), widget (QTreeWidget, icons)
+#: rc.cpp:17
+msgid "2"
+msgstr ""
+
 #. i18n: file: ui/protocols.ui:26
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:14
+#: rc.cpp:20
 msgid "Pop Up Notices"
 msgstr ""
 
 #. i18n: file: ui/protocols.ui:33
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:17
+#: rc.cpp:23
 #, fuzzy
 #| msgid "Application sounds"
 msgid "Application notifications"
@@ -154,19 +166,19 @@ msgstr "Programowe zwuki"
 
 #. i18n: file: ui/protocols.ui:50
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:20
+#: rc.cpp:26
 msgid "File transfers and other jobs"
 msgstr ""
 
 #. i18n: file: ui/protocols.ui:73
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:23
+#: rc.cpp:29
 msgid "Icons"
 msgstr "piktogramy"
 
 #. i18n: file: ui/protocols.ui:80
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:26
+#: rc.cpp:32
 #, fuzzy
 #| msgid "Application sounds"
 msgid "Application status"
@@ -174,7 +186,7 @@ msgstr "Programowe zwuki"
 
 #. i18n: file: ui/protocols.ui:97
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:29
+#: rc.cpp:35
 #, fuzzy
 #| msgid "Communication error"
 msgid "Communications"
@@ -182,7 +194,7 @@ msgstr "Komunikaciski zmylk"
 
 #. i18n: file: ui/protocols.ui:114
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: rc.cpp:32
+#: rc.cpp:38
 #, fuzzy
 #| msgid "Services"
 msgid "System services"
@@ -190,40 +202,59 @@ msgstr "Serwisy"
 
 #. i18n: file: ui/protocols.ui:131
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: rc.cpp:35
+#: rc.cpp:41
 #, fuzzy
 msgid "Hardware control"
 msgstr "Name=Hardware"
 
-#: ui/applet.cpp:196
+#: ui/applet.cpp:200
 msgid "No notifications and no jobs"
 msgstr "Žane zdźělenki a žane nadawki"
 
-#: ui/applet.cpp:491
+#: ui/applet.cpp:495
 msgid "Information"
 msgstr ""
 
-#: ui/applet.cpp:493
+#: ui/applet.cpp:497
 msgid "Choose which information to show"
 msgstr ""
 
-#: ui/applet.cpp:494
+#: ui/applet.cpp:498
 #, fuzzy
 #| msgid "&Auto Skip"
 msgid "Auto Hide"
 msgstr "&Awtomatisce přeskočić"
 
-#: ui/applet.cpp:495
+#: ui/applet.cpp:499
 msgid "Plasma widgets"
 msgstr ""
 
-#: ui/applet.cpp:749
+#: ui/applet.cpp:526
+#, fuzzy
+#| msgid "&Auto Skip"
+msgctxt "Item will be automatically shown or hidden from the systray"
+msgid "Auto"
+msgstr "&Awtomatisce přeskočić"
+
+#: ui/applet.cpp:527
+#, fuzzy
+#| msgid "Hidden icons:"
+msgctxt "Item is never visible in the systray"
+msgid "Hidden"
+msgstr "Schowane piktogramy:"
+
+#: ui/applet.cpp:528
+msgctxt "Item is always visible in the systray"
+msgid "Always visible"
+msgstr ""
+
+#: ui/applet.cpp:776
 #, fuzzy, kde-format
 #| msgid "(finished) %1"
 msgid "%1 [Finished]"
 msgstr "(zakónčeny)  %1"
 
-#: ui/applet.cpp:783
+#: ui/applet.cpp:810
 msgid "Recently Completed Jobs"
 msgstr ""
 
@@ -314,9 +345,6 @@ msgstr "Zdźělenka wot %1"
 
 #~ msgid "Visible icons:"
 #~ msgstr "Widźomne piktogramy:"
-
-#~ msgid "Hidden icons:"
-#~ msgstr "Schowane piktogramy:"
 
 #, fuzzy
 #~| msgid "(paused) %1"
