@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-31 06:06+0200\n"
+"POT-Creation-Date: 2009-09-01 06:21+0200\n"
 "PO-Revision-Date: 2008-12-19 22:49+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -6833,7 +6833,7 @@ msgstr "Njepokaž tutu zdźělenku přichodny raz"
 msgid "About %1"
 msgstr "Wo %1"
 
-#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:123
+#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:125
 msgid "Configure"
 msgstr "Konfiguracija"
 
@@ -8810,6 +8810,16 @@ msgstr "Nastrojowe pasy"
 #: kdeui/widgets/klanguagebutton.cpp:177
 msgid "without name"
 msgstr "bjez mjena"
+
+#: kdeui/widgets/kcmodule.cpp:170
+msgid "You will be asked to authenticate before saving"
+msgstr ""
+
+#: kdeui/widgets/kcmodule.cpp:174
+#, fuzzy
+#| msgid "Do you want to reload KDE configuration?"
+msgid "You are not allowed to save the configuration"
+msgstr "Chceće KDE-konfiguraciju znowa začitać?"
 
 #: kdeui/widgets/kactionselector.cpp:94
 msgid "&Available:"
@@ -11599,8 +11609,14 @@ msgid "Send Confirmation"
 msgstr "Wobkrućenje pósłanja"
 
 #: khtml/html/html_formimpl.cpp:440
-msgid "&Send Files"
-msgstr "&Dataje pósłać"
+#, fuzzy
+#| msgid "&Send Files"
+msgid "&Send File"
+msgid_plural "&Send Files"
+msgstr[0] "&Dataje pósłać"
+msgstr[1] "&Dataje pósłać"
+msgstr[2] "&Dataje pósłać"
+msgstr[3] "&Dataje pósłać"
 
 #: khtml/html/html_formimpl.cpp:2619
 msgid "Key Generator"
@@ -12430,26 +12446,7 @@ msgstr "Njemóžach dźěl přehladki ćišćeć"
 msgid "Print Preview"
 msgstr "Ćišćowa přehladka"
 
-#: kutils/kcmoduleproxy.cpp:131
-msgid ""
-"<b>Changes in this section require root access.</b><br />On applying your "
-"changes you will have to supply your root password."
-msgstr ""
-"<b>Změny w tutej sekciji sej žadaja administratorske prawa.</b><br />Za "
-"nałoženje změnow dyrbiće administratorske hesło zapodać."
-
-#: kutils/kcmoduleproxy.cpp:138
-msgid ""
-"This section requires special permissions, probably for system-wide changes; "
-"therefore, it is required that you provide the root password to be able to "
-"change the module's properties. If you cannot provide the password, the "
-"changes of the module cannot be saved "
-msgstr ""
-"Tuta sekcija sej žada wosebite dowolnosće, najskerje za cyłosystemowe změny; "
-"tohodla dyrbiće administratorowe hesło zapodać, zo byšće swójstwa modula "
-"změnili. Jeli nimaće hesło, njehodźa so Waše změny zawěsćić."
-
-#: kutils/kcmoduleproxy.cpp:159
+#: kutils/kcmoduleproxy.cpp:165
 #, kde-format
 msgctxt "Argument is application name"
 msgid "This configuration section is already opened in %1"
@@ -13389,6 +13386,23 @@ msgstr "Pokiw &dnja"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "Žana tajka funkcija '%1'"
+
+#~ msgid ""
+#~ "<b>Changes in this section require root access.</b><br />On applying your "
+#~ "changes you will have to supply your root password."
+#~ msgstr ""
+#~ "<b>Změny w tutej sekciji sej žadaja administratorske prawa.</b><br />Za "
+#~ "nałoženje změnow dyrbiće administratorske hesło zapodać."
+
+#~ msgid ""
+#~ "This section requires special permissions, probably for system-wide "
+#~ "changes; therefore, it is required that you provide the root password to "
+#~ "be able to change the module's properties. If you cannot provide the "
+#~ "password, the changes of the module cannot be saved "
+#~ msgstr ""
+#~ "Tuta sekcija sej žada wosebite dowolnosće, najskerje za cyłosystemowe "
+#~ "změny; tohodla dyrbiće administratorowe hesło zapodać, zo byšće swójstwa "
+#~ "modula změnili. Jeli nimaće hesło, njehodźa so Waše změny zawěsćić."
 
 #~ msgid "&Abort"
 #~ msgstr "&Přetorhnyć"
