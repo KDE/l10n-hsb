@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-01 06:23+0200\n"
+"POT-Creation-Date: 2009-09-05 06:30+0200\n"
 "PO-Revision-Date: 2008-11-29 14:43+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -58,7 +58,7 @@ msgid ""
 "<br/><i><font color=\"gray\">Failed to attach to process %1.</font></i><br/>"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:157 ksysguardprocesslist.cpp:389
+#: ksysguardprocesslist.cpp:157 ksysguardprocesslist.cpp:402
 msgid "Renice Process..."
 msgid_plural "Renice Processes..."
 msgstr[0] "Prioritu procesa změnić"
@@ -66,7 +66,7 @@ msgstr[1] "Prioritu procesow změnić"
 msgstr[2] "Prioritu procesow změnić"
 msgstr[3] "Prioritu procesow změnić"
 
-#: ksysguardprocesslist.cpp:158 ksysguardprocesslist.cpp:463
+#: ksysguardprocesslist.cpp:158 ksysguardprocesslist.cpp:476
 msgid "Jump to Parent Process"
 msgstr "K nadrjadowanemu procesej"
 
@@ -88,7 +88,7 @@ msgstr "Input && Output dohladować"
 msgid "Resume Stopped Process"
 msgstr "Zastajene procesy znowa startować "
 
-#: ksysguardprocesslist.cpp:168 ksysguardprocesslist.cpp:390
+#: ksysguardprocesslist.cpp:168 ksysguardprocesslist.cpp:403
 msgid "Kill Process"
 msgid_plural "Kill Processes"
 msgstr[0] "Proces wottřělić"
@@ -128,105 +128,112 @@ msgstr "Wužiwar 1 (USR1)"
 msgid "User 2 (USR2)"
 msgstr "Wužiwar 2 (USR2)"
 
-#: ksysguardprocesslist.cpp:415
+#: ksysguardprocesslist.cpp:428
 msgid "Send Signal"
 msgstr "Signal pósłać"
 
-#: ksysguardprocesslist.cpp:432
+#: ksysguardprocesslist.cpp:445
 #, kde-format
 msgid "Jump to Parent Process (%1)"
 msgstr "K nadrjadowanemu procesej skočić (%1)"
 
-#: ksysguardprocesslist.cpp:567
+#: ksysguardprocesslist.cpp:580
 #, kde-format
 msgid "Hide Column '%1'"
 msgstr "Stołpik '%1' schować"
 
-#: ksysguardprocesslist.cpp:580
+#: ksysguardprocesslist.cpp:593
 #, kde-format
 msgid "Show Column '%1'"
 msgstr "Stołpik '%1' pokazać"
 
-#: ksysguardprocesslist.cpp:607
+#: ksysguardprocesslist.cpp:620
 msgid "Display Units"
 msgstr "Jednotki pokazać"
 
-#: ksysguardprocesslist.cpp:610
+#: ksysguardprocesslist.cpp:623
 #, fuzzy
 #| msgid "Kilobytes"
 msgid "Kilobytes per second"
 msgstr "Kilobytes"
 
-#: ksysguardprocesslist.cpp:610
+#: ksysguardprocesslist.cpp:623
 msgid "Kilobytes"
 msgstr "Kilobytes"
 
-#: ksysguardprocesslist.cpp:615
+#: ksysguardprocesslist.cpp:628
 #, fuzzy
 #| msgid "Megabytes"
 msgid "Megabytes per second"
 msgstr "Megabytes"
 
-#: ksysguardprocesslist.cpp:615
+#: ksysguardprocesslist.cpp:628
 msgid "Megabytes"
 msgstr "Megabytes"
 
-#: ksysguardprocesslist.cpp:620
+#: ksysguardprocesslist.cpp:633
 #, fuzzy
 #| msgid "Gigabytes"
 msgid "Gigabytes per second"
 msgstr "Gigabytes"
 
-#: ksysguardprocesslist.cpp:620
+#: ksysguardprocesslist.cpp:633
 msgid "Gigabytes"
 msgstr "Gigabytes"
 
-#: ksysguardprocesslist.cpp:629
+#: ksysguardprocesslist.cpp:642
 msgid "Percentage"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:655
+#: ksysguardprocesslist.cpp:668
 msgid "Display command line options"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:662
+#: ksysguardprocesslist.cpp:675
 msgid "Divide CPU usage by number of CPUs"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:669
+#: ksysguardprocesslist.cpp:682
 msgid "Displayed Information"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:672
+#: ksysguardprocesslist.cpp:685
 msgid "Characters read/written"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:677
+#: ksysguardprocesslist.cpp:690
 msgid "Number of Read/Write operations"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:682
+#: ksysguardprocesslist.cpp:695
 msgid "Bytes actually read/written"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:688
+#: ksysguardprocesslist.cpp:701
 msgid "Show I/O rate"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:715
+#: ksysguardprocesslist.cpp:728
 msgid "Show Tooltips"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:980 ksysguardprocesslist.cpp:1254
+#: ksysguardprocesslist.cpp:967
+#, kde-format
+msgid ""
+"You do not have the permission to renice the process and there was a problem "
+"trying to run as root.  Error %1 %2"
+msgstr ""
+
+#: ksysguardprocesslist.cpp:992 ksysguardprocesslist.cpp:1195
 msgid "You must select a process first."
 msgstr "Dyrbiće najprjedy proces wubrać."
 
-#: ksysguardprocesslist.cpp:1057
+#: ksysguardprocesslist.cpp:1069
 msgid ""
 "You do not have sufficient privileges to change the CPU scheduler. Aborting."
 msgstr "Nimaće dosć prawow za změnu CPU-schedulera. Přetorhnu."
 
-#: ksysguardprocesslist.cpp:1065
+#: ksysguardprocesslist.cpp:1077
 #, fuzzy
 #| msgid ""
 #| "You do not have sufficient privileges to change the CPU priority. Aborting"
@@ -234,7 +241,7 @@ msgid ""
 "You do not have sufficient privileges to change the CPU priority. Aborting."
 msgstr "Nimaće dosć prawow za změnu CPU-priority. Přetorhnu."
 
-#: ksysguardprocesslist.cpp:1071
+#: ksysguardprocesslist.cpp:1083
 #, fuzzy
 #| msgid ""
 #| "You do not have sufficient privileges to change the CPU scheduler. "
@@ -244,28 +251,28 @@ msgid ""
 "priority. Aborting."
 msgstr "Nimaće dosć prawow za změnu CPU-schedulera. Přetorhnu."
 
-#: ksysguardprocesslist.cpp:1163
-msgid "No."
-msgstr ""
-
-#: ksysguardprocesslist.cpp:1169
-msgid "Could not find kdesu executable."
-msgstr ""
-
-#: ksysguardprocesslist.cpp:1174
+#: ksysguardprocesslist.cpp:1117
+#, kde-format
 msgid ""
-"Could not find setscheduler executable.  This should have been installed "
-"alongside system monitor."
+"You do not have the permission to change the I/O priority of the process and "
+"there was a problem trying to run as root.  Error %1 %2"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1234
+#: ksysguardprocesslist.cpp:1147
+#, kde-format
+msgid ""
+"You do not have the permission to change the CPU Scheduler for the process "
+"and there was a problem trying to run as root.  Error %1 %2"
+msgstr ""
+
+#: ksysguardprocesslist.cpp:1175
 #, kde-format
 msgid ""
 "You do not have the permission to kill the process and there was a problem "
-"trying to run as root.  Error %1 (%1)"
+"trying to run as root.  Error %1 %2"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1260
+#: ksysguardprocesslist.cpp:1201
 #, kde-format
 msgid "Are you sure you want to kill this process?"
 msgid_plural "Are you sure you want to kill these %1 processes?"
@@ -274,7 +281,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: ksysguardprocesslist.cpp:1265
+#: ksysguardprocesslist.cpp:1206
 #, fuzzy, kde-format
 #| msgid "Kill Process"
 #| msgid_plural "Kill Processes"
@@ -285,20 +292,8 @@ msgstr[1] "Procesaj wottřělić"
 msgstr[2] "Procesy wottřělić"
 msgstr[3] "Procesy wottřělić"
 
-#: ksysguardprocesslist.cpp:1266
+#: ksysguardprocesslist.cpp:1207
 msgid "Kill"
-msgstr ""
-
-#: ksysguardprocesslist.cpp:1286
-msgid ""
-"You do not have the permission to renice the process and there was a problem "
-"trying to run as root."
-msgstr ""
-
-#: ksysguardprocesslist.cpp:1291
-msgid ""
-"You do not have the permission to set the I/O priority and there was a "
-"problem trying to run as root."
 msgstr ""
 
 #. i18n: file: DisplayProcessUi.ui:25
