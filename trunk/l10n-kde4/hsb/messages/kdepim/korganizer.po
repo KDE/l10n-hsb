@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-29 06:12+0200\n"
+"POT-Creation-Date: 2009-10-11 06:22+0200\n"
 "PO-Revision-Date: 2004-04-16 17:59+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -1373,10 +1373,15 @@ msgstr ""
 msgid "Categories"
 msgstr "Kategorije"
 
-#: views/listview/kolistview.cpp:387
+#: views/listview/kolistview.cpp:387 views/monthview/monthitem.cpp:293
+#: views/agendaview/koagendaitem.cpp:83
 #, kde-format
-msgid "%1 (%2  years)"
-msgstr ""
+msgid "%2 (1 year)"
+msgid_plural "%2 (%1 years)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: views/monthview/monthview.cpp:66
 msgid "Go back one month"
@@ -1409,11 +1414,6 @@ msgstr ""
 #, kde-format
 msgctxt "'Month day' for month view cells"
 msgid "%1 %2"
-msgstr ""
-
-#: views/monthview/monthitem.cpp:293 views/agendaview/koagendaitem.cpp:83
-#, kde-format
-msgid "%1 (%2 years)"
 msgstr ""
 
 #: views/monthview/monthitem.cpp:454 views/agendaview/koagenda.cpp:1044
@@ -1839,7 +1839,7 @@ msgid "Do Not Send"
 msgstr ""
 
 #: incidencechanger.cpp:296
-msgid "No calendars found. We can not add event."
+msgid "No calendars found, event cannot be added."
 msgstr ""
 
 #: incidencechanger.cpp:321 kodialogmanager.cpp:120
@@ -4290,7 +4290,7 @@ msgstr ""
 
 #: actionmanager.cpp:1137
 #, kde-format
-msgid "Do you want to overwrite file \"%1\""
+msgid "Do you want to overwrite file \"%1\"?"
 msgstr ""
 
 #: actionmanager.cpp:1170
@@ -5000,8 +5000,8 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (KTextEdit, mEmailText)
 #: rc.cpp:236 rc.cpp:3287
 msgid ""
-"Enter any text you desire for the email message that will be sent when the "
-"alarm triggers."
+"Enter the text you would like to be in the email message sent when the "
+"reminder triggers."
 msgstr ""
 
 #. i18n: file: koeditoralarms_base.ui:546
@@ -5014,8 +5014,8 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (KPIM::AddresseeLineEdit, mEmailAddress)
 #: rc.cpp:242 rc.cpp:3293
 msgid ""
-"Enter a list comma-sepatered addresses where an email will be sent when the "
-"reminder triggers"
+"Enter a list of comma-separated addresses to which an email should be sent "
+"when the reminder triggers."
 msgstr ""
 
 #. i18n: file: koeditoralarms_base.ui:556
@@ -7538,7 +7538,7 @@ msgstr ""
 #: rc.cpp:1402 rc.cpp:1732
 msgid ""
 "Check this box if you want to include Events that occur within the date "
-"range specified.  Events that don't fall completely within the date range "
+"range specified.  Events that do not fall completely within the date range "
 "will be excluded from the search results."
 msgstr ""
 
