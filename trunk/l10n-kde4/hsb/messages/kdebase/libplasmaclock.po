@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-13 06:16+0200\n"
+"POT-Creation-Date: 2009-10-15 06:15+0200\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,11 +17,25 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: clockapplet.cpp:233
+#: calendartable.cpp:511 clockapplet.cpp:490
+msgid "Calendar"
+msgstr ""
+
+#: calendartable.cpp:514
+#, fuzzy
+#| msgid "Locality:"
+msgid "Local"
+msgstr "Městno:"
+
+#: calendartable.cpp:529
+msgid "Do not show holidays"
+msgstr ""
+
+#: clockapplet.cpp:206
 msgid "Starting KTTSD Failed"
 msgstr ""
 
-#: clockapplet.cpp:246
+#: clockapplet.cpp:219
 #, fuzzy, kde-format
 #| msgid "At least %1"
 msgctxt "Text sent to the text to speech service when minutes==0 and it is AM"
@@ -32,7 +46,7 @@ msgstr[1] "Znajmjeńša %1"
 msgstr[2] "Znajmjeńša %1"
 msgstr[3] "Znajmjeńša %1"
 
-#: clockapplet.cpp:252
+#: clockapplet.cpp:225
 #, fuzzy, kde-format
 #| msgid "At least %1"
 msgctxt "Text sent to the text to speech service when minutes==0 and it is PM"
@@ -43,7 +57,7 @@ msgstr[1] "Znajmjeńša %1"
 msgstr[2] "Znajmjeńša %1"
 msgstr[3] "Znajmjeńša %1"
 
-#: clockapplet.cpp:259
+#: clockapplet.cpp:232
 #, fuzzy, kde-format
 #| msgid "At least %1"
 msgctxt ""
@@ -56,57 +70,47 @@ msgstr[1] "Znajmjeńša %1"
 msgstr[2] "Znajmjeńša %1"
 msgstr[3] "Znajmjeńša %1"
 
-#: clockapplet.cpp:267
+#: clockapplet.cpp:240
 #, fuzzy, kde-format
 #| msgid "At least %1"
 msgctxt "Text sent to the text to speech service for AM"
 msgid "It is %1:%2 a m"
 msgstr "Znajmjeńša %1"
 
-#: clockapplet.cpp:272
+#: clockapplet.cpp:245
 #, fuzzy, kde-format
 #| msgid "At least %1"
 msgctxt "Text sent to the text to speech service for PM"
 msgid "It is %1:%2 p m"
 msgstr "Znajmjeńša %1"
 
-#: clockapplet.cpp:278
+#: clockapplet.cpp:251
 #, fuzzy, kde-format
 #| msgid "At least %1"
 msgctxt "Text sent to the text to speech service for the 24 hour clock"
 msgid "It is %1:%2"
 msgstr "Znajmjeńša %1"
 
-#: clockapplet.cpp:364
+#: clockapplet.cpp:331
 #, fuzzy
 #| msgid "General"
 msgctxt "General configuration page"
 msgid "General"
 msgstr "Generelnje"
 
-#: clockapplet.cpp:385
-msgid "Do not show holidays"
-msgstr ""
-
-#: clockapplet.cpp:411
+#: clockapplet.cpp:340
 msgid "Time Zones"
 msgstr ""
 
-#: clockapplet.cpp:534
+#: clockapplet.cpp:436
 msgid "C&opy to Clipboard"
 msgstr ""
 
-#. i18n: file: generalConfig.ui:23
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: clockapplet.cpp:588 rc.cpp:3 rc.cpp:59
-msgid "Calendar"
-msgstr ""
-
-#: clockapplet.cpp:605
+#: clockapplet.cpp:494
 msgid "Today"
 msgstr "dźensa"
 
-#: clockapplet.cpp:721
+#: clockapplet.cpp:600
 #, fuzzy
 #| msgid "Locality:"
 msgctxt "Local time zone"
@@ -119,15 +123,21 @@ msgstr "Městno:"
 msgid "Holiday: %1"
 msgstr "Chowaj %1"
 
-#. i18n: file: generalConfig.ui:30
+#. i18n: file: calendarConfig.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:6 rc.cpp:62
+#: rc.cpp:3 rc.cpp:59
 #, fuzzy
 #| msgid "Hide %1"
 msgid "Holidays:"
 msgstr "Chowaj %1"
 
-#. i18n: file: generalConfig.ui:66
+#. i18n: file: calendarConfig.ui:64
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:6 rc.cpp:62
+msgid "Calendar System:"
+msgstr ""
+
+#. i18n: file: generalConfig.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:9 rc.cpp:65
 #, fuzzy
@@ -136,7 +146,7 @@ msgstr "Chowaj %1"
 msgid "Text to Speech"
 msgstr "Tekst-na-reč"
 
-#. i18n: file: generalConfig.ui:89
+#. i18n: file: generalConfig.ui:46
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: rc.cpp:12 rc.cpp:68
 #, fuzzy
@@ -144,7 +154,7 @@ msgstr "Tekst-na-reč"
 msgid "Speak time:"
 msgstr "Postajeny čas"
 
-#. i18n: file: generalConfig.ui:101
+#. i18n: file: generalConfig.ui:58
 #. i18n: ectx: property (specialValueText), widget (KIntSpinBox, interval)
 #: rc.cpp:15 rc.cpp:71
 #, fuzzy
@@ -153,7 +163,7 @@ msgstr "Postajeny čas"
 msgid "Never"
 msgstr "Wróćo na prěnjotny staw"
 
-#. i18n: file: generalConfig.ui:104
+#. i18n: file: generalConfig.ui:61
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, interval)
 #: rc.cpp:18 rc.cpp:74
 #, fuzzy
@@ -163,7 +173,7 @@ msgstr "Wróćo na prěnjotny staw"
 msgid "th minute"
 msgstr "%1 mjeńšina"
 
-#. i18n: file: generalConfig.ui:107
+#. i18n: file: generalConfig.ui:64
 #. i18n: ectx: property (prefix), widget (KIntSpinBox, interval)
 #: rc.cpp:21 rc.cpp:77
 msgid "Every "
