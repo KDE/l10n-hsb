@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-27 07:11+0100\n"
+"POT-Creation-Date: 2009-10-28 07:25+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -88,19 +88,19 @@ msgstr ""
 msgid "Computer"
 msgstr ""
 
-#: gui/mainwindow.cpp:102
+#: gui/mainwindow.cpp:103
 #, fuzzy
 #| msgid "Step to next line..."
-msgid "Setup a new game..."
+msgid "Set up a new game..."
 msgstr "Kročić do přichodneje linki ..."
 
-#: gui/mainwindow.cpp:138
+#: gui/mainwindow.cpp:139
 #, fuzzy
 #| msgid "Page loaded."
-msgid "Setup a loaded game..."
+msgid "Set up a loaded game..."
 msgstr "Strona začitana."
 
-#: gui/mainwindow.cpp:140
+#: gui/mainwindow.cpp:141
 #, fuzzy
 #| msgid "Page loaded."
 msgid "Unable to load game..."
@@ -125,75 +125,80 @@ msgstr ""
 
 #: gui/mainwindow.cpp:270
 #, kde-format
-msgid "%1 has won this game with a score of %2."
+msgid "%1 has won this game with a score of %2 (bounded by %3 and %4)."
 msgstr ""
 
-#: gui/mainwindow.cpp:276
+#: gui/mainwindow.cpp:277
 #, fuzzy
 #| msgid "Remove"
 msgid "Undone move"
 msgstr "Zničić"
 
-#: gui/mainwindow.cpp:284
+#: gui/mainwindow.cpp:285
 #, fuzzy
 #| msgid "Remove"
 msgid "Redone move"
 msgstr "Zničić"
 
-#: gui/mainwindow.cpp:292
-msgid "Passed move"
-msgstr ""
-
-#: gui/mainwindow.cpp:300
-msgid "These are the recommended moves..."
-msgstr ""
-
-#: gui/mainwindow.cpp:309
+#: gui/mainwindow.cpp:310
 msgid "General"
 msgstr "Generelnje"
 
-#: gui/mainwindow.cpp:310
+#: gui/mainwindow.cpp:311
 msgid "Themes"
 msgstr ""
 
-#: gui/mainwindow.cpp:327
+#: gui/mainwindow.cpp:328
 msgid "Backend was changed, restart necessary..."
 msgstr ""
 
-#: gui/mainwindow.cpp:379 gui/mainwindow.cpp:381
+#: gui/mainwindow.cpp:379
+#, fuzzy
+#| msgid "Write"
+msgid "White passed"
+msgstr "Pisać"
+
+#: gui/mainwindow.cpp:381
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Back"
+msgid "Black passed"
+msgstr "Wróćo"
+
+#: gui/mainwindow.cpp:391 gui/mainwindow.cpp:393
 #, fuzzy
 #| msgid "Page loaded."
 msgctxt "@action"
 msgid "Get More Games..."
 msgstr "Strona začitana."
 
-#: gui/mainwindow.cpp:387 gui/mainwindow.cpp:389
+#: gui/mainwindow.cpp:399 gui/mainwindow.cpp:401
 #, fuzzy
 #| msgid "Start replace"
 msgctxt "@action"
 msgid "Start Game"
 msgstr "Započeć narunać"
 
-#: gui/mainwindow.cpp:393 gui/mainwindow.cpp:395
+#: gui/mainwindow.cpp:405 gui/mainwindow.cpp:407
 #, fuzzy
 #| msgid "Finish"
 msgctxt "@action"
 msgid "Finish Game"
 msgstr "Zakónčić"
 
-#: gui/mainwindow.cpp:403
+#: gui/mainwindow.cpp:415
 msgctxt "@action:inmenu Move"
 msgid "Pass Move"
 msgstr ""
 
-#: gui/mainwindow.cpp:408
+#: gui/mainwindow.cpp:420
 #, fuzzy
 #| msgid "Show &Menubar"
 msgctxt "@action:inmenu View"
 msgid "Show Move &Numbers"
 msgstr "&Meni pokazać"
 
-#: gui/mainwindow.cpp:421
+#: gui/mainwindow.cpp:433
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Games"
@@ -201,14 +206,14 @@ msgctxt "@title:window"
 msgid "Game Setup"
 msgstr "Hry"
 
-#: gui/mainwindow.cpp:433
+#: gui/mainwindow.cpp:445
 #, fuzzy
 #| msgid "Information"
 msgctxt "@title:window"
 msgid "Information"
 msgstr "informacija"
 
-#: gui/mainwindow.cpp:446 gui/mainwindow.cpp:455
+#: gui/mainwindow.cpp:458 gui/mainwindow.cpp:467
 #, fuzzy
 #| msgctxt "@title:menu Game move"
 #| msgid "&Move"
@@ -216,45 +221,51 @@ msgctxt "@title:window"
 msgid "Moves"
 msgstr "&Sunyć"
 
-#: gui/mainwindow.cpp:449
+#: gui/mainwindow.cpp:461
 #, fuzzy
 #| msgid "Remove"
 msgid "No move"
 msgstr "Zničić"
 
-#: gui/mainwindow.cpp:460
+#: gui/mainwindow.cpp:472
 #, fuzzy
 #| msgid "Error"
 msgctxt "@title:window"
 msgid "Error"
 msgstr "Zmylk"
 
-#: game/game.cpp:305 game/game.cpp:350 game/game.cpp:433
+#: game/game.cpp:303 game/game.cpp:354 game/game.cpp:442
 #, fuzzy
 #| msgid "Write"
 msgid "White "
 msgstr "Pisać"
 
-#: game/game.cpp:307 game/game.cpp:353 game/game.cpp:431
+#: game/game.cpp:305 game/game.cpp:356 game/game.cpp:440
 #, fuzzy
 #| msgctxt "@action"
 #| msgid "Back"
 msgid "Black "
 msgstr "Wróćo"
 
-#: game/game.cpp:313
+#: game/game.cpp:311 game/game.cpp:366
 #, fuzzy
 #| msgid "Class"
 msgid "passed"
 msgstr "Klasa"
 
-#: game/game.cpp:363 game/game.cpp:441
+#: game/game.cpp:370
+#, fuzzy
+#| msgid "Reassign"
+msgid "resigned"
+msgstr "Zwjazanje změnić"
+
+#: game/game.cpp:450
 #, fuzzy
 #| msgid "Class"
 msgid "pass"
 msgstr "Klasa"
 
-#: game/game.cpp:366 game/game.cpp:444
+#: game/game.cpp:453
 #, fuzzy
 #| msgid "Reassign"
 msgid "resign"
@@ -693,7 +704,7 @@ msgstr ""
 #. i18n: file: gui/widgets/setupwidget.ui:346
 #. i18n: ectx: property (text), widget (QRadioButton, sizeOther)
 #: rc.cpp:179
-msgid "Other:"
+msgid "Custom:"
 msgstr ""
 
 #. i18n: file: gui/widgets/setupwidget.ui:378
