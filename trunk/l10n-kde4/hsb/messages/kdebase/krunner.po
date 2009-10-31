@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-30 06:17+0100\n"
+"POT-Creation-Date: 2009-10-31 06:20+0100\n"
 "PO-Revision-Date: 2008-11-18 00:29+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,40 +17,40 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: interfaces/default/interface.cpp:79 interfaces/default/interface.cpp:80
-#: interfaces/quicksand/qs_dialog.cpp:52 interfaces/quicksand/qs_dialog.cpp:53
+#: interfaces/default/interface.cpp:78 interfaces/default/interface.cpp:79
+#: interfaces/quicksand/qs_dialog.cpp:53 interfaces/quicksand/qs_dialog.cpp:54
 msgid "Settings"
 msgstr "Nastajenja"
 
-#: interfaces/default/interface.cpp:99 interfaces/default/interface.cpp:100
+#: interfaces/default/interface.cpp:98 interfaces/default/interface.cpp:99
 #: krunnerapp.cpp:149
 msgid "Show System Activity"
 msgstr "Wućeženosć systema pokazować"
 
-#: interfaces/default/interface.cpp:108
+#: interfaces/default/interface.cpp:107
 #, fuzzy
 #| msgctxt "@action"
 #| msgid "Help"
 msgid "Help"
 msgstr "Pomoc"
 
-#: interfaces/default/interface.cpp:109
+#: interfaces/default/interface.cpp:108
 #, fuzzy
 #| msgid "&Only show when using this application (%1)"
 msgid "Information on using this application"
 msgstr "Jen&ož pokazać, hdyž so tutón program (%1) wužiwa"
 
-#: interfaces/default/interface.cpp:355
+#: interfaces/default/interface.cpp:376
 #, fuzzy, kde-format
 #| msgid "%1 %"
 msgid "(From %1, %2)"
 msgstr "%1 %"
 
-#: interfaces/quicksand/qs_dialog.cpp:82
+#: interfaces/quicksand/qs_dialog.cpp:83
 msgid "Actions"
 msgstr "Akcije"
 
-#: interfaces/quicksand/qs_dialog.cpp:83
+#: interfaces/quicksand/qs_dialog.cpp:84
 msgid "actions"
 msgstr "akcije"
 
@@ -222,7 +222,7 @@ msgstr "&Aktiwizować"
 msgid "Start &New Session"
 msgstr "&Nowe posedźenje startować"
 
-#: krunnerdialog.cpp:64 krunnerapp.cpp:138
+#: krunnerdialog.cpp:66 krunnerapp.cpp:138
 msgid "Run Command"
 msgstr "Přikaz wuwjesć"
 
@@ -246,77 +246,117 @@ msgstr ""
 msgid "Author and maintainer"
 msgstr ""
 
-#: configdialog.cpp:53
+#: configdialog.cpp:49
 msgid "Plugins"
 msgstr ""
 
-#: configdialog.cpp:59
-#, fuzzy
-msgid "Command oriented"
-msgstr "Name=Wjace programow"
-
-#: configdialog.cpp:60
-msgid "Task oriented"
-msgstr ""
-
 #: configdialog.cpp:74
-msgid "Preview"
-msgstr "Přehladka"
-
-#: configdialog.cpp:82
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Network Interfaces"
 msgid "User Interface"
 msgstr "Syćowe interfejsy"
 
-#: configdialog.cpp:85
-msgid "KRunner Settings"
-msgstr ""
-
-#: configdialog.cpp:92
+#: configdialog.cpp:80
 msgid "Available Features"
 msgstr ""
 
-#: rc.cpp:1
+#. i18n: file: interfaceOptions.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, InterfaceOptions)
+#: rc.cpp:3
+msgid "Form"
+msgstr ""
+
+#. i18n: file: interfaceOptions.ui:20
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:6
+msgid "Positioning:"
+msgstr ""
+
+#. i18n: file: interfaceOptions.ui:30
+#. i18n: ectx: property (text), widget (QRadioButton, topEdgeButton)
+#: rc.cpp:9
+msgid "Top edge of screen"
+msgstr ""
+
+#. i18n: file: interfaceOptions.ui:40
+#. i18n: ectx: property (text), widget (QRadioButton, freeFloatingButton)
+#: rc.cpp:12
+msgid "Free floating window"
+msgstr ""
+
+#. i18n: file: interfaceOptions.ui:60
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:15
+msgid "Style:"
+msgstr ""
+
+#. i18n: file: interfaceOptions.ui:70
+#. i18n: ectx: property (text), widget (QRadioButton, commandButton)
+#: rc.cpp:18
+#, fuzzy
+msgid "Command oriented"
+msgstr "Name=Wjace programow"
+
+#. i18n: file: interfaceOptions.ui:80
+#. i18n: ectx: property (text), widget (QRadioButton, taskButton)
+#: rc.cpp:21
+msgid "Task oriented"
+msgstr ""
+
+#. i18n: file: interfaceOptions.ui:100
+#. i18n: ectx: property (text), widget (QPushButton, previewButton)
+#: rc.cpp:24
+msgid "Preview"
+msgstr "Přehladka"
+
+#: rc.cpp:25
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: rc.cpp:2
+#: rc.cpp:26
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
 #. i18n: file: kcfg/krunner.kcfg:13
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:5
+#: rc.cpp:29
 msgid "The interface style to use in KRunner"
 msgstr ""
 
-#. i18n: file: kcfg/krunner.kcfg:22
+#. i18n: file: kcfg/krunner.kcfg:21
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:8
+#: rc.cpp:32
+msgid ""
+"Set to true to show the interface in a freely floating dialog instead of at "
+"the top of the screen"
+msgstr ""
+
+#. i18n: file: kcfg/krunner.kcfg:26
+#. i18n: ectx: label, entry, group (General)
+#: rc.cpp:35
 msgid "Completion mode used for the query text."
 msgstr ""
 
-#. i18n: file: kcfg/krunner.kcfg:27
+#. i18n: file: kcfg/krunner.kcfg:31
 #. i18n: ectx: label, entry (PastQueries), group (General)
-#: rc.cpp:11
+#: rc.cpp:38
 #, fuzzy
 #| msgid "The subscription was successfully completed."
 msgid "History if past queries successfully completed"
 msgstr "Subskripcija wuspěšna."
 
-#. i18n: file: kcfg/krunner.kcfg:36
+#. i18n: file: kcfg/krunner.kcfg:40
 #. i18n: ectx: label, entry (KeepTaskDialogAbove), group (TaskDialog)
-#: rc.cpp:15
+#: rc.cpp:42
 msgid "Whether to keep the tasks dialog above other windows when shown."
 msgstr ""
 
 #. i18n: file: kcfg/kscreensaversettings.kcfg:11
 #. i18n: ectx: label, entry (ScreenSaverEnabled), group (ScreenSaver)
-#: rc.cpp:20
+#: rc.cpp:47
 #, fuzzy
 #| msgid "Only start screen saver"
 msgid "Enable screen saver"
@@ -324,7 +364,7 @@ msgstr "Jenož škitak startować"
 
 #. i18n: file: kcfg/kscreensaversettings.kcfg:12
 #. i18n: ectx: whatsthis, entry (ScreenSaverEnabled), group (ScreenSaver)
-#: rc.cpp:23
+#: rc.cpp:50
 #, fuzzy
 #| msgid "Only use the blank screen saver"
 msgid "Enables the screen saver."
@@ -332,7 +372,7 @@ msgstr "Jenož prózdny škitak wužiwać"
 
 #. i18n: file: kcfg/kscreensaversettings.kcfg:16
 #. i18n: ectx: label, entry, group (ScreenSaver)
-#: rc.cpp:26
+#: rc.cpp:53
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Screen Saver Settings"
@@ -341,19 +381,19 @@ msgstr "Nastajenja za škitaki"
 
 #. i18n: file: kcfg/kscreensaversettings.kcfg:17
 #. i18n: ectx: whatsthis, entry, group (ScreenSaver)
-#: rc.cpp:29
+#: rc.cpp:56
 msgid "Sets the seconds after which the screen saver is started."
 msgstr ""
 
 #. i18n: file: kcfg/kscreensaversettings.kcfg:21
 #. i18n: ectx: label, entry (SuspendWhenInvisible), group (ScreenSaver)
-#: rc.cpp:32
+#: rc.cpp:59
 msgid "Suspend screen saver when DPMS kicks in"
 msgstr ""
 
 #. i18n: file: kcfg/kscreensaversettings.kcfg:24
 #. i18n: ectx: whatsthis, entry (SuspendWhenInvisible), group (ScreenSaver)
-#: rc.cpp:35
+#: rc.cpp:62
 msgid ""
 "Usually the screen saver is suspended when display power saving kicks in,\n"
 "       as nothing can be seen on the screen anyway, obviously. However, some "
@@ -394,7 +434,7 @@ msgstr ""
 msgid "System Activity"
 msgstr ""
 
-#: krunnerapp.cpp:347
+#: krunnerapp.cpp:356
 msgid ""
 "Could not log out properly.\n"
 "The session manager cannot be contacted. You can try to force a shutdown by "
