@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-25 05:41+0100\n"
+"POT-Creation-Date: 2009-11-01 06:15+0100\n"
 "PO-Revision-Date: 2008-11-22 12:27+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,12 +17,172 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: notificationitemwatcher/notificationitemwatcher.cpp:36
+#: ui/taskarea.cpp:372
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Notification"
-msgid "notificationitemwatcher"
-msgstr "Zdźělenka"
+#| msgid "Visible icons:"
+msgid "Hide icons"
+msgstr "Widźomne piktogramy:"
+
+#: ui/taskarea.cpp:374
+msgid "Show hidden icons"
+msgstr ""
+
+#: ui/notificationwidget.cpp:158
+#, kde-format
+msgid "Notification from %1"
+msgstr "Zdźělenka wot %1"
+
+#: ui/jobwidget.cpp:99 ui/jobwidget.cpp:362
+#, fuzzy
+#| msgid "Store"
+msgid "More"
+msgstr "Zawěsćić"
+
+#: ui/jobwidget.cpp:110
+msgid "Pause job"
+msgstr "Nadawk zastajić"
+
+#: ui/jobwidget.cpp:119
+msgid "Resume job"
+msgstr "Z nadawkom pokročować"
+
+#: ui/jobwidget.cpp:128
+msgid "Cancel job"
+msgstr "Nadawk přetorhnyć"
+
+#: ui/jobwidget.cpp:178 ui/jobwidget.cpp:207
+#, fuzzy, kde-format
+#| msgid "%1/s ( %2 remaining )"
+msgid "%1 (%2 remaining)"
+msgstr "%1/s (hišće %2)"
+
+#: ui/jobwidget.cpp:186
+#, fuzzy, kde-format
+#| msgid "(finished) %1"
+msgctxt ""
+"%1 is the name of the job, can be things like Copying, deleting, moving"
+msgid "%1 [Paused]"
+msgstr "(zakónčeny)  %1"
+
+#: ui/jobwidget.cpp:187
+#, fuzzy
+#| msgid "Pause"
+msgid "Paused"
+msgstr "Pause/Untbr"
+
+#: ui/jobwidget.cpp:191
+#, fuzzy, kde-format
+#| msgid "(finished) %1"
+msgctxt ""
+"%1 is the name of the job, can be things like Copying, deleting, moving"
+msgid "%1 [Finished]"
+msgstr "(zakónčeny)  %1"
+
+#: ui/jobwidget.cpp:253
+#, fuzzy, kde-format
+#| msgid "%2 / %1 folder"
+#| msgid_plural "%2 / %1 folders"
+msgid "%2 / 1 folder"
+msgid_plural "%2 / %1 folders"
+msgstr[0] "%2 / %1 zapiskow"
+msgstr[1] "%2 / %1 zapisk"
+msgstr[2] "%2 / %1 zapiskaj"
+msgstr[3] "%2 / %1 zapiski"
+
+#: ui/jobwidget.cpp:258
+#, fuzzy, kde-format
+#| msgid "%2 / %1 file"
+#| msgid_plural "%2 / %1 files"
+msgid "%2 / 1 file"
+msgid_plural "%2 / %1 files"
+msgstr[0] "%2 z %1 datajow"
+msgstr[1] "%2 z %1 dataje"
+msgstr[2] "%2 z %1 datajow"
+msgstr[3] "%2 z %1 datajow"
+
+#: ui/jobwidget.cpp:353
+#, fuzzy
+#| msgid "Tests"
+msgid "Less"
+msgstr "Testy"
+
+#: ui/applet.cpp:105
+msgid "add default applets"
+msgstr ""
+
+#: ui/applet.cpp:162
+msgid "No notifications and no jobs"
+msgstr "Žane zdźělenki a žane nadawki"
+
+#: ui/applet.cpp:457
+msgid "Information"
+msgstr ""
+
+#: ui/applet.cpp:459
+msgid "Choose which information to show"
+msgstr ""
+
+#: ui/applet.cpp:460
+#, fuzzy
+#| msgid "&Auto Skip"
+msgid "Auto Hide"
+msgstr "&Awtomatisce přeskočić"
+
+#: ui/applet.cpp:461
+msgid "Plasma widgets"
+msgstr ""
+
+#: ui/applet.cpp:488
+#, fuzzy
+#| msgid "&Auto Skip"
+msgctxt "Item will be automatically shown or hidden from the systray"
+msgid "Auto"
+msgstr "&Awtomatisce přeskočić"
+
+#: ui/applet.cpp:489
+#, fuzzy
+#| msgid "Hidden icons:"
+msgctxt "Item is never visible in the systray"
+msgid "Hidden"
+msgstr "Schowane piktogramy:"
+
+#: ui/applet.cpp:490
+msgctxt "Item is always visible in the systray"
+msgid "Always visible"
+msgstr ""
+
+#: ui/applet.cpp:775
+#, fuzzy, kde-format
+#| msgid "(finished) %1"
+msgid "%1 [Finished]"
+msgstr "(zakónčeny)  %1"
+
+#: ui/applet.cpp:810
+msgid "Recently Completed Jobs"
+msgstr ""
+
+#: core/job.cpp:174
+#, kde-format
+msgid "%1 file, to: %2"
+msgid_plural "%1 files, to: %2"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: core/manager.cpp:221
+#, fuzzy, kde-format
+#| msgid "%1/s ( %2 remaining )"
+msgid "1 running job (%2 remaining)"
+msgid_plural "%1 running jobs (%2 remaining)"
+msgstr[0] "%1/s (hišće %2)"
+msgstr[1] "%1/s (hišće %2)"
+msgstr[2] "%1/s (hišće %2)"
+msgstr[3] "%1/s (hišće %2)"
+
+#: core/manager.cpp:226
+msgid "no running jobs"
+msgstr ""
 
 #: core/extendertask.cpp:161
 #, kde-format
@@ -79,28 +239,12 @@ msgstr "Žane zdźělenki a žane nadawki"
 msgid "Show or hide notifications and jobs"
 msgstr "Zdźělenki a nadawki pokazać abo schować"
 
-#: core/job.cpp:174
-#, kde-format
-msgid "%1 file, to: %2"
-msgid_plural "%1 files, to: %2"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: core/manager.cpp:221
-#, fuzzy, kde-format
-#| msgid "%1/s ( %2 remaining )"
-msgid "1 running job (%2 remaining)"
-msgid_plural "%1 running jobs (%2 remaining)"
-msgstr[0] "%1/s (hišće %2)"
-msgstr[1] "%1/s (hišće %2)"
-msgstr[2] "%1/s (hišće %2)"
-msgstr[3] "%1/s (hišće %2)"
-
-#: core/manager.cpp:226
-msgid "no running jobs"
-msgstr ""
+#: statusnotifierwatcher/statusnotifierwatcher.cpp:36
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Notification"
+msgid "statusnotifierwatcher"
+msgstr "Zdźělenka"
 
 #: rc.cpp:1
 #, fuzzy
@@ -206,150 +350,6 @@ msgstr "Serwisy"
 #, fuzzy
 msgid "Hardware control"
 msgstr "Name=Hardware"
-
-#: ui/applet.cpp:105
-msgid "add default applets"
-msgstr ""
-
-#: ui/applet.cpp:162
-msgid "No notifications and no jobs"
-msgstr "Žane zdźělenki a žane nadawki"
-
-#: ui/applet.cpp:457
-msgid "Information"
-msgstr ""
-
-#: ui/applet.cpp:459
-msgid "Choose which information to show"
-msgstr ""
-
-#: ui/applet.cpp:460
-#, fuzzy
-#| msgid "&Auto Skip"
-msgid "Auto Hide"
-msgstr "&Awtomatisce přeskočić"
-
-#: ui/applet.cpp:461
-msgid "Plasma widgets"
-msgstr ""
-
-#: ui/applet.cpp:488
-#, fuzzy
-#| msgid "&Auto Skip"
-msgctxt "Item will be automatically shown or hidden from the systray"
-msgid "Auto"
-msgstr "&Awtomatisce přeskočić"
-
-#: ui/applet.cpp:489
-#, fuzzy
-#| msgid "Hidden icons:"
-msgctxt "Item is never visible in the systray"
-msgid "Hidden"
-msgstr "Schowane piktogramy:"
-
-#: ui/applet.cpp:490
-msgctxt "Item is always visible in the systray"
-msgid "Always visible"
-msgstr ""
-
-#: ui/applet.cpp:775
-#, fuzzy, kde-format
-#| msgid "(finished) %1"
-msgid "%1 [Finished]"
-msgstr "(zakónčeny)  %1"
-
-#: ui/applet.cpp:810
-msgid "Recently Completed Jobs"
-msgstr ""
-
-#: ui/jobwidget.cpp:99 ui/jobwidget.cpp:352
-#, fuzzy
-#| msgid "Store"
-msgid "More"
-msgstr "Zawěsćić"
-
-#: ui/jobwidget.cpp:110
-msgid "Pause job"
-msgstr "Nadawk zastajić"
-
-#: ui/jobwidget.cpp:119
-msgid "Resume job"
-msgstr "Z nadawkom pokročować"
-
-#: ui/jobwidget.cpp:128
-msgid "Cancel job"
-msgstr "Nadawk přetorhnyć"
-
-#: ui/jobwidget.cpp:178
-#, fuzzy, kde-format
-#| msgid "%1/s ( %2 remaining )"
-msgid "%1 (%2 remaining)"
-msgstr "%1/s (hišće %2)"
-
-#: ui/jobwidget.cpp:186
-#, fuzzy, kde-format
-#| msgid "(finished) %1"
-msgctxt ""
-"%1 is the name of the job, can be things like Copying, deleting, moving"
-msgid "%1 [Paused]"
-msgstr "(zakónčeny)  %1"
-
-#: ui/jobwidget.cpp:187
-#, fuzzy
-#| msgid "Pause"
-msgid "Paused"
-msgstr "Pause/Untbr"
-
-#: ui/jobwidget.cpp:191
-#, fuzzy, kde-format
-#| msgid "(finished) %1"
-msgctxt ""
-"%1 is the name of the job, can be things like Copying, deleting, moving"
-msgid "%1 [Finished]"
-msgstr "(zakónčeny)  %1"
-
-#: ui/jobwidget.cpp:243
-#, fuzzy, kde-format
-#| msgid "%2 / %1 folder"
-#| msgid_plural "%2 / %1 folders"
-msgid "%2 / 1 folder"
-msgid_plural "%2 / %1 folders"
-msgstr[0] "%2 / %1 zapiskow"
-msgstr[1] "%2 / %1 zapisk"
-msgstr[2] "%2 / %1 zapiskaj"
-msgstr[3] "%2 / %1 zapiski"
-
-#: ui/jobwidget.cpp:248
-#, fuzzy, kde-format
-#| msgid "%2 / %1 file"
-#| msgid_plural "%2 / %1 files"
-msgid "%2 / 1 file"
-msgid_plural "%2 / %1 files"
-msgstr[0] "%2 z %1 datajow"
-msgstr[1] "%2 z %1 dataje"
-msgstr[2] "%2 z %1 datajow"
-msgstr[3] "%2 z %1 datajow"
-
-#: ui/jobwidget.cpp:343
-#, fuzzy
-#| msgid "Tests"
-msgid "Less"
-msgstr "Testy"
-
-#: ui/notificationwidget.cpp:158
-#, kde-format
-msgid "Notification from %1"
-msgstr "Zdźělenka wot %1"
-
-#: ui/taskarea.cpp:372
-#, fuzzy
-#| msgid "Visible icons:"
-msgid "Hide icons"
-msgstr "Widźomne piktogramy:"
-
-#: ui/taskarea.cpp:374
-msgid "Show hidden icons"
-msgstr ""
 
 #, fuzzy
 #~| msgid "Store"
