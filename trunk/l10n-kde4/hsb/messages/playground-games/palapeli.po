@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-01 11:26+0200\n"
+"POT-Creation-Date: 2009-11-02 07:11+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,171 +17,296 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: manager.cpp:142
-msgid "This puzzle archive is unreadable. It might be corrupted."
+#: src/creator/puzzlecreator.cpp:47
+msgid "Create new puzzle"
 msgstr ""
 
-#: main.cpp:37
-msgid "Puzzle archive to import into the library"
+#: src/creator/puzzlecreator.cpp:51
+msgid "Create puzzle"
 msgstr ""
 
-#: main.cpp:38
-msgid "Do not open main window (to be used with --import)"
+#: src/creator/puzzlecreator.cpp:52
+msgid ""
+"Create a new puzzle with the given information, and save it in my collection"
 msgstr ""
 
-#: main.cpp:39
-msgid "Puzzle archive to open and play"
+#: src/creator/puzzlecreator.cpp:69
+msgid "Image file:"
 msgstr ""
 
-#: main.h:31 mainwindow.cpp:243
+#: src/creator/puzzlecreator.cpp:70
+msgid "Puzzle type:"
+msgstr ""
+
+#: src/creator/puzzlecreator.cpp:72
+msgid "Puzzle name:"
+msgstr ""
+
+#: src/creator/puzzlecreator.cpp:73
+msgctxt "Like in: This is an optional comment."
+msgid "Optional comment:"
+msgstr ""
+
+#: src/creator/puzzlecreator.cpp:74
+msgid "Name of image author:"
+msgstr ""
+
+#: src/creator/puzzlecreator.cpp:80
+msgid "Basic slicing options"
+msgstr ""
+
+#: src/creator/puzzlecreator.cpp:82
+msgid "Puzzle information"
+msgstr ""
+
+#: src/creator/puzzlecreator.cpp:84
+msgid "Advanced slicing options"
+msgstr ""
+
+#: src/creator/puzzlecreator.cpp:132
+msgid "Puzzle cannot be created: The slicer plugin could not be loaded."
+msgstr ""
+
+#: src/creator/puzzlecreator.cpp:139
+msgid "Puzzle cannot be created: The file you selected is not an image."
+msgstr ""
+
+#: src/creator/puzzlecreator.cpp:145
+msgid ""
+"Puzzle cannot be created: Slicing failed because of undetermined problems."
+msgstr ""
+
+#: src/main.cpp:31
 msgctxt "The application's name"
 msgid "Palapeli"
 msgstr ""
 
-#: main.h:32
-msgid "A jigsaw puzzle game"
+#: src/main.cpp:31
+msgid "KDE Jigsaw Puzzle Game"
 msgstr ""
 
-#: main.h:32
-msgid "(c) 2008, the Palapeli team"
+#: src/main.cpp:31 tools/libpala-puzzlebuilder.cpp:37
+msgid "Copyright 2009, Stefan Majewsky"
 msgstr ""
 
-#: main.h:34
+#: src/main.cpp:32 tools/libpala-puzzlebuilder.cpp:38
 msgid "Stefan Majewsky"
 msgstr ""
 
-#: main.h:34
-#, fuzzy
-#| msgid "MainWindow"
-msgid "Maintainer"
-msgstr "Hłownewokno"
-
-#: main.h:35
-msgid "Felix Lemke"
+#: src/main.cpp:36
+msgid "URL of puzzle file (will be opened if -i is not given)"
 msgstr ""
 
-#. i18n: file: palapeliui.rc:20
-#. i18n: ectx: Menu (view)
-#: rc.cpp:3
-msgid "View"
+#: src/main.cpp:37
+msgid ""
+"Import the given puzzle file into the library (does nothing if no puzzle "
+"file is given)"
 msgstr ""
 
-#. i18n: file: palapeliui.rc:33
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:6
-msgid "Main toolbar"
+#: src/main.cpp:38
+msgid ""
+"If the -i/--import option is specified, the main window will not be shown "
+"after importing the given puzzle."
 msgstr ""
 
-#. i18n: file: settings_appearance.ui:16
-#. i18n: ectx: property (title), widget (QGroupBox, tableBox)
-#: rc.cpp:9 rc.cpp:38
+#: src/file-io/collection-filesystem.cpp:85
+#: src/file-io/collection-filesystem.cpp:99
+msgctxt "Filter for a file dialog"
+msgid "*.puzzle|Palapeli puzzles (*.puzzle)"
+msgstr ""
+
+#: src/file-io/collection-list.cpp:89
+msgid "My collection"
+msgstr ""
+
+#: src/file-io/collection-delegate.cpp:78
+msgid "[No name]"
+msgstr ""
+
+#: src/file-io/collection-delegate.cpp:79
+#, kde-format
+msgctxt "Puzzle description, %1 = name string, %2 = piece count"
+msgid "%1 (%2 pieces)"
+msgstr ""
+
+#: src/file-io/collection-delegate.cpp:93
+#, kde-format
+msgctxt "Author attribution, e.g. \"by Jack\""
+msgid "by %1"
+msgstr ""
+
+#: src/engine/zoomwidget.cpp:38
+msgid "Lock the puzzle table size"
+msgstr ""
+
+#: src/window/librarywidget.cpp:44
+msgid "Create &new puzzle..."
+msgstr ""
+
+#: src/window/librarywidget.cpp:46
+msgid "Create a new puzzle using an image file from your disk"
+msgstr ""
+
+#: src/window/librarywidget.cpp:49
+msgid "&Import from file..."
+msgstr ""
+
+#: src/window/librarywidget.cpp:50
+msgid "Import a new puzzle from a file"
+msgstr ""
+
+#: src/window/librarywidget.cpp:53
+msgid "&Export to file..."
+msgstr ""
+
+#: src/window/librarywidget.cpp:55
+msgid "Export the selected puzzle from the library into a file"
+msgstr ""
+
+#: src/window/librarywidget.cpp:58
+msgid "&Delete"
+msgstr ""
+
+#: src/window/librarywidget.cpp:60
+msgid "Delete the selected puzzle from the library"
+msgstr ""
+
+#: src/window/puzzletablewidget.cpp:59
+msgid "&Restart puzzle..."
+msgstr ""
+
+#: src/window/puzzletablewidget.cpp:60
+msgid "Delete the saved progress"
+msgstr ""
+
+#: src/window/puzzletablewidget.cpp:65
+msgid "No puzzle loaded"
+msgstr ""
+
+#: src/window/puzzletablewidget.cpp:112
+msgid "You finished the puzzle."
+msgstr ""
+
+#: src/window/puzzletablewidget.cpp:116
+#, kde-format
+msgctxt "Progress display"
+msgid "%1% finished"
+msgstr ""
+
+#: src/window/mainwindow.cpp:59
+msgid "My library"
+msgstr ""
+
+#. i18n: file: src/settings.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/window/mainwindow.cpp:60 rc.cpp:17
 msgid "Puzzle table"
 msgstr ""
 
-#. i18n: file: settings_appearance.ui:22
-#. i18n: ectx: property (text), widget (QCheckBox, checkAntialiasing)
-#: rc.cpp:12 rc.cpp:41
-msgid "Use antialiasing"
+#: src/window/mainwindow.cpp:180
+msgid "General settings"
 msgstr ""
 
-#. i18n: file: settings_appearance.ui:29
-#. i18n: ectx: property (text), widget (QCheckBox, checkHardwareAccel)
-#: rc.cpp:15 rc.cpp:44
-msgid "Use hardware acceleration"
+#: src/importhelper.cpp:44
+msgctxt "command line message"
+msgid "Error: No puzzle file given."
 msgstr ""
 
-#. i18n: file: settings_appearance.ui:39
-#. i18n: ectx: property (title), widget (QGroupBox, sceneSizeBox)
-#: rc.cpp:18 rc.cpp:47
-msgid "Scene size"
+#: src/importhelper.cpp:53
+msgid "The given puzzle file is corrupted."
 msgstr ""
 
-#. i18n: file: settings_appearance.ui:73
-#. i18n: ectx: property (text), widget (QLabel, labelSmallScene)
-#: rc.cpp:21 rc.cpp:50
-msgid "Same as image size"
+#: src/importhelper.cpp:60
+msgid "The puzzle file could not be imported into the library."
 msgstr ""
 
-#. i18n: file: settings_appearance.ui:80
-#. i18n: ectx: property (text), widget (QLabel, labelBigScene)
-#: rc.cpp:24 rc.cpp:53
-msgid "Five times the image size"
+#: src/importhelper.cpp:65
+#, kde-format
+msgid "Importing puzzle \"%1\" into local library"
 msgstr ""
 
-#. i18n: file: settings_gameplay.ui:16
-#. i18n: ectx: property (title), widget (QGroupBox, precisionBox)
-#: rc.cpp:27 rc.cpp:56
-msgid "Piece snapping precision"
+#: tools/libpala-puzzlebuilder.cpp:37
+msgctxt "The application's name"
+msgid "libpala-puzzlebuilder"
 msgstr ""
 
-#. i18n: file: settings_gameplay.ui:50
-#. i18n: ectx: property (text), widget (QLabel, labelLowPrecision)
-#: rc.cpp:30 rc.cpp:59
-msgid "Quite precise"
+#: tools/libpala-puzzlebuilder.cpp:37
+msgid "Automatic builder for Palapeli puzzles"
 msgstr ""
 
-#. i18n: file: settings_gameplay.ui:57
-#. i18n: ectx: property (text), widget (QLabel, labelHighPrecision)
-#: rc.cpp:33 rc.cpp:62
-msgid "Very unprecise"
+#: tools/libpala-puzzlebuilder.cpp:41
+msgctxt "description for a command line switch"
+msgid "Configuration file"
 msgstr ""
 
-#: rc.cpp:34
+#: tools/libpala-puzzlebuilder.cpp:42
+msgctxt "description for a command line switch"
+msgid "Output file"
+msgstr ""
+
+#: libpala/slicerpropertyset.cpp:71
+msgid "Piece count"
+msgstr ""
+
+#: libpala/slicerpropertyset.cpp:75
+msgid "Piece aspect ratio"
+msgstr ""
+
+#: libpala-example/myslicer.cpp:36 slicers/slicer-jigsaw.cpp:94
+msgid "Piece count in horizontal direction"
+msgstr ""
+
+#: libpala-example/myslicer.cpp:40 slicers/slicer-jigsaw.cpp:98
+msgid "Piece count in vertical direction"
+msgstr ""
+
+#: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: rc.cpp:35
+#: rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: mainwindow.cpp:52
-msgid "Show preview"
+#. i18n: file: src/palapeli-puzzletableui.rc:8
+#. i18n: ectx: ToolBar (puzzleTableToolbar)
+#: rc.cpp:5
+msgid "Puzzle table toolbar"
 msgstr ""
 
-#: mainwindow.cpp:53
-msgid "Image preview"
+#. i18n: file: src/palapeli.kcfg:6
+#. i18n: ectx: label, entry (SnappingPrecision), group (Puzzling)
+#: rc.cpp:8
+msgid "Precision of snapping (in percent of piece size)."
 msgstr ""
 
-#: mainwindow.cpp:62
-msgid "Loading puzzle..."
+#. i18n: file: src/palapeli.kcfg:12
+#. i18n: ectx: label, entry (ViewBackground), group (Appearance)
+#: rc.cpp:11
+msgid "The background image to use for the View."
 msgstr ""
 
-#: mainwindow.cpp:148
-msgid "Configure Palapeli"
+#. i18n: file: src/palapeli-libraryui.rc:8
+#. i18n: ectx: ToolBar (libraryToolbar)
+#: rc.cpp:14
+msgid "Library toolbar"
 msgstr ""
 
-#: mainwindow.cpp:155
-msgid "Appearance"
+#. i18n: file: src/settings.ui:23
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:20
+msgid "Background:"
 msgstr ""
 
-#: mainwindow.cpp:156
-msgid "Adjust the visual appearance and performance of Palapeli"
+#. i18n: file: src/settings.ui:65
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: rc.cpp:23
+msgid "Snapping precision:"
 msgstr ""
 
-#: mainwindow.cpp:159
-msgid "Gameplay"
-msgstr ""
-
-#: mainwindow.cpp:160
-msgid "Adjust the gameplay of Palapeli"
-msgstr ""
-
-#: mainwindow.cpp:245
-#, kde-format
-msgctxt "For usage as window title"
-msgid "%1 - Palapeli"
-msgstr ""
-
-#: welcomewidget.cpp:30
-msgid "Open the puzzle library"
-msgstr ""
-
-#: welcomewidget.cpp:31
-msgid "Import a puzzle into your library"
-msgstr ""
-
-#: welcomewidget.cpp:32
-msgid "Create a new puzzle"
-msgstr ""
+#, fuzzy
+#~| msgid "MainWindow"
+#~ msgid "Maintainer"
+#~ msgstr "Hłownewokno"
