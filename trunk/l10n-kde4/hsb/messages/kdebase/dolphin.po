@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-13 06:08+0100\n"
+"POT-Creation-Date: 2009-11-14 06:12+0100\n"
 "PO-Revision-Date: 2008-11-21 01:09+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -285,22 +285,32 @@ msgstr "Znowa začitać"
 msgid "Default"
 msgstr "Standard:"
 
-#: dolphinviewcontainer.cpp:286
+#: dolphinviewcontainer.cpp:290
+msgctxt "@info"
+msgid "Searching..."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:298
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "začitam zapisk..."
 
-#: dolphinviewcontainer.cpp:406
+#: dolphinviewcontainer.cpp:313
+msgctxt "@info:status"
+msgid "No items found."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:424
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "Dolphin njepodpěruje html-strony, browser je so startował."
 
-#: dolphinviewcontainer.cpp:418
+#: dolphinviewcontainer.cpp:436
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr "Protokol njepodpěrowany wot Dolphina; Konqueror je so startował."
 
-#: dolphinviewcontainer.cpp:425
+#: dolphinviewcontainer.cpp:443
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "Njewalidny protokol"
@@ -468,7 +478,7 @@ msgctxt "@action:inmenu"
 msgid "Restore"
 msgstr "Restawrować"
 
-#: dolphincontextmenu.cpp:197 dolphinmainwindow.cpp:1183
+#: dolphincontextmenu.cpp:197 dolphinmainwindow.cpp:1190
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
 msgstr "Nowy objekt stworić"
@@ -893,6 +903,7 @@ msgid "Permissions:"
 msgstr "Přistupne prawa"
 
 #: panels/information/kmetadatawidget.cpp:198
+#: search/searchcriterionselector.cpp:220
 #, fuzzy
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -922,7 +933,7 @@ msgid "Width x Height:"
 msgstr ""
 
 #: panels/information/kmetadatawidget.cpp:503
-#: search/searchcriterionselector.cpp:170
+#: search/searchcriterionselector.cpp:192
 msgctxt "@label"
 msgid "Size:"
 msgstr "Wulkosć:"
@@ -940,7 +951,7 @@ msgctxt "@label"
 msgid "Total Size:"
 msgstr "Cyłkowna wulkosć:"
 
-#: panels/information/informationpanelcontent.cpp:217
+#: panels/information/informationpanelcontent.cpp:234
 #, kde-format
 msgctxt "@info"
 msgid "%1 item selected"
@@ -950,7 +961,7 @@ msgstr[1] "%1 objektaj wubranej"
 msgstr[2] "%1 objekty wubrane"
 msgstr[3] "%1 objektow wubranych"
 
-#: panels/information/informationpanelcontent.cpp:267
+#: panels/information/informationpanelcontent.cpp:284
 #, fuzzy
 #| msgctxt "@action:intoolbar"
 #| msgid "Preview"
@@ -958,7 +969,7 @@ msgctxt "@action:inmenu"
 msgid "Preview"
 msgstr "Přehladka"
 
-#: panels/information/informationpanelcontent.cpp:272
+#: panels/information/informationpanelcontent.cpp:289
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Change Tags..."
@@ -966,7 +977,7 @@ msgctxt "@action:inmenu"
 msgid "Configure..."
 msgstr "Etikety změnić..."
 
-#: panels/information/informationpanelcontent.cpp:289
+#: panels/information/informationpanelcontent.cpp:306
 msgctxt "@label::textbox"
 msgid "Configure which data should be shown in the Information Panel."
 msgstr ""
@@ -1694,27 +1705,22 @@ msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Tabulator začinić"
 
-#: dolphinmainwindow.cpp:1013
-msgctxt "@info"
-msgid "Searching..."
-msgstr ""
-
-#: dolphinmainwindow.cpp:1190
+#: dolphinmainwindow.cpp:1197
 msgctxt "@action:inmenu File"
 msgid "New &Window"
 msgstr "Nowe &wokno"
 
-#: dolphinmainwindow.cpp:1196
+#: dolphinmainwindow.cpp:1203
 msgctxt "@action:inmenu File"
 msgid "New Tab"
 msgstr "Nowy tabulator"
 
-#: dolphinmainwindow.cpp:1202
+#: dolphinmainwindow.cpp:1209
 msgctxt "@action:inmenu File"
 msgid "Close Tab"
 msgstr "Tabulator začinić"
 
-#: dolphinmainwindow.cpp:1225
+#: dolphinmainwindow.cpp:1232
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
@@ -1722,27 +1728,27 @@ msgctxt "@action:inmenu Edit"
 msgid "Paste"
 msgstr "Zasunyć"
 
-#: dolphinmainwindow.cpp:1228
+#: dolphinmainwindow.cpp:1235
 msgctxt "@action:inmenu Edit"
 msgid "Select All"
 msgstr "Wšo wubrać"
 
-#: dolphinmainwindow.cpp:1233
+#: dolphinmainwindow.cpp:1240
 msgctxt "@action:inmenu Edit"
 msgid "Invert Selection"
 msgstr "Wubraće přewobroćić"
 
-#: dolphinmainwindow.cpp:1246
+#: dolphinmainwindow.cpp:1253
 msgctxt "@action:inmenu View"
 msgid "Reload"
 msgstr "Znowa začitać"
 
-#: dolphinmainwindow.cpp:1252
+#: dolphinmainwindow.cpp:1259
 msgctxt "@action:inmenu View"
 msgid "Stop"
 msgstr "Zastajić"
 
-#: dolphinmainwindow.cpp:1253
+#: dolphinmainwindow.cpp:1260
 #, fuzzy
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -1750,24 +1756,24 @@ msgctxt "@info"
 msgid "Stop loading"
 msgstr "Sortěrowanje:"
 
-#: dolphinmainwindow.cpp:1258
+#: dolphinmainwindow.cpp:1265
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
 msgstr "Wobdźěłajomne městno"
 
-#: dolphinmainwindow.cpp:1263
+#: dolphinmainwindow.cpp:1270
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Replace Location"
 msgstr "Městno narunać"
 
-#: dolphinmainwindow.cpp:1274
+#: dolphinmainwindow.cpp:1281
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Close Tab"
 msgid "Recently Closed Tabs"
 msgstr "Tabulator začinić"
 
-#: dolphinmainwindow.cpp:1297
+#: dolphinmainwindow.cpp:1304
 #, fuzzy
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Show Filter Bar"
@@ -1775,17 +1781,17 @@ msgctxt "@action:inmenu Tools"
 msgid "Show Search Bar"
 msgstr "Filtrowy pas pokazać"
 
-#: dolphinmainwindow.cpp:1302
+#: dolphinmainwindow.cpp:1309
 msgctxt "@action:inmenu Tools"
 msgid "Show Filter Bar"
 msgstr "Filtrowy pas pokazać"
 
-#: dolphinmainwindow.cpp:1308
+#: dolphinmainwindow.cpp:1315
 msgctxt "@action:inmenu Tools"
 msgid "Compare Files"
 msgstr "Dataji přirunować"
 
-#: dolphinmainwindow.cpp:1314
+#: dolphinmainwindow.cpp:1321
 #, fuzzy
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Open &Terminal"
@@ -1793,77 +1799,77 @@ msgctxt "@action:inmenu Tools"
 msgid "Open Terminal"
 msgstr "&Terminal wočinić"
 
-#: dolphinmainwindow.cpp:1325
+#: dolphinmainwindow.cpp:1332
 msgctxt "@action:inmenu"
 msgid "Activate Next Tab"
 msgstr "Přichodny tabulator aktiwizować"
 
-#: dolphinmainwindow.cpp:1331
+#: dolphinmainwindow.cpp:1338
 msgctxt "@action:inmenu"
 msgid "Activate Previous Tab"
 msgstr "Předchadny tabulator aktiwizować"
 
-#: dolphinmainwindow.cpp:1338
+#: dolphinmainwindow.cpp:1345
 msgctxt "@action:inmenu"
 msgid "Open in New Tab"
 msgstr "W nowym tabulatoru wočinić"
 
-#: dolphinmainwindow.cpp:1343
+#: dolphinmainwindow.cpp:1350
 msgctxt "@action:inmenu"
 msgid "Open in New Window"
 msgstr "W nowym woknje wočinić"
 
-#: dolphinmainwindow.cpp:1353
+#: dolphinmainwindow.cpp:1360
 msgctxt "@action:inmenu"
 msgid "Search Bar"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1361 dolphinmainwindow.cpp:1368
+#: dolphinmainwindow.cpp:1368 dolphinmainwindow.cpp:1375
 msgctxt "@title:window"
 msgid "Information"
 msgstr "Informacija"
 
-#: dolphinmainwindow.cpp:1382 dolphinmainwindow.cpp:1389
+#: dolphinmainwindow.cpp:1389 dolphinmainwindow.cpp:1396
 msgctxt "@title:window"
 msgid "Folders"
 msgstr "Zapiski"
 
-#: dolphinmainwindow.cpp:1404 dolphinmainwindow.cpp:1413
+#: dolphinmainwindow.cpp:1411 dolphinmainwindow.cpp:1420
 msgctxt "@title:window Shell terminal"
 msgid "Terminal"
 msgstr "Terminal"
 
-#: dolphinmainwindow.cpp:1431 dolphinmainwindow.cpp:1441
+#: dolphinmainwindow.cpp:1438 dolphinmainwindow.cpp:1448
 msgctxt "@title:window"
 msgid "Places"
 msgstr "Městna"
 
-#: dolphinmainwindow.cpp:1573
+#: dolphinmainwindow.cpp:1580
 msgctxt "@action:intoolbar Close right view"
 msgid "Close"
 msgstr "Začinić"
 
-#: dolphinmainwindow.cpp:1574
+#: dolphinmainwindow.cpp:1581
 msgctxt "@info"
 msgid "Close right view"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1577
+#: dolphinmainwindow.cpp:1584
 msgctxt "@action:intoolbar Close left view"
 msgid "Close"
 msgstr "Začinić"
 
-#: dolphinmainwindow.cpp:1578
+#: dolphinmainwindow.cpp:1585
 msgctxt "@info"
 msgid "Close left view"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1582
+#: dolphinmainwindow.cpp:1589
 msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr "Dźělić"
 
-#: dolphinmainwindow.cpp:1583
+#: dolphinmainwindow.cpp:1590
 #, fuzzy
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
@@ -1884,37 +1890,37 @@ msgctxt "@label:textbox"
 msgid "Search..."
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:52
+#: search/dolphinsearchoptionsconfigurator.cpp:50
 msgctxt "@label"
 msgid "Search:"
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:55
+#: search/dolphinsearchoptionsconfigurator.cpp:53
 msgctxt "@label"
 msgid "Everywhere"
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:56
+#: search/dolphinsearchoptionsconfigurator.cpp:54
 msgctxt "@label"
 msgid "From Here"
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:59
+#: search/dolphinsearchoptionsconfigurator.cpp:57
 msgctxt "@label"
 msgid "What:"
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:62
+#: search/dolphinsearchoptionsconfigurator.cpp:60
 msgctxt "@label"
 msgid "All"
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:63
+#: search/dolphinsearchoptionsconfigurator.cpp:61
 msgctxt "@label"
 msgid "Images"
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:64
+#: search/dolphinsearchoptionsconfigurator.cpp:62
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "Text"
@@ -1922,7 +1928,7 @@ msgctxt "@label"
 msgid "Text"
 msgstr "Tekst"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:65
+#: search/dolphinsearchoptionsconfigurator.cpp:63
 #, fuzzy
 #| msgctxt "@title"
 #| msgid "File Manager"
@@ -1930,44 +1936,44 @@ msgctxt "@label"
 msgid "Filenames"
 msgstr "Datajowy rjadowar"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:70
+#: search/dolphinsearchoptionsconfigurator.cpp:68
+msgctxt "@info"
+msgid "Add search option"
+msgstr ""
+
+#: search/dolphinsearchoptionsconfigurator.cpp:75
 msgctxt "@action:button"
 msgid "Search"
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:71
+#: search/dolphinsearchoptionsconfigurator.cpp:76
 msgctxt "@info"
 msgid "Start searching"
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:76
-#: search/dolphinsearchoptionsconfigurator.cpp:194
+#: search/dolphinsearchoptionsconfigurator.cpp:82
+#: search/dolphinsearchoptionsconfigurator.cpp:203
 msgctxt "@action:button"
 msgid "Save"
 msgstr "Zawěsćić"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:77
+#: search/dolphinsearchoptionsconfigurator.cpp:83
 msgctxt "@info"
 msgid "Save search options"
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:83
+#: search/dolphinsearchoptionsconfigurator.cpp:89
 #: statusbar/statusbarmessagelabel.cpp:50
 msgctxt "@action:button"
 msgid "Close"
 msgstr "Začinić"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:84
+#: search/dolphinsearchoptionsconfigurator.cpp:90
 msgctxt "@info"
 msgid "Close search options"
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:90
-msgctxt "@info"
-msgid "Add search option"
-msgstr ""
-
-#: search/dolphinsearchoptionsconfigurator.cpp:182
+#: search/dolphinsearchoptionsconfigurator.cpp:191
 #, fuzzy
 #| msgctxt "@label Tag name"
 #| msgid "Name:"
@@ -1975,7 +1981,7 @@ msgctxt "@label"
 msgid "Name:"
 msgstr "Mjeno:"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:191
+#: search/dolphinsearchoptionsconfigurator.cpp:200
 msgctxt "@title:window"
 msgid "Save Search Options"
 msgstr ""
@@ -1985,32 +1991,32 @@ msgctxt "@info"
 msgid "Remove search option"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:142
+#: search/searchcriterionselector.cpp:161
 msgctxt "@label"
 msgid "Greater Than"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:143
+#: search/searchcriterionselector.cpp:162
 msgctxt "@label"
 msgid "Greater Than or Equal to"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:144
+#: search/searchcriterionselector.cpp:163
 msgctxt "@label"
 msgid "Less Than"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:145
+#: search/searchcriterionselector.cpp:164
 msgctxt "@label"
 msgid "Less Than or Equal to"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:149
+#: search/searchcriterionselector.cpp:168
 msgctxt "@label"
 msgid "Anytime"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:150
+#: search/searchcriterionselector.cpp:169
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Today"
@@ -2018,17 +2024,28 @@ msgctxt "@label"
 msgid "Today"
 msgstr "Dźensa"
 
-#: search/searchcriterionselector.cpp:151
+#: search/searchcriterionselector.cpp:170
+#, fuzzy
+#| msgctxt "@title:group Date"
+#| msgid "Last Week"
 msgctxt "@label"
-msgid "This week"
+msgid "This Week"
+msgstr "Zašły tydźeń"
+
+#: search/searchcriterionselector.cpp:171
+#, fuzzy
+#| msgctxt "@title:group Date"
+#| msgid "Earlier this Month"
+msgctxt "@label"
+msgid "This Month"
+msgstr "Zašo w tutym měsacu"
+
+#: search/searchcriterionselector.cpp:172
+msgctxt "@label"
+msgid "This Year"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:152
-msgctxt "@label"
-msgid "This month"
-msgstr ""
-
-#: search/searchcriterionselector.cpp:159
+#: search/searchcriterionselector.cpp:179
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Date"
@@ -2036,22 +2053,27 @@ msgctxt "@label"
 msgid "Date:"
 msgstr "Datum"
 
-#: search/searchcriterionselector.cpp:166
+#: search/searchcriterionselector.cpp:188
 msgctxt "@label Any (file size)"
 msgid "Any"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:177
+#: search/searchcriterionselector.cpp:201
 msgctxt "@label All (tags)"
 msgid "All"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:178
+#: search/searchcriterionselector.cpp:202
 msgctxt "@label"
 msgid "Equal to"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:182
+#: search/searchcriterionselector.cpp:203
+msgctxt "@label"
+msgid "Not Equal to"
+msgstr ""
+
+#: search/searchcriterionselector.cpp:207
 #, fuzzy
 #| msgctxt "@label Indicator when no tags defined"
 #| msgid "No Tags"
@@ -2059,12 +2081,17 @@ msgctxt "@label"
 msgid "Tag:"
 msgstr "Žane etikety"
 
-#: search/searchcriterionvalue.cpp:102
+#: search/searchcriterionselector.cpp:216
+msgctxt "@label Any (rating)"
+msgid "Any"
+msgstr ""
+
+#: search/searchcriterionvalue.cpp:129
 msgctxt "@label"
 msgid "No Tags Available"
 msgstr ""
 
-#: search/searchcriterionvalue.cpp:122
+#: search/searchcriterionvalue.cpp:149
 #, fuzzy
 #| msgctxt "@item:inlistbox Sort"
 #| msgid "By Date"
@@ -2072,7 +2099,7 @@ msgctxt "@label"
 msgid "Byte"
 msgstr "po datumje"
 
-#: search/searchcriterionvalue.cpp:123
+#: search/searchcriterionvalue.cpp:150
 #, fuzzy
 #| msgctxt "@item:inlistbox Sort"
 #| msgid "By Date"
@@ -2080,7 +2107,7 @@ msgctxt "@label"
 msgid "KByte"
 msgstr "po datumje"
 
-#: search/searchcriterionvalue.cpp:124
+#: search/searchcriterionvalue.cpp:151
 #, fuzzy
 #| msgctxt "@item:inlistbox Sort"
 #| msgid "By Date"
@@ -2088,7 +2115,7 @@ msgctxt "@label"
 msgid "MByte"
 msgstr "po datumje"
 
-#: search/searchcriterionvalue.cpp:125
+#: search/searchcriterionvalue.cpp:152
 #, fuzzy
 #| msgctxt "@item:inlistbox Sort"
 #| msgid "By Date"
