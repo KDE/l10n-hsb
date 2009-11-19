@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-18 06:30+0100\n"
+"POT-Creation-Date: 2009-11-19 06:18+0100\n"
 "PO-Revision-Date: 2008-11-17 23:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -487,7 +487,7 @@ msgid ""
 "KDE Control Center."
 msgstr "SSL-certifikat wotpokazany. To móžeće w KDE Control Center změnić."
 
-#: kio/jobuidelegate.cpp:130 ../kfile/kdiroperator.cpp:817
+#: kio/jobuidelegate.cpp:130 ../kfile/kdiroperator.cpp:841
 #, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
@@ -496,7 +496,7 @@ msgstr[1] "Chceće woprawdźe tutej %1 objektaj zničić?"
 msgstr[2] "Chceće woprawdźe tute %1 objekty zničić?"
 msgstr[3] "Chceće woprawdźe tute %1 objektow zničić?"
 
-#: kio/jobuidelegate.cpp:132 ../kfile/kdiroperator.cpp:819
+#: kio/jobuidelegate.cpp:132 ../kfile/kdiroperator.cpp:843
 msgid "Delete Files"
 msgstr "Dataje zničić"
 
@@ -509,7 +509,7 @@ msgstr[1] "Chceće woprawdźe tutej %1 objektaj do papjernika sunyć?"
 msgstr[2] "Chceće woprawdźe tute %1 objekty do papjernika sunyć?"
 msgstr[3] "Chceće woprawdźe tute %1 objektow do papjernika sunyć?"
 
-#: kio/jobuidelegate.cpp:144 ../kfile/kdiroperator.cpp:1859
+#: kio/jobuidelegate.cpp:144 ../kfile/kdiroperator.cpp:1883
 msgid "Move to Trash"
 msgstr "do papjernika sunyć"
 
@@ -4732,7 +4732,7 @@ msgstr "Zapisk wočinić w editorje lubuškow"
 msgid "Delete Folder"
 msgstr "Zapisk zničić"
 
-#: bookmarks/kbookmarkmenu.cc:281 ../kfile/kdiroperator.cpp:1959
+#: bookmarks/kbookmarkmenu.cc:281 ../kfile/kdiroperator.cpp:1983
 msgid "Properties"
 msgstr "Swójstwa"
 
@@ -5626,7 +5626,7 @@ msgstr "%1 je dataja, sym pak zapisk wočakował."
 #: ../kfile/kfilewidget.cpp:988
 #, fuzzy, kde-format
 #| msgid "The requested lock could not be granted. %1"
-msgid "The file %1 could not be found"
+msgid "The file \"%1\" could not be found"
 msgstr "Pominane blokowanje njehodźeše so zarjadować. %1"
 
 #: ../kfile/kfilewidget.cpp:988
@@ -5848,12 +5848,12 @@ msgid ""
 "%1"
 msgstr "Nowy zapisk stworić w:"
 
-#: ../kfile/kdirselectdialog.cpp:156 ../kfile/kdiroperator.cpp:770
+#: ../kfile/kdirselectdialog.cpp:156 ../kfile/kdiroperator.cpp:794
 #, fuzzy, kde-format
 msgid "A file or folder named %1 already exists."
 msgstr "Dataja %1 hižo eksistuje."
 
-#: ../kfile/kdirselectdialog.cpp:160 ../kfile/kdiroperator.cpp:773
+#: ../kfile/kdirselectdialog.cpp:160 ../kfile/kdiroperator.cpp:797
 #, fuzzy
 msgid "You do not have permission to create that folder."
 msgstr "Nimaće prawa tutón zapisk stworić."
@@ -5994,67 +5994,94 @@ msgstr ""
 msgid "Show Hidden Folders"
 msgstr "chowane dataje pokazować"
 
-#: ../kfile/kdiroperator.cpp:735 ../kfile/kdiroperator.cpp:743
+#: ../kfile/kdiroperator.cpp:735
+#, fuzzy
+#| msgid "Creating directory"
+msgctxt "@action:button"
+msgid "Create directory"
+msgstr "Stworju zapisk"
+
+#: ../kfile/kdiroperator.cpp:737
+#, fuzzy
+#| msgid "Ru&n as a different user"
+msgctxt "@action:button"
+msgid "Enter a different name"
+msgstr "Jako &hinaši wužiwar startować"
+
+#: ../kfile/kdiroperator.cpp:740
+#, kde-format
+msgid ""
+"The name \"%1\" starts with a dot and will therefore the directory will be "
+"hidden by default."
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:741
+#, fuzzy
+#| msgid "Creating directory"
+msgid "Create hidden directory?"
+msgstr "Stworju zapisk"
+
+#: ../kfile/kdiroperator.cpp:751 ../kfile/kdiroperator.cpp:758
 #, fuzzy
 msgid "New Folder"
 msgstr "Nowy zapisk..."
 
-#: ../kfile/kdiroperator.cpp:744
+#: ../kfile/kdiroperator.cpp:759
 #, fuzzy, kde-format
 msgid ""
 "Create new folder in:\n"
 "%1"
 msgstr "Nowy zapisk stworić w:"
 
-#: ../kfile/kdiroperator.cpp:788
+#: ../kfile/kdiroperator.cpp:812
 #, fuzzy
 msgid "You did not select a file to delete."
 msgstr "Njejsy dataju za zničenje wubrał(a)."
 
-#: ../kfile/kdiroperator.cpp:789
+#: ../kfile/kdiroperator.cpp:813
 #, fuzzy
 msgid "Nothing to Delete"
 msgstr "Ničo k zničenju"
 
-#: ../kfile/kdiroperator.cpp:810
+#: ../kfile/kdiroperator.cpp:834
 #, kde-format
 msgid ""
 "<qt>Do you really want to delete\n"
 " <b>'%1'</b>?</qt>"
 msgstr "<qt>Chceće <b>'%1'</b> woprawdźe zničić?</qt>"
 
-#: ../kfile/kdiroperator.cpp:812
+#: ../kfile/kdiroperator.cpp:836
 msgid "Delete File"
 msgstr "Dataju zničić"
 
-#: ../kfile/kdiroperator.cpp:850
+#: ../kfile/kdiroperator.cpp:874
 #, fuzzy
 msgid "You did not select a file to trash."
 msgstr "Njejsy dataju za zničenje wubrał(a)."
 
-#: ../kfile/kdiroperator.cpp:851
+#: ../kfile/kdiroperator.cpp:875
 #, fuzzy
 msgid "Nothing to Trash"
 msgstr "Ničo k zničenju"
 
-#: ../kfile/kdiroperator.cpp:868
+#: ../kfile/kdiroperator.cpp:892
 #, fuzzy, kde-format
 msgid ""
 "<qt>Do you really want to trash\n"
 " <b>'%1'</b>?</qt>"
 msgstr "<qt>Chceće <b>'%1'</b> woprawdźe zničić?</qt>"
 
-#: ../kfile/kdiroperator.cpp:870
+#: ../kfile/kdiroperator.cpp:894
 #, fuzzy
 msgid "Trash File"
 msgstr "Papjernik"
 
-#: ../kfile/kdiroperator.cpp:871 ../kfile/kdiroperator.cpp:878
+#: ../kfile/kdiroperator.cpp:895 ../kfile/kdiroperator.cpp:902
 msgctxt "to trash"
 msgid "&Trash"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:875
+#: ../kfile/kdiroperator.cpp:899
 #, fuzzy, kde-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
@@ -6063,119 +6090,119 @@ msgstr[1] "Chceće woprawdźe tutej %1 objektaj zničić?"
 msgstr[2] "Chceće woprawdźe tute %1 objekty zničić?"
 msgstr[3] "Chceće woprawdźe tute %1 objektow zničić?"
 
-#: ../kfile/kdiroperator.cpp:877
+#: ../kfile/kdiroperator.cpp:901
 #, fuzzy
 msgid "Trash Files"
 msgstr "Temporarne dataje"
 
-#: ../kfile/kdiroperator.cpp:1069 ../kfile/kdiroperator.cpp:1195
+#: ../kfile/kdiroperator.cpp:1093 ../kfile/kdiroperator.cpp:1219
 #, fuzzy
 msgid "The specified folder does not exist or was not readable."
 msgstr "Specifowany zapisk njeeksistuje abo njehodźi so čitać."
 
-#: ../kfile/kdiroperator.cpp:1837
+#: ../kfile/kdiroperator.cpp:1861
 msgid "Menu"
 msgstr "Meni"
 
-#: ../kfile/kdiroperator.cpp:1841
+#: ../kfile/kdiroperator.cpp:1865
 #, fuzzy
 msgid "Parent Folder"
 msgstr "Zapisk zničić"
 
-#: ../kfile/kdiroperator.cpp:1848
+#: ../kfile/kdiroperator.cpp:1872
 #, fuzzy
 msgid "Home Folder"
 msgstr "Nowy zapisk..."
 
-#: ../kfile/kdiroperator.cpp:1851
+#: ../kfile/kdiroperator.cpp:1875
 #, fuzzy
 msgid "Reload"
 msgstr "Čitać"
 
-#: ../kfile/kdiroperator.cpp:1854
+#: ../kfile/kdiroperator.cpp:1878
 msgid "New Folder..."
 msgstr "Nowy zapisk..."
 
-#: ../kfile/kdiroperator.cpp:1865
+#: ../kfile/kdiroperator.cpp:1889
 #, fuzzy
 msgid "Delete"
 msgstr "Niču"
 
-#: ../kfile/kdiroperator.cpp:1872
+#: ../kfile/kdiroperator.cpp:1896
 msgid "Sorting"
 msgstr "Rjadowanje"
 
-#: ../kfile/kdiroperator.cpp:1875
+#: ../kfile/kdiroperator.cpp:1899
 msgid "By Name"
 msgstr "po mjenach"
 
-#: ../kfile/kdiroperator.cpp:1879
+#: ../kfile/kdiroperator.cpp:1903
 msgid "By Size"
 msgstr "po wulkosći"
 
-#: ../kfile/kdiroperator.cpp:1883
+#: ../kfile/kdiroperator.cpp:1907
 msgid "By Date"
 msgstr "po času"
 
-#: ../kfile/kdiroperator.cpp:1887
+#: ../kfile/kdiroperator.cpp:1911
 #, fuzzy
 msgid "By Type"
 msgstr "Družina:"
 
-#: ../kfile/kdiroperator.cpp:1891
+#: ../kfile/kdiroperator.cpp:1915
 #, fuzzy
 #| msgid "Deleting"
 msgid "Descending"
 msgstr "Niču"
 
-#: ../kfile/kdiroperator.cpp:1901
+#: ../kfile/kdiroperator.cpp:1925
 msgid "Icon Position"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:1904
+#: ../kfile/kdiroperator.cpp:1928
 msgid "Next to File Name"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:1908
+#: ../kfile/kdiroperator.cpp:1932
 #, fuzzy
 msgid "Above File Name"
 msgstr "Mjeno lokalneje dataje"
 
-#: ../kfile/kdiroperator.cpp:1919
+#: ../kfile/kdiroperator.cpp:1943
 msgid "Short View"
 msgstr "Krótki napohlad"
 
-#: ../kfile/kdiroperator.cpp:1924
+#: ../kfile/kdiroperator.cpp:1948
 msgid "Detailed View"
 msgstr "Nadrobny napohlad"
 
-#: ../kfile/kdiroperator.cpp:1929
+#: ../kfile/kdiroperator.cpp:1953
 #, fuzzy
 #| msgid "Detailed View"
 msgid "Tree View"
 msgstr "Nadrobny napohlad"
 
-#: ../kfile/kdiroperator.cpp:1934
+#: ../kfile/kdiroperator.cpp:1958
 #, fuzzy
 #| msgid "Detailed View"
 msgid "Detailed Tree View"
 msgstr "Nadrobny napohlad"
 
-#: ../kfile/kdiroperator.cpp:1945
+#: ../kfile/kdiroperator.cpp:1969
 msgid "Show Hidden Files"
 msgstr "chowane dataje pokazować"
 
-#: ../kfile/kdiroperator.cpp:1949
+#: ../kfile/kdiroperator.cpp:1973
 #, fuzzy
 #| msgid "Show Preview"
 msgid "Show Aside Preview"
 msgstr "Pokaž přehladku"
 
-#: ../kfile/kdiroperator.cpp:1955
+#: ../kfile/kdiroperator.cpp:1979
 msgid "Show Preview"
 msgstr "Pokaž přehladku"
 
-#: ../kfile/kdiroperator.cpp:1966
+#: ../kfile/kdiroperator.cpp:1990
 #, fuzzy
 msgid "&View"
 msgstr "&Přehladka"
