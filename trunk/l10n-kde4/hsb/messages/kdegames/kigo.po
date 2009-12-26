@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-09 05:57+0100\n"
+"POT-Creation-Date: 2009-12-26 05:55+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -160,13 +160,13 @@ msgstr ""
 msgid "Backend was changed, restart necessary..."
 msgstr ""
 
-#: gui/mainwindow.cpp:379
+#: gui/mainwindow.cpp:379 game/game.cpp:330 game/game.cpp:399
 #, fuzzy
 #| msgid "Write"
 msgid "White passed"
 msgstr "Pisać"
 
-#: gui/mainwindow.cpp:381
+#: gui/mainwindow.cpp:381 game/game.cpp:339 game/game.cpp:401
 #, fuzzy
 #| msgctxt "@action"
 #| msgid "Back"
@@ -242,42 +242,47 @@ msgctxt "@title:window"
 msgid "Error"
 msgstr "Zmylk"
 
-#: game/game.cpp:303 game/game.cpp:354 game/game.cpp:442
-#, fuzzy
+#: game/game.cpp:327
+#, fuzzy, kde-format
 #| msgid "Write"
-msgid "White "
+msgctxt "%1 stone coordinate"
+msgid "White %1"
 msgstr "Pisać"
 
-#: game/game.cpp:305 game/game.cpp:356 game/game.cpp:440
-#, fuzzy
+#: game/game.cpp:336
+#, fuzzy, kde-format
 #| msgctxt "@action"
 #| msgid "Back"
-msgid "Black "
+msgctxt "%1 stone coordinate"
+msgid "Black %1"
 msgstr "Wróćo"
 
-#: game/game.cpp:311 game/game.cpp:366
-#, fuzzy
-#| msgid "Class"
-msgid "passed"
-msgstr "Klasa"
-
-#: game/game.cpp:370
+#: game/game.cpp:408
 #, fuzzy
 #| msgid "Reassign"
-msgid "resigned"
+msgid "White resigned"
 msgstr "Zwjazanje změnić"
 
-#: game/game.cpp:450
-#, fuzzy
-#| msgid "Class"
-msgid "pass"
-msgstr "Klasa"
-
-#: game/game.cpp:453
+#: game/game.cpp:410
 #, fuzzy
 #| msgid "Reassign"
-msgid "resign"
+msgid "Black resigned"
 msgstr "Zwjazanje změnić"
+
+#: game/game.cpp:418
+#, fuzzy, kde-format
+#| msgid "Write"
+msgctxt "%1 response from Go engine"
+msgid "White %1"
+msgstr "Pisać"
+
+#: game/game.cpp:420
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Back"
+msgctxt "%1 response from Go engine"
+msgid "Black %1"
+msgstr "Wróćo"
 
 #: main.cpp:41
 msgid "Kigo"
@@ -851,6 +856,21 @@ msgstr ""
 #| msgid "Finish"
 msgid "Finish Game"
 msgstr "Zakónčić"
+
+#, fuzzy
+#~| msgid "Class"
+#~ msgid "passed"
+#~ msgstr "Klasa"
+
+#, fuzzy
+#~| msgid "Class"
+#~ msgid "pass"
+#~ msgstr "Klasa"
+
+#, fuzzy
+#~| msgid "Reassign"
+#~ msgid "resign"
+#~ msgstr "Zwjazanje změnić"
 
 #~ msgid "0"
 #~ msgstr "0"
