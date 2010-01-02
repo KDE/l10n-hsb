@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-14 06:44+0100\n"
+"POT-Creation-Date: 2010-01-02 05:57+0100\n"
 "PO-Revision-Date: 2008-11-27 23:55+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -816,7 +816,8 @@ msgstr ""
 msgid "Snap Zones"
 msgstr ""
 
-#: windows.cpp:886 windows.cpp:900 windows.cpp:914
+#: windows.cpp:886
+msgctxt "no border snap zone"
 msgid "none"
 msgstr ""
 
@@ -831,6 +832,11 @@ msgstr ""
 msgid "&Border snap zone:"
 msgstr ""
 
+#: windows.cpp:900
+msgctxt "no window snap zone"
+msgid "none"
+msgstr ""
+
 #: windows.cpp:903
 msgid ""
 "Here you can set the snap zone for windows, i.e. the 'strength' of the "
@@ -840,6 +846,11 @@ msgstr ""
 
 #: windows.cpp:907
 msgid "&Window snap zone:"
+msgstr ""
+
+#: windows.cpp:914
+msgctxt "no center snap zone"
+msgid "none"
 msgstr ""
 
 #: windows.cpp:917
