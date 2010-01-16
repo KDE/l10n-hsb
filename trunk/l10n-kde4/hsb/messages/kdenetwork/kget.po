@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-12 06:51+0100\n"
+"POT-Creation-Date: 2010-01-16 06:01+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -315,18 +315,13 @@ msgid ""
 "settings or restart KGet and retry downloading."
 msgstr ""
 
-#: core/transfer.cpp:30
+#: core/transfer.cpp:37
 #, fuzzy
 #| msgid "Download"
 msgid "Downloading...."
 msgstr "Sćahnyć"
 
-#: core/transfer.cpp:30
-msgctxt "transfer state: delayed"
-msgid "Delayed"
-msgstr ""
-
-#: core/transfer.cpp:30 core/transfer.cpp:231 core/transfer.cpp:256
+#: core/transfer.cpp:244 core/transfer.cpp:269
 #: transfer-plugins/mms/mmsTransfer.cpp:52
 #: transfer-plugins/mmsclient/mmsTransfer.cpp:48
 #: transfer-plugins/bittorrent/bttransfer.cpp:326
@@ -334,24 +329,6 @@ msgstr ""
 msgctxt "transfer state: stopped"
 msgid "Stopped"
 msgstr ""
-
-#: core/transfer.cpp:30
-msgctxt "transfer state: aborted"
-msgid "Aborted"
-msgstr ""
-
-#: core/transfer.cpp:30 transfer-plugins/bittorrent/bttransfer.cpp:240
-#: transfer-plugins/bittorrent/bttransfer.cpp:322
-msgctxt "transfer state: finished"
-msgid "Finished"
-msgstr ""
-
-#: core/transfer.cpp:30 transfer-plugins/bittorrent/bttransfer.cpp:179
-#, fuzzy
-#| msgid "Destination"
-msgctxt "changing the destination of the file"
-msgid "Changing destination"
-msgstr "Cil"
 
 #: core/kgetglobaljob.cpp:56
 #, kde-format
@@ -1143,6 +1120,13 @@ msgstr ""
 msgid "Downloading Torrent File...."
 msgstr ""
 
+#: transfer-plugins/bittorrent/bttransfer.cpp:179
+#, fuzzy
+#| msgid "Destination"
+msgctxt "changing the destination of the file"
+msgid "Changing destination"
+msgstr "Cil"
+
 #: transfer-plugins/bittorrent/bttransfer.cpp:196
 #: transfer-plugins/bittorrent/bttransfer.cpp:301
 #, fuzzy
@@ -1150,6 +1134,12 @@ msgstr ""
 msgctxt "transfer state: downloading"
 msgid "Downloading...."
 msgstr "Sćahnyć"
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:240
+#: transfer-plugins/bittorrent/bttransfer.cpp:322
+msgctxt "transfer state: finished"
+msgid "Finished"
+msgstr ""
 
 #: transfer-plugins/bittorrent/bttransfer.cpp:274
 msgid "Cannot add a tracker to a private torrent."
