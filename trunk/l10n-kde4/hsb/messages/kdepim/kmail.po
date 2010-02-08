@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-07 07:45+0100\n"
+"POT-Creation-Date: 2010-02-08 07:06+0100\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -1823,9 +1823,12 @@ msgstr[3] "Do tutoho zapiska kopěrować"
 
 #: kmmainwidget.cpp:3275
 #, fuzzy, kde-format
-msgctxt "Copy Message"
-msgid "Copy %1 Messages"
-msgstr "Powěsć wočinić"
+msgid "Copy Message"
+msgid_plural "Copy %1 Messages"
+msgstr[0] "Powěsć wočinić"
+msgstr[1] "Powěsć wočinić"
+msgstr[2] "Powěsć wočinić"
+msgstr[3] "Powěsć wočinić"
 
 #: kmmainwidget.cpp:3280
 #, fuzzy, kde-format
@@ -5341,7 +5344,7 @@ msgstr ""
 #. i18n: ectx: label, entry (UseDefaultIdentity), group (cache)
 #: rc.cpp:46 rc.cpp:933
 #, fuzzy
-msgid "Define if account use default identity"
+msgid "Define whether the account uses the default identity"
 msgstr "Wotst&ronić"
 
 #. i18n: file: imapresource.kcfg:55
@@ -5379,8 +5382,9 @@ msgstr ""
 #. i18n: file: imapresource.kcfg:77
 #. i18n: ectx: label, entry (SieveAlternateUrl), group (siever)
 #: rc.cpp:64 rc.cpp:951
-msgid "Define alternate url"
-msgstr ""
+#, fuzzy
+msgid "Define alternate URL"
+msgstr "&Alternate URL:"
 
 #. i18n: file: imapresource.kcfg:80
 #. i18n: ectx: label, entry (SieveVacationFilename), group (siever)
@@ -9741,21 +9745,21 @@ msgstr ""
 msgid "Edit..."
 msgstr "wobdźěłać..."
 
-#: folderrequester.cpp:78
+#: folderrequester.cpp:80
 #, fuzzy
 msgid "Select Folder"
 msgstr "Zapisk zničić"
 
-#: folderrequester.cpp:106
+#: folderrequester.cpp:108
 msgid "Local Folders"
 msgstr "Lokalne zapiski"
 
-#: folderrequester.cpp:118
+#: folderrequester.cpp:120
 #, fuzzy, kde-format
 msgid "Unknown folder '%1'"
 msgstr "&Pokaž chowane zapiski"
 
-#: folderrequester.cpp:120
+#: folderrequester.cpp:122
 #, fuzzy
 msgid "Please select a folder"
 msgstr "Zapisk zničić"
@@ -12183,10 +12187,6 @@ msgstr "Wubjerće zwukowu dataju"
 #, fuzzy
 #~ msgid "Error while listing folder %1: "
 #~ msgstr "Zmylk při pósłanju zapiska"
-
-#, fuzzy
-#~ msgid "&Alternate URL:"
-#~ msgstr "&Alternate URL:"
 
 #, fuzzy
 #~ msgid ""
