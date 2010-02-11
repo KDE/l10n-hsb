@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-05 02:29+0100\n"
+"POT-Creation-Date: 2010-02-11 07:04+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -96,117 +96,117 @@ msgstr ""
 msgid "Computer"
 msgstr ""
 
-#: gui/mainwindow.cpp:103
+#: gui/mainwindow.cpp:105
 #, fuzzy
 #| msgid "Step to next line..."
 msgid "Set up a new game..."
 msgstr "Kročić do přichodneje linki ..."
 
-#: gui/mainwindow.cpp:139
+#: gui/mainwindow.cpp:148
 #, fuzzy
 #| msgid "Page loaded."
 msgid "Set up a loaded game..."
 msgstr "Strona začitana."
 
-#: gui/mainwindow.cpp:141
+#: gui/mainwindow.cpp:151
 #, fuzzy
 #| msgid "Page loaded."
 msgid "Unable to load game..."
 msgstr "Strona začitana."
 
-#: gui/mainwindow.cpp:192
+#: gui/mainwindow.cpp:203
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Camera Device..."
 msgid "Game saved..."
 msgstr "Kamerowy grat..."
 
-#: gui/mainwindow.cpp:194
+#: gui/mainwindow.cpp:205
 #, fuzzy
 #| msgid "Unable to Enter Folder"
 msgid "Unable to save game."
 msgstr "Njemóžu do zapiska hić"
 
-#: gui/mainwindow.cpp:238
+#: gui/mainwindow.cpp:249
 msgid "Game started..."
 msgstr ""
 
-#: gui/mainwindow.cpp:270
+#: gui/mainwindow.cpp:281
 #, kde-format
 msgid "%1 has won this game with a score of %2 (bounded by %3 and %4)."
 msgstr ""
 
-#: gui/mainwindow.cpp:277
+#: gui/mainwindow.cpp:288
 #, fuzzy
 #| msgid "Remove"
 msgid "Undone move"
 msgstr "Zničić"
 
-#: gui/mainwindow.cpp:285
+#: gui/mainwindow.cpp:296
 #, fuzzy
 #| msgid "Remove"
 msgid "Redone move"
 msgstr "Zničić"
 
-#: gui/mainwindow.cpp:310
+#: gui/mainwindow.cpp:321
 msgid "General"
 msgstr "Generelnje"
 
-#: gui/mainwindow.cpp:311
+#: gui/mainwindow.cpp:322
 msgid "Themes"
 msgstr ""
 
-#: gui/mainwindow.cpp:328
+#: gui/mainwindow.cpp:339
 msgid "Backend was changed, restart necessary..."
 msgstr ""
 
-#: gui/mainwindow.cpp:379 game/game.cpp:330 game/game.cpp:399
+#: gui/mainwindow.cpp:390 game/game.cpp:330 game/game.cpp:399
 #, fuzzy
 #| msgid "Write"
 msgid "White passed"
 msgstr "Pisać"
 
-#: gui/mainwindow.cpp:381 game/game.cpp:339 game/game.cpp:401
+#: gui/mainwindow.cpp:392 game/game.cpp:339 game/game.cpp:401
 #, fuzzy
 #| msgctxt "@action"
 #| msgid "Back"
 msgid "Black passed"
 msgstr "Wróćo"
 
-#: gui/mainwindow.cpp:391 gui/mainwindow.cpp:393
+#: gui/mainwindow.cpp:402 gui/mainwindow.cpp:404
 #, fuzzy
 #| msgid "Page loaded."
 msgctxt "@action"
 msgid "Get More Games..."
 msgstr "Strona začitana."
 
-#: gui/mainwindow.cpp:399 gui/mainwindow.cpp:401
+#: gui/mainwindow.cpp:410 gui/mainwindow.cpp:412
 #, fuzzy
 #| msgid "Start replace"
 msgctxt "@action"
 msgid "Start Game"
 msgstr "Započeć narunać"
 
-#: gui/mainwindow.cpp:405 gui/mainwindow.cpp:407
+#: gui/mainwindow.cpp:416 gui/mainwindow.cpp:418
 #, fuzzy
 #| msgid "Finish"
 msgctxt "@action"
 msgid "Finish Game"
 msgstr "Zakónčić"
 
-#: gui/mainwindow.cpp:415
+#: gui/mainwindow.cpp:426
 msgctxt "@action:inmenu Move"
 msgid "Pass Move"
 msgstr ""
 
-#: gui/mainwindow.cpp:420
+#: gui/mainwindow.cpp:431
 #, fuzzy
 #| msgid "Show &Menubar"
 msgctxt "@action:inmenu View"
 msgid "Show Move &Numbers"
 msgstr "&Meni pokazać"
 
-#: gui/mainwindow.cpp:433
+#: gui/mainwindow.cpp:444
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Games"
@@ -214,14 +214,14 @@ msgctxt "@title:window"
 msgid "Game Setup"
 msgstr "Hry"
 
-#: gui/mainwindow.cpp:445
+#: gui/mainwindow.cpp:456
 #, fuzzy
 #| msgid "Information"
 msgctxt "@title:window"
 msgid "Information"
 msgstr "informacija"
 
-#: gui/mainwindow.cpp:458 gui/mainwindow.cpp:467
+#: gui/mainwindow.cpp:469 gui/mainwindow.cpp:478
 #, fuzzy
 #| msgctxt "@title:menu Game move"
 #| msgid "&Move"
@@ -229,13 +229,13 @@ msgctxt "@title:window"
 msgid "Moves"
 msgstr "&Sunyć"
 
-#: gui/mainwindow.cpp:461
+#: gui/mainwindow.cpp:472
 #, fuzzy
 #| msgid "Remove"
 msgid "No move"
 msgstr "Zničić"
 
-#: gui/mainwindow.cpp:472
+#: gui/mainwindow.cpp:483
 #, fuzzy
 #| msgid "Error"
 msgctxt "@title:window"
@@ -318,6 +318,11 @@ msgstr ""
 
 #: main.cpp:48
 msgid "Default theme designer"
+msgstr ""
+
+#: main.cpp:55
+msgctxt "@info:shell"
+msgid "Game to load (SGF file)"
 msgstr ""
 
 #. i18n: file: kigo.kcfg:9
