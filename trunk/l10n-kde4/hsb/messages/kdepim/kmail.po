@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-18 07:10+0100\n"
+"POT-Creation-Date: 2010-02-20 07:03+0100\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -878,24 +878,25 @@ msgid ""
 "Out of Office reply has been deactivated."
 msgstr ""
 
-#: kmsystemtray.cpp:344
+#: kmsystemtray.cpp:338
 #, fuzzy
 msgid "New Messages In"
 msgstr "Nowe in."
 
-#: kmsystemtray.cpp:565
+#: kmsystemtray.cpp:558
 #, fuzzy
-msgid "KMail - There are no unread messages"
+msgid "There are no unread messages"
 msgstr "&Stare powěsće zwumjetać"
 
-#: kmsystemtray.cpp:566
+#: kmsystemtray.cpp:559
 #, fuzzy, kde-format
-msgid "KMail - 1 unread message"
-msgid_plural "KMail - %1 unread messages"
-msgstr[0] "Maće %1 nječitanych powěsćow."
-msgstr[1] "Maće %1 nječitanu powěsć."
-msgstr[2] "Maće %1 nječitanej powěsći."
-msgstr[3] "Maće %1 nječitane powěsće."
+#| msgid "Unread Message"
+msgid "1 unread message"
+msgid_plural "%1 unread messages"
+msgstr[0] "Nječitana powěsć"
+msgstr[1] "Nječitana powěsć"
+msgstr[2] "Nječitana powěsć"
+msgstr[3] "Nječitana powěsć"
 
 #: searchwindow.cpp:90
 #, fuzzy
@@ -1129,21 +1130,21 @@ msgstr "Konto změnić"
 msgid "Remove Entry"
 msgstr "Wotst&ronić"
 
-#: collectionaclpage.cpp:432
+#: collectionaclpage.cpp:431
 msgid "Modify Permissions"
 msgstr ""
 
-#: collectionaclpage.cpp:467
+#: collectionaclpage.cpp:466
 msgid "Add Permissions"
 msgstr ""
 
-#: collectionaclpage.cpp:503
+#: collectionaclpage.cpp:502
 msgid ""
 "Do you really want to remove your own permissions for this folder? You will "
 "not be able to access it afterwards."
 msgstr ""
 
-#: collectionaclpage.cpp:503 configuredialog.cpp:486
+#: collectionaclpage.cpp:502 configuredialog.cpp:486
 #: attachmentcontroller.cpp:412
 #, fuzzy
 msgid "Remove"
@@ -1293,7 +1294,7 @@ msgstr ""
 msgid "&Expire"
 msgstr "&Stare zwumjetać"
 
-#: kmmainwidget.cpp:1535 kmkernel.cpp:1486
+#: kmmainwidget.cpp:1535 kmkernel.cpp:1487
 msgid "Empty Trash"
 msgstr "Papjernik wuprózdnić"
 
@@ -1626,11 +1627,11 @@ msgstr ""
 "Njemóžach GnuPG LogViewer kwatchgnupg startować. Prošu přepruwujće swoju "
 "instalaciju!"
 
-#: kmmainwidget.cpp:2552 kmkernel.cpp:868
+#: kmmainwidget.cpp:2552 kmkernel.cpp:869
 msgid "Work Offline"
 msgstr ""
 
-#: kmmainwidget.cpp:2556 kmkernel.cpp:867
+#: kmmainwidget.cpp:2556 kmkernel.cpp:868
 msgid "Work Online"
 msgstr ""
 
@@ -8055,25 +8056,25 @@ msgstr "&Nowy podzapisk..."
 msgid "Create a new subfolder under the currently selected folder"
 msgstr ""
 
-#: folderselectiontreeviewdialog.cpp:87
+#: folderselectiontreeviewdialog.cpp:88
 #, fuzzy
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr "&Nowy Zapisk..."
 
-#: folderselectiontreeviewdialog.cpp:88
+#: folderselectiontreeviewdialog.cpp:89
 #, fuzzy
 #| msgid "Name"
 msgctxt "@label:textbox, name of a thing"
 msgid "Name"
 msgstr "Mjeno"
 
-#: folderselectiontreeviewdialog.cpp:104
+#: folderselectiontreeviewdialog.cpp:105
 #, fuzzy, kde-format
 msgid "Could not create folder: %1"
 msgstr "Njemóžach zapisk stworić"
 
-#: folderselectiontreeviewdialog.cpp:105
+#: folderselectiontreeviewdialog.cpp:106
 #, fuzzy
 #| msgid "Folder &location:"
 msgid "Folder creation failed"
@@ -8347,41 +8348,42 @@ msgstr "(c) 1997-2005 programowarjo KMaila"
 #: kmkernel.cpp:149
 msgid ""
 "You are attempting to start an <b>unstable development version</b> of KMail."
-"<br>KMail is currently being ported to Akonadi and is under heavy "
+"<br>KMail 2 is currently being ported to Akonadi and is under heavy "
 "development. Do not use this version for real mails, you will <b>lose data</"
 "b>. If you use this version now, your mails will not be correctly migrated, "
 "and you will not be able to migrate them afterwards.<br>Because of the "
 "current development, there are many bugs and regressions as well as missing "
-"features. Please do not report any bugs for this version yet.<br><br>If you "
-"want to use KMail for real mails, please use the version from the KDE 4.4 "
-"branch instead."
-msgstr ""
-
-#: kmkernel.cpp:157
-msgid "Unstable Development version of KMail"
+"features. <b>Essentially KMail 2 does not work at the moment, do not try to "
+"use it.</b><br>Please do not report any bugs for this version yet.<br><br>If "
+"you want to use KMail for real mails, please use the version from the KDE "
+"4.4 branch instead."
 msgstr ""
 
 #: kmkernel.cpp:158
+msgid "Unstable Development version of KMail"
+msgstr ""
+
+#: kmkernel.cpp:159
 msgid "Lose Data"
 msgstr ""
 
-#: kmkernel.cpp:826
+#: kmkernel.cpp:827
 msgid "KMail is set to be offline; all network jobs are suspended"
 msgstr ""
 
-#: kmkernel.cpp:837
+#: kmkernel.cpp:838
 msgid "KMail is set to be online; all network jobs resumed"
 msgstr ""
 
-#: kmkernel.cpp:864
+#: kmkernel.cpp:865
 msgid "KMail is currently in offline mode. How do you want to proceed?"
 msgstr ""
 
-#: kmkernel.cpp:866 kmcomposewin.cpp:3114
+#: kmkernel.cpp:867 kmcomposewin.cpp:3114
 msgid "Online/Offline"
 msgstr ""
 
-#: kmkernel.cpp:967
+#: kmkernel.cpp:968
 #, kde-format
 msgid ""
 "Failed to delete the autosave file at %1\n"
@@ -8389,30 +8391,30 @@ msgid ""
 "same message on each startup."
 msgstr ""
 
-#: kmkernel.cpp:971
+#: kmkernel.cpp:972
 #, fuzzy
 #| msgid "Deleting messages failed."
 msgid "Deleting Autosave File Failed"
 msgstr "Njemóžach powěsće zničić."
 
-#: kmkernel.cpp:974
+#: kmkernel.cpp:975
 #, kde-format
 msgid ""
 "Failed to open autosave file at %1.\n"
 "Reason: %2"
 msgstr ""
 
-#: kmkernel.cpp:976
+#: kmkernel.cpp:977
 #, fuzzy
 msgid "Opening Autosave File Failed"
 msgstr "Přesuwam powěsć %3 z %2 wot %1."
 
-#: kmkernel.cpp:986 kmkernel.cpp:1006
+#: kmkernel.cpp:987 kmkernel.cpp:1007
 #, fuzzy
 msgid "You do not have read/write permission to your inbox folder."
 msgstr "póštowy kašćik."
 
-#: kmkernel.cpp:1259 kmcommands.cpp:846
+#: kmkernel.cpp:1260 kmcommands.cpp:846
 #, kde-format
 msgid ""
 "File %1 exists.\n"
@@ -8421,20 +8423,20 @@ msgstr ""
 "Dataja %1 eksistuje?\n"
 "Chceće ju přepisać?"
 
-#: kmkernel.cpp:1260 kmcommands.cpp:552 kmcommands.cpp:847
+#: kmkernel.cpp:1261 kmcommands.cpp:552 kmcommands.cpp:847
 msgid "Save to File"
 msgstr "Do dataje zawěsćić"
 
-#: kmkernel.cpp:1260 kmcommands.cpp:552 kmcommands.cpp:847
+#: kmkernel.cpp:1261 kmcommands.cpp:552 kmcommands.cpp:847
 msgid "&Replace"
 msgstr "Na&runać"
 
-#: kmkernel.cpp:1341
+#: kmkernel.cpp:1342
 #, fuzzy
 msgid "KMail encountered a fatal error and will terminate now"
 msgstr "KMail"
 
-#: kmkernel.cpp:1344
+#: kmkernel.cpp:1345
 #, fuzzy, kde-format
 msgid ""
 "KMail encountered a fatal error and will terminate now.\n"
@@ -8442,11 +8444,11 @@ msgid ""
 "%1"
 msgstr "KMail"
 
-#: kmkernel.cpp:1487
+#: kmkernel.cpp:1488
 msgid "Are you sure you want to empty the trash folders of all accounts?"
 msgstr ""
 
-#: kmkernel.cpp:1693
+#: kmkernel.cpp:1694
 #, kde-format
 msgid "This identity has been changed to use the default transport:"
 msgid_plural ""
@@ -8456,7 +8458,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: kmkernel.cpp:1716
+#: kmkernel.cpp:1717
 #, kde-format
 msgid "This identity has been changed to use the modified transport:"
 msgid_plural ""
@@ -11015,6 +11017,14 @@ msgstr "Wočinić w adresniku"
 #: kmfawidgets.cpp:123
 msgid "Select Sound File"
 msgstr "Wubjerće zwukowu dataju"
+
+#, fuzzy
+#~ msgid "KMail - 1 unread message"
+#~ msgid_plural "KMail - %1 unread messages"
+#~ msgstr[0] "Maće %1 nječitanych powěsćow."
+#~ msgstr[1] "Maće %1 nječitanu powěsć."
+#~ msgstr[2] "Maće %1 nječitanej powěsći."
+#~ msgstr[3] "Maće %1 nječitane powěsće."
 
 #, fuzzy
 #~ msgid "Crypto Backends"

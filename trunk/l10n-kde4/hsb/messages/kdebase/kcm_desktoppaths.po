@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-19 06:47+0100\n"
+"POT-Creation-Date: 2010-02-19 06:48+0100\n"
 "PO-Revision-Date: 2008-11-19 23:51+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,231 +17,246 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: behaviour.cpp:44
+#: globalpaths.cpp:75
 msgid ""
-"<h1>Konqueror Behavior</h1> You can configure how Konqueror behaves as a "
-"file manager here."
+"<h1>Paths</h1>\n"
+"This module allows you to choose where in the filesystem the files on your "
+"desktop should be stored.\n"
+"Use the \"Whats This?\" (Shift+F1) to get help on specific options."
 msgstr ""
-"<h1>Zadźerženje Konquerora</h1>Tule móžeće nastajić, kak so konqueror jako "
-"datajowy rjadowak zadźerži."
+"<h1>Puće</h1>\n"
+"Tutón modul Wam dowoli wubrać, hdź na datajowym systemje so dataje na Wašim "
+"dźěłowym powjerchu składuja.\n"
+"Wužiwajće \"Što to je?\" (Wulkopis+F1) po pomoc za specielne opcije."
 
-#: behaviour.cpp:48
-msgid "Misc Options"
-msgstr "Wšelake opcije"
+#: globalpaths.cpp:80
+#, fuzzy
+#| msgid "Des&ktop path:"
+msgid "Desktop path:"
+msgstr "Puć za &dźěłowy powjerch:"
 
-#: behaviour.cpp:57
-msgid "Open folders in separate &windows"
-msgstr "Zapiski w &nowych woknach wočinić"
-
-#: behaviour.cpp:58
+#: globalpaths.cpp:81
 msgid ""
-"If this option is checked, Konqueror will open a new window when you open a "
-"folder, rather than showing that folder's contents in the current window."
+"This folder contains all the files which you see on your desktop. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
 msgstr ""
-"Z tutej opciju wočini konqueror nowe wokno, hdyž zapisk wočiniće, a "
-"njepokazuje wobsah tutoho zapiska w aktualnym woknje."
+"W tutym zapisku su wšitke dataje, kotrež na Wašim dźěłowym powjerchu. Móžeće "
+"městno tutoho zapiska změnić, jeli chceće, a wobsah so awtomatisce na nowe "
+"městno přesunje."
 
-#: behaviour.cpp:81
-msgid "Show 'Delete' context me&nu entries which bypass the trashcan"
-msgstr "Kontekstowy me&ni 'zničić' pokazać za wobeńdźenje papjernika"
+#: globalpaths.cpp:86
+#, fuzzy
+#| msgid "A&utostart path:"
+msgid "Autostart path:"
+msgstr "Puć za awtostart:"
 
-#: behaviour.cpp:85
+#: globalpaths.cpp:87
 msgid ""
-"Check this if you want 'Delete' menu commands to be displayed on the desktop "
-"and in the file manager's context menus. You can always delete files by "
-"holding the Shift key while calling 'Move to Trash'."
+"This folder contains applications or links to applications (shortcuts) that "
+"you want to have started automatically whenever KDE starts. You can change "
+"the location of this folder if you want to, and the contents will move "
+"automatically to the new location as well."
 msgstr ""
+"W tutym zapisku su programy abo wotkazy na programy (skrótšenki), kotrež "
+"chceće awtomatisce wuwjesć, hdyž KDE startuje.  Móžeće městno tutoho zapiska "
+"změnić, jeli chceće, a wobsah so awtomatisce na nowe městno přesunje."
 
-#: kcustommenueditor.cpp:96
-msgid "Menu Editor"
-msgstr "Menijowy editor"
+#: globalpaths.cpp:93
+#, fuzzy
+#| msgid "D&ocuments path:"
+msgid "Documents path:"
+msgstr "Puć za &dokumenty:"
 
-#: kcustommenueditor.cpp:103
-msgid "Menu"
-msgstr "Meni"
+#: globalpaths.cpp:94
+msgid ""
+"This folder will be used by default to load or save documents from or to."
+msgstr "To je standardny zapisk za čitanje a składowanje dokumentow."
 
-#: kcustommenueditor.cpp:107
-msgid "New..."
-msgstr "Nowy..."
+#: globalpaths.cpp:97
+#, fuzzy
+#| msgid "Downloads: "
+msgid "Downloads path:"
+msgstr "Sćehnjene:"
 
-#: kcustommenueditor.cpp:108
-msgid "Remove"
-msgstr "Zničić"
+#: globalpaths.cpp:98
+#, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to save your downloaded items."
+msgstr "To je standardny zapisk za čitanje a składowanje dokumentow."
 
-#: kcustommenueditor.cpp:109
-msgid "Move Up"
-msgstr "Horje sunyć"
+#: globalpaths.cpp:101
+#, fuzzy
+#| msgid "D&ocuments path:"
+msgid "Movies path:"
+msgstr "Puć za &dokumenty:"
 
-#: kcustommenueditor.cpp:110
-msgid "Move Down"
-msgstr "Dele sunyć"
+#: globalpaths.cpp:102
+#, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to load or save movies from or to."
+msgstr "To je standardny zapisk za čitanje a składowanje dokumentow."
+
+#: globalpaths.cpp:105
+#, fuzzy
+#| msgid "D&ocuments path:"
+msgid "Pictures path:"
+msgstr "Puć za &dokumenty:"
+
+#: globalpaths.cpp:106
+#, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid ""
+"This folder will be used by default to load or save pictures from or to."
+msgstr "To je standardny zapisk za čitanje a składowanje dokumentow."
+
+#: globalpaths.cpp:109
+#, fuzzy
+#| msgid "D&ocuments path:"
+msgid "Music path:"
+msgstr "Puć za &dokumenty:"
+
+#: globalpaths.cpp:110
+#, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to load or save music from or to."
+msgstr "To je standardny zapisk za čitanje a składowanje dokumentow."
+
+#: globalpaths.cpp:240 globalpaths.cpp:258
+msgid "Autostart"
+msgstr "Awtostart"
+
+#: globalpaths.cpp:244
+msgid "Desktop"
+msgstr "Dźěłowy powjerch"
+
+#: globalpaths.cpp:268
+msgid "Documents"
+msgstr "Dokumenty"
+
+#: globalpaths.cpp:271
+#, fuzzy
+#| msgid "Download"
+msgid "Downloads"
+msgstr "Sćahnyć"
+
+#: globalpaths.cpp:274
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "XMovie"
+msgid "Movies"
+msgstr "XMovie"
+
+#: globalpaths.cpp:277
+#, fuzzy
+#| msgid "All Pictures"
+msgid "Pictures"
+msgstr "Wšitke wobrazy"
+
+#: globalpaths.cpp:280
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "MusE"
+msgid "Music"
+msgstr "MusE"
+
+#: globalpaths.cpp:335
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want the files to be moved from '%2' to '%3'?"
+msgstr ""
+"Puć za '%1' je so změnił.\n"
+"Chceće dataje z '%2' na '%3' přesunyć?"
+
+#: globalpaths.cpp:338
+#, fuzzy
+#| msgctxt "Move desktop files from old to new place"
+#| msgid "Move"
+msgctxt "Move files from old to new place"
+msgid "Move"
+msgstr "Přesunyć"
+
+#: globalpaths.cpp:339
+#, fuzzy
+#| msgid "&Do Not Save"
+msgctxt "Use the new directory but do not move files"
+msgid "Do not Move"
+msgstr "&Njezawěsćić"
+
+#: globalpaths.cpp:341
+#, fuzzy, kde-format
+#| msgid ""
+#| "The path for '%1' has been changed.\n"
+#| "Do you want the files to be moved from '%2' to '%3'?"
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want to move the directory '%2' to '%3'?"
+msgstr ""
+"Puć za '%1' je so změnił.\n"
+"Chceće dataje z '%2' na '%3' přesunyć?"
+
+#: globalpaths.cpp:344
+#, fuzzy
+#| msgctxt "Move desktop files from old to new place"
+#| msgid "Move"
+msgctxt "Move the directory"
+msgid "Move"
+msgstr "Přesunyć"
+
+#: globalpaths.cpp:345
+#, fuzzy
+#| msgid "&Do Not Save"
+msgctxt "Use the new directory but do not move anything"
+msgid "Do not Move"
+msgstr "&Njezawěsćić"
+
+#: globalpaths.cpp:349
+msgid "Confirmation Required"
+msgstr "Wobkrućenje trěbne"
 
 #~ msgid ""
-#~ "<h1>Paths</h1>\n"
-#~ "This module allows you to choose where in the filesystem the files on "
-#~ "your desktop should be stored.\n"
-#~ "Use the \"Whats This?\" (Shift+F1) to get help on specific options."
+#~ "<h1>Konqueror Behavior</h1> You can configure how Konqueror behaves as a "
+#~ "file manager here."
 #~ msgstr ""
-#~ "<h1>Puće</h1>\n"
-#~ "Tutón modul Wam dowoli wubrać, hdź na datajowym systemje so dataje na "
-#~ "Wašim dźěłowym powjerchu składuja.\n"
-#~ "Wužiwajće \"Što to je?\" (Wulkopis+F1) po pomoc za specielne opcije."
+#~ "<h1>Zadźerženje Konquerora</h1>Tule móžeće nastajić, kak so konqueror "
+#~ "jako datajowy rjadowak zadźerži."
 
-#, fuzzy
-#~| msgid "Des&ktop path:"
-#~ msgid "Desktop path:"
-#~ msgstr "Puć za &dźěłowy powjerch:"
+#~ msgid "Misc Options"
+#~ msgstr "Wšelake opcije"
+
+#~ msgid "Open folders in separate &windows"
+#~ msgstr "Zapiski w &nowych woknach wočinić"
 
 #~ msgid ""
-#~ "This folder contains all the files which you see on your desktop. You can "
-#~ "change the location of this folder if you want to, and the contents will "
-#~ "move automatically to the new location as well."
+#~ "If this option is checked, Konqueror will open a new window when you open "
+#~ "a folder, rather than showing that folder's contents in the current "
+#~ "window."
 #~ msgstr ""
-#~ "W tutym zapisku su wšitke dataje, kotrež na Wašim dźěłowym powjerchu. "
-#~ "Móžeće městno tutoho zapiska změnić, jeli chceće, a wobsah so awtomatisce "
-#~ "na nowe městno přesunje."
+#~ "Z tutej opciju wočini konqueror nowe wokno, hdyž zapisk wočiniće, a "
+#~ "njepokazuje wobsah tutoho zapiska w aktualnym woknje."
 
-#, fuzzy
-#~| msgid "A&utostart path:"
-#~ msgid "Autostart path:"
-#~ msgstr "Puć za awtostart:"
+#~ msgid "Show 'Delete' context me&nu entries which bypass the trashcan"
+#~ msgstr "Kontekstowy me&ni 'zničić' pokazać za wobeńdźenje papjernika"
 
-#~ msgid ""
-#~ "This folder contains applications or links to applications (shortcuts) "
-#~ "that you want to have started automatically whenever KDE starts. You can "
-#~ "change the location of this folder if you want to, and the contents will "
-#~ "move automatically to the new location as well."
-#~ msgstr ""
-#~ "W tutym zapisku su programy abo wotkazy na programy (skrótšenki), kotrež "
-#~ "chceće awtomatisce wuwjesć, hdyž KDE startuje.  Móžeće městno tutoho "
-#~ "zapiska změnić, jeli chceće, a wobsah so awtomatisce na nowe městno "
-#~ "přesunje."
+#~ msgid "Menu Editor"
+#~ msgstr "Menijowy editor"
 
-#, fuzzy
-#~| msgid "D&ocuments path:"
-#~ msgid "Documents path:"
-#~ msgstr "Puć za &dokumenty:"
+#~ msgid "Menu"
+#~ msgstr "Meni"
 
-#~ msgid ""
-#~ "This folder will be used by default to load or save documents from or to."
-#~ msgstr "To je standardny zapisk za čitanje a składowanje dokumentow."
+#~ msgid "New..."
+#~ msgstr "Nowy..."
 
-#, fuzzy
-#~| msgid "Downloads: "
-#~ msgid "Downloads path:"
-#~ msgstr "Sćehnjene:"
+#~ msgid "Remove"
+#~ msgstr "Zničić"
 
-#, fuzzy
-#~| msgid ""
-#~| "This folder will be used by default to load or save documents from or to."
-#~ msgid "This folder will be used by default to save your downloaded items."
-#~ msgstr "To je standardny zapisk za čitanje a składowanje dokumentow."
+#~ msgid "Move Up"
+#~ msgstr "Horje sunyć"
 
-#, fuzzy
-#~| msgid "D&ocuments path:"
-#~ msgid "Movies path:"
-#~ msgstr "Puć za &dokumenty:"
-
-#, fuzzy
-#~| msgid ""
-#~| "This folder will be used by default to load or save documents from or to."
-#~ msgid ""
-#~ "This folder will be used by default to load or save movies from or to."
-#~ msgstr "To je standardny zapisk za čitanje a składowanje dokumentow."
-
-#, fuzzy
-#~| msgid "D&ocuments path:"
-#~ msgid "Pictures path:"
-#~ msgstr "Puć za &dokumenty:"
-
-#, fuzzy
-#~| msgid ""
-#~| "This folder will be used by default to load or save documents from or to."
-#~ msgid ""
-#~ "This folder will be used by default to load or save pictures from or to."
-#~ msgstr "To je standardny zapisk za čitanje a składowanje dokumentow."
-
-#, fuzzy
-#~| msgid ""
-#~| "This folder will be used by default to load or save documents from or to."
-#~ msgid ""
-#~ "This folder will be used by default to load or save music from or to."
-#~ msgstr "To je standardny zapisk za čitanje a składowanje dokumentow."
-
-#~ msgid "Autostart"
-#~ msgstr "Awtostart"
-
-#~ msgid "Desktop"
-#~ msgstr "Dźěłowy powjerch"
-
-#~ msgid "Documents"
-#~ msgstr "Dokumenty"
-
-#, fuzzy
-#~| msgid "Download"
-#~ msgid "Downloads"
-#~ msgstr "Sćahnyć"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "XMovie"
-#~ msgid "Movies"
-#~ msgstr "XMovie"
-
-#, fuzzy
-#~| msgid "All Pictures"
-#~ msgid "Pictures"
-#~ msgstr "Wšitke wobrazy"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "MusE"
-#~ msgid "Music"
-#~ msgstr "MusE"
-
-#~ msgid ""
-#~ "The path for '%1' has been changed.\n"
-#~ "Do you want the files to be moved from '%2' to '%3'?"
-#~ msgstr ""
-#~ "Puć za '%1' je so změnił.\n"
-#~ "Chceće dataje z '%2' na '%3' přesunyć?"
-
-#, fuzzy
-#~| msgctxt "Move desktop files from old to new place"
-#~| msgid "Move"
-#~ msgctxt "Move files from old to new place"
-#~ msgid "Move"
-#~ msgstr "Přesunyć"
-
-#, fuzzy
-#~| msgid "&Do Not Save"
-#~ msgctxt "Use the new directory but do not move files"
-#~ msgid "Do not Move"
-#~ msgstr "&Njezawěsćić"
-
-#, fuzzy
-#~| msgid ""
-#~| "The path for '%1' has been changed.\n"
-#~| "Do you want the files to be moved from '%2' to '%3'?"
-#~ msgid ""
-#~ "The path for '%1' has been changed.\n"
-#~ "Do you want to move the directory '%2' to '%3'?"
-#~ msgstr ""
-#~ "Puć za '%1' je so změnił.\n"
-#~ "Chceće dataje z '%2' na '%3' přesunyć?"
-
-#, fuzzy
-#~| msgctxt "Move desktop files from old to new place"
-#~| msgid "Move"
-#~ msgctxt "Move the directory"
-#~ msgid "Move"
-#~ msgstr "Přesunyć"
-
-#, fuzzy
-#~| msgid "&Do Not Save"
-#~ msgctxt "Use the new directory but do not move anything"
-#~ msgid "Do not Move"
-#~ msgstr "&Njezawěsćić"
-
-#~ msgid "Confirmation Required"
-#~ msgstr "Wobkrućenje trěbne"
+#~ msgid "Move Down"
+#~ msgstr "Dele sunyć"
