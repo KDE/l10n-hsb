@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-21 06:07+0000\n"
+"POT-Creation-Date: 2010-02-23 06:25+0000\n"
 "PO-Revision-Date: 2008-11-25 00:15+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -2361,8 +2361,8 @@ msgstr "Wuwjedźenje konquerora za čas startowanja KDE"
 
 #: apps/konqueror/preloader/konqy_preloader.desktop:3
 msgctxt "Name"
-msgid "KDED Konqueror Preloader Module"
-msgstr "KDED-modul za startowanje konquerora"
+msgid "Browser Preloader"
+msgstr ""
 
 #: apps/konqueror/preloader/konqy_preloader.desktop:87
 msgctxt "Comment"
@@ -3029,15 +3029,15 @@ msgid "Bookmark Toolbar"
 msgstr "Nastrojowy pas za lubuški"
 
 #: apps/lib/konq/favicons/favicons.desktop:3
+#: workspace/plasma/generic/dataengines/favicons/plasma-dataengine-favicons.desktop:3
 msgctxt "Name"
-msgid "KDED Favicon Module"
-msgstr "KDED Favicon modul"
+msgid "Favicons"
+msgstr ""
 
 #: apps/lib/konq/favicons/favicons.desktop:91
-#: runtime/platforms/win/kwinstartmenu/winstartmenu.desktop:76
 msgctxt "Comment"
-msgid "Shortcut icon support"
-msgstr "Podpěra za skrótkowe piktogramy"
+msgid "Stores website icons"
+msgstr ""
 
 #: apps/lib/konq/konqdndpopupmenuplugin.desktop:4
 #, fuzzy
@@ -3757,9 +3757,17 @@ msgid "Configure the CGI KIO slave"
 msgstr "CGI KIO slave připrawić"
 
 #: runtime/kioslave/desktop/desktopnotifier.desktop:3
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Network Analyzer"
 msgctxt "Name"
-msgid "KDED Desktop Folder Notifier"
-msgstr "KDED notifier za zapisk 'Dźěłowy powjerch'"
+msgid "Directory Watcher"
+msgstr "Syćowa analyza"
+
+#: runtime/kioslave/desktop/desktopnotifier.desktop:84
+msgctxt "Comment"
+msgid "Monitors directories for changes"
+msgstr ""
 
 #: runtime/kioslave/desktop/directory.trash:3
 #: runtime/kioslave/trash/kcmtrash.desktop:1
@@ -3812,9 +3820,17 @@ msgid ""
 msgstr ""
 
 #: runtime/kioslave/remote/kdedmodule/remotedirnotify.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDED Remote Base URL Notifier"
 msgctxt "Name"
-msgid "KDED Remote Base URL Notifier"
+msgid "Remote URL Change Notifier"
 msgstr "KDED notifier za dalny URL-bazu"
+
+#: runtime/kioslave/remote/kdedmodule/remotedirnotify.desktop:80
+msgctxt "Comment"
+msgid "Provides change notification to the remote:/ ioslave"
+msgstr ""
 
 #: runtime/kioslave/sftp/sftp.protocol:15
 msgctxt "Description"
@@ -4126,13 +4142,19 @@ msgid "KDE Notification Daemon"
 msgstr "KDE zdźělenski daemon"
 
 #: runtime/kpasswdserver/kpasswdserver.desktop:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Password caching support"
 msgctxt "Name"
-msgid "KDED Password Module"
-msgstr "KDED-modul za hesła"
+msgid "Password Caching"
+msgstr "Podpěra za spomjatkowanje hesłow"
 
 #: runtime/kpasswdserver/kpasswdserver.desktop:82
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Password caching support"
 msgctxt "Comment"
-msgid "Password caching support"
+msgid "Temporary password caching"
 msgstr "Podpěra za spomjatkowanje hesłow"
 
 #: runtime/kstyles/highcontrast/highcontrast.themerc:2
@@ -4372,14 +4394,17 @@ msgid "Web widget style"
 msgstr "Web - widgetowy stil"
 
 #: runtime/ktimezoned/ktimezoned.desktop:10
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDE Time Zone Daemon"
 msgctxt "Name"
-msgid "KDE Time Zone Daemon"
+msgid "Time Zone"
 msgstr "KDE Time Zone Daemon"
 
 #: runtime/ktimezoned/ktimezoned.desktop:90
 msgctxt "Comment"
-msgid "Time zone daemon for KDE"
-msgstr "KDE demon za časowe pasma"
+msgid "Holds the configured time zone for the desktop"
+msgstr ""
 
 #: runtime/kuiserver/kuiserver.desktop:3
 msgctxt "Name"
@@ -8663,14 +8688,17 @@ msgid "Xine Backend Configuration"
 msgstr "Připrawjenje systemoweho zwónčka"
 
 #: runtime/phonon/kded-module/phononserver.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Sound Policy Server"
 msgctxt "Name"
-msgid "Sound Policy Server"
+msgid "Sound Policy"
 msgstr "Serwer za zadźerženje zwuka"
 
 #: runtime/phonon/kded-module/phononserver.desktop:78
 msgctxt "Comment"
-msgid "A server to centralize decisions and data of applications using Phonon"
-msgstr "Serwer, kiž rozsudy a daty programow, kotrež Phonon wužiwaja, zjednoći"
+msgid "Provides sound system policy to applications"
+msgstr ""
 
 #: runtime/phonon/platform_kde/phononbackend.desktop:4
 msgctxt "Name"
@@ -8751,6 +8779,11 @@ msgctxt "Name"
 msgid "KDED Windows Start Menu Module"
 msgstr "KDED modul za startowanski meni woknow"
 
+#: runtime/platforms/win/kwinstartmenu/winstartmenu.desktop:76
+msgctxt "Comment"
+msgid "Shortcut icon support"
+msgstr "Podpěra za skrótkowe piktogramy"
+
 #: runtime/renamedlgplugins/audio/renaudiodlg.desktop:3
 msgctxt "Name"
 msgid "Audio Preview"
@@ -8763,13 +8796,12 @@ msgstr "Přehladowar worazow"
 
 #: runtime/solidautoeject/solidautoeject.desktop:7
 msgctxt "Name"
-msgid "Solid Auto-eject service"
+msgid "Drive Ejector"
 msgstr ""
 
 #: runtime/solidautoeject/solidautoeject.desktop:62
 msgctxt "Comment"
-msgid ""
-"Allows to automatically release drives when their eject button is pushed"
+msgid "Automatically releases drives when their eject button is pushed"
 msgstr ""
 
 #: runtime/solid-device-automounter/kcm/device_automounter_kcm.desktop:11
@@ -8792,18 +8824,19 @@ msgstr ""
 
 #: runtime/solid-device-automounter/kded/device_automounter.desktop:55
 msgctxt "Comment"
-msgid "Automatically mounts devices when they are plugged in, or at login"
+msgid "Automatically mounts devices as needed"
 msgstr ""
 
 #: runtime/soliduiserver/soliduiserver.desktop:8
+#, fuzzy
 msgctxt "Name"
-msgid "Solid User Interface Server"
-msgstr "Solid User Interface Serwer"
+msgid "Hardware Detection"
+msgstr "Name=Hardware"
 
 #: runtime/soliduiserver/soliduiserver.desktop:82
 msgctxt "Comment"
-msgid "A User Interface server for Solid, the hardware detection system"
-msgstr "Wužiwarski intefejs za Solid, system za namakanje hardware"
+msgid "Provides a user interface for hardware events"
+msgstr ""
 
 #: workspace/kcontrol/access/kaccess.desktop:3
 msgctxt "Name"
@@ -9263,7 +9296,12 @@ msgstr "Pasowy applet za připrawjenje a wjerćenje X-wobrazowkow"
 
 #: workspace/kcontrol/randr/module/randrmonitor.desktop:2
 msgctxt "Name"
-msgid "Detecting RANDR (monitor) changes"
+msgid "Display Management change monitor"
+msgstr ""
+
+#: workspace/kcontrol/randr/module/randrmonitor.desktop:47
+msgctxt "Comment"
+msgid "Is this required when kephal has its own kded module?"
 msgstr ""
 
 #: workspace/kcontrol/randr/randr.desktop:14
@@ -9876,14 +9914,16 @@ msgid "Oxygen Theme"
 msgstr "Oxygen Theme"
 
 #: workspace/khotkeys/app/khotkeys.desktop:3
+#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:12
+#: workspace/khotkeys/kcm_hotkeys/settings-input-actions.desktop:8
 msgctxt "Name"
-msgid "KHotKeys"
-msgstr "KHotKeys"
+msgid "Input Actions"
+msgstr "Zapodawanske akcije"
 
 #: workspace/khotkeys/app/khotkeys.desktop:88
 msgctxt "Comment"
-msgid "KHotKeys daemon. No daemon, no hotkeys."
-msgstr "KHotKeys daemon. Žadyn demon, žane tastaturowe definicije."
+msgid "Input Actions service performing configured actions on key presses"
+msgstr ""
 
 #: workspace/khotkeys/data/defaults.khotkeys:5
 #: workspace/khotkeys/data/defaults.khotkeys:141
@@ -10346,12 +10386,6 @@ msgstr "Startuje KSnapShot, hdyž so 'Druck/S-Abf' stłóči."
 msgctxt "Name"
 msgid "PrintScreen"
 msgstr "Druck/S-Abf"
-
-#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:12
-#: workspace/khotkeys/kcm_hotkeys/settings-input-actions.desktop:8
-msgctxt "Name"
-msgid "Input Actions"
-msgstr "Zapodawanske akcije"
 
 #: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:95
 #, fuzzy
@@ -12064,7 +12098,6 @@ msgid "Some effects are not supported by backend or hardware."
 msgstr ""
 
 #: workspace/kwrited/kwrited-autostart.desktop:2
-#: workspace/kwrited/kwrited.desktop:2
 msgctxt "Name"
 msgid "KDE Write Daemon"
 msgstr "KDE write demon"
@@ -12075,6 +12108,14 @@ msgctxt "Comment"
 msgid "Watch for messages from local users sent with write(1) or wall(1)"
 msgstr ""
 "Kedźbuje na powěsće wot lokalnych wužiwarjow, pósłane z write(1) abo wall (1)"
+
+#: workspace/kwrited/kwrited.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDE Write Daemon"
+msgctxt "Name"
+msgid "Write Daemon"
+msgstr "KDE write demon"
 
 #: workspace/kwrited/kwrited.notifyrc:3
 msgctxt "Comment"
@@ -12092,8 +12133,16 @@ msgid "The daemon received a new message sent with wall(1) or write(1)"
 msgstr "Demon je powěsć dóstał, pósłanu z wall(1) abo write(1)"
 
 #: workspace/libs/kephal/kded_kephal/kephal.desktop:10
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "File Management"
 msgctxt "Name"
-msgid "KDED-module for screen-management"
+msgid "Display Management"
+msgstr "Datajowy manager"
+
+#: workspace/libs/kephal/kded_kephal/kephal.desktop:75
+msgctxt "Comment"
+msgid "Manages displays and video outputs"
 msgstr ""
 
 #: workspace/libs/ksysguard/processcore/actions.actions:2
@@ -12546,14 +12595,12 @@ msgstr ""
 #| msgctxt "Comment"
 #| msgid "KDE Notification Daemon"
 msgctxt "Name"
-msgid "KDED Status Notifier watcher"
+msgid "Status Notifier Manager"
 msgstr "KDE zdźělenski daemon"
 
 #: workspace/plasma/generic/applets/systemtray/statusnotifierwatcher/statusnotifierwatcher.desktop:51
 msgctxt "Comment"
-msgid ""
-"Keep track of applications that want to use the D-Bus based status notifier "
-"protocol."
+msgid "Manages services that provide status notifier user interfaces"
 msgstr ""
 
 #: workspace/plasma/generic/applets/webbrowser/plasma-applet-webbrowser.desktop:3
@@ -12709,11 +12756,6 @@ msgstr "Name=(5) Datajowe formaty"
 msgctxt "Comment"
 msgid "Run Executable Data Engine"
 msgstr "Name=Datajowy manager"
-
-#: workspace/plasma/generic/dataengines/favicons/plasma-dataengine-favicons.desktop:3
-msgctxt "Name"
-msgid "Favicons"
-msgstr ""
 
 #: workspace/plasma/generic/dataengines/favicons/plasma-dataengine-favicons.desktop:73
 msgctxt "Comment"
@@ -13042,7 +13084,6 @@ msgid "Basic Power Management Operations"
 msgstr "Name=Datajowy manager"
 
 #: workspace/plasma/generic/runners/powerdevil/plasma-runner-powerdevil.desktop:70
-#: workspace/powerdevil/daemon/powerdevil.desktop:11
 msgctxt "Name"
 msgid "PowerDevil"
 msgstr ""
@@ -13475,18 +13516,18 @@ msgctxt "Comment"
 msgid "Set up policies for applications using PolicyKit"
 msgstr ""
 
-#: workspace/powerdevil/daemon/powerdevil.desktop:80
-#, fuzzy
-msgctxt "Comment"
-msgid "A Laptop Power Management Daemon"
-msgstr "Name=Datajowy manager"
-
+#: workspace/powerdevil/daemon/powerdevil.desktop:11
 #: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:13
 #: workspace/powerdevil/powerdevil.notifyrc:2
 #, fuzzy
 msgctxt "Name"
 msgid "Power Management"
 msgstr "Name=Datajowy manager"
+
+#: workspace/powerdevil/daemon/powerdevil.desktop:80
+msgctxt "Comment"
+msgid "Battery, Display and CPU power management and notification"
+msgstr ""
 
 #: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:85
 msgctxt "Comment"
@@ -13672,9 +13713,10 @@ msgid "Linux Infrared Remote Control"
 msgstr ""
 
 #: workspace/solid/networking/kded/networkstatus.desktop:2
+#, fuzzy
 msgctxt "Name"
-msgid "Network Status Daemon"
-msgstr ""
+msgid "Network Status"
+msgstr "Name=Nastajenja"
 
 #: workspace/solid/networking/kded/networkstatus.desktop:75
 msgctxt "Comment"
@@ -14347,6 +14389,53 @@ msgstr ""
 msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "KDED Konqueror Preloader Module"
+#~ msgstr "KDED-modul za startowanje konquerora"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Favicon Module"
+#~ msgstr "KDED Favicon modul"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Desktop Folder Notifier"
+#~ msgstr "KDED notifier za zapisk 'Dźěłowy powjerch'"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Password Module"
+#~ msgstr "KDED-modul za hesła"
+
+#~ msgctxt "Comment"
+#~ msgid "Time zone daemon for KDE"
+#~ msgstr "KDE demon za časowe pasma"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "A server to centralize decisions and data of applications using Phonon"
+#~ msgstr ""
+#~ "Serwer, kiž rozsudy a daty programow, kotrež Phonon wužiwaja, zjednoći"
+
+#~ msgctxt "Name"
+#~ msgid "Solid User Interface Server"
+#~ msgstr "Solid User Interface Serwer"
+
+#~ msgctxt "Comment"
+#~ msgid "A User Interface server for Solid, the hardware detection system"
+#~ msgstr "Wužiwarski intefejs za Solid, system za namakanje hardware"
+
+#~ msgctxt "Name"
+#~ msgid "KHotKeys"
+#~ msgstr "KHotKeys"
+
+#~ msgctxt "Comment"
+#~ msgid "KHotKeys daemon. No daemon, no hotkeys."
+#~ msgstr "KHotKeys daemon. Žadyn demon, žane tastaturowe definicije."
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "A Laptop Power Management Daemon"
+#~ msgstr "Name=Datajowy manager"
 
 #~ msgctxt "Name"
 #~ msgid "Sound"
