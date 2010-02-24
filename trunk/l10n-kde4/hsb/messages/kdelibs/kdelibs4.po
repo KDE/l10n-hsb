@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-23 07:03+0100\n"
+"POT-Creation-Date: 2010-02-24 07:09+0100\n"
 "PO-Revision-Date: 2008-12-19 22:49+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -2288,12 +2288,12 @@ msgstr "Informuje KDE wo změnje mjena serwera."
 msgid "(c) 2001 Waldo Bastian"
 msgstr "(c) 2001 Waldo Bastian"
 
-#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:639 khtml/khtml_global.cpp:212
+#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:622 khtml/khtml_global.cpp:212
 #: kconf_update/kconf_update.cpp:963
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:638 kded/kbuildsycoca.cpp:639
+#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:621 kded/kbuildsycoca.cpp:622
 #: kross/qts/main.cpp:63 kross/test/main.cpp:149 kross/console/main.cpp:102
 #: kde3support/kdeui/k3aboutdialog.cpp:184
 msgid "Author"
@@ -2319,103 +2319,49 @@ msgstr "KDE-daemon startuje aktualizowanje datoweje bazy Sycoca, je-li trjeba."
 msgid "Check Sycoca database only once"
 msgstr "Přepruwuj datowu bazu Sycoca jenož jónu."
 
-#: kded/kbuildsycoca.cpp:406
-#, kde-format
-msgid ""
-"Error creating database '%1'.\n"
-"Check that the permissions are correct on the directory and the disk is not "
-"full.\n"
-msgstr ""
-"Zmylk při stworjenju datoweje bazy '%1'.\n"
-"Přepruwujće, hač su prawa korektne a hač tačel njeje połna.\n"
-
-#: kded/kbuildsycoca.cpp:406 kded/kbuildsycoca.cpp:437
-#: kded/kbuildsycoca.cpp:635
+#: kded/kbuildsycoca.cpp:618
 msgid "KBuildSycoca"
 msgstr "KBuildSycoca"
 
-#: kded/kbuildsycoca.cpp:437
-#, kde-format
-msgid ""
-"Error writing database '%1'.\n"
-"Check that the permissions are correct on the directory and the disk is not "
-"full.\n"
-msgstr ""
-"Zmylk při pisanju datoweje bazy '%1'.\n"
-"Přepruwujće, hač su prawa korektne a hač tačel njeje połna.\n"
-
-#: kded/kbuildsycoca.cpp:636
+#: kded/kbuildsycoca.cpp:619
 msgid "Rebuilds the system configuration cache."
 msgstr "Reinitializuje cache za konfiguraciju systema."
 
-#: kded/kbuildsycoca.cpp:637
+#: kded/kbuildsycoca.cpp:620
 msgid "(c) 1999-2002 KDE Developers"
 msgstr "(c) 1999-2002 KDE Wuwiwarjo"
 
-#: kded/kbuildsycoca.cpp:638
+#: kded/kbuildsycoca.cpp:621
 msgid "David Faure"
 msgstr "David Faure"
 
-#: kded/kbuildsycoca.cpp:642
+#: kded/kbuildsycoca.cpp:625
 msgid "Do not signal applications to update"
 msgstr "Njepraj programam, zo maja so aktualizować"
 
-#: kded/kbuildsycoca.cpp:643
+#: kded/kbuildsycoca.cpp:626
 msgid "Disable incremental update, re-read everything"
 msgstr "Inkrementalny update znjemóžnić, wšitko znowa začitać."
 
-#: kded/kbuildsycoca.cpp:644
+#: kded/kbuildsycoca.cpp:627
 msgid "Check file timestamps"
 msgstr "Přepruwuj podaća časa na datajach."
 
-#: kded/kbuildsycoca.cpp:645
+#: kded/kbuildsycoca.cpp:628
 msgid "Disable checking files (dangerous)"
 msgstr "Přepruwowanje datajow znjemóžnić (strašne)"
 
-#: kded/kbuildsycoca.cpp:646
+#: kded/kbuildsycoca.cpp:629
 msgid "Create global database"
 msgstr "Globalnu datowu bazu stworić."
 
-#: kded/kbuildsycoca.cpp:647
+#: kded/kbuildsycoca.cpp:630
 msgid "Perform menu generation test run only"
 msgstr "Test za stworjenje menija jenož jónu přewjesć."
 
-#: kded/kbuildsycoca.cpp:648
+#: kded/kbuildsycoca.cpp:631
 msgid "Track menu id for debug purposes"
 msgstr "Menijowy id sćěhować za debugowanje"
-
-#: kded/kbuildsycoca.cpp:650
-msgid "Silent - work without windows and stderr"
-msgstr "Ćiche dźěłanje bjez woknow a stderr"
-
-#: kded/kbuildsycoca.cpp:651
-msgid "Show progress information (even if 'silent' mode is on)"
-msgstr "Pokaž informaciju wo postupje (samo w ćichim modusu)"
-
-#: kded/kbuildsycoca.cpp:677
-msgid "Reloading KDE configuration, please wait..."
-msgstr "Znowa KDE-konfiguraciju začitam, dočakajće prošu ..."
-
-#: kded/kbuildsycoca.cpp:678
-msgid "KDE Configuration Manager"
-msgstr "KDE-rjadowar konfiguracije"
-
-#: kded/kbuildsycoca.cpp:680
-msgid "Do you want to reload KDE configuration?"
-msgstr "Chceće KDE-konfiguraciju znowa začitać?"
-
-#: kded/kbuildsycoca.cpp:680
-msgctxt "Reload KDE configuration messagebox"
-msgid "Reload"
-msgstr "Znowa začitać"
-
-#: kded/kbuildsycoca.cpp:680
-msgid "Do Not Reload"
-msgstr "Nic znowa začitać"
-
-#: kded/kbuildsycoca.cpp:858
-msgid "Configuration information reloaded successfully."
-msgstr "Konfiguracija znowa začitana."
 
 #: kpty/kptydevice.cpp:306
 msgid "Error reading from PTY"
@@ -8434,19 +8380,19 @@ msgstr "Prawopisna korektura zakónčena."
 msgid "Sonnet Configuration"
 msgstr "Konfiguracija za Sonnet"
 
-#: kdeui/sonnet/highlighter.cpp:241 kdeui/sonnet/highlighter.cpp:264
+#: kdeui/sonnet/highlighter.cpp:292 kdeui/sonnet/highlighter.cpp:315
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:470
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:576
 msgid "As-you-type spell checking enabled."
 msgstr "Přepruwuje hnydom při zapodawanju"
 
-#: kdeui/sonnet/highlighter.cpp:243
+#: kdeui/sonnet/highlighter.cpp:294
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:578
 msgid "Too many misspelled words. As-you-type spell checking disabled."
 msgstr ""
 "Přewjele wopak pismikowanych słowow. Inkrementelne přepruwowanje hasnjene."
 
-#: kdeui/sonnet/highlighter.cpp:266
+#: kdeui/sonnet/highlighter.cpp:317
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:472
 msgid "As-you-type spell checking disabled."
 msgstr "Žane přepruwowanje při zapodawanju"
@@ -13415,6 +13361,47 @@ msgstr "Pokiw &dnja"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "Žana tajka funkcija '%1'"
+
+#~ msgid ""
+#~ "Error creating database '%1'.\n"
+#~ "Check that the permissions are correct on the directory and the disk is "
+#~ "not full.\n"
+#~ msgstr ""
+#~ "Zmylk při stworjenju datoweje bazy '%1'.\n"
+#~ "Přepruwujće, hač su prawa korektne a hač tačel njeje połna.\n"
+
+#~ msgid ""
+#~ "Error writing database '%1'.\n"
+#~ "Check that the permissions are correct on the directory and the disk is "
+#~ "not full.\n"
+#~ msgstr ""
+#~ "Zmylk při pisanju datoweje bazy '%1'.\n"
+#~ "Přepruwujće, hač su prawa korektne a hač tačel njeje połna.\n"
+
+#~ msgid "Silent - work without windows and stderr"
+#~ msgstr "Ćiche dźěłanje bjez woknow a stderr"
+
+#~ msgid "Show progress information (even if 'silent' mode is on)"
+#~ msgstr "Pokaž informaciju wo postupje (samo w ćichim modusu)"
+
+#~ msgid "Reloading KDE configuration, please wait..."
+#~ msgstr "Znowa KDE-konfiguraciju začitam, dočakajće prošu ..."
+
+#~ msgid "KDE Configuration Manager"
+#~ msgstr "KDE-rjadowar konfiguracije"
+
+#~ msgid "Do you want to reload KDE configuration?"
+#~ msgstr "Chceće KDE-konfiguraciju znowa začitać?"
+
+#~ msgctxt "Reload KDE configuration messagebox"
+#~ msgid "Reload"
+#~ msgstr "Znowa začitać"
+
+#~ msgid "Do Not Reload"
+#~ msgstr "Nic znowa začitać"
+
+#~ msgid "Configuration information reloaded successfully."
+#~ msgstr "Konfiguracija znowa začitana."
 
 #, fuzzy
 #~| msgid "From:"
