@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-27 11:04+0100\n"
+"POT-Creation-Date: 2010-02-28 14:18+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -16,81 +16,6 @@ msgstr ""
 "X-Generator: KAider 0.1\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
-
-#: main.cpp:30
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "KDE Home Page"
-msgid "KDE Poker Game"
-msgstr "Domjaca strona KDE"
-
-#: main.cpp:38
-msgid "KPoker"
-msgstr ""
-
-#: main.cpp:42
-msgid "(c) 1997-2006 Jochen Tuchbreiter, Andreas Beckermann"
-msgstr ""
-
-#: main.cpp:43
-msgid "Andreas Beckermann"
-msgstr ""
-
-#: main.cpp:44
-msgid "Current maintainer"
-msgstr ""
-
-#: main.cpp:45
-msgid "Jochen Tuchbreiter"
-msgstr ""
-
-#: main.cpp:46
-msgid "Original author"
-msgstr ""
-
-#. i18n: file: kpokerui.rc:5
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:3
-msgid "&Settings"
-msgstr "&Nastajenja"
-
-#: rc.cpp:4
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-#: rc.cpp:5
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
-
-#: gameengine/kpoker.cpp:193 gameengine/player.cpp:104
-#, kde-format
-msgid ""
-"Received an admin message from a non-admin client.\n"
-"Admin: %1\n"
-"Message Id: %2\n"
-"Sender: %3\n"
-"\n"
-"The message has been ignored."
-msgstr ""
-
-#: gameengine/kpoker.cpp:306
-msgid ""
-"Tried to start a game, but a game is already running - you have found a bug."
-msgstr ""
-
-#: gameengine/kpoker.cpp:324
-msgid ""
-"A network command tried to start a game, but a game is already running - you "
-"have found a bug."
-msgstr ""
-
-#: gameengine/kpoker.cpp:333
-msgid ""
-"No KPokerDealer object was created even though you are the admin. You have "
-"found a bug - cannot start a game."
-msgstr ""
 
 #: gameengine/kpokerdealer.cpp:340
 #, kde-format
@@ -220,6 +145,110 @@ msgctxt "[SuitesString] [ValueString]"
 msgid "%1 %2"
 msgstr "%1%2"
 
+#: gameengine/kpoker.cpp:193 gameengine/player.cpp:104
+#, kde-format
+msgid ""
+"Received an admin message from a non-admin client.\n"
+"Admin: %1\n"
+"Message Id: %2\n"
+"Sender: %3\n"
+"\n"
+"The message has been ignored."
+msgstr ""
+
+#: gameengine/kpoker.cpp:306
+msgid ""
+"Tried to start a game, but a game is already running - you have found a bug."
+msgstr ""
+
+#: gameengine/kpoker.cpp:324
+msgid ""
+"A network command tried to start a game, but a game is already running - you "
+"have found a bug."
+msgstr ""
+
+#: gameengine/kpoker.cpp:333
+msgid ""
+"No KPokerDealer object was created even though you are the admin. You have "
+"found a bug - cannot start a game."
+msgstr ""
+
+#: gameview/graphicsitems/playermoney.cpp:58 gameview/playerbox.cpp:154
+#, kde-format
+msgid "Cash: %1"
+msgstr ""
+
+#: gameview/graphicsitems/playercardcontainer.cpp:60
+#: gameview/playerbox.cpp:339
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Help"
+msgid "Held"
+msgstr "Pomoc"
+
+#: gameview/kpokerwidget.cpp:135
+#, fuzzy
+#| msgid "Pause"
+msgid "Phase: "
+msgstr "Pause/Untbr"
+
+#: gameview/kpokerwidget.cpp:197
+msgid "You"
+msgstr ""
+
+#: gameview/kpokerwidget.cpp:212
+#, fuzzy, kde-format
+#| msgid "About %1"
+msgid "Computer %1"
+msgstr "Wo %1"
+
+#: gameview/kpokerwidget.cpp:354
+msgid "Draw"
+msgstr ""
+
+#: gameview/kpokerwidget.cpp:372
+msgid "Bet/Exchange"
+msgstr ""
+
+#: gameview/kpokerwidget.cpp:376
+msgid "Exchange"
+msgstr ""
+
+#: gameview/kpokerwidget.cpp:380
+#, fuzzy
+#| msgctxt "@item font size"
+#| msgid "Relative"
+msgid "Raise"
+msgstr "relatiwne"
+
+#: gameview/kpokerwidget.cpp:383
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Sweep"
+msgid "See"
+msgstr "Sweep"
+
+#: gameview/kpokerwidget.cpp:430
+msgid ""
+"The game is over, you lost.\n"
+"A new game has now been started."
+msgstr ""
+
+#: gameview/kpokerwidget.cpp:436
+msgid "The game is over, you won the game!\n"
+msgstr ""
+
+#: gameview/kpokerwidget.cpp:439
+#, kde-format
+msgid ""
+"The game is over, you lost.\n"
+"%1 has won this game."
+msgstr ""
+
+#: gameview/kpokerwidget.cpp:444
+msgid "The game is over."
+msgstr ""
+
 #: gameview/playerbox.cpp:92
 #, fuzzy
 #| msgctxt "Name"
@@ -227,24 +256,11 @@ msgstr "%1%2"
 msgid "Fold"
 msgstr "Zapisk"
 
-#: gameview/playerbox.cpp:154 gameview/graphicsitems/playermoney.cpp:58
-#, kde-format
-msgid "Cash: %1"
-msgstr ""
-
 #: gameview/playerbox.cpp:164
 #, fuzzy, kde-format
 #| msgid "Re: %1"
 msgid "Bet: %1"
 msgstr "Wotmołwa: %1"
-
-#: gameview/playerbox.cpp:339
-#: gameview/graphicsitems/playercardcontainer.cpp:60
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "Help"
-msgid "Held"
-msgstr "Pomoc"
 
 #: gameview/topwidget.cpp:62
 msgid "New single player game"
@@ -314,65 +330,49 @@ msgstr "%1% z %2"
 msgid "You won 500"
 msgstr ""
 
-#: gameview/kpokerwidget.cpp:135
-#, fuzzy
-#| msgid "Pause"
-msgid "Phase: "
-msgstr "Pause/Untbr"
-
-#: gameview/kpokerwidget.cpp:197
-msgid "You"
-msgstr ""
-
-#: gameview/kpokerwidget.cpp:212
-#, fuzzy, kde-format
-#| msgid "About %1"
-msgid "Computer %1"
-msgstr "Wo %1"
-
-#: gameview/kpokerwidget.cpp:354
-msgid "Draw"
-msgstr ""
-
-#: gameview/kpokerwidget.cpp:372
-msgid "Bet/Exchange"
-msgstr ""
-
-#: gameview/kpokerwidget.cpp:376
-msgid "Exchange"
-msgstr ""
-
-#: gameview/kpokerwidget.cpp:380
-#, fuzzy
-#| msgctxt "@item font size"
-#| msgid "Relative"
-msgid "Raise"
-msgstr "relatiwne"
-
-#: gameview/kpokerwidget.cpp:383
+#: main.cpp:30
 #, fuzzy
 #| msgctxt "Name"
-#| msgid "Sweep"
-msgid "See"
-msgstr "Sweep"
+#| msgid "KDE Home Page"
+msgid "KDE Poker Game"
+msgstr "Domjaca strona KDE"
 
-#: gameview/kpokerwidget.cpp:430
-msgid ""
-"The game is over, you lost.\n"
-"A new game has now been started."
+#: main.cpp:38
+msgid "KPoker"
 msgstr ""
 
-#: gameview/kpokerwidget.cpp:436
-msgid "The game is over, you won the game!\n"
+#: main.cpp:42
+msgid "(c) 1997-2006 Jochen Tuchbreiter, Andreas Beckermann"
 msgstr ""
 
-#: gameview/kpokerwidget.cpp:439
-#, kde-format
-msgid ""
-"The game is over, you lost.\n"
-"%1 has won this game."
+#: main.cpp:43
+msgid "Andreas Beckermann"
 msgstr ""
 
-#: gameview/kpokerwidget.cpp:444
-msgid "The game is over."
+#: main.cpp:44
+msgid "Current maintainer"
+msgstr ""
+
+#: main.cpp:45
+msgid "Jochen Tuchbreiter"
+msgstr ""
+
+#: main.cpp:46
+msgid "Original author"
+msgstr ""
+
+#. i18n: file: kpokerui.rc:5
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:3
+msgid "&Settings"
+msgstr "&Nastajenja"
+
+#: rc.cpp:4
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:5
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
 msgstr ""

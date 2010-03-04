@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-30 10:54+0200\n"
+"POT-Creation-Date: 2010-02-28 14:18+0100\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,23 +17,49 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: ds/package.cpp:30
+#: tools/any2game.cpp:38
+msgid "Documents to open"
+msgstr ""
+
+#: gui/config/clevernessconfig.cpp:37
+msgid "Autoselect color if only one is possible:"
+msgstr ""
+
+#: gui/config/clevernessconfig.cpp:42
+msgid "Wait ms before autoselecting:"
+msgstr ""
+
+#: gui/config/colorconfig.cpp:37
 #, fuzzy
-#| msgid "Unknown View"
-msgid "Unknown package"
-msgstr "Njeznaty napohlad"
+#| msgctxt "Name"
+#| msgid "Grip"
+msgid "Grid:"
+msgstr "Grip"
 
-#: ds/package.cpp:31 ds/package.cpp:32
-msgid "No description available."
+#: gui/config/colorconfig.cpp:38
+#, fuzzy
+#| msgid "Backward Word"
+msgid "Background:"
+msgstr "Wo słowo dozady"
+
+#: gui/config/colorconfig.cpp:39
+msgid "Highlighted grid:"
 msgstr ""
 
-#: ds/package.cpp:82
-msgid "Unknown game"
+#: gui/config/colorconfig.cpp:40
+msgid "Central dot in off-state Box:"
 msgstr ""
 
-#: ds/package.cpp:87
-msgid "No hint"
+#: gui/config/colorconfig.cpp:41
+msgid "Cross on hint numbers:"
 msgstr ""
+
+#: gui/colorselector.cpp:81
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Text &Color..."
+msgid "Next Color"
+msgstr "Barba te&ksta"
 
 #: gui/game_info.cpp:235
 #, fuzzy
@@ -100,48 +126,22 @@ msgstr "Caret-modus zaswěćić/hasnyć"
 msgid "Solve"
 msgstr "Zawěsćić"
 
-#: gui/colorselector.cpp:81
+#: ds/package.cpp:30
 #, fuzzy
-#| msgctxt "@action"
-#| msgid "Text &Color..."
-msgid "Next Color"
-msgstr "Barba te&ksta"
+#| msgid "Unknown View"
+msgid "Unknown package"
+msgstr "Njeznaty napohlad"
 
-#: gui/config/colorconfig.cpp:37
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Grip"
-msgid "Grid:"
-msgstr "Grip"
-
-#: gui/config/colorconfig.cpp:38
-#, fuzzy
-#| msgid "Backward Word"
-msgid "Background:"
-msgstr "Wo słowo dozady"
-
-#: gui/config/colorconfig.cpp:39
-msgid "Highlighted grid:"
+#: ds/package.cpp:31 ds/package.cpp:32
+msgid "No description available."
 msgstr ""
 
-#: gui/config/colorconfig.cpp:40
-msgid "Central dot in off-state Box:"
+#: ds/package.cpp:82
+msgid "Unknown game"
 msgstr ""
 
-#: gui/config/colorconfig.cpp:41
-msgid "Cross on hint numbers:"
-msgstr ""
-
-#: gui/config/clevernessconfig.cpp:37
-msgid "Autoselect color if only one is possible:"
-msgstr ""
-
-#: gui/config/clevernessconfig.cpp:42
-msgid "Wait ms before autoselecting:"
-msgstr ""
-
-#: tools/any2game.cpp:38
-msgid "Documents to open"
+#: ds/package.cpp:87
+msgid "No hint"
 msgstr ""
 
 #: main.cpp:37
@@ -162,6 +162,21 @@ msgstr ""
 
 #: main.cpp:57
 msgid "Document to open"
+msgstr ""
+
+#: mainwindow.cpp:118
+msgid "Images"
+msgstr ""
+
+#: mainwindow.cpp:144
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Colors"
+msgid "Colors"
+msgstr "Barby"
+
+#: mainwindow.cpp:145
+msgid "Cleverness"
 msgstr ""
 
 #. i18n: file: nonogram.kcfg:9
@@ -215,19 +230,4 @@ msgstr ""
 #: rc.cpp:23
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
-
-#: mainwindow.cpp:118
-msgid "Images"
-msgstr ""
-
-#: mainwindow.cpp:144
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Colors"
-msgid "Colors"
-msgstr "Barby"
-
-#: mainwindow.cpp:145
-msgid "Cleverness"
 msgstr ""
