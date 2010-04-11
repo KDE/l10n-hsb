@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-10 04:42+0200\n"
+"POT-Creation-Date: 2010-04-11 05:14+0200\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -308,7 +308,7 @@ msgstr "Z&ničić"
 
 #: kmfilterdlg.cpp:771 collectiongeneralpage.cpp:146
 #: managesievescriptsdialog.cpp:366 attachmentcontroller.cpp:606
-#: kmcomposewin.cpp:2914
+#: kmcomposewin.cpp:2915
 msgid "unnamed"
 msgstr "bjez mjena"
 
@@ -1040,6 +1040,15 @@ msgstr ""
 msgid "There is nothing to undo."
 msgstr ""
 
+#: kmmainwin.cpp:57
+msgid "New &Window"
+msgstr "&Nowe wokno"
+
+#: kmmainwin.cpp:205
+#, fuzzy
+msgid "Starting..."
+msgstr "Wopisanje"
+
 #. i18n: file: tips:2
 #. i18n: ectx: @info:tipoftheday
 #: tips.cpp:3
@@ -1159,15 +1168,6 @@ msgstr ""
 "<em>&gt;</em></p>\n"
 "<p align=\"right\"><em></em></p>"
 
-#: kmmainwin.cpp:57
-msgid "New &Window"
-msgstr "&Nowe wokno"
-
-#: kmmainwin.cpp:205
-#, fuzzy
-msgid "Starting..."
-msgstr "Wopisanje"
-
 #: kmsearchpattern.h:249
 #, fuzzy
 msgctxt "message status"
@@ -1278,24 +1278,14 @@ msgstr "&Pokaž chowane zapiski"
 msgid "Please select a folder"
 msgstr "Zapisk zničić"
 
-#: util.cpp:69
-#, kde-format
-msgid "Distribution list \"%1\" is empty, it cannot be used."
-msgstr ""
-
-#: util.cpp:70 util.cpp:79 identitydialog.cpp:536
-#, fuzzy
-msgid "Invalid Email Address"
-msgstr "emailowa adresa"
-
-#: util.cpp:182
+#: util.cpp:154
 #, fuzzy
 msgid "Could not start the account wizard. Please check your installation."
 msgstr ""
 "Njemóžach certifikatowy manager startować. Prošu přepruwujće swoju "
 "instalaciju!"
 
-#: util.cpp:184
+#: util.cpp:156
 #, fuzzy
 #| msgid "Unable to create account"
 msgid "Unable to start account wizard"
@@ -1621,7 +1611,7 @@ msgstr ""
 msgid "KMail is currently in offline mode. How do you want to proceed?"
 msgstr ""
 
-#: kmkernel.cpp:887 kmcomposewin.cpp:3100
+#: kmkernel.cpp:887 kmcomposewin.cpp:3101
 msgid "Online/Offline"
 msgstr ""
 
@@ -1927,12 +1917,12 @@ msgid ""
 "all available addresses."
 msgstr ""
 
-#: redirectdialog.cpp:87 kmcomposewin.cpp:3369
+#: redirectdialog.cpp:87 kmcomposewin.cpp:3392
 msgid "&Send Now"
 msgstr "&Nětko pósłać"
 
-#: redirectdialog.cpp:88 kmcomposewin.cpp:1133 kmcomposewin.cpp:1142
-#: kmcomposewin.cpp:3370
+#: redirectdialog.cpp:88 kmcomposewin.cpp:1134 kmcomposewin.cpp:1143
+#: kmcomposewin.cpp:3393
 msgid "Send &Later"
 msgstr "&Pozdźišo pósłać"
 
@@ -1944,6 +1934,17 @@ msgstr ""
 #, fuzzy
 msgid "Empty Redirection Address"
 msgstr "Wočinić w adresniku"
+
+#: addressvalidationjob.cpp:288
+#, kde-format
+msgid "Distribution list \"%1\" is empty, it cannot be used."
+msgstr ""
+
+#: addressvalidationjob.cpp:290 addressvalidationjob.cpp:299
+#: identitydialog.cpp:536
+#, fuzzy
+msgid "Invalid Email Address"
+msgstr "emailowa adresa"
 
 #: rulewidgethandlermanager.cpp:406 rulewidgethandlermanager.cpp:726
 #: rulewidgethandlermanager.cpp:1233
@@ -5981,7 +5982,7 @@ msgstr ""
 msgid "Send Queued Messages Via"
 msgstr "&Pósćel čakace powěsće"
 
-#: kmmainwidget.cpp:3006 kmcomposewin.cpp:1201
+#: kmmainwidget.cpp:3006 kmcomposewin.cpp:1202
 msgid "&Address Book"
 msgstr "&Adresnik"
 
@@ -6609,7 +6610,7 @@ msgstr "Dodaj &zjawny kluč..."
 msgid "Attach &My Public Key"
 msgstr "Dodaj &mój zjawny kluč"
 
-#: attachmentcontroller.cpp:404 kmcomposewin.cpp:1993
+#: attachmentcontroller.cpp:404 kmcomposewin.cpp:1994
 msgid "&Attach File..."
 msgstr "&Dodaj dataju..."
 
@@ -7883,7 +7884,7 @@ msgstr "&Signatura:"
 msgid "Picture"
 msgstr "&Signatura:"
 
-#: identitydialog.cpp:561
+#: identitydialog.cpp:571
 #, kde-format
 msgid ""
 "One of the configured OpenPGP signing keys does not contain any user ID with "
@@ -7892,14 +7893,14 @@ msgid ""
 "verify signatures made with this configuration."
 msgstr ""
 
-#: identitydialog.cpp:569
+#: identitydialog.cpp:579
 #, kde-format
 msgid ""
 "One of the configured OpenPGP encryption keys does not contain any user ID "
 "with the configured email address for this identity (%1)."
 msgstr ""
 
-#: identitydialog.cpp:575
+#: identitydialog.cpp:585
 #, kde-format
 msgid ""
 "One of the configured S/MIME signing certificates does not contain the "
@@ -7908,29 +7909,29 @@ msgid ""
 "verify signatures made with this configuration."
 msgstr ""
 
-#: identitydialog.cpp:583
+#: identitydialog.cpp:593
 #, kde-format
 msgid ""
 "One of the configured S/MIME encryption certificates does not contain the "
 "configured email address for this identity (%1)."
 msgstr ""
 
-#: identitydialog.cpp:591
+#: identitydialog.cpp:601
 #, fuzzy
 msgid "Email Address Not Found in Key/Certificates"
 msgstr "&email"
 
-#: identitydialog.cpp:606
+#: identitydialog.cpp:616
 #, fuzzy
 msgid "The signature file is not valid"
 msgstr "Signatura je zestarjena."
 
-#: identitydialog.cpp:626
+#: identitydialog.cpp:636
 #, kde-format
 msgid "Edit Identity \"%1\""
 msgstr "Identitu \"%1\" wobdźěłać"
 
-#: identitydialog.cpp:656
+#: identitydialog.cpp:666
 #, fuzzy, kde-format
 msgid ""
 "The custom sent-mail folder for identity \"%1\" does not exist (anymore); "
@@ -7939,7 +7940,7 @@ msgstr ""
 "Konfigurowany zapisk za wotpósłane powěsće \"%1\" (hižo) njeeksistuje. Tuž "
 "so standardny zapisk wužiwa."
 
-#: identitydialog.cpp:668
+#: identitydialog.cpp:678
 #, fuzzy, kde-format
 msgid ""
 "The custom drafts folder for identity \"%1\" does not exist (anymore); "
@@ -7948,7 +7949,7 @@ msgstr ""
 "Konfigurowany zapisk za naćiski \"%1\" (hižo) njeeksistuje. Tuž so "
 "standardny zapisk wužiwa."
 
-#: identitydialog.cpp:680
+#: identitydialog.cpp:690
 #, fuzzy, kde-format
 msgid ""
 "The custom templates folder for identity \"%1\" does not exist (anymore); "
@@ -8238,117 +8239,117 @@ msgid ""
 "the filter will fallback to the default address book.</p>"
 msgstr ""
 
-#: kmcomposewin.cpp:222
+#: kmcomposewin.cpp:223
 #, fuzzy
 msgid "Select an identity for this message"
 msgstr "Wotst&ronić"
 
-#: kmcomposewin.cpp:225
+#: kmcomposewin.cpp:226
 msgid "Select the dictionary to use when spell-checking this message"
 msgstr ""
 
-#: kmcomposewin.cpp:229
+#: kmcomposewin.cpp:230
 msgid "Select the sent-mail folder where a copy of this message will be saved"
 msgstr ""
 
-#: kmcomposewin.cpp:236
+#: kmcomposewin.cpp:237
 msgid "Select the outgoing account to use for sending this message"
 msgstr ""
 
-#: kmcomposewin.cpp:238
+#: kmcomposewin.cpp:239
 msgid "Set the \"From:\" email address for this message"
 msgstr ""
 
-#: kmcomposewin.cpp:240
+#: kmcomposewin.cpp:241
 msgid "Set the \"Reply-To:\" email address for this message"
 msgstr ""
 
-#: kmcomposewin.cpp:251
+#: kmcomposewin.cpp:252
 #, fuzzy
 msgid "Set a subject for this message"
 msgstr "Powěsće zničić"
 
-#: kmcomposewin.cpp:252
+#: kmcomposewin.cpp:253
 msgid "&Identity:"
 msgstr "&Identita:"
 
-#: kmcomposewin.cpp:253
+#: kmcomposewin.cpp:254
 #, fuzzy
 msgid "&Dictionary:"
 msgstr "&Wopisanje:"
 
-#: kmcomposewin.cpp:254
+#: kmcomposewin.cpp:255
 #, fuzzy
 msgid "&Sent-Mail folder:"
 msgstr "Zapisk za &pósłane powěsće:"
 
-#: kmcomposewin.cpp:255
+#: kmcomposewin.cpp:256
 #, fuzzy
 msgid "&Mail transport:"
 msgstr "Transport &póšty:"
 
-#: kmcomposewin.cpp:256
+#: kmcomposewin.cpp:257
 msgctxt "sender address field"
 msgid "&From:"
 msgstr ""
 
-#: kmcomposewin.cpp:257
+#: kmcomposewin.cpp:258
 msgid "&Reply to:"
 msgstr "Adresa za &wotmołwu:"
 
-#: kmcomposewin.cpp:258
+#: kmcomposewin.cpp:259
 #, fuzzy
 #| msgid "S&ubject:"
 msgctxt "@label:textbox Subject of email."
 msgid "S&ubject:"
 msgstr "&Tema:"
 
-#: kmcomposewin.cpp:259
+#: kmcomposewin.cpp:260
 #, fuzzy
 #| msgid "Sticky"
 msgctxt "@option:check Sticky identity."
 msgid "Sticky"
 msgstr "Lěpjaty"
 
-#: kmcomposewin.cpp:261
+#: kmcomposewin.cpp:262
 msgid "Use the selected value as your identity for future messages"
 msgstr ""
 
-#: kmcomposewin.cpp:263
+#: kmcomposewin.cpp:264
 msgid "Use the selected value as your sent-mail folder for future messages"
 msgstr ""
 
-#: kmcomposewin.cpp:265
+#: kmcomposewin.cpp:266
 msgid "Use the selected value as your outgoing account for future messages"
 msgstr ""
 
-#: kmcomposewin.cpp:267
+#: kmcomposewin.cpp:268
 msgid "Use the selected value as your dictionary for future messages"
 msgstr ""
 
-#: kmcomposewin.cpp:350 kmcomposewin.cpp:2278 configuredialog.cpp:925
+#: kmcomposewin.cpp:351 kmcomposewin.cpp:2279 configuredialog.cpp:925
 msgid "Composer"
 msgstr "Editor"
 
-#: kmcomposewin.cpp:677
+#: kmcomposewin.cpp:678
 #, fuzzy
 msgid "Could not write all data to file."
 msgstr "in."
 
-#: kmcomposewin.cpp:681
+#: kmcomposewin.cpp:682
 #, fuzzy
 msgid "Could not finalize the file."
 msgstr ""
 "Njemóžach do dataje pisać:\n"
 "%1"
 
-#: kmcomposewin.cpp:686
+#: kmcomposewin.cpp:687
 #, fuzzy
 #| msgid "Cannot open file:"
 msgid "Could not open file."
 msgstr "Njemóžu dataju wočinić:"
 
-#: kmcomposewin.cpp:692
+#: kmcomposewin.cpp:693
 #, fuzzy, kde-format
 msgid ""
 "Autosaving the message as %1 failed.\n"
@@ -8356,287 +8357,287 @@ msgid ""
 "Reason: %3"
 msgstr "Přesuwam powěsć %3 z %2 wot %1."
 
-#: kmcomposewin.cpp:698
+#: kmcomposewin.cpp:699
 #, fuzzy
 msgid "Autosaving Message Failed"
 msgstr "Přesuwam powěsć %3 z %2 wot %1."
 
-#: kmcomposewin.cpp:1123 kmcomposewin.cpp:1149
+#: kmcomposewin.cpp:1124 kmcomposewin.cpp:1150
 #, fuzzy
 msgid "&Send Mail"
 msgstr "Sendmail"
 
-#: kmcomposewin.cpp:1129 kmcomposewin.cpp:1154
+#: kmcomposewin.cpp:1130 kmcomposewin.cpp:1155
 #, fuzzy
 msgid "&Send Mail Via"
 msgstr "&Haj, pósłać kaž je"
 
-#: kmcomposewin.cpp:1130
+#: kmcomposewin.cpp:1131
 #, fuzzy
 msgid "Send"
 msgstr "Pó&sćel"
 
-#: kmcomposewin.cpp:1136 kmcomposewin.cpp:1146
+#: kmcomposewin.cpp:1137 kmcomposewin.cpp:1147
 #, fuzzy
 msgid "Send &Later Via"
 msgstr "&Pozdźišo pósłać"
 
-#: kmcomposewin.cpp:1137
+#: kmcomposewin.cpp:1138
 #, fuzzy
 msgctxt "Queue the message for sending at a later date"
 msgid "Queue"
 msgstr "Do ča&karnje"
 
-#: kmcomposewin.cpp:1181
+#: kmcomposewin.cpp:1182
 #, fuzzy
 msgid "Save as &Draft"
 msgstr "Jako &naćisk zawěsćić"
 
-#: kmcomposewin.cpp:1185
+#: kmcomposewin.cpp:1186
 #, fuzzy
 msgid "Save as &Template"
 msgstr "Na&runać"
 
-#: kmcomposewin.cpp:1189
+#: kmcomposewin.cpp:1190
 msgid "&Insert File..."
 msgstr "Dataju z&asunyć..."
 
-#: kmcomposewin.cpp:1193
+#: kmcomposewin.cpp:1194
 #, fuzzy
 msgid "&Insert File Recent"
 msgstr "Dataju zasunyć"
 
-#: kmcomposewin.cpp:1204
+#: kmcomposewin.cpp:1205
 msgid "&New Composer"
 msgstr "&Nowy editor"
 
-#: kmcomposewin.cpp:1208
+#: kmcomposewin.cpp:1209
 msgid "New Main &Window"
 msgstr "&Nowe hłowne wokno"
 
-#: kmcomposewin.cpp:1212
+#: kmcomposewin.cpp:1213
 #, fuzzy
 msgid "Select &Recipients..."
 msgstr "<adresaća>"
 
-#: kmcomposewin.cpp:1216
+#: kmcomposewin.cpp:1217
 #, fuzzy
 msgid "Save &Distribution List..."
 msgstr "Nadawki"
 
-#: kmcomposewin.cpp:1238
+#: kmcomposewin.cpp:1239
 #, fuzzy
 msgid "Paste as Attac&hment"
 msgstr "Přiwěšk: "
 
-#: kmcomposewin.cpp:1242
+#: kmcomposewin.cpp:1243
 msgid "Cl&ean Spaces"
 msgstr "&Zbytne mjezoty zničić"
 
-#: kmcomposewin.cpp:1246
+#: kmcomposewin.cpp:1247
 msgid "Use Fi&xed Font"
 msgstr "Wužiwaj pismo z &krutej šěrokosću"
 
-#: kmcomposewin.cpp:1253
+#: kmcomposewin.cpp:1254
 #, fuzzy
 #| msgid "&Urgent"
 msgctxt "@action:inmenu Mark the email as urgent."
 msgid "&Urgent"
 msgstr "&Chwata"
 
-#: kmcomposewin.cpp:1255
+#: kmcomposewin.cpp:1256
 msgid "&Request Disposition Notification"
 msgstr ""
 
-#: kmcomposewin.cpp:1261
+#: kmcomposewin.cpp:1262
 msgid "&Wordwrap"
 msgstr "&Łamanje linkow"
 
-#: kmcomposewin.cpp:1266
+#: kmcomposewin.cpp:1267
 msgid "&Snippets"
 msgstr ""
 
-#: kmcomposewin.cpp:1273
+#: kmcomposewin.cpp:1274
 msgid "&Automatic Spellchecking"
 msgstr ""
 
-#: kmcomposewin.cpp:1290
+#: kmcomposewin.cpp:1291
 msgid "Formatting (HTML)"
 msgstr ""
 
-#: kmcomposewin.cpp:1291
+#: kmcomposewin.cpp:1292
 #, fuzzy
 #| msgid "Use HTML"
 msgid "HTML"
 msgstr "Wužiwaj HTML"
 
-#: kmcomposewin.cpp:1295
+#: kmcomposewin.cpp:1296
 msgid "&All Fields"
 msgstr "&Wšitke pola"
 
-#: kmcomposewin.cpp:1298
+#: kmcomposewin.cpp:1299
 msgid "&Identity"
 msgstr "&Identita"
 
-#: kmcomposewin.cpp:1301
+#: kmcomposewin.cpp:1302
 msgid "&Dictionary"
 msgstr ""
 
-#: kmcomposewin.cpp:1304
+#: kmcomposewin.cpp:1305
 #, fuzzy
 msgid "&Sent-Mail Folder"
 msgstr "Zapisk za pó&słane powěsće"
 
-#: kmcomposewin.cpp:1307
+#: kmcomposewin.cpp:1308
 msgid "&Mail Transport"
 msgstr "&Transport póšty"
 
-#: kmcomposewin.cpp:1310
+#: kmcomposewin.cpp:1311
 msgid "&From"
 msgstr "&Wot"
 
-#: kmcomposewin.cpp:1313
+#: kmcomposewin.cpp:1314
 msgid "&Reply To"
 msgstr "&Adresa za wotmołwu"
 
-#: kmcomposewin.cpp:1317
+#: kmcomposewin.cpp:1318
 #, fuzzy
 msgctxt "@action:inmenu Show the subject in the composer window."
 msgid "S&ubject"
 msgstr "&Tema:"
 
-#: kmcomposewin.cpp:1322
+#: kmcomposewin.cpp:1323
 msgid "Append S&ignature"
 msgstr "Dodaj &signaturu"
 
-#: kmcomposewin.cpp:1325
+#: kmcomposewin.cpp:1326
 #, fuzzy
 #| msgid "Append S&ignature"
 msgid "Pr&epend Signature"
 msgstr "Dodaj &signaturu"
 
-#: kmcomposewin.cpp:1328
+#: kmcomposewin.cpp:1329
 #, fuzzy
 msgid "Insert Signature At C&ursor Position"
 msgstr "Pozicija zapiska"
 
-#: kmcomposewin.cpp:1346
+#: kmcomposewin.cpp:1347
 msgid "&Spellchecker..."
 msgstr "&Prawopisna kontrola..."
 
-#: kmcomposewin.cpp:1347
+#: kmcomposewin.cpp:1348
 msgid "Spellchecker"
 msgstr "Prawopisny program"
 
-#: kmcomposewin.cpp:1352 kmcomposewin.cpp:1354
+#: kmcomposewin.cpp:1353 kmcomposewin.cpp:1355
 #, fuzzy
 msgid "Encrypt Message with Chiasmus..."
 msgstr "Powěsć za fokus wubrać"
 
-#: kmcomposewin.cpp:1362
+#: kmcomposewin.cpp:1363
 msgid "&Encrypt Message"
 msgstr "Šifrowanj&e"
 
-#: kmcomposewin.cpp:1363
+#: kmcomposewin.cpp:1364
 msgid "Encrypt"
 msgstr "Šifrowanje"
 
-#: kmcomposewin.cpp:1365
+#: kmcomposewin.cpp:1366
 msgid "&Sign Message"
 msgstr "Podpi&s"
 
-#: kmcomposewin.cpp:1366
+#: kmcomposewin.cpp:1367
 msgid "Sign"
 msgstr "Podpis"
 
-#: kmcomposewin.cpp:1404
+#: kmcomposewin.cpp:1405
 msgid "&Cryptographic Message Format"
 msgstr ""
 
-#: kmcomposewin.cpp:1410
+#: kmcomposewin.cpp:1411
 msgid "Select a cryptographic format for this message"
 msgstr ""
 
-#: kmcomposewin.cpp:1413
+#: kmcomposewin.cpp:1414
 msgid "Reset Font Settings"
 msgstr ""
 
-#: kmcomposewin.cpp:1414
+#: kmcomposewin.cpp:1415
 #, fuzzy
 msgid "Reset Font"
 msgstr "Zapisk zničić"
 
-#: kmcomposewin.cpp:1436
+#: kmcomposewin.cpp:1437
 #, fuzzy
 msgid "Configure KMail..."
 msgstr "KMail &konfigurować..."
 
-#: kmcomposewin.cpp:1446
+#: kmcomposewin.cpp:1447
 #, fuzzy, kde-format
 msgid " Spellcheck: %1 "
 msgstr "Prawopisny program"
 
-#: kmcomposewin.cpp:1447 kmcomposewin.cpp:3857
+#: kmcomposewin.cpp:1448 kmcomposewin.cpp:3880
 #, kde-format
 msgid " Column: %1 "
 msgstr " Špalta: %1"
 
-#: kmcomposewin.cpp:1449 kmcomposewin.cpp:3855
+#: kmcomposewin.cpp:1450 kmcomposewin.cpp:3878
 #, fuzzy, kde-format
 #| msgid " Line: %1 "
 msgctxt "Shows the linenumber of the cursor position."
 msgid " Line: %1 "
 msgstr " Linka: %1"
 
-#: kmcomposewin.cpp:1915
+#: kmcomposewin.cpp:1916
 #, fuzzy
 msgid "Re&save as Template"
 msgstr "Na&runać"
 
-#: kmcomposewin.cpp:1916
+#: kmcomposewin.cpp:1917
 msgid "&Save as Draft"
 msgstr "Jako &naćisk zawěsćić"
 
-#: kmcomposewin.cpp:1918
+#: kmcomposewin.cpp:1919
 msgid ""
 "Resave this message in the Templates folder. It can then be used at a later "
 "time."
 msgstr ""
 
-#: kmcomposewin.cpp:1920
+#: kmcomposewin.cpp:1921
 msgid ""
 "Save this message in the Drafts folder. It can then be edited and sent at a "
 "later time."
 msgstr ""
 
-#: kmcomposewin.cpp:1924
+#: kmcomposewin.cpp:1925
 #, fuzzy
 msgid "Do you want to save the message for later or discard it?"
 msgstr "Chceće powěsć preč ćisnyć abo ju za pozdźišo zawěsćić?"
 
-#: kmcomposewin.cpp:1925
+#: kmcomposewin.cpp:1926
 #, fuzzy
 msgid "Close Composer"
 msgstr "&Nowy editor"
 
-#: kmcomposewin.cpp:1989
+#: kmcomposewin.cpp:1990
 msgid ""
 "The message you have composed seems to refer to an attached file but you "
 "have not attached anything.\n"
 "Do you want to attach a file to your message?"
 msgstr ""
 
-#: kmcomposewin.cpp:1992
+#: kmcomposewin.cpp:1993
 #, fuzzy
 msgid "File Attachment Reminder"
 msgstr "Pokaž přiwěšk: "
 
-#: kmcomposewin.cpp:1994 kmcomposewin.cpp:3390
+#: kmcomposewin.cpp:1995 kmcomposewin.cpp:3413
 #, fuzzy
 msgid "&Send as Is"
 msgstr "&Haj, pósłać kaž je"
 
-#: kmcomposewin.cpp:2273
+#: kmcomposewin.cpp:2274
 #, kde-format
 msgid ""
 "Error composing message:\n"
@@ -8646,7 +8647,7 @@ msgid ""
 "Please report this bug."
 msgstr ""
 
-#: kmcomposewin.cpp:2275
+#: kmcomposewin.cpp:2276
 #, fuzzy, kde-format
 msgid ""
 "Error composing message:\n"
@@ -8654,17 +8655,17 @@ msgid ""
 "%1"
 msgstr "Zmylk při pósłanju powěsće na server"
 
-#: kmcomposewin.cpp:2773
+#: kmcomposewin.cpp:2774
 #, fuzzy
 msgid "Insert clipboard text as attachment"
 msgstr "Přiwěšk: "
 
-#: kmcomposewin.cpp:2774 kmcomposereditor.cpp:190
+#: kmcomposewin.cpp:2775 kmcomposereditor.cpp:190
 #, fuzzy
 msgid "Name of the attachment:"
 msgstr "Přiwěšk: "
 
-#: kmcomposewin.cpp:2942
+#: kmcomposewin.cpp:2943
 msgid ""
 "<qt><p>You have requested that messages be encrypted to yourself, but the "
 "currently selected identity does not define an (OpenPGP or S/MIME) "
@@ -8672,11 +8673,11 @@ msgid ""
 "identity configuration.</p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:2949
+#: kmcomposewin.cpp:2950
 msgid "Undefined Encryption Key"
 msgstr "Njedefinowany šifrowanski kluč"
 
-#: kmcomposewin.cpp:2993
+#: kmcomposewin.cpp:2994
 #, fuzzy
 msgid ""
 "<qt><p>In order to be able to sign this message you first have to define the "
@@ -8684,97 +8685,97 @@ msgid ""
 "in the identity configuration.</p></qt>"
 msgstr "<qt><p></p><p> in</p></qt>"
 
-#: kmcomposewin.cpp:3000
+#: kmcomposewin.cpp:3001
 msgid "Undefined Signing Key"
 msgstr "Njedefinowane podpisowanski kluč"
 
-#: kmcomposewin.cpp:3098
+#: kmcomposewin.cpp:3099
 msgid ""
 "KMail is currently in offline mode. Your messages will be kept in the outbox "
 "until you go online."
 msgstr ""
 
-#: kmcomposewin.cpp:3115
+#: kmcomposewin.cpp:3116
 msgid ""
 "You must enter your email address in the From: field. You should also set "
 "your email address for all identities, so that you do not have to enter it "
 "for each message."
 msgstr ""
 
-#: kmcomposewin.cpp:3124
+#: kmcomposewin.cpp:3125
 #, fuzzy
 msgid ""
 "You must specify at least one receiver,either in the To: field or as CC or "
 "as BCC."
 msgstr "in Na."
 
-#: kmcomposewin.cpp:3130
+#: kmcomposewin.cpp:3131
 msgid "To: field is empty. Send message anyway?"
 msgstr ""
 
-#: kmcomposewin.cpp:3132
+#: kmcomposewin.cpp:3133
 #, fuzzy
 msgid "No To: specified"
 msgstr "Žana tema podata"
 
-#: kmcomposewin.cpp:3159
+#: kmcomposewin.cpp:3147
 msgid "You did not specify a subject. Send message anyway?"
 msgstr ""
 
-#: kmcomposewin.cpp:3161
+#: kmcomposewin.cpp:3149
 msgid "No Subject Specified"
 msgstr "Žana tema podata"
 
-#: kmcomposewin.cpp:3162
+#: kmcomposewin.cpp:3150
 #, fuzzy
 msgid "S&end as Is"
 msgstr "&Haj, pósłać kaž je"
 
-#: kmcomposewin.cpp:3163
+#: kmcomposewin.cpp:3151
 #, fuzzy
 msgid "&Specify the Subject"
 msgstr "&Ně, podam hišće temu"
 
-#: kmcomposewin.cpp:3200
+#: kmcomposewin.cpp:3223
 msgid "&Keep markup, do not sign/encrypt"
 msgstr ""
 
-#: kmcomposewin.cpp:3201
+#: kmcomposewin.cpp:3224
 #, fuzzy
 msgid "&Keep markup, do not encrypt"
 msgstr "Šifrowanje"
 
-#: kmcomposewin.cpp:3202
+#: kmcomposewin.cpp:3225
 msgid "&Keep markup, do not sign"
 msgstr ""
 
-#: kmcomposewin.cpp:3204
+#: kmcomposewin.cpp:3227
 #, fuzzy
 msgid "Sign/Encrypt (delete markup)"
 msgstr "Powěsć šifrować?"
 
-#: kmcomposewin.cpp:3205
+#: kmcomposewin.cpp:3228
 #, fuzzy
 msgid "Encrypt (delete markup)"
 msgstr "&Zapisk zničić"
 
-#: kmcomposewin.cpp:3206
+#: kmcomposewin.cpp:3229
 #, fuzzy
 msgid "Sign (delete markup)"
 msgstr "&Zapisk zničić"
 
-#: kmcomposewin.cpp:3208
+#: kmcomposewin.cpp:3231
 msgid ""
 "<qt><p>Inline signing/encrypting of HTML messages is not possible;</p><p>do "
 "you want to delete your markup?</p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:3210
+#: kmcomposewin.cpp:3233
 #, fuzzy
 msgid "Sign/Encrypt Message?"
 msgstr "Powěsć šifrować?"
 
-#: kmcomposewin.cpp:3262
+#: kmcomposewin.cpp:3285
 #, fuzzy, kde-format
 msgid ""
 "The custom drafts or templates folder for identify \"%1\" does not exist "
@@ -8783,124 +8784,124 @@ msgstr ""
 "Konfigurowany zapisk za naćiski \"%1\" (hižo) njeeksistuje. Tuž so "
 "standardny zapisk wužiwa."
 
-#: kmcomposewin.cpp:3367
+#: kmcomposewin.cpp:3390
 msgid "About to send email..."
 msgstr "Sćelu mailki..."
 
-#: kmcomposewin.cpp:3368
+#: kmcomposewin.cpp:3391
 #, fuzzy
 msgid "Send Confirmation"
 msgstr "Wobkrućenje dochada"
 
-#: kmcomposewin.cpp:3388
+#: kmcomposewin.cpp:3411
 #, kde-format
 msgid ""
 "You are trying to send the mail to more than %1 recipients. Send message "
 "anyway?"
 msgstr ""
 
-#: kmcomposewin.cpp:3389
+#: kmcomposewin.cpp:3412
 #, fuzzy
 msgid "Too many recipients"
 msgstr "<adresaća>"
 
-#: kmcomposewin.cpp:3391
+#: kmcomposewin.cpp:3414
 #, fuzzy
 msgid "&Edit Recipients"
 msgstr "<adresaća>"
 
-#: kmcomposewin.cpp:3479
+#: kmcomposewin.cpp:3502
 msgid ""
 "Turning HTML mode off will cause the text to lose the formatting. Are you "
 "sure?"
 msgstr ""
 
-#: kmcomposewin.cpp:3481
+#: kmcomposewin.cpp:3504
 msgid "Lose the formatting?"
 msgstr ""
 
-#: kmcomposewin.cpp:3481
+#: kmcomposewin.cpp:3504
 #, fuzzy
 msgid "Lose Formatting"
 msgstr "Wobkrućenje dochada"
 
-#: kmcomposewin.cpp:3535
+#: kmcomposewin.cpp:3558
 #, fuzzy
 msgid "Spellcheck: on"
 msgstr "Prawopisny program"
 
-#: kmcomposewin.cpp:3537
+#: kmcomposewin.cpp:3560
 #, fuzzy
 msgid "Spellcheck: off"
 msgstr "Prawopisny program"
 
-#: kmcomposewin.cpp:3903
+#: kmcomposewin.cpp:3926
 msgid ""
 "Please configure a Crypto Backend to use for Chiasmus encryption first.\n"
 "You can do this in the Crypto Backends tab of the configure dialog's "
 "Security page."
 msgstr ""
 
-#: kmcomposewin.cpp:3907
+#: kmcomposewin.cpp:3930
 msgid ""
 "It looks as though libkleopatra was compiled without Chiasmus support. You "
 "might want to recompile libkleopatra with --enable-chiasmus."
 msgstr ""
 
-#: kmcomposewin.cpp:3910
+#: kmcomposewin.cpp:3933
 msgid "No Chiasmus Backend Configured"
 msgstr ""
 
-#: kmcomposewin.cpp:3916
+#: kmcomposewin.cpp:3939
 msgid ""
 "Chiasmus backend does not offer the \"x-obtain-keys\" function. Please "
 "report this bug."
 msgstr ""
 
-#: kmcomposewin.cpp:3918 kmcomposewin.cpp:3923 kmcomposewin.cpp:3932
+#: kmcomposewin.cpp:3941 kmcomposewin.cpp:3946 kmcomposewin.cpp:3955
 msgid "Chiasmus Backend Error"
 msgstr ""
 
-#: kmcomposewin.cpp:3929
+#: kmcomposewin.cpp:3952
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-obtain-keys\" "
 "function did not return a string list. Please report this bug."
 msgstr ""
 
-#: kmcomposewin.cpp:3938
+#: kmcomposewin.cpp:3961
 msgid ""
 "No keys have been found. Please check that a valid key path has been set in "
 "the Chiasmus configuration."
 msgstr ""
 
-#: kmcomposewin.cpp:3941
+#: kmcomposewin.cpp:3964
 #, fuzzy
 msgid "No Chiasmus Keys Found"
 msgstr "Žana signatura"
 
-#: kmcomposewin.cpp:3945
+#: kmcomposewin.cpp:3968
 #, fuzzy
 msgid "Chiasmus Encryption Key Selection"
 msgstr "Šifrowanje"
 
-#: kmcomposewin.cpp:3974
+#: kmcomposewin.cpp:3997
 #, fuzzy
 #| msgid "Message was signed by %1."
 msgid "Message will be signed"
 msgstr "Powěsć bu podpisana wot %1."
 
-#: kmcomposewin.cpp:3975
+#: kmcomposewin.cpp:3998
 #, fuzzy
 #| msgid "Message List - Date Field"
 msgid "Message will not be signed"
 msgstr "Lisćina powěsćow - datumowe pólko"
 
-#: kmcomposewin.cpp:3977
+#: kmcomposewin.cpp:4000
 #, fuzzy
 msgid "Message will be encrypted"
 msgstr "PGP-ŝifrowana powěsć"
 
-#: kmcomposewin.cpp:3978
+#: kmcomposewin.cpp:4001
 #, fuzzy
 msgid "Message will not be encrypted"
 msgstr "PGP-ŝifrowana powěsć"
