@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeqt\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2010-04-15 01:28+0200\n"
+"POT-Creation-Date: 2010-04-20 01:29+0200\n"
 "PO-Revision-Date: 2008-11-11 22:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -415,16 +415,6 @@ msgctxt "Phonon::MMF"
 msgid "The audio output device"
 msgstr ""
 
-#: 3rdparty/phonon/mmf/audioplayer.cpp:173
-#: 3rdparty/phonon/mmf/abstractvideoplayer.cpp:178
-msgid "Getting position failed"
-msgstr ""
-
-#: 3rdparty/phonon/mmf/audioplayer.cpp:209
-#: 3rdparty/phonon/mmf/abstractvideoplayer.cpp:244
-msgid "Opening clip failed"
-msgstr ""
-
 #: 3rdparty/phonon/mmf/effectfactory.cpp:181
 msgid "Enabled"
 msgstr ""
@@ -643,28 +633,6 @@ msgstr "Nowe"
 msgid "Unknown error (%1)"
 msgstr "Njeznaty zmylk"
 
-#: 3rdparty/phonon/mmf/mediaobject.cpp:276
-#, fuzzy
-#| msgid "requested socket type not supported"
-msgid "Error opening source: type not supported"
-msgstr "pominana družina socketa so njepodpěruje"
-
-#: 3rdparty/phonon/mmf/mediaobject.cpp:294
-#, fuzzy
-#| msgid "requested socket type not supported"
-msgid "Error opening source: media type could not be determined"
-msgstr "pominana družina socketa so njepodpěruje"
-
-#: 3rdparty/phonon/mmf/videoplayer_surface.cpp:128
-#: 3rdparty/phonon/mmf/videoplayer_surface.cpp:144
-#: 3rdparty/phonon/mmf/videoplayer_dsa.cpp:237
-#: 3rdparty/phonon/mmf/videoplayer_dsa.cpp:252
-#: 3rdparty/phonon/mmf/videoplayer_dsa.cpp:260
-#: 3rdparty/phonon/mmf/videoplayer_dsa.cpp:281
-#: 3rdparty/phonon/mmf/videoplayer_dsa.cpp:303
-msgid "Video display error"
-msgstr ""
-
 #: 3rdparty/phonon/mmf/abstractmediaplayer.cpp:73
 msgid "Not ready to play"
 msgstr ""
@@ -689,7 +657,14 @@ msgstr "Zmylk při wočinjenju PTY "
 msgid "Setting volume failed"
 msgstr "%1 dataja"
 
-#: 3rdparty/phonon/mmf/abstractmediaplayer.cpp:388
+#: 3rdparty/phonon/mmf/abstractmediaplayer.cpp:376
+#, fuzzy
+#| msgid "%1 file"
+#| msgid_plural "%1 files"
+msgid "Loading clip failed"
+msgstr "%1 dataja"
+
+#: 3rdparty/phonon/mmf/abstractmediaplayer.cpp:400
 msgid "Playback complete"
 msgstr ""
 
@@ -707,8 +682,35 @@ msgstr "%1 dataja"
 msgid "Seek failed"
 msgstr "%1 dataja"
 
-#: 3rdparty/phonon/mmf/abstractvideoplayer.cpp:273
-msgid "Buffering clip failed"
+#: 3rdparty/phonon/mmf/abstractvideoplayer.cpp:178
+#: 3rdparty/phonon/mmf/audioplayer.cpp:173
+msgid "Getting position failed"
+msgstr ""
+
+#: 3rdparty/phonon/mmf/abstractvideoplayer.cpp:244
+msgid "Opening clip failed"
+msgstr ""
+
+#: 3rdparty/phonon/mmf/mediaobject.cpp:276
+#, fuzzy
+#| msgid "requested socket type not supported"
+msgid "Error opening source: type not supported"
+msgstr "pominana družina socketa so njepodpěruje"
+
+#: 3rdparty/phonon/mmf/mediaobject.cpp:294
+#, fuzzy
+#| msgid "requested socket type not supported"
+msgid "Error opening source: media type could not be determined"
+msgstr "pominana družina socketa so njepodpěruje"
+
+#: 3rdparty/phonon/mmf/videoplayer_dsa.cpp:238
+#: 3rdparty/phonon/mmf/videoplayer_dsa.cpp:253
+#: 3rdparty/phonon/mmf/videoplayer_dsa.cpp:261
+#: 3rdparty/phonon/mmf/videoplayer_dsa.cpp:283
+#: 3rdparty/phonon/mmf/videoplayer_dsa.cpp:305
+#: 3rdparty/phonon/mmf/videoplayer_surface.cpp:126
+#: 3rdparty/phonon/mmf/videoplayer_surface.cpp:142
+msgid "Video display error"
 msgstr ""
 
 #: 3rdparty/phonon/phonon/audiooutput.cpp:385
@@ -1770,15 +1772,6 @@ msgstr ""
 msgid "Cannot create %1 for output"
 msgstr ""
 
-#: corelib/io/qiodevice.cpp:1595 corelib/plugin/qlibrary.cpp:1141
-#: corelib/plugin/qpluginloader.cpp:367
-#: corelib/statemachine/qstatemachine.cpp:1046
-#: network/kernel/qhostinfo_unix.cpp:293 network/kernel/qhostinfo_win.cpp:219
-#: network/kernel/qhostinfo_win.cpp:246
-#: network/socket/qnativesocketengine.cpp:272 network/ssl/qsslerror.cpp:285
-msgid "Unknown error"
-msgstr "Njeznaty zmylk"
-
 #: corelib/io/qprocess.cpp:1035
 msgid "Process crashed"
 msgstr ""
@@ -1786,6 +1779,15 @@ msgstr ""
 #: corelib/io/qprocess.cpp:1994
 msgid "No program defined"
 msgstr ""
+
+#: corelib/io/qiodevice.cpp:1596 corelib/plugin/qlibrary.cpp:1141
+#: corelib/plugin/qpluginloader.cpp:367
+#: corelib/statemachine/qstatemachine.cpp:1046
+#: network/kernel/qhostinfo_unix.cpp:293 network/kernel/qhostinfo_win.cpp:219
+#: network/kernel/qhostinfo_win.cpp:246
+#: network/socket/qnativesocketengine.cpp:272 network/ssl/qsslerror.cpp:285
+msgid "Unknown error"
+msgstr "Njeznaty zmylk"
 
 #: corelib/kernel/qsharedmemory.cpp:223
 #, qt-format
@@ -2932,12 +2934,6 @@ msgctxt "QPrintPreviewDialog"
 msgid "Export to PostScript"
 msgstr ""
 
-#: gui/dialogs/qdialog.cpp:645 gui/kernel/qwhatsthis.cpp:527
-#, fuzzy
-#| msgid "What's &This?"
-msgid "What's This?"
-msgstr "Što &to je?"
-
 #: gui/dialogs/qfilesystemmodel.cpp:744 gui/itemviews/qdirmodel.cpp:1347
 #, fuzzy, qt-format
 #| msgid "%1 TiB"
@@ -3074,6 +3070,12 @@ msgstr ""
 #| msgid "About %1"
 msgid "About Qt"
 msgstr "Wo %1"
+
+#: gui/dialogs/qdialog.cpp:645 gui/kernel/qwhatsthis.cpp:527
+#, fuzzy
+#| msgid "What's &This?"
+msgid "What's This?"
+msgstr "Što &to je?"
 
 #: gui/inputmethod/qinputcontextfactory.cpp:301
 msgid "XIM"
@@ -4399,6 +4401,102 @@ msgstr "Pseudonymy:"
 msgid "unknown"
 msgstr "njeznaju"
 
+#: gui/text/qtextcontrol.cpp:2029 gui/widgets/qlineedit.cpp:2072
+#: qt3support/text/q3textedit.cpp:5429
+msgid "&Undo"
+msgstr "W&róćo"
+
+#: gui/text/qtextcontrol.cpp:2031 gui/widgets/qlineedit.cpp:2076
+#: qt3support/text/q3textedit.cpp:5430
+msgid "&Redo"
+msgstr "&Znowa činić"
+
+#: gui/text/qtextcontrol.cpp:2035 gui/widgets/qlineedit.cpp:2085
+#: qt3support/text/q3textedit.cpp:5435
+msgid "Cu&t"
+msgstr "W&utřihać"
+
+#: gui/text/qtextcontrol.cpp:2040 gui/widgets/qlineedit.cpp:2091
+#: qt3support/text/q3textedit.cpp:5436
+msgid "&Copy"
+msgstr "&Kopěrować"
+
+#: gui/text/qtextcontrol.cpp:2047
+msgid "Copy &Link Location"
+msgstr "Městno wotk&aza kopěrować"
+
+#: gui/text/qtextcontrol.cpp:2053 gui/widgets/qlineedit.cpp:2097
+#: qt3support/text/q3textedit.cpp:5438
+msgid "&Paste"
+msgstr "&Zasunyć"
+
+#: gui/text/qtextcontrol.cpp:2056 gui/widgets/qlineedit.cpp:2104
+#: qt3support/sql/q3datatable.cpp:793
+#: scripttools/debugging/qscriptbreakpointswidget.cpp:304
+msgid "Delete"
+msgstr "Wumazać"
+
+#: gui/text/qtextcontrol.cpp:2063 gui/widgets/qlineedit.cpp:2112
+#: qt3support/text/q3textedit.cpp:5445 qt3support/text/q3textedit.cpp:5447
+msgid "Select All"
+msgstr "Select All"
+
+#: gui/text/qtextcontrol.cpp:2962
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "LRM Left-to-right mark"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:2963
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "RLM Right-to-left mark"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:2964
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "ZWJ Zero width joiner"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:2965
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "ZWNJ Zero width non-joiner"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:2966
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "ZWSP Zero width space"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:2967
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "LRE Start of left-to-right embedding"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:2968
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "RLE Start of right-to-left embedding"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:2969
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "LRO Start of left-to-right override"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:2970
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "RLO Start of right-to-left override"
+msgstr ""
+
+#: gui/text/qtextcontrol.cpp:2971
+#, fuzzy
+#| msgid "Additional Information: %1"
+msgctxt "QUnicodeControlCharacterMenu"
+msgid "PDF Pop directional formatting"
+msgstr "Dalša informacija: %1"
+
+#: gui/text/qtextcontrol.cpp:2977
+msgid "Insert Unicode control character"
+msgstr ""
+
 #: gui/text/qfontdatabase.cpp:102 gui/text/qfontdatabase.cpp:1444
 #, fuzzy
 #| msgctxt "normal severity"
@@ -4721,102 +4819,6 @@ msgstr "rězy"
 msgctxt "QFontDatabase"
 msgid "N'Ko"
 msgstr "Ně"
-
-#: gui/text/qtextcontrol.cpp:2029 gui/widgets/qlineedit.cpp:2072
-#: qt3support/text/q3textedit.cpp:5429
-msgid "&Undo"
-msgstr "W&róćo"
-
-#: gui/text/qtextcontrol.cpp:2031 gui/widgets/qlineedit.cpp:2076
-#: qt3support/text/q3textedit.cpp:5430
-msgid "&Redo"
-msgstr "&Znowa činić"
-
-#: gui/text/qtextcontrol.cpp:2035 gui/widgets/qlineedit.cpp:2085
-#: qt3support/text/q3textedit.cpp:5435
-msgid "Cu&t"
-msgstr "W&utřihać"
-
-#: gui/text/qtextcontrol.cpp:2040 gui/widgets/qlineedit.cpp:2091
-#: qt3support/text/q3textedit.cpp:5436
-msgid "&Copy"
-msgstr "&Kopěrować"
-
-#: gui/text/qtextcontrol.cpp:2047
-msgid "Copy &Link Location"
-msgstr "Městno wotk&aza kopěrować"
-
-#: gui/text/qtextcontrol.cpp:2053 gui/widgets/qlineedit.cpp:2097
-#: qt3support/text/q3textedit.cpp:5438
-msgid "&Paste"
-msgstr "&Zasunyć"
-
-#: gui/text/qtextcontrol.cpp:2056 gui/widgets/qlineedit.cpp:2104
-#: qt3support/sql/q3datatable.cpp:793
-#: scripttools/debugging/qscriptbreakpointswidget.cpp:304
-msgid "Delete"
-msgstr "Wumazać"
-
-#: gui/text/qtextcontrol.cpp:2063 gui/widgets/qlineedit.cpp:2112
-#: qt3support/text/q3textedit.cpp:5445 qt3support/text/q3textedit.cpp:5447
-msgid "Select All"
-msgstr "Select All"
-
-#: gui/text/qtextcontrol.cpp:2962
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "LRM Left-to-right mark"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:2963
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "RLM Right-to-left mark"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:2964
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "ZWJ Zero width joiner"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:2965
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "ZWNJ Zero width non-joiner"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:2966
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "ZWSP Zero width space"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:2967
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "LRE Start of left-to-right embedding"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:2968
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "RLE Start of right-to-left embedding"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:2969
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "LRO Start of left-to-right override"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:2970
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "RLO Start of right-to-left override"
-msgstr ""
-
-#: gui/text/qtextcontrol.cpp:2971
-#, fuzzy
-#| msgid "Additional Information: %1"
-msgctxt "QUnicodeControlCharacterMenu"
-msgid "PDF Pop directional formatting"
-msgstr "Dalša informacija: %1"
-
-#: gui/text/qtextcontrol.cpp:2977
-msgid "Insert Unicode control character"
-msgstr ""
 
 #: gui/util/qdesktopservices_mac.cpp:169
 #, fuzzy
