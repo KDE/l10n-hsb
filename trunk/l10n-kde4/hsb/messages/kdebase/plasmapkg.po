@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-24 07:11+0100\n"
+"POT-Creation-Date: 2010-04-28 04:48+0200\n"
 "PO-Revision-Date: 2008-11-22 13:18+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -54,7 +54,7 @@ msgctxt ""
 "messages with 'package type' context below)"
 msgid ""
 "The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
-"etc."
+"layout-template, etc."
 msgstr ""
 "Typ pakćika, na př. tema, tapeta, plasmoid, dataengine, startowar, etc."
 
@@ -133,17 +133,22 @@ msgctxt "package type"
 msgid "wallpaperplugin"
 msgstr "tapeta"
 
-#: main.cpp:184
+#: main.cpp:180
+msgctxt "package type"
+msgid "layout-template"
+msgstr ""
+
+#: main.cpp:188
 #, kde-format
 msgid "Could not find a suitable installer for package of type %1"
 msgstr "Njemóžach kmany instalowar namakać za pakćik typa %1"
 
-#: main.cpp:193
+#: main.cpp:197
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr "Njemóžach instalowar začitać za pakćik typa %1. Zmylk bě: %2"
 
-#: main.cpp:211
+#: main.cpp:215
 msgctxt ""
 "The user entered conflicting options packageroot and global, this is the "
 "error message telling the user he can use only one"
@@ -152,32 +157,32 @@ msgid ""
 "one."
 msgstr ""
 
-#: main.cpp:236
+#: main.cpp:240
 #, kde-format
 msgid "Successfully removed %1"
 msgstr "%1 wuspěšnje wumaznjene"
 
-#: main.cpp:238
+#: main.cpp:242
 #, kde-format
 msgid "Removal of %1 failed."
 msgstr "Wumazanje pakćika %1 je so zwrěšćiło."
 
-#: main.cpp:243
+#: main.cpp:247
 #, kde-format
 msgid "Plugin %1 is not installed."
 msgstr "Zašćěpka %1 njeje instalowana."
 
-#: main.cpp:248
+#: main.cpp:252
 #, kde-format
 msgid "Successfully installed %1"
 msgstr "%1 wuspěšnje instalowane"
 
-#: main.cpp:250
+#: main.cpp:254
 #, kde-format
 msgid "Installation of %1 failed."
 msgstr "Instalacija pakćika %1 je so zwrěšćiła."
 
-#: main.cpp:256
+#: main.cpp:260
 #, fuzzy
 #| msgid "One of install, remove, upgrade or list is required."
 msgctxt ""
