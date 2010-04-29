@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-27 05:16+0200\n"
+"POT-Creation-Date: 2010-04-29 04:52+0200\n"
 "PO-Revision-Date: 2008-11-13 00:41+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,68 +17,14 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: battery.cpp:282
-msgid "General"
-msgstr ""
-
-#: battery.cpp:438
-msgid "Screen Brightness"
-msgstr "Swětłosć wobrazowki"
-
-#: battery.cpp:462
-msgid "Power Profile"
-msgstr "Milinowy profil"
-
-#: battery.cpp:494
-msgid "Sleep"
-msgstr "Wusnyć"
-
-#: battery.cpp:508
-msgid "Hibernate"
-msgstr "Přezymować"
-
-#: battery.cpp:521
-#, fuzzy
-#| msgid "Power Management"
-msgctxt "tooltip on the config button in the popup"
-msgid "Configure Power Management..."
-msgstr "Lutowanje miliny"
-
-#: battery.cpp:540
-msgid "Power Management"
-msgstr "Lutowanje miliny"
-
-#: battery.cpp:594
+#: battery.cpp:191 battery.cpp:661
 #, fuzzy
 #| msgctxt "Battery is not plugged in"
 #| msgid "<b>Battery:</b> not present<br />"
 msgid "Battery:"
 msgstr "<b>Aku:</b> njeje tu<br />"
 
-#: battery.cpp:597 battery.cpp:614
-#, fuzzy, kde-format
-#| msgid "<b>Battery:</b> %1% (fully charged)<br />"
-msgid "%1% (charged)"
-msgstr "<b>Aku:</b> %1% (donabity)<br />"
-
-#: battery.cpp:599
-#, fuzzy, kde-format
-#| msgid "<b>Battery:</b> %1% (discharging)<br />"
-msgctxt "Shown when a time estimate is not available"
-msgid "%1% (discharging)"
-msgstr "<b>Aku:</b> %1% (so wužiwa)<br />"
-
-#: battery.cpp:601 battery.cpp:618
-#, kde-format
-msgid "%1% (charging)"
-msgstr ""
-
-#: battery.cpp:604 battery.cpp:640
-msgctxt "Battery is not plugged in"
-msgid "Not present"
-msgstr ""
-
-#: battery.cpp:612
+#: battery.cpp:198 battery.cpp:668
 #, fuzzy, kde-format
 #| msgctxt "Battery is not plugged in"
 #| msgid "<b>Battery:</b> not present<br />"
@@ -86,34 +32,81 @@ msgctxt "Placeholder is the battery ID"
 msgid "Battery %1:"
 msgstr "<b>Aku:</b> njeje tu<br />"
 
-#: battery.cpp:616
-#, fuzzy, kde-format
-#| msgid "<b>Battery:</b> %1% (discharging)<br />"
-msgid "%1% (discharging)"
-msgstr "<b>Aku:</b> %1% (so wužiwa)<br />"
-
-#: battery.cpp:622
+#: battery.cpp:209 battery.cpp:675
 #, fuzzy
 #| msgid "<b>AC Adapter:</b> Plugged in"
 msgid "AC Adapter:"
 msgstr "<b>Milinowy adapter:</b> přizamknjeny"
 
-#: battery.cpp:624
-msgid "Plugged in "
+#: battery.cpp:210 battery.cpp:677
+msgid "Plugged in"
 msgstr ""
 
-#: battery.cpp:626
+#: battery.cpp:210 battery.cpp:679
 msgid "Not plugged in"
 msgstr ""
 
-#: battery.cpp:639
+#: battery.cpp:335
+msgid "General"
+msgstr ""
+
+#: battery.cpp:486
+msgid "Screen Brightness"
+msgstr "Swětłosć wobrazowki"
+
+#: battery.cpp:510
+msgid "Power Profile"
+msgstr "Milinowy profil"
+
+#: battery.cpp:542
+msgid "Sleep"
+msgstr "Wusnyć"
+
+#: battery.cpp:556
+msgid "Hibernate"
+msgstr "Přezymować"
+
+#: battery.cpp:569
+#, fuzzy
+#| msgid "Power Management"
+msgctxt "tooltip on the config button in the popup"
+msgid "Configure Power Management..."
+msgstr "Lutowanje miliny"
+
+#: battery.cpp:588
+msgid "Power Management"
+msgstr "Lutowanje miliny"
+
+#: battery.cpp:631
+#, fuzzy, kde-format
+#| msgid "<b>Battery:</b> %1% (fully charged)<br />"
+msgid "%1% (charged)"
+msgstr "<b>Aku:</b> %1% (donabity)<br />"
+
+#: battery.cpp:636
+#, fuzzy, kde-format
+#| msgid "<b>Battery:</b> %1% (discharging)<br />"
+msgid "%1% (discharging)"
+msgstr "<b>Aku:</b> %1% (so wužiwa)<br />"
+
+#: battery.cpp:642
+#, kde-format
+msgid "%1% (charging)"
+msgstr ""
+
+#: battery.cpp:645 battery.cpp:694
+msgctxt "Battery is not plugged in"
+msgid "Not present"
+msgstr ""
+
+#: battery.cpp:693
 #, fuzzy
 #| msgctxt "Battery is not plugged in"
 #| msgid "<b>Battery:</b> not present<br />"
 msgid "<b>Battery:</b> "
 msgstr "<b>Aku:</b> njeje tu<br />"
 
-#: battery.cpp:899 battery.cpp:927
+#: battery.cpp:945 battery.cpp:976 battery.cpp:988
 #, kde-format
 msgctxt "overlay on the battery, needs to be really tiny"
 msgid "%1%"
@@ -136,6 +129,12 @@ msgstr ""
 #: rc.cpp:9 rc.cpp:18
 msgid "Show the state for &each battery present"
 msgstr "Staw &kóždeho akuwa pokazać"
+
+#, fuzzy
+#~| msgid "<b>Battery:</b> %1% (discharging)<br />"
+#~ msgctxt "Shown when a time estimate is not available"
+#~ msgid "%1% (discharging)"
+#~ msgstr "<b>Aku:</b> %1% (so wužiwa)<br />"
 
 #, fuzzy
 #~| msgid "<b>Battery %1:</b> %2% (charging)<br />"

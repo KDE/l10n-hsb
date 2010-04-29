@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-28 04:51+0200\n"
+"POT-Creation-Date: 2010-04-29 04:55+0200\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -43,7 +43,7 @@ msgstr "<qt>Njemóžach konto <b>%1</b> stworić.</qt>"
 msgid "Edit Recent Addresses..."
 msgstr ""
 
-#: kmlineeditspell.cpp:208 recipientspicker.cpp:572
+#: kmlineeditspell.cpp:208
 #, fuzzy
 msgid "Recent Addresses"
 msgstr "Emailowe adresy wubrać"
@@ -679,105 +679,40 @@ msgstr "&Kopěruj do"
 msgid "&Move To"
 msgstr "&Suń do"
 
-#: recipientspicker.cpp:93
-#, fuzzy, kde-format
-msgid "1 email address"
-msgid_plural "%1 email addresses"
-msgstr[0] "Emailowe adresy wubrać"
-
-#: recipientspicker.cpp:165
-#, fuzzy, kde-format
-msgid "Distribution List %1"
-msgstr "Nadawki"
-
-#: recipientspicker.cpp:339
+#: recipientspicker.cpp:51
 #, fuzzy
 msgid "Select Recipient"
 msgstr "<adresaća>"
 
-#: recipientspicker.cpp:351
-#, fuzzy
-msgid "Address book:"
-msgstr "&Adresnik"
-
-#: recipientspicker.cpp:359
-#, fuzzy
-#| msgid "Name"
-msgctxt "@title:column Name of the recipient."
-msgid "Name"
-msgstr "Mjeno"
-
-#: recipientspicker.cpp:360
-#, fuzzy
-msgctxt "@title:column Email of the recipient."
-msgid "Email"
-msgstr "KMail"
-
-#: recipientspicker.cpp:361
-msgctxt "@title:column"
-msgid "->"
-msgstr ""
-
-#: recipientspicker.cpp:379
+#: recipientspicker.cpp:71
 #, fuzzy
 #| msgid "Search Criteria"
 msgid "Search &Directory Service"
 msgstr "Pytanske kriterije"
 
-#: recipientspicker.cpp:381
-#, fuzzy
-msgctxt "Search for recipient."
-msgid "Search:"
-msgstr "&Pytaj"
-
-#: recipientspicker.cpp:396
+#: recipientspicker.cpp:87
 #, fuzzy
 msgid "Add as &To"
 msgstr "Konto dodać"
 
-#: recipientspicker.cpp:400
+#: recipientspicker.cpp:91
 #, fuzzy
 msgid "Add as CC"
 msgstr "Konto dodać"
 
-#: recipientspicker.cpp:404
+#: recipientspicker.cpp:95
 #, fuzzy
 msgid "Add as &BCC"
 msgstr "Konto dodać"
 
 #. i18n: file: ui/snippetdlgbase.ui:132
 #. i18n: ectx: property (text), widget (KPushButton, btnCancel)
-#: recipientspicker.cpp:408 rc.cpp:277
+#: recipientspicker.cpp:99 rc.cpp:277
 #, fuzzy
 msgid "&Cancel"
 msgstr "Přetorhnyć"
 
-#: recipientspicker.cpp:457
-msgctxt "All collections containing recipients."
-msgid "All"
-msgstr ""
-
-#: recipientspicker.cpp:459
-#, fuzzy
-msgid "Distribution Lists"
-msgstr "Nadawki"
-
-#: recipientspicker.cpp:460
-#, fuzzy
-msgid "Selected Recipients"
-msgstr "<adresaća>"
-
-#: recipientspicker.cpp:530
-#, fuzzy
-#| msgid "&Address Book"
-msgid "Address Books"
-msgstr "&Adresnik"
-
-#: recipientspicker.cpp:541
-msgid "Categories"
-msgstr ""
-
-#: recipientspicker.cpp:770
+#: recipientspicker.cpp:166
 #, kde-format
 msgid ""
 "You selected 1 recipient. The maximum supported number of recipients is %2. "
@@ -1767,39 +1702,39 @@ msgid ""
 "hiding of groupware folders to be able to see it."
 msgstr ""
 
-#: redirectdialog.cpp:58
+#: redirectdialog.cpp:56
 #, fuzzy
 msgid "Redirect Message"
 msgstr "Powěsće zničić"
 
-#: redirectdialog.cpp:63
+#: redirectdialog.cpp:61
 msgid "Select the recipient &addresses to redirect to:"
 msgstr ""
 
-#: redirectdialog.cpp:76
+#: redirectdialog.cpp:74
 msgid "Use the Address-Selection Dialog"
 msgstr ""
 
-#: redirectdialog.cpp:77
+#: redirectdialog.cpp:75
 msgid ""
 "This button opens a separate dialog where you can select recipients out of "
 "all available addresses."
 msgstr ""
 
-#: redirectdialog.cpp:87 kmcomposewin.cpp:3382
+#: redirectdialog.cpp:85 kmcomposewin.cpp:3382
 msgid "&Send Now"
 msgstr "&Nětko pósłać"
 
-#: redirectdialog.cpp:88 kmcomposewin.cpp:1137 kmcomposewin.cpp:1146
+#: redirectdialog.cpp:86 kmcomposewin.cpp:1137 kmcomposewin.cpp:1146
 #: kmcomposewin.cpp:3383
 msgid "Send &Later"
 msgstr "&Pozdźišo pósłać"
 
-#: redirectdialog.cpp:122
+#: redirectdialog.cpp:120
 msgid "You cannot redirect the message without an address."
 msgstr ""
 
-#: redirectdialog.cpp:123
+#: redirectdialog.cpp:121
 #, fuzzy
 msgid "Empty Redirection Address"
 msgstr "Wočinić w adresniku"
@@ -1975,59 +1910,59 @@ msgstr "&Nješifrowane zawěsćić"
 msgid "Send Individually"
 msgstr ""
 
-#: kmcommands.cpp:1780 kmmainwidget.cpp:2278
+#: kmcommands.cpp:1779 kmmainwidget.cpp:2278
 #, fuzzy
 msgid "Filtering messages"
 msgstr "Powěsće zničić"
 
-#: kmcommands.cpp:1787 kmmainwidget.cpp:2305
+#: kmcommands.cpp:1786 kmmainwidget.cpp:2305
 #, fuzzy, kde-format
 msgid "Filtering message %1 of %2"
 msgstr "Přesuwam powěsć %3 z %2 wot %1."
 
-#: kmcommands.cpp:1797
+#: kmcommands.cpp:1796
 #, fuzzy
 msgid "Not enough free disk space?"
 msgstr "Rum na disku njedosaha."
 
-#: kmcommands.cpp:1985
+#: kmcommands.cpp:1984
 #, fuzzy
 msgid "Moving messages"
 msgstr "Přesuwam powěsć %3 z %2 wot %1."
 
-#: kmcommands.cpp:1985
+#: kmcommands.cpp:1984
 #, fuzzy
 msgid "Deleting messages"
 msgstr "Powěsće zničić"
 
-#: kmcommands.cpp:2133
+#: kmcommands.cpp:2132
 #, fuzzy
 msgid "Found no attachments to save."
 msgstr "Njepokazuje přiwěški w powěsći samej"
 
-#: kmcommands.cpp:2146
+#: kmcommands.cpp:2145
 #, fuzzy
 msgid "Save Attachments To"
 msgstr "Přiwěšk zawěsćić jako"
 
-#: kmcommands.cpp:2163
+#: kmcommands.cpp:2162
 msgctxt "filename for an unnamed attachment"
 msgid "attachment.1"
 msgstr ""
 
-#: kmcommands.cpp:2168
+#: kmcommands.cpp:2167
 #, fuzzy
 #| msgid "Save Attachment As"
 msgid "Save Attachment"
 msgstr "Přiwěšk zawěsćić jako"
 
-#: kmcommands.cpp:2194
+#: kmcommands.cpp:2193
 #, kde-format
 msgctxt "filename for the %1-th unnamed attachment"
 msgid "attachment.%1"
 msgstr ""
 
-#: kmcommands.cpp:2233 kmcommands.cpp:2242
+#: kmcommands.cpp:2232 kmcommands.cpp:2241
 #, fuzzy, kde-format
 msgid ""
 "A file named <br><filename>%1</filename><br>already exists.<br><br>Do you "
@@ -2036,54 +1971,54 @@ msgstr ""
 "Dataja %1 eksistuje?\n"
 "Chceće ju přepisać?"
 
-#: kmcommands.cpp:2235 kmcommands.cpp:2244
+#: kmcommands.cpp:2234 kmcommands.cpp:2243
 msgid "File Already Exists"
 msgstr ""
 
-#: kmcommands.cpp:2235 kmcommands.cpp:2244
+#: kmcommands.cpp:2234 kmcommands.cpp:2243
 msgid "&Overwrite"
 msgstr ""
 
-#: kmcommands.cpp:2245
+#: kmcommands.cpp:2244
 #, fuzzy
 msgid "Overwrite &All"
 msgstr "Dataju zasunyć"
 
-#: kmcommands.cpp:2272
+#: kmcommands.cpp:2271
 #, kde-format
 msgid ""
 "The part %1 of the message is encrypted. Do you want to keep the encryption "
 "when saving?"
 msgstr ""
 
-#: kmcommands.cpp:2274 kmcommands.cpp:2283
+#: kmcommands.cpp:2273 kmcommands.cpp:2282
 #, fuzzy
 msgid "KMail Question"
 msgstr "KMail"
 
-#: kmcommands.cpp:2274
+#: kmcommands.cpp:2273
 #, fuzzy
 msgid "Keep Encryption"
 msgstr "Šifrowanje"
 
-#: kmcommands.cpp:2274 kmcommands.cpp:2283
+#: kmcommands.cpp:2273 kmcommands.cpp:2282
 #, fuzzy
 msgid "Do Not Keep"
 msgstr "Šifrowanje"
 
-#: kmcommands.cpp:2281
+#: kmcommands.cpp:2280
 #, kde-format
 msgid ""
 "The part %1 of the message is signed. Do you want to keep the signature when "
 "saving?"
 msgstr ""
 
-#: kmcommands.cpp:2283
+#: kmcommands.cpp:2282
 #, fuzzy
 msgid "Keep Signature"
 msgstr "&Signatura:"
 
-#: kmcommands.cpp:2330 kmcommands.cpp:2354 kmcommands.cpp:2370
+#: kmcommands.cpp:2329 kmcommands.cpp:2353 kmcommands.cpp:2369
 #, fuzzy, kde-format
 msgctxt "1 = file name, 2 = error string"
 msgid "<qt>Could not write to the file<br><filename>%1</filename><br><br>%2"
@@ -2091,12 +2026,12 @@ msgstr ""
 "Njemóžach do dataje pisać:\n"
 "%1"
 
-#: kmcommands.cpp:2333 kmcommands.cpp:2357 kmcommands.cpp:2373
+#: kmcommands.cpp:2332 kmcommands.cpp:2356 kmcommands.cpp:2372
 #, fuzzy
 msgid "Error saving attachment"
 msgstr "Přiwěšk: "
 
-#: kmcommands.cpp:2586
+#: kmcommands.cpp:2585
 #, kde-format
 msgid ""
 "From: %1\n"
@@ -2104,7 +2039,7 @@ msgid ""
 "Subject: %3"
 msgstr ""
 
-#: kmcommands.cpp:2599
+#: kmcommands.cpp:2598
 #, fuzzy, kde-format
 msgid "Mail: %1"
 msgstr "KMail"
@@ -6560,7 +6495,7 @@ msgstr "Dodaj přiwěšk..."
 msgid "&Remove Attachment"
 msgstr "Přiwěšk &zničić"
 
-#: attachmentcontroller.cpp:412 collectionaclpage.cpp:506
+#: attachmentcontroller.cpp:412 collectionaclpage.cpp:501
 #: configuredialog.cpp:496
 #, fuzzy
 msgid "Remove"
@@ -7518,51 +7453,51 @@ msgstr ""
 msgid "Se&lect..."
 msgstr "Zapisk zničić"
 
-#: collectionaclpage.cpp:109 collectionaclpage.cpp:330
+#: collectionaclpage.cpp:109 collectionaclpage.cpp:325
 msgid "Permissions"
 msgstr ""
 
-#: collectionaclpage.cpp:239
+#: collectionaclpage.cpp:234
 msgid "Custom Permissions"
 msgstr ""
 
-#: collectionaclpage.cpp:241
+#: collectionaclpage.cpp:236
 #, kde-format
 msgid "Custom Permissions (%1)"
 msgstr ""
 
-#: collectionaclpage.cpp:308
+#: collectionaclpage.cpp:303
 msgid "Access Control"
 msgstr ""
 
-#: collectionaclpage.cpp:330
+#: collectionaclpage.cpp:325
 msgid "User Id"
 msgstr ""
 
-#: collectionaclpage.cpp:345
+#: collectionaclpage.cpp:340
 #, fuzzy
 msgid "Add Entry..."
 msgstr "Nowe:"
 
-#: collectionaclpage.cpp:346
+#: collectionaclpage.cpp:341
 #, fuzzy
 msgid "Modify Entry..."
 msgstr "Konto změnić"
 
-#: collectionaclpage.cpp:347
+#: collectionaclpage.cpp:342
 #, fuzzy
 msgid "Remove Entry"
 msgstr "Wotst&ronić"
 
-#: collectionaclpage.cpp:435
+#: collectionaclpage.cpp:430
 msgid "Modify Permissions"
 msgstr ""
 
-#: collectionaclpage.cpp:470
+#: collectionaclpage.cpp:465
 msgid "Add Permissions"
 msgstr ""
 
-#: collectionaclpage.cpp:506
+#: collectionaclpage.cpp:501
 msgid ""
 "Do you really want to remove your own permissions for this folder? You will "
 "not be able to access it afterwards."
@@ -10152,6 +10087,48 @@ msgstr ""
 #, kde-format
 msgid "Folder Shortcut %1"
 msgstr ""
+
+#, fuzzy
+#~ msgid "1 email address"
+#~ msgid_plural "%1 email addresses"
+#~ msgstr[0] "Emailowe adresy wubrać"
+
+#, fuzzy
+#~ msgid "Distribution List %1"
+#~ msgstr "Nadawki"
+
+#, fuzzy
+#~ msgid "Address book:"
+#~ msgstr "&Adresnik"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgctxt "@title:column Name of the recipient."
+#~ msgid "Name"
+#~ msgstr "Mjeno"
+
+#, fuzzy
+#~ msgctxt "@title:column Email of the recipient."
+#~ msgid "Email"
+#~ msgstr "KMail"
+
+#, fuzzy
+#~ msgctxt "Search for recipient."
+#~ msgid "Search:"
+#~ msgstr "&Pytaj"
+
+#, fuzzy
+#~ msgid "Distribution Lists"
+#~ msgstr "Nadawki"
+
+#, fuzzy
+#~ msgid "Selected Recipients"
+#~ msgstr "<adresaća>"
+
+#, fuzzy
+#~| msgid "&Address Book"
+#~ msgid "Address Books"
+#~ msgstr "&Adresnik"
 
 #~ msgid ""
 #~ "\n"
