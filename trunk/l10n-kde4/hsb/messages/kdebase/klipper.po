@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:52+0200\n"
+"POT-Creation-Date: 2010-05-10 04:41+0200\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -156,14 +156,17 @@ msgid "&Edit Contents..."
 msgstr ""
 
 #: klipper.cpp:213
-msgid "Next history item"
-msgstr ""
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Clipboard Viewer"
+msgid "Next History Item"
+msgstr "Přehladowar za clipboard"
 
 #: klipper.cpp:217
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Clipboard Viewer"
-msgid "Previous history item"
+msgid "Previous History Item"
 msgstr "Přehladowar za clipboard"
 
 #: klipper.cpp:222
@@ -479,19 +482,15 @@ msgstr ""
 #. i18n: file: generalconfig.ui:59
 #. i18n: ectx: property (title), widget (QGroupBox, selection_group)
 #: rc.cpp:79 rc.cpp:245
-msgid "Selection and clipboard"
+msgid "Selection and Clipboard"
 msgstr ""
 
 #. i18n: file: generalconfig.ui:65
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreSelection)
-#. i18n: file: klipper.kcfg:29
-#. i18n: ectx: label, entry (IgnoreSelection), group (General)
-#. i18n: file: generalconfig.ui:65
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreSelection)
-#: rc.cpp:82 rc.cpp:115 rc.cpp:248
+#: rc.cpp:82 rc.cpp:248
 #, fuzzy
 #| msgid "Language Selection"
-msgid "Ignore Selection"
+msgid "Ignore selection"
 msgstr "Wuběr rěče"
 
 #. i18n: file: generalconfig.ui:72
@@ -553,6 +552,14 @@ msgid ""
 "emptied. E.g. when an application exits, the clipboard would usually be "
 "emptied."
 msgstr ""
+
+#. i18n: file: klipper.kcfg:29
+#. i18n: ectx: label, entry (IgnoreSelection), group (General)
+#: rc.cpp:115
+#, fuzzy
+#| msgid "Language Selection"
+msgid "Ignore Selection"
+msgstr "Wuběr rěče"
 
 #. i18n: file: klipper.kcfg:31
 #. i18n: ectx: whatsthis, entry (IgnoreSelection), group (General)
