@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-10 04:40+0200\n"
+"POT-Creation-Date: 2010-05-11 05:53+0200\n"
 "PO-Revision-Date: 2008-11-17 23:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -1803,11 +1803,11 @@ msgstr "Wubjerće hinaše datajowe mjeno za cilowu dataju."
 msgid "Undocumented Error"
 msgstr "Njedokumentowany zmylk"
 
-#: kio/renamedialog.cpp:114
+#: kio/renamedialog.cpp:122
 msgid "Appl&y to All"
 msgstr ""
 
-#: kio/renamedialog.cpp:115
+#: kio/renamedialog.cpp:123
 #, fuzzy
 #| msgid ""
 #| "Files and folders will be copied into the existing directory, alongside "
@@ -1823,44 +1823,44 @@ msgstr ""
 "Dataje a zapiski so do eksistowaceho zapiska kopěruja ze swojim wobsahom.\n"
 "W padźe konflikta z eksistowacym zapiskom so kompjuter wopraša."
 
-#: kio/renamedialog.cpp:116
+#: kio/renamedialog.cpp:124
 msgid ""
 "When this is checked the button pressed will be applied to all subsequent "
 "conflicts for the remainder of the current job."
 msgstr ""
 
-#: kio/renamedialog.cpp:121
+#: kio/renamedialog.cpp:129
 msgid "&Rename"
 msgstr "&Hinak pomjenować"
 
-#: kio/renamedialog.cpp:123
+#: kio/renamedialog.cpp:131
 msgid "Suggest New &Name"
 msgstr "Namjetuj nowe &mjeno"
 
-#: kio/renamedialog.cpp:129
+#: kio/renamedialog.cpp:137
 msgid "&Skip"
 msgstr "Pře&skočić"
 
-#: kio/renamedialog.cpp:130
+#: kio/renamedialog.cpp:138
 msgid "Do not copy or move this folder, skip to the next item instead"
 msgstr ""
 "Tutón zapisk nic kopěrować ani přesuwać, ale z přichodnym objektom pokročować"
 
-#: kio/renamedialog.cpp:131
+#: kio/renamedialog.cpp:139
 msgid "Do not copy or move this file, skip to the next item instead"
 msgstr ""
 "Tutu dataju nic kopěrować ani přesuwać, ale z přichodnym objektom pokročować"
 
-#: kio/renamedialog.cpp:136
+#: kio/renamedialog.cpp:144
 msgctxt "Write files into an existing folder"
 msgid "&Write Into"
 msgstr "Pisać &do"
 
-#: kio/renamedialog.cpp:136
+#: kio/renamedialog.cpp:144
 msgid "&Overwrite"
 msgstr "&Přepisać"
 
-#: kio/renamedialog.cpp:138
+#: kio/renamedialog.cpp:146
 msgid ""
 "Files and folders will be copied into the existing directory, alongside its "
 "existing contents.\n"
@@ -1870,11 +1870,11 @@ msgstr ""
 "Dataje a zapiski so do eksistowaceho zapiska kopěruja ze swojim wobsahom.\n"
 "W padźe konflikta z eksistowacym zapiskom so kompjuter wopraša."
 
-#: kio/renamedialog.cpp:143
+#: kio/renamedialog.cpp:151
 msgid "&Resume"
 msgstr "&Pokročować"
 
-#: kio/renamedialog.cpp:152
+#: kio/renamedialog.cpp:160
 #, kde-format
 msgid ""
 "This action would overwrite '%1' with itself.\n"
@@ -1883,47 +1883,70 @@ msgstr ""
 "Tuta akcija by '%1' ze sobu samym přepisała.\n"
 "Prošu zapodajće hinaše mjeno dataje:"
 
-#: kio/renamedialog.cpp:154
+#: kio/renamedialog.cpp:162
 msgid "C&ontinue"
 msgstr "&Pokročować"
 
-#: kio/renamedialog.cpp:199 kio/renamedialog.cpp:281
+#: kio/renamedialog.cpp:234
+#, fuzzy, kde-format
+#| msgid ""
+#| "This action would overwrite '%1' with itself.\n"
+#| "Please enter a new file name:"
+msgid "This action will overwrite '%1' with a newer file '%2'."
+msgstr ""
+"Tuta akcija by '%1' ze sobu samym přepisała.\n"
+"Prošu zapodajće hinaše mjeno dataje:"
+
+#: kio/renamedialog.cpp:236
+#, fuzzy, kde-format
+#| msgid ""
+#| "This action would overwrite '%1' with itself.\n"
+#| "Please enter a new file name:"
+msgid "This action will overwrite '%1' with a file of the same age '%2'."
+msgstr ""
+"Tuta akcija by '%1' ze sobu samym přepisała.\n"
+"Prošu zapodajće hinaše mjeno dataje:"
+
+#: kio/renamedialog.cpp:238
+#, fuzzy, kde-format
+#| msgid ""
+#| "This action would overwrite '%1' with itself.\n"
+#| "Please enter a new file name:"
+msgid "This action will overwrite '%1' with an older file '%2'."
+msgstr ""
+"Tuta akcija by '%1' ze sobu samym přepisała.\n"
+"Prošu zapodajće hinaše mjeno dataje:"
+
+#: kio/renamedialog.cpp:242
+#, fuzzy
+#| msgctxt "The source of a file operation"
+#| msgid "Source"
+msgid "Source"
+msgstr "Žórło"
+
+#: kio/renamedialog.cpp:243
+#, fuzzy
+#| msgctxt "The destination of a file operation"
+#| msgid "Destination"
+msgid "Destination"
+msgstr "Cil"
+
+#: kio/renamedialog.cpp:261
 #, kde-format
 msgid "An older item named '%1' already exists."
 msgstr "Něšto tajke starše z mjenom '%1' hižo eksistuje."
 
-#: kio/renamedialog.cpp:201 kio/renamedialog.cpp:283
+#: kio/renamedialog.cpp:263
 #, kde-format
 msgid "A similar file named '%1' already exists."
 msgstr "Podobna dataja z mjenom '%1' hižo eksistuje."
 
-#: kio/renamedialog.cpp:203 kio/renamedialog.cpp:285
+#: kio/renamedialog.cpp:265
 #, kde-format
 msgid "A newer item named '%1' already exists."
 msgstr "Něšto tajke nowše z mjenom '%1' hižo eksistuje"
 
-#: kio/renamedialog.cpp:216 kio/renamedialog.cpp:253
-#, fuzzy, kde-format
-#| msgid "%1 (%2)"
-msgid "size %1 (%2)"
-msgstr "%1 (%2)"
-
-#: kio/renamedialog.cpp:225 kio/renamedialog.cpp:261
-#, kde-format
-msgid "created on %1"
-msgstr "stworjene %1"
-
-#: kio/renamedialog.cpp:232 kio/renamedialog.cpp:268
-#, kde-format
-msgid "modified on %1"
-msgstr "změnjene %1"
-
-#: kio/renamedialog.cpp:241
-#, kde-format
-msgid "The source file is '%1'"
-msgstr "Žórłowa dataja je '%1'."
-
-#: kio/renamedialog.cpp:407 kio/paste.cpp:228 kio/krun.cpp:1095
+#: kio/renamedialog.cpp:387 kio/paste.cpp:228 kio/krun.cpp:1095
 #: kio/kdirlister.cpp:329
 #, kde-format
 msgid ""
@@ -5536,76 +5559,76 @@ msgstr "Wšitke placki zničić."
 msgid "Reload configuration file"
 msgstr "Konfiguracisku dataju nowa začitać."
 
-#: ../kioslave/http/http.cpp:561
+#: ../kioslave/http/http.cpp:566
 msgid "No host specified."
 msgstr "Žadyn server specifikowany."
 
-#: ../kioslave/http/http.cpp:1428
+#: ../kioslave/http/http.cpp:1441
 #, fuzzy
 #| msgid "The specified resource may not exist."
 msgid "The resource cannot be deleted."
 msgstr "pominana resursa snano njeeksistuje."
 
-#: ../kioslave/http/http.cpp:1549
+#: ../kioslave/http/http.cpp:1562
 msgid "Otherwise, the request would have succeeded."
 msgstr "Hewak by so poradźiło."
 
-#: ../kioslave/http/http.cpp:1553
+#: ../kioslave/http/http.cpp:1566
 msgctxt "request type"
 msgid "retrieve property values"
 msgstr "hódnoty atributow wobstarać"
 
-#: ../kioslave/http/http.cpp:1556
+#: ../kioslave/http/http.cpp:1569
 msgctxt "request type"
 msgid "set property values"
 msgstr "hódnoty atributow postajić"
 
-#: ../kioslave/http/http.cpp:1559
+#: ../kioslave/http/http.cpp:1572
 msgctxt "request type"
 msgid "create the requested folder"
 msgstr "trěbny zapisk stworić"
 
-#: ../kioslave/http/http.cpp:1562
+#: ../kioslave/http/http.cpp:1575
 msgctxt "request type"
 msgid "copy the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk kopěrować"
 
-#: ../kioslave/http/http.cpp:1565
+#: ../kioslave/http/http.cpp:1578
 msgctxt "request type"
 msgid "move the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk přesunyć"
 
-#: ../kioslave/http/http.cpp:1568
+#: ../kioslave/http/http.cpp:1581
 msgctxt "request type"
 msgid "search in the specified folder"
 msgstr "we wotpowědnym zapisku pytać"
 
-#: ../kioslave/http/http.cpp:1571
+#: ../kioslave/http/http.cpp:1584
 msgctxt "request type"
 msgid "lock the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk zamknyć"
 
-#: ../kioslave/http/http.cpp:1574
+#: ../kioslave/http/http.cpp:1587
 msgctxt "request type"
 msgid "unlock the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk wotamknyć"
 
-#: ../kioslave/http/http.cpp:1577
+#: ../kioslave/http/http.cpp:1590
 msgctxt "request type"
 msgid "delete the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk zničić"
 
-#: ../kioslave/http/http.cpp:1580
+#: ../kioslave/http/http.cpp:1593
 msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr "so za móžnosćemi servera woprašeć"
 
-#: ../kioslave/http/http.cpp:1583
+#: ../kioslave/http/http.cpp:1596
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
 msgstr "wobsah wotpowědneje dataje abo zapiska dóstać"
 
-#: ../kioslave/http/http.cpp:1586
+#: ../kioslave/http/http.cpp:1599
 #, fuzzy
 #| msgctxt "request type"
 #| msgid "search in the specified folder"
@@ -5613,17 +5636,17 @@ msgctxt "request type"
 msgid "run a report in the specified folder"
 msgstr "we wotpowědnym zapisku pytać"
 
-#: ../kioslave/http/http.cpp:1598
+#: ../kioslave/http/http.cpp:1611
 #, kde-format
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
 
-#: ../kioslave/http/http.cpp:1606
+#: ../kioslave/http/http.cpp:1619
 msgid "The server does not support the WebDAV protocol."
 msgstr "Tutón server WebDAV njepodpěruje."
 
-#: ../kioslave/http/http.cpp:1648
+#: ../kioslave/http/http.cpp:1661
 #, kde-format
 msgctxt "%1: request type, %2: url"
 msgid ""
@@ -5631,17 +5654,17 @@ msgid ""
 "below."
 msgstr "Zmylk je so stał při pospyće %1, %2. Zjeće přičin namakaće deleka."
 
-#: ../kioslave/http/http.cpp:1662 ../kioslave/http/http.cpp:1767
+#: ../kioslave/http/http.cpp:1675 ../kioslave/http/http.cpp:1780
 #, kde-format
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr "Přistup bu wotpokazany, jako spytach %1."
 
-#: ../kioslave/http/http.cpp:1669
+#: ../kioslave/http/http.cpp:1682
 msgid "The specified folder already exists."
 msgstr "Specifikowany zapisk hižo eksistuje."
 
-#: ../kioslave/http/http.cpp:1675 ../kioslave/http/http.cpp:1772
+#: ../kioslave/http/http.cpp:1688 ../kioslave/http/http.cpp:1785
 msgid ""
 "A resource cannot be created at the destination until one or more "
 "intermediate collections (folders) have been created."
@@ -5649,7 +5672,7 @@ msgstr ""
 "Resursa njehodźi so na tutym městnje wutworić, doniž njebu žadyn zapisk "
 "stworjeny."
 
-#: ../kioslave/http/http.cpp:1684
+#: ../kioslave/http/http.cpp:1697
 #, kde-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in "
@@ -5660,26 +5683,26 @@ msgstr ""
 "\"propertybehavior\", abo sće spytali dataju přepisać, hačrunjež běšće to do "
 "toho zakazali. %1"
 
-#: ../kioslave/http/http.cpp:1694
+#: ../kioslave/http/http.cpp:1707
 #, kde-format
 msgid "The requested lock could not be granted. %1"
 msgstr "Pominane blokowanje njehodźeše so zarjadować. %1"
 
-#: ../kioslave/http/http.cpp:1700
+#: ../kioslave/http/http.cpp:1713
 msgid "The server does not support the request type of the body."
 msgstr "Server tutu družinu elementa \"Body\" njepodpěruje."
 
-#: ../kioslave/http/http.cpp:1705 ../kioslave/http/http.cpp:1779
+#: ../kioslave/http/http.cpp:1718 ../kioslave/http/http.cpp:1792
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr "Njemóžu %1; resursa je blokowana."
 
-#: ../kioslave/http/http.cpp:1709
+#: ../kioslave/http/http.cpp:1722
 msgid "This action was prevented by another error."
 msgstr "Tutej operaciji je někajki druhi zmylk zadźěwał."
 
-#: ../kioslave/http/http.cpp:1716 ../kioslave/http/http.cpp:1784
+#: ../kioslave/http/http.cpp:1729 ../kioslave/http/http.cpp:1797
 #, kde-format
 msgctxt "%1: request type"
 msgid ""
@@ -5687,7 +5710,7 @@ msgid ""
 "folder."
 msgstr "Njemóžu %1, dokelž cilowy server dataju abo zapisk njeakceptuje."
 
-#: ../kioslave/http/http.cpp:1723 ../kioslave/http/http.cpp:1790
+#: ../kioslave/http/http.cpp:1736 ../kioslave/http/http.cpp:1803
 msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
@@ -5695,83 +5718,38 @@ msgstr ""
 "Cilowa resursa nima dosć městna, zo by staw resursy po wuwjedźenju tuteje "
 "metody zawěsćiła."
 
-#: ../kioslave/http/http.cpp:1745
+#: ../kioslave/http/http.cpp:1758
 #, kde-format
 msgctxt "request type"
 msgid "upload %1"
 msgstr "kopěrować %1 na serwer"
 
-#: ../kioslave/http/http.cpp:1756
+#: ../kioslave/http/http.cpp:1769
 #, kde-format
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
 
-#: ../kioslave/http/http.cpp:2507
+#: ../kioslave/http/http.cpp:2527
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "%1 kontaktowany. Čakam na wotmołwu..."
 
-#: ../kioslave/http/http.cpp:2869
+#: ../kioslave/http/http.cpp:2885
 msgid "Server processing request, please wait..."
 msgstr "Server hišće dźěła, prošu dočakajće..."
 
-#: ../kioslave/http/http.cpp:3253
-msgid "Authentication Failed."
-msgstr "Přizjewjenje je so zwrěšćiło!"
-
-#: ../kioslave/http/http.cpp:3254 ../kioslave/http/http.cpp:4937
-msgid "Proxy Authentication Failed."
-msgstr "Přizjewjenje na proxyju je so zwrěšćiło!"
-
-#: ../kioslave/http/http.cpp:3289
-#, fuzzy
-#| msgid "Authorization Dialog"
-msgid "Authorization failed."
-msgstr "Awtorizaciski dialog"
-
-#: ../kioslave/http/http.cpp:3305
-#, fuzzy
-#| msgid "Authorization Dialog"
-msgid "Unknown Authorization method."
-msgstr "Awtorizaciski dialog"
-
-#: ../kioslave/http/http.cpp:3690
-msgid "Requesting data to send"
-msgstr "Pominam sej daty za pósłanje"
-
-#: ../kioslave/http/http.cpp:3722
-#, kde-format
-msgid "Sending data to %1"
-msgstr "Sćelu day na %1"
-
-#: ../kioslave/http/http.cpp:4139
-#, kde-format
-msgid "Retrieving %1 from %2..."
-msgstr "Dóstawam %1 wot %2..."
-
-#: ../kioslave/http/http.cpp:4145
-#, kde-format
-msgid "Retrieving from %1..."
-msgstr "Dóstawam daty wot %1..."
-
-#: ../kioslave/http/http.cpp:4862 ../kioslave/ftp/ftp.cpp:477
+#: ../kioslave/http/http.cpp:3230 ../kioslave/ftp/ftp.cpp:477
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Dyrbiće mjeno wužiwarja a hesło podać, zo byšće k tutomu serwerej přistup "
 "dóstali."
 
-#: ../kioslave/http/http.cpp:4869 ../kioslave/ftp/ftp.cpp:479
+#: ../kioslave/http/http.cpp:3232 ../kioslave/ftp/ftp.cpp:479
 msgid "Site:"
 msgstr "Server:"
 
-#: ../kioslave/http/http.cpp:4870 ../kioslave/http/http.cpp:4886
-#: ../kioslave/http/http.cpp:4936
-#, kde-format
-msgid "<b>%1</b> at <b>%2</b>"
-msgstr "<b>%1</b> at <b>%2</b>"
-
-#: ../kioslave/http/http.cpp:4877 ../kioslave/http/http.cpp:4931
+#: ../kioslave/http/http.cpp:3242 ../kioslave/http/http.cpp:4996
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -5779,9 +5757,53 @@ msgstr ""
 "Dyrbiće na proxyju mjeno wužiwarja a škitne hesło zapodać, prjedy hač směće "
 "so z dalšimi ličakami zwjazać."
 
-#: ../kioslave/http/http.cpp:4885 ../kioslave/http/http.cpp:4935
+#: ../kioslave/http/http.cpp:3245 ../kioslave/http/http.cpp:5000
 msgid "Proxy:"
 msgstr "Proxy:"
+
+#: ../kioslave/http/http.cpp:3301 ../kioslave/http/http.cpp:5001
+#, kde-format
+msgid "<b>%1</b> at <b>%2</b>"
+msgstr "<b>%1</b> at <b>%2</b>"
+
+#: ../kioslave/http/http.cpp:3314
+msgid "Authentication Failed."
+msgstr "Přizjewjenje je so zwrěšćiło!"
+
+#: ../kioslave/http/http.cpp:3316 ../kioslave/http/http.cpp:5002
+msgid "Proxy Authentication Failed."
+msgstr "Přizjewjenje na proxyju je so zwrěšćiło!"
+
+#: ../kioslave/http/http.cpp:3353
+#, fuzzy
+#| msgid "Authorization Dialog"
+msgid "Authorization failed."
+msgstr "Awtorizaciski dialog"
+
+#: ../kioslave/http/http.cpp:3370
+#, fuzzy
+#| msgid "Authorization Dialog"
+msgid "Unknown Authorization method."
+msgstr "Awtorizaciski dialog"
+
+#: ../kioslave/http/http.cpp:3750
+msgid "Requesting data to send"
+msgstr "Pominam sej daty za pósłanje"
+
+#: ../kioslave/http/http.cpp:3782
+#, kde-format
+msgid "Sending data to %1"
+msgstr "Sćelu day na %1"
+
+#: ../kioslave/http/http.cpp:4199
+#, kde-format
+msgid "Retrieving %1 from %2..."
+msgstr "Dóstawam %1 wot %2..."
+
+#: ../kioslave/http/http.cpp:4205
+#, kde-format
+msgid "Retrieving from %1..."
+msgstr "Dóstawam daty wot %1..."
 
 #: ../kioslave/http/http_cache_cleaner.cpp:728
 #: ../kioslave/http/http_cache_cleaner.cpp:729
@@ -6751,6 +6773,20 @@ msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
 #, fuzzy
 msgid "Show Hidden Folders"
 msgstr "chowane dataje pokazować"
+
+#, fuzzy
+#~| msgid "%1 (%2)"
+#~ msgid "size %1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#~ msgid "created on %1"
+#~ msgstr "stworjene %1"
+
+#~ msgid "modified on %1"
+#~ msgstr "změnjene %1"
+
+#~ msgid "The source file is '%1'"
+#~ msgstr "Žórłowa dataja je '%1'."
 
 #, fuzzy
 #~| msgid "Move to Trash"
