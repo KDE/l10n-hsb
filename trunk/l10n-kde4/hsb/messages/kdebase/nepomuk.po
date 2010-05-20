@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-10 04:41+0200\n"
+"POT-Creation-Date: 2010-05-20 04:48+0200\n"
 "PO-Revision-Date: 2008-11-13 00:04+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,21 +17,32 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: kioslaves/search/kio_nepomuksearch.cpp:59
-#: kioslaves/search/kio_nepomuksearch.cpp:250
+#: kioslaves/search/kio_nepomuksearch.cpp:72
+#, kde-format
+msgctxt ""
+"@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
+"user entered."
+msgid "Query Results from '%1'"
+msgstr ""
+
+#: kioslaves/search/kio_nepomuksearch.cpp:76
 msgid "Query Results"
 msgstr ""
 
-#: kioslaves/search/kio_nepomuksearch.cpp:124
+#: kioslaves/search/kio_nepomuksearch.cpp:147
 #: kioslaves/nepomuk/kio_nepomuk.cpp:637
 msgid ""
 "The Nepomuk system is not activated. Unable to answer queries without it."
 msgstr ""
 
-#: kioslaves/search/kio_nepomuksearch.cpp:130
+#: kioslaves/search/kio_nepomuksearch.cpp:153
 msgid ""
 "The Nepomuk query service is not running. Unable to answer queries without "
 "it."
+msgstr ""
+
+#: kioslaves/search/kio_nepomuksearch.cpp:273
+msgid "Desktop Queries"
 msgstr ""
 
 #: kioslaves/timeline/kio_timeline.cpp:107
@@ -558,14 +569,16 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:80
 msgid ""
-"The maximum amount of memory the Nepomuk database should use. The more "
-"memory Nepomuk has the more performant it will be."
+"<p>The maximum amount of main memory the Nepomuk system should use for its "
+"database process. The more memory is available to Nepomuk the better will be "
+"its performance. (The Nepomuk database process shows up as <command>virtuoso-"
+"t</command> in the process manager.)"
 msgstr ""
 
 #. i18n: file: kcm/nepomukconfigwidget.ui:225
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_editMemoryUsage)
 #: rc.cpp:83
-msgid " MB"
+msgid " MiB"
 msgstr ""
 
 #~ msgid "KSqueezedTextLabel"
