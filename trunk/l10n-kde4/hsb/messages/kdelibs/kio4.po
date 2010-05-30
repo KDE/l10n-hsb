@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-29 04:55+0200\n"
+"POT-Creation-Date: 2010-05-30 05:08+0200\n"
 "PO-Revision-Date: 2008-11-17 23:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -2080,7 +2080,7 @@ msgstr "Njemóžu certifikat wočinić. Chceće z hinašim škitnym hesłom spyt
 msgid "The procedure to set the client certificate for the session failed."
 msgstr "Clientowy certifikat za sesiju njehodźeše so nastajić."
 
-#: kio/tcpslavebase.cpp:709 kio/slaveinterface.cpp:462
+#: kio/tcpslavebase.cpp:709 kio/slaveinterface.cpp:479
 msgid "SSL"
 msgstr "SSL"
 
@@ -2098,11 +2098,11 @@ msgstr ""
 msgid "Server Authentication"
 msgstr "Přepruwowanje servera"
 
-#: kio/tcpslavebase.cpp:764 kssl/sslui.cpp:81
+#: kio/tcpslavebase.cpp:764 kio/slaveinterface.cpp:409 kssl/sslui.cpp:81
 msgid "&Details"
 msgstr "&Detajle"
 
-#: kio/tcpslavebase.cpp:764 kssl/sslui.cpp:82
+#: kio/tcpslavebase.cpp:764 kio/slaveinterface.cpp:416 kssl/sslui.cpp:82
 msgid "Co&ntinue"
 msgstr "Po&kročować"
 
@@ -2113,11 +2113,11 @@ msgstr ""
 "Chceće tutón certifikat na wšě časy bjez doprašowanja z mojeje strony "
 "akceptować?"
 
-#: kio/tcpslavebase.cpp:781 kssl/sslui.cpp:120
+#: kio/tcpslavebase.cpp:781 kio/slaveinterface.cpp:411 kssl/sslui.cpp:120
 msgid "&Forever"
 msgstr "&Na wšě časy"
 
-#: kio/tcpslavebase.cpp:782 kssl/sslui.cpp:121
+#: kio/tcpslavebase.cpp:782 kio/slaveinterface.cpp:418 kssl/sslui.cpp:121
 #, fuzzy
 #| msgid "&Current Sessions Only"
 msgid "&Current Session only"
@@ -2646,7 +2646,7 @@ msgctxt "@item:inmenu Open With, %1 is application name"
 msgid "%1"
 msgstr ""
 
-#: kio/slaveinterface.cpp:460
+#: kio/slaveinterface.cpp:477
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "SSL-certifikat peera njeje walidny."
 
