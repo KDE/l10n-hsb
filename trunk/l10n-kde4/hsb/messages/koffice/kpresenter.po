@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-30 05:34+0200\n"
+"POT-Creation-Date: 2010-07-08 05:18+0200\n"
 "PO-Revision-Date: 2005-05-09 17:30+0200\n"
 "Last-Translator:  <hertn@gmx.de>\n"
 "Language-Team: Hornjoserbšćina <hsb@li.org>\n"
@@ -1256,7 +1256,7 @@ msgstr ""
 msgid "Placeholder shape"
 msgstr ""
 
-#: part/KPrPresenterViewInterface.cpp:67 part/KPrView.cpp:85
+#: part/KPrPresenterViewInterface.cpp:67 part/KPrView.cpp:89
 msgid "Next Slide"
 msgstr ""
 
@@ -1377,6 +1377,10 @@ msgstr ""
 msgid "Timothée Lacroix "
 msgstr ""
 
+#: part/KPrPicturesImport.cpp:57
+msgid "Insert Pictures"
+msgstr ""
+
 #: part/KPrPlaceholderStrategy.cpp:45
 msgid "Double click to add a title"
 msgstr ""
@@ -1443,117 +1447,121 @@ msgstr ""
 msgid "Yellow"
 msgstr ""
 
-#: part/KPrView.cpp:72
+#: part/KPrView.cpp:76
 msgid "Show Master Slides"
 msgstr ""
 
-#: part/KPrView.cpp:73
+#: part/KPrView.cpp:77
 msgid "Import Slideshow..."
 msgstr ""
 
-#: part/KPrView.cpp:74
+#: part/KPrView.cpp:78
 msgid "Insert Slide"
 msgstr ""
 
-#: part/KPrView.cpp:75 part/KPrView.cpp:76
+#: part/KPrView.cpp:79 part/KPrView.cpp:80
 msgid "Insert a new slide after the current one"
 msgstr ""
 
-#: part/KPrView.cpp:77
+#: part/KPrView.cpp:81
 #, fuzzy
 #| msgid "Shade"
 msgid "Copy Slide"
 msgstr "Sćin"
 
-#: part/KPrView.cpp:78 part/KPrView.cpp:79
+#: part/KPrView.cpp:82 part/KPrView.cpp:83
 msgid "Copy the current slide"
 msgstr ""
 
 #. i18n: file: part/ui/KPrCustomSlideShowsDialog.ui:136
 #. i18n: ectx: property (text), widget (QPushButton, deleteSlideButton)
-#: part/KPrView.cpp:80 rc.cpp:206
+#: part/KPrView.cpp:84 rc.cpp:206
 msgid "Delete Slide"
 msgstr ""
 
-#: part/KPrView.cpp:81 part/KPrView.cpp:82
+#: part/KPrView.cpp:85 part/KPrView.cpp:86
 msgid "Delete the current slide"
 msgstr ""
 
-#: part/KPrView.cpp:83
+#: part/KPrView.cpp:87
 msgid "Master Slide..."
 msgstr ""
 
-#: part/KPrView.cpp:84
+#: part/KPrView.cpp:88
 msgid "Previous Slide"
 msgstr ""
 
-#: part/KPrView.cpp:86
+#: part/KPrView.cpp:90
 #, fuzzy
 #| msgid "Shade"
 msgid "First Slide"
 msgstr "Sćin"
 
-#: part/KPrView.cpp:87
+#: part/KPrView.cpp:91
 #, fuzzy
 #| msgid "Shade"
 msgid "Last Slide"
 msgstr "Sćin"
 
-#: part/KPrView.cpp:88
+#: part/KPrView.cpp:92
 msgid "Configure KPresenter..."
 msgstr ""
 
-#: part/KPrView.cpp:174
+#: part/KPrView.cpp:178
 msgid "Export as HTML..."
 msgstr ""
 
-#: part/KPrView.cpp:178
+#: part/KPrView.cpp:182
 #, fuzzy
 #| msgid "Normalize"
 msgid "Normal"
 msgstr "Normalizować"
 
-#: part/KPrView.cpp:184
+#: part/KPrView.cpp:188
 msgid "Notes"
 msgstr ""
 
 #: part/KPrView.cpp:193
-msgid "Create Appear Animation"
-msgstr ""
-
-#: part/KPrView.cpp:197
-msgid "Edit Custom Slide Shows..."
+msgid "Insert Pictures..."
 msgstr ""
 
 #: part/KPrView.cpp:201
-msgid "Start Presentation"
+msgid "Create Appear Animation"
 msgstr ""
 
-#: part/KPrView.cpp:204
-msgid "From Current Slide"
+#: part/KPrView.cpp:205
+msgid "Edit Custom Slide Shows..."
 msgstr ""
 
 #: part/KPrView.cpp:209
+msgid "Start Presentation"
+msgstr ""
+
+#: part/KPrView.cpp:212
+msgid "From Current Slide"
+msgstr ""
+
+#: part/KPrView.cpp:217
 msgid "From First Slide"
 msgstr ""
 
-#: part/KPrView.cpp:214
+#: part/KPrView.cpp:222
 msgid "Configure Slide Show..."
 msgstr ""
 
-#: part/KPrView.cpp:218
+#: part/KPrView.cpp:226
 msgid "Configure Presenter View..."
 msgstr ""
 
-#: part/KPrView.cpp:222
+#: part/KPrView.cpp:230
 msgid "Draw on the presentation..."
 msgstr ""
 
-#: part/KPrView.cpp:229
+#: part/KPrView.cpp:237
 msgid "Highlight the presentation..."
 msgstr ""
 
-#: part/KPrView.cpp:236
+#: part/KPrView.cpp:244
 msgid "Blackscreen on the presentation..."
 msgstr ""
 
@@ -1619,7 +1627,7 @@ msgstr "Forma"
 
 #. i18n: file: kpresenter.rc:90
 #. i18n: ectx: Menu (Format)
-#. i18n: file: part/kpresenter.rc:53
+#. i18n: file: part/kpresenter.rc:54
 #. i18n: ectx: Menu (format)
 #. i18n: file: kpresenter.rc:90
 #. i18n: ectx: Menu (Format)
@@ -1718,7 +1726,7 @@ msgstr "Samokorektura"
 #. i18n: ectx: Menu (Slide Show)
 #. i18n: file: kpresenter_readonly.rc:12
 #. i18n: ectx: Menu (Slide Show)
-#. i18n: file: part/kpresenter.rc:73
+#. i18n: file: part/kpresenter.rc:74
 #. i18n: ectx: Menu (slideshow)
 #. i18n: file: kpresenter_readonly.rc:12
 #. i18n: ectx: Menu (Slide Show)
@@ -1730,7 +1738,7 @@ msgstr ""
 
 #. i18n: file: kpresenter.rc:179
 #. i18n: ectx: Menu (settings)
-#. i18n: file: part/kpresenter.rc:80
+#. i18n: file: part/kpresenter.rc:81
 #. i18n: ectx: Menu (settings)
 #. i18n: file: kpresenter.rc:179
 #. i18n: ectx: Menu (settings)
@@ -2089,7 +2097,7 @@ msgstr ""
 msgid "Open in browser"
 msgstr ""
 
-#. i18n: file: part/kpresenter.rc:62
+#. i18n: file: part/kpresenter.rc:63
 #. i18n: ectx: Menu (page)
 #: rc.cpp:290
 #, fuzzy
