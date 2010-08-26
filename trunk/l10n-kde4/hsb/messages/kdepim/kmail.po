@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-25 05:09+0200\n"
+"POT-Creation-Date: 2010-08-26 05:57+0200\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -1154,14 +1154,14 @@ msgstr "&Pokaž chowane zapiski"
 msgid "Please select a folder"
 msgstr "Zapisk zničić"
 
-#: util.cpp:184
+#: util.cpp:186
 #, fuzzy
 msgid "Could not start the account wizard. Please check your installation."
 msgstr ""
 "Njemóžach certifikatowy manager startować. Prošu přepruwujće swoju "
 "instalaciju!"
 
-#: util.cpp:186
+#: util.cpp:188
 #, fuzzy
 #| msgid "Unable to create account"
 msgid "Unable to start account wizard"
@@ -1317,7 +1317,7 @@ msgstr "Lisćina"
 msgid "Contact Owner"
 msgstr "Kontakty"
 
-#: messageactions.cpp:335 mailinglistpropertiesdialog.cpp:149
+#: messageactions.cpp:335 mailinglistpropertiesdialog.cpp:154
 msgid "Subscribe to List"
 msgstr ""
 
@@ -1445,45 +1445,45 @@ msgstr ""
 msgid "KMail is set to be online; all network jobs resumed"
 msgstr ""
 
-#: kmkernel.cpp:963
+#: kmkernel.cpp:964
 msgid "KMail is currently in offline mode. How do you want to proceed?"
 msgstr ""
 
-#: kmkernel.cpp:965 kmcomposewin.cpp:2435
+#: kmkernel.cpp:966 kmcomposewin.cpp:2435
 msgid "Online/Offline"
 msgstr ""
 
-#: kmkernel.cpp:966 kmmainwidget.cpp:2413
+#: kmkernel.cpp:967 kmmainwidget.cpp:2413
 msgid "Work Online"
 msgstr ""
 
-#: kmkernel.cpp:967 kmmainwidget.cpp:2409
+#: kmkernel.cpp:968 kmmainwidget.cpp:2409
 msgid "Work Offline"
 msgstr ""
 
-#: kmkernel.cpp:1065
+#: kmkernel.cpp:1066
 #, kde-format
 msgid ""
 "Failed to open autosave file at %1.\n"
 "Reason: %2"
 msgstr ""
 
-#: kmkernel.cpp:1067
+#: kmkernel.cpp:1068
 #, fuzzy
 msgid "Opening Autosave File Failed"
 msgstr "Přesuwam powěsć %3 z %2 wot %1."
 
-#: kmkernel.cpp:1077 kmkernel.cpp:1097
+#: kmkernel.cpp:1078 kmkernel.cpp:1098
 #, fuzzy
 msgid "You do not have read/write permission to your inbox folder."
 msgstr "póštowy kašćik."
 
-#: kmkernel.cpp:1419
+#: kmkernel.cpp:1420
 #, fuzzy
 msgid "KMail encountered a fatal error and will terminate now"
 msgstr "KMail"
 
-#: kmkernel.cpp:1422
+#: kmkernel.cpp:1423
 #, fuzzy, kde-format
 msgid ""
 "KMail encountered a fatal error and will terminate now.\n"
@@ -1491,15 +1491,15 @@ msgid ""
 "%1"
 msgstr "KMail"
 
-#: kmkernel.cpp:1570 kmmainwidget.cpp:1441
+#: kmkernel.cpp:1571 kmmainwidget.cpp:1441
 msgid "Empty Trash"
 msgstr "Papjernik wuprózdnić"
 
-#: kmkernel.cpp:1571
+#: kmkernel.cpp:1572
 msgid "Are you sure you want to empty the trash folders of all accounts?"
 msgstr ""
 
-#: kmkernel.cpp:1786
+#: kmkernel.cpp:1787
 #, kde-format
 msgid "This identity has been changed to use the default transport:"
 msgid_plural ""
@@ -1509,7 +1509,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: kmkernel.cpp:1809
+#: kmkernel.cpp:1810
 #, kde-format
 msgid "This identity has been changed to use the modified transport:"
 msgid_plural ""
@@ -1519,12 +1519,12 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: kmkernel.cpp:1823
+#: kmkernel.cpp:1824
 #, fuzzy
 msgid "Sending messages"
 msgstr "HTML-powěsće"
 
-#: kmkernel.cpp:1824
+#: kmkernel.cpp:1825
 msgid "Initiating sending process..."
 msgstr ""
 
@@ -1986,6 +1986,11 @@ msgstr ""
 msgid "Mail: %1"
 msgstr "KMail"
 
+#: kmsystemtray.cpp:70 kmstartup.cpp:104 mailinglistpropertiesdialog.cpp:113
+#: aboutdata.cpp:240
+msgid "KMail"
+msgstr "KMail"
+
 #: kmsystemtray.cpp:252
 #, fuzzy
 msgid "New Messages In"
@@ -2053,10 +2058,6 @@ msgstr "Mjeno identity"
 #: identitylistview.cpp:118
 msgid "Email Address"
 msgstr "emailowa adresa"
-
-#: kmstartup.cpp:104 mailinglistpropertiesdialog.cpp:108 aboutdata.cpp:240
-msgid "KMail"
-msgstr "KMail"
 
 #: kmstartup.cpp:158
 #, kde-format
@@ -4257,78 +4258,78 @@ msgid ""
 "as moving them to the selected folder."
 msgstr ""
 
-#: mailinglistpropertiesdialog.cpp:53
+#: mailinglistpropertiesdialog.cpp:58
 #, fuzzy
 msgid "Mailinglist Folder Properties"
 msgstr "Zapisk"
 
-#: mailinglistpropertiesdialog.cpp:67
+#: mailinglistpropertiesdialog.cpp:72
 msgid "Associated Mailing List"
 msgstr "Přirjadowana mailowa lisćina"
 
-#: mailinglistpropertiesdialog.cpp:76
+#: mailinglistpropertiesdialog.cpp:81
 msgid "&Folder holds a mailing list"
 msgstr "&Zapisk je za mailowu lisćinu"
 
-#: mailinglistpropertiesdialog.cpp:83
+#: mailinglistpropertiesdialog.cpp:88
 msgid "Detect Automatically"
 msgstr ""
 
-#: mailinglistpropertiesdialog.cpp:91
+#: mailinglistpropertiesdialog.cpp:96
 #, fuzzy
 msgid "Mailing list description:"
 msgstr "Filtrowe akcije &přewjesć"
 
-#: mailinglistpropertiesdialog.cpp:102
+#: mailinglistpropertiesdialog.cpp:107
 msgid "Preferred handler:"
 msgstr ""
 
-#: mailinglistpropertiesdialog.cpp:109
+#: mailinglistpropertiesdialog.cpp:114
 msgid "Browser"
 msgstr ""
 
-#: mailinglistpropertiesdialog.cpp:116
+#: mailinglistpropertiesdialog.cpp:121
 #, fuzzy
 msgid "&Address type:"
 msgstr "&Adresnik"
 
-#: mailinglistpropertiesdialog.cpp:129
+#: mailinglistpropertiesdialog.cpp:134
 msgid "Invoke Handler"
 msgstr ""
 
-#: mailinglistpropertiesdialog.cpp:148
+#: mailinglistpropertiesdialog.cpp:153
 #, fuzzy
 msgid "Post to List"
 msgstr "Nadawki"
 
-#: mailinglistpropertiesdialog.cpp:150
+#: mailinglistpropertiesdialog.cpp:155
 msgid "Unsubscribe From List"
 msgstr ""
 
-#: mailinglistpropertiesdialog.cpp:151
+#: mailinglistpropertiesdialog.cpp:156
 #, fuzzy
 msgid "List Archives"
 msgstr "Lisćina:"
 
-#: mailinglistpropertiesdialog.cpp:152
+#: mailinglistpropertiesdialog.cpp:157
 #, fuzzy
 msgid "List Help"
 msgstr "Lisćina"
 
-#: mailinglistpropertiesdialog.cpp:171
+#: mailinglistpropertiesdialog.cpp:176
 msgid "Not available"
 msgstr "Njesteji k dispoziciji"
 
-#: mailinglistpropertiesdialog.cpp:241
+#: mailinglistpropertiesdialog.cpp:234 mailinglistpropertiesdialog.cpp:267
+#, fuzzy
+msgid "Not available."
+msgstr "Njesteji k dispoziciji"
+
+#: mailinglistpropertiesdialog.cpp:264
 msgid ""
 "KMail was unable to detect a mailing list in this folder. Please fill the "
 "addresses by hand."
 msgstr ""
-
-#: mailinglistpropertiesdialog.cpp:244
-#, fuzzy
-msgid "Not available."
-msgstr "Njesteji k dispoziciji"
 
 #: kmreadermainwin.cpp:280 kmmainwidget.cpp:3248
 msgid "Save A&ttachments..."
