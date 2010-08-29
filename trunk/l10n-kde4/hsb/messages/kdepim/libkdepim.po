@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkdepim\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-14 05:16+0200\n"
+"POT-Creation-Date: 2010-08-29 05:25+0200\n"
 "PO-Revision-Date: 2004-04-16 18:00+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -24,12 +24,12 @@ msgid ""
 "manually."
 msgstr ""
 
-#: addcontactjob.cpp:76 addemailaddressjob.cpp:72
+#: addcontactjob.cpp:76 addemailaddressjob.cpp:116
 #, fuzzy
 msgid "Select Address Book"
 msgstr "Wosobinski adresnik"
 
-#: addcontactjob.cpp:77 addemailaddressjob.cpp:73
+#: addcontactjob.cpp:77 addemailaddressjob.cpp:117
 msgid "Select the address book the new contact shall be saved in:"
 msgstr ""
 
@@ -39,12 +39,21 @@ msgid ""
 "this entry by opening the address book."
 msgstr ""
 
-#: addemailaddressjob.cpp:54
+#: addemailaddressjob.cpp:60
 #, kde-format
 msgid "<qt>The email address <b>%1</b> is already in your address book.</qt>"
 msgstr ""
 
-#: addemailaddressjob.cpp:110
+#: addemailaddressjob.cpp:102
+msgid "Please create an address book before adding a contact."
+msgstr ""
+
+#: addemailaddressjob.cpp:102
+#, fuzzy
+msgid "No Address Book Available"
+msgstr "Wosobinski adresnik"
+
+#: addemailaddressjob.cpp:156
 #, kde-format
 msgid ""
 "<qt>The email address <b>%1</b> was added to your address book; you can add "
@@ -623,10 +632,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "&Selected Addresses"
 #~ msgstr "Wubrane adresy"
-
-#, fuzzy
-#~ msgid "&Address Book"
-#~ msgstr "Wosobinski adresnik"
 
 #, fuzzy
 #~ msgid "&Filter on:"
