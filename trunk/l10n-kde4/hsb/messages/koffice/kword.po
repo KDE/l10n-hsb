@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-10 06:11+0200\n"
+"POT-Creation-Date: 2010-08-30 05:27+0200\n"
 "PO-Revision-Date: 2004-04-16 18:01+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -237,7 +237,7 @@ msgstr ""
 
 #. i18n: file: part/dialogs/KWStartupWidget.ui:51
 #. i18n: ectx: attribute (title), widget (QWidget, columnsTab)
-#: rc.cpp:96 part/dialogs/KWPageSettingsDialog.cpp:42
+#: rc.cpp:96 part/dialogs/KWPageSettingsDialog.cpp:40
 #, fuzzy
 msgid "Columns"
 msgstr "Špalta"
@@ -1057,6 +1057,11 @@ msgstr "Tekst"
 msgid "Geometry"
 msgstr "Wotstronić"
 
+#: part/dialogs/KWPageSettingsDialog.cpp:92
+#, fuzzy
+msgid "Change Page Properties"
+msgstr "Swójstwa"
+
 #: part/dialogs/KWSelectBookmarkDialog.cpp:79
 #, fuzzy
 #| msgid "Select Bookmark"
@@ -1105,11 +1110,6 @@ msgstr "Tekst"
 msgid "Create custom outline"
 msgstr "Tekst"
 
-#: part/commands/KWPagePropertiesCommand.cpp:36
-#, fuzzy
-msgid "Page Properties"
-msgstr "Swójstwa"
-
 #: part/commands/KWPageRemoveCommand.cpp:32
 #, fuzzy
 msgid "Remove Page"
@@ -1120,35 +1120,45 @@ msgstr "Wotstronić"
 msgid "Clip Frame"
 msgstr "Zasunyć"
 
-#: part/frames/KWTextFrameSet.cpp:88
+#: part/commands/KWChangePageStyleCommand.cpp:25
+#, fuzzy
+msgid "Set Page Style"
+msgstr "Zasunyć"
+
+#: part/commands/KWNewPageStyleCommand.cpp:27
+#, fuzzy
+msgid "Insert Page Style"
+msgstr "Zasunyć"
+
+#: part/commands/KWPageStylePropertiesCommand.cpp:36
+#, fuzzy
+msgid "Page Properties"
+msgstr "Swójstwa"
+
+#: part/frames/KWTextFrameSet.cpp:90
 #, fuzzy
 msgid "Odd Pages Header"
 msgstr "Hłowa za njerune strony"
 
-#: part/frames/KWTextFrameSet.cpp:91
+#: part/frames/KWTextFrameSet.cpp:93
 #, fuzzy
 msgid "Even Pages Header"
 msgstr "Hłowa za rune strony"
 
-#: part/frames/KWTextFrameSet.cpp:94
+#: part/frames/KWTextFrameSet.cpp:96
 #, fuzzy
 msgid "Odd Pages Footer"
 msgstr "Nóžka za njerune strony"
 
-#: part/frames/KWTextFrameSet.cpp:97
+#: part/frames/KWTextFrameSet.cpp:99
 #, fuzzy
 msgid "Even Pages Footer"
 msgstr "Nóžka za rune strony"
 
-#: part/frames/KWTextFrameSet.cpp:100
+#: part/frames/KWTextFrameSet.cpp:102
 #, fuzzy
 msgid "Main text"
 msgstr "Zasunyć"
-
-#: part/frames/KWTextFrameSet.cpp:103
-#, fuzzy
-msgid "Page Background"
-msgstr "Strona"
 
 #: part/KWStatusBar.cpp:39
 msgid "Modified"
@@ -1705,6 +1715,10 @@ msgstr ""
 #: part/KWDocument.cpp:835
 msgid "Installation Error"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Page Background"
+#~ msgstr "Strona"
 
 #, fuzzy
 #~| msgid "F&ormat"
