@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-27 05:46+0200\n"
+"POT-Creation-Date: 2010-09-02 07:03+0200\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -898,125 +898,6 @@ msgstr "&Nowe wokno"
 msgid "Starting..."
 msgstr "Wopisanje"
 
-#. i18n: file: tips:2
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:3
-msgid ""
-"<p>...that you can go to the next and previous message by using the\n"
-"right and left arrow keys respectively?</p>\n"
-msgstr ""
-
-#. i18n: file: tips:9
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:9
-#, fuzzy
-msgid ""
-"<p>...that you can rapidly create filters on sender, recipient,\n"
-"subject and mailing lists with <em>Message-&gt;Create&nbsp;Filter</em>?</p>\n"
-msgstr ""
-"\n"
-"<p><em>&gt;&nbsp; Filter</em></p>"
-
-#. i18n: file: tips:16
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:15
-#, fuzzy
-msgid ""
-"<p>...that you can get rid of the &quot;[mailing list name]&quot;\n"
-"added to the subject of some mailing lists by using the <em>rewrite\n"
-"header</em> filter action? Just use\n"
-"<pre>rewrite header &quot;Subject&quot;\n"
-"   replace &quot;\\s*\\[mailing list name\\]\\s*&quot;\n"
-"   with &quot;&quot;</pre>\n"
-"</p>\n"
-msgstr ""
-"<p>&quot;&quot;<em></em>\n"
-"<pre>&quot; Tema&quot;\n"
-"&quot; s s&quot;\n"
-"&quot;&quot;</pre>\n"
-"</p>"
-
-#. i18n: file: tips:28
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:26
-#, fuzzy
-msgid ""
-"<p>...that you can associate mailing lists with folders in the\n"
-"<em>Folder-&gt;Mailing List Management</em> dialog? You can then use\n"
-"<em>Message-&gt;New&nbsp;Message&nbsp;to&nbsp;Mailing&nbsp;List...</em>\n"
-"to open the composer with the mailing list address preset.\n"
-"Alternatively, you can click with the middle mouse button on the folder.</"
-"p>\n"
-msgstr ""
-"<p> in\n"
-"<em> Zapisk&gt; Swójstwa</em>\n"
-"<em>&gt; Nowe&nbsp;&nbsp;&nbsp;&nbsp; Lisćina</em></p>"
-
-#. i18n: file: tips:38
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:35
-#, fuzzy
-msgid ""
-"<p>...that you can assign custom icons to each folder individually?\n"
-"See <em>Folder-&gt;Properties</em></p>\n"
-msgstr "<p><em> Zapisk&gt; Swójstwa</em></p>"
-
-#. i18n: file: tips:45
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:41
-#, fuzzy
-msgid ""
-"<p>...that KMail can show a color bar indicating the type of message\n"
-"(Plain text/HTML/OpenPGP) currently displayed?</p>\n"
-"<p>This thwarts attempts to fake successful signature verification by\n"
-"sending HTML mails mimicking KMail's signature status frames.</p>\n"
-msgstr ""
-"<p> KMail</p>\n"
-"<p> KMail s</p>"
-
-#. i18n: file: tips:54
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:49
-msgid ""
-"<p>...that you can filter on any header by simply entering its name\n"
-"in the first edit field of a search rule?</p>\n"
-msgstr ""
-
-#. i18n: file: tips:61
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:55
-#, fuzzy
-msgid ""
-"<p>...that you can filter out HTML only messages with the rule\n"
-"<pre>&quot;Content-type&quot; contains &quot;text/html&quot;?</pre>\n"
-"</p>\n"
-msgstr ""
-"<p>\n"
-"<pre>&quot; Wobsah&quot;&quot;&quot;</pre>\n"
-"</p>"
-
-#. i18n: file: tips:69
-#. i18n: ectx: @info:tipoftheday
-#: tips.cpp:62
-#, fuzzy
-msgid ""
-"<p>...that when replying, only the selected part of the message is quoted?</"
-"p>\n"
-"<p>If nothing is selected, the full message is quoted.</p>\n"
-"<p>This even works with text of attachments when\n"
-"<em>View-&gt;Attachments-&gt;Inline</em> is selected.</p>\n"
-"<p>This feature is available with all reply commands except\n"
-"<em>Message-&gt;Reply Without Quote</em>.</p>\n"
-"<p align=\"right\"><em>contributed by David F. Newman</em></p>\n"
-msgstr ""
-"<p></p>\n"
-"<p></p>\n"
-"<p>\n"
-"<em> Napohlad&gt;&gt;</em></p>\n"
-"<p>\n"
-"<em>&gt;</em></p>\n"
-"<p align=\"right\"><em></em></p>"
-
 #: identitypage.cpp:228
 #, kde-format
 msgid "<qt>Do you really want to remove the identity named <b>%1</b>?</qt>"
@@ -1043,1065 +924,6 @@ msgstr "&Zničić"
 #: identitypage.cpp:282
 msgid "Set as Default"
 msgstr "Jako standard wužiwać"
-
-#: kmsearchpattern.h:249
-#, fuzzy
-msgctxt "message status"
-msgid "Important"
-msgstr "&Importować"
-
-#: kmsearchpattern.h:250
-msgctxt "message status"
-msgid "Action Item"
-msgstr ""
-
-#: kmsearchpattern.h:251
-#, fuzzy
-#| msgid "New"
-msgctxt "message status"
-msgid "New"
-msgstr "Nowe"
-
-#: kmsearchpattern.h:252
-#, fuzzy
-#| msgid "Unread"
-msgctxt "message status"
-msgid "Unread"
-msgstr "Nječitane"
-
-#: kmsearchpattern.h:253
-#, fuzzy
-msgctxt "message status"
-msgid "Read"
-msgstr "Hotowo."
-
-#: kmsearchpattern.h:254
-#, fuzzy
-msgctxt "message status"
-msgid "Deleted"
-msgstr "Z&ničić"
-
-#: kmsearchpattern.h:255
-#, fuzzy
-msgctxt "message status"
-msgid "Replied"
-msgstr "Na&runać"
-
-#: kmsearchpattern.h:256
-#, fuzzy
-msgctxt "message status"
-msgid "Forwarded"
-msgstr "Do&pósłać:"
-
-#: kmsearchpattern.h:257
-#, fuzzy
-msgctxt "message status"
-msgid "Queued"
-msgstr "Do ča&karnje"
-
-#: kmsearchpattern.h:258
-#, fuzzy
-msgctxt "message status"
-msgid "Sent"
-msgstr "Pó&sćel"
-
-#: kmsearchpattern.h:259
-#, fuzzy
-msgctxt "message status"
-msgid "Watched"
-msgstr "&Připójsnyć"
-
-#: kmsearchpattern.h:260
-#, fuzzy
-msgctxt "message status"
-msgid "Ignored"
-msgstr "&Ignorować"
-
-#: kmsearchpattern.h:261
-#, fuzzy
-msgctxt "message status"
-msgid "Spam"
-msgstr "Čitane"
-
-#: kmsearchpattern.h:262
-#, fuzzy
-msgctxt "message status"
-msgid "Ham"
-msgstr "Čitane"
-
-#: kmsearchpattern.h:263
-#, fuzzy
-msgctxt "message status"
-msgid "Has Attachment"
-msgstr "Přiwěšk: "
-
-#: folderrequester.cpp:90
-#, fuzzy
-msgid "Select Folder"
-msgstr "Zapisk zničić"
-
-#: folderrequester.cpp:126
-msgid "Local Folders"
-msgstr "Lokalne zapiski"
-
-#: folderrequester.cpp:149
-#, fuzzy, kde-format
-msgid "Unknown folder '%1'"
-msgstr "&Pokaž chowane zapiski"
-
-#: folderrequester.cpp:151
-#, fuzzy
-msgid "Please select a folder"
-msgstr "Zapisk zničić"
-
-#: util.cpp:186
-#, fuzzy
-msgid "Could not start the account wizard. Please check your installation."
-msgstr ""
-"Njemóžach certifikatowy manager startować. Prošu přepruwujće swoju "
-"instalaciju!"
-
-#: util.cpp:188
-#, fuzzy
-#| msgid "Unable to create account"
-msgid "Unable to start account wizard"
-msgstr "Njemóžach konto stworić"
-
-#: messageactions.cpp:60
-#, fuzzy
-msgctxt "Message->"
-msgid "&Reply"
-msgstr "&Dopósłać"
-
-#: messageactions.cpp:72
-#, fuzzy
-msgid "Reply to A&uthor..."
-msgstr "Wšě&m wotmołwić..."
-
-#: messageactions.cpp:93
-msgid "Reply Without &Quote..."
-msgstr "Bje&z citowanja wotmołwić"
-
-#: messageactions.cpp:100
-msgid "Create To-do/Reminder..."
-msgstr ""
-
-#: messageactions.cpp:101
-msgid "Create To-do"
-msgstr ""
-
-#: messageactions.cpp:102
-msgid "Allows you to create a calendar to-do or reminder from this message"
-msgstr ""
-
-#: messageactions.cpp:103
-msgid ""
-"This option starts the KOrganizer to-do editor with initial values taken "
-"from the currently selected message. Then you can edit the to-do to your "
-"liking before saving it to your calendar."
-msgstr ""
-
-#: messageactions.cpp:110
-msgid "Mar&k Message"
-msgstr "Powěsć mar&kěrować"
-
-#: messageactions.cpp:115
-msgid "Mark Message as &Read"
-msgstr "Powěsć ma&rkěrować jako čitanu"
-
-#: messageactions.cpp:116
-msgid "Mark selected messages as read"
-msgstr "Wubrane powěsće markěrować jako čitane"
-
-#: messageactions.cpp:122
-msgid "Mark Message as &Unread"
-msgstr "Powěsć markěrować jako nječitan&u"
-
-#: messageactions.cpp:123
-msgid "Mark selected messages as unread"
-msgstr "Wubrane powěsće mar&kěrować jako nječitane"
-
-#: messageactions.cpp:133
-msgid "Mark Message as &Important"
-msgstr "Powěsć markěrować jako &wažnu"
-
-#: messageactions.cpp:137
-#, fuzzy
-msgid "Remove &Important Message Mark"
-msgstr "Wažna powěsć"
-
-#: messageactions.cpp:138
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Important"
-msgid "Important"
-msgstr "Wažne"
-
-#: messageactions.cpp:143
-#, fuzzy
-#| msgid "Mark Message as &New"
-msgid "Mark Message as &Action Item"
-msgstr "Powěsć mar&kěrować jako nowu"
-
-#: messageactions.cpp:146
-#, fuzzy
-msgid "Remove &Action Item Message Mark"
-msgstr "Wažna powěsć"
-
-#: messageactions.cpp:147
-#, fuzzy
-msgid "Action Item"
-msgstr "Wažna powěsć"
-
-#: messageactions.cpp:151
-msgid "&Edit Message"
-msgstr "Powěsć &wobdźěłać"
-
-#: messageactions.cpp:157 messageactions.cpp:577
-#, fuzzy
-#| msgid "Add..."
-msgid "Add Note..."
-msgstr "Dodać..."
-
-#: messageactions.cpp:169
-#, fuzzy
-#| msgid "Add Attachment..."
-msgctxt "@action:inmenu Message->Forward->"
-msgid "As &Attachment..."
-msgstr "Dodaj přiwěšk..."
-
-#: messageactions.cpp:177
-#, fuzzy
-#| msgctxt "View->attachments->"
-#| msgid "&Inline"
-msgctxt "@action:inmenu Message->Forward->"
-msgid "&Inline..."
-msgstr "&w powěsći"
-
-#: messageactions.cpp:185
-msgctxt "Message->Forward->"
-msgid "&Redirect..."
-msgstr "Do&pósłać..."
-
-#: messageactions.cpp:194
-#, fuzzy
-#| msgid "Reply to Mailing-&List..."
-msgctxt "Message->"
-msgid "Mailing-&List"
-msgstr "&Lisćinje wotmołwić..."
-
-#: messageactions.cpp:325
-#, fuzzy
-msgid "Open Message in List Archive"
-msgstr "PGP-ŝifrowana powěsć - njekorektna signatura"
-
-#: messageactions.cpp:327
-#, fuzzy
-#| msgid "New Message"
-msgid "Post New Message"
-msgstr "Nowa powěsć"
-
-#: messageactions.cpp:329
-#, fuzzy
-msgid "Go to Archive"
-msgstr "Lisćina:"
-
-#: messageactions.cpp:331
-#, fuzzy
-msgid "Request Help"
-msgstr "Lisćina"
-
-#: messageactions.cpp:333
-#, fuzzy
-#| msgid "Contacts"
-msgid "Contact Owner"
-msgstr "Kontakty"
-
-#: messageactions.cpp:335 mailinglistpropertiesdialog.cpp:154
-msgid "Subscribe to List"
-msgstr ""
-
-#: messageactions.cpp:337
-msgid "Unsubscribe from List"
-msgstr ""
-
-#: messageactions.cpp:530
-#, fuzzy
-msgid "email"
-msgstr "KMail"
-
-#: messageactions.cpp:533
-msgid "web"
-msgstr ""
-
-#: messageactions.cpp:536
-#, fuzzy, kde-format
-msgctxt ""
-"%1 is a 'Contact Owner' or similar action. %2 is a protocol normally web or "
-"email though could be irc/ftp or other url variant"
-msgid "%1 (%2)"
-msgstr "KMail"
-
-#: messageactions.cpp:579
-#, fuzzy
-msgid "Edit Note..."
-msgstr "wobdźěłać..."
-
-#: backupjob.cpp:100
-#, fuzzy
-msgid "Unable to retrieve folder list."
-msgstr "%1 powěsćow, %2."
-
-#: backupjob.cpp:124
-msgid "The operation was canceled by the user."
-msgstr ""
-
-#: backupjob.cpp:151
-#, fuzzy, kde-format
-msgid "Failed to archive the folder '%1'."
-msgstr "Njemóžach zapisk stworić"
-
-#: backupjob.cpp:153
-#, fuzzy
-#| msgid "Transmission failed."
-msgid "Archiving failed."
-msgstr "Přenjesenje zwrěšćene."
-
-#: backupjob.cpp:162
-msgid "Unable to finalize the archive file."
-msgstr ""
-
-#: backupjob.cpp:167
-msgid "Archiving finished"
-msgstr ""
-
-#: backupjob.cpp:172
-#, kde-format
-msgid ""
-"Archiving folder '%1' successfully completed. The archive was written to the "
-"file '%2'."
-msgstr ""
-
-#: backupjob.cpp:175
-#, kde-format
-msgid "1 message of size %2 was archived."
-msgid_plural "%1 messages with the total size of %2 were archived."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: backupjob.cpp:178
-#, kde-format
-msgid "The archive file has a size of %1."
-msgstr ""
-
-#: backupjob.cpp:180
-msgid "Archiving finished."
-msgstr ""
-
-#: backupjob.cpp:229
-#, fuzzy, kde-format
-msgid "Failed to write a message into the archive folder '%1'."
-msgstr "in"
-
-#: backupjob.cpp:252
-#, fuzzy, kde-format
-msgid "Downloading a message in folder '%1' failed."
-msgstr "Přesuwam powěsć %3 z %2 wot %1."
-
-#: backupjob.cpp:317
-#, fuzzy, kde-format
-msgid "Archiving folder %1"
-msgstr "Nastajenje zapiskow"
-
-#: backupjob.cpp:334
-#, kde-format
-msgid "Unable to create folder structure for folder '%1' within archive file."
-msgstr ""
-
-#: backupjob.cpp:348
-#, fuzzy, kde-format
-msgid "Unable to get message list for folder %1."
-msgstr "%1 powěsćow, %2."
-
-#: backupjob.cpp:388
-#, fuzzy
-#| msgid "Unable to verify: key missing."
-msgid "Unable to open archive for writing."
-msgstr "Njemóžu werifikować: kluč faluje."
-
-#: backupjob.cpp:394
-#, fuzzy
-#| msgid "&Receiving"
-msgid "Archiving"
-msgstr "&Dóstawanje"
-
-#: kmkernel.cpp:897
-msgid "KMail is set to be offline; all network jobs are suspended"
-msgstr ""
-
-#: kmkernel.cpp:913
-msgid "KMail is set to be online; all network jobs resumed"
-msgstr ""
-
-#: kmkernel.cpp:964
-msgid "KMail is currently in offline mode. How do you want to proceed?"
-msgstr ""
-
-#: kmkernel.cpp:966 kmcomposewin.cpp:2435
-msgid "Online/Offline"
-msgstr ""
-
-#: kmkernel.cpp:967 kmmainwidget.cpp:2413
-msgid "Work Online"
-msgstr ""
-
-#: kmkernel.cpp:968 kmmainwidget.cpp:2409
-msgid "Work Offline"
-msgstr ""
-
-#: kmkernel.cpp:1066
-#, kde-format
-msgid ""
-"Failed to open autosave file at %1.\n"
-"Reason: %2"
-msgstr ""
-
-#: kmkernel.cpp:1068
-#, fuzzy
-msgid "Opening Autosave File Failed"
-msgstr "Přesuwam powěsć %3 z %2 wot %1."
-
-#: kmkernel.cpp:1078 kmkernel.cpp:1098
-#, fuzzy
-msgid "You do not have read/write permission to your inbox folder."
-msgstr "póštowy kašćik."
-
-#: kmkernel.cpp:1420
-#, fuzzy
-msgid "KMail encountered a fatal error and will terminate now"
-msgstr "KMail"
-
-#: kmkernel.cpp:1423
-#, fuzzy, kde-format
-msgid ""
-"KMail encountered a fatal error and will terminate now.\n"
-"The error was:\n"
-"%1"
-msgstr "KMail"
-
-#: kmkernel.cpp:1571 kmmainwidget.cpp:1441
-msgid "Empty Trash"
-msgstr "Papjernik wuprózdnić"
-
-#: kmkernel.cpp:1572
-msgid "Are you sure you want to empty the trash folders of all accounts?"
-msgstr ""
-
-#: kmkernel.cpp:1787
-#, kde-format
-msgid "This identity has been changed to use the default transport:"
-msgid_plural ""
-"These %1 identities have been changed to use the default transport:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: kmkernel.cpp:1810
-#, kde-format
-msgid "This identity has been changed to use the modified transport:"
-msgid_plural ""
-"These %1 identities have been changed to use the modified transport:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: kmkernel.cpp:1824
-#, fuzzy
-msgid "Sending messages"
-msgstr "HTML-powěsće"
-
-#: kmkernel.cpp:1825
-msgid "Initiating sending process..."
-msgstr ""
-
-#: collectiongeneralpage.cpp:54
-#, fuzzy
-msgctxt "@title:tab General settings for a folder."
-msgid "General"
-msgstr "Generelnje"
-
-#: collectiongeneralpage.cpp:108
-#, fuzzy
-msgctxt "type of folder content"
-msgid "Mail"
-msgstr "KMail"
-
-#: collectiongeneralpage.cpp:109
-#, fuzzy
-#| msgid "Calendar"
-msgctxt "type of folder content"
-msgid "Calendar"
-msgstr "Protyka"
-
-#: collectiongeneralpage.cpp:110
-#, fuzzy
-#| msgid "Contacts"
-msgctxt "type of folder content"
-msgid "Contacts"
-msgstr "Kontakty"
-
-#: collectiongeneralpage.cpp:111
-#, fuzzy
-#| msgid "Notes"
-msgctxt "type of folder content"
-msgid "Notes"
-msgstr "Přispomnjenja"
-
-#: collectiongeneralpage.cpp:112
-#, fuzzy
-#| msgid "Tasks"
-msgctxt "type of folder content"
-msgid "Tasks"
-msgstr "Nadawki"
-
-#: collectiongeneralpage.cpp:113
-#, fuzzy
-#| msgid "Journal"
-msgctxt "type of folder content"
-msgid "Journal"
-msgstr "Protokol"
-
-#: collectiongeneralpage.cpp:114
-#, fuzzy
-#| msgid "Unknown"
-msgctxt "type of folder content"
-msgid "Unknown"
-msgstr "Njeznaju"
-
-#: collectiongeneralpage.cpp:142
-#, fuzzy
-#| msgid "&Name:"
-msgctxt "@label:textbox Name of the folder."
-msgid "&Name:"
-msgstr "&Mjeno:"
-
-#: collectiongeneralpage.cpp:158
-#, fuzzy
-msgid "Act on new/unread mail in this folder"
-msgstr "Do tutoho zapiska kopěrować"
-
-#: collectiongeneralpage.cpp:160
-msgid ""
-"<qt><p>If this option is enabled then you will be notified about new/unread "
-"mail in this folder. Moreover, going to the next/previous folder with unread "
-"messages will stop at this folder.</p><p>Uncheck this option if you do not "
-"want to be notified about new/unread mail in this folder and if you want "
-"this folder to be skipped when going to the next/previous folder with unread "
-"messages. This is useful for ignoring any new/unread mail in your trash and "
-"spam folder.</p></qt>"
-msgstr ""
-
-#: collectiongeneralpage.cpp:178
-#, fuzzy
-msgid "Include this folder in mail checks"
-msgstr "Do manualneho přepruwowanja mailkow &přiwzać"
-
-#: collectiongeneralpage.cpp:180
-msgid ""
-"<qt><p>If this option is enabled this folder will be included while checking "
-"new emails.</p><p>Uncheck this option if you want to skip this folder while "
-"checking new emails.</p></qt>"
-msgstr ""
-
-#: collectiongeneralpage.cpp:196
-#, fuzzy
-msgid "Keep replies in this folder"
-msgstr "Z&nič stare powěsće w tutym zapisku"
-
-#: collectiongeneralpage.cpp:198
-msgid ""
-"Check this option if you want replies you write to mails in this folder to "
-"be put in this same folder after sending, instead of in the configured sent-"
-"mail folder."
-msgstr ""
-
-#: collectiongeneralpage.cpp:209
-msgid "Hide this folder in the folder selection dialog"
-msgstr ""
-
-#: collectiongeneralpage.cpp:211
-msgctxt "@info:whatsthis"
-msgid ""
-"Check this option if you do not want this folder to be shown in folder "
-"selection dialogs, such as the <interface>Jump to Folder</interface> dialog."
-msgstr ""
-
-#: collectiongeneralpage.cpp:228
-#, fuzzy
-msgid "Use &default identity"
-msgstr "Wotst&ronić"
-
-#: collectiongeneralpage.cpp:234
-#, fuzzy
-msgid "&Sender identity:"
-msgstr "Nowa identita"
-
-#: collectiongeneralpage.cpp:240
-msgid ""
-"Select the sender identity to be used when writing new mail or replying to "
-"mail in this folder. This means that if you are in one of your work folders, "
-"you can make KMail use the corresponding sender email address, signature and "
-"signing or encryption keys automatically. Identities can be set up in the "
-"main configuration dialog. (Settings -> Configure KMail)"
-msgstr ""
-
-#: collectiongeneralpage.cpp:262
-#, fuzzy
-msgid "&Folder contents:"
-msgstr "Piktogramy za zapiski"
-
-#: collectiongeneralpage.cpp:296
-msgid "Generate free/&busy and activate alarms for:"
-msgstr ""
-
-#: collectiongeneralpage.cpp:302
-#, fuzzy
-msgid "Nobody"
-msgstr "<tekst>"
-
-#: collectiongeneralpage.cpp:303
-#, fuzzy
-msgid "Admins of This Folder"
-msgstr "Z&nič stare powěsće w tutym zapisku"
-
-#: collectiongeneralpage.cpp:304
-#, fuzzy
-msgid "All Readers of This Folder"
-msgstr "Z&nič stare powěsće w tutym zapisku"
-
-#: collectiongeneralpage.cpp:306
-msgid ""
-"This setting defines which users sharing this folder should get \"busy\" "
-"periods in their freebusy lists and should see the alarms for the events or "
-"tasks in this folder. The setting applies to Calendar and Task folders only "
-"(for tasks, this setting is only used for alarms).\n"
-"\n"
-"Example use cases: if the boss shares a folder with his secretary, only the "
-"boss should be marked as busy for his meetings, so he should select \"Admins"
-"\", since the secretary has no admin rights on the folder.\n"
-"On the other hand if a working group shares a Calendar for group meetings, "
-"all readers of the folders should be marked as busy for meetings.\n"
-"A company-wide folder with optional events in it would use \"Nobody\" since "
-"it is not known who will go to those events."
-msgstr ""
-
-#: collectiongeneralpage.cpp:327
-msgid "This setting allows you to disable alarms for folders shared by others."
-msgstr ""
-
-#: collectiongeneralpage.cpp:329
-msgid "Block alarms locally"
-msgstr ""
-
-#: collectiongeneralpage.cpp:339
-msgid "Share unread state with all users"
-msgstr ""
-
-#: collectiongeneralpage.cpp:343
-msgid ""
-"If enabled, the unread state of messages in this folder will be the same for "
-"all users having access to this folder. If disabled (the default), every "
-"user with access to this folder has their own unread state."
-msgstr ""
-
-#: redirectdialog.cpp:56
-#, fuzzy
-msgid "Redirect Message"
-msgstr "Powěsće zničić"
-
-#: redirectdialog.cpp:61
-msgid "Select the recipient &addresses to redirect to:"
-msgstr ""
-
-#: redirectdialog.cpp:76
-msgid "Use the Address-Selection Dialog"
-msgstr ""
-
-#: redirectdialog.cpp:77
-msgid ""
-"This button opens a separate dialog where you can select recipients out of "
-"all available addresses."
-msgstr ""
-
-#: redirectdialog.cpp:87 kmcomposewin.cpp:2635
-msgid "&Send Now"
-msgstr "&Nětko pósłać"
-
-#: redirectdialog.cpp:88 kmcomposewin.cpp:1075 kmcomposewin.cpp:1084
-#: kmcomposewin.cpp:2636
-msgid "Send &Later"
-msgstr "&Pozdźišo pósłać"
-
-#: redirectdialog.cpp:122
-msgid "You cannot redirect the message without an address."
-msgstr ""
-
-#: redirectdialog.cpp:123
-#, fuzzy
-msgid "Empty Redirection Address"
-msgstr "Wočinić w adresniku"
-
-#: addressvalidationjob.cpp:69
-#, kde-format
-msgid "Distribution list \"%1\" is empty, it cannot be used."
-msgstr ""
-
-#: addressvalidationjob.cpp:71 addressvalidationjob.cpp:80
-#: identitydialog.cpp:594
-#, fuzzy
-msgid "Invalid Email Address"
-msgstr "emailowa adresa"
-
-#: rulewidgethandlermanager.cpp:406 rulewidgethandlermanager.cpp:726
-#: rulewidgethandlermanager.cpp:1233
-msgid "contains"
-msgstr "wobsahuje"
-
-#: rulewidgethandlermanager.cpp:407 rulewidgethandlermanager.cpp:727
-#: rulewidgethandlermanager.cpp:1234
-#, fuzzy
-msgid "does not contain"
-msgstr "njewobsahuje"
-
-#: rulewidgethandlermanager.cpp:408 rulewidgethandlermanager.cpp:1235
-msgid "equals"
-msgstr "je runja"
-
-#: rulewidgethandlermanager.cpp:409 rulewidgethandlermanager.cpp:1236
-#, fuzzy
-msgid "does not equal"
-msgstr "njeje runja"
-
-#: rulewidgethandlermanager.cpp:410 rulewidgethandlermanager.cpp:728
-#: rulewidgethandlermanager.cpp:1237
-msgid "matches regular expr."
-msgstr "wotpowěduje prawidłownemu wurazej"
-
-#: rulewidgethandlermanager.cpp:411 rulewidgethandlermanager.cpp:729
-#: rulewidgethandlermanager.cpp:1238
-#, fuzzy
-msgid "does not match reg. expr."
-msgstr "njewotpowěduje prawidłownemu wurazej"
-
-#: rulewidgethandlermanager.cpp:412 rulewidgethandlermanager.cpp:553
-#, fuzzy
-msgid "is in address book"
-msgstr "Wočinić w adresniku"
-
-#: rulewidgethandlermanager.cpp:413 rulewidgethandlermanager.cpp:555
-#, fuzzy
-msgid "is not in address book"
-msgstr "Wočinić w adresniku"
-
-#: rulewidgethandlermanager.cpp:414
-msgid "is in category"
-msgstr ""
-
-#: rulewidgethandlermanager.cpp:415
-msgid "is not in category"
-msgstr ""
-
-#: rulewidgethandlermanager.cpp:730 rulewidgethandlermanager.cpp:850
-#, fuzzy
-msgid "has an attachment"
-msgstr "Přiwěšk: "
-
-#: rulewidgethandlermanager.cpp:731 rulewidgethandlermanager.cpp:852
-#, fuzzy
-msgid "has no attachment"
-msgstr "Přiwěšk: "
-
-#: rulewidgethandlermanager.cpp:993
-#, fuzzy
-msgid "is"
-msgstr "Lisćina"
-
-#: rulewidgethandlermanager.cpp:994
-#, fuzzy
-msgid "is not"
-msgstr "Lisćina"
-
-#: rulewidgethandlermanager.cpp:1503
-#, fuzzy
-msgid "is equal to"
-msgstr "je mjenje abo runja"
-
-#: rulewidgethandlermanager.cpp:1504
-#, fuzzy
-msgid "is not equal to"
-msgstr "je mjenje abo runja"
-
-#: rulewidgethandlermanager.cpp:1505
-msgid "is greater than"
-msgstr "je wjace hač"
-
-#: rulewidgethandlermanager.cpp:1506
-msgid "is less than or equal to"
-msgstr "je mjenje abo runja"
-
-#: rulewidgethandlermanager.cpp:1507
-msgid "is less than"
-msgstr "je mjenje hač"
-
-#: rulewidgethandlermanager.cpp:1508
-msgid "is greater than or equal to"
-msgstr "je wjace abo runja"
-
-#: rulewidgethandlermanager.cpp:1650
-#, fuzzy
-msgid " bytes"
-msgstr " byte"
-
-#: rulewidgethandlermanager.cpp:1655
-#, fuzzy
-msgctxt "Unit suffix where units are days."
-msgid " days"
-msgstr "s"
-
-#: kmcommands.cpp:292
-msgid "Please wait"
-msgstr "Prošu dočakajće"
-
-#: kmcommands.cpp:293 kmcommands.cpp:365
-#, kde-format
-msgid "Please wait while the message is transferred"
-msgid_plural "Please wait while the %1 messages are transferred"
-msgstr[0] "Prošu dočakajće, doniž so njejsu te %1 powěsćow přenjesli."
-msgstr[1] "Prošu dočakajće, doniž so njeje ta %1 powěsć přenjesła."
-msgstr[2] "Prošu dočakajće, doniž so njejstej tej %1 powěsći přenjesłoj."
-msgstr[3] "Prošu dočakajće, doniž so njejsu te %1 powěsće přenjesli."
-
-#: kmcommands.cpp:522
-#, fuzzy, kde-format
-#| msgid "<qt>File <b>%1</b> exists.<br>Do you want to replace it?</qt>"
-msgctxt "@info"
-msgid "File <filename>%1</filename> exists.<nl/>Do you want to replace it?"
-msgstr "<qt>Dataja<b>%1</b> eksistuje.<br>Chceće ju narunać?</qt>"
-
-#: kmcommands.cpp:523 kmcommands.cpp:810
-msgid "Save to File"
-msgstr "Do dataje zawěsćić"
-
-#: kmcommands.cpp:523 kmcommands.cpp:810
-msgid "&Replace"
-msgstr "Na&runać"
-
-#: kmcommands.cpp:633
-msgid ""
-"*.mbox|email messages (*.mbox)\n"
-"*|all files (*)"
-msgstr ""
-
-#: kmcommands.cpp:809
-#, kde-format
-msgid ""
-"File %1 exists.\n"
-"Do you want to replace it?"
-msgstr ""
-"Dataja %1 eksistuje?\n"
-"Chceće ju přepisać?"
-
-#: kmcommands.cpp:853
-msgid "Open Message"
-msgstr "Powěsć wočinić"
-
-#: kmcommands.cpp:890 kmcommands.cpp:916
-#, fuzzy
-msgid "The file does not contain a message."
-msgstr "njewobsahuje"
-
-#: kmcommands.cpp:936
-msgid "The file contains multiple messages. Only the first message is shown."
-msgstr ""
-
-#: kmcommands.cpp:1132
-msgid ""
-"Do you want to forward the selected messages as attachments in one message "
-"(as a MIME digest) or as individual messages?"
-msgstr ""
-
-#: kmcommands.cpp:1135
-#, fuzzy
-msgid "Send As Digest"
-msgstr "&Nješifrowane zawěsćić"
-
-#: kmcommands.cpp:1136
-msgid "Send Individually"
-msgstr ""
-
-#: kmcommands.cpp:1632 kmmainwidget.cpp:2205
-#, fuzzy
-msgid "Filtering messages"
-msgstr "Powěsće zničić"
-
-#: kmcommands.cpp:1639 kmmainwidget.cpp:2246
-#, fuzzy, kde-format
-msgid "Filtering message %1 of %2"
-msgstr "Přesuwam powěsć %3 z %2 wot %1."
-
-#: kmcommands.cpp:1649
-#, fuzzy
-msgid "Not enough free disk space?"
-msgstr "Rum na disku njedosaha."
-
-#: kmcommands.cpp:1815
-#, fuzzy
-msgid "Moving messages"
-msgstr "Přesuwam powěsć %3 z %2 wot %1."
-
-#: kmcommands.cpp:1815
-#, fuzzy
-msgid "Deleting messages"
-msgstr "Powěsće zničić"
-
-#: kmcommands.cpp:1891
-#, fuzzy
-msgid "Found no attachments to save."
-msgstr "Njepokazuje přiwěški w powěsći samej"
-
-#: kmcommands.cpp:2020
-#, kde-format
-msgid ""
-"From: %1\n"
-"To: %2\n"
-"Subject: %3"
-msgstr ""
-
-#: kmcommands.cpp:2034
-#, fuzzy, kde-format
-msgid "Mail: %1"
-msgstr "KMail"
-
-#: kmsystemtray.cpp:70 kmstartup.cpp:104 mailinglistpropertiesdialog.cpp:113
-#: aboutdata.cpp:240
-msgid "KMail"
-msgstr "KMail"
-
-#: kmsystemtray.cpp:252
-#, fuzzy
-msgid "New Messages In"
-msgstr "Nowe in."
-
-#: kmsystemtray.cpp:405
-#, fuzzy
-msgid "There are no unread messages"
-msgstr "&Stare powěsće zwumjetać"
-
-#: kmsystemtray.cpp:406
-#, fuzzy, kde-format
-#| msgid "Unread Message"
-msgid "1 unread message"
-msgid_plural "%1 unread messages"
-msgstr[0] "Nječitana powěsć"
-msgstr[1] "Nječitana powěsć"
-msgstr[2] "Nječitana powěsć"
-msgstr[3] "Nječitana powěsć"
-
-#: folderselectiondialog.cpp:61
-msgid "&New Subfolder..."
-msgstr "&Nowy podzapisk..."
-
-#: folderselectiondialog.cpp:62
-msgid "Create a new subfolder under the currently selected folder"
-msgstr ""
-
-#: folderselectiondialog.cpp:137
-#, fuzzy
-msgctxt "@title:window"
-msgid "New Folder"
-msgstr "&Nowy Zapisk..."
-
-#: folderselectiondialog.cpp:138
-#, fuzzy
-#| msgid "Name"
-msgctxt "@label:textbox, name of a thing"
-msgid "Name"
-msgstr "Mjeno"
-
-#: folderselectiondialog.cpp:154
-#, fuzzy, kde-format
-msgid "Could not create folder: %1"
-msgstr "Njemóžach zapisk stworić"
-
-#: folderselectiondialog.cpp:155
-#, fuzzy
-#| msgid "Folder &location:"
-msgid "Folder creation failed"
-msgstr "Městno &zapiska:"
-
-#: identitylistview.cpp:98
-#, kde-format
-msgctxt ""
-"%1: identity name. Used in the config dialog, section Identity, to indicate "
-"the default identity"
-msgid "%1 (Default)"
-msgstr "%1 (standard)"
-
-#: identitylistview.cpp:118
-msgid "Identity Name"
-msgstr "Mjeno identity"
-
-#: identitylistview.cpp:118
-msgid "Email Address"
-msgstr "emailowa adresa"
-
-#: kmstartup.cpp:158
-#, kde-format
-msgid ""
-"%1 already seems to be running on another display on this machine. Running %"
-"2 more than once can cause the loss of mail. You should not start %1 unless "
-"you are sure that it is not already running."
-msgstr ""
-
-#: kmstartup.cpp:168
-#, kde-format
-msgid ""
-"%1 seems to be running on another display on this machine. Running %1 and %2 "
-"at the same time can cause the loss of mail. You should not start %2 unless "
-"you are sure that %1 is not running."
-msgstr ""
-
-#: kmstartup.cpp:176
-#, kde-format
-msgid ""
-"%1 already seems to be running on %2. Running %1 more than once can cause "
-"the loss of mail. You should not start %1 on this computer unless you are "
-"sure that it is not already running on %2."
-msgstr ""
-
-#: kmstartup.cpp:182
-#, kde-format
-msgid ""
-"%1 seems to be running on %3. Running %1 and %2 at the same time can cause "
-"the loss of mail. You should not start %2 on this computer unless you are "
-"sure that %1 is not running on %3."
-msgstr ""
-
-#: kmstartup.cpp:192
-#, fuzzy, kde-format
-msgctxt "Start kmail even when another instance is running."
-msgid "Start %1"
-msgstr "Staw: "
-
-#: kmstartup.cpp:193
-#, fuzzy
-msgctxt "Do not start another kmail instance."
-msgid "Exit"
-msgstr "wobdźěłać..."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -4024,6 +2846,1184 @@ msgid ""
 "Check if there is still an active out-of-office reply configured when "
 "starting KMail."
 msgstr ""
+
+#: kmsearchpattern.h:249
+#, fuzzy
+msgctxt "message status"
+msgid "Important"
+msgstr "&Importować"
+
+#: kmsearchpattern.h:250
+msgctxt "message status"
+msgid "Action Item"
+msgstr ""
+
+#: kmsearchpattern.h:251
+#, fuzzy
+#| msgid "New"
+msgctxt "message status"
+msgid "New"
+msgstr "Nowe"
+
+#: kmsearchpattern.h:252
+#, fuzzy
+#| msgid "Unread"
+msgctxt "message status"
+msgid "Unread"
+msgstr "Nječitane"
+
+#: kmsearchpattern.h:253
+#, fuzzy
+msgctxt "message status"
+msgid "Read"
+msgstr "Hotowo."
+
+#: kmsearchpattern.h:254
+#, fuzzy
+msgctxt "message status"
+msgid "Deleted"
+msgstr "Z&ničić"
+
+#: kmsearchpattern.h:255
+#, fuzzy
+msgctxt "message status"
+msgid "Replied"
+msgstr "Na&runać"
+
+#: kmsearchpattern.h:256
+#, fuzzy
+msgctxt "message status"
+msgid "Forwarded"
+msgstr "Do&pósłać:"
+
+#: kmsearchpattern.h:257
+#, fuzzy
+msgctxt "message status"
+msgid "Queued"
+msgstr "Do ča&karnje"
+
+#: kmsearchpattern.h:258
+#, fuzzy
+msgctxt "message status"
+msgid "Sent"
+msgstr "Pó&sćel"
+
+#: kmsearchpattern.h:259
+#, fuzzy
+msgctxt "message status"
+msgid "Watched"
+msgstr "&Připójsnyć"
+
+#: kmsearchpattern.h:260
+#, fuzzy
+msgctxt "message status"
+msgid "Ignored"
+msgstr "&Ignorować"
+
+#: kmsearchpattern.h:261
+#, fuzzy
+msgctxt "message status"
+msgid "Spam"
+msgstr "Čitane"
+
+#: kmsearchpattern.h:262
+#, fuzzy
+msgctxt "message status"
+msgid "Ham"
+msgstr "Čitane"
+
+#: kmsearchpattern.h:263
+#, fuzzy
+msgctxt "message status"
+msgid "Has Attachment"
+msgstr "Přiwěšk: "
+
+#: folderrequester.cpp:90
+#, fuzzy
+msgid "Select Folder"
+msgstr "Zapisk zničić"
+
+#: folderrequester.cpp:126
+msgid "Local Folders"
+msgstr "Lokalne zapiski"
+
+#: folderrequester.cpp:149
+#, fuzzy, kde-format
+msgid "Unknown folder '%1'"
+msgstr "&Pokaž chowane zapiski"
+
+#: folderrequester.cpp:151
+#, fuzzy
+msgid "Please select a folder"
+msgstr "Zapisk zničić"
+
+#: util.cpp:186
+#, fuzzy
+msgid "Could not start the account wizard. Please check your installation."
+msgstr ""
+"Njemóžach certifikatowy manager startować. Prošu přepruwujće swoju "
+"instalaciju!"
+
+#: util.cpp:188
+#, fuzzy
+#| msgid "Unable to create account"
+msgid "Unable to start account wizard"
+msgstr "Njemóžach konto stworić"
+
+#: messageactions.cpp:60
+#, fuzzy
+msgctxt "Message->"
+msgid "&Reply"
+msgstr "&Dopósłać"
+
+#: messageactions.cpp:72
+#, fuzzy
+msgid "Reply to A&uthor..."
+msgstr "Wšě&m wotmołwić..."
+
+#: messageactions.cpp:93
+msgid "Reply Without &Quote..."
+msgstr "Bje&z citowanja wotmołwić"
+
+#: messageactions.cpp:100
+msgid "Create To-do/Reminder..."
+msgstr ""
+
+#: messageactions.cpp:101
+msgid "Create To-do"
+msgstr ""
+
+#: messageactions.cpp:102
+msgid "Allows you to create a calendar to-do or reminder from this message"
+msgstr ""
+
+#: messageactions.cpp:103
+msgid ""
+"This option starts the KOrganizer to-do editor with initial values taken "
+"from the currently selected message. Then you can edit the to-do to your "
+"liking before saving it to your calendar."
+msgstr ""
+
+#: messageactions.cpp:110
+msgid "Mar&k Message"
+msgstr "Powěsć mar&kěrować"
+
+#: messageactions.cpp:115
+msgid "Mark Message as &Read"
+msgstr "Powěsć ma&rkěrować jako čitanu"
+
+#: messageactions.cpp:116
+msgid "Mark selected messages as read"
+msgstr "Wubrane powěsće markěrować jako čitane"
+
+#: messageactions.cpp:122
+msgid "Mark Message as &Unread"
+msgstr "Powěsć markěrować jako nječitan&u"
+
+#: messageactions.cpp:123
+msgid "Mark selected messages as unread"
+msgstr "Wubrane powěsće mar&kěrować jako nječitane"
+
+#: messageactions.cpp:133
+msgid "Mark Message as &Important"
+msgstr "Powěsć markěrować jako &wažnu"
+
+#: messageactions.cpp:137
+#, fuzzy
+msgid "Remove &Important Message Mark"
+msgstr "Wažna powěsć"
+
+#: messageactions.cpp:138
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Important"
+msgid "Important"
+msgstr "Wažne"
+
+#: messageactions.cpp:143
+#, fuzzy
+#| msgid "Mark Message as &New"
+msgid "Mark Message as &Action Item"
+msgstr "Powěsć mar&kěrować jako nowu"
+
+#: messageactions.cpp:146
+#, fuzzy
+msgid "Remove &Action Item Message Mark"
+msgstr "Wažna powěsć"
+
+#: messageactions.cpp:147
+#, fuzzy
+msgid "Action Item"
+msgstr "Wažna powěsć"
+
+#: messageactions.cpp:151
+msgid "&Edit Message"
+msgstr "Powěsć &wobdźěłać"
+
+#: messageactions.cpp:157 messageactions.cpp:577
+#, fuzzy
+#| msgid "Add..."
+msgid "Add Note..."
+msgstr "Dodać..."
+
+#: messageactions.cpp:169
+#, fuzzy
+#| msgid "Add Attachment..."
+msgctxt "@action:inmenu Message->Forward->"
+msgid "As &Attachment..."
+msgstr "Dodaj přiwěšk..."
+
+#: messageactions.cpp:177
+#, fuzzy
+#| msgctxt "View->attachments->"
+#| msgid "&Inline"
+msgctxt "@action:inmenu Message->Forward->"
+msgid "&Inline..."
+msgstr "&w powěsći"
+
+#: messageactions.cpp:185
+msgctxt "Message->Forward->"
+msgid "&Redirect..."
+msgstr "Do&pósłać..."
+
+#: messageactions.cpp:194
+#, fuzzy
+#| msgid "Reply to Mailing-&List..."
+msgctxt "Message->"
+msgid "Mailing-&List"
+msgstr "&Lisćinje wotmołwić..."
+
+#: messageactions.cpp:325
+#, fuzzy
+msgid "Open Message in List Archive"
+msgstr "PGP-ŝifrowana powěsć - njekorektna signatura"
+
+#: messageactions.cpp:327
+#, fuzzy
+#| msgid "New Message"
+msgid "Post New Message"
+msgstr "Nowa powěsć"
+
+#: messageactions.cpp:329
+#, fuzzy
+msgid "Go to Archive"
+msgstr "Lisćina:"
+
+#: messageactions.cpp:331
+#, fuzzy
+msgid "Request Help"
+msgstr "Lisćina"
+
+#: messageactions.cpp:333
+#, fuzzy
+#| msgid "Contacts"
+msgid "Contact Owner"
+msgstr "Kontakty"
+
+#: messageactions.cpp:335 mailinglistpropertiesdialog.cpp:154
+msgid "Subscribe to List"
+msgstr ""
+
+#: messageactions.cpp:337
+msgid "Unsubscribe from List"
+msgstr ""
+
+#: messageactions.cpp:530
+#, fuzzy
+msgid "email"
+msgstr "KMail"
+
+#: messageactions.cpp:533
+msgid "web"
+msgstr ""
+
+#: messageactions.cpp:536
+#, fuzzy, kde-format
+msgctxt ""
+"%1 is a 'Contact Owner' or similar action. %2 is a protocol normally web or "
+"email though could be irc/ftp or other url variant"
+msgid "%1 (%2)"
+msgstr "KMail"
+
+#: messageactions.cpp:579
+#, fuzzy
+msgid "Edit Note..."
+msgstr "wobdźěłać..."
+
+#: backupjob.cpp:100
+#, fuzzy
+msgid "Unable to retrieve folder list."
+msgstr "%1 powěsćow, %2."
+
+#: backupjob.cpp:124
+msgid "The operation was canceled by the user."
+msgstr ""
+
+#: backupjob.cpp:151
+#, fuzzy, kde-format
+msgid "Failed to archive the folder '%1'."
+msgstr "Njemóžach zapisk stworić"
+
+#: backupjob.cpp:153
+#, fuzzy
+#| msgid "Transmission failed."
+msgid "Archiving failed."
+msgstr "Přenjesenje zwrěšćene."
+
+#: backupjob.cpp:162
+msgid "Unable to finalize the archive file."
+msgstr ""
+
+#: backupjob.cpp:167
+msgid "Archiving finished"
+msgstr ""
+
+#: backupjob.cpp:172
+#, kde-format
+msgid ""
+"Archiving folder '%1' successfully completed. The archive was written to the "
+"file '%2'."
+msgstr ""
+
+#: backupjob.cpp:175
+#, kde-format
+msgid "1 message of size %2 was archived."
+msgid_plural "%1 messages with the total size of %2 were archived."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: backupjob.cpp:178
+#, kde-format
+msgid "The archive file has a size of %1."
+msgstr ""
+
+#: backupjob.cpp:180
+msgid "Archiving finished."
+msgstr ""
+
+#: backupjob.cpp:229
+#, fuzzy, kde-format
+msgid "Failed to write a message into the archive folder '%1'."
+msgstr "in"
+
+#: backupjob.cpp:252
+#, fuzzy, kde-format
+msgid "Downloading a message in folder '%1' failed."
+msgstr "Přesuwam powěsć %3 z %2 wot %1."
+
+#: backupjob.cpp:317
+#, fuzzy, kde-format
+msgid "Archiving folder %1"
+msgstr "Nastajenje zapiskow"
+
+#: backupjob.cpp:334
+#, kde-format
+msgid "Unable to create folder structure for folder '%1' within archive file."
+msgstr ""
+
+#: backupjob.cpp:348
+#, fuzzy, kde-format
+msgid "Unable to get message list for folder %1."
+msgstr "%1 powěsćow, %2."
+
+#: backupjob.cpp:388
+#, fuzzy
+#| msgid "Unable to verify: key missing."
+msgid "Unable to open archive for writing."
+msgstr "Njemóžu werifikować: kluč faluje."
+
+#: backupjob.cpp:394
+#, fuzzy
+#| msgid "&Receiving"
+msgid "Archiving"
+msgstr "&Dóstawanje"
+
+#: kmkernel.cpp:900
+msgid "KMail is set to be offline; all network jobs are suspended"
+msgstr ""
+
+#: kmkernel.cpp:919
+msgid "KMail is set to be online; all network jobs resumed"
+msgstr ""
+
+#: kmkernel.cpp:970
+msgid "KMail is currently in offline mode. How do you want to proceed?"
+msgstr ""
+
+#: kmkernel.cpp:972 kmcomposewin.cpp:2435
+msgid "Online/Offline"
+msgstr ""
+
+#: kmkernel.cpp:973 kmmainwidget.cpp:2413
+msgid "Work Online"
+msgstr ""
+
+#: kmkernel.cpp:974 kmmainwidget.cpp:2409
+msgid "Work Offline"
+msgstr ""
+
+#: kmkernel.cpp:1072
+#, kde-format
+msgid ""
+"Failed to open autosave file at %1.\n"
+"Reason: %2"
+msgstr ""
+
+#: kmkernel.cpp:1074
+#, fuzzy
+msgid "Opening Autosave File Failed"
+msgstr "Přesuwam powěsć %3 z %2 wot %1."
+
+#: kmkernel.cpp:1084 kmkernel.cpp:1104
+#, fuzzy
+msgid "You do not have read/write permission to your inbox folder."
+msgstr "póštowy kašćik."
+
+#: kmkernel.cpp:1426
+#, fuzzy
+msgid "KMail encountered a fatal error and will terminate now"
+msgstr "KMail"
+
+#: kmkernel.cpp:1429
+#, fuzzy, kde-format
+msgid ""
+"KMail encountered a fatal error and will terminate now.\n"
+"The error was:\n"
+"%1"
+msgstr "KMail"
+
+#: kmkernel.cpp:1577 kmmainwidget.cpp:1441
+msgid "Empty Trash"
+msgstr "Papjernik wuprózdnić"
+
+#: kmkernel.cpp:1578
+msgid "Are you sure you want to empty the trash folders of all accounts?"
+msgstr ""
+
+#: kmkernel.cpp:1793
+#, kde-format
+msgid "This identity has been changed to use the default transport:"
+msgid_plural ""
+"These %1 identities have been changed to use the default transport:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: kmkernel.cpp:1816
+#, kde-format
+msgid "This identity has been changed to use the modified transport:"
+msgid_plural ""
+"These %1 identities have been changed to use the modified transport:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: kmkernel.cpp:1830
+#, fuzzy
+msgid "Sending messages"
+msgstr "HTML-powěsće"
+
+#: kmkernel.cpp:1831
+msgid "Initiating sending process..."
+msgstr ""
+
+#: collectiongeneralpage.cpp:54
+#, fuzzy
+msgctxt "@title:tab General settings for a folder."
+msgid "General"
+msgstr "Generelnje"
+
+#: collectiongeneralpage.cpp:108
+#, fuzzy
+msgctxt "type of folder content"
+msgid "Mail"
+msgstr "KMail"
+
+#: collectiongeneralpage.cpp:109
+#, fuzzy
+#| msgid "Calendar"
+msgctxt "type of folder content"
+msgid "Calendar"
+msgstr "Protyka"
+
+#: collectiongeneralpage.cpp:110
+#, fuzzy
+#| msgid "Contacts"
+msgctxt "type of folder content"
+msgid "Contacts"
+msgstr "Kontakty"
+
+#: collectiongeneralpage.cpp:111
+#, fuzzy
+#| msgid "Notes"
+msgctxt "type of folder content"
+msgid "Notes"
+msgstr "Přispomnjenja"
+
+#: collectiongeneralpage.cpp:112
+#, fuzzy
+#| msgid "Tasks"
+msgctxt "type of folder content"
+msgid "Tasks"
+msgstr "Nadawki"
+
+#: collectiongeneralpage.cpp:113
+#, fuzzy
+#| msgid "Journal"
+msgctxt "type of folder content"
+msgid "Journal"
+msgstr "Protokol"
+
+#: collectiongeneralpage.cpp:114
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "type of folder content"
+msgid "Unknown"
+msgstr "Njeznaju"
+
+#: collectiongeneralpage.cpp:142
+#, fuzzy
+#| msgid "&Name:"
+msgctxt "@label:textbox Name of the folder."
+msgid "&Name:"
+msgstr "&Mjeno:"
+
+#: collectiongeneralpage.cpp:158
+#, fuzzy
+msgid "Act on new/unread mail in this folder"
+msgstr "Do tutoho zapiska kopěrować"
+
+#: collectiongeneralpage.cpp:160
+msgid ""
+"<qt><p>If this option is enabled then you will be notified about new/unread "
+"mail in this folder. Moreover, going to the next/previous folder with unread "
+"messages will stop at this folder.</p><p>Uncheck this option if you do not "
+"want to be notified about new/unread mail in this folder and if you want "
+"this folder to be skipped when going to the next/previous folder with unread "
+"messages. This is useful for ignoring any new/unread mail in your trash and "
+"spam folder.</p></qt>"
+msgstr ""
+
+#: collectiongeneralpage.cpp:178
+#, fuzzy
+msgid "Include this folder in mail checks"
+msgstr "Do manualneho přepruwowanja mailkow &přiwzać"
+
+#: collectiongeneralpage.cpp:180
+msgid ""
+"<qt><p>If this option is enabled this folder will be included while checking "
+"new emails.</p><p>Uncheck this option if you want to skip this folder while "
+"checking new emails.</p></qt>"
+msgstr ""
+
+#: collectiongeneralpage.cpp:196
+#, fuzzy
+msgid "Keep replies in this folder"
+msgstr "Z&nič stare powěsće w tutym zapisku"
+
+#: collectiongeneralpage.cpp:198
+msgid ""
+"Check this option if you want replies you write to mails in this folder to "
+"be put in this same folder after sending, instead of in the configured sent-"
+"mail folder."
+msgstr ""
+
+#: collectiongeneralpage.cpp:209
+msgid "Hide this folder in the folder selection dialog"
+msgstr ""
+
+#: collectiongeneralpage.cpp:211
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this option if you do not want this folder to be shown in folder "
+"selection dialogs, such as the <interface>Jump to Folder</interface> dialog."
+msgstr ""
+
+#: collectiongeneralpage.cpp:228
+#, fuzzy
+msgid "Use &default identity"
+msgstr "Wotst&ronić"
+
+#: collectiongeneralpage.cpp:234
+#, fuzzy
+msgid "&Sender identity:"
+msgstr "Nowa identita"
+
+#: collectiongeneralpage.cpp:240
+msgid ""
+"Select the sender identity to be used when writing new mail or replying to "
+"mail in this folder. This means that if you are in one of your work folders, "
+"you can make KMail use the corresponding sender email address, signature and "
+"signing or encryption keys automatically. Identities can be set up in the "
+"main configuration dialog. (Settings -> Configure KMail)"
+msgstr ""
+
+#: collectiongeneralpage.cpp:262
+#, fuzzy
+msgid "&Folder contents:"
+msgstr "Piktogramy za zapiski"
+
+#: collectiongeneralpage.cpp:296
+msgid "Generate free/&busy and activate alarms for:"
+msgstr ""
+
+#: collectiongeneralpage.cpp:302
+#, fuzzy
+msgid "Nobody"
+msgstr "<tekst>"
+
+#: collectiongeneralpage.cpp:303
+#, fuzzy
+msgid "Admins of This Folder"
+msgstr "Z&nič stare powěsće w tutym zapisku"
+
+#: collectiongeneralpage.cpp:304
+#, fuzzy
+msgid "All Readers of This Folder"
+msgstr "Z&nič stare powěsće w tutym zapisku"
+
+#: collectiongeneralpage.cpp:306
+msgid ""
+"This setting defines which users sharing this folder should get \"busy\" "
+"periods in their freebusy lists and should see the alarms for the events or "
+"tasks in this folder. The setting applies to Calendar and Task folders only "
+"(for tasks, this setting is only used for alarms).\n"
+"\n"
+"Example use cases: if the boss shares a folder with his secretary, only the "
+"boss should be marked as busy for his meetings, so he should select \"Admins"
+"\", since the secretary has no admin rights on the folder.\n"
+"On the other hand if a working group shares a Calendar for group meetings, "
+"all readers of the folders should be marked as busy for meetings.\n"
+"A company-wide folder with optional events in it would use \"Nobody\" since "
+"it is not known who will go to those events."
+msgstr ""
+
+#: collectiongeneralpage.cpp:327
+msgid "This setting allows you to disable alarms for folders shared by others."
+msgstr ""
+
+#: collectiongeneralpage.cpp:329
+msgid "Block alarms locally"
+msgstr ""
+
+#: collectiongeneralpage.cpp:339
+msgid "Share unread state with all users"
+msgstr ""
+
+#: collectiongeneralpage.cpp:343
+msgid ""
+"If enabled, the unread state of messages in this folder will be the same for "
+"all users having access to this folder. If disabled (the default), every "
+"user with access to this folder has their own unread state."
+msgstr ""
+
+#: redirectdialog.cpp:56
+#, fuzzy
+msgid "Redirect Message"
+msgstr "Powěsće zničić"
+
+#: redirectdialog.cpp:61
+msgid "Select the recipient &addresses to redirect to:"
+msgstr ""
+
+#: redirectdialog.cpp:76
+msgid "Use the Address-Selection Dialog"
+msgstr ""
+
+#: redirectdialog.cpp:77
+msgid ""
+"This button opens a separate dialog where you can select recipients out of "
+"all available addresses."
+msgstr ""
+
+#: redirectdialog.cpp:87 kmcomposewin.cpp:2635
+msgid "&Send Now"
+msgstr "&Nětko pósłać"
+
+#: redirectdialog.cpp:88 kmcomposewin.cpp:1075 kmcomposewin.cpp:1084
+#: kmcomposewin.cpp:2636
+msgid "Send &Later"
+msgstr "&Pozdźišo pósłać"
+
+#: redirectdialog.cpp:122
+msgid "You cannot redirect the message without an address."
+msgstr ""
+
+#: redirectdialog.cpp:123
+#, fuzzy
+msgid "Empty Redirection Address"
+msgstr "Wočinić w adresniku"
+
+#: addressvalidationjob.cpp:69
+#, kde-format
+msgid "Distribution list \"%1\" is empty, it cannot be used."
+msgstr ""
+
+#: addressvalidationjob.cpp:71 addressvalidationjob.cpp:80
+#: identitydialog.cpp:594
+#, fuzzy
+msgid "Invalid Email Address"
+msgstr "emailowa adresa"
+
+#: rulewidgethandlermanager.cpp:406 rulewidgethandlermanager.cpp:726
+#: rulewidgethandlermanager.cpp:1233
+msgid "contains"
+msgstr "wobsahuje"
+
+#: rulewidgethandlermanager.cpp:407 rulewidgethandlermanager.cpp:727
+#: rulewidgethandlermanager.cpp:1234
+#, fuzzy
+msgid "does not contain"
+msgstr "njewobsahuje"
+
+#: rulewidgethandlermanager.cpp:408 rulewidgethandlermanager.cpp:1235
+msgid "equals"
+msgstr "je runja"
+
+#: rulewidgethandlermanager.cpp:409 rulewidgethandlermanager.cpp:1236
+#, fuzzy
+msgid "does not equal"
+msgstr "njeje runja"
+
+#: rulewidgethandlermanager.cpp:410 rulewidgethandlermanager.cpp:728
+#: rulewidgethandlermanager.cpp:1237
+msgid "matches regular expr."
+msgstr "wotpowěduje prawidłownemu wurazej"
+
+#: rulewidgethandlermanager.cpp:411 rulewidgethandlermanager.cpp:729
+#: rulewidgethandlermanager.cpp:1238
+#, fuzzy
+msgid "does not match reg. expr."
+msgstr "njewotpowěduje prawidłownemu wurazej"
+
+#: rulewidgethandlermanager.cpp:412 rulewidgethandlermanager.cpp:553
+#, fuzzy
+msgid "is in address book"
+msgstr "Wočinić w adresniku"
+
+#: rulewidgethandlermanager.cpp:413 rulewidgethandlermanager.cpp:555
+#, fuzzy
+msgid "is not in address book"
+msgstr "Wočinić w adresniku"
+
+#: rulewidgethandlermanager.cpp:414
+msgid "is in category"
+msgstr ""
+
+#: rulewidgethandlermanager.cpp:415
+msgid "is not in category"
+msgstr ""
+
+#: rulewidgethandlermanager.cpp:730 rulewidgethandlermanager.cpp:850
+#, fuzzy
+msgid "has an attachment"
+msgstr "Přiwěšk: "
+
+#: rulewidgethandlermanager.cpp:731 rulewidgethandlermanager.cpp:852
+#, fuzzy
+msgid "has no attachment"
+msgstr "Přiwěšk: "
+
+#: rulewidgethandlermanager.cpp:993
+#, fuzzy
+msgid "is"
+msgstr "Lisćina"
+
+#: rulewidgethandlermanager.cpp:994
+#, fuzzy
+msgid "is not"
+msgstr "Lisćina"
+
+#: rulewidgethandlermanager.cpp:1503
+#, fuzzy
+msgid "is equal to"
+msgstr "je mjenje abo runja"
+
+#: rulewidgethandlermanager.cpp:1504
+#, fuzzy
+msgid "is not equal to"
+msgstr "je mjenje abo runja"
+
+#: rulewidgethandlermanager.cpp:1505
+msgid "is greater than"
+msgstr "je wjace hač"
+
+#: rulewidgethandlermanager.cpp:1506
+msgid "is less than or equal to"
+msgstr "je mjenje abo runja"
+
+#: rulewidgethandlermanager.cpp:1507
+msgid "is less than"
+msgstr "je mjenje hač"
+
+#: rulewidgethandlermanager.cpp:1508
+msgid "is greater than or equal to"
+msgstr "je wjace abo runja"
+
+#: rulewidgethandlermanager.cpp:1650
+#, fuzzy
+msgid " bytes"
+msgstr " byte"
+
+#: rulewidgethandlermanager.cpp:1655
+#, fuzzy
+msgctxt "Unit suffix where units are days."
+msgid " days"
+msgstr "s"
+
+#: kmcommands.cpp:292
+msgid "Please wait"
+msgstr "Prošu dočakajće"
+
+#: kmcommands.cpp:293 kmcommands.cpp:365
+#, kde-format
+msgid "Please wait while the message is transferred"
+msgid_plural "Please wait while the %1 messages are transferred"
+msgstr[0] "Prošu dočakajće, doniž so njejsu te %1 powěsćow přenjesli."
+msgstr[1] "Prošu dočakajće, doniž so njeje ta %1 powěsć přenjesła."
+msgstr[2] "Prošu dočakajće, doniž so njejstej tej %1 powěsći přenjesłoj."
+msgstr[3] "Prošu dočakajće, doniž so njejsu te %1 powěsće přenjesli."
+
+#: kmcommands.cpp:522
+#, fuzzy, kde-format
+#| msgid "<qt>File <b>%1</b> exists.<br>Do you want to replace it?</qt>"
+msgctxt "@info"
+msgid "File <filename>%1</filename> exists.<nl/>Do you want to replace it?"
+msgstr "<qt>Dataja<b>%1</b> eksistuje.<br>Chceće ju narunać?</qt>"
+
+#: kmcommands.cpp:523 kmcommands.cpp:810
+msgid "Save to File"
+msgstr "Do dataje zawěsćić"
+
+#: kmcommands.cpp:523 kmcommands.cpp:810
+msgid "&Replace"
+msgstr "Na&runać"
+
+#: kmcommands.cpp:633
+msgid ""
+"*.mbox|email messages (*.mbox)\n"
+"*|all files (*)"
+msgstr ""
+
+#: kmcommands.cpp:809
+#, kde-format
+msgid ""
+"File %1 exists.\n"
+"Do you want to replace it?"
+msgstr ""
+"Dataja %1 eksistuje?\n"
+"Chceće ju přepisać?"
+
+#: kmcommands.cpp:853
+msgid "Open Message"
+msgstr "Powěsć wočinić"
+
+#: kmcommands.cpp:890 kmcommands.cpp:916
+#, fuzzy
+msgid "The file does not contain a message."
+msgstr "njewobsahuje"
+
+#: kmcommands.cpp:936
+msgid "The file contains multiple messages. Only the first message is shown."
+msgstr ""
+
+#: kmcommands.cpp:1132
+msgid ""
+"Do you want to forward the selected messages as attachments in one message "
+"(as a MIME digest) or as individual messages?"
+msgstr ""
+
+#: kmcommands.cpp:1135
+#, fuzzy
+msgid "Send As Digest"
+msgstr "&Nješifrowane zawěsćić"
+
+#: kmcommands.cpp:1136
+msgid "Send Individually"
+msgstr ""
+
+#: kmcommands.cpp:1632 kmmainwidget.cpp:2205
+#, fuzzy
+msgid "Filtering messages"
+msgstr "Powěsće zničić"
+
+#: kmcommands.cpp:1639 kmmainwidget.cpp:2246
+#, fuzzy, kde-format
+msgid "Filtering message %1 of %2"
+msgstr "Přesuwam powěsć %3 z %2 wot %1."
+
+#: kmcommands.cpp:1649
+#, fuzzy
+msgid "Not enough free disk space?"
+msgstr "Rum na disku njedosaha."
+
+#: kmcommands.cpp:1815
+#, fuzzy
+msgid "Moving messages"
+msgstr "Přesuwam powěsć %3 z %2 wot %1."
+
+#: kmcommands.cpp:1815
+#, fuzzy
+msgid "Deleting messages"
+msgstr "Powěsće zničić"
+
+#: kmcommands.cpp:1891
+#, fuzzy
+msgid "Found no attachments to save."
+msgstr "Njepokazuje přiwěški w powěsći samej"
+
+#: kmcommands.cpp:2020
+#, kde-format
+msgid ""
+"From: %1\n"
+"To: %2\n"
+"Subject: %3"
+msgstr ""
+
+#: kmcommands.cpp:2034
+#, fuzzy, kde-format
+msgid "Mail: %1"
+msgstr "KMail"
+
+#: kmsystemtray.cpp:70 kmstartup.cpp:104 mailinglistpropertiesdialog.cpp:113
+#: aboutdata.cpp:240
+msgid "KMail"
+msgstr "KMail"
+
+#: kmsystemtray.cpp:252
+#, fuzzy
+msgid "New Messages In"
+msgstr "Nowe in."
+
+#: kmsystemtray.cpp:405
+#, fuzzy
+msgid "There are no unread messages"
+msgstr "&Stare powěsće zwumjetać"
+
+#: kmsystemtray.cpp:406
+#, fuzzy, kde-format
+#| msgid "Unread Message"
+msgid "1 unread message"
+msgid_plural "%1 unread messages"
+msgstr[0] "Nječitana powěsć"
+msgstr[1] "Nječitana powěsć"
+msgstr[2] "Nječitana powěsć"
+msgstr[3] "Nječitana powěsć"
+
+#: folderselectiondialog.cpp:61
+msgid "&New Subfolder..."
+msgstr "&Nowy podzapisk..."
+
+#: folderselectiondialog.cpp:62
+msgid "Create a new subfolder under the currently selected folder"
+msgstr ""
+
+#: folderselectiondialog.cpp:137
+#, fuzzy
+msgctxt "@title:window"
+msgid "New Folder"
+msgstr "&Nowy Zapisk..."
+
+#: folderselectiondialog.cpp:138
+#, fuzzy
+#| msgid "Name"
+msgctxt "@label:textbox, name of a thing"
+msgid "Name"
+msgstr "Mjeno"
+
+#: folderselectiondialog.cpp:154
+#, fuzzy, kde-format
+msgid "Could not create folder: %1"
+msgstr "Njemóžach zapisk stworić"
+
+#: folderselectiondialog.cpp:155
+#, fuzzy
+#| msgid "Folder &location:"
+msgid "Folder creation failed"
+msgstr "Městno &zapiska:"
+
+#: identitylistview.cpp:98
+#, kde-format
+msgctxt ""
+"%1: identity name. Used in the config dialog, section Identity, to indicate "
+"the default identity"
+msgid "%1 (Default)"
+msgstr "%1 (standard)"
+
+#: identitylistview.cpp:118
+msgid "Identity Name"
+msgstr "Mjeno identity"
+
+#: identitylistview.cpp:118
+msgid "Email Address"
+msgstr "emailowa adresa"
+
+#: kmstartup.cpp:158
+#, kde-format
+msgid ""
+"%1 already seems to be running on another display on this machine. Running %"
+"2 more than once can cause the loss of mail. You should not start %1 unless "
+"you are sure that it is not already running."
+msgstr ""
+
+#: kmstartup.cpp:168
+#, kde-format
+msgid ""
+"%1 seems to be running on another display on this machine. Running %1 and %2 "
+"at the same time can cause the loss of mail. You should not start %2 unless "
+"you are sure that %1 is not running."
+msgstr ""
+
+#: kmstartup.cpp:176
+#, kde-format
+msgid ""
+"%1 already seems to be running on %2. Running %1 more than once can cause "
+"the loss of mail. You should not start %1 on this computer unless you are "
+"sure that it is not already running on %2."
+msgstr ""
+
+#: kmstartup.cpp:182
+#, kde-format
+msgid ""
+"%1 seems to be running on %3. Running %1 and %2 at the same time can cause "
+"the loss of mail. You should not start %2 on this computer unless you are "
+"sure that %1 is not running on %3."
+msgstr ""
+
+#: kmstartup.cpp:192
+#, fuzzy, kde-format
+msgctxt "Start kmail even when another instance is running."
+msgid "Start %1"
+msgstr "Staw: "
+
+#: kmstartup.cpp:193
+#, fuzzy
+msgctxt "Do not start another kmail instance."
+msgid "Exit"
+msgstr "wobdźěłać..."
+
+#. i18n: file: tips:2
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:3
+msgid ""
+"<p>...that you can go to the next and previous message by using the\n"
+"right and left arrow keys respectively?</p>\n"
+msgstr ""
+
+#. i18n: file: tips:9
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:9
+#, fuzzy
+msgid ""
+"<p>...that you can rapidly create filters on sender, recipient,\n"
+"subject and mailing lists with <em>Message-&gt;Create&nbsp;Filter</em>?</p>\n"
+msgstr ""
+"\n"
+"<p><em>&gt;&nbsp; Filter</em></p>"
+
+#. i18n: file: tips:16
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:15
+#, fuzzy
+msgid ""
+"<p>...that you can get rid of the &quot;[mailing list name]&quot;\n"
+"added to the subject of some mailing lists by using the <em>rewrite\n"
+"header</em> filter action? Just use\n"
+"<pre>rewrite header &quot;Subject&quot;\n"
+"   replace &quot;\\s*\\[mailing list name\\]\\s*&quot;\n"
+"   with &quot;&quot;</pre>\n"
+"</p>\n"
+msgstr ""
+"<p>&quot;&quot;<em></em>\n"
+"<pre>&quot; Tema&quot;\n"
+"&quot; s s&quot;\n"
+"&quot;&quot;</pre>\n"
+"</p>"
+
+#. i18n: file: tips:28
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:26
+#, fuzzy
+msgid ""
+"<p>...that you can associate mailing lists with folders in the\n"
+"<em>Folder-&gt;Mailing List Management</em> dialog? You can then use\n"
+"<em>Message-&gt;New&nbsp;Message&nbsp;to&nbsp;Mailing&nbsp;List...</em>\n"
+"to open the composer with the mailing list address preset.\n"
+"Alternatively, you can click with the middle mouse button on the folder.</"
+"p>\n"
+msgstr ""
+"<p> in\n"
+"<em> Zapisk&gt; Swójstwa</em>\n"
+"<em>&gt; Nowe&nbsp;&nbsp;&nbsp;&nbsp; Lisćina</em></p>"
+
+#. i18n: file: tips:38
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:35
+#, fuzzy
+msgid ""
+"<p>...that you can assign custom icons to each folder individually?\n"
+"See <em>Folder-&gt;Properties</em></p>\n"
+msgstr "<p><em> Zapisk&gt; Swójstwa</em></p>"
+
+#. i18n: file: tips:45
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:41
+#, fuzzy
+msgid ""
+"<p>...that KMail can show a color bar indicating the type of message\n"
+"(Plain text/HTML/OpenPGP) currently displayed?</p>\n"
+"<p>This thwarts attempts to fake successful signature verification by\n"
+"sending HTML mails mimicking KMail's signature status frames.</p>\n"
+msgstr ""
+"<p> KMail</p>\n"
+"<p> KMail s</p>"
+
+#. i18n: file: tips:54
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:49
+msgid ""
+"<p>...that you can filter on any header by simply entering its name\n"
+"in the first edit field of a search rule?</p>\n"
+msgstr ""
+
+#. i18n: file: tips:61
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:55
+#, fuzzy
+msgid ""
+"<p>...that you can filter out HTML only messages with the rule\n"
+"<pre>&quot;Content-type&quot; contains &quot;text/html&quot;?</pre>\n"
+"</p>\n"
+msgstr ""
+"<p>\n"
+"<pre>&quot; Wobsah&quot;&quot;&quot;</pre>\n"
+"</p>"
+
+#. i18n: file: tips:69
+#. i18n: ectx: @info:tipoftheday
+#: tips.cpp:62
+#, fuzzy
+msgid ""
+"<p>...that when replying, only the selected part of the message is quoted?</"
+"p>\n"
+"<p>If nothing is selected, the full message is quoted.</p>\n"
+"<p>This even works with text of attachments when\n"
+"<em>View-&gt;Attachments-&gt;Inline</em> is selected.</p>\n"
+"<p>This feature is available with all reply commands except\n"
+"<em>Message-&gt;Reply Without Quote</em>.</p>\n"
+"<p align=\"right\"><em>contributed by David F. Newman</em></p>\n"
+msgstr ""
+"<p></p>\n"
+"<p></p>\n"
+"<p>\n"
+"<em> Napohlad&gt;&gt;</em></p>\n"
+"<p>\n"
+"<em>&gt;</em></p>\n"
+"<p align=\"right\"><em></em></p>"
 
 #: antispamwizard.cpp:109
 msgid "Anti-Spam Wizard"
