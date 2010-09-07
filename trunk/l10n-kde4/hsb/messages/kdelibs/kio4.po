@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-02 07:02+0200\n"
+"POT-Creation-Date: 2010-09-07 02:32+0200\n"
 "PO-Revision-Date: 2008-11-17 23:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -4628,26 +4628,50 @@ msgstr "Hłowny dźěl tutoho dokumenta je z SSL zawěsćeny, ale nic wšitko."
 msgid "Some of this document is secured with SSL, but the main part is not."
 msgstr "Dźěle tutoho dokumenta su z SSL zawěsćene, hłowny dźěl pak nic."
 
-#: kssl/ksslinfodialog.cpp:193
+#: kssl/ksslinfodialog.cpp:195
 #, kde-format
-msgid "%1, using %2 bits of a %3 bit key"
-msgstr "%1, %2 bitow  so z %3-bitoweho kluča wužiwa"
+msgctxt "Part of: %1, using %2 bits of a %3 bit key"
+msgid "using %2 bit"
+msgid_plural "using %2 bits"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: kssl/ksslinfodialog.cpp:212
+#: kssl/ksslinfodialog.cpp:197
+#, fuzzy
+#| msgid "%1, using %2 bits of a %3 bit key"
+msgctxt "Part of: %1, using %2 bits of a %3 bit key"
+msgid "of a %3 bit key"
+msgid_plural "of a %3 bit key"
+msgstr[0] "%1, %2 bitow  so z %3-bitoweho kluča wužiwa"
+msgstr[1] "%1, %2 bitow  so z %3-bitoweho kluča wužiwa"
+msgstr[2] "%1, %2 bitow  so z %3-bitoweho kluča wužiwa"
+msgstr[3] "%1, %2 bitow  so z %3-bitoweho kluča wužiwa"
+
+#: kssl/ksslinfodialog.cpp:193
+#, fuzzy, kde-format
+#| msgctxt "folders, files (size)"
+#| msgid "%1, %2 (%3)"
+msgctxt "%1, using %2 bits of a %3 bit key"
+msgid "%1, %2 %3"
+msgstr "%1, %2 (%3)"
+
+#: kssl/ksslinfodialog.cpp:214
 #, fuzzy
 #| msgid "NO, there were errors:"
 msgctxt "The certificate is not trusted"
 msgid "NO, there were errors:"
 msgstr "Ně, dokelž su so zmylki stali:"
 
-#: kssl/ksslinfodialog.cpp:219
+#: kssl/ksslinfodialog.cpp:221
 #, fuzzy
 #| msgid "Yes"
 msgctxt "The certificate is trusted"
 msgid "Yes"
 msgstr "Haj"
 
-#: kssl/ksslinfodialog.cpp:223
+#: kssl/ksslinfodialog.cpp:225
 #, fuzzy, kde-format
 #| msgctxt "folders, files"
 #| msgid "%1, %2"
