@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-07 02:32+0200\n"
+"POT-Creation-Date: 2010-09-08 06:57+0200\n"
 "PO-Revision-Date: 2008-11-17 23:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -1946,7 +1946,7 @@ msgstr "Podobna dataja z mjenom '%1' hižo eksistuje."
 msgid "A newer item named '%1' already exists."
 msgstr "Něšto tajke nowše z mjenom '%1' hižo eksistuje"
 
-#: kio/renamedialog.cpp:387 kio/paste.cpp:228 kio/krun.cpp:1094
+#: kio/renamedialog.cpp:387 kio/paste.cpp:228 kio/krun.cpp:1122
 #: kio/kdirlister.cpp:329
 #, kde-format
 msgid ""
@@ -2487,25 +2487,25 @@ msgstr "Nimaće prawo aplikaciju wubrać za wočinjenje tuteje dataje wočinić.
 msgid "Open with:"
 msgstr "Wočinić z:"
 
-#: kio/krun.cpp:529
+#: kio/krun.cpp:577
 msgid "You are not authorized to execute this file."
 msgstr "Nimaće prawo tutu dataju wuwjesć."
 
-#: kio/krun.cpp:552
+#: kio/krun.cpp:600
 #, kde-format
 msgid "Launching %1"
 msgstr "Startuju %1"
 
-#: kio/krun.cpp:660
+#: kio/krun.cpp:708
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr "Zmylk při wuwjedźenju Exec-zapisa w %1"
 
-#: kio/krun.cpp:854
+#: kio/krun.cpp:882
 msgid "You are not authorized to execute this service."
 msgstr "Nimaće prawo tutón service startować."
 
-#: kio/krun.cpp:866
+#: kio/krun.cpp:894
 #, fuzzy
 #| msgctxt "@title job"
 #| msgid "Examining"
@@ -2513,21 +2513,21 @@ msgctxt "Warning about executing unknown .desktop file"
 msgid "Warning"
 msgstr "Wobhladuju sej"
 
-#: kio/krun.cpp:880
+#: kio/krun.cpp:908
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
 msgstr ""
 
-#: kio/krun.cpp:894
+#: kio/krun.cpp:922
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 
-#: kio/krun.cpp:927
+#: kio/krun.cpp:955
 #, kde-format
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 
-#: kio/krun.cpp:1127
+#: kio/krun.cpp:1155
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -2536,7 +2536,7 @@ msgstr ""
 "<qt>Njemóžu komando wuwjesć. Dataja abo zapisk <b>%1</b> njeeksistujetej.</"
 "qt>"
 
-#: kio/krun.cpp:1704
+#: kio/krun.cpp:1732
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "Njemóžach program namakać: %1."
@@ -3548,7 +3548,7 @@ msgstr "montowane na:"
 msgid "Device usage:"
 msgstr "Wućeženosć grata:"
 
-#: kfile/kpropertiesdialog.cpp:1206
+#: kfile/kpropertiesdialog.cpp:1206 kfile/kpropertiesdialog.cpp:2941
 #, kde-format
 msgctxt "Available space out of total partition size (percent used)"
 msgid "%1 free of %2 (%3% used)"
@@ -3928,12 +3928,6 @@ msgstr "Cil montowanja:"
 #: kfile/kpropertiesdialog.cpp:2819
 msgid "Unmounted Icon"
 msgstr "Piktogram za 'njemontowany'"
-
-#: kfile/kpropertiesdialog.cpp:2941
-#, kde-format
-msgctxt "Available space out of total partition size (percent used)"
-msgid "%1 out of %2 (%3% used)"
-msgstr "%1 z %2 (%3% so wužiwa)"
 
 #: kfile/kpropertiesdialog.cpp:3040
 msgid "&Application"
@@ -6803,6 +6797,10 @@ msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
 #, fuzzy
 msgid "Show Hidden Folders"
 msgstr "chowane dataje pokazować"
+
+#~ msgctxt "Available space out of total partition size (percent used)"
+#~ msgid "%1 out of %2 (%3% used)"
+#~ msgstr "%1 z %2 (%3% so wužiwa)"
 
 #, fuzzy
 #~| msgid "1 Folder"
