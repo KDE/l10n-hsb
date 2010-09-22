@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-21 07:14+0200\n"
+"POT-Creation-Date: 2010-09-22 06:07+0200\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -154,7 +154,7 @@ msgstr[1] "%1 objektaj"
 msgstr[2] "%1 objekty"
 msgstr[3] "%1 objektow"
 
-#: core/transfergrouphandler.cpp:113 core/transferhandler.cpp:148
+#: core/transfergrouphandler.cpp:113 core/transferhandler.cpp:150
 #: ui/transferdetails.cpp:100
 #, kde-format
 msgid "%1/s"
@@ -389,41 +389,62 @@ msgstr ""
 msgid "Download started"
 msgstr "Sćahnyć"
 
-#: core/kget.cpp:1374
+#: core/kget.cpp:1331 core/datasourcefactory.cpp:269
+#: core/datasourcefactory.cpp:595 transfer-plugins/metalink/metalink.cpp:201
+#: ui/metalinkcreator/metalinkcreator.cpp:156
+#: ui/metalinkcreator/metalinkcreator.cpp:173
+msgid "Error"
+msgstr "Zmylk"
+
+#: core/kget.cpp:1331
+#, kde-format
+msgid ""
+"<p>There has been an error in the following transfer:</p><p style=\"font-"
+"size: small;\">\\%1</p><p>The error message is:</p><p style=\"font-size: "
+"small;\">\\%2</p>"
+msgstr ""
+
+#: core/kget.cpp:1336
+#, fuzzy
+#| msgid "Remove"
+msgid "Resolve"
+msgstr "Zničić"
+
+#: core/kget.cpp:1384
 msgid "KGet is now closing, as all downloads have completed."
 msgstr ""
 
-#: core/kget.cpp:1378
+#: core/kget.cpp:1388
 msgid "The computer will now turn off, as all downloads have completed."
 msgstr ""
 
-#: core/kget.cpp:1378
+#: core/kget.cpp:1388
 #, fuzzy
 msgctxt "Shutting down computer"
 msgid "Shutdown"
 msgstr "Pokaž %1"
 
-#: core/kget.cpp:1381
+#: core/kget.cpp:1391
 msgid "The computer will now suspend to disk, as all downloads have completed."
 msgstr ""
 
-#: core/kget.cpp:1381
+#: core/kget.cpp:1391
 msgctxt "Hibernating computer"
 msgid "Hibernating"
 msgstr ""
 
-#: core/kget.cpp:1384
+#: core/kget.cpp:1394
 msgid "The computer will now suspend to RAM, as all downloads have completed."
 msgstr ""
 
-#: core/kget.cpp:1384
+#: core/kget.cpp:1394
 #, fuzzy
 #| msgid "Settings..."
 msgctxt "Suspending computer"
 msgid "Suspending"
 msgstr "Nastajenja..."
 
-#: core/kget.cpp:1392
+#: core/kget.cpp:1402
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Aborted."
@@ -431,11 +452,11 @@ msgctxt "abort the proposed action"
 msgid "Abort"
 msgstr "Přetorhnjene."
 
-#: core/kget.cpp:1402
+#: core/kget.cpp:1412
 msgid "<p>All transfers have been finished.</p>"
 msgstr ""
 
-#: core/kget.cpp:1403
+#: core/kget.cpp:1413
 #, fuzzy
 #| msgid "Download"
 msgid "Downloads completed"
@@ -525,22 +546,13 @@ msgstr ""
 msgid "Filesize is larger than maximum file size supported by VFAT."
 msgstr ""
 
-#: core/datasourcefactory.cpp:269 core/datasourcefactory.cpp:595
-#: transfer-plugins/metalink/metalink.cpp:201
-#: transfer-plugins/bittorrent/bttransfer.cpp:469
-#: transfer-plugins/bittorrent/bttransfer.cpp:480
-#: ui/metalinkcreator/metalinkcreator.cpp:156
-#: ui/metalinkcreator/metalinkcreator.cpp:173
-msgid "Error"
-msgstr "Zmylk"
-
 #: core/datasourcefactory.cpp:595
 #, kde-format
 msgctxt "A mirror is removed when the file has the wrong download size"
 msgid "%1 removed as it did report a wrong file size."
 msgstr ""
 
-#: core/transferhandler.cpp:135
+#: core/transferhandler.cpp:137
 #: transfer-plugins/bittorrent/btdetailswidget.cpp:27
 #: transfer-plugins/bittorrent/btdetailswidget.cpp:28
 #: transfer-plugins/bittorrent/btdetailswidget.cpp:29
@@ -562,7 +574,7 @@ msgctxt "not available"
 msgid "n/a"
 msgstr ""
 
-#: core/transferhandler.cpp:143 ui/transferdetails.cpp:95
+#: core/transferhandler.cpp:145 ui/transferdetails.cpp:95
 msgid "Stalled"
 msgstr "Zastajene"
 
@@ -1300,20 +1312,18 @@ msgid "Cannot add a tracker to a private torrent."
 msgstr ""
 
 #: transfer-plugins/bittorrent/bttransfer.cpp:406
-#: transfer-plugins/bittorrent/bttransfer.cpp:422
-#: transfer-plugins/bittorrent/bttransfer.cpp:468
-#: transfer-plugins/bittorrent/bttransfer.cpp:479
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "A print error has occurred"
-msgid "An error occurred...."
-msgstr "Zmylk při ćišćenju je so stało"
+msgid "Torrent file does not exist"
+msgstr ""
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:410
+#: transfer-plugins/bittorrent/bttransfer.cpp:411
 msgid "Analyzing torrent...."
 msgstr ""
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:489
+#: transfer-plugins/bittorrent/bttransfer.cpp:423
+msgid "Cannot initialize port..."
+msgstr ""
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:492
 #, fuzzy
 #| msgid "Settings..."
 msgctxt "Transfer status: seeding"
@@ -4327,6 +4337,12 @@ msgstr ""
 #: rc.cpp:977
 msgid "List of whether the script is enabled"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "A print error has occurred"
+#~ msgid "An error occurred...."
+#~ msgstr "Zmylk při ćišćenju je so stało"
 
 #, fuzzy
 #~| msgid "Add"
