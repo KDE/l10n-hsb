@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-29 06:20+0200\n"
+"POT-Creation-Date: 2010-09-30 06:09+0200\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -583,19 +583,19 @@ msgctxt "@info:status finished searching."
 msgid "Ready."
 msgstr "Hotowo."
 
-#: searchwindow.cpp:303 messageactions.cpp:66
+#: searchwindow.cpp:303 messageactions.cpp:68
 msgid "&Reply..."
 msgstr "&Wotmołwić ..."
 
-#: searchwindow.cpp:306 messageactions.cpp:80
+#: searchwindow.cpp:306 messageactions.cpp:82
 msgid "Reply to &All..."
 msgstr "Wšě&m wotmołwić..."
 
-#: searchwindow.cpp:309 messageactions.cpp:87
+#: searchwindow.cpp:309 messageactions.cpp:89
 msgid "Reply to Mailing-&List..."
 msgstr "&Lisćinje wotmołwić..."
 
-#: searchwindow.cpp:313 messageactions.cpp:165
+#: searchwindow.cpp:313 messageactions.cpp:146
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "&Dopósłać"
@@ -1091,110 +1091,62 @@ msgctxt ""
 msgid "attachment,attached"
 msgstr "Přiwěšk: "
 
-#: messageactions.cpp:61
+#: messageactions.cpp:63
 #, fuzzy
 msgctxt "Message->"
 msgid "&Reply"
 msgstr "&Dopósłać"
 
-#: messageactions.cpp:73
+#: messageactions.cpp:75
 #, fuzzy
 msgid "Reply to A&uthor..."
 msgstr "Wšě&m wotmołwić..."
 
-#: messageactions.cpp:94
+#: messageactions.cpp:96
 msgid "Reply Without &Quote..."
 msgstr "Bje&z citowanja wotmołwić"
 
-#: messageactions.cpp:101
+#: messageactions.cpp:103
 msgid "Create To-do/Reminder..."
 msgstr ""
 
-#: messageactions.cpp:102
+#: messageactions.cpp:104
 msgid "Create To-do"
 msgstr ""
 
-#: messageactions.cpp:103
+#: messageactions.cpp:105
 msgid "Allows you to create a calendar to-do or reminder from this message"
 msgstr ""
 
-#: messageactions.cpp:104
+#: messageactions.cpp:106
 msgid ""
 "This option starts the KOrganizer to-do editor with initial values taken "
 "from the currently selected message. Then you can edit the to-do to your "
 "liking before saving it to your calendar."
 msgstr ""
 
-#: messageactions.cpp:111
+#: messageactions.cpp:113
 msgid "Mar&k Message"
 msgstr "Powěsć mar&kěrować"
 
-#: messageactions.cpp:116
-msgid "Mark Message as &Read"
-msgstr "Powěsć ma&rkěrować jako čitanu"
-
-#: messageactions.cpp:117
-msgid "Mark selected messages as read"
-msgstr "Wubrane powěsće markěrować jako čitane"
-
-#: messageactions.cpp:123
-msgid "Mark Message as &Unread"
-msgstr "Powěsć markěrować jako nječitan&u"
-
-#: messageactions.cpp:124
-msgid "Mark selected messages as unread"
-msgstr "Wubrane powěsće mar&kěrować jako nječitane"
-
-#: messageactions.cpp:134
-msgid "Mark Message as &Important"
-msgstr "Powěsć markěrować jako &wažnu"
-
-#: messageactions.cpp:138
-#, fuzzy
-msgid "Remove &Important Message Mark"
-msgstr "Wažna powěsć"
-
-#: messageactions.cpp:139
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Important"
-msgid "Important"
-msgstr "Wažne"
-
-#: messageactions.cpp:144
-#, fuzzy
-#| msgid "Mark Message as &New"
-msgid "Mark Message as &Action Item"
-msgstr "Powěsć mar&kěrować jako nowu"
-
-#: messageactions.cpp:147
-#, fuzzy
-msgid "Remove &Action Item Message Mark"
-msgstr "Wažna powěsć"
-
-#: messageactions.cpp:148
-#, fuzzy
-msgid "Action Item"
-msgstr "Wažna powěsć"
-
-#: messageactions.cpp:152
+#: messageactions.cpp:133
 msgid "&Edit Message"
 msgstr "Powěsć &wobdźěłać"
 
-#: messageactions.cpp:158 messageactions.cpp:578
+#: messageactions.cpp:139 messageactions.cpp:522
 #, fuzzy
 #| msgid "Add..."
 msgid "Add Note..."
 msgstr "Dodać..."
 
-#: messageactions.cpp:170
+#: messageactions.cpp:151
 #, fuzzy
 #| msgid "Add Attachment..."
 msgctxt "@action:inmenu Message->Forward->"
 msgid "As &Attachment..."
 msgstr "Dodaj přiwěšk..."
 
-#: messageactions.cpp:178
+#: messageactions.cpp:159
 #, fuzzy
 #| msgctxt "View->attachments->"
 #| msgid "&Inline"
@@ -1202,63 +1154,63 @@ msgctxt "@action:inmenu Message->Forward->"
 msgid "&Inline..."
 msgstr "&w powěsći"
 
-#: messageactions.cpp:186
+#: messageactions.cpp:167
 msgctxt "Message->Forward->"
 msgid "&Redirect..."
 msgstr "Do&pósłać..."
 
-#: messageactions.cpp:195
+#: messageactions.cpp:176
 #, fuzzy
 #| msgid "Reply to Mailing-&List..."
 msgctxt "Message->"
 msgid "Mailing-&List"
 msgstr "&Lisćinje wotmołwić..."
 
-#: messageactions.cpp:326
+#: messageactions.cpp:301
 #, fuzzy
 msgid "Open Message in List Archive"
 msgstr "PGP-ŝifrowana powěsć - njekorektna signatura"
 
-#: messageactions.cpp:328
+#: messageactions.cpp:303
 #, fuzzy
 #| msgid "New Message"
 msgid "Post New Message"
 msgstr "Nowa powěsć"
 
-#: messageactions.cpp:330
+#: messageactions.cpp:305
 #, fuzzy
 msgid "Go to Archive"
 msgstr "Lisćina:"
 
-#: messageactions.cpp:332
+#: messageactions.cpp:307
 #, fuzzy
 msgid "Request Help"
 msgstr "Lisćina"
 
-#: messageactions.cpp:334
+#: messageactions.cpp:309
 #, fuzzy
 #| msgid "Contacts"
 msgid "Contact Owner"
 msgstr "Kontakty"
 
-#: messageactions.cpp:336 mailinglistpropertiesdialog.cpp:155
+#: messageactions.cpp:311 mailinglistpropertiesdialog.cpp:155
 msgid "Subscribe to List"
 msgstr ""
 
-#: messageactions.cpp:338
+#: messageactions.cpp:313
 msgid "Unsubscribe from List"
 msgstr ""
 
-#: messageactions.cpp:531
+#: messageactions.cpp:475
 #, fuzzy
 msgid "email"
 msgstr "KMail"
 
-#: messageactions.cpp:534
+#: messageactions.cpp:478
 msgid "web"
 msgstr ""
 
-#: messageactions.cpp:537
+#: messageactions.cpp:481
 #, fuzzy, kde-format
 msgctxt ""
 "%1 is a 'Contact Owner' or similar action. %2 is a protocol normally web or "
@@ -1266,7 +1218,7 @@ msgctxt ""
 msgid "%1 (%2)"
 msgstr "KMail"
 
-#: messageactions.cpp:580
+#: messageactions.cpp:524
 #, fuzzy
 msgid "Edit Note..."
 msgstr "wobdźěłać..."
@@ -3563,11 +3515,11 @@ msgctxt "Unit suffix where units are days."
 msgid " days"
 msgstr "s"
 
-#: kmcommands.cpp:296
+#: kmcommands.cpp:295
 msgid "Please wait"
 msgstr "Prošu dočakajće"
 
-#: kmcommands.cpp:297 kmcommands.cpp:369
+#: kmcommands.cpp:296 kmcommands.cpp:368
 #, kde-format
 msgid "Please wait while the message is transferred"
 msgid_plural "Please wait while the %1 messages are transferred"
@@ -3576,28 +3528,28 @@ msgstr[1] "Prošu dočakajće, doniž so njeje ta %1 powěsć přenjesła."
 msgstr[2] "Prošu dočakajće, doniž so njejstej tej %1 powěsći přenjesłoj."
 msgstr[3] "Prošu dočakajće, doniž so njejsu te %1 powěsće přenjesli."
 
-#: kmcommands.cpp:526
+#: kmcommands.cpp:525
 #, fuzzy, kde-format
 #| msgid "<qt>File <b>%1</b> exists.<br>Do you want to replace it?</qt>"
 msgctxt "@info"
 msgid "File <filename>%1</filename> exists.<nl/>Do you want to replace it?"
 msgstr "<qt>Dataja<b>%1</b> eksistuje.<br>Chceće ju narunać?</qt>"
 
-#: kmcommands.cpp:527 kmcommands.cpp:814
+#: kmcommands.cpp:526 kmcommands.cpp:813
 msgid "Save to File"
 msgstr "Do dataje zawěsćić"
 
-#: kmcommands.cpp:527 kmcommands.cpp:814
+#: kmcommands.cpp:526 kmcommands.cpp:813
 msgid "&Replace"
 msgstr "Na&runać"
 
-#: kmcommands.cpp:637
+#: kmcommands.cpp:636
 msgid ""
 "*.mbox|email messages (*.mbox)\n"
 "*|all files (*)"
 msgstr ""
 
-#: kmcommands.cpp:813
+#: kmcommands.cpp:812
 #, kde-format
 msgid ""
 "File %1 exists.\n"
@@ -3606,76 +3558,63 @@ msgstr ""
 "Dataja %1 eksistuje?\n"
 "Chceće ju přepisać?"
 
-#: kmcommands.cpp:857
+#: kmcommands.cpp:856
 msgid "Open Message"
 msgstr "Powěsć wočinić"
 
-#: kmcommands.cpp:894 kmcommands.cpp:920
+#: kmcommands.cpp:893 kmcommands.cpp:919
 #, fuzzy
 msgid "The file does not contain a message."
 msgstr "njewobsahuje"
 
-#: kmcommands.cpp:940
+#: kmcommands.cpp:939
 msgid "The file contains multiple messages. Only the first message is shown."
 msgstr ""
 
-#: kmcommands.cpp:1136
+#: kmcommands.cpp:1135
 msgid ""
 "Do you want to forward the selected messages as attachments in one message "
 "(as a MIME digest) or as individual messages?"
 msgstr ""
 
-#: kmcommands.cpp:1139
+#: kmcommands.cpp:1138
 #, fuzzy
 msgid "Send As Digest"
 msgstr "&Nješifrowane zawěsćić"
 
-#: kmcommands.cpp:1140
+#: kmcommands.cpp:1139
 msgid "Send Individually"
 msgstr ""
 
-#: kmcommands.cpp:1636 kmmainwidget.cpp:2204
+#: kmcommands.cpp:1635 kmmainwidget.cpp:2204
 #, fuzzy
 msgid "Filtering messages"
 msgstr "Powěsće zničić"
 
-#: kmcommands.cpp:1643 kmmainwidget.cpp:2245
+#: kmcommands.cpp:1642 kmmainwidget.cpp:2245
 #, fuzzy, kde-format
 msgid "Filtering message %1 of %2"
 msgstr "Přesuwam powěsć %3 z %2 wot %1."
 
-#: kmcommands.cpp:1653
+#: kmcommands.cpp:1652
 #, fuzzy
 msgid "Not enough free disk space?"
 msgstr "Rum na disku njedosaha."
 
-#: kmcommands.cpp:1796
+#: kmcommands.cpp:1795
 #, fuzzy
 msgid "Moving messages"
 msgstr "Přesuwam powěsć %3 z %2 wot %1."
 
-#: kmcommands.cpp:1796
+#: kmcommands.cpp:1795
 #, fuzzy
 msgid "Deleting messages"
 msgstr "Powěsće zničić"
 
-#: kmcommands.cpp:1872
+#: kmcommands.cpp:1871
 #, fuzzy
 msgid "Found no attachments to save."
 msgstr "Njepokazuje přiwěški w powěsći samej"
-
-#: kmcommands.cpp:2001
-#, kde-format
-msgid ""
-"From: %1\n"
-"To: %2\n"
-"Subject: %3"
-msgstr ""
-
-#: kmcommands.cpp:2015
-#, fuzzy, kde-format
-msgid "Mail: %1"
-msgstr "KMail"
 
 #: kmsystemtray.cpp:72 kmsystemtray.cpp:112 kmstartup.cpp:104
 #: mailinglistpropertiesdialog.cpp:114 aboutdata.cpp:240
@@ -4051,34 +3990,34 @@ msgid ""
 "addresses by hand."
 msgstr ""
 
-#: kmreadermainwin.cpp:283 kmmainwidget.cpp:3238
+#: kmreadermainwin.cpp:284 kmmainwidget.cpp:3238
 msgid "Save A&ttachments..."
 msgstr "&Přiwěški zawěsćić ..."
 
-#: kmreadermainwin.cpp:286 kmmainwidget.cpp:3008
+#: kmreadermainwin.cpp:287 kmmainwidget.cpp:3008
 msgid "&Move to Trash"
 msgstr "Do papjernika &sunyć"
 
-#: kmreadermainwin.cpp:287 kmmainwidget.cpp:3011
+#: kmreadermainwin.cpp:288 kmmainwidget.cpp:3011
 #, fuzzy
 msgctxt "@action:intoolbar Move to Trash"
 msgid "Trash"
 msgstr "&Dalše opcije"
 
-#: kmreadermainwin.cpp:288 kmmainwidget.cpp:3013
+#: kmreadermainwin.cpp:289 kmmainwidget.cpp:3013
 msgid "Move message to trashcan"
 msgstr "Powěsć do papjernika sunyć"
 
-#: kmreadermainwin.cpp:299 kmmainwidget.cpp:3285
+#: kmreadermainwin.cpp:300 kmmainwidget.cpp:3285
 msgid "&View Source"
 msgstr "&Pokaž žórło"
 
-#: kmreadermainwin.cpp:306
+#: kmreadermainwin.cpp:307
 #, fuzzy
 msgid "Select Font"
 msgstr "Zapisk zničić"
 
-#: kmreadermainwin.cpp:311
+#: kmreadermainwin.cpp:312
 #, fuzzy
 msgid "Select Size"
 msgstr "Wubjerće zwukowu dataju"
@@ -5386,7 +5325,7 @@ msgstr "Filtrowa akcija %1"
 msgid "Out of office reply active"
 msgstr "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 
-#: kmmainwidget.cpp:4222
+#: kmmainwidget.cpp:4227
 #, fuzzy, kde-format
 #| msgid "Properties of Folder %1"
 msgctxt "@title:window"
@@ -6648,7 +6587,7 @@ msgstr "Přesuwam powěsć %3 z %2 wot %1."
 msgid "Insert clipboard text as attachment"
 msgstr "Přiwěšk: "
 
-#: kmcomposewin.cpp:2114 kmcomposereditor.cpp:153
+#: kmcomposewin.cpp:2114 kmcomposereditor.cpp:156
 #, fuzzy
 msgid "Name of the attachment:"
 msgstr "Přiwěšk: "
@@ -8032,16 +7971,16 @@ msgstr "Ci&towanske pismiki dodać"
 msgid "Re&move Quote Characters"
 msgstr "Citowanske pismiki z&ničić"
 
-#: kmcomposereditor.cpp:134
+#: kmcomposereditor.cpp:141
 msgid "Add as &Inline Image"
 msgstr ""
 
-#: kmcomposereditor.cpp:135
+#: kmcomposereditor.cpp:142
 #, fuzzy
 msgid "Add as &Attachment"
 msgstr "Přiwěšk: "
 
-#: kmcomposereditor.cpp:192
+#: kmcomposereditor.cpp:195
 #, fuzzy
 msgid "Add URL into Message &Text"
 msgid_plural "Add URLs into Message &Text"
@@ -8050,7 +7989,7 @@ msgstr[1] "Šifrowana powěsć"
 msgstr[2] "Šifrowana powěsć"
 msgstr[3] "Šifrowana powěsć"
 
-#: kmcomposereditor.cpp:193
+#: kmcomposereditor.cpp:196
 #, fuzzy
 msgid "Add File as &Attachment"
 msgid_plural "Add Files as &Attachment"
@@ -8093,6 +8032,48 @@ msgstr "wobdźěłać..."
 #, kde-format
 msgid "Folder Shortcut %1"
 msgstr ""
+
+#~ msgid "Mark Message as &Read"
+#~ msgstr "Powěsć ma&rkěrować jako čitanu"
+
+#~ msgid "Mark selected messages as read"
+#~ msgstr "Wubrane powěsće markěrować jako čitane"
+
+#~ msgid "Mark Message as &Unread"
+#~ msgstr "Powěsć markěrować jako nječitan&u"
+
+#~ msgid "Mark selected messages as unread"
+#~ msgstr "Wubrane powěsće mar&kěrować jako nječitane"
+
+#~ msgid "Mark Message as &Important"
+#~ msgstr "Powěsć markěrować jako &wažnu"
+
+#, fuzzy
+#~ msgid "Remove &Important Message Mark"
+#~ msgstr "Wažna powěsć"
+
+#, fuzzy
+#~| msgctxt "msg status"
+#~| msgid "Important"
+#~ msgid "Important"
+#~ msgstr "Wažne"
+
+#, fuzzy
+#~| msgid "Mark Message as &New"
+#~ msgid "Mark Message as &Action Item"
+#~ msgstr "Powěsć mar&kěrować jako nowu"
+
+#, fuzzy
+#~ msgid "Remove &Action Item Message Mark"
+#~ msgstr "Wažna powěsć"
+
+#, fuzzy
+#~ msgid "Action Item"
+#~ msgstr "Wažna powěsć"
+
+#, fuzzy
+#~ msgid "Mail: %1"
+#~ msgstr "KMail"
 
 #, fuzzy
 #~ msgid "Removing 1 old message from folder %2..."
