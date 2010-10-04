@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-21 07:09+0200\n"
+"POT-Creation-Date: 2010-10-04 06:05+0200\n"
 "PO-Revision-Date: 2008-11-13 00:41+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -52,78 +52,78 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#: battery.cpp:494
+#: battery.cpp:514
 msgctxt "Label for remaining time"
 msgid "Time Remaining:"
 msgstr ""
 
-#: battery.cpp:514
+#: battery.cpp:534
 #, fuzzy
 #| msgid "Power Profile"
 msgid "Power Profile:"
 msgstr "Milinowy profil"
 
-#: battery.cpp:534
+#: battery.cpp:554
 #, fuzzy
 #| msgid "Screen Brightness"
 msgid "Screen Brightness:"
 msgstr "Swětłosć wobrazowki"
 
-#: battery.cpp:561
+#: battery.cpp:582
 #, fuzzy
 #| msgid "Sleep"
 msgctxt "Suspend the computer to RAM; translation should be short"
 msgid "Sleep"
 msgstr "Wusnyć"
 
-#: battery.cpp:568
+#: battery.cpp:589
 #, fuzzy
 #| msgid "Hibernate"
 msgctxt "Suspend the computer to disk; translation should be short"
 msgid "Hibernate"
 msgstr "Přezymować"
 
-#: battery.cpp:575
+#: battery.cpp:596
 #, fuzzy
 #| msgid "Power Management"
 msgctxt "tooltip on the config button in the popup"
 msgid "Configure Power Management..."
 msgstr "Lutowanje miliny"
 
-#: battery.cpp:589
+#: battery.cpp:610
 msgid "Power Management"
 msgstr "Lutowanje miliny"
 
-#: battery.cpp:638
+#: battery.cpp:659
 #, fuzzy, kde-format
 #| msgid "<b>Battery:</b> %1% (fully charged)<br />"
 msgid "%1% (charged)"
 msgstr "<b>Aku:</b> %1% (donabity)<br />"
 
-#: battery.cpp:643
+#: battery.cpp:664
 #, fuzzy, kde-format
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgid "%1% (discharging)"
 msgstr "<b>Aku:</b> %1% (so wužiwa)<br />"
 
-#: battery.cpp:646
+#: battery.cpp:667
 #, kde-format
 msgid "%1% (charging)"
 msgstr ""
 
-#: battery.cpp:649 battery.cpp:698
+#: battery.cpp:670
 msgctxt "Battery is not plugged in"
 msgid "Not present"
 msgstr ""
 
-#: battery.cpp:665
+#: battery.cpp:686 battery.cpp:719
 #, fuzzy
 #| msgctxt "Battery is not plugged in"
 #| msgid "<b>Battery:</b> not present<br />"
 msgid "Battery:"
 msgstr "<b>Aku:</b> njeje tu<br />"
 
-#: battery.cpp:672
+#: battery.cpp:693
 #, fuzzy, kde-format
 #| msgctxt "Battery is not plugged in"
 #| msgid "<b>Battery:</b> not present<br />"
@@ -131,28 +131,28 @@ msgctxt "Placeholder is the battery ID"
 msgid "Battery %1:"
 msgstr "<b>Aku:</b> njeje tu<br />"
 
-#: battery.cpp:679
+#: battery.cpp:700
 #, fuzzy
 #| msgid "<b>AC Adapter:</b> Plugged in"
-msgid "AC Adapter:"
+msgid "AC Adapter: "
 msgstr "<b>Milinowy adapter:</b> přizamknjeny"
 
-#: battery.cpp:681
-msgid "Plugged in"
+#: battery.cpp:702
+msgid "<b>Plugged in</b>"
 msgstr ""
 
-#: battery.cpp:683
-msgid "Not plugged in"
-msgstr ""
-
-#: battery.cpp:697
+#: battery.cpp:704
 #, fuzzy
-#| msgctxt "Battery is not plugged in"
-#| msgid "<b>Battery:</b> not present<br />"
-msgid "<b>Battery:</b> "
-msgstr "<b>Aku:</b> njeje tu<br />"
+#| msgid "<b>AC Adapter:</b> Not plugged in"
+msgid "<b>Not plugged in</b>"
+msgstr "<b>Milinowy adapter:</b> njepřizamknjeny"
 
-#: battery.cpp:955 battery.cpp:986 battery.cpp:998
+#: battery.cpp:720
+msgctxt "Battery is not plugged in"
+msgid "<b>Not present</b>"
+msgstr ""
+
+#: battery.cpp:979 battery.cpp:1010 battery.cpp:1022
 #, kde-format
 msgctxt "overlay on the battery, needs to be really tiny"
 msgid "%1%"
@@ -175,6 +175,12 @@ msgstr ""
 #: rc.cpp:9
 msgid "Show the state for &each battery present"
 msgstr "Staw &kóždeho akuwa pokazać"
+
+#, fuzzy
+#~| msgctxt "Battery is not plugged in"
+#~| msgid "<b>Battery:</b> not present<br />"
+#~ msgid "<b>Battery:</b> "
+#~ msgstr "<b>Aku:</b> njeje tu<br />"
 
 #~ msgid "Screen Brightness"
 #~ msgstr "Swětłosć wobrazowki"
@@ -224,6 +230,3 @@ msgstr "Staw &kóždeho akuwa pokazać"
 
 #~ msgid "<b>Battery %1:</b> %2% (discharging)<br />"
 #~ msgstr "<b>Aku %1:</b> %2% (so wužiwa)<br />"
-
-#~ msgid "<b>AC Adapter:</b> Not plugged in"
-#~ msgstr "<b>Milinowy adapter:</b> njepřizamknjeny"
