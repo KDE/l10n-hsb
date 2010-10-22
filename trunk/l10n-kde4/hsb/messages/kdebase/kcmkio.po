@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsocks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-27 06:04+0200\n"
+"POT-Creation-Date: 2010-10-22 06:15+0200\n"
 "PO-Revision-Date: 2008-11-19 23:41+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -89,40 +89,40 @@ msgstr ""
 "internetowe wobchody pak, ke kotrymž maće dowěru, móžeće standardnu "
 "strategiju změnić, zo so jich placki bjez dalšeho prašenja akceptuja.</p>"
 
-#: kcookiesmanagement.cpp:166 kcookiesmanagement.cpp:183
+#: kcookiesmanagement.cpp:143 kcookiesmanagement.cpp:159
 msgid "D-Bus Communication Error"
 msgstr "D-Bus: Komunikaciski zmylk"
 
-#: kcookiesmanagement.cpp:167
+#: kcookiesmanagement.cpp:144
 msgid "Unable to delete all the cookies as requested."
 msgstr "Njemóžu wšitke placki zničić"
 
-#: kcookiesmanagement.cpp:184
+#: kcookiesmanagement.cpp:160
 msgid "Unable to delete cookies as requested."
 msgstr "Njemóžu placki zničić"
 
-#: kcookiesmanagement.cpp:256
+#: kcookiesmanagement.cpp:231
 #, fuzzy
 #| msgid "<h1>Cookies Management Quick Help</h1>"
 msgid "<h1>Cookie Management Quick Help</h1>"
 msgstr "<h1>Spěšna pomoc za rjadowanje plackow</1>"
 
-#: kcookiesmanagement.cpp:266
+#: kcookiesmanagement.cpp:241
 msgid "Information Lookup Failure"
 msgstr "Zmylk při pytanju informacije"
 
-#: kcookiesmanagement.cpp:267
+#: kcookiesmanagement.cpp:242
 msgid ""
 "Unable to retrieve information about the cookies stored on your computer."
 msgstr ""
 "Njemóžu informaciju namakać wo plackach, kiž su na Wašim kompjuteru "
 "składowane."
 
-#: kcookiesmanagement.cpp:376
+#: kcookiesmanagement.cpp:332
 msgid "End of session"
 msgstr "Kónc posedźenja"
 
-#: kcookiesmanagement.cpp:385
+#: kcookiesmanagement.cpp:341
 msgid "Yes"
 msgstr "Haj"
 
@@ -873,7 +873,7 @@ msgid "Auto &Detect"
 msgstr "Awtomatisce &namakać"
 
 #. i18n: file: kcookiesmanagementdlg.ui:20
-#. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, kListViewSearchLine)
+#. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, searchLineEdit)
 #. i18n: file: kcookiespoliciesdlg.ui:225
 #. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, kListViewSearchLine)
 #: rc.cpp:170 rc.cpp:307
@@ -881,25 +881,25 @@ msgid "Search"
 msgstr "Pytać"
 
 #. i18n: file: kcookiesmanagementdlg.ui:27
-#. i18n: ectx: property (toolTip), widget (QTreeWidget, lvCookies)
+#. i18n: ectx: property (toolTip), widget (QTreeWidget, cookiesTreeWidget)
 #: rc.cpp:173
 msgid "Search interactively for domains and hosts"
 msgstr "Interaktiwnje za domenami a serwerami pytać"
 
-#. i18n: file: kcookiesmanagementdlg.ui:49
-#. i18n: ectx: property (text), widget (QTreeWidget, lvCookies)
+#. i18n: file: kcookiesmanagementdlg.ui:43
+#. i18n: ectx: property (text), widget (QTreeWidget, cookiesTreeWidget)
 #: rc.cpp:176
 msgid "Site"
 msgstr ""
 
-#. i18n: file: kcookiesmanagementdlg.ui:54
-#. i18n: ectx: property (text), widget (QTreeWidget, lvCookies)
+#. i18n: file: kcookiesmanagementdlg.ui:48
+#. i18n: ectx: property (text), widget (QTreeWidget, cookiesTreeWidget)
 #: rc.cpp:179
 msgid "Cookie Name"
 msgstr ""
 
-#. i18n: file: kcookiesmanagementdlg.ui:62
-#. i18n: ectx: property (text), widget (QPushButton, pbDelete)
+#. i18n: file: kcookiesmanagementdlg.ui:56
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
 #. i18n: file: kcookiespoliciesdlg.ui:156
 #. i18n: ectx: property (text), widget (KPushButton, pbDelete)
 #. i18n: file: useragentdlg.ui:208
@@ -908,8 +908,8 @@ msgstr ""
 msgid "D&elete"
 msgstr "W&umaznyć"
 
-#. i18n: file: kcookiesmanagementdlg.ui:69
-#. i18n: ectx: property (text), widget (QPushButton, pbDeleteAll)
+#. i18n: file: kcookiesmanagementdlg.ui:63
+#. i18n: ectx: property (text), widget (QPushButton, deleteAllButton)
 #. i18n: file: kcookiespoliciesdlg.ui:163
 #. i18n: ectx: property (text), widget (KPushButton, pbDeleteAll)
 #. i18n: file: useragentdlg.ui:218
@@ -918,56 +918,56 @@ msgstr "W&umaznyć"
 msgid "Delete A&ll"
 msgstr "Wši&tke wumaznyć"
 
-#. i18n: file: kcookiesmanagementdlg.ui:76
-#. i18n: ectx: property (text), widget (QPushButton, pbPolicy)
+#. i18n: file: kcookiesmanagementdlg.ui:70
+#. i18n: ectx: property (text), widget (QPushButton, changePolicyButton)
 #: rc.cpp:188
 msgid "Change &Policy..."
 msgstr "Strate&giju změnić..."
 
-#. i18n: file: kcookiesmanagementdlg.ui:83
-#. i18n: ectx: property (text), widget (QPushButton, pbReload)
+#. i18n: file: kcookiesmanagementdlg.ui:77
+#. i18n: ectx: property (text), widget (QPushButton, reloadButton)
 #: rc.cpp:191
 msgid "&Reload List"
 msgstr "&Lisćinu znowa začitać"
 
-#. i18n: file: kcookiesmanagementdlg.ui:103
-#. i18n: ectx: property (title), widget (QGroupBox, gbDetails)
+#. i18n: file: kcookiesmanagementdlg.ui:97
+#. i18n: ectx: property (title), widget (QGroupBox, detailsGroupBox)
 #: rc.cpp:194
 msgid "Details"
 msgstr "Nadrobnosće"
 
-#. i18n: file: kcookiesmanagementdlg.ui:112
-#. i18n: ectx: property (text), widget (QLabel, lbName)
+#. i18n: file: kcookiesmanagementdlg.ui:106
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
 #: rc.cpp:197
 msgid "Name:"
 msgstr "Mjeno:"
 
-#. i18n: file: kcookiesmanagementdlg.ui:135
-#. i18n: ectx: property (text), widget (QLabel, lbValue)
+#. i18n: file: kcookiesmanagementdlg.ui:129
+#. i18n: ectx: property (text), widget (QLabel, valueLabel)
 #: rc.cpp:200
 msgid "Value:"
 msgstr "Hódnota:"
 
-#. i18n: file: kcookiesmanagementdlg.ui:158
-#. i18n: ectx: property (text), widget (QLabel, lbDomain)
+#. i18n: file: kcookiesmanagementdlg.ui:152
+#. i18n: ectx: property (text), widget (QLabel, domainLabel)
 #: rc.cpp:203
 msgid "Domain:"
 msgstr "Domena:"
 
-#. i18n: file: kcookiesmanagementdlg.ui:181
-#. i18n: ectx: property (text), widget (QLabel, lbPath)
+#. i18n: file: kcookiesmanagementdlg.ui:175
+#. i18n: ectx: property (text), widget (QLabel, patchLabel)
 #: rc.cpp:206
 msgid "Path:"
 msgstr "Puć:"
 
-#. i18n: file: kcookiesmanagementdlg.ui:204
-#. i18n: ectx: property (text), widget (QLabel, lbExpires)
+#. i18n: file: kcookiesmanagementdlg.ui:198
+#. i18n: ectx: property (text), widget (QLabel, expiresLabel)
 #: rc.cpp:209
 msgid "Expires:"
 msgstr "Płaći hač do:"
 
-#. i18n: file: kcookiesmanagementdlg.ui:227
-#. i18n: ectx: property (text), widget (QLabel, lbSecure)
+#. i18n: file: kcookiesmanagementdlg.ui:221
+#. i18n: ectx: property (text), widget (QLabel, secureLabel)
 #: rc.cpp:212
 msgid "Secure:"
 msgstr "Wěstosć:"
