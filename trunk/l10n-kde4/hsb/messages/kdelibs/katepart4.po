@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-01 06:13+0100\n"
+"POT-Creation-Date: 2010-11-02 07:17+0100\n"
 "PO-Revision-Date: 2008-11-10 22:45+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -55,11 +55,6 @@ msgstr ""
 #: mode/katemodeconfigpage.cpp:290
 msgid "Select Mime Types"
 msgstr "Mime-družiny wubrać"
-
-#: tests/testutils.cpp:195 script/katescript.cpp:93
-#, kde-format
-msgid "Unable to find '%1'"
-msgstr ""
 
 #: search/katesearchbar.cpp:76
 msgid "Add..."
@@ -1157,6 +1152,30 @@ msgstr "Standardnu marku postajić"
 msgid "Disable Annotation Bar"
 msgstr ""
 
+#: view/kateviewaccessible.h:65
+msgid "Move To..."
+msgstr ""
+
+#: view/kateviewaccessible.h:66
+#, fuzzy
+#| msgid "Move to Next Line"
+msgid "Move Left"
+msgstr "Skoč k přichodnej lince"
+
+#: view/kateviewaccessible.h:67
+msgid "Move Right"
+msgstr ""
+
+#: view/kateviewaccessible.h:68
+#, fuzzy
+#| msgid "Move to Next Line"
+msgid "Move Up"
+msgstr "Skoč k přichodnej lince"
+
+#: view/kateviewaccessible.h:69
+msgid "Move Down"
+msgstr ""
+
 #: document/katedocument.cpp:124
 #, kde-format
 msgid ""
@@ -2032,43 +2051,43 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: utils/kateglobal.cpp:281
+#: utils/kateglobal.cpp:282
 msgid "Configure"
 msgstr ""
 
-#: utils/kateglobal.cpp:365 utils/kateglobal.cpp:391
+#: utils/kateglobal.cpp:366 utils/kateglobal.cpp:392
 msgid "Appearance"
 msgstr ""
 
-#: utils/kateglobal.cpp:368
+#: utils/kateglobal.cpp:369
 msgid "Fonts & Colors"
 msgstr ""
 
-#: utils/kateglobal.cpp:371
+#: utils/kateglobal.cpp:372
 msgid "Editing"
 msgstr ""
 
-#: utils/kateglobal.cpp:374
+#: utils/kateglobal.cpp:375
 msgid "Open/Save"
 msgstr ""
 
-#: utils/kateglobal.cpp:377
+#: utils/kateglobal.cpp:378
 msgid "Extensions"
 msgstr ""
 
-#: utils/kateglobal.cpp:394
+#: utils/kateglobal.cpp:395
 msgid "Font & Color Schemas"
 msgstr ""
 
-#: utils/kateglobal.cpp:397
+#: utils/kateglobal.cpp:398
 msgid "Editing Options"
 msgstr ""
 
-#: utils/kateglobal.cpp:400
+#: utils/kateglobal.cpp:401
 msgid "File Opening & Saving"
 msgstr ""
 
-#: utils/kateglobal.cpp:403
+#: utils/kateglobal.cpp:404
 msgid "Extensions Manager"
 msgstr ""
 
@@ -2515,11 +2534,15 @@ msgstr ""
 msgid "Missing argument(s). Usage: %1 <from> [<to>]"
 msgstr ""
 
-#: utils/katecmds.cpp:658
+#: utils/katecmds.cpp:491
+msgid "Document written to disk"
+msgstr ""
+
+#: utils/katecmds.cpp:827
 msgid "Sorry, but Kate is not able to replace newlines, yet"
 msgstr ""
 
-#: utils/katecmds.cpp:697
+#: utils/katecmds.cpp:866
 #, kde-format
 msgctxt "substituted into the previous message"
 msgid "1 line"
@@ -2529,7 +2552,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: utils/katecmds.cpp:695
+#: utils/katecmds.cpp:864
 #, kde-format
 msgctxt "%2 is the translation of the next message"
 msgid "1 replacement done on %2"
@@ -2717,6 +2740,11 @@ msgstr "Přikaz njejsym namakał: %1"
 
 #: script/katescriptmanager.cpp:349
 msgid "Reload all JavaScript files (indenters, command line scripts, etc)."
+msgstr ""
+
+#: script/katescript.cpp:93
+#, kde-format
+msgid "Unable to find '%1'"
 msgstr ""
 
 #: script/katescript.cpp:275

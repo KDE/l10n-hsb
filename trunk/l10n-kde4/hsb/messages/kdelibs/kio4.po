@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-30 06:15+0200\n"
+"POT-Creation-Date: 2010-11-02 07:17+0100\n"
 "PO-Revision-Date: 2008-11-17 23:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -3142,7 +3142,7 @@ msgstr ""
 msgid "P&review"
 msgstr "Pře&hladka"
 
-#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:308
+#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:406
 #, fuzzy
 #| msgid "Comment"
 msgctxt "@label"
@@ -4018,60 +4018,62 @@ msgstr "Jenož programy za lokalnych datajowych systemach so podpěruja."
 msgid "Advanced Options for %1"
 msgstr "Opcije za pokročenych"
 
-#: kfile/kfilemetadatawidget.cpp:541
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Size:"
-msgstr "Wulkosć:"
-
-#: kfile/kfilemetadatawidget.cpp:558
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Total Size:"
-msgstr "Wulkosć:"
-
-#: kfile/kfilemetadatawidget.cpp:642
-#, fuzzy
-#| msgid "Type:"
-msgctxt "@label file type"
-msgid "Type:"
-msgstr "Družina:"
-
-#: kfile/kfilemetadatawidget.cpp:644
+#: kfile/kfilemetadataprovider.cpp:407
 #, fuzzy
 #| msgid "Modified:"
 msgctxt "@label"
-msgid "Modified:"
+msgid "Modified"
 msgstr "Změnjeny:"
 
-#: kfile/kfilemetadatawidget.cpp:645
+#: kfile/kfilemetadataprovider.cpp:408
 #, fuzzy
-#| msgid "Owner:"
+#| msgid "Owner"
 msgctxt "@label"
-msgid "Owner:"
-msgstr "Wobsydnik:"
+msgid "Owner"
+msgstr "Wobsydnik"
 
-#: kfile/kfilemetadatawidget.cpp:646
+#: kfile/kfilemetadataprovider.cpp:409
 #, fuzzy
-#| msgid "Permissions:"
+#| msgctxt "@title:column"
+#| msgid "Permissions"
 msgctxt "@label"
-msgid "Permissions:"
-msgstr "Prawa:"
+msgid "Permissions"
+msgstr "Prawa"
 
-#: kfile/kfilemetadataprovider.cpp:304
+#: kfile/kfilemetadataprovider.cpp:410
 #, fuzzy
 #| msgid "Sorting"
 msgctxt "@label"
 msgid "Rating"
 msgstr "Rjadowanje"
 
-#: kfile/kfilemetadataprovider.cpp:306
+#: kfile/kfilemetadataprovider.cpp:411
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Size"
+msgctxt "@label"
+msgid "Size"
+msgstr "Wulkosć"
+
+#: kfile/kfilemetadataprovider.cpp:412
 #, fuzzy
 msgctxt "@label"
 msgid "Tags"
 msgstr "Papjernik"
+
+#: kfile/kfilemetadataprovider.cpp:413
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@label"
+msgid "Total Size"
+msgstr "Wulkosć:"
+
+#: kfile/kfilemetadataprovider.cpp:414
+#, fuzzy
+#| msgid "Type"
+msgctxt "@label"
+msgid "Type"
+msgstr "Družina"
 
 #: kfile/kfilemetainfowidget.cpp:163
 msgid "<Error>"
@@ -4202,43 +4204,6 @@ msgstr "Komentar"
 msgctxt "@title:window"
 msgid "Add Comment"
 msgstr "Komentar"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:171
-#, fuzzy
-#| msgid "Type"
-msgctxt "@item::inlistbox"
-msgid "Type"
-msgstr "Družina"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:172
-#, fuzzy
-#| msgctxt "@title:column"
-#| msgid "Size"
-msgctxt "@item::inlistbox"
-msgid "Size"
-msgstr "Wulkosć"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:173
-#, fuzzy
-#| msgid "Modified:"
-msgctxt "@item::inlistbox"
-msgid "Modified"
-msgstr "Změnjeny:"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:174
-#, fuzzy
-#| msgid "Owner"
-msgctxt "@item::inlistbox"
-msgid "Owner"
-msgstr "Wobsydnik"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:175
-#, fuzzy
-#| msgctxt "@title:column"
-#| msgid "Permissions"
-msgctxt "@item::inlistbox"
-msgid "Permissions"
-msgstr "Prawa"
 
 #: misc/ksendbugmail/main.cpp:43
 msgid "Error connecting to server."
@@ -7040,6 +7005,68 @@ msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
 msgid "Show Hidden Folders"
 msgstr "chowane dataje pokazować"
 
+#, fuzzy
+#~| msgid "Size:"
+#~ msgctxt "@label"
+#~ msgid "Size:"
+#~ msgstr "Wulkosć:"
+
+#, fuzzy
+#~| msgid "Type:"
+#~ msgctxt "@label file type"
+#~ msgid "Type:"
+#~ msgstr "Družina:"
+
+#, fuzzy
+#~| msgid "Modified:"
+#~ msgctxt "@label"
+#~ msgid "Modified:"
+#~ msgstr "Změnjeny:"
+
+#, fuzzy
+#~| msgid "Owner:"
+#~ msgctxt "@label"
+#~ msgid "Owner:"
+#~ msgstr "Wobsydnik:"
+
+#, fuzzy
+#~| msgid "Permissions:"
+#~ msgctxt "@label"
+#~ msgid "Permissions:"
+#~ msgstr "Prawa:"
+
+#, fuzzy
+#~| msgid "Type"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Type"
+#~ msgstr "Družina"
+
+#, fuzzy
+#~| msgctxt "@title:column"
+#~| msgid "Size"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Size"
+#~ msgstr "Wulkosć"
+
+#, fuzzy
+#~| msgid "Modified:"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Modified"
+#~ msgstr "Změnjeny:"
+
+#, fuzzy
+#~| msgid "Owner"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Owner"
+#~ msgstr "Wobsydnik"
+
+#, fuzzy
+#~| msgctxt "@title:column"
+#~| msgid "Permissions"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Permissions"
+#~ msgstr "Prawa"
+
 #~ msgid "Unmounted Icon"
 #~ msgstr "Piktogram za 'njemontowany'"
 
@@ -7060,32 +7087,6 @@ msgstr "chowane dataje pokazować"
 #~ msgstr ""
 #~ "Tuta akcija by '%1' ze sobu samym přepisała.\n"
 #~ "Prošu zapodajće hinaše mjeno dataje:"
-
-#, fuzzy
-#~| msgctxt "@title:column"
-#~| msgid "Size"
-#~ msgctxt "@label"
-#~ msgid "Size"
-#~ msgstr "Wulkosć"
-
-#, fuzzy
-#~| msgid "Modified:"
-#~ msgctxt "@label"
-#~ msgid "Modified"
-#~ msgstr "Změnjeny:"
-
-#, fuzzy
-#~| msgid "Owner"
-#~ msgctxt "@label"
-#~ msgid "Owner"
-#~ msgstr "Wobsydnik"
-
-#, fuzzy
-#~| msgctxt "@title:column"
-#~| msgid "Permissions"
-#~ msgctxt "@label"
-#~ msgid "Permissions"
-#~ msgstr "Prawa"
 
 #~ msgctxt "Available space out of total partition size (percent used)"
 #~ msgid "%1 out of %2 (%3% used)"
