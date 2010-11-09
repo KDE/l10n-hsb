@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-08 05:44+0000\n"
+"POT-Creation-Date: 2010-11-09 06:36+0000\n"
 "PO-Revision-Date: 2008-11-25 00:15+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -1969,7 +1969,7 @@ msgid "There was a serious error causing the program to exit"
 msgstr "Chutny zmylk je program zakónčił"
 
 #: runtime/knotify/kde.notifyrc:866
-#: workspace/powerdevil/powerdevil.notifyrc:284
+#: workspace/powerdevil/powerdevil.notifyrc:163
 msgctxt "Name"
 msgid "Notification"
 msgstr "Zdźělenka"
@@ -1981,7 +1981,7 @@ msgstr "Něšto wosebite je so z programom stało"
 
 #: runtime/knotify/kde.notifyrc:1031
 #: workspace/freespacenotifier/freespacenotifier.notifyrc:106
-#: workspace/powerdevil/powerdevil.notifyrc:129
+#: workspace/powerdevil/powerdevil.notifyrc:8
 msgctxt "Name"
 msgid "Warning"
 msgstr "Kedźbu"
@@ -7106,7 +7106,7 @@ msgid "Low Disk Space"
 msgstr ""
 
 #: workspace/freespacenotifier/freespacenotifier.notifyrc:190
-#: workspace/powerdevil/powerdevil.notifyrc:213
+#: workspace/powerdevil/powerdevil.notifyrc:92
 msgctxt "Comment"
 msgid "Used for warning notifications"
 msgstr ""
@@ -11111,7 +11111,7 @@ msgctxt "Comment"
 msgid "Default desktop toolbox for the Plasma desktop shell"
 msgstr ""
 
-#: workspace/plasma/desktop/shell/toolbox/plasma-toolbox-desktoptoolbox.desktop:24
+#: workspace/plasma/desktop/shell/toolbox/plasma-toolbox-desktoptoolbox.desktop:25
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Network Tool"
@@ -11124,7 +11124,7 @@ msgctxt "Comment"
 msgid "Default panel toolbox for the Plasma desktop shell"
 msgstr ""
 
-#: workspace/plasma/desktop/shell/toolbox/plasma-toolbox-paneltoolbox.desktop:24
+#: workspace/plasma/desktop/shell/toolbox/plasma-toolbox-paneltoolbox.desktop:25
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Network Tool"
@@ -11448,7 +11448,7 @@ msgctxt "Name"
 msgid "Activities Engine"
 msgstr "Pas aktiwitow"
 
-#: workspace/plasma/generic/dataengines/activities/plasma-engine-activities.desktop:12
+#: workspace/plasma/generic/dataengines/activities/plasma-engine-activities.desktop:13
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Information about available protocols"
@@ -11718,7 +11718,7 @@ msgctxt "Name"
 msgid "pastebin.ca"
 msgstr "Pose"
 
-#: workspace/plasma/generic/dataengines/share/backends/pastebinca/metadata.desktop:20
+#: workspace/plasma/generic/dataengines/share/backends/pastebinca/metadata.desktop:21
 msgctxt "Comment"
 msgid "Enables the share of text using pastebin.ca service"
 msgstr ""
@@ -12001,7 +12001,6 @@ msgid "Basic Power Management Operations"
 msgstr "Name=Datajowy manager"
 
 #: workspace/plasma/generic/runners/powerdevil/plasma-runner-powerdevil.desktop:72
-#: workspace/powerdevil/powerdevil.notifyrc:2
 msgctxt "Name"
 msgid "PowerDevil"
 msgstr ""
@@ -12471,7 +12470,7 @@ msgctxt "Name"
 msgid "Button events handling"
 msgstr ""
 
-#: workspace/powerdevil/daemon/actions/bundled/powerdevilhandlebuttoneventsaction.desktop:24
+#: workspace/powerdevil/daemon/actions/bundled/powerdevilhandlebuttoneventsaction.desktop:25
 msgctxt "Comment"
 msgid "Performs an action whenever a button is pressed"
 msgstr ""
@@ -12532,7 +12531,7 @@ msgctxt "Name"
 msgid "HAL PowerDevil Backend"
 msgstr "Backend za rjadowanje miliny"
 
-#: workspace/powerdevil/daemon/backends/hal/powerdevilhalbackend.desktop:25
+#: workspace/powerdevil/daemon/backends/hal/powerdevilhalbackend.desktop:26
 msgctxt "Comment"
 msgid "Use KDE Power Management system through freedesktop.org HAL daemon"
 msgstr ""
@@ -12545,7 +12544,7 @@ msgctxt "Name"
 msgid "UPower PowerDevil Backend"
 msgstr "Backend za rjadowanje miliny"
 
-#: workspace/powerdevil/daemon/backends/upower/powerdevilupowerbackend.desktop:25
+#: workspace/powerdevil/daemon/backends/upower/powerdevilupowerbackend.desktop:26
 msgctxt "Comment"
 msgid "Use KDE Power Management system through freedesktop.org upower daemon"
 msgstr ""
@@ -12594,54 +12593,62 @@ msgctxt "Comment"
 msgid "Configure Power Management Profiles"
 msgstr "Nastajenja datajoweho managera připrawić"
 
-#: workspace/powerdevil/powerdevil.notifyrc:74
+#: workspace/powerdevil/powerdevil.notifyrc:2
 #, fuzzy
-msgctxt "Comment"
-msgid "Power Management"
+msgctxt "Name"
+msgid "KDE Power Management System"
 msgstr "Name=Datajowy manager"
 
-#: workspace/powerdevil/powerdevil.notifyrc:367
+#: workspace/powerdevil/powerdevil.notifyrc:4
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Settings for display power management"
+msgctxt "Comment"
+msgid "Notifications for KDE Power Management system"
+msgstr "Nastajenja za milinu za wobrazowku"
+
+#: workspace/powerdevil/powerdevil.notifyrc:246
 msgctxt "Comment"
 msgid "Used for standard notifications"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:440
+#: workspace/powerdevil/powerdevil.notifyrc:319
 #, fuzzy
 msgctxt "Name"
 msgid "Critical notification"
 msgstr "GenericName=Kartowa hra"
 
-#: workspace/powerdevil/powerdevil.notifyrc:513
+#: workspace/powerdevil/powerdevil.notifyrc:392
 msgctxt "Comment"
 msgid "Notifies a critical event"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:587
+#: workspace/powerdevil/powerdevil.notifyrc:466
 msgctxt "Name"
 msgid "Low Battery"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:658
+#: workspace/powerdevil/powerdevil.notifyrc:537
 msgctxt "Comment"
 msgid "Your battery has reached low level"
 msgstr "Aku je nětko skoro prózdny."
 
-#: workspace/powerdevil/powerdevil.notifyrc:737
+#: workspace/powerdevil/powerdevil.notifyrc:616
 msgctxt "Name"
 msgid "Battery at warning level"
 msgstr "Skedźbnjenje na aku"
 
-#: workspace/powerdevil/powerdevil.notifyrc:810
+#: workspace/powerdevil/powerdevil.notifyrc:689
 msgctxt "Comment"
 msgid "Your battery has reached warning level"
 msgstr "Na aku dyrbi so skedźbnić "
 
-#: workspace/powerdevil/powerdevil.notifyrc:889
+#: workspace/powerdevil/powerdevil.notifyrc:768
 msgctxt "Name"
 msgid "Battery at critical level"
 msgstr "Aku je kritisce prózdny"
 
-#: workspace/powerdevil/powerdevil.notifyrc:962
+#: workspace/powerdevil/powerdevil.notifyrc:841
 msgctxt "Comment"
 msgid ""
 "Your battery has reached critical level. This notification triggers a "
@@ -12651,75 +12658,75 @@ msgstr ""
 "Aku je kritisce prózdny. Tute skedźbnjenje startuje countdown před "
 "konfigurowanej akciju, tuž so doporuči jón nic přetorhnyć."
 
-#: workspace/powerdevil/powerdevil.notifyrc:1033
+#: workspace/powerdevil/powerdevil.notifyrc:912
 msgctxt "Name"
 msgid "AC adaptor plugged in"
 msgstr "Milinowy adapter přizamknjeny"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1106
+#: workspace/powerdevil/powerdevil.notifyrc:985
 msgctxt "Comment"
 msgid "The power adaptor has been plugged in"
 msgstr "Milinowy adapter je so přizamknył"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1185
+#: workspace/powerdevil/powerdevil.notifyrc:1064
 msgctxt "Name"
 msgid "AC adaptor unplugged"
 msgstr "Milinowy adapter wućehnjeny"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1258
+#: workspace/powerdevil/powerdevil.notifyrc:1137
 msgctxt "Comment"
 msgid "The power adaptor has been unplugged"
 msgstr "Milinowy adapter bu wućehnjeny"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1337
+#: workspace/powerdevil/powerdevil.notifyrc:1216
 msgctxt "Name"
 msgid "Job error"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1410
+#: workspace/powerdevil/powerdevil.notifyrc:1289
 msgctxt "Comment"
 msgid "There was an error while performing a job"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1485
+#: workspace/powerdevil/powerdevil.notifyrc:1364
 msgctxt "Name"
 msgid "Profile Changed"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1558
+#: workspace/powerdevil/powerdevil.notifyrc:1437
 msgctxt "Comment"
 msgid "The profile was changed"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1636
+#: workspace/powerdevil/powerdevil.notifyrc:1515
 msgctxt "Name"
 msgid "Performing a suspension job"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1705
+#: workspace/powerdevil/powerdevil.notifyrc:1584
 msgctxt "Comment"
 msgid ""
 "This notification is displayed when a suspension job is about to be done, "
 "and it triggers a countdown. Hence, it is strongly advised to leave it on."
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1772
+#: workspace/powerdevil/powerdevil.notifyrc:1651
 #, fuzzy
 msgctxt "Name"
-msgid "Internal PowerDevil Error"
+msgid "Internal KDE Power Management System Error"
 msgstr "Name=Internet"
 
-#: workspace/powerdevil/powerdevil.notifyrc:1842
+#: workspace/powerdevil/powerdevil.notifyrc:1652
 msgctxt "Comment"
-msgid "PowerDevil has triggered an internal error"
+msgid "The KDE Power Management System has triggered an internal error"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1915
+#: workspace/powerdevil/powerdevil.notifyrc:1658
 msgctxt "Name"
 msgid "Suspension inhibited"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1981
+#: workspace/powerdevil/powerdevil.notifyrc:1724
 msgctxt "Comment"
 msgid "The suspension has been inhibited because an application requested it"
 msgstr ""
@@ -13525,6 +13532,11 @@ msgstr "Quartz"
 msgctxt "Name"
 msgid "Red Leaf"
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Power Management"
+#~ msgstr "Name=Datajowy manager"
 
 #, fuzzy
 #~| msgctxt "Name"
@@ -15652,10 +15664,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Navigation Panel"
 #~ msgstr "Nawigaciski pas"
-
-#~ msgctxt "Comment"
-#~ msgid "Settings for display power management"
-#~ msgstr "Nastajenja za milinu za wobrazowku"
 
 #, fuzzy
 #~| msgctxt "Name"
