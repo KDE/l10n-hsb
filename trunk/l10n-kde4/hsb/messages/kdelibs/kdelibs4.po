@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-11 06:15+0100\n"
+"POT-Creation-Date: 2010-11-12 06:36+0100\n"
 "PO-Revision-Date: 2008-12-19 22:49+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -2761,22 +2761,7 @@ msgctxt "@title:column The Nepomuk resource's RDF type"
 msgid "Resource Type"
 msgstr "Družiny serwisow"
 
-#: nepomuk/utils/searchwidget.cpp:70
-#, fuzzy
-#| msgid "File"
-msgctxt "@option:check Search filter: only show files"
-msgid "Files"
-msgstr "Dataja"
-
-#: nepomuk/utils/searchwidget.cpp:72
-#, fuzzy
-#| msgctxt "@item Text character set"
-#| msgid "Other"
-msgctxt "@option:check Search filter: show anything but files"
-msgid "Other"
-msgstr "Druhe"
-
-#: nepomuk/utils/searchwidget.cpp:154
+#: nepomuk/utils/searchwidget.cpp:130
 #: kdeui/itemviews/kfilterproxysearchline.cpp:73
 #, fuzzy
 #| msgid "&Search"
@@ -2880,129 +2865,137 @@ msgstr ""
 msgid "This Month"
 msgstr ""
 
-#: nepomuk/utils/facet.cpp:131
+#: nepomuk/utils/facet.cpp:132 nepomuk/utils/typefacet.cpp:64
 #, fuzzy
 #| msgctxt "@action"
 #| msgid "Document Back"
-msgctxt "option:check A filter on file type"
+msgctxt "@option:check A filter on file type"
 msgid "Documents"
 msgstr "Prjedawši dokument"
 
-#: nepomuk/utils/facet.cpp:135
-msgctxt "option:check A filter on file type - audio files"
+#: nepomuk/utils/facet.cpp:136 nepomuk/utils/typefacet.cpp:68
+msgctxt "@option:check A filter on file type - audio files"
 msgid "Audio"
 msgstr ""
 
-#: nepomuk/utils/facet.cpp:138
+#: nepomuk/utils/facet.cpp:139 nepomuk/utils/typefacet.cpp:71
 #, fuzzy
 #| msgid "&View"
-msgctxt "option:check A filter on file type - media video"
+msgctxt "@option:check A filter on file type - media video"
 msgid "Video"
 msgstr "&Napohlad"
 
-#: nepomuk/utils/facet.cpp:142
+#: nepomuk/utils/facet.cpp:143 nepomuk/utils/typefacet.cpp:75
 #, fuzzy
 #| msgid "Pages"
-msgctxt "option:check A filter on file type"
+msgctxt "@option:check A filter on file type"
 msgid "Images"
 msgstr "Strony"
 
-#: nepomuk/utils/facet.cpp:153
-#, fuzzy
-#| msgid "File"
-msgctxt "option:check A filter on resource type"
-msgid "Files"
-msgstr "Dataja"
-
-#: nepomuk/utils/facet.cpp:155
-#, fuzzy
-#| msgid "Contact author"
-msgctxt "option:check A filter on resource type"
-msgid "Contacts"
-msgstr "Awtora kontaktować"
-
-#: nepomuk/utils/facet.cpp:157
-#, fuzzy
-#| msgid "Email"
-msgctxt "option:check A filter on resource type"
-msgid "Emails"
-msgstr "email"
-
-#: nepomuk/utils/facet.cpp:159
-#, fuzzy
-#| msgid "Task"
-msgctxt "option:check A filter on resource type"
-msgid "Tasks"
-msgstr "Task"
-
-#: nepomuk/utils/facet.cpp:161
-#, fuzzy
-#| msgid "Task"
-msgctxt "option:check A filter on resource type"
-msgid "Tags"
-msgstr "Task"
-
-#: nepomuk/utils/facet.cpp:190
+#: nepomuk/utils/facet.cpp:179
 #, fuzzy
 #| msgid "Job Priority:"
 msgctxt ""
-"option:radio A filter on prioritizing/sorting a selection of resources"
+"@option:radio A filter on prioritizing/sorting a selection of resources"
 msgid "No priority"
 msgstr "Priorita nadawka:"
 
-#: nepomuk/utils/facet.cpp:191
+#: nepomuk/utils/facet.cpp:180
 #, fuzzy
 #| msgid "Last modified:"
 msgctxt ""
-"option:radio A filter on prioritizing/sorting a selection of resources"
+"@option:radio A filter on prioritizing/sorting a selection of resources"
 msgid "Last modified"
 msgstr "Posledni raz změnjene"
 
-#: nepomuk/utils/facet.cpp:192
+#: nepomuk/utils/facet.cpp:181
 msgctxt ""
-"option:radio A filter on prioritizing/sorting a selection of resources"
+"@option:radio A filter on prioritizing/sorting a selection of resources"
 msgid "Most important"
 msgstr ""
 
-#: nepomuk/utils/facet.cpp:193
+#: nepomuk/utils/facet.cpp:182
 msgctxt ""
-"option:radio A filter on prioritizing/sorting a selection of resources"
+"@option:radio A filter on prioritizing/sorting a selection of resources"
 msgid "Never opened"
 msgstr ""
 
-#: nepomuk/utils/facet.cpp:203
+#: nepomuk/utils/facet.cpp:192
 #, fuzzy
 #| msgid "Add Rating"
-msgctxt "option:radio A filter on the rating of a resource"
+msgctxt "@option:radio A filter on the rating of a resource"
 msgid "Any Rating"
 msgstr "Hódnoćić"
 
-#: nepomuk/utils/facet.cpp:204
-msgctxt "option:radio A filter on the rating of a resource"
+#: nepomuk/utils/facet.cpp:193
+msgctxt "@option:radio A filter on the rating of a resource"
 msgid "1 or more"
 msgstr ""
 
-#: nepomuk/utils/facet.cpp:205
-msgctxt "option:radio A filter on the rating of a resource"
+#: nepomuk/utils/facet.cpp:194
+msgctxt "@option:radio A filter on the rating of a resource"
 msgid "2 or more"
 msgstr ""
 
-#: nepomuk/utils/facet.cpp:206
-msgctxt "option:radio A filter on the rating of a resource"
+#: nepomuk/utils/facet.cpp:195
+msgctxt "@option:radio A filter on the rating of a resource"
 msgid "3 or more"
 msgstr ""
 
-#: nepomuk/utils/facet.cpp:207
-msgctxt "option:radio A filter on the rating of a resource"
+#: nepomuk/utils/facet.cpp:196
+msgctxt "@option:radio A filter on the rating of a resource"
 msgid "4 or more"
 msgstr ""
 
-#: nepomuk/utils/facet.cpp:208
+#: nepomuk/utils/facet.cpp:197
 #, fuzzy
 #| msgid "Rating: "
-msgctxt "option:radio A filter on the rating of a resource"
+msgctxt "@option:radio A filter on the rating of a resource"
 msgid "Max Rating"
 msgstr "Hódnoćenje:"
+
+#: nepomuk/utils/typefacet.cpp:82
+#, fuzzy
+#| msgid "Contact author"
+msgctxt "@option:check A filter on resource type"
+msgid "Contacts"
+msgstr "Awtora kontaktować"
+
+#: nepomuk/utils/typefacet.cpp:84
+#, fuzzy
+#| msgid "Email"
+msgctxt "@option:check A filter on resource type"
+msgid "Emails"
+msgstr "email"
+
+#: nepomuk/utils/typefacet.cpp:86
+#, fuzzy
+#| msgid "Task"
+msgctxt "@option:check A filter on resource type"
+msgid "Tasks"
+msgstr "Task"
+
+#: nepomuk/utils/typefacet.cpp:88
+#, fuzzy
+#| msgid "Task"
+msgctxt "@option:check A filter on resource type"
+msgid "Tags"
+msgstr "Task"
+
+#: nepomuk/utils/typefacet.cpp:222 nepomuk/utils/typefacet.cpp:231
+#, fuzzy
+#| msgid "File"
+msgctxt "@option:check Do filter on type - show only files"
+msgid "Files"
+msgstr "Dataja"
+
+#: nepomuk/utils/typefacet.cpp:224 nepomuk/utils/typefacet.cpp:233
+#, fuzzy
+#| msgctxt "@item Text character set"
+#| msgid "Other"
+msgctxt "@option:check Do filter on type - show everything but files"
+msgid "Other"
+msgstr "Druhe"
 
 #: kinit/klauncher.cpp:563
 #, kde-format
@@ -7468,57 +7461,57 @@ msgstr ""
 "Tutón server je spytał, na formularowe daty hišće dataju z wašeho computera "
 "připójsnyć. Přiwěšk je so z wěstotnych přičin wotstronił."
 
-#: khtml/khtml_part.cpp:5842
+#: khtml/khtml_part.cpp:5839
 #, kde-format
 msgid "(%1/s)"
 msgstr "(%1/s)"
 
-#: khtml/khtml_part.cpp:6754
+#: khtml/khtml_part.cpp:6751
 msgid "Security Warning"
 msgstr "Wěstotne warnowanje"
 
-#: khtml/khtml_part.cpp:6763
+#: khtml/khtml_part.cpp:6760
 #, kde-format
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr ""
 "<qt>Přistup na <br /><b>%1</b><br /> přez njepřepruwowanu stronu wotpokazany."
 "</qt>"
 
-#: khtml/khtml_part.cpp:6764 khtml/java/kjavaappletserver.cpp:792
+#: khtml/khtml_part.cpp:6761 khtml/java/kjavaappletserver.cpp:792
 msgid "Security Alert"
 msgstr "Wěstotny alarm"
 
-#: khtml/khtml_part.cpp:7112
+#: khtml/khtml_part.cpp:7109
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr "Móšnja '%1' je wočinjena a so wužiwa za hesła a daty do formularow."
 
-#: khtml/khtml_part.cpp:7172
+#: khtml/khtml_part.cpp:7169
 msgid "&Close Wallet"
 msgstr "Móšnju &začinić"
 
-#: khtml/khtml_part.cpp:7175
+#: khtml/khtml_part.cpp:7172
 msgid "&Allow storing passwords for this site"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7180
+#: khtml/khtml_part.cpp:7177
 #, kde-format
 msgid "Remove password for form %1"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7285
+#: khtml/khtml_part.cpp:7282
 msgid "JavaScript &Debugger"
 msgstr "JavaScript &Debugger"
 
-#: khtml/khtml_part.cpp:7317
+#: khtml/khtml_part.cpp:7314
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr "Tuta strona njesmědźeše nowe wokno z JavaScript wočinić."
 
-#: khtml/khtml_part.cpp:7323
+#: khtml/khtml_part.cpp:7320
 msgid "Popup Window Blocked"
 msgstr "Popup-wokno blokowane"
 
-#: khtml/khtml_part.cpp:7323
+#: khtml/khtml_part.cpp:7320
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
 "You can click on this icon in the status bar to control this behavior\n"
@@ -7528,7 +7521,7 @@ msgstr ""
 "Móžeće na tutón piktogram w statusowym pasu kliknyć, hdyž chceće nastajenja "
 "změnić abo popup-wokno wočinić."
 
-#: khtml/khtml_part.cpp:7336
+#: khtml/khtml_part.cpp:7333
 #, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
@@ -7537,11 +7530,11 @@ msgstr[1] "Blokowane %1 popup-woknje &pokazać"
 msgstr[2] "Blokowane %1 popup-wokna &pokazać"
 msgstr[3] "Blokowane %1 popup-woknow &pokazać"
 
-#: khtml/khtml_part.cpp:7337
+#: khtml/khtml_part.cpp:7334
 msgid "Show Blocked Window Passive Popup &Notification"
 msgstr "Zdźělenki wo blokowanych pasiwnych popup-woknow pokazać"
 
-#: khtml/khtml_part.cpp:7339
+#: khtml/khtml_part.cpp:7336
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "JS nastajenja wo nowych woknach &konfigurować..."
 
@@ -7772,29 +7765,29 @@ msgstr "Wokno začinić?"
 msgid "Confirmation Required"
 msgstr "Wobkrućenje trěbne"
 
-#: khtml/ecma/kjs_window.cpp:2861
+#: khtml/ecma/kjs_window.cpp:2868
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr "Chceće městno \"%1\" k swojim najlubšim městnam dodać?"
 
-#: khtml/ecma/kjs_window.cpp:2864
+#: khtml/ecma/kjs_window.cpp:2871
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr "Chceće městno \"%1\" z titlom \"%2\" k swojim najlubšim městnam dodać?"
 
-#: khtml/ecma/kjs_window.cpp:2872
+#: khtml/ecma/kjs_window.cpp:2879
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "JavaScript spyta znamjo do knihi dodać"
 
-#: khtml/ecma/kjs_window.cpp:2876
+#: khtml/ecma/kjs_window.cpp:2883
 msgid "Insert"
 msgstr "Zasunyć"
 
-#: khtml/ecma/kjs_window.cpp:2876
+#: khtml/ecma/kjs_window.cpp:2883
 msgid "Disallow"
 msgstr "Wotpokazać"
 
@@ -10205,15 +10198,15 @@ msgstr "Dalši přinošowarjo"
 msgid "Visit contributor's homepage"
 msgstr "Domjaca strona"
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:152
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:173
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:153
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:174
 #, kde-format
 msgid ""
 "Visit contributor's profile on %1\n"
 "%2"
 msgstr ""
 
-#: kdeui/dialogs/kaboutapplicationpersonmodel_p.cpp:184
+#: kdeui/dialogs/kaboutapplicationpersonmodel_p.cpp:188
 #, fuzzy, kde-format
 #| msgctxt "concatenation of dates and time"
 #| msgid "%1 %2"
@@ -10221,7 +10214,7 @@ msgctxt "City, Country"
 msgid "%1, %2"
 msgstr "%1%2"
 
-#: kdeui/dialogs/kaboutapplicationpersonmodel_p.cpp:258
+#: kdeui/dialogs/kaboutapplicationpersonmodel_p.cpp:267
 #, fuzzy
 #| msgctxt "@item Text character set"
 #| msgid "Other"
@@ -10229,12 +10222,12 @@ msgctxt "A generic social network or homepage link of an unlisted type."
 msgid "Other"
 msgstr "Druhe"
 
-#: kdeui/dialogs/kaboutapplicationpersonmodel_p.cpp:260
+#: kdeui/dialogs/kaboutapplicationpersonmodel_p.cpp:269
 msgctxt "A type of link."
 msgid "Blog"
 msgstr ""
 
-#: kdeui/dialogs/kaboutapplicationpersonmodel_p.cpp:268
+#: kdeui/dialogs/kaboutapplicationpersonmodel_p.cpp:277
 #, fuzzy
 #| msgid "Homepage"
 msgctxt "A type of link."
@@ -14148,6 +14141,12 @@ msgstr "rano"
 #: kdecore/date/kdatetime.cpp:2882
 msgid "pm"
 msgstr "popołdnju"
+
+#, fuzzy
+#~| msgid "File"
+#~ msgctxt "option:check A filter on resource type"
+#~ msgid "Files"
+#~ msgstr "Dataja"
 
 #, fuzzy
 #~| msgctxt "@application/plain"
