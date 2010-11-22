@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-10 06:23+0200\n"
+"POT-Creation-Date: 2010-11-22 06:44+0100\n"
 "PO-Revision-Date: 2008-11-11 22:59+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,7 +17,24 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: mediaobject.cpp:94
+#: backend.cpp:190
+msgid ""
+"Warning: You do not seem to have the package gstreamer0.10-plugins-good "
+"installed.\n"
+"          Some video features have been disabled."
+msgstr ""
+"Kedźbu: Pakćik gstreamer0.10-plugins-goodnjeje instalowany.\n"
+" Někotre widejo-opcije njesteja k dispoziciji."
+
+#: backend.cpp:195
+msgid ""
+"Warning: You do not seem to have the base GStreamer plugins installed.\n"
+"          All audio and video support has been disabled"
+msgstr ""
+"Kedźbu: Bazowy pakćik pluginow za GStreamer nejeje instalowany.\n"
+"  Podpěra za zwuk a widejo njesteji k dispoziciji."
+
+#: mediaobject.cpp:96
 #, fuzzy
 #| msgid ""
 #| "Cannot start playback. \n"
@@ -35,57 +52,40 @@ msgstr ""
 "Přepruwujće, hač je Gstreamer a\n"
 " libgstreamer-plugins-base instalowane."
 
-#: mediaobject.cpp:224
+#: mediaobject.cpp:226
 msgid "Missing codec helper script assistant."
 msgstr ""
 
-#: mediaobject.cpp:226
+#: mediaobject.cpp:228
 #, qt-format
 msgid "Plugin codec installation failed for codec: %1"
 msgstr ""
 
-#: mediaobject.cpp:237
+#: mediaobject.cpp:239
 #, qt-format
 msgid ""
 "A required codec is missing. You need to install the following codec(s) to "
 "play this content: %0"
 msgstr ""
 
-#: mediaobject.cpp:967 mediaobject.cpp:973 mediaobject.cpp:986
-#: mediaobject.cpp:1010 mediaobject.cpp:1016 mediaobject.cpp:1034
-#: mediaobject.cpp:1468 mediaobject.cpp:1492
+#: mediaobject.cpp:969 mediaobject.cpp:975 mediaobject.cpp:988
+#: mediaobject.cpp:1012 mediaobject.cpp:1018 mediaobject.cpp:1036
+#: mediaobject.cpp:1470 mediaobject.cpp:1494
 msgid "Could not open media source."
 msgstr "Njemóžu žórło za medium wočinić."
 
-#: mediaobject.cpp:978
+#: mediaobject.cpp:980
 msgid "Invalid source type."
 msgstr "Njewalidny typ žórła."
 
-#: mediaobject.cpp:1466
+#: mediaobject.cpp:1468
 msgid "Could not locate media source."
 msgstr "Njemóžu žórło za medium namakać."
 
-#: mediaobject.cpp:1476
+#: mediaobject.cpp:1478
 msgid "Could not open audio device. The device is already in use."
 msgstr "Njemóžach zwukowy grat wočinić. Grat so hižo wužiwa."
 
-#: mediaobject.cpp:1489
+#: mediaobject.cpp:1491
 msgid "Could not decode media source."
 msgstr "Njemóžach žórło mediuma dekodować."
-
-#: backend.cpp:189
-msgid ""
-"Warning: You do not seem to have the package gstreamer0.10-plugins-good "
-"installed.\n"
-"          Some video features have been disabled."
-msgstr ""
-"Kedźbu: Pakćik gstreamer0.10-plugins-goodnjeje instalowany.\n"
-" Někotre widejo-opcije njesteja k dispoziciji."
-
-#: backend.cpp:194
-msgid ""
-"Warning: You do not seem to have the base GStreamer plugins installed.\n"
-"          All audio and video support has been disabled"
-msgstr ""
-"Kedźbu: Bazowy pakćik pluginow za GStreamer nejeje instalowany.\n"
-"  Podpěra za zwuk a widejo njesteji k dispoziciji."
