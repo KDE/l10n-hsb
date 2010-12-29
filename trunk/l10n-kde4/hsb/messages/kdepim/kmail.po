@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-28 02:23+0100\n"
+"POT-Creation-Date: 2010-12-29 02:30+0100\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -4287,158 +4287,6 @@ msgstr "Eksistowacu identitu &duplikować"
 msgid "&Existing identities:"
 msgstr "&Eksistowace identity:"
 
-#: searchwindow.cpp:91
-#, fuzzy
-msgid "Find Messages"
-msgstr "Powěsće &namakać ..."
-
-#: searchwindow.cpp:94
-#, fuzzy
-#| msgid "&Search"
-msgctxt "@action:button Search for messags"
-msgid "&Search"
-msgstr "&Pytaj"
-
-#: searchwindow.cpp:111
-msgid "Search in &all local folders"
-msgstr "We &wšěch lokalnych zapiskach pytać"
-
-#: searchwindow.cpp:115
-msgid "Search &only in:"
-msgstr "Pytaj &jenož w:"
-
-#: searchwindow.cpp:124
-msgid "I&nclude sub-folders"
-msgstr "Tež w &podzapiskach"
-
-#: searchwindow.cpp:222
-msgid "Search folder &name:"
-msgstr ""
-
-#: searchwindow.cpp:236 searchwindow.cpp:452
-#, fuzzy
-msgid "Last Search"
-msgstr "&Pytaj"
-
-#: searchwindow.cpp:246
-#, fuzzy
-msgid "Op&en Search Folder"
-msgstr "<adresaća>"
-
-#: searchwindow.cpp:255
-#, fuzzy
-#| msgid "Open Message"
-msgid "Open &Message"
-msgstr "Powěsć wočinić"
-
-#: searchwindow.cpp:266
-msgid "AMiddleLengthText..."
-msgstr "Tekst srěnjeje dołhosće..."
-
-#: searchwindow.cpp:267
-#, fuzzy
-#| msgid "Ready."
-msgctxt "@info:status finished searching."
-msgid "Ready."
-msgstr "Hotowo."
-
-#: searchwindow.cpp:303 messageactions.cpp:70
-msgid "&Reply..."
-msgstr "&Wotmołwić ..."
-
-#: searchwindow.cpp:307 messageactions.cpp:84
-msgid "Reply to &All..."
-msgstr "Wšě&m wotmołwić..."
-
-#: searchwindow.cpp:311 messageactions.cpp:91
-msgid "Reply to Mailing-&List..."
-msgstr "&Lisćinje wotmołwić..."
-
-#: searchwindow.cpp:315 messageactions.cpp:146
-msgctxt "Message->"
-msgid "&Forward"
-msgstr "&Dopósłać"
-
-#: searchwindow.cpp:320
-#, fuzzy
-#| msgctxt "View->attachments->"
-#| msgid "&Inline"
-msgctxt "@action:inmenu Forward message inline."
-msgid "&Inline..."
-msgstr "&w powěsći"
-
-#: searchwindow.cpp:325
-msgctxt "Message->Forward->"
-msgid "As &Attachment..."
-msgstr ""
-
-#: searchwindow.cpp:339
-#, fuzzy
-msgid "Save Attachments..."
-msgstr "&Přiwěšk zawěsćić jako..."
-
-#: searchwindow.cpp:345
-msgid "Clear Selection"
-msgstr ""
-
-#: searchwindow.cpp:405
-#, fuzzy
-msgctxt "Search finished."
-msgid "Done"
-msgstr "Hotowo"
-
-#: searchwindow.cpp:406 searchwindow.cpp:413
-#, fuzzy, kde-format
-msgid "%1 match"
-msgid_plural "%1 matches"
-msgstr[0] "%1 namakankow"
-msgstr[1] "%1 namakanka"
-msgstr[2] "%1 namakance"
-msgstr[3] "%1 namakanki"
-
-#: searchwindow.cpp:408
-#, fuzzy
-msgid "Search canceled"
-msgstr "Pytanje přetorhnjene"
-
-#: searchwindow.cpp:409
-#, fuzzy, kde-format
-msgid "%1 match so far"
-msgid_plural "%1 matches so far"
-msgstr[0] "%1 namakankow hač dotal (%2)"
-msgstr[1] "%1 namakanka hač dotal (%2)"
-msgstr[2] "%1 namakance hač dotal (%2)"
-msgstr[3] "%1 namakanki hač dotal (%2)"
-
-#: searchwindow.cpp:414
-#, fuzzy, kde-format
-msgid "Searching in %1"
-msgstr "Pytam w %1 (powěsć %2)"
-
-#: searchwindow.cpp:642
-msgid ""
-"There was a problem renaming your search folder. A common reason for this is "
-"that another search folder with the same name already exists."
-msgstr ""
-
-#: searchwindow.cpp:748
-#, fuzzy, kde-format
-msgid "Copy Message"
-msgid_plural "Copy %1 Messages"
-msgstr[0] "Powěsć wočinić"
-msgstr[1] "Powěsć wočinić"
-msgstr[2] "Powěsć wočinić"
-msgstr[3] "Powěsć wočinić"
-
-#: searchwindow.cpp:751
-#, fuzzy, kde-format
-msgid "Cut Message"
-msgid_plural "Cut %1 Messages"
-msgstr[0] "žane powěsće"
-msgstr[1] "žane powěsće"
-msgstr[2] "žane powěsće"
-msgstr[3] "žane powěsće"
-
 #: simplestringlisteditor.cpp:58
 #, fuzzy
 msgid "New entry:"
@@ -4587,10 +4435,22 @@ msgctxt "Message->"
 msgid "&Reply"
 msgstr "&Dopósłać"
 
+#: messageactions.cpp:70 searchwindow.cpp:303
+msgid "&Reply..."
+msgstr "&Wotmołwić ..."
+
 #: messageactions.cpp:77
 #, fuzzy
 msgid "Reply to A&uthor..."
 msgstr "Wšě&m wotmołwić..."
+
+#: messageactions.cpp:84 searchwindow.cpp:307
+msgid "Reply to &All..."
+msgstr "Wšě&m wotmołwić..."
+
+#: messageactions.cpp:91 searchwindow.cpp:311
+msgid "Reply to Mailing-&List..."
+msgstr "&Lisćinje wotmołwić..."
 
 #: messageactions.cpp:98
 msgid "Reply Without &Quote..."
@@ -4628,6 +4488,11 @@ msgstr "Powěsć &wobdźěłać"
 #| msgid "Add..."
 msgid "Add Note..."
 msgstr "Dodać..."
+
+#: messageactions.cpp:146 searchwindow.cpp:315
+msgctxt "Message->"
+msgid "&Forward"
+msgstr "&Dopósłać"
 
 #: messageactions.cpp:151
 #, fuzzy
@@ -4709,6 +4574,141 @@ msgstr "KMail"
 #, fuzzy
 msgid "Edit Note..."
 msgstr "wobdźěłać..."
+
+#: searchwindow.cpp:91
+#, fuzzy
+msgid "Find Messages"
+msgstr "Powěsće &namakać ..."
+
+#: searchwindow.cpp:94
+#, fuzzy
+#| msgid "&Search"
+msgctxt "@action:button Search for messags"
+msgid "&Search"
+msgstr "&Pytaj"
+
+#: searchwindow.cpp:111
+msgid "Search in &all local folders"
+msgstr "We &wšěch lokalnych zapiskach pytać"
+
+#: searchwindow.cpp:115
+msgid "Search &only in:"
+msgstr "Pytaj &jenož w:"
+
+#: searchwindow.cpp:124
+msgid "I&nclude sub-folders"
+msgstr "Tež w &podzapiskach"
+
+#: searchwindow.cpp:222
+msgid "Search folder &name:"
+msgstr ""
+
+#: searchwindow.cpp:236 searchwindow.cpp:452
+#, fuzzy
+msgid "Last Search"
+msgstr "&Pytaj"
+
+#: searchwindow.cpp:246
+#, fuzzy
+msgid "Op&en Search Folder"
+msgstr "<adresaća>"
+
+#: searchwindow.cpp:255
+#, fuzzy
+#| msgid "Open Message"
+msgid "Open &Message"
+msgstr "Powěsć wočinić"
+
+#: searchwindow.cpp:266
+msgid "AMiddleLengthText..."
+msgstr "Tekst srěnjeje dołhosće..."
+
+#: searchwindow.cpp:267
+#, fuzzy
+#| msgid "Ready."
+msgctxt "@info:status finished searching."
+msgid "Ready."
+msgstr "Hotowo."
+
+#: searchwindow.cpp:320
+#, fuzzy
+#| msgctxt "View->attachments->"
+#| msgid "&Inline"
+msgctxt "@action:inmenu Forward message inline."
+msgid "&Inline..."
+msgstr "&w powěsći"
+
+#: searchwindow.cpp:325
+msgctxt "Message->Forward->"
+msgid "As &Attachment..."
+msgstr ""
+
+#: searchwindow.cpp:339
+#, fuzzy
+msgid "Save Attachments..."
+msgstr "&Přiwěšk zawěsćić jako..."
+
+#: searchwindow.cpp:345
+msgid "Clear Selection"
+msgstr ""
+
+#: searchwindow.cpp:405
+#, fuzzy
+msgctxt "Search finished."
+msgid "Done"
+msgstr "Hotowo"
+
+#: searchwindow.cpp:406 searchwindow.cpp:413
+#, fuzzy, kde-format
+msgid "%1 match"
+msgid_plural "%1 matches"
+msgstr[0] "%1 namakankow"
+msgstr[1] "%1 namakanka"
+msgstr[2] "%1 namakance"
+msgstr[3] "%1 namakanki"
+
+#: searchwindow.cpp:408
+#, fuzzy
+msgid "Search canceled"
+msgstr "Pytanje přetorhnjene"
+
+#: searchwindow.cpp:409
+#, fuzzy, kde-format
+msgid "%1 match so far"
+msgid_plural "%1 matches so far"
+msgstr[0] "%1 namakankow hač dotal (%2)"
+msgstr[1] "%1 namakanka hač dotal (%2)"
+msgstr[2] "%1 namakance hač dotal (%2)"
+msgstr[3] "%1 namakanki hač dotal (%2)"
+
+#: searchwindow.cpp:414
+#, fuzzy, kde-format
+msgid "Searching in %1"
+msgstr "Pytam w %1 (powěsć %2)"
+
+#: searchwindow.cpp:651
+msgid ""
+"There was a problem renaming your search folder. A common reason for this is "
+"that another search folder with the same name already exists."
+msgstr ""
+
+#: searchwindow.cpp:757
+#, fuzzy, kde-format
+msgid "Copy Message"
+msgid_plural "Copy %1 Messages"
+msgstr[0] "Powěsć wočinić"
+msgstr[1] "Powěsć wočinić"
+msgstr[2] "Powěsć wočinić"
+msgstr[3] "Powěsć wočinić"
+
+#: searchwindow.cpp:760
+#, fuzzy, kde-format
+msgid "Cut Message"
+msgid_plural "Cut %1 Messages"
+msgstr[0] "žane powěsće"
+msgstr[1] "žane powěsće"
+msgstr[2] "žane powěsće"
+msgstr[3] "žane powěsće"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
