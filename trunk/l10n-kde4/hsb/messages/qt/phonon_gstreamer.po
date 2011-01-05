@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-04 02:45+0100\n"
+"POT-Creation-Date: 2011-01-05 02:46+0100\n"
 "PO-Revision-Date: 2008-11-11 22:59+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: backend.cpp:190
+#: backend.cpp:212
 msgid ""
 "Warning: You do not seem to have the package gstreamer0.10-plugins-good "
 "installed.\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Kedźbu: Pakćik gstreamer0.10-plugins-goodnjeje instalowany.\n"
 " Někotre widejo-opcije njesteja k dispoziciji."
 
-#: backend.cpp:195
+#: backend.cpp:217
 msgid ""
 "Warning: You do not seem to have the base GStreamer plugins installed.\n"
 "          All audio and video support has been disabled"
@@ -34,7 +34,7 @@ msgstr ""
 "Kedźbu: Bazowy pakćik pluginow za GStreamer nejeje instalowany.\n"
 "  Podpěra za zwuk a widejo njesteji k dispoziciji."
 
-#: mediaobject.cpp:96
+#: mediaobject.cpp:95
 #, fuzzy
 #| msgid ""
 #| "Cannot start playback. \n"
@@ -52,46 +52,104 @@ msgstr ""
 "Přepruwujće, hač je Gstreamer a\n"
 " libgstreamer-plugins-base instalowane."
 
-#: mediaobject.cpp:230
+#: mediaobject.cpp:151
+msgid "Phonon attempted to install an invalid codec name."
+msgstr ""
+
+#: mediaobject.cpp:154
+msgid "The codec installer crashed."
+msgstr ""
+
+#: mediaobject.cpp:157
+msgid "The required codec could not be found for installation."
+msgstr ""
+
+#: mediaobject.cpp:160
+msgid "An unspecified error occurred during codec installation."
+msgstr ""
+
+#: mediaobject.cpp:163
+msgid "Not all codecs could be installed."
+msgstr ""
+
+#: mediaobject.cpp:166
+msgid "User aborted codec installation"
+msgstr ""
+
+#: mediaobject.cpp:264
 msgid "Missing codec helper script assistant."
 msgstr ""
 
-#: mediaobject.cpp:232
+#: mediaobject.cpp:266
 #, qt-format
 msgid "Plugin codec installation failed for codec: %1"
 msgstr ""
 
-#: mediaobject.cpp:243
+#: mediaobject.cpp:277
 #, qt-format
 msgid ""
 "A required codec is missing. You need to install the following codec(s) to "
 "play this content: %0"
 msgstr ""
 
-#: mediaobject.cpp:1011 mediaobject.cpp:1017 mediaobject.cpp:1030
-#: mediaobject.cpp:1054 mediaobject.cpp:1066 mediaobject.cpp:1084
-#: mediaobject.cpp:1523 mediaobject.cpp:1550
+#: mediaobject.cpp:1047 mediaobject.cpp:1053 mediaobject.cpp:1066
+#: mediaobject.cpp:1090 mediaobject.cpp:1102 mediaobject.cpp:1120
+#: mediaobject.cpp:1559 mediaobject.cpp:1611
 msgid "Could not open media source."
 msgstr "Njemóžu žórło za medium wočinić."
 
-#: mediaobject.cpp:1022
+#: mediaobject.cpp:1058
 msgid "Invalid source type."
 msgstr "Njewalidny typ žórła."
 
-#: mediaobject.cpp:1060
+#: mediaobject.cpp:1096
 #, fuzzy
 #| msgid "Could not open media source."
 msgid "Could not open capture device."
 msgstr "Njemóžu žórło za medium wočinić."
 
-#: mediaobject.cpp:1521
+#: mediaobject.cpp:1557
 msgid "Could not locate media source."
 msgstr "Njemóžu žórło za medium namakać."
 
-#: mediaobject.cpp:1531
+#: mediaobject.cpp:1567
 msgid "Could not open audio device. The device is already in use."
 msgstr "Njemóžach zwukowy grat wočinić. Grat so hižo wužiwa."
 
-#: mediaobject.cpp:1547
-msgid "Could not decode media source."
+#: mediaobject.cpp:1590
+#, fuzzy
+#| msgid "Could not open media source."
+msgid "Could not find media type."
+msgstr "Njemóžu žórło za medium wočinić."
+
+#: mediaobject.cpp:1593
+msgid "Wrong media type encountered in GStreamer pipeline."
+msgstr ""
+
+#: mediaobject.cpp:1596
+#, fuzzy
+#| msgid "Could not decode media source."
+msgid "Could not decode media."
 msgstr "Njemóžach žórło mediuma dekodować."
+
+#: mediaobject.cpp:1599
+#, fuzzy
+#| msgid "Could not decode media source."
+msgid "Could not encode media."
+msgstr "Njemóžach žórło mediuma dekodować."
+
+#: mediaobject.cpp:1602
+#, fuzzy
+#| msgid "Could not decode media source."
+msgid "Could not demux media."
+msgstr "Njemóžach žórło mediuma dekodować."
+
+#: mediaobject.cpp:1605
+#, fuzzy
+#| msgid "Could not decode media source."
+msgid "Could not decrypt media."
+msgstr "Njemóžach žórło mediuma dekodować."
+
+#: mediaobject.cpp:1608
+msgid "No suitable decryption key found."
+msgstr ""
