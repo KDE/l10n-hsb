@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-28 02:23+0100\n"
+"POT-Creation-Date: 2011-02-02 03:13+0100\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -831,136 +831,6 @@ msgstr ""
 msgid "Styled Joined Rectangles"
 msgstr ""
 
-#: core/widgetbase.cpp:138
-#, fuzzy
-msgctxt "Search for messages."
-msgid "Search"
-msgstr "&Pytaj"
-
-#: core/widgetbase.cpp:159
-#, fuzzy
-msgid "Open Full Search"
-msgstr "<adresaća>"
-
-#: core/widgetbase.cpp:233
-msgid "Any Status"
-msgstr "Kóždy staw"
-
-#: core/widgetbase.cpp:236
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Unread"
-msgctxt "@action:inmenu Status of a message"
-msgid "Unread"
-msgstr "Nječitane"
-
-#: core/widgetbase.cpp:240
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Replied"
-msgctxt "@action:inmenu Status of a message"
-msgid "Replied"
-msgstr "Wotmołwjene"
-
-#: core/widgetbase.cpp:244
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Forwarded"
-msgctxt "@action:inmenu Status of a message"
-msgid "Forwarded"
-msgstr "Dopósłane"
-
-#: core/widgetbase.cpp:248
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Important"
-msgctxt "@action:inmenu Status of a message"
-msgid "Important"
-msgstr "Wažne"
-
-#: core/widgetbase.cpp:252
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Action Item"
-msgstr "Wažna powěsć"
-
-#: core/widgetbase.cpp:256
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Watched"
-msgstr "Čitane"
-
-#: core/widgetbase.cpp:260
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Ignored"
-msgstr "Nječitane"
-
-#: core/widgetbase.cpp:264
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Attachment"
-msgstr "Přiwěšk: "
-
-#: core/widgetbase.cpp:268
-#, fuzzy
-#| msgid "Advanced Options"
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Invitation"
-msgstr "Opcije za pokročenych"
-
-#: core/widgetbase.cpp:272
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Spam"
-msgstr "Čitane"
-
-#: core/widgetbase.cpp:276
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Ham"
-msgstr "Čitane"
-
-#: core/widgetbase.cpp:442 core/view.cpp:1564
-msgid "Theme"
-msgstr ""
-
-#: core/widgetbase.cpp:483 core/widgetbase.cpp:587
-#: utils/aggregationconfigbutton.cpp:45 utils/themeconfigbutton.cpp:46
-#, fuzzy
-msgid "Configure..."
-msgstr "KMail &konfigurować..."
-
-#: core/widgetbase.cpp:546 core/view.cpp:1558
-msgid "Aggregation"
-msgstr ""
-
-#: core/widgetbase.cpp:643
-#, fuzzy
-#| msgid "Message Body"
-msgid "Message Sort Order"
-msgstr "Hłowny dźěl powěsće"
-
-#: core/widgetbase.cpp:670
-#, fuzzy
-msgid "Message Sort Direction"
-msgstr "Lisćina powěsćow"
-
-#: core/widgetbase.cpp:691
-#, fuzzy
-#| msgid "Delete Folder"
-msgid "Group Sort Order"
-msgstr "Zapisk zničić"
-
-#: core/widgetbase.cpp:713
-#, fuzzy
-msgid "Group Sort Direction"
-msgstr "Lisćina powěsćow"
-
-#: core/widgetbase.cpp:731
-msgid "Folder Always Uses This Sort Order"
-msgstr ""
-
 #: core/view.cpp:721
 msgid "Adjust Column Sizes"
 msgstr ""
@@ -981,6 +851,14 @@ msgstr "&Na"
 #| msgid "Nothin&g"
 msgid "Sorting"
 msgstr "N&ičo"
+
+#: core/view.cpp:1558 core/widgetbase.cpp:546
+msgid "Aggregation"
+msgstr ""
+
+#: core/view.cpp:1564 core/widgetbase.cpp:442
+msgid "Theme"
+msgstr ""
 
 #: core/view.cpp:2279 core/view.cpp:2283
 #, fuzzy
@@ -1160,6 +1038,163 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
+
+#: core/widgetbase.cpp:138
+#, fuzzy
+msgctxt "Search for messages."
+msgid "Search"
+msgstr "&Pytaj"
+
+#: core/widgetbase.cpp:159
+#, fuzzy
+msgid "Open Full Search"
+msgstr "<adresaća>"
+
+#: core/widgetbase.cpp:233
+msgid "Any Status"
+msgstr "Kóždy staw"
+
+#: core/widgetbase.cpp:236
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Unread"
+msgctxt "@action:inmenu Status of a message"
+msgid "Unread"
+msgstr "Nječitane"
+
+#: core/widgetbase.cpp:240
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Replied"
+msgctxt "@action:inmenu Status of a message"
+msgid "Replied"
+msgstr "Wotmołwjene"
+
+#: core/widgetbase.cpp:244
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Forwarded"
+msgctxt "@action:inmenu Status of a message"
+msgid "Forwarded"
+msgstr "Dopósłane"
+
+#: core/widgetbase.cpp:248
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Important"
+msgctxt "@action:inmenu Status of a message"
+msgid "Important"
+msgstr "Wažne"
+
+#: core/widgetbase.cpp:252
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Action Item"
+msgstr "Wažna powěsć"
+
+#: core/widgetbase.cpp:256
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Watched"
+msgstr "Čitane"
+
+#: core/widgetbase.cpp:260
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Ignored"
+msgstr "Nječitane"
+
+#: core/widgetbase.cpp:264
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Attachment"
+msgstr "Přiwěšk: "
+
+#: core/widgetbase.cpp:268
+#, fuzzy
+#| msgid "Advanced Options"
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Invitation"
+msgstr "Opcije za pokročenych"
+
+#: core/widgetbase.cpp:272
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Spam"
+msgstr "Čitane"
+
+#: core/widgetbase.cpp:276
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Ham"
+msgstr "Čitane"
+
+#: core/widgetbase.cpp:483 core/widgetbase.cpp:587
+#: utils/aggregationconfigbutton.cpp:45 utils/themeconfigbutton.cpp:46
+#, fuzzy
+msgid "Configure..."
+msgstr "KMail &konfigurować..."
+
+#: core/widgetbase.cpp:643
+#, fuzzy
+#| msgid "Message Body"
+msgid "Message Sort Order"
+msgstr "Hłowny dźěl powěsće"
+
+#: core/widgetbase.cpp:670
+#, fuzzy
+msgid "Message Sort Direction"
+msgstr "Lisćina powěsćow"
+
+#: core/widgetbase.cpp:691
+#, fuzzy
+#| msgid "Delete Folder"
+msgid "Group Sort Order"
+msgstr "Zapisk zničić"
+
+#: core/widgetbase.cpp:713
+#, fuzzy
+msgid "Group Sort Direction"
+msgstr "Lisćina powěsćow"
+
+#: core/widgetbase.cpp:731
+msgid "Folder Always Uses This Sort Order"
+msgstr ""
+
+#: pane.cpp:110
+msgctxt "@info:tooltip"
+msgid "Open a new tab"
+msgstr ""
+
+#: pane.cpp:118
+#, fuzzy
+#| msgid "Collapse the current thread"
+msgctxt "@info:tooltip"
+msgid "Close the current tab"
+msgstr "Sćehnje aktualnu skupinu"
+
+#: pane.cpp:158
+msgid "Message List"
+msgstr "Lisćina powěsćow"
+
+#: pane.cpp:334 pane.cpp:451
+#, fuzzy
+msgctxt "@title:tab Empty messagelist"
+msgid "Empty"
+msgstr "Papjernik wuprózdnić"
+
+#: pane.cpp:397
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr ""
+
+#: pane.cpp:403
+#, fuzzy
+#| msgctxt "View->"
+#| msgid "C&ollapse All Threads"
+msgctxt "@action:inmenu"
+msgid "Close All Other Tabs"
+msgstr "Wšitke skupiny ze&sćahać"
 
 #: storagemodel.cpp:239
 #, fuzzy
@@ -1544,41 +1579,6 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
-
-#: pane.cpp:110
-msgctxt "@info:tooltip"
-msgid "Open a new tab"
-msgstr ""
-
-#: pane.cpp:118
-#, fuzzy
-#| msgid "Collapse the current thread"
-msgctxt "@info:tooltip"
-msgid "Close the current tab"
-msgstr "Sćehnje aktualnu skupinu"
-
-#: pane.cpp:158
-msgid "Message List"
-msgstr "Lisćina powěsćow"
-
-#: pane.cpp:334 pane.cpp:451
-#, fuzzy
-msgctxt "@title:tab Empty messagelist"
-msgid "Empty"
-msgstr "Papjernik wuprózdnić"
-
-#: pane.cpp:397
-msgctxt "@action:inmenu"
-msgid "Close Tab"
-msgstr ""
-
-#: pane.cpp:403
-#, fuzzy
-#| msgctxt "View->"
-#| msgid "C&ollapse All Threads"
-msgctxt "@action:inmenu"
-msgid "Close All Other Tabs"
-msgstr "Wšitke skupiny ze&sćahać"
 
 #: widget.cpp:97
 msgid "Show Quick Search Bar"
