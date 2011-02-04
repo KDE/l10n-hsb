@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 12:20+0100\n"
+"POT-Creation-Date: 2011-02-04 10:24+0100\n"
 "PO-Revision-Date: 2008-11-17 23:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -377,7 +377,7 @@ msgstr "Koděrowanje:"
 #: kfile/kfiledialog.cpp:514 kfile/kfiledialog.cpp:538
 #: kfile/kfiledialog.cpp:548 kfile/kfiledialog.cpp:574
 #: kfile/kfiledialog.cpp:606 kfile/kfiledialog.cpp:661
-#: kfile/kicondialog.cpp:693 kfile/kurlrequesterdialog.cpp:129
+#: kfile/kurlrequesterdialog.cpp:129 kfile/kicondialog.cpp:693
 msgid "Open"
 msgstr "Wočinić"
 
@@ -540,89 +540,6 @@ msgid ""
 "An error occurred while trying to unshare folder '%1'. Make sure that the "
 "Perl script 'fileshareset' is set suid root."
 msgstr ""
-
-#: kfile/kicondialog.cpp:336 kfile/kicondialog.cpp:348
-msgid "Select Icon"
-msgstr "Wubjerće piktogram"
-
-#: kfile/kicondialog.cpp:369
-msgid "Icon Source"
-msgstr "Žórło piktograma"
-
-#: kfile/kicondialog.cpp:378
-msgid "S&ystem icons:"
-msgstr "&Systemowe piktogramy:"
-
-#: kfile/kicondialog.cpp:385
-msgid "O&ther icons:"
-msgstr "&Hewaše piktogramy:"
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:121
-#. i18n: ectx: property (text), widget (QPushButton, browseButton)
-#: kfile/kicondialog.cpp:388 rc.cpp:134
-msgid "&Browse..."
-msgstr "&Přelistuj..."
-
-#: kfile/kicondialog.cpp:399
-msgid "&Search:"
-msgstr "&Pytać:"
-
-#: kfile/kicondialog.cpp:406
-msgid "Search interactively for icon names (e.g. folder)."
-msgstr "Pyta interaktiwnje za mjenami piktogramow (na př. zapisk)."
-
-#: kfile/kicondialog.cpp:437
-msgid "Actions"
-msgstr "Akcije"
-
-#: kfile/kicondialog.cpp:438
-msgid "Animations"
-msgstr "Animacije"
-
-#: kfile/kicondialog.cpp:439
-msgid "Applications"
-msgstr "Programy"
-
-#: kfile/kicondialog.cpp:440
-msgid "Categories"
-msgstr "Kategorije"
-
-#: kfile/kicondialog.cpp:441
-msgid "Devices"
-msgstr "Graty"
-
-#: kfile/kicondialog.cpp:442
-msgid "Emblems"
-msgstr "Emblemy"
-
-#: kfile/kicondialog.cpp:443
-msgid "Emotes"
-msgstr "Emotikony"
-
-#: kfile/kicondialog.cpp:444
-msgid "Filesystems"
-msgstr "Datajowe systemy"
-
-#: kfile/kicondialog.cpp:445
-msgid "International"
-msgstr "Mjezynarodny"
-
-#: kfile/kicondialog.cpp:446
-msgid "Mimetypes"
-msgstr "Mime-družiny"
-
-#: kfile/kicondialog.cpp:447
-msgid "Places"
-msgstr "Městna"
-
-#: kfile/kicondialog.cpp:448
-msgid "Status"
-msgstr "Status"
-
-#: kfile/kicondialog.cpp:691
-msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
-msgstr ""
-"*.png *.xpm *.svg *.svgz|piktogramowe dataje (*.png *.xpm *.svg *.svgz)"
 
 #: kfile/kmetaprops.cpp:57
 msgctxt "@title:window"
@@ -1552,15 +1469,159 @@ msgstr "Opcije za pokročenych"
 msgid "Open file dialog"
 msgstr "Dialog za wočinjenje dataje"
 
-#: kio/accessmanager.cpp:162
-msgid "Blocked request."
-msgstr ""
+#: kfile/kicondialog.cpp:336 kfile/kicondialog.cpp:348
+msgid "Select Icon"
+msgstr "Wubjerće piktogram"
 
-#: kio/accessmanager.cpp:203
-#, fuzzy
-#| msgid "Unknown Host"
-msgid "Unknown HTTP verb."
-msgstr "Njeznaty host"
+#: kfile/kicondialog.cpp:369
+msgid "Icon Source"
+msgstr "Žórło piktograma"
+
+#: kfile/kicondialog.cpp:378
+msgid "S&ystem icons:"
+msgstr "&Systemowe piktogramy:"
+
+#: kfile/kicondialog.cpp:385
+msgid "O&ther icons:"
+msgstr "&Hewaše piktogramy:"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:121
+#. i18n: ectx: property (text), widget (QPushButton, browseButton)
+#: kfile/kicondialog.cpp:388 rc.cpp:134
+msgid "&Browse..."
+msgstr "&Přelistuj..."
+
+#: kfile/kicondialog.cpp:399
+msgid "&Search:"
+msgstr "&Pytać:"
+
+#: kfile/kicondialog.cpp:406
+msgid "Search interactively for icon names (e.g. folder)."
+msgstr "Pyta interaktiwnje za mjenami piktogramow (na př. zapisk)."
+
+#: kfile/kicondialog.cpp:437
+msgid "Actions"
+msgstr "Akcije"
+
+#: kfile/kicondialog.cpp:438
+msgid "Animations"
+msgstr "Animacije"
+
+#: kfile/kicondialog.cpp:439
+msgid "Applications"
+msgstr "Programy"
+
+#: kfile/kicondialog.cpp:440
+msgid "Categories"
+msgstr "Kategorije"
+
+#: kfile/kicondialog.cpp:441
+msgid "Devices"
+msgstr "Graty"
+
+#: kfile/kicondialog.cpp:442
+msgid "Emblems"
+msgstr "Emblemy"
+
+#: kfile/kicondialog.cpp:443
+msgid "Emotes"
+msgstr "Emotikony"
+
+#: kfile/kicondialog.cpp:444
+msgid "Filesystems"
+msgstr "Datajowe systemy"
+
+#: kfile/kicondialog.cpp:445
+msgid "International"
+msgstr "Mjezynarodny"
+
+#: kfile/kicondialog.cpp:446
+msgid "Mimetypes"
+msgstr "Mime-družiny"
+
+#: kfile/kicondialog.cpp:447
+msgid "Places"
+msgstr "Městna"
+
+#: kfile/kicondialog.cpp:448
+msgid "Status"
+msgstr "Status"
+
+#: kfile/kicondialog.cpp:691
+msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
+msgstr ""
+"*.png *.xpm *.svg *.svgz|piktogramowe dataje (*.png *.xpm *.svg *.svgz)"
+
+#: kio/job.cpp:156
+msgctxt "@title job"
+msgid "Moving"
+msgstr "Přesuwam"
+
+#: kio/job.cpp:157 kio/job.cpp:164 kio/job.cpp:189 kio/fileundomanager.cpp:120
+msgctxt "The source of a file operation"
+msgid "Source"
+msgstr "Žórło"
+
+#: kio/job.cpp:158 kio/job.cpp:165 kio/fileundomanager.cpp:121
+msgctxt "The destination of a file operation"
+msgid "Destination"
+msgstr "Cil"
+
+#: kio/job.cpp:163
+msgctxt "@title job"
+msgid "Copying"
+msgstr "Kopěruju"
+
+#: kio/job.cpp:170
+msgctxt "@title job"
+msgid "Creating directory"
+msgstr "Stworju zapisk"
+
+#: kio/job.cpp:171 kio/fileundomanager.cpp:117
+msgid "Directory"
+msgstr "Zapisk"
+
+#: kio/job.cpp:176
+msgctxt "@title job"
+msgid "Deleting"
+msgstr "Wumazam"
+
+#: kio/job.cpp:177 kio/job.cpp:183 kio/fileundomanager.cpp:124
+msgid "File"
+msgstr "Dataja"
+
+#: kio/job.cpp:182
+msgctxt "@title job"
+msgid "Examining"
+msgstr "Wobhladuju sej"
+
+#: kio/job.cpp:188
+msgctxt "@title job"
+msgid "Transferring"
+msgstr "Přenjesu"
+
+#: kio/job.cpp:194
+msgctxt "@title job"
+msgid "Mounting"
+msgstr "Montuju"
+
+#: kio/job.cpp:195
+msgid "Device"
+msgstr "Grat"
+
+#: kio/job.cpp:196 kio/job.cpp:202
+msgid "Mountpoint"
+msgstr "Cil montowanja"
+
+#: kio/job.cpp:201
+msgctxt "@title job"
+msgid "Unmounting"
+msgstr "Wotmontuju"
+
+#: kio/job.cpp:2110 kio/copyjob.cpp:1337 kio/copyjob.cpp:1908
+#: kio/global.cpp:666 kio/paste.cpp:64
+msgid "File Already Exists"
+msgstr "Dataja hižo eksistuje"
 
 #: kio/chmodjob.cpp:214
 #, kde-format
@@ -1584,11 +1645,6 @@ msgstr "Njemóžach io-slave stworić: %1"
 msgid "Folder Already Exists"
 msgstr "Zapisk hižo eksistuje"
 
-#: kio/copyjob.cpp:1337 kio/copyjob.cpp:1908 kio/global.cpp:666
-#: kio/job.cpp:2110 kio/paste.cpp:64
-msgid "File Already Exists"
-msgstr "Dataja hižo eksistuje"
-
 #: kio/copyjob.cpp:1337 kio/copyjob.cpp:1908
 msgid "Already Exists as Folder"
 msgstr "Eksistuje hižo jako zapisk"
@@ -1597,31 +1653,13 @@ msgstr "Eksistuje hižo jako zapisk"
 msgid "Creating directory"
 msgstr "Stworju zapisk"
 
-#: kio/fileundomanager.cpp:117 kio/job.cpp:171
-msgid "Directory"
-msgstr "Zapisk"
-
 #: kio/fileundomanager.cpp:119
 msgid "Moving"
 msgstr "Přesuwam"
 
-#: kio/fileundomanager.cpp:120 kio/job.cpp:157 kio/job.cpp:164 kio/job.cpp:189
-msgctxt "The source of a file operation"
-msgid "Source"
-msgstr "Žórło"
-
-#: kio/fileundomanager.cpp:121 kio/job.cpp:158 kio/job.cpp:165
-msgctxt "The destination of a file operation"
-msgid "Destination"
-msgstr "Cil"
-
 #: kio/fileundomanager.cpp:123
 msgid "Deleting"
 msgstr "Niču"
-
-#: kio/fileundomanager.cpp:124 kio/job.cpp:177 kio/job.cpp:183
-msgid "File"
-msgstr "Dataja"
 
 #: kio/fileundomanager.cpp:284
 msgid "Und&o"
@@ -3428,54 +3466,6 @@ msgstr "Wubjerće hinaše datajowe mjeno za cilowu dataju."
 msgid "Undocumented Error"
 msgstr "Njedokumentowany zmylk"
 
-#: kio/job.cpp:156
-msgctxt "@title job"
-msgid "Moving"
-msgstr "Přesuwam"
-
-#: kio/job.cpp:163
-msgctxt "@title job"
-msgid "Copying"
-msgstr "Kopěruju"
-
-#: kio/job.cpp:170
-msgctxt "@title job"
-msgid "Creating directory"
-msgstr "Stworju zapisk"
-
-#: kio/job.cpp:176
-msgctxt "@title job"
-msgid "Deleting"
-msgstr "Wumazam"
-
-#: kio/job.cpp:182
-msgctxt "@title job"
-msgid "Examining"
-msgstr "Wobhladuju sej"
-
-#: kio/job.cpp:188
-msgctxt "@title job"
-msgid "Transferring"
-msgstr "Přenjesu"
-
-#: kio/job.cpp:194
-msgctxt "@title job"
-msgid "Mounting"
-msgstr "Montuju"
-
-#: kio/job.cpp:195
-msgid "Device"
-msgstr "Grat"
-
-#: kio/job.cpp:196 kio/job.cpp:202
-msgid "Mountpoint"
-msgstr "Cil montowanja"
-
-#: kio/job.cpp:201
-msgctxt "@title job"
-msgid "Unmounting"
-msgstr "Wotmontuju"
-
 #: kio/jobuidelegate.cpp:149 ../kfile/kdiroperator.cpp:812
 #, kde-format
 msgid "Do you really want to delete this item?"
@@ -3837,6 +3827,16 @@ msgstr ""
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "Njemóžach program namakać: %1."
+
+#: kio/accessmanager.cpp:162
+msgid "Blocked request."
+msgstr ""
+
+#: kio/accessmanager.cpp:203
+#, fuzzy
+#| msgid "Unknown Host"
+msgid "Unknown HTTP verb."
+msgstr "Njeznaty host"
 
 #: kio/kscan.cpp:50
 msgid "Acquire Image"
@@ -5660,6 +5660,200 @@ msgstr "Přizjewjenje OK"
 msgid "Could not login to %1."
 msgstr "Njemóžach so na %1 přizjewić."
 
+#: ../kioslave/http/http_cache_cleaner.cpp:728
+#: ../kioslave/http/http_cache_cleaner.cpp:729
+msgid "KDE HTTP cache maintenance tool"
+msgstr "Administraciski nastroj za KDE HTTP-pomjatk"
+
+#: ../kioslave/http/http_cache_cleaner.cpp:732
+msgid "Empty the cache"
+msgstr "Pomjatk wuprózdnić."
+
+#: ../kioslave/http/http_cache_cleaner.cpp:733
+#, fuzzy
+#| msgid "Display SSL &Information"
+msgid "Display information about cache file"
+msgstr "&SSL-informaciju pokazać"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:64
+msgid "Cookie Alert"
+msgstr "Kedźbu! Plack!"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:97
+#, kde-format
+msgid "You received a cookie from"
+msgid_plural "You received %1 cookies from"
+msgstr[0] "Sće %1 plack dóstali z"
+msgstr[1] "Sće %1 plackaj dóstali z"
+msgstr[2] "Sće %1 placki dóstali z"
+msgstr[3] "Sće %1 plackow dóstali z"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:115
+msgid " <b>[Cross Domain]</b>"
+msgstr " <b>[Mjezydomainowy]</b>"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:118
+msgid "Do you want to accept or reject?"
+msgstr "Přiwzać abo wotpokazać?"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:126
+msgid "Apply Choice To"
+msgstr "Wubraće nałožić na"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:128
+msgid "&Only this cookie"
+msgstr "&Jenož tutón plack"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:128
+msgid "&Only these cookies"
+msgstr "&Jenož tute placki"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:132
+#, fuzzy
+#| msgid ""
+#| "Select this option to accept/reject only this cookie. You will be "
+#| "prompted if another cookie is received. <em>(see WebBrowsing/Cookies in "
+#| "the Control Center)</em>."
+msgid ""
+"Select this option to accept/reject only this cookie. You will be prompted "
+"if another cookie is received. <em>(see WebBrowsing/Cookies in the System "
+"Settings)</em>."
+msgstr ""
+"Wubjerće tutu opciju, zo byšće jenož tutón plack (přiwzali/wotpokazali). "
+"Hdyž dóstanjeće dalši plack, so computer znowa wopraša."
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:136
+msgid "All cookies from this do&main"
+msgstr "Wšitke placki z tuteje &domeny"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:139
+#, fuzzy
+#| msgid ""
+#| "Select this option to accept/reject all cookies from this site. Choosing "
+#| "this option will add a new policy for the site this cookie originated "
+#| "from. This policy will be permanent until you manually change it from the "
+#| "Control Center <em>(see WebBrowsing/Cookies in the Control Center)</em>."
+msgid ""
+"Select this option to accept/reject all cookies from this site. Choosing "
+"this option will add a new policy for the site this cookie originated from. "
+"This policy will be permanent until you manually change it from the System "
+"Settings <em>(see WebBrowsing/Cookies in the System Settings)</em>."
+msgstr ""
+"Wubjerće tutu opciju, zo byšće wšitke placki z tuteje městnosće přiwzali/"
+"wotpokazali."
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:145
+msgid "All &cookies"
+msgstr "&Wšitke placki"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:148
+#, fuzzy
+#| msgid ""
+#| "Select this option to accept/reject all cookies from anywhere. Choosing "
+#| "this option will change the global cookie policy set in the Control "
+#| "Center for all cookies <em>(see WebBrowsing/Cookies in the Control Center)"
+#| "</em>."
+msgid ""
+"Select this option to accept/reject all cookies from anywhere. Choosing this "
+"option will change the global cookie policy set in the System Settings for "
+"all cookies <em>(see WebBrowsing/Cookies in the System Settings)</em>."
+msgstr ""
+"Wubjerće tutu opciju, zo byšće wšitke placki přiwzali/wotpokazali, wšojedne, "
+"zwotkel su přišli."
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:162
+msgid "&Accept"
+msgstr "&Přiwzać"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:163
+msgid "&Reject"
+msgstr "&Wotpokazać"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:165
+msgid "See or modify the cookie information"
+msgstr "Informaciju wo plackach sej wobhladać abo změnić"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:200
+msgid "Cookie Details"
+msgstr "Nadrobnosće wo placku"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:213
+msgid "Value:"
+msgstr "Hódnota:"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:220
+msgid "Expires:"
+msgstr "Płaći hač do"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:227
+msgid "Path:"
+msgstr "Puć:"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:234
+msgid "Domain:"
+msgstr "Domena:"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:241
+msgid "Exposure:"
+msgstr "Płaćiwy hač do:"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:250
+msgctxt "Next cookie"
+msgid "&Next >>"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:255
+msgid "Show details of the next cookie"
+msgstr "Pokaž nadrobne informacije wo přichodnym placku"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:282
+msgid "Not specified"
+msgstr "Ničo njepostajene"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:291
+msgid "End of Session"
+msgstr "Kónc sesije"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:296
+msgid "Secure servers only"
+msgstr "Jenož zawěsćene servery"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:298
+msgid "Secure servers, page scripts"
+msgstr "Zawěsćene servery, stronowe skripty"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:303
+msgid "Servers"
+msgstr "Servery"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:305
+msgid "Servers, page scripts"
+msgstr "Servery. stonowe skripty"
+
+#: ../kioslave/http/kcookiejar/main.cpp:33
+msgid "HTTP Cookie Daemon"
+msgstr "HTTP-demon za placki"
+
+#: ../kioslave/http/kcookiejar/main.cpp:37
+msgid "HTTP cookie daemon"
+msgstr "HTTP-demon za placki"
+
+#: ../kioslave/http/kcookiejar/main.cpp:40
+msgid "Shut down cookie jar"
+msgstr "Plackowu tyzu začinić."
+
+#: ../kioslave/http/kcookiejar/main.cpp:41
+msgid "Remove cookies for domain"
+msgstr "Wšitke placki za domain zničić."
+
+#: ../kioslave/http/kcookiejar/main.cpp:42
+msgid "Remove all cookies"
+msgstr "Wšitke placki zničić."
+
+#: ../kioslave/http/kcookiejar/main.cpp:43
+msgid "Reload configuration file"
+msgstr "Konfiguracisku dataju nowa začitać."
+
 #: ../kioslave/http/http.cpp:582
 msgid "No host specified."
 msgstr "Žadyn server specifikowany."
@@ -5895,200 +6089,6 @@ msgstr "Dóstawam %1 wot %2..."
 #, kde-format
 msgid "Retrieving from %1..."
 msgstr "Dóstawam daty wot %1..."
-
-#: ../kioslave/http/http_cache_cleaner.cpp:728
-#: ../kioslave/http/http_cache_cleaner.cpp:729
-msgid "KDE HTTP cache maintenance tool"
-msgstr "Administraciski nastroj za KDE HTTP-pomjatk"
-
-#: ../kioslave/http/http_cache_cleaner.cpp:732
-msgid "Empty the cache"
-msgstr "Pomjatk wuprózdnić."
-
-#: ../kioslave/http/http_cache_cleaner.cpp:733
-#, fuzzy
-#| msgid "Display SSL &Information"
-msgid "Display information about cache file"
-msgstr "&SSL-informaciju pokazać"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:64
-msgid "Cookie Alert"
-msgstr "Kedźbu! Plack!"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:97
-#, kde-format
-msgid "You received a cookie from"
-msgid_plural "You received %1 cookies from"
-msgstr[0] "Sće %1 plack dóstali z"
-msgstr[1] "Sće %1 plackaj dóstali z"
-msgstr[2] "Sće %1 placki dóstali z"
-msgstr[3] "Sće %1 plackow dóstali z"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:115
-msgid " <b>[Cross Domain]</b>"
-msgstr " <b>[Mjezydomainowy]</b>"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:118
-msgid "Do you want to accept or reject?"
-msgstr "Přiwzać abo wotpokazać?"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:126
-msgid "Apply Choice To"
-msgstr "Wubraće nałožić na"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:128
-msgid "&Only this cookie"
-msgstr "&Jenož tutón plack"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:128
-msgid "&Only these cookies"
-msgstr "&Jenož tute placki"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:132
-#, fuzzy
-#| msgid ""
-#| "Select this option to accept/reject only this cookie. You will be "
-#| "prompted if another cookie is received. <em>(see WebBrowsing/Cookies in "
-#| "the Control Center)</em>."
-msgid ""
-"Select this option to accept/reject only this cookie. You will be prompted "
-"if another cookie is received. <em>(see WebBrowsing/Cookies in the System "
-"Settings)</em>."
-msgstr ""
-"Wubjerće tutu opciju, zo byšće jenož tutón plack (přiwzali/wotpokazali). "
-"Hdyž dóstanjeće dalši plack, so computer znowa wopraša."
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:136
-msgid "All cookies from this do&main"
-msgstr "Wšitke placki z tuteje &domeny"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:139
-#, fuzzy
-#| msgid ""
-#| "Select this option to accept/reject all cookies from this site. Choosing "
-#| "this option will add a new policy for the site this cookie originated "
-#| "from. This policy will be permanent until you manually change it from the "
-#| "Control Center <em>(see WebBrowsing/Cookies in the Control Center)</em>."
-msgid ""
-"Select this option to accept/reject all cookies from this site. Choosing "
-"this option will add a new policy for the site this cookie originated from. "
-"This policy will be permanent until you manually change it from the System "
-"Settings <em>(see WebBrowsing/Cookies in the System Settings)</em>."
-msgstr ""
-"Wubjerće tutu opciju, zo byšće wšitke placki z tuteje městnosće přiwzali/"
-"wotpokazali."
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:145
-msgid "All &cookies"
-msgstr "&Wšitke placki"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:148
-#, fuzzy
-#| msgid ""
-#| "Select this option to accept/reject all cookies from anywhere. Choosing "
-#| "this option will change the global cookie policy set in the Control "
-#| "Center for all cookies <em>(see WebBrowsing/Cookies in the Control Center)"
-#| "</em>."
-msgid ""
-"Select this option to accept/reject all cookies from anywhere. Choosing this "
-"option will change the global cookie policy set in the System Settings for "
-"all cookies <em>(see WebBrowsing/Cookies in the System Settings)</em>."
-msgstr ""
-"Wubjerće tutu opciju, zo byšće wšitke placki přiwzali/wotpokazali, wšojedne, "
-"zwotkel su přišli."
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:162
-msgid "&Accept"
-msgstr "&Přiwzać"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:163
-msgid "&Reject"
-msgstr "&Wotpokazać"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:165
-msgid "See or modify the cookie information"
-msgstr "Informaciju wo plackach sej wobhladać abo změnić"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:200
-msgid "Cookie Details"
-msgstr "Nadrobnosće wo placku"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:213
-msgid "Value:"
-msgstr "Hódnota:"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:220
-msgid "Expires:"
-msgstr "Płaći hač do"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:227
-msgid "Path:"
-msgstr "Puć:"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:234
-msgid "Domain:"
-msgstr "Domena:"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:241
-msgid "Exposure:"
-msgstr "Płaćiwy hač do:"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:250
-msgctxt "Next cookie"
-msgid "&Next >>"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:255
-msgid "Show details of the next cookie"
-msgstr "Pokaž nadrobne informacije wo přichodnym placku"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:282
-msgid "Not specified"
-msgstr "Ničo njepostajene"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:291
-msgid "End of Session"
-msgstr "Kónc sesije"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:296
-msgid "Secure servers only"
-msgstr "Jenož zawěsćene servery"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:298
-msgid "Secure servers, page scripts"
-msgstr "Zawěsćene servery, stronowe skripty"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:303
-msgid "Servers"
-msgstr "Servery"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:305
-msgid "Servers, page scripts"
-msgstr "Servery. stonowe skripty"
-
-#: ../kioslave/http/kcookiejar/main.cpp:33
-msgid "HTTP Cookie Daemon"
-msgstr "HTTP-demon za placki"
-
-#: ../kioslave/http/kcookiejar/main.cpp:37
-msgid "HTTP cookie daemon"
-msgstr "HTTP-demon za placki"
-
-#: ../kioslave/http/kcookiejar/main.cpp:40
-msgid "Shut down cookie jar"
-msgstr "Plackowu tyzu začinić."
-
-#: ../kioslave/http/kcookiejar/main.cpp:41
-msgid "Remove cookies for domain"
-msgstr "Wšitke placki za domain zničić."
-
-#: ../kioslave/http/kcookiejar/main.cpp:42
-msgid "Remove all cookies"
-msgstr "Wšitke placki zničić."
-
-#: ../kioslave/http/kcookiejar/main.cpp:43
-msgid "Reload configuration file"
-msgstr "Konfiguracisku dataju nowa začitać."
 
 #: ../kioslave/metainfo/metainfo.cpp:39
 msgid "kio_metainfo"
@@ -6511,41 +6511,6 @@ msgstr "Zmylk je so stał při pospyće %1, %2. Zjeće přičin namakaće deleka
 msgid "An error occurred while accessing '%1'"
 msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
 
-#: ../kfile/kfileplacesview.cpp:575
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "Papjernik wuprózdnić"
-
-#: ../kfile/kfileplacesview.cpp:582
-#, fuzzy, kde-format
-#| msgid "Edit Entry..."
-msgid "&Edit Entry '%1'..."
-msgstr "Zapis wobdźěłać..."
-
-#: ../kfile/kfileplacesview.cpp:604
-#, fuzzy, kde-format
-#| msgid "&Hide '%1'"
-msgid "&Hide Entry '%1'"
-msgstr "'%1' &schować"
-
-#: ../kfile/kfileplacesview.cpp:613
-#, fuzzy
-msgid "&Show All Entries"
-msgstr ""
-"Pokaž\n"
-"zapisy"
-
-#: ../kfile/kfileplacesview.cpp:624
-#, fuzzy, kde-format
-msgid "&Remove Entry '%1'"
-msgstr "Z&ničić"
-
-#: ../kfile/kfileplacesview.cpp:634
-#, fuzzy
-msgctxt "@info"
-msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr "Chceće woprawdźe tute %1 objektow zničić?"
-
 #: ../kfile/kfiletreeview.cpp:187
 #, fuzzy
 msgid "Show Hidden Folders"
@@ -6949,6 +6914,41 @@ msgid ""
 "Create new folder in:\n"
 "%1"
 msgstr "Nowy zapisk stworić w:"
+
+#: ../kfile/kfileplacesview.cpp:575
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "Papjernik wuprózdnić"
+
+#: ../kfile/kfileplacesview.cpp:582
+#, fuzzy, kde-format
+#| msgid "Edit Entry..."
+msgid "&Edit Entry '%1'..."
+msgstr "Zapis wobdźěłać..."
+
+#: ../kfile/kfileplacesview.cpp:604
+#, fuzzy, kde-format
+#| msgid "&Hide '%1'"
+msgid "&Hide Entry '%1'"
+msgstr "'%1' &schować"
+
+#: ../kfile/kfileplacesview.cpp:613
+#, fuzzy
+msgid "&Show All Entries"
+msgstr ""
+"Pokaž\n"
+"zapisy"
+
+#: ../kfile/kfileplacesview.cpp:624
+#, fuzzy, kde-format
+msgid "&Remove Entry '%1'"
+msgstr "Z&ničić"
+
+#: ../kfile/kfileplacesview.cpp:634
+#, fuzzy
+msgctxt "@info"
+msgid "Do you really want to empty the Trash? All items will be deleted."
+msgstr "Chceće woprawdźe tute %1 objektow zničić?"
 
 #: ../kfile/kurlnavigator.cpp:427
 #, fuzzy
