@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-11 02:44+0100\n"
+"POT-Creation-Date: 2011-02-13 15:25+0100\n"
 "PO-Revision-Date: 2008-11-21 01:09+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -877,66 +877,6 @@ msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "%1 swobodne"
 
-#: views/dolphinview.cpp:500
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "<filename>%1</filename> wubrany"
-
-#: views/dolphinview.cpp:501
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected (%2)"
-msgstr "<filename>%1</filename> wubrane (%2)"
-
-#: views/dolphinview.cpp:505
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "%1 zapisk wubrany"
-msgstr[1] "%1 zapiskaj wubranej"
-msgstr[2] "%1 zapiski wubrane"
-msgstr[3] "%1 zapiskow wubranych"
-
-#: views/dolphinview.cpp:506
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] "%1 dataja wubrana"
-msgstr[1] "%1 dataji wubranej"
-msgstr[2] "%1 dataje wubrane"
-msgstr[3] "%1 datajow wubranych"
-
-#: views/dolphinview.cpp:508
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
-
-#: views/dolphinview.cpp:511
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: views/dolphinview.cpp:1039
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "Dowumazane."
-
-#: views/dolphinview.cpp:1141
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "Městnosć je prózdna."
-
-#: views/dolphinview.cpp:1143
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "Městnosć '%1' njeje walidna."
-
 #: views/draganddrophelper.cpp:108
 msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
@@ -995,11 +935,6 @@ msgstr "Rozćahujomne zapiski"
 msgctxt "@title:menu"
 msgid "Columns"
 msgstr "stołpiki"
-
-#: views/dolphincolumnview.cpp:88
-msgctxt "@info:tooltip"
-msgid "Resize column"
-msgstr ""
 
 #: views/dolphindirlister.cpp:41
 #, fuzzy
@@ -1193,6 +1128,11 @@ msgstr "stołpiki"
 msgctxt "@info"
 msgid "Columns view mode"
 msgstr "Dźěleny napohlad"
+
+#: views/dolphincolumnview.cpp:88
+msgctxt "@info:tooltip"
+msgid "Resize column"
+msgstr ""
 
 #: views/versioncontrol/versioncontrolobserver.cpp:190
 #, fuzzy
@@ -1447,6 +1387,66 @@ msgstr "zakazane"
 msgctxt "@title:group Files and folders by permissions"
 msgid "(User: %1) (Group: %2) (Others: %3)"
 msgstr "(Wužiwar: %1) (Skupina: %2) (Druzy: %3)"
+
+#: views/dolphinview.cpp:504
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr "<filename>%1</filename> wubrany"
+
+#: views/dolphinview.cpp:505
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected (%2)"
+msgstr "<filename>%1</filename> wubrane (%2)"
+
+#: views/dolphinview.cpp:509
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "%1 zapisk wubrany"
+msgstr[1] "%1 zapiskaj wubranej"
+msgstr[2] "%1 zapiski wubrane"
+msgstr[3] "%1 zapiskow wubranych"
+
+#: views/dolphinview.cpp:510
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "%1 dataja wubrana"
+msgstr[1] "%1 dataji wubranej"
+msgstr[2] "%1 dataje wubrane"
+msgstr[3] "%1 datajow wubranych"
+
+#: views/dolphinview.cpp:512
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:515
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:1047
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "Dowumazane."
+
+#: views/dolphinview.cpp:1149
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "Městnosć je prózdna."
+
+#: views/dolphinview.cpp:1151
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "Městnosć '%1' njeje walidna."
 
 #: views/selectiontoggle.cpp:132
 msgctxt "@info:tooltip"
@@ -1820,36 +1820,6 @@ msgstr ""
 msgid "Unselect all items matching this pattern:"
 msgstr ""
 
-#: dolphinviewcontainer.cpp:313
-msgctxt "@info:progress"
-msgid "Loading folder..."
-msgstr "začitam zapisk..."
-
-#: dolphinviewcontainer.cpp:324
-msgctxt "@info"
-msgid "Searching..."
-msgstr ""
-
-#: dolphinviewcontainer.cpp:344
-msgctxt "@info:status"
-msgid "No items found."
-msgstr ""
-
-#: dolphinviewcontainer.cpp:423
-msgctxt "@info:status"
-msgid "Dolphin does not support web pages, the web browser has been launched"
-msgstr "Dolphin njepodpěruje html-strony, browser je so startował."
-
-#: dolphinviewcontainer.cpp:435
-msgctxt "@info:status"
-msgid "Protocol not supported by Dolphin, Konqueror has been launched"
-msgstr "Protokol njepodpěrowany wot Dolphina; Konqueror je so startował."
-
-#: dolphinviewcontainer.cpp:442
-msgctxt "@info:status"
-msgid "Invalid protocol"
-msgstr "Njewalidny protokol"
-
 #: main.cpp:35
 msgctxt "@title"
 msgid "Dolphin"
@@ -2007,6 +1977,36 @@ msgstr "Do papjernika přesunyć"
 msgctxt "@action:inmenu"
 msgid "&Delete"
 msgstr "zničić"
+
+#: dolphinviewcontainer.cpp:313
+msgctxt "@info:progress"
+msgid "Loading folder..."
+msgstr "začitam zapisk..."
+
+#: dolphinviewcontainer.cpp:324
+msgctxt "@info"
+msgid "Searching..."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:344
+msgctxt "@info:status"
+msgid "No items found."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:423
+msgctxt "@info:status"
+msgid "Dolphin does not support web pages, the web browser has been launched"
+msgstr "Dolphin njepodpěruje html-strony, browser je so startował."
+
+#: dolphinviewcontainer.cpp:435
+msgctxt "@info:status"
+msgid "Protocol not supported by Dolphin, Konqueror has been launched"
+msgstr "Protokol njepodpěrowany wot Dolphina; Konqueror je so startował."
+
+#: dolphinviewcontainer.cpp:442
+msgctxt "@info:status"
+msgid "Invalid protocol"
+msgstr "Njewalidny protokol"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
