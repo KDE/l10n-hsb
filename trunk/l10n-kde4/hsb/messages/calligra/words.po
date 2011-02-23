@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-05 03:06+0100\n"
+"POT-Creation-Date: 2011-02-23 03:09+0100\n"
 "PO-Revision-Date: 2004-04-16 18:01+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -422,7 +422,7 @@ msgstr "Špalta"
 
 #. i18n: file: part/dialogs/KWStartupWidget.ui:102
 #. i18n: ectx: property (text), widget (QPushButton, createButton)
-#: rc.cpp:184 part/KWView.cpp:317
+#: rc.cpp:184 part/KWView.cpp:318
 #, fuzzy
 msgid "Create"
 msgstr "Nowe."
@@ -689,7 +689,7 @@ msgstr "Zasunyć"
 
 #. i18n: file: part/words.rc:126
 #. i18n: ectx: Menu (semantic_object_menu)
-#: rc.cpp:318 part/KWView.cpp:432
+#: rc.cpp:318 part/KWView.cpp:433
 #, fuzzy
 msgid "Delete"
 msgstr "Zničić"
@@ -926,39 +926,6 @@ msgstr ""
 msgid "Unable to locate note-text"
 msgstr ""
 
-#: part/KWDocument.cpp:486
-#, fuzzy
-msgid "Copy"
-msgstr "Kopěrować"
-
-#: part/KWDocument.cpp:531
-#, fuzzy
-msgid "Head 1"
-msgstr "Stil"
-
-#: part/KWDocument.cpp:538
-#, fuzzy
-msgid "Head 2"
-msgstr "Stil"
-
-#: part/KWDocument.cpp:545
-#, fuzzy
-msgid "Head 3"
-msgstr "Stil"
-
-#: part/KWDocument.cpp:552
-#, fuzzy
-msgid "Bullet List"
-msgstr "Stil"
-
-#: part/KWDocument.cpp:872
-msgid "Can not find needed text component, Words will quit now"
-msgstr ""
-
-#: part/KWDocument.cpp:873
-msgid "Installation Error"
-msgstr ""
-
 #: part/KWOdfLoader.cpp:87
 #, fuzzy
 msgid "Invalid OASIS OpenDocument file. No office:body tag found."
@@ -1104,7 +1071,7 @@ msgid "approximately %1"
 msgstr ""
 
 #: part/dialogs/KWStatisticsDialog.cpp:29
-#: part/dockers/KWStatisticsDocker.cpp:36 part/KWView.cpp:391
+#: part/dockers/KWStatisticsDocker.cpp:36 part/KWView.cpp:392
 msgid "Statistics"
 msgstr ""
 
@@ -1428,43 +1395,76 @@ msgstr "Dataja"
 msgid "Tools"
 msgstr ""
 
-#: part/KWView.cpp:243
+#: part/KWDocument.cpp:487
+#, fuzzy
+msgid "Copy"
+msgstr "Kopěrować"
+
+#: part/KWDocument.cpp:532
+#, fuzzy
+msgid "Head 1"
+msgstr "Stil"
+
+#: part/KWDocument.cpp:539
+#, fuzzy
+msgid "Head 2"
+msgstr "Stil"
+
+#: part/KWDocument.cpp:546
+#, fuzzy
+msgid "Head 3"
+msgstr "Stil"
+
+#: part/KWDocument.cpp:553
+#, fuzzy
+msgid "Bullet List"
+msgstr "Stil"
+
+#: part/KWDocument.cpp:873
+msgid "Can not find needed text component, Words will quit now"
+msgstr ""
+
+#: part/KWDocument.cpp:874
+msgid "Installation Error"
+msgstr ""
+
+#: part/KWView.cpp:244
 #, fuzzy
 msgid "Frame/Frameset Properties"
 msgstr "Swójstwa."
 
-#: part/KWView.cpp:245
+#: part/KWView.cpp:246
 #, fuzzy
 msgid "Alter frameset properties"
 msgstr "wobdźěłać"
 
-#: part/KWView.cpp:253
+#: part/KWView.cpp:254
 #, fuzzy
 msgid "Page Break"
 msgstr "Strona"
 
-#: part/KWView.cpp:254
+#: part/KWView.cpp:255
 msgid "Force the remainder of the text into the next page"
 msgstr ""
 
-#: part/KWView.cpp:255
+#: part/KWView.cpp:256
 #, fuzzy
 msgid "All text after this point will be moved into the next page."
 msgstr "Wšě."
 
-#: part/KWView.cpp:257
+#: part/KWView.cpp:258
 msgid "Enable Document Headers"
 msgstr ""
 
-#: part/KWView.cpp:259
+#: part/KWView.cpp:260
 msgid "Disable Document Headers"
 msgstr ""
 
-#: part/KWView.cpp:260
+#: part/KWView.cpp:261
 msgid "Shows and hides header display"
 msgstr ""
 
-#: part/KWView.cpp:261
+#: part/KWView.cpp:262
 #, fuzzy
 msgid ""
 "Selecting this option toggles the display of headers in Words.<br/><br/"
@@ -1472,19 +1472,19 @@ msgid ""
 "numbers or other information."
 msgstr "in<br><br>."
 
-#: part/KWView.cpp:266
+#: part/KWView.cpp:267
 msgid "Enable Document Footers"
 msgstr ""
 
-#: part/KWView.cpp:268
+#: part/KWView.cpp:269
 msgid "Disable Document Footers"
 msgstr ""
 
-#: part/KWView.cpp:269
+#: part/KWView.cpp:270
 msgid "Shows and hides footer display"
 msgstr ""
 
-#: part/KWView.cpp:270
+#: part/KWView.cpp:271
 #, fuzzy
 msgid ""
 "Selecting this option toggles the display of footers in Words. <br/><br/"
@@ -1492,23 +1492,23 @@ msgid ""
 "page numbers or other information."
 msgstr "in<br><br>."
 
-#: part/KWView.cpp:275
+#: part/KWView.cpp:276
 msgid "Snap to Grid"
 msgstr ""
 
-#: part/KWView.cpp:280
+#: part/KWView.cpp:281
 #, fuzzy
 msgid "Raise Frame"
 msgstr "Zasunyć"
 
-#: part/KWView.cpp:283
+#: part/KWView.cpp:284
 #, fuzzy
 msgid ""
 "Raise the currently selected frame so that it appears above all the other "
 "frames"
 msgstr "Zawěsćić in in."
 
-#: part/KWView.cpp:285
+#: part/KWView.cpp:286
 #, fuzzy
 msgid ""
 "Raise the currently selected frame so that it appears above all the other "
@@ -1516,19 +1516,19 @@ msgid ""
 "are selected they are all raised in turn."
 msgstr "in."
 
-#: part/KWView.cpp:290
+#: part/KWView.cpp:291
 #, fuzzy
 msgid "Lower Frame"
 msgstr "Sunyć"
 
-#: part/KWView.cpp:293
+#: part/KWView.cpp:294
 #, fuzzy
 msgid ""
 "Lower the currently selected frame so that it disappears under any frame "
 "that overlaps it"
 msgstr "in."
 
-#: part/KWView.cpp:295
+#: part/KWView.cpp:296
 #, fuzzy
 msgid ""
 "Lower the currently selected frame so that it disappears under any frame "
@@ -1536,145 +1536,145 @@ msgid ""
 "turn."
 msgstr "in."
 
-#: part/KWView.cpp:299
+#: part/KWView.cpp:300
 #, fuzzy
 msgid "Bring to Front"
 msgstr "Změnić Tekst"
 
-#: part/KWView.cpp:303
+#: part/KWView.cpp:304
 msgid "Send to Back"
 msgstr ""
 
-#: part/KWView.cpp:307
+#: part/KWView.cpp:308
 #, fuzzy
 msgid "Variable"
 msgstr "Zasunyć"
 
-#: part/KWView.cpp:325
+#: part/KWView.cpp:326
 #, fuzzy
 msgid "Bookmark..."
 msgstr "Lu&bušk."
 
-#: part/KWView.cpp:330
+#: part/KWView.cpp:331
 #, fuzzy
 msgid "Select Bookmark..."
 msgstr "Lubušk."
 
-#: part/KWView.cpp:331
+#: part/KWView.cpp:332
 #, fuzzy
 msgid "Bookmark"
 msgstr "Lu&bušk."
 
-#: part/KWView.cpp:337
+#: part/KWView.cpp:338
 #, fuzzy
 msgid "Picture..."
 msgstr "Zasunyć"
 
-#: part/KWView.cpp:338
+#: part/KWView.cpp:339
 msgid "Insert a picture into document"
 msgstr ""
 
-#: part/KWView.cpp:342
+#: part/KWView.cpp:343
 msgid "Footnote/Endnote..."
 msgstr ""
 
-#: part/KWView.cpp:343
+#: part/KWView.cpp:344
 msgid "Insert a footnote referencing the selected text"
 msgstr ""
 
-#: part/KWView.cpp:347
+#: part/KWView.cpp:348
 #, fuzzy
 #| msgid "Configure Frame Borders"
 msgid "Frame Borders"
 msgstr "Kromy ramika nastajeć"
 
-#: part/KWView.cpp:348
+#: part/KWView.cpp:349
 msgid "Turns the border display on and off"
 msgstr ""
 
-#: part/KWView.cpp:353
+#: part/KWView.cpp:354
 msgid ""
 "Turns the border display on and off.<br/><br/>The borders are never printed. "
 "This option is useful to see how the document will appear on the printed "
 "page."
 msgstr ""
 
-#: part/KWView.cpp:355
+#: part/KWView.cpp:356
 #, fuzzy
 msgid "Page Layout..."
 msgstr "Strona &Layout."
 
-#: part/KWView.cpp:357
+#: part/KWView.cpp:358
 #, fuzzy
 msgid "Change properties of entire page"
 msgstr "Změnić."
 
-#: part/KWView.cpp:358
+#: part/KWView.cpp:359
 #, fuzzy
 msgid ""
 "Change properties of the entire page.<p>Currently you can change paper size, "
 "paper orientation, header and footer sizes, and column settings.</p>"
 msgstr "Změnić<p>."
 
-#: part/KWView.cpp:362
+#: part/KWView.cpp:363
 msgid "Semantic Stylesheets..."
 msgstr ""
 
-#: part/KWView.cpp:364
+#: part/KWView.cpp:365
 msgid "Modify and add semantic stylesheets"
 msgstr ""
 
-#: part/KWView.cpp:365
+#: part/KWView.cpp:366
 msgid ""
 "Stylesheets are used to format contact, event, and location information "
 "which is stored in Rdf"
 msgstr ""
 
-#: part/KWView.cpp:369
+#: part/KWView.cpp:370
 msgid "Make inline"
 msgstr ""
 
-#: part/KWView.cpp:370
+#: part/KWView.cpp:371
 #, fuzzy
 msgid "Convert current frame to an inline frame"
 msgstr "Konwertěrować."
 
-#: part/KWView.cpp:371
+#: part/KWView.cpp:372
 #, fuzzy
 msgid ""
 "Convert the current frame to an inline frame.<br><br>Place the inline frame "
 "within the text at the point nearest to the frames current position."
 msgstr "Konwertěrować<br><br>."
 
-#: part/KWView.cpp:375
+#: part/KWView.cpp:376
 msgid "Previous Page"
 msgstr ""
 
-#: part/KWView.cpp:379
+#: part/KWView.cpp:380
 #, fuzzy
 msgid "Next Page"
 msgstr "Zasunyć"
 
-#: part/KWView.cpp:393
+#: part/KWView.cpp:394
 msgid "Sentence, word and letter counts for this document"
 msgstr ""
 
-#: part/KWView.cpp:394
+#: part/KWView.cpp:395
 #, fuzzy
 msgid ""
 "Information on the number of letters, words, syllables and sentences for "
 "this document.<p>Evaluates readability using the Flesch reading score.</p>"
 msgstr "Informacija<p>."
 
-#: part/KWView.cpp:397
+#: part/KWView.cpp:398
 msgid "Show Rulers"
 msgstr ""
 
-#: part/KWView.cpp:399
+#: part/KWView.cpp:400
 msgid "Shows or hides rulers"
 msgstr ""
 
-#: part/KWView.cpp:400
+#: part/KWView.cpp:401
 msgid ""
 "The rulers are the white measuring spaces top and left of the document. The "
 "rulers show the position and width of pages and of frames and can be used to "
@@ -1682,46 +1682,46 @@ msgid ""
 "being displayed.</p>"
 msgstr ""
 
-#: part/KWView.cpp:408
+#: part/KWView.cpp:409
 #, fuzzy
 msgid "Page..."
 msgstr "Strona &Layout."
 
-#: part/KWView.cpp:412
+#: part/KWView.cpp:413
 #, fuzzy
 msgid "Delete Page"
 msgstr "Zničić"
 
-#: part/KWView.cpp:419
+#: part/KWView.cpp:420
 #, fuzzy
 msgid "Formatting Characters"
 msgstr "Napohlad"
 
-#: part/KWView.cpp:423
+#: part/KWView.cpp:424
 msgid "Toggle the display of non-printing characters"
 msgstr ""
 
-#: part/KWView.cpp:424
+#: part/KWView.cpp:425
 msgid ""
 "Toggle the display of non-printing characters.<br/><br/>When this is "
 "enabled, Words shows you tabs, spaces, carriage returns and other non-"
 "printing characters."
 msgstr ""
 
-#: part/KWView.cpp:427
+#: part/KWView.cpp:428
 #, fuzzy
 msgid "Select All Frames"
 msgstr "Zničić"
 
-#: part/KWView.cpp:445 part/KWView.cpp:1215
+#: part/KWView.cpp:446 part/KWView.cpp:1208
 msgid "Create Linked Copy"
 msgstr ""
 
-#: part/KWView.cpp:447
+#: part/KWView.cpp:448
 msgid "Create a copy of the current frame, always showing the same contents"
 msgstr ""
 
-#: part/KWView.cpp:448
+#: part/KWView.cpp:449
 #, fuzzy
 msgid ""
 "Create a copy of the current frame, that remains linked to it. This means "
@@ -1729,29 +1729,29 @@ msgid ""
 "will update all its linked copies."
 msgstr "in."
 
-#: part/KWView.cpp:451
+#: part/KWView.cpp:452
 #, fuzzy
 msgid "Create Frame-clip"
 msgstr "Tekst"
 
-#: part/KWView.cpp:455
+#: part/KWView.cpp:456
 #, fuzzy
 msgid "Remove Frame-clip"
 msgstr "Wotstronić"
 
-#: part/KWView.cpp:459
+#: part/KWView.cpp:460
 msgid "Show Status Bar"
 msgstr ""
 
-#: part/KWView.cpp:460
+#: part/KWView.cpp:461
 msgid "Hide Status Bar"
 msgstr ""
 
-#: part/KWView.cpp:461
+#: part/KWView.cpp:462
 msgid "Shows or hides the status bar"
 msgstr ""
 
-#: part/KWView.cpp:1154
+#: part/KWView.cpp:1147
 msgid "Please select at least one non-locked shape and try again"
 msgstr ""
 
