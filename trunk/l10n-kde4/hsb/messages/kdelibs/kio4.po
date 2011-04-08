@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-07 03:43+0200\n"
+"POT-Creation-Date: 2011-04-08 04:34+0200\n"
 "PO-Revision-Date: 2008-11-17 23:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -4798,7 +4798,7 @@ msgstr ""
 msgid "Could not download the proxy configuration script"
 msgstr "Njemóžach skript za konfiguraciju proxyja dele sćahnyć"
 
-#: misc/kpac/proxyscout.cpp:131
+#: misc/kpac/proxyscout.cpp:170
 #, kde-format
 msgid ""
 "The proxy configuration script is invalid:\n"
@@ -4807,7 +4807,7 @@ msgstr ""
 "Njewalidny skript za konfiguraciju proxyja:\n"
 "%1"
 
-#: misc/kpac/proxyscout.cpp:195
+#: misc/kpac/proxyscout.cpp:266
 #, kde-format
 msgid ""
 "The proxy configuration script returned an error:\n"
@@ -4815,6 +4815,15 @@ msgid ""
 msgstr ""
 "Skript za konfiguraciju proxyja je so ze zmylkom zakónčił:\n"
 "%1"
+
+#: misc/kpac/script.cpp:750
+msgid "Could not find 'FindProxyForURL' or 'FindProxyForURLEx'"
+msgstr ""
+
+#: misc/kpac/script.cpp:761
+#, kde-format
+msgid "Got an invalid reply when calling %1"
+msgstr ""
 
 #: misc/ksendbugmail/main.cpp:43
 msgid "Error connecting to server."
