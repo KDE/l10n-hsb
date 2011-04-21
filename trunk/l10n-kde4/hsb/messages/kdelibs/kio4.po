@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-20 04:01+0200\n"
+"POT-Creation-Date: 2011-04-21 04:01+0200\n"
 "PO-Revision-Date: 2008-11-17 23:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -363,7 +363,7 @@ msgstr "Zawěsćić jako"
 msgid "*|All files"
 msgstr "*|Wšitke dataje"
 
-#: kfile/kfiledialog.cpp:360 ../kfile/kfilefiltercombo.cpp:180
+#: kfile/kfiledialog.cpp:360 ../kfile/kfilefiltercombo.cpp:185
 #, fuzzy
 msgid "All Supported Files"
 msgstr "Wšitke podpěrowane dataje"
@@ -6377,10 +6377,6 @@ msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Swójstwa"
 
-#: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1802
-msgid "*|All Files"
-msgstr "*|Wšitke dataje"
-
 #: ../kfile/kfileplaceeditdialog.cpp:90
 #, fuzzy
 msgid "Add Places Entry"
@@ -6971,6 +6967,10 @@ msgstr "Njelokalne dataje so njeakceptuja"
 msgid "*|All Folders"
 msgstr "*|Wšitke dataje"
 
+#: ../kfile/kfilewidget.cpp:1802 ../kfile/kfilefiltercombo.cpp:36
+msgid "*|All Files"
+msgstr "*|Wšitke dataje"
+
 #: ../kfile/kfilewidget.cpp:2051
 #, kde-format
 msgid "Icon size: %1 pixels (standard size)"
@@ -7045,6 +7045,12 @@ msgstr ""
 "móžeće zběrku swoje najlubšich stronow editować, do njeje dodawać abo z "
 "njeje wubrać.<p> Tute znamjenja su specifiske za datajowy dialog, hewak pak "
 "so kaž wšě druhe w KDE zadźerža.</qt>"
+
+#: ../kfile/kfilefiltercombo.cpp:194
+#, fuzzy
+#| msgid "*|All Files"
+msgid "All Files"
+msgstr "*|Wšitke dataje"
 
 #, fuzzy
 #~| msgid "&Name:"
