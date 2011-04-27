@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-22 03:49+0200\n"
+"POT-Creation-Date: 2011-04-27 03:49+0200\n"
 "PO-Revision-Date: 2008-11-10 23:47+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -47,7 +47,7 @@ msgid "General"
 msgstr "Generelnje"
 
 #: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
-#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:116 ui/launcher.cpp:175
+#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:120 ui/launcher.cpp:190
 msgid "Favorites"
 msgstr "Najlubše programy"
 
@@ -64,12 +64,12 @@ msgid "Documents"
 msgstr "Dokumenty"
 
 #: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:84
-#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:118 ui/launcher.cpp:205
+#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:122 ui/launcher.cpp:233
 msgid "Applications"
 msgstr "Programy"
 
 #: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
-#: ui/launcher.cpp:119 ui/launcher.cpp:218
+#: ui/launcher.cpp:123 ui/launcher.cpp:246
 msgid "Recently Used"
 msgstr "Njedawno wužiwane"
 
@@ -107,7 +107,7 @@ msgid "Run a command or a search query"
 msgstr ""
 
 #: core/systemmodel.cpp:327 simpleapplet/simpleapplet.cpp:196
-#: ui/launcher.cpp:118 ui/launcher.cpp:239
+#: ui/launcher.cpp:122 ui/launcher.cpp:267
 msgid "Computer"
 msgstr "Kompjuter"
 
@@ -115,7 +115,7 @@ msgstr "Kompjuter"
 msgid "Games"
 msgstr ""
 
-#: core/applicationmodel.cpp:429 ui/flipscrollview.cpp:138
+#: core/applicationmodel.cpp:429 ui/flipscrollview.cpp:145 ui/launcher.cpp:970
 msgid "All Applications"
 msgstr "Wšitke aplikacije"
 
@@ -210,7 +210,7 @@ msgid "Suspend to RAM"
 msgstr "Do RAMa zawěsćić"
 
 #: core/leavemodel.cpp:106 simpleapplet/simpleapplet.cpp:211
-#: ui/launcher.cpp:163
+#: ui/launcher.cpp:178
 msgid "Leave"
 msgstr "Won hić"
 
@@ -329,34 +329,6 @@ msgstr "Operacija"
 msgid "Actions"
 msgstr "Akcije"
 
-#: ui/launcher.cpp:178
-msgid "Sort Alphabetically (A to Z)"
-msgstr ""
-
-#: ui/launcher.cpp:181
-msgid "Sort Alphabetically (Z to A)"
-msgstr ""
-
-#: ui/launcher.cpp:220
-msgid "Clear Recent Applications"
-msgstr "Njedawno wužiwane wuprózdnić"
-
-#: ui/launcher.cpp:221
-msgid "Clear Recent Documents"
-msgstr "Njedawno wužiwane dokumenty wuprózdnić"
-
-#: ui/launcher.cpp:528
-#, kde-format
-msgctxt "login name, hostname"
-msgid "User <b>%1</b> on <b>%2</b>"
-msgstr "Wužiwar <b>%1</b> na <b>%2</b>"
-
-#: ui/launcher.cpp:530
-#, kde-format
-msgctxt "full name, login name, hostname"
-msgid "<b>%1 (%2)</b> on <b>%3</b>"
-msgstr "<b>%1 (%2)</b> na <b>%3</b>"
-
 #: ui/searchbar.cpp:70
 #, fuzzy
 #| msgid "Search:"
@@ -396,6 +368,34 @@ msgstr "Wućisnyć"
 #, fuzzy
 msgid "Safely Remove"
 msgstr "Z&ničić"
+
+#: ui/launcher.cpp:193
+msgid "Sort Alphabetically (A to Z)"
+msgstr ""
+
+#: ui/launcher.cpp:196
+msgid "Sort Alphabetically (Z to A)"
+msgstr ""
+
+#: ui/launcher.cpp:248
+msgid "Clear Recent Applications"
+msgstr "Njedawno wužiwane wuprózdnić"
+
+#: ui/launcher.cpp:249
+msgid "Clear Recent Documents"
+msgstr "Njedawno wužiwane dokumenty wuprózdnić"
+
+#: ui/launcher.cpp:557
+#, kde-format
+msgctxt "login name, hostname"
+msgid "User <b>%1</b> on <b>%2</b>"
+msgstr "Wužiwar <b>%1</b> na <b>%2</b>"
+
+#: ui/launcher.cpp:559
+#, kde-format
+msgctxt "full name, login name, hostname"
+msgid "<b>%1 (%2)</b> on <b>%3</b>"
+msgstr "<b>%1 (%2)</b> na <b>%3</b>"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
