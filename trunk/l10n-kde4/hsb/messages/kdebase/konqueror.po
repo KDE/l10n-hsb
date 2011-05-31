@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-25 03:50+0200\n"
+"POT-Creation-Date: 2011-05-31 04:12+0200\n"
 "PO-Revision-Date: 2008-11-18 23:30+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
 "100==4 ? 2 : 3;\n"
 
-#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5007
-#: src/konqmainwindow.cpp:5067
+#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5008
+#: src/konqmainwindow.cpp:5068
 msgid "no name"
 msgstr "bjez mjena"
 
@@ -487,7 +487,7 @@ msgstr "Připrawić"
 msgid "Extensions"
 msgstr "Ekstensije"
 
-#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4534
+#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4535
 #: sidebar/web_module/web_module.cpp:61
 msgid "Open in New &Window"
 msgstr "Wočinić w &nowym woknje"
@@ -541,6 +541,152 @@ msgctxt "@title:window"
 msgid "Clear History?"
 msgstr "Nachwilny pomjatk wuprózdnić"
 
+#: src/konqprofiledlg.cpp:111
+#, fuzzy
+#| msgid "Profile Management"
+msgctxt "@title:window"
+msgid "Profile Management"
+msgstr "Rjadowanje profilow"
+
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "&Profil přemjenować"
+
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "Profil wumaznyć"
+
+#: src/konqsessiondlg.cpp:77
+#, fuzzy
+#| msgid "Manage Sessions"
+msgctxt "@title:window"
+msgid "Manage Sessions"
+msgstr "Posedźenja rjadować"
+
+#: src/konqsessiondlg.cpp:81
+msgid "&Open"
+msgstr "W&očinić"
+
+#: src/konqsessiondlg.cpp:175
+#, fuzzy
+#| msgid "Rename session"
+msgctxt "@title:window"
+msgid "Rename Session"
+msgstr "Posedźenje přemjenować"
+
+#: src/konqsessiondlg.cpp:223
+#, fuzzy
+#| msgid "Save Session"
+msgctxt "@title:window"
+msgid "Save Session"
+msgstr "Posedźenje zawěsćić"
+
+#: src/konqsessiondlg.cpp:247
+#, kde-format
+msgid ""
+"A session with the name '%1' already exists, do you want to overwrite it?"
+msgstr "Posedźenje z mjenom '%1' hižo eksistuje, chceće je přepisać?"
+
+#: src/konqsessiondlg.cpp:248
+#, fuzzy
+#| msgid "Session exists. Overwrite?"
+msgctxt "@title:window"
+msgid "Session exists. Overwrite?"
+msgstr "Posedźenje eksistuje. Přepisać?"
+
+#: src/konqsessionmanager.cpp:330
+#, fuzzy
+#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr ""
+"Konqueror njej so korektnje zakónčił. Ma so poslednje posedźenje ponowić?"
+
+#: src/konqsessionmanager.cpp:332
+#, fuzzy
+#| msgid "Restore Session?"
+msgctxt "@title:window"
+msgid "Restore Session?"
+msgstr "Posedźenje ponowić?"
+
+#: src/konqsessionmanager.cpp:333
+msgid "Restore Session"
+msgstr "Posedźenje ponowić"
+
+#: src/konqsessionmanager.cpp:334
+msgid "Do Not Restore"
+msgstr "Nic ponowić"
+
+#: src/konqsessionmanager.cpp:335
+msgid "Ask Me Later"
+msgstr "Woprašej so pozdźišo"
+
+#: src/konqviewmanager.cpp:1411
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+"W tutym woknje su někotre wočinjene tabulatory.\n"
+"Začitanje profila napohlada je zezačinja."
+
+#: src/konqviewmanager.cpp:1413 src/konqmainwindow.cpp:4935
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "Wobkrućenje"
+
+#: src/konqviewmanager.cpp:1414
+msgid "Load View Profile"
+msgstr "Profil napohlada začitać"
+
+#: src/konqviewmanager.cpp:1426
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+"Tutón tabulator wobsahuje změny, kiž njejsu so hišće pósłali.\n"
+"Začitanje profila tute změny zaćisnje."
+
+#: src/konqviewmanager.cpp:1427 src/konqmainwindow.cpp:1614
+#: src/konqmainwindow.cpp:2336 src/konqmainwindow.cpp:2414
+#: src/konqmainwindow.cpp:2444 src/konqmainwindow.cpp:2486
+#: src/konqmainwindow.cpp:2508 src/konqmainwindow.cpp:4970
+#, fuzzy
+#| msgid "Discard Changes?"
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr "Změny zaćisnyć?"
+
+#: src/konqviewmanager.cpp:1427 src/konqmainwindow.cpp:1614
+#: src/konqmainwindow.cpp:2336 src/konqmainwindow.cpp:2414
+#: src/konqmainwindow.cpp:2444 src/konqmainwindow.cpp:2486
+#: src/konqmainwindow.cpp:2509 src/konqmainwindow.cpp:4970
+msgid "&Discard Changes"
+msgstr "&Změny zaćisnyć"
+
+#: src/konqview.cpp:1203
+msgid ""
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
+msgstr ""
+"Strona, kotruž chceće sej wobhladać, je wuslědk pósłaneho formulara. Hdyž "
+"tute daty znowa pósćeleće, so kóžda akcija formulara (na př. pytanje abo "
+"online-kup) wospjetuje."
+
+#: src/konqview.cpp:1205
+#, fuzzy
+#| msgid "Warning"
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "Kedźbu"
+
+#: src/konqview.cpp:1205
+msgid "Resend"
+msgstr "Znowa pósłać"
+
 #: src/konqmainwindow.cpp:571
 msgctxt "@title:tab"
 msgid "Loading..."
@@ -557,23 +703,6 @@ msgid ""
 msgstr ""
 "Tuta strona wobsahuje njepósłane změny.\n"
 "Hdyž tutu stronu znowa začitaće, so tute změny zhubja."
-
-#: src/konqmainwindow.cpp:1614 src/konqmainwindow.cpp:2336
-#: src/konqmainwindow.cpp:2414 src/konqmainwindow.cpp:2444
-#: src/konqmainwindow.cpp:2486 src/konqmainwindow.cpp:2508
-#: src/konqmainwindow.cpp:4969 src/konqviewmanager.cpp:1427
-#, fuzzy
-#| msgid "Discard Changes?"
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr "Změny zaćisnyć?"
-
-#: src/konqmainwindow.cpp:1614 src/konqmainwindow.cpp:2336
-#: src/konqmainwindow.cpp:2414 src/konqmainwindow.cpp:2444
-#: src/konqmainwindow.cpp:2486 src/konqmainwindow.cpp:2509
-#: src/konqmainwindow.cpp:4969 src/konqviewmanager.cpp:1427
-msgid "&Discard Changes"
-msgstr "&Změny zaćisnyć"
 
 #: src/konqmainwindow.cpp:1724
 msgid "File Management"
@@ -1083,73 +1212,66 @@ msgstr "Dataje &kopěrować..."
 msgid "M&ove Files..."
 msgstr "Dataje přes&unyć..."
 
-#: src/konqmainwindow.cpp:4358
+#: src/konqmainwindow.cpp:4359
 msgid ""
 "You have requested to open more than 20 bookmarks in tabs. This might take a "
 "while. Continue?"
 msgstr ""
 "Chceć naraz wjace hač 20 lubuškow wočinić. To móže chwilku trać. Pokročować?"
 
-#: src/konqmainwindow.cpp:4360
+#: src/konqmainwindow.cpp:4361
 #, fuzzy
 #| msgid "Open bookmarks folder in new tabs"
 msgctxt "@title:window"
 msgid "Open bookmarks folder in new tabs"
 msgstr "Zapisk lubuškow w nowych tabulatorach wočinić"
 
-#: src/konqmainwindow.cpp:4527
+#: src/konqmainwindow.cpp:4528
 msgid "Open in T&his Window"
 msgstr "Wočinić w &tutym woknje"
 
-#: src/konqmainwindow.cpp:4528
+#: src/konqmainwindow.cpp:4529
 msgid "Open the document in current window"
 msgstr "Wočini dokument w aktualnym woknje"
 
-#: src/konqmainwindow.cpp:4535
+#: src/konqmainwindow.cpp:4536
 msgid "Open the document in a new window"
 msgstr "Wočini dokument w nowym woknje"
 
-#: src/konqmainwindow.cpp:4541
+#: src/konqmainwindow.cpp:4542
 msgid "Open in &New Tab"
 msgstr "Wočinić w nowym t&abulatoru"
 
-#: src/konqmainwindow.cpp:4543
+#: src/konqmainwindow.cpp:4544
 msgid "Open the document in a new tab"
 msgstr "Wočini dokumenta w nowym tabulatoru"
 
-#: src/konqmainwindow.cpp:4753
+#: src/konqmainwindow.cpp:4754
 msgid "&Open With"
 msgstr "W&očinić z"
 
-#: src/konqmainwindow.cpp:4767
+#: src/konqmainwindow.cpp:4768
 #, kde-format
 msgid "Open with %1"
 msgstr "Wočinić z %1"
 
-#: src/konqmainwindow.cpp:4813
+#: src/konqmainwindow.cpp:4814
 msgctxt "@action:inmenu View"
 msgid "&View Mode"
 msgstr "Modus &wobhladowanja"
 
-#: src/konqmainwindow.cpp:4932
+#: src/konqmainwindow.cpp:4933
 msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr ""
 "W tutym woknje su někotre tabulatory wočinjene, chceće je woprawdźe "
 "zezačinjeć?"
 
-#: src/konqmainwindow.cpp:4934 src/konqviewmanager.cpp:1413
-#, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "Wobkrućenje"
-
-#: src/konqmainwindow.cpp:4936
+#: src/konqmainwindow.cpp:4937
 msgid "C&lose Current Tab"
 msgstr "Aktualny tabulator &začinić"
 
-#: src/konqmainwindow.cpp:4965
+#: src/konqmainwindow.cpp:4966
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -1157,7 +1279,7 @@ msgstr ""
 "Tutón tabulator wobsahuje změny, kiž njebuchu hišće wotpósłane.\n"
 "Hdyž wokno začiniće, so tute změny zhubja."
 
-#: src/konqmainwindow.cpp:4966
+#: src/konqmainwindow.cpp:4967
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -1165,33 +1287,33 @@ msgstr ""
 "Tuta strona wobsahuje njepósłane změny.\n"
 "Hdyž ju začiniće, zaćisnjeće tute změny."
 
-#: src/konqmainwindow.cpp:5134
+#: src/konqmainwindow.cpp:5135
 msgid ""
 "Your sidebar is not functional or unavailable. A new entry cannot be added."
 msgstr ""
 "Bóčny pas njefunguje abo njeje přistupny. Nowy zapis njehodźi so dodać."
 
-#: src/konqmainwindow.cpp:5134 src/konqmainwindow.cpp:5141
+#: src/konqmainwindow.cpp:5135 src/konqmainwindow.cpp:5142
 #, fuzzy
 #| msgid "Web Sidebar"
 msgctxt "@title:window"
 msgid "Web Sidebar"
 msgstr "Bóčny pas za web"
 
-#: src/konqmainwindow.cpp:5139
+#: src/konqmainwindow.cpp:5140
 #, kde-format
 msgid "Add new web extension \"%1\" to your sidebar?"
 msgstr "Ma so nowa internetowa ekstensija \"%1\" k bóčnemu pasej dodać?"
 
-#: src/konqmainwindow.cpp:5141
+#: src/konqmainwindow.cpp:5142
 msgid "Add"
 msgstr "Dodać"
 
-#: src/konqmainwindow.cpp:5141
+#: src/konqmainwindow.cpp:5142
 msgid "Do Not Add"
 msgstr "Nic dodać"
 
-#: src/konqmainwindow.cpp:5443
+#: src/konqmainwindow.cpp:5444
 #, kde-format
 msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
@@ -1199,128 +1321,6 @@ msgid ""
 msgstr ""
 "Pozdaću so jedna wo zmylk w konfiguraciji. Konqueror je asociěrowany z %1, "
 "njemóže pak z tutej družinu ničo započeć."
-
-#: src/konqprofiledlg.cpp:111
-#, fuzzy
-#| msgid "Profile Management"
-msgctxt "@title:window"
-msgid "Profile Management"
-msgstr "Rjadowanje profilow"
-
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "&Profil přemjenować"
-
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "Profil wumaznyć"
-
-#: src/konqsessiondlg.cpp:77
-#, fuzzy
-#| msgid "Manage Sessions"
-msgctxt "@title:window"
-msgid "Manage Sessions"
-msgstr "Posedźenja rjadować"
-
-#: src/konqsessiondlg.cpp:81
-msgid "&Open"
-msgstr "W&očinić"
-
-#: src/konqsessiondlg.cpp:175
-#, fuzzy
-#| msgid "Rename session"
-msgctxt "@title:window"
-msgid "Rename Session"
-msgstr "Posedźenje přemjenować"
-
-#: src/konqsessiondlg.cpp:223
-#, fuzzy
-#| msgid "Save Session"
-msgctxt "@title:window"
-msgid "Save Session"
-msgstr "Posedźenje zawěsćić"
-
-#: src/konqsessiondlg.cpp:247
-#, kde-format
-msgid ""
-"A session with the name '%1' already exists, do you want to overwrite it?"
-msgstr "Posedźenje z mjenom '%1' hižo eksistuje, chceće je přepisać?"
-
-#: src/konqsessiondlg.cpp:248
-#, fuzzy
-#| msgid "Session exists. Overwrite?"
-msgctxt "@title:window"
-msgid "Session exists. Overwrite?"
-msgstr "Posedźenje eksistuje. Přepisać?"
-
-#: src/konqsessionmanager.cpp:330
-#, fuzzy
-#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr ""
-"Konqueror njej so korektnje zakónčił. Ma so poslednje posedźenje ponowić?"
-
-#: src/konqsessionmanager.cpp:332
-#, fuzzy
-#| msgid "Restore Session?"
-msgctxt "@title:window"
-msgid "Restore Session?"
-msgstr "Posedźenje ponowić?"
-
-#: src/konqsessionmanager.cpp:333
-msgid "Restore Session"
-msgstr "Posedźenje ponowić"
-
-#: src/konqsessionmanager.cpp:334
-msgid "Do Not Restore"
-msgstr "Nic ponowić"
-
-#: src/konqsessionmanager.cpp:335
-msgid "Ask Me Later"
-msgstr "Woprašej so pozdźišo"
-
-#: src/konqviewmanager.cpp:1411
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"W tutym woknje su někotre wočinjene tabulatory.\n"
-"Začitanje profila napohlada je zezačinja."
-
-#: src/konqviewmanager.cpp:1414
-msgid "Load View Profile"
-msgstr "Profil napohlada začitać"
-
-#: src/konqviewmanager.cpp:1426
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"Tutón tabulator wobsahuje změny, kiž njejsu so hišće pósłali.\n"
-"Začitanje profila tute změny zaćisnje."
-
-#: src/konqview.cpp:1203
-msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
-msgstr ""
-"Strona, kotruž chceće sej wobhladać, je wuslědk pósłaneho formulara. Hdyž "
-"tute daty znowa pósćeleće, so kóžda akcija formulara (na př. pytanje abo "
-"online-kup) wospjetuje."
-
-#: src/konqview.cpp:1205
-#, fuzzy
-#| msgid "Warning"
-msgctxt "@title:window"
-msgid "Warning"
-msgstr "Kedźbu"
-
-#: src/konqview.cpp:1205
-msgid "Resend"
-msgstr "Znowa pósłać"
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy
