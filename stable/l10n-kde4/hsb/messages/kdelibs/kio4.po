@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-20 15:10+0200\n"
+"POT-Creation-Date: 2011-06-21 15:53+0200\n"
 "PO-Revision-Date: 2008-11-17 23:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -1552,6 +1552,77 @@ msgctxt "@title:window"
 msgid "Add Comment"
 msgstr "Komentar"
 
+#: kio/job.cpp:156
+msgctxt "@title job"
+msgid "Moving"
+msgstr "Přesuwam"
+
+#: kio/job.cpp:157 kio/job.cpp:164 kio/job.cpp:189 kio/fileundomanager.cpp:120
+msgctxt "The source of a file operation"
+msgid "Source"
+msgstr "Žórło"
+
+#: kio/job.cpp:158 kio/job.cpp:165 kio/fileundomanager.cpp:121
+msgctxt "The destination of a file operation"
+msgid "Destination"
+msgstr "Cil"
+
+#: kio/job.cpp:163
+msgctxt "@title job"
+msgid "Copying"
+msgstr "Kopěruju"
+
+#: kio/job.cpp:170
+msgctxt "@title job"
+msgid "Creating directory"
+msgstr "Stworju zapisk"
+
+#: kio/job.cpp:171 kio/fileundomanager.cpp:117
+msgid "Directory"
+msgstr "Zapisk"
+
+#: kio/job.cpp:176
+msgctxt "@title job"
+msgid "Deleting"
+msgstr "Wumazam"
+
+#: kio/job.cpp:177 kio/job.cpp:183 kio/fileundomanager.cpp:124
+msgid "File"
+msgstr "Dataja"
+
+#: kio/job.cpp:182
+msgctxt "@title job"
+msgid "Examining"
+msgstr "Wobhladuju sej"
+
+#: kio/job.cpp:188
+msgctxt "@title job"
+msgid "Transferring"
+msgstr "Přenjesu"
+
+#: kio/job.cpp:194
+msgctxt "@title job"
+msgid "Mounting"
+msgstr "Montuju"
+
+#: kio/job.cpp:195
+msgid "Device"
+msgstr "Grat"
+
+#: kio/job.cpp:196 kio/job.cpp:202
+msgid "Mountpoint"
+msgstr "Cil montowanja"
+
+#: kio/job.cpp:201
+msgctxt "@title job"
+msgid "Unmounting"
+msgstr "Wotmontuju"
+
+#: kio/job.cpp:2112 kio/global.cpp:666 kio/copyjob.cpp:1349
+#: kio/copyjob.cpp:1921 kio/paste.cpp:64
+msgid "File Already Exists"
+msgstr "Dataja hižo eksistuje"
+
 #: kio/chmodjob.cpp:214
 #, kde-format
 msgid ""
@@ -1574,31 +1645,13 @@ msgstr "Njemóžach io-slave stworić: %1"
 msgid "Creating directory"
 msgstr "Stworju zapisk"
 
-#: kio/fileundomanager.cpp:117 kio/job.cpp:171
-msgid "Directory"
-msgstr "Zapisk"
-
 #: kio/fileundomanager.cpp:119
 msgid "Moving"
 msgstr "Přesuwam"
 
-#: kio/fileundomanager.cpp:120 kio/job.cpp:157 kio/job.cpp:164 kio/job.cpp:189
-msgctxt "The source of a file operation"
-msgid "Source"
-msgstr "Žórło"
-
-#: kio/fileundomanager.cpp:121 kio/job.cpp:158 kio/job.cpp:165
-msgctxt "The destination of a file operation"
-msgid "Destination"
-msgstr "Cil"
-
 #: kio/fileundomanager.cpp:123
 msgid "Deleting"
 msgstr "Niču"
-
-#: kio/fileundomanager.cpp:124 kio/job.cpp:177 kio/job.cpp:183
-msgid "File"
-msgstr "Dataja"
 
 #: kio/fileundomanager.cpp:284
 msgid "Und&o"
@@ -2541,11 +2594,6 @@ msgstr "Dataja abo zapisk njeeksistujetej"
 msgid "The specified file or folder <strong>%1</strong> does not exist."
 msgstr "Specifikowana dataja abo zapisk <strong>%1</strong> njeeksistuje."
 
-#: kio/global.cpp:666 kio/job.cpp:2105 kio/copyjob.cpp:1349
-#: kio/copyjob.cpp:1921 kio/paste.cpp:64
-msgid "File Already Exists"
-msgstr "Dataja hižo eksistuje"
-
 #: kio/global.cpp:667
 msgid ""
 "The requested file could not be created because a file with the same name "
@@ -3413,54 +3461,6 @@ msgstr "Wubjerće hinaše datajowe mjeno za cilowu dataju."
 #: kio/global.cpp:1185
 msgid "Undocumented Error"
 msgstr "Njedokumentowany zmylk"
-
-#: kio/job.cpp:156
-msgctxt "@title job"
-msgid "Moving"
-msgstr "Přesuwam"
-
-#: kio/job.cpp:163
-msgctxt "@title job"
-msgid "Copying"
-msgstr "Kopěruju"
-
-#: kio/job.cpp:170
-msgctxt "@title job"
-msgid "Creating directory"
-msgstr "Stworju zapisk"
-
-#: kio/job.cpp:176
-msgctxt "@title job"
-msgid "Deleting"
-msgstr "Wumazam"
-
-#: kio/job.cpp:182
-msgctxt "@title job"
-msgid "Examining"
-msgstr "Wobhladuju sej"
-
-#: kio/job.cpp:188
-msgctxt "@title job"
-msgid "Transferring"
-msgstr "Přenjesu"
-
-#: kio/job.cpp:194
-msgctxt "@title job"
-msgid "Mounting"
-msgstr "Montuju"
-
-#: kio/job.cpp:195
-msgid "Device"
-msgstr "Grat"
-
-#: kio/job.cpp:196 kio/job.cpp:202
-msgid "Mountpoint"
-msgstr "Cil montowanja"
-
-#: kio/job.cpp:201
-msgctxt "@title job"
-msgid "Unmounting"
-msgstr "Wotmontuju"
 
 #: kio/jobuidelegate.cpp:149 ../kfile/kdiroperator.cpp:812
 #, kde-format
