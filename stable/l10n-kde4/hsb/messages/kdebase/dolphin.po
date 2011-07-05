@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-14 04:22+0200\n"
+"POT-Creation-Date: 2011-07-05 04:21+0200\n"
 "PO-Revision-Date: 2008-11-21 01:09+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -85,17 +85,6 @@ msgctxt "@label::textbox"
 msgid "Select which data should be shown:"
 msgstr ""
 
-#: panels/information/phononwidget.cpp:139
-msgid "play"
-msgstr ""
-
-#: panels/information/phononwidget.cpp:144
-#, fuzzy
-#| msgctxt "@action:inmenu View"
-#| msgid "Stop"
-msgid "stop"
-msgstr "Zastajić"
-
 #: panels/information/informationpanelcontent.cpp:226
 #, kde-format
 msgctxt "@info"
@@ -126,6 +115,17 @@ msgstr "Etikety změnić..."
 msgctxt "@label::textbox"
 msgid "Select which data should be shown in the information panel:"
 msgstr ""
+
+#: panels/information/phononwidget.cpp:139
+msgid "play"
+msgstr ""
+
+#: panels/information/phononwidget.cpp:144
+#, fuzzy
+#| msgctxt "@action:inmenu View"
+#| msgid "Stop"
+msgid "stop"
+msgstr "Zastajić"
 
 #: panels/search/searchpanel.cpp:139
 #, fuzzy
@@ -259,6 +259,12 @@ msgctxt "option:check"
 msgid "Natural sorting of items"
 msgstr ""
 
+#: settings/general/configurepreviewplugindialog.cpp:46
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Preview for %1"
+msgstr ""
+
 #: settings/general/contextmenusettingspage.cpp:43
 msgctxt "@option:check"
 msgid "Show 'Delete' command"
@@ -301,16 +307,6 @@ msgctxt "@title:tab Status Bar settings"
 msgid "Status Bar"
 msgstr "statusowy pas"
 
-#: settings/general/statusbarsettingspage.cpp:42
-msgctxt "@option:check"
-msgid "Show zoom slider"
-msgstr "zoomowy přesuwak pokazać"
-
-#: settings/general/statusbarsettingspage.cpp:44
-msgctxt "@option:check"
-msgid "Show space information"
-msgstr "Informaciju wo městnje"
-
 #: settings/general/previewssettingspage.cpp:69
 #, fuzzy
 #| msgctxt "@label"
@@ -340,11 +336,15 @@ msgctxt "@label Don't create previews for: <Remote files above:> XX MByte"
 msgid "Remote files above:"
 msgstr "Dataje sortěrować po"
 
-#: settings/general/configurepreviewplugindialog.cpp:46
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure Preview for %1"
-msgstr ""
+#: settings/general/statusbarsettingspage.cpp:42
+msgctxt "@option:check"
+msgid "Show zoom slider"
+msgstr "zoomowy přesuwak pokazać"
+
+#: settings/general/statusbarsettingspage.cpp:44
+msgctxt "@option:check"
+msgid "Show space information"
+msgstr "Informaciju wo městnje"
 
 #: settings/kcm/kcmdolphinviewmodes.cpp:59
 #: settings/viewmodes/viewsettingspage.cpp:46
@@ -625,6 +625,47 @@ msgctxt "@label"
 msgid "Select which additional information should be shown:"
 msgstr ""
 
+#: settings/dolphinsettingsdialog.cpp:47
+msgctxt "@title:window"
+msgid "Dolphin Preferences"
+msgstr "Připrawjeje Dolphina"
+
+#: settings/dolphinsettingsdialog.cpp:55
+msgctxt "@title:group"
+msgid "Startup"
+msgstr "Startowanje"
+
+#: settings/dolphinsettingsdialog.cpp:62
+msgctxt "@title:group"
+msgid "View Modes"
+msgstr "Modusy pohladowanja"
+
+#: settings/dolphinsettingsdialog.cpp:69
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Navigation Bar"
+msgctxt "@title:group"
+msgid "Navigation"
+msgstr "Nawigaciski pas"
+
+#: settings/dolphinsettingsdialog.cpp:76
+msgctxt "@title:group"
+msgid "Services"
+msgstr ""
+
+#: settings/dolphinsettingsdialog.cpp:83
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Trash"
+msgctxt "@title:group"
+msgid "Trash"
+msgstr "Papjernik"
+
+#: settings/dolphinsettingsdialog.cpp:90
+msgctxt "@title:group General settings"
+msgid "General"
+msgstr "Powšitkownje"
+
 #: settings/viewpropertiesdialog.cpp:79
 msgctxt "@title:window"
 msgid "View Properties"
@@ -802,58 +843,6 @@ msgctxt "@info:progress"
 msgid "Folders: %1"
 msgstr "Zapiski: %1"
 
-#: settings/dolphinsettingsdialog.cpp:47
-msgctxt "@title:window"
-msgid "Dolphin Preferences"
-msgstr "Připrawjeje Dolphina"
-
-#: settings/dolphinsettingsdialog.cpp:55
-msgctxt "@title:group"
-msgid "Startup"
-msgstr "Startowanje"
-
-#: settings/dolphinsettingsdialog.cpp:62
-msgctxt "@title:group"
-msgid "View Modes"
-msgstr "Modusy pohladowanja"
-
-#: settings/dolphinsettingsdialog.cpp:69
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Navigation Bar"
-msgctxt "@title:group"
-msgid "Navigation"
-msgstr "Nawigaciski pas"
-
-#: settings/dolphinsettingsdialog.cpp:76
-msgctxt "@title:group"
-msgid "Services"
-msgstr ""
-
-#: settings/dolphinsettingsdialog.cpp:83
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Trash"
-msgctxt "@title:group"
-msgid "Trash"
-msgstr "Papjernik"
-
-#: settings/dolphinsettingsdialog.cpp:90
-msgctxt "@title:group General settings"
-msgid "General"
-msgstr "Powšitkownje"
-
-#: statusbar/statusbarspaceinfo.cpp:80 statusbar/statusbarspaceinfo.cpp:93
-msgctxt "@info:status"
-msgid "Unknown size"
-msgstr "njeznata wulkosć"
-
-#: statusbar/statusbarspaceinfo.cpp:104
-#, kde-format
-msgctxt "@info:status Free disk space"
-msgid "%1 free"
-msgstr "%1 swobodne"
-
 #: statusbar/dolphinstatusbar.cpp:294
 #, fuzzy
 #| msgctxt "@title:window"
@@ -883,6 +872,17 @@ msgctxt "@action:inmenu"
 msgid "Show Space Information"
 msgstr "Informaciju wo městnje"
 
+#: statusbar/statusbarspaceinfo.cpp:80 statusbar/statusbarspaceinfo.cpp:93
+msgctxt "@info:status"
+msgid "Unknown size"
+msgstr "njeznata wulkosć"
+
+#: statusbar/statusbarspaceinfo.cpp:104
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free"
+msgstr "%1 swobodne"
+
 #: views/dolphinremoteencoding.cpp:53
 msgid "Select Remote Charset"
 msgstr ""
@@ -901,38 +901,96 @@ msgstr "Znowa začitać"
 msgid "Default"
 msgstr "Standard:"
 
-#: views/dolphindetailsview.cpp:143
-msgctxt "@option:check"
-msgid "Expandable Folders"
-msgstr "Rozćahujomne zapiski"
-
-#: views/dolphindetailsview.cpp:371
-msgctxt "@title:menu"
-msgid "Columns"
-msgstr "stołpiki"
-
-#: views/dolphindetailsview.cpp:703
+#: views/dolphinview.cpp:500
 #, kde-format
-msgctxt "Items in a folder"
-msgid "1 item"
-msgid_plural "%1 items"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr "<filename>%1</filename> wubrany"
+
+#: views/dolphinview.cpp:501
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected (%2)"
+msgstr "<filename>%1</filename> wubrane (%2)"
+
+#: views/dolphinview.cpp:505
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "%1 zapisk wubrany"
+msgstr[1] "%1 zapiskaj wubranej"
+msgstr[2] "%1 zapiski wubrane"
+msgstr[3] "%1 zapiskow wubranych"
+
+#: views/dolphinview.cpp:506
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "%1 dataja wubrana"
+msgstr[1] "%1 dataji wubranej"
+msgstr[2] "%1 dataje wubrane"
+msgstr[3] "%1 datajow wubranych"
+
+#: views/dolphinview.cpp:508
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:511
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:1053
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "Dowumazane."
+
+#: views/dolphinview.cpp:1155
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "Městnosć je prózdna."
+
+#: views/dolphinview.cpp:1157
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "Městnosć '%1' njeje walidna."
 
 #: views/draganddrophelper.cpp:108
 msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr "Zapisk njehodźi so do sebje wlec"
 
-#: views/dolphindirlister.cpp:41
+#: views/selectiontoggle.cpp:132
+msgctxt "@info:tooltip"
+msgid "Deselect Item"
+msgstr "Objekt nic wubrać"
+
+#: views/selectiontoggle.cpp:133
+msgctxt "@info:tooltip"
+msgid "Select Item"
+msgstr "Objekt wubrać"
+
+#: views/versioncontrol/versioncontrolobserver.cpp:190
 #, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Unknown size"
+#| msgctxt "@label"
+#| msgid "Additional information"
 msgctxt "@info:status"
-msgid "Unknown error."
-msgstr "njeznata wulkosć"
+msgid "Update of version information failed."
+msgstr "Přidatna informacija"
+
+#: views/versioncontrol/versioncontrolobserver.cpp:243
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Additional information"
+msgctxt "@info:status"
+msgid "Updating version information..."
+msgstr "Přidatna informacija"
 
 #: views/dolphinviewactionhandler.cpp:87
 #, fuzzy
@@ -1119,26 +1177,49 @@ msgctxt "@info"
 msgid "Columns view mode"
 msgstr "Dźěleny napohlad"
 
-#: views/dolphincolumnview.cpp:89
-msgctxt "@info:tooltip"
-msgid "Resize column"
-msgstr ""
+#: views/renamedialog.cpp:54
+msgctxt "@title:window"
+msgid "Rename Item"
+msgstr "Objekt přemjenować"
 
-#: views/versioncontrol/versioncontrolobserver.cpp:190
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Additional information"
-msgctxt "@info:status"
-msgid "Update of version information failed."
-msgstr "Přidatna informacija"
+#: views/renamedialog.cpp:55
+msgctxt "@title:window"
+msgid "Rename Items"
+msgstr "Objekty přemjenować"
 
-#: views/versioncontrol/versioncontrolobserver.cpp:243
+#: views/renamedialog.cpp:59
 #, fuzzy
-#| msgctxt "@label"
-#| msgid "Additional information"
+#| msgctxt "@action:button"
+#| msgid "Rename"
+msgctxt "@action:button"
+msgid "&Rename"
+msgstr "Přemjenować"
+
+#: views/renamedialog.cpp:69
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the item <filename>%1</filename> to:"
+msgstr "Objekt <filename>%1</filename> přemjenować na:"
+
+#: views/renamedialog.cpp:72
 msgctxt "@info:status"
-msgid "Updating version information..."
-msgstr "Přidatna informacija"
+msgid "New name #"
+msgstr "Nowe mjeno #"
+
+#: views/renamedialog.cpp:74
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the %1 selected item to:"
+msgid_plural "Rename the %1 selected items to:"
+msgstr[0] "%1 wubrany objekt přemjenować na:"
+msgstr[1] "%1 wubranej objektaj přemjenować na:"
+msgstr[2] "%1 wubrane objekty přemjenować na:"
+msgstr[3] "%1 wubranych objektow přemjenować na:"
+
+#: views/renamedialog.cpp:121
+msgctxt "@info"
+msgid "(# will be replaced by ascending numbers)"
+msgstr "(# so naruna z rosćacymi ličbami)"
 
 #: views/additionalinfoaccessor.cpp:105
 #, fuzzy
@@ -1204,49 +1285,38 @@ msgctxt "@label"
 msgid "Path"
 msgstr "Zasunyć"
 
-#: views/renamedialog.cpp:54
-msgctxt "@title:window"
-msgid "Rename Item"
-msgstr "Objekt přemjenować"
+#: views/dolphincolumnview.cpp:89
+msgctxt "@info:tooltip"
+msgid "Resize column"
+msgstr ""
 
-#: views/renamedialog.cpp:55
-msgctxt "@title:window"
-msgid "Rename Items"
-msgstr "Objekty přemjenować"
+#: views/dolphindetailsview.cpp:143
+msgctxt "@option:check"
+msgid "Expandable Folders"
+msgstr "Rozćahujomne zapiski"
 
-#: views/renamedialog.cpp:59
+#: views/dolphindetailsview.cpp:371
+msgctxt "@title:menu"
+msgid "Columns"
+msgstr "stołpiki"
+
+#: views/dolphindetailsview.cpp:703
+#, kde-format
+msgctxt "Items in a folder"
+msgid "1 item"
+msgid_plural "%1 items"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: views/dolphindirlister.cpp:41
 #, fuzzy
-#| msgctxt "@action:button"
-#| msgid "Rename"
-msgctxt "@action:button"
-msgid "&Rename"
-msgstr "Přemjenować"
-
-#: views/renamedialog.cpp:69
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Rename the item <filename>%1</filename> to:"
-msgstr "Objekt <filename>%1</filename> přemjenować na:"
-
-#: views/renamedialog.cpp:72
+#| msgctxt "@info:status"
+#| msgid "Unknown size"
 msgctxt "@info:status"
-msgid "New name #"
-msgstr "Nowe mjeno #"
-
-#: views/renamedialog.cpp:74
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Rename the %1 selected item to:"
-msgid_plural "Rename the %1 selected items to:"
-msgstr[0] "%1 wubrany objekt přemjenować na:"
-msgstr[1] "%1 wubranej objektaj přemjenować na:"
-msgstr[2] "%1 wubrane objekty přemjenować na:"
-msgstr[3] "%1 wubranych objektow přemjenować na:"
-
-#: views/renamedialog.cpp:121
-msgctxt "@info"
-msgid "(# will be replaced by ascending numbers)"
-msgstr "(# so naruna z rosćacymi ličbami)"
+msgid "Unknown error."
+msgstr "njeznata wulkosć"
 
 #: views/dolphinmodel.cpp:43
 msgctxt "@title:group Name"
@@ -1404,105 +1474,72 @@ msgctxt "@title:group Files and folders by permissions"
 msgid "(User: %1) (Group: %2) (Others: %3)"
 msgstr "(Wužiwar: %1) (Skupina: %2) (Druzy: %3)"
 
-#: views/dolphinview.cpp:500
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "<filename>%1</filename> wubrany"
+#: dolphincontextmenu.cpp:170
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "Prózdny papjernik"
 
-#: views/dolphinview.cpp:501
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected (%2)"
-msgstr "<filename>%1</filename> wubrane (%2)"
+#: dolphincontextmenu.cpp:176 dolphincontextmenu.cpp:338
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "Dodać k městnam"
 
-#: views/dolphinview.cpp:505
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "%1 zapisk wubrany"
-msgstr[1] "%1 zapiskaj wubranej"
-msgstr[2] "%1 zapiski wubrane"
-msgstr[3] "%1 zapiskow wubranych"
+#: dolphincontextmenu.cpp:196
+msgctxt "@label"
+msgid "Trash"
+msgstr "Papjernik"
 
-#: views/dolphinview.cpp:506
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] "%1 dataja wubrana"
-msgstr[1] "%1 dataji wubranej"
-msgstr[2] "%1 dataje wubrane"
-msgstr[3] "%1 datajow wubranych"
+#: dolphincontextmenu.cpp:206
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "Restawrować"
 
-#: views/dolphinview.cpp:508
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
+#: dolphincontextmenu.cpp:245 dolphinmainwindow.cpp:1571
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "Nowy objekt stworić"
 
-#: views/dolphinview.cpp:511
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
+#: dolphincontextmenu.cpp:258
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "K městnam dodać"
 
-#: views/dolphinview.cpp:1053
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "Dowumazane."
+#: dolphincontextmenu.cpp:265
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Window"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr "W nowym woknje wočinić"
 
-#: views/dolphinview.cpp:1155
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "Městnosć je prózdna."
+#: dolphincontextmenu.cpp:271
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Tab"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr "W nowym tabulatoru wočinić"
 
-#: views/dolphinview.cpp:1157
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "Městnosć '%1' njeje walidna."
+#: dolphincontextmenu.cpp:437
+msgctxt "@action:inmenu"
+msgid "Paste Into Folder"
+msgstr "Do zapiska zasunyć"
 
-#: views/selectiontoggle.cpp:132
-msgctxt "@info:tooltip"
-msgid "Deselect Item"
-msgstr "Objekt nic wubrać"
+#: dolphincontextmenu.cpp:549
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "&Move to Trash"
+msgstr "Do papjernika přesunyć"
 
-#: views/selectiontoggle.cpp:133
-msgctxt "@info:tooltip"
-msgid "Select Item"
-msgstr "Objekt wubrać"
-
-#: dolphinviewcontainer.cpp:344
-msgctxt "@info:progress"
-msgid "Loading folder..."
-msgstr "začitam zapisk..."
-
-#: dolphinviewcontainer.cpp:355
-msgctxt "@info"
-msgid "Searching..."
-msgstr ""
-
-#: dolphinviewcontainer.cpp:375
-msgctxt "@info:status"
-msgid "No items found."
-msgstr ""
-
-#: dolphinviewcontainer.cpp:454
-msgctxt "@info:status"
-msgid "Dolphin does not support web pages, the web browser has been launched"
-msgstr "Dolphin njepodpěruje html-strony, browser je so startował."
-
-#: dolphinviewcontainer.cpp:466
-msgctxt "@info:status"
-msgid "Protocol not supported by Dolphin, Konqueror has been launched"
-msgstr "Protokol njepodpěrowany wot Dolphina; Konqueror je so startował."
-
-#: dolphinviewcontainer.cpp:473
-msgctxt "@info:status"
-msgid "Invalid protocol"
-msgstr "Njewalidny protokol"
+#: dolphincontextmenu.cpp:552
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "zničić"
 
 #: dolphinmainwindow.cpp:340
 msgctxt "@info:status"
@@ -1615,11 +1652,6 @@ msgstr "Nastroje"
 msgctxt "@action:inmenu"
 msgid "Help"
 msgstr ""
-
-#: dolphinmainwindow.cpp:1571 dolphincontextmenu.cpp:245
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "Nowy objekt stworić"
 
 #: dolphinmainwindow.cpp:1578
 msgctxt "@action:inmenu File"
@@ -1911,6 +1943,36 @@ msgstr ""
 msgid "Unselect all items matching this pattern:"
 msgstr ""
 
+#: dolphinviewcontainer.cpp:344
+msgctxt "@info:progress"
+msgid "Loading folder..."
+msgstr "začitam zapisk..."
+
+#: dolphinviewcontainer.cpp:355
+msgctxt "@info"
+msgid "Searching..."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:375
+msgctxt "@info:status"
+msgid "No items found."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:454
+msgctxt "@info:status"
+msgid "Dolphin does not support web pages, the web browser has been launched"
+msgstr "Dolphin njepodpěruje html-strony, browser je so startował."
+
+#: dolphinviewcontainer.cpp:466
+msgctxt "@info:status"
+msgid "Protocol not supported by Dolphin, Konqueror has been launched"
+msgstr "Protokol njepodpěrowany wot Dolphina; Konqueror je so startował."
+
+#: dolphinviewcontainer.cpp:473
+msgctxt "@info:status"
+msgid "Invalid protocol"
+msgstr "Njewalidny protokol"
+
 #: main.cpp:35
 msgctxt "@title"
 msgid "Dolphin"
@@ -2001,68 +2063,6 @@ msgstr ""
 msgctxt "@info:shell"
 msgid "Document to open"
 msgstr "Dokument, kiž ma so wočinić"
-
-#: dolphincontextmenu.cpp:170
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "Prózdny papjernik"
-
-#: dolphincontextmenu.cpp:176 dolphincontextmenu.cpp:338
-msgctxt "@action:inmenu Add current folder to places"
-msgid "Add to Places"
-msgstr "Dodać k městnam"
-
-#: dolphincontextmenu.cpp:196
-msgctxt "@label"
-msgid "Trash"
-msgstr "Papjernik"
-
-#: dolphincontextmenu.cpp:206
-msgctxt "@action:inmenu"
-msgid "Restore"
-msgstr "Restawrować"
-
-#: dolphincontextmenu.cpp:258
-msgctxt "@action:inmenu Add selected folder to places"
-msgid "Add to Places"
-msgstr "K městnam dodać"
-
-#: dolphincontextmenu.cpp:265
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Window"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Window"
-msgstr "W nowym woknje wočinić"
-
-#: dolphincontextmenu.cpp:271
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Tab"
-msgstr "W nowym tabulatoru wočinić"
-
-#: dolphincontextmenu.cpp:437
-msgctxt "@action:inmenu"
-msgid "Paste Into Folder"
-msgstr "Do zapiska zasunyć"
-
-#: dolphincontextmenu.cpp:549
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "&Move to Trash"
-msgstr "Do papjernika přesunyć"
-
-#: dolphincontextmenu.cpp:552
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "&Delete"
-msgstr "zničić"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -2161,7 +2161,7 @@ msgstr ""
 #. i18n: ectx: label, entry (FontFamily), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:21
 #. i18n: ectx: label, entry (FontFamily), group (IconsMode)
-#: rc.cpp:38 rc.cpp:66 rc.cpp:225
+#: rc.cpp:38 rc.cpp:66 rc.cpp:163
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font family"
@@ -2174,7 +2174,7 @@ msgstr "Pismowa swójba"
 #. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:17
 #. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
-#: rc.cpp:41 rc.cpp:69 rc.cpp:222
+#: rc.cpp:41 rc.cpp:69 rc.cpp:160
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Use system font"
@@ -2187,7 +2187,7 @@ msgstr "Systemowe pismo wužiwać"
 #. i18n: ectx: label, entry (FontSize), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:25
 #. i18n: ectx: label, entry (FontSize), group (IconsMode)
-#: rc.cpp:44 rc.cpp:72 rc.cpp:228
+#: rc.cpp:44 rc.cpp:72 rc.cpp:166
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font size"
@@ -2200,7 +2200,7 @@ msgstr "Wulkosć pisma"
 #. i18n: ectx: label, entry (ItalicFont), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:29
 #. i18n: ectx: label, entry (ItalicFont), group (IconsMode)
-#: rc.cpp:47 rc.cpp:75 rc.cpp:231
+#: rc.cpp:47 rc.cpp:75 rc.cpp:169
 #, fuzzy
 #| msgctxt "@label Font style"
 #| msgid "Italic"
@@ -2213,7 +2213,7 @@ msgstr "Kursiwne"
 #. i18n: ectx: label, entry (FontWeight), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:33
 #. i18n: ectx: label, entry (FontWeight), group (IconsMode)
-#: rc.cpp:50 rc.cpp:78 rc.cpp:234
+#: rc.cpp:50 rc.cpp:78 rc.cpp:172
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font weight"
@@ -2226,7 +2226,7 @@ msgstr "Tučnosć"
 #. i18n: ectx: label, entry (IconSize), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:57
 #. i18n: ectx: label, entry (IconSize), group (IconsMode)
-#: rc.cpp:53 rc.cpp:81 rc.cpp:246
+#: rc.cpp:53 rc.cpp:81 rc.cpp:184
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Icon size"
@@ -2239,7 +2239,7 @@ msgstr "Wulkosć piktograma"
 #. i18n: ectx: label, entry (PreviewSize), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:66
 #. i18n: ectx: label, entry (PreviewSize), group (IconsMode)
-#: rc.cpp:56 rc.cpp:84 rc.cpp:252
+#: rc.cpp:56 rc.cpp:84 rc.cpp:190
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Preview size"
@@ -2416,9 +2416,60 @@ msgctxt "@info:whatsthis"
 msgid "The last time these properties were changed by the user."
 msgstr "Posledni čas, hdyž wužiwar tute swójstwa změni. "
 
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:13
+#. i18n: ectx: label, entry (Arrangement), group (IconsMode)
+#: rc.cpp:157
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Arrangement"
+msgid "Arrangement"
+msgstr "Wusměrjenje"
+
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:37
+#. i18n: ectx: label, entry (ItemHeight), group (IconsMode)
+#: rc.cpp:175
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Item height"
+msgid "Item height"
+msgstr "Wysokosć objektow"
+
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:45
+#. i18n: ectx: label, entry (ItemWidth), group (IconsMode)
+#: rc.cpp:178
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Item width"
+msgid "Item width"
+msgstr "Šěrokosć objektow"
+
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:53
+#. i18n: ectx: label, entry (GridSpacing), group (IconsMode)
+#: rc.cpp:181
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Grid spacing"
+msgid "Grid spacing"
+msgstr "Wotstawki w rastrje"
+
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:61
+#. i18n: ectx: label, entry (NumberOfTextlines), group (IconsMode)
+#: rc.cpp:187
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Number of textlines"
+msgid "Number of textlines"
+msgstr "Ličba tekstowych linkow"
+
+#. i18n: file: settings/dolphin_versioncontrolsettings.kcfg:10
+#. i18n: ectx: label, entry (enabledPlugins), group (VersionControl)
+#: rc.cpp:199
+msgid "Enabled plugins"
+msgstr ""
+
 #. i18n: file: settings/dolphin_generalsettings.kcfg:12
 #. i18n: ectx: label, entry (EditableUrl), group (General)
-#: rc.cpp:157
+#: rc.cpp:202
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the URL be editable for the user"
@@ -2427,13 +2478,13 @@ msgstr "Hač móže wužiwar URL wobdźěłać"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:16
 #. i18n: ectx: label, entry (UrlCompletionMode), group (General)
-#: rc.cpp:160
+#: rc.cpp:205
 msgid "Text completion mode of the URL Navigator"
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:20
 #. i18n: ectx: label, entry (ShowFullPath), group (General)
-#: rc.cpp:163
+#: rc.cpp:208
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the full path be shown inside the location bar"
@@ -2442,7 +2493,7 @@ msgstr "Hač so połny puć w pasu městnow pokazuje"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:24
 #. i18n: ectx: label, entry (FirstRun), group (General)
-#: rc.cpp:166
+#: rc.cpp:211
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Is the application started the first time"
@@ -2453,7 +2504,7 @@ msgstr "Hač je so aplikacija prěni raz startowała"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:28
 #. i18n: ectx: label, entry (ModifiedStartupSettings), group (General)
-#: rc.cpp:169
+#: rc.cpp:214
 msgid ""
 "Have the startup settings been modified (internal setting not shown in the "
 "UI)"
@@ -2461,7 +2512,7 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:32
 #. i18n: ectx: label, entry (HomeUrl), group (General)
-#: rc.cpp:172
+#: rc.cpp:217
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Home URL"
@@ -2470,7 +2521,7 @@ msgstr "Domjaca URL"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:36
 #. i18n: ectx: label, entry (SplitView), group (General)
-#: rc.cpp:175
+#: rc.cpp:220
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Split the view into two panes"
@@ -2479,7 +2530,7 @@ msgstr "Dźěli napohlad do dweju dźělow"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:40
 #. i18n: ectx: label, entry (FilterBar), group (General)
-#: rc.cpp:178
+#: rc.cpp:223
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the filter bar be shown"
@@ -2488,7 +2539,7 @@ msgstr "Hač so filtrowy pas pokazuje"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:44
 #. i18n: ectx: label, entry (GlobalViewProps), group (General)
-#: rc.cpp:181
+#: rc.cpp:226
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the view properties be used for all directories"
@@ -2497,7 +2548,7 @@ msgstr "Hač so swójstwa napohlada za wšě zapiski wužiwaja"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:48
 #. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
-#: rc.cpp:184
+#: rc.cpp:229
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Browse through archives"
@@ -2506,13 +2557,13 @@ msgstr "Archiwy přelistować"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:52
 #. i18n: ectx: label, entry (ConfirmClosingMultipleTabs), group (General)
-#: rc.cpp:187
+#: rc.cpp:232
 msgid "Ask for confirmation when closing windows with multiple tabs."
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:56
 #. i18n: ectx: label, entry (RenameInline), group (General)
-#: rc.cpp:190
+#: rc.cpp:235
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Rename inline"
@@ -2521,7 +2572,7 @@ msgstr "Na lince přemjenować"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:60
 #. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
-#: rc.cpp:193
+#: rc.cpp:238
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show selection toggle"
@@ -2530,7 +2581,7 @@ msgstr "Přešaltowanje wubraća pokazać"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:64
 #. i18n: ectx: label, entry (ShowToolTips), group (General)
-#: rc.cpp:196
+#: rc.cpp:241
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show tooltips"
@@ -2539,7 +2590,7 @@ msgstr "Tooltips pokazać"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:68
 #. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
-#: rc.cpp:199
+#: rc.cpp:244
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show 'Copy To' and 'Move To' commands in context menu"
@@ -2548,7 +2599,7 @@ msgstr "Přikazaj 'Kopěrować' a 'Přesunyć' w kontekstowym meniju pokazać"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:72
 #. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
-#: rc.cpp:202
+#: rc.cpp:247
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Timestamp since when the view properties are valid"
@@ -2557,7 +2608,7 @@ msgstr "Čas, wot kotrehož swójstwa napohlada płaća"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:75
 #. i18n: ectx: label, entry (AutoExpandFolders), group (General)
-#: rc.cpp:205
+#: rc.cpp:250
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Use auto-expanding folders for all view types"
@@ -2566,7 +2617,7 @@ msgstr "Rozćahowate zapiski za wšě datajowe družiny"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:79
 #. i18n: ectx: label, entry (ShowZoomSlider), group (General)
-#: rc.cpp:208
+#: rc.cpp:253
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show zoom slider in the statusbar"
@@ -2575,7 +2626,7 @@ msgstr "Zoomowanski suwak w statusowym pasu"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:83
 #. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: rc.cpp:211
+#: rc.cpp:256
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show the space information in the statusbar"
@@ -2584,59 +2635,8 @@ msgstr "Informaciju wo rumje w statusowym pasu pokazać"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:87
 #. i18n: ectx: label, entry (LockPanels), group (General)
-#: rc.cpp:214
+#: rc.cpp:259
 msgid "Lock the layout of the panels"
-msgstr ""
-
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:13
-#. i18n: ectx: label, entry (Arrangement), group (IconsMode)
-#: rc.cpp:219
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Arrangement"
-msgid "Arrangement"
-msgstr "Wusměrjenje"
-
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:37
-#. i18n: ectx: label, entry (ItemHeight), group (IconsMode)
-#: rc.cpp:237
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Item height"
-msgid "Item height"
-msgstr "Wysokosć objektow"
-
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:45
-#. i18n: ectx: label, entry (ItemWidth), group (IconsMode)
-#: rc.cpp:240
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Item width"
-msgid "Item width"
-msgstr "Šěrokosć objektow"
-
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:53
-#. i18n: ectx: label, entry (GridSpacing), group (IconsMode)
-#: rc.cpp:243
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Grid spacing"
-msgid "Grid spacing"
-msgstr "Wotstawki w rastrje"
-
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:61
-#. i18n: ectx: label, entry (NumberOfTextlines), group (IconsMode)
-#: rc.cpp:249
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Number of textlines"
-msgid "Number of textlines"
-msgstr "Ličba tekstowych linkow"
-
-#. i18n: file: settings/dolphin_versioncontrolsettings.kcfg:10
-#. i18n: ectx: label, entry (enabledPlugins), group (VersionControl)
-#: rc.cpp:261
-msgid "Enabled plugins"
 msgstr ""
 
 #. i18n: file: dolphinui.rc:34
