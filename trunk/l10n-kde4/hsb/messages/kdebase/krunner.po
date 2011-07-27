@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-13 04:02+0200\n"
+"POT-Creation-Date: 2011-07-27 04:01+0200\n"
 "PO-Revision-Date: 2008-11-18 00:29+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -208,6 +208,22 @@ msgstr "&Aktiwizować"
 msgid "Start &New Session"
 msgstr "&Nowe posedźenje startować"
 
+#: lock/lockprocess.cc:834
+msgid "Will not lock the session, as unlocking would be impossible:\n"
+msgstr "Njezamknu posedźenje, dokelž njeby móžno było je wotamknyć:\n"
+
+#: lock/lockprocess.cc:838
+msgid "Cannot start <i>kcheckpass</i>."
+msgstr "Njemóžu startować <i>kcheckpass</p>."
+
+#: lock/lockprocess.cc:839
+msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
+msgstr "<i>kcheckpass</i> njedźěła. Snano njeje setuid root."
+
+#: lock/lockprocess.cc:902
+msgid "No appropriate greeter plugin configured."
+msgstr "Žana powitanska zašćka připrawjena."
+
 #: lock/main.cc:61
 #, fuzzy
 #| msgctxt "Name"
@@ -245,22 +261,6 @@ msgstr "z njezamknjenej plasmu startować za připrawjenje"
 msgid "Fork into the background after starting up"
 msgstr ""
 
-#: lock/lockprocess.cc:834
-msgid "Will not lock the session, as unlocking would be impossible:\n"
-msgstr "Njezamknu posedźenje, dokelž njeby móžno było je wotamknyć:\n"
-
-#: lock/lockprocess.cc:838
-msgid "Cannot start <i>kcheckpass</i>."
-msgstr "Njemóžu startować <i>kcheckpass</p>."
-
-#: lock/lockprocess.cc:839
-msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
-msgstr "<i>kcheckpass</i> njedźěła. Snano njeje setuid root."
-
-#: lock/lockprocess.cc:902
-msgid "No appropriate greeter plugin configured."
-msgstr "Žana powitanska zašćka připrawjena."
-
 #: main.cpp:38
 msgid "KDE run command interface"
 msgstr "KDE-interfejs za wuwjedźenje přikazow"
@@ -281,37 +281,37 @@ msgstr ""
 msgid "Author and maintainer"
 msgstr ""
 
-#: krunnerdialog.cpp:70 krunnerapp.cpp:131
+#: krunnerdialog.cpp:70 krunnerapp.cpp:130
 msgid "Run Command"
 msgstr "Přikaz wuwjesć"
-
-#: krunnerapp.cpp:136
-msgid "Run Command on clipboard contents"
-msgstr ""
-
-#: krunnerapp.cpp:142
-msgid "Show System Activity"
-msgstr "Wućeženosć systema pokazować"
-
-#: krunnerapp.cpp:148
-msgid "Switch User"
-msgstr ""
-
-#: krunnerapp.cpp:158
-msgid "Lock Session"
-msgstr ""
-
-#: krunnerapp.cpp:200
-#, kde-format
-msgctxt "Run krunner restricting the search only to runner %1"
-msgid "Run Command (runner \"%1\" only)"
-msgstr ""
 
 #: ksystemactivitydialog.cpp:40
 #, fuzzy
 #| msgid "Show System Activity"
 msgid "System Activity"
 msgstr "Wućeženosć systema pokazować"
+
+#: krunnerapp.cpp:135
+msgid "Run Command on clipboard contents"
+msgstr ""
+
+#: krunnerapp.cpp:141
+msgid "Show System Activity"
+msgstr "Wućeženosć systema pokazować"
+
+#: krunnerapp.cpp:147
+msgid "Switch User"
+msgstr ""
+
+#: krunnerapp.cpp:157
+msgid "Lock Session"
+msgstr ""
+
+#: krunnerapp.cpp:199
+#, kde-format
+msgctxt "Run krunner restricting the search only to runner %1"
+msgid "Run Command (runner \"%1\" only)"
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
