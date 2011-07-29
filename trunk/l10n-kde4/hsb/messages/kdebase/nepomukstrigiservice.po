@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-06 04:16+0200\n"
+"POT-Creation-Date: 2011-07-29 04:00+0200\n"
 "PO-Revision-Date: 2008-11-13 00:04+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -111,35 +111,38 @@ msgstr ""
 #, fuzzy
 #| msgid "File indexer is suspended"
 msgctxt "@info:status"
-msgid "File indexer is suspended"
+msgid "File indexer is suspended."
 msgstr "Datajowy indekser je zastajeny"
 
 #: strigiservice.cpp:164
 #, fuzzy
-#| msgid "Strigi is currently indexing files in folder %1"
+#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
+#| msgid "Initial Desktop Search file indexing finished in %1"
 msgctxt "@info:status"
-msgid "Strigi is currently indexing files"
-msgstr "Strigi runje indeks twori za dataje w zapisku %1"
+msgid "Indexing files for desktop search."
+msgstr ""
+"Prěnje tworjenje indeksa za pytanje na Dźěłowym powjerchu je so zakónčiło w %"
+"1"
 
 #: strigiservice.cpp:168
 #, fuzzy, kde-format
-#| msgid "Strigi is currently indexing files in folder %1"
+#| msgid "Indexed files:"
 msgctxt "@info:status"
-msgid "Strigi is currently indexing files in folder %1"
-msgstr "Strigi runje indeks twori za dataje w zapisku %1"
+msgid "Indexing files in %1"
+msgstr "Dataje z indeksom:"
 
 #: strigiservice.cpp:170
 #, fuzzy, kde-format
 #| msgid "Strigi is currently indexing files in folder %1"
 msgctxt "@info:status"
-msgid "Strigi is currently indexing files in folder %1 (%2)"
+msgid "Indexing files in %1 (%2)"
 msgstr "Strigi runje indeks twori za dataje w zapisku %1"
 
 #: strigiservice.cpp:174
 #, fuzzy
 #| msgid "File indexer is idle"
 msgctxt "@info:status"
-msgid "File indexer is idle"
+msgid "File indexer is idle."
 msgstr "Datajowy indekser ničo za dźěło nima"
 
 #: rc.cpp:1
@@ -151,6 +154,18 @@ msgstr "Edward Wornar"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "edi.werner@gmx.de"
+
+#, fuzzy
+#~| msgid "Strigi is currently indexing files in folder %1"
+#~ msgctxt "@info:status"
+#~ msgid "Strigi is currently indexing files"
+#~ msgstr "Strigi runje indeks twori za dataje w zapisku %1"
+
+#, fuzzy
+#~| msgid "Strigi is currently indexing files in folder %1"
+#~ msgctxt "@info:status"
+#~ msgid "Strigi is currently indexing files in folder %1"
+#~ msgstr "Strigi runje indeks twori za dataje w zapisku %1"
 
 #~ msgctxt "@info - notification message"
 #~ msgid "Converting Nepomuk data to a new backend. This might take a while."
@@ -354,9 +369,6 @@ msgstr "edi.werner@gmx.de"
 #~| msgid "Nepomuk store size:"
 #~ msgid "Nepomuk Repository Details"
 #~ msgstr "Wulkosć Nepomukoweho składa:"
-
-#~ msgid "Indexed files:"
-#~ msgstr "Dataje z indeksom:"
 
 #~ msgid "Calculating..."
 #~ msgstr "Wobličuju ..."
