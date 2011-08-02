@@ -10,16 +10,69 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-28 04:16+0200\n"
+"POT-Creation-Date: 2011-08-02 06:19+0200\n"
 "PO-Revision-Date: 2008-11-04 23:10+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
-"100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3;\n"
 "X-Generator: KAider 0.1\n"
+
+#: conf/preferencesdialog.cpp:37
+msgid "General"
+msgstr "Generelnje"
+
+#: conf/preferencesdialog.cpp:37
+msgid "General Options"
+msgstr "Powšitkowne opcije"
+
+#: conf/preferencesdialog.cpp:38
+msgid "Accessibility"
+msgstr "Přistupnosć"
+
+#: conf/preferencesdialog.cpp:38
+msgid "Accessibility Reading Aids"
+msgstr "Pomhadła za čitanje"
+
+#: conf/preferencesdialog.cpp:39
+msgid "Performance"
+msgstr "Spěšnosć"
+
+#: conf/preferencesdialog.cpp:39
+msgid "Performance Tuning"
+msgstr "Připrawjenje spěňosće"
+
+#: conf/preferencesdialog.cpp:40
+msgid "Presentation"
+msgstr "Prezentacija"
+
+#: conf/preferencesdialog.cpp:41
+msgid "Options for Presentation Mode"
+msgstr "Opcije za prezentaciju"
+
+#. i18n: file: conf/dlgidentitybase.ui:31
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: conf/preferencesdialog.cpp:42 rc.cpp:122
+msgid "Identity"
+msgstr "Identita"
+
+#: conf/preferencesdialog.cpp:43
+msgid "Identity Settings"
+msgstr "Nastajenja identity"
+
+#. i18n: file: conf/dlgeditorbase.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: conf/preferencesdialog.cpp:44 rc.cpp:80
+msgid "Editor"
+msgstr "Wobdźěłar teksta"
+
+#: conf/preferencesdialog.cpp:44
+msgid "Editor Options"
+msgstr "Opcije za wobdźěłar teksta"
 
 #: conf/dlgeditor.cpp:28
 msgctxt "Text editor"
@@ -112,58 +165,6 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: conf/preferencesdialog.cpp:37
-msgid "General"
-msgstr "Generelnje"
-
-#: conf/preferencesdialog.cpp:37
-msgid "General Options"
-msgstr "Powšitkowne opcije"
-
-#: conf/preferencesdialog.cpp:38
-msgid "Accessibility"
-msgstr "Přistupnosć"
-
-#: conf/preferencesdialog.cpp:38
-msgid "Accessibility Reading Aids"
-msgstr "Pomhadła za čitanje"
-
-#: conf/preferencesdialog.cpp:39
-msgid "Performance"
-msgstr "Spěšnosć"
-
-#: conf/preferencesdialog.cpp:39
-msgid "Performance Tuning"
-msgstr "Připrawjenje spěňosće"
-
-#: conf/preferencesdialog.cpp:40
-msgid "Presentation"
-msgstr "Prezentacija"
-
-#: conf/preferencesdialog.cpp:41
-msgid "Options for Presentation Mode"
-msgstr "Opcije za prezentaciju"
-
-#. i18n: file: conf/dlgidentitybase.ui:31
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: conf/preferencesdialog.cpp:42 rc.cpp:122
-msgid "Identity"
-msgstr "Identita"
-
-#: conf/preferencesdialog.cpp:43
-msgid "Identity Settings"
-msgstr "Nastajenja identity"
-
-#. i18n: file: conf/dlgeditorbase.ui:19
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: conf/preferencesdialog.cpp:44 rc.cpp:80
-msgid "Editor"
-msgstr "Wobdźěłar teksta"
-
-#: conf/preferencesdialog.cpp:44
-msgid "Editor Options"
-msgstr "Opcije za wobdźěłar teksta"
-
 #: core/action.cpp:91
 #, kde-format
 msgid "Go to page %1"
@@ -243,24 +244,6 @@ msgstr ""
 msgid ""
 "<qt>More than one backend found for the MIME type:<br /><b>%1</b> (%2).<br /"
 "><br />Please select which one to use:</qt>"
-msgstr ""
-
-#: core/generator.cpp:557
-msgid "Plain &Text..."
-msgstr ""
-
-#: core/generator.cpp:560
-msgid "PDF"
-msgstr ""
-
-#: core/generator.cpp:565
-msgctxt "This is the document format"
-msgid "OpenDocument Text"
-msgstr ""
-
-#: core/generator.cpp:569
-msgctxt "This is the document format"
-msgid "HTML"
 msgstr ""
 
 #: core/sourcereference.cpp:92
@@ -431,6 +414,24 @@ msgstr ""
 msgid "Page Size"
 msgstr "Wulkosć strony"
 
+#: core/generator.cpp:557
+msgid "Plain &Text..."
+msgstr ""
+
+#: core/generator.cpp:560
+msgid "PDF"
+msgstr ""
+
+#: core/generator.cpp:565
+msgctxt "This is the document format"
+msgid "OpenDocument Text"
+msgstr ""
+
+#: core/generator.cpp:569
+msgctxt "This is the document format"
+msgid "HTML"
+msgstr ""
+
 #: ui/annotationmodel.cpp:297 part.cpp:1840
 #, kde-format
 msgid "Page %1"
@@ -461,6 +462,130 @@ msgstr ""
 #, kde-format
 msgctxt "%1 is the name of the file to save"
 msgid "&Save '%1'..."
+msgstr ""
+
+#: ui/embeddedfilesdialog.cpp:35
+msgctxt "Unknown date"
+msgid "Unknown"
+msgstr ""
+
+#: ui/embeddedfilesdialog.cpp:40
+msgctxt "@title:window"
+msgid "Embedded Files"
+msgstr ""
+
+#: ui/embeddedfilesdialog.cpp:49
+msgctxt "@title:column"
+msgid "Name"
+msgstr ""
+
+#: ui/embeddedfilesdialog.cpp:50
+msgctxt "@title:column"
+msgid "Description"
+msgstr ""
+
+#: ui/embeddedfilesdialog.cpp:51
+msgctxt "@title:column"
+msgid "Size"
+msgstr ""
+
+#: ui/embeddedfilesdialog.cpp:52
+msgctxt "@title:column"
+msgid "Created"
+msgstr ""
+
+#: ui/embeddedfilesdialog.cpp:53
+msgctxt "@title:column"
+msgid "Modified"
+msgstr ""
+
+#: ui/embeddedfilesdialog.cpp:69 ui/annotationwidgets.cpp:518
+msgctxt "Not available size"
+msgid "N/A"
+msgstr ""
+
+#: ui/embeddedfilesdialog.cpp:114
+msgctxt "@action:inmenu"
+msgid "&Save As..."
+msgstr ""
+
+#: ui/fileprinterpreview.cpp:114
+msgid "Could not load print preview part"
+msgstr "Njemóžach dźěl přehladki ćišćeć"
+
+#: ui/fileprinterpreview.cpp:129
+msgid "Print Preview"
+msgstr "Ćišćowa přehladka"
+
+#. i18n: tag tool attribute name
+#. i18n: file: ui/data/tools.xml:20
+#: ui/guiutils.cpp:71 ui/annotationwidgets.cpp:218
+#: ui/pageviewannotator.cpp:198 rc.cpp:275
+msgid "Note"
+msgstr ""
+
+#. i18n: tag tool attribute name
+#. i18n: file: ui/data/tools.xml:27
+#: ui/guiutils.cpp:73 ui/pageviewannotator.cpp:182 rc.cpp:278
+msgid "Inline Note"
+msgstr ""
+
+#: ui/guiutils.cpp:76
+msgid "Line"
+msgstr "Linka"
+
+#: ui/guiutils.cpp:79
+msgid "Geometry"
+msgstr ""
+
+#: ui/guiutils.cpp:82 ui/annotationwidgets.cpp:397
+msgid "Highlight"
+msgstr ""
+
+#. i18n: tag tool attribute name
+#. i18n: file: ui/data/tools.xml:62
+#: ui/guiutils.cpp:85 rc.cpp:293
+msgid "Stamp"
+msgstr ""
+
+#: ui/guiutils.cpp:88
+msgid "Ink"
+msgstr ""
+
+#: ui/guiutils.cpp:91
+msgid "Caret"
+msgstr ""
+
+#: ui/guiutils.cpp:94
+msgid "File Attachment"
+msgstr ""
+
+#: ui/guiutils.cpp:97
+msgid "Sound"
+msgstr ""
+
+#: ui/guiutils.cpp:100
+msgid "Movie"
+msgstr ""
+
+#: ui/guiutils.cpp:112
+msgctxt "Unknown author"
+msgid "Unknown"
+msgstr ""
+
+#: ui/guiutils.cpp:155 ui/presentationwidget.cpp:323
+#, kde-format
+msgid "Author: %1"
+msgstr ""
+
+#: ui/guiutils.cpp:206 ui/propertiesdialog.cpp:218
+#, kde-format
+msgid "Where do you want to save %1?"
+msgstr ""
+
+#: ui/guiutils.cpp:215 ui/propertiesdialog.cpp:231
+#, kde-format
+msgid "Could not open \"%1\" for writing. File was not saved."
 msgstr ""
 
 #: ui/annotationpropertiesdialog.cpp:58
@@ -572,13 +697,6 @@ msgstr ""
 msgid "New Paragraph"
 msgstr ""
 
-#. i18n: tag tool attribute name
-#. i18n: file: ui/data/tools.xml:20
-#: ui/annotationwidgets.cpp:218 ui/guiutils.cpp:71
-#: ui/pageviewannotator.cpp:198 rc.cpp:275
-msgid "Note"
-msgstr ""
-
 #: ui/annotationwidgets.cpp:219
 msgid "Paragraph"
 msgstr ""
@@ -688,10 +806,6 @@ msgstr ""
 msgid "Type:"
 msgstr ""
 
-#: ui/annotationwidgets.cpp:397 ui/guiutils.cpp:82
-msgid "Highlight"
-msgstr ""
-
 #: ui/annotationwidgets.cpp:398
 msgid "Squiggly"
 msgstr ""
@@ -743,11 +857,6 @@ msgstr ""
 #: ui/annotationwidgets.cpp:514
 msgctxt "'File' as normal file, that can be opened, saved, etc.."
 msgid "File"
-msgstr ""
-
-#: ui/annotationwidgets.cpp:518 ui/embeddedfilesdialog.cpp:69
-msgctxt "Not available size"
-msgid "N/A"
 msgstr ""
 
 #: ui/annotationwidgets.cpp:519
@@ -833,406 +942,9 @@ msgstr ""
 msgid "Remove Bookmarks"
 msgstr "Moje lubuški"
 
-#: ui/embeddedfilesdialog.cpp:35
-msgctxt "Unknown date"
-msgid "Unknown"
-msgstr ""
-
-#: ui/embeddedfilesdialog.cpp:40
-msgctxt "@title:window"
-msgid "Embedded Files"
-msgstr ""
-
-#: ui/embeddedfilesdialog.cpp:49
-msgctxt "@title:column"
-msgid "Name"
-msgstr ""
-
-#: ui/embeddedfilesdialog.cpp:50
-msgctxt "@title:column"
-msgid "Description"
-msgstr ""
-
-#: ui/embeddedfilesdialog.cpp:51
-msgctxt "@title:column"
-msgid "Size"
-msgstr ""
-
-#: ui/embeddedfilesdialog.cpp:52
-msgctxt "@title:column"
-msgid "Created"
-msgstr ""
-
-#: ui/embeddedfilesdialog.cpp:53
-msgctxt "@title:column"
-msgid "Modified"
-msgstr ""
-
-#: ui/embeddedfilesdialog.cpp:114
-msgctxt "@action:inmenu"
-msgid "&Save As..."
-msgstr ""
-
-#: ui/fileprinterpreview.cpp:114
-msgid "Could not load print preview part"
-msgstr "Njemóžach dźěl přehladki ćišćeć"
-
-#: ui/fileprinterpreview.cpp:129
-msgid "Print Preview"
-msgstr "Ćišćowa přehladka"
-
-#. i18n: tag tool attribute name
-#. i18n: file: ui/data/tools.xml:27
-#: ui/guiutils.cpp:73 ui/pageviewannotator.cpp:182 rc.cpp:278
-msgid "Inline Note"
-msgstr ""
-
-#: ui/guiutils.cpp:76
-msgid "Line"
-msgstr "Linka"
-
-#: ui/guiutils.cpp:79
-msgid "Geometry"
-msgstr ""
-
-#. i18n: tag tool attribute name
-#. i18n: file: ui/data/tools.xml:62
-#: ui/guiutils.cpp:85 rc.cpp:293
-msgid "Stamp"
-msgstr ""
-
-#: ui/guiutils.cpp:88
-msgid "Ink"
-msgstr ""
-
-#: ui/guiutils.cpp:91
-msgid "Caret"
-msgstr ""
-
-#: ui/guiutils.cpp:94
-msgid "File Attachment"
-msgstr ""
-
-#: ui/guiutils.cpp:97
-msgid "Sound"
-msgstr ""
-
-#: ui/guiutils.cpp:100
-msgid "Movie"
-msgstr ""
-
-#: ui/guiutils.cpp:112
-msgctxt "Unknown author"
-msgid "Unknown"
-msgstr ""
-
-#: ui/guiutils.cpp:155 ui/presentationwidget.cpp:323
-#, kde-format
-msgid "Author: %1"
-msgstr ""
-
-#: ui/guiutils.cpp:206 ui/propertiesdialog.cpp:218
-#, kde-format
-msgid "Where do you want to save %1?"
-msgstr ""
-
-#: ui/guiutils.cpp:215 ui/propertiesdialog.cpp:231
-#, kde-format
-msgid "Could not open \"%1\" for writing. File was not saved."
-msgstr ""
-
-#: ui/ktreeviewsearchline.cpp:461
-#, fuzzy
-#| msgid "Search Columns"
-msgid "Search Options"
-msgstr "W špaltach pytać"
-
-#: ui/ktreeviewsearchline.cpp:462
-msgctxt "Enable case sensitive search in the side navigation panels"
-msgid "Case Sensitive"
-msgstr ""
-
-#: ui/ktreeviewsearchline.cpp:465
-msgctxt "Enable regular expression search in the side navigation panels"
-msgid "Regular Expression"
-msgstr ""
-
-#: ui/ktreeviewsearchline.cpp:471
-msgid "Search Columns"
-msgstr "W špaltach pytać"
-
-#: ui/ktreeviewsearchline.cpp:473
-msgid "All Visible Columns"
-msgstr "Wšitke widźomne špalty"
-
-#: ui/ktreeviewsearchline.cpp:630
-msgid "S&earch:"
-msgstr "P&ytać:"
-
-#: ui/pageviewannotator.cpp:159
-msgid "Text of the new note:"
-msgstr ""
-
-#: ui/pageviewannotator.cpp:161
-msgid "New Text Note"
-msgstr ""
-
-#: ui/pageviewutils.cpp:409
-msgid "Close this message"
-msgstr ""
-
-#: ui/presentationsearchbar.cpp:64 ui/findbar.cpp:36
+#: ui/findbar.cpp:36 ui/presentationsearchbar.cpp:64
 msgid "Close"
 msgstr "Začinić"
-
-#: ui/presentationsearchbar.cpp:78
-msgid "Find Next"
-msgstr "Dale pytać"
-
-#: ui/propertiesdialog.cpp:44
-msgid "Unknown File"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:58
-msgid "No document opened."
-msgstr ""
-
-#: ui/propertiesdialog.cpp:64
-#, kde-format
-msgid "%1 Properties"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:107
-#, kde-format
-msgid "%1:"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:123
-msgid "&Fonts"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:146
-msgid "Reading font information..."
-msgstr ""
-
-#: ui/propertiesdialog.cpp:213
-msgctxt "@action:inmenu"
-msgid "&Extract Font"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:265
-msgid "Type 1"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:268
-msgid "Type 1C"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:271
-msgctxt "OT means OpenType"
-msgid "Type 1C (OT)"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:274
-msgid "Type 3"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:277
-msgid "TrueType"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:280
-msgctxt "OT means OpenType"
-msgid "TrueType (OT)"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:283
-msgid "CID Type 0"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:286
-msgid "CID Type 0C"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:289
-msgctxt "OT means OpenType"
-msgid "CID Type 0C (OT)"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:292
-msgid "CID TrueType"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:295
-msgctxt "OT means OpenType"
-msgid "CID TrueType (OT)"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:298
-msgid "TeX PK"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:301
-msgid "TeX virtual"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:304
-msgid "TeX Font Metric"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:307
-msgid "TeX FreeType-handled"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:310
-msgctxt "Unknown font type"
-msgid "Unknown"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:324
-msgid "Embedded (subset)"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:327
-msgid "Fully embedded"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:338
-msgid "No"
-msgstr "Ně"
-
-#: ui/propertiesdialog.cpp:341
-msgid "Yes (subset)"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:344
-msgid "Yes"
-msgstr "Haj"
-
-#: ui/propertiesdialog.cpp:363
-msgctxt "font name not available (empty)"
-msgid "[n/a]"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:378
-msgid "Unknown font"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:382
-#, kde-format
-msgid "Embedded: %1"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:415
-msgid "Name"
-msgstr "Mjeno"
-
-#: ui/propertiesdialog.cpp:416
-msgid "Type"
-msgstr ""
-
-#: ui/propertiesdialog.cpp:417
-msgid "File"
-msgstr "Dataja"
-
-#: ui/searchwidget.cpp:40
-msgid "Enter at least 3 letters to filter pages"
-msgstr ""
-
-#: ui/searchwidget.cpp:50
-msgid "Case Sensitive"
-msgstr ""
-
-#: ui/searchwidget.cpp:52
-msgid "Match Phrase"
-msgstr ""
-
-#: ui/searchwidget.cpp:53
-msgid "Match All Words"
-msgstr ""
-
-#: ui/searchwidget.cpp:54
-msgid "Match Any Word"
-msgstr ""
-
-#: ui/searchwidget.cpp:73
-msgid "Filter Options"
-msgstr ""
-
-#: ui/side_reviews.cpp:61
-msgid ""
-"<div align=center><h3>No annotations</h3>To create new annotations press F6 "
-"or select <i>Tools -&gt; Review</i> from the menu.</div>"
-msgstr ""
-
-#: ui/side_reviews.cpp:128
-msgid "Group by Page"
-msgstr ""
-
-#: ui/side_reviews.cpp:133
-msgid "Group by Author"
-msgstr ""
-
-#: ui/side_reviews.cpp:141
-msgid "Show reviews for current page only"
-msgstr ""
-
-#: ui/sidebar.cpp:664
-msgid "Show Text"
-msgstr ""
-
-#: ui/sidebar.cpp:680
-#, fuzzy
-msgid "Small Icons"
-msgstr "Jenož piktogramy"
-
-#: ui/sidebar.cpp:681
-msgid "Normal Icons"
-msgstr ""
-
-#: ui/sidebar.cpp:682
-#, fuzzy
-msgid "Large Icons"
-msgstr "Jenož piktogramy"
-
-#: ui/thumbnaillist.cpp:1014
-msgid "Show bookmarked pages only"
-msgstr ""
-
-#: ui/toolaction.cpp:21
-msgid "Selection Tools"
-msgstr ""
-
-#: ui/toolaction.cpp:71 ui/toolaction.cpp:83
-msgid ""
-"Click to use the current selection tool\n"
-"Click and hold to choose another selection tool"
-msgstr ""
-
-#: ui/tts.cpp:55
-#, kde-format
-msgid "Starting Jovie Text-to-Speech service Failed: %1"
-msgstr ""
-
-#: ui/videowidget.cpp:115
-msgctxt "start the movie playback"
-msgid "Play"
-msgstr ""
-
-#: ui/videowidget.cpp:120
-msgctxt "pause the movie playback"
-msgid "Pause"
-msgstr ""
-
-#: ui/videowidget.cpp:185
-msgctxt "stop the movie playback"
-msgid "Stop"
-msgstr ""
-
-#: ui/formwidgets.cpp:350 shell/shell.cpp:262
-#, fuzzy
-msgid "*|All Files"
-msgstr "Dataje"
 
 #: ui/findbar.cpp:40
 msgctxt "Find text"
@@ -1273,61 +985,43 @@ msgstr ""
 msgid "From current page"
 msgstr ""
 
+#: ui/formwidgets.cpp:350 shell/shell.cpp:262
+#, fuzzy
+msgid "*|All Files"
+msgstr "Dataje"
+
+#: ui/ktreeviewsearchline.cpp:461
+#, fuzzy
+#| msgid "Search Columns"
+msgid "Search Options"
+msgstr "W špaltach pytać"
+
+#: ui/ktreeviewsearchline.cpp:462
+msgctxt "Enable case sensitive search in the side navigation panels"
+msgid "Case Sensitive"
+msgstr ""
+
+#: ui/ktreeviewsearchline.cpp:465
+msgctxt "Enable regular expression search in the side navigation panels"
+msgid "Regular Expression"
+msgstr ""
+
+#: ui/ktreeviewsearchline.cpp:471
+msgid "Search Columns"
+msgstr "W špaltach pytać"
+
+#: ui/ktreeviewsearchline.cpp:473
+msgid "All Visible Columns"
+msgstr "Wšitke widźomne špalty"
+
+#: ui/ktreeviewsearchline.cpp:630
+msgid "S&earch:"
+msgstr "P&ytać:"
+
 #: ui/minibar.cpp:87
 msgctxt "Layouted like: '5 [pages] of 10'"
 msgid "of"
 msgstr ""
-
-#: ui/presentationwidget.cpp:142
-#, fuzzy, kde-format
-#| msgid "Presentation"
-msgctxt "[document title/filename] – Presentation"
-msgid "%1 – Presentation"
-msgstr "Prezentacija"
-
-#: ui/presentationwidget.cpp:184
-msgid "Switch Screen"
-msgstr ""
-
-#: ui/presentationwidget.cpp:191
-#, kde-format
-msgctxt "%1 is the screen number (0, 1, ...)"
-msgid "Screen %1"
-msgstr ""
-
-#: ui/presentationwidget.cpp:198
-msgid "Exit Presentation Mode"
-msgstr ""
-
-#: ui/presentationwidget.cpp:321
-#, kde-format
-msgid "Title: %1"
-msgstr ""
-
-#: ui/presentationwidget.cpp:325
-#, kde-format
-msgid "Pages: %1"
-msgstr ""
-
-#: ui/presentationwidget.cpp:326
-msgid "Click to begin"
-msgstr ""
-
-#: ui/presentationwidget.cpp:1275
-msgid ""
-"There are two ways of exiting presentation mode, you can press either ESC "
-"key or click with the quit button that appears when placing the mouse in the "
-"top-right corner. Of course you can cycle windows (Alt+TAB by default)"
-msgstr ""
-
-#: ui/presentationwidget.cpp:1397
-#, fuzzy
-#| msgid "End Presentation"
-msgctxt ""
-"Reason for inhibiting the screensaver activation, when the presentation mode "
-"is active"
-msgid "Giving a presentation"
-msgstr "Kónc prezentacije"
 
 #: ui/pageview.cpp:350
 msgid "Zoom"
@@ -1568,6 +1262,313 @@ msgstr ""
 
 #: ui/pageview.cpp:3544
 msgid "Please insert your name or initials:"
+msgstr ""
+
+#: ui/pageviewannotator.cpp:159
+msgid "Text of the new note:"
+msgstr ""
+
+#: ui/pageviewannotator.cpp:161
+msgid "New Text Note"
+msgstr ""
+
+#: ui/pageviewutils.cpp:409
+msgid "Close this message"
+msgstr ""
+
+#: ui/presentationsearchbar.cpp:78
+msgid "Find Next"
+msgstr "Dale pytać"
+
+#: ui/presentationwidget.cpp:142
+#, fuzzy, kde-format
+#| msgid "Presentation"
+msgctxt "[document title/filename] – Presentation"
+msgid "%1 – Presentation"
+msgstr "Prezentacija"
+
+#: ui/presentationwidget.cpp:184
+msgid "Switch Screen"
+msgstr ""
+
+#: ui/presentationwidget.cpp:191
+#, kde-format
+msgctxt "%1 is the screen number (0, 1, ...)"
+msgid "Screen %1"
+msgstr ""
+
+#: ui/presentationwidget.cpp:198
+msgid "Exit Presentation Mode"
+msgstr ""
+
+#: ui/presentationwidget.cpp:321
+#, kde-format
+msgid "Title: %1"
+msgstr ""
+
+#: ui/presentationwidget.cpp:325
+#, kde-format
+msgid "Pages: %1"
+msgstr ""
+
+#: ui/presentationwidget.cpp:326
+msgid "Click to begin"
+msgstr ""
+
+#: ui/presentationwidget.cpp:1275
+msgid ""
+"There are two ways of exiting presentation mode, you can press either ESC "
+"key or click with the quit button that appears when placing the mouse in the "
+"top-right corner. Of course you can cycle windows (Alt+TAB by default)"
+msgstr ""
+
+#: ui/presentationwidget.cpp:1397
+#, fuzzy
+#| msgid "End Presentation"
+msgctxt ""
+"Reason for inhibiting the screensaver activation, when the presentation mode "
+"is active"
+msgid "Giving a presentation"
+msgstr "Kónc prezentacije"
+
+#: ui/propertiesdialog.cpp:44
+msgid "Unknown File"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:58
+msgid "No document opened."
+msgstr ""
+
+#: ui/propertiesdialog.cpp:64
+#, kde-format
+msgid "%1 Properties"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:107
+#, kde-format
+msgid "%1:"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:123
+msgid "&Fonts"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:146
+msgid "Reading font information..."
+msgstr ""
+
+#: ui/propertiesdialog.cpp:213
+msgctxt "@action:inmenu"
+msgid "&Extract Font"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:265
+msgid "Type 1"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:268
+msgid "Type 1C"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:271
+msgctxt "OT means OpenType"
+msgid "Type 1C (OT)"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:274
+msgid "Type 3"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:277
+msgid "TrueType"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:280
+msgctxt "OT means OpenType"
+msgid "TrueType (OT)"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:283
+msgid "CID Type 0"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:286
+msgid "CID Type 0C"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:289
+msgctxt "OT means OpenType"
+msgid "CID Type 0C (OT)"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:292
+msgid "CID TrueType"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:295
+msgctxt "OT means OpenType"
+msgid "CID TrueType (OT)"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:298
+msgid "TeX PK"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:301
+msgid "TeX virtual"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:304
+msgid "TeX Font Metric"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:307
+msgid "TeX FreeType-handled"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:310
+msgctxt "Unknown font type"
+msgid "Unknown"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:324
+msgid "Embedded (subset)"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:327
+msgid "Fully embedded"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:338
+msgid "No"
+msgstr "Ně"
+
+#: ui/propertiesdialog.cpp:341
+msgid "Yes (subset)"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:344
+msgid "Yes"
+msgstr "Haj"
+
+#: ui/propertiesdialog.cpp:363
+msgctxt "font name not available (empty)"
+msgid "[n/a]"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:378
+msgid "Unknown font"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:382
+#, kde-format
+msgid "Embedded: %1"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:415
+msgid "Name"
+msgstr "Mjeno"
+
+#: ui/propertiesdialog.cpp:416
+msgid "Type"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:417
+msgid "File"
+msgstr "Dataja"
+
+#: ui/searchwidget.cpp:40
+msgid "Enter at least 3 letters to filter pages"
+msgstr ""
+
+#: ui/searchwidget.cpp:50
+msgid "Case Sensitive"
+msgstr ""
+
+#: ui/searchwidget.cpp:52
+msgid "Match Phrase"
+msgstr ""
+
+#: ui/searchwidget.cpp:53
+msgid "Match All Words"
+msgstr ""
+
+#: ui/searchwidget.cpp:54
+msgid "Match Any Word"
+msgstr ""
+
+#: ui/searchwidget.cpp:73
+msgid "Filter Options"
+msgstr ""
+
+#: ui/side_reviews.cpp:61
+msgid ""
+"<div align=center><h3>No annotations</h3>To create new annotations press F6 "
+"or select <i>Tools -&gt; Review</i> from the menu.</div>"
+msgstr ""
+
+#: ui/side_reviews.cpp:128
+msgid "Group by Page"
+msgstr ""
+
+#: ui/side_reviews.cpp:133
+msgid "Group by Author"
+msgstr ""
+
+#: ui/side_reviews.cpp:141
+msgid "Show reviews for current page only"
+msgstr ""
+
+#: ui/sidebar.cpp:664
+msgid "Show Text"
+msgstr ""
+
+#: ui/sidebar.cpp:680
+#, fuzzy
+msgid "Small Icons"
+msgstr "Jenož piktogramy"
+
+#: ui/sidebar.cpp:681
+msgid "Normal Icons"
+msgstr ""
+
+#: ui/sidebar.cpp:682
+#, fuzzy
+msgid "Large Icons"
+msgstr "Jenož piktogramy"
+
+#: ui/thumbnaillist.cpp:1014
+msgid "Show bookmarked pages only"
+msgstr ""
+
+#: ui/toolaction.cpp:21
+msgid "Selection Tools"
+msgstr ""
+
+#: ui/toolaction.cpp:71 ui/toolaction.cpp:83
+msgid ""
+"Click to use the current selection tool\n"
+"Click and hold to choose another selection tool"
+msgstr ""
+
+#: ui/tts.cpp:55
+#, kde-format
+msgid "Starting Jovie Text-to-Speech service Failed: %1"
+msgstr ""
+
+#: ui/videowidget.cpp:115
+msgctxt "start the movie playback"
+msgid "Play"
+msgstr ""
+
+#: ui/videowidget.cpp:120
+msgctxt "pause the movie playback"
+msgid "Pause"
+msgstr ""
+
+#: ui/videowidget.cpp:185
+msgctxt "stop the movie playback"
+msgid "Stop"
 msgstr ""
 
 #: shell/main.cpp:48
