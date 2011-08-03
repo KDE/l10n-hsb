@@ -8,16 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-19 15:59+0200\n"
+"POT-Creation-Date: 2011-08-03 07:53+0200\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.2\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%"
-"100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3;\n"
 "\n"
 
 #: attachmentdialog.cpp:36
@@ -506,52 +507,52 @@ msgstr ""
 msgid "Show Raw Message"
 msgstr "Dopósłana powěsć"
 
-#: objecttreeparser.cpp:1994 viewer_p.cpp:2567
+#: objecttreeparser.cpp:1994 viewer_p.cpp:2547
 msgid ""
 "Chiasmus backend does not offer the \"x-obtain-keys\" function. Please "
 "report this bug."
 msgstr ""
 
-#: objecttreeparser.cpp:2000 viewer_p.cpp:2569 viewer_p.cpp:2574
-#: viewer_p.cpp:2583 viewer_p.cpp:2592 viewer_p.cpp:2610 viewer_p.cpp:2622
-#: viewer_p.cpp:2662
+#: objecttreeparser.cpp:2000 viewer_p.cpp:2549 viewer_p.cpp:2554
+#: viewer_p.cpp:2563 viewer_p.cpp:2572 viewer_p.cpp:2590 viewer_p.cpp:2602
+#: viewer_p.cpp:2642
 msgid "Chiasmus Backend Error"
 msgstr ""
 
-#: objecttreeparser.cpp:2006 viewer_p.cpp:2580
+#: objecttreeparser.cpp:2006 viewer_p.cpp:2560
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-obtain-keys\" "
 "function did not return a string list. Please report this bug."
 msgstr ""
 
-#: objecttreeparser.cpp:2014 viewer_p.cpp:2589
+#: objecttreeparser.cpp:2014 viewer_p.cpp:2569
 msgid ""
 "No keys have been found. Please check that a valid key path has been set in "
 "the Chiasmus configuration."
 msgstr ""
 
-#: objecttreeparser.cpp:2020 viewer_p.cpp:2596
+#: objecttreeparser.cpp:2020 viewer_p.cpp:2576
 #, fuzzy
 msgid "Chiasmus Decryption Key Selection"
 msgstr "Šifrowanje"
 
-#: objecttreeparser.cpp:2033 viewer_p.cpp:2608
+#: objecttreeparser.cpp:2033 viewer_p.cpp:2588
 msgid ""
 "Chiasmus backend does not offer the \"x-decrypt\" function. Please report "
 "this bug."
 msgstr ""
 
-#: objecttreeparser.cpp:2041 viewer_p.cpp:2620
+#: objecttreeparser.cpp:2041 viewer_p.cpp:2600
 msgid ""
 "The \"x-decrypt\" function does not accept the expected parameters. Please "
 "report this bug."
 msgstr ""
 
-#: objecttreeparser.cpp:2047 viewer_p.cpp:2627 viewer_p.cpp:2654
+#: objecttreeparser.cpp:2047 viewer_p.cpp:2607 viewer_p.cpp:2634
 msgid "Chiasmus Decryption Error"
 msgstr ""
 
-#: objecttreeparser.cpp:2053 viewer_p.cpp:2659
+#: objecttreeparser.cpp:2053 viewer_p.cpp:2639
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-decrypt\" function "
 "did not return a byte array. Please report this bug."
@@ -862,110 +863,6 @@ msgstr "Špalta \"nječitane\""
 msgid "No description available"
 msgstr "Njesteji k dispoziciji"
 
-#: util.cpp:71
-#, fuzzy, kde-format
-msgid ""
-"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
-msgstr ""
-"Dataja %1 eksistuje?\n"
-"Chceće ju přepisać?"
-
-#: util.cpp:73
-#, fuzzy
-msgid "Overwrite File?"
-msgstr "Dataju zasunyć"
-
-#: util.cpp:166
-#, fuzzy
-msgid "Save Attachments To"
-msgstr "Přiwěšk zawěsćić jako"
-
-#: util.cpp:180
-msgctxt "filename for an unnamed attachment"
-msgid "attachment.1"
-msgstr ""
-
-#: util.cpp:185
-#, fuzzy
-#| msgid "Save Attachment As"
-msgid "Save Attachment"
-msgstr "Přiwěšk zawěsćić jako"
-
-#: util.cpp:205
-#, kde-format
-msgctxt "filename for the %1-th unnamed attachment"
-msgid "attachment.%1"
-msgstr ""
-
-#: util.cpp:244 util.cpp:253
-#, fuzzy, kde-format
-msgid ""
-"A file named <br><filename>%1</filename><br>already exists.<br><br>Do you "
-"want to overwrite it?"
-msgstr ""
-"Dataja %1 eksistuje?\n"
-"Chceće ju přepisać?"
-
-#: util.cpp:246 util.cpp:255
-msgid "File Already Exists"
-msgstr ""
-
-#: util.cpp:246 util.cpp:255
-msgid "&Overwrite"
-msgstr ""
-
-#: util.cpp:256
-#, fuzzy
-msgid "Overwrite &All"
-msgstr "Dataju zasunyć"
-
-#: util.cpp:288
-#, kde-format
-msgid ""
-"The part %1 of the message is encrypted. Do you want to keep the encryption "
-"when saving?"
-msgstr ""
-
-#: util.cpp:290 util.cpp:299
-#, fuzzy
-msgid "KMail Question"
-msgstr "KMail"
-
-#: util.cpp:290
-#, fuzzy
-msgid "Keep Encryption"
-msgstr "Šifrowanje"
-
-#: util.cpp:290 util.cpp:299
-#, fuzzy
-msgid "Do Not Keep"
-msgstr "Šifrowanje"
-
-#: util.cpp:297
-#, kde-format
-msgid ""
-"The part %1 of the message is signed. Do you want to keep the signature when "
-"saving?"
-msgstr ""
-
-#: util.cpp:299
-#, fuzzy
-msgid "Keep Signature"
-msgstr "&Signatura:"
-
-#: util.cpp:350 util.cpp:374 util.cpp:392
-#, fuzzy, kde-format
-msgctxt "1 = file name, 2 = error string"
-msgid "<qt>Could not write to the file<br><filename>%1</filename><br><br>%2"
-msgstr ""
-"Njemóžach do dataje pisać:\n"
-"%1"
-
-#: util.cpp:353 util.cpp:377 util.cpp:395
-#, fuzzy
-msgid "Error saving attachment"
-msgstr "Přiwěšk: "
-
 #: vcardviewer.cpp:48
 msgid "VCard Viewer"
 msgstr ""
@@ -989,6 +886,316 @@ msgstr "&Prjedawša powěsć"
 #, fuzzy
 msgid "Loading message..."
 msgstr "Přesuwam powěsć %3 z %2 wot %1."
+
+#: htmlstatusbar.cpp:113
+#, fuzzy
+msgctxt ""
+"'HTML Message' with html linebreaks between each letter and in bold text."
+msgid ""
+"<qt><b><br />H<br />T<br />M<br />L<br /> <br />M<br />e<br />s<br />s<br /"
+">a<br />g<br />e</b></qt>"
+msgstr "<b><br>H<br>T<br>M<br>L<br><br>p<br>o<br>w<br>ě<br>s<br>ć</b>"
+
+#: htmlstatusbar.cpp:117
+#, fuzzy
+msgctxt "'No HTML Message' with html linebreaks between each letter."
+msgid ""
+"<qt><br />N<br />o<br /> <br />H<br />T<br />M<br />L<br /> <br />M<br /"
+">e<br />s<br />s<br />a<br />g<br />e</qt>"
+msgstr "<b><br>H<br>T<br>M<br>L<br><br>p<br>o<br>w<br>ě<br>s<br>ć</b>"
+
+#: htmlstatusbar.cpp:122
+#, fuzzy
+msgctxt "'Plain Message' with html linebreaks between each letter."
+msgid ""
+"<qt><br />P<br />l<br />a<br />i<br />n<br /> <br />M<br />e<br />s<br /"
+">s<br />a<br />g<br />e<br /></qt>"
+msgstr "<b><br>H<br>T<br>M<br>L<br><br>p<br>o<br>w<br>ě<br>s<br>ć</b>"
+
+#: htmlstatusbar.cpp:136
+msgid "Click to toggle between HTML and plain text."
+msgstr ""
+
+#: urlhandlermanager.cpp:513
+msgid "Turn on HTML rendering for this message."
+msgstr "Zaswěć HTML, zo by tutu powěsć čitał."
+
+#: urlhandlermanager.cpp:515
+#, fuzzy
+msgid "Load external references from the Internet for this message."
+msgstr "Powěsćam dowolić, e&ksterne linki z interneta začitać"
+
+#: urlhandlermanager.cpp:517
+msgid "Work online."
+msgstr ""
+
+#: urlhandlermanager.cpp:519
+#, fuzzy
+#| msgid "&Encrypt Message"
+msgid "Decrypt message."
+msgstr "Šifrowanj&e"
+
+#: urlhandlermanager.cpp:521
+#, fuzzy
+#| msgid "No signature found"
+msgid "Show signature details."
+msgstr "Žana signatura"
+
+#: urlhandlermanager.cpp:523
+#, fuzzy
+#| msgid "Good signature."
+msgid "Hide signature details."
+msgstr "Signatura w porjadku."
+
+#: urlhandlermanager.cpp:525
+#, fuzzy
+msgid "Show attachment list."
+msgstr "Pokaž přiwěšk: "
+
+#: urlhandlermanager.cpp:527
+#, fuzzy
+#| msgid "Save Attachment As"
+msgid "Hide attachment list."
+msgstr "Přiwěšk zawěsćić jako"
+
+#: urlhandlermanager.cpp:529
+#, fuzzy
+#| msgid "[Details]"
+msgid "Show full \"To\" list"
+msgstr "[Nadrobnosće]"
+
+#: urlhandlermanager.cpp:531
+#, fuzzy
+#| msgid "[Details]"
+msgid "Hide full \"To\" list"
+msgstr "[Nadrobnosće]"
+
+#: urlhandlermanager.cpp:533
+#, fuzzy
+#| msgid "[Details]"
+msgid "Show full \"Cc\" list"
+msgstr "[Nadrobnosće]"
+
+#: urlhandlermanager.cpp:535
+#, fuzzy
+#| msgid "[Details]"
+msgid "Hide full \"Cc\" list"
+msgstr "[Nadrobnosće]"
+
+#: urlhandlermanager.cpp:570
+msgid "Expand all quoted text."
+msgstr ""
+
+#: urlhandlermanager.cpp:573
+msgid "Collapse quoted text."
+msgstr ""
+
+#: urlhandlermanager.cpp:637
+#, fuzzy
+msgid "Could not start certificate manager. Please check your installation."
+msgstr ""
+"Njemóžach certifikatowy manager startować. Prošu přepruwujće swoju "
+"instalaciju!"
+
+#: urlhandlermanager.cpp:639
+msgid "KMail Error"
+msgstr "Zmylk w kmailu"
+
+#: urlhandlermanager.cpp:649
+#, kde-format
+msgid "Show certificate 0x%1"
+msgstr "Pokaž certifikat 0x%1"
+
+#: urlhandlermanager.cpp:712
+#, fuzzy
+#| msgid "Open in Address Book"
+msgid "&Open in Address Book"
+msgstr "Wočinić w adresniku"
+
+#: urlhandlermanager.cpp:715
+#, fuzzy
+#| msgid "Email Address"
+msgid "&Copy Email Address"
+msgstr "emailowa adresa"
+
+#: urlhandlermanager.cpp:728 viewer_p.cpp:2415
+msgid "Address copied to clipboard."
+msgstr "Adresa bu do zapisnika kopěrowana."
+
+#: urlhandlermanager.cpp:740
+#, fuzzy
+#| msgid "Open in Address Book"
+msgid "Lookup the contact in KAddressbook"
+msgstr "Wočinić w adresniku"
+
+#: urlhandlermanager.cpp:844
+#, fuzzy, kde-format
+msgid "Attachment: %1"
+msgstr "Přiwěšk: "
+
+#: urlhandlermanager.cpp:847
+#, fuzzy, kde-format
+#| msgid "Encapsulated message"
+msgid "Encapsulated Message (Subject: %1)"
+msgstr "Zasunjena powěsć"
+
+#: urlhandlermanager.cpp:850
+#, fuzzy
+#| msgid "Encapsulated message"
+msgid "Encapsulated Message"
+msgstr "Zasunjena powěsć"
+
+#: urlhandlermanager.cpp:853
+#, fuzzy
+msgid "Unnamed attachment"
+msgstr "Přiwěšk: "
+
+#: urlhandlermanager.cpp:883
+msgid "Show GnuPG Audit Log for this operation"
+msgstr ""
+
+#: urlhandlermanager.cpp:919
+msgid "Opening URL..."
+msgstr "Wočinjam URL..."
+
+#: urlhandlermanager.cpp:928
+#, fuzzy, kde-format
+#| msgid "<qt>Do you really want to execute <b>%1</b>?</qt>"
+msgctxt "@info"
+msgid "Do you really want to execute <filename>%1</filename>?"
+msgstr "<qt>Chceće woprawdźe <b>%1</b> startować?</qt>"
+
+#: urlhandlermanager.cpp:929
+#, fuzzy
+msgid "Execute"
+msgstr "Wuwjedu předpřikaz %1"
+
+#: invitationsettings.cpp:98
+msgid ""
+"<qt>Invitations are normally sent as attachments to a mail. This switch "
+"changes the invitation mails to be sent in the text of the mail instead; "
+"this is necessary to send invitations and replies to Microsoft Outlook.<br /"
+">But, when you do this, you no longer get descriptive text that mail "
+"programs can read; so, to people who have email programs that do not "
+"understand the invitations, the resulting messages look very odd.<br /"
+">People that have email programs that do understand invitations will still "
+"be able to work with this.</qt>"
+msgstr ""
+
+#: util.cpp:76
+#, fuzzy, kde-format
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr ""
+"Dataja %1 eksistuje?\n"
+"Chceće ju přepisać?"
+
+#: util.cpp:78
+#, fuzzy
+msgid "Overwrite File?"
+msgstr "Dataju zasunyć"
+
+#: util.cpp:169
+#, fuzzy
+msgid "Save Attachments To"
+msgstr "Přiwěšk zawěsćić jako"
+
+#: util.cpp:183
+msgctxt "filename for an unnamed attachment"
+msgid "attachment.1"
+msgstr ""
+
+#: util.cpp:188
+#, fuzzy
+#| msgid "Save Attachment As"
+msgid "Save Attachment"
+msgstr "Přiwěšk zawěsćić jako"
+
+#: util.cpp:208
+#, kde-format
+msgctxt "filename for the %1-th unnamed attachment"
+msgid "attachment.%1"
+msgstr ""
+
+#: util.cpp:247 util.cpp:256
+#, fuzzy, kde-format
+msgid ""
+"A file named <br><filename>%1</filename><br>already exists.<br><br>Do you "
+"want to overwrite it?"
+msgstr ""
+"Dataja %1 eksistuje?\n"
+"Chceće ju přepisać?"
+
+#: util.cpp:249 util.cpp:258
+msgid "File Already Exists"
+msgstr ""
+
+#: util.cpp:249 util.cpp:258
+msgid "&Overwrite"
+msgstr ""
+
+#: util.cpp:259
+#, fuzzy
+msgid "Overwrite &All"
+msgstr "Dataju zasunyć"
+
+#: util.cpp:291
+#, kde-format
+msgid ""
+"The part %1 of the message is encrypted. Do you want to keep the encryption "
+"when saving?"
+msgstr ""
+
+#: util.cpp:293 util.cpp:302
+#, fuzzy
+msgid "KMail Question"
+msgstr "KMail"
+
+#: util.cpp:293
+#, fuzzy
+msgid "Keep Encryption"
+msgstr "Šifrowanje"
+
+#: util.cpp:293 util.cpp:302
+#, fuzzy
+msgid "Do Not Keep"
+msgstr "Šifrowanje"
+
+#: util.cpp:300
+#, kde-format
+msgid ""
+"The part %1 of the message is signed. Do you want to keep the signature when "
+"saving?"
+msgstr ""
+
+#: util.cpp:302
+#, fuzzy
+msgid "Keep Signature"
+msgstr "&Signatura:"
+
+#: util.cpp:353 util.cpp:377 util.cpp:395
+#, fuzzy, kde-format
+msgctxt "1 = file name, 2 = error string"
+msgid "<qt>Could not write to the file<br><filename>%1</filename><br><br>%2"
+msgstr ""
+"Njemóžach do dataje pisać:\n"
+"%1"
+
+#: util.cpp:356 util.cpp:380 util.cpp:398
+#, fuzzy
+msgid "Error saving attachment"
+msgstr "Přiwěšk: "
+
+#: util.cpp:426
+#, fuzzy
+msgid "Found no attachments to save."
+msgstr "Njepokazuje přiwěški w powěsći samej"
+
+#: util.cpp:446
+msgid ""
+"*.mbox|email messages (*.mbox)\n"
+"*|all files (*)"
+msgstr ""
 
 #: viewer_p.cpp:363
 msgid ""
@@ -1291,231 +1498,31 @@ msgstr "Powěsć jako prosty tekst"
 msgid "Attachments:"
 msgstr "&Přiwěški"
 
-#: viewer_p.cpp:2216 viewer_p.cpp:2228
-#, fuzzy
-msgid "Found no attachments to save."
-msgstr "Njepokazuje přiwěški w powěsći samej"
-
-#: viewer_p.cpp:2427 urlhandlermanager.cpp:728
-msgid "Address copied to clipboard."
-msgstr "Adresa bu do zapisnika kopěrowana."
-
-#: viewer_p.cpp:2432
+#: viewer_p.cpp:2420
 msgid "URL copied to clipboard."
 msgstr "URL do zapisknika kopěrowany."
 
-#: viewer_p.cpp:2721
+#: viewer_p.cpp:2701
 msgid "Hide full address list"
 msgstr ""
 
-#: viewer_p.cpp:2725
+#: viewer_p.cpp:2705
 #, fuzzy
 #| msgid "[Details]"
 msgid "Show full address list"
 msgstr "[Nadrobnosće]"
 
-#: viewer_p.cpp:2748
+#: viewer_p.cpp:2728
 #, fuzzy, kde-format
 #| msgid "Message was signed by %1."
 msgid "Message loading failed: %1."
 msgstr "Powěsć bu podpisana wot %1."
 
-#: viewer_p.cpp:2753
+#: viewer_p.cpp:2733
 #, fuzzy
 #| msgid "Message was signed by %1."
 msgid "Message not found."
 msgstr "Powěsć bu podpisana wot %1."
-
-#: htmlstatusbar.cpp:113
-#, fuzzy
-msgctxt ""
-"'HTML Message' with html linebreaks between each letter and in bold text."
-msgid ""
-"<qt><b><br />H<br />T<br />M<br />L<br /> <br />M<br />e<br />s<br />s<br /"
-">a<br />g<br />e</b></qt>"
-msgstr "<b><br>H<br>T<br>M<br>L<br><br>p<br>o<br>w<br>ě<br>s<br>ć</b>"
-
-#: htmlstatusbar.cpp:117
-#, fuzzy
-msgctxt "'No HTML Message' with html linebreaks between each letter."
-msgid ""
-"<qt><br />N<br />o<br /> <br />H<br />T<br />M<br />L<br /> <br />M<br /"
-">e<br />s<br />s<br />a<br />g<br />e</qt>"
-msgstr "<b><br>H<br>T<br>M<br>L<br><br>p<br>o<br>w<br>ě<br>s<br>ć</b>"
-
-#: htmlstatusbar.cpp:122
-#, fuzzy
-msgctxt "'Plain Message' with html linebreaks between each letter."
-msgid ""
-"<qt><br />P<br />l<br />a<br />i<br />n<br /> <br />M<br />e<br />s<br /"
-">s<br />a<br />g<br />e<br /></qt>"
-msgstr "<b><br>H<br>T<br>M<br>L<br><br>p<br>o<br>w<br>ě<br>s<br>ć</b>"
-
-#: htmlstatusbar.cpp:136
-msgid "Click to toggle between HTML and plain text."
-msgstr ""
-
-#: urlhandlermanager.cpp:513
-msgid "Turn on HTML rendering for this message."
-msgstr "Zaswěć HTML, zo by tutu powěsć čitał."
-
-#: urlhandlermanager.cpp:515
-#, fuzzy
-msgid "Load external references from the Internet for this message."
-msgstr "Powěsćam dowolić, e&ksterne linki z interneta začitać"
-
-#: urlhandlermanager.cpp:517
-msgid "Work online."
-msgstr ""
-
-#: urlhandlermanager.cpp:519
-#, fuzzy
-#| msgid "&Encrypt Message"
-msgid "Decrypt message."
-msgstr "Šifrowanj&e"
-
-#: urlhandlermanager.cpp:521
-#, fuzzy
-#| msgid "No signature found"
-msgid "Show signature details."
-msgstr "Žana signatura"
-
-#: urlhandlermanager.cpp:523
-#, fuzzy
-#| msgid "Good signature."
-msgid "Hide signature details."
-msgstr "Signatura w porjadku."
-
-#: urlhandlermanager.cpp:525
-#, fuzzy
-msgid "Show attachment list."
-msgstr "Pokaž přiwěšk: "
-
-#: urlhandlermanager.cpp:527
-#, fuzzy
-#| msgid "Save Attachment As"
-msgid "Hide attachment list."
-msgstr "Přiwěšk zawěsćić jako"
-
-#: urlhandlermanager.cpp:529
-#, fuzzy
-#| msgid "[Details]"
-msgid "Show full \"To\" list"
-msgstr "[Nadrobnosće]"
-
-#: urlhandlermanager.cpp:531
-#, fuzzy
-#| msgid "[Details]"
-msgid "Hide full \"To\" list"
-msgstr "[Nadrobnosće]"
-
-#: urlhandlermanager.cpp:533
-#, fuzzy
-#| msgid "[Details]"
-msgid "Show full \"Cc\" list"
-msgstr "[Nadrobnosće]"
-
-#: urlhandlermanager.cpp:535
-#, fuzzy
-#| msgid "[Details]"
-msgid "Hide full \"Cc\" list"
-msgstr "[Nadrobnosće]"
-
-#: urlhandlermanager.cpp:570
-msgid "Expand all quoted text."
-msgstr ""
-
-#: urlhandlermanager.cpp:573
-msgid "Collapse quoted text."
-msgstr ""
-
-#: urlhandlermanager.cpp:637
-#, fuzzy
-msgid "Could not start certificate manager. Please check your installation."
-msgstr ""
-"Njemóžach certifikatowy manager startować. Prošu přepruwujće swoju "
-"instalaciju!"
-
-#: urlhandlermanager.cpp:639
-msgid "KMail Error"
-msgstr "Zmylk w kmailu"
-
-#: urlhandlermanager.cpp:649
-#, kde-format
-msgid "Show certificate 0x%1"
-msgstr "Pokaž certifikat 0x%1"
-
-#: urlhandlermanager.cpp:712
-#, fuzzy
-#| msgid "Open in Address Book"
-msgid "&Open in Address Book"
-msgstr "Wočinić w adresniku"
-
-#: urlhandlermanager.cpp:715
-#, fuzzy
-#| msgid "Email Address"
-msgid "&Copy Email Address"
-msgstr "emailowa adresa"
-
-#: urlhandlermanager.cpp:740
-#, fuzzy
-#| msgid "Open in Address Book"
-msgid "Lookup the contact in KAddressbook"
-msgstr "Wočinić w adresniku"
-
-#: urlhandlermanager.cpp:844
-#, fuzzy, kde-format
-msgid "Attachment: %1"
-msgstr "Přiwěšk: "
-
-#: urlhandlermanager.cpp:847
-#, fuzzy, kde-format
-#| msgid "Encapsulated message"
-msgid "Encapsulated Message (Subject: %1)"
-msgstr "Zasunjena powěsć"
-
-#: urlhandlermanager.cpp:850
-#, fuzzy
-#| msgid "Encapsulated message"
-msgid "Encapsulated Message"
-msgstr "Zasunjena powěsć"
-
-#: urlhandlermanager.cpp:853
-#, fuzzy
-msgid "Unnamed attachment"
-msgstr "Přiwěšk: "
-
-#: urlhandlermanager.cpp:883
-msgid "Show GnuPG Audit Log for this operation"
-msgstr ""
-
-#: urlhandlermanager.cpp:919
-msgid "Opening URL..."
-msgstr "Wočinjam URL..."
-
-#: urlhandlermanager.cpp:928
-#, fuzzy, kde-format
-#| msgid "<qt>Do you really want to execute <b>%1</b>?</qt>"
-msgctxt "@info"
-msgid "Do you really want to execute <filename>%1</filename>?"
-msgstr "<qt>Chceće woprawdźe <b>%1</b> startować?</qt>"
-
-#: urlhandlermanager.cpp:929
-#, fuzzy
-msgid "Execute"
-msgstr "Wuwjedu předpřikaz %1"
-
-#: invitationsettings.cpp:98
-msgid ""
-"<qt>Invitations are normally sent as attachments to a mail. This switch "
-"changes the invitation mails to be sent in the text of the mail instead; "
-"this is necessary to send invitations and replies to Microsoft Outlook.<br /"
-">But, when you do this, you no longer get descriptive text that mail "
-"programs can read; so, to people who have email programs that do not "
-"understand the invitations, the resulting messages look very odd.<br /"
-">People that have email programs that do understand invitations will still "
-"be able to work with this.</qt>"
-msgstr ""
 
 #. i18n: file: invitationsettings.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
@@ -3882,23 +3889,23 @@ msgstr "Wužiwaj &kodowanje"
 #~| "li><li>dd - the day as a number with a leading zero (01-31)</li><li>ddd "
 #~| "- the abbreviated day name (Mon - Sun)</li><li>dddd - the long day name "
 #~| "(Monday - Sunday)</li><li>M - the month as a number without a leading "
-#~| "zero (1-12)</li><li>MM - the month as a number with a leading zero (01-"
-#~| "12)</li><li>MMM - the abbreviated month name (Jan - Dec)</li><li>MMMM - "
-#~| "the long month name (January - December)</li><li>yy - the year as a two "
-#~| "digit number (00-99)</li><li>yyyy - the year as a four digit number "
-#~| "(0000-9999)</li></ul><p><strong>These expressions may be used for the "
-#~| "time:</string></p> <ul><li>h - the hour without a leading zero (0-23 or "
-#~| "1-12 if AM/PM display)</li><li>hh - the hour with a leading zero (00-23 "
-#~| "or 01-12 if AM/PM display)</li><li>m - the minutes without a leading "
-#~| "zero (0-59)</li><li>mm - the minutes with a leading zero (00-59)</"
-#~| "li><li>s - the seconds without a leading zero (0-59)</li><li>ss - the "
-#~| "seconds with a leading zero (00-59)</li><li>z - the milliseconds without "
-#~| "leading zeroes (0-999)</li><li>zzz - the milliseconds with leading "
-#~| "zeroes (000-999)</li><li>AP - switch to AM/PM display. AP will be "
-#~| "replaced by either \"AM\" or \"PM\".</li><li>ap - switch to AM/PM "
-#~| "display. ap will be replaced by either \"am\" or \"pm\".</li><li>Z - "
-#~| "time zone in numeric form (-0500)</li></ul><p><strong>All other input "
-#~| "characters will be ignored.</strong></p></qt>"
+#~| "zero (1-12)</li><li>MM - the month as a number with a leading zero "
+#~| "(01-12)</li><li>MMM - the abbreviated month name (Jan - Dec)</"
+#~| "li><li>MMMM - the long month name (January - December)</li><li>yy - the "
+#~| "year as a two digit number (00-99)</li><li>yyyy - the year as a four "
+#~| "digit number (0000-9999)</li></ul><p><strong>These expressions may be "
+#~| "used for the time:</string></p> <ul><li>h - the hour without a leading "
+#~| "zero (0-23 or 1-12 if AM/PM display)</li><li>hh - the hour with a "
+#~| "leading zero (00-23 or 01-12 if AM/PM display)</li><li>m - the minutes "
+#~| "without a leading zero (0-59)</li><li>mm - the minutes with a leading "
+#~| "zero (00-59)</li><li>s - the seconds without a leading zero (0-59)</"
+#~| "li><li>ss - the seconds with a leading zero (00-59)</li><li>z - the "
+#~| "milliseconds without leading zeroes (0-999)</li><li>zzz - the "
+#~| "milliseconds with leading zeroes (000-999)</li><li>AP - switch to AM/PM "
+#~| "display. AP will be replaced by either \"AM\" or \"PM\".</li><li>ap - "
+#~| "switch to AM/PM display. ap will be replaced by either \"am\" or \"pm\"."
+#~| "</li><li>Z - time zone in numeric form (-0500)</li></ul><p><strong>All "
+#~| "other input characters will be ignored.</strong></p></qt>"
 #~ msgid ""
 #~ "<qt><p><strong>These expressions may be used for the date:</strong></"
 #~ "p><ul><li>d - the day as a number without a leading zero (1-31)</"
@@ -3934,12 +3941,12 @@ msgstr "Wužiwaj &kodowanje"
 #~ "(0000-9999)</li></ul> <p><strong>Tute wurazy móža so za podaća datuma "
 #~ "wužiwać:</strong></p> <ul> <li>h - hodźiny bjez nule na spočatku (0-23 "
 #~ "abo 1-12 + rano/popołdnju)</li><li>hh - hodźiny z nul na spočatku (00-23 "
-#~ "abo 01-12 + rano/popołdnju)</li><li>m - mjeńšiny bjez nule na spočatku (0-"
-#~ "59)</li><li>mm - mjeńšiny z nulu na spočatku (00-59)</li><li>s - sekundy "
-#~ "bjez nule na spočatku (0-59)</li><li>ss - sekundy z nulu na spočatku (00-"
-#~ "59)</li><li>z - milisekundy bjez nule na spočatku (0-999)</li><li>zzz - "
-#~ "milisekundy z nulu na spočatku (000-999)</li> <li>AP/ap - pokaž rano/"
-#~ "popołdnju <li>Z - časowa cona w numeriskej formje (-500)</li></"
+#~ "abo 01-12 + rano/popołdnju)</li><li>m - mjeńšiny bjez nule na spočatku "
+#~ "(0-59)</li><li>mm - mjeńšiny z nulu na spočatku (00-59)</li><li>s - "
+#~ "sekundy bjez nule na spočatku (0-59)</li><li>ss - sekundy z nulu na "
+#~ "spočatku (00-59)</li><li>z - milisekundy bjez nule na spočatku (0-999)</"
+#~ "li><li>zzz - milisekundy z nulu na spočatku (000-999)</li> <li>AP/ap - "
+#~ "pokaž rano/popołdnju <li>Z - časowa cona w numeriskej formje (-500)</li></"
 #~ "ul><p><strong>Wšitke druhe zapodate pismiki so ignoruja.</strong></p></"
 #~ "qt></qt>"
 
@@ -6419,8 +6426,8 @@ msgstr "Wužiwaj &kodowanje"
 #~ msgid ""
 #~ "<b>WARNING:</b> Allowing HTML in email may increase the risk that your "
 #~ "system will be compromised by present and anticipated security exploits. "
-#~ "<a href=\"whatsthis1\">More about HTML mails...</a> <a href=\"whatsthis2"
-#~ "\">More about external references...</a>"
+#~ "<a href=\"whatsthis1\">More about HTML mails...</a> <a href="
+#~ "\"whatsthis2\">More about external references...</a>"
 #~ msgstr ""
 #~ "<qt><b>KEDŹBU:</b>HTML w powěsćach dowolić je strašne, dokelž riziko "
 #~ "rosće, zo hodźa so wěstotne dźěry wot złowólnych programow zwužitkować. "
@@ -7489,8 +7496,8 @@ msgstr "Wužiwaj &kodowanje"
 #, fuzzy
 #~ msgctxt ""
 #~ "%1: KMail version; %2: help:// URL; %3: homepage URL; %4: generated list "
-#~ "of new features; %5: First-time user text (only shown on first start); %"
-#~ "6: generated list of important changes; --- end of comment ---"
+#~ "of new features; %5: First-time user text (only shown on first start); "
+#~ "%6: generated list of important changes; --- end of comment ---"
 #~ msgid ""
 #~ "<h2 style='margin-top: 0px;'>Welcome to KMail %1</h2><p>KMail is the "
 #~ "email client for the K Desktop Environment. It is designed to be fully "
