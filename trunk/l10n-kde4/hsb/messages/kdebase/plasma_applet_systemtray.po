@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-04 02:45+0200\n"
+"POT-Creation-Date: 2011-08-05 03:51+0200\n"
 "PO-Revision-Date: 2008-11-22 12:27+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -18,33 +18,43 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
-#: ui/applet.cpp:428
+#: ui/taskarea.cpp:514
+#, fuzzy
+#| msgid "Visible icons:"
+msgid "Hide icons"
+msgstr "Widźomne piktogramy:"
+
+#: ui/taskarea.cpp:516
+msgid "Show hidden icons"
+msgstr ""
+
+#: ui/applet.cpp:429
 msgid "Display"
 msgstr ""
 
-#: ui/applet.cpp:430
+#: ui/applet.cpp:431
 msgid "Choose which information to show"
 msgstr ""
 
-#: ui/applet.cpp:431
+#: ui/applet.cpp:432
 msgid "Entries"
 msgstr ""
 
-#: ui/applet.cpp:491
+#: ui/applet.cpp:492
 #, fuzzy
 #| msgid "&Auto Skip"
 msgctxt "Item will be automatically shown or hidden from the systray"
 msgid "Auto"
 msgstr "&Awtomatisce přeskočić"
 
-#: ui/applet.cpp:492
+#: ui/applet.cpp:493
 #, fuzzy
 #| msgid "Hidden icons:"
 msgctxt "Item is never visible in the systray"
 msgid "Hidden"
 msgstr "Schowane piktogramy:"
 
-#: ui/applet.cpp:493
+#: ui/applet.cpp:494
 msgctxt "Item is always visible in the systray"
 msgid "Always Visible"
 msgstr ""
@@ -91,16 +101,6 @@ msgctxt ""
 "Extra items to be manually added in the systray, such as little Plasma "
 "widgets"
 msgid "Extra Items"
-msgstr ""
-
-#: ui/taskarea.cpp:514
-#, fuzzy
-#| msgid "Visible icons:"
-msgid "Hide icons"
-msgstr "Widźomne piktogramy:"
-
-#: ui/taskarea.cpp:516
-msgid "Show hidden icons"
 msgstr ""
 
 #. i18n: file: ui/autohide.ui:39
