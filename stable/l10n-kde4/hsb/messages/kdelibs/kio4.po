@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-03 07:51+0200\n"
+"POT-Creation-Date: 2011-08-07 11:41+0200\n"
 "PO-Revision-Date: 2008-11-17 23:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -126,14 +126,6 @@ msgstr "Lubuški"
 msgid "*.adr|Opera Bookmark Files (*.adr)"
 msgstr "*.adr|lubuški Opery (*.adr)"
 
-#: bookmarks/kbookmarkmanager.cc:443
-#, kde-format
-msgid ""
-"Unable to save bookmarks in %1. Reported error was: %2. This error message "
-"will only be shown once. The cause of the error needs to be fixed as quickly "
-"as possible, which is most likely a full hard drive."
-msgstr ""
-
 #: bookmarks/kbookmarkmenu.cc:267
 msgid "Add Bookmark Here"
 msgstr "Tule k lubuškam dodać "
@@ -235,9 +227,39 @@ msgstr ""
 msgid "Open in New Tab"
 msgstr ""
 
+#: bookmarks/kbookmarkmanager.cc:443
+#, kde-format
+msgid ""
+"Unable to save bookmarks in %1. Reported error was: %2. This error message "
+"will only be shown once. The cause of the error needs to be fixed as quickly "
+"as possible, which is most likely a full hard drive."
+msgstr ""
+
 #: httpfilter/httpfilter.cc:179
 msgid "Receiving corrupt data."
 msgstr "Dóstawam skóncowane daty."
+
+#: kfile/kdevicelistmodel.cpp:116
+msgid "Device name"
+msgstr "Mjeno grata"
+
+#: kfile/kurlrequesterdialog.cpp:58 kfile/kpropertiesdialog.cpp:984
+msgid "Location:"
+msgstr "Městno:"
+
+#: kfile/kurlrequesterdialog.cpp:128 kfile/kicondialog.cpp:693
+#: kfile/kencodingfiledialog.cpp:106 kfile/kencodingfiledialog.cpp:124
+#: kfile/kencodingfiledialog.cpp:139 kfile/kencodingfiledialog.cpp:157
+#: kfile/kfiledialog.cpp:480 kfile/kfiledialog.cpp:490
+#: kfile/kfiledialog.cpp:511 kfile/kfiledialog.cpp:535
+#: kfile/kfiledialog.cpp:545 kfile/kfiledialog.cpp:571
+#: kfile/kfiledialog.cpp:603 kfile/kfiledialog.cpp:658
+msgid "Open"
+msgstr "Wočinić"
+
+#: kfile/kfilemetainfowidget.cpp:163
+msgid "<Error>"
+msgstr "<Zmylk>"
 
 #: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
 msgid "Owner"
@@ -335,28 +357,6 @@ msgstr "x"
 #: kfile/kacleditwidget.cpp:630
 msgid "Effective"
 msgstr "efektiwny"
-
-#: kfile/kdevicelistmodel.cpp:116
-msgid "Device name"
-msgstr "Mjeno grata"
-
-#: kfile/kurlrequesterdialog.cpp:58 kfile/kpropertiesdialog.cpp:984
-msgid "Location:"
-msgstr "Městno:"
-
-#: kfile/kurlrequesterdialog.cpp:128 kfile/kencodingfiledialog.cpp:106
-#: kfile/kencodingfiledialog.cpp:124 kfile/kencodingfiledialog.cpp:139
-#: kfile/kencodingfiledialog.cpp:157 kfile/kfiledialog.cpp:480
-#: kfile/kfiledialog.cpp:490 kfile/kfiledialog.cpp:511
-#: kfile/kfiledialog.cpp:535 kfile/kfiledialog.cpp:545
-#: kfile/kfiledialog.cpp:571 kfile/kfiledialog.cpp:603
-#: kfile/kfiledialog.cpp:658 kfile/kicondialog.cpp:693
-msgid "Open"
-msgstr "Wočinić"
-
-#: kfile/kfilemetainfowidget.cpp:163
-msgid "<Error>"
-msgstr "<Zmylk>"
 
 #: kfile/kmetaprops.cpp:57
 msgctxt "@title:window"
@@ -709,6 +709,89 @@ msgstr ""
 msgid "P&review"
 msgstr "Pře&hladka"
 
+#: kfile/kicondialog.cpp:336 kfile/kicondialog.cpp:348
+msgid "Select Icon"
+msgstr "Wubjerće piktogram"
+
+#: kfile/kicondialog.cpp:369
+msgid "Icon Source"
+msgstr "Žórło piktograma"
+
+#: kfile/kicondialog.cpp:378
+msgid "S&ystem icons:"
+msgstr "&Systemowe piktogramy:"
+
+#: kfile/kicondialog.cpp:385
+msgid "O&ther icons:"
+msgstr "&Hewaše piktogramy:"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:121
+#. i18n: ectx: property (text), widget (QPushButton, browseButton)
+#: kfile/kicondialog.cpp:388 rc.cpp:134
+msgid "&Browse..."
+msgstr "&Přelistuj..."
+
+#: kfile/kicondialog.cpp:399
+msgid "&Search:"
+msgstr "&Pytać:"
+
+#: kfile/kicondialog.cpp:406
+msgid "Search interactively for icon names (e.g. folder)."
+msgstr "Pyta interaktiwnje za mjenami piktogramow (na př. zapisk)."
+
+#: kfile/kicondialog.cpp:437
+msgid "Actions"
+msgstr "Akcije"
+
+#: kfile/kicondialog.cpp:438
+msgid "Animations"
+msgstr "Animacije"
+
+#: kfile/kicondialog.cpp:439
+msgid "Applications"
+msgstr "Programy"
+
+#: kfile/kicondialog.cpp:440
+msgid "Categories"
+msgstr "Kategorije"
+
+#: kfile/kicondialog.cpp:441
+msgid "Devices"
+msgstr "Graty"
+
+#: kfile/kicondialog.cpp:442
+msgid "Emblems"
+msgstr "Emblemy"
+
+#: kfile/kicondialog.cpp:443
+msgid "Emotes"
+msgstr "Emotikony"
+
+#: kfile/kicondialog.cpp:444
+msgid "Filesystems"
+msgstr "Datajowe systemy"
+
+#: kfile/kicondialog.cpp:445
+msgid "International"
+msgstr "Mjezynarodny"
+
+#: kfile/kicondialog.cpp:446
+msgid "Mimetypes"
+msgstr "Mime-družiny"
+
+#: kfile/kicondialog.cpp:447
+msgid "Places"
+msgstr "Městna"
+
+#: kfile/kicondialog.cpp:448
+msgid "Status"
+msgstr "Status"
+
+#: kfile/kicondialog.cpp:691
+msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
+msgstr ""
+"*.png *.xpm *.svg *.svgz|piktogramowe dataje (*.png *.xpm *.svg *.svgz)"
+
 #: kfile/kurlrequester.cpp:246
 msgid "Open file dialog"
 msgstr "Dialog za wočinjenje dataje"
@@ -921,89 +1004,6 @@ msgid ""
 "An error occurred while trying to unshare folder '%1'. Make sure that the "
 "Perl script 'fileshareset' is set suid root."
 msgstr ""
-
-#: kfile/kicondialog.cpp:336 kfile/kicondialog.cpp:348
-msgid "Select Icon"
-msgstr "Wubjerće piktogram"
-
-#: kfile/kicondialog.cpp:369
-msgid "Icon Source"
-msgstr "Žórło piktograma"
-
-#: kfile/kicondialog.cpp:378
-msgid "S&ystem icons:"
-msgstr "&Systemowe piktogramy:"
-
-#: kfile/kicondialog.cpp:385
-msgid "O&ther icons:"
-msgstr "&Hewaše piktogramy:"
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:121
-#. i18n: ectx: property (text), widget (QPushButton, browseButton)
-#: kfile/kicondialog.cpp:388 rc.cpp:134
-msgid "&Browse..."
-msgstr "&Přelistuj..."
-
-#: kfile/kicondialog.cpp:399
-msgid "&Search:"
-msgstr "&Pytać:"
-
-#: kfile/kicondialog.cpp:406
-msgid "Search interactively for icon names (e.g. folder)."
-msgstr "Pyta interaktiwnje za mjenami piktogramow (na př. zapisk)."
-
-#: kfile/kicondialog.cpp:437
-msgid "Actions"
-msgstr "Akcije"
-
-#: kfile/kicondialog.cpp:438
-msgid "Animations"
-msgstr "Animacije"
-
-#: kfile/kicondialog.cpp:439
-msgid "Applications"
-msgstr "Programy"
-
-#: kfile/kicondialog.cpp:440
-msgid "Categories"
-msgstr "Kategorije"
-
-#: kfile/kicondialog.cpp:441
-msgid "Devices"
-msgstr "Graty"
-
-#: kfile/kicondialog.cpp:442
-msgid "Emblems"
-msgstr "Emblemy"
-
-#: kfile/kicondialog.cpp:443
-msgid "Emotes"
-msgstr "Emotikony"
-
-#: kfile/kicondialog.cpp:444
-msgid "Filesystems"
-msgstr "Datajowe systemy"
-
-#: kfile/kicondialog.cpp:445
-msgid "International"
-msgstr "Mjezynarodny"
-
-#: kfile/kicondialog.cpp:446
-msgid "Mimetypes"
-msgstr "Mime-družiny"
-
-#: kfile/kicondialog.cpp:447
-msgid "Places"
-msgstr "Městna"
-
-#: kfile/kicondialog.cpp:448
-msgid "Status"
-msgstr "Status"
-
-#: kfile/kicondialog.cpp:691
-msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
-msgstr ""
-"*.png *.xpm *.svg *.svgz|piktogramowe dataje (*.png *.xpm *.svg *.svgz)"
 
 #: kfile/kopenwithdialog.cpp:268
 msgid "Known Applications"
@@ -5672,13 +5672,13 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:525 ../kioslave/http/http.cpp:3360
+#: ../kioslave/ftp/ftp.cpp:525 ../kioslave/http/http.cpp:3344
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Dyrbiće mjeno wužiwarja a hesło podać, zo byšće k tutomu serwerej přistup "
 "dóstali."
 
-#: ../kioslave/ftp/ftp.cpp:527 ../kioslave/http/http.cpp:3362
+#: ../kioslave/ftp/ftp.cpp:527 ../kioslave/http/http.cpp:3346
 msgid "Site:"
 msgstr "Server:"
 
@@ -5890,76 +5890,76 @@ msgstr "Wšitke placki zničić."
 msgid "Reload configuration file"
 msgstr "Konfiguracisku dataju nowa začitać."
 
-#: ../kioslave/http/http.cpp:622
+#: ../kioslave/http/http.cpp:606
 msgid "No host specified."
 msgstr "Žadyn server specifikowany."
 
-#: ../kioslave/http/http.cpp:1503
+#: ../kioslave/http/http.cpp:1487
 #, fuzzy
 #| msgid "The specified resource may not exist."
 msgid "The resource cannot be deleted."
 msgstr "pominana resursa snano njeeksistuje."
 
-#: ../kioslave/http/http.cpp:1624
+#: ../kioslave/http/http.cpp:1608
 msgid "Otherwise, the request would have succeeded."
 msgstr "Hewak by so poradźiło."
 
-#: ../kioslave/http/http.cpp:1628
+#: ../kioslave/http/http.cpp:1612
 msgctxt "request type"
 msgid "retrieve property values"
 msgstr "hódnoty atributow wobstarać"
 
-#: ../kioslave/http/http.cpp:1631
+#: ../kioslave/http/http.cpp:1615
 msgctxt "request type"
 msgid "set property values"
 msgstr "hódnoty atributow postajić"
 
-#: ../kioslave/http/http.cpp:1634
+#: ../kioslave/http/http.cpp:1618
 msgctxt "request type"
 msgid "create the requested folder"
 msgstr "trěbny zapisk stworić"
 
-#: ../kioslave/http/http.cpp:1637
+#: ../kioslave/http/http.cpp:1621
 msgctxt "request type"
 msgid "copy the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk kopěrować"
 
-#: ../kioslave/http/http.cpp:1640
+#: ../kioslave/http/http.cpp:1624
 msgctxt "request type"
 msgid "move the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk přesunyć"
 
-#: ../kioslave/http/http.cpp:1643
+#: ../kioslave/http/http.cpp:1627
 msgctxt "request type"
 msgid "search in the specified folder"
 msgstr "we wotpowědnym zapisku pytać"
 
-#: ../kioslave/http/http.cpp:1646
+#: ../kioslave/http/http.cpp:1630
 msgctxt "request type"
 msgid "lock the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk zamknyć"
 
-#: ../kioslave/http/http.cpp:1649
+#: ../kioslave/http/http.cpp:1633
 msgctxt "request type"
 msgid "unlock the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk wotamknyć"
 
-#: ../kioslave/http/http.cpp:1652
+#: ../kioslave/http/http.cpp:1636
 msgctxt "request type"
 msgid "delete the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk zničić"
 
-#: ../kioslave/http/http.cpp:1655
+#: ../kioslave/http/http.cpp:1639
 msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr "so za móžnosćemi servera woprašeć"
 
-#: ../kioslave/http/http.cpp:1658
+#: ../kioslave/http/http.cpp:1642
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
 msgstr "wobsah wotpowědneje dataje abo zapiska dóstać"
 
-#: ../kioslave/http/http.cpp:1661
+#: ../kioslave/http/http.cpp:1645
 #, fuzzy
 #| msgctxt "request type"
 #| msgid "search in the specified folder"
@@ -5967,17 +5967,17 @@ msgctxt "request type"
 msgid "run a report in the specified folder"
 msgstr "we wotpowědnym zapisku pytać"
 
-#: ../kioslave/http/http.cpp:1672
+#: ../kioslave/http/http.cpp:1656
 #, kde-format
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
 
-#: ../kioslave/http/http.cpp:1680
+#: ../kioslave/http/http.cpp:1664
 msgid "The server does not support the WebDAV protocol."
 msgstr "Tutón server WebDAV njepodpěruje."
 
-#: ../kioslave/http/http.cpp:1722
+#: ../kioslave/http/http.cpp:1706
 #, kde-format
 msgctxt "%1: request type, %2: url"
 msgid ""
@@ -5985,17 +5985,17 @@ msgid ""
 "below."
 msgstr "Zmylk je so stał při pospyće %1, %2. Zjeće přičin namakaće deleka."
 
-#: ../kioslave/http/http.cpp:1736 ../kioslave/http/http.cpp:1834
+#: ../kioslave/http/http.cpp:1720 ../kioslave/http/http.cpp:1818
 #, kde-format
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr "Přistup bu wotpokazany, jako spytach %1."
 
-#: ../kioslave/http/http.cpp:1742
+#: ../kioslave/http/http.cpp:1726
 msgid "The specified folder already exists."
 msgstr "Specifikowany zapisk hižo eksistuje."
 
-#: ../kioslave/http/http.cpp:1748 ../kioslave/http/http.cpp:1839
+#: ../kioslave/http/http.cpp:1732 ../kioslave/http/http.cpp:1823
 msgid ""
 "A resource cannot be created at the destination until one or more "
 "intermediate collections (folders) have been created."
@@ -6003,7 +6003,7 @@ msgstr ""
 "Resursa njehodźi so na tutym městnje wutworić, doniž njebu žadyn zapisk "
 "stworjeny."
 
-#: ../kioslave/http/http.cpp:1756
+#: ../kioslave/http/http.cpp:1740
 #, kde-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in "
@@ -6014,26 +6014,26 @@ msgstr ""
 "\"propertybehavior\", abo sće spytali dataju přepisać, hačrunjež běšće to do "
 "toho zakazali. %1"
 
-#: ../kioslave/http/http.cpp:1764
+#: ../kioslave/http/http.cpp:1748
 #, kde-format
 msgid "The requested lock could not be granted. %1"
 msgstr "Pominane blokowanje njehodźeše so zarjadować. %1"
 
-#: ../kioslave/http/http.cpp:1770
+#: ../kioslave/http/http.cpp:1754
 msgid "The server does not support the request type of the body."
 msgstr "Server tutu družinu elementa \"Body\" njepodpěruje."
 
-#: ../kioslave/http/http.cpp:1775 ../kioslave/http/http.cpp:1846
+#: ../kioslave/http/http.cpp:1759 ../kioslave/http/http.cpp:1830
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr "Njemóžu %1; resursa je blokowana."
 
-#: ../kioslave/http/http.cpp:1779
+#: ../kioslave/http/http.cpp:1763
 msgid "This action was prevented by another error."
 msgstr "Tutej operaciji je někajki druhi zmylk zadźěwał."
 
-#: ../kioslave/http/http.cpp:1785 ../kioslave/http/http.cpp:1851
+#: ../kioslave/http/http.cpp:1769 ../kioslave/http/http.cpp:1835
 #, kde-format
 msgctxt "%1: request type"
 msgid ""
@@ -6041,7 +6041,7 @@ msgid ""
 "folder."
 msgstr "Njemóžu %1, dokelž cilowy server dataju abo zapisk njeakceptuje."
 
-#: ../kioslave/http/http.cpp:1792 ../kioslave/http/http.cpp:1857
+#: ../kioslave/http/http.cpp:1776 ../kioslave/http/http.cpp:1841
 msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
@@ -6049,24 +6049,24 @@ msgstr ""
 "Cilowa resursa nima dosć městna, zo by staw resursy po wuwjedźenju tuteje "
 "metody zawěsćiła."
 
-#: ../kioslave/http/http.cpp:1813
+#: ../kioslave/http/http.cpp:1797
 #, kde-format
 msgctxt "request type"
 msgid "upload %1"
 msgstr "kopěrować %1 na serwer"
 
-#: ../kioslave/http/http.cpp:1823
+#: ../kioslave/http/http.cpp:1807
 #, kde-format
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
 
-#: ../kioslave/http/http.cpp:2585
+#: ../kioslave/http/http.cpp:2569
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "%1 kontaktowany. Čakam na wotmołwu..."
 
-#: ../kioslave/http/http.cpp:2916
+#: ../kioslave/http/http.cpp:2900
 #, kde-format
 msgctxt "@warning: Security check on url being accessed"
 msgid ""
@@ -6075,16 +6075,16 @@ msgid ""
 "<p>Is \"%1\" the site you want to visit?"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:2923
+#: ../kioslave/http/http.cpp:2907
 msgctxt "@title:window"
 msgid "Confirm Website Access"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:3000
+#: ../kioslave/http/http.cpp:2984
 msgid "Server processing request, please wait..."
 msgstr "Server hišće dźěła, prošu dočakajće..."
 
-#: ../kioslave/http/http.cpp:3372 ../kioslave/http/http.cpp:5276
+#: ../kioslave/http/http.cpp:3356 ../kioslave/http/http.cpp:5260
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -6092,46 +6092,46 @@ msgstr ""
 "Dyrbiće na proxyju mjeno wužiwarja a škitne hesło zapodać, prjedy hač směće "
 "so z dalšimi ličakami zwjazać."
 
-#: ../kioslave/http/http.cpp:3375 ../kioslave/http/http.cpp:5280
+#: ../kioslave/http/http.cpp:3359 ../kioslave/http/http.cpp:5264
 msgid "Proxy:"
 msgstr "Proxy:"
 
-#: ../kioslave/http/http.cpp:3436
+#: ../kioslave/http/http.cpp:3420
 msgid "Authentication Failed."
 msgstr "Přizjewjenje je so zwrěšćiło!"
 
-#: ../kioslave/http/http.cpp:3439 ../kioslave/http/http.cpp:5282
+#: ../kioslave/http/http.cpp:3423 ../kioslave/http/http.cpp:5266
 msgid "Proxy Authentication Failed."
 msgstr "Přizjewjenje na proxyju je so zwrěšćiło!"
 
-#: ../kioslave/http/http.cpp:3449 ../kioslave/http/http.cpp:5281
+#: ../kioslave/http/http.cpp:3433 ../kioslave/http/http.cpp:5265
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> at <b>%2</b>"
 
-#: ../kioslave/http/http.cpp:3481
+#: ../kioslave/http/http.cpp:3465
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Authorization failed."
 msgstr "Awtorizaciski dialog"
 
-#: ../kioslave/http/http.cpp:3498
+#: ../kioslave/http/http.cpp:3482
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."
 msgstr "Awtorizaciski dialog"
 
-#: ../kioslave/http/http.cpp:3887 ../kioslave/http/http.cpp:3941
+#: ../kioslave/http/http.cpp:3871 ../kioslave/http/http.cpp:3925
 #, kde-format
 msgid "Sending data to %1"
 msgstr "Sćelu day na %1"
 
-#: ../kioslave/http/http.cpp:4403
+#: ../kioslave/http/http.cpp:4387
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr "Dóstawam %1 wot %2..."
 
-#: ../kioslave/http/http.cpp:4409
+#: ../kioslave/http/http.cpp:4393
 #, kde-format
 msgid "Retrieving from %1..."
 msgstr "Dóstawam daty wot %1..."
@@ -6348,6 +6348,13 @@ msgstr ""
 #: ../kfile/kurlnavigatortogglebutton.cpp:95
 msgid "Click to Edit Location"
 msgstr ""
+
+#: ../kfile/kurlnavigatorbutton.cpp:612
+#, fuzzy
+#| msgid "Store"
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "Zawěsćić"
 
 #: ../kfile/kdiroperator.cpp:766 ../kfile/kdirselectdialog.cpp:159
 #, fuzzy, kde-format
@@ -7060,13 +7067,6 @@ msgstr ""
 #: ../kfile/kurlnavigator.cpp:690
 msgid "Custom Path"
 msgstr ""
-
-#: ../kfile/kurlnavigatorbutton.cpp:611
-#, fuzzy
-#| msgid "Store"
-msgctxt "@action:inmenu"
-msgid "More"
-msgstr "Zawěsćić"
 
 #~ msgid "A newer item named '%1' already exists."
 #~ msgstr "Něšto tajke nowše z mjenom '%1' hižo eksistuje"
