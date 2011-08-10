@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-09 03:44+0200\n"
+"POT-Creation-Date: 2011-08-10 03:22+0200\n"
 "PO-Revision-Date: 2008-11-21 01:09+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -205,61 +205,6 @@ msgctxt "@label:textbox"
 msgid "Find:"
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:56
-msgctxt "@title:group"
-msgid "View Properties"
-msgstr "Swójstwa napohlada"
-
-#: settings/general/behaviorsettingspage.cpp:59
-msgctxt "@option:radio"
-msgid "Remember view properties for each folder"
-msgstr "Swójstwa napohlada za kóždy zapisk spomjatkować"
-
-#: settings/general/behaviorsettingspage.cpp:61
-msgctxt "@option:radio"
-msgid "Use common view properties for all folders"
-msgstr "Swójstwa napohlada za wšě zapiski wužiwać"
-
-#: settings/general/behaviorsettingspage.cpp:68
-msgctxt "@title:group"
-msgid "Ask For Confirmation When"
-msgstr "So doprašeć, hdyž"
-
-#: settings/general/behaviorsettingspage.cpp:71
-msgctxt "@option:check Ask for Confirmation When"
-msgid "Moving files or folders to trash"
-msgstr "so dataje abo zapiski do papjernika přesuwaja"
-
-#: settings/general/behaviorsettingspage.cpp:73
-msgctxt "@option:check Ask for Confirmation When"
-msgid "Deleting files or folders"
-msgstr "so dataje abo zapiski wumazaja"
-
-#: settings/general/behaviorsettingspage.cpp:75
-msgctxt "@option:check Ask for Confirmation When"
-msgid "Closing windows with multiple tabs"
-msgstr ""
-
-#: settings/general/behaviorsettingspage.cpp:83
-msgctxt "@option:check"
-msgid "Rename inline"
-msgstr "na městnje přemjenować"
-
-#: settings/general/behaviorsettingspage.cpp:86
-msgctxt "@option:check"
-msgid "Show tooltips"
-msgstr "tooltips pokazać"
-
-#: settings/general/behaviorsettingspage.cpp:89
-msgctxt "@option:check"
-msgid "Show selection marker"
-msgstr "Toggle za wubraće pokazać"
-
-#: settings/general/behaviorsettingspage.cpp:92
-msgctxt "option:check"
-msgid "Natural sorting of items"
-msgstr ""
-
 #: settings/general/contextmenusettingspage.cpp:43
 msgctxt "@option:check"
 msgid "Show 'Delete' command"
@@ -346,6 +291,61 @@ msgstr ""
 msgctxt "@label Don't create previews for: <Remote files above:> XX MByte"
 msgid "Remote files above:"
 msgstr "Dataje sortěrować po"
+
+#: settings/general/behaviorsettingspage.cpp:56
+msgctxt "@title:group"
+msgid "View Properties"
+msgstr "Swójstwa napohlada"
+
+#: settings/general/behaviorsettingspage.cpp:59
+msgctxt "@option:radio"
+msgid "Remember view properties for each folder"
+msgstr "Swójstwa napohlada za kóždy zapisk spomjatkować"
+
+#: settings/general/behaviorsettingspage.cpp:61
+msgctxt "@option:radio"
+msgid "Use common view properties for all folders"
+msgstr "Swójstwa napohlada za wšě zapiski wužiwać"
+
+#: settings/general/behaviorsettingspage.cpp:68
+msgctxt "@title:group"
+msgid "Ask For Confirmation When"
+msgstr "So doprašeć, hdyž"
+
+#: settings/general/behaviorsettingspage.cpp:71
+msgctxt "@option:check Ask for Confirmation When"
+msgid "Moving files or folders to trash"
+msgstr "so dataje abo zapiski do papjernika přesuwaja"
+
+#: settings/general/behaviorsettingspage.cpp:73
+msgctxt "@option:check Ask for Confirmation When"
+msgid "Deleting files or folders"
+msgstr "so dataje abo zapiski wumazaja"
+
+#: settings/general/behaviorsettingspage.cpp:75
+msgctxt "@option:check Ask for Confirmation When"
+msgid "Closing windows with multiple tabs"
+msgstr ""
+
+#: settings/general/behaviorsettingspage.cpp:83
+msgctxt "@option:check"
+msgid "Rename inline"
+msgstr "na městnje přemjenować"
+
+#: settings/general/behaviorsettingspage.cpp:86
+msgctxt "@option:check"
+msgid "Show tooltips"
+msgstr "tooltips pokazać"
+
+#: settings/general/behaviorsettingspage.cpp:89
+msgctxt "@option:check"
+msgid "Show selection marker"
+msgstr "Toggle za wubraće pokazać"
+
+#: settings/general/behaviorsettingspage.cpp:92
+msgctxt "option:check"
+msgid "Natural sorting of items"
+msgstr ""
 
 #: settings/kcm/kcmdolphinviewmodes.cpp:58
 #: settings/viewmodes/viewsettingspage.cpp:45
@@ -1109,6 +1109,66 @@ msgctxt "@info:status"
 msgid "Unknown error."
 msgstr "njeznata wulkosć"
 
+#: views/dolphinview.cpp:466
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr "<filename>%1</filename> wubrany"
+
+#: views/dolphinview.cpp:467
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected (%2)"
+msgstr "<filename>%1</filename> wubrane (%2)"
+
+#: views/dolphinview.cpp:471
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "%1 zapisk wubrany"
+msgstr[1] "%1 zapiskaj wubranej"
+msgstr[2] "%1 zapiski wubrane"
+msgstr[3] "%1 zapiskow wubranych"
+
+#: views/dolphinview.cpp:472
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "%1 dataja wubrana"
+msgstr[1] "%1 dataji wubranej"
+msgstr[2] "%1 dataje wubrane"
+msgstr[3] "%1 datajow wubranych"
+
+#: views/dolphinview.cpp:474
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:477
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:959
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "Dowumazane."
+
+#: views/dolphinview.cpp:1011
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "Městnosć je prózdna."
+
+#: views/dolphinview.cpp:1013
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "Městnosć '%1' njeje walidna."
+
 #: views/renamedialog.cpp:54
 msgctxt "@title:window"
 msgid "Rename Item"
@@ -1152,66 +1212,6 @@ msgstr[3] "%1 wubranych objektow přemjenować na:"
 msgctxt "@info"
 msgid "(# will be replaced by ascending numbers)"
 msgstr "(# so naruna z rosćacymi ličbami)"
-
-#: views/dolphinview.cpp:472
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "<filename>%1</filename> wubrany"
-
-#: views/dolphinview.cpp:473
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected (%2)"
-msgstr "<filename>%1</filename> wubrane (%2)"
-
-#: views/dolphinview.cpp:477
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "%1 zapisk wubrany"
-msgstr[1] "%1 zapiskaj wubranej"
-msgstr[2] "%1 zapiski wubrane"
-msgstr[3] "%1 zapiskow wubranych"
-
-#: views/dolphinview.cpp:478
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] "%1 dataja wubrana"
-msgstr[1] "%1 dataji wubranej"
-msgstr[2] "%1 dataje wubrane"
-msgstr[3] "%1 datajow wubranych"
-
-#: views/dolphinview.cpp:480
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
-
-#: views/dolphinview.cpp:483
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: views/dolphinview.cpp:941
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "Dowumazane."
-
-#: views/dolphinview.cpp:1059
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "Městnosć je prózdna."
-
-#: views/dolphinview.cpp:1061
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "Městnosć '%1' njeje walidna."
 
 #: dolphinpart.cpp:147
 msgctxt "@action:inmenu Edit"
@@ -1313,15 +1313,7 @@ msgctxt "@item:intable"
 msgid "items"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:619
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "Documentation"
-msgctxt "@item:intable"
-msgid "No destination"
-msgstr "Dokumentacija"
-
-#: kitemviews/kfileitemlistwidget.cpp:634
+#: kitemviews/kfileitemlistwidget.cpp:640
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "%1 item selected"
@@ -1333,6 +1325,14 @@ msgstr[0] "%1 objekt wubrany"
 msgstr[1] "%1 objektaj wubranej"
 msgstr[2] "%1 objekty wubrane"
 msgstr[3] "%1 objektow wubranych"
+
+#: kitemviews/kfileitemmodel.cpp:622
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "Documentation"
+msgctxt "@item:intable"
+msgid "No destination"
+msgstr "Dokumentacija"
 
 #: dolphinmainwindow.cpp:339
 msgctxt "@info:status"
