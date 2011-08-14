@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwordmswordfilter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-13 02:05+0200\n"
+"POT-Creation-Date: 2011-08-14 02:04+0200\n"
 "PO-Revision-Date: 2004-03-23 16:21+0100\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -71,10 +71,12 @@ msgstr ""
 #: kchart/svg/svgexport.cc:88 kformula/latex/latexexport.cc:74
 #: kformula/png/pngexportdia.cc:248 kformula/svg/svgexport.cc:94
 #: libdialogfilter/exportsizedia.cpp:268
+#: stage/genericimageexport/genericimageexport.cpp:134
 msgid "Failed to write file."
 msgstr ""
 
 #: kchart/genericimageexport/genericimageexport.cpp:123
+#: stage/genericimageexport/genericimageexport.cpp:135
 #, kde-format
 msgid "%1 Export Error"
 msgstr ""
@@ -159,6 +161,8 @@ msgstr ""
 #: words/docx/DocxXmlSettingsReader.cpp:87
 #: words/docx/DocxXmlDocumentReader.cpp:194
 #: words/docx/DocxXmlFontTableReader.cpp:89
+#: stage/pptx/PptxXmlDocumentReader.cpp:153
+#: stage/pptx/PptxXmlSlideReader.cpp:307
 #, kde-format
 msgid "Namespace \"%1\" not found"
 msgstr ""
@@ -450,6 +454,7 @@ msgid "Declared number of shared strings too small (%1)"
 msgstr ""
 
 #: tables/xlsx/XlsxImport.cpp:571 words/docx/DocxImport.cpp:168
+#: stage/pptx/PptxImport.cpp:1100
 #, kde-format
 msgid "Unable to find part for type %1"
 msgstr ""
@@ -689,6 +694,23 @@ msgstr ""
 #: xsltfilter/import/xsltimportdia.cc:56
 msgid "Import XSLT Configuration"
 msgstr ""
+
+#: stage/pptx/PptxXmlDocumentReader.cpp:288
+#, kde-format
+msgid "Slide layout \"%1\" not found"
+msgstr ""
+
+#: stage/pptx/PptxXmlSlideReader.cpp:552
+#, fuzzy, kde-format
+#| msgid "Table %1"
+msgid "Slide %1"
+msgstr "Tabulka %1"
+
+#: stage/words/kprkword.cc:99 stage/words/odp2odt.cpp:287
+#, fuzzy
+#| msgid "Table %1"
+msgid "Slide Title"
+msgstr "Tabulka %1"
 
 #. i18n: file: flow/imageexport/flow_imageexportwidget.ui:27
 #. i18n: ectx: property (text), widget (QLabel)
@@ -1689,8 +1711,3 @@ msgstr ""
 #: rc.cpp:649 rc.cpp:667
 msgid "Choose..."
 msgstr ""
-
-#, fuzzy
-#~| msgid "Table %1"
-#~ msgid "Slide %1"
-#~ msgstr "Tabulka %1"
