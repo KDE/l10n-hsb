@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-18 03:37+0200\n"
+"POT-Creation-Date: 2011-09-08 04:08+0200\n"
 "PO-Revision-Date: 2008-11-10 23:47+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -47,18 +47,18 @@ msgctxt "General configuration page"
 msgid "General"
 msgstr "Generelnje"
 
+#: core/applicationmodel.cpp:335
+msgid "Games"
+msgstr ""
+
+#: core/applicationmodel.cpp:429 ui/launcher.cpp:975
+msgid "All Applications"
+msgstr "Wšitke aplikacije"
+
 #: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
 #: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
 msgid "Favorites"
 msgstr "Najlubše programy"
-
-#: core/models.cpp:121
-msgid "Home Folder"
-msgstr "Domjacy zapisk"
-
-#: core/models.cpp:124
-msgid "Network Folders"
-msgstr "Syćowe zapiski"
 
 #: core/leavemodel.cpp:49 simpleapplet/simpleapplet.cpp:210
 #, fuzzy
@@ -163,13 +163,13 @@ msgstr "Posedźenje"
 msgid "System"
 msgstr "System"
 
-#: core/applicationmodel.cpp:335
-msgid "Games"
-msgstr ""
+#: core/models.cpp:121
+msgid "Home Folder"
+msgstr "Domjacy zapisk"
 
-#: core/applicationmodel.cpp:429 ui/launcher.cpp:975
-msgid "All Applications"
-msgstr "Wšitke aplikacije"
+#: core/models.cpp:124
+msgid "Network Folders"
+msgstr "Syćowe zapiski"
 
 #: core/recentlyusedmodel.cpp:109
 msgid "Documents"
@@ -333,13 +333,6 @@ msgstr "Operacija"
 msgid "Actions"
 msgstr "Akcije"
 
-#: ui/searchbar.cpp:70
-#, fuzzy
-#| msgid "Search:"
-msgctxt "Label of the search bar textedit"
-msgid "Search:"
-msgstr "Pytać:"
-
 #: ui/contextmenufactory.cpp:85
 msgid "Advanced"
 msgstr "Pokročene"
@@ -400,6 +393,13 @@ msgstr "Wužiwar <b>%1</b> na <b>%2</b>"
 msgctxt "full name, login name, hostname"
 msgid "<b>%1 (%2)</b> on <b>%3</b>"
 msgstr "<b>%1 (%2)</b> na <b>%3</b>"
+
+#: ui/searchbar.cpp:70
+#, fuzzy
+#| msgid "Search:"
+msgctxt "Label of the search bar textedit"
+msgid "Search:"
+msgstr "Pytać:"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
