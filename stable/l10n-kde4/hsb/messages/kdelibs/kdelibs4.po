@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-02 10:41+0200\n"
+"POT-Creation-Date: 2011-09-17 11:45+0200\n"
 "PO-Revision-Date: 2008-12-19 22:49+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -6048,8 +6048,8 @@ msgstr ""
 msgid "Reset Toolbars"
 msgstr "Nastrojowe pasy na standard wróćo stajić"
 
-#: kdeui/dialogs/kedittoolbar.cpp:602 khtml/khtmlview.cpp:2811
-#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1845
+#: kdeui/dialogs/kedittoolbar.cpp:602 khtml/khtmlview.cpp:2814
+#: khtml/khtmlview.cpp:2847 khtml/html/html_formimpl.cpp:1845
 msgid "Reset"
 msgstr "Stary staw"
 
@@ -6790,7 +6790,7 @@ msgid "Warning"
 msgstr "Kedźbu"
 
 #: kdeui/dialogs/kmessagebox.cpp:841 kdeui/dialogs/kmessagebox.cpp:871
-#: khtml/rendering/render_form.cpp:811 kjs/object.cpp:553
+#: khtml/rendering/render_form.cpp:814 kjs/object.cpp:553
 #: knewstuff/knewstuff3/uploaddialog.cpp:528
 msgid "Error"
 msgstr "Zmylk"
@@ -9714,68 +9714,6 @@ msgstr "Wubjerće lěto"
 msgid "Select the current day"
 msgstr "Aktualnu dźeń wubrać"
 
-#. i18n: Placeholder text in line edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter search pattern").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#. i18n: Placeholder text in text edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter message").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
-#, fuzzy
-#| msgid "1"
-msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
-msgid "1"
-msgstr "1"
-
-#: kdeui/widgets/klineedit.cpp:295
-msgctxt "@action:button Clear current text in the line edit"
-msgid "Clear text"
-msgstr "tekst wumazać"
-
-#: kdeui/widgets/klineedit.cpp:1215
-msgctxt "@title:menu"
-msgid "Text Completion"
-msgstr "Wudospołnjowanje teksta"
-
-#: kdeui/widgets/klineedit.cpp:1222
-msgctxt "@item:inmenu Text Completion"
-msgid "None"
-msgstr "Žane"
-
-#: kdeui/widgets/klineedit.cpp:1223
-msgctxt "@item:inmenu Text Completion"
-msgid "Manual"
-msgstr "Manuelnje"
-
-#: kdeui/widgets/klineedit.cpp:1224
-msgctxt "@item:inmenu Text Completion"
-msgid "Automatic"
-msgstr "Awtomatisce"
-
-#: kdeui/widgets/klineedit.cpp:1225
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List"
-msgstr "Menijowa lisćina"
-
-#: kdeui/widgets/klineedit.cpp:1226
-msgctxt "@item:inmenu Text Completion"
-msgid "Short Automatic"
-msgstr "Krótke awtomatiske"
-
-#: kdeui/widgets/klineedit.cpp:1227
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List && Automatic"
-msgstr "Menijowa lisćina && awtomatisce"
-
-#: kdeui/widgets/klineedit.cpp:1258
-msgctxt "@item:inmenu Text Completion"
-msgid "Default"
-msgstr "Standard"
-
 #: kdeui/widgets/keditlistbox.cpp:326 kdeui/widgets/keditlistwidget.cpp:305
 msgid "&Add"
 msgstr "Dod&aj"
@@ -9818,7 +9756,7 @@ msgstr "W&o %1"
 msgid "About &KDE"
 msgstr "Wo &KDE"
 
-#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:934
+#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:937
 msgid "Clear &History"
 msgstr "&Pomjatk wuprózdnić"
 
@@ -9980,6 +9918,68 @@ msgstr "Njepodpěrana tasta"
 #: kdeui/widgets/klanguagebutton.cpp:177
 msgid "without name"
 msgstr "bjez mjena"
+
+#. i18n: Placeholder text in line edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter search pattern").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#. i18n: Placeholder text in text edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter message").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
+#, fuzzy
+#| msgid "1"
+msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
+msgid "1"
+msgstr "1"
+
+#: kdeui/widgets/klineedit.cpp:296
+msgctxt "@action:button Clear current text in the line edit"
+msgid "Clear text"
+msgstr "tekst wumazać"
+
+#: kdeui/widgets/klineedit.cpp:1216
+msgctxt "@title:menu"
+msgid "Text Completion"
+msgstr "Wudospołnjowanje teksta"
+
+#: kdeui/widgets/klineedit.cpp:1223
+msgctxt "@item:inmenu Text Completion"
+msgid "None"
+msgstr "Žane"
+
+#: kdeui/widgets/klineedit.cpp:1224
+msgctxt "@item:inmenu Text Completion"
+msgid "Manual"
+msgstr "Manuelnje"
+
+#: kdeui/widgets/klineedit.cpp:1225
+msgctxt "@item:inmenu Text Completion"
+msgid "Automatic"
+msgstr "Awtomatisce"
+
+#: kdeui/widgets/klineedit.cpp:1226
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List"
+msgstr "Menijowa lisćina"
+
+#: kdeui/widgets/klineedit.cpp:1227
+msgctxt "@item:inmenu Text Completion"
+msgid "Short Automatic"
+msgstr "Krótke awtomatiske"
+
+#: kdeui/widgets/klineedit.cpp:1228
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List && Automatic"
+msgstr "Menijowa lisćina && awtomatisce"
+
+#: kdeui/widgets/klineedit.cpp:1259
+msgctxt "@item:inmenu Text Completion"
+msgid "Default"
+msgstr "Standard"
 
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
@@ -11245,7 +11245,7 @@ msgstr ""
 "<qt>Formular so pósćele na <br /><b>%1</b><br /> na wašim lokalnym datajowym "
 "systemje. <br />Chceće formular wotpósłać?</qt>"
 
-#: khtml/khtml_part.cpp:4762 khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839
+#: khtml/khtml_part.cpp:4762 khtml/khtmlview.cpp:2800 khtml/khtmlview.cpp:2842
 #: khtml/html/html_formimpl.cpp:1641 khtml/html/html_formimpl.cpp:1853
 msgid "Submit"
 msgstr "Wotpósłać"
@@ -11346,10 +11346,6 @@ msgstr "Wotpokazać"
 #: khtml/khtml_settings.cpp:916
 msgid "Filter error"
 msgstr "Filtrowy zmylk"
-
-#: khtml/khtmlview.cpp:1842
-msgid "Access Keys activated"
-msgstr "Tastowe skrótki aktiwizowane"
 
 #: khtml/test_regression.cpp:619
 msgid "Directory containing tests, basedir and output directories."
@@ -11452,6 +11448,10 @@ msgstr "K njewobkedźbowanym dodać..."
 #: khtml/test_regression_gui_window.cpp:1105
 msgid "Remove from ignores..."
 msgstr "Z njewobkedźbowanych wumazać..."
+
+#: khtml/khtmlview.cpp:1842
+msgid "Access Keys activated"
+msgstr "Tastowe skrótki aktiwizowane"
 
 #: khtml/ecma/kjs_binding.cpp:185
 #, fuzzy
@@ -11860,28 +11860,28 @@ msgstr "Njejsym žadyn handler namakał za %1."
 msgid "Play"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:790
+#: khtml/rendering/render_form.cpp:793
 msgid "New Web Shortcut"
 msgstr "Nowa skrótšenka za web"
 
-#: khtml/rendering/render_form.cpp:811
+#: khtml/rendering/render_form.cpp:814
 #, kde-format
 msgid "%1 is already assigned to %2"
 msgstr "%1 je hižo přirjadowane k %2"
 
-#: khtml/rendering/render_form.cpp:856
+#: khtml/rendering/render_form.cpp:859
 msgid "Search &provider name:"
 msgstr "Mjeno &prowidera pytać:"
 
-#: khtml/rendering/render_form.cpp:858
+#: khtml/rendering/render_form.cpp:861
 msgid "New search provider"
 msgstr "Nowe pytanje za prowiderom"
 
-#: khtml/rendering/render_form.cpp:863
+#: khtml/rendering/render_form.cpp:866
 msgid "UR&I shortcuts:"
 msgstr "Skrótšenki za UR&I:"
 
-#: khtml/rendering/render_form.cpp:949
+#: khtml/rendering/render_form.cpp:952
 msgid "Create Web Shortcut"
 msgstr "Skrótšenku za web stworić"
 
