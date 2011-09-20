@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-16 03:42+0200\n"
+"POT-Creation-Date: 2011-09-20 05:12+0200\n"
 "PO-Revision-Date: 2003-12-23 17:19+0100\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -643,7 +643,7 @@ msgstr ""
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr ""
 
-#: MainWindow.cpp:404 SessionController.cpp:636
+#: MainWindow.cpp:404 SessionController.cpp:642
 msgid "Confirm Close"
 msgstr ""
 
@@ -1625,7 +1625,7 @@ msgstr "Bjez wobmjezowanja"
 
 #. i18n: file: ../desktop/partui.rc:26
 #. i18n: ectx: Menu (change-profile)
-#. i18n: file: ../desktop/sessionui.rc:60
+#. i18n: file: ../desktop/sessionui.rc:62
 #. i18n: ectx: Menu (change-profile)
 #: rc.cpp:461 rc.cpp:470
 #, fuzzy
@@ -1633,13 +1633,13 @@ msgstr "Bjez wobmjezowanja"
 msgid "&Change Profile"
 msgstr "&Profilowu dataju zawěsćić..."
 
-#. i18n: file: ../desktop/sessionui.rc:15
+#. i18n: file: ../desktop/sessionui.rc:17
 #. i18n: ectx: Menu (edit-copy-input-to)
 #: rc.cpp:464
 msgid "Copy Input To"
 msgstr ""
 
-#. i18n: file: ../desktop/sessionui.rc:41
+#. i18n: file: ../desktop/sessionui.rc:43
 #. i18n: ectx: Menu (debug)
 #: rc.cpp:467
 msgid "Debug"
@@ -1708,150 +1708,156 @@ msgstr "Terminal &wuprózdnić"
 msgid "Konsole does not know how to open the bookmark: "
 msgstr ""
 
-#: SessionController.cpp:426
+#: SessionController.cpp:428
 msgid "&Close Tab"
 msgstr ""
 
-#: SessionController.cpp:431
+#: SessionController.cpp:433
 msgid "Open File Manager"
 msgstr ""
 
-#: SessionController.cpp:447
+#: SessionController.cpp:449
+#, fuzzy
+#| msgid "&Terminate Task"
+msgid "&Select All"
+msgstr "Proces za&kónčić"
+
+#: SessionController.cpp:453
 msgid "Paste Selection"
 msgstr "Wubrany tekst zasunyć"
 
-#: SessionController.cpp:452
+#: SessionController.cpp:458
 #, fuzzy
 #| msgid "&Terminate Task"
 msgid "&Rename Tab..."
 msgstr "Proces za&kónčić"
 
-#: SessionController.cpp:457
+#: SessionController.cpp:463
 msgid "&All Tabs in Current Window"
 msgstr ""
 
-#: SessionController.cpp:463
+#: SessionController.cpp:469
 #, fuzzy
 #| msgid "&Terminate Task"
 msgid "&Select Tabs..."
 msgstr "Proces za&kónčić"
 
-#: SessionController.cpp:468
+#: SessionController.cpp:474
 msgctxt "@action:inmenu Do not select any tabs"
 msgid "&None"
 msgstr ""
 
-#: SessionController.cpp:474
+#: SessionController.cpp:480
 msgid "&ZModem Upload..."
 msgstr ""
 
-#: SessionController.cpp:479
+#: SessionController.cpp:485
 msgid "Monitor for &Activity"
 msgstr "Dźiwać na &aktiwity"
 
-#: SessionController.cpp:484
+#: SessionController.cpp:490
 msgid "Monitor for &Silence"
 msgstr "Dźiwać na &ćišinu"
 
-#: SessionController.cpp:490
+#: SessionController.cpp:496
 msgid "Set &Encoding"
 msgstr ""
 
-#: SessionController.cpp:498
+#: SessionController.cpp:504
 msgid "Enlarge Font"
 msgstr ""
 
-#: SessionController.cpp:503
+#: SessionController.cpp:509
 #, fuzzy
 msgid "Shrink Font"
 msgstr "Mjeńše pismo"
 
-#: SessionController.cpp:521
+#: SessionController.cpp:527
 #, fuzzy
 msgid "Save Output &As..."
 msgstr "Nachwilny pomjatk zawěsćić"
 
-#: SessionController.cpp:524
+#: SessionController.cpp:530
 #, fuzzy
 #| msgid "Save Sessions &Profile..."
 msgid "Configure Scrollback..."
 msgstr "&Profilowu dataju zawěsćić..."
 
-#: SessionController.cpp:528
+#: SessionController.cpp:534
 #, fuzzy
 #| msgctxt "Unlimited (number of lines)"
 #| msgid "Unlimited"
 msgid "Clear Scrollback"
 msgstr "Bjez wobmjezowanja"
 
-#: SessionController.cpp:532
+#: SessionController.cpp:538
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Clear Scrollback and Reset"
 msgstr "&Pomjatk wuprózdnić"
 
-#: SessionController.cpp:538
+#: SessionController.cpp:544
 #, fuzzy
 #| msgid "Save Sessions &Profile..."
 msgid "Configure Current Profile..."
 msgstr "&Profilowu dataju zawěsćić..."
 
-#: SessionController.cpp:541
+#: SessionController.cpp:547
 #, fuzzy
 #| msgid "Save Sessions &Profile..."
 msgid "Change Profile"
 msgstr "&Profilowu dataju zawěsćić..."
 
-#: SessionController.cpp:630
+#: SessionController.cpp:636
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr ""
 
-#: SessionController.cpp:633
+#: SessionController.cpp:639
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr ""
 
-#: SessionController.cpp:1225
+#: SessionController.cpp:1236
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1234
+#: SessionController.cpp:1245
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1246
+#: SessionController.cpp:1257
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1255
+#: SessionController.cpp:1266
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1261
+#: SessionController.cpp:1272
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1333
+#: SessionController.cpp:1344
 #, fuzzy, kde-format
 msgid "Save Output From %1"
 msgstr "Nachwilny pomjatk zawěsćić"
 
-#: SessionController.cpp:1344
+#: SessionController.cpp:1355
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 
-#: SessionController.cpp:1433
+#: SessionController.cpp:1444
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
