@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-29 03:45+0200\n"
+"POT-Creation-Date: 2011-10-31 04:14+0100\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -404,11 +404,11 @@ msgstr "Wotst&ronić"
 msgid "&Remove"
 msgstr "&Zničić"
 
-#: identitypage.cpp:270 configuredialog.cpp:2622
+#: identitypage.cpp:270 configuredialog.cpp:2632
 msgid "Add..."
 msgstr "Dodać..."
 
-#: identitypage.cpp:272 configuredialog.cpp:2624
+#: identitypage.cpp:272 configuredialog.cpp:2634
 msgid "Modify..."
 msgstr "Změnić..."
 
@@ -1165,34 +1165,40 @@ msgid ""
 "word-wrapping the text."
 msgstr ""
 
-#: configuredialog.cpp:2217
+#: configuredialog.cpp:2216
+msgid ""
+"When replying, only quote the message in the original format it was received "
+"or else, if unchecked, it will reply as plain text by default"
+msgstr ""
+
+#: configuredialog.cpp:2225
 msgid ""
 "When replying, only quote the selected text instead of the complete message "
 "when there is text selected in the message window."
 msgstr ""
 
-#: configuredialog.cpp:2292
+#: configuredialog.cpp:2300
 msgid "Warn if too many recipients are specified"
 msgstr ""
 
-#: configuredialog.cpp:2304
+#: configuredialog.cpp:2312
 msgid "Warn if more than this many recipients are specified"
 msgstr ""
 
-#: configuredialog.cpp:2322
+#: configuredialog.cpp:2330
 msgid "No autosave"
 msgstr ""
 
-#: configuredialog.cpp:2323
+#: configuredialog.cpp:2331
 msgid " min"
 msgstr " mjeńš"
 
-#: configuredialog.cpp:2332
+#: configuredialog.cpp:2340
 #, fuzzy
 msgid "Default Forwarding Type:"
 msgstr "Standardna domena:"
 
-#: configuredialog.cpp:2336
+#: configuredialog.cpp:2344
 #, fuzzy
 #| msgctxt "View->attachments->"
 #| msgid "&Inline"
@@ -1200,34 +1206,34 @@ msgctxt "@item:inlistbox Inline mail forwarding"
 msgid "Inline"
 msgstr "&w powěsći"
 
-#: configuredialog.cpp:2337
+#: configuredialog.cpp:2345
 #, fuzzy
 msgid "As Attachment"
 msgstr "Přiwěšk: "
 
-#: configuredialog.cpp:2347
+#: configuredialog.cpp:2355
 #, fuzzy
 msgid "Configure Completion Order..."
 msgstr "Konto konfigurować"
 
-#: configuredialog.cpp:2356
+#: configuredialog.cpp:2364
 msgid "Edit Recent Addresses..."
 msgstr ""
 
-#: configuredialog.cpp:2363
+#: configuredialog.cpp:2371
 msgid "External Editor"
 msgstr "Eksterny editor"
 
-#: configuredialog.cpp:2398
+#: configuredialog.cpp:2406
 #, fuzzy, c-format
 msgid "<b>%f</b> will be replaced with the filename to edit."
 msgstr "\"%f\" so naruna z mjenom dataje, kiž ma so wobdźěłać."
 
-#: configuredialog.cpp:2575
+#: configuredialog.cpp:2585
 msgid "Repl&y Subject Prefixes"
 msgstr "Temowy &prefiks za wotmołwu"
 
-#: configuredialog.cpp:2580 configuredialog.cpp:2614
+#: configuredialog.cpp:2590 configuredialog.cpp:2624
 msgid ""
 "Recognize any sequence of the following prefixes\n"
 "(entries are case-insensitive regular expressions):"
@@ -1237,40 +1243,40 @@ msgstr ""
 
 #. i18n: file: ui/accountspagereceivingtab.ui:36
 #. i18n: ectx: property (text), widget (QPushButton, mAddAccountButton)
-#: configuredialog.cpp:2590 configuredialog.cpp:2696 configuredialog.cpp:3096
+#: configuredialog.cpp:2600 configuredialog.cpp:2706 configuredialog.cpp:3106
 #: rc.cpp:886
 msgid "A&dd..."
 msgstr "&Dodać..."
 
-#: configuredialog.cpp:2590 configuredialog.cpp:2858 configuredialog.cpp:3096
+#: configuredialog.cpp:2600 configuredialog.cpp:2868 configuredialog.cpp:3106
 msgid "Re&move"
 msgstr "Z&ničić"
 
-#: configuredialog.cpp:2591 configuredialog.cpp:3097
+#: configuredialog.cpp:2601 configuredialog.cpp:3107
 #, fuzzy
 msgid "Mod&ify..."
 msgstr "Změnić..."
 
-#: configuredialog.cpp:2592
+#: configuredialog.cpp:2602
 msgid "Enter new reply prefix:"
 msgstr "Zapodaj nowy prefiks za wotmołwy:"
 
-#: configuredialog.cpp:2609
+#: configuredialog.cpp:2619
 #, fuzzy
 msgid "For&ward Subject Prefixes"
 msgstr "Temowe prefiksy dopósłać"
 
 #. i18n: file: ui/identitypage.ui:66
 #. i18n: ectx: property (text), widget (QPushButton, mRemoveButton)
-#: configuredialog.cpp:2623 configuredialog.cpp:2696 rc.cpp:439
+#: configuredialog.cpp:2633 configuredialog.cpp:2706 rc.cpp:439
 msgid "Remo&ve"
 msgstr "&Zničić"
 
-#: configuredialog.cpp:2625
+#: configuredialog.cpp:2635
 msgid "Enter new forward prefix:"
 msgstr "Zapodajće nowy dopósłanski prefiks:"
 
-#: configuredialog.cpp:2688
+#: configuredialog.cpp:2698
 msgid ""
 "This list is checked for every outgoing message from the top to the bottom "
 "for a charset that contains all required characters."
@@ -1282,75 +1288,75 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, mModifyButton)
 #. i18n: file: ui/accountspagereceivingtab.ui:46
 #. i18n: ectx: property (text), widget (KPushButton, mModifyAccountButton)
-#: configuredialog.cpp:2697 simplestringlisteditor.cpp:100 rc.cpp:427
+#: configuredialog.cpp:2707 simplestringlisteditor.cpp:100 rc.cpp:427
 #: rc.cpp:889
 msgid "&Modify..."
 msgstr "Z&měnić..."
 
-#: configuredialog.cpp:2697
+#: configuredialog.cpp:2707
 msgid "Enter charset:"
 msgstr "Zapodaj kodowanje:"
 
-#: configuredialog.cpp:2703
+#: configuredialog.cpp:2713
 #, fuzzy
 msgid "&Keep original charset when replying or forwarding (if possible)"
 msgstr ""
 "&Originalne kodowanje we wotmołwach a dopósłanych powěsćach wobchować (jeli "
 "móžno)."
 
-#: configuredialog.cpp:2738
+#: configuredialog.cpp:2748
 msgid "This charset is not supported."
 msgstr "Tute kodowanje so njepodpěruje."
 
-#: configuredialog.cpp:2808
+#: configuredialog.cpp:2818
 msgid "&Use custom message-id suffix"
 msgstr ""
 
-#: configuredialog.cpp:2822
+#: configuredialog.cpp:2832
 msgid "Custom message-&id suffix:"
 msgstr ""
 
-#: configuredialog.cpp:2837
+#: configuredialog.cpp:2847
 msgid "Define custom mime header fields:"
 msgstr "Definuj swoje pólka za MIME-hłójčki:"
 
-#: configuredialog.cpp:2846
+#: configuredialog.cpp:2856
 #, fuzzy
 #| msgid "Name"
 msgctxt "@title:column Name of the mime header."
 msgid "Name"
 msgstr "Mjeno"
 
-#: configuredialog.cpp:2847
+#: configuredialog.cpp:2857
 #, fuzzy
 #| msgid "Value"
 msgctxt "@title:column Value of the mimeheader."
 msgid "Value"
 msgstr "Hódnota"
 
-#: configuredialog.cpp:2854
+#: configuredialog.cpp:2864
 #, fuzzy
 #| msgid "Ne&w"
 msgctxt "@action:button Add new mime header field."
 msgid "Ne&w"
 msgstr "No&wa"
 
-#: configuredialog.cpp:2867
+#: configuredialog.cpp:2877
 #, fuzzy
 #| msgid "&Name:"
 msgctxt "@label:textbox Name of the mime header."
 msgid "&Name:"
 msgstr "&Mjeno:"
 
-#: configuredialog.cpp:2877
+#: configuredialog.cpp:2887
 msgid "&Value:"
 msgstr "&Hódnota:"
 
-#: configuredialog.cpp:3064
+#: configuredialog.cpp:3074
 msgid "Outlook-compatible attachment naming"
 msgstr ""
 
-#: configuredialog.cpp:3067
+#: configuredialog.cpp:3077
 #, fuzzy
 msgid ""
 "Turn this option on to make Outlook(tm) understand attachment names "
@@ -1358,20 +1364,20 @@ msgid ""
 msgstr ""
 "Zaswěćće tutu opciju, zo by Outlook(c) waše wotmołwy na přeprošenja rozumił"
 
-#: configuredialog.cpp:3078
+#: configuredialog.cpp:3088
 msgid "E&nable detection of missing attachments"
 msgstr ""
 
-#: configuredialog.cpp:3085
+#: configuredialog.cpp:3095
 msgid "Recognize any of the following key words as intention to attach a file:"
 msgstr ""
 
-#: configuredialog.cpp:3098
+#: configuredialog.cpp:3108
 #, fuzzy
 msgid "Enter new key word:"
 msgstr "Zapodaj nowy prefiks za wotmołwy:"
 
-#: configuredialog.cpp:3136
+#: configuredialog.cpp:3146
 msgid ""
 "You have chosen to encode attachment names containing non-English characters "
 "in a way that is understood by Outlook(tm) and other mail clients that do "
@@ -1382,32 +1388,32 @@ msgid ""
 "enable this option."
 msgstr ""
 
-#: configuredialog.cpp:3164
+#: configuredialog.cpp:3174
 #, fuzzy
 msgid "Reading"
 msgstr "&Pósłanje"
 
-#: configuredialog.cpp:3170
+#: configuredialog.cpp:3180
 #, fuzzy
 msgid "Composing"
 msgstr "Editor"
 
-#: configuredialog.cpp:3176
+#: configuredialog.cpp:3186
 #, fuzzy
 msgid "Miscellaneous"
 msgstr "Wopak pisane słowa"
 
-#: configuredialog.cpp:3182
+#: configuredialog.cpp:3192
 msgid "S/MIME Validation"
 msgstr ""
 
-#: configuredialog.cpp:3264
+#: configuredialog.cpp:3274
 msgid ""
 "Changing the global HTML setting will override all folder specific values."
 msgstr ""
 
-#: configuredialog.cpp:3430 configuredialog.cpp:3433 configuredialog.cpp:3436
 #: configuredialog.cpp:3440 configuredialog.cpp:3443 configuredialog.cpp:3446
+#: configuredialog.cpp:3450 configuredialog.cpp:3453 configuredialog.cpp:3456
 msgid " day"
 msgid_plural " days"
 msgstr[0] ""
@@ -1415,27 +1421,27 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: configuredialog.cpp:3584
+#: configuredialog.cpp:3594
 msgid "This option requires dirmngr >= 0.9.0"
 msgstr ""
 
 #. i18n: file: ui/smimeconfiguration.ui:182
 #. i18n: ectx: property (text), widget (QLabel, systemHTTPProxy)
-#: configuredialog.cpp:3695 rc.cpp:664
+#: configuredialog.cpp:3705 rc.cpp:664
 msgid "no proxy"
 msgstr ""
 
-#: configuredialog.cpp:3696
+#: configuredialog.cpp:3706
 #, kde-format
 msgid "(Current system setting: %1)"
 msgstr ""
 
-#: configuredialog.cpp:3824
+#: configuredialog.cpp:3834
 #, fuzzy
 msgid "Folders"
 msgstr "Zapiski"
 
-#: configuredialog.cpp:3827
+#: configuredialog.cpp:3837
 #, fuzzy
 #| msgid "Advanced Options"
 msgid "Invitations"
@@ -1712,7 +1718,7 @@ msgstr ""
 msgid "KMail is currently in offline mode. How do you want to proceed?"
 msgstr ""
 
-#: kmkernel.cpp:998 kmcomposewin.cpp:2394
+#: kmkernel.cpp:998 kmcomposewin.cpp:2393
 msgid "Online/Offline"
 msgstr ""
 
@@ -3246,7 +3252,7 @@ msgstr ""
 msgid "Add as &Attachment"
 msgstr "Přiwěšk: "
 
-#: kmcomposereditor.cpp:159 kmcomposewin.cpp:2059
+#: kmcomposereditor.cpp:159 kmcomposewin.cpp:2058
 #, fuzzy
 msgid "Name of the attachment:"
 msgstr "Přiwěšk: "
@@ -3385,7 +3391,7 @@ msgstr "&Haj, pósłać kaž je"
 msgid "Send"
 msgstr "Pó&sćel"
 
-#: kmcomposewin.cpp:1069 kmcomposewin.cpp:1078 kmcomposewin.cpp:2606
+#: kmcomposewin.cpp:1069 kmcomposewin.cpp:1078 kmcomposewin.cpp:2605
 msgid "Send &Later"
 msgstr "&Pozdźišo pósłać"
 
@@ -3591,64 +3597,64 @@ msgstr "KMail &konfigurować..."
 msgid " Spellcheck: %1 "
 msgstr "Prawopisny program"
 
-#: kmcomposewin.cpp:1382 kmcomposewin.cpp:2974
+#: kmcomposewin.cpp:1382 kmcomposewin.cpp:2973
 #, kde-format
 msgid " Column: %1 "
 msgstr " Špalta: %1"
 
-#: kmcomposewin.cpp:1384 kmcomposewin.cpp:2972
+#: kmcomposewin.cpp:1384 kmcomposewin.cpp:2971
 #, fuzzy, kde-format
 #| msgid " Line: %1 "
 msgctxt "Shows the linenumber of the cursor position."
 msgid " Line: %1 "
 msgstr " Linka: %1"
 
-#: kmcomposewin.cpp:1722
+#: kmcomposewin.cpp:1721
 #, fuzzy
 msgid "Re&save as Template"
 msgstr "Na&runać"
 
-#: kmcomposewin.cpp:1723
+#: kmcomposewin.cpp:1722
 msgid "&Save as Draft"
 msgstr "Jako &naćisk zawěsćić"
 
-#: kmcomposewin.cpp:1725
+#: kmcomposewin.cpp:1724
 msgid ""
 "Resave this message in the Templates folder. It can then be used at a later "
 "time."
 msgstr ""
 
-#: kmcomposewin.cpp:1727
+#: kmcomposewin.cpp:1726
 msgid ""
 "Save this message in the Drafts folder. It can then be edited and sent at a "
 "later time."
 msgstr ""
 
-#: kmcomposewin.cpp:1731
+#: kmcomposewin.cpp:1730
 #, fuzzy
 msgid "Do you want to save the message for later or discard it?"
 msgstr "Chceće powěsć preč ćisnyć abo ju za pozdźišo zawěsćić?"
 
-#: kmcomposewin.cpp:1732
+#: kmcomposewin.cpp:1731
 #, fuzzy
 msgid "Close Composer"
 msgstr "&Nowy editor"
 
-#: kmcomposewin.cpp:1852
+#: kmcomposewin.cpp:1851
 #, fuzzy
 msgid "Sending Message Failed"
 msgstr "Přesuwam powěsć %3 z %2 wot %1."
 
-#: kmcomposewin.cpp:2058
+#: kmcomposewin.cpp:2057
 #, fuzzy
 msgid "Insert clipboard text as attachment"
 msgstr "Přiwěšk: "
 
-#: kmcomposewin.cpp:2208
+#: kmcomposewin.cpp:2207
 msgid "unnamed"
 msgstr "bjez mjena"
 
-#: kmcomposewin.cpp:2236
+#: kmcomposewin.cpp:2235
 msgid ""
 "<qt><p>You have requested that messages be encrypted to yourself, but the "
 "currently selected identity does not define an (OpenPGP or S/MIME) "
@@ -3656,11 +3662,11 @@ msgid ""
 "identity configuration.</p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:2243
+#: kmcomposewin.cpp:2242
 msgid "Undefined Encryption Key"
 msgstr "Njedefinowany šifrowanski kluč"
 
-#: kmcomposewin.cpp:2287
+#: kmcomposewin.cpp:2286
 #, fuzzy
 msgid ""
 "<qt><p>In order to be able to sign this message you first have to define the "
@@ -3668,199 +3674,199 @@ msgid ""
 "in the identity configuration.</p></qt>"
 msgstr "<qt><p></p><p> in</p></qt>"
 
-#: kmcomposewin.cpp:2294
+#: kmcomposewin.cpp:2293
 msgid "Undefined Signing Key"
 msgstr "Njedefinowane podpisowanski kluč"
 
-#: kmcomposewin.cpp:2392
+#: kmcomposewin.cpp:2391
 msgid ""
 "KMail is currently in offline mode. Your messages will be kept in the outbox "
 "until you go online."
 msgstr ""
 
-#: kmcomposewin.cpp:2406
+#: kmcomposewin.cpp:2405
 msgid ""
 "You must enter your email address in the From: field. You should also set "
 "your email address for all identities, so that you do not have to enter it "
 "for each message."
 msgstr ""
 
-#: kmcomposewin.cpp:2415
+#: kmcomposewin.cpp:2414
 #, fuzzy
 msgid ""
 "You must specify at least one receiver, either in the To: field or as CC or "
 "as BCC."
 msgstr "in Na."
 
-#: kmcomposewin.cpp:2421
+#: kmcomposewin.cpp:2420
 msgid "To: field is empty. Send message anyway?"
 msgstr ""
 
-#: kmcomposewin.cpp:2423
+#: kmcomposewin.cpp:2422
 #, fuzzy
 msgid "No To: specified"
 msgstr "Žana tema podata"
 
-#: kmcomposewin.cpp:2437
+#: kmcomposewin.cpp:2436
 msgid "You did not specify a subject. Send message anyway?"
 msgstr ""
 
-#: kmcomposewin.cpp:2439
+#: kmcomposewin.cpp:2438
 msgid "No Subject Specified"
 msgstr "Žana tema podata"
 
-#: kmcomposewin.cpp:2440
+#: kmcomposewin.cpp:2439
 #, fuzzy
 msgid "S&end as Is"
 msgstr "&Haj, pósłać kaž je"
 
-#: kmcomposewin.cpp:2441
+#: kmcomposewin.cpp:2440
 #, fuzzy
 msgid "&Specify the Subject"
 msgstr "&Ně, podam hišće temu"
 
-#: kmcomposewin.cpp:2469
+#: kmcomposewin.cpp:2468
 #, fuzzy
 msgid ""
 "You must specify at least one receiver in order to be able to encrypt a "
 "draft."
 msgstr "in Na."
 
-#: kmcomposewin.cpp:2603
+#: kmcomposewin.cpp:2602
 msgid "About to send email..."
 msgstr "Sćelu mailki..."
 
-#: kmcomposewin.cpp:2604
+#: kmcomposewin.cpp:2603
 #, fuzzy
 msgid "Send Confirmation"
 msgstr "Wobkrućenje dochada"
 
-#: kmcomposewin.cpp:2605
+#: kmcomposewin.cpp:2604
 msgid "&Send Now"
 msgstr "&Nětko pósłać"
 
-#: kmcomposewin.cpp:2624
+#: kmcomposewin.cpp:2623
 #, kde-format
 msgid ""
 "You are trying to send the mail to more than %1 recipients. Send message "
 "anyway?"
 msgstr ""
 
-#: kmcomposewin.cpp:2625
+#: kmcomposewin.cpp:2624
 #, fuzzy
 msgid "Too many recipients"
 msgstr "<adresaća>"
 
-#: kmcomposewin.cpp:2626
+#: kmcomposewin.cpp:2625
 #, fuzzy
 msgid "&Send as Is"
 msgstr "&Haj, pósłać kaž je"
 
-#: kmcomposewin.cpp:2627
+#: kmcomposewin.cpp:2626
 #, fuzzy
 msgid "&Edit Recipients"
 msgstr "<adresaća>"
 
-#: kmcomposewin.cpp:2670
+#: kmcomposewin.cpp:2669
 msgid ""
 "Turning HTML mode off will cause the text to lose the formatting. Are you "
 "sure?"
 msgstr ""
 
-#: kmcomposewin.cpp:2672
+#: kmcomposewin.cpp:2671
 msgid "Lose the formatting?"
 msgstr ""
 
-#: kmcomposewin.cpp:2672
+#: kmcomposewin.cpp:2671
 #, fuzzy
 msgid "Lose Formatting"
 msgstr "Wobkrućenje dochada"
 
-#: kmcomposewin.cpp:2727
+#: kmcomposewin.cpp:2726
 #, fuzzy
 msgid "Spellcheck: on"
 msgstr "Prawopisny program"
 
-#: kmcomposewin.cpp:2729
+#: kmcomposewin.cpp:2728
 #, fuzzy
 msgid "Spellcheck: off"
 msgstr "Prawopisny program"
 
-#: kmcomposewin.cpp:2962
+#: kmcomposewin.cpp:2961
 msgid "OVR"
 msgstr ""
 
-#: kmcomposewin.cpp:2962
+#: kmcomposewin.cpp:2961
 msgid "INS"
 msgstr ""
 
-#: kmcomposewin.cpp:3018
+#: kmcomposewin.cpp:3017
 msgid ""
 "Please configure a Crypto Backend to use for Chiasmus encryption first.\n"
 "You can do this in the Crypto Backends tab of the configure dialog's "
 "Security page."
 msgstr ""
 
-#: kmcomposewin.cpp:3022
+#: kmcomposewin.cpp:3021
 msgid ""
 "It looks as though libkleopatra was compiled without Chiasmus support. You "
 "might want to recompile libkleopatra with --enable-chiasmus."
 msgstr ""
 
-#: kmcomposewin.cpp:3025
+#: kmcomposewin.cpp:3024
 msgid "No Chiasmus Backend Configured"
 msgstr ""
 
-#: kmcomposewin.cpp:3031
+#: kmcomposewin.cpp:3030
 msgid ""
 "Chiasmus backend does not offer the \"x-obtain-keys\" function. Please "
 "report this bug."
 msgstr ""
 
-#: kmcomposewin.cpp:3033 kmcomposewin.cpp:3038 kmcomposewin.cpp:3047
+#: kmcomposewin.cpp:3032 kmcomposewin.cpp:3037 kmcomposewin.cpp:3046
 msgid "Chiasmus Backend Error"
 msgstr ""
 
-#: kmcomposewin.cpp:3044
+#: kmcomposewin.cpp:3043
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-obtain-keys\" "
 "function did not return a string list. Please report this bug."
 msgstr ""
 
-#: kmcomposewin.cpp:3053
+#: kmcomposewin.cpp:3052
 msgid ""
 "No keys have been found. Please check that a valid key path has been set in "
 "the Chiasmus configuration."
 msgstr ""
 
-#: kmcomposewin.cpp:3056
+#: kmcomposewin.cpp:3055
 #, fuzzy
 msgid "No Chiasmus Keys Found"
 msgstr "Žana signatura"
 
-#: kmcomposewin.cpp:3060
+#: kmcomposewin.cpp:3059
 #, fuzzy
 msgid "Chiasmus Encryption Key Selection"
 msgstr "Šifrowanje"
 
-#: kmcomposewin.cpp:3088
+#: kmcomposewin.cpp:3087
 #, fuzzy
 #| msgid "Message was signed by %1."
 msgid "Message will be signed"
 msgstr "Powěsć bu podpisana wot %1."
 
-#: kmcomposewin.cpp:3089
+#: kmcomposewin.cpp:3088
 #, fuzzy
 #| msgid "Message List - Date Field"
 msgid "Message will not be signed"
 msgstr "Lisćina powěsćow - datumowe pólko"
 
-#: kmcomposewin.cpp:3091
+#: kmcomposewin.cpp:3090
 #, fuzzy
 msgid "Message will be encrypted"
 msgstr "PGP-ŝifrowana powěsć"
 
-#: kmcomposewin.cpp:3092
+#: kmcomposewin.cpp:3091
 #, fuzzy
 msgid "Message will not be encrypted"
 msgstr "PGP-ŝifrowana powěsć"
