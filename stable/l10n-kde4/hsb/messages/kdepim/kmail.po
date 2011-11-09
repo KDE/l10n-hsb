@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-08 17:15+0100\n"
+"POT-Creation-Date: 2011-11-09 10:43+0100\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -4479,152 +4479,6 @@ msgstr "Suń powěsće do zapiska"
 msgid "Text Snippets"
 msgstr ""
 
-#: messageactions.cpp:66
-#, fuzzy
-msgctxt "Message->"
-msgid "&Reply"
-msgstr "&Dopósłać"
-
-#: messageactions.cpp:71 searchwindow.cpp:301
-msgid "&Reply..."
-msgstr "&Wotmołwić ..."
-
-#: messageactions.cpp:78
-#, fuzzy
-msgid "Reply to A&uthor..."
-msgstr "Wšě&m wotmołwić..."
-
-#: messageactions.cpp:85 searchwindow.cpp:305
-msgid "Reply to &All..."
-msgstr "Wšě&m wotmołwić..."
-
-#: messageactions.cpp:92 searchwindow.cpp:309
-msgid "Reply to Mailing-&List..."
-msgstr "&Lisćinje wotmołwić..."
-
-#: messageactions.cpp:99
-msgid "Reply Without &Quote..."
-msgstr "Bje&z citowanja wotmołwić"
-
-#: messageactions.cpp:106
-msgid "Create To-do/Reminder..."
-msgstr ""
-
-#: messageactions.cpp:107
-msgid "Create To-do"
-msgstr ""
-
-#: messageactions.cpp:108
-msgid "Allows you to create a calendar to-do or reminder from this message"
-msgstr ""
-
-#: messageactions.cpp:109
-msgid ""
-"This option starts the KOrganizer to-do editor with initial values taken "
-"from the currently selected message. Then you can edit the to-do to your "
-"liking before saving it to your calendar."
-msgstr ""
-
-#: messageactions.cpp:116
-msgid "Mar&k Message"
-msgstr "Powěsć mar&kěrować"
-
-#: messageactions.cpp:134
-msgid "&Edit Message"
-msgstr "Powěsć &wobdźěłać"
-
-#: messageactions.cpp:140 messageactions.cpp:561
-#, fuzzy
-#| msgid "Add..."
-msgid "Add Note..."
-msgstr "Dodać..."
-
-#: messageactions.cpp:147 searchwindow.cpp:313
-msgctxt "Message->"
-msgid "&Forward"
-msgstr "&Dopósłać"
-
-#: messageactions.cpp:152
-#, fuzzy
-#| msgid "Add Attachment..."
-msgctxt "@action:inmenu Message->Forward->"
-msgid "As &Attachment..."
-msgstr "Dodaj přiwěšk..."
-
-#: messageactions.cpp:160
-#, fuzzy
-#| msgctxt "View->attachments->"
-#| msgid "&Inline"
-msgctxt "@action:inmenu Message->Forward->"
-msgid "&Inline..."
-msgstr "&w powěsći"
-
-#: messageactions.cpp:168
-msgctxt "Message->Forward->"
-msgid "&Redirect..."
-msgstr "Do&pósłać..."
-
-#: messageactions.cpp:177
-#, fuzzy
-#| msgid "Reply to Mailing-&List..."
-msgctxt "Message->"
-msgid "Mailing-&List"
-msgstr "&Lisćinje wotmołwić..."
-
-#: messageactions.cpp:344
-#, fuzzy
-msgid "Open Message in List Archive"
-msgstr "PGP-ŝifrowana powěsć - njekorektna signatura"
-
-#: messageactions.cpp:346
-#, fuzzy
-#| msgid "New Message"
-msgid "Post New Message"
-msgstr "Nowa powěsć"
-
-#: messageactions.cpp:348
-#, fuzzy
-msgid "Go to Archive"
-msgstr "Lisćina:"
-
-#: messageactions.cpp:350
-#, fuzzy
-msgid "Request Help"
-msgstr "Lisćina"
-
-#: messageactions.cpp:352
-#, fuzzy
-#| msgid "Contacts"
-msgctxt "Contact the owner of the mailing list"
-msgid "Contact Owner"
-msgstr "Kontakty"
-
-#: messageactions.cpp:356
-msgid "Unsubscribe from List"
-msgstr ""
-
-#: messageactions.cpp:514
-#, fuzzy
-msgid "email"
-msgstr "KMail"
-
-#: messageactions.cpp:517
-msgid "web"
-msgstr ""
-
-#: messageactions.cpp:520
-#, fuzzy, kde-format
-msgctxt ""
-"%1 is a 'Contact Owner' or similar action. %2 is a protocol normally web or "
-"email though could be irc/ftp or other url variant"
-msgid "%1 (%2)"
-msgstr "KMail"
-
-#: messageactions.cpp:563
-#, fuzzy
-msgid "Edit Note..."
-msgstr "wobdźěłać..."
-
 #: tagactionmanager.cpp:120
 #, fuzzy, kde-format
 msgid "Message Tag %1"
@@ -4710,6 +4564,23 @@ msgctxt "@info:status finished searching."
 msgid "Ready."
 msgstr "Hotowo."
 
+#: searchwindow.cpp:301 messageactions.cpp:71
+msgid "&Reply..."
+msgstr "&Wotmołwić ..."
+
+#: searchwindow.cpp:305 messageactions.cpp:85
+msgid "Reply to &All..."
+msgstr "Wšě&m wotmołwić..."
+
+#: searchwindow.cpp:309 messageactions.cpp:92
+msgid "Reply to Mailing-&List..."
+msgstr "&Lisćinje wotmołwić..."
+
+#: searchwindow.cpp:313 messageactions.cpp:147
+msgctxt "Message->"
+msgid "&Forward"
+msgstr "&Dopósłać"
+
 #: searchwindow.cpp:318
 #, fuzzy
 #| msgctxt "View->attachments->"
@@ -4794,6 +4665,135 @@ msgstr[0] "žane powěsće"
 msgstr[1] "žane powěsće"
 msgstr[2] "žane powěsće"
 msgstr[3] "žane powěsće"
+
+#: messageactions.cpp:66
+#, fuzzy
+msgctxt "Message->"
+msgid "&Reply"
+msgstr "&Dopósłać"
+
+#: messageactions.cpp:78
+#, fuzzy
+msgid "Reply to A&uthor..."
+msgstr "Wšě&m wotmołwić..."
+
+#: messageactions.cpp:99
+msgid "Reply Without &Quote..."
+msgstr "Bje&z citowanja wotmołwić"
+
+#: messageactions.cpp:106
+msgid "Create To-do/Reminder..."
+msgstr ""
+
+#: messageactions.cpp:107
+msgid "Create To-do"
+msgstr ""
+
+#: messageactions.cpp:108
+msgid "Allows you to create a calendar to-do or reminder from this message"
+msgstr ""
+
+#: messageactions.cpp:109
+msgid ""
+"This option starts the KOrganizer to-do editor with initial values taken "
+"from the currently selected message. Then you can edit the to-do to your "
+"liking before saving it to your calendar."
+msgstr ""
+
+#: messageactions.cpp:116
+msgid "Mar&k Message"
+msgstr "Powěsć mar&kěrować"
+
+#: messageactions.cpp:134
+msgid "&Edit Message"
+msgstr "Powěsć &wobdźěłać"
+
+#: messageactions.cpp:140 messageactions.cpp:559
+#, fuzzy
+#| msgid "Add..."
+msgid "Add Note..."
+msgstr "Dodać..."
+
+#: messageactions.cpp:152
+#, fuzzy
+#| msgid "Add Attachment..."
+msgctxt "@action:inmenu Message->Forward->"
+msgid "As &Attachment..."
+msgstr "Dodaj přiwěšk..."
+
+#: messageactions.cpp:160
+#, fuzzy
+#| msgctxt "View->attachments->"
+#| msgid "&Inline"
+msgctxt "@action:inmenu Message->Forward->"
+msgid "&Inline..."
+msgstr "&w powěsći"
+
+#: messageactions.cpp:168
+msgctxt "Message->Forward->"
+msgid "&Redirect..."
+msgstr "Do&pósłać..."
+
+#: messageactions.cpp:177
+#, fuzzy
+#| msgid "Reply to Mailing-&List..."
+msgctxt "Message->"
+msgid "Mailing-&List"
+msgstr "&Lisćinje wotmołwić..."
+
+#: messageactions.cpp:344
+#, fuzzy
+msgid "Open Message in List Archive"
+msgstr "PGP-ŝifrowana powěsć - njekorektna signatura"
+
+#: messageactions.cpp:346
+#, fuzzy
+#| msgid "New Message"
+msgid "Post New Message"
+msgstr "Nowa powěsć"
+
+#: messageactions.cpp:348
+#, fuzzy
+msgid "Go to Archive"
+msgstr "Lisćina:"
+
+#: messageactions.cpp:350
+#, fuzzy
+msgid "Request Help"
+msgstr "Lisćina"
+
+#: messageactions.cpp:352
+#, fuzzy
+#| msgid "Contacts"
+msgctxt "Contact the owner of the mailing list"
+msgid "Contact Owner"
+msgstr "Kontakty"
+
+#: messageactions.cpp:356
+msgid "Unsubscribe from List"
+msgstr ""
+
+#: messageactions.cpp:512
+#, fuzzy
+msgid "email"
+msgstr "KMail"
+
+#: messageactions.cpp:515
+msgid "web"
+msgstr ""
+
+#: messageactions.cpp:518
+#, fuzzy, kde-format
+msgctxt ""
+"%1 is a 'Contact Owner' or similar action. %2 is a protocol normally web or "
+"email though could be irc/ftp or other url variant"
+msgid "%1 (%2)"
+msgstr "KMail"
+
+#: messageactions.cpp:561
+#, fuzzy
+msgid "Edit Note..."
+msgstr "wobdźěłać..."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
