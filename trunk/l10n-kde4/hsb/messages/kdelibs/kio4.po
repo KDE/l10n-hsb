@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-23 04:01+0100\n"
+"POT-Creation-Date: 2011-12-02 04:25+0100\n"
 "PO-Revision-Date: 2008-11-17 23:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -64,7 +64,7 @@ msgid "Select Folder"
 msgstr "Zapisk wubrać"
 
 #: bookmarks/kbookmarkdialog.cc:159 ../kfile/kdirselectdialog.cpp:135
-#: ../kfile/knewfilemenu.cpp:1015
+#: ../kfile/knewfilemenu.cpp:1013
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr "Nowy zapisk"
@@ -421,6 +421,34 @@ msgstr "Njenamakam  '%1', prošu zapodajće mjeno programa."
 #: kfile/kfilemetainfowidget.cpp:163
 msgid "<Error>"
 msgstr "<Zmylk>"
+
+#: kfile/kfilemetadatareaderprocess.cpp:216
+msgid "KFileMetaDataReader"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:218
+msgid "KFileMetaDataReader can be used to read metadata from a file"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:220
+msgid "(C) 2011, Peter Penz"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:221
+msgid "Peter Penz"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:221
+msgid "Current maintainer"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:226
+msgid "Only the meta data that is part of the file is read"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:227
+msgid "List of URLs where the meta-data should be read from"
+msgstr ""
 
 #: kfile/kmetaprops.cpp:57
 msgctxt "@title:window"
@@ -1535,34 +1563,6 @@ msgstr "Wulkosć:"
 msgctxt "@label"
 msgid "Type"
 msgstr "Družina"
-
-#: kfile/kfilemetadatareaderprocess.cpp:169
-msgid "KFileMetaDataReader"
-msgstr ""
-
-#: kfile/kfilemetadatareaderprocess.cpp:171
-msgid "KFileMetaDataReader can be used to read metadata from a file"
-msgstr ""
-
-#: kfile/kfilemetadatareaderprocess.cpp:173
-msgid "(C) 2011, Peter Penz"
-msgstr ""
-
-#: kfile/kfilemetadatareaderprocess.cpp:174
-msgid "Peter Penz"
-msgstr ""
-
-#: kfile/kfilemetadatareaderprocess.cpp:174
-msgid "Current maintainer"
-msgstr ""
-
-#: kfile/kfilemetadatareaderprocess.cpp:179
-msgid "Only the meta data that is part of the file is read"
-msgstr ""
-
-#: kfile/kfilemetadatareaderprocess.cpp:180
-msgid "List of URLs where the meta-data should be read from"
-msgstr ""
 
 #: kfile/kcommentwidget.cpp:65
 #, fuzzy
@@ -5687,13 +5687,13 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:576 ../kioslave/http/http.cpp:3483
+#: ../kioslave/ftp/ftp.cpp:576 ../kioslave/http/http.cpp:3487
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Dyrbiće mjeno wužiwarja a hesło podać, zo byšće k tutomu serwerej přistup "
 "dóstali."
 
-#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:3485
+#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:3489
 msgid "Site:"
 msgstr "Server:"
 
@@ -5711,8 +5711,8 @@ msgstr "Přizjewjenje OK"
 msgid "Could not login to %1."
 msgstr "Njemóžach so na %1 přizjewić."
 
-#: ../kioslave/ftp/ftp.cpp:2561 ../kioslave/http/http.cpp:3495
-#: ../kioslave/http/http.cpp:5400
+#: ../kioslave/ftp/ftp.cpp:2561 ../kioslave/http/http.cpp:3499
+#: ../kioslave/http/http.cpp:5404
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -5720,19 +5720,19 @@ msgstr ""
 "Dyrbiće na proxyju mjeno wužiwarja a škitne hesło zapodać, prjedy hač směće "
 "so z dalšimi ličakami zwjazać."
 
-#: ../kioslave/ftp/ftp.cpp:2565 ../kioslave/http/http.cpp:3498
-#: ../kioslave/http/http.cpp:5404
+#: ../kioslave/ftp/ftp.cpp:2565 ../kioslave/http/http.cpp:3502
+#: ../kioslave/http/http.cpp:5408
 msgid "Proxy:"
 msgstr "Proxy:"
 
-#: ../kioslave/ftp/ftp.cpp:2566 ../kioslave/http/http.cpp:3572
-#: ../kioslave/http/http.cpp:5405
+#: ../kioslave/ftp/ftp.cpp:2566 ../kioslave/http/http.cpp:3576
+#: ../kioslave/http/http.cpp:5409
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> at <b>%2</b>"
 
-#: ../kioslave/ftp/ftp.cpp:2567 ../kioslave/http/http.cpp:3562
-#: ../kioslave/http/http.cpp:5406
+#: ../kioslave/ftp/ftp.cpp:2567 ../kioslave/http/http.cpp:3566
+#: ../kioslave/http/http.cpp:5410
 msgid "Proxy Authentication Failed."
 msgstr "Přizjewjenje na proxyju je so zwrěšćiło!"
 
@@ -5930,70 +5930,70 @@ msgstr "Wšitke placki zničić."
 msgid "Reload configuration file"
 msgstr "Konfiguracisku dataju nowa začitać."
 
-#: ../kioslave/http/http.cpp:595
+#: ../kioslave/http/http.cpp:599
 msgid "No host specified."
 msgstr "Žadyn server specifikowany."
 
-#: ../kioslave/http/http.cpp:1589
+#: ../kioslave/http/http.cpp:1593
 msgid "Otherwise, the request would have succeeded."
 msgstr "Hewak by so poradźiło."
 
-#: ../kioslave/http/http.cpp:1593
+#: ../kioslave/http/http.cpp:1597
 msgctxt "request type"
 msgid "retrieve property values"
 msgstr "hódnoty atributow wobstarać"
 
-#: ../kioslave/http/http.cpp:1596
+#: ../kioslave/http/http.cpp:1600
 msgctxt "request type"
 msgid "set property values"
 msgstr "hódnoty atributow postajić"
 
-#: ../kioslave/http/http.cpp:1599
+#: ../kioslave/http/http.cpp:1603
 msgctxt "request type"
 msgid "create the requested folder"
 msgstr "trěbny zapisk stworić"
 
-#: ../kioslave/http/http.cpp:1602
+#: ../kioslave/http/http.cpp:1606
 msgctxt "request type"
 msgid "copy the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk kopěrować"
 
-#: ../kioslave/http/http.cpp:1605
+#: ../kioslave/http/http.cpp:1609
 msgctxt "request type"
 msgid "move the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk přesunyć"
 
-#: ../kioslave/http/http.cpp:1608
+#: ../kioslave/http/http.cpp:1612
 msgctxt "request type"
 msgid "search in the specified folder"
 msgstr "we wotpowědnym zapisku pytać"
 
-#: ../kioslave/http/http.cpp:1611
+#: ../kioslave/http/http.cpp:1615
 msgctxt "request type"
 msgid "lock the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk zamknyć"
 
-#: ../kioslave/http/http.cpp:1614
+#: ../kioslave/http/http.cpp:1618
 msgctxt "request type"
 msgid "unlock the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk wotamknyć"
 
-#: ../kioslave/http/http.cpp:1617
+#: ../kioslave/http/http.cpp:1621
 msgctxt "request type"
 msgid "delete the specified file or folder"
 msgstr "wotpowědnu dataju abo zapisk zničić"
 
-#: ../kioslave/http/http.cpp:1620
+#: ../kioslave/http/http.cpp:1624
 msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr "so za móžnosćemi servera woprašeć"
 
-#: ../kioslave/http/http.cpp:1623
+#: ../kioslave/http/http.cpp:1627
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
 msgstr "wobsah wotpowědneje dataje abo zapiska dóstać"
 
-#: ../kioslave/http/http.cpp:1626
+#: ../kioslave/http/http.cpp:1630
 #, fuzzy
 #| msgctxt "request type"
 #| msgid "search in the specified folder"
@@ -6001,17 +6001,17 @@ msgctxt "request type"
 msgid "run a report in the specified folder"
 msgstr "we wotpowědnym zapisku pytać"
 
-#: ../kioslave/http/http.cpp:1637
+#: ../kioslave/http/http.cpp:1641
 #, kde-format
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
 
-#: ../kioslave/http/http.cpp:1645
+#: ../kioslave/http/http.cpp:1649
 msgid "The server does not support the WebDAV protocol."
 msgstr "Tutón server WebDAV njepodpěruje."
 
-#: ../kioslave/http/http.cpp:1687
+#: ../kioslave/http/http.cpp:1691
 #, kde-format
 msgctxt "%1: request type, %2: url"
 msgid ""
@@ -6019,13 +6019,13 @@ msgid ""
 "below."
 msgstr "Zmylk je so stał při pospyće %1, %2. Zjeće přičin namakaće deleka."
 
-#: ../kioslave/http/http.cpp:1701 ../kioslave/http/http.cpp:1833
+#: ../kioslave/http/http.cpp:1705 ../kioslave/http/http.cpp:1837
 #, kde-format
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr "Přistup bu wotpokazany, jako spytach %1."
 
-#: ../kioslave/http/http.cpp:1714 ../kioslave/http/http.cpp:1839
+#: ../kioslave/http/http.cpp:1718 ../kioslave/http/http.cpp:1843
 msgid ""
 "A resource cannot be created at the destination until one or more "
 "intermediate collections (folders) have been created."
@@ -6033,7 +6033,7 @@ msgstr ""
 "Resursa njehodźi so na tutym městnje wutworić, doniž njebu žadyn zapisk "
 "stworjeny."
 
-#: ../kioslave/http/http.cpp:1722
+#: ../kioslave/http/http.cpp:1726
 #, kde-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in "
@@ -6044,26 +6044,26 @@ msgstr ""
 "\"propertybehavior\", abo sće spytali dataju přepisać, hačrunjež běšće to do "
 "toho zakazali. %1"
 
-#: ../kioslave/http/http.cpp:1730
+#: ../kioslave/http/http.cpp:1734
 #, kde-format
 msgid "The requested lock could not be granted. %1"
 msgstr "Pominane blokowanje njehodźeše so zarjadować. %1"
 
-#: ../kioslave/http/http.cpp:1736
+#: ../kioslave/http/http.cpp:1740
 msgid "The server does not support the request type of the body."
 msgstr "Server tutu družinu elementa \"Body\" njepodpěruje."
 
-#: ../kioslave/http/http.cpp:1741 ../kioslave/http/http.cpp:1847
+#: ../kioslave/http/http.cpp:1745 ../kioslave/http/http.cpp:1851
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr "Njemóžu %1; resursa je blokowana."
 
-#: ../kioslave/http/http.cpp:1745
+#: ../kioslave/http/http.cpp:1749
 msgid "This action was prevented by another error."
 msgstr "Tutej operaciji je někajki druhi zmylk zadźěwał."
 
-#: ../kioslave/http/http.cpp:1751 ../kioslave/http/http.cpp:1853
+#: ../kioslave/http/http.cpp:1755 ../kioslave/http/http.cpp:1857
 #, kde-format
 msgctxt "%1: request type"
 msgid ""
@@ -6071,7 +6071,7 @@ msgid ""
 "folder."
 msgstr "Njemóžu %1, dokelž cilowy server dataju abo zapisk njeakceptuje."
 
-#: ../kioslave/http/http.cpp:1758 ../kioslave/http/http.cpp:1860
+#: ../kioslave/http/http.cpp:1762 ../kioslave/http/http.cpp:1864
 msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
@@ -6079,30 +6079,30 @@ msgstr ""
 "Cilowa resursa nima dosć městna, zo by staw resursy po wuwjedźenju tuteje "
 "metody zawěsćiła."
 
-#: ../kioslave/http/http.cpp:1811
+#: ../kioslave/http/http.cpp:1815
 #, fuzzy
 #| msgid "The specified resource may not exist."
 msgid "The resource cannot be deleted."
 msgstr "pominana resursa snano njeeksistuje."
 
-#: ../kioslave/http/http.cpp:1824
+#: ../kioslave/http/http.cpp:1828
 #, kde-format
 msgctxt "request type"
 msgid "upload %1"
 msgstr "kopěrować %1 na serwer"
 
-#: ../kioslave/http/http.cpp:1874
+#: ../kioslave/http/http.cpp:1878
 #, kde-format
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
 
-#: ../kioslave/http/http.cpp:2696
+#: ../kioslave/http/http.cpp:2700
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "%1 kontaktowany. Čakam na wotmołwu..."
 
-#: ../kioslave/http/http.cpp:3027
+#: ../kioslave/http/http.cpp:3031
 #, kde-format
 msgctxt "@warning: Security check on url being accessed"
 msgid ""
@@ -6111,37 +6111,37 @@ msgid ""
 "<p>Is \"%1\" the site you want to visit?"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:3034
+#: ../kioslave/http/http.cpp:3038
 msgctxt "@title:window"
 msgid "Confirm Website Access"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:3111
+#: ../kioslave/http/http.cpp:3115
 msgid "Server processing request, please wait..."
 msgstr "Server hišće dźěła, prošu dočakajće..."
 
-#: ../kioslave/http/http.cpp:3559
+#: ../kioslave/http/http.cpp:3563
 msgid "Authentication Failed."
 msgstr "Přizjewjenje je so zwrěšćiło!"
 
-#: ../kioslave/http/http.cpp:3605
+#: ../kioslave/http/http.cpp:3609
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Authorization failed."
 msgstr "Awtorizaciski dialog"
 
-#: ../kioslave/http/http.cpp:3622
+#: ../kioslave/http/http.cpp:3626
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."
 msgstr "Awtorizaciski dialog"
 
-#: ../kioslave/http/http.cpp:4004 ../kioslave/http/http.cpp:4058
+#: ../kioslave/http/http.cpp:4008 ../kioslave/http/http.cpp:4062
 #, kde-format
 msgid "Sending data to %1"
 msgstr "Sćelu day na %1"
 
-#: ../kioslave/http/http.cpp:4524
+#: ../kioslave/http/http.cpp:4528
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr "Dóstawam %1 wot %2..."
@@ -6210,6 +6210,172 @@ msgstr "SSL-wersija:"
 msgctxt "@item:inmenu"
 msgid "Other"
 msgstr "Druzy"
+
+#: ../kfile/kdirselectdialog.cpp:131
+#, fuzzy
+msgctxt "folder name"
+msgid "New Folder"
+msgstr "Nowy zapisk..."
+
+#: ../kfile/kdirselectdialog.cpp:136
+#, fuzzy, kde-format
+msgctxt "@label:textbox"
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr "Nowy zapisk stworić w:"
+
+#: ../kfile/kdirselectdialog.cpp:159 ../kfile/kdiroperator.cpp:766
+#, fuzzy, kde-format
+msgid "A file or folder named %1 already exists."
+msgstr "Dataja %1 hižo eksistuje."
+
+#: ../kfile/kdirselectdialog.cpp:163 ../kfile/kdiroperator.cpp:768
+#, fuzzy
+msgid "You do not have permission to create that folder."
+msgstr "Nimaće prawa tutón zapisk stworić."
+
+#: ../kfile/kdirselectdialog.cpp:283
+#, fuzzy
+#| msgid "New Folder..."
+msgctxt "@action:button"
+msgid "New Folder..."
+msgstr "Nowy zapisk..."
+
+#: ../kfile/kdirselectdialog.cpp:324
+#, fuzzy
+#| msgid "New Folder..."
+msgctxt "@action:inmenu"
+msgid "New Folder..."
+msgstr "Nowy zapisk..."
+
+#: ../kfile/kdirselectdialog.cpp:331
+#, fuzzy
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "Move to Trash"
+msgstr "do papjernika sunyć"
+
+#: ../kfile/kdirselectdialog.cpp:338
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr "Niču"
+
+#: ../kfile/kdirselectdialog.cpp:347
+#, fuzzy
+msgctxt "@option:check"
+msgid "Show Hidden Folders"
+msgstr "chowane dataje pokazować"
+
+#: ../kfile/kdirselectdialog.cpp:354
+#, fuzzy
+#| msgid "Properties"
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "Swójstwa"
+
+#: ../kfile/knewfilemenu.cpp:368 ../kfile/knewfilemenu.cpp:871
+#, fuzzy
+#| msgid "Store"
+msgid "Sorry"
+msgstr "Zawěsćić"
+
+#: ../kfile/knewfilemenu.cpp:377
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
+#| "does not exist.</qt>"
+msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
+msgstr ""
+"<qt>Njemóžu komando wuwjesć. Dataja abo zapisk <b>%1</b> njeeksistujetej.</"
+"qt>"
+
+#: ../kfile/knewfilemenu.cpp:396
+#, fuzzy
+#| msgid "Creating directory"
+msgctxt "@action:button"
+msgid "Create directory"
+msgstr "Stworju zapisk"
+
+#: ../kfile/knewfilemenu.cpp:398
+#, fuzzy
+#| msgid "Ru&n as a different user"
+msgctxt "@action:button"
+msgid "Enter a different name"
+msgstr "Jako &hinaši wužiwar startować"
+
+#: ../kfile/knewfilemenu.cpp:401
+#, fuzzy
+#| msgid "Creating directory"
+msgid "Create hidden directory?"
+msgstr "Stworju zapisk"
+
+#: ../kfile/knewfilemenu.cpp:405
+#, kde-format
+msgid ""
+"The name \"%1\" starts with a dot, so the directory will be hidden by "
+"default."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:407
+msgid "Do not ask again"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:500 ../kfile/knewfilemenu.cpp:557
+#, fuzzy
+#| msgid "Device name"
+msgid "File name:"
+msgstr "Mjeno grata"
+
+#: ../kfile/knewfilemenu.cpp:503
+#, fuzzy
+#| msgid "Could Not Create Symbolic Link"
+msgid "Create Symlink"
+msgstr "Njemóžach wotkaz stworić"
+
+#: ../kfile/knewfilemenu.cpp:561
+#, fuzzy
+#| msgid "Created:"
+msgid "Create link to URL"
+msgstr "Stworjene:"
+
+#: ../kfile/knewfilemenu.cpp:607 ../kfile/knewfilemenu.cpp:655
+#, kde-format
+msgctxt "@item:inmenu Create New"
+msgid "%1"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:881
+msgid ""
+"Basic links can only point to local files or directories.\n"
+"Please use \"Link to Location\" for remote URLs."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:945
+#, fuzzy
+#| msgid "Created:"
+msgid "Create New"
+msgstr "Stworjene:"
+
+#: ../kfile/knewfilemenu.cpp:958
+#, fuzzy
+#| msgid "Device"
+msgid "Link to Device"
+msgstr "Grat"
+
+#: ../kfile/knewfilemenu.cpp:1003
+#, fuzzy
+msgctxt "Default name for a new folder"
+msgid "New Folder"
+msgstr "Nowy zapisk..."
+
+#: ../kfile/knewfilemenu.cpp:1017
+#, fuzzy, kde-format
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr "Nowy zapisk stworić w:"
 
 #: ../kfile/kurlnavigatortogglebutton.cpp:93
 msgid "Click for Location Navigation"
@@ -6293,15 +6459,143 @@ msgstr "Zmylk je so stał při pospyće %1, %2. Zjeće přičin namakaće deleka
 msgid "An error occurred while accessing '%1'"
 msgstr "Njewočakowany zmylk (%1) je so stał při pospyće %2."
 
-#: ../kfile/kdiroperator.cpp:766 ../kfile/kdirselectdialog.cpp:159
-#, fuzzy, kde-format
-msgid "A file or folder named %1 already exists."
-msgstr "Dataja %1 hižo eksistuje."
-
-#: ../kfile/kdiroperator.cpp:768 ../kfile/kdirselectdialog.cpp:163
+#: ../kfile/kfiletreeview.cpp:187
 #, fuzzy
-msgid "You do not have permission to create that folder."
-msgstr "Nimaće prawa tutón zapisk stworić."
+msgid "Show Hidden Folders"
+msgstr "chowane dataje pokazować"
+
+#: ../kfile/kfileplaceeditdialog.cpp:90
+#, fuzzy
+msgid "Add Places Entry"
+msgstr "&Wobdźěłać..."
+
+#: ../kfile/kfileplaceeditdialog.cpp:92
+#, fuzzy
+msgid "Edit Places Entry"
+msgstr "&Wobdźěłać..."
+
+#: ../kfile/kfileplaceeditdialog.cpp:103
+#, fuzzy
+#| msgid ""
+#| "<qt>This is the text that will appear in the Quick Access panel.<p>The "
+#| "description should consist of one or two words that will help you "
+#| "remember what this entry refers to.</qt>"
+msgid ""
+"<qt>This is the text that will appear in the Places panel.<br /><br />The "
+"label should consist of one or two words that will help you remember what "
+"this entry refers to. If you do not enter a label, it will be derived from "
+"the location's URL.</qt>"
+msgstr ""
+"<qt>To je tekst, kotrež so w nawigaciskim pasku pokazuje.<p> Wopisanje měło "
+"z jedneho abo dweju słowow wobstać, kiž was dopominatej, wo čo so jednaše.</"
+"qt>"
+
+#: ../kfile/kfileplaceeditdialog.cpp:109
+#, fuzzy
+#| msgid "&Name:"
+msgid "L&abel:"
+msgstr "&Mjeno:"
+
+#: ../kfile/kfileplaceeditdialog.cpp:111
+#, fuzzy
+#| msgid "Enter a description"
+msgid "Enter descriptive label here"
+msgstr "zapodajće wopisanje"
+
+#: ../kfile/kfileplaceeditdialog.cpp:115
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>This is the location associated with the entry. Any valid URL may be "
+#| "used. For example:<p>%1<br>http://www.kde.org<br>ftp://ftp.kde.org/pub/"
+#| "kde/stable<p>By clicking on the button next to the text edit box you can "
+#| "browse to an appropriate URL.</qt>"
+msgid ""
+"<qt>This is the location associated with the entry. Any valid URL may be "
+"used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
+"org/pub/kde/stable<br /><br />By clicking on the button next to the text "
+"edit box you can browse to an appropriate URL.</qt>"
+msgstr ""
+"<qt>To je městno, kiž so ze zapodaćom zwjazuje. Kóždy walidny URL móže so "
+"wužiwać. Na přikład <p>%1<br>http://ww.kde.org<br>ftp://ftp.kde.org/pub/kde/"
+"stable<p> Z kliknjenjom na knefl pódla tekstoweho pólka móžeće k "
+"wotpowědnemu URL hić.</qt>"
+
+#: ../kfile/kfileplaceeditdialog.cpp:121
+msgid "&Location:"
+msgstr "&Městno:"
+
+#: ../kfile/kfileplaceeditdialog.cpp:127
+#, fuzzy
+#| msgid ""
+#| "<qt>This is the icon that will appear in the Quick Access panel.<p>Click "
+#| "on the button to select a different icon.</qt>"
+msgid ""
+"<qt>This is the icon that will appear in the Places panel.<br /><br />Click "
+"on the button to select a different icon.</qt>"
+msgstr ""
+"<qt>Tutón piktogram so w nawigaciskim pasku zjewi.<p>Klikńće na knefl, zo by "
+"druhi piktogram wubrał.</qt>"
+
+#: ../kfile/kfileplaceeditdialog.cpp:130
+msgid "Choose an &icon:"
+msgstr "Wubjerće p&iktogram:"
+
+#: ../kfile/kfileplaceeditdialog.cpp:147
+#, kde-format
+msgid "&Only show when using this application (%1)"
+msgstr "Jen&ož pokazać, hdyž so tutón program (%1) wužiwa"
+
+#: ../kfile/kfileplaceeditdialog.cpp:149
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>Select this setting if you want this entry to show only when using "
+#| "the current application (%1).<p>If this setting is not selected, the "
+#| "entry will be available in all applications.</qt>"
+msgid ""
+"<qt>Select this setting if you want this entry to show only when using the "
+"current application (%1).<br /><br />If this setting is not selected, the "
+"entry will be available in all applications.</qt>"
+msgstr ""
+"<qt>Wubjerće tutu opciju, jeli chceće, zo by so tutón element jenož zjewił, "
+"hdyž so program %1 wužiwa.<p>Njewubjereće-li ju, steji element we wšěch "
+"programach k dispoziciji.</qt>"
+
+#: ../kfile/kurlnavigator.cpp:431
+#, fuzzy
+#| msgid "Copying"
+msgid "Copy"
+msgstr "Kopěruju"
+
+#: ../kfile/kurlnavigator.cpp:435
+#, fuzzy
+#| msgid "Date"
+msgid "Paste"
+msgstr "Datum"
+
+#: ../kfile/kurlnavigator.cpp:442
+#, fuzzy
+#| msgid "&Edit..."
+msgid "Edit"
+msgstr "&Wobdźěłać"
+
+#: ../kfile/kurlnavigator.cpp:445
+msgid "Navigate"
+msgstr ""
+
+#: ../kfile/kurlnavigator.cpp:460
+msgid "Show Full Path"
+msgstr ""
+
+#: ../kfile/kurlnavigator.cpp:698
+msgid "Custom Path"
+msgstr ""
+
+#: ../kfile/kurlnavigatorbutton.cpp:675
+#, fuzzy
+#| msgid "Store"
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "Zawěsćić"
 
 #: ../kfile/kdiroperator.cpp:783
 #, fuzzy
@@ -6486,161 +6780,6 @@ msgstr "Dialog za wočinjenje dataje"
 #, fuzzy
 msgid "&View"
 msgstr "&Přehladka"
-
-#: ../kfile/kdirselectdialog.cpp:131
-#, fuzzy
-msgctxt "folder name"
-msgid "New Folder"
-msgstr "Nowy zapisk..."
-
-#: ../kfile/kdirselectdialog.cpp:136
-#, fuzzy, kde-format
-msgctxt "@label:textbox"
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr "Nowy zapisk stworić w:"
-
-#: ../kfile/kdirselectdialog.cpp:283
-#, fuzzy
-#| msgid "New Folder..."
-msgctxt "@action:button"
-msgid "New Folder..."
-msgstr "Nowy zapisk..."
-
-#: ../kfile/kdirselectdialog.cpp:324
-#, fuzzy
-#| msgid "New Folder..."
-msgctxt "@action:inmenu"
-msgid "New Folder..."
-msgstr "Nowy zapisk..."
-
-#: ../kfile/kdirselectdialog.cpp:331
-#, fuzzy
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "Move to Trash"
-msgstr "do papjernika sunyć"
-
-#: ../kfile/kdirselectdialog.cpp:338
-#, fuzzy
-msgctxt "@action:inmenu"
-msgid "Delete"
-msgstr "Niču"
-
-#: ../kfile/kdirselectdialog.cpp:347
-#, fuzzy
-msgctxt "@option:check"
-msgid "Show Hidden Folders"
-msgstr "chowane dataje pokazować"
-
-#: ../kfile/kdirselectdialog.cpp:354
-#, fuzzy
-#| msgid "Properties"
-msgctxt "@action:inmenu"
-msgid "Properties"
-msgstr "Swójstwa"
-
-#: ../kfile/kfiletreeview.cpp:187
-#, fuzzy
-msgid "Show Hidden Folders"
-msgstr "chowane dataje pokazować"
-
-#: ../kfile/kfileplaceeditdialog.cpp:90
-#, fuzzy
-msgid "Add Places Entry"
-msgstr "&Wobdźěłać..."
-
-#: ../kfile/kfileplaceeditdialog.cpp:92
-#, fuzzy
-msgid "Edit Places Entry"
-msgstr "&Wobdźěłać..."
-
-#: ../kfile/kfileplaceeditdialog.cpp:103
-#, fuzzy
-#| msgid ""
-#| "<qt>This is the text that will appear in the Quick Access panel.<p>The "
-#| "description should consist of one or two words that will help you "
-#| "remember what this entry refers to.</qt>"
-msgid ""
-"<qt>This is the text that will appear in the Places panel.<br /><br />The "
-"label should consist of one or two words that will help you remember what "
-"this entry refers to. If you do not enter a label, it will be derived from "
-"the location's URL.</qt>"
-msgstr ""
-"<qt>To je tekst, kotrež so w nawigaciskim pasku pokazuje.<p> Wopisanje měło "
-"z jedneho abo dweju słowow wobstać, kiž was dopominatej, wo čo so jednaše.</"
-"qt>"
-
-#: ../kfile/kfileplaceeditdialog.cpp:109
-#, fuzzy
-#| msgid "&Name:"
-msgid "L&abel:"
-msgstr "&Mjeno:"
-
-#: ../kfile/kfileplaceeditdialog.cpp:111
-#, fuzzy
-#| msgid "Enter a description"
-msgid "Enter descriptive label here"
-msgstr "zapodajće wopisanje"
-
-#: ../kfile/kfileplaceeditdialog.cpp:115
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>This is the location associated with the entry. Any valid URL may be "
-#| "used. For example:<p>%1<br>http://www.kde.org<br>ftp://ftp.kde.org/pub/"
-#| "kde/stable<p>By clicking on the button next to the text edit box you can "
-#| "browse to an appropriate URL.</qt>"
-msgid ""
-"<qt>This is the location associated with the entry. Any valid URL may be "
-"used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
-"org/pub/kde/stable<br /><br />By clicking on the button next to the text "
-"edit box you can browse to an appropriate URL.</qt>"
-msgstr ""
-"<qt>To je městno, kiž so ze zapodaćom zwjazuje. Kóždy walidny URL móže so "
-"wužiwać. Na přikład <p>%1<br>http://ww.kde.org<br>ftp://ftp.kde.org/pub/kde/"
-"stable<p> Z kliknjenjom na knefl pódla tekstoweho pólka móžeće k "
-"wotpowědnemu URL hić.</qt>"
-
-#: ../kfile/kfileplaceeditdialog.cpp:121
-msgid "&Location:"
-msgstr "&Městno:"
-
-#: ../kfile/kfileplaceeditdialog.cpp:127
-#, fuzzy
-#| msgid ""
-#| "<qt>This is the icon that will appear in the Quick Access panel.<p>Click "
-#| "on the button to select a different icon.</qt>"
-msgid ""
-"<qt>This is the icon that will appear in the Places panel.<br /><br />Click "
-"on the button to select a different icon.</qt>"
-msgstr ""
-"<qt>Tutón piktogram so w nawigaciskim pasku zjewi.<p>Klikńće na knefl, zo by "
-"druhi piktogram wubrał.</qt>"
-
-#: ../kfile/kfileplaceeditdialog.cpp:130
-msgid "Choose an &icon:"
-msgstr "Wubjerće p&iktogram:"
-
-#: ../kfile/kfileplaceeditdialog.cpp:147
-#, kde-format
-msgid "&Only show when using this application (%1)"
-msgstr "Jen&ož pokazać, hdyž so tutón program (%1) wužiwa"
-
-#: ../kfile/kfileplaceeditdialog.cpp:149
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>Select this setting if you want this entry to show only when using "
-#| "the current application (%1).<p>If this setting is not selected, the "
-#| "entry will be available in all applications.</qt>"
-msgid ""
-"<qt>Select this setting if you want this entry to show only when using the "
-"current application (%1).<br /><br />If this setting is not selected, the "
-"entry will be available in all applications.</qt>"
-msgstr ""
-"<qt>Wubjerće tutu opciju, jeli chceće, zo by so tutón element jenož zjewił, "
-"hdyž so program %1 wužiwa.<p>Njewubjereće-li ju, steji element we wšěch "
-"programach k dispoziciji.</qt>"
 
 #: ../kfile/kfilewidget.cpp:286
 #, fuzzy
@@ -6944,145 +7083,6 @@ msgstr ""
 "móžeće zběrku swoje najlubšich stronow editować, do njeje dodawać abo z "
 "njeje wubrać.<p> Tute znamjenja su specifiske za datajowy dialog, hewak pak "
 "so kaž wšě druhe w KDE zadźerža.</qt>"
-
-#: ../kfile/knewfilemenu.cpp:368 ../kfile/knewfilemenu.cpp:872
-#, fuzzy
-#| msgid "Store"
-msgid "Sorry"
-msgstr "Zawěsćić"
-
-#: ../kfile/knewfilemenu.cpp:377
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
-#| "does not exist.</qt>"
-msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
-msgstr ""
-"<qt>Njemóžu komando wuwjesć. Dataja abo zapisk <b>%1</b> njeeksistujetej.</"
-"qt>"
-
-#: ../kfile/knewfilemenu.cpp:396
-#, fuzzy
-#| msgid "Creating directory"
-msgctxt "@action:button"
-msgid "Create directory"
-msgstr "Stworju zapisk"
-
-#: ../kfile/knewfilemenu.cpp:398
-#, fuzzy
-#| msgid "Ru&n as a different user"
-msgctxt "@action:button"
-msgid "Enter a different name"
-msgstr "Jako &hinaši wužiwar startować"
-
-#: ../kfile/knewfilemenu.cpp:401
-#, fuzzy
-#| msgid "Creating directory"
-msgid "Create hidden directory?"
-msgstr "Stworju zapisk"
-
-#: ../kfile/knewfilemenu.cpp:405
-#, kde-format
-msgid ""
-"The name \"%1\" starts with a dot, so the directory will be hidden by "
-"default."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:407
-msgid "Do not ask again"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:500 ../kfile/knewfilemenu.cpp:558
-#, fuzzy
-#| msgid "Device name"
-msgid "File name:"
-msgstr "Mjeno grata"
-
-#: ../kfile/knewfilemenu.cpp:503
-#, fuzzy
-#| msgid "Could Not Create Symbolic Link"
-msgid "Create Symlink"
-msgstr "Njemóžach wotkaz stworić"
-
-#: ../kfile/knewfilemenu.cpp:562
-#, fuzzy
-#| msgid "Created:"
-msgid "Create link to URL"
-msgstr "Stworjene:"
-
-#: ../kfile/knewfilemenu.cpp:608 ../kfile/knewfilemenu.cpp:656
-#, kde-format
-msgctxt "@item:inmenu Create New"
-msgid "%1"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:882
-msgid ""
-"Basic links can only point to local files or directories.\n"
-"Please use \"Link to Location\" for remote URLs."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:947
-#, fuzzy
-#| msgid "Created:"
-msgid "Create New"
-msgstr "Stworjene:"
-
-#: ../kfile/knewfilemenu.cpp:960
-#, fuzzy
-#| msgid "Device"
-msgid "Link to Device"
-msgstr "Grat"
-
-#: ../kfile/knewfilemenu.cpp:1005
-#, fuzzy
-msgctxt "Default name for a new folder"
-msgid "New Folder"
-msgstr "Nowy zapisk..."
-
-#: ../kfile/knewfilemenu.cpp:1019
-#, fuzzy, kde-format
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr "Nowy zapisk stworić w:"
-
-#: ../kfile/kurlnavigator.cpp:431
-#, fuzzy
-#| msgid "Copying"
-msgid "Copy"
-msgstr "Kopěruju"
-
-#: ../kfile/kurlnavigator.cpp:435
-#, fuzzy
-#| msgid "Date"
-msgid "Paste"
-msgstr "Datum"
-
-#: ../kfile/kurlnavigator.cpp:442
-#, fuzzy
-#| msgid "&Edit..."
-msgid "Edit"
-msgstr "&Wobdźěłać"
-
-#: ../kfile/kurlnavigator.cpp:445
-msgid "Navigate"
-msgstr ""
-
-#: ../kfile/kurlnavigator.cpp:460
-msgid "Show Full Path"
-msgstr ""
-
-#: ../kfile/kurlnavigator.cpp:698
-msgid "Custom Path"
-msgstr ""
-
-#: ../kfile/kurlnavigatorbutton.cpp:675
-#, fuzzy
-#| msgid "Store"
-msgctxt "@action:inmenu"
-msgid "More"
-msgstr "Zawěsćić"
 
 #~ msgid "The specified folder already exists."
 #~ msgstr "Specifikowany zapisk hižo eksistuje."
