@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-06 06:04+0100\n"
+"POT-Creation-Date: 2011-12-10 03:48+0100\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -321,6 +321,218 @@ msgctxt "Sort order for mail groups"
 msgid "Descending"
 msgstr "&Pósłanje"
 
+#: core/view.cpp:725
+msgid "Adjust Column Sizes"
+msgstr ""
+
+#: core/view.cpp:728
+#, fuzzy
+#| msgid "[Details]"
+msgid "Show Default Columns"
+msgstr "[Nadrobnosće]"
+
+#: core/view.cpp:732
+#, fuzzy
+msgid "Display Tooltips"
+msgstr "&Na"
+
+#: core/view.cpp:1572
+#, fuzzy
+#| msgid "Nothin&g"
+msgid "Sorting"
+msgstr "N&ičo"
+
+#: core/view.cpp:1578 core/widgetbase.cpp:548
+msgid "Aggregation"
+msgstr ""
+
+#: core/view.cpp:1584 core/widgetbase.cpp:442
+msgid "Theme"
+msgstr ""
+
+#: core/view.cpp:2358 core/view.cpp:2362
+#, fuzzy
+#| msgid "&From"
+msgid "From"
+msgstr "&Wot"
+
+#: core/view.cpp:2359 core/view.cpp:2363
+#, fuzzy
+msgctxt "Receiver of the emial"
+msgid "To"
+msgstr "&Na"
+
+#: core/view.cpp:2360 core/view.cpp:2364
+msgid "Date"
+msgstr "Datum"
+
+#: core/view.cpp:2377 core/view.cpp:2380 core/manager.cpp:864
+msgid "Status"
+msgstr "Staw"
+
+#: core/view.cpp:2378 core/view.cpp:2381
+msgid "Size"
+msgstr "Wulkosć"
+
+#: core/view.cpp:2386 core/view.cpp:2388
+#, fuzzy
+#| msgid "Notes"
+msgid "Note"
+msgstr "Přispomnjenja"
+
+#: core/view.cpp:2395 core/view.cpp:2397
+#, fuzzy
+msgid "Preview"
+msgstr "&Prjedawša powěsć"
+
+#: core/view.cpp:2416
+#, fuzzy, kde-format
+msgid "<b>%1</b> reply"
+msgid_plural "<b>%1</b> replies"
+msgstr[0] "Hubjena signatura."
+msgstr[1] "Hubjena signatura."
+msgstr[2] "Hubjena signatura."
+msgstr[3] "Hubjena signatura."
+
+#: core/view.cpp:2420
+#, kde-format
+msgid "<b>%1</b> message in subtree (<b>%2</b> unread)"
+msgid_plural "<b>%1</b> messages in subtree (<b>%2</b> unread)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: core/view.cpp:2465
+#, fuzzy, kde-format
+msgctxt ""
+"@info:tooltip Formats to something like 'Threads started on 2008-12-21'"
+msgid "Threads started on %1"
+msgstr "Skupiny jako standard w&očinjene wostajić"
+
+#: core/view.cpp:2471
+#, fuzzy, kde-format
+msgctxt "@info:tooltip Formats to something like 'Threads started Yesterday'"
+msgid "Threads started %1"
+msgstr "Skupiny jako standard w&očinjene wostajić"
+
+#: core/view.cpp:2476
+#, fuzzy, kde-format
+msgid "Threads with messages dated %1"
+msgstr "Powěsće &skupinkować"
+
+#: core/view.cpp:2488
+#, fuzzy, kde-format
+#| msgid "Message was signed by %1."
+msgctxt "@info:tooltip Formats to something like 'Messages sent on 2008-12-21'"
+msgid "Messages sent on %1"
+msgstr "Powěsć bu podpisana wot %1."
+
+#: core/view.cpp:2494
+#, fuzzy, kde-format
+#| msgid "Message was signed by %1."
+msgctxt ""
+"@info:tooltip Formats to something like 'Messages received on 2008-12-21'"
+msgid "Messages received on %1"
+msgstr "Powěsć bu podpisana wot %1."
+
+#: core/view.cpp:2501
+#, fuzzy, kde-format
+msgctxt "@info:tooltip Formats to something like 'Messages sent Yesterday'"
+msgid "Messages sent %1"
+msgstr "Lisćina powěsćow"
+
+#: core/view.cpp:2507
+#, fuzzy, kde-format
+#| msgid "Message was signed by %1."
+msgctxt "@info:tooltip Formats to something like 'Messages received Yesterday'"
+msgid "Messages received %1"
+msgstr "Powěsć bu podpisana wot %1."
+
+#: core/view.cpp:2519
+#, fuzzy, kde-format
+msgid "Threads started within %1"
+msgstr "Skupiny jako standard w&očinjene wostajić"
+
+#: core/view.cpp:2522
+#, fuzzy, kde-format
+msgid "Threads containing messages with dates within %1"
+msgstr "Powěsće &skupinkować"
+
+#: core/view.cpp:2530
+#, fuzzy, kde-format
+#| msgid "Message was signed with key %1."
+msgid "Messages sent within %1"
+msgstr "Powěsć bu podpisana z klučom %1."
+
+#: core/view.cpp:2532
+#, fuzzy, kde-format
+#| msgid "Message was signed with key %1."
+msgid "Messages received within %1"
+msgstr "Powěsć bu podpisana z klučom %1."
+
+#: core/view.cpp:2542
+#, fuzzy, kde-format
+msgid "Threads started by %1"
+msgstr "Skupiny jako standard w&očinjene wostajić"
+
+#: core/view.cpp:2545
+#, fuzzy, kde-format
+msgid "Threads with most recent message by %1"
+msgstr "Powěsće &skupinkować"
+
+#: core/view.cpp:2555 core/view.cpp:2581
+#, fuzzy, kde-format
+#| msgid "Message was signed by %1."
+msgid "Messages sent to %1"
+msgstr "Powěsć bu podpisana wot %1."
+
+#: core/view.cpp:2557
+#, fuzzy, kde-format
+#| msgid "Message was signed by %1."
+msgid "Messages sent by %1"
+msgstr "Powěsć bu podpisana wot %1."
+
+#: core/view.cpp:2559
+#, fuzzy, kde-format
+#| msgid "Message was signed by %1."
+msgid "Messages received from %1"
+msgstr "Powěsć bu podpisana wot %1."
+
+#: core/view.cpp:2569
+#, fuzzy, kde-format
+msgid "Threads directed to %1"
+msgstr "Skupiny jako standard w&očinjene wostajić"
+
+#: core/view.cpp:2572
+#, fuzzy, kde-format
+msgid "Threads with most recent message directed to %1"
+msgstr "Powěsće &skupinkować"
+
+#: core/view.cpp:2583
+#, fuzzy, kde-format
+#| msgid "Message was signed by %1."
+msgid "Messages received by %1"
+msgstr "Powěsć bu podpisana wot %1."
+
+#: core/view.cpp:2612
+#, fuzzy, kde-format
+msgid "<b>%1</b> thread"
+msgid_plural "<b>%1</b> threads"
+msgstr[0] "Hubjena signatura."
+msgstr[1] "Hubjena signatura."
+msgstr[2] "Hubjena signatura."
+msgstr[3] "Hubjena signatura."
+
+#: core/view.cpp:2617
+#, kde-format
+msgid "<b>%1</b> message (<b>%2</b> unread)"
+msgid_plural "<b>%1</b> messages (<b>%2</b> unread)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
 #: core/theme.cpp:81
 #, fuzzy
 #| msgid "Subject"
@@ -603,19 +815,11 @@ msgctxt "@action:inmenu Status of a message"
 msgid "Ham"
 msgstr "Čitane"
 
-#: core/widgetbase.cpp:442 core/view.cpp:1584
-msgid "Theme"
-msgstr ""
-
 #: core/widgetbase.cpp:485 core/widgetbase.cpp:591
 #: utils/themeconfigbutton.cpp:46 utils/aggregationconfigbutton.cpp:45
 #, fuzzy
 msgid "Configure..."
 msgstr "KMail &konfigurować..."
-
-#: core/widgetbase.cpp:548 core/view.cpp:1578
-msgid "Aggregation"
-msgstr ""
 
 #: core/widgetbase.cpp:647
 #, fuzzy
@@ -642,210 +846,6 @@ msgstr "Lisćina powěsćow"
 #: core/widgetbase.cpp:736
 msgid "Folder Always Uses This Sort Order"
 msgstr ""
-
-#: core/view.cpp:725
-msgid "Adjust Column Sizes"
-msgstr ""
-
-#: core/view.cpp:728
-#, fuzzy
-#| msgid "[Details]"
-msgid "Show Default Columns"
-msgstr "[Nadrobnosće]"
-
-#: core/view.cpp:732
-#, fuzzy
-msgid "Display Tooltips"
-msgstr "&Na"
-
-#: core/view.cpp:1572
-#, fuzzy
-#| msgid "Nothin&g"
-msgid "Sorting"
-msgstr "N&ičo"
-
-#: core/view.cpp:2358 core/view.cpp:2362
-#, fuzzy
-#| msgid "&From"
-msgid "From"
-msgstr "&Wot"
-
-#: core/view.cpp:2359 core/view.cpp:2363
-#, fuzzy
-msgctxt "Receiver of the emial"
-msgid "To"
-msgstr "&Na"
-
-#: core/view.cpp:2360 core/view.cpp:2364
-msgid "Date"
-msgstr "Datum"
-
-#: core/view.cpp:2377 core/view.cpp:2380 core/manager.cpp:864
-msgid "Status"
-msgstr "Staw"
-
-#: core/view.cpp:2378 core/view.cpp:2381
-msgid "Size"
-msgstr "Wulkosć"
-
-#: core/view.cpp:2386 core/view.cpp:2388
-#, fuzzy
-#| msgid "Notes"
-msgid "Note"
-msgstr "Přispomnjenja"
-
-#: core/view.cpp:2395 core/view.cpp:2397
-#, fuzzy
-msgid "Preview"
-msgstr "&Prjedawša powěsć"
-
-#: core/view.cpp:2416
-#, fuzzy, kde-format
-msgid "<b>%1</b> reply"
-msgid_plural "<b>%1</b> replies"
-msgstr[0] "Hubjena signatura."
-msgstr[1] "Hubjena signatura."
-msgstr[2] "Hubjena signatura."
-msgstr[3] "Hubjena signatura."
-
-#: core/view.cpp:2420
-#, kde-format
-msgid "<b>%1</b> message in subtree (<b>%2</b> unread)"
-msgid_plural "<b>%1</b> messages in subtree (<b>%2</b> unread)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: core/view.cpp:2465
-#, fuzzy, kde-format
-msgctxt ""
-"@info:tooltip Formats to something like 'Threads started on 2008-12-21'"
-msgid "Threads started on %1"
-msgstr "Skupiny jako standard w&očinjene wostajić"
-
-#: core/view.cpp:2471
-#, fuzzy, kde-format
-msgctxt "@info:tooltip Formats to something like 'Threads started Yesterday'"
-msgid "Threads started %1"
-msgstr "Skupiny jako standard w&očinjene wostajić"
-
-#: core/view.cpp:2476
-#, fuzzy, kde-format
-msgid "Threads with messages dated %1"
-msgstr "Powěsće &skupinkować"
-
-#: core/view.cpp:2488
-#, fuzzy, kde-format
-#| msgid "Message was signed by %1."
-msgctxt "@info:tooltip Formats to something like 'Messages sent on 2008-12-21'"
-msgid "Messages sent on %1"
-msgstr "Powěsć bu podpisana wot %1."
-
-#: core/view.cpp:2494
-#, fuzzy, kde-format
-#| msgid "Message was signed by %1."
-msgctxt ""
-"@info:tooltip Formats to something like 'Messages received on 2008-12-21'"
-msgid "Messages received on %1"
-msgstr "Powěsć bu podpisana wot %1."
-
-#: core/view.cpp:2501
-#, fuzzy, kde-format
-msgctxt "@info:tooltip Formats to something like 'Messages sent Yesterday'"
-msgid "Messages sent %1"
-msgstr "Lisćina powěsćow"
-
-#: core/view.cpp:2507
-#, fuzzy, kde-format
-#| msgid "Message was signed by %1."
-msgctxt "@info:tooltip Formats to something like 'Messages received Yesterday'"
-msgid "Messages received %1"
-msgstr "Powěsć bu podpisana wot %1."
-
-#: core/view.cpp:2519
-#, fuzzy, kde-format
-msgid "Threads started within %1"
-msgstr "Skupiny jako standard w&očinjene wostajić"
-
-#: core/view.cpp:2522
-#, fuzzy, kde-format
-msgid "Threads containing messages with dates within %1"
-msgstr "Powěsće &skupinkować"
-
-#: core/view.cpp:2530
-#, fuzzy, kde-format
-#| msgid "Message was signed with key %1."
-msgid "Messages sent within %1"
-msgstr "Powěsć bu podpisana z klučom %1."
-
-#: core/view.cpp:2532
-#, fuzzy, kde-format
-#| msgid "Message was signed with key %1."
-msgid "Messages received within %1"
-msgstr "Powěsć bu podpisana z klučom %1."
-
-#: core/view.cpp:2542
-#, fuzzy, kde-format
-msgid "Threads started by %1"
-msgstr "Skupiny jako standard w&očinjene wostajić"
-
-#: core/view.cpp:2545
-#, fuzzy, kde-format
-msgid "Threads with most recent message by %1"
-msgstr "Powěsće &skupinkować"
-
-#: core/view.cpp:2555 core/view.cpp:2581
-#, fuzzy, kde-format
-#| msgid "Message was signed by %1."
-msgid "Messages sent to %1"
-msgstr "Powěsć bu podpisana wot %1."
-
-#: core/view.cpp:2557
-#, fuzzy, kde-format
-#| msgid "Message was signed by %1."
-msgid "Messages sent by %1"
-msgstr "Powěsć bu podpisana wot %1."
-
-#: core/view.cpp:2559
-#, fuzzy, kde-format
-#| msgid "Message was signed by %1."
-msgid "Messages received from %1"
-msgstr "Powěsć bu podpisana wot %1."
-
-#: core/view.cpp:2569
-#, fuzzy, kde-format
-msgid "Threads directed to %1"
-msgstr "Skupiny jako standard w&očinjene wostajić"
-
-#: core/view.cpp:2572
-#, fuzzy, kde-format
-msgid "Threads with most recent message directed to %1"
-msgstr "Powěsće &skupinkować"
-
-#: core/view.cpp:2583
-#, fuzzy, kde-format
-#| msgid "Message was signed by %1."
-msgid "Messages received by %1"
-msgstr "Powěsć bu podpisana wot %1."
-
-#: core/view.cpp:2612
-#, fuzzy, kde-format
-msgid "<b>%1</b> thread"
-msgid_plural "<b>%1</b> threads"
-msgstr[0] "Hubjena signatura."
-msgstr[1] "Hubjena signatura."
-msgstr[2] "Hubjena signatura."
-msgstr[3] "Hubjena signatura."
-
-#: core/view.cpp:2617
-#, kde-format
-msgid "<b>%1</b> message (<b>%2</b> unread)"
-msgid_plural "<b>%1</b> messages (<b>%2</b> unread)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
 #: core/manager.cpp:100 core/model.cpp:293
 #, fuzzy
