@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-15 03:25+0100\n"
+"POT-Creation-Date: 2011-12-17 03:46+0100\n"
 "PO-Revision-Date: 2008-11-21 01:09+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -27,32 +27,6 @@ msgstr "Filtrowy pas schować"
 msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr "Filter:"
-
-#: kitemviews/kfileitemlistview.cpp:558
-msgctxt "@item:intable"
-msgid "items"
-msgstr ""
-
-#: kitemviews/kfileitemlistwidget.cpp:231
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Unknown size"
-msgctxt "@item:intable"
-msgid "Unknown"
-msgstr "njeznata wulkosć"
-
-#: kitemviews/kfileitemlistwidget.cpp:234
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "%1 item selected"
-#| msgid_plural "%1 items selected"
-msgctxt "@item:intable"
-msgid "%1 item"
-msgid_plural "%1 items"
-msgstr[0] "%1 objekt wubrany"
-msgstr[1] "%1 objektaj wubranej"
-msgstr[2] "%1 objekty wubrane"
-msgstr[3] "%1 objektow wubranych"
 
 #: kitemviews/kfileitemmodel.cpp:251
 #, fuzzy
@@ -307,6 +281,32 @@ msgstr "zakazane"
 msgctxt "@title:group Files and folders by permissions"
 msgid "User: %1 | Group: %2 | Others: %3"
 msgstr "(Wužiwar: %1) (Skupina: %2) (Druzy: %3)"
+
+#: kitemviews/kfileitemlistview.cpp:558
+msgctxt "@item:intable"
+msgid "items"
+msgstr ""
+
+#: kitemviews/kfileitemlistwidget.cpp:231
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Unknown size"
+msgctxt "@item:intable"
+msgid "Unknown"
+msgstr "njeznata wulkosć"
+
+#: kitemviews/kfileitemlistwidget.cpp:234
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "%1 item selected"
+#| msgid_plural "%1 items selected"
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 objekt wubrany"
+msgstr[1] "%1 objektaj wubranej"
+msgstr[2] "%1 objekty wubrane"
+msgstr[3] "%1 objektow wubranych"
 
 #: panels/folders/treeviewcontextmenu.cpp:58
 msgctxt "@action:inmenu"
@@ -1214,53 +1214,6 @@ msgstr "Znowa začitać"
 msgid "Default"
 msgstr "Standard:"
 
-#: views/renamedialog.cpp:57
-msgctxt "@title:window"
-msgid "Rename Item"
-msgstr "Objekt přemjenować"
-
-#: views/renamedialog.cpp:58
-msgctxt "@title:window"
-msgid "Rename Items"
-msgstr "Objekty přemjenować"
-
-#: views/renamedialog.cpp:62
-#, fuzzy
-#| msgctxt "@action:button"
-#| msgid "Rename"
-msgctxt "@action:button"
-msgid "&Rename"
-msgstr "Přemjenować"
-
-#: views/renamedialog.cpp:72
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Rename the item <filename>%1</filename> to:"
-msgstr "Objekt <filename>%1</filename> přemjenować na:"
-
-#: views/renamedialog.cpp:75
-msgctxt "@info:status"
-msgid "New name #"
-msgstr "Nowe mjeno #"
-
-#: views/renamedialog.cpp:77
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Rename the %1 selected item to:"
-msgid_plural "Rename the %1 selected items to:"
-msgstr[0] "%1 wubrany objekt přemjenować na:"
-msgstr[1] "%1 wubranej objektaj přemjenować na:"
-msgstr[2] "%1 wubrane objekty přemjenować na:"
-msgstr[3] "%1 wubranych objektow přemjenować na:"
-
-#: views/renamedialog.cpp:106
-#, fuzzy
-#| msgctxt "@info"
-#| msgid "(# will be replaced by ascending numbers)"
-msgctxt "@info"
-msgid "# will be replaced by ascending numbers starting with:"
-msgstr "(# so naruna z rosćacymi ličbami)"
-
 #: views/versioncontrol/versioncontrolobserver.cpp:204
 #, fuzzy
 #| msgctxt "@label"
@@ -1464,13 +1417,13 @@ msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr "Zapisk njehodźi so do sebje wlec"
 
-#: views/dolphinview.cpp:506
+#: views/dolphinview.cpp:507
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
 msgstr "<filename>%1</filename> wubrany"
 
-#: views/dolphinview.cpp:509
+#: views/dolphinview.cpp:510
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -1480,7 +1433,7 @@ msgstr[1] "%1 zapiskaj wubranej"
 msgstr[2] "%1 zapiski wubrane"
 msgstr[3] "%1 zapiskow wubranych"
 
-#: views/dolphinview.cpp:510
+#: views/dolphinview.cpp:511
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
@@ -1490,7 +1443,7 @@ msgstr[1] "%1 dataji wubranej"
 msgstr[2] "%1 dataje wubrane"
 msgstr[3] "%1 datajow wubranych"
 
-#: views/dolphinview.cpp:514
+#: views/dolphinview.cpp:515
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Folder"
@@ -1502,7 +1455,7 @@ msgstr[1] "Zapisk"
 msgstr[2] "Zapisk"
 msgstr[3] "Zapisk"
 
-#: views/dolphinview.cpp:515
+#: views/dolphinview.cpp:516
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File"
@@ -1512,33 +1465,80 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: views/dolphinview.cpp:519
+#: views/dolphinview.cpp:520
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
 
-#: views/dolphinview.cpp:522
+#: views/dolphinview.cpp:523
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: views/dolphinview.cpp:1063
+#: views/dolphinview.cpp:1064
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "Dowumazane."
 
-#: views/dolphinview.cpp:1138
+#: views/dolphinview.cpp:1139
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "Městnosć je prózdna."
 
-#: views/dolphinview.cpp:1140
+#: views/dolphinview.cpp:1141
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "Městnosć '%1' njeje walidna."
+
+#: views/renamedialog.cpp:57
+msgctxt "@title:window"
+msgid "Rename Item"
+msgstr "Objekt přemjenować"
+
+#: views/renamedialog.cpp:58
+msgctxt "@title:window"
+msgid "Rename Items"
+msgstr "Objekty přemjenować"
+
+#: views/renamedialog.cpp:62
+#, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Rename"
+msgctxt "@action:button"
+msgid "&Rename"
+msgstr "Přemjenować"
+
+#: views/renamedialog.cpp:72
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the item <filename>%1</filename> to:"
+msgstr "Objekt <filename>%1</filename> přemjenować na:"
+
+#: views/renamedialog.cpp:75
+msgctxt "@info:status"
+msgid "New name #"
+msgstr "Nowe mjeno #"
+
+#: views/renamedialog.cpp:77
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the %1 selected item to:"
+msgid_plural "Rename the %1 selected items to:"
+msgstr[0] "%1 wubrany objekt přemjenować na:"
+msgstr[1] "%1 wubranej objektaj přemjenować na:"
+msgstr[2] "%1 wubrane objekty přemjenować na:"
+msgstr[3] "%1 wubranych objektow přemjenować na:"
+
+#: views/renamedialog.cpp:106
+#, fuzzy
+#| msgctxt "@info"
+#| msgid "(# will be replaced by ascending numbers)"
+msgctxt "@info"
+msgid "# will be replaced by ascending numbers starting with:"
+msgstr "(# so naruna z rosćacymi ličbami)"
 
 #: main.cpp:35
 msgctxt "@title"
