@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeqt\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2012-01-14 04:48+0100\n"
+"POT-Creation-Date: 2012-01-19 04:16+0100\n"
 "PO-Revision-Date: 2008-11-11 22:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -3400,6 +3400,7 @@ msgid "Cannot change the animation assigned to a Behavior."
 msgstr ""
 
 #: gui/accessible/qaccessibleobject.cpp:374
+#: plugins/accessible/widgets/complexwidgets.cpp:1617
 #, fuzzy
 #| msgctxt "@action"
 #| msgid "Activate Next Tab"
@@ -6554,10 +6555,11 @@ msgstr "Znowa startować"
 
 #: gui/widgets/qmdisubwindow.cpp:352 gui/widgets/qworkspace.cpp:113
 #: plugins/accessible/compat/q3complexwidgets.cpp:256
-#: plugins/accessible/widgets/complexwidgets.cpp:1847
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:157
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:382
 #: plugins/accessible/widgets/qaccessiblewidgets.cpp:1249
+#: plugins/accessible/widgets/complexwidgets.cpp:1614
+#: plugins/accessible/widgets/complexwidgets.cpp:1910
 #: scripttools/debugging/qscriptbreakpointswidget.cpp:81
 #: scripttools/debugging/qscriptdebuggercodefinderwidget.cpp:141
 msgid "Close"
@@ -6694,7 +6696,7 @@ msgstr ""
 msgid "Scroll down"
 msgstr "ScrollLock"
 
-#: gui/widgets/qtabbar.cpp:2322
+#: gui/widgets/qtabbar.cpp:2324
 #, fuzzy
 #| msgctxt "@action"
 #| msgid "Close"
@@ -7389,24 +7391,14 @@ msgstr "Wokno začinić?"
 msgid "Displays the name of the window and contains controls to manipulate it"
 msgstr ""
 
-#: plugins/accessible/widgets/complexwidgets.cpp:1515
-#, fuzzy
-#| msgid "ScrollLock"
-msgid "Scroll Left"
-msgstr "ScrollLock"
-
-#: plugins/accessible/widgets/complexwidgets.cpp:1515
-msgid "Scroll Right"
-msgstr ""
-
-#: plugins/accessible/widgets/complexwidgets.cpp:1781
-#: plugins/accessible/widgets/complexwidgets.cpp:1847
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:158
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:383
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:437
 #: plugins/accessible/widgets/simplewidgets.cpp:117
 #: plugins/accessible/widgets/simplewidgets.cpp:452
 #: plugins/accessible/widgets/simplewidgets.cpp:460
+#: plugins/accessible/widgets/complexwidgets.cpp:1844
+#: plugins/accessible/widgets/complexwidgets.cpp:1910
 msgid "Open"
 msgstr "Wočinić"
 
@@ -7498,10 +7490,35 @@ msgstr ""
 #: plugins/accessible/widgets/simplewidgets.cpp:271
 #: plugins/accessible/widgets/simplewidgets.cpp:450
 #: plugins/accessible/widgets/simplewidgets.cpp:456
+#: plugins/accessible/widgets/complexwidgets.cpp:1619
 #, fuzzy
 #| msgid "Pages"
 msgid "Press"
 msgstr "Strony"
+
+#: plugins/accessible/widgets/complexwidgets.cpp:1515
+#, fuzzy
+#| msgid "ScrollLock"
+msgid "Scroll Left"
+msgstr "ScrollLock"
+
+#: plugins/accessible/widgets/complexwidgets.cpp:1515
+msgid "Scroll Right"
+msgstr ""
+
+#: plugins/accessible/widgets/complexwidgets.cpp:1624
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Close"
+msgid "Close the tab"
+msgstr "Začinić"
+
+#: plugins/accessible/widgets/complexwidgets.cpp:1627
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Activate Next Tab"
+msgid "Activate the tab"
+msgstr "Přichodny tabulator aktiwizować"
 
 #: plugins/bearer/icd/qnetworksession_impl.cpp:1030
 #, fuzzy
