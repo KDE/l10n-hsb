@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-21 02:42+0100\n"
+"POT-Creation-Date: 2012-01-27 02:53+0100\n"
 "PO-Revision-Date: 2004-04-16 18:01+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -670,7 +670,7 @@ msgstr ""
 #. i18n: ectx: Menu (file)
 #. i18n: file: part/words.rc:3
 #. i18n: ectx: Menu (file)
-#: rc.cpp:324 rc.cpp:339
+#: rc.cpp:324 rc.cpp:354
 #, fuzzy
 msgid "&File"
 msgstr "Wuslědk &filtra"
@@ -679,7 +679,7 @@ msgstr "Wuslědk &filtra"
 #. i18n: ectx: Menu (edit)
 #. i18n: file: part/words.rc:7
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:327 rc.cpp:342
+#: rc.cpp:327 rc.cpp:357
 msgid "&Edit"
 msgstr ""
 
@@ -687,7 +687,7 @@ msgstr ""
 #. i18n: ectx: Menu (view)
 #. i18n: file: part/words.rc:27
 #. i18n: ectx: Menu (view)
-#: rc.cpp:330 rc.cpp:345
+#: rc.cpp:330 rc.cpp:360
 #, fuzzy
 msgid "&View"
 msgstr "&Nowe"
@@ -696,7 +696,7 @@ msgstr "&Nowe"
 #. i18n: ectx: Menu (view_displaymodes)
 #. i18n: file: part/words.rc:29
 #. i18n: ectx: Menu (view)
-#: rc.cpp:333 rc.cpp:348
+#: rc.cpp:333 rc.cpp:363
 #, fuzzy
 msgid "&Display Mode"
 msgstr "pokazowanje"
@@ -707,41 +707,62 @@ msgstr "pokazowanje"
 msgid "&Tools"
 msgstr ""
 
-#. i18n: file: part/words.rc:64
+#. i18n: file: part/pagetool/SimpleHeaderFooterWidget.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, SimpleHeaderFooterWidget)
+#. i18n: file: part/pagetool/SimpleSetupWidget.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, SimpleSetupWidget)
+#: rc.cpp:339 rc.cpp:348
+#, fuzzy
+#| msgid "F&ormat"
+msgid "Form"
+msgstr "F&ormat"
+
+#. i18n: file: part/pagetool/SimpleHeaderFooterWidget.ui:20
+#. i18n: ectx: property (text), widget (QToolButton, insertHeader)
+#. i18n: file: part/pagetool/SimpleHeaderFooterWidget.ui:27
+#. i18n: ectx: property (text), widget (QToolButton, insertFooter)
+#. i18n: file: part/pagetool/SimpleSetupWidget.ui:20
+#. i18n: ectx: property (text), widget (QToolButton, setup)
+#: rc.cpp:342 rc.cpp:345 rc.cpp:351
+#, fuzzy
+msgid "..."
+msgstr "Nowy..."
+
+#. i18n: file: part/words.rc:63
 #. i18n: ectx: Menu (format)
-#: rc.cpp:351
+#: rc.cpp:366
 msgid "F&ormat"
 msgstr "F&ormat"
 
-#. i18n: file: part/words.rc:79
+#. i18n: file: part/words.rc:73
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:354
+#: rc.cpp:369
 #, fuzzy
 msgid "&Settings"
 msgstr "Wšelčizny"
 
-#. i18n: file: part/words.rc:80
+#. i18n: file: part/words.rc:74
 #. i18n: ectx: Menu (SpellCheck)
-#: rc.cpp:357
+#: rc.cpp:372
 msgid "Spellcheck"
 msgstr "Prawopisna kontrola"
 
-#. i18n: file: part/words.rc:94
+#. i18n: file: part/words.rc:88
 #. i18n: ectx: ToolBar (edit_toolbar)
-#: rc.cpp:360
+#: rc.cpp:375
 #, fuzzy
 msgid "Edit"
 msgstr "Sortěrować"
 
-#. i18n: file: part/words.rc:153
+#. i18n: file: part/words.rc:147
 #. i18n: ectx: Menu (check_spell_list)
-#: rc.cpp:363
+#: rc.cpp:378
 msgid "Spell Check Result"
 msgstr "Wuslědki prawopisneje kontrole"
 
-#. i18n: file: part/words.rc:182
+#. i18n: file: part/words.rc:176
 #. i18n: ectx: Menu (variable_list)
-#: rc.cpp:366
+#: rc.cpp:381
 msgid "Change Variable To"
 msgstr "Wariablu změnić na"
 
@@ -1372,195 +1393,6 @@ msgid ""
 "the appropriate application."
 msgstr ""
 
-#: part/KWView.cpp:226
-#, fuzzy
-msgid "Shape Properties..."
-msgstr "Swójstwa"
-
-#: part/KWView.cpp:228
-msgid "Change how the shape behave"
-msgstr ""
-
-#: part/KWView.cpp:236
-#, fuzzy
-msgid "Page Break"
-msgstr "Strona"
-
-#: part/KWView.cpp:237
-msgid "Force the remainder of the text into the next page"
-msgstr ""
-
-#: part/KWView.cpp:238
-#, fuzzy
-msgid "All text after this point will be moved into the next page."
-msgstr "Wšě."
-
-#: part/KWView.cpp:240
-msgid "Enable Document Headers"
-msgstr ""
-
-#: part/KWView.cpp:246
-msgid "Enable Document Footers"
-msgstr ""
-
-#: part/KWView.cpp:252
-msgid "Snap to Grid"
-msgstr ""
-
-#: part/KWView.cpp:257
-#, fuzzy
-msgid "Bookmark..."
-msgstr "Lu&bušk."
-
-#: part/KWView.cpp:262
-#, fuzzy
-msgid "Select Bookmark..."
-msgstr "Lubušk."
-
-#: part/KWView.cpp:263
-#, fuzzy
-msgid "Bookmark"
-msgstr "Lu&bušk."
-
-#: part/KWView.cpp:269
-msgid "Show Text Shape Borders"
-msgstr ""
-
-#: part/KWView.cpp:270
-msgid "Turns the border display on and off"
-msgstr ""
-
-#: part/KWView.cpp:276
-msgid ""
-"Turns the border display on and off.<br/><br/>The borders are never printed. "
-"This option is useful to see how the document will appear on the printed "
-"page."
-msgstr ""
-
-#: part/KWView.cpp:278
-#, fuzzy
-msgid "Show Formatting Characters"
-msgstr "Napohlad"
-
-#: part/KWView.cpp:285
-msgid "Toggle the display of non-printing characters"
-msgstr ""
-
-#: part/KWView.cpp:286
-msgid ""
-"Toggle the display of non-printing characters.<br/><br/>When this is "
-"enabled, Words shows you tabs, spaces, carriage returns and other non-"
-"printing characters."
-msgstr ""
-
-#: part/KWView.cpp:288
-#, fuzzy
-#| msgid "Configure Frame Borders"
-msgid "Show Table Borders"
-msgstr "Kromy ramika nastajeć"
-
-#: part/KWView.cpp:294
-msgid "Toggle the display of table borders"
-msgstr ""
-
-#: part/KWView.cpp:295
-msgid ""
-"Toggle the display of table borders.<br/><br/>When this is enabled, Words "
-"shows you any invisible table borders with a thin gray line."
-msgstr ""
-
-#: part/KWView.cpp:297
-#, fuzzy
-msgid "Page Layout..."
-msgstr "Strona &Layout."
-
-#: part/KWView.cpp:299
-#, fuzzy
-msgid "Change properties of entire page"
-msgstr "Změnić."
-
-#: part/KWView.cpp:300
-#, fuzzy
-msgid ""
-"Change properties of the entire page.<p>Currently you can change paper size, "
-"paper orientation, header and footer sizes, and column settings.</p>"
-msgstr "Změnić<p>."
-
-#: part/KWView.cpp:304
-msgid "Semantic Stylesheets..."
-msgstr ""
-
-#: part/KWView.cpp:306
-msgid "Modify and add semantic stylesheets"
-msgstr ""
-
-#: part/KWView.cpp:307
-msgid ""
-"Stylesheets are used to format contact, event, and location information "
-"which is stored in Rdf"
-msgstr ""
-
-#: part/KWView.cpp:334
-msgid "Show Rulers"
-msgstr ""
-
-#: part/KWView.cpp:336
-msgid "Shows or hides rulers"
-msgstr ""
-
-#: part/KWView.cpp:337
-msgid ""
-"The rulers are the white measuring spaces top and left of the document. The "
-"rulers show the position and width of pages and of frames and can be used to "
-"position tabulators among others.<p>Uncheck this to disable the rulers from "
-"being displayed.</p>"
-msgstr ""
-
-#: part/KWView.cpp:345
-#, fuzzy
-msgid "Select All Shapes"
-msgstr "Zničić"
-
-#: part/KWView.cpp:362
-msgid "Create Linked Copy"
-msgstr ""
-
-#: part/KWView.cpp:364
-msgid "Create a copy of the current frame, always showing the same contents"
-msgstr ""
-
-#: part/KWView.cpp:365
-#, fuzzy
-msgid ""
-"Create a copy of the current frame, that remains linked to it. This means "
-"they always show the same contents: modifying the contents in such a frame "
-"will update all its linked copies."
-msgstr "in."
-
-#: part/KWView.cpp:368
-#, fuzzy
-msgid "Create Frame-clip"
-msgstr "Tekst"
-
-#: part/KWView.cpp:372
-#, fuzzy
-msgid "Remove Frame-clip"
-msgstr "Wotstronić"
-
-#: part/KWView.cpp:376
-msgid "Show Status Bar"
-msgstr ""
-
-#: part/KWView.cpp:377
-msgid "Shows or hides the status bar"
-msgstr ""
-
-#: part/KWView.cpp:720
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Create Linked Copy"
-msgstr "Tekst"
-
 #: part/KWDocument.cpp:514
 #, fuzzy
 msgid "Copy"
@@ -1805,16 +1637,217 @@ msgstr ""
 msgid "Michael Johnson"
 msgstr ""
 
+#: part/KWView.cpp:226
+#, fuzzy
+msgid "Shape Properties..."
+msgstr "Swójstwa"
+
+#: part/KWView.cpp:228
+msgid "Change how the shape behave"
+msgstr ""
+
+#: part/KWView.cpp:236
+#, fuzzy
+msgid "Page Break"
+msgstr "Strona"
+
+#: part/KWView.cpp:237
+msgid "Force the remainder of the text into the next page"
+msgstr ""
+
+#: part/KWView.cpp:238
+#, fuzzy
+msgid "All text after this point will be moved into the next page."
+msgstr "Wšě."
+
+#: part/KWView.cpp:240
+#, fuzzy
+msgid "Create Header"
+msgstr "Tekst"
+
+#: part/KWView.cpp:246
+#, fuzzy
+msgid "Create Footer"
+msgstr "Tekst"
+
+#: part/KWView.cpp:252
+msgid "Snap to Grid"
+msgstr ""
+
+#: part/KWView.cpp:257
+#, fuzzy
+msgid "Bookmark..."
+msgstr "Lu&bušk."
+
+#: part/KWView.cpp:262
+#, fuzzy
+msgid "Select Bookmark..."
+msgstr "Lubušk."
+
+#: part/KWView.cpp:263
+#, fuzzy
+msgid "Bookmark"
+msgstr "Lu&bušk."
+
+#: part/KWView.cpp:269
+msgid "Show Text Shape Borders"
+msgstr ""
+
+#: part/KWView.cpp:270
+msgid "Turns the border display on and off"
+msgstr ""
+
+#: part/KWView.cpp:276
+msgid ""
+"Turns the border display on and off.<br/><br/>The borders are never printed. "
+"This option is useful to see how the document will appear on the printed "
+"page."
+msgstr ""
+
+#: part/KWView.cpp:278
+#, fuzzy
+msgid "Show Formatting Characters"
+msgstr "Napohlad"
+
+#: part/KWView.cpp:285
+msgid "Toggle the display of non-printing characters"
+msgstr ""
+
+#: part/KWView.cpp:286
+msgid ""
+"Toggle the display of non-printing characters.<br/><br/>When this is "
+"enabled, Words shows you tabs, spaces, carriage returns and other non-"
+"printing characters."
+msgstr ""
+
+#: part/KWView.cpp:288
+#, fuzzy
+#| msgid "Configure Frame Borders"
+msgid "Show Table Borders"
+msgstr "Kromy ramika nastajeć"
+
+#: part/KWView.cpp:294
+msgid "Toggle the display of table borders"
+msgstr ""
+
+#: part/KWView.cpp:295
+msgid ""
+"Toggle the display of table borders.<br/><br/>When this is enabled, Words "
+"shows you any invisible table borders with a thin gray line."
+msgstr ""
+
+#: part/KWView.cpp:297
+#, fuzzy
+msgid "Page Layout..."
+msgstr "Strona &Layout."
+
+#: part/KWView.cpp:299
+#, fuzzy
+msgid "Change properties of entire page"
+msgstr "Změnić."
+
+#: part/KWView.cpp:300
+#, fuzzy
+msgid ""
+"Change properties of the entire page.<p>Currently you can change paper size, "
+"paper orientation, header and footer sizes, and column settings.</p>"
+msgstr "Změnić<p>."
+
+#: part/KWView.cpp:304
+msgid "Semantic Stylesheets..."
+msgstr ""
+
+#: part/KWView.cpp:306
+msgid "Modify and add semantic stylesheets"
+msgstr ""
+
+#: part/KWView.cpp:307
+msgid ""
+"Stylesheets are used to format contact, event, and location information "
+"which is stored in Rdf"
+msgstr ""
+
+#: part/KWView.cpp:334
+msgid "Show Rulers"
+msgstr ""
+
+#: part/KWView.cpp:336
+msgid "Shows or hides rulers"
+msgstr ""
+
+#: part/KWView.cpp:337
+msgid ""
+"The rulers are the white measuring spaces top and left of the document. The "
+"rulers show the position and width of pages and of frames and can be used to "
+"position tabulators among others.<p>Uncheck this to disable the rulers from "
+"being displayed.</p>"
+msgstr ""
+
+#: part/KWView.cpp:345
+#, fuzzy
+msgid "Select All Shapes"
+msgstr "Zničić"
+
+#: part/KWView.cpp:362
+msgid "Create Linked Copy"
+msgstr ""
+
+#: part/KWView.cpp:364
+msgid "Create a copy of the current frame, always showing the same contents"
+msgstr ""
+
+#: part/KWView.cpp:365
+#, fuzzy
+msgid ""
+"Create a copy of the current frame, that remains linked to it. This means "
+"they always show the same contents: modifying the contents in such a frame "
+"will update all its linked copies."
+msgstr "in."
+
+#: part/KWView.cpp:368
+#, fuzzy
+msgid "Create Frame-clip"
+msgstr "Tekst"
+
+#: part/KWView.cpp:372
+#, fuzzy
+msgid "Remove Frame-clip"
+msgstr "Wotstronić"
+
+#: part/KWView.cpp:376
+msgid "Show Status Bar"
+msgstr ""
+
+#: part/KWView.cpp:377
+msgid "Shows or hides the status bar"
+msgstr ""
+
+#: part/KWView.cpp:720
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Create Linked Copy"
+msgstr "Tekst"
+
+#: part/pagetool/KWPageTool.cpp:102
+#, fuzzy
+msgid "Page Setup"
+msgstr "Strona"
+
+#: part/pagetool/KWPageTool.cpp:106
+#, fuzzy
+msgid "Header & Footer"
+msgstr "Nóžka za rune strony"
+
+#: part/pagetool/KWPageToolFactory.cpp:30
+#, fuzzy
+msgid "Page layout"
+msgstr "Strona &Layout."
+
 #, fuzzy
 #~| msgid "Borders"
 #~ msgctxt "application name"
 #~ msgid "Words"
 #~ msgstr "Kromy"
-
-#, fuzzy
-#~| msgid "F&ormat"
-#~ msgid "Form"
-#~ msgstr "F&ormat"
 
 #, fuzzy
 #~ msgid "Number of pages:"
@@ -1835,10 +1868,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Text"
 #~ msgstr "Tekst"
-
-#, fuzzy
-#~ msgid "..."
-#~ msgstr "Nowy..."
 
 #, fuzzy
 #~ msgid ""

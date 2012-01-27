@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-18 04:31+0100\n"
+"POT-Creation-Date: 2012-01-27 04:14+0100\n"
 "PO-Revision-Date: 2004-04-16 17:59+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -301,6 +301,972 @@ msgstr "Na:"
 
 #: exportwebdialog.cpp:229
 msgid "Events"
+msgstr ""
+
+#: searchdialog.cpp:42
+#, fuzzy
+msgid "Search Calendar"
+msgstr "Konfiguracija &skrótšenkow..."
+
+#: searchdialog.cpp:48
+msgctxt "search in calendar"
+msgid "&Search"
+msgstr ""
+
+#: searchdialog.cpp:49
+msgid "Start searching"
+msgstr ""
+
+#: searchdialog.cpp:102
+msgid ""
+"Invalid search expression, cannot perform the search. Please enter a search "
+"expression using the wildcard characters '*' and '?' where needed."
+msgstr ""
+
+#: searchdialog.cpp:114
+msgid "No items were found that match your search pattern."
+msgstr ""
+
+#: searchdialog.cpp:117
+#, fuzzy, kde-format
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "&Měsac"
+msgstr[1] "&Měsac"
+msgstr[2] "&Měsac"
+msgstr[3] "&Měsac"
+
+#: htmlexportjob.cpp:159
+msgid "Unable to write the output file."
+msgstr ""
+
+#: htmlexportjob.cpp:165
+msgid "Unable to write the temporary file for uploading."
+msgstr ""
+
+#: htmlexportjob.cpp:168
+msgid "Unable to upload the export file."
+msgstr ""
+
+#: htmlexportjob.cpp:176
+#, kde-format
+msgid "Web page successfully written to \"%1\""
+msgstr ""
+
+#: htmlexportjob.cpp:178
+#, kde-format
+msgid "Export failed. %1"
+msgstr ""
+
+#: htmlexportjob.cpp:182
+#, fuzzy
+#| msgid "Status"
+msgctxt "@title:window"
+msgid "Export Status"
+msgstr "Staw:"
+
+#: htmlexportjob.cpp:296
+#, kde-format
+msgctxt "@title month and year"
+msgid "%1 %2"
+msgstr ""
+
+#: htmlexportjob.cpp:376
+#, fuzzy
+msgctxt "@title:column event start time"
+msgid "Start Time"
+msgstr "Staw:"
+
+#: htmlexportjob.cpp:378
+#, fuzzy
+msgctxt "@title:column event end time"
+msgid "End Time"
+msgstr "Titl"
+
+#: htmlexportjob.cpp:380
+#, fuzzy
+msgctxt "@title:column event description"
+msgid "Event"
+msgstr "&Wróćo na prěnjotny staw"
+
+#: htmlexportjob.cpp:383
+#, fuzzy
+msgctxt "@title:column event locatin"
+msgid "Location"
+msgstr "Wopisanje:"
+
+#: htmlexportjob.cpp:388
+#, fuzzy
+#| msgid "Categories"
+msgctxt "@title:column event categories"
+msgid "Categories"
+msgstr "Kategorije"
+
+#: htmlexportjob.cpp:393
+#, fuzzy
+msgctxt "@title:column event attendees"
+msgid "Attendees"
+msgstr "Titl"
+
+#: htmlexportjob.cpp:512
+#, fuzzy
+msgctxt "@title:column"
+msgid "To-do"
+msgstr "Na:"
+
+#: htmlexportjob.cpp:513
+msgctxt "@title:column to-do priority"
+msgid "Priority"
+msgstr ""
+
+#: htmlexportjob.cpp:515
+msgctxt "@title:column to-do percent completed"
+msgid "Completed"
+msgstr ""
+
+#: htmlexportjob.cpp:517
+#, fuzzy
+msgctxt "@title:column to-do due date"
+msgid "Due Date"
+msgstr "Titl"
+
+#: htmlexportjob.cpp:521
+#, fuzzy
+msgctxt "@title:column to-do location"
+msgid "Location"
+msgstr "Wopisanje:"
+
+#: htmlexportjob.cpp:525
+#, fuzzy
+#| msgid "Categories"
+msgctxt "@title:column to-do categories"
+msgid "Categories"
+msgstr "Kategorije"
+
+#: htmlexportjob.cpp:529
+#, fuzzy
+msgctxt "@title:column to-do attendees"
+msgid "Attendees"
+msgstr "Titl"
+
+#: htmlexportjob.cpp:559
+#, fuzzy
+msgctxt "@title:column sub-to-dos of the parent to-do"
+msgid "Sub-To-dos of: "
+msgstr "Na:"
+
+#: htmlexportjob.cpp:615
+#, fuzzy
+msgctxt "@title:column sub-to-dos of the parent to-do"
+msgid "Sub-To-dos"
+msgstr "Na:"
+
+#: htmlexportjob.cpp:633
+#, kde-format
+msgctxt "@info/plain to-do percent complete"
+msgid "%1 %"
+msgstr ""
+
+#: htmlexportjob.cpp:788
+msgctxt "@info/plain"
+msgid "This page was created "
+msgstr ""
+
+#: htmlexportjob.cpp:797
+#, kde-format
+msgctxt "@info/plain page creator email link with name"
+msgid "by <link url='mailto:%1'>%2</link> "
+msgstr ""
+
+#: htmlexportjob.cpp:801
+#, kde-format
+msgctxt "@info/plain page creator email link"
+msgid "by <link url='mailto:%1'>%2</link> "
+msgstr ""
+
+#: htmlexportjob.cpp:807
+#, kde-format
+msgctxt "@info/plain page creator name only"
+msgid "by %1 "
+msgstr ""
+
+#: htmlexportjob.cpp:813
+#, kde-format
+msgctxt "@info/plain page credit with name and link"
+msgid "with <link url='%1'>%2</link>"
+msgstr ""
+
+#: htmlexportjob.cpp:817
+#, kde-format
+msgctxt "@info/plain page credit name only"
+msgid "with %1"
+msgstr ""
+
+#: htmlexportjob.cpp:884
+#, kde-format
+msgctxt "@info/plain holiday by date and name"
+msgid "%1, %2"
+msgstr ""
+
+#. i18n: file: plugins/printing/year/calprintyearconfig_base.ui:143
+#. i18n: ectx: property (text), item, widget (KComboBox, mSubDays)
+#. i18n: file: plugins/printing/year/calprintyearconfig_base.ui:157
+#. i18n: ectx: property (text), item, widget (KComboBox, mHolidays)
+#: kcmdesignerfields.cpp:82 kcmdesignerfields.cpp:83 kcmdesignerfields.cpp:88
+#: kcmdesignerfields.cpp:89 rc.cpp:1195 rc.cpp:1201
+msgid "Text"
+msgstr ""
+
+#: kcmdesignerfields.cpp:84
+msgid "Numeric Value"
+msgstr ""
+
+#: kcmdesignerfields.cpp:85
+msgid "Boolean"
+msgstr ""
+
+#: kcmdesignerfields.cpp:86
+#, fuzzy
+msgid "Selection"
+msgstr "Staw:"
+
+#: kcmdesignerfields.cpp:87 kcmdesignerfields.cpp:90
+#, fuzzy
+msgid "Date & Time"
+msgstr "Titl"
+
+#: kcmdesignerfields.cpp:91
+#, fuzzy
+msgid "Date"
+msgstr "Titl"
+
+#: kcmdesignerfields.cpp:164
+msgid "KCMDesignerfields"
+msgstr ""
+
+#: kcmdesignerfields.cpp:165
+msgid "Qt Designer Fields Dialog"
+msgstr ""
+
+#: kcmdesignerfields.cpp:167
+msgid "(c), 2004 Tobias Koenig"
+msgstr ""
+
+#: kcmdesignerfields.cpp:169
+msgid "Tobias Koenig"
+msgstr ""
+
+#: kcmdesignerfields.cpp:209
+#, kde-format
+msgid "<qt>Do you really want to delete '<b>%1</b>'?</qt>"
+msgstr ""
+
+#: kcmdesignerfields.cpp:220
+msgid "*.ui|Designer Files"
+msgstr ""
+
+#: kcmdesignerfields.cpp:221
+msgid "Import Page"
+msgstr ""
+
+#: kcmdesignerfields.cpp:315
+msgid ""
+"<qt><b>Warning:</b> Qt Designer could not be found. It is probably not "
+"installed. You will only be able to import existing designer files.</qt>"
+msgstr ""
+
+#: kcmdesignerfields.cpp:326
+msgid "Available Pages"
+msgstr ""
+
+#: kcmdesignerfields.cpp:332
+msgid "Preview of Selected Page"
+msgstr ""
+
+#: kcmdesignerfields.cpp:352
+#, kde-format
+msgid ""
+"<qt><p>This section allows you to add your own GUI Elements ('<i>Widgets</"
+"i>') to store your own values into %1. Proceed as described below:</"
+"p><ol><li>Click on '<i>Edit with Qt Designer</i>'</li><li>In the dialog, "
+"select '<i>Widget</i>', then click <i>OK</i></li><li>Add your widgets to the "
+"form</li><li>Save the file in the directory proposed by Qt Designer</"
+"li><li>Close Qt Designer</li></ol><p>In case you already have a designer "
+"file (*.ui) located somewhere on your hard disk, simply choose '<i>Import "
+"Page</i>'</p><p><b>Important:</b> The name of each input widget you place "
+"within the form must start with '<i>X_</i>'; so if you want the widget to "
+"correspond to your custom entry '<i>X-Foo</i>', set the widget's <i>name</i> "
+"property to '<i>X_Foo</i>'.</p><p><b>Important:</b> The widget will edit "
+"custom fields with an application name of %2.  To change the application "
+"name to be edited, set the widget name in Qt Designer.</p></qt>"
+msgstr ""
+
+#: kcmdesignerfields.cpp:374
+#, kde-format
+msgid "<a href=\"whatsthis:%1\">How does this work?</a>"
+msgstr ""
+
+#: kcmdesignerfields.cpp:386
+#, fuzzy
+msgid "Delete Page"
+msgstr "Titl"
+
+#: kcmdesignerfields.cpp:389
+msgid "Import Page..."
+msgstr ""
+
+#: kcmdesignerfields.cpp:391
+msgid "Edit with Qt Designer..."
+msgstr ""
+
+#: kcmdesignerfields.cpp:415
+msgid "Key:"
+msgstr ""
+
+#: kcmdesignerfields.cpp:417
+msgid "Type:"
+msgstr ""
+
+#: kcmdesignerfields.cpp:419
+#, fuzzy
+msgid "Classname:"
+msgstr "Wužiwar:"
+
+#: kcmdesignerfields.cpp:421 printing/calprintdefaultplugins.cpp:467
+#, fuzzy
+msgid "Description:"
+msgstr "Wopisanje:"
+
+#: importdialog.cpp:43
+msgid "Import Calendar"
+msgstr ""
+
+#: importdialog.cpp:54
+#, kde-format
+msgid ""
+"Please select import method for calendar at\n"
+"\n"
+"%1."
+msgstr ""
+
+#: importdialog.cpp:65
+msgid "Add as new calendar"
+msgstr ""
+
+#: importdialog.cpp:68
+msgid "Merge into existing calendar"
+msgstr ""
+
+#: actionmanager.cpp:164
+#, kde-format
+msgid ""
+"<qt>This will hide the menu bar completely. You can show it again by typing "
+"%1.</qt>"
+msgstr ""
+
+#: actionmanager.cpp:380
+msgid "Import &Calendar..."
+msgstr ""
+
+#: actionmanager.cpp:382
+#, fuzzy
+msgid "Merge the contents of another iCalendar"
+msgstr "&Wróćo na prěnjotny staw"
+
+#: actionmanager.cpp:384
+msgid ""
+"Select this menu entry if you would like to merge the contents of another "
+"iCalendar into your current calendar."
+msgstr ""
+
+#: actionmanager.cpp:389
+#, fuzzy
+msgid "&Import From UNIX Ical Tool"
+msgstr "Z &Ical importować"
+
+#: actionmanager.cpp:391
+msgid "Import a calendar in another format"
+msgstr ""
+
+#: actionmanager.cpp:393
+msgid ""
+"Select this menu entry if you would like to import the contents of a non-"
+"iCalendar formatted file into your current calendar."
+msgstr ""
+
+#: actionmanager.cpp:398
+msgid "Get &Hot New Stuff..."
+msgstr ""
+
+#: actionmanager.cpp:402
+msgid "Export &Web Page..."
+msgstr ""
+
+#: actionmanager.cpp:406
+#, fuzzy
+msgid "Export as &iCalendar..."
+msgstr "Konfiguracija &skrótšenkow..."
+
+#: actionmanager.cpp:410
+#, fuzzy
+msgid "Export as &vCalendar..."
+msgstr "Konfiguracija &skrótšenkow..."
+
+#: actionmanager.cpp:419
+msgid "Archive O&ld Entries..."
+msgstr ""
+
+#: actionmanager.cpp:423
+msgid "Pur&ge Completed To-dos"
+msgstr ""
+
+#. i18n: file: filteredit_base.ui:44
+#. i18n: ectx: property (text), widget (QPushButton, mDeleteButton)
+#: actionmanager.cpp:450 actionmanager.cpp:667 actionmanager.cpp:1705
+#: actionmanager.cpp:1736 rc.cpp:539 views/journalview/journalview.cpp:194
+#: views/todoview/kotodoview.cpp:195
+#, fuzzy
+msgid "&Delete"
+msgstr "Titl"
+
+#: actionmanager.cpp:472
+msgid "What's &Next"
+msgstr ""
+
+#: actionmanager.cpp:477
+#, fuzzy
+msgid "&Month View"
+msgstr "&Měsac"
+
+#: actionmanager.cpp:482
+#, fuzzy
+msgid "&Agenda"
+msgstr "&Měsac"
+
+#: actionmanager.cpp:487
+msgid "&Event List"
+msgstr ""
+
+#: actionmanager.cpp:492
+#, fuzzy
+msgid "&To-do List"
+msgstr "Na:"
+
+#: actionmanager.cpp:497
+msgid "&Journal"
+msgstr ""
+
+#: actionmanager.cpp:502
+#, fuzzy
+msgid "Time&line"
+msgstr "Titl"
+
+#: actionmanager.cpp:507
+msgid "Time&spent"
+msgstr ""
+
+#: actionmanager.cpp:513
+#, fuzzy
+msgid "&Refresh"
+msgstr "Ponowić"
+
+#: actionmanager.cpp:519
+#, fuzzy
+msgid "F&ilter"
+msgstr "Filtry wobdźěłać..."
+
+#: actionmanager.cpp:532
+msgid "In Horizontally"
+msgstr ""
+
+#: actionmanager.cpp:538
+msgid "Out Horizontally"
+msgstr ""
+
+#: actionmanager.cpp:544
+msgid "In Vertically"
+msgstr ""
+
+#: actionmanager.cpp:550
+msgid "Out Vertically"
+msgstr ""
+
+#: actionmanager.cpp:560
+msgctxt "@action Jump to today"
+msgid "To &Today"
+msgstr ""
+
+#: actionmanager.cpp:561
+msgid "Today"
+msgstr ""
+
+#: actionmanager.cpp:562
+msgid "Scroll to Today"
+msgstr ""
+
+#: actionmanager.cpp:567
+msgctxt "scroll backward"
+msgid "&Backward"
+msgstr ""
+
+#: actionmanager.cpp:568
+msgctxt "scroll backward"
+msgid "Back"
+msgstr ""
+
+#: actionmanager.cpp:569
+msgid "Scroll Backward"
+msgstr ""
+
+#: actionmanager.cpp:582
+msgctxt "scroll forward"
+msgid "&Forward"
+msgstr ""
+
+#: actionmanager.cpp:583
+msgctxt "scoll forward"
+msgid "Forward"
+msgstr ""
+
+#: actionmanager.cpp:584
+msgid "Scroll Forward"
+msgstr ""
+
+#: actionmanager.cpp:592
+msgid "&Day"
+msgstr ""
+
+#: actionmanager.cpp:603 actionmanager.cpp:1409 calendarview.cpp:2140
+#, kde-format
+msgid "&Next Day"
+msgid_plural "&Next %1 Days"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: actionmanager.cpp:605
+msgid "W&ork Week"
+msgstr ""
+
+#: actionmanager.cpp:611
+msgid "&Week"
+msgstr "&Tydźeń"
+
+#: actionmanager.cpp:618 kodaymatrix.cpp:529
+msgid "New E&vent..."
+msgstr ""
+
+#: actionmanager.cpp:620
+msgid "Create a new Event"
+msgstr ""
+
+#: actionmanager.cpp:626 views/todoview/kotodoview.cpp:204 kodaymatrix.cpp:531
+msgid "New &To-do..."
+msgstr ""
+
+#: actionmanager.cpp:628
+msgid "Create a new To-do"
+msgstr ""
+
+#: actionmanager.cpp:633 views/todoview/kotodoview.cpp:207
+msgid "New Su&b-to-do..."
+msgstr ""
+
+#: actionmanager.cpp:641 kodaymatrix.cpp:533
+msgid "New &Journal..."
+msgstr ""
+
+#: actionmanager.cpp:643
+msgid "Create a new Journal"
+msgstr ""
+
+#: actionmanager.cpp:648
+#, fuzzy
+msgid "Configure View..."
+msgstr "Konfiguracija &skrótšenkow..."
+
+#: actionmanager.cpp:649
+#, fuzzy
+msgid "Configure"
+msgstr "Konfiguracija &skrótšenkow..."
+
+#: actionmanager.cpp:650
+#, fuzzy
+msgid "Configure the view"
+msgstr "&Měsac"
+
+#: actionmanager.cpp:657 actionmanager.cpp:1699 actionmanager.cpp:1734
+#: koeventpopupmenu.cpp:48 views/todoview/kotodoview.cpp:176
+msgid "&Show"
+msgstr ""
+
+#: actionmanager.cpp:662 actionmanager.cpp:1702 actionmanager.cpp:1735
+#: koeventpopupmenu.cpp:51 views/todoview/kotodoview.cpp:179
+msgid "&Edit..."
+msgstr "&wobdźěłać"
+
+#: actionmanager.cpp:673
+msgid "&Make Sub-to-do Independent"
+msgstr ""
+
+#: actionmanager.cpp:687
+msgid "&Publish Item Information..."
+msgstr ""
+
+#: actionmanager.cpp:693
+msgid "Send &Invitation to Attendees"
+msgstr ""
+
+#: actionmanager.cpp:700
+#, fuzzy
+msgid "Re&quest Update"
+msgstr "&Wróćo na prěnjotny staw"
+
+#: actionmanager.cpp:707
+msgid "Send &Cancellation to Attendees"
+msgstr ""
+
+#: actionmanager.cpp:715
+#, fuzzy
+msgid "Send Status &Update"
+msgstr "Titl"
+
+#: actionmanager.cpp:722
+msgctxt "counter proposal"
+msgid "Request Chan&ge"
+msgstr ""
+
+#: actionmanager.cpp:729
+#, fuzzy
+msgid "&Mail Free Busy Information..."
+msgstr "Konfiguracija resursow"
+
+#: actionmanager.cpp:734
+#, fuzzy
+msgid "&Send as iCalendar..."
+msgstr "Konfiguracija &skrótšenkow..."
+
+#: actionmanager.cpp:739
+msgid "&Upload Free Busy Information"
+msgstr ""
+
+#: actionmanager.cpp:745
+#, fuzzy
+msgid "&Address Book"
+msgstr "Adresnik"
+
+#: actionmanager.cpp:753
+msgid "Show Date Navigator"
+msgstr ""
+
+#: actionmanager.cpp:757
+#, fuzzy
+msgid "Show To-do View"
+msgstr "&Měsac"
+
+#: actionmanager.cpp:761
+#, fuzzy
+msgid "Show Item Viewer"
+msgstr "Konfiguracija resursow"
+
+#: actionmanager.cpp:777
+msgid "Show Calendar Manager"
+msgstr ""
+
+#: actionmanager.cpp:790
+msgid "Configure &Date && Time..."
+msgstr ""
+
+#: actionmanager.cpp:799
+#, fuzzy
+msgid "Manage View &Filters..."
+msgstr "Filtry wobdźěłać..."
+
+#: actionmanager.cpp:804
+#, fuzzy
+msgid "Manage C&ategories..."
+msgstr "Kategorije"
+
+#: actionmanager.cpp:810
+#, fuzzy
+msgid "&Configure Calendar..."
+msgstr "Konfiguracija &skrótšenkow..."
+
+#: actionmanager.cpp:970
+msgid ""
+"You have no ical file in your home directory.\n"
+"Import cannot proceed.\n"
+msgstr ""
+
+#: actionmanager.cpp:991
+msgid ""
+"KOrganizer successfully imported and merged your .calendar file from ical "
+"into the currently opened calendar."
+msgstr ""
+
+#: actionmanager.cpp:997
+msgid ""
+"KOrganizer encountered some unknown fields while parsing your .calendar ical "
+"file, and had to discard them; please check to see that all your relevant "
+"data was correctly imported."
+msgstr ""
+
+#: actionmanager.cpp:1001
+msgid "ICal Import Successful with Warning"
+msgstr ""
+
+#: actionmanager.cpp:1005
+msgid ""
+"KOrganizer encountered an error parsing your .calendar file from ical; "
+"import has failed."
+msgstr ""
+
+#: actionmanager.cpp:1009
+msgid ""
+"KOrganizer does not think that your .calendar file is a valid ical calendar; "
+"import has failed."
+msgstr ""
+
+#: actionmanager.cpp:1061
+#, kde-format
+msgid "New calendar '%1'."
+msgstr ""
+
+#: actionmanager.cpp:1092
+#, kde-format
+msgid "Cannot download calendar from '%1'."
+msgstr ""
+
+#: actionmanager.cpp:1131
+msgid "Failed to obtain D-Bus interface for remote configuration."
+msgstr ""
+
+#: actionmanager.cpp:1143
+#, kde-format
+msgid "Merged calendar '%1'."
+msgstr ""
+
+#: actionmanager.cpp:1145
+#, kde-format
+msgid "Opened calendar '%1'."
+msgstr ""
+
+#: actionmanager.cpp:1168
+msgid ""
+"Your calendar will be saved in iCalendar format. Use 'Export vCalendar' to "
+"save in vCalendar format."
+msgstr ""
+
+#: actionmanager.cpp:1170
+msgid "Format Conversion"
+msgstr ""
+
+#: actionmanager.cpp:1170 calendarview.cpp:2082
+msgid "Proceed"
+msgstr ""
+
+#: actionmanager.cpp:1193
+#, kde-format
+msgid "Cannot upload calendar to '%1'"
+msgstr ""
+
+#: actionmanager.cpp:1200
+#, kde-format
+msgid "Saved calendar '%1'."
+msgstr ""
+
+#: actionmanager.cpp:1236
+#, kde-format
+msgid "Do you want to overwrite file \"%1\"?"
+msgstr ""
+
+#: actionmanager.cpp:1300
+#, kde-format
+msgid "Unable to save calendar to the file %1."
+msgstr ""
+
+#: actionmanager.cpp:1301
+msgid "Error"
+msgstr ""
+
+#: actionmanager.cpp:1328
+msgid ""
+"The calendar has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+
+#: actionmanager.cpp:1356
+msgid "*.ics *.vcs|Calendar Files"
+msgstr ""
+
+#: actionmanager.cpp:1437
+msgid "Could not start control module for date and time format."
+msgstr ""
+
+#: actionmanager.cpp:1616
+#, kde-format
+msgid "Could not load calendar %1."
+msgstr ""
+
+#: actionmanager.cpp:1624
+msgid "The downloaded events will be merged into your current calendar."
+msgstr ""
+
+#: actionmanager.cpp:1660
+msgid "&Show Event"
+msgstr ""
+
+#: actionmanager.cpp:1663
+msgid "&Edit Event..."
+msgstr ""
+
+#: actionmanager.cpp:1666
+msgid "&Delete Event"
+msgstr ""
+
+#: actionmanager.cpp:1674
+msgid "&Show To-do"
+msgstr ""
+
+#: actionmanager.cpp:1677
+#, fuzzy
+msgid "&Edit To-do..."
+msgstr "&wobdźěłać"
+
+#: actionmanager.cpp:1680
+msgid "&Delete To-do"
+msgstr ""
+
+#: actionmanager.cpp:1827 actionmanager.cpp:1932
+msgid "Attach as &link"
+msgstr ""
+
+#: actionmanager.cpp:1828 actionmanager.cpp:1933
+#, fuzzy
+msgid "Attach &inline"
+msgstr "&Wróćo na prěnjotny staw"
+
+#: actionmanager.cpp:1829
+msgid "Attach inline &without attachments"
+msgstr ""
+
+#: actionmanager.cpp:1831 actionmanager.cpp:1935
+msgid "C&ancel"
+msgstr ""
+
+#: actionmanager.cpp:1871
+msgid "Removing attachments from an email might invalidate its signature."
+msgstr ""
+
+#: actionmanager.cpp:1872
+#, fuzzy
+msgid "Remove Attachments"
+msgstr "&Wróćo na prěnjotny staw"
+
+#: actionmanager.cpp:2013 actionmanager.cpp:2022
+msgid "Undo"
+msgstr ""
+
+#: actionmanager.cpp:2019
+#, kde-format
+msgid "Undo: %1"
+msgstr ""
+
+#: actionmanager.cpp:2029 actionmanager.cpp:2033
+msgid "Redo"
+msgstr ""
+
+#: actionmanager.cpp:2035
+#, kde-format
+msgid "Redo (%1)"
+msgstr ""
+
+#: actionmanager.cpp:2049
+#, kde-format
+msgid "URL '%1' is invalid."
+msgstr ""
+
+#: kocorehelper.cpp:51
+msgctxt "@item:intext delimiter for joining holiday names"
+msgid ","
+msgstr ""
+
+#: koeventpopupmenu.cpp:54 views/todoview/kotodoview.cpp:186
+#, fuzzy
+msgid "&Print..."
+msgstr "&wobdźěłać"
+
+#: koeventpopupmenu.cpp:57 views/todoview/kotodoview.cpp:190
+#, fuzzy
+msgid "Print Previe&w..."
+msgstr "&wobdźěłać"
+
+#: koeventpopupmenu.cpp:64
+msgctxt "cut this event"
+msgid "C&ut"
+msgstr ""
+
+#: koeventpopupmenu.cpp:67
+msgctxt "copy this event"
+msgid "&Copy"
+msgstr ""
+
+#: koeventpopupmenu.cpp:71
+#, fuzzy
+msgid "&Paste"
+msgstr "Titl"
+
+#: koeventpopupmenu.cpp:74
+#, fuzzy
+msgctxt "delete this incidence"
+msgid "&Delete"
+msgstr "Titl"
+
+#: koeventpopupmenu.cpp:79
+msgid "Togg&le To-do Completed"
+msgstr ""
+
+#: koeventpopupmenu.cpp:82
+msgid "&Toggle Reminder"
+msgstr ""
+
+#: koeventpopupmenu.cpp:86
+msgid "&Dissociate From Recurrence..."
+msgstr ""
+
+#: koeventpopupmenu.cpp:92
+#, fuzzy
+msgid "Send as iCalendar..."
+msgstr "Konfiguracija &skrótšenkow..."
+
+#: koeventview.cpp:194
+msgid "Also &Future Items"
+msgstr ""
+
+#: koeventview.cpp:204
+msgid ""
+"The item you are trying to change is a recurring item. Should the changes be "
+"applied only to this single occurrence, also to future items, or to all "
+"items in the recurrence?"
+msgstr ""
+
+#: koeventview.cpp:209
+msgid ""
+"The item you are trying to change is a recurring item. Should the changes be "
+"applied only to this single occurrence or to all items in the recurrence?"
+msgstr ""
+
+#: koeventview.cpp:219
+msgid "Changing Recurring Item"
+msgstr ""
+
+#: koeventview.cpp:220
+msgid "Only &This Item"
+msgstr ""
+
+#: koeventview.cpp:222
+msgid "&All Occurrences"
 msgstr ""
 
 #: rc.cpp:1
@@ -1422,15 +2388,6 @@ msgstr ""
 #: rc.cpp:536 rc.cpp:1702
 msgid "&New"
 msgstr "&Nowe"
-
-#. i18n: file: filteredit_base.ui:44
-#. i18n: ectx: property (text), widget (QPushButton, mDeleteButton)
-#: rc.cpp:539 actionmanager.cpp:450 actionmanager.cpp:667
-#: actionmanager.cpp:1705 actionmanager.cpp:1736
-#: views/journalview/journalview.cpp:194 views/todoview/kotodoview.cpp:195
-#, fuzzy
-msgid "&Delete"
-msgstr "Titl"
 
 #. i18n: file: filteredit_base.ui:55
 #. i18n: ectx: property (title), widget (QGroupBox, mDetailsFrame)
@@ -2659,15 +3616,6 @@ msgstr ""
 msgid "Show holidays as:"
 msgstr ""
 
-#. i18n: file: plugins/printing/year/calprintyearconfig_base.ui:143
-#. i18n: ectx: property (text), item, widget (KComboBox, mSubDays)
-#. i18n: file: plugins/printing/year/calprintyearconfig_base.ui:157
-#. i18n: ectx: property (text), item, widget (KComboBox, mHolidays)
-#: rc.cpp:1195 rc.cpp:1201 kcmdesignerfields.cpp:82 kcmdesignerfields.cpp:83
-#: kcmdesignerfields.cpp:88 kcmdesignerfields.cpp:89
-msgid "Text"
-msgstr ""
-
 #. i18n: file: plugins/printing/year/calprintyearconfig_base.ui:148
 #. i18n: ectx: property (text), item, widget (KComboBox, mSubDays)
 #. i18n: file: plugins/printing/year/calprintyearconfig_base.ui:162
@@ -3530,921 +4478,6 @@ msgstr ""
 msgid "Show custom calendars"
 msgstr "Konfiguracija &skrótšenkow..."
 
-#: htmlexportjob.cpp:159
-msgid "Unable to write the output file."
-msgstr ""
-
-#: htmlexportjob.cpp:165
-msgid "Unable to write the temporary file for uploading."
-msgstr ""
-
-#: htmlexportjob.cpp:168
-msgid "Unable to upload the export file."
-msgstr ""
-
-#: htmlexportjob.cpp:176
-#, kde-format
-msgid "Web page successfully written to \"%1\""
-msgstr ""
-
-#: htmlexportjob.cpp:178
-#, kde-format
-msgid "Export failed. %1"
-msgstr ""
-
-#: htmlexportjob.cpp:182
-#, fuzzy
-#| msgid "Status"
-msgctxt "@title:window"
-msgid "Export Status"
-msgstr "Staw:"
-
-#: htmlexportjob.cpp:296
-#, kde-format
-msgctxt "@title month and year"
-msgid "%1 %2"
-msgstr ""
-
-#: htmlexportjob.cpp:376
-#, fuzzy
-msgctxt "@title:column event start time"
-msgid "Start Time"
-msgstr "Staw:"
-
-#: htmlexportjob.cpp:378
-#, fuzzy
-msgctxt "@title:column event end time"
-msgid "End Time"
-msgstr "Titl"
-
-#: htmlexportjob.cpp:380
-#, fuzzy
-msgctxt "@title:column event description"
-msgid "Event"
-msgstr "&Wróćo na prěnjotny staw"
-
-#: htmlexportjob.cpp:383
-#, fuzzy
-msgctxt "@title:column event locatin"
-msgid "Location"
-msgstr "Wopisanje:"
-
-#: htmlexportjob.cpp:388
-#, fuzzy
-#| msgid "Categories"
-msgctxt "@title:column event categories"
-msgid "Categories"
-msgstr "Kategorije"
-
-#: htmlexportjob.cpp:393
-#, fuzzy
-msgctxt "@title:column event attendees"
-msgid "Attendees"
-msgstr "Titl"
-
-#: htmlexportjob.cpp:512
-#, fuzzy
-msgctxt "@title:column"
-msgid "To-do"
-msgstr "Na:"
-
-#: htmlexportjob.cpp:513
-msgctxt "@title:column to-do priority"
-msgid "Priority"
-msgstr ""
-
-#: htmlexportjob.cpp:515
-msgctxt "@title:column to-do percent completed"
-msgid "Completed"
-msgstr ""
-
-#: htmlexportjob.cpp:517
-#, fuzzy
-msgctxt "@title:column to-do due date"
-msgid "Due Date"
-msgstr "Titl"
-
-#: htmlexportjob.cpp:521
-#, fuzzy
-msgctxt "@title:column to-do location"
-msgid "Location"
-msgstr "Wopisanje:"
-
-#: htmlexportjob.cpp:525
-#, fuzzy
-#| msgid "Categories"
-msgctxt "@title:column to-do categories"
-msgid "Categories"
-msgstr "Kategorije"
-
-#: htmlexportjob.cpp:529
-#, fuzzy
-msgctxt "@title:column to-do attendees"
-msgid "Attendees"
-msgstr "Titl"
-
-#: htmlexportjob.cpp:559
-#, fuzzy
-msgctxt "@title:column sub-to-dos of the parent to-do"
-msgid "Sub-To-dos of: "
-msgstr "Na:"
-
-#: htmlexportjob.cpp:615
-#, fuzzy
-msgctxt "@title:column sub-to-dos of the parent to-do"
-msgid "Sub-To-dos"
-msgstr "Na:"
-
-#: htmlexportjob.cpp:633
-#, kde-format
-msgctxt "@info/plain to-do percent complete"
-msgid "%1 %"
-msgstr ""
-
-#: htmlexportjob.cpp:788
-msgctxt "@info/plain"
-msgid "This page was created "
-msgstr ""
-
-#: htmlexportjob.cpp:797
-#, kde-format
-msgctxt "@info/plain page creator email link with name"
-msgid "by <link url='mailto:%1'>%2</link> "
-msgstr ""
-
-#: htmlexportjob.cpp:801
-#, kde-format
-msgctxt "@info/plain page creator email link"
-msgid "by <link url='mailto:%1'>%2</link> "
-msgstr ""
-
-#: htmlexportjob.cpp:807
-#, kde-format
-msgctxt "@info/plain page creator name only"
-msgid "by %1 "
-msgstr ""
-
-#: htmlexportjob.cpp:813
-#, kde-format
-msgctxt "@info/plain page credit with name and link"
-msgid "with <link url='%1'>%2</link>"
-msgstr ""
-
-#: htmlexportjob.cpp:817
-#, kde-format
-msgctxt "@info/plain page credit name only"
-msgid "with %1"
-msgstr ""
-
-#: htmlexportjob.cpp:884
-#, kde-format
-msgctxt "@info/plain holiday by date and name"
-msgid "%1, %2"
-msgstr ""
-
-#: kcmdesignerfields.cpp:84
-msgid "Numeric Value"
-msgstr ""
-
-#: kcmdesignerfields.cpp:85
-msgid "Boolean"
-msgstr ""
-
-#: kcmdesignerfields.cpp:86
-#, fuzzy
-msgid "Selection"
-msgstr "Staw:"
-
-#: kcmdesignerfields.cpp:87 kcmdesignerfields.cpp:90
-#, fuzzy
-msgid "Date & Time"
-msgstr "Titl"
-
-#: kcmdesignerfields.cpp:91
-#, fuzzy
-msgid "Date"
-msgstr "Titl"
-
-#: kcmdesignerfields.cpp:164
-msgid "KCMDesignerfields"
-msgstr ""
-
-#: kcmdesignerfields.cpp:165
-msgid "Qt Designer Fields Dialog"
-msgstr ""
-
-#: kcmdesignerfields.cpp:167
-msgid "(c), 2004 Tobias Koenig"
-msgstr ""
-
-#: kcmdesignerfields.cpp:169
-msgid "Tobias Koenig"
-msgstr ""
-
-#: kcmdesignerfields.cpp:209
-#, kde-format
-msgid "<qt>Do you really want to delete '<b>%1</b>'?</qt>"
-msgstr ""
-
-#: kcmdesignerfields.cpp:220
-msgid "*.ui|Designer Files"
-msgstr ""
-
-#: kcmdesignerfields.cpp:221
-msgid "Import Page"
-msgstr ""
-
-#: kcmdesignerfields.cpp:315
-msgid ""
-"<qt><b>Warning:</b> Qt Designer could not be found. It is probably not "
-"installed. You will only be able to import existing designer files.</qt>"
-msgstr ""
-
-#: kcmdesignerfields.cpp:326
-msgid "Available Pages"
-msgstr ""
-
-#: kcmdesignerfields.cpp:332
-msgid "Preview of Selected Page"
-msgstr ""
-
-#: kcmdesignerfields.cpp:352
-#, kde-format
-msgid ""
-"<qt><p>This section allows you to add your own GUI Elements ('<i>Widgets</"
-"i>') to store your own values into %1. Proceed as described below:</"
-"p><ol><li>Click on '<i>Edit with Qt Designer</i>'</li><li>In the dialog, "
-"select '<i>Widget</i>', then click <i>OK</i></li><li>Add your widgets to the "
-"form</li><li>Save the file in the directory proposed by Qt Designer</"
-"li><li>Close Qt Designer</li></ol><p>In case you already have a designer "
-"file (*.ui) located somewhere on your hard disk, simply choose '<i>Import "
-"Page</i>'</p><p><b>Important:</b> The name of each input widget you place "
-"within the form must start with '<i>X_</i>'; so if you want the widget to "
-"correspond to your custom entry '<i>X-Foo</i>', set the widget's <i>name</i> "
-"property to '<i>X_Foo</i>'.</p><p><b>Important:</b> The widget will edit "
-"custom fields with an application name of %2.  To change the application "
-"name to be edited, set the widget name in Qt Designer.</p></qt>"
-msgstr ""
-
-#: kcmdesignerfields.cpp:374
-#, kde-format
-msgid "<a href=\"whatsthis:%1\">How does this work?</a>"
-msgstr ""
-
-#: kcmdesignerfields.cpp:386
-#, fuzzy
-msgid "Delete Page"
-msgstr "Titl"
-
-#: kcmdesignerfields.cpp:389
-msgid "Import Page..."
-msgstr ""
-
-#: kcmdesignerfields.cpp:391
-msgid "Edit with Qt Designer..."
-msgstr ""
-
-#: kcmdesignerfields.cpp:415
-msgid "Key:"
-msgstr ""
-
-#: kcmdesignerfields.cpp:417
-msgid "Type:"
-msgstr ""
-
-#: kcmdesignerfields.cpp:419
-#, fuzzy
-msgid "Classname:"
-msgstr "Wužiwar:"
-
-#: kcmdesignerfields.cpp:421 printing/calprintdefaultplugins.cpp:467
-#, fuzzy
-msgid "Description:"
-msgstr "Wopisanje:"
-
-#: importdialog.cpp:43
-msgid "Import Calendar"
-msgstr ""
-
-#: importdialog.cpp:54
-#, kde-format
-msgid ""
-"Please select import method for calendar at\n"
-"\n"
-"%1."
-msgstr ""
-
-#: importdialog.cpp:65
-msgid "Add as new calendar"
-msgstr ""
-
-#: importdialog.cpp:68
-msgid "Merge into existing calendar"
-msgstr ""
-
-#: actionmanager.cpp:164
-#, kde-format
-msgid ""
-"<qt>This will hide the menu bar completely. You can show it again by typing "
-"%1.</qt>"
-msgstr ""
-
-#: actionmanager.cpp:380
-msgid "Import &Calendar..."
-msgstr ""
-
-#: actionmanager.cpp:382
-#, fuzzy
-msgid "Merge the contents of another iCalendar"
-msgstr "&Wróćo na prěnjotny staw"
-
-#: actionmanager.cpp:384
-msgid ""
-"Select this menu entry if you would like to merge the contents of another "
-"iCalendar into your current calendar."
-msgstr ""
-
-#: actionmanager.cpp:389
-#, fuzzy
-msgid "&Import From UNIX Ical Tool"
-msgstr "Z &Ical importować"
-
-#: actionmanager.cpp:391
-msgid "Import a calendar in another format"
-msgstr ""
-
-#: actionmanager.cpp:393
-msgid ""
-"Select this menu entry if you would like to import the contents of a non-"
-"iCalendar formatted file into your current calendar."
-msgstr ""
-
-#: actionmanager.cpp:398
-msgid "Get &Hot New Stuff..."
-msgstr ""
-
-#: actionmanager.cpp:402
-msgid "Export &Web Page..."
-msgstr ""
-
-#: actionmanager.cpp:406
-#, fuzzy
-msgid "Export as &iCalendar..."
-msgstr "Konfiguracija &skrótšenkow..."
-
-#: actionmanager.cpp:410
-#, fuzzy
-msgid "Export as &vCalendar..."
-msgstr "Konfiguracija &skrótšenkow..."
-
-#: actionmanager.cpp:419
-msgid "Archive O&ld Entries..."
-msgstr ""
-
-#: actionmanager.cpp:423
-msgid "Pur&ge Completed To-dos"
-msgstr ""
-
-#: actionmanager.cpp:472
-msgid "What's &Next"
-msgstr ""
-
-#: actionmanager.cpp:477
-#, fuzzy
-msgid "&Month View"
-msgstr "&Měsac"
-
-#: actionmanager.cpp:482
-#, fuzzy
-msgid "&Agenda"
-msgstr "&Měsac"
-
-#: actionmanager.cpp:487
-msgid "&Event List"
-msgstr ""
-
-#: actionmanager.cpp:492
-#, fuzzy
-msgid "&To-do List"
-msgstr "Na:"
-
-#: actionmanager.cpp:497
-msgid "&Journal"
-msgstr ""
-
-#: actionmanager.cpp:502
-#, fuzzy
-msgid "Time&line"
-msgstr "Titl"
-
-#: actionmanager.cpp:507
-msgid "Time&spent"
-msgstr ""
-
-#: actionmanager.cpp:513
-#, fuzzy
-msgid "&Refresh"
-msgstr "Ponowić"
-
-#: actionmanager.cpp:519
-#, fuzzy
-msgid "F&ilter"
-msgstr "Filtry wobdźěłać..."
-
-#: actionmanager.cpp:532
-msgid "In Horizontally"
-msgstr ""
-
-#: actionmanager.cpp:538
-msgid "Out Horizontally"
-msgstr ""
-
-#: actionmanager.cpp:544
-msgid "In Vertically"
-msgstr ""
-
-#: actionmanager.cpp:550
-msgid "Out Vertically"
-msgstr ""
-
-#: actionmanager.cpp:560
-msgctxt "@action Jump to today"
-msgid "To &Today"
-msgstr ""
-
-#: actionmanager.cpp:561
-msgid "Today"
-msgstr ""
-
-#: actionmanager.cpp:562
-msgid "Scroll to Today"
-msgstr ""
-
-#: actionmanager.cpp:567
-msgctxt "scroll backward"
-msgid "&Backward"
-msgstr ""
-
-#: actionmanager.cpp:568
-msgctxt "scroll backward"
-msgid "Back"
-msgstr ""
-
-#: actionmanager.cpp:569
-msgid "Scroll Backward"
-msgstr ""
-
-#: actionmanager.cpp:582
-msgctxt "scroll forward"
-msgid "&Forward"
-msgstr ""
-
-#: actionmanager.cpp:583
-msgctxt "scoll forward"
-msgid "Forward"
-msgstr ""
-
-#: actionmanager.cpp:584
-msgid "Scroll Forward"
-msgstr ""
-
-#: actionmanager.cpp:592
-msgid "&Day"
-msgstr ""
-
-#: actionmanager.cpp:603 actionmanager.cpp:1409 calendarview.cpp:2140
-#, kde-format
-msgid "&Next Day"
-msgid_plural "&Next %1 Days"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: actionmanager.cpp:605
-msgid "W&ork Week"
-msgstr ""
-
-#: actionmanager.cpp:611
-msgid "&Week"
-msgstr "&Tydźeń"
-
-#: actionmanager.cpp:618 kodaymatrix.cpp:529
-msgid "New E&vent..."
-msgstr ""
-
-#: actionmanager.cpp:620
-msgid "Create a new Event"
-msgstr ""
-
-#: actionmanager.cpp:626 views/todoview/kotodoview.cpp:204 kodaymatrix.cpp:531
-msgid "New &To-do..."
-msgstr ""
-
-#: actionmanager.cpp:628
-msgid "Create a new To-do"
-msgstr ""
-
-#: actionmanager.cpp:633 views/todoview/kotodoview.cpp:207
-msgid "New Su&b-to-do..."
-msgstr ""
-
-#: actionmanager.cpp:641 kodaymatrix.cpp:533
-msgid "New &Journal..."
-msgstr ""
-
-#: actionmanager.cpp:643
-msgid "Create a new Journal"
-msgstr ""
-
-#: actionmanager.cpp:648
-#, fuzzy
-msgid "Configure View..."
-msgstr "Konfiguracija &skrótšenkow..."
-
-#: actionmanager.cpp:649
-#, fuzzy
-msgid "Configure"
-msgstr "Konfiguracija &skrótšenkow..."
-
-#: actionmanager.cpp:650
-#, fuzzy
-msgid "Configure the view"
-msgstr "&Měsac"
-
-#: actionmanager.cpp:657 actionmanager.cpp:1699 actionmanager.cpp:1734
-#: koeventpopupmenu.cpp:48 views/todoview/kotodoview.cpp:176
-msgid "&Show"
-msgstr ""
-
-#: actionmanager.cpp:662 actionmanager.cpp:1702 actionmanager.cpp:1735
-#: koeventpopupmenu.cpp:51 views/todoview/kotodoview.cpp:179
-msgid "&Edit..."
-msgstr "&wobdźěłać"
-
-#: actionmanager.cpp:673
-msgid "&Make Sub-to-do Independent"
-msgstr ""
-
-#: actionmanager.cpp:687
-msgid "&Publish Item Information..."
-msgstr ""
-
-#: actionmanager.cpp:693
-msgid "Send &Invitation to Attendees"
-msgstr ""
-
-#: actionmanager.cpp:700
-#, fuzzy
-msgid "Re&quest Update"
-msgstr "&Wróćo na prěnjotny staw"
-
-#: actionmanager.cpp:707
-msgid "Send &Cancellation to Attendees"
-msgstr ""
-
-#: actionmanager.cpp:715
-#, fuzzy
-msgid "Send Status &Update"
-msgstr "Titl"
-
-#: actionmanager.cpp:722
-msgctxt "counter proposal"
-msgid "Request Chan&ge"
-msgstr ""
-
-#: actionmanager.cpp:729
-#, fuzzy
-msgid "&Mail Free Busy Information..."
-msgstr "Konfiguracija resursow"
-
-#: actionmanager.cpp:734
-#, fuzzy
-msgid "&Send as iCalendar..."
-msgstr "Konfiguracija &skrótšenkow..."
-
-#: actionmanager.cpp:739
-msgid "&Upload Free Busy Information"
-msgstr ""
-
-#: actionmanager.cpp:745
-#, fuzzy
-msgid "&Address Book"
-msgstr "Adresnik"
-
-#: actionmanager.cpp:753
-msgid "Show Date Navigator"
-msgstr ""
-
-#: actionmanager.cpp:757
-#, fuzzy
-msgid "Show To-do View"
-msgstr "&Měsac"
-
-#: actionmanager.cpp:761
-#, fuzzy
-msgid "Show Item Viewer"
-msgstr "Konfiguracija resursow"
-
-#: actionmanager.cpp:777
-msgid "Show Calendar Manager"
-msgstr ""
-
-#: actionmanager.cpp:790
-msgid "Configure &Date && Time..."
-msgstr ""
-
-#: actionmanager.cpp:799
-#, fuzzy
-msgid "Manage View &Filters..."
-msgstr "Filtry wobdźěłać..."
-
-#: actionmanager.cpp:804
-#, fuzzy
-msgid "Manage C&ategories..."
-msgstr "Kategorije"
-
-#: actionmanager.cpp:810
-#, fuzzy
-msgid "&Configure Calendar..."
-msgstr "Konfiguracija &skrótšenkow..."
-
-#: actionmanager.cpp:970
-msgid ""
-"You have no ical file in your home directory.\n"
-"Import cannot proceed.\n"
-msgstr ""
-
-#: actionmanager.cpp:991
-msgid ""
-"KOrganizer successfully imported and merged your .calendar file from ical "
-"into the currently opened calendar."
-msgstr ""
-
-#: actionmanager.cpp:997
-msgid ""
-"KOrganizer encountered some unknown fields while parsing your .calendar ical "
-"file, and had to discard them; please check to see that all your relevant "
-"data was correctly imported."
-msgstr ""
-
-#: actionmanager.cpp:1001
-msgid "ICal Import Successful with Warning"
-msgstr ""
-
-#: actionmanager.cpp:1005
-msgid ""
-"KOrganizer encountered an error parsing your .calendar file from ical; "
-"import has failed."
-msgstr ""
-
-#: actionmanager.cpp:1009
-msgid ""
-"KOrganizer does not think that your .calendar file is a valid ical calendar; "
-"import has failed."
-msgstr ""
-
-#: actionmanager.cpp:1061
-#, kde-format
-msgid "New calendar '%1'."
-msgstr ""
-
-#: actionmanager.cpp:1092
-#, kde-format
-msgid "Cannot download calendar from '%1'."
-msgstr ""
-
-#: actionmanager.cpp:1131
-msgid "Failed to obtain D-Bus interface for remote configuration."
-msgstr ""
-
-#: actionmanager.cpp:1143
-#, kde-format
-msgid "Merged calendar '%1'."
-msgstr ""
-
-#: actionmanager.cpp:1145
-#, kde-format
-msgid "Opened calendar '%1'."
-msgstr ""
-
-#: actionmanager.cpp:1168
-msgid ""
-"Your calendar will be saved in iCalendar format. Use 'Export vCalendar' to "
-"save in vCalendar format."
-msgstr ""
-
-#: actionmanager.cpp:1170
-msgid "Format Conversion"
-msgstr ""
-
-#: actionmanager.cpp:1170 calendarview.cpp:2082
-msgid "Proceed"
-msgstr ""
-
-#: actionmanager.cpp:1193
-#, kde-format
-msgid "Cannot upload calendar to '%1'"
-msgstr ""
-
-#: actionmanager.cpp:1200
-#, kde-format
-msgid "Saved calendar '%1'."
-msgstr ""
-
-#: actionmanager.cpp:1236
-#, kde-format
-msgid "Do you want to overwrite file \"%1\"?"
-msgstr ""
-
-#: actionmanager.cpp:1300
-#, kde-format
-msgid "Unable to save calendar to the file %1."
-msgstr ""
-
-#: actionmanager.cpp:1301
-msgid "Error"
-msgstr ""
-
-#: actionmanager.cpp:1328
-msgid ""
-"The calendar has been modified.\n"
-"Do you want to save it?"
-msgstr ""
-
-#: actionmanager.cpp:1356
-msgid "*.ics *.vcs|Calendar Files"
-msgstr ""
-
-#: actionmanager.cpp:1437
-msgid "Could not start control module for date and time format."
-msgstr ""
-
-#: actionmanager.cpp:1616
-#, kde-format
-msgid "Could not load calendar %1."
-msgstr ""
-
-#: actionmanager.cpp:1624
-msgid "The downloaded events will be merged into your current calendar."
-msgstr ""
-
-#: actionmanager.cpp:1660
-msgid "&Show Event"
-msgstr ""
-
-#: actionmanager.cpp:1663
-msgid "&Edit Event..."
-msgstr ""
-
-#: actionmanager.cpp:1666
-msgid "&Delete Event"
-msgstr ""
-
-#: actionmanager.cpp:1674
-msgid "&Show To-do"
-msgstr ""
-
-#: actionmanager.cpp:1677
-#, fuzzy
-msgid "&Edit To-do..."
-msgstr "&wobdźěłać"
-
-#: actionmanager.cpp:1680
-msgid "&Delete To-do"
-msgstr ""
-
-#: actionmanager.cpp:1827 actionmanager.cpp:1932
-msgid "Attach as &link"
-msgstr ""
-
-#: actionmanager.cpp:1828 actionmanager.cpp:1933
-#, fuzzy
-msgid "Attach &inline"
-msgstr "&Wróćo na prěnjotny staw"
-
-#: actionmanager.cpp:1829
-msgid "Attach inline &without attachments"
-msgstr ""
-
-#: actionmanager.cpp:1831 actionmanager.cpp:1935
-msgid "C&ancel"
-msgstr ""
-
-#: actionmanager.cpp:1871
-msgid "Removing attachments from an email might invalidate its signature."
-msgstr ""
-
-#: actionmanager.cpp:1872
-#, fuzzy
-msgid "Remove Attachments"
-msgstr "&Wróćo na prěnjotny staw"
-
-#: actionmanager.cpp:2013 actionmanager.cpp:2022
-msgid "Undo"
-msgstr ""
-
-#: actionmanager.cpp:2019
-#, kde-format
-msgid "Undo: %1"
-msgstr ""
-
-#: actionmanager.cpp:2029 actionmanager.cpp:2033
-msgid "Redo"
-msgstr ""
-
-#: actionmanager.cpp:2035
-#, kde-format
-msgid "Redo (%1)"
-msgstr ""
-
-#: actionmanager.cpp:2049
-#, kde-format
-msgid "URL '%1' is invalid."
-msgstr ""
-
-#: kocorehelper.cpp:51
-msgctxt "@item:intext delimiter for joining holiday names"
-msgid ","
-msgstr ""
-
-#: koeventpopupmenu.cpp:54 views/todoview/kotodoview.cpp:186
-#, fuzzy
-msgid "&Print..."
-msgstr "&wobdźěłać"
-
-#: koeventpopupmenu.cpp:57 views/todoview/kotodoview.cpp:190
-#, fuzzy
-msgid "Print Previe&w..."
-msgstr "&wobdźěłać"
-
-#: koeventpopupmenu.cpp:64
-msgctxt "cut this event"
-msgid "C&ut"
-msgstr ""
-
-#: koeventpopupmenu.cpp:67
-msgctxt "copy this event"
-msgid "&Copy"
-msgstr ""
-
-#: koeventpopupmenu.cpp:71
-#, fuzzy
-msgid "&Paste"
-msgstr "Titl"
-
-#: koeventpopupmenu.cpp:74
-#, fuzzy
-msgctxt "delete this incidence"
-msgid "&Delete"
-msgstr "Titl"
-
-#: koeventpopupmenu.cpp:79
-msgid "Togg&le To-do Completed"
-msgstr ""
-
-#: koeventpopupmenu.cpp:82
-msgid "&Toggle Reminder"
-msgstr ""
-
-#: koeventpopupmenu.cpp:86
-msgid "&Dissociate From Recurrence..."
-msgstr ""
-
-#: koeventpopupmenu.cpp:92
-#, fuzzy
-msgid "Send as iCalendar..."
-msgstr "Konfiguracija &skrótšenkow..."
-
-#: koeventview.cpp:194
-msgid "Also &Future Items"
-msgstr ""
-
-#: koeventview.cpp:204
-msgid ""
-"The item you are trying to change is a recurring item. Should the changes be "
-"applied only to this single occurrence, also to future items, or to all "
-"items in the recurrence?"
-msgstr ""
-
-#: koeventview.cpp:209
-msgid ""
-"The item you are trying to change is a recurring item. Should the changes be "
-"applied only to this single occurrence or to all items in the recurrence?"
-msgstr ""
-
-#: koeventview.cpp:219
-msgid "Changing Recurring Item"
-msgstr ""
-
-#: koeventview.cpp:220
-msgid "Only &This Item"
-msgstr ""
-
-#: koeventview.cpp:222
-msgid "&All Occurrences"
-msgstr ""
-
 #: koeventviewerdialog.cpp:40
 msgid "Event Viewer"
 msgstr ""
@@ -4463,39 +4496,6 @@ msgstr "Konfiguracija resursow"
 msgctxt "Default export file"
 msgid "calendar.html"
 msgstr ""
-
-#: searchdialog.cpp:41
-#, fuzzy
-msgid "Search Calendar"
-msgstr "Konfiguracija &skrótšenkow..."
-
-#: searchdialog.cpp:47
-msgctxt "search in calendar"
-msgid "&Search"
-msgstr ""
-
-#: searchdialog.cpp:48
-msgid "Start searching"
-msgstr ""
-
-#: searchdialog.cpp:99
-msgid ""
-"Invalid search expression, cannot perform the search. Please enter a search "
-"expression using the wildcard characters '*' and '?' where needed."
-msgstr ""
-
-#: searchdialog.cpp:111
-msgid "No items were found that match your search pattern."
-msgstr ""
-
-#: searchdialog.cpp:114
-#, fuzzy, kde-format
-msgid "%1 item"
-msgid_plural "%1 items"
-msgstr[0] "&Měsac"
-msgstr[1] "&Měsac"
-msgstr[2] "&Měsac"
-msgstr[3] "&Měsac"
 
 #: koviewmanager.cpp:502
 msgid "Merged calendar"
