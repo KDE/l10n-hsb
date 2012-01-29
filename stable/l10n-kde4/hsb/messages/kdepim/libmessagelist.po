@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-14 04:31+0100\n"
+"POT-Creation-Date: 2012-01-29 13:32+0100\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -137,198 +137,6 @@ msgstr ""
 
 #: core/aggregation.cpp:268
 msgid "Batch Job (No Interactivity)"
-msgstr ""
-
-#: core/theme.cpp:81
-#, fuzzy
-#| msgid "Subject"
-msgctxt "Description of Type Subject"
-msgid "Subject"
-msgstr "Tema"
-
-#: core/theme.cpp:84
-#, fuzzy
-#| msgid "Date"
-msgctxt "Description of Type Date"
-msgid "Date"
-msgstr "Datum"
-
-#: core/theme.cpp:87 core/manager.cpp:738
-#, fuzzy
-#| msgid "Sender/Receiver"
-msgid "Sender/Receiver"
-msgstr "Wotpósłar/Adresat"
-
-#: core/theme.cpp:90
-#, fuzzy
-#| msgid "Sender"
-msgctxt "Description of Type Sender"
-msgid "Sender"
-msgstr "Wotpósłar"
-
-#: core/theme.cpp:93
-#, fuzzy
-#| msgid "Receiver"
-msgctxt "Description of Type Receiver"
-msgid "Receiver"
-msgstr "Adresat"
-
-#: core/theme.cpp:96
-#, fuzzy
-#| msgid "Size"
-msgctxt "Description of Type Size"
-msgid "Size"
-msgstr "Wulkosć"
-
-#: core/theme.cpp:99
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Unread"
-msgid "Unread/Read Icon"
-msgstr "Nječitane"
-
-#: core/theme.cpp:102
-#, fuzzy
-msgid "Attachment Icon"
-msgstr "Přiwěšk: "
-
-#: core/theme.cpp:105
-msgid "Replied/Forwarded Icon"
-msgstr ""
-
-#: core/theme.cpp:108
-msgid "Combined New/Unread/Read/Replied/Forwarded Icon"
-msgstr ""
-
-#: core/theme.cpp:111
-#, fuzzy
-msgid "Action Item Icon"
-msgstr "Wažna powěsć"
-
-#: core/theme.cpp:114
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Important"
-msgid "Important Icon"
-msgstr "Wažne"
-
-#: core/theme.cpp:117
-#, fuzzy
-msgid "Group Header Label"
-msgstr "Groupware"
-
-#: core/theme.cpp:120
-#, fuzzy
-msgid "Spam/Ham Icon"
-msgstr "Čitane"
-
-#: core/theme.cpp:123
-#, fuzzy
-msgid "Watched/Ignored Icon"
-msgstr "&Ignorować"
-
-#: core/theme.cpp:126
-msgid "Group Header Expand/Collapse Icon"
-msgstr ""
-
-#: core/theme.cpp:129
-#, fuzzy
-msgid "Encryption State Icon"
-msgstr "Šifrowanje"
-
-#: core/theme.cpp:132
-#, fuzzy
-msgid "Signature State Icon"
-msgstr "Signatura"
-
-#: core/theme.cpp:135
-msgid "Vertical Separation Line"
-msgstr ""
-
-#: core/theme.cpp:138
-#, fuzzy
-#| msgid "internal part"
-msgid "Horizontal Spacer"
-msgstr "nutřkowny dźěl"
-
-#: core/theme.cpp:141
-#, fuzzy
-#| msgid "Date"
-msgid "Max Date"
-msgstr "Datum"
-
-#: core/theme.cpp:144
-#, fuzzy
-#| msgid "&Message"
-msgid "Message Tags"
-msgstr "Po&wěsć"
-
-#: core/theme.cpp:147
-#, fuzzy
-msgid "Note Icon"
-msgstr "Wažna powěsć"
-
-#: core/theme.cpp:149
-#, fuzzy
-#| msgid "Advanced Options"
-msgid "Invitation Icon"
-msgstr "Opcije za pokročenych"
-
-#: core/theme.cpp:151
-#, fuzzy
-msgctxt "Description for an Unknown Type"
-msgid "Unknown"
-msgstr "&Dopósłać"
-
-#: core/theme.cpp:617
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Unread"
-msgid "Unread"
-msgstr "Nječitane"
-
-#: core/theme.cpp:770
-#, fuzzy
-#| msgid "Receiver"
-msgid "Never Show"
-msgstr "Adresat"
-
-#: core/theme.cpp:771
-#, fuzzy
-#| msgid "Al&ways send"
-msgid "Always Show"
-msgstr "Pře&co pósłać"
-
-#: core/theme.cpp:778
-msgid "Plain Rectangles"
-msgstr ""
-
-#: core/theme.cpp:779
-msgid "Plain Joined Rectangle"
-msgstr ""
-
-#: core/theme.cpp:780
-msgid "Rounded Rectangles"
-msgstr ""
-
-#: core/theme.cpp:781
-msgid "Rounded Joined Rectangle"
-msgstr ""
-
-#: core/theme.cpp:782
-msgid "Gradient Rectangles"
-msgstr ""
-
-#: core/theme.cpp:783
-msgid "Gradient Joined Rectangle"
-msgstr ""
-
-#: core/theme.cpp:784
-msgid "Styled Rectangles"
-msgstr ""
-
-#: core/theme.cpp:785
-msgid "Styled Joined Rectangles"
 msgstr ""
 
 #: core/item.cpp:229 core/messageitem.cpp:619
@@ -520,6 +328,12 @@ msgctxt "@title:column Subject of messages"
 msgid "Subject"
 msgstr "Tema"
 
+#: core/manager.cpp:738 core/theme.cpp:87
+#, fuzzy
+#| msgid "Sender/Receiver"
+msgid "Sender/Receiver"
+msgstr "Wotpósłar/Adresat"
+
 #: core/manager.cpp:740
 #, fuzzy
 #| msgid "Sender"
@@ -636,134 +450,392 @@ msgstr ""
 msgid "Status"
 msgstr "Staw"
 
-#: core/widgetbase.cpp:139
+#: core/model.cpp:290
 #, fuzzy
-msgctxt "Search for messages."
-msgid "Search"
+msgid "Today"
+msgstr "Na: "
+
+#: core/model.cpp:291
+#, fuzzy
+msgid "Yesterday"
+msgstr "Wašnja zdźělenja"
+
+#: core/model.cpp:294
+#, fuzzy
+msgid "Last Week"
 msgstr "&Pytaj"
 
-#: core/widgetbase.cpp:160
+#: core/model.cpp:295
+msgid "Two Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:296
+msgid "Three Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:297
+msgid "Four Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:298
+msgid "Five Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:524 utils/themeeditor.cpp:204
 #, fuzzy
-msgid "Open Full Search"
-msgstr "<adresaća>"
+#| msgid "Receiver"
+msgid "Receiver"
+msgstr "Adresat"
 
-#: core/widgetbase.cpp:234
-msgid "Any Status"
-msgstr "Kóždy staw"
+#: core/model.cpp:525 utils/themeeditor.cpp:203
+msgid "Sender"
+msgstr "Wotpósłar"
 
-#: core/widgetbase.cpp:237
+#: core/model.cpp:1353
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "%1: name; %2: number appended to it to make it unique among a list of "
+#| "names"
+#| msgid "%1 %2"
+msgctxt "Message Aggregation Group Header: Month name and Year number"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: core/model.cpp:3796
+#, fuzzy, kde-format
+#| msgid "&Thread Messages"
+msgid "Processed 1 Message of %2"
+msgid_plural "Processed %1 Messages of %2"
+msgstr[0] "Powěsće &skupinkować"
+msgstr[1] "Powěsće &skupinkować"
+msgstr[2] "Powěsće &skupinkować"
+msgstr[3] "Powěsće &skupinkować"
+
+#: core/model.cpp:3802 core/model.cpp:3808
+#, fuzzy, kde-format
+#| msgid "&Thread Messages"
+msgid "Threaded 1 Message of %2"
+msgid_plural "Threaded %1 Messages of %2"
+msgstr[0] "Powěsće &skupinkować"
+msgstr[1] "Powěsće &skupinkować"
+msgstr[2] "Powěsće &skupinkować"
+msgstr[3] "Powěsće &skupinkować"
+
+#: core/model.cpp:3814
+#, fuzzy, kde-format
+#| msgctxt "View->"
+#| msgid "&Expand Thread"
+msgid "Grouped 1 Thread of %2"
+msgid_plural "Grouped %1 Threads of %2"
+msgstr[0] "&Skupinu rozćahnyć"
+msgstr[1] "&Skupinu rozćahnyć"
+msgstr[2] "&Skupinu rozćahnyć"
+msgstr[3] "&Skupinu rozćahnyć"
+
+#: core/model.cpp:3820
+#, fuzzy, kde-format
+#| msgctxt "View->"
+#| msgid "&Expand Thread"
+msgid "Updated 1 Group of %2"
+msgid_plural "Updated %1 Groups of %2"
+msgstr[0] "&Skupinu rozćahnyć"
+msgstr[1] "&Skupinu rozćahnyć"
+msgstr[2] "&Skupinu rozćahnyć"
+msgstr[3] "&Skupinu rozćahnyć"
+
+#: core/model.cpp:3917
+#, fuzzy
+#| msgid "Ready."
+msgctxt "@info:status Finished view fill"
+msgid "Ready"
+msgstr "Hotowo."
+
+#: core/sortorder.cpp:41 core/sortorder.cpp:85
+#, fuzzy
+msgid "None (Storage Order)"
+msgstr "Wužiwaj &kodowanje"
+
+#: core/sortorder.cpp:42
+msgid "By Date/Time"
+msgstr ""
+
+#: core/sortorder.cpp:44
+msgid "By Date/Time of Most Recent in Subtree"
+msgstr ""
+
+#: core/sortorder.cpp:48
+#, fuzzy
+#| msgid "Subject"
+msgid "By Subject"
+msgstr "Tema"
+
+#: core/sortorder.cpp:49
+#, fuzzy
+#| msgid "Size"
+msgid "By Size"
+msgstr "Wulkosć"
+
+#: core/sortorder.cpp:50
+#, fuzzy
+msgid "By Action Item Status"
+msgstr "Wažna powěsć"
+
+#: core/sortorder.cpp:51
 #, fuzzy
 #| msgctxt "msg status"
 #| msgid "Unread"
-msgctxt "@action:inmenu Status of a message"
-msgid "Unread"
+msgid "By Unread Status"
 msgstr "Nječitane"
 
-#: core/widgetbase.cpp:241
+#: core/sortorder.cpp:66 core/sortorder.cpp:108
+#, fuzzy
+msgid "Least Recent on Top"
+msgstr "<adresaća>"
+
+#: core/sortorder.cpp:67 core/sortorder.cpp:109
+#, fuzzy
+msgid "Most Recent on Top"
+msgstr "Powěsće zničić"
+
+#: core/sortorder.cpp:71
+#, fuzzy
+#| msgid "&Sending"
+msgctxt "Sort order for messages"
+msgid "Ascending"
+msgstr "&Pósłanje"
+
+#: core/sortorder.cpp:72
+#, fuzzy
+#| msgid "&Sending"
+msgctxt "Sort order for messages"
+msgid "Descending"
+msgstr "&Pósłanje"
+
+#: core/sortorder.cpp:83
+msgid "by Date/Time"
+msgstr ""
+
+#: core/sortorder.cpp:86
+#, fuzzy
+msgid "by Date/Time of Most Recent Message in Group"
+msgstr "Powěsće zničić"
+
+#: core/sortorder.cpp:90
+#, fuzzy
+#| msgid "Sender/Receiver"
+msgid "by Sender/Receiver"
+msgstr "Wotpósłar/Adresat"
+
+#: core/sortorder.cpp:92
+#, fuzzy
+#| msgid "Sender"
+msgid "by Sender"
+msgstr "Wotpósłar"
+
+#: core/sortorder.cpp:94
+#, fuzzy
+#| msgid "Receiver"
+msgid "by Receiver"
+msgstr "Adresat"
+
+#: core/sortorder.cpp:112
+#, fuzzy
+#| msgid "&Sending"
+msgctxt "Sort order for mail groups"
+msgid "Ascending"
+msgstr "&Pósłanje"
+
+#: core/sortorder.cpp:113
+#, fuzzy
+#| msgid "&Sending"
+msgctxt "Sort order for mail groups"
+msgid "Descending"
+msgstr "&Pósłanje"
+
+#: core/theme.cpp:81
+#, fuzzy
+#| msgid "Subject"
+msgctxt "Description of Type Subject"
+msgid "Subject"
+msgstr "Tema"
+
+#: core/theme.cpp:84
+#, fuzzy
+#| msgid "Date"
+msgctxt "Description of Type Date"
+msgid "Date"
+msgstr "Datum"
+
+#: core/theme.cpp:90
+#, fuzzy
+#| msgid "Sender"
+msgctxt "Description of Type Sender"
+msgid "Sender"
+msgstr "Wotpósłar"
+
+#: core/theme.cpp:93
+#, fuzzy
+#| msgid "Receiver"
+msgctxt "Description of Type Receiver"
+msgid "Receiver"
+msgstr "Adresat"
+
+#: core/theme.cpp:96
+#, fuzzy
+#| msgid "Size"
+msgctxt "Description of Type Size"
+msgid "Size"
+msgstr "Wulkosć"
+
+#: core/theme.cpp:99
 #, fuzzy
 #| msgctxt "msg status"
-#| msgid "Replied"
-msgctxt "@action:inmenu Status of a message"
-msgid "Replied"
-msgstr "Wotmołwjene"
+#| msgid "Unread"
+msgid "Unread/Read Icon"
+msgstr "Nječitane"
 
-#: core/widgetbase.cpp:245
+#: core/theme.cpp:102
 #, fuzzy
-#| msgctxt "msg status"
-#| msgid "Forwarded"
-msgctxt "@action:inmenu Status of a message"
-msgid "Forwarded"
-msgstr "Dopósłane"
+msgid "Attachment Icon"
+msgstr "Přiwěšk: "
 
-#: core/widgetbase.cpp:249
+#: core/theme.cpp:105
+msgid "Replied/Forwarded Icon"
+msgstr ""
+
+#: core/theme.cpp:108
+msgid "Combined New/Unread/Read/Replied/Forwarded Icon"
+msgstr ""
+
+#: core/theme.cpp:111
+#, fuzzy
+msgid "Action Item Icon"
+msgstr "Wažna powěsć"
+
+#: core/theme.cpp:114
 #, fuzzy
 #| msgctxt "msg status"
 #| msgid "Important"
-msgctxt "@action:inmenu Status of a message"
-msgid "Important"
+msgid "Important Icon"
 msgstr "Wažne"
 
-#: core/widgetbase.cpp:253
+#: core/theme.cpp:117
 #, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Action Item"
+msgid "Group Header Label"
+msgstr "Groupware"
+
+#: core/theme.cpp:120
+#, fuzzy
+msgid "Spam/Ham Icon"
+msgstr "Čitane"
+
+#: core/theme.cpp:123
+#, fuzzy
+msgid "Watched/Ignored Icon"
+msgstr "&Ignorować"
+
+#: core/theme.cpp:126
+msgid "Group Header Expand/Collapse Icon"
+msgstr ""
+
+#: core/theme.cpp:129
+#, fuzzy
+msgid "Encryption State Icon"
+msgstr "Šifrowanje"
+
+#: core/theme.cpp:132
+#, fuzzy
+msgid "Signature State Icon"
+msgstr "Signatura"
+
+#: core/theme.cpp:135
+msgid "Vertical Separation Line"
+msgstr ""
+
+#: core/theme.cpp:138
+#, fuzzy
+#| msgid "internal part"
+msgid "Horizontal Spacer"
+msgstr "nutřkowny dźěl"
+
+#: core/theme.cpp:141
+#, fuzzy
+#| msgid "Date"
+msgid "Max Date"
+msgstr "Datum"
+
+#: core/theme.cpp:144
+#, fuzzy
+#| msgid "&Message"
+msgid "Message Tags"
+msgstr "Po&wěsć"
+
+#: core/theme.cpp:147
+#, fuzzy
+msgid "Note Icon"
 msgstr "Wažna powěsć"
 
-#: core/widgetbase.cpp:257
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Watched"
-msgstr "Čitane"
-
-#: core/widgetbase.cpp:261
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Ignored"
-msgstr "Nječitane"
-
-#: core/widgetbase.cpp:265
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Attachment"
-msgstr "Přiwěšk: "
-
-#: core/widgetbase.cpp:269
+#: core/theme.cpp:149
 #, fuzzy
 #| msgid "Advanced Options"
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Invitation"
+msgid "Invitation Icon"
 msgstr "Opcije za pokročenych"
 
-#: core/widgetbase.cpp:273
+#: core/theme.cpp:151
 #, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Spam"
-msgstr "Čitane"
+msgctxt "Description for an Unknown Type"
+msgid "Unknown"
+msgstr "&Dopósłać"
 
-#: core/widgetbase.cpp:277
+#: core/theme.cpp:617
 #, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Ham"
-msgstr "Čitane"
+#| msgctxt "msg status"
+#| msgid "Unread"
+msgid "Unread"
+msgstr "Nječitane"
 
-#: core/widgetbase.cpp:442 core/view.cpp:1584
-msgid "Theme"
+#: core/theme.cpp:770
+#, fuzzy
+#| msgid "Receiver"
+msgid "Never Show"
+msgstr "Adresat"
+
+#: core/theme.cpp:771
+#, fuzzy
+#| msgid "Al&ways send"
+msgid "Always Show"
+msgstr "Pře&co pósłać"
+
+#: core/theme.cpp:778
+msgid "Plain Rectangles"
 msgstr ""
 
-#: core/widgetbase.cpp:466 core/widgetbase.cpp:554
-#: utils/themeconfigbutton.cpp:46 utils/aggregationconfigbutton.cpp:45
-#, fuzzy
-msgid "Configure..."
-msgstr "KMail &konfigurować..."
-
-#: core/widgetbase.cpp:529 core/view.cpp:1578
-msgid "Aggregation"
+#: core/theme.cpp:779
+msgid "Plain Joined Rectangle"
 msgstr ""
 
-#: core/widgetbase.cpp:610
-#, fuzzy
-#| msgid "Message Body"
-msgid "Message Sort Order"
-msgstr "Hłowny dźěl powěsće"
+#: core/theme.cpp:780
+msgid "Rounded Rectangles"
+msgstr ""
 
-#: core/widgetbase.cpp:637
-#, fuzzy
-msgid "Message Sort Direction"
-msgstr "Lisćina powěsćow"
+#: core/theme.cpp:781
+msgid "Rounded Joined Rectangle"
+msgstr ""
 
-#: core/widgetbase.cpp:658
-#, fuzzy
-#| msgid "Delete Folder"
-msgid "Group Sort Order"
-msgstr "Zapisk zničić"
+#: core/theme.cpp:782
+msgid "Gradient Rectangles"
+msgstr ""
 
-#: core/widgetbase.cpp:681
-#, fuzzy
-msgid "Group Sort Direction"
-msgstr "Lisćina powěsćow"
+#: core/theme.cpp:783
+msgid "Gradient Joined Rectangle"
+msgstr ""
 
-#: core/widgetbase.cpp:699
-msgid "Folder Always Uses This Sort Order"
+#: core/theme.cpp:784
+msgid "Styled Rectangles"
+msgstr ""
+
+#: core/theme.cpp:785
+msgid "Styled Joined Rectangles"
 msgstr ""
 
 #: core/view.cpp:725
@@ -786,6 +858,14 @@ msgstr "&Na"
 #| msgid "Nothin&g"
 msgid "Sorting"
 msgstr "N&ičo"
+
+#: core/view.cpp:1578 core/widgetbase.cpp:529
+msgid "Aggregation"
+msgstr ""
+
+#: core/view.cpp:1584 core/widgetbase.cpp:442
+msgid "Theme"
+msgstr ""
 
 #: core/view.cpp:2358 core/view.cpp:2362
 #, fuzzy
@@ -966,207 +1046,127 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: core/sortorder.cpp:41 core/sortorder.cpp:85
+#: core/widgetbase.cpp:139
 #, fuzzy
-msgid "None (Storage Order)"
-msgstr "Wužiwaj &kodowanje"
+msgctxt "Search for messages."
+msgid "Search"
+msgstr "&Pytaj"
 
-#: core/sortorder.cpp:42
-msgid "By Date/Time"
-msgstr ""
-
-#: core/sortorder.cpp:44
-msgid "By Date/Time of Most Recent in Subtree"
-msgstr ""
-
-#: core/sortorder.cpp:48
+#: core/widgetbase.cpp:160
 #, fuzzy
-#| msgid "Subject"
-msgid "By Subject"
-msgstr "Tema"
+msgid "Open Full Search"
+msgstr "<adresaća>"
 
-#: core/sortorder.cpp:49
-#, fuzzy
-#| msgid "Size"
-msgid "By Size"
-msgstr "Wulkosć"
+#: core/widgetbase.cpp:234
+msgid "Any Status"
+msgstr "Kóždy staw"
 
-#: core/sortorder.cpp:50
-#, fuzzy
-msgid "By Action Item Status"
-msgstr "Wažna powěsć"
-
-#: core/sortorder.cpp:51
+#: core/widgetbase.cpp:237
 #, fuzzy
 #| msgctxt "msg status"
 #| msgid "Unread"
-msgid "By Unread Status"
+msgctxt "@action:inmenu Status of a message"
+msgid "Unread"
 msgstr "Nječitane"
 
-#: core/sortorder.cpp:66 core/sortorder.cpp:108
+#: core/widgetbase.cpp:241
 #, fuzzy
-msgid "Least Recent on Top"
-msgstr "<adresaća>"
+#| msgctxt "msg status"
+#| msgid "Replied"
+msgctxt "@action:inmenu Status of a message"
+msgid "Replied"
+msgstr "Wotmołwjene"
 
-#: core/sortorder.cpp:67 core/sortorder.cpp:109
+#: core/widgetbase.cpp:245
 #, fuzzy
-msgid "Most Recent on Top"
-msgstr "Powěsće zničić"
+#| msgctxt "msg status"
+#| msgid "Forwarded"
+msgctxt "@action:inmenu Status of a message"
+msgid "Forwarded"
+msgstr "Dopósłane"
 
-#: core/sortorder.cpp:71
+#: core/widgetbase.cpp:249
 #, fuzzy
-#| msgid "&Sending"
-msgctxt "Sort order for messages"
-msgid "Ascending"
-msgstr "&Pósłanje"
+#| msgctxt "msg status"
+#| msgid "Important"
+msgctxt "@action:inmenu Status of a message"
+msgid "Important"
+msgstr "Wažne"
 
-#: core/sortorder.cpp:72
+#: core/widgetbase.cpp:253
 #, fuzzy
-#| msgid "&Sending"
-msgctxt "Sort order for messages"
-msgid "Descending"
-msgstr "&Pósłanje"
+msgctxt "@action:inmenu Status of a message"
+msgid "Action Item"
+msgstr "Wažna powěsć"
 
-#: core/sortorder.cpp:83
-msgid "by Date/Time"
+#: core/widgetbase.cpp:257
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Watched"
+msgstr "Čitane"
+
+#: core/widgetbase.cpp:261
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Ignored"
+msgstr "Nječitane"
+
+#: core/widgetbase.cpp:265
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Attachment"
+msgstr "Přiwěšk: "
+
+#: core/widgetbase.cpp:269
+#, fuzzy
+#| msgid "Advanced Options"
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Invitation"
+msgstr "Opcije za pokročenych"
+
+#: core/widgetbase.cpp:273
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Spam"
+msgstr "Čitane"
+
+#: core/widgetbase.cpp:277
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Ham"
+msgstr "Čitane"
+
+#: core/widgetbase.cpp:466 core/widgetbase.cpp:554
+#: utils/aggregationconfigbutton.cpp:45 utils/themeconfigbutton.cpp:46
+#, fuzzy
+msgid "Configure..."
+msgstr "KMail &konfigurować..."
+
+#: core/widgetbase.cpp:610
+#, fuzzy
+#| msgid "Message Body"
+msgid "Message Sort Order"
+msgstr "Hłowny dźěl powěsće"
+
+#: core/widgetbase.cpp:637
+#, fuzzy
+msgid "Message Sort Direction"
+msgstr "Lisćina powěsćow"
+
+#: core/widgetbase.cpp:658
+#, fuzzy
+#| msgid "Delete Folder"
+msgid "Group Sort Order"
+msgstr "Zapisk zničić"
+
+#: core/widgetbase.cpp:681
+#, fuzzy
+msgid "Group Sort Direction"
+msgstr "Lisćina powěsćow"
+
+#: core/widgetbase.cpp:699
+msgid "Folder Always Uses This Sort Order"
 msgstr ""
-
-#: core/sortorder.cpp:86
-#, fuzzy
-msgid "by Date/Time of Most Recent Message in Group"
-msgstr "Powěsće zničić"
-
-#: core/sortorder.cpp:90
-#, fuzzy
-#| msgid "Sender/Receiver"
-msgid "by Sender/Receiver"
-msgstr "Wotpósłar/Adresat"
-
-#: core/sortorder.cpp:92
-#, fuzzy
-#| msgid "Sender"
-msgid "by Sender"
-msgstr "Wotpósłar"
-
-#: core/sortorder.cpp:94
-#, fuzzy
-#| msgid "Receiver"
-msgid "by Receiver"
-msgstr "Adresat"
-
-#: core/sortorder.cpp:112
-#, fuzzy
-#| msgid "&Sending"
-msgctxt "Sort order for mail groups"
-msgid "Ascending"
-msgstr "&Pósłanje"
-
-#: core/sortorder.cpp:113
-#, fuzzy
-#| msgid "&Sending"
-msgctxt "Sort order for mail groups"
-msgid "Descending"
-msgstr "&Pósłanje"
-
-#: core/model.cpp:290
-#, fuzzy
-msgid "Today"
-msgstr "Na: "
-
-#: core/model.cpp:291
-#, fuzzy
-msgid "Yesterday"
-msgstr "Wašnja zdźělenja"
-
-#: core/model.cpp:294
-#, fuzzy
-msgid "Last Week"
-msgstr "&Pytaj"
-
-#: core/model.cpp:295
-msgid "Two Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:296
-msgid "Three Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:297
-msgid "Four Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:298
-msgid "Five Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:524 utils/themeeditor.cpp:204
-#, fuzzy
-#| msgid "Receiver"
-msgid "Receiver"
-msgstr "Adresat"
-
-#: core/model.cpp:525 utils/themeeditor.cpp:203
-msgid "Sender"
-msgstr "Wotpósłar"
-
-#: core/model.cpp:1353
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "%1: name; %2: number appended to it to make it unique among a list of "
-#| "names"
-#| msgid "%1 %2"
-msgctxt "Message Aggregation Group Header: Month name and Year number"
-msgid "%1 %2"
-msgstr "%1 %2"
-
-#: core/model.cpp:3796
-#, fuzzy, kde-format
-#| msgid "&Thread Messages"
-msgid "Processed 1 Message of %2"
-msgid_plural "Processed %1 Messages of %2"
-msgstr[0] "Powěsće &skupinkować"
-msgstr[1] "Powěsće &skupinkować"
-msgstr[2] "Powěsće &skupinkować"
-msgstr[3] "Powěsće &skupinkować"
-
-#: core/model.cpp:3802 core/model.cpp:3808
-#, fuzzy, kde-format
-#| msgid "&Thread Messages"
-msgid "Threaded 1 Message of %2"
-msgid_plural "Threaded %1 Messages of %2"
-msgstr[0] "Powěsće &skupinkować"
-msgstr[1] "Powěsće &skupinkować"
-msgstr[2] "Powěsće &skupinkować"
-msgstr[3] "Powěsće &skupinkować"
-
-#: core/model.cpp:3814
-#, fuzzy, kde-format
-#| msgctxt "View->"
-#| msgid "&Expand Thread"
-msgid "Grouped 1 Thread of %2"
-msgid_plural "Grouped %1 Threads of %2"
-msgstr[0] "&Skupinu rozćahnyć"
-msgstr[1] "&Skupinu rozćahnyć"
-msgstr[2] "&Skupinu rozćahnyć"
-msgstr[3] "&Skupinu rozćahnyć"
-
-#: core/model.cpp:3820
-#, fuzzy, kde-format
-#| msgctxt "View->"
-#| msgid "&Expand Thread"
-msgid "Updated 1 Group of %2"
-msgid_plural "Updated %1 Groups of %2"
-msgstr[0] "&Skupinu rozćahnyć"
-msgstr[1] "&Skupinu rozćahnyć"
-msgstr[2] "&Skupinu rozćahnyć"
-msgstr[3] "&Skupinu rozćahnyć"
-
-#: core/model.cpp:3917
-#, fuzzy
-#| msgid "Ready."
-msgctxt "@info:status Finished view fill"
-msgid "Ready"
-msgstr "Hotowo."
 
 #: utils/aggregationeditor.cpp:47
 #, fuzzy
@@ -1611,6 +1611,20 @@ msgctxt "@action:inmenu"
 msgid "Close All Other Tabs"
 msgstr "Wšitke skupiny ze&sćahać"
 
+#: storagemodel.cpp:248
+#, fuzzy
+#| msgid "No Subject"
+msgctxt "displayed as subject when the subject of a mail is empty"
+msgid "No Subject"
+msgstr "Žana tema"
+
+#: storagemodel.cpp:249
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "displayed when a mail has unknown sender, receiver or date"
+msgid "Unknown"
+msgstr "Njeznaju"
+
 #: widget.cpp:98
 msgid "Show Quick Search Bar"
 msgstr ""
@@ -1657,20 +1671,6 @@ msgstr "&Kopěruj do"
 #, fuzzy
 msgid "C&ancel"
 msgstr "Přetorhnyć"
-
-#: storagemodel.cpp:248
-#, fuzzy
-#| msgid "No Subject"
-msgctxt "displayed as subject when the subject of a mail is empty"
-msgid "No Subject"
-msgstr "Žana tema"
-
-#: storagemodel.cpp:249
-#, fuzzy
-#| msgid "Unknown"
-msgctxt "displayed when a mail has unknown sender, receiver or date"
-msgid "Unknown"
-msgstr "Njeznaju"
 
 #. i18n: file: core/settings.kcfg:10
 #. i18n: ectx: label, entry (MessageToolTipEnabled), group (MessageListView)
