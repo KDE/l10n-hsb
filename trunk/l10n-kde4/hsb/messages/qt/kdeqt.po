@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeqt\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2012-02-15 04:29+0100\n"
+"POT-Creation-Date: 2012-02-17 04:18+0100\n"
 "PO-Revision-Date: 2008-11-11 22:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -6788,33 +6788,10 @@ msgctxt "QNetworkAccessFileBackend"
 msgid "Read error reading from %1: %2"
 msgstr "Zmylk při čitanju z PTY"
 
-#: network/access/qnetworkaccessftpbackend.cpp:131
 #: network/access/qnetworkaccesshttpbackend.cpp:429
+#: network/access/qnetworkaccessftpbackend.cpp:131
 msgid "No suitable proxy found"
 msgstr ""
-
-#: network/access/qnetworkaccessftpbackend.cpp:145
-#, fuzzy, qt-format
-#| msgid "Cannot open %1 for reading"
-msgid "Cannot open %1: is a directory"
-msgstr "Njemóžu dataju %1 čitać"
-
-#: network/access/qnetworkaccessftpbackend.cpp:244
-#, qt-format
-msgid "Logging in to %1 failed: authentication required"
-msgstr ""
-
-#: network/access/qnetworkaccessftpbackend.cpp:283
-#, fuzzy, qt-format
-#| msgid "Error while loading %1"
-msgid "Error while downloading %1: %2"
-msgstr "Zmylk při začitanju %1"
-
-#: network/access/qnetworkaccessftpbackend.cpp:285
-#, fuzzy, qt-format
-#| msgid "Error while loading %1"
-msgid "Error while uploading %1: %2"
-msgstr "Zmylk při začitanju %1"
 
 #: network/access/qnetworkreplydataimpl.cpp:95
 #, fuzzy, qt-format
@@ -6856,6 +6833,29 @@ msgstr "Opcionalnje"
 msgctxt "QNetworkAccessManager"
 msgid "Network access is disabled."
 msgstr ""
+
+#: network/access/qnetworkaccessftpbackend.cpp:145
+#, fuzzy, qt-format
+#| msgid "Cannot open %1 for reading"
+msgid "Cannot open %1: is a directory"
+msgstr "Njemóžu dataju %1 čitać"
+
+#: network/access/qnetworkaccessftpbackend.cpp:240
+#, qt-format
+msgid "Logging in to %1 failed: authentication required"
+msgstr ""
+
+#: network/access/qnetworkaccessftpbackend.cpp:279
+#, fuzzy, qt-format
+#| msgid "Error while loading %1"
+msgid "Error while downloading %1: %2"
+msgstr "Zmylk při začitanju %1"
+
+#: network/access/qnetworkaccessftpbackend.cpp:281
+#, fuzzy, qt-format
+#| msgid "Error while loading %1"
+msgid "Error while uploading %1: %2"
+msgstr "Zmylk při začitanju %1"
 
 #: network/bearer/qnetworksession.cpp:456
 #, fuzzy
