@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-18 04:41+0100\n"
+"POT-Creation-Date: 2012-02-19 03:41+0100\n"
 "PO-Revision-Date: 2003-12-23 17:19+0100\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -676,25 +676,27 @@ msgstr "&Profilowu dataju zawěsćić..."
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:432
-msgid "You have multiple tabs in this window, are you sure you want to quit?"
+#: MainWindow.cpp:434
+#, kde-format
+msgctxt "@info"
+msgid "There are %1 tabs open in this window. Do you still want to quit?"
 msgstr ""
 
-#: MainWindow.cpp:434 SessionController.cpp:643 SessionController.cpp:668
+#: MainWindow.cpp:436 SessionController.cpp:643 SessionController.cpp:668
 msgid "Confirm Close"
 msgstr ""
 
-#: MainWindow.cpp:436
+#: MainWindow.cpp:438
 #, fuzzy
 msgid "Close Current Tab"
 msgstr "Interpreter &zakónčić"
 
-#: MainWindow.cpp:533
+#: MainWindow.cpp:535
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr ""
 
-#: MainWindow.cpp:538
+#: MainWindow.cpp:540
 msgctxt "@title Preferences page name"
 msgid "TabBar"
 msgstr ""
@@ -731,7 +733,7 @@ msgctxt "@item This will be used as part of the file name"
 msgid "New Profile"
 msgstr "&Profilowu dataju zawěsćić..."
 
-#: Profile.cpp:143
+#: Profile.cpp:144
 #, fuzzy
 #| msgid "&Bell"
 msgid "Shell"
@@ -2152,21 +2154,21 @@ msgid ""
 "\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
 msgstr ""
 
-#: ViewContainer.cpp:451
+#: ViewContainer.cpp:450
 #, fuzzy
 #| msgid "&Detach Session"
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr "&Interpreter w pozadku dale běžeć dać"
 
-#: ViewContainer.cpp:455
+#: ViewContainer.cpp:454
 #, fuzzy
 #| msgid "&Terminate Task"
 msgctxt "@action:inmenu"
 msgid "&Rename Tab..."
 msgstr "Proces za&kónčić"
 
-#: ViewContainer.cpp:459
+#: ViewContainer.cpp:458
 #, fuzzy
 msgctxt "@action:inmenu"
 msgid "&Close Tab"
