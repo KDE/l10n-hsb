@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-21 05:33+0100\n"
+"POT-Creation-Date: 2012-02-23 04:49+0100\n"
 "PO-Revision-Date: 2008-12-19 22:49+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -5868,10 +5868,6 @@ msgstr "&Zastup do KDE-skupiny"
 msgid "&Support KDE"
 msgstr "KDE &podpěrać"
 
-#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:208
-msgid "Configure"
-msgstr "Konfiguracija"
-
 #: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:60
 #, fuzzy
 #| msgid "Other Contributors:"
@@ -6228,6 +6224,10 @@ msgstr "&Pokaž pokiwy při startowanju"
 msgctxt "Opposite to Previous"
 msgid "&Next"
 msgstr "Přichod&ne"
+
+#: kdeui/dialogs/kconfigdialog.cpp:43 kutils/kcmultidialog.cpp:208
+msgid "Configure"
+msgstr "Konfiguracija"
 
 #: kdeui/dialogs/kshortcutseditoritem.cpp:45
 #, kde-format
@@ -9981,111 +9981,6 @@ msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "Standard"
 
-#: kdeui/widgets/ktoolbar.cpp:291
-#, fuzzy
-#| msgid "Show help"
-msgctxt "@title:menu"
-msgid "Show Text"
-msgstr "Pokaž pomoc"
-
-#: kdeui/widgets/ktoolbar.cpp:294
-#, fuzzy
-#| msgid "Toolbar Menu"
-msgctxt "@title:menu"
-msgid "Toolbar Settings"
-msgstr "Nastrojowy meni"
-
-#: kdeui/widgets/ktoolbar.cpp:296
-msgid "Orientation"
-msgstr "Orientacija"
-
-#: kdeui/widgets/ktoolbar.cpp:298
-msgctxt "toolbar position string"
-msgid "Top"
-msgstr "Horjeka"
-
-#: kdeui/widgets/ktoolbar.cpp:300
-msgctxt "toolbar position string"
-msgid "Left"
-msgstr "Nalěwo"
-
-#: kdeui/widgets/ktoolbar.cpp:301
-msgctxt "toolbar position string"
-msgid "Right"
-msgstr "Naprawo"
-
-#: kdeui/widgets/ktoolbar.cpp:302
-msgctxt "toolbar position string"
-msgid "Bottom"
-msgstr "Deleka"
-
-#: kdeui/widgets/ktoolbar.cpp:310
-msgid "Text Position"
-msgstr "Pozicija teksta"
-
-#: kdeui/widgets/ktoolbar.cpp:312
-msgid "Icons Only"
-msgstr "Jenož piktogramy"
-
-#: kdeui/widgets/ktoolbar.cpp:313
-msgid "Text Only"
-msgstr "Jenož tekst"
-
-#: kdeui/widgets/ktoolbar.cpp:314
-msgid "Text Alongside Icons"
-msgstr "Tekst pódla piktogramow"
-
-#: kdeui/widgets/ktoolbar.cpp:315
-msgid "Text Under Icons"
-msgstr "Tekst pod piktogramami"
-
-#: kdeui/widgets/ktoolbar.cpp:323
-msgid "Icon Size"
-msgstr "Wulkosć piktogramow"
-
-#: kdeui/widgets/ktoolbar.cpp:325
-msgctxt "@item:inmenu Icon size"
-msgid "Default"
-msgstr "Standard"
-
-#: kdeui/widgets/ktoolbar.cpp:342 kdeui/widgets/ktoolbar.cpp:362
-#, kde-format
-msgid "Small (%1x%2)"
-msgstr "Małe (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:344 kdeui/widgets/ktoolbar.cpp:364
-#, kde-format
-msgid "Medium (%1x%2)"
-msgstr "Srěnje (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:346 kdeui/widgets/ktoolbar.cpp:366
-#, kde-format
-msgid "Large (%1x%2)"
-msgstr "Wulke (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:348 kdeui/widgets/ktoolbar.cpp:368
-#, kde-format
-msgid "Huge (%1x%2)"
-msgstr "Hoberske (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:388
-#, fuzzy
-#| msgid "Lock Toolbars"
-msgid "Lock Toolbar Positions"
-msgstr "Nastrojowe pasy wotamknyć"
-
-#: kdeui/widgets/ktoolbar.cpp:1291
-#, kde-format
-msgctxt "@action:intoolbar Text label of toolbar button"
-msgid "%1"
-msgstr "%1"
-
-#: kdeui/widgets/ktoolbar.cpp:1292
-#, kde-format
-msgctxt "@info:tooltip Tooltip of toolbar button"
-msgid "%1"
-msgstr "%1"
-
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
 msgstr "Wobrazowe operacije"
@@ -10287,6 +10182,111 @@ msgstr "Superskript"
 msgid "&Copy Full Text"
 msgstr "cyły tekst &kopěrować"
 
+#: kdeui/widgets/ktoolbar.cpp:292
+#, fuzzy
+#| msgid "Show help"
+msgctxt "@title:menu"
+msgid "Show Text"
+msgstr "Pokaž pomoc"
+
+#: kdeui/widgets/ktoolbar.cpp:295
+#, fuzzy
+#| msgid "Toolbar Menu"
+msgctxt "@title:menu"
+msgid "Toolbar Settings"
+msgstr "Nastrojowy meni"
+
+#: kdeui/widgets/ktoolbar.cpp:297
+msgid "Orientation"
+msgstr "Orientacija"
+
+#: kdeui/widgets/ktoolbar.cpp:299
+msgctxt "toolbar position string"
+msgid "Top"
+msgstr "Horjeka"
+
+#: kdeui/widgets/ktoolbar.cpp:301
+msgctxt "toolbar position string"
+msgid "Left"
+msgstr "Nalěwo"
+
+#: kdeui/widgets/ktoolbar.cpp:302
+msgctxt "toolbar position string"
+msgid "Right"
+msgstr "Naprawo"
+
+#: kdeui/widgets/ktoolbar.cpp:303
+msgctxt "toolbar position string"
+msgid "Bottom"
+msgstr "Deleka"
+
+#: kdeui/widgets/ktoolbar.cpp:311
+msgid "Text Position"
+msgstr "Pozicija teksta"
+
+#: kdeui/widgets/ktoolbar.cpp:313
+msgid "Icons Only"
+msgstr "Jenož piktogramy"
+
+#: kdeui/widgets/ktoolbar.cpp:314
+msgid "Text Only"
+msgstr "Jenož tekst"
+
+#: kdeui/widgets/ktoolbar.cpp:315
+msgid "Text Alongside Icons"
+msgstr "Tekst pódla piktogramow"
+
+#: kdeui/widgets/ktoolbar.cpp:316
+msgid "Text Under Icons"
+msgstr "Tekst pod piktogramami"
+
+#: kdeui/widgets/ktoolbar.cpp:324
+msgid "Icon Size"
+msgstr "Wulkosć piktogramow"
+
+#: kdeui/widgets/ktoolbar.cpp:326
+msgctxt "@item:inmenu Icon size"
+msgid "Default"
+msgstr "Standard"
+
+#: kdeui/widgets/ktoolbar.cpp:343 kdeui/widgets/ktoolbar.cpp:363
+#, kde-format
+msgid "Small (%1x%2)"
+msgstr "Małe (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:345 kdeui/widgets/ktoolbar.cpp:365
+#, kde-format
+msgid "Medium (%1x%2)"
+msgstr "Srěnje (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:347 kdeui/widgets/ktoolbar.cpp:367
+#, kde-format
+msgid "Large (%1x%2)"
+msgstr "Wulke (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:349 kdeui/widgets/ktoolbar.cpp:369
+#, kde-format
+msgid "Huge (%1x%2)"
+msgstr "Hoberske (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:389
+#, fuzzy
+#| msgid "Lock Toolbars"
+msgid "Lock Toolbar Positions"
+msgstr "Nastrojowe pasy wotamknyć"
+
+#: kdeui/widgets/ktoolbar.cpp:1319
+#, kde-format
+msgctxt "@action:intoolbar Text label of toolbar button"
+msgid "%1"
+msgstr "%1"
+
+#: kdeui/widgets/ktoolbar.cpp:1320
+#, kde-format
+msgctxt "@info:tooltip Tooltip of toolbar button"
+msgid "%1"
+msgstr "%1"
+
 #: kdeui/widgets/ktimezonewidget.cpp:66
 msgctxt "Define an area in the time zone, like a town area"
 msgid "Area"
@@ -10433,10 +10433,6 @@ msgstr ""
 msgid "Desktop %1"
 msgstr "Dźěłowy powjerch %1"
 
-#: kdeui/xmlgui/kxmlguibuilder.cpp:182 kdeui/xmlgui/kxmlguibuilder.cpp:349
-msgid "No text"
-msgstr "Žadyn tekst"
-
 #: kdeui/xmlgui/kmenumenuhandler_p.cpp:48
 msgid "Add to Toolbar"
 msgstr "K nastrojowemu paskej dodać"
@@ -10450,6 +10446,10 @@ msgstr "Konfiguracija skrótšenki..."
 #| msgid "Toolbars"
 msgid "Toolbars Shown"
 msgstr "Nastrojowe pasy"
+
+#: kdeui/xmlgui/kxmlguibuilder.cpp:182 kdeui/xmlgui/kxmlguibuilder.cpp:349
+msgid "No text"
+msgstr "Žadyn tekst"
 
 #: kdewidgets/makekdewidgets.cpp:84
 msgid "Builds Qt widget plugins from an ini style description file."
