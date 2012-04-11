@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-03 04:27+0100\n"
+"POT-Creation-Date: 2012-04-11 04:15+0200\n"
 "PO-Revision-Date: 2008-11-18 23:30+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -20,10 +20,1012 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
+#: src/konqprofiledlg.cpp:111
+#, fuzzy
+#| msgid "Profile Management"
+msgctxt "@title:window"
+msgid "Profile Management"
+msgstr "Rjadowanje profilow"
+
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "&Profil přemjenować"
+
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "Profil wumaznyć"
+
 #: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5059
 #: src/konqmainwindow.cpp:5119
 msgid "no name"
 msgstr "bjez mjena"
+
+#: src/konqguiclients.cpp:66
+#, kde-format
+msgid "Preview &in %1"
+msgstr "Pokazować &z %1"
+
+#: src/konqguiclients.cpp:135
+#, kde-format
+msgid "Show %1"
+msgstr "Pokaž %1"
+
+#: src/konqhistorymodel.cpp:137
+#, kde-format
+msgid ""
+"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: "
+"%3<br />Number of times visited: %4</qt>"
+msgstr ""
+"<qt><center><b>%1</b></center><hr />Posledni raz wopytane: %2<br />Prěni raz "
+"wopytane: %3<br />Kak husto wopytane: %4</qt>"
+
+#: src/konqhistorymodel.cpp:233
+msgid "Local"
+msgstr ""
+
+#: src/konqhistorymodel.cpp:236
+msgid "Miscellaneous"
+msgstr "Wšelčizny"
+
+#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4577
+#: sidebar/web_module/web_module.cpp:61
+msgid "Open in New &Window"
+msgstr "Wočinić w &nowym woknje"
+
+#: src/konqhistoryview.cpp:67
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:95
+#: sidebar/trees/konq_sidebartree.cpp:232
+msgid "Open in New Tab"
+msgstr "Wočinić w nowym tabulatoru"
+
+#: src/konqhistoryview.cpp:71
+#, fuzzy
+#| msgid "Copy Link Address"
+msgid "&Copy Link Address"
+msgstr "Adresu wotkaza kopěrować"
+
+#: src/konqhistoryview.cpp:76
+msgid "&Remove Entry"
+msgstr "Zapis &wumaznyć"
+
+#: src/konqhistoryview.cpp:83
+msgid "C&lear History"
+msgstr ""
+
+#: src/konqhistoryview.cpp:88
+msgid "&Preferences..."
+msgstr "&Nastajenja..."
+
+#: src/konqhistoryview.cpp:95
+msgid "By &Name"
+msgstr "po &mjenje"
+
+#: src/konqhistoryview.cpp:101
+msgid "By &Date"
+msgstr "po &datumje"
+
+#: src/konqhistoryview.cpp:111
+#, fuzzy
+#| msgid "Clear History"
+msgid "Search in history"
+msgstr "Nachwilny pomjatk wuprózdnić"
+
+#: src/konqhistoryview.cpp:143 src/konqhistorydialog.cpp:61
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr "Sortěrować"
+
+#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
+msgid "Do you really want to clear the entire history?"
+msgstr ""
+
+#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
+#, fuzzy
+#| msgid "Clear History"
+msgctxt "@title:window"
+msgid "Clear History?"
+msgstr "Nachwilny pomjatk wuprózdnić"
+
+#: src/konqmain.cpp:96
+#, fuzzy
+#| msgid "Start without a default window"
+msgid "Start without a default window, when called without URLs"
+msgstr "Startuj bjez standardneho wokna"
+
+#: src/konqmain.cpp:98
+msgid ""
+"Preload for later use. This mode does not support URLs on the command line"
+msgstr ""
+
+#: src/konqmain.cpp:100
+msgid "Profile to open"
+msgstr "Profil, kiž ma so wočinić"
+
+#: src/konqmain.cpp:102
+msgid "List available profiles"
+msgstr "Móžne profile naličić"
+
+#: src/konqmain.cpp:104
+msgid "List available sessions"
+msgstr "Móžne posedźenja naličić"
+
+#: src/konqmain.cpp:106
+msgid "Session to open"
+msgstr "Posedźenje, kiž ma so wočinić"
+
+#: src/konqmain.cpp:108
+msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
+msgstr "MIME-družina za tutón URL. (na př. text/html abo inode/zapisk)."
+
+#: src/konqmain.cpp:109
+msgid "Part to use (e.g. khtml or kwebkitpart)"
+msgstr ""
+
+#: src/konqmain.cpp:111
+msgid ""
+"For URLs that point to files, opens the directory and selects the file, "
+"instead of opening the actual file"
+msgstr ""
+"Hdyž URL k dataji pokazuje, wočini zapisk a wubjerje dataju, njewočini ju pak"
+
+#: src/konqmain.cpp:113
+msgid "Location to open"
+msgstr "Městno, kiž ma so wočinić"
+
+#: src/konqmainwindow.cpp:577
+msgctxt "@title:tab"
+msgid "Loading..."
+msgstr "Začitam..."
+
+#: src/konqmainwindow.cpp:1601
+msgid "Canceled."
+msgstr "Přetorhnjene."
+
+#: src/konqmainwindow.cpp:1633
+msgid ""
+"This page contains changes that have not been submitted.\n"
+"Reloading the page will discard these changes."
+msgstr ""
+"Tuta strona wobsahuje njepósłane změny.\n"
+"Hdyž tutu stronu znowa začitaće, so tute změny zhubja."
+
+#: src/konqmainwindow.cpp:1634 src/konqmainwindow.cpp:2361
+#: src/konqmainwindow.cpp:2441 src/konqmainwindow.cpp:2471
+#: src/konqmainwindow.cpp:2513 src/konqmainwindow.cpp:2535
+#: src/konqmainwindow.cpp:5021 src/konqviewmanager.cpp:1423
+#, fuzzy
+#| msgid "Discard Changes?"
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr "Změny zaćisnyć?"
+
+#: src/konqmainwindow.cpp:1634 src/konqmainwindow.cpp:2361
+#: src/konqmainwindow.cpp:2441 src/konqmainwindow.cpp:2471
+#: src/konqmainwindow.cpp:2513 src/konqmainwindow.cpp:2536
+#: src/konqmainwindow.cpp:5021 src/konqviewmanager.cpp:1423
+msgid "&Discard Changes"
+msgstr "&Změny zaćisnyć"
+
+#: src/konqmainwindow.cpp:1744
+msgid "File Management"
+msgstr "Rjadowanje datajow"
+
+#: src/konqmainwindow.cpp:1760 about/konq_aboutpage.cc:205
+msgid "Web Browsing"
+msgstr "Web Browsing"
+
+#: src/konqmainwindow.cpp:2020 src/konqmainwindow.cpp:2026
+#: about/konq_aboutpage.cc:91
+msgid "Home Folder"
+msgstr "Domjacy zapisk"
+
+#: src/konqmainwindow.cpp:2021 src/konqmainwindow.cpp:3529
+#, fuzzy
+#| msgid "Home Page"
+msgid "Home"
+msgstr "Domjaca strona"
+
+#: src/konqmainwindow.cpp:2027
+msgid "Navigate to your 'Home Folder'"
+msgstr "Do wašeho domjaceho zapiska hić"
+
+#: src/konqmainwindow.cpp:2028
+msgid "Navigate to your local 'Home Folder'"
+msgstr "Do wašeho lokalneho domjaceho zapiska hić"
+
+#. i18n: file: src/konqueror.kcfg:11
+#. i18n: ectx: label, entry, group (UserSettings)
+#: src/konqmainwindow.cpp:2031 rc.cpp:101
+msgid "Home Page"
+msgstr "Domjaca strona"
+
+#: src/konqmainwindow.cpp:2033
+msgid "Navigate to your 'Home Page'"
+msgstr "Na wašu domjacu stronu hić"
+
+#: src/konqmainwindow.cpp:2034
+msgid ""
+"<html>Navigate to your 'Home Page'<br /><br />You can configure the location "
+"where this button takes you under <b>Settings -> Configure Konqueror -> "
+"General</b>.</html>"
+msgstr ""
+"<html>Dźe na wašu domjacu stronu<br /><br />Tutu městnosć móžeće "
+"konfigurować pod <b>Nastajenje -> Konqueror konfigurować-> Powšitkownje</b>."
+"</html>"
+
+#: src/konqmainwindow.cpp:2360
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Detaching the tab will discard these changes."
+msgstr ""
+"Tutón tabulator wobsahuje njepósłane změny.\n"
+"Hdyž jón wotlěpiće, zaćisnjeće tute změny."
+
+#: src/konqmainwindow.cpp:2440
+msgid ""
+"This view contains changes that have not been submitted.\n"
+"Closing the view will discard these changes."
+msgstr ""
+"Tutón napohlad wobsahuje njepósłane změny.\n"
+"Hdyž jón začiniće, zaćisnjeće tute změny."
+
+#: src/konqmainwindow.cpp:2470
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Closing the tab will discard these changes."
+msgstr ""
+"Tutón tabulator wobsahuje njepósłane změny.\n"
+"Hdyž jón začiniće, zaćisnjeće tute změny."
+
+#: src/konqmainwindow.cpp:2496
+msgid "Do you really want to close all other tabs?"
+msgstr "Chceće woprawdźe wšitke druhe tabulatory zezačinjeć?"
+
+#: src/konqmainwindow.cpp:2497
+#, fuzzy
+#| msgid "Close Other Tabs Confirmation"
+msgctxt "@title:window"
+msgid "Close Other Tabs Confirmation"
+msgstr "Wobkrućenje zezačinjenja wšitkich druhich tabulatorow"
+
+#: src/konqmainwindow.cpp:2497 src/konqmainwindow.cpp:3622
+#: src/konqtabs.cpp:353
+msgid "Close &Other Tabs"
+msgstr "&Druhe tabulatory zezačinjeć"
+
+#: src/konqmainwindow.cpp:2512
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Closing other tabs will discard these changes."
+msgstr ""
+"Tutón tabulator wobsahuje njepósłane změny.\n"
+"Hdyž tamne tabulatory začiniće, zaćisnjeće tute změny."
+
+#: src/konqmainwindow.cpp:2534
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Reloading all tabs will discard these changes."
+msgstr ""
+"Tutón tabulator wobsahuje njepósłane změny.\n"
+"Hdyž wšitke tabulatory znowa začitaće, zaćisnjeće tute změny."
+
+#: src/konqmainwindow.cpp:2577
+#, fuzzy
+#| msgid "Enter Target"
+msgctxt "@title:window"
+msgid "Enter Target"
+msgstr "Zapodajće cil"
+
+#: src/konqmainwindow.cpp:2586
+#, kde-format
+msgid "<qt><b>%1</b> is not valid</qt>"
+msgstr "<qt><b>%1</b> njeje w porjadku.<qt>"
+
+#: src/konqmainwindow.cpp:2601
+#, kde-format
+msgid "Copy selected files from %1 to:"
+msgstr "Markěrowane dataje kopěrować z %1 do:"
+
+#: src/konqmainwindow.cpp:2610
+#, kde-format
+msgid "Move selected files from %1 to:"
+msgstr "Markěrowane dataje sunyć z %1 do:"
+
+#: src/konqmainwindow.cpp:2797
+msgctxt "This menu entry empties the closed items history"
+msgid "Empty Closed Items History"
+msgstr "Lisćinu začinjenych objektow wuprózdnić"
+
+#: src/konqmainwindow.cpp:2822
+msgid "Save As..."
+msgstr "Zawěsćić jako ..."
+
+#: src/konqmainwindow.cpp:2824
+msgid "Manage..."
+msgstr "Rjadować..."
+
+#: src/konqmainwindow.cpp:3429
+msgid "New &Window"
+msgstr "Nowe &wokno"
+
+#: src/konqmainwindow.cpp:3434
+msgid "&Duplicate Window"
+msgstr "Wokno &klonować"
+
+#: src/konqmainwindow.cpp:3439
+msgid "Send &Link Address..."
+msgstr "Adresa wotkaza &pósłać ..."
+
+#: src/konqmainwindow.cpp:3443
+msgid "S&end File..."
+msgstr "&Dataju pósłać..."
+
+#: src/konqmainwindow.cpp:3447
+msgid "&Open Location"
+msgstr "Městno w&očinić"
+
+#: src/konqmainwindow.cpp:3453
+msgid "&Open File..."
+msgstr "&Dataju wočinić..."
+
+#: src/konqmainwindow.cpp:3458
+msgid "&Find File..."
+msgstr "Dataju &namakać..."
+
+#: src/konqmainwindow.cpp:3467
+msgid "&Use index.html"
+msgstr "&Wužiwaj index.html"
+
+#: src/konqmainwindow.cpp:3470
+msgid "Lock to Current Location"
+msgstr "Na aktualne městno přiwjazać"
+
+#: src/konqmainwindow.cpp:3473
+msgctxt "This option links konqueror views"
+msgid "Lin&k View"
+msgstr "Na napohlad wot&kazać"
+
+#: src/konqmainwindow.cpp:3478
+msgid "&Up"
+msgstr "&Horje"
+
+#: src/konqmainwindow.cpp:3490
+msgid "Closed Items"
+msgstr "Začinjene objekty"
+
+#: src/konqmainwindow.cpp:3504
+msgid "Sessions"
+msgstr "Posedźenja"
+
+#: src/konqmainwindow.cpp:3535
+msgctxt "@action:inmenu Go"
+msgid "Most Often Visited"
+msgstr "Najhusćišo wopytane"
+
+#: src/konqmainwindow.cpp:3539
+msgctxt "@action:inmenu Go"
+msgid "Recently Visited"
+msgstr "Njedawno wopytane"
+
+#: src/konqmainwindow.cpp:3548
+#, fuzzy
+#| msgid "Show History Sidebar"
+msgctxt "@action:inmenu Go"
+msgid "Show History"
+msgstr "Bóčny pas z prjedawšimi městnami pokazać"
+
+#: src/konqmainwindow.cpp:3554
+#, fuzzy
+#| msgid "&Save View Profile..."
+msgid "&Save View Profile As..."
+msgstr "Nastajenja napohlada zawě&sćić"
+
+#: src/konqmainwindow.cpp:3575
+msgid "Configure Extensions..."
+msgstr "Ekstensije nastajić..."
+
+#: src/konqmainwindow.cpp:3579
+msgid "Configure Spell Checking..."
+msgstr "Nastajenje prawopisneje kontrole..."
+
+#: src/konqmainwindow.cpp:3585
+msgid "Split View &Left/Right"
+msgstr "Napohlad dźělić &nalěwo/naprawo"
+
+#: src/konqmainwindow.cpp:3590
+msgid "Split View &Top/Bottom"
+msgstr "Napohlad dźělić &horjeka/deleka"
+
+#: src/konqmainwindow.cpp:3595 src/konqtabs.cpp:464
+msgid "&New Tab"
+msgstr "&Nowy tabulator"
+
+#: src/konqmainwindow.cpp:3601
+msgid "&Duplicate Current Tab"
+msgstr "&Aktualny tabulator klonować"
+
+#: src/konqmainwindow.cpp:3606
+msgid "Detach Current Tab"
+msgstr "Aktualny tabulator wotlěpić"
+
+#: src/konqmainwindow.cpp:3611
+msgid "&Close Active View"
+msgstr "Aktiwny napohlad &začinić"
+
+#: src/konqmainwindow.cpp:3616
+msgid "Close Current Tab"
+msgstr "Aktualny tabulator začinić"
+
+#: src/konqmainwindow.cpp:3626
+msgid "Activate Next Tab"
+msgstr "Přichodny tabulator aktiwizować"
+
+#: src/konqmainwindow.cpp:3630
+msgid "Activate Previous Tab"
+msgstr "Předchadny tabulator aktiwizować"
+
+#: src/konqmainwindow.cpp:3638
+#, kde-format
+msgid "Activate Tab %1"
+msgstr "Tabulator %1 aktiwizować"
+
+#: src/konqmainwindow.cpp:3643
+msgid "Move Tab Left"
+msgstr "Tabulator nalěwo přesunyć"
+
+#: src/konqmainwindow.cpp:3648
+msgid "Move Tab Right"
+msgstr "Tabulator naprawo přesunyć"
+
+#: src/konqmainwindow.cpp:3656
+msgid "Dump Debug Info"
+msgstr "Debugowu informaciju pokazać"
+
+#: src/konqmainwindow.cpp:3661
+msgid "C&onfigure View Profiles..."
+msgstr "Pr&ofile napohlada nastajić..."
+
+#: src/konqmainwindow.cpp:3663
+msgid "Load &View Profile"
+msgstr "Profile začitać a &pokazać"
+
+#: src/konqmainwindow.cpp:3679 sidebar/web_module/web_module.cpp:68
+msgid "&Reload"
+msgstr "&Znowa začitać"
+
+#: src/konqmainwindow.cpp:3684 src/konqtabs.cpp:330
+msgid "&Reload All Tabs"
+msgstr "Wšě &tabulatory znowa začitać"
+
+#: src/konqmainwindow.cpp:3692
+msgid "&Force Reload"
+msgstr "Znowazačitanje &wunuzować"
+
+#: src/konqmainwindow.cpp:3714
+msgid "&Stop"
+msgstr "&Zastajić"
+
+#: src/konqmainwindow.cpp:3724
+msgid "Throbber"
+msgstr ""
+
+#: src/konqmainwindow.cpp:3728 src/konqmainwindow.cpp:3731
+msgid "L&ocation: "
+msgstr "Měst&no: "
+
+#: src/konqmainwindow.cpp:3738
+msgid "Location Bar"
+msgstr "Pas městnow"
+
+#: src/konqmainwindow.cpp:3744
+msgid ""
+"<html>Location Bar<br /><br />Enter a web address or search term.</html>"
+msgstr ""
+"<html>Pas městnow<br /><br />Zapodajće internetnu adresu abo pytany terminus."
+"</html>"
+
+#: src/konqmainwindow.cpp:3748
+msgid "Clear Location Bar"
+msgstr "Pas městnow wuprózdnić"
+
+#: src/konqmainwindow.cpp:3752
+msgid ""
+"<html>Clear Location bar<br /><br />Clears the contents of the location bar."
+"</html>"
+msgstr "<html>Pas městnow wuprózdnić<br /><br />Wuprózdni pas městnow.</html>"
+
+#: src/konqmainwindow.cpp:3757
+msgid "&Bookmarks"
+msgstr "&Lubuški"
+
+#: src/konqmainwindow.cpp:3781
+msgid "Kon&queror Introduction"
+msgstr "Zawod do kon&querora"
+
+#: src/konqmainwindow.cpp:3786
+msgid "Go"
+msgstr "Dźi"
+
+#: src/konqmainwindow.cpp:3788
+msgid ""
+"<html>Go<br /><br />Goes to the page that has been entered into the location "
+"bar.</html>"
+msgstr ""
+"<html>Dźi<br /><br />Dźe na stronu, kiž je so do pasa městnow zapodała.</"
+"html>"
+
+#: src/konqmainwindow.cpp:3794
+#, kde-format
+msgid ""
+"<html>Enter the parent folder<br /><br />For instance, if the current "
+"location is file:/home/%1 clicking this button will take you to file:/home.</"
+"html>"
+msgstr ""
+"<html>Zapodaj nadrjadowany zapisk<br /><br />Na př., hdyž je tuchwilne "
+"mestno file:/home/%1, dóstanjeće so z klikom na tute tłóčatko do file:/home."
+"</html>"
+
+#: src/konqmainwindow.cpp:3797
+msgid "Enter the parent folder"
+msgstr "Do nadrjadowaneho zapiska hić"
+
+#: src/konqmainwindow.cpp:3799 src/konqmainwindow.cpp:3800
+msgid "Move backwards one step in the browsing history"
+msgstr "Dźe jednu kročel wróćo w stawiznach browsowanja"
+
+#: src/konqmainwindow.cpp:3802 src/konqmainwindow.cpp:3803
+msgid "Move forward one step in the browsing history"
+msgstr "Dźe jednu kročel dale w stawiznach browsowanja"
+
+#: src/konqmainwindow.cpp:3806 src/konqmainwindow.cpp:3807
+msgid "Move backwards one step in the closed tabs history"
+msgstr "Dźe jednu kročel wróćo w stawiznach začinjenych tabulatorow"
+
+#: src/konqmainwindow.cpp:3810
+msgid ""
+"<html>Reload the currently displayed document<br /><br />This may, for "
+"example, be needed to refresh web pages that have been modified since they "
+"were loaded, in order to make the changes visible.</html>"
+msgstr ""
+"<html>Tuchwilu pokazany dokument znowa začitać<br /><br />To je na př. "
+"trěbne za aktualizowanje internetowych stronow, kiž buchu modifikowane wot "
+"toho časa, hdyž so začitachu.</html>"
+
+#: src/konqmainwindow.cpp:3813
+msgid "Reload the currently displayed document"
+msgstr "Tuchwilu pokazany dokument znowa začitać"
+
+#: src/konqmainwindow.cpp:3815
+msgid ""
+"<html>Reload all currently displayed documents in tabs<br /><br />This may, "
+"for example, be needed to refresh web pages that have been modified since "
+"they were loaded, in order to make the changes visible.</html>"
+msgstr ""
+"<html>Dokumenty we wšěch tabulatorach znowa začitać<br /><br />To je na př. "
+"trěbne za aktualizowanje internetowych stronow, kiž buchu změnjene wot toho "
+"časa, hdyž so začitachu.</html>"
+
+#: src/konqmainwindow.cpp:3818
+msgid "Reload all currently displayed document in tabs"
+msgstr "Wšě tuchwilu pokazowane dokumenty w tabulatorach so znowa začitaja"
+
+#: src/konqmainwindow.cpp:3820
+msgid ""
+"<html>Stop loading the document<br /><br />All network transfers will be "
+"stopped and Konqueror will display the content that has been received so far."
+"</html>"
+msgstr ""
+"<html>Zastaji začitanje dokumenta<br /><br />Přenjesenje přez syć so zastaji "
+"a konqueror pokaže, štož je so dotal přenjesło.</html>"
+
+#: src/konqmainwindow.cpp:3824
+msgid ""
+"<html>Reload the currently displayed document<br /><br />This may, for "
+"example, be needed to refresh web pages that have been modified since they "
+"were loaded, in order to make the changes visible.  Any images on the page "
+"are downloaded again, even if cached copies exist.</html>"
+msgstr ""
+"<html>Tuchwilu pokazowany dokument znowa začitać<br /><br />To je na př. "
+"trěbne za aktualizowanje internetowych stronow, kiž buchu změnjene wot toho "
+"časa, hdyž so začitachu. Wšitke wobrazy na stronje so znowa přenjesu, samo "
+"hdyž lokalne temporarne kopije eksistuja.</html>"
+
+#: src/konqmainwindow.cpp:3828
+msgid ""
+"Force a reload of the currently displayed document and any contained images"
+msgstr ""
+"Wunuzuje znowazačitanje tuchwilu pokazowaneho dokumenta a wšitkich wobrazow "
+"w nim."
+
+#: src/konqmainwindow.cpp:3831
+msgid "Stop loading the document"
+msgstr "Zastaji začitanje dokumenta"
+
+#: src/konqmainwindow.cpp:3833
+msgid ""
+"<html>Cut the currently selected text or item(s) and move it to the system "
+"clipboard<br /><br />This makes it available to the <b>Paste</b> command in "
+"Konqueror and other KDE applications.</html>"
+msgstr ""
+"<html>Wutřiha wubrany tekst abo objekty a přesunje je do systemoweho "
+"clipboarda.<br /><br />Wone su potom přistupne za přikaz <b>Zasunyć</b> w "
+"konqueroru a druhich KDE-aplikacijach.</html>"
+
+#: src/konqmainwindow.cpp:3837
+msgid "Move the selected text or item(s) to the clipboard"
+msgstr "Přesunje wubrany tekst abo objekt(y) do clipboarda"
+
+#: src/konqmainwindow.cpp:3839
+msgid ""
+"<html>Copy the currently selected text or item(s) to the system "
+"clipboard<br /><br />This makes it available to the <b>Paste</b> command in "
+"Konqueror and other KDE applications.</html>"
+msgstr ""
+"<html>Kopěruje wubrany tekst abo objekty do systemoweho clipboarda.<br /"
+"><br />Wone su potom přistupne za přikaz <b>Zasunyć</b> w konqueroru a "
+"druhich KDE-aplikacijach.</html>"
+
+#: src/konqmainwindow.cpp:3843
+msgid "Copy the selected text or item(s) to the clipboard"
+msgstr "Kopěruje wubrany tekst abo objekt(y) do clipboarda"
+
+#: src/konqmainwindow.cpp:3845
+msgid ""
+"<html>Paste the previously cut or copied clipboard contents<br /><br />This "
+"also works for text copied or cut from other KDE applications.</html>"
+msgstr ""
+"<html>Zasunje wobsah clipboarda<br /><br />To funguje tež za tekst, kiž bu z "
+"druhich KDE-aplikacijow kopěrowany abo wutřihany.</html>"
+
+#: src/konqmainwindow.cpp:3848
+msgid "Paste the clipboard contents"
+msgstr "Zasunje wobsah clipboarda"
+
+#: src/konqmainwindow.cpp:3850
+msgid ""
+"<html>Print the currently displayed document<br /><br />You will be "
+"presented with a dialog where you can set various options, such as the "
+"number of copies to print and which printer to use.<br /><br />This dialog "
+"also provides access to special KDE printing services such as creating a PDF "
+"file from the current document.</html>"
+msgstr ""
+"<html>Wućišći tuchwilu pokazowany dokument.<br /><br />Pokaže dialog z "
+"opcijemi, hdźež móžeće na př. nastajić, kelko kopijow chceće ćišćeć abo "
+"kotry ćišćak ma so wužiwać.<br /><br />Tutón dialog spřistupni tež specielne "
+"ćišćenske słužby kaž konwertowanje tuchwilneho dokumenta do PDF-dataje.</"
+"html>"
+
+#: src/konqmainwindow.cpp:3856
+msgid "Print the current document"
+msgstr "Aktualny dokument ćišćeć"
+
+#: src/konqmainwindow.cpp:3862
+msgid "If present, open index.html when entering a folder."
+msgstr "Wočini index.html, jeli eksistuje we wotpowědnym zapisku."
+
+#: src/konqmainwindow.cpp:3863
+msgid ""
+"A locked view cannot change folders. Use in combination with 'link view' to "
+"explore many files from one folder"
+msgstr ""
+"Zapisk njehodźi so změnić, hdyź je napohlad zamknjeny. Wužiwajće to z 'na "
+"napohlad wotkazać', zo byšće wjele datajow z jednoho zapiska přelistowali."
+
+#: src/konqmainwindow.cpp:3864
+msgid ""
+"Sets the view as 'linked'. A linked view follows folder changes made in "
+"other linked views."
+msgstr ""
+"Na napohlad so 'wotkazuje'. Napohlady, kotrež na so wotkazuja, pokazuja "
+"přeco samsne adresy a zapiski."
+
+#: src/konqmainwindow.cpp:4047
+msgid "Copy &Files..."
+msgstr "Dataje &kopěrować..."
+
+#: src/konqmainwindow.cpp:4051
+msgid "M&ove Files..."
+msgstr "Dataje přes&unyć..."
+
+#: src/konqmainwindow.cpp:4401
+msgid ""
+"You have requested to open more than 20 bookmarks in tabs. This might take a "
+"while. Continue?"
+msgstr ""
+"Chceć naraz wjace hač 20 lubuškow wočinić. To móže chwilku trać. Pokročować?"
+
+#: src/konqmainwindow.cpp:4403
+#, fuzzy
+#| msgid "Open bookmarks folder in new tabs"
+msgctxt "@title:window"
+msgid "Open bookmarks folder in new tabs"
+msgstr "Zapisk lubuškow w nowych tabulatorach wočinić"
+
+#: src/konqmainwindow.cpp:4570
+msgid "Open in T&his Window"
+msgstr "Wočinić w &tutym woknje"
+
+#: src/konqmainwindow.cpp:4571
+msgid "Open the document in current window"
+msgstr "Wočini dokument w aktualnym woknje"
+
+#: src/konqmainwindow.cpp:4578
+msgid "Open the document in a new window"
+msgstr "Wočini dokument w nowym woknje"
+
+#: src/konqmainwindow.cpp:4584
+msgid "Open in &New Tab"
+msgstr "Wočinić w nowym t&abulatoru"
+
+#: src/konqmainwindow.cpp:4586
+msgid "Open the document in a new tab"
+msgstr "Wočini dokumenta w nowym tabulatoru"
+
+#: src/konqmainwindow.cpp:4798
+msgid "&Open With"
+msgstr "W&očinić z"
+
+#: src/konqmainwindow.cpp:4812
+#, kde-format
+msgid "Open with %1"
+msgstr "Wočinić z %1"
+
+#: src/konqmainwindow.cpp:4858
+msgctxt "@action:inmenu View"
+msgid "&View Mode"
+msgstr "Modus &wobhladowanja"
+
+#: src/konqmainwindow.cpp:4984
+msgid ""
+"You have multiple tabs open in this window, are you sure you want to quit?"
+msgstr ""
+"W tutym woknje su někotre tabulatory wočinjene, chceće je woprawdźe "
+"zezačinjeć?"
+
+#: src/konqmainwindow.cpp:4986 src/konqviewmanager.cpp:1409
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "Wobkrućenje"
+
+#: src/konqmainwindow.cpp:4988
+msgid "C&lose Current Tab"
+msgstr "Aktualny tabulator &začinić"
+
+#: src/konqmainwindow.cpp:5017
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Closing the window will discard these changes."
+msgstr ""
+"Tutón tabulator wobsahuje změny, kiž njebuchu hišće wotpósłane.\n"
+"Hdyž wokno začiniće, so tute změny zhubja."
+
+#: src/konqmainwindow.cpp:5018
+msgid ""
+"This page contains changes that have not been submitted.\n"
+"Closing the window will discard these changes."
+msgstr ""
+"Tuta strona wobsahuje njepósłane změny.\n"
+"Hdyž ju začiniće, zaćisnjeće tute změny."
+
+#: src/konqmainwindow.cpp:5186
+msgid ""
+"Your sidebar is not functional or unavailable. A new entry cannot be added."
+msgstr ""
+"Bóčny pas njefunguje abo njeje přistupny. Nowy zapis njehodźi so dodać."
+
+#: src/konqmainwindow.cpp:5186 src/konqmainwindow.cpp:5193
+#, fuzzy
+#| msgid "Web Sidebar"
+msgctxt "@title:window"
+msgid "Web Sidebar"
+msgstr "Bóčny pas za web"
+
+#: src/konqmainwindow.cpp:5191
+#, kde-format
+msgid "Add new web extension \"%1\" to your sidebar?"
+msgstr "Ma so nowa internetowa ekstensija \"%1\" k bóčnemu pasej dodać?"
+
+#: src/konqmainwindow.cpp:5193
+msgid "Add"
+msgstr "Dodać"
+
+#: src/konqmainwindow.cpp:5193
+msgid "Do Not Add"
+msgstr "Nic dodać"
+
+#: src/konqmainwindow.cpp:5506
+#, kde-format
+msgid ""
+"There appears to be a configuration error. You have associated Konqueror "
+"with %1, but it cannot handle this file type."
+msgstr ""
+"Pozdaću so jedna wo zmylk w konfiguraciji. Konqueror je asociěrowany z %1, "
+"njemóže pak z tutej družinu ničo započeć."
+
+#: src/konqsessionmanager.cpp:330
+#, fuzzy
+#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr ""
+"Konqueror njej so korektnje zakónčił. Ma so poslednje posedźenje ponowić?"
+
+#: src/konqsessionmanager.cpp:332
+#, fuzzy
+#| msgid "Restore Session?"
+msgctxt "@title:window"
+msgid "Restore Session?"
+msgstr "Posedźenje ponowić?"
+
+#: src/konqsessionmanager.cpp:333
+msgid "Restore Session"
+msgstr "Posedźenje ponowić"
+
+#: src/konqsessionmanager.cpp:334
+msgid "Do Not Restore"
+msgstr "Nic ponowić"
+
+#: src/konqsessionmanager.cpp:335
+msgid "Ask Me Later"
+msgstr "Woprašej so pozdźišo"
+
+#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
+msgid "Und&o: Closed Tab"
+msgstr "W&róćo: Tabulator začinić"
+
+#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
+#: src/konqundomanager.cpp:162
+msgid "Und&o: Closed Window"
+msgstr "W&róćo: Wokno začinić"
+
+#: src/konqundomanager.cpp:122
+msgid "Und&o"
+msgstr ""
+
+#: src/konqview.cpp:1203
+msgid ""
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
+msgstr ""
+"Strona, kotruž chceće sej wobhladać, je wuslědk pósłaneho formulara. Hdyž "
+"tute daty znowa pósćeleće, so kóžda akcija formulara (na př. pytanje abo "
+"online-kup) wospjetuje."
+
+#: src/konqview.cpp:1205
+#, fuzzy
+#| msgid "Warning"
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "Kedźbu"
+
+#: src/konqview.cpp:1205
+msgid "Resend"
+msgstr "Znowa pósłać"
+
+#: src/konqsessiondlg.cpp:78
+#, fuzzy
+#| msgid "Manage Sessions"
+msgctxt "@title:window"
+msgid "Manage Sessions"
+msgstr "Posedźenja rjadować"
+
+#: src/konqsessiondlg.cpp:82
+msgid "&Open"
+msgstr "W&očinić"
+
+#: src/konqsessiondlg.cpp:176
+#, fuzzy
+#| msgid "Rename session"
+msgctxt "@title:window"
+msgid "Rename Session"
+msgstr "Posedźenje přemjenować"
+
+#: src/konqsessiondlg.cpp:224
+#, fuzzy
+#| msgid "Save Session"
+msgctxt "@title:window"
+msgid "Save Session"
+msgstr "Posedźenje zawěsćić"
+
+#: src/konqsessiondlg.cpp:248
+#, kde-format
+msgid ""
+"A session with the name '%1' already exists, do you want to overwrite it?"
+msgstr "Posedźenje z mjenom '%1' hižo eksistuje, chceće je přepisać?"
+
+#: src/konqsessiondlg.cpp:249
+#, fuzzy
+#| msgid "Session exists. Overwrite?"
+msgctxt "@title:window"
+msgid "Session exists. Overwrite?"
+msgstr "Posedźenje eksistuje. Přepisać?"
+
+#: src/konqtabs.cpp:67
+msgid ""
+"This bar contains the list of currently open tabs. Click on a tab to make it "
+"active. You can also use keyboard shortcuts to navigate through tabs. The "
+"text on the tab shows the content currently open in it; place your mouse "
+"over the tab to see the full title, in case it has been shortened to fit the "
+"tab width."
+msgstr ""
+"Tutón pas wobsahuje wočinjene tabulatory. Klikńće na tabulator, zo byšće jón "
+"aktiwizowali. Móžeće tež tastaturowe skrótšenki za nawigaciju po "
+"tabulatorach wužiwać. Tekst na tabulatoru pokazuje titl wobsaha; połny titl "
+"widźiće, hdyž z myšu na tabulator jědźeće."
+
+#: src/konqtabs.cpp:101
+msgid "Open a new tab"
+msgstr "Nowy tabulator wočinić"
+
+#: src/konqtabs.cpp:110
+msgid "Close the current tab"
+msgstr "Aktiwny tabulator začinić"
+
+#: src/konqtabs.cpp:469
+msgid "&Duplicate Tab"
+msgstr "Tabulator &duplicěrować"
+
+#: src/konqtabs.cpp:474
+msgid "&Reload Tab"
+msgstr "Tabulator &znowa začitać"
+
+#: src/konqtabs.cpp:481
+msgid "Other Tabs"
+msgstr "Druhe tabulatory"
+
+#: src/konqtabs.cpp:486
+msgid "D&etach Tab"
+msgstr "Tabulator &wotlěpić"
+
+#: src/konqtabs.cpp:492
+msgid "&Close Tab"
+msgstr "Tabulator &začinić"
+
+#: src/konqviewmanager.cpp:1407
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+"W tutym woknje su někotre wočinjene tabulatory.\n"
+"Začitanje profila napohlada je zezačinja."
+
+#: src/konqviewmanager.cpp:1410
+msgid "Load View Profile"
+msgstr "Profil napohlada začitać"
+
+#: src/konqviewmanager.cpp:1422
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+"Tutón tabulator wobsahuje změny, kiž njejsu so hišće pósłali.\n"
+"Začitanje profila tute změny zaćisnje."
+
+#: src/konqframestatusbar.cpp:116
+msgid ""
+"Checking this box on at least two views sets those views as 'linked'. Then, "
+"when you change directories in one view, the other views linked with it will "
+"automatically update to show the current directory. This is especially "
+"useful with different types of views, such as a directory tree with an icon "
+"view or detailed view, and possibly a terminal emulator window."
+msgstr ""
+
+#: src/konqframestatusbar.cpp:163
+msgid "Close View"
+msgstr "Napohlad začinić"
+
+#: src/konqframestatusbar.cpp:243
+#, kde-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#: src/konqframestatusbar.cpp:245
+msgid "Stalled"
+msgstr "Zastajene"
 
 #: src/konqextensionmanager.cpp:54
 #, fuzzy
@@ -314,1014 +1316,12 @@ msgstr "wuwiwar (AdBlock filter)"
 msgid "Eduardo Robles Elvira"
 msgstr "Eduardo Robles Elvira"
 
-#: src/konqguiclients.cpp:66
-#, kde-format
-msgid "Preview &in %1"
-msgstr "Pokazować &z %1"
-
-#: src/konqguiclients.cpp:135
-#, kde-format
-msgid "Show %1"
-msgstr "Pokaž %1"
-
 #: src/konqhistorydialog.cpp:45
 #, fuzzy
 #| msgid "History"
 msgctxt "@title:window"
 msgid "History"
 msgstr "Stawizny"
-
-#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
-msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-msgid "Sort"
-msgstr "Sortěrować"
-
-#: src/konqhistorymodel.cpp:137
-#, kde-format
-msgid ""
-"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: "
-"%3<br />Number of times visited: %4</qt>"
-msgstr ""
-"<qt><center><b>%1</b></center><hr />Posledni raz wopytane: %2<br />Prěni raz "
-"wopytane: %3<br />Kak husto wopytane: %4</qt>"
-
-#: src/konqhistorymodel.cpp:233
-msgid "Local"
-msgstr ""
-
-#: src/konqhistorymodel.cpp:236
-msgid "Miscellaneous"
-msgstr "Wšelčizny"
-
-#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4577
-#: sidebar/web_module/web_module.cpp:61
-msgid "Open in New &Window"
-msgstr "Wočinić w &nowym woknje"
-
-#: src/konqhistoryview.cpp:67
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:95
-#: sidebar/trees/konq_sidebartree.cpp:232
-msgid "Open in New Tab"
-msgstr "Wočinić w nowym tabulatoru"
-
-#: src/konqhistoryview.cpp:71
-#, fuzzy
-#| msgid "Copy Link Address"
-msgid "&Copy Link Address"
-msgstr "Adresu wotkaza kopěrować"
-
-#: src/konqhistoryview.cpp:76
-msgid "&Remove Entry"
-msgstr "Zapis &wumaznyć"
-
-#: src/konqhistoryview.cpp:83
-msgid "C&lear History"
-msgstr ""
-
-#: src/konqhistoryview.cpp:88
-msgid "&Preferences..."
-msgstr "&Nastajenja..."
-
-#: src/konqhistoryview.cpp:95
-msgid "By &Name"
-msgstr "po &mjenje"
-
-#: src/konqhistoryview.cpp:101
-msgid "By &Date"
-msgstr "po &datumje"
-
-#: src/konqhistoryview.cpp:111
-#, fuzzy
-#| msgid "Clear History"
-msgid "Search in history"
-msgstr "Nachwilny pomjatk wuprózdnić"
-
-#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
-msgid "Do you really want to clear the entire history?"
-msgstr ""
-
-#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
-#, fuzzy
-#| msgid "Clear History"
-msgctxt "@title:window"
-msgid "Clear History?"
-msgstr "Nachwilny pomjatk wuprózdnić"
-
-#: src/konqmain.cpp:96
-#, fuzzy
-#| msgid "Start without a default window"
-msgid "Start without a default window, when called without URLs"
-msgstr "Startuj bjez standardneho wokna"
-
-#: src/konqmain.cpp:98
-msgid ""
-"Preload for later use. This mode does not support URLs on the command line"
-msgstr ""
-
-#: src/konqmain.cpp:100
-msgid "Profile to open"
-msgstr "Profil, kiž ma so wočinić"
-
-#: src/konqmain.cpp:102
-msgid "List available profiles"
-msgstr "Móžne profile naličić"
-
-#: src/konqmain.cpp:104
-msgid "List available sessions"
-msgstr "Móžne posedźenja naličić"
-
-#: src/konqmain.cpp:106
-msgid "Session to open"
-msgstr "Posedźenje, kiž ma so wočinić"
-
-#: src/konqmain.cpp:108
-msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
-msgstr "MIME-družina za tutón URL. (na př. text/html abo inode/zapisk)."
-
-#: src/konqmain.cpp:109
-msgid "Part to use (e.g. khtml or kwebkitpart)"
-msgstr ""
-
-#: src/konqmain.cpp:111
-msgid ""
-"For URLs that point to files, opens the directory and selects the file, "
-"instead of opening the actual file"
-msgstr ""
-"Hdyž URL k dataji pokazuje, wočini zapisk a wubjerje dataju, njewočini ju pak"
-
-#: src/konqmain.cpp:113
-msgid "Location to open"
-msgstr "Městno, kiž ma so wočinić"
-
-#: src/konqprofiledlg.cpp:111
-#, fuzzy
-#| msgid "Profile Management"
-msgctxt "@title:window"
-msgid "Profile Management"
-msgstr "Rjadowanje profilow"
-
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "&Profil přemjenować"
-
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "Profil wumaznyć"
-
-#: src/konqsessiondlg.cpp:77
-#, fuzzy
-#| msgid "Manage Sessions"
-msgctxt "@title:window"
-msgid "Manage Sessions"
-msgstr "Posedźenja rjadować"
-
-#: src/konqsessiondlg.cpp:81
-msgid "&Open"
-msgstr "W&očinić"
-
-#: src/konqsessiondlg.cpp:175
-#, fuzzy
-#| msgid "Rename session"
-msgctxt "@title:window"
-msgid "Rename Session"
-msgstr "Posedźenje přemjenować"
-
-#: src/konqsessiondlg.cpp:223
-#, fuzzy
-#| msgid "Save Session"
-msgctxt "@title:window"
-msgid "Save Session"
-msgstr "Posedźenje zawěsćić"
-
-#: src/konqsessiondlg.cpp:247
-#, kde-format
-msgid ""
-"A session with the name '%1' already exists, do you want to overwrite it?"
-msgstr "Posedźenje z mjenom '%1' hižo eksistuje, chceće je přepisać?"
-
-#: src/konqsessiondlg.cpp:248
-#, fuzzy
-#| msgid "Session exists. Overwrite?"
-msgctxt "@title:window"
-msgid "Session exists. Overwrite?"
-msgstr "Posedźenje eksistuje. Přepisać?"
-
-#: src/konqsessionmanager.cpp:330
-#, fuzzy
-#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr ""
-"Konqueror njej so korektnje zakónčił. Ma so poslednje posedźenje ponowić?"
-
-#: src/konqsessionmanager.cpp:332
-#, fuzzy
-#| msgid "Restore Session?"
-msgctxt "@title:window"
-msgid "Restore Session?"
-msgstr "Posedźenje ponowić?"
-
-#: src/konqsessionmanager.cpp:333
-msgid "Restore Session"
-msgstr "Posedźenje ponowić"
-
-#: src/konqsessionmanager.cpp:334
-msgid "Do Not Restore"
-msgstr "Nic ponowić"
-
-#: src/konqsessionmanager.cpp:335
-msgid "Ask Me Later"
-msgstr "Woprašej so pozdźišo"
-
-#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
-msgid "Und&o: Closed Tab"
-msgstr "W&róćo: Tabulator začinić"
-
-#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
-#: src/konqundomanager.cpp:162
-msgid "Und&o: Closed Window"
-msgstr "W&róćo: Wokno začinić"
-
-#: src/konqundomanager.cpp:122
-msgid "Und&o"
-msgstr ""
-
-#: src/konqview.cpp:1203
-msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
-msgstr ""
-"Strona, kotruž chceće sej wobhladać, je wuslědk pósłaneho formulara. Hdyž "
-"tute daty znowa pósćeleće, so kóžda akcija formulara (na př. pytanje abo "
-"online-kup) wospjetuje."
-
-#: src/konqview.cpp:1205
-#, fuzzy
-#| msgid "Warning"
-msgctxt "@title:window"
-msgid "Warning"
-msgstr "Kedźbu"
-
-#: src/konqview.cpp:1205
-msgid "Resend"
-msgstr "Znowa pósłać"
-
-#: src/konqtabs.cpp:66
-msgid ""
-"This bar contains the list of currently open tabs. Click on a tab to make it "
-"active. You can also use keyboard shortcuts to navigate through tabs. The "
-"text on the tab shows the content currently open in it; place your mouse "
-"over the tab to see the full title, in case it has been shortened to fit the "
-"tab width."
-msgstr ""
-"Tutón pas wobsahuje wočinjene tabulatory. Klikńće na tabulator, zo byšće jón "
-"aktiwizowali. Móžeće tež tastaturowe skrótšenki za nawigaciju po "
-"tabulatorach wužiwać. Tekst na tabulatoru pokazuje titl wobsaha; połny titl "
-"widźiće, hdyž z myšu na tabulator jědźeće."
-
-#: src/konqtabs.cpp:100
-msgid "Open a new tab"
-msgstr "Nowy tabulator wočinić"
-
-#: src/konqtabs.cpp:109
-msgid "Close the current tab"
-msgstr "Aktiwny tabulator začinić"
-
-#: src/konqtabs.cpp:329 src/konqmainwindow.cpp:3684
-msgid "&Reload All Tabs"
-msgstr "Wšě &tabulatory znowa začitać"
-
-#: src/konqtabs.cpp:352 src/konqmainwindow.cpp:2497
-#: src/konqmainwindow.cpp:3622
-msgid "Close &Other Tabs"
-msgstr "&Druhe tabulatory zezačinjeć"
-
-#: src/konqtabs.cpp:463 src/konqmainwindow.cpp:3595
-msgid "&New Tab"
-msgstr "&Nowy tabulator"
-
-#: src/konqtabs.cpp:468
-msgid "&Duplicate Tab"
-msgstr "Tabulator &duplicěrować"
-
-#: src/konqtabs.cpp:473
-msgid "&Reload Tab"
-msgstr "Tabulator &znowa začitać"
-
-#: src/konqtabs.cpp:480
-msgid "Other Tabs"
-msgstr "Druhe tabulatory"
-
-#: src/konqtabs.cpp:485
-msgid "D&etach Tab"
-msgstr "Tabulator &wotlěpić"
-
-#: src/konqtabs.cpp:491
-msgid "&Close Tab"
-msgstr "Tabulator &začinić"
-
-#: src/konqviewmanager.cpp:1407
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"W tutym woknje su někotre wočinjene tabulatory.\n"
-"Začitanje profila napohlada je zezačinja."
-
-#: src/konqviewmanager.cpp:1409 src/konqmainwindow.cpp:4986
-#, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "Wobkrućenje"
-
-#: src/konqviewmanager.cpp:1410
-msgid "Load View Profile"
-msgstr "Profil napohlada začitać"
-
-#: src/konqviewmanager.cpp:1422
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"Tutón tabulator wobsahuje změny, kiž njejsu so hišće pósłali.\n"
-"Začitanje profila tute změny zaćisnje."
-
-#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1634
-#: src/konqmainwindow.cpp:2361 src/konqmainwindow.cpp:2441
-#: src/konqmainwindow.cpp:2471 src/konqmainwindow.cpp:2513
-#: src/konqmainwindow.cpp:2535 src/konqmainwindow.cpp:5021
-#, fuzzy
-#| msgid "Discard Changes?"
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr "Změny zaćisnyć?"
-
-#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1634
-#: src/konqmainwindow.cpp:2361 src/konqmainwindow.cpp:2441
-#: src/konqmainwindow.cpp:2471 src/konqmainwindow.cpp:2513
-#: src/konqmainwindow.cpp:2536 src/konqmainwindow.cpp:5021
-msgid "&Discard Changes"
-msgstr "&Změny zaćisnyć"
-
-#: src/konqmainwindow.cpp:577
-msgctxt "@title:tab"
-msgid "Loading..."
-msgstr "Začitam..."
-
-#: src/konqmainwindow.cpp:1601
-msgid "Canceled."
-msgstr "Přetorhnjene."
-
-#: src/konqmainwindow.cpp:1633
-msgid ""
-"This page contains changes that have not been submitted.\n"
-"Reloading the page will discard these changes."
-msgstr ""
-"Tuta strona wobsahuje njepósłane změny.\n"
-"Hdyž tutu stronu znowa začitaće, so tute změny zhubja."
-
-#: src/konqmainwindow.cpp:1744
-msgid "File Management"
-msgstr "Rjadowanje datajow"
-
-#: src/konqmainwindow.cpp:1760 about/konq_aboutpage.cc:205
-msgid "Web Browsing"
-msgstr "Web Browsing"
-
-#: src/konqmainwindow.cpp:2020 src/konqmainwindow.cpp:2026
-#: about/konq_aboutpage.cc:91
-msgid "Home Folder"
-msgstr "Domjacy zapisk"
-
-#: src/konqmainwindow.cpp:2021 src/konqmainwindow.cpp:3529
-#, fuzzy
-#| msgid "Home Page"
-msgid "Home"
-msgstr "Domjaca strona"
-
-#: src/konqmainwindow.cpp:2027
-msgid "Navigate to your 'Home Folder'"
-msgstr "Do wašeho domjaceho zapiska hić"
-
-#: src/konqmainwindow.cpp:2028
-msgid "Navigate to your local 'Home Folder'"
-msgstr "Do wašeho lokalneho domjaceho zapiska hić"
-
-#. i18n: file: src/konqueror.kcfg:11
-#. i18n: ectx: label, entry, group (UserSettings)
-#: src/konqmainwindow.cpp:2031 rc.cpp:101
-msgid "Home Page"
-msgstr "Domjaca strona"
-
-#: src/konqmainwindow.cpp:2033
-msgid "Navigate to your 'Home Page'"
-msgstr "Na wašu domjacu stronu hić"
-
-#: src/konqmainwindow.cpp:2034
-msgid ""
-"<html>Navigate to your 'Home Page'<br /><br />You can configure the location "
-"where this button takes you under <b>Settings -> Configure Konqueror -> "
-"General</b>.</html>"
-msgstr ""
-"<html>Dźe na wašu domjacu stronu<br /><br />Tutu městnosć móžeće "
-"konfigurować pod <b>Nastajenje -> Konqueror konfigurować-> Powšitkownje</b>."
-"</html>"
-
-#: src/konqmainwindow.cpp:2360
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Detaching the tab will discard these changes."
-msgstr ""
-"Tutón tabulator wobsahuje njepósłane změny.\n"
-"Hdyž jón wotlěpiće, zaćisnjeće tute změny."
-
-#: src/konqmainwindow.cpp:2440
-msgid ""
-"This view contains changes that have not been submitted.\n"
-"Closing the view will discard these changes."
-msgstr ""
-"Tutón napohlad wobsahuje njepósłane změny.\n"
-"Hdyž jón začiniće, zaćisnjeće tute změny."
-
-#: src/konqmainwindow.cpp:2470
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Closing the tab will discard these changes."
-msgstr ""
-"Tutón tabulator wobsahuje njepósłane změny.\n"
-"Hdyž jón začiniće, zaćisnjeće tute změny."
-
-#: src/konqmainwindow.cpp:2496
-msgid "Do you really want to close all other tabs?"
-msgstr "Chceće woprawdźe wšitke druhe tabulatory zezačinjeć?"
-
-#: src/konqmainwindow.cpp:2497
-#, fuzzy
-#| msgid "Close Other Tabs Confirmation"
-msgctxt "@title:window"
-msgid "Close Other Tabs Confirmation"
-msgstr "Wobkrućenje zezačinjenja wšitkich druhich tabulatorow"
-
-#: src/konqmainwindow.cpp:2512
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Closing other tabs will discard these changes."
-msgstr ""
-"Tutón tabulator wobsahuje njepósłane změny.\n"
-"Hdyž tamne tabulatory začiniće, zaćisnjeće tute změny."
-
-#: src/konqmainwindow.cpp:2534
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Reloading all tabs will discard these changes."
-msgstr ""
-"Tutón tabulator wobsahuje njepósłane změny.\n"
-"Hdyž wšitke tabulatory znowa začitaće, zaćisnjeće tute změny."
-
-#: src/konqmainwindow.cpp:2577
-#, fuzzy
-#| msgid "Enter Target"
-msgctxt "@title:window"
-msgid "Enter Target"
-msgstr "Zapodajće cil"
-
-#: src/konqmainwindow.cpp:2586
-#, kde-format
-msgid "<qt><b>%1</b> is not valid</qt>"
-msgstr "<qt><b>%1</b> njeje w porjadku.<qt>"
-
-#: src/konqmainwindow.cpp:2601
-#, kde-format
-msgid "Copy selected files from %1 to:"
-msgstr "Markěrowane dataje kopěrować z %1 do:"
-
-#: src/konqmainwindow.cpp:2610
-#, kde-format
-msgid "Move selected files from %1 to:"
-msgstr "Markěrowane dataje sunyć z %1 do:"
-
-#: src/konqmainwindow.cpp:2797
-msgctxt "This menu entry empties the closed items history"
-msgid "Empty Closed Items History"
-msgstr "Lisćinu začinjenych objektow wuprózdnić"
-
-#: src/konqmainwindow.cpp:2822
-msgid "Save As..."
-msgstr "Zawěsćić jako ..."
-
-#: src/konqmainwindow.cpp:2824
-msgid "Manage..."
-msgstr "Rjadować..."
-
-#: src/konqmainwindow.cpp:3429
-msgid "New &Window"
-msgstr "Nowe &wokno"
-
-#: src/konqmainwindow.cpp:3434
-msgid "&Duplicate Window"
-msgstr "Wokno &klonować"
-
-#: src/konqmainwindow.cpp:3439
-msgid "Send &Link Address..."
-msgstr "Adresa wotkaza &pósłać ..."
-
-#: src/konqmainwindow.cpp:3443
-msgid "S&end File..."
-msgstr "&Dataju pósłać..."
-
-#: src/konqmainwindow.cpp:3447
-msgid "&Open Location"
-msgstr "Městno w&očinić"
-
-#: src/konqmainwindow.cpp:3453
-msgid "&Open File..."
-msgstr "&Dataju wočinić..."
-
-#: src/konqmainwindow.cpp:3458
-msgid "&Find File..."
-msgstr "Dataju &namakać..."
-
-#: src/konqmainwindow.cpp:3467
-msgid "&Use index.html"
-msgstr "&Wužiwaj index.html"
-
-#: src/konqmainwindow.cpp:3470
-msgid "Lock to Current Location"
-msgstr "Na aktualne městno přiwjazać"
-
-#: src/konqmainwindow.cpp:3473
-msgctxt "This option links konqueror views"
-msgid "Lin&k View"
-msgstr "Na napohlad wot&kazać"
-
-#: src/konqmainwindow.cpp:3478
-msgid "&Up"
-msgstr "&Horje"
-
-#: src/konqmainwindow.cpp:3490
-msgid "Closed Items"
-msgstr "Začinjene objekty"
-
-#: src/konqmainwindow.cpp:3504
-msgid "Sessions"
-msgstr "Posedźenja"
-
-#: src/konqmainwindow.cpp:3535
-msgctxt "@action:inmenu Go"
-msgid "Most Often Visited"
-msgstr "Najhusćišo wopytane"
-
-#: src/konqmainwindow.cpp:3539
-msgctxt "@action:inmenu Go"
-msgid "Recently Visited"
-msgstr "Njedawno wopytane"
-
-#: src/konqmainwindow.cpp:3548
-#, fuzzy
-#| msgid "Show History Sidebar"
-msgctxt "@action:inmenu Go"
-msgid "Show History"
-msgstr "Bóčny pas z prjedawšimi městnami pokazać"
-
-#: src/konqmainwindow.cpp:3554
-#, fuzzy
-#| msgid "&Save View Profile..."
-msgid "&Save View Profile As..."
-msgstr "Nastajenja napohlada zawě&sćić"
-
-#: src/konqmainwindow.cpp:3575
-msgid "Configure Extensions..."
-msgstr "Ekstensije nastajić..."
-
-#: src/konqmainwindow.cpp:3579
-msgid "Configure Spell Checking..."
-msgstr "Nastajenje prawopisneje kontrole..."
-
-#: src/konqmainwindow.cpp:3585
-msgid "Split View &Left/Right"
-msgstr "Napohlad dźělić &nalěwo/naprawo"
-
-#: src/konqmainwindow.cpp:3590
-msgid "Split View &Top/Bottom"
-msgstr "Napohlad dźělić &horjeka/deleka"
-
-#: src/konqmainwindow.cpp:3601
-msgid "&Duplicate Current Tab"
-msgstr "&Aktualny tabulator klonować"
-
-#: src/konqmainwindow.cpp:3606
-msgid "Detach Current Tab"
-msgstr "Aktualny tabulator wotlěpić"
-
-#: src/konqmainwindow.cpp:3611
-msgid "&Close Active View"
-msgstr "Aktiwny napohlad &začinić"
-
-#: src/konqmainwindow.cpp:3616
-msgid "Close Current Tab"
-msgstr "Aktualny tabulator začinić"
-
-#: src/konqmainwindow.cpp:3626
-msgid "Activate Next Tab"
-msgstr "Přichodny tabulator aktiwizować"
-
-#: src/konqmainwindow.cpp:3630
-msgid "Activate Previous Tab"
-msgstr "Předchadny tabulator aktiwizować"
-
-#: src/konqmainwindow.cpp:3638
-#, kde-format
-msgid "Activate Tab %1"
-msgstr "Tabulator %1 aktiwizować"
-
-#: src/konqmainwindow.cpp:3643
-msgid "Move Tab Left"
-msgstr "Tabulator nalěwo přesunyć"
-
-#: src/konqmainwindow.cpp:3648
-msgid "Move Tab Right"
-msgstr "Tabulator naprawo přesunyć"
-
-#: src/konqmainwindow.cpp:3656
-msgid "Dump Debug Info"
-msgstr "Debugowu informaciju pokazać"
-
-#: src/konqmainwindow.cpp:3661
-msgid "C&onfigure View Profiles..."
-msgstr "Pr&ofile napohlada nastajić..."
-
-#: src/konqmainwindow.cpp:3663
-msgid "Load &View Profile"
-msgstr "Profile začitać a &pokazać"
-
-#: src/konqmainwindow.cpp:3679 sidebar/web_module/web_module.cpp:68
-msgid "&Reload"
-msgstr "&Znowa začitać"
-
-#: src/konqmainwindow.cpp:3692
-msgid "&Force Reload"
-msgstr "Znowazačitanje &wunuzować"
-
-#: src/konqmainwindow.cpp:3714
-msgid "&Stop"
-msgstr "&Zastajić"
-
-#: src/konqmainwindow.cpp:3724
-msgid "Throbber"
-msgstr ""
-
-#: src/konqmainwindow.cpp:3728 src/konqmainwindow.cpp:3731
-msgid "L&ocation: "
-msgstr "Měst&no: "
-
-#: src/konqmainwindow.cpp:3738
-msgid "Location Bar"
-msgstr "Pas městnow"
-
-#: src/konqmainwindow.cpp:3744
-msgid ""
-"<html>Location Bar<br /><br />Enter a web address or search term.</html>"
-msgstr ""
-"<html>Pas městnow<br /><br />Zapodajće internetnu adresu abo pytany terminus."
-"</html>"
-
-#: src/konqmainwindow.cpp:3748
-msgid "Clear Location Bar"
-msgstr "Pas městnow wuprózdnić"
-
-#: src/konqmainwindow.cpp:3752
-msgid ""
-"<html>Clear Location bar<br /><br />Clears the contents of the location bar."
-"</html>"
-msgstr "<html>Pas městnow wuprózdnić<br /><br />Wuprózdni pas městnow.</html>"
-
-#: src/konqmainwindow.cpp:3757
-msgid "&Bookmarks"
-msgstr "&Lubuški"
-
-#: src/konqmainwindow.cpp:3781
-msgid "Kon&queror Introduction"
-msgstr "Zawod do kon&querora"
-
-#: src/konqmainwindow.cpp:3786
-msgid "Go"
-msgstr "Dźi"
-
-#: src/konqmainwindow.cpp:3788
-msgid ""
-"<html>Go<br /><br />Goes to the page that has been entered into the location "
-"bar.</html>"
-msgstr ""
-"<html>Dźi<br /><br />Dźe na stronu, kiž je so do pasa městnow zapodała.</"
-"html>"
-
-#: src/konqmainwindow.cpp:3794
-#, kde-format
-msgid ""
-"<html>Enter the parent folder<br /><br />For instance, if the current "
-"location is file:/home/%1 clicking this button will take you to file:/home.</"
-"html>"
-msgstr ""
-"<html>Zapodaj nadrjadowany zapisk<br /><br />Na př., hdyž je tuchwilne "
-"mestno file:/home/%1, dóstanjeće so z klikom na tute tłóčatko do file:/home."
-"</html>"
-
-#: src/konqmainwindow.cpp:3797
-msgid "Enter the parent folder"
-msgstr "Do nadrjadowaneho zapiska hić"
-
-#: src/konqmainwindow.cpp:3799 src/konqmainwindow.cpp:3800
-msgid "Move backwards one step in the browsing history"
-msgstr "Dźe jednu kročel wróćo w stawiznach browsowanja"
-
-#: src/konqmainwindow.cpp:3802 src/konqmainwindow.cpp:3803
-msgid "Move forward one step in the browsing history"
-msgstr "Dźe jednu kročel dale w stawiznach browsowanja"
-
-#: src/konqmainwindow.cpp:3806 src/konqmainwindow.cpp:3807
-msgid "Move backwards one step in the closed tabs history"
-msgstr "Dźe jednu kročel wróćo w stawiznach začinjenych tabulatorow"
-
-#: src/konqmainwindow.cpp:3810
-msgid ""
-"<html>Reload the currently displayed document<br /><br />This may, for "
-"example, be needed to refresh web pages that have been modified since they "
-"were loaded, in order to make the changes visible.</html>"
-msgstr ""
-"<html>Tuchwilu pokazany dokument znowa začitać<br /><br />To je na př. "
-"trěbne za aktualizowanje internetowych stronow, kiž buchu modifikowane wot "
-"toho časa, hdyž so začitachu.</html>"
-
-#: src/konqmainwindow.cpp:3813
-msgid "Reload the currently displayed document"
-msgstr "Tuchwilu pokazany dokument znowa začitać"
-
-#: src/konqmainwindow.cpp:3815
-msgid ""
-"<html>Reload all currently displayed documents in tabs<br /><br />This may, "
-"for example, be needed to refresh web pages that have been modified since "
-"they were loaded, in order to make the changes visible.</html>"
-msgstr ""
-"<html>Dokumenty we wšěch tabulatorach znowa začitać<br /><br />To je na př. "
-"trěbne za aktualizowanje internetowych stronow, kiž buchu změnjene wot toho "
-"časa, hdyž so začitachu.</html>"
-
-#: src/konqmainwindow.cpp:3818
-msgid "Reload all currently displayed document in tabs"
-msgstr "Wšě tuchwilu pokazowane dokumenty w tabulatorach so znowa začitaja"
-
-#: src/konqmainwindow.cpp:3820
-msgid ""
-"<html>Stop loading the document<br /><br />All network transfers will be "
-"stopped and Konqueror will display the content that has been received so far."
-"</html>"
-msgstr ""
-"<html>Zastaji začitanje dokumenta<br /><br />Přenjesenje přez syć so zastaji "
-"a konqueror pokaže, štož je so dotal přenjesło.</html>"
-
-#: src/konqmainwindow.cpp:3824
-msgid ""
-"<html>Reload the currently displayed document<br /><br />This may, for "
-"example, be needed to refresh web pages that have been modified since they "
-"were loaded, in order to make the changes visible.  Any images on the page "
-"are downloaded again, even if cached copies exist.</html>"
-msgstr ""
-"<html>Tuchwilu pokazowany dokument znowa začitać<br /><br />To je na př. "
-"trěbne za aktualizowanje internetowych stronow, kiž buchu změnjene wot toho "
-"časa, hdyž so začitachu. Wšitke wobrazy na stronje so znowa přenjesu, samo "
-"hdyž lokalne temporarne kopije eksistuja.</html>"
-
-#: src/konqmainwindow.cpp:3828
-msgid ""
-"Force a reload of the currently displayed document and any contained images"
-msgstr ""
-"Wunuzuje znowazačitanje tuchwilu pokazowaneho dokumenta a wšitkich wobrazow "
-"w nim."
-
-#: src/konqmainwindow.cpp:3831
-msgid "Stop loading the document"
-msgstr "Zastaji začitanje dokumenta"
-
-#: src/konqmainwindow.cpp:3833
-msgid ""
-"<html>Cut the currently selected text or item(s) and move it to the system "
-"clipboard<br /><br />This makes it available to the <b>Paste</b> command in "
-"Konqueror and other KDE applications.</html>"
-msgstr ""
-"<html>Wutřiha wubrany tekst abo objekty a přesunje je do systemoweho "
-"clipboarda.<br /><br />Wone su potom přistupne za přikaz <b>Zasunyć</b> w "
-"konqueroru a druhich KDE-aplikacijach.</html>"
-
-#: src/konqmainwindow.cpp:3837
-msgid "Move the selected text or item(s) to the clipboard"
-msgstr "Přesunje wubrany tekst abo objekt(y) do clipboarda"
-
-#: src/konqmainwindow.cpp:3839
-msgid ""
-"<html>Copy the currently selected text or item(s) to the system "
-"clipboard<br /><br />This makes it available to the <b>Paste</b> command in "
-"Konqueror and other KDE applications.</html>"
-msgstr ""
-"<html>Kopěruje wubrany tekst abo objekty do systemoweho clipboarda.<br /"
-"><br />Wone su potom přistupne za přikaz <b>Zasunyć</b> w konqueroru a "
-"druhich KDE-aplikacijach.</html>"
-
-#: src/konqmainwindow.cpp:3843
-msgid "Copy the selected text or item(s) to the clipboard"
-msgstr "Kopěruje wubrany tekst abo objekt(y) do clipboarda"
-
-#: src/konqmainwindow.cpp:3845
-msgid ""
-"<html>Paste the previously cut or copied clipboard contents<br /><br />This "
-"also works for text copied or cut from other KDE applications.</html>"
-msgstr ""
-"<html>Zasunje wobsah clipboarda<br /><br />To funguje tež za tekst, kiž bu z "
-"druhich KDE-aplikacijow kopěrowany abo wutřihany.</html>"
-
-#: src/konqmainwindow.cpp:3848
-msgid "Paste the clipboard contents"
-msgstr "Zasunje wobsah clipboarda"
-
-#: src/konqmainwindow.cpp:3850
-msgid ""
-"<html>Print the currently displayed document<br /><br />You will be "
-"presented with a dialog where you can set various options, such as the "
-"number of copies to print and which printer to use.<br /><br />This dialog "
-"also provides access to special KDE printing services such as creating a PDF "
-"file from the current document.</html>"
-msgstr ""
-"<html>Wućišći tuchwilu pokazowany dokument.<br /><br />Pokaže dialog z "
-"opcijemi, hdźež móžeće na př. nastajić, kelko kopijow chceće ćišćeć abo "
-"kotry ćišćak ma so wužiwać.<br /><br />Tutón dialog spřistupni tež specielne "
-"ćišćenske słužby kaž konwertowanje tuchwilneho dokumenta do PDF-dataje.</"
-"html>"
-
-#: src/konqmainwindow.cpp:3856
-msgid "Print the current document"
-msgstr "Aktualny dokument ćišćeć"
-
-#: src/konqmainwindow.cpp:3862
-msgid "If present, open index.html when entering a folder."
-msgstr "Wočini index.html, jeli eksistuje we wotpowědnym zapisku."
-
-#: src/konqmainwindow.cpp:3863
-msgid ""
-"A locked view cannot change folders. Use in combination with 'link view' to "
-"explore many files from one folder"
-msgstr ""
-"Zapisk njehodźi so změnić, hdyź je napohlad zamknjeny. Wužiwajće to z 'na "
-"napohlad wotkazać', zo byšće wjele datajow z jednoho zapiska přelistowali."
-
-#: src/konqmainwindow.cpp:3864
-msgid ""
-"Sets the view as 'linked'. A linked view follows folder changes made in "
-"other linked views."
-msgstr ""
-"Na napohlad so 'wotkazuje'. Napohlady, kotrež na so wotkazuja, pokazuja "
-"přeco samsne adresy a zapiski."
-
-#: src/konqmainwindow.cpp:4047
-msgid "Copy &Files..."
-msgstr "Dataje &kopěrować..."
-
-#: src/konqmainwindow.cpp:4051
-msgid "M&ove Files..."
-msgstr "Dataje přes&unyć..."
-
-#: src/konqmainwindow.cpp:4401
-msgid ""
-"You have requested to open more than 20 bookmarks in tabs. This might take a "
-"while. Continue?"
-msgstr ""
-"Chceć naraz wjace hač 20 lubuškow wočinić. To móže chwilku trać. Pokročować?"
-
-#: src/konqmainwindow.cpp:4403
-#, fuzzy
-#| msgid "Open bookmarks folder in new tabs"
-msgctxt "@title:window"
-msgid "Open bookmarks folder in new tabs"
-msgstr "Zapisk lubuškow w nowych tabulatorach wočinić"
-
-#: src/konqmainwindow.cpp:4570
-msgid "Open in T&his Window"
-msgstr "Wočinić w &tutym woknje"
-
-#: src/konqmainwindow.cpp:4571
-msgid "Open the document in current window"
-msgstr "Wočini dokument w aktualnym woknje"
-
-#: src/konqmainwindow.cpp:4578
-msgid "Open the document in a new window"
-msgstr "Wočini dokument w nowym woknje"
-
-#: src/konqmainwindow.cpp:4584
-msgid "Open in &New Tab"
-msgstr "Wočinić w nowym t&abulatoru"
-
-#: src/konqmainwindow.cpp:4586
-msgid "Open the document in a new tab"
-msgstr "Wočini dokumenta w nowym tabulatoru"
-
-#: src/konqmainwindow.cpp:4798
-msgid "&Open With"
-msgstr "W&očinić z"
-
-#: src/konqmainwindow.cpp:4812
-#, kde-format
-msgid "Open with %1"
-msgstr "Wočinić z %1"
-
-#: src/konqmainwindow.cpp:4858
-msgctxt "@action:inmenu View"
-msgid "&View Mode"
-msgstr "Modus &wobhladowanja"
-
-#: src/konqmainwindow.cpp:4984
-msgid ""
-"You have multiple tabs open in this window, are you sure you want to quit?"
-msgstr ""
-"W tutym woknje su někotre tabulatory wočinjene, chceće je woprawdźe "
-"zezačinjeć?"
-
-#: src/konqmainwindow.cpp:4988
-msgid "C&lose Current Tab"
-msgstr "Aktualny tabulator &začinić"
-
-#: src/konqmainwindow.cpp:5017
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Closing the window will discard these changes."
-msgstr ""
-"Tutón tabulator wobsahuje změny, kiž njebuchu hišće wotpósłane.\n"
-"Hdyž wokno začiniće, so tute změny zhubja."
-
-#: src/konqmainwindow.cpp:5018
-msgid ""
-"This page contains changes that have not been submitted.\n"
-"Closing the window will discard these changes."
-msgstr ""
-"Tuta strona wobsahuje njepósłane změny.\n"
-"Hdyž ju začiniće, zaćisnjeće tute změny."
-
-#: src/konqmainwindow.cpp:5186
-msgid ""
-"Your sidebar is not functional or unavailable. A new entry cannot be added."
-msgstr ""
-"Bóčny pas njefunguje abo njeje přistupny. Nowy zapis njehodźi so dodać."
-
-#: src/konqmainwindow.cpp:5186 src/konqmainwindow.cpp:5193
-#, fuzzy
-#| msgid "Web Sidebar"
-msgctxt "@title:window"
-msgid "Web Sidebar"
-msgstr "Bóčny pas za web"
-
-#: src/konqmainwindow.cpp:5191
-#, kde-format
-msgid "Add new web extension \"%1\" to your sidebar?"
-msgstr "Ma so nowa internetowa ekstensija \"%1\" k bóčnemu pasej dodać?"
-
-#: src/konqmainwindow.cpp:5193
-msgid "Add"
-msgstr "Dodać"
-
-#: src/konqmainwindow.cpp:5193
-msgid "Do Not Add"
-msgstr "Nic dodać"
-
-#: src/konqmainwindow.cpp:5506
-#, kde-format
-msgid ""
-"There appears to be a configuration error. You have associated Konqueror "
-"with %1, but it cannot handle this file type."
-msgstr ""
-"Pozdaću so jedna wo zmylk w konfiguraciji. Konqueror je asociěrowany z %1, "
-"njemóže pak z tutej družinu ničo započeć."
-
-#: src/konqframestatusbar.cpp:116
-msgid ""
-"Checking this box on at least two views sets those views as 'linked'. Then, "
-"when you change directories in one view, the other views linked with it will "
-"automatically update to show the current directory. This is especially "
-"useful with different types of views, such as a directory tree with an icon "
-"view or detailed view, and possibly a terminal emulator window."
-msgstr ""
-
-#: src/konqframestatusbar.cpp:163
-msgid "Close View"
-msgstr "Napohlad začinić"
-
-#: src/konqframestatusbar.cpp:243
-#, kde-format
-msgid "%1/s"
-msgstr "%1/s"
-
-#: src/konqframestatusbar.cpp:245
-msgid "Stalled"
-msgstr "Zastajene"
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy
@@ -1382,121 +1382,6 @@ msgstr "Bóčny pas za web"
 msgctxt "@title:tab"
 msgid "Places"
 msgstr ""
-
-#: sidebar/sidebar_part.cpp:28
-msgid "Extended Sidebar"
-msgstr ""
-
-#: sidebar/sidebar_widget.cpp:94
-msgid "Rollback to System Default"
-msgstr "Wróćo k standardej"
-
-#: sidebar/sidebar_widget.cpp:154 sidebar/sidebar_widget.cpp:431
-msgid "Configure Sidebar"
-msgstr "Bóčny pas připrawić"
-
-#: sidebar/sidebar_widget.cpp:156
-msgid "Add New"
-msgstr "Nowy dodać"
-
-#: sidebar/sidebar_widget.cpp:160
-msgid "Multiple Views"
-msgstr "Wjacore napohlady"
-
-#: sidebar/sidebar_widget.cpp:162 sidebar/sidebar_widget.cpp:277
-msgid "Show Tabs Left"
-msgstr "Tabulatory na lěwym boku"
-
-#: sidebar/sidebar_widget.cpp:163
-msgid "Show Configuration Button"
-msgstr "Připrawjenske tłóčatko pokazać"
-
-#: sidebar/sidebar_widget.cpp:166
-#, fuzzy
-#| msgid "Web Sidebar"
-msgid "Close Sidebar"
-msgstr "Bóčny pas za web"
-
-#: sidebar/sidebar_widget.cpp:224
-msgid "This entry already exists."
-msgstr "Tutón zapisk hižo eksistuje."
-
-#: sidebar/sidebar_widget.cpp:235
-msgid ""
-"<qt>This removes all your entries from the sidebar and adds the system "
-"default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
-"proceed?</qt>"
-msgstr ""
-"<qt>To wšě Waše zapisy z bóčneho pasa wumaznje a standardne doda.<br /><b>To "
-"so njehodźi wróćo wjerćeć.</b><br />Chceće pokročować?</qt>"
-
-#: sidebar/sidebar_widget.cpp:277
-msgid "Show Tabs Right"
-msgstr "Tabulatory na prawym boku"
-
-#: sidebar/sidebar_widget.cpp:287
-#, fuzzy
-#| msgid "Set Name"
-msgctxt "@title:window"
-msgid "Set Name"
-msgstr "Mjeno zapodać"
-
-#: sidebar/sidebar_widget.cpp:287
-msgid "Enter the name:"
-msgstr "Zapodajće mjeno:"
-
-#: sidebar/sidebar_widget.cpp:304
-msgid "Enter a URL:"
-msgstr "URL zapodać:"
-
-#: sidebar/sidebar_widget.cpp:327
-#, kde-format
-msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
-msgstr "<qt>Chceće woprawdźe tabulator <b>%1</b> wumaznyć?</qt>"
-
-#: sidebar/sidebar_widget.cpp:372
-#, fuzzy
-#| msgid ""
-#| "You have hidden the navigation panel configuration button. To make it "
-#| "visible again, click the right mouse button on any of the navigation "
-#| "panel buttons and select \"Show Configuration Button\"."
-msgid ""
-"You have hidden the sidebar configuration button. To make it visible again, "
-"click the right mouse button on any of the sidebar buttons and select \"Show "
-"Configuration Button\"."
-msgstr ""
-"Sće připrawjenske tłóčatko za nawigaciski pas schowali. Hdyž chceće je zaso "
-"měć, klikńće z prawej myšacej tastu na někajke tłóčatko pasa a wubjerće "
-"\"Připrawjenske tłóčatko pokazać\"."
-
-#: sidebar/sidebar_widget.cpp:549
-msgid "Set Name..."
-msgstr "Mjeno zapodać..."
-
-#: sidebar/sidebar_widget.cpp:550
-msgid "Set URL..."
-msgstr "URL zapodać..."
-
-#: sidebar/sidebar_widget.cpp:551
-msgid "Set Icon..."
-msgstr "Piktogram wubrać..."
-
-#: sidebar/sidebar_widget.cpp:553
-msgid "Remove"
-msgstr "W&umaznyć"
-
-#: sidebar/sidebar_widget.cpp:846
-#, fuzzy
-#| msgid "Web Sidebar"
-msgid "Web module"
-msgstr "Bóčny pas za web"
-
-#: sidebar/trees/bookmark_module/bookmark_module.h:88
-#, fuzzy
-#| msgid "Add Bookmark"
-msgctxt "@title:window"
-msgid "Add Bookmark"
-msgstr "Lubušk dodać"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:75
 msgid "&Create New Folder"
@@ -1596,29 +1481,17 @@ msgstr "Mjeno:"
 msgid "Location:"
 msgstr "Městno: "
 
+#: sidebar/trees/bookmark_module/bookmark_module.h:88
+#, fuzzy
+#| msgid "Add Bookmark"
+msgctxt "@title:window"
+msgid "Add Bookmark"
+msgstr "Lubušk dodać"
+
 #: sidebar/trees/dirtree_module/dirtree_module.cpp:417
 #, kde-format
 msgid "Cannot find parent item %1 in the tree. Internal error."
 msgstr "Njemóžu nadrjadowany objekt %1 w štomje namakać. Nutřkowny zmylk."
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@label"
-msgid "Name:"
-msgstr "Mjeno:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-msgctxt "@label"
-msgid "Path or URL:"
-msgstr ""
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
-msgstr ""
 
 #: sidebar/trees/konq_sidebartree.cpp:203
 msgid "&Create New Folder..."
@@ -1650,6 +1523,25 @@ msgstr "Nowy zapisk stworić"
 #: sidebar/trees/konq_sidebartree.cpp:956
 msgid "Enter folder name:"
 msgstr "Zapodajće mjeno zapiska:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@label"
+msgid "Name:"
+msgstr "Mjeno:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr ""
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr ""
 
 #: sidebar/web_module/web_module.cpp:57
 msgid "&Open Link"
@@ -1696,6 +1588,114 @@ msgstr "Bóčny pas za web"
 msgctxt "@title:window"
 msgid "Add web sidebar module"
 msgstr ""
+
+#: sidebar/sidebar_part.cpp:28
+msgid "Extended Sidebar"
+msgstr ""
+
+#: sidebar/sidebar_widget.cpp:95
+msgid "Rollback to System Default"
+msgstr "Wróćo k standardej"
+
+#: sidebar/sidebar_widget.cpp:155 sidebar/sidebar_widget.cpp:432
+msgid "Configure Sidebar"
+msgstr "Bóčny pas připrawić"
+
+#: sidebar/sidebar_widget.cpp:157
+msgid "Add New"
+msgstr "Nowy dodać"
+
+#: sidebar/sidebar_widget.cpp:161
+msgid "Multiple Views"
+msgstr "Wjacore napohlady"
+
+#: sidebar/sidebar_widget.cpp:163 sidebar/sidebar_widget.cpp:278
+msgid "Show Tabs Left"
+msgstr "Tabulatory na lěwym boku"
+
+#: sidebar/sidebar_widget.cpp:164
+msgid "Show Configuration Button"
+msgstr "Připrawjenske tłóčatko pokazać"
+
+#: sidebar/sidebar_widget.cpp:167
+#, fuzzy
+#| msgid "Web Sidebar"
+msgid "Close Sidebar"
+msgstr "Bóčny pas za web"
+
+#: sidebar/sidebar_widget.cpp:225
+msgid "This entry already exists."
+msgstr "Tutón zapisk hižo eksistuje."
+
+#: sidebar/sidebar_widget.cpp:236
+msgid ""
+"<qt>This removes all your entries from the sidebar and adds the system "
+"default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
+"proceed?</qt>"
+msgstr ""
+"<qt>To wšě Waše zapisy z bóčneho pasa wumaznje a standardne doda.<br /><b>To "
+"so njehodźi wróćo wjerćeć.</b><br />Chceće pokročować?</qt>"
+
+#: sidebar/sidebar_widget.cpp:278
+msgid "Show Tabs Right"
+msgstr "Tabulatory na prawym boku"
+
+#: sidebar/sidebar_widget.cpp:288
+#, fuzzy
+#| msgid "Set Name"
+msgctxt "@title:window"
+msgid "Set Name"
+msgstr "Mjeno zapodać"
+
+#: sidebar/sidebar_widget.cpp:288
+msgid "Enter the name:"
+msgstr "Zapodajće mjeno:"
+
+#: sidebar/sidebar_widget.cpp:305
+msgid "Enter a URL:"
+msgstr "URL zapodać:"
+
+#: sidebar/sidebar_widget.cpp:328
+#, kde-format
+msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
+msgstr "<qt>Chceće woprawdźe tabulator <b>%1</b> wumaznyć?</qt>"
+
+#: sidebar/sidebar_widget.cpp:373
+#, fuzzy
+#| msgid ""
+#| "You have hidden the navigation panel configuration button. To make it "
+#| "visible again, click the right mouse button on any of the navigation "
+#| "panel buttons and select \"Show Configuration Button\"."
+msgid ""
+"You have hidden the sidebar configuration button. To make it visible again, "
+"click the right mouse button on any of the sidebar buttons and select \"Show "
+"Configuration Button\"."
+msgstr ""
+"Sće připrawjenske tłóčatko za nawigaciski pas schowali. Hdyž chceće je zaso "
+"měć, klikńće z prawej myšacej tastu na někajke tłóčatko pasa a wubjerće "
+"\"Připrawjenske tłóčatko pokazać\"."
+
+#: sidebar/sidebar_widget.cpp:550
+msgid "Set Name..."
+msgstr "Mjeno zapodać..."
+
+#: sidebar/sidebar_widget.cpp:551
+msgid "Set URL..."
+msgstr "URL zapodać..."
+
+#: sidebar/sidebar_widget.cpp:552
+msgid "Set Icon..."
+msgstr "Piktogram wubrać..."
+
+#: sidebar/sidebar_widget.cpp:554
+msgid "Remove"
+msgstr "W&umaznyć"
+
+#: sidebar/sidebar_widget.cpp:847
+#, fuzzy
+#| msgid "Web Sidebar"
+msgid "Web module"
+msgstr "Bóčny pas za web"
 
 #: about/konq_aboutpage.cc:79 about/konq_aboutpage.cc:81
 #: about/konq_aboutpage.cc:135 about/konq_aboutpage.cc:137
