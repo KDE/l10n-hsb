@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-01 19:10+0200\n"
+"POT-Creation-Date: 2012-05-05 12:43+0200\n"
 "PO-Revision-Date: 2008-12-19 22:49+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -11452,36 +11452,9 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "Skript wočinić"
 
-#: khtml/ecma/kjs_html.cpp:2162 khtml/ecma/kjs_window.cpp:1650
+#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2162
 msgid "Confirmation: JavaScript Popup"
 msgstr "Wobkrućenje: JavaScript Woknješko"
-
-#: khtml/ecma/kjs_html.cpp:2164
-msgid ""
-"This site is submitting a form which will open up a new browser window via "
-"JavaScript.\n"
-"Do you want to allow the form to be submitted?"
-msgstr ""
-"Tutón server sćele formular, kiž nowe wokno z JavaScript wočini.\n"
-"Chceće to jemu dowolić?"
-
-#: khtml/ecma/kjs_html.cpp:2167
-#, kde-format
-msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
-msgstr ""
-"<qt>Tutón server sćele formular, kiž wočini<p>%1</p> w nowym woknje z "
-"JavaScript.<br/>Smě so formular pósłać?</qt>"
-
-#: khtml/ecma/kjs_html.cpp:2169 khtml/ecma/kjs_window.cpp:1658
-msgid "Allow"
-msgstr "dowolić"
-
-#: khtml/ecma/kjs_html.cpp:2169 khtml/ecma/kjs_window.cpp:1658
-msgid "Do Not Allow"
-msgstr "nic dowolić"
 
 #: khtml/ecma/kjs_window.cpp:1653
 msgid ""
@@ -11499,6 +11472,14 @@ msgid ""
 msgstr ""
 "<qt>Tutón server chce <p>%1</p> w nowym woknje z JavaScript wočinić.<br/"
 ">Chceće to jemu dowolić?</qt>"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2169
+msgid "Allow"
+msgstr "dowolić"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2169
+msgid "Do Not Allow"
+msgstr "nic dowolić"
 
 #: khtml/ecma/kjs_window.cpp:1971
 msgid "Close window?"
@@ -11534,6 +11515,25 @@ msgstr "Zasunyć"
 msgid "Disallow"
 msgstr "Wotpokazać"
 
+#: khtml/ecma/kjs_html.cpp:2164
+msgid ""
+"This site is submitting a form which will open up a new browser window via "
+"JavaScript.\n"
+"Do you want to allow the form to be submitted?"
+msgstr ""
+"Tutón server sćele formular, kiž nowe wokno z JavaScript wočini.\n"
+"Chceće to jemu dowolić?"
+
+#: khtml/ecma/kjs_html.cpp:2167
+#, kde-format
+msgid ""
+"<qt>This site is submitting a form which will open <p>%1</p> in a new "
+"browser window via JavaScript.<br />Do you want to allow the form to be "
+"submitted?</qt>"
+msgstr ""
+"<qt>Tutón server sćele formular, kiž wočini<p>%1</p> w nowym woknje z "
+"JavaScript.<br/>Smě so formular pósłać?</qt>"
+
 #: khtml/ecma/debugger/consoledock.cpp:220
 msgid "Console"
 msgstr "Konsola"
@@ -11549,14 +11549,6 @@ msgstr "JavaScriptowy zmylk"
 #: khtml/ecma/debugger/errordlg.cpp:49
 msgid "&Do not show this message again"
 msgstr "&Njepraj mi to hišće raz"
-
-#: khtml/ecma/debugger/localvariabledock.cpp:43
-msgid "Local Variables"
-msgstr "Lokalne wariable"
-
-#: khtml/ecma/debugger/localvariabledock.cpp:51
-msgid "Reference"
-msgstr "Wotkaz"
 
 #: khtml/ecma/debugger/callstackdock.cpp:37
 msgid "Call Stack"
@@ -11664,6 +11656,14 @@ msgstr "Wuhódnoćenje je ekcepciju %1 wuwołało"
 #: khtml/ecma/debugger/scriptsdock.cpp:43
 msgid "Loaded Scripts"
 msgstr "Začitane skripty"
+
+#: khtml/ecma/debugger/localvariabledock.cpp:43
+msgid "Local Variables"
+msgstr "Lokalne wariable"
+
+#: khtml/ecma/debugger/localvariabledock.cpp:51
+msgid "Reference"
+msgstr "Wotkaz"
 
 #: khtml/html/htmlparser.cpp:1938
 msgid "This is a searchable index. Enter search keywords: "
