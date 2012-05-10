@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-19 04:02+0200\n"
+"POT-Creation-Date: 2012-05-10 04:31+0200\n"
 "PO-Revision-Date: 2008-11-22 23:21+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -18,19 +18,30 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
-#: ikwsopts.cpp:52
+#: ikwsopts.cpp:53
 msgid "Name"
 msgstr "Mjeno"
 
-#: ikwsopts.cpp:53
+#: ikwsopts.cpp:55
 msgid "Shortcuts"
 msgstr "Skrótšenki"
 
-#: ikwsopts.cpp:182
+#: ikwsopts.cpp:57
+msgid "Preferred"
+msgstr ""
+
+#: ikwsopts.cpp:106
+msgid ""
+"<qt>Check this box to select the highlighted web shortcut as preferred.<p/"
+"><br/>Preferred web shortcuts are used in places where only a few select "
+"shortcuts can be shown at one time.</qt>"
+msgstr ""
+
+#: ikwsopts.cpp:198
 msgid "None"
 msgstr "Žane"
 
-#: ikwsopts.cpp:246
+#: ikwsopts.cpp:262
 #, fuzzy
 #| msgid ""
 #| "<p>In this module you can configure the web shortcuts feature. Web "
@@ -95,7 +106,7 @@ msgstr "&Internetowe skrótšenki zaswěćić"
 #. i18n: file: ikwsopts_ui.ui:32
 #. i18n: ectx: property (text), widget (QCheckBox, cbUseSelectedShortcutsOnly)
 #: rc.cpp:11
-msgid "&Use selected shortcuts only"
+msgid "&Use preferred shortcuts only"
 msgstr ""
 
 #. i18n: file: ikwsopts_ui.ui:39
