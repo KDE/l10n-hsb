@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-11 04:12+0200\n"
+"POT-Creation-Date: 2012-05-12 04:23+0200\n"
 "PO-Revision-Date: 2008-11-21 01:09+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -553,82 +553,7 @@ msgstr ""
 msgid "&Only show when using this application (%1)"
 msgstr ""
 
-#: panels/places/placespanel.cpp:154 dolphincontextmenu.cpp:173
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "Prózdny papjernik"
-
-#: panels/places/placespanel.cpp:159 panels/places/placespanel.cpp:165
-#: panels/places/placespanel.cpp:224
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Add Comment..."
-msgctxt "@item:inmenu"
-msgid "Add Entry..."
-msgstr "Přispomnjenje dodać ..."
-
-#: panels/places/placespanel.cpp:161
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Add Comment..."
-msgctxt "@item:inmenu"
-msgid "Edit '%1'..."
-msgstr "Přispomnjenje dodać ..."
-
-#: panels/places/placespanel.cpp:168
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@item:inmenu"
-msgid "Open '%1' in New Tab"
-msgstr "W nowym tabulatoru wočinić"
-
-#: panels/places/placespanel.cpp:173
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu View"
-#| msgid "Reload"
-msgctxt "@item:inmenu"
-msgid "Remove '%1'"
-msgstr "Znowa začitać"
-
-#: panels/places/placespanel.cpp:176
-#, kde-format
-msgctxt "@item:inmenu"
-msgid "Hide '%1'"
-msgstr ""
-
-#: panels/places/placespanel.cpp:185 panels/places/placespanel.cpp:228
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Show tooltips"
-msgctxt "@item:inmenu"
-msgid "Show All Entries"
-msgstr "Tooltips pokazać"
-
-#: panels/places/placespanel.cpp:270
-msgctxt "@info"
-msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr "Chceće woprawdźe papjernik wuprózdnić? Wšitke objekty so zwumazaja."
-
-#: panels/places/placespanel.cpp:274
-msgctxt "@action:button"
-msgid "Empty Trash"
-msgstr "Prózdny papjernik"
-
-#: panels/places/placespanel.cpp:294
-#, fuzzy
-#| msgctxt "@action:inmenu Add current folder to places"
-#| msgid "Add to Places"
-msgctxt "@title:window"
-msgid "Add Places Entry"
-msgstr "Dodać k městnam"
-
-#: panels/places/placespanel.cpp:328
-msgctxt "@title:window"
-msgid "Edit Places Entry"
-msgstr ""
-
-#: panels/places/placesitem.cpp:50 panels/places/placesitemmodel.cpp:495
+#: panels/places/placesitem.cpp:57 panels/places/placesitemmodel.cpp:571
 #, fuzzy
 #| msgctxt "@title:window"
 #| msgid "Places"
@@ -636,12 +561,12 @@ msgctxt "@item"
 msgid "Places"
 msgstr "Městna"
 
-#: panels/places/placesitem.cpp:119
+#: panels/places/placesitem.cpp:140
 msgctxt "@item"
 msgid "Devices"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:218
+#: panels/places/placesitemmodel.cpp:222
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Add Comment..."
@@ -649,7 +574,7 @@ msgctxt "@item"
 msgid "Eject '%1'"
 msgstr "Přispomnjenje dodać ..."
 
-#: panels/places/placesitemmodel.cpp:233
+#: panels/places/placesitemmodel.cpp:258
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Reload"
@@ -657,7 +582,7 @@ msgctxt "@item"
 msgid "Release '%1'"
 msgstr "Znowa začitać"
 
-#: panels/places/placesitemmodel.cpp:236
+#: panels/places/placesitemmodel.cpp:260
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Reload"
@@ -665,7 +590,7 @@ msgctxt "@item"
 msgid "Safely Remove '%1'"
 msgstr "Znowa začitać"
 
-#: panels/places/placesitemmodel.cpp:240
+#: panels/places/placesitemmodel.cpp:263
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Reload"
@@ -673,7 +598,13 @@ msgctxt "@item"
 msgid "Unmount '%1'"
 msgstr "Znowa začitać"
 
-#: panels/places/placesitemmodel.cpp:398
+#: panels/places/placesitemmodel.cpp:300
+#, kde-format
+msgctxt "@info"
+msgid "The device '%1' is not a disk and cannot be ejected."
+msgstr ""
+
+#: panels/places/placesitemmodel.cpp:474
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Home URL"
@@ -681,7 +612,7 @@ msgctxt "@item"
 msgid "Home"
 msgstr "Domjaca URL"
 
-#: panels/places/placesitemmodel.cpp:402
+#: panels/places/placesitemmodel.cpp:478
 #, fuzzy
 #| msgctxt "@action:inmenu Go"
 #| msgid "&Network Folders"
@@ -689,12 +620,12 @@ msgctxt "@item"
 msgid "Network"
 msgstr "&Syćowe zapiski"
 
-#: panels/places/placesitemmodel.cpp:406
+#: panels/places/placesitemmodel.cpp:482
 msgctxt "@item"
 msgid "Root"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:410
+#: panels/places/placesitemmodel.cpp:486
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Trash"
@@ -702,7 +633,7 @@ msgctxt "@item"
 msgid "Trash"
 msgstr "Papjernik"
 
-#: panels/places/placesitemmodel.cpp:416
+#: panels/places/placesitemmodel.cpp:492
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Today"
@@ -710,7 +641,7 @@ msgctxt "@item Recently Accessed"
 msgid "Today"
 msgstr "Dźensa"
 
-#: panels/places/placesitemmodel.cpp:420
+#: panels/places/placesitemmodel.cpp:496
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Yesterday"
@@ -718,7 +649,7 @@ msgctxt "@item Recently Accessed"
 msgid "Yesterday"
 msgstr "Wčera"
 
-#: panels/places/placesitemmodel.cpp:424
+#: panels/places/placesitemmodel.cpp:500
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Earlier this Month"
@@ -726,7 +657,7 @@ msgctxt "@item Recently Accessed"
 msgid "This Month"
 msgstr "Zašo w tutym měsacu"
 
-#: panels/places/placesitemmodel.cpp:428
+#: panels/places/placesitemmodel.cpp:504
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Earlier this Month"
@@ -734,7 +665,7 @@ msgctxt "@item Recently Accessed"
 msgid "Last Month"
 msgstr "Zašo w tutym měsacu"
 
-#: panels/places/placesitemmodel.cpp:432
+#: panels/places/placesitemmodel.cpp:508
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -742,7 +673,7 @@ msgctxt "@item Commonly Accessed"
 msgid "Documents"
 msgstr "Dokumentacija"
 
-#: panels/places/placesitemmodel.cpp:436
+#: panels/places/placesitemmodel.cpp:512
 #, fuzzy
 #| msgctxt "@item:inlistbox Sort"
 #| msgid "By Size"
@@ -750,17 +681,17 @@ msgctxt "@item Commonly Accessed"
 msgid "Images"
 msgstr "po wulkosći"
 
-#: panels/places/placesitemmodel.cpp:440
+#: panels/places/placesitemmodel.cpp:516
 msgctxt "@item Commonly Accessed"
 msgid "Audio"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:444
+#: panels/places/placesitemmodel.cpp:520
 msgctxt "@item Commonly Accessed"
 msgid "Videos"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:500
+#: panels/places/placesitemmodel.cpp:576
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Close Tab"
@@ -768,13 +699,88 @@ msgctxt "@item"
 msgid "Recently Accessed"
 msgstr "Tabulator začinić"
 
-#: panels/places/placesitemmodel.cpp:505
+#: panels/places/placesitemmodel.cpp:581
 #, fuzzy
 #| msgctxt "@title:menu"
 #| msgid "Main Toolbar"
 msgctxt "@item"
 msgid "Search For"
 msgstr "Hłowny nastrojowy pas"
+
+#: panels/places/placespanel.cpp:156 dolphincontextmenu.cpp:173
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "Prózdny papjernik"
+
+#: panels/places/placespanel.cpp:161 panels/places/placespanel.cpp:167
+#: panels/places/placespanel.cpp:228
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Add Comment..."
+msgctxt "@item:inmenu"
+msgid "Add Entry..."
+msgstr "Přispomnjenje dodać ..."
+
+#: panels/places/placespanel.cpp:163
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Add Comment..."
+msgctxt "@item:inmenu"
+msgid "Edit '%1'..."
+msgstr "Přispomnjenje dodać ..."
+
+#: panels/places/placespanel.cpp:170
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Tab"
+msgctxt "@item:inmenu"
+msgid "Open '%1' in New Tab"
+msgstr "W nowym tabulatoru wočinić"
+
+#: panels/places/placespanel.cpp:175
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu View"
+#| msgid "Reload"
+msgctxt "@item:inmenu"
+msgid "Remove '%1'"
+msgstr "Znowa začitać"
+
+#: panels/places/placespanel.cpp:178
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Hide '%1'"
+msgstr ""
+
+#: panels/places/placespanel.cpp:187 panels/places/placespanel.cpp:232
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Show tooltips"
+msgctxt "@item:inmenu"
+msgid "Show All Entries"
+msgstr "Tooltips pokazać"
+
+#: panels/places/placespanel.cpp:274
+msgctxt "@info"
+msgid "Do you really want to empty the Trash? All items will be deleted."
+msgstr "Chceće woprawdźe papjernik wuprózdnić? Wšitke objekty so zwumazaja."
+
+#: panels/places/placespanel.cpp:278
+msgctxt "@action:button"
+msgid "Empty Trash"
+msgstr "Prózdny papjernik"
+
+#: panels/places/placespanel.cpp:298
+#, fuzzy
+#| msgctxt "@action:inmenu Add current folder to places"
+#| msgid "Add to Places"
+msgctxt "@title:window"
+msgid "Add Places Entry"
+msgstr "Dodać k městnam"
+
+#: panels/places/placespanel.cpp:332
+msgctxt "@title:window"
+msgid "Edit Places Entry"
+msgstr ""
 
 #: search/dolphinfacetswidget.cpp:61
 #, fuzzy
@@ -2017,6 +2023,68 @@ msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "Njewalidny protokol"
 
+#: dolphincontextmenu.cpp:179 dolphincontextmenu.cpp:341
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "Dodać k městnam"
+
+#: dolphincontextmenu.cpp:199
+msgctxt "@label"
+msgid "Trash"
+msgstr "Papjernik"
+
+#: dolphincontextmenu.cpp:209
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "Restawrować"
+
+#: dolphincontextmenu.cpp:248 dolphinmainwindow.cpp:1492
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "Nowy objekt stworić"
+
+#: dolphincontextmenu.cpp:261
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "K městnam dodać"
+
+#: dolphincontextmenu.cpp:268
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Window"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr "W nowym woknje wočinić"
+
+#: dolphincontextmenu.cpp:274
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Tab"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr "W nowym tabulatoru wočinić"
+
+#: dolphincontextmenu.cpp:440
+msgctxt "@action:inmenu"
+msgid "Paste Into Folder"
+msgstr "Do zapiska zasunyć"
+
+#: dolphincontextmenu.cpp:551
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "&Move to Trash"
+msgstr "Do papjernika přesunyć"
+
+#: dolphincontextmenu.cpp:554
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "zničić"
+
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -2603,68 +2671,6 @@ msgstr "Nastroje"
 msgctxt "@title:menu"
 msgid "Dolphin Toolbar"
 msgstr "Dolphinowy nastrojowy pas"
-
-#: dolphincontextmenu.cpp:179 dolphincontextmenu.cpp:341
-msgctxt "@action:inmenu Add current folder to places"
-msgid "Add to Places"
-msgstr "Dodać k městnam"
-
-#: dolphincontextmenu.cpp:199
-msgctxt "@label"
-msgid "Trash"
-msgstr "Papjernik"
-
-#: dolphincontextmenu.cpp:209
-msgctxt "@action:inmenu"
-msgid "Restore"
-msgstr "Restawrować"
-
-#: dolphincontextmenu.cpp:248 dolphinmainwindow.cpp:1492
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "Nowy objekt stworić"
-
-#: dolphincontextmenu.cpp:261
-msgctxt "@action:inmenu Add selected folder to places"
-msgid "Add to Places"
-msgstr "K městnam dodać"
-
-#: dolphincontextmenu.cpp:268
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Window"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Window"
-msgstr "W nowym woknje wočinić"
-
-#: dolphincontextmenu.cpp:274
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Tab"
-msgstr "W nowym tabulatoru wočinić"
-
-#: dolphincontextmenu.cpp:440
-msgctxt "@action:inmenu"
-msgid "Paste Into Folder"
-msgstr "Do zapiska zasunyć"
-
-#: dolphincontextmenu.cpp:551
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "&Move to Trash"
-msgstr "Do papjernika přesunyć"
-
-#: dolphincontextmenu.cpp:554
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "&Delete"
-msgstr "zničić"
 
 #: main.cpp:35
 msgctxt "@title"
