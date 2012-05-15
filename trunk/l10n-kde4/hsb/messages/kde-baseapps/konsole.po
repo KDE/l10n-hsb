@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-14 04:49+0200\n"
+"POT-Creation-Date: 2012-05-15 04:58+0200\n"
 "PO-Revision-Date: 2003-12-23 17:19+0100\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -2260,35 +2260,54 @@ msgstr "Wubrany tekst zasunyć"
 msgid "Change &Directory To"
 msgstr ""
 
-#: ViewContainer.cpp:442
+#: ViewContainer.cpp:271
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Tab Bar</title><para>The tab bar allows you to switch and move tabs. "
+"You can double-click a tab to change its name.</para>"
+msgstr ""
+
+#: ViewContainer.cpp:447
 #, fuzzy
 #| msgid "&Detach Session"
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr "&Interpreter w pozadku dale běžeć dać"
 
-#: ViewContainer.cpp:446
+#: ViewContainer.cpp:451
 #, fuzzy
 #| msgid "&Terminate Task"
 msgctxt "@action:inmenu"
 msgid "&Rename Tab..."
 msgstr "Proces za&kónčić"
 
-#: ViewContainer.cpp:452
+#: ViewContainer.cpp:457
 #, fuzzy
 msgctxt "@action:inmenu"
 msgid "&Close Tab"
 msgstr "Interpreter &zakónčić"
 
-#: ViewContainer.cpp:458
+#: ViewContainer.cpp:463
 msgctxt "@info:tooltip"
 msgid "Create new tab"
 msgstr ""
 
-#: ViewContainer.cpp:463
+#: ViewContainer.cpp:464
+msgctxt "@info:whatsthis"
+msgid "Create a new tab. Press and hold to select profile from menu"
+msgstr ""
+
+#: ViewContainer.cpp:469
 #, fuzzy
 msgctxt "@info:tooltip"
-msgid "Close current tab"
+msgid "Close tab"
+msgstr "Interpreter &zakónčić"
+
+#: ViewContainer.cpp:470
+#, fuzzy
+#| msgid "C&lose Session"
+msgctxt "@info:whatsthis"
+msgid "Close the active tab"
 msgstr "Interpreter &zakónčić"
 
 #: ViewManager.cpp:150
@@ -2388,6 +2407,11 @@ msgstr ""
 #, fuzzy
 msgid "&Stop"
 msgstr "&Stój"
+
+#, fuzzy
+#~ msgctxt "@info:tooltip"
+#~ msgid "Close current tab"
+#~ msgstr "Interpreter &zakónčić"
 
 #, fuzzy
 #~| msgid "&Find in History..."
