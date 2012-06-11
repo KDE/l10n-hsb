@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-10 04:26+0200\n"
+"POT-Creation-Date: 2012-06-11 04:48+0200\n"
 "PO-Revision-Date: 2008-11-17 23:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -1274,76 +1274,6 @@ msgstr "Jenož programy za lokalnych datajowych systemach so podpěruja."
 msgid "Advanced Options for %1"
 msgstr "Opcije za pokročenych"
 
-#: kfile/kfilemetadataprovider.cpp:223
-#, fuzzy, kde-format
-#| msgctxt "Items in a folder"
-#| msgid "1 item"
-#| msgid_plural "%1 items"
-msgctxt "@item:intable"
-msgid "%1 item"
-msgid_plural "%1 items"
-msgstr[0] "%1 objekt"
-msgstr[1] "%1 objektaj"
-msgstr[2] "%1 objekty"
-msgstr[3] "%1 objektow"
-
-#: kfile/kfilemetadataprovider.cpp:424
-#, fuzzy
-#| msgid "Modified:"
-msgctxt "@label"
-msgid "Modified"
-msgstr "Změnjeny:"
-
-#: kfile/kfilemetadataprovider.cpp:425
-#, fuzzy
-#| msgid "Owner"
-msgctxt "@label"
-msgid "Owner"
-msgstr "Wobsydnik"
-
-#: kfile/kfilemetadataprovider.cpp:426
-#, fuzzy
-#| msgctxt "@title:column"
-#| msgid "Permissions"
-msgctxt "@label"
-msgid "Permissions"
-msgstr "Prawa"
-
-#: kfile/kfilemetadataprovider.cpp:427
-#, fuzzy
-#| msgid "Sorting"
-msgctxt "@label"
-msgid "Rating"
-msgstr "Rjadowanje"
-
-#: kfile/kfilemetadataprovider.cpp:428
-#, fuzzy
-#| msgctxt "@title:column"
-#| msgid "Size"
-msgctxt "@label"
-msgid "Size"
-msgstr "Wulkosć"
-
-#: kfile/kfilemetadataprovider.cpp:429
-#, fuzzy
-msgctxt "@label"
-msgid "Tags"
-msgstr "Papjernik"
-
-#: kfile/kfilemetadataprovider.cpp:430
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Total Size"
-msgstr "Wulkosć:"
-
-#: kfile/kfilemetadataprovider.cpp:431
-#, fuzzy
-#| msgid "Type"
-msgctxt "@label"
-msgid "Type"
-msgstr "Družina"
-
 #: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
 msgid "Owner"
 msgstr "Wobsydnik"
@@ -1702,11 +1632,81 @@ msgstr "Zawěsćić jako"
 msgid "Encoding:"
 msgstr "Koděrowanje:"
 
-#: kio/accessmanager.cpp:234
+#: kfile/kfilemetadataprovider.cpp:223
+#, fuzzy, kde-format
+#| msgctxt "Items in a folder"
+#| msgid "1 item"
+#| msgid_plural "%1 items"
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 objekt"
+msgstr[1] "%1 objektaj"
+msgstr[2] "%1 objekty"
+msgstr[3] "%1 objektow"
+
+#: kfile/kfilemetadataprovider.cpp:424
+#, fuzzy
+#| msgid "Modified:"
+msgctxt "@label"
+msgid "Modified"
+msgstr "Změnjeny:"
+
+#: kfile/kfilemetadataprovider.cpp:425
+#, fuzzy
+#| msgid "Owner"
+msgctxt "@label"
+msgid "Owner"
+msgstr "Wobsydnik"
+
+#: kfile/kfilemetadataprovider.cpp:426
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Permissions"
+msgctxt "@label"
+msgid "Permissions"
+msgstr "Prawa"
+
+#: kfile/kfilemetadataprovider.cpp:427
+#, fuzzy
+#| msgid "Sorting"
+msgctxt "@label"
+msgid "Rating"
+msgstr "Rjadowanje"
+
+#: kfile/kfilemetadataprovider.cpp:428
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Size"
+msgctxt "@label"
+msgid "Size"
+msgstr "Wulkosć"
+
+#: kfile/kfilemetadataprovider.cpp:429
+#, fuzzy
+msgctxt "@label"
+msgid "Tags"
+msgstr "Papjernik"
+
+#: kfile/kfilemetadataprovider.cpp:430
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@label"
+msgid "Total Size"
+msgstr "Wulkosć:"
+
+#: kfile/kfilemetadataprovider.cpp:431
+#, fuzzy
+#| msgid "Type"
+msgctxt "@label"
+msgid "Type"
+msgstr "Družina"
+
+#: kio/accessmanager.cpp:221
 msgid "Blocked request."
 msgstr ""
 
-#: kio/accessmanager.cpp:296
+#: kio/accessmanager.cpp:283
 #, fuzzy
 #| msgid "Unknown Host"
 msgid "Unknown HTTP verb."
@@ -4029,6 +4029,125 @@ msgstr "ZMYLK: Njeznaty protokol '%1'"
 msgid "Data format:"
 msgstr "Format datow:"
 
+#: kio/tcpslavebase.cpp:334
+msgid ""
+"You are about to leave secure mode. Transmissions will no longer be "
+"encrypted.\n"
+"This means that a third party could observe your data in transit."
+msgstr ""
+"Wopušćiće nětko zawěsćeny modus. Transmisije hižo njebudu zašifrowane. To "
+"rěka, zo móhł někajki třeći do wašich přenjesenych datow pohladać."
+
+#: kio/tcpslavebase.cpp:340 kio/tcpslavebase.cpp:700
+msgid "Security Information"
+msgstr "Informacija wo wěstosći"
+
+#: kio/tcpslavebase.cpp:341
+msgid "C&ontinue Loading"
+msgstr "&Pokročować ze začitanjom"
+
+#: kio/tcpslavebase.cpp:453
+#, kde-format
+msgctxt "%1 is a host name"
+msgid "%1: SSL negotiation failed"
+msgstr "%1: SSL-přizjewjenje je so zwrěšćiło!"
+
+#: kio/tcpslavebase.cpp:694
+msgid ""
+"You are about to enter secure mode. All transmissions will be encrypted "
+"unless otherwise noted.\n"
+"This means that no third party will be able to easily observe your data in "
+"transit."
+msgstr ""
+"Zastupiće nětko do zawěsćeneho modusa. Wšitke transmisije so zašifruja, "
+"chiba zo so něšto hinaše praji. To rěka, zo žadyn třeći njemóže cyle "
+"jednorje do wot tebje přenjesenych datow pohladać."
+
+#: kio/tcpslavebase.cpp:701
+msgid "Display SSL &Information"
+msgstr "&SSL-informaciju pokazać"
+
+#: kio/tcpslavebase.cpp:702
+msgid "C&onnect"
+msgstr "&Zwjazać"
+
+#: kio/tcpslavebase.cpp:838
+msgid "Enter the certificate password:"
+msgstr "zapodajće škitne hesło za certifikat:"
+
+#: kio/tcpslavebase.cpp:839
+msgid "SSL Certificate Password"
+msgstr "Škitne hesło za SSL-certifikat"
+
+#: kio/tcpslavebase.cpp:852
+msgid "Unable to open the certificate. Try a new password?"
+msgstr "Njemóžu certifikat wočinić. Chceće z hinašim škitnym hesłom spytać?"
+
+#: kio/tcpslavebase.cpp:865
+msgid "The procedure to set the client certificate for the session failed."
+msgstr "Clientowy certifikat za sesiju njehodźeše so nastajić."
+
+#: kio/tcpslavebase.cpp:867 kio/slaveinterface.cpp:498
+msgid "SSL"
+msgstr "SSL"
+
+#: kio/tcpslavebase.cpp:911 kssl/sslui.cpp:71
+#, kde-format
+msgid ""
+"The server failed the authenticity check (%1).\n"
+"\n"
+msgstr ""
+"Certifikat servera njeje test awtentifikacije wobstał (%1).\n"
+"\n"
+
+#: kio/tcpslavebase.cpp:921 kio/tcpslavebase.cpp:938 kio/tcpslavebase.cpp:1040
+#: kio/tcpslavebase.cpp:1052 kssl/sslui.cpp:80 kssl/sslui.cpp:119
+msgid "Server Authentication"
+msgstr "Přepruwowanje servera"
+
+#: kio/tcpslavebase.cpp:922 kio/slaveinterface.cpp:427 kssl/sslui.cpp:81
+msgid "&Details"
+msgstr "&Detajle"
+
+#: kio/tcpslavebase.cpp:922 kio/slaveinterface.cpp:434 kssl/sslui.cpp:82
+msgid "Co&ntinue"
+msgstr "Po&kročować"
+
+#: kio/tcpslavebase.cpp:935 kssl/sslui.cpp:116
+msgid ""
+"Would you like to accept this certificate forever without being prompted?"
+msgstr ""
+"Chceće tutón certifikat na wšě časy bjez doprašowanja z mojeje strony "
+"akceptować?"
+
+#: kio/tcpslavebase.cpp:939 kio/slaveinterface.cpp:429 kssl/sslui.cpp:120
+msgid "&Forever"
+msgstr "&Na wšě časy"
+
+#: kio/tcpslavebase.cpp:940 kio/slaveinterface.cpp:436 kssl/sslui.cpp:121
+#, fuzzy
+#| msgid "&Current Sessions Only"
+msgid "&Current Session only"
+msgstr "&Jenož nětko"
+
+#: kio/tcpslavebase.cpp:1039
+msgid ""
+"You have indicated that you wish to accept this certificate, but it is not "
+"issued to the server who is presenting it. Do you wish to continue loading?"
+msgstr ""
+"Chceće certifikat akceptować, ale njewuchadźa ze servera, kiž jón wužiwa. "
+"Chceće najebać to dale činić?"
+
+#: kio/tcpslavebase.cpp:1051
+#, fuzzy
+#| msgid ""
+#| "SSL certificate is being rejected as requested. You can disable this in "
+#| "the KDE Control Center."
+msgid ""
+"SSL certificate is being rejected as requested. You can disable this in the "
+"KDE System Settings."
+msgstr "SSL-certifikat wotpokazany. To móžeće w KDE Control Center změnić."
+
 #: kio/paste.cpp:98 kio/paste.cpp:191
 msgid "Filename for clipboard content:"
 msgstr "Datajowe mjeno za wobsah clipboarda:"
@@ -4080,31 +4199,9 @@ msgstr "&Haj"
 msgid "&No"
 msgstr "&Ně"
 
-#: kio/slaveinterface.cpp:427 kio/tcpslavebase.cpp:831 kssl/sslui.cpp:81
-msgid "&Details"
-msgstr "&Detajle"
-
-#: kio/slaveinterface.cpp:429 kio/tcpslavebase.cpp:848 kssl/sslui.cpp:120
-msgid "&Forever"
-msgstr "&Na wšě časy"
-
-#: kio/slaveinterface.cpp:434 kio/tcpslavebase.cpp:831 kssl/sslui.cpp:82
-msgid "Co&ntinue"
-msgstr "Po&kročować"
-
-#: kio/slaveinterface.cpp:436 kio/tcpslavebase.cpp:849 kssl/sslui.cpp:121
-#, fuzzy
-#| msgid "&Current Sessions Only"
-msgid "&Current Session only"
-msgstr "&Jenož nětko"
-
 #: kio/slaveinterface.cpp:496
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "SSL-certifikat peera njeje walidny."
-
-#: kio/slaveinterface.cpp:498 kio/tcpslavebase.cpp:776
-msgid "SSL"
-msgstr "SSL"
 
 #: kio/skipdialog.cpp:37
 msgid "Information"
@@ -4279,103 +4376,6 @@ msgstr "Něšto tajke starše z mjenom '%1' hižo eksistuje."
 #| msgid "&Rename"
 msgid "Rename:"
 msgstr "&Hinak pomjenować"
-
-#: kio/tcpslavebase.cpp:328
-msgid ""
-"You are about to leave secure mode. Transmissions will no longer be "
-"encrypted.\n"
-"This means that a third party could observe your data in transit."
-msgstr ""
-"Wopušćiće nětko zawěsćeny modus. Transmisije hižo njebudu zašifrowane. To "
-"rěka, zo móhł někajki třeći do wašich přenjesenych datow pohladać."
-
-#: kio/tcpslavebase.cpp:334 kio/tcpslavebase.cpp:609
-msgid "Security Information"
-msgstr "Informacija wo wěstosći"
-
-#: kio/tcpslavebase.cpp:335
-msgid "C&ontinue Loading"
-msgstr "&Pokročować ze začitanjom"
-
-#: kio/tcpslavebase.cpp:391
-#, kde-format
-msgctxt "%1 is a host name"
-msgid "%1: SSL negotiation failed"
-msgstr "%1: SSL-přizjewjenje je so zwrěšćiło!"
-
-#: kio/tcpslavebase.cpp:603
-msgid ""
-"You are about to enter secure mode. All transmissions will be encrypted "
-"unless otherwise noted.\n"
-"This means that no third party will be able to easily observe your data in "
-"transit."
-msgstr ""
-"Zastupiće nětko do zawěsćeneho modusa. Wšitke transmisije so zašifruja, "
-"chiba zo so něšto hinaše praji. To rěka, zo žadyn třeći njemóže cyle "
-"jednorje do wot tebje přenjesenych datow pohladać."
-
-#: kio/tcpslavebase.cpp:610
-msgid "Display SSL &Information"
-msgstr "&SSL-informaciju pokazać"
-
-#: kio/tcpslavebase.cpp:611
-msgid "C&onnect"
-msgstr "&Zwjazać"
-
-#: kio/tcpslavebase.cpp:747
-msgid "Enter the certificate password:"
-msgstr "zapodajće škitne hesło za certifikat:"
-
-#: kio/tcpslavebase.cpp:748
-msgid "SSL Certificate Password"
-msgstr "Škitne hesło za SSL-certifikat"
-
-#: kio/tcpslavebase.cpp:761
-msgid "Unable to open the certificate. Try a new password?"
-msgstr "Njemóžu certifikat wočinić. Chceće z hinašim škitnym hesłom spytać?"
-
-#: kio/tcpslavebase.cpp:774
-msgid "The procedure to set the client certificate for the session failed."
-msgstr "Clientowy certifikat za sesiju njehodźeše so nastajić."
-
-#: kio/tcpslavebase.cpp:820 kssl/sslui.cpp:71
-#, kde-format
-msgid ""
-"The server failed the authenticity check (%1).\n"
-"\n"
-msgstr ""
-"Certifikat servera njeje test awtentifikacije wobstał (%1).\n"
-"\n"
-
-#: kio/tcpslavebase.cpp:830 kio/tcpslavebase.cpp:847 kio/tcpslavebase.cpp:949
-#: kio/tcpslavebase.cpp:961 kssl/sslui.cpp:80 kssl/sslui.cpp:119
-msgid "Server Authentication"
-msgstr "Přepruwowanje servera"
-
-#: kio/tcpslavebase.cpp:844 kssl/sslui.cpp:116
-msgid ""
-"Would you like to accept this certificate forever without being prompted?"
-msgstr ""
-"Chceće tutón certifikat na wšě časy bjez doprašowanja z mojeje strony "
-"akceptować?"
-
-#: kio/tcpslavebase.cpp:948
-msgid ""
-"You have indicated that you wish to accept this certificate, but it is not "
-"issued to the server who is presenting it. Do you wish to continue loading?"
-msgstr ""
-"Chceće certifikat akceptować, ale njewuchadźa ze servera, kiž jón wužiwa. "
-"Chceće najebać to dale činić?"
-
-#: kio/tcpslavebase.cpp:960
-#, fuzzy
-#| msgid ""
-#| "SSL certificate is being rejected as requested. You can disable this in "
-#| "the KDE Control Center."
-msgid ""
-"SSL certificate is being rejected as requested. You can disable this in the "
-"KDE System Settings."
-msgstr "SSL-certifikat wotpokazany. To móžeće w KDE Control Center změnić."
 
 #: kssl/kcm/displaycertdialog.cpp:54 kssl/ksslinfodialog.cpp:217
 #, fuzzy, kde-format
@@ -5797,13 +5797,13 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:5333
+#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:5353
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Dyrbiće mjeno wužiwarja a hesło podać, zo byšće k tutomu serwerej přistup "
 "dóstali."
 
-#: ../kioslave/ftp/ftp.cpp:580 ../kioslave/http/http.cpp:5335
+#: ../kioslave/ftp/ftp.cpp:580 ../kioslave/http/http.cpp:5355
 msgid "Site:"
 msgstr "Server:"
 
@@ -5821,8 +5821,8 @@ msgstr "Přizjewjenje OK"
 msgid "Could not login to %1."
 msgstr "Njemóžach so na %1 přizjewić."
 
-#: ../kioslave/ftp/ftp.cpp:2564 ../kioslave/http/http.cpp:5222
-#: ../kioslave/http/http.cpp:5345
+#: ../kioslave/ftp/ftp.cpp:2564 ../kioslave/http/http.cpp:5243
+#: ../kioslave/http/http.cpp:5365
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -5830,19 +5830,19 @@ msgstr ""
 "Dyrbiće na proxyju mjeno wužiwarja a škitne hesło zapodać, prjedy hač směće "
 "so z dalšimi ličakami zwjazać."
 
-#: ../kioslave/ftp/ftp.cpp:2568 ../kioslave/http/http.cpp:5226
-#: ../kioslave/http/http.cpp:5348
+#: ../kioslave/ftp/ftp.cpp:2568 ../kioslave/http/http.cpp:5247
+#: ../kioslave/http/http.cpp:5368
 msgid "Proxy:"
 msgstr "Proxy:"
 
-#: ../kioslave/ftp/ftp.cpp:2569 ../kioslave/http/http.cpp:5227
-#: ../kioslave/http/http.cpp:5428
+#: ../kioslave/ftp/ftp.cpp:2569 ../kioslave/http/http.cpp:5248
+#: ../kioslave/http/http.cpp:5448
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> at <b>%2</b>"
 
-#: ../kioslave/ftp/ftp.cpp:2570 ../kioslave/http/http.cpp:5229
-#: ../kioslave/http/http.cpp:5365
+#: ../kioslave/ftp/ftp.cpp:2570 ../kioslave/http/http.cpp:5250
+#: ../kioslave/http/http.cpp:5385
 msgid "Proxy Authentication Failed."
 msgstr "Přizjewjenje na proxyju je so zwrěšćiło!"
 
@@ -6240,17 +6240,17 @@ msgstr "Sćelu day na %1"
 msgid "Retrieving %1 from %2..."
 msgstr "Dóstawam %1 wot %2..."
 
-#: ../kioslave/http/http.cpp:5364
+#: ../kioslave/http/http.cpp:5384
 msgid "Authentication Failed."
 msgstr "Přizjewjenje je so zwrěšćiło!"
 
-#: ../kioslave/http/http.cpp:5461
+#: ../kioslave/http/http.cpp:5481
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Authorization failed."
 msgstr "Awtorizaciski dialog"
 
-#: ../kioslave/http/http.cpp:5477
+#: ../kioslave/http/http.cpp:5497
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."
