@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-22 05:19+0200\n"
+"POT-Creation-Date: 2012-07-10 08:59+0200\n"
 "PO-Revision-Date: 2008-11-10 23:47+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -47,71 +47,6 @@ msgctxt "General configuration page"
 msgid "General"
 msgstr "Generelnje"
 
-#: core/models.cpp:121
-msgid "Home Folder"
-msgstr "Domjacy zapisk"
-
-#: core/models.cpp:124
-msgid "Network Folders"
-msgstr "Syćowe zapiski"
-
-#: core/recentlyusedmodel.cpp:109
-msgid "Documents"
-msgstr "Dokumenty"
-
-#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:74
-#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:123 ui/launcher.cpp:236
-msgid "Applications"
-msgstr "Programy"
-
-#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
-#: ui/launcher.cpp:124 ui/launcher.cpp:249
-msgid "Recently Used"
-msgstr "Njedawno wužiwane"
-
-#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
-#, fuzzy
-#| msgid "Recently Used"
-msgid "Recently Used Documents"
-msgstr "Njedawno wužiwane"
-
-#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
-#, fuzzy
-#| msgid "Clear Recent Applications"
-msgid "Recently Used Applications"
-msgstr "Njedawno wužiwane wuprózdnić"
-
-#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
-#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
-msgid "Favorites"
-msgstr "Najlubše programy"
-
-#: core/systemmodel.cpp:75
-msgid "Places"
-msgstr "Městna"
-
-#: core/systemmodel.cpp:76
-msgid "Removable Storage"
-msgstr "Stajnje njepřizamknjeny skład"
-
-#: core/systemmodel.cpp:77
-msgid "Storage"
-msgstr "Skład"
-
-#: core/systemmodel.cpp:207 simpleapplet/simpleapplet.cpp:201
-#, fuzzy
-msgid "Run Command..."
-msgstr "Name=(5) Datajowe formaty"
-
-#: core/systemmodel.cpp:211
-msgid "Run a command or a search query"
-msgstr ""
-
-#: core/systemmodel.cpp:319 simpleapplet/simpleapplet.cpp:196
-#: ui/launcher.cpp:123 ui/launcher.cpp:270
-msgid "Computer"
-msgstr "Kompjuter"
-
 #: core/applicationmodel.cpp:334
 msgid "Games"
 msgstr ""
@@ -119,6 +54,11 @@ msgstr ""
 #: core/applicationmodel.cpp:428 ui/launcher.cpp:976
 msgid "All Applications"
 msgstr "Wšitke aplikacije"
+
+#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
+#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
+msgid "Favorites"
+msgstr "Najlubše programy"
 
 #: core/leavemodel.cpp:50 simpleapplet/simpleapplet.cpp:210
 #, fuzzy
@@ -222,6 +162,66 @@ msgstr "Posedźenje"
 #: core/leavemodel.cpp:150
 msgid "System"
 msgstr "System"
+
+#: core/models.cpp:121
+msgid "Home Folder"
+msgstr "Domjacy zapisk"
+
+#: core/models.cpp:124
+msgid "Network Folders"
+msgstr "Syćowe zapiski"
+
+#: core/recentlyusedmodel.cpp:109
+msgid "Documents"
+msgstr "Dokumenty"
+
+#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:74
+#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:123 ui/launcher.cpp:236
+msgid "Applications"
+msgstr "Programy"
+
+#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
+#: ui/launcher.cpp:124 ui/launcher.cpp:249
+msgid "Recently Used"
+msgstr "Njedawno wužiwane"
+
+#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
+#, fuzzy
+#| msgid "Recently Used"
+msgid "Recently Used Documents"
+msgstr "Njedawno wužiwane"
+
+#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
+#, fuzzy
+#| msgid "Clear Recent Applications"
+msgid "Recently Used Applications"
+msgstr "Njedawno wužiwane wuprózdnić"
+
+#: core/systemmodel.cpp:75
+msgid "Places"
+msgstr "Městna"
+
+#: core/systemmodel.cpp:76
+msgid "Removable Storage"
+msgstr "Stajnje njepřizamknjeny skład"
+
+#: core/systemmodel.cpp:77
+msgid "Storage"
+msgstr "Skład"
+
+#: core/systemmodel.cpp:207 simpleapplet/simpleapplet.cpp:201
+#, fuzzy
+msgid "Run Command..."
+msgstr "Name=(5) Datajowe formaty"
+
+#: core/systemmodel.cpp:211
+msgid "Run a command or a search query"
+msgstr ""
+
+#: core/systemmodel.cpp:319 simpleapplet/simpleapplet.cpp:196
+#: ui/launcher.cpp:123 ui/launcher.cpp:270
+msgid "Computer"
+msgstr "Kompjuter"
 
 #: main.cpp:32
 msgid "Kickoff"
@@ -333,41 +333,6 @@ msgstr "Operacija"
 msgid "Actions"
 msgstr "Akcije"
 
-#: ui/searchbar.cpp:70
-#, fuzzy
-#| msgid "Search:"
-msgctxt "Label of the search bar textedit"
-msgid "Search:"
-msgstr "Pytać:"
-
-#: ui/launcher.cpp:194
-msgid "Sort Alphabetically (A to Z)"
-msgstr ""
-
-#: ui/launcher.cpp:197
-msgid "Sort Alphabetically (Z to A)"
-msgstr ""
-
-#: ui/launcher.cpp:251
-msgid "Clear Recent Applications"
-msgstr "Njedawno wužiwane wuprózdnić"
-
-#: ui/launcher.cpp:252
-msgid "Clear Recent Documents"
-msgstr "Njedawno wužiwane dokumenty wuprózdnić"
-
-#: ui/launcher.cpp:560
-#, kde-format
-msgctxt "login name, hostname"
-msgid "User <b>%1</b> on <b>%2</b>"
-msgstr "Wužiwar <b>%1</b> na <b>%2</b>"
-
-#: ui/launcher.cpp:562
-#, kde-format
-msgctxt "full name, login name, hostname"
-msgid "<b>%1 (%2)</b> on <b>%3</b>"
-msgstr "<b>%1 (%2)</b> na <b>%3</b>"
-
 #: ui/contextmenufactory.cpp:85
 msgid "Advanced"
 msgstr "Pokročene"
@@ -400,6 +365,41 @@ msgstr "Wućisnyć"
 #, fuzzy
 msgid "Safely Remove"
 msgstr "Z&ničić"
+
+#: ui/launcher.cpp:194
+msgid "Sort Alphabetically (A to Z)"
+msgstr ""
+
+#: ui/launcher.cpp:197
+msgid "Sort Alphabetically (Z to A)"
+msgstr ""
+
+#: ui/launcher.cpp:251
+msgid "Clear Recent Applications"
+msgstr "Njedawno wužiwane wuprózdnić"
+
+#: ui/launcher.cpp:252
+msgid "Clear Recent Documents"
+msgstr "Njedawno wužiwane dokumenty wuprózdnić"
+
+#: ui/launcher.cpp:560
+#, kde-format
+msgctxt "login name, hostname"
+msgid "User <b>%1</b> on <b>%2</b>"
+msgstr "Wužiwar <b>%1</b> na <b>%2</b>"
+
+#: ui/launcher.cpp:562
+#, kde-format
+msgctxt "full name, login name, hostname"
+msgid "<b>%1 (%2)</b> on <b>%3</b>"
+msgstr "<b>%1 (%2)</b> na <b>%3</b>"
+
+#: ui/searchbar.cpp:70
+#, fuzzy
+#| msgid "Search:"
+msgctxt "Label of the search bar textedit"
+msgid "Search:"
+msgstr "Pytać:"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
