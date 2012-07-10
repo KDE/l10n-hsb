@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-06 12:13+0200\n"
+"POT-Creation-Date: 2012-07-10 20:11+0200\n"
 "PO-Revision-Date: 2003-12-23 17:51+0100\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -680,14 +680,6 @@ msgstr ""
 msgid "Type"
 msgstr ""
 
-#: kcm_hotkeys/simple_action_data_widget.cpp:124
-msgid "Trigger"
-msgstr ""
-
-#: kcm_hotkeys/simple_action_data_widget.cpp:160
-msgid "Action"
-msgstr ""
-
 #: kcm_hotkeys/kcm_hotkeys.cpp:109
 msgid "KDE Hotkeys Configuration Module"
 msgstr ""
@@ -718,6 +710,14 @@ msgstr ""
 msgid ""
 "Unable to contact khotkeys. Your changes are saved, but they could not be "
 "activated."
+msgstr ""
+
+#: kcm_hotkeys/simple_action_data_widget.cpp:124
+msgid "Trigger"
+msgstr ""
+
+#: kcm_hotkeys/simple_action_data_widget.cpp:160
+msgid "Action"
 msgstr ""
 
 #: libkhotkeysprivate/actions/activate_window_action.cpp:91
@@ -756,9 +756,17 @@ msgstr ""
 msgid "Menu entry: "
 msgstr ""
 
+#: libkhotkeysprivate/conditions/active_window_condition.cpp:82
+msgid "Active window: "
+msgstr ""
+
 #: libkhotkeysprivate/conditions/and_condition.cpp:61
 msgctxt "And_condition"
 msgid "And"
+msgstr ""
+
+#: libkhotkeysprivate/conditions/existing_window_condition.cpp:72
+msgid "Existing window: "
 msgstr ""
 
 #: libkhotkeysprivate/conditions/not_condition.cpp:63
@@ -769,14 +777,6 @@ msgstr ""
 #: libkhotkeysprivate/conditions/or_condition.cpp:69
 msgctxt "Or_condition"
 msgid "Or"
-msgstr ""
-
-#: libkhotkeysprivate/conditions/active_window_condition.cpp:82
-msgid "Active window: "
-msgstr ""
-
-#: libkhotkeysprivate/conditions/existing_window_condition.cpp:72
-msgid "Existing window: "
 msgstr ""
 
 #: libkhotkeysprivate/khotkeysglobal.h:40
@@ -796,10 +796,6 @@ msgid ""
 "want to import it?"
 msgstr ""
 
-#: libkhotkeysprivate/triggers/voice_trigger.cpp:67
-msgid "Voice trigger: "
-msgstr ""
-
 #: libkhotkeysprivate/triggers/gesture_trigger.cpp:126
 #, fuzzy
 msgid "Gesture trigger"
@@ -809,6 +805,10 @@ msgstr "Skrótšenku wubrać"
 #, fuzzy
 msgid "Shortcut trigger: "
 msgstr "Skrótšenku wubrać"
+
+#: libkhotkeysprivate/triggers/voice_trigger.cpp:67
+msgid "Voice trigger: "
+msgstr ""
 
 #: libkhotkeysprivate/triggers/window_trigger.cpp:150
 msgid "Window trigger: "
