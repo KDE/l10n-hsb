@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeqt\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2012-07-28 13:03+0200\n"
+"POT-Creation-Date: 2012-07-31 18:54+0200\n"
 "PO-Revision-Date: 2008-11-11 22:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -1830,8 +1830,8 @@ msgctxt "QIODevice"
 msgid "No space left on device"
 msgstr ""
 
-#: corelib/io/qiodevice.cpp:1630 corelib/plugin/qlibrary.cpp:1233
-#: corelib/plugin/qpluginloader.cpp:367
+#: corelib/io/qiodevice.cpp:1630 corelib/plugin/qpluginloader.cpp:367
+#: corelib/plugin/qlibrary.cpp:1236
 #: corelib/statemachine/qstatemachine.cpp:1046
 #: network/kernel/qhostinfo_unix.cpp:301
 #: network/socket/qnativesocketengine.cpp:276
@@ -2115,49 +2115,16 @@ msgctxt "QSystemSemaphore"
 msgid "%1: ftok failed"
 msgstr "%1 dataja"
 
-#: corelib/plugin/qlibrary.cpp:402
-#, qt-format
-msgid "Plugin verification data mismatch in '%1'"
-msgstr ""
-
-#: corelib/plugin/qlibrary.cpp:679 corelib/plugin/qlibrary.cpp:825
-#: corelib/plugin/qpluginloader.cpp:343
-#, fuzzy
-msgid "The shared library was not found."
-msgstr "Biblioteka '%1' njeposkića funkciju '%2'."
-
-#: corelib/plugin/qlibrary.cpp:827
-#, fuzzy, qt-format
-#| msgid "'%1' is not a valid QLayout."
-msgid "The file '%1' is not a valid Qt plugin."
-msgstr "'%1' njeje walidny QLayout."
-
-#: corelib/plugin/qlibrary.cpp:842
-#, fuzzy, qt-format
-#| msgid "The plugin '%1' uses an incompatible KDE library (%2)."
-msgid "The plugin '%1' uses incompatible Qt library. (%2.%3.%4) [%5]"
-msgstr "Plugin '%1' wužiwa njekompatibelnu KDE-biblioteku (%2)."
-
-#: corelib/plugin/qlibrary.cpp:868
-#, fuzzy, qt-format
-#| msgid "The plugin '%1' uses an incompatible KDE library (%2)."
-msgid ""
-"The plugin '%1' uses incompatible Qt library. Expected build key \"%2\", got "
-"\"%3\""
-msgstr "Plugin '%1' wužiwa njekompatibelnu KDE-biblioteku (%2)."
-
-#: corelib/plugin/qlibrary.cpp:876
-#, fuzzy, qt-format
-#| msgid "The plugin '%1' uses an incompatible KDE library (%2)."
-msgid ""
-"The plugin '%1' uses incompatible Qt library. (Cannot mix debug and release "
-"libraries.)"
-msgstr "Plugin '%1' wužiwa njekompatibelnu KDE-biblioteku (%2)."
-
 #: corelib/plugin/qpluginloader.cpp:254
 #, fuzzy
 msgid "The plugin was not loaded."
 msgstr "Nowy zapis njehodźeše so dodać."
+
+#: corelib/plugin/qpluginloader.cpp:343 corelib/plugin/qlibrary.cpp:682
+#: corelib/plugin/qlibrary.cpp:828
+#, fuzzy
+msgid "The shared library was not found."
+msgstr "Biblioteka '%1' njeposkića funkciju '%2'."
 
 #: corelib/plugin/qelfparser_p.cpp:77
 #, qt-format
@@ -2198,6 +2165,39 @@ msgstr ""
 #, qt-format
 msgid "Cannot resolve symbol \"%1\" in %2: %3"
 msgstr ""
+
+#: corelib/plugin/qlibrary.cpp:405
+#, qt-format
+msgid "Plugin verification data mismatch in '%1'"
+msgstr ""
+
+#: corelib/plugin/qlibrary.cpp:830
+#, fuzzy, qt-format
+#| msgid "'%1' is not a valid QLayout."
+msgid "The file '%1' is not a valid Qt plugin."
+msgstr "'%1' njeje walidny QLayout."
+
+#: corelib/plugin/qlibrary.cpp:845
+#, fuzzy, qt-format
+#| msgid "The plugin '%1' uses an incompatible KDE library (%2)."
+msgid "The plugin '%1' uses incompatible Qt library. (%2.%3.%4) [%5]"
+msgstr "Plugin '%1' wužiwa njekompatibelnu KDE-biblioteku (%2)."
+
+#: corelib/plugin/qlibrary.cpp:871
+#, fuzzy, qt-format
+#| msgid "The plugin '%1' uses an incompatible KDE library (%2)."
+msgid ""
+"The plugin '%1' uses incompatible Qt library. Expected build key \"%2\", got "
+"\"%3\""
+msgstr "Plugin '%1' wužiwa njekompatibelnu KDE-biblioteku (%2)."
+
+#: corelib/plugin/qlibrary.cpp:879
+#, fuzzy, qt-format
+#| msgid "The plugin '%1' uses an incompatible KDE library (%2)."
+msgid ""
+"The plugin '%1' uses incompatible Qt library. (Cannot mix debug and release "
+"libraries.)"
+msgstr "Plugin '%1' wužiwa njekompatibelnu KDE-biblioteku (%2)."
 
 #: corelib/statemachine/qstatemachine.cpp:1028
 #, qt-format
