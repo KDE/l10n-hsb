@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-01 04:55+0000\n"
+"POT-Creation-Date: 2012-08-07 11:00+0000\n"
 "PO-Revision-Date: 2008-11-25 00:15+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -2663,11 +2663,13 @@ msgid "Sensor exceeded critical limit"
 msgstr "Sensor překroči kritiski limit"
 
 #: ksysguard/gui/ksysguard.desktop:2
-#: plasma/generic/applets/system-monitor/plasma-applet-system-monitor.desktop:2
-#: plasma/generic/dataengines/systemmonitor/plasma-dataengine-systemmonitor.desktop:3
+#: libs/ksysguard/processcore/actions.actions:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KDE System Guard"
 msgctxt "Name"
-msgid "System Monitor"
-msgstr "Systemowy monitor"
+msgid "KSysGuard"
+msgstr "KDE stražnik systema"
 
 #: ksysguard/gui/ksysguard.desktop:86
 msgctxt "GenericName"
@@ -3943,59 +3945,23 @@ msgid "Some effects are not supported by backend or hardware."
 msgstr ""
 
 #: kwin/kwin.notifyrc:7126
-msgctxt "Name"
-msgid "Tiling Enabled"
-msgstr ""
-
-#: kwin/kwin.notifyrc:7182
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "A modifier key has been locked"
-msgctxt "Comment"
-msgid "Tiling mode has been enabled"
-msgstr "Modifikowaca tasta bu stajnje zaswěćena"
-
-#: kwin/kwin.notifyrc:7240
-msgctxt "Name"
-msgid "Tiling Disabled"
-msgstr ""
-
-#: kwin/kwin.notifyrc:7296
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Slow keys has been enabled or disabled"
-msgctxt "Comment"
-msgid "Tiling mode has been disabled"
-msgstr "Pomałe tasty zaswěćene abo hasnjene"
-
-#: kwin/kwin.notifyrc:7354
-msgctxt "Name"
-msgid "Tiling Layout Changed"
-msgstr ""
-
-#: kwin/kwin.notifyrc:7410
-msgctxt "Comment"
-msgid "Tiling Layout has been changed"
-msgstr ""
-
-#: kwin/kwin.notifyrc:7469
 #, fuzzy
 msgctxt "Name"
 msgid "Window Fullscreen Set"
 msgstr "Name=Woknowe managery"
 
-#: kwin/kwin.notifyrc:7499
+#: kwin/kwin.notifyrc:7156
 msgctxt "Comment"
 msgid "A window has been set to fullscreen"
 msgstr ""
 
-#: kwin/kwin.notifyrc:7533
+#: kwin/kwin.notifyrc:7190
 #, fuzzy
 msgctxt "Name"
 msgid "Window Fullscreen Restored"
 msgstr "Comment=Montowany CD-palak"
 
-#: kwin/kwin.notifyrc:7563
+#: kwin/kwin.notifyrc:7220
 msgctxt "Comment"
 msgid "A window has been restored from fullscreen"
 msgstr ""
@@ -4199,14 +4165,6 @@ msgstr "Datajowy manager"
 msgctxt "Comment"
 msgid "Manages displays and video outputs"
 msgstr ""
-
-#: libs/ksysguard/processcore/actions.actions:2
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "KDE System Guard"
-msgctxt "Name"
-msgid "KSysGuard"
-msgstr "KDE stražnik systema"
 
 #: libs/ksysguard/processcore/actions.actions:79
 msgctxt "Name"
@@ -4542,7 +4500,7 @@ msgstr "Pohladajće na status akuwa"
 #: plasma/generic/applets/batterymonitor/metadata.desktop:161
 #, fuzzy
 msgctxt "Keywords"
-msgid "Power Management, Battery, System, Energy"
+msgid "Power Management;Battery;System;Energy;"
 msgstr "Name=Datajowy manager"
 
 #: plasma/generic/applets/calendar/plasma-applet-calendar.desktop:2
@@ -4606,7 +4564,7 @@ msgstr "Wobrazowku zamknyć abo so wotzjewić"
 
 #: plasma/generic/applets/lock_logout/metadata.desktop:161
 msgctxt "Keywords"
-msgid "Lock, Logout, Sleep, Hibernate, Switch User"
+msgid "Lock;Logout;Sleep;Hibernate;Switch User;"
 msgstr ""
 
 #: plasma/generic/applets/notifications/plasma-applet-notifications.desktop:2
@@ -4732,6 +4690,12 @@ msgstr ""
 msgctxt "Comment"
 msgid "A system temperature monitor"
 msgstr "Monitor za systemowu temparaturu"
+
+#: plasma/generic/applets/system-monitor/plasma-applet-system-monitor.desktop:2
+#: plasma/generic/dataengines/systemmonitor/plasma-dataengine-systemmonitor.desktop:3
+msgctxt "Name"
+msgid "System Monitor"
+msgstr "Systemowy monitor"
 
 #: plasma/generic/applets/system-monitor/plasma-applet-system-monitor.desktop:86
 msgctxt "Comment"
@@ -7022,6 +6986,20 @@ msgstr "Přehladowar pisma"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "A modifier key has been locked"
+#~ msgctxt "Comment"
+#~ msgid "Tiling mode has been enabled"
+#~ msgstr "Modifikowaca tasta bu stajnje zaswěćena"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Slow keys has been enabled or disabled"
+#~ msgctxt "Comment"
+#~ msgid "Tiling mode has been disabled"
+#~ msgstr "Pomałe tasty zaswěćene abo hasnjene"
 
 #, fuzzy
 #~| msgctxt "Comment"
