@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-27 04:32+0200\n"
+"POT-Creation-Date: 2012-08-07 21:48+0200\n"
 "PO-Revision-Date: 2008-11-11 22:59+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -18,7 +18,43 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
-#: gstreamer/backend.cpp:200
+#: gstreamer/plugininstaller.cpp:190
+msgid "Missing codec helper script assistant."
+msgstr ""
+
+#: gstreamer/plugininstaller.cpp:192
+msgid "Plugin codec installation failed."
+msgstr ""
+
+#: gstreamer/plugininstaller.cpp:215
+msgid "Phonon attempted to install an invalid codec name."
+msgstr ""
+
+#: gstreamer/plugininstaller.cpp:218
+msgid "The codec installer crashed."
+msgstr ""
+
+#: gstreamer/plugininstaller.cpp:221
+msgid "The required codec could not be found for installation."
+msgstr ""
+
+#: gstreamer/plugininstaller.cpp:224
+msgid "An unspecified error occurred during codec installation."
+msgstr ""
+
+#: gstreamer/plugininstaller.cpp:227
+msgid "Not all codecs could be installed."
+msgstr ""
+
+#: gstreamer/plugininstaller.cpp:230
+msgid "User aborted codec installation"
+msgstr ""
+
+#: gstreamer/plugininstaller.cpp:241
+msgid "Could not update plugin registry after update."
+msgstr ""
+
+#: gstreamer/backend.cpp:203
 msgid ""
 "Warning: You do not seem to have the package gstreamer0.10-plugins-good "
 "installed.\n"
@@ -27,13 +63,17 @@ msgstr ""
 "Kedźbu: Pakćik gstreamer0.10-plugins-goodnjeje instalowany.\n"
 " Někotre widejo-opcije njesteja k dispoziciji."
 
-#: gstreamer/backend.cpp:208
+#: gstreamer/backend.cpp:212
 msgid ""
 "Warning: You do not seem to have the base GStreamer plugins installed.\n"
 "          All audio and video support has been disabled"
 msgstr ""
 "Kedźbu: Bazowy pakćik pluginow za GStreamer nejeje instalowany.\n"
 "  Podpěra za zwuk a widejo njesteji k dispoziciji."
+
+#: gstreamer/pipeline.cpp:490
+msgid "One or more plugins are missing in your GStreamer installation."
+msgstr ""
 
 #: gstreamer/mediaobject.cpp:92
 #, fuzzy
@@ -59,46 +99,6 @@ msgstr ""
 
 #: gstreamer/mediaobject.cpp:425
 msgid "Unknown"
-msgstr ""
-
-#: gstreamer/pipeline.cpp:491
-msgid "One or more plugins are missing in your GStreamer installation."
-msgstr ""
-
-#: gstreamer/plugininstaller.cpp:189
-msgid "Missing codec helper script assistant."
-msgstr ""
-
-#: gstreamer/plugininstaller.cpp:191
-msgid "Plugin codec installation failed."
-msgstr ""
-
-#: gstreamer/plugininstaller.cpp:214
-msgid "Phonon attempted to install an invalid codec name."
-msgstr ""
-
-#: gstreamer/plugininstaller.cpp:217
-msgid "The codec installer crashed."
-msgstr ""
-
-#: gstreamer/plugininstaller.cpp:220
-msgid "The required codec could not be found for installation."
-msgstr ""
-
-#: gstreamer/plugininstaller.cpp:223
-msgid "An unspecified error occurred during codec installation."
-msgstr ""
-
-#: gstreamer/plugininstaller.cpp:226
-msgid "Not all codecs could be installed."
-msgstr ""
-
-#: gstreamer/plugininstaller.cpp:229
-msgid "User aborted codec installation"
-msgstr ""
-
-#: gstreamer/plugininstaller.cpp:240
-msgid "Could not update plugin registry after update."
 msgstr ""
 
 #~ msgid "Could not open media source."

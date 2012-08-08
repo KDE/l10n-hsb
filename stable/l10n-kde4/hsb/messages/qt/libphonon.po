@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-15 04:40+0200\n"
+"POT-Creation-Date: 2012-08-07 21:48+0200\n"
 "PO-Revision-Date: 2008-11-11 22:43+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -18,17 +18,40 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
-#: factory.cpp:311
-msgid "Restart Application"
-msgstr ""
-
-#: factory.cpp:312
+#: audiooutput.cpp:489 audiooutput.cpp:527
 #, qt-format
 msgid ""
-"You changed the backend of the Phonon multimedia system.\n"
-"\n"
-"To apply this change you will need to restart '%1'."
+"<html>The audio playback device <b>%1</b> does not work.<br/>Falling back to "
+"<b>%2</b>.</html>"
 msgstr ""
+"<html>Zwukowy grat za wothrawanje <b>%1</b> njefunguje.<br/>Spokojam so z <b>"
+"%2</b>.</html>"
+
+#: audiooutput.cpp:502
+#, qt-format
+msgid ""
+"<html>Switching to the audio playback device <b>%1</b><br/>which just became "
+"available and has higher preference.</html>"
+msgstr ""
+"<html>Přešaltuju na zwukowy grat za wothrawanje <b>%1</b><br/>kotryž je "
+"nětko přistupny a ma wyšu prioritu.</html>"
+
+#: audiooutput.cpp:505 audiooutput.cpp:523
+#, qt-format
+msgid "Revert back to device '%1'"
+msgstr "Wróćo ke gratej '%1'"
+
+#: audiooutput.cpp:520
+#, fuzzy, qt-format
+#| msgid ""
+#| "<html>Switching to the audio playback device <b>%1</b><br/>which just "
+#| "became available and has higher preference.</html>"
+msgid ""
+"<html>Switching to the audio playback device <b>%1</b><br/>which has higher "
+"preference or is specifically configured for this stream.</html>"
+msgstr ""
+"<html>Přešaltuju na zwukowy grat za wothrawanje <b>%1</b><br/>kotryž je "
+"nětko přistupny a ma wyšu prioritu.</html>"
 
 #: mediacontroller.cpp:151
 msgid "Main Menu"
@@ -52,6 +75,11 @@ msgstr ""
 
 #: mediacontroller.cpp:161
 msgid "Angle Menu"
+msgstr ""
+
+#: mediaobject.cpp:406
+#, qt-format
+msgid "%0 by %1"
 msgstr ""
 
 #: pulsesupport.cpp:272 pulsesupport.cpp:283
@@ -117,44 +145,16 @@ msgctxt "Phonon::"
 msgid "Control"
 msgstr ""
 
-#: audiooutput.cpp:476 audiooutput.cpp:514
+#: factory.cpp:314
+msgid "Restart Application"
+msgstr ""
+
+#: factory.cpp:315
 #, qt-format
 msgid ""
-"<html>The audio playback device <b>%1</b> does not work.<br/>Falling back to "
-"<b>%2</b>.</html>"
-msgstr ""
-"<html>Zwukowy grat za wothrawanje <b>%1</b> njefunguje.<br/>Spokojam so z <b>"
-"%2</b>.</html>"
-
-#: audiooutput.cpp:489
-#, qt-format
-msgid ""
-"<html>Switching to the audio playback device <b>%1</b><br/>which just became "
-"available and has higher preference.</html>"
-msgstr ""
-"<html>Přešaltuju na zwukowy grat za wothrawanje <b>%1</b><br/>kotryž je "
-"nětko přistupny a ma wyšu prioritu.</html>"
-
-#: audiooutput.cpp:492 audiooutput.cpp:510
-#, qt-format
-msgid "Revert back to device '%1'"
-msgstr "Wróćo ke gratej '%1'"
-
-#: audiooutput.cpp:507
-#, fuzzy, qt-format
-#| msgid ""
-#| "<html>Switching to the audio playback device <b>%1</b><br/>which just "
-#| "became available and has higher preference.</html>"
-msgid ""
-"<html>Switching to the audio playback device <b>%1</b><br/>which has higher "
-"preference or is specifically configured for this stream.</html>"
-msgstr ""
-"<html>Přešaltuju na zwukowy grat za wothrawanje <b>%1</b><br/>kotryž je "
-"nětko přistupny a ma wyšu prioritu.</html>"
-
-#: mediaobject.cpp:425
-#, qt-format
-msgid "%0 by %1"
+"You changed the backend of the Phonon multimedia system.\n"
+"\n"
+"To apply this change you will need to restart '%1'."
 msgstr ""
 
 #, fuzzy
