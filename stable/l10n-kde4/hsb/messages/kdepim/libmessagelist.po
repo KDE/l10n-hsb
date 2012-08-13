@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-07 21:45+0200\n"
+"POT-Creation-Date: 2012-08-13 14:47+0200\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -353,112 +353,6 @@ msgctxt "Status of an item"
 msgid "Unread"
 msgstr "Nječitane"
 
-#: core/model.cpp:290
-#, fuzzy
-msgid "Today"
-msgstr "Na: "
-
-#: core/model.cpp:291
-#, fuzzy
-msgid "Yesterday"
-msgstr "Wašnja zdźělenja"
-
-#: core/model.cpp:293 core/manager.cpp:100
-#, fuzzy
-msgctxt "Unknown date"
-msgid "Unknown"
-msgstr "&Dopósłać"
-
-#: core/model.cpp:294
-#, fuzzy
-msgid "Last Week"
-msgstr "&Pytaj"
-
-#: core/model.cpp:295
-msgid "Two Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:296
-msgid "Three Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:297
-msgid "Four Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:298
-msgid "Five Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:505 utils/themeeditor.cpp:204
-#, fuzzy
-#| msgid "Receiver"
-msgid "Receiver"
-msgstr "Adresat"
-
-#: core/model.cpp:506 utils/themeeditor.cpp:203
-msgid "Sender"
-msgstr "Wotpósłar"
-
-#: core/model.cpp:1331
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "%1: name; %2: number appended to it to make it unique among a list of "
-#| "names"
-#| msgid "%1 %2"
-msgctxt "Message Aggregation Group Header: Month name and Year number"
-msgid "%1 %2"
-msgstr "%1 %2"
-
-#: core/model.cpp:3774
-#, fuzzy, kde-format
-#| msgid "&Thread Messages"
-msgid "Processed 1 Message of %2"
-msgid_plural "Processed %1 Messages of %2"
-msgstr[0] "Powěsće &skupinkować"
-msgstr[1] "Powěsće &skupinkować"
-msgstr[2] "Powěsće &skupinkować"
-msgstr[3] "Powěsće &skupinkować"
-
-#: core/model.cpp:3780 core/model.cpp:3786
-#, fuzzy, kde-format
-#| msgid "&Thread Messages"
-msgid "Threaded 1 Message of %2"
-msgid_plural "Threaded %1 Messages of %2"
-msgstr[0] "Powěsće &skupinkować"
-msgstr[1] "Powěsće &skupinkować"
-msgstr[2] "Powěsće &skupinkować"
-msgstr[3] "Powěsće &skupinkować"
-
-#: core/model.cpp:3792
-#, fuzzy, kde-format
-#| msgctxt "View->"
-#| msgid "&Expand Thread"
-msgid "Grouped 1 Thread of %2"
-msgid_plural "Grouped %1 Threads of %2"
-msgstr[0] "&Skupinu rozćahnyć"
-msgstr[1] "&Skupinu rozćahnyć"
-msgstr[2] "&Skupinu rozćahnyć"
-msgstr[3] "&Skupinu rozćahnyć"
-
-#: core/model.cpp:3798
-#, fuzzy, kde-format
-#| msgctxt "View->"
-#| msgid "&Expand Thread"
-msgid "Updated 1 Group of %2"
-msgid_plural "Updated %1 Groups of %2"
-msgstr[0] "&Skupinu rozćahnyć"
-msgstr[1] "&Skupinu rozćahnyć"
-msgstr[2] "&Skupinu rozćahnyć"
-msgstr[3] "&Skupinu rozćahnyć"
-
-#: core/model.cpp:3895
-#, fuzzy
-#| msgid "Ready."
-msgctxt "@info:status Finished view fill"
-msgid "Ready"
-msgstr "Hotowo."
-
 #: core/view.cpp:775
 msgid "Adjust Column Sizes"
 msgstr ""
@@ -670,6 +564,12 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
+
+#: core/manager.cpp:100 core/model.cpp:293
+#, fuzzy
+msgctxt "Unknown date"
+msgid "Unknown"
+msgstr "&Dopósłać"
 
 #: core/manager.cpp:321
 msgid "Current Activity, Threaded"
@@ -1192,6 +1092,106 @@ msgctxt "@info:tooltip"
 msgid "Lock search"
 msgstr "&Pytaj"
 
+#: core/model.cpp:290
+#, fuzzy
+msgid "Today"
+msgstr "Na: "
+
+#: core/model.cpp:291
+#, fuzzy
+msgid "Yesterday"
+msgstr "Wašnja zdźělenja"
+
+#: core/model.cpp:294
+#, fuzzy
+msgid "Last Week"
+msgstr "&Pytaj"
+
+#: core/model.cpp:295
+msgid "Two Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:296
+msgid "Three Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:297
+msgid "Four Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:298
+msgid "Five Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:505 utils/themeeditor.cpp:204
+#, fuzzy
+#| msgid "Receiver"
+msgid "Receiver"
+msgstr "Adresat"
+
+#: core/model.cpp:506 utils/themeeditor.cpp:203
+msgid "Sender"
+msgstr "Wotpósłar"
+
+#: core/model.cpp:1331
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "%1: name; %2: number appended to it to make it unique among a list of "
+#| "names"
+#| msgid "%1 %2"
+msgctxt "Message Aggregation Group Header: Month name and Year number"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: core/model.cpp:3774
+#, fuzzy, kde-format
+#| msgid "&Thread Messages"
+msgid "Processed 1 Message of %2"
+msgid_plural "Processed %1 Messages of %2"
+msgstr[0] "Powěsće &skupinkować"
+msgstr[1] "Powěsće &skupinkować"
+msgstr[2] "Powěsće &skupinkować"
+msgstr[3] "Powěsće &skupinkować"
+
+#: core/model.cpp:3780 core/model.cpp:3786
+#, fuzzy, kde-format
+#| msgid "&Thread Messages"
+msgid "Threaded 1 Message of %2"
+msgid_plural "Threaded %1 Messages of %2"
+msgstr[0] "Powěsće &skupinkować"
+msgstr[1] "Powěsće &skupinkować"
+msgstr[2] "Powěsće &skupinkować"
+msgstr[3] "Powěsće &skupinkować"
+
+#: core/model.cpp:3792
+#, fuzzy, kde-format
+#| msgctxt "View->"
+#| msgid "&Expand Thread"
+msgid "Grouped 1 Thread of %2"
+msgid_plural "Grouped %1 Threads of %2"
+msgstr[0] "&Skupinu rozćahnyć"
+msgstr[1] "&Skupinu rozćahnyć"
+msgstr[2] "&Skupinu rozćahnyć"
+msgstr[3] "&Skupinu rozćahnyć"
+
+#: core/model.cpp:3798
+#, fuzzy, kde-format
+#| msgctxt "View->"
+#| msgid "&Expand Thread"
+msgid "Updated 1 Group of %2"
+msgid_plural "Updated %1 Groups of %2"
+msgstr[0] "&Skupinu rozćahnyć"
+msgstr[1] "&Skupinu rozćahnyć"
+msgstr[2] "&Skupinu rozćahnyć"
+msgstr[3] "&Skupinu rozćahnyć"
+
+#: core/model.cpp:3895
+#, fuzzy
+#| msgid "Ready."
+msgctxt "@info:status Finished view fill"
+msgid "Ready"
+msgstr "Hotowo."
+
 #: utils/aggregationeditor.cpp:47
 #, fuzzy
 #| msgctxt "View->"
@@ -1237,66 +1237,6 @@ msgstr "&Za pokročenych"
 #: utils/aggregationeditor.cpp:86
 msgid "Fill view strategy:"
 msgstr ""
-
-#: utils/configureaggregationsdialog.cpp:98
-msgid "Customize Message Aggregation Modes"
-msgstr ""
-
-#: utils/configureaggregationsdialog.cpp:112
-#: utils/configureaggregationsdialog.cpp:319
-#, fuzzy
-msgid "New Aggregation"
-msgstr "Wobkrućenje dochada"
-
-#: utils/configureaggregationsdialog.cpp:120
-#, fuzzy
-msgid "Clone Aggregation"
-msgstr "Wobkrućenje dochada"
-
-#: utils/configureaggregationsdialog.cpp:133
-#, fuzzy
-#| msgid "Delete T&hread"
-msgid "Delete Aggregation"
-msgstr "Diskusiju z&ničić"
-
-#: utils/configureaggregationsdialog.cpp:302
-#, fuzzy
-msgid "Unnamed Aggregation"
-msgstr "Wobkrućenje dochada"
-
-#: utils/configurethemesdialog.cpp:94
-#, fuzzy
-msgid "Customize Themes"
-msgstr "Na&runać"
-
-#: utils/configurethemesdialog.cpp:108 utils/configurethemesdialog.cpp:324
-#, fuzzy
-#| msgid "New Message"
-msgid "New Theme"
-msgstr "Nowa powěsć"
-
-#: utils/configurethemesdialog.cpp:116
-#, fuzzy
-#| msgid "New Message"
-msgid "Clone Theme"
-msgstr "Nowa powěsć"
-
-#: utils/configurethemesdialog.cpp:129
-#, fuzzy
-#| msgid "Delete T&hread"
-msgid "Delete Theme"
-msgstr "Diskusiju z&ničić"
-
-#: utils/configurethemesdialog.cpp:307
-#, fuzzy
-#| msgid "Unnamed"
-msgid "Unnamed Theme"
-msgstr "Bjez mjena"
-
-#: utils/configurethemesdialog.cpp:326 utils/themeeditor.cpp:1254
-#, fuzzy
-msgid "New Column"
-msgstr "Napohlad špaltow"
 
 #: utils/optionseteditor.cpp:40
 #, fuzzy
@@ -1513,6 +1453,11 @@ msgstr "Nowe:"
 msgid "Delete Column"
 msgstr "Zapisk zničić"
 
+#: utils/themeeditor.cpp:1254 utils/configurethemesdialog.cpp:326
+#, fuzzy
+msgid "New Column"
+msgstr "Napohlad špaltow"
+
 #: utils/themeeditor.cpp:1261
 #, fuzzy
 msgid "Add New Column"
@@ -1561,6 +1506,61 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
+
+#: utils/configureaggregationsdialog.cpp:98
+msgid "Customize Message Aggregation Modes"
+msgstr ""
+
+#: utils/configureaggregationsdialog.cpp:112
+#: utils/configureaggregationsdialog.cpp:319
+#, fuzzy
+msgid "New Aggregation"
+msgstr "Wobkrućenje dochada"
+
+#: utils/configureaggregationsdialog.cpp:120
+#, fuzzy
+msgid "Clone Aggregation"
+msgstr "Wobkrućenje dochada"
+
+#: utils/configureaggregationsdialog.cpp:133
+#, fuzzy
+#| msgid "Delete T&hread"
+msgid "Delete Aggregation"
+msgstr "Diskusiju z&ničić"
+
+#: utils/configureaggregationsdialog.cpp:302
+#, fuzzy
+msgid "Unnamed Aggregation"
+msgstr "Wobkrućenje dochada"
+
+#: utils/configurethemesdialog.cpp:94
+#, fuzzy
+msgid "Customize Themes"
+msgstr "Na&runać"
+
+#: utils/configurethemesdialog.cpp:108 utils/configurethemesdialog.cpp:324
+#, fuzzy
+#| msgid "New Message"
+msgid "New Theme"
+msgstr "Nowa powěsć"
+
+#: utils/configurethemesdialog.cpp:116
+#, fuzzy
+#| msgid "New Message"
+msgid "Clone Theme"
+msgstr "Nowa powěsć"
+
+#: utils/configurethemesdialog.cpp:129
+#, fuzzy
+#| msgid "Delete T&hread"
+msgid "Delete Theme"
+msgstr "Diskusiju z&ničić"
+
+#: utils/configurethemesdialog.cpp:307
+#, fuzzy
+#| msgid "Unnamed"
+msgid "Unnamed Theme"
+msgstr "Bjez mjena"
 
 #: pane.cpp:131
 msgctxt "@info:tooltip"
