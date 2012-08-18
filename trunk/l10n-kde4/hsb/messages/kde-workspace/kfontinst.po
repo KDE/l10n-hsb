@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:37+0200\n"
+"POT-Creation-Date: 2012-08-18 04:26+0200\n"
 "PO-Revision-Date: 2008-11-16 18:23+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,22 +17,6 @@ msgstr ""
 "X-Generator: KAider 0.1\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Edward Wornar"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "edi.werner@gmx.de"
-
-#. i18n: file: viewpart/kfontviewpart.rc:4
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:5
-msgid "&Main Toolbar"
-msgstr "&Hłowny pas"
 
 #: apps/Installer.cpp:54 kcmfontinst/KCmFontInst.cpp:1023
 msgid ""
@@ -346,17 +330,29 @@ msgstr ""
 "<p>Chceće woprawdźe '<b>%1</b>' wumaznyć?</p><p><i>To jenož skupinu "
 "wumaznje, ale njezniči pisma.</i></p>"
 
-#: kcmfontinst/GroupList.cpp:579
-msgid "Remove Group"
-msgstr "Skupinu wumaznyć"
-
 #: kcmfontinst/GroupList.cpp:579 kcmfontinst/GroupList.cpp:830
 msgid "Remove"
 msgstr "Wumaznyć"
 
+#: kcmfontinst/GroupList.cpp:579
+msgid "Remove Group"
+msgstr "Skupinu wumaznyć"
+
 #: kcmfontinst/GroupList.cpp:580 kcmfontinst/KCmFontInst.cpp:250
 msgid "Remove group"
 msgstr "Skupinu wumaznyć"
+
+#: kcmfontinst/GroupList.cpp:625
+#, kde-format
+msgid ""
+"<h3>Font Groups</h3><p>This list displays the font groups available on your "
+"system. There are 2 main types of font groups:<ul><li><b>Standard</b> are "
+"special groups used by the font manager.<ul>%1</ul></li><li><b>Custom</b> "
+"are groups created by you. To add a font family to one of these groups "
+"simply drag it from the list of fonts, and drop onto the desired group. To "
+"remove a family from the group, drag the font onto the \"All Fonts\" group.</"
+"li></ul></p>"
+msgstr ""
 
 #: kcmfontinst/GroupList.cpp:634
 msgid ""
@@ -382,18 +378,6 @@ msgstr ""
 "wšitkich wužiwarjow.</li><li><i>Wosobinske</i> su Waše wosobinske pisma.</"
 "li><li><i>Njeklasifikowane</i> su wšitke pisma, kiž so hišće njejsu do "
 "žaneje skupiny rjadowali.</li>"
-
-#: kcmfontinst/GroupList.cpp:625
-#, kde-format
-msgid ""
-"<h3>Font Groups</h3><p>This list displays the font groups available on your "
-"system. There are 2 main types of font groups:<ul><li><b>Standard</b> are "
-"special groups used by the font manager.<ul>%1</ul></li><li><b>Custom</b> "
-"are groups created by you. To add a font family to one of these groups "
-"simply drag it from the list of fonts, and drop onto the desired group. To "
-"remove a family from the group, drag the font onto the \"All Fonts\" group.</"
-"li></ul></p>"
-msgstr ""
 
 #: kcmfontinst/GroupList.cpp:744
 #, kde-format
@@ -743,14 +727,14 @@ msgstr ""
 "<qt>Chceće \n"
 " <b>'%1'</b>woprawdźe wušmórnyć?</qt>"
 
+#: kcmfontinst/KCmFontInst.cpp:727 kcmfontinst/KCmFontInst.cpp:736
+msgid "Move"
+msgstr ""
+
 #: kcmfontinst/KCmFontInst.cpp:727
 #, fuzzy
 msgid "Move Font"
 msgstr "Jedne pismo"
-
-#: kcmfontinst/KCmFontInst.cpp:727 kcmfontinst/KCmFontInst.cpp:736
-msgid "Move"
-msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:731
 #, fuzzy, kde-format
@@ -887,12 +871,12 @@ msgstr "Njeje so ničo wuzwoliło, štož měło so wušmórnyć."
 
 #: kcmfontinst/KCmFontInst.cpp:1174
 #, fuzzy
-msgid "Nothing to Enable"
+msgid "Nothing to Disable"
 msgstr "Ničo k wušmórnjenju"
 
 #: kcmfontinst/KCmFontInst.cpp:1174
 #, fuzzy
-msgid "Nothing to Disable"
+msgid "Nothing to Enable"
 msgstr "Ničo k wušmórnjenju"
 
 #: kcmfontinst/KCmFontInst.cpp:1191
@@ -923,15 +907,15 @@ msgid ""
 "'<b>%2</b>'?</p>"
 msgstr ""
 
-#: kcmfontinst/KCmFontInst.cpp:1203 kcmfontinst/KCmFontInst.cpp:1204
-#, fuzzy
-msgid "Enable Font"
-msgstr "Jedne pismo"
-
 #: kcmfontinst/KCmFontInst.cpp:1203 kcmfontinst/KCmFontInst.cpp:1205
 #, fuzzy
 msgid "Disable Font"
 msgstr "Pismo wušmórnyć"
+
+#: kcmfontinst/KCmFontInst.cpp:1203 kcmfontinst/KCmFontInst.cpp:1204
+#, fuzzy
+msgid "Enable Font"
+msgstr "Jedne pismo"
 
 #: kcmfontinst/KCmFontInst.cpp:1210
 #, fuzzy, kde-format
@@ -1009,15 +993,15 @@ msgstr[3] ""
 "<qt>Chceće \n"
 " <b>'%1'</b>woprawdźe wušmórnyć?</qt>"
 
-#: kcmfontinst/KCmFontInst.cpp:1227 kcmfontinst/KCmFontInst.cpp:1228
-#, fuzzy
-msgid "Enable Fonts"
-msgstr "Jedne pismo"
-
 #: kcmfontinst/KCmFontInst.cpp:1227 kcmfontinst/KCmFontInst.cpp:1229
 #, fuzzy
 msgid "Disable Fonts"
 msgstr "Pisma wušmórnyć"
+
+#: kcmfontinst/KCmFontInst.cpp:1227 kcmfontinst/KCmFontInst.cpp:1228
+#, fuzzy
+msgid "Enable Fonts"
+msgstr "Jedne pismo"
 
 #: kcmfontinst/KCmFontInst.cpp:1235
 msgid "Enabling font(s)..."
@@ -1192,6 +1176,152 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
+
+#: lib/KfiConstants.h:40
+msgid "Personal"
+msgstr ""
+
+#: lib/KfiConstants.h:41
+msgid "System"
+msgstr ""
+
+#: lib/KfiConstants.h:42
+msgid "All"
+msgstr ""
+
+#: lib/KfiConstants.h:56
+msgid "Administrator"
+msgstr ""
+
+#: lib/KfiConstants.h:95
+msgid "Thin"
+msgstr ""
+
+#: lib/KfiConstants.h:96
+msgid "Extra Light"
+msgstr ""
+
+#: lib/KfiConstants.h:97
+msgid "Ultra Light"
+msgstr ""
+
+#: lib/KfiConstants.h:98
+#, fuzzy
+msgid "Light"
+msgstr "Sylnosć pisma"
+
+#: lib/KfiConstants.h:99
+msgid "Regular"
+msgstr ""
+
+#: lib/KfiConstants.h:100 lib/KfiConstants.h:118
+msgid "Normal"
+msgstr ""
+
+#: lib/KfiConstants.h:101
+msgid "Medium"
+msgstr ""
+
+#: lib/KfiConstants.h:102
+msgid "Demi Bold"
+msgstr ""
+
+#: lib/KfiConstants.h:103
+msgid "Semi Bold"
+msgstr ""
+
+#: lib/KfiConstants.h:104
+msgid "Bold"
+msgstr ""
+
+#: lib/KfiConstants.h:105
+msgid "Extra Bold"
+msgstr ""
+
+#: lib/KfiConstants.h:106
+msgid "Ultra Bold"
+msgstr ""
+
+#: lib/KfiConstants.h:107
+msgid "Black"
+msgstr ""
+
+#: lib/KfiConstants.h:108
+msgid "Heavy"
+msgstr ""
+
+#: lib/KfiConstants.h:110
+msgid "Roman"
+msgstr ""
+
+#: lib/KfiConstants.h:111
+#, fuzzy
+msgid "Italic"
+msgstr "Instalować"
+
+#: lib/KfiConstants.h:112
+msgid "Oblique"
+msgstr ""
+
+#: lib/KfiConstants.h:114
+msgid "Ultra Condensed"
+msgstr ""
+
+#: lib/KfiConstants.h:115
+msgid "Extra Condensed"
+msgstr ""
+
+#: lib/KfiConstants.h:116
+msgid "Condensed"
+msgstr ""
+
+#: lib/KfiConstants.h:117
+msgid "Semi Condensed"
+msgstr ""
+
+#: lib/KfiConstants.h:119
+msgid "Semi Expanded"
+msgstr ""
+
+#: lib/KfiConstants.h:120
+msgid "Expanded"
+msgstr ""
+
+#: lib/KfiConstants.h:121
+msgid "Extra Expanded"
+msgstr ""
+
+#: lib/KfiConstants.h:122
+msgid "Ultra Expanded"
+msgstr ""
+
+#: lib/KfiConstants.h:124
+msgid "Monospaced"
+msgstr ""
+
+#: lib/KfiConstants.h:125
+msgid "Charcell"
+msgstr ""
+
+#: lib/KfiConstants.h:126
+msgid "Proportional"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Edward Wornar"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "edi.werner@gmx.de"
+
+#. i18n: file: viewpart/kfontviewpart.rc:4
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:5
+msgid "&Main Toolbar"
+msgstr "&Hłowny pas"
 
 #: viewpart/CharTip.cpp:65
 msgid "Other, Control"
@@ -1383,136 +1513,6 @@ msgstr ""
 #: viewpart/PreviewSelectAction.cpp:64
 #, kde-format
 msgid "Unicode Script: %1"
-msgstr ""
-
-#: lib/KfiConstants.h:40
-msgid "Personal"
-msgstr ""
-
-#: lib/KfiConstants.h:41
-msgid "System"
-msgstr ""
-
-#: lib/KfiConstants.h:42
-msgid "All"
-msgstr ""
-
-#: lib/KfiConstants.h:56
-msgid "Administrator"
-msgstr ""
-
-#: lib/KfiConstants.h:95
-msgid "Thin"
-msgstr ""
-
-#: lib/KfiConstants.h:96
-msgid "Extra Light"
-msgstr ""
-
-#: lib/KfiConstants.h:97
-msgid "Ultra Light"
-msgstr ""
-
-#: lib/KfiConstants.h:98
-#, fuzzy
-msgid "Light"
-msgstr "Sylnosć pisma"
-
-#: lib/KfiConstants.h:99
-msgid "Regular"
-msgstr ""
-
-#: lib/KfiConstants.h:100 lib/KfiConstants.h:118
-msgid "Normal"
-msgstr ""
-
-#: lib/KfiConstants.h:101
-msgid "Medium"
-msgstr ""
-
-#: lib/KfiConstants.h:102
-msgid "Demi Bold"
-msgstr ""
-
-#: lib/KfiConstants.h:103
-msgid "Semi Bold"
-msgstr ""
-
-#: lib/KfiConstants.h:104
-msgid "Bold"
-msgstr ""
-
-#: lib/KfiConstants.h:105
-msgid "Extra Bold"
-msgstr ""
-
-#: lib/KfiConstants.h:106
-msgid "Ultra Bold"
-msgstr ""
-
-#: lib/KfiConstants.h:107
-msgid "Black"
-msgstr ""
-
-#: lib/KfiConstants.h:108
-msgid "Heavy"
-msgstr ""
-
-#: lib/KfiConstants.h:110
-msgid "Roman"
-msgstr ""
-
-#: lib/KfiConstants.h:111
-#, fuzzy
-msgid "Italic"
-msgstr "Instalować"
-
-#: lib/KfiConstants.h:112
-msgid "Oblique"
-msgstr ""
-
-#: lib/KfiConstants.h:114
-msgid "Ultra Condensed"
-msgstr ""
-
-#: lib/KfiConstants.h:115
-msgid "Extra Condensed"
-msgstr ""
-
-#: lib/KfiConstants.h:116
-msgid "Condensed"
-msgstr ""
-
-#: lib/KfiConstants.h:117
-msgid "Semi Condensed"
-msgstr ""
-
-#: lib/KfiConstants.h:119
-msgid "Semi Expanded"
-msgstr ""
-
-#: lib/KfiConstants.h:120
-msgid "Expanded"
-msgstr ""
-
-#: lib/KfiConstants.h:121
-msgid "Extra Expanded"
-msgstr ""
-
-#: lib/KfiConstants.h:122
-msgid "Ultra Expanded"
-msgstr ""
-
-#: lib/KfiConstants.h:124
-msgid "Monospaced"
-msgstr ""
-
-#: lib/KfiConstants.h:125
-msgid "Charcell"
-msgstr ""
-
-#: lib/KfiConstants.h:126
-msgid "Proportional"
 msgstr ""
 
 #: viewpart/UnicodeBlocks.h:21

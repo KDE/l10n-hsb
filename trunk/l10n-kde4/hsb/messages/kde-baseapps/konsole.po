@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-10 04:55+0200\n"
+"POT-Creation-Date: 2012-08-18 04:13+0200\n"
 "PO-Revision-Date: 2003-12-23 17:19+0100\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -145,17 +145,17 @@ msgid "Accessible Color Scheme"
 msgstr ""
 
 #: ColorSchemeEditor.cpp:79
+msgctxt "@label:listbox Column header text for the actual colors"
+msgid "Color"
+msgstr ""
+
+#: ColorSchemeEditor.cpp:79
 #, fuzzy
 #| msgctxt "NAME OF TRANSLATORS"
 #| msgid "Your names"
 msgctxt "@label:listbox Column header text for color names"
 msgid "Name"
 msgstr "Edward Wornar"
-
-#: ColorSchemeEditor.cpp:79
-msgctxt "@label:listbox Column header text for the actual colors"
-msgid "Color"
-msgstr ""
 
 #: ColorSchemeEditor.cpp:101
 msgctxt "@info:status"
@@ -396,6 +396,690 @@ msgstr "Konfiguracija wulkosće"
 #, fuzzy
 msgid "Output"
 msgstr "Nachwilny pomjatk zawěsćić"
+
+#: MainWindow.cpp:275
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "&New Tab"
+msgstr "Interpreter &zakónčić"
+
+#: MainWindow.cpp:284
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "&Clone Tab"
+msgstr "Interpreter &zakónčić"
+
+#: MainWindow.cpp:291
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "New &Window"
+msgstr "Nowa se&sija"
+
+#: MainWindow.cpp:298
+#, fuzzy
+#| msgid "Konsole"
+msgctxt "@action:inmenu"
+msgid "Close Window"
+msgstr "Konsole"
+
+#: MainWindow.cpp:303
+#, fuzzy
+msgctxt "@title:menu"
+msgid "&Bookmarks"
+msgstr "Interpreter na spomjatkowanym městnje"
+
+#: MainWindow.cpp:321
+#, fuzzy
+#| msgid "Save Sessions &Profile..."
+msgctxt "@action:inmenu"
+msgid "Manage Profiles..."
+msgstr "&Profilowu dataju zawěsćić..."
+
+#: MainWindow.cpp:327
+msgctxt "@item"
+msgid "Activate Menu"
+msgstr ""
+
+#: MainWindow.cpp:532
+#, kde-format
+msgctxt "@info"
+msgid "There are %1 tab open in this window. Do you still want to quit?"
+msgid_plural ""
+"There are %1 tabs open in this window. Do you still want to quit?"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: MainWindow.cpp:536
+msgctxt "@title"
+msgid "Confirm Close"
+msgstr ""
+
+#: MainWindow.cpp:538
+#, fuzzy
+msgctxt "@action:button"
+msgid "Close Current Tab"
+msgstr "Interpreter &zakónčić"
+
+#: MainWindow.cpp:635
+msgctxt "@title Preferences page name"
+msgid "General"
+msgstr ""
+
+#: MainWindow.cpp:640
+msgctxt "@title Preferences page name"
+msgid "TabBar"
+msgstr ""
+
+#: ManageProfilesDialog.cpp:43
+#, fuzzy
+#| msgid "Save Sessions &Profile..."
+msgctxt "@title:window"
+msgid "Manage Profiles"
+msgstr "&Profilowu dataju zawěsćić..."
+
+#: ManageProfilesDialog.cpp:177
+#, fuzzy
+#| msgid "Save Sessions Profile"
+msgid "Click to rename profile"
+msgstr "Profil posedźenja zawěsćić"
+
+#: ManageProfilesDialog.cpp:186
+msgid "Click to toggle status"
+msgstr ""
+
+#: ManageProfilesDialog.cpp:192
+msgid "Double click to change shortcut"
+msgstr ""
+
+#: ManageProfilesDialog.cpp:214
+#, fuzzy
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgctxt "@title:column Profile label"
+msgid "Name"
+msgstr "Edward Wornar"
+
+#: ManageProfilesDialog.cpp:215
+msgctxt "@title:column Display profile in file menu"
+msgid "Show in Menu"
+msgstr ""
+
+#: ManageProfilesDialog.cpp:216
+msgctxt "@title:column Profile shortcut text"
+msgid "Shortcut"
+msgstr ""
+
+#: ManageProfilesDialog.cpp:330
+#, fuzzy
+#| msgid "Save Sessions &Profile..."
+msgctxt "@item This will be used as part of the file name"
+msgid "New Profile"
+msgstr "&Profilowu dataju zawěsćić..."
+
+#: Part.cpp:96
+#, fuzzy
+#| msgid "Save Sessions &Profile..."
+msgid "Manage Profiles..."
+msgstr "&Profilowu dataju zawěsćić..."
+
+#: Profile.cpp:143
+#, fuzzy
+#| msgid "&Bell"
+msgid "Shell"
+msgstr "&Zwónčk"
+
+#: ProfileList.cpp:47
+#, fuzzy
+#| msgid "Save Sessions &Profile..."
+msgid "Default profile"
+msgstr "&Profilowu dataju zawěsćić..."
+
+#: RenameTabDialog.cpp:31
+msgid "Rename Tab"
+msgstr ""
+
+#: Session.cpp:387
+#, fuzzy
+#| msgid "Could not save history."
+msgid "Could not find binary: "
+msgstr "Njemóžach nachwilny pomjatk zawěsćić."
+
+#: Session.cpp:396
+msgctxt "@info:shell Alert the user with red color text"
+msgid "Warning: "
+msgstr ""
+
+#: Session.cpp:453
+#, kde-format
+msgid ""
+"Could not find '%1', starting '%2' instead.  Please check your profile "
+"settings."
+msgstr ""
+
+#: Session.cpp:456
+msgid "Could not find an interactive shell to start."
+msgstr ""
+
+#: Session.cpp:496
+#, kde-format
+msgid "Could not start program '%1' with arguments '%2'."
+msgstr ""
+
+#: Session.cpp:602
+#, fuzzy, kde-format
+msgid "Silence in session '%1'"
+msgstr "in"
+
+#: Session.cpp:643
+#, fuzzy, kde-format
+msgid "Bell in session '%1'"
+msgstr "in"
+
+#: Session.cpp:646
+#, fuzzy, kde-format
+msgid "Activity in session '%1'"
+msgstr "in"
+
+#: Session.cpp:827
+#, fuzzy
+#| msgid "Find"
+msgctxt "@info:shell This session is done"
+msgid "Finished"
+msgstr "Pytać"
+
+#: Session.cpp:841 Session.cpp:853
+#, fuzzy, kde-format
+msgid "Program '%1' crashed."
+msgstr "Interpreter."
+
+#: Session.cpp:843
+#, fuzzy, kde-format
+msgid "Program '%1' exited with status %2."
+msgstr "Interpreter."
+
+#: Session.cpp:1194
+msgid "ZModem Progress"
+msgstr ""
+
+#: SessionController.cpp:334
+msgid "Konsole does not know how to open the bookmark: "
+msgstr ""
+
+#: SessionController.cpp:391
+#, kde-format
+msgid "Search for '%1' with"
+msgstr ""
+
+#: SessionController.cpp:406
+msgid "Configure Web Shortcuts..."
+msgstr ""
+
+#: SessionController.cpp:540
+msgid "&Close Tab"
+msgstr ""
+
+#: SessionController.cpp:546
+msgid "Open File Manager"
+msgstr ""
+
+#: SessionController.cpp:562
+msgid "Paste Selection"
+msgstr "Wubrany tekst zasunyć"
+
+#: SessionController.cpp:565
+msgid "Web Search"
+msgstr ""
+
+#: SessionController.cpp:572
+#, fuzzy
+#| msgid "&Terminate Task"
+msgid "&Select All"
+msgstr "Proces za&kónčić"
+
+#: SessionController.cpp:576
+#, fuzzy
+msgid "Save Output &As..."
+msgstr "Nachwilny pomjatk zawěsćić"
+
+#: SessionController.cpp:579
+#, fuzzy
+#| msgid "Save Sessions &Profile..."
+msgid "Adjust Scrollback..."
+msgstr "&Profilowu dataju zawěsćić..."
+
+#: SessionController.cpp:583
+#, fuzzy
+#| msgctxt "Unlimited (number of lines)"
+#| msgid "Unlimited"
+msgid "Clear Scrollback"
+msgstr "Bjez wobmjezowanja"
+
+#: SessionController.cpp:587
+#, fuzzy
+#| msgid "Clear &History"
+msgid "Clear Scrollback and Reset"
+msgstr "&Pomjatk wuprózdnić"
+
+#: SessionController.cpp:593
+#, fuzzy
+#| msgid "Save Sessions &Profile..."
+msgid "Edit Current Profile..."
+msgstr "&Profilowu dataju zawěsćić..."
+
+#: SessionController.cpp:596
+#, fuzzy
+#| msgid "Save Sessions &Profile..."
+msgid "Switch Profile"
+msgstr "&Profilowu dataju zawěsćić..."
+
+#: SessionController.cpp:621
+#, fuzzy
+#| msgid "&Terminate Task"
+msgid "&Rename Tab..."
+msgstr "Proces za&kónčić"
+
+#: SessionController.cpp:627
+msgid "&All Tabs in Current Window"
+msgstr ""
+
+#: SessionController.cpp:634
+#, fuzzy
+#| msgid "&Terminate Task"
+msgid "&Select Tabs..."
+msgstr "Proces za&kónčić"
+
+#: SessionController.cpp:640
+msgctxt "@action:inmenu Do not select any tabs"
+msgid "&None"
+msgstr ""
+
+#: SessionController.cpp:648
+msgid "Copy Input To"
+msgstr ""
+
+#: SessionController.cpp:655
+msgid "&ZModem Upload..."
+msgstr ""
+
+#: SessionController.cpp:660
+msgid "Monitor for &Activity"
+msgstr "Dźiwać na &aktiwity"
+
+#: SessionController.cpp:665
+msgid "Monitor for &Silence"
+msgstr "Dźiwać na &ćišinu"
+
+#: SessionController.cpp:671
+msgid "Set &Encoding"
+msgstr ""
+
+#: SessionController.cpp:679
+msgid "Enlarge Font"
+msgstr ""
+
+#: SessionController.cpp:687
+#, fuzzy
+msgid "Shrink Font"
+msgstr "Mjeńše pismo"
+
+#: SessionController.cpp:693
+msgid "Send Signal"
+msgstr ""
+
+#: SessionController.cpp:697
+msgid "&Suspend Task"
+msgstr ""
+
+#: SessionController.cpp:702
+#, fuzzy
+msgid "&Continue Task"
+msgstr "Interpreter &zakónčić"
+
+#: SessionController.cpp:707
+msgid "&Hangup"
+msgstr ""
+
+#: SessionController.cpp:712
+msgid "&Interrupt Task"
+msgstr ""
+
+#: SessionController.cpp:717
+#, fuzzy
+#| msgid "&Terminate Task"
+msgid "&Terminate Task"
+msgstr "Proces za&kónčić"
+
+#: SessionController.cpp:722
+msgid "&Kill Task"
+msgstr ""
+
+#: SessionController.cpp:727
+msgid "User Signal &1"
+msgstr ""
+
+#: SessionController.cpp:732
+msgid "User Signal &2"
+msgstr ""
+
+#: SessionController.cpp:817
+msgid ""
+"A program is currently running in this session.  Are you sure you want to "
+"close it?"
+msgstr ""
+
+#: SessionController.cpp:820
+#, kde-format
+msgid ""
+"The program '%1' is currently running in this session.  Are you sure you "
+"want to close it?"
+msgstr ""
+
+#: SessionController.cpp:823 SessionController.cpp:848
+msgid "Confirm Close"
+msgstr ""
+
+#: SessionController.cpp:842
+msgid ""
+"A program in this session would not die.  Are you sure you want to kill it "
+"by force?"
+msgstr ""
+
+#: SessionController.cpp:845
+#, kde-format
+msgid ""
+"The program '%1' is in this session would not die.  Are you sure you want to "
+"kill it by force?"
+msgstr ""
+
+#: SessionController.cpp:1430
+msgid "Save ZModem Download to..."
+msgstr ""
+
+#: SessionController.cpp:1438
+msgid ""
+"<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
+"software was found on this system.</p><p>You may wish to install the 'rzsz' "
+"or 'lrzsz' package.</p>"
+msgstr ""
+
+#: SessionController.cpp:1450
+msgid ""
+"<p>The current session already has a ZModem file transfer in progress.</p>"
+msgstr ""
+
+#: SessionController.cpp:1459
+msgid ""
+"<p>No suitable ZModem software was found on this system.</p><p>You may wish "
+"to install the 'rzsz' or 'lrzsz' package.</p>"
+msgstr ""
+
+#: SessionController.cpp:1465
+msgid "Select Files for ZModem Upload"
+msgstr ""
+
+#: SessionController.cpp:1532
+#, fuzzy, kde-format
+msgid "Save Output From %1"
+msgstr "Nachwilny pomjatk zawěsćić"
+
+#: SessionController.cpp:1543
+#, kde-format
+msgid "%1 is an invalid URL, the output could not be saved."
+msgstr ""
+
+#: SessionController.cpp:1618
+#, kde-format
+msgid ""
+"A problem occurred when saving the output.\n"
+"%1"
+msgstr ""
+
+#: SessionListModel.cpp:99
+#, fuzzy
+#| msgid "Session name:"
+msgctxt "@item:intable The session index"
+msgid "Number"
+msgstr "Mjeno posedźenja:"
+
+#: SessionListModel.cpp:101
+#, fuzzy
+#| msgid "S&ize"
+msgctxt "@item:intable The session title"
+msgid "Title"
+msgstr "&Wulkosć"
+
+#: TabTitleFormatButton.cpp:33
+#, fuzzy, c-format
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgid "Program Name: %n"
+msgstr "Edward Wornar"
+
+#: TabTitleFormatButton.cpp:34
+#, fuzzy, c-format
+msgid "Current Directory (Short): %d"
+msgstr "Změnić"
+
+#: TabTitleFormatButton.cpp:35
+#, fuzzy
+msgid "Current Directory (Long): %D"
+msgstr "Změnić"
+
+#: TabTitleFormatButton.cpp:36 TabTitleFormatButton.cpp:48
+msgid "Window Title Set by Shell: %w"
+msgstr ""
+
+#: TabTitleFormatButton.cpp:37 TabTitleFormatButton.cpp:49
+#, fuzzy
+#| msgid "Session name:"
+msgid "Session Number: %#"
+msgstr "Mjeno posedźenja:"
+
+#: TabTitleFormatButton.cpp:38 TabTitleFormatButton.cpp:45
+#, fuzzy, c-format
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgid "User Name: %u"
+msgstr "Edward Wornar"
+
+#: TabTitleFormatButton.cpp:39
+msgid "Local Host: %h"
+msgstr ""
+
+#: TabTitleFormatButton.cpp:46
+msgid "Remote Host (Short): %h"
+msgstr ""
+
+#: TabTitleFormatButton.cpp:47
+msgid "Remote Host (Long): %H"
+msgstr ""
+
+#: TabTitleFormatButton.cpp:58
+msgid "Insert"
+msgstr ""
+
+#: TabTitleFormatButton.cpp:83
+msgid "Insert title format"
+msgstr ""
+
+#: TabTitleFormatButton.cpp:87
+msgid "Insert remote title format"
+msgstr ""
+
+#: TerminalDisplay.cpp:1104 TerminalDisplay.cpp:1105
+msgid "Size: XXX x XXX"
+msgstr "Wulkosć: XXX x XXX"
+
+#: TerminalDisplay.cpp:1116
+#, kde-format
+msgid "Size: %1 x %2"
+msgstr "Wulkosć: %1 x %2"
+
+#: TerminalDisplay.cpp:2686
+msgid ""
+"<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
+"\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
+msgstr ""
+
+#: TerminalDisplay.cpp:2940
+#, fuzzy
+#| msgid "Paste Selection"
+msgid "&Paste Location"
+msgstr "Wubrany tekst zasunyć"
+
+#: TerminalDisplay.cpp:2954
+msgid "Change &Directory To"
+msgstr ""
+
+#: ViewContainer.cpp:284
+#, fuzzy
+#| msgid "&Detach Session"
+msgctxt "@action:inmenu"
+msgid "&Detach Tab"
+msgstr "&Interpreter w pozadku dale běžeć dać"
+
+#: ViewContainer.cpp:288
+#, fuzzy
+#| msgid "&Terminate Task"
+msgctxt "@action:inmenu"
+msgid "&Rename Tab..."
+msgstr "Proces za&kónčić"
+
+#: ViewContainer.cpp:294
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "&Close Tab"
+msgstr "Interpreter &zakónčić"
+
+#: ViewContainer.cpp:301
+msgctxt "@info:tooltip"
+msgid "Create new tab"
+msgstr ""
+
+#: ViewContainer.cpp:302
+msgctxt "@info:whatsthis"
+msgid "Create a new tab. Press and hold to select profile from menu"
+msgstr ""
+
+#: ViewContainer.cpp:315
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Close tab"
+msgstr "Interpreter &zakónčić"
+
+#: ViewContainer.cpp:316
+#, fuzzy
+#| msgid "C&lose Session"
+msgctxt "@info:whatsthis"
+msgid "Close the active tab"
+msgstr "Interpreter &zakónčić"
+
+#: ViewContainerTabBar.cpp:50
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Tab Bar</title><para>The tab bar allows you to switch and move tabs. "
+"You can double-click a tab to change its name.</para>"
+msgstr ""
+
+#: ViewManager.cpp:135
+#, fuzzy
+msgctxt "@action Shortcut entry"
+msgid "Next Tab"
+msgstr "Interpreter &zakónčić"
+
+#: ViewManager.cpp:136
+#, fuzzy
+#| msgid "Find Pre&vious"
+msgctxt "@action Shortcut entry"
+msgid "Previous Tab"
+msgstr "Pře&dchadny namakać"
+
+#: ViewManager.cpp:137
+#, fuzzy
+msgctxt "@action Shortcut entry"
+msgid "Switch to Last Tab"
+msgstr "Dźi k interpreterej 1"
+
+#: ViewManager.cpp:138
+msgctxt "@action Shortcut entry"
+msgid "Next View Container"
+msgstr ""
+
+#: ViewManager.cpp:140
+#, fuzzy
+#| msgid "&Move Session Left"
+msgctxt "@action Shortcut entry"
+msgid "Move Tab Left"
+msgstr "Sesiju do&lěwa sunyć"
+
+#: ViewManager.cpp:141
+#, fuzzy
+#| msgid "M&ove Session Right"
+msgctxt "@action Shortcut entry"
+msgid "Move Tab Right"
+msgstr "Sesiju do&prawa sunyć"
+
+#: ViewManager.cpp:150
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "Split View Left/Right"
+msgstr "Mjeńše pismo"
+
+#: ViewManager.cpp:157
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "Split View Top/Bottom"
+msgstr "Mjeńše pismo"
+
+#: ViewManager.cpp:162
+#, fuzzy
+#| msgid "C&lose Session"
+msgctxt "@action:inmenu Close Active View"
+msgid "Close Active"
+msgstr "Interpreter &zakónčić"
+
+#: ViewManager.cpp:171
+#, fuzzy
+#| msgid "C&lose Session"
+msgctxt "@action:inmenu Close Other Views"
+msgid "Close Others"
+msgstr "Interpreter &zakónčić"
+
+#: ViewManager.cpp:180
+msgctxt "@action:inmenu"
+msgid "Expand View"
+msgstr ""
+
+#: ViewManager.cpp:188
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "Shrink View"
+msgstr "Mjeńše pismo"
+
+#: ViewManager.cpp:198
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "D&etach Current Tab"
+msgstr "Interpreter &zakónčić"
+
+#: ViewManager.cpp:219
+#, fuzzy, kde-format
+msgctxt "@action Shortcut entry"
+msgid "Switch to Tab %1"
+msgstr "Dźi k interpreterej 1"
+
+#: Vt102Emulation.cpp:1041
+msgid ""
+"No keyboard translator available.  The information needed to convert key "
+"presses into characters to send to the terminal is missing."
+msgstr ""
+
+#: ZModemDialog.cpp:36
+#, fuzzy
+msgid "&Stop"
+msgstr "&Stój"
 
 #: main.cpp:56
 msgctxt "@title"
@@ -686,145 +1370,6 @@ msgstr ""
 msgctxt "@info:credit"
 msgid "Thanks to many others.\n"
 msgstr ""
-
-#: MainWindow.cpp:275
-#, fuzzy
-msgctxt "@action:inmenu"
-msgid "&New Tab"
-msgstr "Interpreter &zakónčić"
-
-#: MainWindow.cpp:284
-#, fuzzy
-msgctxt "@action:inmenu"
-msgid "&Clone Tab"
-msgstr "Interpreter &zakónčić"
-
-#: MainWindow.cpp:291
-#, fuzzy
-msgctxt "@action:inmenu"
-msgid "New &Window"
-msgstr "Nowa se&sija"
-
-#: MainWindow.cpp:298
-#, fuzzy
-#| msgid "Konsole"
-msgctxt "@action:inmenu"
-msgid "Close Window"
-msgstr "Konsole"
-
-#: MainWindow.cpp:303
-#, fuzzy
-msgctxt "@title:menu"
-msgid "&Bookmarks"
-msgstr "Interpreter na spomjatkowanym městnje"
-
-#: MainWindow.cpp:321
-#, fuzzy
-#| msgid "Save Sessions &Profile..."
-msgctxt "@action:inmenu"
-msgid "Manage Profiles..."
-msgstr "&Profilowu dataju zawěsćić..."
-
-#: MainWindow.cpp:327
-msgctxt "@item"
-msgid "Activate Menu"
-msgstr ""
-
-#: MainWindow.cpp:532
-#, kde-format
-msgctxt "@info"
-msgid "There are %1 tab open in this window. Do you still want to quit?"
-msgid_plural ""
-"There are %1 tabs open in this window. Do you still want to quit?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: MainWindow.cpp:536
-msgctxt "@title"
-msgid "Confirm Close"
-msgstr ""
-
-#: MainWindow.cpp:538
-#, fuzzy
-msgctxt "@action:button"
-msgid "Close Current Tab"
-msgstr "Interpreter &zakónčić"
-
-#: MainWindow.cpp:635
-msgctxt "@title Preferences page name"
-msgid "General"
-msgstr ""
-
-#: MainWindow.cpp:640
-msgctxt "@title Preferences page name"
-msgid "TabBar"
-msgstr ""
-
-#: ManageProfilesDialog.cpp:43
-#, fuzzy
-#| msgid "Save Sessions &Profile..."
-msgctxt "@title:window"
-msgid "Manage Profiles"
-msgstr "&Profilowu dataju zawěsćić..."
-
-#: ManageProfilesDialog.cpp:177
-#, fuzzy
-#| msgid "Save Sessions Profile"
-msgid "Click to rename profile"
-msgstr "Profil posedźenja zawěsćić"
-
-#: ManageProfilesDialog.cpp:186
-msgid "Click to toggle status"
-msgstr ""
-
-#: ManageProfilesDialog.cpp:192
-msgid "Double click to change shortcut"
-msgstr ""
-
-#: ManageProfilesDialog.cpp:214
-#, fuzzy
-#| msgctxt "NAME OF TRANSLATORS"
-#| msgid "Your names"
-msgctxt "@title:column Profile label"
-msgid "Name"
-msgstr "Edward Wornar"
-
-#: ManageProfilesDialog.cpp:215
-msgctxt "@title:column Display profile in file menu"
-msgid "Show in Menu"
-msgstr ""
-
-#: ManageProfilesDialog.cpp:216
-msgctxt "@title:column Profile shortcut text"
-msgid "Shortcut"
-msgstr ""
-
-#: ManageProfilesDialog.cpp:330
-#, fuzzy
-#| msgid "Save Sessions &Profile..."
-msgctxt "@item This will be used as part of the file name"
-msgid "New Profile"
-msgstr "&Profilowu dataju zawěsćić..."
-
-#: Part.cpp:96
-#, fuzzy
-#| msgid "Save Sessions &Profile..."
-msgid "Manage Profiles..."
-msgstr "&Profilowu dataju zawěsćić..."
-
-#: Profile.cpp:143
-#, fuzzy
-#| msgid "&Bell"
-msgid "Shell"
-msgstr "&Zwónčk"
-
-#: ProfileList.cpp:47
-#, fuzzy
-#| msgid "Save Sessions &Profile..."
-msgid "Default profile"
-msgstr "&Profilowu dataju zawěsćić..."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -1970,10 +2515,6 @@ msgstr ""
 msgid "S&crollback"
 msgstr "Bjez wobmjezowanja"
 
-#: RenameTabDialog.cpp:31
-msgid "Rename Tab"
-msgstr ""
-
 #: schemas.cpp:1
 msgid "Black on Light Yellow"
 msgstr ""
@@ -2036,547 +2577,6 @@ msgstr "Konsole"
 #, fuzzy
 msgid "DEC VT420 Terminal"
 msgstr "Terminal &wuprózdnić"
-
-#: SessionController.cpp:334
-msgid "Konsole does not know how to open the bookmark: "
-msgstr ""
-
-#: SessionController.cpp:391
-#, kde-format
-msgid "Search for '%1' with"
-msgstr ""
-
-#: SessionController.cpp:406
-msgid "Configure Web Shortcuts..."
-msgstr ""
-
-#: SessionController.cpp:540
-msgid "&Close Tab"
-msgstr ""
-
-#: SessionController.cpp:546
-msgid "Open File Manager"
-msgstr ""
-
-#: SessionController.cpp:562
-msgid "Paste Selection"
-msgstr "Wubrany tekst zasunyć"
-
-#: SessionController.cpp:565
-msgid "Web Search"
-msgstr ""
-
-#: SessionController.cpp:572
-#, fuzzy
-#| msgid "&Terminate Task"
-msgid "&Select All"
-msgstr "Proces za&kónčić"
-
-#: SessionController.cpp:576
-#, fuzzy
-msgid "Save Output &As..."
-msgstr "Nachwilny pomjatk zawěsćić"
-
-#: SessionController.cpp:579
-#, fuzzy
-#| msgid "Save Sessions &Profile..."
-msgid "Adjust Scrollback..."
-msgstr "&Profilowu dataju zawěsćić..."
-
-#: SessionController.cpp:583
-#, fuzzy
-#| msgctxt "Unlimited (number of lines)"
-#| msgid "Unlimited"
-msgid "Clear Scrollback"
-msgstr "Bjez wobmjezowanja"
-
-#: SessionController.cpp:587
-#, fuzzy
-#| msgid "Clear &History"
-msgid "Clear Scrollback and Reset"
-msgstr "&Pomjatk wuprózdnić"
-
-#: SessionController.cpp:593
-#, fuzzy
-#| msgid "Save Sessions &Profile..."
-msgid "Edit Current Profile..."
-msgstr "&Profilowu dataju zawěsćić..."
-
-#: SessionController.cpp:596
-#, fuzzy
-#| msgid "Save Sessions &Profile..."
-msgid "Switch Profile"
-msgstr "&Profilowu dataju zawěsćić..."
-
-#: SessionController.cpp:621
-#, fuzzy
-#| msgid "&Terminate Task"
-msgid "&Rename Tab..."
-msgstr "Proces za&kónčić"
-
-#: SessionController.cpp:627
-msgid "&All Tabs in Current Window"
-msgstr ""
-
-#: SessionController.cpp:634
-#, fuzzy
-#| msgid "&Terminate Task"
-msgid "&Select Tabs..."
-msgstr "Proces za&kónčić"
-
-#: SessionController.cpp:640
-msgctxt "@action:inmenu Do not select any tabs"
-msgid "&None"
-msgstr ""
-
-#: SessionController.cpp:648
-msgid "Copy Input To"
-msgstr ""
-
-#: SessionController.cpp:655
-msgid "&ZModem Upload..."
-msgstr ""
-
-#: SessionController.cpp:660
-msgid "Monitor for &Activity"
-msgstr "Dźiwać na &aktiwity"
-
-#: SessionController.cpp:665
-msgid "Monitor for &Silence"
-msgstr "Dźiwać na &ćišinu"
-
-#: SessionController.cpp:671
-msgid "Set &Encoding"
-msgstr ""
-
-#: SessionController.cpp:679
-msgid "Enlarge Font"
-msgstr ""
-
-#: SessionController.cpp:687
-#, fuzzy
-msgid "Shrink Font"
-msgstr "Mjeńše pismo"
-
-#: SessionController.cpp:693
-msgid "Send Signal"
-msgstr ""
-
-#: SessionController.cpp:697
-msgid "&Suspend Task"
-msgstr ""
-
-#: SessionController.cpp:702
-#, fuzzy
-msgid "&Continue Task"
-msgstr "Interpreter &zakónčić"
-
-#: SessionController.cpp:707
-msgid "&Hangup"
-msgstr ""
-
-#: SessionController.cpp:712
-msgid "&Interrupt Task"
-msgstr ""
-
-#: SessionController.cpp:717
-#, fuzzy
-#| msgid "&Terminate Task"
-msgid "&Terminate Task"
-msgstr "Proces za&kónčić"
-
-#: SessionController.cpp:722
-msgid "&Kill Task"
-msgstr ""
-
-#: SessionController.cpp:727
-msgid "User Signal &1"
-msgstr ""
-
-#: SessionController.cpp:732
-msgid "User Signal &2"
-msgstr ""
-
-#: SessionController.cpp:817
-msgid ""
-"A program is currently running in this session.  Are you sure you want to "
-"close it?"
-msgstr ""
-
-#: SessionController.cpp:820
-#, kde-format
-msgid ""
-"The program '%1' is currently running in this session.  Are you sure you "
-"want to close it?"
-msgstr ""
-
-#: SessionController.cpp:823 SessionController.cpp:848
-msgid "Confirm Close"
-msgstr ""
-
-#: SessionController.cpp:842
-msgid ""
-"A program in this session would not die.  Are you sure you want to kill it "
-"by force?"
-msgstr ""
-
-#: SessionController.cpp:845
-#, kde-format
-msgid ""
-"The program '%1' is in this session would not die.  Are you sure you want to "
-"kill it by force?"
-msgstr ""
-
-#: SessionController.cpp:1430
-msgid "Save ZModem Download to..."
-msgstr ""
-
-#: SessionController.cpp:1438
-msgid ""
-"<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
-"software was found on this system.</p><p>You may wish to install the 'rzsz' "
-"or 'lrzsz' package.</p>"
-msgstr ""
-
-#: SessionController.cpp:1450
-msgid ""
-"<p>The current session already has a ZModem file transfer in progress.</p>"
-msgstr ""
-
-#: SessionController.cpp:1459
-msgid ""
-"<p>No suitable ZModem software was found on this system.</p><p>You may wish "
-"to install the 'rzsz' or 'lrzsz' package.</p>"
-msgstr ""
-
-#: SessionController.cpp:1465
-msgid "Select Files for ZModem Upload"
-msgstr ""
-
-#: SessionController.cpp:1532
-#, fuzzy, kde-format
-msgid "Save Output From %1"
-msgstr "Nachwilny pomjatk zawěsćić"
-
-#: SessionController.cpp:1543
-#, kde-format
-msgid "%1 is an invalid URL, the output could not be saved."
-msgstr ""
-
-#: SessionController.cpp:1618
-#, kde-format
-msgid ""
-"A problem occurred when saving the output.\n"
-"%1"
-msgstr ""
-
-#: Session.cpp:387
-#, fuzzy
-#| msgid "Could not save history."
-msgid "Could not find binary: "
-msgstr "Njemóžach nachwilny pomjatk zawěsćić."
-
-#: Session.cpp:396
-msgctxt "@info:shell Alert the user with red color text"
-msgid "Warning: "
-msgstr ""
-
-#: Session.cpp:453
-#, kde-format
-msgid ""
-"Could not find '%1', starting '%2' instead.  Please check your profile "
-"settings."
-msgstr ""
-
-#: Session.cpp:456
-msgid "Could not find an interactive shell to start."
-msgstr ""
-
-#: Session.cpp:496
-#, kde-format
-msgid "Could not start program '%1' with arguments '%2'."
-msgstr ""
-
-#: Session.cpp:602
-#, fuzzy, kde-format
-msgid "Silence in session '%1'"
-msgstr "in"
-
-#: Session.cpp:643
-#, fuzzy, kde-format
-msgid "Bell in session '%1'"
-msgstr "in"
-
-#: Session.cpp:646
-#, fuzzy, kde-format
-msgid "Activity in session '%1'"
-msgstr "in"
-
-#: Session.cpp:827
-#, fuzzy
-#| msgid "Find"
-msgctxt "@info:shell This session is done"
-msgid "Finished"
-msgstr "Pytać"
-
-#: Session.cpp:841 Session.cpp:853
-#, fuzzy, kde-format
-msgid "Program '%1' crashed."
-msgstr "Interpreter."
-
-#: Session.cpp:843
-#, fuzzy, kde-format
-msgid "Program '%1' exited with status %2."
-msgstr "Interpreter."
-
-#: Session.cpp:1194
-msgid "ZModem Progress"
-msgstr ""
-
-#: SessionListModel.cpp:99
-#, fuzzy
-#| msgid "Session name:"
-msgctxt "@item:intable The session index"
-msgid "Number"
-msgstr "Mjeno posedźenja:"
-
-#: SessionListModel.cpp:101
-#, fuzzy
-#| msgid "S&ize"
-msgctxt "@item:intable The session title"
-msgid "Title"
-msgstr "&Wulkosć"
-
-#: TabTitleFormatButton.cpp:33
-#, fuzzy, c-format
-#| msgctxt "NAME OF TRANSLATORS"
-#| msgid "Your names"
-msgid "Program Name: %n"
-msgstr "Edward Wornar"
-
-#: TabTitleFormatButton.cpp:34
-#, fuzzy, c-format
-msgid "Current Directory (Short): %d"
-msgstr "Změnić"
-
-#: TabTitleFormatButton.cpp:35
-#, fuzzy
-msgid "Current Directory (Long): %D"
-msgstr "Změnić"
-
-#: TabTitleFormatButton.cpp:36 TabTitleFormatButton.cpp:48
-msgid "Window Title Set by Shell: %w"
-msgstr ""
-
-#: TabTitleFormatButton.cpp:37 TabTitleFormatButton.cpp:49
-#, fuzzy
-#| msgid "Session name:"
-msgid "Session Number: %#"
-msgstr "Mjeno posedźenja:"
-
-#: TabTitleFormatButton.cpp:38 TabTitleFormatButton.cpp:45
-#, fuzzy, c-format
-#| msgctxt "NAME OF TRANSLATORS"
-#| msgid "Your names"
-msgid "User Name: %u"
-msgstr "Edward Wornar"
-
-#: TabTitleFormatButton.cpp:39
-msgid "Local Host: %h"
-msgstr ""
-
-#: TabTitleFormatButton.cpp:46
-msgid "Remote Host (Short): %h"
-msgstr ""
-
-#: TabTitleFormatButton.cpp:47
-msgid "Remote Host (Long): %H"
-msgstr ""
-
-#: TabTitleFormatButton.cpp:58
-msgid "Insert"
-msgstr ""
-
-#: TabTitleFormatButton.cpp:83
-msgid "Insert title format"
-msgstr ""
-
-#: TabTitleFormatButton.cpp:87
-msgid "Insert remote title format"
-msgstr ""
-
-#: TerminalDisplay.cpp:1104 TerminalDisplay.cpp:1105
-msgid "Size: XXX x XXX"
-msgstr "Wulkosć: XXX x XXX"
-
-#: TerminalDisplay.cpp:1116
-#, kde-format
-msgid "Size: %1 x %2"
-msgstr "Wulkosć: %1 x %2"
-
-#: TerminalDisplay.cpp:2686
-msgid ""
-"<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
-"\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
-msgstr ""
-
-#: TerminalDisplay.cpp:2936
-#, fuzzy
-#| msgid "Paste Selection"
-msgid "&Paste Location"
-msgstr "Wubrany tekst zasunyć"
-
-#: TerminalDisplay.cpp:2950
-msgid "Change &Directory To"
-msgstr ""
-
-#: ViewContainer.cpp:284
-#, fuzzy
-#| msgid "&Detach Session"
-msgctxt "@action:inmenu"
-msgid "&Detach Tab"
-msgstr "&Interpreter w pozadku dale běžeć dać"
-
-#: ViewContainer.cpp:288
-#, fuzzy
-#| msgid "&Terminate Task"
-msgctxt "@action:inmenu"
-msgid "&Rename Tab..."
-msgstr "Proces za&kónčić"
-
-#: ViewContainer.cpp:294
-#, fuzzy
-msgctxt "@action:inmenu"
-msgid "&Close Tab"
-msgstr "Interpreter &zakónčić"
-
-#: ViewContainer.cpp:301
-msgctxt "@info:tooltip"
-msgid "Create new tab"
-msgstr ""
-
-#: ViewContainer.cpp:302
-msgctxt "@info:whatsthis"
-msgid "Create a new tab. Press and hold to select profile from menu"
-msgstr ""
-
-#: ViewContainer.cpp:315
-#, fuzzy
-msgctxt "@info:tooltip"
-msgid "Close tab"
-msgstr "Interpreter &zakónčić"
-
-#: ViewContainer.cpp:316
-#, fuzzy
-#| msgid "C&lose Session"
-msgctxt "@info:whatsthis"
-msgid "Close the active tab"
-msgstr "Interpreter &zakónčić"
-
-#: ViewContainerTabBar.cpp:50
-msgctxt "@info:whatsthis"
-msgid ""
-"<title>Tab Bar</title><para>The tab bar allows you to switch and move tabs. "
-"You can double-click a tab to change its name.</para>"
-msgstr ""
-
-#: ViewManager.cpp:135
-#, fuzzy
-msgctxt "@action Shortcut entry"
-msgid "Next Tab"
-msgstr "Interpreter &zakónčić"
-
-#: ViewManager.cpp:136
-#, fuzzy
-#| msgid "Find Pre&vious"
-msgctxt "@action Shortcut entry"
-msgid "Previous Tab"
-msgstr "Pře&dchadny namakać"
-
-#: ViewManager.cpp:137
-#, fuzzy
-msgctxt "@action Shortcut entry"
-msgid "Switch to Last Tab"
-msgstr "Dźi k interpreterej 1"
-
-#: ViewManager.cpp:138
-msgctxt "@action Shortcut entry"
-msgid "Next View Container"
-msgstr ""
-
-#: ViewManager.cpp:140
-#, fuzzy
-#| msgid "&Move Session Left"
-msgctxt "@action Shortcut entry"
-msgid "Move Tab Left"
-msgstr "Sesiju do&lěwa sunyć"
-
-#: ViewManager.cpp:141
-#, fuzzy
-#| msgid "M&ove Session Right"
-msgctxt "@action Shortcut entry"
-msgid "Move Tab Right"
-msgstr "Sesiju do&prawa sunyć"
-
-#: ViewManager.cpp:150
-#, fuzzy
-msgctxt "@action:inmenu"
-msgid "Split View Left/Right"
-msgstr "Mjeńše pismo"
-
-#: ViewManager.cpp:157
-#, fuzzy
-msgctxt "@action:inmenu"
-msgid "Split View Top/Bottom"
-msgstr "Mjeńše pismo"
-
-#: ViewManager.cpp:162
-#, fuzzy
-#| msgid "C&lose Session"
-msgctxt "@action:inmenu Close Active View"
-msgid "Close Active"
-msgstr "Interpreter &zakónčić"
-
-#: ViewManager.cpp:171
-#, fuzzy
-#| msgid "C&lose Session"
-msgctxt "@action:inmenu Close Other Views"
-msgid "Close Others"
-msgstr "Interpreter &zakónčić"
-
-#: ViewManager.cpp:180
-msgctxt "@action:inmenu"
-msgid "Expand View"
-msgstr ""
-
-#: ViewManager.cpp:188
-#, fuzzy
-msgctxt "@action:inmenu"
-msgid "Shrink View"
-msgstr "Mjeńše pismo"
-
-#: ViewManager.cpp:198
-#, fuzzy
-msgctxt "@action:inmenu"
-msgid "D&etach Current Tab"
-msgstr "Interpreter &zakónčić"
-
-#: ViewManager.cpp:219
-#, fuzzy, kde-format
-msgctxt "@action Shortcut entry"
-msgid "Switch to Tab %1"
-msgstr "Dźi k interpreterej 1"
-
-#: Vt102Emulation.cpp:1041
-msgid ""
-"No keyboard translator available.  The information needed to convert key "
-"presses into characters to send to the terminal is missing."
-msgstr ""
-
-#: ZModemDialog.cpp:36
-#, fuzzy
-msgid "&Stop"
-msgstr "&Stój"
 
 #, fuzzy
 #~| msgctxt "abbreviation of number"
