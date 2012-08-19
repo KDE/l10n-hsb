@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:22+0200\n"
+"POT-Creation-Date: 2012-08-19 05:41+0200\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -20,124 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 "\n"
-
-#: core/aggregation.cpp:207
-#, fuzzy
-msgctxt "No grouping of messages"
-msgid "None"
-msgstr "&Žane"
-
-#: core/aggregation.cpp:208
-msgid "By Exact Date (of Thread Leaders)"
-msgstr ""
-
-#: core/aggregation.cpp:209
-msgid "By Smart Date Ranges (of Thread Leaders)"
-msgstr ""
-
-#: core/aggregation.cpp:210 core/sortorder.cpp:47
-#, fuzzy
-#| msgid "Sender/Receiver"
-msgid "By Smart Sender/Receiver"
-msgstr "Wotpósłar/Adresat"
-
-#: core/aggregation.cpp:211 core/sortorder.cpp:45
-#, fuzzy
-#| msgid "Sender"
-msgid "By Sender"
-msgstr "Wotpósłar"
-
-#: core/aggregation.cpp:212 core/sortorder.cpp:46
-#, fuzzy
-#| msgid "Receiver"
-msgid "By Receiver"
-msgstr "Adresat"
-
-#: core/aggregation.cpp:222
-#, fuzzy
-#| msgctxt "View->"
-#| msgid "&Expand Thread"
-msgid "Never Expand Groups"
-msgstr "&Skupinu rozćahnyć"
-
-#: core/aggregation.cpp:224
-#, fuzzy
-#| msgid "Expand the current thread"
-msgid "Expand Recent Groups"
-msgstr "Rozćehnje aktualnu skupinu powěsćow"
-
-#: core/aggregation.cpp:225
-#, fuzzy
-#| msgctxt "View->"
-#| msgid "&Expand Thread"
-msgid "Always Expand Groups"
-msgstr "&Skupinu rozćahnyć"
-
-#: core/aggregation.cpp:232
-#, fuzzy
-msgctxt "No threading of messages"
-msgid "None"
-msgstr "&Žane"
-
-#: core/aggregation.cpp:233
-msgid "Perfect Only"
-msgstr ""
-
-#: core/aggregation.cpp:234
-msgid "Perfect and by References"
-msgstr ""
-
-#: core/aggregation.cpp:235
-msgid "Perfect, by References and by Subject"
-msgstr ""
-
-#: core/aggregation.cpp:244
-#, fuzzy
-msgid "Topmost Message"
-msgstr "Powěsć &wobdźěłać"
-
-#: core/aggregation.cpp:247
-#, fuzzy
-msgid "Most Recent Message"
-msgstr "Powěsće zničić"
-
-#: core/aggregation.cpp:256
-#, fuzzy
-#| msgctxt "View->"
-#| msgid "&Expand Thread"
-msgid "Never Expand Threads"
-msgstr "&Skupinu rozćahnyć"
-
-#: core/aggregation.cpp:257
-#, fuzzy
-#| msgid "Message List - Unread Messages"
-msgid "Expand Threads With Unread Messages"
-msgstr "Lisćina powěsćow - nječitane powěsće"
-
-#: core/aggregation.cpp:258
-#, fuzzy
-#| msgid "Message List - Unread Messages"
-msgid "Expand Threads With Unread or Important Messages"
-msgstr "Lisćina powěsćow - nječitane powěsće"
-
-#: core/aggregation.cpp:259
-#, fuzzy
-#| msgctxt "View->"
-#| msgid "&Expand Thread"
-msgid "Always Expand Threads"
-msgstr "&Skupinu rozćahnyć"
-
-#: core/aggregation.cpp:266
-msgid "Favor Interactivity"
-msgstr ""
-
-#: core/aggregation.cpp:267
-msgid "Favor Speed"
-msgstr ""
-
-#: core/aggregation.cpp:268
-msgid "Batch Job (No Interactivity)"
-msgstr ""
 
 #: core/item.cpp:229 core/messageitem.cpp:618
 #, fuzzy
@@ -218,6 +100,218 @@ msgstr "Čitane"
 msgctxt "Status of an item"
 msgid "Ignored"
 msgstr "Nječitane"
+
+#: core/view.cpp:775
+msgid "Adjust Column Sizes"
+msgstr ""
+
+#: core/view.cpp:778
+#, fuzzy
+#| msgid "[Details]"
+msgid "Show Default Columns"
+msgstr "[Nadrobnosće]"
+
+#: core/view.cpp:782
+#, fuzzy
+msgid "Display Tooltips"
+msgstr "&Na"
+
+#: core/view.cpp:1614
+#, fuzzy
+#| msgid "Nothin&g"
+msgid "Sorting"
+msgstr "N&ičo"
+
+#: core/view.cpp:1620 core/widgetbase.cpp:553
+msgid "Aggregation"
+msgstr ""
+
+#: core/view.cpp:1626 core/widgetbase.cpp:466
+msgid "Theme"
+msgstr ""
+
+#: core/view.cpp:2400 core/view.cpp:2404
+#, fuzzy
+#| msgid "&From"
+msgid "From"
+msgstr "&Wot"
+
+#: core/view.cpp:2401 core/view.cpp:2405
+#, fuzzy
+msgctxt "Receiver of the email"
+msgid "To"
+msgstr "&Na"
+
+#: core/view.cpp:2402 core/view.cpp:2406
+msgid "Date"
+msgstr "Datum"
+
+#: core/view.cpp:2419 core/view.cpp:2422 core/manager.cpp:874
+msgid "Status"
+msgstr "Staw"
+
+#: core/view.cpp:2420 core/view.cpp:2423
+msgid "Size"
+msgstr "Wulkosć"
+
+#: core/view.cpp:2428 core/view.cpp:2430
+#, fuzzy
+#| msgid "Notes"
+msgid "Note"
+msgstr "Přispomnjenja"
+
+#: core/view.cpp:2437 core/view.cpp:2439
+#, fuzzy
+msgid "Preview"
+msgstr "&Prjedawša powěsć"
+
+#: core/view.cpp:2458
+#, fuzzy, kde-format
+msgid "<b>%1</b> reply"
+msgid_plural "<b>%1</b> replies"
+msgstr[0] "Hubjena signatura."
+msgstr[1] "Hubjena signatura."
+msgstr[2] "Hubjena signatura."
+msgstr[3] "Hubjena signatura."
+
+#: core/view.cpp:2462
+#, kde-format
+msgid "<b>%1</b> message in subtree (<b>%2</b> unread)"
+msgid_plural "<b>%1</b> messages in subtree (<b>%2</b> unread)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: core/view.cpp:2507
+#, fuzzy, kde-format
+msgctxt ""
+"@info:tooltip Formats to something like 'Threads started on 2008-12-21'"
+msgid "Threads started on %1"
+msgstr "Skupiny jako standard w&očinjene wostajić"
+
+#: core/view.cpp:2513
+#, fuzzy, kde-format
+msgctxt "@info:tooltip Formats to something like 'Threads started Yesterday'"
+msgid "Threads started %1"
+msgstr "Skupiny jako standard w&očinjene wostajić"
+
+#: core/view.cpp:2518
+#, fuzzy, kde-format
+msgid "Threads with messages dated %1"
+msgstr "Powěsće &skupinkować"
+
+#: core/view.cpp:2530
+#, fuzzy, kde-format
+#| msgid "Message was signed by %1."
+msgctxt "@info:tooltip Formats to something like 'Messages sent on 2008-12-21'"
+msgid "Messages sent on %1"
+msgstr "Powěsć bu podpisana wot %1."
+
+#: core/view.cpp:2536
+#, fuzzy, kde-format
+#| msgid "Message was signed by %1."
+msgctxt ""
+"@info:tooltip Formats to something like 'Messages received on 2008-12-21'"
+msgid "Messages received on %1"
+msgstr "Powěsć bu podpisana wot %1."
+
+#: core/view.cpp:2543
+#, fuzzy, kde-format
+msgctxt "@info:tooltip Formats to something like 'Messages sent Yesterday'"
+msgid "Messages sent %1"
+msgstr "Lisćina powěsćow"
+
+#: core/view.cpp:2549
+#, fuzzy, kde-format
+#| msgid "Message was signed by %1."
+msgctxt "@info:tooltip Formats to something like 'Messages received Yesterday'"
+msgid "Messages received %1"
+msgstr "Powěsć bu podpisana wot %1."
+
+#: core/view.cpp:2561
+#, fuzzy, kde-format
+msgid "Threads started within %1"
+msgstr "Skupiny jako standard w&očinjene wostajić"
+
+#: core/view.cpp:2564
+#, fuzzy, kde-format
+msgid "Threads containing messages with dates within %1"
+msgstr "Powěsće &skupinkować"
+
+#: core/view.cpp:2572
+#, fuzzy, kde-format
+#| msgid "Message was signed with key %1."
+msgid "Messages sent within %1"
+msgstr "Powěsć bu podpisana z klučom %1."
+
+#: core/view.cpp:2574
+#, fuzzy, kde-format
+#| msgid "Message was signed with key %1."
+msgid "Messages received within %1"
+msgstr "Powěsć bu podpisana z klučom %1."
+
+#: core/view.cpp:2584
+#, fuzzy, kde-format
+msgid "Threads started by %1"
+msgstr "Skupiny jako standard w&očinjene wostajić"
+
+#: core/view.cpp:2587
+#, fuzzy, kde-format
+msgid "Threads with most recent message by %1"
+msgstr "Powěsće &skupinkować"
+
+#: core/view.cpp:2597 core/view.cpp:2623
+#, fuzzy, kde-format
+#| msgid "Message was signed by %1."
+msgid "Messages sent to %1"
+msgstr "Powěsć bu podpisana wot %1."
+
+#: core/view.cpp:2599
+#, fuzzy, kde-format
+#| msgid "Message was signed by %1."
+msgid "Messages sent by %1"
+msgstr "Powěsć bu podpisana wot %1."
+
+#: core/view.cpp:2601
+#, fuzzy, kde-format
+#| msgid "Message was signed by %1."
+msgid "Messages received from %1"
+msgstr "Powěsć bu podpisana wot %1."
+
+#: core/view.cpp:2611
+#, fuzzy, kde-format
+msgid "Threads directed to %1"
+msgstr "Skupiny jako standard w&očinjene wostajić"
+
+#: core/view.cpp:2614
+#, fuzzy, kde-format
+msgid "Threads with most recent message directed to %1"
+msgstr "Powěsće &skupinkować"
+
+#: core/view.cpp:2625
+#, fuzzy, kde-format
+#| msgid "Message was signed by %1."
+msgid "Messages received by %1"
+msgstr "Powěsć bu podpisana wot %1."
+
+#: core/view.cpp:2654
+#, fuzzy, kde-format
+msgid "<b>%1</b> thread"
+msgid_plural "<b>%1</b> threads"
+msgstr[0] "Hubjena signatura."
+msgstr[1] "Hubjena signatura."
+msgstr[2] "Hubjena signatura."
+msgstr[3] "Hubjena signatura."
+
+#: core/view.cpp:2659
+#, kde-format
+msgid "<b>%1</b> message (<b>%2</b> unread)"
+msgid_plural "<b>%1</b> messages (<b>%2</b> unread)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: core/manager.cpp:100 core/model.cpp:293
 #, fuzzy
@@ -446,9 +540,455 @@ msgstr ""
 msgid "A fancy multiline and multi item theme with a clickable status column"
 msgstr ""
 
-#: core/manager.cpp:874 core/view.cpp:2419 core/view.cpp:2422
-msgid "Status"
-msgstr "Staw"
+#: core/theme.cpp:81
+#, fuzzy
+#| msgid "Subject"
+msgctxt "Description of Type Subject"
+msgid "Subject"
+msgstr "Tema"
+
+#: core/theme.cpp:84
+#, fuzzy
+#| msgid "Date"
+msgctxt "Description of Type Date"
+msgid "Date"
+msgstr "Datum"
+
+#: core/theme.cpp:90
+#, fuzzy
+#| msgid "Sender"
+msgctxt "Description of Type Sender"
+msgid "Sender"
+msgstr "Wotpósłar"
+
+#: core/theme.cpp:93
+#, fuzzy
+#| msgid "Receiver"
+msgctxt "Description of Type Receiver"
+msgid "Receiver"
+msgstr "Adresat"
+
+#: core/theme.cpp:96
+#, fuzzy
+#| msgid "Size"
+msgctxt "Description of Type Size"
+msgid "Size"
+msgstr "Wulkosć"
+
+#: core/theme.cpp:99
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Unread"
+msgid "Unread/Read Icon"
+msgstr "Nječitane"
+
+#: core/theme.cpp:102
+#, fuzzy
+msgid "Attachment Icon"
+msgstr "Přiwěšk: "
+
+#: core/theme.cpp:105
+msgid "Replied/Forwarded Icon"
+msgstr ""
+
+#: core/theme.cpp:108
+msgid "Combined New/Unread/Read/Replied/Forwarded Icon"
+msgstr ""
+
+#: core/theme.cpp:111
+#, fuzzy
+msgid "Action Item Icon"
+msgstr "Wažna powěsć"
+
+#: core/theme.cpp:114
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Important"
+msgid "Important Icon"
+msgstr "Wažne"
+
+#: core/theme.cpp:117
+#, fuzzy
+msgid "Group Header Label"
+msgstr "Groupware"
+
+#: core/theme.cpp:120
+#, fuzzy
+msgid "Spam/Ham Icon"
+msgstr "Čitane"
+
+#: core/theme.cpp:123
+#, fuzzy
+msgid "Watched/Ignored Icon"
+msgstr "&Ignorować"
+
+#: core/theme.cpp:126
+msgid "Group Header Expand/Collapse Icon"
+msgstr ""
+
+#: core/theme.cpp:129
+#, fuzzy
+msgid "Encryption State Icon"
+msgstr "Šifrowanje"
+
+#: core/theme.cpp:132
+#, fuzzy
+msgid "Signature State Icon"
+msgstr "Signatura"
+
+#: core/theme.cpp:135
+msgid "Vertical Separation Line"
+msgstr ""
+
+#: core/theme.cpp:138
+#, fuzzy
+#| msgid "internal part"
+msgid "Horizontal Spacer"
+msgstr "nutřkowny dźěl"
+
+#: core/theme.cpp:141
+#, fuzzy
+#| msgid "Date"
+msgid "Max Date"
+msgstr "Datum"
+
+#: core/theme.cpp:144
+#, fuzzy
+#| msgid "&Message"
+msgid "Message Tags"
+msgstr "Po&wěsć"
+
+#: core/theme.cpp:147
+#, fuzzy
+msgid "Note Icon"
+msgstr "Wažna powěsć"
+
+#: core/theme.cpp:149
+#, fuzzy
+#| msgid "Advanced Options"
+msgid "Invitation Icon"
+msgstr "Opcije za pokročenych"
+
+#: core/theme.cpp:151
+#, fuzzy
+msgctxt "Description for an Unknown Type"
+msgid "Unknown"
+msgstr "&Dopósłać"
+
+#: core/theme.cpp:616
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Unread"
+msgid "Unread"
+msgstr "Nječitane"
+
+#: core/theme.cpp:777
+#, fuzzy
+#| msgid "Receiver"
+msgid "Never Show"
+msgstr "Adresat"
+
+#: core/theme.cpp:778
+#, fuzzy
+#| msgid "Al&ways send"
+msgid "Always Show"
+msgstr "Pře&co pósłać"
+
+#: core/theme.cpp:785
+msgid "Plain Rectangles"
+msgstr ""
+
+#: core/theme.cpp:786
+msgid "Plain Joined Rectangle"
+msgstr ""
+
+#: core/theme.cpp:787
+msgid "Rounded Rectangles"
+msgstr ""
+
+#: core/theme.cpp:788
+msgid "Rounded Joined Rectangle"
+msgstr ""
+
+#: core/theme.cpp:789
+msgid "Gradient Rectangles"
+msgstr ""
+
+#: core/theme.cpp:790
+msgid "Gradient Joined Rectangle"
+msgstr ""
+
+#: core/theme.cpp:791
+msgid "Styled Rectangles"
+msgstr ""
+
+#: core/theme.cpp:792
+msgid "Styled Joined Rectangles"
+msgstr ""
+
+#: core/widgetbase.cpp:141
+#, fuzzy
+msgctxt "@action:button"
+msgid "Lock search"
+msgstr "&Pytaj"
+
+#: core/widgetbase.cpp:145
+msgctxt "@info:whatsthis"
+msgid ""
+"Toggle this button if you want to keep your quick search locked when moving "
+"to other folders or when narrowing the search by message status."
+msgstr ""
+
+#: core/widgetbase.cpp:156
+#, fuzzy
+msgctxt "Search for messages."
+msgid "Search"
+msgstr "&Pytaj"
+
+#: core/widgetbase.cpp:178
+#, fuzzy
+msgid "Open Full Search"
+msgstr "<adresaća>"
+
+#: core/widgetbase.cpp:253
+msgid "Any Status"
+msgstr "Kóždy staw"
+
+#: core/widgetbase.cpp:256
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Unread"
+msgctxt "@action:inmenu Status of a message"
+msgid "Unread"
+msgstr "Nječitane"
+
+#: core/widgetbase.cpp:260
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Replied"
+msgctxt "@action:inmenu Status of a message"
+msgid "Replied"
+msgstr "Wotmołwjene"
+
+#: core/widgetbase.cpp:264
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Forwarded"
+msgctxt "@action:inmenu Status of a message"
+msgid "Forwarded"
+msgstr "Dopósłane"
+
+#: core/widgetbase.cpp:268
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Important"
+msgctxt "@action:inmenu Status of a message"
+msgid "Important"
+msgstr "Wažne"
+
+#: core/widgetbase.cpp:272
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Action Item"
+msgstr "Wažna powěsć"
+
+#: core/widgetbase.cpp:276
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Watched"
+msgstr "Čitane"
+
+#: core/widgetbase.cpp:280
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Ignored"
+msgstr "Nječitane"
+
+#: core/widgetbase.cpp:284
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Attachment"
+msgstr "Přiwěšk: "
+
+#: core/widgetbase.cpp:288
+#, fuzzy
+#| msgid "Advanced Options"
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Invitation"
+msgstr "Opcije za pokročenych"
+
+#: core/widgetbase.cpp:292
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Spam"
+msgstr "Čitane"
+
+#: core/widgetbase.cpp:296
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Ham"
+msgstr "Čitane"
+
+#: core/widgetbase.cpp:490 core/widgetbase.cpp:578
+#: utils/aggregationconfigbutton.cpp:45 utils/themeconfigbutton.cpp:62
+#, fuzzy
+msgid "Configure..."
+msgstr "KMail &konfigurować..."
+
+#: core/widgetbase.cpp:634
+#, fuzzy
+#| msgid "Message Body"
+msgid "Message Sort Order"
+msgstr "Hłowny dźěl powěsće"
+
+#: core/widgetbase.cpp:661
+#, fuzzy
+msgid "Message Sort Direction"
+msgstr "Lisćina powěsćow"
+
+#: core/widgetbase.cpp:682
+#, fuzzy
+#| msgid "Delete Folder"
+msgid "Group Sort Order"
+msgstr "Zapisk zničić"
+
+#: core/widgetbase.cpp:705
+#, fuzzy
+msgid "Group Sort Direction"
+msgstr "Lisćina powěsćow"
+
+#: core/widgetbase.cpp:723
+msgid "Folder Always Uses This Sort Order"
+msgstr ""
+
+#: core/widgetbase.cpp:918
+msgctxt "@info:tooltip"
+msgid "Unlock search"
+msgstr ""
+
+#: core/widgetbase.cpp:921
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Lock search"
+msgstr "&Pytaj"
+
+#: core/aggregation.cpp:207
+#, fuzzy
+msgctxt "No grouping of messages"
+msgid "None"
+msgstr "&Žane"
+
+#: core/aggregation.cpp:208
+msgid "By Exact Date (of Thread Leaders)"
+msgstr ""
+
+#: core/aggregation.cpp:209
+msgid "By Smart Date Ranges (of Thread Leaders)"
+msgstr ""
+
+#: core/aggregation.cpp:210 core/sortorder.cpp:47
+#, fuzzy
+#| msgid "Sender/Receiver"
+msgid "By Smart Sender/Receiver"
+msgstr "Wotpósłar/Adresat"
+
+#: core/aggregation.cpp:211 core/sortorder.cpp:45
+#, fuzzy
+#| msgid "Sender"
+msgid "By Sender"
+msgstr "Wotpósłar"
+
+#: core/aggregation.cpp:212 core/sortorder.cpp:46
+#, fuzzy
+#| msgid "Receiver"
+msgid "By Receiver"
+msgstr "Adresat"
+
+#: core/aggregation.cpp:222
+#, fuzzy
+#| msgctxt "View->"
+#| msgid "&Expand Thread"
+msgid "Never Expand Groups"
+msgstr "&Skupinu rozćahnyć"
+
+#: core/aggregation.cpp:224
+#, fuzzy
+#| msgid "Expand the current thread"
+msgid "Expand Recent Groups"
+msgstr "Rozćehnje aktualnu skupinu powěsćow"
+
+#: core/aggregation.cpp:225
+#, fuzzy
+#| msgctxt "View->"
+#| msgid "&Expand Thread"
+msgid "Always Expand Groups"
+msgstr "&Skupinu rozćahnyć"
+
+#: core/aggregation.cpp:232
+#, fuzzy
+msgctxt "No threading of messages"
+msgid "None"
+msgstr "&Žane"
+
+#: core/aggregation.cpp:233
+msgid "Perfect Only"
+msgstr ""
+
+#: core/aggregation.cpp:234
+msgid "Perfect and by References"
+msgstr ""
+
+#: core/aggregation.cpp:235
+msgid "Perfect, by References and by Subject"
+msgstr ""
+
+#: core/aggregation.cpp:244
+#, fuzzy
+msgid "Topmost Message"
+msgstr "Powěsć &wobdźěłać"
+
+#: core/aggregation.cpp:247
+#, fuzzy
+msgid "Most Recent Message"
+msgstr "Powěsće zničić"
+
+#: core/aggregation.cpp:256
+#, fuzzy
+#| msgctxt "View->"
+#| msgid "&Expand Thread"
+msgid "Never Expand Threads"
+msgstr "&Skupinu rozćahnyć"
+
+#: core/aggregation.cpp:257
+#, fuzzy
+#| msgid "Message List - Unread Messages"
+msgid "Expand Threads With Unread Messages"
+msgstr "Lisćina powěsćow - nječitane powěsće"
+
+#: core/aggregation.cpp:258
+#, fuzzy
+#| msgid "Message List - Unread Messages"
+msgid "Expand Threads With Unread or Important Messages"
+msgstr "Lisćina powěsćow - nječitane powěsće"
+
+#: core/aggregation.cpp:259
+#, fuzzy
+#| msgctxt "View->"
+#| msgid "&Expand Thread"
+msgid "Always Expand Threads"
+msgstr "&Skupinu rozćahnyć"
+
+#: core/aggregation.cpp:266
+msgid "Favor Interactivity"
+msgstr ""
+
+#: core/aggregation.cpp:267
+msgid "Favor Speed"
+msgstr ""
+
+#: core/aggregation.cpp:268
+msgid "Batch Job (No Interactivity)"
+msgstr ""
 
 #: core/model.cpp:290
 #, fuzzy
@@ -652,545 +1192,449 @@ msgctxt "Sort order for mail groups"
 msgid "Descending"
 msgstr "&Pósłanje"
 
-#: core/theme.cpp:81
+#: utils/configurethemesdialog.cpp:94
 #, fuzzy
-#| msgid "Subject"
-msgctxt "Description of Type Subject"
-msgid "Subject"
-msgstr "Tema"
+msgid "Customize Themes"
+msgstr "Na&runać"
 
-#: core/theme.cpp:84
+#: utils/configurethemesdialog.cpp:108 utils/configurethemesdialog.cpp:324
 #, fuzzy
-#| msgid "Date"
-msgctxt "Description of Type Date"
-msgid "Date"
-msgstr "Datum"
+#| msgid "New Message"
+msgid "New Theme"
+msgstr "Nowa powěsć"
 
-#: core/theme.cpp:90
+#: utils/configurethemesdialog.cpp:116
 #, fuzzy
-#| msgid "Sender"
-msgctxt "Description of Type Sender"
-msgid "Sender"
-msgstr "Wotpósłar"
+#| msgid "New Message"
+msgid "Clone Theme"
+msgstr "Nowa powěsć"
 
-#: core/theme.cpp:93
+#: utils/configurethemesdialog.cpp:129
 #, fuzzy
-#| msgid "Receiver"
-msgctxt "Description of Type Receiver"
-msgid "Receiver"
-msgstr "Adresat"
+#| msgid "Delete T&hread"
+msgid "Delete Theme"
+msgstr "Diskusiju z&ničić"
 
-#: core/theme.cpp:96
+#: utils/configurethemesdialog.cpp:307
 #, fuzzy
-#| msgid "Size"
-msgctxt "Description of Type Size"
-msgid "Size"
-msgstr "Wulkosć"
+#| msgid "Unnamed"
+msgid "Unnamed Theme"
+msgstr "Bjez mjena"
 
-#: core/theme.cpp:99
+#: utils/configurethemesdialog.cpp:326 utils/themeeditor.cpp:1277
 #, fuzzy
-#| msgctxt "msg status"
-#| msgid "Unread"
-msgid "Unread/Read Icon"
-msgstr "Nječitane"
+msgid "New Column"
+msgstr "Napohlad špaltow"
 
-#: core/theme.cpp:102
+#: utils/aggregationeditor.cpp:47
 #, fuzzy
-msgid "Attachment Icon"
-msgstr "Přiwěšk: "
+#| msgctxt "View->"
+#| msgid "&Expand Thread"
+msgid "Groups && Threading"
+msgstr "&Skupinu rozćahnyć"
 
-#: core/theme.cpp:105
-msgid "Replied/Forwarded Icon"
-msgstr ""
-
-#: core/theme.cpp:108
-msgid "Combined New/Unread/Read/Replied/Forwarded Icon"
-msgstr ""
-
-#: core/theme.cpp:111
+#: utils/aggregationeditor.cpp:51
 #, fuzzy
-msgid "Action Item Icon"
-msgstr "Wažna powěsć"
-
-#: core/theme.cpp:114
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Important"
-msgid "Important Icon"
-msgstr "Wažne"
-
-#: core/theme.cpp:117
-#, fuzzy
-msgid "Group Header Label"
+msgid "Grouping:"
 msgstr "Groupware"
 
-#: core/theme.cpp:120
+#: utils/aggregationeditor.cpp:58
 #, fuzzy
-msgid "Spam/Ham Icon"
-msgstr "Čitane"
+#| msgid "Send policy:"
+msgid "Group expand policy:"
+msgstr "Pósłanje:"
 
-#: core/theme.cpp:123
+#: utils/aggregationeditor.cpp:62
 #, fuzzy
-msgid "Watched/Ignored Icon"
-msgstr "&Ignorować"
+msgid "Threading:"
+msgstr "&Pósłanje"
 
-#: core/theme.cpp:126
-msgid "Group Header Expand/Collapse Icon"
-msgstr ""
-
-#: core/theme.cpp:129
+#: utils/aggregationeditor.cpp:69
 #, fuzzy
-msgid "Encryption State Icon"
-msgstr "Šifrowanje"
-
-#: core/theme.cpp:132
-#, fuzzy
-msgid "Signature State Icon"
-msgstr "Signatura"
-
-#: core/theme.cpp:135
-msgid "Vertical Separation Line"
-msgstr ""
-
-#: core/theme.cpp:138
-#, fuzzy
-#| msgid "internal part"
-msgid "Horizontal Spacer"
-msgstr "nutřkowny dźěl"
-
-#: core/theme.cpp:141
-#, fuzzy
-#| msgid "Date"
-msgid "Max Date"
-msgstr "Datum"
-
-#: core/theme.cpp:144
-#, fuzzy
-#| msgid "&Message"
-msgid "Message Tags"
-msgstr "Po&wěsć"
-
-#: core/theme.cpp:147
-#, fuzzy
-msgid "Note Icon"
-msgstr "Wažna powěsć"
-
-#: core/theme.cpp:149
-#, fuzzy
-#| msgid "Advanced Options"
-msgid "Invitation Icon"
-msgstr "Opcije za pokročenych"
-
-#: core/theme.cpp:151
-#, fuzzy
-msgctxt "Description for an Unknown Type"
-msgid "Unknown"
-msgstr "&Dopósłać"
-
-#: core/theme.cpp:616
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Unread"
-msgid "Unread"
-msgstr "Nječitane"
-
-#: core/theme.cpp:777
-#, fuzzy
-#| msgid "Receiver"
-msgid "Never Show"
-msgstr "Adresat"
-
-#: core/theme.cpp:778
-#, fuzzy
-#| msgid "Al&ways send"
-msgid "Always Show"
-msgstr "Pře&co pósłać"
-
-#: core/theme.cpp:785
-msgid "Plain Rectangles"
-msgstr ""
-
-#: core/theme.cpp:786
-msgid "Plain Joined Rectangle"
-msgstr ""
-
-#: core/theme.cpp:787
-msgid "Rounded Rectangles"
-msgstr ""
-
-#: core/theme.cpp:788
-msgid "Rounded Joined Rectangle"
-msgstr ""
-
-#: core/theme.cpp:789
-msgid "Gradient Rectangles"
-msgstr ""
-
-#: core/theme.cpp:790
-msgid "Gradient Joined Rectangle"
-msgstr ""
-
-#: core/theme.cpp:791
-msgid "Styled Rectangles"
-msgstr ""
-
-#: core/theme.cpp:792
-msgid "Styled Joined Rectangles"
-msgstr ""
-
-#: core/view.cpp:775
-msgid "Adjust Column Sizes"
-msgstr ""
-
-#: core/view.cpp:778
-#, fuzzy
-#| msgid "[Details]"
-msgid "Show Default Columns"
-msgstr "[Nadrobnosće]"
-
-#: core/view.cpp:782
-#, fuzzy
-msgid "Display Tooltips"
-msgstr "&Na"
-
-#: core/view.cpp:1614
-#, fuzzy
-#| msgid "Nothin&g"
-msgid "Sorting"
-msgstr "N&ičo"
-
-#: core/view.cpp:1620 core/widgetbase.cpp:553
-msgid "Aggregation"
-msgstr ""
-
-#: core/view.cpp:1626 core/widgetbase.cpp:466
-msgid "Theme"
-msgstr ""
-
-#: core/view.cpp:2400 core/view.cpp:2404
-#, fuzzy
-#| msgid "&From"
-msgid "From"
-msgstr "&Wot"
-
-#: core/view.cpp:2401 core/view.cpp:2405
-#, fuzzy
-msgctxt "Receiver of the email"
-msgid "To"
-msgstr "&Na"
-
-#: core/view.cpp:2402 core/view.cpp:2406
-msgid "Date"
-msgstr "Datum"
-
-#: core/view.cpp:2420 core/view.cpp:2423
-msgid "Size"
-msgstr "Wulkosć"
-
-#: core/view.cpp:2428 core/view.cpp:2430
-#, fuzzy
-#| msgid "Notes"
-msgid "Note"
-msgstr "Přispomnjenja"
-
-#: core/view.cpp:2437 core/view.cpp:2439
-#, fuzzy
-msgid "Preview"
-msgstr "&Prjedawša powěsć"
-
-#: core/view.cpp:2458
-#, fuzzy, kde-format
-msgid "<b>%1</b> reply"
-msgid_plural "<b>%1</b> replies"
-msgstr[0] "Hubjena signatura."
-msgstr[1] "Hubjena signatura."
-msgstr[2] "Hubjena signatura."
-msgstr[3] "Hubjena signatura."
-
-#: core/view.cpp:2462
-#, kde-format
-msgid "<b>%1</b> message in subtree (<b>%2</b> unread)"
-msgid_plural "<b>%1</b> messages in subtree (<b>%2</b> unread)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: core/view.cpp:2507
-#, fuzzy, kde-format
-msgctxt ""
-"@info:tooltip Formats to something like 'Threads started on 2008-12-21'"
-msgid "Threads started on %1"
-msgstr "Skupiny jako standard w&očinjene wostajić"
-
-#: core/view.cpp:2513
-#, fuzzy, kde-format
-msgctxt "@info:tooltip Formats to something like 'Threads started Yesterday'"
-msgid "Threads started %1"
-msgstr "Skupiny jako standard w&očinjene wostajić"
-
-#: core/view.cpp:2518
-#, fuzzy, kde-format
-msgid "Threads with messages dated %1"
+#| msgid "&Thread Messages"
+msgid "Thread leader:"
 msgstr "Powěsće &skupinkować"
 
-#: core/view.cpp:2530
-#, fuzzy, kde-format
-#| msgid "Message was signed by %1."
-msgctxt "@info:tooltip Formats to something like 'Messages sent on 2008-12-21'"
-msgid "Messages sent on %1"
-msgstr "Powěsć bu podpisana wot %1."
-
-#: core/view.cpp:2536
-#, fuzzy, kde-format
-#| msgid "Message was signed by %1."
-msgctxt ""
-"@info:tooltip Formats to something like 'Messages received on 2008-12-21'"
-msgid "Messages received on %1"
-msgstr "Powěsć bu podpisana wot %1."
-
-#: core/view.cpp:2543
-#, fuzzy, kde-format
-msgctxt "@info:tooltip Formats to something like 'Messages sent Yesterday'"
-msgid "Messages sent %1"
-msgstr "Lisćina powěsćow"
-
-#: core/view.cpp:2549
-#, fuzzy, kde-format
-#| msgid "Message was signed by %1."
-msgctxt "@info:tooltip Formats to something like 'Messages received Yesterday'"
-msgid "Messages received %1"
-msgstr "Powěsć bu podpisana wot %1."
-
-#: core/view.cpp:2561
-#, fuzzy, kde-format
-msgid "Threads started within %1"
-msgstr "Skupiny jako standard w&očinjene wostajić"
-
-#: core/view.cpp:2564
-#, fuzzy, kde-format
-msgid "Threads containing messages with dates within %1"
-msgstr "Powěsće &skupinkować"
-
-#: core/view.cpp:2572
-#, fuzzy, kde-format
-#| msgid "Message was signed with key %1."
-msgid "Messages sent within %1"
-msgstr "Powěsć bu podpisana z klučom %1."
-
-#: core/view.cpp:2574
-#, fuzzy, kde-format
-#| msgid "Message was signed with key %1."
-msgid "Messages received within %1"
-msgstr "Powěsć bu podpisana z klučom %1."
-
-#: core/view.cpp:2584
-#, fuzzy, kde-format
-msgid "Threads started by %1"
-msgstr "Skupiny jako standard w&očinjene wostajić"
-
-#: core/view.cpp:2587
-#, fuzzy, kde-format
-msgid "Threads with most recent message by %1"
-msgstr "Powěsće &skupinkować"
-
-#: core/view.cpp:2597 core/view.cpp:2623
-#, fuzzy, kde-format
-#| msgid "Message was signed by %1."
-msgid "Messages sent to %1"
-msgstr "Powěsć bu podpisana wot %1."
-
-#: core/view.cpp:2599
-#, fuzzy, kde-format
-#| msgid "Message was signed by %1."
-msgid "Messages sent by %1"
-msgstr "Powěsć bu podpisana wot %1."
-
-#: core/view.cpp:2601
-#, fuzzy, kde-format
-#| msgid "Message was signed by %1."
-msgid "Messages received from %1"
-msgstr "Powěsć bu podpisana wot %1."
-
-#: core/view.cpp:2611
-#, fuzzy, kde-format
-msgid "Threads directed to %1"
-msgstr "Skupiny jako standard w&očinjene wostajić"
-
-#: core/view.cpp:2614
-#, fuzzy, kde-format
-msgid "Threads with most recent message directed to %1"
-msgstr "Powěsće &skupinkować"
-
-#: core/view.cpp:2625
-#, fuzzy, kde-format
-#| msgid "Message was signed by %1."
-msgid "Messages received by %1"
-msgstr "Powěsć bu podpisana wot %1."
-
-#: core/view.cpp:2654
-#, fuzzy, kde-format
-msgid "<b>%1</b> thread"
-msgid_plural "<b>%1</b> threads"
-msgstr[0] "Hubjena signatura."
-msgstr[1] "Hubjena signatura."
-msgstr[2] "Hubjena signatura."
-msgstr[3] "Hubjena signatura."
-
-#: core/view.cpp:2659
-#, kde-format
-msgid "<b>%1</b> message (<b>%2</b> unread)"
-msgid_plural "<b>%1</b> messages (<b>%2</b> unread)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: core/widgetbase.cpp:141
+#: utils/aggregationeditor.cpp:73
 #, fuzzy
-msgctxt "@action:button"
-msgid "Lock search"
-msgstr "&Pytaj"
+#| msgid "Send policy:"
+msgid "Thread expand policy:"
+msgstr "Pósłanje:"
 
-#: core/widgetbase.cpp:145
-msgctxt "@info:whatsthis"
+#: utils/aggregationeditor.cpp:82
+#, fuzzy
+#| msgid "&Advanced"
+msgctxt "@title:tab Advanced settings tab for aggregation mode"
+msgid "Advanced"
+msgstr "&Za pokročenych"
+
+#: utils/aggregationeditor.cpp:86
+msgid "Fill view strategy:"
+msgstr ""
+
+#: utils/configureaggregationsdialog.cpp:99
+msgid "Customize Message Aggregation Modes"
+msgstr ""
+
+#: utils/configureaggregationsdialog.cpp:113
+#: utils/configureaggregationsdialog.cpp:321
+#, fuzzy
+msgid "New Aggregation"
+msgstr "Wobkrućenje dochada"
+
+#: utils/configureaggregationsdialog.cpp:121
+#, fuzzy
+msgid "Clone Aggregation"
+msgstr "Wobkrućenje dochada"
+
+#: utils/configureaggregationsdialog.cpp:134
+#, fuzzy
+#| msgid "Delete T&hread"
+msgid "Delete Aggregation"
+msgstr "Diskusiju z&ničić"
+
+#: utils/configureaggregationsdialog.cpp:304
+#, fuzzy
+msgid "Unnamed Aggregation"
+msgstr "Wobkrućenje dochada"
+
+#: utils/optionseteditor.cpp:40
+#, fuzzy
+msgctxt "@title:tab General options of a view mode"
+msgid "General"
+msgstr "Generelnje"
+
+#: utils/optionseteditor.cpp:44
+#, fuzzy
+msgctxt "@label:textbox Name of the option"
+msgid "Name:"
+msgstr "&Mjeno:"
+
+#: utils/optionseteditor.cpp:54
+#, fuzzy
+msgctxt "@label:textbox Description of the option"
+msgid "Description:"
+msgstr "&Wopisanje:"
+
+#: utils/themeeditor.cpp:84
+#, fuzzy
+msgctxt "@label:textbox Property name"
+msgid "Name:"
+msgstr "&Mjeno:"
+
+#: utils/themeeditor.cpp:88
+msgid "The label that will be displayed in the column header."
+msgstr ""
+
+#: utils/themeeditor.cpp:91
+#, fuzzy
+#| msgid "Remove Duplicate Messages"
+msgid "Header click sorts messages:"
+msgstr "Dwójne powěsće wotstronić"
+
+#: utils/themeeditor.cpp:95
+msgid "The sorting order that clicking on this column header will switch to."
+msgstr ""
+
+#: utils/themeeditor.cpp:98
+#, fuzzy
+#| msgid "Set as Default"
+msgid "Visible by default"
+msgstr "Jako standard wužiwać"
+
+#: utils/themeeditor.cpp:99
+msgid "Check this if this column should be visible when the theme is selected."
+msgstr ""
+
+#: utils/themeeditor.cpp:102
+msgid "Contains \"Sender or Receiver\" field"
+msgstr ""
+
+#: utils/themeeditor.cpp:103
 msgid ""
-"Toggle this button if you want to keep your quick search locked when moving "
-"to other folders or when narrowing the search by message status."
+"Check this if this column label should be updated depending on the folder "
+"\"inbound\"/\"outbound\" type."
 msgstr ""
 
-#: core/widgetbase.cpp:156
+#: utils/themeeditor.cpp:125
 #, fuzzy
-msgctxt "Search for messages."
-msgid "Search"
-msgstr "&Pytaj"
+#| msgid "Unread Column"
+msgid "Unnamed Column"
+msgstr "Špalta \"nječitane\""
 
-#: core/widgetbase.cpp:178
-#, fuzzy
-msgid "Open Full Search"
-msgstr "<adresaća>"
-
-#: core/widgetbase.cpp:253
-msgid "Any Status"
-msgstr "Kóždy staw"
-
-#: core/widgetbase.cpp:256
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Unread"
-msgctxt "@action:inmenu Status of a message"
-msgid "Unread"
-msgstr "Nječitane"
-
-#: core/widgetbase.cpp:260
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Replied"
-msgctxt "@action:inmenu Status of a message"
-msgid "Replied"
-msgstr "Wotmołwjene"
-
-#: core/widgetbase.cpp:264
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Forwarded"
-msgctxt "@action:inmenu Status of a message"
-msgid "Forwarded"
-msgstr "Dopósłane"
-
-#: core/widgetbase.cpp:268
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Important"
-msgctxt "@action:inmenu Status of a message"
-msgid "Important"
-msgstr "Wažne"
-
-#: core/widgetbase.cpp:272
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Action Item"
-msgstr "Wažna powěsć"
-
-#: core/widgetbase.cpp:276
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Watched"
-msgstr "Čitane"
-
-#: core/widgetbase.cpp:280
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Ignored"
-msgstr "Nječitane"
-
-#: core/widgetbase.cpp:284
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Attachment"
-msgstr "Přiwěšk: "
-
-#: core/widgetbase.cpp:288
-#, fuzzy
-#| msgid "Advanced Options"
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Invitation"
-msgstr "Opcije za pokročenych"
-
-#: core/widgetbase.cpp:292
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Spam"
-msgstr "Čitane"
-
-#: core/widgetbase.cpp:296
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Ham"
-msgstr "Čitane"
-
-#: core/widgetbase.cpp:490 core/widgetbase.cpp:578
-#: utils/aggregationconfigbutton.cpp:45 utils/themeconfigbutton.cpp:62
-#, fuzzy
-msgid "Configure..."
-msgstr "KMail &konfigurować..."
-
-#: core/widgetbase.cpp:634
+#: utils/themeeditor.cpp:192
 #, fuzzy
 #| msgid "Message Body"
-msgid "Message Sort Order"
+msgid "Message Group"
 msgstr "Hłowny dźěl powěsće"
 
-#: core/widgetbase.cpp:661
+#: utils/themeeditor.cpp:196 utils/themeeditor.cpp:205
+msgid ""
+"Very long subject very long subject very long subject very long subject very "
+"long subject very long"
+msgstr ""
+
+#: utils/themeeditor.cpp:210
 #, fuzzy
-msgid "Message Sort Direction"
+msgid "Sample Tag 1"
 msgstr "Lisćina powěsćow"
 
-#: core/widgetbase.cpp:682
+#: utils/themeeditor.cpp:211
+#, fuzzy
+msgid "Sample Tag 2"
+msgstr "Lisćina powěsćow"
+
+#: utils/themeeditor.cpp:212
+#, fuzzy
+msgid "Sample Tag 3"
+msgstr "Lisćina powěsćow"
+
+#: utils/themeeditor.cpp:425
+msgctxt "Indicates whether or not a header label is visible"
+msgid "Visible"
+msgstr ""
+
+#: utils/themeeditor.cpp:881
+#, fuzzy
+msgctxt "@action:inmenu soften the text color"
+msgid "Soften"
+msgstr "Pó&sćel"
+
+#: utils/themeeditor.cpp:891
+#, fuzzy
+msgctxt "@action:inmenu Font setting"
+msgid "Default"
+msgstr "Jako standard wužiwać"
+
+#: utils/themeeditor.cpp:896
+msgctxt "@action:inmenu Font setting"
+msgid "Custom..."
+msgstr ""
+
+#: utils/themeeditor.cpp:906
+#, fuzzy
+#| msgid "Contacts"
+msgid "Font"
+msgstr "Kontakty"
+
+#: utils/themeeditor.cpp:916
+#, fuzzy
+msgctxt "@action:inmenu Foreground color setting"
+msgid "Default"
+msgstr "Jako standard wužiwać"
+
+#: utils/themeeditor.cpp:921
+msgctxt "@action:inmenu Foreground color setting"
+msgid "Custom..."
+msgstr ""
+
+#: utils/themeeditor.cpp:930
+#, fuzzy
+#| msgid "Alternative Background Color"
+msgid "Foreground Color"
+msgstr "Alternatiwna barba pozadka"
+
+#: utils/themeeditor.cpp:941
+#, fuzzy
+#| msgctxt "View->attachments->"
+#| msgid "&Hide"
+msgctxt ""
+"Hide a mark if the mail does not have the attribute, e.g. Important mark on "
+"a non important mail"
+msgid "Hide"
+msgstr "&schować"
+
+#: utils/themeeditor.cpp:946
+msgctxt ""
+"Keep a empty space in the list if the mail does not have the attribute, e.g. "
+"Important mark on a non important mail"
+msgid "Keep Empty Space"
+msgstr ""
+
+#: utils/themeeditor.cpp:951
+msgctxt ""
+"Show the icon softened in the list if the mail does not have the attribute, "
+"e.g. Important mark on a non important mail"
+msgid "Keep Softened Icon"
+msgstr ""
+
+#: utils/themeeditor.cpp:960
+msgid "When Disabled"
+msgstr ""
+
+#: utils/themeeditor.cpp:969
+#, fuzzy
+msgid "Group Header"
+msgstr "Groupware"
+
+#: utils/themeeditor.cpp:977
+#, fuzzy
+msgctxt "@action:inmenu Group header background color setting"
+msgid "None"
+msgstr "&Žane"
+
+#: utils/themeeditor.cpp:982
+#, fuzzy
+#| msgid "Auto"
+msgctxt "@action:inmenu Group header background color setting"
+msgid "Automatic"
+msgstr "Awtomatisce"
+
+#: utils/themeeditor.cpp:987
+msgctxt "@action:inmenu Group header background color setting"
+msgid "Custom..."
+msgstr ""
+
+#: utils/themeeditor.cpp:997
+#, fuzzy
+#| msgid "Alternative Background Color"
+msgid "Background Color"
+msgstr "Alternatiwna barba pozadka"
+
+#: utils/themeeditor.cpp:1019
+#, fuzzy
+#| msgid "Alternative Background Color"
+msgid "Background Style"
+msgstr "Alternatiwna barba pozadka"
+
+#: utils/themeeditor.cpp:1212
+#, fuzzy
+msgid "Column Properties..."
+msgstr "&Swójstwa"
+
+#: utils/themeeditor.cpp:1216
+#, fuzzy
+msgid "Add Column..."
+msgstr "Nowe:"
+
+#: utils/themeeditor.cpp:1220
 #, fuzzy
 #| msgid "Delete Folder"
-msgid "Group Sort Order"
+msgid "Delete Column"
 msgstr "Zapisk zničić"
 
-#: core/widgetbase.cpp:705
-#, fuzzy
-msgid "Group Sort Direction"
-msgstr "Lisćina powěsćow"
-
-#: core/widgetbase.cpp:723
-msgid "Folder Always Uses This Sort Order"
+#: utils/themeeditor.cpp:1227
+msgid "Move Column to Left"
 msgstr ""
 
-#: core/widgetbase.cpp:918
-msgctxt "@info:tooltip"
-msgid "Unlock search"
+#: utils/themeeditor.cpp:1233
+msgid "Move Column to Right"
 msgstr ""
 
-#: core/widgetbase.cpp:921
+#: utils/themeeditor.cpp:1284
 #, fuzzy
-msgctxt "@info:tooltip"
-msgid "Lock search"
-msgstr "&Pytaj"
+msgid "Add New Column"
+msgstr "Napohlad špaltow"
+
+#: utils/themeeditor.cpp:1311
+#, fuzzy
+msgid "Column Properties"
+msgstr "&Swójstwa"
+
+#: utils/themeeditor.cpp:1356
+msgid "Appearance"
+msgstr ""
+
+#: utils/themeeditor.cpp:1360
+#, fuzzy
+#| msgid "Contacts"
+msgid "Content Items"
+msgstr "Kontakty"
+
+#: utils/themeeditor.cpp:1501
+msgid ""
+"Right click on the header to add or modify columns. Drag the content items "
+"and drop them on the columns in order to compose your theme. Right click on "
+"the items inside the view for more options."
+msgstr ""
+
+#: utils/themeeditor.cpp:1510
+#, fuzzy
+#| msgid "&Advanced"
+msgctxt "@title:tab Advanced theme settings"
+msgid "Advanced"
+msgstr "&Za pokročenych"
+
+#: utils/themeeditor.cpp:1514
+#, fuzzy
+msgid "Header:"
+msgstr "&Hłójčki"
+
+#: utils/themeeditor.cpp:1520
+#, fuzzy
+#| msgid "Size"
+msgid "Icon size:"
+msgstr "Wulkosć"
+
+#: utils/themeeditor.cpp:1526
+msgctxt "suffix in a spinbox"
+msgid " pixel"
+msgid_plural " pixels"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: storagemodel.cpp:261
+#, fuzzy
+#| msgid "No Subject"
+msgctxt "displayed as subject when the subject of a mail is empty"
+msgid "No Subject"
+msgstr "Žana tema"
+
+#: storagemodel.cpp:262
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "displayed when a mail has unknown sender, receiver or date"
+msgid "Unknown"
+msgstr "Njeznaju"
+
+#: widget.cpp:98
+msgid "Show Quick Search Bar"
+msgstr ""
+
+#: widget.cpp:324
+#, fuzzy
+#| msgctxt "View->"
+#| msgid "C&ollapse All Threads"
+msgid "Collapse Group"
+msgstr "Wšitke skupiny ze&sćahać"
+
+#: widget.cpp:328
+#, fuzzy
+#| msgctxt "View->"
+#| msgid "Ex&pand All Threads"
+msgid "Expand Group"
+msgstr "Wšitke skupiny z&rozćahać"
+
+#: widget.cpp:335
+#, fuzzy
+#| msgctxt "View->"
+#| msgid "Ex&pand All Threads"
+msgid "Expand All Groups"
+msgstr "Wšitke skupiny z&rozćahać"
+
+#: widget.cpp:339
+#, fuzzy
+#| msgctxt "View->"
+#| msgid "C&ollapse All Threads"
+msgid "Collapse All Groups"
+msgstr "Wšitke skupiny ze&sćahać"
+
+#: widget.cpp:403
+#, fuzzy
+msgid "&Move Here"
+msgstr "&Suń do"
+
+#: widget.cpp:404
+#, fuzzy
+msgid "&Copy Here"
+msgstr "&Kopěruj do"
+
+#: widget.cpp:406
+#, fuzzy
+msgid "C&ancel"
+msgstr "Přetorhnyć"
 
 #: pane.cpp:134
 msgctxt "@info:tooltip"
@@ -1306,445 +1750,6 @@ msgstr ""
 #: rc.cpp:18
 msgid "Enable this option if you want to have a close button on each tab."
 msgstr ""
-
-#: storagemodel.cpp:261
-#, fuzzy
-#| msgid "No Subject"
-msgctxt "displayed as subject when the subject of a mail is empty"
-msgid "No Subject"
-msgstr "Žana tema"
-
-#: storagemodel.cpp:262
-#, fuzzy
-#| msgid "Unknown"
-msgctxt "displayed when a mail has unknown sender, receiver or date"
-msgid "Unknown"
-msgstr "Njeznaju"
-
-#: utils/aggregationeditor.cpp:47
-#, fuzzy
-#| msgctxt "View->"
-#| msgid "&Expand Thread"
-msgid "Groups && Threading"
-msgstr "&Skupinu rozćahnyć"
-
-#: utils/aggregationeditor.cpp:51
-#, fuzzy
-msgid "Grouping:"
-msgstr "Groupware"
-
-#: utils/aggregationeditor.cpp:58
-#, fuzzy
-#| msgid "Send policy:"
-msgid "Group expand policy:"
-msgstr "Pósłanje:"
-
-#: utils/aggregationeditor.cpp:62
-#, fuzzy
-msgid "Threading:"
-msgstr "&Pósłanje"
-
-#: utils/aggregationeditor.cpp:69
-#, fuzzy
-#| msgid "&Thread Messages"
-msgid "Thread leader:"
-msgstr "Powěsće &skupinkować"
-
-#: utils/aggregationeditor.cpp:73
-#, fuzzy
-#| msgid "Send policy:"
-msgid "Thread expand policy:"
-msgstr "Pósłanje:"
-
-#: utils/aggregationeditor.cpp:82
-#, fuzzy
-#| msgid "&Advanced"
-msgctxt "@title:tab Advanced settings tab for aggregation mode"
-msgid "Advanced"
-msgstr "&Za pokročenych"
-
-#: utils/aggregationeditor.cpp:86
-msgid "Fill view strategy:"
-msgstr ""
-
-#: utils/configureaggregationsdialog.cpp:99
-msgid "Customize Message Aggregation Modes"
-msgstr ""
-
-#: utils/configureaggregationsdialog.cpp:113
-#: utils/configureaggregationsdialog.cpp:321
-#, fuzzy
-msgid "New Aggregation"
-msgstr "Wobkrućenje dochada"
-
-#: utils/configureaggregationsdialog.cpp:121
-#, fuzzy
-msgid "Clone Aggregation"
-msgstr "Wobkrućenje dochada"
-
-#: utils/configureaggregationsdialog.cpp:134
-#, fuzzy
-#| msgid "Delete T&hread"
-msgid "Delete Aggregation"
-msgstr "Diskusiju z&ničić"
-
-#: utils/configureaggregationsdialog.cpp:304
-#, fuzzy
-msgid "Unnamed Aggregation"
-msgstr "Wobkrućenje dochada"
-
-#: utils/configurethemesdialog.cpp:94
-#, fuzzy
-msgid "Customize Themes"
-msgstr "Na&runać"
-
-#: utils/configurethemesdialog.cpp:108 utils/configurethemesdialog.cpp:324
-#, fuzzy
-#| msgid "New Message"
-msgid "New Theme"
-msgstr "Nowa powěsć"
-
-#: utils/configurethemesdialog.cpp:116
-#, fuzzy
-#| msgid "New Message"
-msgid "Clone Theme"
-msgstr "Nowa powěsć"
-
-#: utils/configurethemesdialog.cpp:129
-#, fuzzy
-#| msgid "Delete T&hread"
-msgid "Delete Theme"
-msgstr "Diskusiju z&ničić"
-
-#: utils/configurethemesdialog.cpp:307
-#, fuzzy
-#| msgid "Unnamed"
-msgid "Unnamed Theme"
-msgstr "Bjez mjena"
-
-#: utils/configurethemesdialog.cpp:326 utils/themeeditor.cpp:1288
-#, fuzzy
-msgid "New Column"
-msgstr "Napohlad špaltow"
-
-#: utils/optionseteditor.cpp:40
-#, fuzzy
-msgctxt "@title:tab General options of a view mode"
-msgid "General"
-msgstr "Generelnje"
-
-#: utils/optionseteditor.cpp:44
-#, fuzzy
-msgctxt "@label:textbox Name of the option"
-msgid "Name:"
-msgstr "&Mjeno:"
-
-#: utils/optionseteditor.cpp:54
-#, fuzzy
-msgctxt "@label:textbox Description of the option"
-msgid "Description:"
-msgstr "&Wopisanje:"
-
-#: utils/themeeditor.cpp:84
-#, fuzzy
-msgctxt "@label:textbox Property name"
-msgid "Name:"
-msgstr "&Mjeno:"
-
-#: utils/themeeditor.cpp:88
-msgid "The label that will be displayed in the column header."
-msgstr ""
-
-#: utils/themeeditor.cpp:91
-#, fuzzy
-#| msgid "Remove Duplicate Messages"
-msgid "Header click sorts messages:"
-msgstr "Dwójne powěsće wotstronić"
-
-#: utils/themeeditor.cpp:95
-msgid "The sorting order that clicking on this column header will switch to."
-msgstr ""
-
-#: utils/themeeditor.cpp:98
-#, fuzzy
-#| msgid "Set as Default"
-msgid "Visible by default"
-msgstr "Jako standard wužiwać"
-
-#: utils/themeeditor.cpp:99
-msgid "Check this if this column should be visible when the theme is selected."
-msgstr ""
-
-#: utils/themeeditor.cpp:102
-msgid "Contains \"Sender or Receiver\" field"
-msgstr ""
-
-#: utils/themeeditor.cpp:103
-msgid ""
-"Check this if this column label should be updated depending on the folder "
-"\"inbound\"/\"outbound\" type."
-msgstr ""
-
-#: utils/themeeditor.cpp:125
-#, fuzzy
-#| msgid "Unread Column"
-msgid "Unnamed Column"
-msgstr "Špalta \"nječitane\""
-
-#: utils/themeeditor.cpp:192
-#, fuzzy
-#| msgid "Message Body"
-msgid "Message Group"
-msgstr "Hłowny dźěl powěsće"
-
-#: utils/themeeditor.cpp:196 utils/themeeditor.cpp:205
-msgid ""
-"Very long subject very long subject very long subject very long subject very "
-"long subject very long"
-msgstr ""
-
-#: utils/themeeditor.cpp:210
-#, fuzzy
-msgid "Sample Tag 1"
-msgstr "Lisćina powěsćow"
-
-#: utils/themeeditor.cpp:211
-#, fuzzy
-msgid "Sample Tag 2"
-msgstr "Lisćina powěsćow"
-
-#: utils/themeeditor.cpp:212
-#, fuzzy
-msgid "Sample Tag 3"
-msgstr "Lisćina powěsćow"
-
-#: utils/themeeditor.cpp:425
-msgctxt "Indicates whether or not a header label is visible"
-msgid "Visible"
-msgstr ""
-
-#: utils/themeeditor.cpp:881
-#, fuzzy
-msgctxt "@action:inmenu soften the text color"
-msgid "Soften"
-msgstr "Pó&sćel"
-
-#: utils/themeeditor.cpp:891
-#, fuzzy
-msgctxt "@action:inmenu Font setting"
-msgid "Default"
-msgstr "Jako standard wužiwać"
-
-#: utils/themeeditor.cpp:896
-msgctxt "@action:inmenu Font setting"
-msgid "Custom..."
-msgstr ""
-
-#: utils/themeeditor.cpp:909
-#, fuzzy
-#| msgid "Contacts"
-msgid "Font"
-msgstr "Kontakty"
-
-#: utils/themeeditor.cpp:919
-#, fuzzy
-msgctxt "@action:inmenu Foreground color setting"
-msgid "Default"
-msgstr "Jako standard wužiwać"
-
-#: utils/themeeditor.cpp:924
-msgctxt "@action:inmenu Foreground color setting"
-msgid "Custom..."
-msgstr ""
-
-#: utils/themeeditor.cpp:937
-#, fuzzy
-#| msgid "Alternative Background Color"
-msgid "Foreground Color"
-msgstr "Alternatiwna barba pozadka"
-
-#: utils/themeeditor.cpp:948
-#, fuzzy
-#| msgctxt "View->attachments->"
-#| msgid "&Hide"
-msgctxt ""
-"Hide a mark if the mail does not have the attribute, e.g. Important mark on "
-"a non important mail"
-msgid "Hide"
-msgstr "&schować"
-
-#: utils/themeeditor.cpp:953
-msgctxt ""
-"Keep a empty space in the list if the mail does not have the attribute, e.g. "
-"Important mark on a non important mail"
-msgid "Keep Empty Space"
-msgstr ""
-
-#: utils/themeeditor.cpp:958
-msgctxt ""
-"Show the icon softened in the list if the mail does not have the attribute, "
-"e.g. Important mark on a non important mail"
-msgid "Keep Softened Icon"
-msgstr ""
-
-#: utils/themeeditor.cpp:967
-msgid "When Disabled"
-msgstr ""
-
-#: utils/themeeditor.cpp:976
-#, fuzzy
-msgid "Group Header"
-msgstr "Groupware"
-
-#: utils/themeeditor.cpp:984
-#, fuzzy
-msgctxt "@action:inmenu Group header background color setting"
-msgid "None"
-msgstr "&Žane"
-
-#: utils/themeeditor.cpp:989
-#, fuzzy
-#| msgid "Auto"
-msgctxt "@action:inmenu Group header background color setting"
-msgid "Automatic"
-msgstr "Awtomatisce"
-
-#: utils/themeeditor.cpp:994
-msgctxt "@action:inmenu Group header background color setting"
-msgid "Custom..."
-msgstr ""
-
-#: utils/themeeditor.cpp:1007
-#, fuzzy
-#| msgid "Alternative Background Color"
-msgid "Background Color"
-msgstr "Alternatiwna barba pozadka"
-
-#: utils/themeeditor.cpp:1030
-#, fuzzy
-#| msgid "Alternative Background Color"
-msgid "Background Style"
-msgstr "Alternatiwna barba pozadka"
-
-#: utils/themeeditor.cpp:1223 utils/themeeditor.cpp:1322
-#, fuzzy
-msgid "Column Properties"
-msgstr "&Swójstwa"
-
-#: utils/themeeditor.cpp:1227
-#, fuzzy
-msgid "Add Column..."
-msgstr "Nowe:"
-
-#: utils/themeeditor.cpp:1231
-#, fuzzy
-#| msgid "Delete Folder"
-msgid "Delete Column"
-msgstr "Zapisk zničić"
-
-#: utils/themeeditor.cpp:1238
-msgid "Move Column to Left"
-msgstr ""
-
-#: utils/themeeditor.cpp:1244
-msgid "Move Column to Right"
-msgstr ""
-
-#: utils/themeeditor.cpp:1295
-#, fuzzy
-msgid "Add New Column"
-msgstr "Napohlad špaltow"
-
-#: utils/themeeditor.cpp:1367
-msgid "Appearance"
-msgstr ""
-
-#: utils/themeeditor.cpp:1371
-#, fuzzy
-#| msgid "Contacts"
-msgid "Content Items"
-msgstr "Kontakty"
-
-#: utils/themeeditor.cpp:1512
-msgid ""
-"Right click on the header to add or modify columns. Drag the content items "
-"and drop them on the columns in order to compose your theme. Right click on "
-"the items inside the view for more options."
-msgstr ""
-
-#: utils/themeeditor.cpp:1521
-#, fuzzy
-#| msgid "&Advanced"
-msgctxt "@title:tab Advanced theme settings"
-msgid "Advanced"
-msgstr "&Za pokročenych"
-
-#: utils/themeeditor.cpp:1525
-#, fuzzy
-msgid "Header:"
-msgstr "&Hłójčki"
-
-#: utils/themeeditor.cpp:1531
-#, fuzzy
-#| msgid "Size"
-msgid "Icon size:"
-msgstr "Wulkosć"
-
-#: utils/themeeditor.cpp:1537
-msgctxt "suffix in a spinbox"
-msgid " pixel"
-msgid_plural " pixels"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#: widget.cpp:98
-msgid "Show Quick Search Bar"
-msgstr ""
-
-#: widget.cpp:324
-#, fuzzy
-#| msgctxt "View->"
-#| msgid "C&ollapse All Threads"
-msgid "Collapse Group"
-msgstr "Wšitke skupiny ze&sćahać"
-
-#: widget.cpp:328
-#, fuzzy
-#| msgctxt "View->"
-#| msgid "Ex&pand All Threads"
-msgid "Expand Group"
-msgstr "Wšitke skupiny z&rozćahać"
-
-#: widget.cpp:335
-#, fuzzy
-#| msgctxt "View->"
-#| msgid "Ex&pand All Threads"
-msgid "Expand All Groups"
-msgstr "Wšitke skupiny z&rozćahać"
-
-#: widget.cpp:339
-#, fuzzy
-#| msgctxt "View->"
-#| msgid "C&ollapse All Threads"
-msgid "Collapse All Groups"
-msgstr "Wšitke skupiny ze&sćahać"
-
-#: widget.cpp:403
-#, fuzzy
-msgid "&Move Here"
-msgstr "&Suń do"
-
-#: widget.cpp:404
-#, fuzzy
-msgid "&Copy Here"
-msgstr "&Kopěruj do"
-
-#: widget.cpp:406
-#, fuzzy
-msgid "C&ancel"
-msgstr "Přetorhnyć"
 
 #, fuzzy
 #~| msgid "&Thread Messages"
@@ -9646,10 +9651,6 @@ msgstr "Přetorhnyć"
 #, fuzzy
 #~ msgid "My %1 (%2)"
 #~ msgstr "KMail"
-
-#, fuzzy
-#~ msgid "Column Properties..."
-#~ msgstr "&Swójstwa"
 
 #, fuzzy
 #~| msgid "<qt>Do you really want to execute <b>%1</b>?</qt>"

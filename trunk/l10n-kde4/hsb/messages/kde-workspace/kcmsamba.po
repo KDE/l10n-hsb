@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:26+0200\n"
+"POT-Creation-Date: 2012-08-19 05:50+0200\n"
 "PO-Revision-Date: 2008-11-23 19:07+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -18,17 +18,17 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
-#: kcmsambaimports.cpp:43
-msgid "Mounted Under"
-msgstr "Montowane pod"
+#: kcmsambaimports.cpp:43 ksmbstatus.cpp:51
+msgid "Type"
+msgstr "Družina"
 
 #: kcmsambaimports.cpp:43
 msgid "Resource"
 msgstr "Resursa"
 
-#: kcmsambaimports.cpp:43 ksmbstatus.cpp:51
-msgid "Type"
-msgstr "Družina"
+#: kcmsambaimports.cpp:43
+msgid "Mounted Under"
+msgstr "Montowane pod"
 
 #: kcmsambaimports.cpp:45
 msgid ""
@@ -45,24 +45,24 @@ msgid "Samba log file: "
 msgstr "Protokolowa dataja za Samba:"
 
 #: kcmsambalog.cpp:38
-msgid "Show closed connections"
-msgstr "Začinjene zwiski pokazać"
-
-#: kcmsambalog.cpp:38
 msgid "Show opened connections"
 msgstr "Wočinjene zwiski pokazać"
 
+#: kcmsambalog.cpp:38
+msgid "Show closed connections"
+msgstr "Začinjene zwiski pokazać"
+
 #: kcmsambalog.cpp:39
-msgid "&Update"
-msgstr "&Aktualizować"
+msgid "Show opened files"
+msgstr "Wočinjene dataje pokazać"
 
 #: kcmsambalog.cpp:39
 msgid "Show closed files"
 msgstr "Začinjene dataje pokazać"
 
 #: kcmsambalog.cpp:39
-msgid "Show opened files"
-msgstr "Wočinjene dataje pokazać"
+msgid "&Update"
+msgstr "&Aktualizować"
 
 #: kcmsambalog.cpp:57
 msgid ""
@@ -198,11 +198,11 @@ msgid "Show expanded host info"
 msgstr ""
 
 #: kcmsambastatistics.cpp:64
-msgid "Hits"
+msgid "Nr"
 msgstr ""
 
 #: kcmsambastatistics.cpp:64
-msgid "Nr"
+msgid "Hits"
 msgstr ""
 
 #: kcmsambastatistics.cpp:68 kcmsambastatistics.cpp:135
@@ -228,11 +228,15 @@ msgid "FILE OPENED"
 msgstr ""
 
 #: ksmbstatus.cpp:51
-msgid "Accessed From"
+msgid "Service"
 msgstr ""
 
 #: ksmbstatus.cpp:51
-msgid "Service"
+msgid "Accessed From"
+msgstr ""
+
+#: ksmbstatus.cpp:52
+msgid "UID"
 msgstr ""
 
 #: ksmbstatus.cpp:52
@@ -240,15 +244,11 @@ msgid "GID"
 msgstr ""
 
 #: ksmbstatus.cpp:52
-msgid "Open Files"
-msgstr ""
-
-#: ksmbstatus.cpp:52
 msgid "PID"
 msgstr ""
 
 #: ksmbstatus.cpp:52
-msgid "UID"
+msgid "Open Files"
 msgstr ""
 
 #: ksmbstatus.cpp:156
