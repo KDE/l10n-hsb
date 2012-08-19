@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-16 04:53+0200\n"
+"POT-Creation-Date: 2012-08-19 15:44+0200\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -21,6 +21,34 @@ msgstr ""
 #: calendar.cpp:190
 msgid "Select today"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: calendarConfig.ui:33 calendarHolidaysConfig.ui:33
+msgid "Calendar system:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: calendarConfig.ui:76
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Display Settings"
+msgid "Display Kontact events:"
+msgstr "Nastajenja za wobrazowku"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: calendarHolidaysConfig.ui:76
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Display Settings"
+msgid "Display events:"
+msgstr "Nastajenja za wobrazowku"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: calendarHolidaysConfig.ui:119
+#, fuzzy
+#| msgid "Hide %1"
+msgid "Holidays"
+msgstr "Chowaj %1"
 
 #: calendartable.cpp:674
 #, fuzzy, kde-format
@@ -225,72 +253,33 @@ msgctxt "@item:inmenu Submenu for alternative calendar dates"
 msgid "Other Calendars"
 msgstr ""
 
-#. i18n: file: calendarConfig.ui:33
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: file: calendarHolidaysConfig.ui:33
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:3 rc.cpp:9
-msgid "Calendar system:"
-msgstr ""
-
-#. i18n: file: calendarConfig.ui:76
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:6
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Display Settings"
-msgid "Display Kontact events:"
-msgstr "Nastajenja za wobrazowku"
-
-#. i18n: file: calendarHolidaysConfig.ui:76
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:12
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Display Settings"
-msgid "Display events:"
-msgstr "Nastajenja za wobrazowku"
-
-#. i18n: file: calendarHolidaysConfig.ui:119
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:15
-#, fuzzy
-#| msgid "Hide %1"
-msgid "Holidays"
-msgstr "Chowaj %1"
-
-#. i18n: file: generalConfig.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:18
+#: generalConfig.ui:23
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Text-to-Speech"
 msgid "Text to Speech"
 msgstr "Tekst-na-reč"
 
-#. i18n: file: generalConfig.ui:46
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:21
+#: generalConfig.ui:46
 #, fuzzy
 #| msgid "Specific Time"
 msgid "Speak time:"
 msgstr "Postajeny čas"
 
-#. i18n: file: timezonesConfig.ui:20
 #. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, searchLine)
-#: rc.cpp:24
+#: timezonesConfig.ui:20
 msgid "Search"
 msgstr ""
 
-#. i18n: file: timezonesConfig.ui:33
 #. i18n: ectx: property (toolTip), widget (KTimeZoneWidget, timeZones)
-#: rc.cpp:27
+#: timezonesConfig.ui:33
 msgid "Select one or several time zones."
 msgstr ""
 
-#. i18n: file: timezonesConfig.ui:43
 #. i18n: ectx: property (whatsThis), widget (KTimeZoneWidget, timeZones)
-#: rc.cpp:30
+#: timezonesConfig.ui:43
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -320,21 +309,18 @@ msgid ""
 "\"Clock defaults to:\". .</p></body></html>"
 msgstr ""
 
-#. i18n: file: timezonesConfig.ui:73
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:40
+#: timezonesConfig.ui:73
 msgid "Clock defaults to:"
 msgstr ""
 
-#. i18n: file: timezonesConfig.ui:89
 #. i18n: ectx: property (toolTip), widget (QComboBox, clockDefaultsTo)
-#: rc.cpp:43
+#: timezonesConfig.ui:89
 msgid "The time the clock will display"
 msgstr ""
 
-#. i18n: file: timezonesConfig.ui:93
 #. i18n: ectx: property (whatsThis), widget (QComboBox, clockDefaultsTo)
-#: rc.cpp:46
+#: timezonesConfig.ui:93
 msgid ""
 "The clock will display the time for the selected default zone.\n"
 "Local is the time you set in System Settings."

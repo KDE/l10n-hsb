@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 06:22+0200\n"
+"POT-Creation-Date: 2012-08-19 15:40+0200\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -18,22 +18,22 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
-#. i18n: file: samba/filepropertiesplugin/sambausershareplugin.ui:19
-#. i18n: ectx: property (text), widget (QCheckBox, sambaChk)
-#: rc.cpp:3
-msgid "Share with S&amba (Microsoft Windows)"
+#: samba/filepropertiesplugin/delegate.cpp:40
+msgid "---"
 msgstr ""
 
-#. i18n: file: samba/filepropertiesplugin/sambausershareplugin.ui:36
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:6
-msgid "Name:"
-msgstr "Mjeno:"
+#: samba/filepropertiesplugin/delegate.cpp:41
+msgid "Full Control"
+msgstr ""
 
-#. i18n: file: samba/filepropertiesplugin/sambausershareplugin.ui:56
-#. i18n: ectx: property (text), widget (QCheckBox, sambaAllowGuestChk)
-#: rc.cpp:9
-msgid "Allow Guests"
+#: samba/filepropertiesplugin/delegate.cpp:42
+#, fuzzy
+#| msgid "Read only"
+msgid "Read Only"
+msgstr "Jenož čitać"
+
+#: samba/filepropertiesplugin/delegate.cpp:43
+msgid "Deny"
 msgstr ""
 
 #: samba/filepropertiesplugin/sambausershareplugin.cpp:62
@@ -62,22 +62,19 @@ msgid ""
 "choose another name.</qt>"
 msgstr ""
 
-#: samba/filepropertiesplugin/delegate.cpp:40
-msgid "---"
+#. i18n: ectx: property (text), widget (QCheckBox, sambaChk)
+#: samba/filepropertiesplugin/sambausershareplugin.ui:19
+msgid "Share with S&amba (Microsoft Windows)"
 msgstr ""
 
-#: samba/filepropertiesplugin/delegate.cpp:41
-msgid "Full Control"
-msgstr ""
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: samba/filepropertiesplugin/sambausershareplugin.ui:36
+msgid "Name:"
+msgstr "Mjeno:"
 
-#: samba/filepropertiesplugin/delegate.cpp:42
-#, fuzzy
-#| msgid "Read only"
-msgid "Read Only"
-msgstr "Jenož čitać"
-
-#: samba/filepropertiesplugin/delegate.cpp:43
-msgid "Deny"
+#. i18n: ectx: property (text), widget (QCheckBox, sambaAllowGuestChk)
+#: samba/filepropertiesplugin/sambausershareplugin.ui:56
+msgid "Allow Guests"
 msgstr ""
 
 #~ msgid "Name"

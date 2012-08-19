@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-07 21:49+0200\n"
+"POT-Creation-Date: 2012-08-19 15:44+0200\n"
 "PO-Revision-Date: 2008-11-18 00:29+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,6 +17,66 @@ msgstr ""
 "X-Generator: KAider 0.1\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: configdialog.cpp:53
+msgid "Plugins"
+msgstr ""
+
+#: configdialog.cpp:82
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Network Interfaces"
+msgid "User Interface"
+msgstr "Syćowe interfejsy"
+
+#: configdialog.cpp:150
+msgid "Available Plugins"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: interfaceOptions.ui:17
+msgid "Positioning:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, topEdgeButton)
+#: interfaceOptions.ui:27
+msgid "Top edge of screen"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, freeFloatingButton)
+#: interfaceOptions.ui:37
+msgid "Free floating window"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: interfaceOptions.ui:57
+msgid "Style:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, commandButton)
+#: interfaceOptions.ui:67
+#, fuzzy
+msgid "Command oriented"
+msgstr "Name=Wjace programow"
+
+#. i18n: ectx: property (text), widget (QRadioButton, taskButton)
+#: interfaceOptions.ui:77
+#, fuzzy
+msgid "Task oriented"
+msgstr "Name=Wjace programow"
+
+#. i18n: ectx: property (text), widget (QPushButton, previewButton)
+#: interfaceOptions.ui:97
+msgid "Preview"
+msgstr "Přehladka"
 
 #: interfaces/default/interface.cpp:90 interfaces/default/interface.cpp:91
 #: interfaces/quicksand/qs_dialog.cpp:59 interfaces/quicksand/qs_dialog.cpp:60
@@ -91,6 +151,77 @@ msgstr "Žane wuslědki namakane."
 msgctxt "%1 current item number, %2 total number of items"
 msgid "%1 of %2"
 msgstr "%1 %2"
+
+#. i18n: ectx: label, entry, group (General)
+#: kcfg/krunner.kcfg:13
+msgid "The interface style to use in KRunner"
+msgstr ""
+
+#. i18n: ectx: label, entry, group (General)
+#: kcfg/krunner.kcfg:21
+msgid ""
+"Set to true to show the interface in a freely floating dialog instead of at "
+"the top of the screen"
+msgstr ""
+
+#. i18n: ectx: label, entry, group (General)
+#: kcfg/krunner.kcfg:26
+msgid "Completion mode used for the query text."
+msgstr ""
+
+#. i18n: ectx: label, entry (PastQueries), group (General)
+#: kcfg/krunner.kcfg:31
+#, fuzzy
+#| msgid "The subscription was successfully completed."
+msgid "History if past queries successfully completed"
+msgstr "Subskripcija wuspěšna."
+
+#. i18n: ectx: label, entry (KeepTaskDialogAbove), group (TaskDialog)
+#: kcfg/krunner.kcfg:40
+msgid "Whether to keep the tasks dialog above other windows when shown."
+msgstr ""
+
+#. i18n: ectx: label, entry (ScreenSaverEnabled), group (ScreenSaver)
+#: kcfg/kscreensaversettings.kcfg:11
+#, fuzzy
+#| msgid "Only start screen saver"
+msgid "Enable screen saver"
+msgstr "Jenož škitak startować"
+
+#. i18n: ectx: whatsthis, entry (ScreenSaverEnabled), group (ScreenSaver)
+#: kcfg/kscreensaversettings.kcfg:12
+#, fuzzy
+#| msgid "Only use the blank screen saver"
+msgid "Enables the screen saver."
+msgstr "Jenož prózdny škitak wužiwać"
+
+#. i18n: ectx: label, entry, group (ScreenSaver)
+#: kcfg/kscreensaversettings.kcfg:16
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Screen Saver Settings"
+msgid "Screen saver timeout"
+msgstr "Nastajenja za škitaki"
+
+#. i18n: ectx: whatsthis, entry, group (ScreenSaver)
+#: kcfg/kscreensaversettings.kcfg:17
+msgid "Sets the seconds after which the screen saver is started."
+msgstr ""
+
+#. i18n: ectx: label, entry (SuspendWhenInvisible), group (ScreenSaver)
+#: kcfg/kscreensaversettings.kcfg:21
+msgid "Suspend screen saver when DPMS kicks in"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (SuspendWhenInvisible), group (ScreenSaver)
+#: kcfg/kscreensaversettings.kcfg:24
+msgid ""
+"Usually the screen saver is suspended when display power saving kicks in,\n"
+"       as nothing can be seen on the screen anyway, obviously. However, some "
+"screen savers\n"
+"       actually perform useful computations, so it is not desirable to "
+"suspend them."
+msgstr ""
 
 #: krunnerapp.cpp:127 krunnerdialog.cpp:74
 msgid "Run Command"
@@ -298,154 +429,3 @@ msgstr ""
 #: main.cpp:54
 msgid "Author and maintainer"
 msgstr ""
-
-#: configdialog.cpp:53
-msgid "Plugins"
-msgstr ""
-
-#: configdialog.cpp:82
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Network Interfaces"
-msgid "User Interface"
-msgstr "Syćowe interfejsy"
-
-#: configdialog.cpp:150
-msgid "Available Plugins"
-msgstr ""
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
-
-#. i18n: file: kcfg/krunner.kcfg:13
-#. i18n: ectx: label, entry, group (General)
-#: rc.cpp:5
-msgid "The interface style to use in KRunner"
-msgstr ""
-
-#. i18n: file: kcfg/krunner.kcfg:21
-#. i18n: ectx: label, entry, group (General)
-#: rc.cpp:8
-msgid ""
-"Set to true to show the interface in a freely floating dialog instead of at "
-"the top of the screen"
-msgstr ""
-
-#. i18n: file: kcfg/krunner.kcfg:26
-#. i18n: ectx: label, entry, group (General)
-#: rc.cpp:11
-msgid "Completion mode used for the query text."
-msgstr ""
-
-#. i18n: file: kcfg/krunner.kcfg:31
-#. i18n: ectx: label, entry (PastQueries), group (General)
-#: rc.cpp:14
-#, fuzzy
-#| msgid "The subscription was successfully completed."
-msgid "History if past queries successfully completed"
-msgstr "Subskripcija wuspěšna."
-
-#. i18n: file: kcfg/krunner.kcfg:40
-#. i18n: ectx: label, entry (KeepTaskDialogAbove), group (TaskDialog)
-#: rc.cpp:17
-msgid "Whether to keep the tasks dialog above other windows when shown."
-msgstr ""
-
-#. i18n: file: kcfg/kscreensaversettings.kcfg:11
-#. i18n: ectx: label, entry (ScreenSaverEnabled), group (ScreenSaver)
-#: rc.cpp:23
-#, fuzzy
-#| msgid "Only start screen saver"
-msgid "Enable screen saver"
-msgstr "Jenož škitak startować"
-
-#. i18n: file: kcfg/kscreensaversettings.kcfg:12
-#. i18n: ectx: whatsthis, entry (ScreenSaverEnabled), group (ScreenSaver)
-#: rc.cpp:26
-#, fuzzy
-#| msgid "Only use the blank screen saver"
-msgid "Enables the screen saver."
-msgstr "Jenož prózdny škitak wužiwać"
-
-#. i18n: file: kcfg/kscreensaversettings.kcfg:16
-#. i18n: ectx: label, entry, group (ScreenSaver)
-#: rc.cpp:29
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Screen Saver Settings"
-msgid "Screen saver timeout"
-msgstr "Nastajenja za škitaki"
-
-#. i18n: file: kcfg/kscreensaversettings.kcfg:17
-#. i18n: ectx: whatsthis, entry, group (ScreenSaver)
-#: rc.cpp:32
-msgid "Sets the seconds after which the screen saver is started."
-msgstr ""
-
-#. i18n: file: kcfg/kscreensaversettings.kcfg:21
-#. i18n: ectx: label, entry (SuspendWhenInvisible), group (ScreenSaver)
-#: rc.cpp:35
-msgid "Suspend screen saver when DPMS kicks in"
-msgstr ""
-
-#. i18n: file: kcfg/kscreensaversettings.kcfg:24
-#. i18n: ectx: whatsthis, entry (SuspendWhenInvisible), group (ScreenSaver)
-#: rc.cpp:38
-msgid ""
-"Usually the screen saver is suspended when display power saving kicks in,\n"
-"       as nothing can be seen on the screen anyway, obviously. However, some "
-"screen savers\n"
-"       actually perform useful computations, so it is not desirable to "
-"suspend them."
-msgstr ""
-
-#. i18n: file: interfaceOptions.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:43
-msgid "Positioning:"
-msgstr ""
-
-#. i18n: file: interfaceOptions.ui:27
-#. i18n: ectx: property (text), widget (QRadioButton, topEdgeButton)
-#: rc.cpp:46
-msgid "Top edge of screen"
-msgstr ""
-
-#. i18n: file: interfaceOptions.ui:37
-#. i18n: ectx: property (text), widget (QRadioButton, freeFloatingButton)
-#: rc.cpp:49
-msgid "Free floating window"
-msgstr ""
-
-#. i18n: file: interfaceOptions.ui:57
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:52
-msgid "Style:"
-msgstr ""
-
-#. i18n: file: interfaceOptions.ui:67
-#. i18n: ectx: property (text), widget (QRadioButton, commandButton)
-#: rc.cpp:55
-#, fuzzy
-msgid "Command oriented"
-msgstr "Name=Wjace programow"
-
-#. i18n: file: interfaceOptions.ui:77
-#. i18n: ectx: property (text), widget (QRadioButton, taskButton)
-#: rc.cpp:58
-#, fuzzy
-msgid "Task oriented"
-msgstr "Name=Wjace programow"
-
-#. i18n: file: interfaceOptions.ui:97
-#. i18n: ectx: property (text), widget (QPushButton, previewButton)
-#: rc.cpp:61
-msgid "Preview"
-msgstr "Přehladka"

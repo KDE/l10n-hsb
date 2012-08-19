@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-17 04:04+0100\n"
+"POT-Creation-Date: 2012-08-19 15:44+0200\n"
 "PO-Revision-Date: 2008-11-22 12:57+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -17,6 +17,14 @@ msgstr ""
 "X-Generator: KAider 0.1\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Edward Wornar"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "edi.werner@gmx.de"
 
 #: engineexplorer.cpp:55 main.cpp:68
 msgid "Plasma Engine Explorer"
@@ -38,15 +46,13 @@ msgstr "Wšě zrozćahać"
 msgid "DataSource"
 msgstr "Žórło za daty"
 
-#. i18n: file: serviceviewer.ui:67
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:170 rc.cpp:32 serviceviewer.cpp:148
+#: engineexplorer.cpp:170 serviceviewer.cpp:148 serviceviewer.ui:67
 msgid "Key"
 msgstr "Kluč"
 
-#. i18n: file: serviceviewer.ui:72
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:170 rc.cpp:35 serviceviewer.cpp:148
+#: engineexplorer.cpp:170 serviceviewer.cpp:148 serviceviewer.ui:72
 msgid "Value"
 msgstr "Hódnota"
 
@@ -109,9 +115,8 @@ msgctxt ""
 msgid "<not displayable>"
 msgstr "<njepokazujomny>"
 
-#. i18n: file: engineexplorer.ui:17
 #. i18n: ectx: property (text), widget (KTitleWidget, m_title)
-#: engineexplorer.cpp:486 rc.cpp:5
+#: engineexplorer.cpp:486 engineexplorer.ui:17
 msgid "Plasma DataEngine Explorer"
 msgstr "Plasma DataEngine Explorer"
 
@@ -124,6 +129,45 @@ msgstr[0] "%1 engine - %2 žórło datow"
 msgstr[1] "%1 engine - %2 žórle datow"
 msgstr[2] "%1 engine - %2 žórła datow"
 msgstr[3] "%1 engine - %2 žórłow datow"
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_sourceRequester)
+#: engineexplorer.ui:38
+msgid "Source name"
+msgstr "Mjeno žórła"
+
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, m_updateInterval)
+#: engineexplorer.ui:57
+msgid "Update on demand"
+msgstr "Aktualizowanje po požadanju"
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, m_updateInterval)
+#: engineexplorer.ui:60
+msgid "ms"
+msgstr "ms"
+
+#. i18n: ectx: property (prefix), widget (KIntSpinBox, m_updateInterval)
+#: engineexplorer.ui:63
+msgid "Update every "
+msgstr "Aktualizować kóžde"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_sourceRequesterButton)
+#: engineexplorer.ui:85
+#, fuzzy
+#| msgid "Request"
+msgid "Request Source"
+msgstr "Požadanje"
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_serviceRequester)
+#: engineexplorer.ui:105
+#, fuzzy
+#| msgid "Remove source"
+msgid "Service for source"
+msgstr "Žórło wotstronić"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_serviceRequesterButton)
+#: engineexplorer.ui:118
+msgid "Request Service for Source"
+msgstr ""
 
 #: ktreeviewsearchline.cpp:420
 msgid "Search Columns"
@@ -198,74 +242,6 @@ msgid ""
 "Only show engines associated with the parent application; maps to the X-KDE-"
 "ParentApp entry in the DataEngine's .desktop file."
 msgstr ""
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Edward Wornar"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "edi.werner@gmx.de"
-
-#. i18n: file: engineexplorer.ui:38
-#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_sourceRequester)
-#: rc.cpp:8
-msgid "Source name"
-msgstr "Mjeno žórła"
-
-#. i18n: file: engineexplorer.ui:57
-#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, m_updateInterval)
-#: rc.cpp:11
-msgid "Update on demand"
-msgstr "Aktualizowanje po požadanju"
-
-#. i18n: file: engineexplorer.ui:60
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, m_updateInterval)
-#: rc.cpp:14
-msgid "ms"
-msgstr "ms"
-
-#. i18n: file: engineexplorer.ui:63
-#. i18n: ectx: property (prefix), widget (KIntSpinBox, m_updateInterval)
-#: rc.cpp:17
-msgid "Update every "
-msgstr "Aktualizować kóžde"
-
-#. i18n: file: engineexplorer.ui:85
-#. i18n: ectx: property (text), widget (QPushButton, m_sourceRequesterButton)
-#: rc.cpp:20
-#, fuzzy
-#| msgid "Request"
-msgid "Request Source"
-msgstr "Požadanje"
-
-#. i18n: file: engineexplorer.ui:105
-#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_serviceRequester)
-#: rc.cpp:23
-#, fuzzy
-#| msgid "Remove source"
-msgid "Service for source"
-msgstr "Žórło wotstronić"
-
-#. i18n: file: engineexplorer.ui:118
-#. i18n: ectx: property (text), widget (QPushButton, m_serviceRequesterButton)
-#: rc.cpp:26
-msgid "Request Service for Source"
-msgstr ""
-
-#. i18n: file: serviceviewer.ui:33
-#. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
-#: rc.cpp:29
-msgid "&Operation:"
-msgstr "&Operacija:"
-
-#. i18n: file: serviceviewer.ui:80
-#. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
-#: rc.cpp:38
-msgid "Operation count"
-msgstr "Ličba operacijow"
 
 #: serviceviewer.cpp:46
 msgid "Start Operation"
@@ -343,6 +319,16 @@ msgstr[0] "Z akciju pokročować"
 msgstr[1] "Z akciju pokročować"
 msgstr[2] "Z akciju pokročować"
 msgstr[3] "Z akciju pokročować"
+
+#. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
+#: serviceviewer.ui:33
+msgid "&Operation:"
+msgstr "&Operacija:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
+#: serviceviewer.ui:80
+msgid "Operation count"
+msgstr "Ličba operacijow"
 
 #: titlecombobox.h:53
 #, fuzzy
