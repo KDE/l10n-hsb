@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:50+0200\n"
+"POT-Creation-Date: 2012-08-20 05:29+0200\n"
 "PO-Revision-Date: 2008-11-15 00:05+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -18,31 +18,26 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
-#: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Edward Wornar"
 
-#: rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "edi.werner@gmx.de"
 
-#. i18n: file: nosmartcardbase.ui:24
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:5
+#: nosmartcardbase.ui:24
 msgid "<b>Unable to contact the KDE smartcard service.</b>"
 msgstr "<b>Njemóžu so z KDE smartcard-słužbu skontaktować.</b>"
 
-#. i18n: file: nosmartcardbase.ui:35
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:8
+#: nosmartcardbase.ui:35
 msgid "Possible Reasons"
 msgstr "Móžnej přičinje"
 
-#. i18n: file: nosmartcardbase.ui:49
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:11
+#: nosmartcardbase.ui:49
 #, fuzzy
 #| msgid ""
 #| "\n"
@@ -68,103 +63,6 @@ msgstr ""
 "\n"
 "2) Nimaće podpěru za smartcards w KDE-bibliotekach. Dyrbiće je rekompilować "
 "z libpcsclite."
-
-#. i18n: file: smartcardbase.ui:31
-#. i18n: ectx: attribute (title), widget (QWidget)
-#: rc.cpp:17
-msgid "Smartcard Support"
-msgstr "Podpěra za smartcards"
-
-#. i18n: file: smartcardbase.ui:42
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:20
-msgid "&Enable smartcard support"
-msgstr "Podpěru za smartcards k dispoziciji stajić"
-
-#. i18n: file: smartcardbase.ui:61
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:23
-msgid "Enable &polling to autodetect card events"
-msgstr "&Polling wužiwać za awtomatiske zwěsćenje smartcardow"
-
-#. i18n: file: smartcardbase.ui:64
-#. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:26
-msgid ""
-"In most cases you should have this enabled. It allows KDE to automatically "
-"detect card insertion and reader hotplug events."
-msgstr ""
-"Normalnje měło to być zaswěćene. Dowoli KDE, awtomatisce zwěsćić, hač je so "
-"karta zasunyła."
-
-#. i18n: file: smartcardbase.ui:92
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:29
-msgid "Automatically &launch card manager if inserted card is unclaimed"
-msgstr ""
-"Awtomatisce &kartowy rjadowar startować, hdyž zasunjenu kartu hewak nichtó "
-"njecha"
-
-#. i18n: file: smartcardbase.ui:95
-#. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:32
-msgid ""
-"When you insert a smartcard, KDE can automatically launch a management tool "
-"if no other application attempts to use the card."
-msgstr ""
-"Hdyž smartcard zasunjeće, móže KDE awtomatisce administratiwny program "
-"startować, hdyž žana druha aplikacija njespyta kartu wužiwać."
-
-#. i18n: file: smartcardbase.ui:106
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:35
-msgid "&Beep on card insert and removal"
-msgstr "&Piwčeć, hdyž so karta zasunje abo wućehnje"
-
-#. i18n: file: smartcardbase.ui:135
-#. i18n: ectx: attribute (title), widget (QWidget)
-#: rc.cpp:38
-msgid "Readers"
-msgstr "Čitadła"
-
-#. i18n: file: smartcardbase.ui:152
-#. i18n: ectx: property (text), widget (K3ListView)
-#: rc.cpp:41
-msgid "Reader"
-msgstr "Čitadło"
-
-#. i18n: file: smartcardbase.ui:163
-#. i18n: ectx: property (text), widget (K3ListView)
-#: rc.cpp:44
-msgid "Type"
-msgstr "Družina"
-
-#. i18n: file: smartcardbase.ui:174
-#. i18n: ectx: property (text), widget (K3ListView)
-#: rc.cpp:47
-msgid "Subtype"
-msgstr "Poddružina"
-
-#. i18n: file: smartcardbase.ui:185
-#. i18n: ectx: property (text), widget (K3ListView)
-#: rc.cpp:50
-msgid "SubSubtype"
-msgstr "Podpoddružina"
-
-#. i18n: file: smartcardbase.ui:228
-#. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:53
-msgid "PCSCLite Configuration"
-msgstr "PCSCLite - připrawjenje"
-
-#. i18n: file: smartcardbase.ui:251
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:56
-msgid ""
-"To add new readers you have to modify /etc/readers.conf file and re-start "
-"pcscd"
-msgstr ""
-"Za nowe čitadła dyrbiće /etc/readers.conf wobdźěłać a pcscd znowa startować"
 
 #: smartcard.cpp:65
 msgid "kcmsmartcard"
@@ -223,3 +121,86 @@ msgstr ""
 "<h1>smartcard</h1> Tutón modul Wam dowoli KDE za smartcards připrawić. "
 "Smartcards hodźa so za wjele wěcow wužiwać kaž składowanje SSL-certifikatow "
 "a přizjewjenje."
+
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: smartcardbase.ui:31
+msgid "Smartcard Support"
+msgstr "Podpěra za smartcards"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: smartcardbase.ui:42
+msgid "&Enable smartcard support"
+msgstr "Podpěru za smartcards k dispoziciji stajić"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: smartcardbase.ui:61
+msgid "Enable &polling to autodetect card events"
+msgstr "&Polling wužiwać za awtomatiske zwěsćenje smartcardow"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: smartcardbase.ui:64
+msgid ""
+"In most cases you should have this enabled. It allows KDE to automatically "
+"detect card insertion and reader hotplug events."
+msgstr ""
+"Normalnje měło to być zaswěćene. Dowoli KDE, awtomatisce zwěsćić, hač je so "
+"karta zasunyła."
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: smartcardbase.ui:92
+msgid "Automatically &launch card manager if inserted card is unclaimed"
+msgstr ""
+"Awtomatisce &kartowy rjadowar startować, hdyž zasunjenu kartu hewak nichtó "
+"njecha"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: smartcardbase.ui:95
+msgid ""
+"When you insert a smartcard, KDE can automatically launch a management tool "
+"if no other application attempts to use the card."
+msgstr ""
+"Hdyž smartcard zasunjeće, móže KDE awtomatisce administratiwny program "
+"startować, hdyž žana druha aplikacija njespyta kartu wužiwać."
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: smartcardbase.ui:106
+msgid "&Beep on card insert and removal"
+msgstr "&Piwčeć, hdyž so karta zasunje abo wućehnje"
+
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: smartcardbase.ui:135
+msgid "Readers"
+msgstr "Čitadła"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: smartcardbase.ui:152
+msgid "Reader"
+msgstr "Čitadło"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: smartcardbase.ui:163
+msgid "Type"
+msgstr "Družina"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: smartcardbase.ui:174
+msgid "Subtype"
+msgstr "Poddružina"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: smartcardbase.ui:185
+msgid "SubSubtype"
+msgstr "Podpoddružina"
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: smartcardbase.ui:228
+msgid "PCSCLite Configuration"
+msgstr "PCSCLite - připrawjenje"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: smartcardbase.ui:251
+msgid ""
+"To add new readers you have to modify /etc/readers.conf file and re-start "
+"pcscd"
+msgstr ""
+"Za nowe čitadła dyrbiće /etc/readers.conf wobdźěłać a pcscd znowa startować"

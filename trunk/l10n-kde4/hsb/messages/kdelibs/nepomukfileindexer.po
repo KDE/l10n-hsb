@@ -18,61 +18,53 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
-#: indexer/main.cpp:47
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Edward Wornar"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "edi.werner@gmx.de"
+
+#: eventmonitor.cpp:70
 #, fuzzy
-#| msgid "Nepomuk Strigi File Indexing"
-msgid "NepomukIndexer"
-msgstr "Strigijowe datajowe indeksy za Nepomuk"
+#| msgid ""
+#| "Strigi file indexing started. Indexing all files for fast desktop "
+#| "searches may take a while."
+msgid "Indexing files for fast searching. This process may take a while."
+msgstr ""
+"Strigi je započał indeks tworić. Tworjenje indeksa za spěšne pytanje na "
+"dźěłowym powjerchu móže chwilku trać."
 
-#: indexer/main.cpp:49
-msgid ""
-"NepomukIndexer indexes the contents of a file and saves the results in "
-"Nepomuk"
+#: eventmonitor.cpp:103 eventmonitor.cpp:133
+msgid "Resuming indexing of files for fast searching."
 msgstr ""
 
-#: indexer/main.cpp:51
+#: eventmonitor.cpp:111
 #, fuzzy
-#| msgid "(c) 2008, Sebastian Trüg"
-msgid "(C) 2011, Vishesh Handa, Sebastian Trueg"
-msgstr "(c) 2008, Sebastian Trüg"
+#| msgid "Suspending Strigi file indexing to preserve resources."
+msgid "Suspending the indexing of files to preserve resources."
+msgstr "Zastaju tworjenje Strigijoweho indeksa za lutowanje resursow."
 
-#: indexer/main.cpp:52
-msgid "Vishesh Handa"
+#: eventmonitor.cpp:125
+#, fuzzy, kde-format
+#| msgid ""
+#| "Local disk space is running low (%1 left). Suspending Strigi file "
+#| "indexing."
+msgid "Disk space is running low (%1 left). Suspending indexing of files."
 msgstr ""
+"Mało ruma na lokalnym disku (%1 wyše). Zastaju tworjenje Strigijoweho "
+"indeksa."
 
-#: indexer/main.cpp:52
-#, fuzzy
-#| msgid "Maintainer"
-msgid "Current maintainer"
-msgstr "Maintainer"
-
-#: indexer/main.cpp:53
-msgid "Sebastian Trüg"
-msgstr "Sebastian Trüg"
-
-#: indexer/main.cpp:53
-msgid "Developer"
+#: eventmonitor.cpp:153
+#, fuzzy, kde-format
+#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
+#| msgid "Initial Desktop Search file indexing finished in %1"
+msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
+msgid "Initial indexing of files for fast searching finished in %1"
 msgstr ""
-
-#: indexer/main.cpp:58
-msgid "The URI provided will be forced on the resource"
-msgstr ""
-
-#: indexer/main.cpp:59
-msgid "The modification time of the resource in time_t format"
-msgstr ""
-
-#: indexer/main.cpp:60
-msgid "The URL of the file to be indexed"
-msgstr ""
-
-#: indexer/main.cpp:61
-msgid "Remove all indexed data of the URL provided"
-msgstr ""
-
-#: indexer/main.cpp:62
-msgid "Strigi plugins to disable."
-msgstr ""
+"Prěnje tworjenje indeksa za pytanje na Dźěłowym powjerchu je so zakónčiło w "
+"%1"
 
 #: fileindexer.cpp:176
 #, fuzzy
@@ -128,55 +120,61 @@ msgctxt "@info:status"
 msgid "File indexer is idle."
 msgstr "Datajowy indekser ničo za dźěło nima"
 
-#: eventmonitor.cpp:70
+#: indexer/main.cpp:47
 #, fuzzy
-#| msgid ""
-#| "Strigi file indexing started. Indexing all files for fast desktop "
-#| "searches may take a while."
-msgid "Indexing files for fast searching. This process may take a while."
-msgstr ""
-"Strigi je započał indeks tworić. Tworjenje indeksa za spěšne pytanje na "
-"dźěłowym powjerchu móže chwilku trać."
+#| msgid "Nepomuk Strigi File Indexing"
+msgid "NepomukIndexer"
+msgstr "Strigijowe datajowe indeksy za Nepomuk"
 
-#: eventmonitor.cpp:103 eventmonitor.cpp:133
-msgid "Resuming indexing of files for fast searching."
+#: indexer/main.cpp:49
+msgid ""
+"NepomukIndexer indexes the contents of a file and saves the results in "
+"Nepomuk"
 msgstr ""
 
-#: eventmonitor.cpp:111
+#: indexer/main.cpp:51
 #, fuzzy
-#| msgid "Suspending Strigi file indexing to preserve resources."
-msgid "Suspending the indexing of files to preserve resources."
-msgstr "Zastaju tworjenje Strigijoweho indeksa za lutowanje resursow."
+#| msgid "(c) 2008, Sebastian Trüg"
+msgid "(C) 2011, Vishesh Handa, Sebastian Trueg"
+msgstr "(c) 2008, Sebastian Trüg"
 
-#: eventmonitor.cpp:125
-#, fuzzy, kde-format
-#| msgid ""
-#| "Local disk space is running low (%1 left). Suspending Strigi file "
-#| "indexing."
-msgid "Disk space is running low (%1 left). Suspending indexing of files."
+#: indexer/main.cpp:52
+msgid "Vishesh Handa"
 msgstr ""
-"Mało ruma na lokalnym disku (%1 wyše). Zastaju tworjenje Strigijoweho "
-"indeksa."
 
-#: eventmonitor.cpp:153
-#, fuzzy, kde-format
-#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
-#| msgid "Initial Desktop Search file indexing finished in %1"
-msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
-msgid "Initial indexing of files for fast searching finished in %1"
+#: indexer/main.cpp:52
+#, fuzzy
+#| msgid "Maintainer"
+msgid "Current maintainer"
+msgstr "Maintainer"
+
+#: indexer/main.cpp:53
+msgid "Sebastian Trüg"
+msgstr "Sebastian Trüg"
+
+#: indexer/main.cpp:53
+msgid "Developer"
 msgstr ""
-"Prěnje tworjenje indeksa za pytanje na Dźěłowym powjerchu je so zakónčiło w "
-"%1"
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Edward Wornar"
+#: indexer/main.cpp:58
+msgid "The URI provided will be forced on the resource"
+msgstr ""
 
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "edi.werner@gmx.de"
+#: indexer/main.cpp:59
+msgid "The modification time of the resource in time_t format"
+msgstr ""
+
+#: indexer/main.cpp:60
+msgid "The URL of the file to be indexed"
+msgstr ""
+
+#: indexer/main.cpp:61
+msgid "Remove all indexed data of the URL provided"
+msgstr ""
+
+#: indexer/main.cpp:62
+msgid "Strigi plugins to disable."
+msgstr ""
 
 #, fuzzy
 #~| msgid "Strigi is currently indexing files in folder %1"

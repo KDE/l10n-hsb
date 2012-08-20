@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkclock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:49+0200\n"
+"POT-Creation-Date: 2012-08-20 05:29+0200\n"
 "PO-Revision-Date: 2008-11-21 22:29+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -21,6 +21,60 @@ msgstr ""
 "X-Generator: KAider 0.1\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Edward Wornar"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "edi.werner@gmx.de"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: dateandtime.ui:22
+msgid "Date and Time"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, setDateTimeAuto)
+#: dateandtime.ui:30
+msgid "Set date and time &automatically:"
+msgstr "Datum a čas awtomatisce nastajić:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dateandtime.ui:53
+msgid "Time server:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KDatePicker, cal)
+#: dateandtime.ui:83
+msgid "Here you can change the system date's day of the month, month and year."
+msgstr "Tu móžeće systemowy datum změnić."
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: dateandtime.ui:116
+#, fuzzy
+#| msgid "Time zone Error"
+msgid "Time Zone"
+msgstr "Zmylk časoweho pasa"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dateandtime.ui:122
+#, fuzzy
+#| msgid "To change the local time zone, select your area from the list below"
+msgid "To change the local time zone, select your area from the list below."
+msgstr "Za změnu lokalneho časa wubjerće swój časowy pas z lisćiny deleka"
+
+#. i18n: ectx: property (text), widget (QLabel, m_local)
+#: dateandtime.ui:145
+#, fuzzy
+#| msgid "Current local time zone: %1 (%2)"
+msgid "Current local time zone:"
+msgstr "Tuchwilne localne časowy pas: %1 (%2)"
+
+#. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, tzonesearch)
+#: dateandtime.ui:155
+msgid "Search"
+msgstr ""
 
 #: dtime.cpp:79
 msgid ""
@@ -154,70 +208,6 @@ msgstr ""
 #: main.cpp:98
 #, kde-format
 msgid "Unable to authenticate/execute the action: %1, %2"
-msgstr ""
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Edward Wornar"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "edi.werner@gmx.de"
-
-#. i18n: file: dateandtime.ui:22
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:5
-msgid "Date and Time"
-msgstr ""
-
-#. i18n: file: dateandtime.ui:30
-#. i18n: ectx: property (text), widget (QCheckBox, setDateTimeAuto)
-#: rc.cpp:8
-msgid "Set date and time &automatically:"
-msgstr "Datum a čas awtomatisce nastajić:"
-
-#. i18n: file: dateandtime.ui:53
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:11
-msgid "Time server:"
-msgstr ""
-
-#. i18n: file: dateandtime.ui:83
-#. i18n: ectx: property (whatsThis), widget (KDatePicker, cal)
-#: rc.cpp:14
-msgid "Here you can change the system date's day of the month, month and year."
-msgstr "Tu móžeće systemowy datum změnić."
-
-#. i18n: file: dateandtime.ui:116
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:17
-#, fuzzy
-#| msgid "Time zone Error"
-msgid "Time Zone"
-msgstr "Zmylk časoweho pasa"
-
-#. i18n: file: dateandtime.ui:122
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:20
-#, fuzzy
-#| msgid "To change the local time zone, select your area from the list below"
-msgid "To change the local time zone, select your area from the list below."
-msgstr "Za změnu lokalneho časa wubjerće swój časowy pas z lisćiny deleka"
-
-#. i18n: file: dateandtime.ui:145
-#. i18n: ectx: property (text), widget (QLabel, m_local)
-#: rc.cpp:23
-#, fuzzy
-#| msgid "Current local time zone: %1 (%2)"
-msgid "Current local time zone:"
-msgstr "Tuchwilne localne časowy pas: %1 (%2)"
-
-#. i18n: file: dateandtime.ui:155
-#. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, tzonesearch)
-#: rc.cpp:26
-msgid "Search"
 msgstr ""
 
 #~ msgid "Failed to set system date/time/time zone."

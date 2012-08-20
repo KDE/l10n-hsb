@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:50+0200\n"
+"POT-Creation-Date: 2012-08-20 05:32+0200\n"
 "PO-Revision-Date: 2008-11-21 01:39+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -18,6 +18,14 @@ msgstr ""
 "X-Generator: KAider 0.1\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Edward Wornar"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "e.werner@rz.uni-leipzig.de"
 
 #: activation.cpp:735
 #, kde-format
@@ -53,6 +61,56 @@ msgstr ""
 #: compositingprefs.cpp:106
 msgid "GLX/OpenGL and XRender/XFixes are not available."
 msgstr "GLX/OpenGL a XRender/XFixes njestejitej k dispoziciji."
+
+#: killer/killer.cpp:42 main.cpp:489
+msgid "KWin"
+msgstr "KWin"
+
+#: killer/killer.cpp:43
+msgid "KWin helper utility"
+msgstr ""
+
+#: killer/killer.cpp:46
+msgid "PID of the application to terminate"
+msgstr ""
+
+#: killer/killer.cpp:47
+msgid "Hostname on which the application is running"
+msgstr ""
+
+#: killer/killer.cpp:48
+msgid "Caption of the window to be terminated"
+msgstr ""
+
+#: killer/killer.cpp:49
+msgid "Name of the application to be terminated"
+msgstr ""
+
+#: killer/killer.cpp:50
+msgid "ID of resource belonging to the application"
+msgstr ""
+
+#: killer/killer.cpp:51
+msgid "Time of user action causing termination"
+msgstr ""
+
+#: killer/killer.cpp:68
+msgid "This helper utility is not supposed to be called directly."
+msgstr ""
+
+#: killer/killer.cpp:75
+#, kde-format
+msgid ""
+"<p>The window \"<b>%2</b>\" is not responding. It belongs to the application "
+"<b>%1</b> (Process ID = %3, hostname = %4).</p><p>Do you wish to terminate "
+"the application process <em>including <b>all</b> of its child windows</em>?"
+"<br /><b>Any unsaved data will be lost.</b></p>"
+msgstr ""
+
+#: killer/killer.cpp:81
+#, kde-format
+msgid "&Terminate Application %1"
+msgstr ""
 
 #: kwinbindings.cpp:48
 msgid "System"
@@ -400,10 +458,6 @@ msgstr ""
 msgid "KDE window manager"
 msgstr "KDE rjadowar woknow"
 
-#: main.cpp:489 killer/killer.cpp:42
-msgid "KWin"
-msgstr "KWin"
-
 #: main.cpp:493
 #, fuzzy
 #| msgid "(c) 1999-2005, The KDE Developers"
@@ -450,15 +504,72 @@ msgstr ""
 msgid "KWin: "
 msgstr "KWin: "
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Edward Wornar"
+#: tabbox/tabbox.cpp:329
+#, fuzzy
+#| msgid "To &Desktop"
+msgctxt "Special entry in alt+tab list for minimizing all windows"
+msgid "Show Desktop"
+msgstr "Na &dźěłowy powjerch"
 
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "e.werner@rz.uni-leipzig.de"
+#: tabbox/tabbox.cpp:474
+msgid "Walk Through Windows"
+msgstr "Z jedneho wokna k druhemu hić"
+
+#: tabbox/tabbox.cpp:475
+msgid "Walk Through Windows (Reverse)"
+msgstr "Z jedneho wokna k druhemu hić (dozady)"
+
+#: tabbox/tabbox.cpp:476
+#, fuzzy
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows Alternative"
+msgstr "Z jedneho wokna k druhemu hić (dozady)"
+
+#: tabbox/tabbox.cpp:477
+#, fuzzy
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows Alternative (Reverse)"
+msgstr "Z jedneho wokna k druhemu hić (dozady)"
+
+#: tabbox/tabbox.cpp:478
+#, fuzzy
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows of Current Application"
+msgstr "Z jedneho wokna k druhemu hić (dozady)"
+
+#: tabbox/tabbox.cpp:479
+#, fuzzy
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows of Current Application (Reverse)"
+msgstr "Z jedneho wokna k druhemu hić (dozady)"
+
+#: tabbox/tabbox.cpp:480
+#, fuzzy
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows of Current Application Alternative"
+msgstr "Z jedneho wokna k druhemu hić (dozady)"
+
+#: tabbox/tabbox.cpp:481
+#, fuzzy
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows of Current Application Alternative (Reverse)"
+msgstr "Z jedneho wokna k druhemu hić (dozady)"
+
+#: tabbox/tabbox.cpp:482
+msgid "Walk Through Desktops"
+msgstr "Z jednoho dźěłoweho powjercha k druhemu hić"
+
+#: tabbox/tabbox.cpp:483
+msgid "Walk Through Desktops (Reverse)"
+msgstr "Z jednoho dźěłoweho powjercha k druhemu hić (dozady)"
+
+#: tabbox/tabbox.cpp:484
+msgid "Walk Through Desktop List"
+msgstr "Lisćinu dźěłowych powjerchow přeńć"
+
+#: tabbox/tabbox.cpp:485
+msgid "Walk Through Desktop List (Reverse)"
+msgstr "Lisćinu dźěłowych powjerchow přeńć (dozady)"
 
 #: useractions.cpp:86
 msgid "&Move"
@@ -653,119 +764,6 @@ msgid ""
 "paste bin service\n"
 "like http://paste.kde.org instead of pasting into support threads.\n"
 msgstr ""
-
-#: killer/killer.cpp:43
-msgid "KWin helper utility"
-msgstr ""
-
-#: killer/killer.cpp:46
-msgid "PID of the application to terminate"
-msgstr ""
-
-#: killer/killer.cpp:47
-msgid "Hostname on which the application is running"
-msgstr ""
-
-#: killer/killer.cpp:48
-msgid "Caption of the window to be terminated"
-msgstr ""
-
-#: killer/killer.cpp:49
-msgid "Name of the application to be terminated"
-msgstr ""
-
-#: killer/killer.cpp:50
-msgid "ID of resource belonging to the application"
-msgstr ""
-
-#: killer/killer.cpp:51
-msgid "Time of user action causing termination"
-msgstr ""
-
-#: killer/killer.cpp:68
-msgid "This helper utility is not supposed to be called directly."
-msgstr ""
-
-#: killer/killer.cpp:75
-#, kde-format
-msgid ""
-"<p>The window \"<b>%2</b>\" is not responding. It belongs to the application "
-"<b>%1</b> (Process ID = %3, hostname = %4).</p><p>Do you wish to terminate "
-"the application process <em>including <b>all</b> of its child windows</em>?"
-"<br /><b>Any unsaved data will be lost.</b></p>"
-msgstr ""
-
-#: killer/killer.cpp:81
-#, kde-format
-msgid "&Terminate Application %1"
-msgstr ""
-
-#: tabbox/tabbox.cpp:329
-#, fuzzy
-#| msgid "To &Desktop"
-msgctxt "Special entry in alt+tab list for minimizing all windows"
-msgid "Show Desktop"
-msgstr "Na &dźěłowy powjerch"
-
-#: tabbox/tabbox.cpp:474
-msgid "Walk Through Windows"
-msgstr "Z jedneho wokna k druhemu hić"
-
-#: tabbox/tabbox.cpp:475
-msgid "Walk Through Windows (Reverse)"
-msgstr "Z jedneho wokna k druhemu hić (dozady)"
-
-#: tabbox/tabbox.cpp:476
-#, fuzzy
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows Alternative"
-msgstr "Z jedneho wokna k druhemu hić (dozady)"
-
-#: tabbox/tabbox.cpp:477
-#, fuzzy
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows Alternative (Reverse)"
-msgstr "Z jedneho wokna k druhemu hić (dozady)"
-
-#: tabbox/tabbox.cpp:478
-#, fuzzy
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application"
-msgstr "Z jedneho wokna k druhemu hić (dozady)"
-
-#: tabbox/tabbox.cpp:479
-#, fuzzy
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application (Reverse)"
-msgstr "Z jedneho wokna k druhemu hić (dozady)"
-
-#: tabbox/tabbox.cpp:480
-#, fuzzy
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application Alternative"
-msgstr "Z jedneho wokna k druhemu hić (dozady)"
-
-#: tabbox/tabbox.cpp:481
-#, fuzzy
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application Alternative (Reverse)"
-msgstr "Z jedneho wokna k druhemu hić (dozady)"
-
-#: tabbox/tabbox.cpp:482
-msgid "Walk Through Desktops"
-msgstr "Z jednoho dźěłoweho powjercha k druhemu hić"
-
-#: tabbox/tabbox.cpp:483
-msgid "Walk Through Desktops (Reverse)"
-msgstr "Z jednoho dźěłoweho powjercha k druhemu hić (dozady)"
-
-#: tabbox/tabbox.cpp:484
-msgid "Walk Through Desktop List"
-msgstr "Lisćinu dźěłowych powjerchow přeńć"
-
-#: tabbox/tabbox.cpp:485
-msgid "Walk Through Desktop List (Reverse)"
-msgstr "Lisćinu dźěłowych powjerchow přeńć (dozady)"
 
 #, fuzzy
 #~| msgid "Close Window"
