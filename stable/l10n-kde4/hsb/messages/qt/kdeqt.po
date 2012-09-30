@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeqt\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2012-09-28 12:13+0200\n"
+"POT-Creation-Date: 2012-09-30 12:15+0200\n"
 "PO-Revision-Date: 2008-11-11 22:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -615,8 +615,8 @@ msgid "Disconnected"
 msgstr "socket njeje wjazany"
 
 #: 3rdparty/phonon/mmf/utils.cpp:115
-#: network/socket/qnativesocketengine.cpp:234
 #: network/socket/qsymbiansocketengine.cpp:1387
+#: network/socket/qnativesocketengine.cpp:234
 #, fuzzy
 msgid "Permission denied"
 msgstr "Njeje dowolene."
@@ -1830,67 +1830,14 @@ msgctxt "QIODevice"
 msgid "No space left on device"
 msgstr ""
 
-#: corelib/io/qprocess.cpp:884 corelib/io/qprocess.cpp:936
-#: corelib/io/qprocess_win.cpp:601 corelib/io/qprocess_win.cpp:651
-#, fuzzy
-#| msgid "Error reading from PTY"
-msgid "Error reading from process"
-msgstr "Zmylk při čitanju z PTY"
-
-#: corelib/io/qprocess.cpp:983 corelib/io/qprocess.cpp:1852
-#: corelib/io/qprocess_win.cpp:791
-#, fuzzy
-#| msgid "Error writing to PTY"
-msgid "Error writing to process"
-msgstr "Zmylk při pisanju do PTY"
-
-#: corelib/io/qprocess.cpp:1052
-msgid "Process crashed"
-msgstr ""
-
-#: corelib/io/qprocess.cpp:2054
-msgid "No program defined"
-msgstr ""
-
 #: corelib/io/qiodevice.cpp:1630 corelib/plugin/qlibrary.cpp:1236
 #: corelib/plugin/qpluginloader.cpp:367
 #: corelib/statemachine/qstatemachine.cpp:1046
 #: network/kernel/qhostinfo_unix.cpp:301
-#: network/socket/qnativesocketengine.cpp:276
-#: network/socket/qsymbiansocketengine.cpp:1435 network/ssl/qsslerror.cpp:289
+#: network/socket/qsymbiansocketengine.cpp:1435
+#: network/socket/qnativesocketengine.cpp:276 network/ssl/qsslerror.cpp:289
 msgid "Unknown error"
 msgstr "Njeznaty zmylk"
-
-#: corelib/io/qprocess_unix.cpp:402 corelib/io/qprocess_win.cpp:138
-#, fuzzy
-#| msgid "Could not open file '%1'"
-msgid "Could not open input redirection for reading"
-msgstr "Njemóžach dataju '%1' wočinić."
-
-#: corelib/io/qprocess_unix.cpp:414 corelib/io/qprocess_win.cpp:158
-msgid "Could not open output redirection for writing"
-msgstr ""
-
-#: corelib/io/qprocess_unix.cpp:686
-#, qt-format
-msgid "Resource error (fork failure): %1"
-msgstr ""
-
-#: corelib/io/qprocess_unix.cpp:1033 corelib/io/qprocess_unix.cpp:1085
-#: corelib/io/qprocess_unix.cpp:1159 corelib/io/qprocess_unix.cpp:1225
-#: corelib/io/qprocess_win.cpp:591 corelib/io/qprocess_win.cpp:641
-#: corelib/io/qprocess_win.cpp:716 corelib/io/qprocess_win.cpp:758
-#: corelib/io/qprocess_win.cpp:812
-#, fuzzy
-#| msgctxt "Socket error code Timeout"
-#| msgid "timed operation timed out"
-msgid "Process operation timed out"
-msgstr "operacijan z časowym wobmjezowanjom předołho traje"
-
-#: corelib/io/qprocess_win.cpp:431
-#, qt-format
-msgid "Process failed to start: %1"
-msgstr ""
 
 #: corelib/io/qfile.cpp:736 corelib/io/qfile.cpp:890
 msgid "Destination file exists"
@@ -1925,6 +1872,59 @@ msgstr ""
 
 #: corelib/io/qfile.cpp:1419
 msgid "No file engine available or engine does not support UnMapExtension"
+msgstr ""
+
+#: corelib/io/qprocess.cpp:884 corelib/io/qprocess.cpp:936
+#: corelib/io/qprocess_win.cpp:601 corelib/io/qprocess_win.cpp:651
+#, fuzzy
+#| msgid "Error reading from PTY"
+msgid "Error reading from process"
+msgstr "Zmylk při čitanju z PTY"
+
+#: corelib/io/qprocess.cpp:983 corelib/io/qprocess.cpp:1852
+#: corelib/io/qprocess_win.cpp:791
+#, fuzzy
+#| msgid "Error writing to PTY"
+msgid "Error writing to process"
+msgstr "Zmylk při pisanju do PTY"
+
+#: corelib/io/qprocess.cpp:1052
+msgid "Process crashed"
+msgstr ""
+
+#: corelib/io/qprocess.cpp:2054
+msgid "No program defined"
+msgstr ""
+
+#: corelib/io/qprocess_unix.cpp:402 corelib/io/qprocess_win.cpp:138
+#, fuzzy
+#| msgid "Could not open file '%1'"
+msgid "Could not open input redirection for reading"
+msgstr "Njemóžach dataju '%1' wočinić."
+
+#: corelib/io/qprocess_unix.cpp:414 corelib/io/qprocess_win.cpp:158
+msgid "Could not open output redirection for writing"
+msgstr ""
+
+#: corelib/io/qprocess_unix.cpp:686
+#, qt-format
+msgid "Resource error (fork failure): %1"
+msgstr ""
+
+#: corelib/io/qprocess_unix.cpp:1033 corelib/io/qprocess_unix.cpp:1085
+#: corelib/io/qprocess_unix.cpp:1159 corelib/io/qprocess_unix.cpp:1225
+#: corelib/io/qprocess_win.cpp:591 corelib/io/qprocess_win.cpp:641
+#: corelib/io/qprocess_win.cpp:716 corelib/io/qprocess_win.cpp:758
+#: corelib/io/qprocess_win.cpp:812
+#, fuzzy
+#| msgctxt "Socket error code Timeout"
+#| msgid "timed operation timed out"
+msgid "Process operation timed out"
+msgstr "operacijan z časowym wobmjezowanjom předołho traje"
+
+#: corelib/io/qprocess_win.cpp:431
+#, qt-format
+msgid "Process failed to start: %1"
 msgstr ""
 
 #: corelib/kernel/qsharedmemory.cpp:268
@@ -2414,43 +2414,19 @@ msgstr ""
 msgid "Loader does not support loading non-visual elements."
 msgstr ""
 
-#: declarative/graphicsitems/qdeclarativetextinput.cpp:962
-#: declarative/graphicsitems/qdeclarativetextinput.cpp:970
+#: declarative/graphicsitems/qdeclarativetextinput.cpp:961
+#: declarative/graphicsitems/qdeclarativetextinput.cpp:969
 #, fuzzy
 #| msgid "Could not create temporary file."
 msgid "Could not load cursor delegate"
 msgstr "Njemóžach temporarnu dataju stworić."
 
-#: declarative/graphicsitems/qdeclarativetextinput.cpp:981
+#: declarative/graphicsitems/qdeclarativetextinput.cpp:980
 msgid "Could not instantiate cursor delegate"
 msgstr ""
 
 #: declarative/graphicsitems/qdeclarativevisualitemmodel.cpp:1101
 msgid "Delegate component must be Item type."
-msgstr ""
-
-#: declarative/graphicsitems/qdeclarativeitem.cpp:814
-msgid "LayoutDirection attached property only works with Items"
-msgstr ""
-
-#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:103
-#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:206
-msgctxt "QDeclarativeAnimatedImage"
-msgid "Qt was built without support for QMovie"
-msgstr ""
-
-#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:175
-#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:258
-msgid "KeyNavigation is only available via attached properties"
-msgstr ""
-
-#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:176
-#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:259
-msgid "Keys is only available via attached properties"
-msgstr ""
-
-#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:201
-msgid "LayoutMirroring is only available via attached properties"
 msgstr ""
 
 #: declarative/graphicsitems/qdeclarativeanchors.cpp:198
@@ -2506,6 +2482,30 @@ msgstr ""
 
 #: declarative/graphicsitems/qdeclarativeanchors.cpp:1149
 msgid "Cannot anchor a vertical edge to a horizontal edge."
+msgstr ""
+
+#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:103
+#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:206
+msgctxt "QDeclarativeAnimatedImage"
+msgid "Qt was built without support for QMovie"
+msgstr ""
+
+#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:175
+#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:258
+msgid "KeyNavigation is only available via attached properties"
+msgstr ""
+
+#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:176
+#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:259
+msgid "Keys is only available via attached properties"
+msgstr ""
+
+#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:201
+msgid "LayoutMirroring is only available via attached properties"
+msgstr ""
+
+#: declarative/graphicsitems/qdeclarativeitem.cpp:814
+msgid "LayoutDirection attached property only works with Items"
 msgstr ""
 
 #: declarative/qml/parser/qdeclarativejslexer.cpp:545
@@ -3277,22 +3277,6 @@ msgstr ""
 msgid "Unable to preserve appearance under scale of 0"
 msgstr "&Zastajić při přichodnym statemenće"
 
-#: declarative/util/qdeclarativexmllistmodel.cpp:581
-#, qt-format
-msgid "\"%1\" duplicates a previous role name and will be disabled."
-msgstr ""
-
-#: declarative/util/qdeclarativexmllistmodel.cpp:826
-msgctxt "QDeclarativeXmlRoleList"
-msgid "An XmlListModel query must start with '/' or \"//\""
-msgstr ""
-
-#: declarative/util/qdeclarativexmllistmodel.cpp:1105
-#: declarative/util/qdeclarativexmllistmodel.cpp:1109
-#, fuzzy, qt-format
-msgid "invalid query: \"%1\""
-msgstr "Njekorektny CA"
-
 #: declarative/util/qdeclarativeutilmodule.cpp:80
 msgid "Application is an abstract class"
 msgstr ""
@@ -3309,6 +3293,22 @@ msgstr ""
 msgctxt "QDeclarativeXmlListModel"
 msgid "Qt was built without support for xmlpatterns"
 msgstr ""
+
+#: declarative/util/qdeclarativexmllistmodel.cpp:581
+#, qt-format
+msgid "\"%1\" duplicates a previous role name and will be disabled."
+msgstr ""
+
+#: declarative/util/qdeclarativexmllistmodel.cpp:826
+msgctxt "QDeclarativeXmlRoleList"
+msgid "An XmlListModel query must start with '/' or \"//\""
+msgstr ""
+
+#: declarative/util/qdeclarativexmllistmodel.cpp:1105
+#: declarative/util/qdeclarativexmllistmodel.cpp:1109
+#, fuzzy, qt-format
+msgid "invalid query: \"%1\""
+msgstr "Njekorektny CA"
 
 #: declarative/util/qdeclarativeanimation.cpp:172
 #, qt-format
@@ -3594,9 +3594,9 @@ msgid ""
 "terms of the GNU GPL version 3.0 or where you are otherwise willing to "
 "comply with the terms of the GNU GPL version 3.0.</p><p>Please see <a href="
 "\"http://qt.nokia.com/products/licensing\">qt.nokia.com/products/licensing</"
-"a> for an overview of Qt licensing.</p><p>Copyright (C) 2012 Nokia "
-"Corporation and/or its subsidiary(-ies).</p><p>Qt is a Nokia product. See <a "
-"href=\"http://qt.nokia.com/\">qt.nokia.com</a> for more information.</p>"
+"a> for an overview of Qt licensing.</p><p>Copyright (C) 2012 Digia Plc and/"
+"or its subsidiary(-ies).</p><p>Qt is a Nokia product. See <a href=\"http://"
+"qt.nokia.com/\">qt.nokia.com</a> for more information.</p>"
 msgstr ""
 
 #: gui/dialogs/qmessagebox.cpp:1797
@@ -3830,14 +3830,6 @@ msgstr "Přetorhnyć"
 msgid "Remove"
 msgstr "Wumazać"
 
-#: gui/dialogs/qabstractprintdialog.cpp:116
-#: gui/dialogs/qabstractprintdialog.cpp:129
-#, fuzzy
-#| msgid "Print"
-msgctxt "QPrintDialog"
-msgid "Print"
-msgstr "Ćišćeć"
-
 #: gui/dialogs/qabstractpagesetupdialog.cpp:68
 #: gui/dialogs/qabstractpagesetupdialog.cpp:80
 #, fuzzy
@@ -3845,6 +3837,14 @@ msgstr "Ćišćeć"
 msgctxt "QPrintPreviewDialog"
 msgid "Page Setup"
 msgstr "Strony na łopjeno"
+
+#: gui/dialogs/qabstractprintdialog.cpp:116
+#: gui/dialogs/qabstractprintdialog.cpp:129
+#, fuzzy
+#| msgid "Print"
+msgctxt "QPrintDialog"
+msgid "Print"
+msgstr "Ćišćeć"
 
 #: gui/dialogs/qdialog.cpp:526 gui/dialogs/qwizard.cpp:698
 #: gui/kernel/qsoftkeymanager.cpp:70
@@ -6253,6 +6253,17 @@ msgstr "Dalša informacija: %1"
 msgid "Insert Unicode control character"
 msgstr ""
 
+#: gui/util/qundoview.cpp:101
+msgid "<empty>"
+msgstr ""
+
+#: gui/util/qdesktopservices_mac.cpp:171
+#, fuzzy
+#| msgctxt "keyboard-key-name"
+#| msgid "Home"
+msgid "Home"
+msgstr "Pos1"
+
 #: gui/util/qundogroup.cpp:388 gui/util/qundostack.cpp:877
 #, fuzzy, qt-format
 #| msgid "Undo"
@@ -6278,17 +6289,6 @@ msgstr "Znowa činić"
 msgctxt "Default text for redo action"
 msgid "Redo"
 msgstr "Znowa činić"
-
-#: gui/util/qundoview.cpp:101
-msgid "<empty>"
-msgstr ""
-
-#: gui/util/qdesktopservices_mac.cpp:171
-#, fuzzy
-#| msgctxt "keyboard-key-name"
-#| msgid "Home"
-msgid "Home"
-msgstr "Pos1"
 
 #: gui/widgets/qabstractspinbox.cpp:1257
 #, fuzzy
@@ -6555,7 +6555,7 @@ msgstr "Znowa startować"
 #: gui/widgets/qmdisubwindow.cpp:352 gui/widgets/qworkspace.cpp:113
 #: plugins/accessible/compat/q3complexwidgets.cpp:256
 #: plugins/accessible/widgets/complexwidgets.cpp:1614
-#: plugins/accessible/widgets/complexwidgets.cpp:1910
+#: plugins/accessible/widgets/complexwidgets.cpp:1912
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:157
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:382
 #: plugins/accessible/widgets/qaccessiblewidgets.cpp:1329
@@ -6724,13 +6724,6 @@ msgstr ""
 msgid "GestureArea: script expected"
 msgstr ""
 
-#: network/access/qnetworkaccesscachebackend.cpp:66
-#, fuzzy, qt-format
-#| msgid "Error opening PTY"
-msgctxt "QNetworkAccessCacheBackend"
-msgid "Error opening %1"
-msgstr "Zmylk při wočinjenju PTY "
-
 #: network/access/qnetworkaccessdebugpipebackend.cpp:195
 #, fuzzy, qt-format
 #| msgid "Error writing to PTY"
@@ -6856,6 +6849,13 @@ msgstr "Zmylk při začitanju %1"
 msgid "Error while uploading %1: %2"
 msgstr "Zmylk při začitanju %1"
 
+#: network/access/qnetworkaccesscachebackend.cpp:66
+#, fuzzy, qt-format
+#| msgid "Error opening PTY"
+msgctxt "QNetworkAccessCacheBackend"
+msgid "Error opening %1"
+msgstr "Zmylk při wočinjenju PTY "
+
 #: network/bearer/qnetworksession.cpp:456
 #, fuzzy
 #| msgid "InvalidPurpose"
@@ -6869,10 +6869,9 @@ msgstr ""
 
 #: network/kernel/qhostinfo_symbian.cpp:73
 #: network/kernel/qhostinfo_unix.cpp:265 network/kernel/qhostinfo_unix.cpp:297
-#: network/kernel/qhostinfo_win.cpp:115
+#: network/kernel/qhostinfo_win.cpp:115 network/socket/qabstractsocket.cpp:918
 #: network/socket/qsocks5socketengine.cpp:668
 #: network/socket/qsocks5socketengine.cpp:694
-#: network/socket/qabstractsocket.cpp:918
 #, fuzzy
 #| msgctxt "Socket error code NotBound"
 #| msgid "socket is not bound"
@@ -6908,168 +6907,206 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "njekorektne opcije"
 
-#: network/socket/qnativesocketengine.cpp:201
 #: network/socket/qsymbiansocketengine.cpp:1354
+#: network/socket/qnativesocketengine.cpp:201
 #, fuzzy
 #| msgid "Unable to open temporary file."
 msgid "Unable to initialize non-blocking socket"
 msgstr "Njemóžu temporarnu dataju wočinić."
 
-#: network/socket/qnativesocketengine.cpp:204
 #: network/socket/qsymbiansocketengine.cpp:1357
+#: network/socket/qnativesocketengine.cpp:204
 #, fuzzy
 #| msgid "Unable to open temporary file."
 msgid "Unable to initialize broadcast socket"
 msgstr "Njemóžu temporarnu dataju wočinić."
 
-#: network/socket/qnativesocketengine.cpp:207
 #: network/socket/qsymbiansocketengine.cpp:1360
+#: network/socket/qnativesocketengine.cpp:207
 msgid "Attempt to use IPv6 socket on a platform with no IPv6 support"
 msgstr ""
 
-#: network/socket/qnativesocketengine.cpp:210
 #: network/socket/qsymbiansocketengine.cpp:1363
+#: network/socket/qnativesocketengine.cpp:210
 #, fuzzy
 #| msgctxt "Socket error code RemotelyDisconnected"
 #| msgid "remote host closed connection"
 msgid "The remote host closed the connection"
 msgstr "dalny serwer je zwisk zakónčił"
 
-#: network/socket/qnativesocketengine.cpp:213
 #: network/socket/qsymbiansocketengine.cpp:1366
+#: network/socket/qnativesocketengine.cpp:213
 #, fuzzy
 #| msgctxt "Socket error code Timeout"
 #| msgid "timed operation timed out"
 msgid "Network operation timed out"
 msgstr "operacijan z časowym wobmjezowanjom předołho traje"
 
-#: network/socket/qnativesocketengine.cpp:216
 #: network/socket/qsymbiansocketengine.cpp:1369
+#: network/socket/qnativesocketengine.cpp:216
 msgid "Out of resources"
 msgstr ""
 
-#: network/socket/qnativesocketengine.cpp:219
 #: network/socket/qsymbiansocketengine.cpp:1372
+#: network/socket/qnativesocketengine.cpp:219
 #, fuzzy
 #| msgid "Unsupported Key"
 msgid "Unsupported socket operation"
 msgstr "Njepodpěrana tasta"
 
-#: network/socket/qnativesocketengine.cpp:222
 #: network/socket/qsymbiansocketengine.cpp:1375
+#: network/socket/qnativesocketengine.cpp:222
 #, fuzzy
 #| msgid "requested socket type not supported"
 msgid "Protocol type not supported"
 msgstr "pominana družina socketa so njepodpěruje"
 
-#: network/socket/qnativesocketengine.cpp:225
 #: network/socket/qsymbiansocketengine.cpp:1378
+#: network/socket/qnativesocketengine.cpp:225
 #, fuzzy
 #| msgid "InvalidPurpose"
 msgid "Invalid socket descriptor"
 msgstr "Njekorektny zaměr"
 
-#: network/socket/qnativesocketengine.cpp:228
 #: network/socket/qsymbiansocketengine.cpp:1381
+#: network/socket/qnativesocketengine.cpp:228
 msgid "Host unreachable"
 msgstr ""
 
-#: network/socket/qnativesocketengine.cpp:231
-#: network/socket/qsocks5socketengine.cpp:690
 #: network/socket/qsymbiansocketengine.cpp:1384
+#: network/socket/qsocks5socketengine.cpp:690
+#: network/socket/qnativesocketengine.cpp:231
 msgid "Network unreachable"
 msgstr ""
 
-#: network/socket/qnativesocketengine.cpp:237
 #: network/socket/qsymbiansocketengine.cpp:1390
 #: network/socket/qabstractsocket.cpp:1110
+#: network/socket/qnativesocketengine.cpp:237
 #, fuzzy
 #| msgctxt "Socket error code ConnectionTimedOut"
 #| msgid "connection timed out"
 msgid "Connection timed out"
 msgstr "sym předołho na zwisk čakał"
 
-#: network/socket/qnativesocketengine.cpp:240
-#: network/socket/qsocks5socketengine.cpp:698
 #: network/socket/qsymbiansocketengine.cpp:1393
 #: network/socket/qabstractsocket.cpp:968
+#: network/socket/qsocks5socketengine.cpp:698
+#: network/socket/qnativesocketengine.cpp:240
 #, fuzzy
 #| msgctxt "Socket error code ConnectionRefused"
 #| msgid "connection actively refused"
 msgid "Connection refused"
 msgstr "zwisk je so aktiwnje wotpokazał"
 
-#: network/socket/qnativesocketengine.cpp:243
 #: network/socket/qsymbiansocketengine.cpp:1396
+#: network/socket/qnativesocketengine.cpp:243
 #, fuzzy
 #| msgctxt "Socket error code AddressInUse"
 #| msgid "address already in use"
 msgid "The bound address is already in use"
 msgstr "adresa so hižo wužiwa"
 
-#: network/socket/qnativesocketengine.cpp:246
 #: network/socket/qsymbiansocketengine.cpp:1399
+#: network/socket/qnativesocketengine.cpp:246
 #, fuzzy
 #| msgid "There is no matching item available.\n"
 msgid "The address is not available"
 msgstr "Žadyn wotpowědowacy element.\n"
 
-#: network/socket/qnativesocketengine.cpp:249
 #: network/socket/qsymbiansocketengine.cpp:1402
+#: network/socket/qnativesocketengine.cpp:249
 #, fuzzy
 #| msgid "There is no matching item available.\n"
 msgid "The address is protected"
 msgstr "Žadyn wotpowědowacy element.\n"
 
-#: network/socket/qnativesocketengine.cpp:252
 #: network/socket/qsymbiansocketengine.cpp:1405
+#: network/socket/qnativesocketengine.cpp:252
 msgid "Datagram was too large to send"
 msgstr ""
 
-#: network/socket/qnativesocketengine.cpp:255
 #: network/socket/qsymbiansocketengine.cpp:1408
+#: network/socket/qnativesocketengine.cpp:255
 #, fuzzy
 #| msgid "Unable to open temporary file."
 msgid "Unable to send a message"
 msgstr "Njemóžu temporarnu dataju wočinić."
 
-#: network/socket/qnativesocketengine.cpp:258
 #: network/socket/qsymbiansocketengine.cpp:1411
+#: network/socket/qnativesocketengine.cpp:258
 #, fuzzy
 #| msgid "&Break at Next Statement"
 msgid "Unable to receive a message"
 msgstr "&Zastajić při přichodnym statemenće"
 
-#: network/socket/qnativesocketengine.cpp:261
 #: network/socket/qsymbiansocketengine.cpp:1414
+#: network/socket/qnativesocketengine.cpp:261
 #, fuzzy
 #| msgid "Unable to open temporary file."
 msgid "Unable to write"
 msgstr "Njemóžu temporarnu dataju wočinić."
 
-#: network/socket/qnativesocketengine.cpp:264
 #: network/socket/qsymbiansocketengine.cpp:1417
+#: network/socket/qnativesocketengine.cpp:264
 #, fuzzy
 msgid "Network error"
 msgstr "Nowe"
 
-#: network/socket/qnativesocketengine.cpp:267
 #: network/socket/qsymbiansocketengine.cpp:1420
+#: network/socket/qnativesocketengine.cpp:267
 msgid "Another socket is already listening on the same port"
 msgstr ""
 
-#: network/socket/qnativesocketengine.cpp:270
 #: network/socket/qsymbiansocketengine.cpp:1423
+#: network/socket/qnativesocketengine.cpp:270
 #, fuzzy
 #| msgctxt "Socket error code WouldBlock"
 #| msgid "operation would block"
 msgid "Operation on non-socket"
 msgstr "operacija by blokowała"
 
-#: network/socket/qnativesocketengine.cpp:273
 #: network/socket/qsymbiansocketengine.cpp:1426
+#: network/socket/qnativesocketengine.cpp:273
 msgid "The proxy type is invalid for this operation"
 msgstr ""
+
+#: network/socket/qsymbiansocketengine.cpp:1429
+#, fuzzy
+#| msgid "There is no matching item available.\n"
+msgid "The address is invalid for this operation"
+msgstr "Žadyn wotpowědowacy element.\n"
+
+#: network/socket/qsymbiansocketengine.cpp:1432
+msgid "The specified network session is not opened"
+msgstr ""
+
+#: network/socket/qudpsocket.cpp:199
+msgid "This platform does not support IPv6"
+msgstr ""
+
+#: network/socket/qabstractsocket.cpp:555
+#: network/socket/qabstractsocket.cpp:1382
+#: network/socket/qabstractsocket.cpp:1607 network/socket/qtcpserver.cpp:292
+#: network/socket/qtcpserver.cpp:421
+#, fuzzy
+#| msgctxt "Socket error code NotSupported"
+#| msgid "operation is not supported"
+msgid "Operation on socket is not supported"
+msgstr "operacija so njepodpěruje"
+
+#: network/socket/qabstractsocket.cpp:1826
+#, fuzzy
+#| msgctxt "Socket error code Timeout"
+#| msgid "timed operation timed out"
+msgid "Socket operation timed out"
+msgstr "operacijan z časowym wobmjezowanjom předołho traje"
+
+#: network/socket/qabstractsocket.cpp:2263
+#, fuzzy
+#| msgctxt "Socket error code NotBound"
+#| msgid "socket is not bound"
+msgid "Socket is not connected"
+msgstr "socket njeje wjazany"
 
 #: network/socket/qsocks5socketengine.cpp:623
 #, fuzzy
@@ -7143,109 +7180,6 @@ msgstr ""
 msgctxt "QSocks5SocketEngine"
 msgid "Network operation timed out"
 msgstr "operacijan z časowym wobmjezowanjom předołho traje"
-
-#: network/socket/qsymbiansocketengine.cpp:1429
-#, fuzzy
-#| msgid "There is no matching item available.\n"
-msgid "The address is invalid for this operation"
-msgstr "Žadyn wotpowědowacy element.\n"
-
-#: network/socket/qsymbiansocketengine.cpp:1432
-msgid "The specified network session is not opened"
-msgstr ""
-
-#: network/socket/qtcpserver.cpp:292 network/socket/qtcpserver.cpp:421
-#: network/socket/qabstractsocket.cpp:555
-#: network/socket/qabstractsocket.cpp:1382
-#: network/socket/qabstractsocket.cpp:1607
-#, fuzzy
-#| msgctxt "Socket error code NotSupported"
-#| msgid "operation is not supported"
-msgid "Operation on socket is not supported"
-msgstr "operacija so njepodpěruje"
-
-#: network/socket/qudpsocket.cpp:199
-msgid "This platform does not support IPv6"
-msgstr ""
-
-#: network/socket/qabstractsocket.cpp:1826
-#, fuzzy
-#| msgctxt "Socket error code Timeout"
-#| msgid "timed operation timed out"
-msgid "Socket operation timed out"
-msgstr "operacijan z časowym wobmjezowanjom předołho traje"
-
-#: network/socket/qabstractsocket.cpp:2263
-#, fuzzy
-#| msgctxt "Socket error code NotBound"
-#| msgid "socket is not bound"
-msgid "Socket is not connected"
-msgstr "socket njeje wjazany"
-
-#: network/ssl/qsslsocket_openssl.cpp:287
-#, qt-format
-msgid "Error creating SSL context (%1)"
-msgstr ""
-
-#: network/ssl/qsslsocket_openssl.cpp:341
-#, qt-format
-msgid "Invalid or empty cipher list (%1)"
-msgstr ""
-
-#: network/ssl/qsslsocket_openssl.cpp:385
-#, qt-format
-msgid "Cannot provide a certificate with no key, %1"
-msgstr ""
-
-#: network/ssl/qsslsocket_openssl.cpp:392
-#, qt-format
-msgid "Error loading local certificate, %1"
-msgstr ""
-
-#: network/ssl/qsslsocket_openssl.cpp:407
-#, fuzzy, qt-format
-#| msgid "Error loading '%1'.\n"
-msgid "Error loading private key, %1"
-msgstr "Zmylk při začitanju '%1'.\n"
-
-#: network/ssl/qsslsocket_openssl.cpp:414
-#, qt-format
-msgid "Private key does not certify public key, %1"
-msgstr ""
-
-#: network/ssl/qsslsocket_openssl.cpp:434
-#, qt-format
-msgid "Error creating SSL session, %1"
-msgstr ""
-
-#: network/ssl/qsslsocket_openssl.cpp:470
-#, qt-format
-msgid "Error creating SSL session: %1"
-msgstr ""
-
-#: network/ssl/qsslsocket_openssl.cpp:1023
-#, qt-format
-msgid "Unable to write data: %1"
-msgstr ""
-
-#: network/ssl/qsslsocket_openssl.cpp:1093
-#, fuzzy, qt-format
-#| msgid "Unable to open temporary file."
-msgid "Unable to decrypt data: %1"
-msgstr "Njemóžu temporarnu dataju wočinić."
-
-#: network/ssl/qsslsocket_openssl.cpp:1171
-#: network/ssl/qsslsocket_openssl.cpp:1181
-#, fuzzy, qt-format
-#| msgid "Error while loading %1"
-msgid "Error while reading: %1"
-msgstr "Zmylk při začitanju %1"
-
-#: network/ssl/qsslsocket_openssl.cpp:1276
-#, fuzzy, qt-format
-#| msgid "Error during rename."
-msgid "Error during SSL handshake: %1"
-msgstr "Zmylk při přemjenowanju. "
 
 #: network/ssl/qsslerror.cpp:217
 msgid "The issuer certificate could not be found"
@@ -7344,6 +7278,71 @@ msgstr ""
 msgid "The peer certificate is blacklisted"
 msgstr ""
 
+#: network/ssl/qsslsocket_openssl.cpp:287
+#, qt-format
+msgid "Error creating SSL context (%1)"
+msgstr ""
+
+#: network/ssl/qsslsocket_openssl.cpp:341
+#, qt-format
+msgid "Invalid or empty cipher list (%1)"
+msgstr ""
+
+#: network/ssl/qsslsocket_openssl.cpp:385
+#, qt-format
+msgid "Cannot provide a certificate with no key, %1"
+msgstr ""
+
+#: network/ssl/qsslsocket_openssl.cpp:392
+#, qt-format
+msgid "Error loading local certificate, %1"
+msgstr ""
+
+#: network/ssl/qsslsocket_openssl.cpp:407
+#, fuzzy, qt-format
+#| msgid "Error loading '%1'.\n"
+msgid "Error loading private key, %1"
+msgstr "Zmylk při začitanju '%1'.\n"
+
+#: network/ssl/qsslsocket_openssl.cpp:414
+#, qt-format
+msgid "Private key does not certify public key, %1"
+msgstr ""
+
+#: network/ssl/qsslsocket_openssl.cpp:434
+#, qt-format
+msgid "Error creating SSL session, %1"
+msgstr ""
+
+#: network/ssl/qsslsocket_openssl.cpp:470
+#, qt-format
+msgid "Error creating SSL session: %1"
+msgstr ""
+
+#: network/ssl/qsslsocket_openssl.cpp:1023
+#, qt-format
+msgid "Unable to write data: %1"
+msgstr ""
+
+#: network/ssl/qsslsocket_openssl.cpp:1093
+#, fuzzy, qt-format
+#| msgid "Unable to open temporary file."
+msgid "Unable to decrypt data: %1"
+msgstr "Njemóžu temporarnu dataju wočinić."
+
+#: network/ssl/qsslsocket_openssl.cpp:1171
+#: network/ssl/qsslsocket_openssl.cpp:1181
+#, fuzzy, qt-format
+#| msgid "Error while loading %1"
+msgid "Error while reading: %1"
+msgstr "Zmylk při začitanju %1"
+
+#: network/ssl/qsslsocket_openssl.cpp:1276
+#, fuzzy, qt-format
+#| msgid "Error during rename."
+msgid "Error during SSL handshake: %1"
+msgstr "Zmylk při přemjenowanju. "
+
 #: plugins/accessible/compat/q3complexwidgets.cpp:246
 #, fuzzy
 #| msgid "SysReq"
@@ -7423,8 +7422,8 @@ msgstr "Začinić"
 msgid "Activate the tab"
 msgstr "Přichodny tabulator aktiwizować"
 
-#: plugins/accessible/widgets/complexwidgets.cpp:1844
-#: plugins/accessible/widgets/complexwidgets.cpp:1910
+#: plugins/accessible/widgets/complexwidgets.cpp:1846
+#: plugins/accessible/widgets/complexwidgets.cpp:1912
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:158
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:383
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:437
@@ -7439,6 +7438,20 @@ msgstr "Wočinić"
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:438
 msgid "Execute"
 msgstr "Wuwjesć"
+
+#: plugins/accessible/widgets/qaccessiblewidgets.cpp:1331
+#, fuzzy
+#| msgctxt "Dock this window"
+#| msgid "Dock"
+msgid "Dock"
+msgstr "Přibić"
+
+#: plugins/accessible/widgets/qaccessiblewidgets.cpp:1332
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Font"
+msgid "Float"
+msgstr "PIsmo"
 
 #: plugins/accessible/widgets/rangecontrols.cpp:149
 #: plugins/accessible/widgets/rangecontrols.cpp:412
@@ -7487,20 +7500,6 @@ msgstr ""
 #: plugins/accessible/widgets/rangecontrols.cpp:937
 msgid "SliderHandle"
 msgstr ""
-
-#: plugins/accessible/widgets/qaccessiblewidgets.cpp:1331
-#, fuzzy
-#| msgctxt "Dock this window"
-#| msgid "Dock"
-msgid "Dock"
-msgstr "Přibić"
-
-#: plugins/accessible/widgets/qaccessiblewidgets.cpp:1332
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Font"
-msgid "Float"
-msgstr "PIsmo"
 
 #: plugins/accessible/widgets/simplewidgets.cpp:123
 #: plugins/accessible/widgets/simplewidgets.cpp:268
@@ -7627,7 +7626,7 @@ msgid ""
 "Multiple input method switcher that uses the context menu of the text widgets"
 msgstr ""
 
-#: plugins/platforms/blackberry/qbbinputcontext_imf.cpp:889
+#: plugins/platforms/blackberry/qbbinputcontext_imf.cpp:893
 msgid "PlayBook IMF"
 msgstr ""
 
@@ -7750,14 +7749,6 @@ msgstr ""
 msgid "Ambiguous %1 not handled"
 msgstr "Dwuzmyslna kombinacija namakana"
 
-#: qt3support/sql/q3datatable.cpp:791
-msgid "Insert"
-msgstr "Zasunyć"
-
-#: qt3support/sql/q3datatable.cpp:792
-msgid "Update"
-msgstr "Aktualizowanje"
-
 #: qt3support/sql/q3sqlmanager_p.cpp:890
 #, fuzzy
 #| msgid "Delete"
@@ -7827,6 +7818,14 @@ msgctxt "QSql"
 msgid "Cancel your edits?"
 msgstr ""
 
+#: qt3support/sql/q3datatable.cpp:791
+msgid "Insert"
+msgstr "Zasunyć"
+
+#: qt3support/sql/q3datatable.cpp:792
+msgid "Update"
+msgstr "Aktualizowanje"
+
 #: qt3support/text/q3textedit.cpp:5441
 #, fuzzy
 #| msgctxt "@action"
@@ -7834,17 +7833,17 @@ msgstr ""
 msgid "Clear"
 msgstr "Wuprózdnić"
 
-#: qt3support/widgets/q3toolbar.cpp:692
-#, fuzzy
-#| msgid "Choose..."
-msgid "More..."
-msgstr "Wubrać..."
-
 #: qt3support/widgets/q3mainwindow.cpp:2053
 #, fuzzy
 #| msgid "C&ustom"
 msgid "Customize..."
 msgstr "&Konfigurowane"
+
+#: qt3support/widgets/q3toolbar.cpp:692
+#, fuzzy
+#| msgid "Choose..."
+msgid "More..."
+msgstr "Wubrać..."
 
 #: scripttools/debugging/qscriptbreakpointsmodel.cpp:455
 msgctxt "QScriptBreakpointsModel"
@@ -9268,13 +9267,6 @@ msgstr ""
 msgid "The parameter %1 is required, but no corresponding %2 is supplied."
 msgstr ""
 
-#: xmlpatterns/functions/qcontextnodechecker.cpp:54
-#, qt-format
-msgid ""
-"The root node of the second argument to function %1 must be a document node. "
-"%2 is not a document node."
-msgstr ""
-
 #: xmlpatterns/functions/qdatetimefn.cpp:86
 #, qt-format
 msgid ""
@@ -9421,6 +9413,13 @@ msgstr "'%1' njeje walidny QLayout."
 #: xmlpatterns/functions/qcomparingaggregator.cpp:197
 #, qt-format
 msgid "The first argument to %1 cannot be of type %2."
+msgstr ""
+
+#: xmlpatterns/functions/qcontextnodechecker.cpp:54
+#, qt-format
+msgid ""
+"The root node of the second argument to function %1 must be a document node. "
+"%2 is not a document node."
 msgstr ""
 
 #: xmlpatterns/janitors/qcardinalityverifier.cpp:58
@@ -10646,175 +10645,175 @@ msgstr ""
 
 #: xmlpatterns/schema/qxsdschemaparser.cpp:1584
 #: xmlpatterns/schema/qxsdschemaparser.cpp:1703
-#: xmlpatterns/schema/qxsdschemaparser.cpp:1795
+#: xmlpatterns/schema/qxsdschemaparser.cpp:1792
 #, qt-format
 msgid "%1 element has neither %2 attribute nor %3 child element."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:2630
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4104
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4336
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4343
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4603
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4620
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4878
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4884
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4901
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4907
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4924
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4935
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4946
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4957
+#: xmlpatterns/schema/qxsdschemaparser.cpp:2627
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4101
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4333
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4340
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4600
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4617
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4875
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4881
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4898
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4904
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4921
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4932
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4943
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4954
 #, qt-format
 msgid "%1 element with %2 child element must not have a %3 attribute."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:3632
+#: xmlpatterns/schema/qxsdschemaparser.cpp:3629
 #, qt-format
 msgid "%1 attribute of %2 element must be %3 or %4."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:3668
+#: xmlpatterns/schema/qxsdschemaparser.cpp:3665
 #, qt-format
 msgid "%1 attribute of %2 element must have a value of %3."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:3675
-#: xmlpatterns/schema/qxsdschemaparser.cpp:3709
+#: xmlpatterns/schema/qxsdschemaparser.cpp:3672
+#: xmlpatterns/schema/qxsdschemaparser.cpp:3706
 #, qt-format
 msgid "%1 attribute of %2 element must have a value of %3 or %4."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4028
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4157
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4166
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4173
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4180
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4507
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4710
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4716
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4722
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4728
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4734
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4740
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4746
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4823
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4025
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4154
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4163
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4170
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4177
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4504
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4707
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4713
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4719
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4725
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4731
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4737
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4743
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4820
 #, qt-format
 msgid "%1 element must not have %2 and %3 attribute together."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4055
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4277
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4052
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4274
 #, qt-format
 msgid "Content of %1 attribute of %2 element must not be from namespace %3."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4062
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4284
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4059
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4281
 #, qt-format
 msgid "%1 attribute of %2 element must not be %3."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4220
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4217
 #, qt-format
 msgid ""
 "%1 attribute of %2 element must have the value %3 because the %4 attribute "
 "is set."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4407
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4404
 msgid "Specifying use='prohibited' inside an attribute group has no effect."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:4760
+#: xmlpatterns/schema/qxsdschemaparser.cpp:4757
 #, qt-format
 msgid "%1 element must have either %2 or %3 attribute."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:5314
+#: xmlpatterns/schema/qxsdschemaparser.cpp:5311
 #, qt-format
 msgid "%1 element must have either %2 attribute or %3 or %4 as child element."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:5369
+#: xmlpatterns/schema/qxsdschemaparser.cpp:5366
 #, qt-format
 msgid "%1 element requires either %2 or %3 attribute."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:5388
+#: xmlpatterns/schema/qxsdschemaparser.cpp:5385
 #, qt-format
 msgid "Text or entity references not allowed inside %1 element"
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:5429
-#: xmlpatterns/schema/qxsdschemaparser.cpp:5541
+#: xmlpatterns/schema/qxsdschemaparser.cpp:5426
+#: xmlpatterns/schema/qxsdschemaparser.cpp:5538
 #, qt-format
 msgid "%1 attribute of %2 element must contain %3, %4 or a list of URIs."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:5667
+#: xmlpatterns/schema/qxsdschemaparser.cpp:5664
 #, qt-format
 msgid "%1 element is not allowed in this context."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:5720
+#: xmlpatterns/schema/qxsdschemaparser.cpp:5717
 #, qt-format
 msgid "%1 attribute of %2 element has larger value than %3 attribute."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:5745
+#: xmlpatterns/schema/qxsdschemaparser.cpp:5742
 #, qt-format
 msgid "Prefix of qualified name %1 is not defined."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:5810
-#: xmlpatterns/schema/qxsdschemaparser.cpp:5871
+#: xmlpatterns/schema/qxsdschemaparser.cpp:5807
+#: xmlpatterns/schema/qxsdschemaparser.cpp:5868
 #, qt-format
 msgid "%1 attribute of %2 element must either contain %3 or the other values."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:6002
+#: xmlpatterns/schema/qxsdschemaparser.cpp:5999
 #, qt-format
 msgid "Component with ID %1 has been defined previously."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:6019
+#: xmlpatterns/schema/qxsdschemaparser.cpp:6016
 #, qt-format
 msgid "Element %1 already defined."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:6030
+#: xmlpatterns/schema/qxsdschemaparser.cpp:6027
 #, qt-format
 msgid "Attribute %1 already defined."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:6045
+#: xmlpatterns/schema/qxsdschemaparser.cpp:6042
 #, fuzzy, qt-format
 #| msgid "The tag %1 already exists"
 msgid "Type %1 already defined."
 msgstr "Tag %1 hižo eksistuje"
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:6068
+#: xmlpatterns/schema/qxsdschemaparser.cpp:6065
 #, qt-format
 msgid "Attribute group %1 already defined."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:6079
+#: xmlpatterns/schema/qxsdschemaparser.cpp:6076
 #, qt-format
 msgid "Element group %1 already defined."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:6090
+#: xmlpatterns/schema/qxsdschemaparser.cpp:6087
 #, qt-format
 msgid "Notation %1 already defined."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:6101
+#: xmlpatterns/schema/qxsdschemaparser.cpp:6098
 #, qt-format
 msgid "Identity constraint %1 already defined."
 msgstr ""
 
-#: xmlpatterns/schema/qxsdschemaparser.cpp:6112
+#: xmlpatterns/schema/qxsdschemaparser.cpp:6109
 #, qt-format
 msgid "Duplicated facets in simple type %1."
 msgstr ""
