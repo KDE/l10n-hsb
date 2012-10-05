@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 04:51+0200\n"
+"POT-Creation-Date: 2012-10-05 04:53+0200\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -50,16 +50,64 @@ msgstr ""
 msgid "None"
 msgstr "Žane"
 
+#. i18n: ectx: property (title), widget (QGroupBox, pInfoGroup)
+#: kdebugdialog.ui:48
+msgid "Information"
+msgstr "informacija"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: kdebugdialog.ui:54 kdebugdialog.ui:89 kdebugdialog.ui:151
+#: kdebugdialog.ui:186
+msgid "Output to:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: kdebugdialog.ui:67 kdebugdialog.ui:102 kdebugdialog.ui:164
+#: kdebugdialog.ui:199
+#, fuzzy
+#| msgid "File"
+msgid "Filename:"
+msgstr "Dataja"
+
+#. i18n: ectx: property (title), widget (QGroupBox, pErrorGroup)
+#: kdebugdialog.ui:83
+msgid "Error"
+msgstr "Zmylk"
+
+#. i18n: ectx: property (text), widget (QCheckBox, pAbortFatal)
+#: kdebugdialog.ui:118
+msgid "Abort on fatal errors"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_disableAll2)
+#: kdebugdialog.ui:138 klistdebugdialog.cpp:76
+msgid "Disable all debug output"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, pWarnGroup)
+#: kdebugdialog.ui:145
+msgid "Warning"
+msgstr "Kedźbu"
+
+#. i18n: ectx: property (title), widget (QGroupBox, pFatalGroup)
+#: kdebugdialog.ui:180
+#, fuzzy
+#| msgid "Error"
+msgid "Fatal Error"
+msgstr "Zmylk"
+
 #: klistdebugdialog.cpp:67
 msgid "&Select All"
 msgstr ""
 
 #: klistdebugdialog.cpp:68
 msgid "&Deselect All"
-msgstr ""
-
-#: klistdebugdialog.cpp:76
-msgid "Disable all debug output"
 msgstr ""
 
 #: main.cpp:98
@@ -93,12 +141,3 @@ msgstr ""
 #: main.cpp:108
 msgid "Turn area off"
 msgstr ""
-
-#~ msgid "Information"
-#~ msgstr "informacija"
-
-#~ msgid "Warning"
-#~ msgstr "Kedźbu"
-
-#~ msgid "Error"
-#~ msgstr "Zmylk"
