@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-12 12:42+0200\n"
+"POT-Creation-Date: 2012-10-13 13:00+0200\n"
 "PO-Revision-Date: 2008-11-18 23:30+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -1451,17 +1451,17 @@ msgstr ""
 msgid "Do you really want to close all other tabs?"
 msgstr "Chceće woprawdźe wšitke druhe tabulatory zezačinjeć?"
 
-#: src/konqmainwindow.cpp:2596 src/konqmainwindow.cpp:3722
-#: src/konqtabs.cpp:353
-msgid "Close &Other Tabs"
-msgstr "&Druhe tabulatory zezačinjeć"
-
 #: src/konqmainwindow.cpp:2596
 #, fuzzy
 #| msgid "Close Other Tabs Confirmation"
 msgctxt "@title:window"
 msgid "Close Other Tabs Confirmation"
 msgstr "Wobkrućenje zezačinjenja wšitkich druhich tabulatorow"
+
+#: src/konqmainwindow.cpp:2596 src/konqmainwindow.cpp:3722
+#: src/konqtabs.cpp:355
+msgid "Close &Other Tabs"
+msgstr "&Druhe tabulatory zezačinjeć"
 
 #: src/konqmainwindow.cpp:2611
 msgid ""
@@ -1606,7 +1606,7 @@ msgstr "Napohlad dźělić &nalěwo/naprawo"
 msgid "Split View &Top/Bottom"
 msgstr "Napohlad dźělić &horjeka/deleka"
 
-#: src/konqmainwindow.cpp:3695 src/konqtabs.cpp:464
+#: src/konqmainwindow.cpp:3695 src/konqtabs.cpp:462
 msgid "&New Tab"
 msgstr "&Nowy tabulator"
 
@@ -1659,7 +1659,7 @@ msgstr "Pr&ofile napohlada nastajić..."
 msgid "Load &View Profile"
 msgstr "Profile začitać a &pokazać"
 
-#: src/konqmainwindow.cpp:3784 src/konqtabs.cpp:330
+#: src/konqmainwindow.cpp:3784 src/konqtabs.cpp:332
 msgid "&Reload All Tabs"
 msgstr "Wšě &tabulatory znowa začitać"
 
@@ -2121,60 +2121,41 @@ msgstr "&Lubušk"
 msgid "Open tabs inside current window"
 msgstr "Wočinić in"
 
-#: src/konqsessionmanager.cpp:98
+#: src/konqsessionmanager.cpp:330
+#, fuzzy
+#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr ""
+"Konqueror njej so korektnje zakónčił. Ma so poslednje posedźenje ponowić?"
+
+#: src/konqsessionmanager.cpp:332
 #, fuzzy
 #| msgid "Restore Session?"
 msgctxt "@title:window"
 msgid "Restore Session?"
 msgstr "Posedźenje ponowić?"
 
-#: src/konqsessionmanager.cpp:101
+#: src/konqsessionmanager.cpp:333
 #, fuzzy
 #| msgid "Restore Session"
-msgctxt "@action:button yes"
 msgid "Restore Session"
 msgstr "Posedźenje ponowić"
 
-#: src/konqsessionmanager.cpp:102
+#: src/konqsessionmanager.cpp:334
 #, fuzzy
 #| msgid "Do Not Restore"
-msgctxt "@action:button no"
 msgid "Do Not Restore"
 msgstr "Nic ponowić"
 
-#: src/konqsessionmanager.cpp:103
+#: src/konqsessionmanager.cpp:335
 #, fuzzy
 #| msgid "Ask Me Later"
-msgctxt "@action:button ask later"
 msgid "Ask Me Later"
 msgstr "Woprašej so pozdźišo"
 
-#: src/konqsessionmanager.cpp:131
-#, fuzzy
-#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
-msgid ""
-"Konqueror did not close correctly. Would you like to restore these previous "
-"sessions?"
-msgstr ""
-"Konqueror njej so korektnje zakónčił. Ma so poslednje posedźenje ponowić?"
-
-#: src/konqsessionmanager.cpp:145
-msgctxt "@tooltip:session list"
-msgid "Uncheck the sessions you do not want to be restored"
-msgstr ""
-
-#: src/konqsessionmanager.cpp:177
-#, fuzzy, kde-format
-#| msgid "&Window"
-msgctxt "@item:treewidget"
-msgid "Window %1"
-msgstr "&Wokno"
-
-#: src/konqsessionmanager.cpp:218
-msgid "Do not ask again"
-msgstr ""
-
-#: src/konqtabs.cpp:67
+#: src/konqtabs.cpp:66
 msgid ""
 "This bar contains the list of currently open tabs. Click on a tab to make it "
 "active. You can also use keyboard shortcuts to navigate through tabs. The "
@@ -2187,31 +2168,31 @@ msgstr ""
 "tabulatorach wužiwać. Tekst na tabulatoru pokazuje titl wobsaha; połny titl "
 "widźiće, hdyž z myšu na tabulator jědźeće."
 
-#: src/konqtabs.cpp:101
+#: src/konqtabs.cpp:100
 msgid "Open a new tab"
 msgstr "Nowy tabulator wočinić"
 
-#: src/konqtabs.cpp:110
+#: src/konqtabs.cpp:109
 msgid "Close the current tab"
 msgstr "Aktiwny tabulator začinić"
 
-#: src/konqtabs.cpp:469
+#: src/konqtabs.cpp:467
 msgid "&Duplicate Tab"
 msgstr "Tabulator &duplicěrować"
 
-#: src/konqtabs.cpp:474
+#: src/konqtabs.cpp:472
 msgid "&Reload Tab"
 msgstr "Tabulator &znowa začitać"
 
-#: src/konqtabs.cpp:481
+#: src/konqtabs.cpp:479
 msgid "Other Tabs"
 msgstr "Druhe tabulatory"
 
-#: src/konqtabs.cpp:486
+#: src/konqtabs.cpp:484
 msgid "D&etach Tab"
 msgstr "Tabulator &wotlěpić"
 
-#: src/konqtabs.cpp:492
+#: src/konqtabs.cpp:490
 msgid "&Close Tab"
 msgstr "Tabulator &začinić"
 
@@ -2456,6 +2437,12 @@ msgid ""
 msgstr ""
 "Tutón tabulator wobsahuje změny, kiž njejsu so hišće pósłali.\n"
 "Začitanje profila tute změny zaćisnje."
+
+#, fuzzy
+#~| msgid "&Window"
+#~ msgctxt "@item:treewidget"
+#~ msgid "Window %1"
+#~ msgstr "&Wokno"
 
 #~ msgid " min"
 #~ msgstr "mjeń"
