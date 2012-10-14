@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 04:52+0200\n"
+"POT-Creation-Date: 2012-10-14 04:46+0200\n"
 "PO-Revision-Date: 2008-11-13 00:04+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -513,7 +513,7 @@ msgstr ""
 msgid "Please enter a query to be listed in the root folder"
 msgstr ""
 
-#: statuswidget.cpp:119
+#: statuswidget.cpp:124
 #, kde-format
 msgid "1 file in index"
 msgid_plural "%1 files in index"
@@ -522,21 +522,21 @@ msgstr[1] "%1 dataji w indeksu"
 msgstr[2] "%1 dataje w indeksu"
 msgstr[3] "%1 datajow w indeksu"
 
-#: statuswidget.cpp:146
+#: statuswidget.cpp:151
 #, fuzzy
 #| msgctxt "@info_status"
 #| msgid "Strigi service not running."
 msgid "File indexing service not running"
 msgstr "Strigi-słužba njeběži."
 
-#: statuswidget.cpp:171
+#: statuswidget.cpp:183
 #, fuzzy
 #| msgid "Suspend Strigi Indexing"
 msgctxt "Suspends the Nepomuk file indexing service."
 msgid "Suspend File Indexing"
 msgstr "Strigijowe indeksowanje zastajić"
 
-#: statuswidget.cpp:174
+#: statuswidget.cpp:187
 #, fuzzy
 #| msgid "Strigi File Indexing"
 msgctxt "Resumes the Nepomuk file indexing service."
@@ -556,17 +556,22 @@ msgid "Status of the KDE metadata store"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_suspendResumeButton)
-#: statuswidget.ui:92
+#: statuswidget.ui:94
 msgid "Suspend"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QPushButton, m_configureButton)
+#: statuswidget.ui:104
+msgid "Configure"
+msgstr "Připrawić"
+
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: statuswidget.ui:106
+#: statuswidget.ui:117
 msgid "Indexed files:"
 msgstr "Dataje z indeksom:"
 
 #. i18n: ectx: property (text), widget (QLabel, m_labelFileCount)
-#: statuswidget.ui:125
+#: statuswidget.ui:136
 msgid "Calculating..."
 msgstr "Wobličuju ..."
 
@@ -749,9 +754,6 @@ msgstr "Wobličuju ..."
 #~| msgid "Strigi Desktop File Indexer"
 #~ msgid "Configure File Indexer"
 #~ msgstr "Strigi datajowy indekser za dźěłowy powjerch"
-
-#~ msgid "Configure"
-#~ msgstr "Připrawić"
 
 #~ msgid ""
 #~ "No Soprano Database backend available. Please check your installation."
