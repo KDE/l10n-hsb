@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:51+0100\n"
+"POT-Creation-Date: 2012-08-20 05:36+0200\n"
 "PO-Revision-Date: 2008-11-18 00:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -18,6 +18,59 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbUsername)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leUsername)
+#: shellOptions.ui:61 shellOptions.ui:134
+msgid "Enter the user you want to run the application as here."
+msgstr "Zapodajće mjeno wužiwarja, pod kotrymž ma so aplikacija wuwjesć."
+
+#. i18n: ectx: property (text), widget (QLabel, lbUsername)
+#: shellOptions.ui:64
+msgid "User&name:"
+msgstr "Mjeno &wužiwarja:"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, lePassword)
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbPassword)
+#: shellOptions.ui:83 shellOptions.ui:102
+msgid "Enter the password here for the user you specified above."
+msgstr "Zapodajće škitne hesło za horjeka zapodate mjeno wužiwarja."
+
+#. i18n: ectx: property (text), widget (QLabel, lbPassword)
+#: shellOptions.ui:105
+msgid "Pass&word:"
+msgstr "Škitne &hesło:"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbRunInTerminal)
+#: shellOptions.ui:115
+msgid ""
+"Check this option if the application you want to run is a text mode "
+"application. The application will then be run in a terminal emulator window."
+msgstr ""
+"Hóčkujće tutu opciju, hdyž dźěła aplikacija w tekstowym modusu. Wona so "
+"potom w terminalu wuwjedźe."
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbRunInTerminal)
+#: shellOptions.ui:118
+msgid "Run in &terminal window"
+msgstr "W &terminalu wuwjesć"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbRunAsOther)
+#: shellOptions.ui:141
+msgid ""
+"Check this option if you want to run the application with a different user "
+"id. Every process has a user id associated with it. This id code determines "
+"file access and other permissions. The password of the user is required to "
+"do this."
+msgstr ""
+"Hóčkujće tu, hdyž ma so aplikacija pod hinašim wužiwarskim mjenom wuwjesć. "
+"Kóždy proces běži pod někajkim wužiwarjom; wot toho wotwisuje přistup a "
+"druhe prawa. Škitne hesło wužiwarja je za to trěbne."
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbRunAsOther)
+#: shellOptions.ui:144
+msgid "Run as a different &user"
+msgstr "Pod hinašim &wužiwarjom wuwjesć"
+
 #: shellrunner.cpp:53
 msgid "Finds commands that match :q:, using common shell syntax"
 msgstr ""
@@ -26,39 +79,3 @@ msgstr ""
 #, kde-format
 msgid "Run %1"
 msgstr "%1 wuwjesć"
-
-#~ msgid "Enter the user you want to run the application as here."
-#~ msgstr "Zapodajće mjeno wužiwarja, pod kotrymž ma so aplikacija wuwjesć."
-
-#~ msgid "User&name:"
-#~ msgstr "Mjeno &wužiwarja:"
-
-#~ msgid "Enter the password here for the user you specified above."
-#~ msgstr "Zapodajće škitne hesło za horjeka zapodate mjeno wužiwarja."
-
-#~ msgid "Pass&word:"
-#~ msgstr "Škitne &hesło:"
-
-#~ msgid ""
-#~ "Check this option if the application you want to run is a text mode "
-#~ "application. The application will then be run in a terminal emulator "
-#~ "window."
-#~ msgstr ""
-#~ "Hóčkujće tutu opciju, hdyž dźěła aplikacija w tekstowym modusu. Wona so "
-#~ "potom w terminalu wuwjedźe."
-
-#~ msgid "Run in &terminal window"
-#~ msgstr "W &terminalu wuwjesć"
-
-#~ msgid ""
-#~ "Check this option if you want to run the application with a different "
-#~ "user id. Every process has a user id associated with it. This id code "
-#~ "determines file access and other permissions. The password of the user is "
-#~ "required to do this."
-#~ msgstr ""
-#~ "Hóčkujće tu, hdyž ma so aplikacija pod hinašim wužiwarskim mjenom "
-#~ "wuwjesć. Kóždy proces běži pod někajkim wužiwarjom; wot toho wotwisuje "
-#~ "přistup a druhe prawa. Škitne hesło wužiwarja je za to trěbne."
-
-#~ msgid "Run as a different &user"
-#~ msgstr "Pod hinašim &wužiwarjom wuwjesć"
