@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeqt\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2013-02-22 02:19+0100\n"
+"POT-Creation-Date: 2013-02-28 10:19+0100\n"
 "PO-Revision-Date: 2008-11-11 22:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -1865,13 +1865,13 @@ msgstr ""
 msgid "No file engine available or engine does not support UnMapExtension"
 msgstr ""
 
-#: corelib/io/qprocess_win.cpp:138 corelib/io/qprocess_unix.cpp:404
+#: corelib/io/qprocess_win.cpp:138 corelib/io/qprocess_unix.cpp:407
 #, fuzzy
 #| msgid "Could not open file '%1'"
 msgid "Could not open input redirection for reading"
 msgstr "Njemóžach dataju '%1' wočinić."
 
-#: corelib/io/qprocess_win.cpp:158 corelib/io/qprocess_unix.cpp:416
+#: corelib/io/qprocess_win.cpp:158 corelib/io/qprocess_unix.cpp:419
 msgid "Could not open output redirection for writing"
 msgstr ""
 
@@ -1882,9 +1882,9 @@ msgstr ""
 
 #: corelib/io/qprocess_win.cpp:592 corelib/io/qprocess_win.cpp:642
 #: corelib/io/qprocess_win.cpp:717 corelib/io/qprocess_win.cpp:759
-#: corelib/io/qprocess_win.cpp:813 corelib/io/qprocess_unix.cpp:1034
-#: corelib/io/qprocess_unix.cpp:1086 corelib/io/qprocess_unix.cpp:1160
-#: corelib/io/qprocess_unix.cpp:1226
+#: corelib/io/qprocess_win.cpp:813 corelib/io/qprocess_unix.cpp:1043
+#: corelib/io/qprocess_unix.cpp:1095 corelib/io/qprocess_unix.cpp:1169
+#: corelib/io/qprocess_unix.cpp:1235
 #, fuzzy
 #| msgctxt "Socket error code Timeout"
 #| msgid "timed operation timed out"
@@ -1905,6 +1905,11 @@ msgstr "Zmylk při čitanju z PTY"
 msgid "Error writing to process"
 msgstr "Zmylk při pisanju do PTY"
 
+#: corelib/io/qprocess_unix.cpp:697
+#, qt-format
+msgid "Resource error (fork failure): %1"
+msgstr ""
+
 #: corelib/io/qiodevice.cpp:1630 corelib/plugin/qlibrary.cpp:1236
 #: corelib/plugin/qpluginloader.cpp:367
 #: corelib/statemachine/qstatemachine.cpp:1046
@@ -1920,11 +1925,6 @@ msgstr ""
 
 #: corelib/io/qprocess.cpp:2054
 msgid "No program defined"
-msgstr ""
-
-#: corelib/io/qprocess_unix.cpp:688
-#, qt-format
-msgid "Resource error (fork failure): %1"
 msgstr ""
 
 #: corelib/kernel/qsystemsemaphore_symbian.cpp:68
