@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-02 03:40+0100\n"
+"POT-Creation-Date: 2013-03-06 04:14+0100\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -61,6 +61,28 @@ msgstr "Powěsće awtomatisce šifrować &hdyžkuli móžno"
 #: configurewidget.cpp:41 configurewidget.cpp:123 viewer_p.cpp:1618
 msgid "Auto"
 msgstr "Awtomatisce"
+
+#: customheadersettingwidget.cpp:37 customheadersettingwidget.cpp:45
+#, fuzzy
+msgid "Header to show:"
+msgstr "&Hłójčki"
+
+#: customheadersettingwidget.cpp:44 customheadersettingwidget.cpp:51
+msgid "A&dd..."
+msgstr "&Dodać..."
+
+#: customheadersettingwidget.cpp:44 customheadersettingwidget.cpp:51
+msgid "Remo&ve"
+msgstr "&Zničić"
+
+#: customheadersettingwidget.cpp:45 customheadersettingwidget.cpp:52
+msgid "&Modify..."
+msgstr "Z&měnić..."
+
+#: customheadersettingwidget.cpp:48 customheadersettingwidget.cpp:52
+#, fuzzy
+msgid "Header to hide:"
+msgstr "&Hłójčki"
 
 #: editorwatcher.cpp:71
 #, fuzzy
@@ -1300,63 +1322,57 @@ msgstr "Njesteji k dispoziciji"
 msgid "Viewer settings"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: settings.ui:37
-#, fuzzy
-msgid "General"
-msgstr "Generelnje"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: settings.ui:43
-msgid "Au&tomatic collapse level:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowExpandQuotesMark)
-#: settings.ui:53
-msgid "Show &expand/collapse quote marks"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowEmoticons)
-#: settings.ui:60
-msgid "Replace smileys &by emoticons"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShrinkQuotes)
-#: settings.ui:83
-msgid "Reduce font size for &quoted text"
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AccessKeyEnabled)
+#: settings.ui:40
+msgid "Enable Access Key"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showColorBar)
-#: settings.ui:90
+#: settings.ui:47
 #, fuzzy
 msgid "Show &HTML status bar"
 msgstr "Pokaž statusowy &pask za HTML"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showSpamStatus)
-#: settings.ui:97
+#: settings.ui:54
 msgid "Show spam status &in fancy headers"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowEmoticons)
+#: settings.ui:61
+msgid "Replace smileys &by emoticons"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShrinkQuotes)
+#: settings.ui:68
+msgid "Reduce font size for &quoted text"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowExpandQuotesMark)
+#: settings.ui:75
+msgid "Show &expand/collapse quote marks"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings.ui:98
+msgid "Au&tomatic collapse level:"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: settings.ui:112
+#: settings.ui:142
 #, fuzzy
 msgid "Fallback character e&ncoding:"
 msgstr "Wužiwaj &kodowanje"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: settings.ui:138
+#: settings.ui:168
 #, fuzzy
 msgid "&Override character encoding:"
 msgstr "Wužiwaj &kodowanje"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: settings.ui:188
+#: settings.ui:192
 msgid "Minimum font size:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AccessKeyEnabled)
-#: settings.ui:207
-msgid "Enable Access Key"
 msgstr ""
 
 #: urlhandlermanager.cpp:520
@@ -2088,6 +2104,10 @@ msgstr ""
 #: viewer_p.cpp:3174
 msgid "Activate Caret Browsing"
 msgstr ""
+
+#, fuzzy
+#~ msgid "General"
+#~ msgstr "Generelnje"
 
 #, fuzzy
 #~ msgid ""
@@ -4205,9 +4225,6 @@ msgstr ""
 #~ "Kombinacije slědowacych prefiksow spóznać\n"
 #~ "(zapodaća su prawidłowne wurazy, wulko- a małopisanje so ignoruje):"
 
-#~ msgid "A&dd..."
-#~ msgstr "&Dodać..."
-
 #~ msgid "Re&move"
 #~ msgstr "Z&ničić"
 
@@ -4222,9 +4239,6 @@ msgstr ""
 #~ msgid "For&ward Subject Prefixes"
 #~ msgstr "Temowe prefiksy dopósłać"
 
-#~ msgid "Remo&ve"
-#~ msgstr "&Zničić"
-
 #~ msgid "Enter new forward prefix:"
 #~ msgstr "Zapodajće nowy dopósłanski prefiks:"
 
@@ -4234,9 +4248,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Za kóždu wotpósłanu powěsć so tuta lisćina wot horjeka za kodowanjom ze "
 #~ "wšěmi trěbnymi pismikami přepruwuje."
-
-#~ msgid "&Modify..."
-#~ msgstr "Z&měnić..."
 
 #~ msgid "Enter charset:"
 #~ msgstr "Zapodaj kodowanje:"
@@ -7130,10 +7141,6 @@ msgstr ""
 #~ msgstr "Ci&towanske pismiki dodać"
 
 #, fuzzy
-#~ msgid "Headers as Is"
-#~ msgstr "&Hłójčki"
-
-#, fuzzy
 #~ msgid "Header Content"
 #~ msgstr "Piktogramy za zapiski"
 
@@ -9769,10 +9776,6 @@ msgstr ""
 #~ msgctxt "@title:tab Advanced theme settings"
 #~ msgid "Advanced"
 #~ msgstr "&Za pokročenych"
-
-#, fuzzy
-#~ msgid "Header:"
-#~ msgstr "&Hłójčki"
 
 #, fuzzy
 #~| msgid "Size"
