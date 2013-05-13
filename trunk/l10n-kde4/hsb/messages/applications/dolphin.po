@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-12 02:29+0200\n"
+"POT-Creation-Date: 2013-05-13 02:19+0200\n"
 "PO-Revision-Date: 2008-11-21 01:09+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -536,12 +536,12 @@ msgctxt "@title:menu"
 msgid "Main Toolbar"
 msgstr "Hłowny nastrojowy pas"
 
-#: dolphinviewcontainer.cpp:416
+#: dolphinviewcontainer.cpp:417
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "začitam zapisk..."
 
-#: dolphinviewcontainer.cpp:424
+#: dolphinviewcontainer.cpp:425
 #, fuzzy
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -549,27 +549,27 @@ msgctxt "@info:progress"
 msgid "Sorting..."
 msgstr "Sortěrowanje:"
 
-#: dolphinviewcontainer.cpp:435
+#: dolphinviewcontainer.cpp:436
 msgctxt "@info"
 msgid "Searching..."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:455
+#: dolphinviewcontainer.cpp:456
 msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:597
+#: dolphinviewcontainer.cpp:598
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "Dolphin njepodpěruje html-strony, browser je so startował."
 
-#: dolphinviewcontainer.cpp:611
+#: dolphinviewcontainer.cpp:612
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr "Protokol njepodpěrowany wot Dolphina; Konqueror je so startował."
 
-#: dolphinviewcontainer.cpp:619
+#: dolphinviewcontainer.cpp:620
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "Njewalidny protokol"
@@ -1332,7 +1332,19 @@ msgctxt "@info"
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:913
+#: panels/places/placesitemmodel.cpp:616
+#, kde-format
+msgctxt "@info"
+msgid "An error occurred while accessing '%1', the system responded: %2"
+msgstr ""
+
+#: panels/places/placesitemmodel.cpp:620
+#, kde-format
+msgctxt "@info"
+msgid "An error occurred while accessing '%1'"
+msgstr ""
+
+#: panels/places/placesitemmodel.cpp:909
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Home URL"
@@ -1340,7 +1352,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Home"
 msgstr "Domjaca URL"
 
-#: panels/places/placesitemmodel.cpp:916
+#: panels/places/placesitemmodel.cpp:912
 #, fuzzy
 #| msgctxt "@action:inmenu Go"
 #| msgid "&Network Folders"
@@ -1348,12 +1360,12 @@ msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "&Syćowe zapiski"
 
-#: panels/places/placesitemmodel.cpp:919
+#: panels/places/placesitemmodel.cpp:915
 msgctxt "KFile System Bookmarks"
 msgid "Root"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:922
+#: panels/places/placesitemmodel.cpp:918
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Trash"
@@ -1361,7 +1373,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "Papjernik"
 
-#: panels/places/placesitemmodel.cpp:927
+#: panels/places/placesitemmodel.cpp:923
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Today"
@@ -1369,7 +1381,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Today"
 msgstr "Dźensa"
 
-#: panels/places/placesitemmodel.cpp:930
+#: panels/places/placesitemmodel.cpp:926
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Yesterday"
@@ -1377,7 +1389,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Yesterday"
 msgstr "Wčera"
 
-#: panels/places/placesitemmodel.cpp:933
+#: panels/places/placesitemmodel.cpp:929
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Earlier this Month"
@@ -1385,7 +1397,7 @@ msgctxt "KFile System Bookmarks"
 msgid "This Month"
 msgstr "Zašo w tutym měsacu"
 
-#: panels/places/placesitemmodel.cpp:936
+#: panels/places/placesitemmodel.cpp:932
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Earlier this Month"
@@ -1393,7 +1405,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Last Month"
 msgstr "Zašo w tutym měsacu"
 
-#: panels/places/placesitemmodel.cpp:939
+#: panels/places/placesitemmodel.cpp:935
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -1401,7 +1413,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "Dokumentacija"
 
-#: panels/places/placesitemmodel.cpp:942
+#: panels/places/placesitemmodel.cpp:938
 #, fuzzy
 #| msgctxt "@item:inlistbox Sort"
 #| msgid "By Size"
@@ -1409,12 +1421,12 @@ msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr "po wulkosći"
 
-#: panels/places/placesitemmodel.cpp:945
+#: panels/places/placesitemmodel.cpp:941
 msgctxt "KFile System Bookmarks"
 msgid "Audio Files"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:948
+#: panels/places/placesitemmodel.cpp:944
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr ""
