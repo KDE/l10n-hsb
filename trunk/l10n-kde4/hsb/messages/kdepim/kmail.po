@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-20 03:43+0200\n"
+"POT-Creation-Date: 2013-05-23 01:32+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -5072,7 +5072,7 @@ msgctxt "Message->"
 msgid "&Reply"
 msgstr "&Dopósłać"
 
-#: messageactions.cpp:83 searchwindow.cpp:297
+#: messageactions.cpp:83 searchwindow.cpp:236
 msgid "&Reply..."
 msgstr "&Wotmołwić ..."
 
@@ -5081,11 +5081,11 @@ msgstr "&Wotmołwić ..."
 msgid "Reply to A&uthor..."
 msgstr "Wšě&m wotmołwić..."
 
-#: messageactions.cpp:97 searchwindow.cpp:301
+#: messageactions.cpp:97 searchwindow.cpp:240
 msgid "Reply to &All..."
 msgstr "Wšě&m wotmołwić..."
 
-#: messageactions.cpp:104 searchwindow.cpp:305
+#: messageactions.cpp:104 searchwindow.cpp:244
 msgid "Reply to Mailing-&List..."
 msgstr "&Lisćinje wotmołwić..."
 
@@ -5130,7 +5130,7 @@ msgstr "Powěsć &wobdźěłać"
 msgid "Add Note..."
 msgstr "Dodać..."
 
-#: messageactions.cpp:168 searchwindow.cpp:309
+#: messageactions.cpp:168 searchwindow.cpp:248
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "&Dopósłać"
@@ -5264,52 +5264,23 @@ msgctxt "@action:button Search for messages"
 msgid "&Search"
 msgstr "&Pytaj"
 
-#: searchwindow.cpp:111
-#, fuzzy
-#| msgid "Search in &all local folders"
-msgid "Search in &all folders"
-msgstr "We &wšěch lokalnych zapiskach pytać"
-
-#: searchwindow.cpp:115
-msgid "Search &only in:"
-msgstr "Pytaj &jenož w:"
-
-#: searchwindow.cpp:122
-msgid "I&nclude sub-folders"
-msgstr "Tež w &podzapiskach"
-
-#: searchwindow.cpp:218
-msgid "Search folder &name:"
-msgstr ""
-
-#: searchwindow.cpp:228 searchwindow.cpp:456
+#: searchwindow.cpp:188 searchwindow.cpp:395
 #, fuzzy
 msgid "Last Search"
 msgstr "&Pytaj"
 
-#: searchwindow.cpp:238
-#, fuzzy
-msgid "Op&en Search Folder"
-msgstr "<adresaća>"
-
-#: searchwindow.cpp:247
-#, fuzzy
-#| msgid "Open Message"
-msgid "Open &Message"
-msgstr "Powěsć wočinić"
-
-#: searchwindow.cpp:258
+#: searchwindow.cpp:207
 msgid "AMiddleLengthText..."
 msgstr "Tekst srěnjeje dołhosće..."
 
-#: searchwindow.cpp:259
+#: searchwindow.cpp:208
 #, fuzzy
 #| msgid "Ready."
 msgctxt "@info:status finished searching."
 msgid "Ready."
 msgstr "Hotowo."
 
-#: searchwindow.cpp:314
+#: searchwindow.cpp:253
 #, fuzzy
 #| msgctxt "View->attachments->"
 #| msgid "&Inline"
@@ -5317,21 +5288,21 @@ msgctxt "@action:inmenu Forward message inline."
 msgid "&Inline..."
 msgstr "&w powěsći"
 
-#: searchwindow.cpp:319
+#: searchwindow.cpp:258
 msgctxt "Message->Forward->"
 msgid "As &Attachment..."
 msgstr ""
 
-#: searchwindow.cpp:333
+#: searchwindow.cpp:272
 #, fuzzy
 msgid "Save Attachments..."
 msgstr "&Přiwěšk zawěsćić jako..."
 
-#: searchwindow.cpp:339
+#: searchwindow.cpp:278
 msgid "Clear Selection"
 msgstr ""
 
-#: searchwindow.cpp:423
+#: searchwindow.cpp:362
 #, fuzzy, kde-format
 msgid "%1 match"
 msgid_plural "%1 matches"
@@ -5340,18 +5311,18 @@ msgstr[1] "%1 namakanka"
 msgstr[2] "%1 namakance"
 msgstr[3] "%1 namakanki"
 
-#: searchwindow.cpp:524
+#: searchwindow.cpp:463
 #, kde-format
 msgid "Can not get search result. %1"
 msgstr ""
 
-#: searchwindow.cpp:639
+#: searchwindow.cpp:578
 msgid ""
 "There was a problem renaming your search folder. A common reason for this is "
 "that another search folder with the same name already exists."
 msgstr ""
 
-#: searchwindow.cpp:746
+#: searchwindow.cpp:685
 #, fuzzy, kde-format
 msgid "Copy Message"
 msgid_plural "Copy %1 Messages"
@@ -5360,7 +5331,7 @@ msgstr[1] "Powěsć wočinić"
 msgstr[2] "Powěsć wočinić"
 msgstr[3] "Powěsć wočinić"
 
-#: searchwindow.cpp:749
+#: searchwindow.cpp:688
 #, fuzzy, kde-format
 msgid "Cut Message"
 msgid_plural "Cut %1 Messages"
@@ -5876,6 +5847,43 @@ msgstr "Papjernik wu&próznić"
 #: ui/miscpagemaintab.ui:187
 msgid "Print only selected text"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, mChkbxAllFolders)
+#: ui/searchwindow.ui:17
+#, fuzzy
+#| msgid "Search in &all local folders"
+msgid "Search in &all folders"
+msgstr "We &wšěch lokalnych zapiskach pytać"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mChkbxSpecificFolders)
+#: ui/searchwindow.ui:26
+msgid "Search &only in:"
+msgstr "Pytaj &jenož w:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mChkSubFolders)
+#: ui/searchwindow.ui:39
+#, fuzzy
+#| msgid "I&nclude sub-folders"
+msgid "&Include sub-folders"
+msgstr "Tež w &podzapiskach"
+
+#. i18n: ectx: property (text), widget (QLabel, mSearchFolderLbl)
+#: ui/searchwindow.ui:93
+msgid "Search folder &name:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, mSearchFolderOpenBtn)
+#: ui/searchwindow.ui:113
+#, fuzzy
+msgid "Open &Search Folder"
+msgstr "<adresaća>"
+
+#. i18n: ectx: property (text), widget (KPushButton, mSearchResultOpenBtn)
+#: ui/searchwindow.ui:123
+#, fuzzy
+#| msgid "Open Message"
+msgid "Open &Message"
+msgstr "Powěsć wočinić"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: ui/securitypagegeneraltab.ui:17
