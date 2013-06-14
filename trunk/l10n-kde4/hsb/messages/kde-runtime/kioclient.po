@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-05 02:12+0000\n"
+"POT-Creation-Date: 2013-06-14 01:40+0000\n"
 "PO-Revision-Date: 2008-11-13 23:28+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -289,11 +289,17 @@ msgid "Arguments for command"
 msgstr "Argumenty za přikaz"
 
 #: kioclient.cpp:164
-msgid "Syntax Error: Not enough arguments\n"
+#, fuzzy, kde-format
+#| msgid "Syntax Error: Not enough arguments\n"
+msgctxt "@info:shell"
+msgid "%1: Syntax error, not enough arguments\n"
 msgstr "Syntaktiski zmylk: přemało argumentow.\n"
 
 #: kioclient.cpp:169
-msgid "Syntax Error: Too many arguments\n"
+#, fuzzy, kde-format
+#| msgid "Syntax Error: Too many arguments\n"
+msgctxt "@info:shell"
+msgid "%1: Syntax error, too many arguments\n"
 msgstr "Syntaktiski zmylk: přewjele argumentow.\n"
 
 #: kioclient.cpp:345
@@ -301,6 +307,8 @@ msgid "Unable to download from an invalid URL."
 msgstr "Njemóžu ničo sćahnyć z njekorektneho URL."
 
 #: kioclient.cpp:393
-#, kde-format
-msgid "Syntax Error: Unknown command '%1'\n"
+#, fuzzy, kde-format
+#| msgid "Syntax Error: Unknown command '%1'\n"
+msgctxt "@info:shell"
+msgid "%1: Syntax error, unknown command '%2'\n"
 msgstr "Syntaktiski zmylk: Njeznaty přikaz '%1'\n"
