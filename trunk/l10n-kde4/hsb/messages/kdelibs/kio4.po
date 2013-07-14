@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-04 01:38+0000\n"
+"POT-Creation-Date: 2013-07-14 01:42+0000\n"
 "PO-Revision-Date: 2008-11-17 23:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -60,7 +60,7 @@ msgstr "<qt>Chceće <b>'%1'</b> woprawdźe zničić?</qt>"
 msgid "Delete File"
 msgstr "Dataju zničić"
 
-#: ../kfile/kdiroperator.cpp:810 kio/jobuidelegate.cpp:149
+#: ../kfile/kdiroperator.cpp:810 kio/jobuidelegate.cpp:152
 #, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
@@ -69,7 +69,7 @@ msgstr[1] "Chceće woprawdźe tutej %1 objektaj zničić?"
 msgstr[2] "Chceće woprawdźe tute %1 objekty zničić?"
 msgstr[3] "Chceće woprawdźe tute %1 objektow zničić?"
 
-#: ../kfile/kdiroperator.cpp:812 kio/jobuidelegate.cpp:151
+#: ../kfile/kdiroperator.cpp:812 kio/jobuidelegate.cpp:154
 msgid "Delete Files"
 msgstr "Dataje zničić"
 
@@ -142,7 +142,7 @@ msgstr "Čitać"
 msgid "New Folder..."
 msgstr "Nowy zapisk..."
 
-#: ../kfile/kdiroperator.cpp:1857 kio/jobuidelegate.cpp:172
+#: ../kfile/kdiroperator.cpp:1857 kio/jobuidelegate.cpp:175
 msgid "Move to Trash"
 msgstr "do papjernika sunyć"
 
@@ -524,7 +524,7 @@ msgctxt "@info"
 msgid "Do you really want to empty the Trash? All items will be deleted."
 msgstr "Chceće woprawdźe tute %1 objektow zničić?"
 
-#: ../kfile/kfileplacesview.cpp:644 kio/jobuidelegate.cpp:161
+#: ../kfile/kfileplacesview.cpp:644 kio/jobuidelegate.cpp:164
 #, fuzzy
 msgctxt "@action:button"
 msgid "Empty Trash"
@@ -3597,7 +3597,7 @@ msgid "Folder Already Exists"
 msgstr "Zapisk hižo eksistuje"
 
 #: kio/copyjob.cpp:1398 kio/copyjob.cpp:1981 kio/global.cpp:669
-#: kio/job.cpp:2224 kio/paste.cpp:116
+#: kio/job.cpp:2240 kio/paste.cpp:116
 msgid "File Already Exists"
 msgstr "Dataja hižo eksistuje"
 
@@ -5499,14 +5499,14 @@ msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Wotmontuju"
 
-#: kio/jobuidelegate.cpp:159
+#: kio/jobuidelegate.cpp:162
 msgctxt "@info"
 msgid ""
 "Do you want to permanently delete all items from Trash? This action cannot "
 "be undone."
 msgstr ""
 
-#: kio/jobuidelegate.cpp:170
+#: kio/jobuidelegate.cpp:173
 #, kde-format
 msgid "Do you really want to move this item to the trash?"
 msgid_plural "Do you really want to move these %1 items to the trash?"
@@ -5515,10 +5515,18 @@ msgstr[1] "Chceće woprawdźe tutej %1 objektaj do papjernika sunyć?"
 msgstr[2] "Chceće woprawdźe tute %1 objekty do papjernika sunyć?"
 msgstr[3] "Chceće woprawdźe tute %1 objektow do papjernika sunyć?"
 
-#: kio/jobuidelegate.cpp:173
+#: kio/jobuidelegate.cpp:176
 msgctxt "Verb"
 msgid "&Trash"
 msgstr "&Papjernik"
+
+#: kio/jobuidelegate.cpp:268
+msgid "The peer SSL certificate chain appears to be corrupt."
+msgstr "SSL-certifikat peera njeje walidny."
+
+#: kio/jobuidelegate.cpp:269 kio/tcpslavebase.cpp:766
+msgid "SSL"
+msgstr "SSL"
 
 #: kio/kbuildsycocaprogressdialog.cpp:44
 msgid "Updating System Configuration"
@@ -6081,31 +6089,23 @@ msgstr "&Haj"
 msgid "&No"
 msgstr "&Ně"
 
-#: kio/slaveinterface.cpp:427 kio/tcpslavebase.cpp:821 kssl/sslui.cpp:81
+#: kio/slaveinterface.cpp:422 kio/tcpslavebase.cpp:821 kssl/sslui.cpp:81
 msgid "&Details"
 msgstr "&Detajle"
 
-#: kio/slaveinterface.cpp:429 kio/tcpslavebase.cpp:838 kssl/sslui.cpp:120
+#: kio/slaveinterface.cpp:424 kio/tcpslavebase.cpp:838 kssl/sslui.cpp:120
 msgid "&Forever"
 msgstr "&Na wšě časy"
 
-#: kio/slaveinterface.cpp:434 kio/tcpslavebase.cpp:821 kssl/sslui.cpp:82
+#: kio/slaveinterface.cpp:428 kio/tcpslavebase.cpp:821 kssl/sslui.cpp:82
 msgid "Co&ntinue"
 msgstr "Po&kročować"
 
-#: kio/slaveinterface.cpp:436 kio/tcpslavebase.cpp:839 kssl/sslui.cpp:121
+#: kio/slaveinterface.cpp:430 kio/tcpslavebase.cpp:839 kssl/sslui.cpp:121
 #, fuzzy
 #| msgid "&Current Sessions Only"
 msgid "&Current Session only"
 msgstr "&Jenož nětko"
-
-#: kio/slaveinterface.cpp:496
-msgid "The peer SSL certificate chain appears to be corrupt."
-msgstr "SSL-certifikat peera njeje walidny."
-
-#: kio/slaveinterface.cpp:498 kio/tcpslavebase.cpp:766
-msgid "SSL"
-msgstr "SSL"
 
 #: kio/tcpslavebase.cpp:334
 msgid ""
