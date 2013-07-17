@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-15 01:29+0000\n"
+"POT-Creation-Date: 2013-07-17 01:31+0000\n"
 "PO-Revision-Date: 2008-11-10 22:45+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -2299,7 +2299,7 @@ msgstr "&Wuzběhować"
 msgid "Marker Colors"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:202 view/kateviewhelpers.cpp:1360
+#: schema/kateschemaconfig.cpp:202 view/kateviewhelpers.cpp:1382
 msgid "Bookmark"
 msgstr "Lubušk"
 
@@ -3772,12 +3772,14 @@ msgstr ""
 #. i18n: tag language attribute section
 #. i18n: tag language attribute section
 #. i18n: tag language attribute section
+#. i18n: tag language attribute section
 #: syntax/data/abc.xml:5 syntax/data/alert.xml:33
 #: syntax/data/alert_indent.xml:29 syntax/data/changelog.xml:3
 #: syntax/data/cmake.xml:29 syntax/data/cue.xml:3
 #: syntax/data/debianchangelog.xml:3 syntax/data/debiancontrol.xml:3
 #: syntax/data/diff.xml:18 syntax/data/email.xml:6 syntax/data/gdb.xml:10
-#: syntax/data/jam.xml:24 syntax/data/lilypond.xml:43 syntax/data/m3u.xml:17
+#: syntax/data/git-rebase.xml:3 syntax/data/jam.xml:24
+#: syntax/data/lilypond.xml:43 syntax/data/m3u.xml:17
 #: syntax/data/makefile.xml:8 syntax/data/mup.xml:3 syntax/data/povray.xml:8
 #: syntax/data/qmake.xml:3 syntax/data/rib.xml:8 syntax/data/rpmspec.xml:11
 #: syntax/data/valgrind-suppression.xml:3
@@ -4421,6 +4423,12 @@ msgstr ""
 #: syntax/data/gettext.xml:26
 msgctxt "Language"
 msgid "GNU Gettext"
+msgstr ""
+
+#. i18n: tag language attribute name
+#: syntax/data/git-rebase.xml:3
+msgctxt "Language"
+msgid "Git Rebase"
 msgstr ""
 
 #. i18n: tag language attribute name
@@ -7281,17 +7289,17 @@ msgid "Move Down"
 msgstr ""
 
 #: view/kateviewhelpers.cpp:206 view/kateviewhelpers.cpp:254
-#: view/kateviewhelpers.cpp:708
+#: view/kateviewhelpers.cpp:726
 #, kde-format
 msgctxt "from line - to line"
 msgid "<center>%1<br/>&#x2014;<br/>%2</center>"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:903
+#: view/kateviewhelpers.cpp:925
 msgid "Available Commands"
 msgstr "Móžne přikazy"
 
-#: view/kateviewhelpers.cpp:905
+#: view/kateviewhelpers.cpp:927
 msgid ""
 "<p>For help on individual commands, do <code>'help &lt;command&gt;'</code></"
 "p>"
@@ -7299,17 +7307,17 @@ msgstr ""
 "<p>Po pomoc za jednotliwe přikazy, zapodajće <code>'help &lt;command&gt;'</"
 "code></p>"
 
-#: view/kateviewhelpers.cpp:916
+#: view/kateviewhelpers.cpp:938
 #, kde-format
 msgid "No help for '%1'"
 msgstr "Njeje pomocy za '%1'"
 
-#: view/kateviewhelpers.cpp:919
+#: view/kateviewhelpers.cpp:941
 #, kde-format
 msgid "No such command <b>%1</b>"
 msgstr "Njeznaju tajki přikaz <b>%1</b>"
 
-#: view/kateviewhelpers.cpp:924
+#: view/kateviewhelpers.cpp:946
 msgid ""
 "<p>This is the Katepart <b>command line</b>.<br />Syntax: <code><b>command "
 "[ arguments ]</b></code><br />For a list of available commands, enter "
@@ -7321,35 +7329,35 @@ msgstr ""
 "zapodajće<code><b>help list</b></code><br />Po pomoc k jednotliwym přikazam, "
 "zapodajće<code><b>help &lt;přikaz&gt;</b></code></p>"
 
-#: view/kateviewhelpers.cpp:1095
+#: view/kateviewhelpers.cpp:1117
 #, kde-format
 msgid "Error: No range allowed for command \"%1\"."
 msgstr "Zmylk: Přikaz \"%1\" njewužiwa so z wokruhom (kaž 'a-d')"
 
-#: view/kateviewhelpers.cpp:1112
+#: view/kateviewhelpers.cpp:1134
 msgid "Success: "
 msgstr "Wuspěch:"
 
-#: view/kateviewhelpers.cpp:1128
+#: view/kateviewhelpers.cpp:1150
 #, kde-format
 msgid "Command \"%1\" failed."
 msgstr "Přikaz \"%1\" njeje so poradźił."
 
-#: view/kateviewhelpers.cpp:1135
+#: view/kateviewhelpers.cpp:1157
 #, kde-format
 msgid "No such command: \"%1\""
 msgstr "Njeznaju tajki přikaz: \"%1\""
 
-#: view/kateviewhelpers.cpp:2154 view/kateviewhelpers.cpp:2155
+#: view/kateviewhelpers.cpp:2176 view/kateviewhelpers.cpp:2177
 #, kde-format
 msgid "Mark Type %1"
 msgstr "Marka družiny %1"
 
-#: view/kateviewhelpers.cpp:2174
+#: view/kateviewhelpers.cpp:2196
 msgid "Set Default Mark Type"
 msgstr "Standardnu marku postajić"
 
-#: view/kateviewhelpers.cpp:2240
+#: view/kateviewhelpers.cpp:2262
 msgid "Disable Annotation Bar"
 msgstr ""
 
