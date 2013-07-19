@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-18 05:22+0000\n"
+"POT-Creation-Date: 2013-07-19 05:14+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -1376,6 +1376,11 @@ msgstr "Konto konfigurować"
 msgid "No save"
 msgstr ""
 
+#: configuredialog/configuredialog.cpp:2420
+#, fuzzy
+msgid "Maximum recent address:"
+msgstr "Emailowe adresy wubrać"
+
 #: configuredialog/configuredialog.cpp:2424
 msgid "Edit Recent Addresses..."
 msgstr ""
@@ -1403,18 +1408,18 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, mAddAccountButton)
 #: configuredialog/configuredialog.cpp:2706
 #: configuredialog/configuredialog.cpp:2814
-#: configuredialog/configuredialog.cpp:3237 ui/accountspagereceivingtab.ui:36
+#: configuredialog/configuredialog.cpp:3235 ui/accountspagereceivingtab.ui:36
 msgid "A&dd..."
 msgstr "&Dodać..."
 
 #: configuredialog/configuredialog.cpp:2706
-#: configuredialog/configuredialog.cpp:2978
-#: configuredialog/configuredialog.cpp:3237
+#: configuredialog/configuredialog.cpp:2976
+#: configuredialog/configuredialog.cpp:3235
 msgid "Re&move"
 msgstr "Z&ničić"
 
 #: configuredialog/configuredialog.cpp:2707
-#: configuredialog/configuredialog.cpp:3238
+#: configuredialog/configuredialog.cpp:3236
 #, fuzzy
 msgid "Mod&ify..."
 msgstr "Změnić..."
@@ -1476,55 +1481,55 @@ msgstr ""
 msgid "This charset is not supported."
 msgstr "Tute kodowanje so njepodpěruje."
 
-#: configuredialog/configuredialog.cpp:2926
+#: configuredialog/configuredialog.cpp:2924
 msgid "&Use custom message-id suffix"
 msgstr ""
 
-#: configuredialog/configuredialog.cpp:2940
+#: configuredialog/configuredialog.cpp:2938
 msgid "Custom message-&id suffix:"
 msgstr ""
 
-#: configuredialog/configuredialog.cpp:2955
+#: configuredialog/configuredialog.cpp:2953
 msgid "Define custom mime header fields:"
 msgstr "Definuj swoje pólka za MIME-hłójčki:"
 
-#: configuredialog/configuredialog.cpp:2964
+#: configuredialog/configuredialog.cpp:2962
 #, fuzzy
 #| msgid "Name"
 msgctxt "@title:column Name of the mime header."
 msgid "Name"
 msgstr "Mjeno"
 
-#: configuredialog/configuredialog.cpp:2965
+#: configuredialog/configuredialog.cpp:2963
 #, fuzzy
 #| msgid "Value"
 msgctxt "@title:column Value of the mimeheader."
 msgid "Value"
 msgstr "Hódnota"
 
-#: configuredialog/configuredialog.cpp:2974
+#: configuredialog/configuredialog.cpp:2972
 #, fuzzy
 #| msgid "Ne&w"
 msgctxt "@action:button Add new mime header field."
 msgid "Ne&w"
 msgstr "No&wa"
 
-#: configuredialog/configuredialog.cpp:2988
+#: configuredialog/configuredialog.cpp:2986
 #, fuzzy
 #| msgid "&Name:"
 msgctxt "@label:textbox Name of the mime header."
 msgid "&Name:"
 msgstr "&Mjeno:"
 
-#: configuredialog/configuredialog.cpp:2999
+#: configuredialog/configuredialog.cpp:2997
 msgid "&Value:"
 msgstr "&Hódnota:"
 
-#: configuredialog/configuredialog.cpp:3188
+#: configuredialog/configuredialog.cpp:3186
 msgid "Outlook-compatible attachment naming"
 msgstr ""
 
-#: configuredialog/configuredialog.cpp:3191
+#: configuredialog/configuredialog.cpp:3189
 #, fuzzy
 msgid ""
 "Turn this option on to make Outlook(tm) understand attachment names "
@@ -1532,36 +1537,36 @@ msgid ""
 msgstr ""
 "Zaswěćće tutu opciju, zo by Outlook(c) waše wotmołwy na přeprošenja rozumił"
 
-#: configuredialog/configuredialog.cpp:3202
+#: configuredialog/configuredialog.cpp:3200
 msgid "E&nable detection of missing attachments"
 msgstr ""
 
-#: configuredialog/configuredialog.cpp:3210
+#: configuredialog/configuredialog.cpp:3208
 #, fuzzy
 msgid "Warn when inserting attachments larger than:"
 msgstr "in"
 
-#: configuredialog/configuredialog.cpp:3217
+#: configuredialog/configuredialog.cpp:3215
 #, fuzzy
 #| msgid " MB"
 msgctxt "spinbox suffix: unit for kilobyte"
 msgid " kB"
 msgstr " MB"
 
-#: configuredialog/configuredialog.cpp:3220
+#: configuredialog/configuredialog.cpp:3218
 msgid "No limit"
 msgstr ""
 
-#: configuredialog/configuredialog.cpp:3226
+#: configuredialog/configuredialog.cpp:3224
 msgid "Recognize any of the following key words as intention to attach a file:"
 msgstr ""
 
-#: configuredialog/configuredialog.cpp:3239
+#: configuredialog/configuredialog.cpp:3237
 #, fuzzy
 msgid "Enter new key word:"
 msgstr "Zapodaj nowy prefiks za wotmołwy:"
 
-#: configuredialog/configuredialog.cpp:3281
+#: configuredialog/configuredialog.cpp:3279
 msgid ""
 "You have chosen to encode attachment names containing non-English characters "
 "in a way that is understood by Outlook(tm) and other mail clients that do "
@@ -1572,40 +1577,40 @@ msgid ""
 "enable this option."
 msgstr ""
 
-#: configuredialog/configuredialog.cpp:3379
+#: configuredialog/configuredialog.cpp:3377
 #, fuzzy
 msgid "Reading"
 msgstr "&Pósłanje"
 
-#: configuredialog/configuredialog.cpp:3381
+#: configuredialog/configuredialog.cpp:3379
 msgid "Message Disposition Notifications"
 msgstr "Zdźělenki wo zničenju powěsćow"
 
-#: configuredialog/configuredialog.cpp:3387
+#: configuredialog/configuredialog.cpp:3385
 #, fuzzy
 msgid "Composing"
 msgstr "Editor"
 
-#: configuredialog/configuredialog.cpp:3393
+#: configuredialog/configuredialog.cpp:3391
 #, fuzzy
 msgid "Miscellaneous"
 msgstr "Wopak pisane słowa"
 
-#: configuredialog/configuredialog.cpp:3399
+#: configuredialog/configuredialog.cpp:3397
 msgid "S/MIME Validation"
 msgstr ""
 
-#: configuredialog/configuredialog.cpp:3457
+#: configuredialog/configuredialog.cpp:3455
 msgid ""
 "Changing the global HTML setting will override all folder specific values."
 msgstr ""
 
-#: configuredialog/configuredialog.cpp:3676
-#: configuredialog/configuredialog.cpp:3679
-#: configuredialog/configuredialog.cpp:3682
-#: configuredialog/configuredialog.cpp:3686
-#: configuredialog/configuredialog.cpp:3689
-#: configuredialog/configuredialog.cpp:3692
+#: configuredialog/configuredialog.cpp:3674
+#: configuredialog/configuredialog.cpp:3677
+#: configuredialog/configuredialog.cpp:3680
+#: configuredialog/configuredialog.cpp:3684
+#: configuredialog/configuredialog.cpp:3687
+#: configuredialog/configuredialog.cpp:3690
 msgid " day"
 msgid_plural " days"
 msgstr[0] ""
@@ -1613,32 +1618,32 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: configuredialog/configuredialog.cpp:3836
+#: configuredialog/configuredialog.cpp:3834
 msgid "This option requires dirmngr >= 0.9.0"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, systemHTTPProxy)
-#: configuredialog/configuredialog.cpp:3947 ui/smimeconfiguration.ui:183
+#: configuredialog/configuredialog.cpp:3945 ui/smimeconfiguration.ui:183
 msgid "no proxy"
 msgstr ""
 
-#: configuredialog/configuredialog.cpp:3948
+#: configuredialog/configuredialog.cpp:3946
 #, kde-format
 msgid "(Current system setting: %1)"
 msgstr ""
 
-#: configuredialog/configuredialog.cpp:4076
+#: configuredialog/configuredialog.cpp:4074
 #, fuzzy
 msgid "Folders"
 msgstr "Zapiski"
 
-#: configuredialog/configuredialog.cpp:4079
+#: configuredialog/configuredialog.cpp:4077
 #, fuzzy
 #| msgid "Advanced Options"
 msgid "Invitations"
 msgstr "Opcije za pokročenych"
 
-#: configuredialog/configuredialog.cpp:4082
+#: configuredialog/configuredialog.cpp:4080
 msgid "Proxy"
 msgstr ""
 
@@ -4884,6 +4889,10 @@ msgstr "&Nowe wokno"
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
+msgstr ""
+
+#: kmmainwin.cpp:142
+msgid "Hide menu bar"
 msgstr ""
 
 #: kmmainwin.cpp:194
@@ -8434,10 +8443,6 @@ msgstr "Eksterny editor"
 #, fuzzy
 #~ msgid "<qt>Unable to access <b>%1</b>.</qt>"
 #~ msgstr "<qt>Njemóžach konto <b>%1</b> stworić.</qt>"
-
-#, fuzzy
-#~ msgid "Recent Addresses"
-#~ msgstr "Emailowe adresy wubrać"
 
 #, fuzzy
 #~ msgid "Select Recipient"
