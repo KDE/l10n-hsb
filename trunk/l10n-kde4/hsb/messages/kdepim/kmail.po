@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-17 01:40+0000\n"
+"POT-Creation-Date: 2013-08-18 01:43+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -1207,7 +1207,7 @@ msgstr ""
 
 #: configuredialog/configuredialog.cpp:1994
 #: configuredialog/configuredialog.cpp:2031
-msgid "We can not create tag. A tag with same name already exists."
+msgid "We cannot create tag. A tag with same name already exists."
 msgstr ""
 
 #: configuredialog/configuredialog.cpp:2145
@@ -4891,27 +4891,27 @@ msgctxt "@title:column, folder (e.g. email)"
 msgid "Folder"
 msgstr "Zapisk"
 
-#: searchdialog/searchdebugdialog.cpp:35
+#: searchdialog/searchdebugdialog.cpp:34
 msgid "Search query debug"
 msgstr ""
 
-#: searchdialog/searchdebugdialog.cpp:37
+#: searchdialog/searchdebugdialog.cpp:36
 #, fuzzy
 msgid "Save As..."
 msgstr "Z&awěsćić jako..."
 
-#: searchdialog/searchdebugdialog.cpp:71
+#: searchdialog/searchdebugdialog.cpp:70
 msgid "all files (*)"
 msgstr ""
 
-#: searchdialog/searchdebugdialog.cpp:81
+#: searchdialog/searchdebugdialog.cpp:80
 #, kde-format
 msgid ""
 "Could not write the file %1:\n"
 "\"%2\" is the detailed error description."
 msgstr ""
 
-#: searchdialog/searchdebugdialog.cpp:85
+#: searchdialog/searchdebugdialog.cpp:84
 msgid "Sieve Editor Error"
 msgstr ""
 
@@ -4922,7 +4922,7 @@ msgstr ""
 #: searchdialog/searchdebugwidget.cpp:53
 #, fuzzy
 #| msgid "&Message"
-msgid "Message:"
+msgid "Messages:"
 msgstr "Po&wěsć"
 
 #: searchdialog/searchdebugwidget.cpp:57 searchdialog/searchwindow.cpp:410
@@ -4931,7 +4931,11 @@ msgstr "Po&wěsć"
 msgid "Search"
 msgstr "&Pytaj"
 
-#: searchdialog/searchdebugwidget.cpp:176
+#: searchdialog/searchdebugwidget.cpp:89
+msgid "Query is empty."
+msgstr ""
+
+#: searchdialog/searchdebugwidget.cpp:179
 #, fuzzy, kde-format
 msgid "1 message found"
 msgid_plural "%1 messages found"
@@ -4940,7 +4944,7 @@ msgstr[1] "%1 powěsć, %2."
 msgstr[2] "%1 powěsći, %2."
 msgstr[3] "%1 powěsće, %2."
 
-#: searchdialog/searchdebugwidget.cpp:195
+#: searchdialog/searchdebugwidget.cpp:198
 msgid "Error on fetching item"
 msgstr ""
 
@@ -5017,9 +5021,9 @@ msgid "Searching..."
 msgstr "Wopisanje"
 
 #: searchdialog/searchwindow.cpp:471
-#, kde-format
-msgid "Can not get search result. %1"
-msgstr ""
+#, fuzzy, kde-format
+msgid "Cannot get search result. %1"
+msgstr "Suń powěsće do zapiska"
 
 #: searchdialog/searchwindow.cpp:582
 msgid ""
@@ -6700,6 +6704,11 @@ msgstr "Pozdźišo pósłać"
 #| msgid "External Editor"
 msgid "External editor was started."
 msgstr "Eksterny editor"
+
+#, fuzzy
+#~| msgid "&Message"
+#~ msgid "Message:"
+#~ msgstr "Po&wěsć"
 
 #, fuzzy
 #~ msgid "Do not show the favorite folders view."
