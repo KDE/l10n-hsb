@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-24 01:39+0000\n"
+"POT-Creation-Date: 2013-09-02 01:39+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -4682,7 +4682,7 @@ msgctxt "Message->"
 msgid "&Reply"
 msgstr "&Dopósłać"
 
-#: messageactions.cpp:84 searchdialog/searchwindow.cpp:231
+#: messageactions.cpp:84 searchdialog/searchwindow.cpp:233
 msgid "&Reply..."
 msgstr "&Wotmołwić ..."
 
@@ -4691,11 +4691,11 @@ msgstr "&Wotmołwić ..."
 msgid "Reply to A&uthor..."
 msgstr "Wšě&m wotmołwić..."
 
-#: messageactions.cpp:98 searchdialog/searchwindow.cpp:235
+#: messageactions.cpp:98 searchdialog/searchwindow.cpp:237
 msgid "Reply to &All..."
 msgstr "Wšě&m wotmołwić..."
 
-#: messageactions.cpp:105 searchdialog/searchwindow.cpp:239
+#: messageactions.cpp:105 searchdialog/searchwindow.cpp:241
 msgid "Reply to Mailing-&List..."
 msgstr "&Lisćinje wotmołwić..."
 
@@ -4740,7 +4740,7 @@ msgstr "Powěsć &wobdźěłać"
 msgid "Add Note..."
 msgstr "Dodać..."
 
-#: messageactions.cpp:174 searchdialog/searchwindow.cpp:243
+#: messageactions.cpp:174 searchdialog/searchwindow.cpp:245
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "&Dopósłać"
@@ -4846,6 +4846,51 @@ msgstr ""
 msgid "Configure Web Shortcuts..."
 msgstr "Kon&figuracija filtrow..."
 
+#: searchdialog/debug/searchdebugdialog.cpp:28
+msgid "Search query debug"
+msgstr ""
+
+#: searchdialog/debug/searchdebugdialog.cpp:30
+#, fuzzy
+msgid "Save As..."
+msgstr "Z&awěsćić jako..."
+
+#: searchdialog/debug/searchdebugdialog.cpp:62
+msgid "all files (*)"
+msgstr ""
+
+#: searchdialog/debug/searchdebugwidget.cpp:68
+msgid "UIDS:"
+msgstr ""
+
+#: searchdialog/debug/searchdebugwidget.cpp:69
+#, fuzzy
+#| msgid "&Message"
+msgid "Messages:"
+msgstr "Po&wěsć"
+
+#: searchdialog/debug/searchdebugwidget.cpp:73
+#, fuzzy
+msgid "Search"
+msgstr "&Pytaj"
+
+#: searchdialog/debug/searchdebugwidget.cpp:112
+msgid "Query is empty."
+msgstr ""
+
+#: searchdialog/debug/searchdebugwidget.cpp:202
+#, fuzzy, kde-format
+msgid "1 message found"
+msgid_plural "%1 messages found"
+msgstr[0] "%1 powěsćow, %2."
+msgstr[1] "%1 powěsć, %2."
+msgstr[2] "%1 powěsći, %2."
+msgstr[3] "%1 powěsće, %2."
+
+#: searchdialog/debug/searchdebugwidget.cpp:221
+msgid "Error on fetching item"
+msgstr ""
+
 #: searchdialog/kmsearchmessagemodel.cpp:113
 #: searchdialog/kmsearchmessagemodel.cpp:120
 #, fuzzy
@@ -4891,73 +4936,28 @@ msgctxt "@title:column, folder (e.g. email)"
 msgid "Folder"
 msgstr "Zapisk"
 
-#: searchdialog/searchdebugdialog.cpp:28
-msgid "Search query debug"
-msgstr ""
-
-#: searchdialog/searchdebugdialog.cpp:30
-#, fuzzy
-msgid "Save As..."
-msgstr "Z&awěsćić jako..."
-
-#: searchdialog/searchdebugdialog.cpp:62
-msgid "all files (*)"
-msgstr ""
-
-#: searchdialog/searchdebugwidget.cpp:53
-msgid "UIDS:"
-msgstr ""
-
-#: searchdialog/searchdebugwidget.cpp:54
-#, fuzzy
-#| msgid "&Message"
-msgid "Messages:"
-msgstr "Po&wěsć"
-
-#: searchdialog/searchdebugwidget.cpp:58
-#, fuzzy
-msgid "Search"
-msgstr "&Pytaj"
-
-#: searchdialog/searchdebugwidget.cpp:97
-msgid "Query is empty."
-msgstr ""
-
-#: searchdialog/searchdebugwidget.cpp:187
-#, fuzzy, kde-format
-msgid "1 message found"
-msgid_plural "%1 messages found"
-msgstr[0] "%1 powěsćow, %2."
-msgstr[1] "%1 powěsć, %2."
-msgstr[2] "%1 powěsći, %2."
-msgstr[3] "%1 powěsće, %2."
-
-#: searchdialog/searchdebugwidget.cpp:206
-msgid "Error on fetching item"
-msgstr ""
-
-#: searchdialog/searchwindow.cpp:91
+#: searchdialog/searchwindow.cpp:93
 #, fuzzy
 msgid "Find Messages"
 msgstr "Powěsće &namakać ..."
 
-#: searchdialog/searchwindow.cpp:103
+#: searchdialog/searchwindow.cpp:105
 #, fuzzy
 #| msgid "&Search"
 msgctxt "@action:button Search for messages"
 msgid "&Search"
 msgstr "&Pytaj"
 
-#: searchdialog/searchwindow.cpp:108
+#: searchdialog/searchwindow.cpp:110
 msgid "Debug query"
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:193 searchdialog/searchwindow.cpp:386
+#: searchdialog/searchwindow.cpp:195 searchdialog/searchwindow.cpp:388
 #, fuzzy
 msgid "Last Search"
 msgstr "&Pytaj"
 
-#: searchdialog/searchwindow.cpp:248
+#: searchdialog/searchwindow.cpp:250
 #, fuzzy
 #| msgctxt "View->attachments->"
 #| msgid "&Inline"
@@ -4965,21 +4965,21 @@ msgctxt "@action:inmenu Forward message inline."
 msgid "&Inline..."
 msgstr "&w powěsći"
 
-#: searchdialog/searchwindow.cpp:253
+#: searchdialog/searchwindow.cpp:255
 msgctxt "Message->Forward->"
 msgid "As &Attachment..."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:267
+#: searchdialog/searchwindow.cpp:269
 #, fuzzy
 msgid "Save Attachments..."
 msgstr "&Přiwěšk zawěsćić jako..."
 
-#: searchdialog/searchwindow.cpp:273
+#: searchdialog/searchwindow.cpp:275
 msgid "Clear Selection"
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:357
+#: searchdialog/searchwindow.cpp:359
 #, fuzzy, kde-format
 msgid "%1 match"
 msgid_plural "%1 matches"
@@ -4988,45 +4988,45 @@ msgstr[1] "%1 namakanka"
 msgstr[2] "%1 namakance"
 msgstr[3] "%1 namakanki"
 
-#: searchdialog/searchwindow.cpp:410
+#: searchdialog/searchwindow.cpp:412
 #, fuzzy
 msgid "You did not selected a valid folder."
 msgstr ""
 "Njemóžach dataju čitać:\n"
 "%1"
 
-#: searchdialog/searchwindow.cpp:410 searchdialog/searchwindow.cpp:438
-#: searchdialog/searchwindow.cpp:441
+#: searchdialog/searchwindow.cpp:412 searchdialog/searchwindow.cpp:440
+#: searchdialog/searchwindow.cpp:443
 #, fuzzy
 msgctxt "@title:window"
 msgid "Search"
 msgstr "&Pytaj"
 
-#: searchdialog/searchwindow.cpp:438
+#: searchdialog/searchwindow.cpp:440
 msgid "You forgot to define condition."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:441
+#: searchdialog/searchwindow.cpp:443
 msgid "All folders selected are empty or were not indexed."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:463
+#: searchdialog/searchwindow.cpp:465
 #, fuzzy
 msgid "Searching..."
 msgstr "Wopisanje"
 
-#: searchdialog/searchwindow.cpp:471
+#: searchdialog/searchwindow.cpp:473
 #, fuzzy, kde-format
 msgid "Cannot get search result. %1"
 msgstr "Suń powěsće do zapiska"
 
-#: searchdialog/searchwindow.cpp:582
+#: searchdialog/searchwindow.cpp:584
 msgid ""
 "There was a problem renaming your search folder. A common reason for this is "
 "that another search folder with the same name already exists."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:685
+#: searchdialog/searchwindow.cpp:687
 #, fuzzy, kde-format
 msgid "Copy Message"
 msgid_plural "Copy %1 Messages"
@@ -5035,7 +5035,7 @@ msgstr[1] "Powěsć wočinić"
 msgstr[2] "Powěsć wočinić"
 msgstr[3] "Powěsć wočinić"
 
-#: searchdialog/searchwindow.cpp:688
+#: searchdialog/searchwindow.cpp:690
 #, fuzzy, kde-format
 msgid "Cut Message"
 msgid_plural "Cut %1 Messages"
