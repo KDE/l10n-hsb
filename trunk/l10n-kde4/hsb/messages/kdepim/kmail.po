@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-18 01:46+0000\n"
+"POT-Creation-Date: 2013-09-19 01:39+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -2863,11 +2863,36 @@ msgstr ""
 msgid "Edit..."
 msgstr "wobdźěłać..."
 
-#: identity/identityeditvcarddialog.cpp:31
+#: identity/identityeditvcarddialog.cpp:32
 #, fuzzy
 #| msgid "Modify Account"
 msgid "Edit own vCard"
 msgstr "Konto změnić"
+
+#: identity/identityeditvcarddialog.cpp:34
+#, fuzzy
+#| msgid "Collapse the current thread"
+msgid "Delete current vcard"
+msgstr "Sćehnje aktualnu skupinu"
+
+#: identity/identityeditvcarddialog.cpp:54
+#, fuzzy
+#| msgid "Are you sure you want to empty the trash folder?"
+msgid "Are you sure to want to delete this vcard?"
+msgstr "Chceće woprawdźe papjernik wuprózdnić?"
+
+#: identity/identityeditvcarddialog.cpp:54
+#: identity/identityeditvcarddialog.cpp:66
+#, fuzzy
+msgid "Delete vcard"
+msgstr "Z&ničić"
+
+#: identity/identityeditvcarddialog.cpp:66
+#, fuzzy
+msgid "We can not delete vcard file."
+msgstr ""
+"Njemóžach dataju čitać:\n"
+"%1"
 
 #: identity/identitylistview.cpp:98
 #, kde-format
@@ -3785,7 +3810,7 @@ msgstr "Přesunjenje powěsćow přetorhnjene."
 msgid "Jump to Folder"
 msgstr "Do tutoho zapiska kopěrować"
 
-#: kmmainwidget.cpp:2396
+#: kmmainwidget.cpp:2396 vacationmanager.cpp:59
 #, fuzzy
 msgid ""
 "KMail's Out of Office Reply functionality relies on server-side filtering. "
@@ -3793,7 +3818,7 @@ msgid ""
 "You can do this on the \"Filtering\" tab of the IMAP account configuration."
 msgstr "KMail s."
 
-#: kmmainwidget.cpp:2401
+#: kmmainwidget.cpp:2401 vacationmanager.cpp:64
 #, fuzzy
 msgid "No Server-Side Filtering Configured"
 msgstr "Ně"
@@ -4381,9 +4406,9 @@ msgid "Filter %1"
 msgstr "Filtrowa akcija %1"
 
 #: kmmainwidget.cpp:4484
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Edit \"Out of Office\" Replies..."
-msgid "Out of office reply active"
+msgid "Out of office reply active on server \"%1\""
 msgstr "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 
 #: kmmainwidget.cpp:4589
@@ -4711,7 +4736,7 @@ msgctxt "Message->"
 msgid "&Reply"
 msgstr "&Dopósłać"
 
-#: messageactions.cpp:84 searchdialog/searchwindow.cpp:236
+#: messageactions.cpp:84 searchdialog/searchwindow.cpp:240
 msgid "&Reply..."
 msgstr "&Wotmołwić ..."
 
@@ -4720,11 +4745,11 @@ msgstr "&Wotmołwić ..."
 msgid "Reply to A&uthor..."
 msgstr "Wšě&m wotmołwić..."
 
-#: messageactions.cpp:98 searchdialog/searchwindow.cpp:240
+#: messageactions.cpp:98 searchdialog/searchwindow.cpp:244
 msgid "Reply to &All..."
 msgstr "Wšě&m wotmołwić..."
 
-#: messageactions.cpp:105 searchdialog/searchwindow.cpp:244
+#: messageactions.cpp:105 searchdialog/searchwindow.cpp:248
 msgid "Reply to Mailing-&List..."
 msgstr "&Lisćinje wotmołwić..."
 
@@ -4769,7 +4794,7 @@ msgstr "Powěsć &wobdźěłać"
 msgid "Add Note..."
 msgstr "Dodać..."
 
-#: messageactions.cpp:174 searchdialog/searchwindow.cpp:248
+#: messageactions.cpp:174 searchdialog/searchwindow.cpp:252
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "&Dopósłać"
@@ -4997,23 +5022,23 @@ msgstr ""
 msgid "Find Messages"
 msgstr "Powěsće &namakać ..."
 
-#: searchdialog/searchwindow.cpp:107
+#: searchdialog/searchwindow.cpp:111
 #, fuzzy
 #| msgid "&Search"
 msgctxt "@action:button Search for messages"
 msgid "&Search"
 msgstr "&Pytaj"
 
-#: searchdialog/searchwindow.cpp:112
+#: searchdialog/searchwindow.cpp:116
 msgid "Debug query"
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:198 searchdialog/searchwindow.cpp:391
+#: searchdialog/searchwindow.cpp:202 searchdialog/searchwindow.cpp:395
 #, fuzzy
 msgid "Last Search"
 msgstr "&Pytaj"
 
-#: searchdialog/searchwindow.cpp:253
+#: searchdialog/searchwindow.cpp:257
 #, fuzzy
 #| msgctxt "View->attachments->"
 #| msgid "&Inline"
@@ -5021,21 +5046,21 @@ msgctxt "@action:inmenu Forward message inline."
 msgid "&Inline..."
 msgstr "&w powěsći"
 
-#: searchdialog/searchwindow.cpp:258
+#: searchdialog/searchwindow.cpp:262
 msgctxt "Message->Forward->"
 msgid "As &Attachment..."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:272
+#: searchdialog/searchwindow.cpp:276
 #, fuzzy
 msgid "Save Attachments..."
 msgstr "&Přiwěšk zawěsćić jako..."
 
-#: searchdialog/searchwindow.cpp:278
+#: searchdialog/searchwindow.cpp:282
 msgid "Clear Selection"
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:362
+#: searchdialog/searchwindow.cpp:366
 #, fuzzy, kde-format
 msgid "%1 match"
 msgid_plural "%1 matches"
@@ -5044,37 +5069,37 @@ msgstr[1] "%1 namakanka"
 msgstr[2] "%1 namakance"
 msgstr[3] "%1 namakanki"
 
-#: searchdialog/searchwindow.cpp:415
+#: searchdialog/searchwindow.cpp:419
 #, fuzzy
 msgid "You did not selected a valid folder."
 msgstr ""
 "Njemóžach dataju čitać:\n"
 "%1"
 
-#: searchdialog/searchwindow.cpp:443
+#: searchdialog/searchwindow.cpp:447
 msgid "You forgot to define condition."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:448
+#: searchdialog/searchwindow.cpp:452
 msgid "All folders selected are empty or were not indexed."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:454
+#: searchdialog/searchwindow.cpp:458
 #, fuzzy
 msgid "No message found."
 msgstr "%1 powěsćow, %2."
 
-#: searchdialog/searchwindow.cpp:478
+#: searchdialog/searchwindow.cpp:482
 #, fuzzy
 msgid "Searching..."
 msgstr "Wopisanje"
 
-#: searchdialog/searchwindow.cpp:486
+#: searchdialog/searchwindow.cpp:490
 #, fuzzy, kde-format
 msgid "Cannot get search result. %1"
 msgstr "Suń powěsće do zapiska"
 
-#: searchdialog/searchwindow.cpp:600
+#: searchdialog/searchwindow.cpp:604
 #, kde-format
 msgid ""
 "There was a problem renaming your search folder. A common reason for this is "
@@ -5082,7 +5107,7 @@ msgid ""
 "\"%1\"."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:706
+#: searchdialog/searchwindow.cpp:710
 #, fuzzy, kde-format
 msgid "Copy Message"
 msgid_plural "Copy %1 Messages"
@@ -5091,7 +5116,7 @@ msgstr[1] "Powěsć wočinić"
 msgstr[2] "Powěsć wočinić"
 msgstr[3] "Powěsć wočinić"
 
-#: searchdialog/searchwindow.cpp:709
+#: searchdialog/searchwindow.cpp:713
 #, fuzzy, kde-format
 msgid "Cut Message"
 msgid_plural "Cut %1 Messages"
@@ -7700,11 +7725,6 @@ msgstr "Eksterny editor"
 #~ msgctxt "message status"
 #~ msgid "Read"
 #~ msgstr "Hotowo."
-
-#, fuzzy
-#~ msgctxt "message status"
-#~ msgid "Deleted"
-#~ msgstr "Z&ničić"
 
 #, fuzzy
 #~ msgctxt "message status"
@@ -10509,12 +10529,6 @@ msgstr "Eksterny editor"
 #~| msgid "C&ollapse All Threads"
 #~ msgid "Collapse All Groups"
 #~ msgstr "Wšitke skupiny ze&sćahać"
-
-#, fuzzy
-#~| msgid "Collapse the current thread"
-#~ msgctxt "@info:tooltip"
-#~ msgid "Close the current tab"
-#~ msgstr "Sćehnje aktualnu skupinu"
 
 #, fuzzy
 #~ msgctxt "shortcut for expanding the header of a group in the message list"
