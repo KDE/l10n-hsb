@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-26 01:44+0000\n"
+"POT-Creation-Date: 2013-09-27 01:50+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -4729,7 +4729,7 @@ msgctxt "Message->"
 msgid "&Reply"
 msgstr "&Dopósłać"
 
-#: messageactions.cpp:84 searchdialog/searchwindow.cpp:230
+#: messageactions.cpp:84 searchdialog/searchwindow.cpp:242
 msgid "&Reply..."
 msgstr "&Wotmołwić ..."
 
@@ -4738,11 +4738,11 @@ msgstr "&Wotmołwić ..."
 msgid "Reply to A&uthor..."
 msgstr "Wšě&m wotmołwić..."
 
-#: messageactions.cpp:98 searchdialog/searchwindow.cpp:234
+#: messageactions.cpp:98 searchdialog/searchwindow.cpp:246
 msgid "Reply to &All..."
 msgstr "Wšě&m wotmołwić..."
 
-#: messageactions.cpp:105 searchdialog/searchwindow.cpp:238
+#: messageactions.cpp:105 searchdialog/searchwindow.cpp:250
 msgid "Reply to Mailing-&List..."
 msgstr "&Lisćinje wotmołwić..."
 
@@ -4787,7 +4787,7 @@ msgstr "Powěsć &wobdźěłać"
 msgid "Add Note..."
 msgstr "Dodać..."
 
-#: messageactions.cpp:174 searchdialog/searchwindow.cpp:242
+#: messageactions.cpp:174 searchdialog/searchwindow.cpp:254
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "&Dopósłać"
@@ -4944,7 +4944,7 @@ msgid "Search"
 msgstr "&Pytaj"
 
 #: searchdialog/debug/searchdebugwidget.cpp:124
-#: searchdialog/searchwindow.cpp:472
+#: searchdialog/searchwindow.cpp:499
 #, fuzzy
 msgid "Searching..."
 msgstr "Wopisanje"
@@ -5021,28 +5021,28 @@ msgstr "Zapisk"
 msgid "Nepomuk cannot make search. Errors found: <ul><li>%1</li></ul>"
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:84
+#: searchdialog/searchwindow.cpp:85
 #, fuzzy
 msgid "Find Messages"
 msgstr "Powěsće &namakać ..."
 
-#: searchdialog/searchwindow.cpp:106
+#: searchdialog/searchwindow.cpp:107
 #, fuzzy
 #| msgid "&Search"
 msgctxt "@action:button Search for messages"
 msgid "&Search"
 msgstr "&Pytaj"
 
-#: searchdialog/searchwindow.cpp:111
+#: searchdialog/searchwindow.cpp:112
 msgid "Debug query"
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:192 searchdialog/searchwindow.cpp:385
+#: searchdialog/searchwindow.cpp:204 searchdialog/searchwindow.cpp:397
 #, fuzzy
 msgid "Last Search"
 msgstr "&Pytaj"
 
-#: searchdialog/searchwindow.cpp:247
+#: searchdialog/searchwindow.cpp:259
 #, fuzzy
 #| msgctxt "View->attachments->"
 #| msgid "&Inline"
@@ -5050,21 +5050,21 @@ msgctxt "@action:inmenu Forward message inline."
 msgid "&Inline..."
 msgstr "&w powěsći"
 
-#: searchdialog/searchwindow.cpp:252
+#: searchdialog/searchwindow.cpp:264
 msgctxt "Message->Forward->"
 msgid "As &Attachment..."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:266
+#: searchdialog/searchwindow.cpp:278
 #, fuzzy
 msgid "Save Attachments..."
 msgstr "&Přiwěšk zawěsćić jako..."
 
-#: searchdialog/searchwindow.cpp:272
+#: searchdialog/searchwindow.cpp:284
 msgid "Clear Selection"
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:356
+#: searchdialog/searchwindow.cpp:368
 #, fuzzy, kde-format
 msgid "%1 match"
 msgid_plural "%1 matches"
@@ -5073,37 +5073,41 @@ msgstr[1] "%1 namakanka"
 msgstr[2] "%1 namakance"
 msgstr[3] "%1 namakanki"
 
-#: searchdialog/searchwindow.cpp:409
+#: searchdialog/searchwindow.cpp:421
 #, fuzzy
 msgid "You did not selected a valid folder."
 msgstr ""
 "Njemóžach dataju čitać:\n"
 "%1"
 
-#: searchdialog/searchwindow.cpp:432
+#: searchdialog/searchwindow.cpp:439
+msgid "You forgot to select collections."
+msgstr ""
+
+#: searchdialog/searchwindow.cpp:459
 msgid "You forgot to define condition."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:437
+#: searchdialog/searchwindow.cpp:464
 msgid "All folders selected are empty or were not indexed."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:443
+#: searchdialog/searchwindow.cpp:470
 #, fuzzy
 msgid "No message found."
 msgstr "%1 powěsćow, %2."
 
-#: searchdialog/searchwindow.cpp:448
+#: searchdialog/searchwindow.cpp:475
 msgid ""
 "Contains condition cannot be used with a number of characters inferior to 4."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:480
+#: searchdialog/searchwindow.cpp:507
 #, fuzzy, kde-format
 msgid "Cannot get search result. %1"
 msgstr "Suń powěsće do zapiska"
 
-#: searchdialog/searchwindow.cpp:594
+#: searchdialog/searchwindow.cpp:628
 #, kde-format
 msgid ""
 "There was a problem renaming your search folder. A common reason for this is "
@@ -5111,7 +5115,7 @@ msgid ""
 "\"%1\"."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:700
+#: searchdialog/searchwindow.cpp:734
 #, fuzzy, kde-format
 msgid "Copy Message"
 msgid_plural "Copy %1 Messages"
@@ -5120,7 +5124,7 @@ msgstr[1] "Powěsć wočinić"
 msgstr[2] "Powěsć wočinić"
 msgstr[3] "Powěsć wočinić"
 
-#: searchdialog/searchwindow.cpp:703
+#: searchdialog/searchwindow.cpp:737
 #, fuzzy, kde-format
 msgid "Cut Message"
 msgid_plural "Cut %1 Messages"
@@ -5128,6 +5132,16 @@ msgstr[0] "žane powěsće"
 msgstr[1] "žane powěsće"
 msgstr[2] "žane powěsće"
 msgstr[3] "žane powěsće"
+
+#: searchdialog/selectmulticollectiondialog.cpp:27
+#, fuzzy
+msgid "Select Multiple Folders"
+msgstr "Zapisk"
+
+#: searchdialog/selectmulticollectionwidget.cpp:76
+#, fuzzy
+msgid "Search..."
+msgstr "Wopisanje"
 
 #: secondarywindow.cpp:88
 msgctxt "Document/application separator in titlebar"
@@ -6042,19 +6056,31 @@ msgstr "Pytaj &jenož w:"
 msgid "&Include sub-folders"
 msgstr "Tež w &podzapiskach"
 
+#. i18n: ectx: property (text), widget (QRadioButton, mChkMultiFolders)
+#: ui/searchwindow.ui:53
+#, fuzzy
+msgid "Select specific folders"
+msgstr "Zapisk zničić"
+
+#. i18n: ectx: property (text), widget (QPushButton, selectMultipleFolders)
+#: ui/searchwindow.ui:60
+#, fuzzy
+msgid "Select folders..."
+msgstr "Zapisk zničić"
+
 #. i18n: ectx: property (text), widget (QLabel, mSearchFolderLbl)
-#: ui/searchwindow.ui:82
+#: ui/searchwindow.ui:113
 msgid "Search folder &name:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KPushButton, mSearchFolderOpenBtn)
-#: ui/searchwindow.ui:102
+#: ui/searchwindow.ui:133
 #, fuzzy
 msgid "Open &Search Folder"
 msgstr "<adresaća>"
 
 #. i18n: ectx: property (text), widget (KPushButton, mSearchResultOpenBtn)
-#: ui/searchwindow.ui:112
+#: ui/searchwindow.ui:143
 #, fuzzy
 #| msgid "Open Message"
 msgid "Open &Message"
@@ -8060,10 +8086,6 @@ msgstr "Eksterny editor"
 #~ "The error was:\n"
 #~ "%1"
 #~ msgstr "KMail"
-
-#, fuzzy
-#~ msgid "Select Folder"
-#~ msgstr "Zapisk zničić"
 
 #~ msgid "Local Folders"
 #~ msgstr "Lokalne zapiski"
@@ -10200,10 +10222,6 @@ msgstr "Eksterny editor"
 #, fuzzy
 #~ msgid "Refresh Folder List"
 #~ msgstr "&Pokaž chowane zapiski"
-
-#, fuzzy
-#~ msgid "Multiple Folders"
-#~ msgstr "Zapisk"
 
 #, fuzzy
 #~ msgid ""
