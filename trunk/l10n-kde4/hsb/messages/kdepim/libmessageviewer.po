@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-01 01:40+0000\n"
+"POT-Creation-Date: 2013-10-02 01:44+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -35,35 +35,85 @@ msgstr "Zapisk zničić"
 msgid "Blockable Items"
 msgstr ""
 
-#: adblock/adblockblockableitemswidget.cpp:56 viewer/mimetreemodel.cpp:249
+#: adblock/adblockblockableitemswidget.cpp:57 viewer/mimetreemodel.cpp:249
 msgid "Type"
 msgstr "družina"
 
-#: adblock/adblockblockableitemswidget.cpp:56
+#: adblock/adblockblockableitemswidget.cpp:57
 #, fuzzy
 msgid "Filter"
 msgstr "Filtrowa akcija %1"
 
-#: adblock/adblockblockableitemswidget.cpp:56
+#: adblock/adblockblockableitemswidget.cpp:57
 #, fuzzy
 #| msgid "&Address Book"
 msgid "Address"
 msgstr "&Adresnik"
 
-#: adblock/adblockblockableitemswidget.cpp:90
+#: adblock/adblockblockableitemswidget.cpp:61
+#, fuzzy
+msgid "Search..."
+msgstr "&Pytaj"
+
+#: adblock/adblockblockableitemswidget.cpp:88
 msgid "Image"
 msgstr ""
 
-#: adblock/adblockblockableitemswidget.cpp:107
+#: adblock/adblockblockableitemswidget.cpp:91
+#, fuzzy
+msgid "Script"
+msgstr "<adresaća>"
+
+#: adblock/adblockblockableitemswidget.cpp:94
+msgid "Stylesheet"
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:97
+#, fuzzy
+#| msgid "Contacts"
+msgid "Font"
+msgstr "Kontakty"
+
+#: adblock/adblockblockableitemswidget.cpp:100
+msgid "Frame"
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:103
+msgid "XML Request"
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:106
+#, fuzzy
+#| msgid "Subject"
+msgid "Object"
+msgstr "Tema"
+
+#: adblock/adblockblockableitemswidget.cpp:110
+#, fuzzy
+msgid "Unknown"
+msgstr "&Dopósłać"
+
+#: adblock/adblockblockableitemswidget.cpp:174
 #, fuzzy
 msgid "Copy url"
 msgstr "&Kopěruj do"
 
-#: adblock/adblockblockableitemswidget.cpp:108
+#: adblock/adblockblockableitemswidget.cpp:176
+#, fuzzy
+msgid "Copy filter"
+msgstr "Do tutoho zapiska kopěrować"
+
+#: adblock/adblockblockableitemswidget.cpp:177
 msgid "Block item..."
 msgstr ""
 
-#: adblock/adblockblockableitemswidget.cpp:111
+#: adblock/adblockblockableitemswidget.cpp:179
+#, fuzzy
+#| msgid "Open URL"
+msgid "Open"
+msgstr "URL wočinić"
+
+#: adblock/adblockblockableitemswidget.cpp:182
 #, fuzzy
 msgid "Remove filter"
 msgstr "&Filter stworić"
@@ -88,7 +138,7 @@ msgstr[1] "s"
 msgstr[2] "s"
 msgstr[3] "s"
 
-#: adblock/adblocksettingwidget.cpp:103
+#: adblock/adblocksettingwidget.cpp:110
 msgid ""
 "<qt><p>Enter an expression to filter. Filters can be defined as either:"
 "<ul><li>a shell-style wildcard, e.g. <tt>http://www.example.com/ads*</tt>, "
@@ -99,18 +149,18 @@ msgid ""
 "filter."
 msgstr ""
 
-#: adblock/adblocksettingwidget.cpp:306
+#: adblock/adblocksettingwidget.cpp:324
 #, kde-format
 msgid "Do you want to delete list \"%1\"?"
 msgstr ""
 
-#: adblock/adblocksettingwidget.cpp:306
+#: adblock/adblocksettingwidget.cpp:324
 #, fuzzy
 #| msgid "Collapse the current thread"
 msgid "Delete current list"
 msgstr "Sćehnje aktualnu skupinu"
 
-#: adblock/adblocksettingwidget.cpp:331 adblock/adblocksettingwidget.cpp:356
+#: adblock/adblocksettingwidget.cpp:349 adblock/adblocksettingwidget.cpp:374
 msgid "*|all files (*)"
 msgstr ""
 
@@ -153,21 +203,51 @@ msgstr "&Cilowy zapisk:"
 msgid "Exception Filter"
 msgstr "iCal eksportować"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: adblock/ui/adblockcreatefilterwidget.ui:55
-msgid "Accept pattern only:"
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: adblock/ui/adblockcreatefilterwidget.ui:53
+msgid "Accept pattern only"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, atTheBeginning)
-#: adblock/ui/adblockcreatefilterwidget.ui:66
+#: adblock/ui/adblockcreatefilterwidget.ui:59
 msgid "At the beginning of the address"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, atTheEnd)
-#: adblock/ui/adblockcreatefilterwidget.ui:73
+#: adblock/ui/adblockcreatefilterwidget.ui:66
 #, fuzzy
 msgid "At the end of address"
 msgstr "Kopija na."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: adblock/ui/adblockcreatefilterwidget.ui:76 findbar/findbarbase.cpp:77
+#: ui/invitationsettings.ui:94
+#, fuzzy
+msgid "Options"
+msgstr "Powšitkowne opcije"
+
+#. i18n: ectx: property (text), widget (QCheckBox, firstPartOnly)
+#: adblock/ui/adblockcreatefilterwidget.ui:82
+msgid "First-part only"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, matchCase)
+#: adblock/ui/adblockcreatefilterwidget.ui:89
+msgid "Match case"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, restrictToDomain)
+#: adblock/ui/adblockcreatefilterwidget.ui:98
+msgid "Restrict to domain"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: adblock/ui/adblockcreatefilterwidget.ui:113
+#, fuzzy
+#| msgid "Apply &to:"
+msgid "Apply to:"
+msgstr "Nałožić &na:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkEnableAdblock)
 #: adblock/ui/settings_adblock.ui:17
@@ -193,62 +273,62 @@ msgid "Add Filters subscriptions..."
 msgstr "Wopisanje"
 
 #. i18n: ectx: property (text), widget (QPushButton, removeSubscription)
-#: adblock/ui/settings_adblock.ui:54
+#: adblock/ui/settings_adblock.ui:64
 #, fuzzy
 msgid "Remove subscription"
 msgstr "Wopisanje"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: adblock/ui/settings_adblock.ui:76
+#: adblock/ui/settings_adblock.ui:86
 msgid "Update enabled automatic filters every:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, showList)
-#: adblock/ui/settings_adblock.ui:114
+#: adblock/ui/settings_adblock.ui:124
 #, fuzzy
 msgid "Show List..."
 msgstr "&Filter stworić"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: adblock/ui/settings_adblock.ui:122
+#: adblock/ui/settings_adblock.ui:132
 #, fuzzy
 #| msgid "Available Filters"
 msgid "Manual Filters"
 msgstr "Filtry k dispoziciji"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: adblock/ui/settings_adblock.ui:130
+#: adblock/ui/settings_adblock.ui:140
 #, fuzzy
 msgid "Search:"
 msgstr "&Pytaj"
 
 #. i18n: ectx: property (text), widget (QPushButton, exportFilters)
-#: adblock/ui/settings_adblock.ui:149
+#: adblock/ui/settings_adblock.ui:165
 #, fuzzy
 msgid "Export filters..."
 msgstr "iCal eksportować"
 
 #. i18n: ectx: property (text), widget (QPushButton, importFilters)
-#: adblock/ui/settings_adblock.ui:156
+#: adblock/ui/settings_adblock.ui:172
 #, fuzzy
 msgid "Import Filters..."
 msgstr "iCal eksportować"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, insertButton)
-#: adblock/ui/settings_adblock.ui:188
+#: adblock/ui/settings_adblock.ui:204
 msgid "Add filter expression"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, insertButton)
 #. i18n: ectx: property (text), widget (QToolButton, removeButton)
-#: adblock/ui/settings_adblock.ui:191 adblock/ui/settings_adblock.ui:201
+#: adblock/ui/settings_adblock.ui:207 adblock/ui/settings_adblock.ui:217
 #, fuzzy
 #| msgid "Add..."
 msgid "..."
 msgstr "Dodać..."
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
-#: adblock/ui/settings_adblock.ui:198
+#: adblock/ui/settings_adblock.ui:214
 msgid "Remove filter expression"
 msgstr ""
 
@@ -287,12 +367,6 @@ msgstr "&Prjedawša powěsć"
 #| msgid "Go to the previous message"
 msgid "Jump to previous match"
 msgstr "Dźi k prjedawšej powěsći"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: findbar/findbarbase.cpp:77 ui/invitationsettings.ui:94
-#, fuzzy
-msgid "Options"
-msgstr "Powšitkowne opcije"
 
 #: findbar/findbarbase.cpp:78
 msgid "Modify search behavior"
@@ -3293,12 +3367,6 @@ msgstr "&Prjedawša powěsć"
 #~ msgstr "Tež w &podzapiskach"
 
 #, fuzzy
-#~| msgid "Subject"
-#~ msgctxt "@title:column Subject of the found message."
-#~ msgid "Subject"
-#~ msgstr "Tema"
-
-#, fuzzy
 #~| msgid "Sender/Receiver"
 #~ msgctxt "@title:column Sender of the found message."
 #~ msgid "Sender/Receiver"
@@ -3557,12 +3625,6 @@ msgstr "&Prjedawša powěsć"
 #, fuzzy
 #~ msgid "Old Folders"
 #~ msgstr "Zapiski"
-
-#, fuzzy
-#~ msgctxt ""
-#~ "@info/plain Displayed grayed-out inside the textbox, verb to search"
-#~ msgid "Search"
-#~ msgstr "&Pytaj"
 
 #, fuzzy
 #~ msgid "Folders"
@@ -4017,10 +4079,6 @@ msgstr "&Prjedawša powěsć"
 #~ msgstr "&HTML porno prostemu tekstej preferować"
 
 #, fuzzy
-#~ msgid "Copy Folder"
-#~ msgstr "Do tutoho zapiska kopěrować"
-
-#, fuzzy
 #~ msgid "Cut Folder"
 #~ msgstr "Zapisk"
 
@@ -4425,9 +4483,6 @@ msgstr "&Prjedawša powěsć"
 
 #~ msgid "&Use custom fonts"
 #~ msgstr "W&užiwaj specielne pisma"
-
-#~ msgid "Apply &to:"
-#~ msgstr "Nałožić &na:"
 
 #~ msgid "Link"
 #~ msgstr "Link"
@@ -9435,10 +9490,6 @@ msgstr "&Prjedawša powěsć"
 #~ msgstr "Ně"
 
 #, fuzzy
-#~ msgid "Delete Script"
-#~ msgstr "<adresaća>"
-
-#, fuzzy
 #~ msgid "Edit Script..."
 #~ msgstr "wobdźěłać..."
 
@@ -10073,11 +10124,6 @@ msgstr "&Prjedawša powěsć"
 #~ msgctxt "@action:inmenu Font setting"
 #~ msgid "Default"
 #~ msgstr "Jako standard wužiwać"
-
-#, fuzzy
-#~| msgid "Contacts"
-#~ msgid "Font"
-#~ msgstr "Kontakty"
 
 #, fuzzy
 #~ msgctxt "@action:inmenu Foreground color setting"
