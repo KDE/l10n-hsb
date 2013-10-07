@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-06 01:41+0000\n"
+"POT-Creation-Date: 2013-10-07 01:42+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -88,35 +88,59 @@ msgstr ""
 msgid "Object"
 msgstr "Tema"
 
-#: adblock/adblockblockableitemswidget.cpp:110
+#: adblock/adblockblockableitemswidget.cpp:109
+msgid "Audio/Video"
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:112
+msgid "Popup window"
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:116
 #, fuzzy
 msgid "Unknown"
 msgstr "&Dopósłać"
 
-#: adblock/adblockblockableitemswidget.cpp:206
+#: adblock/adblockblockableitemswidget.cpp:218
 #, fuzzy
 msgid "Copy url"
 msgstr "&Kopěruj do"
 
-#: adblock/adblockblockableitemswidget.cpp:208
+#: adblock/adblockblockableitemswidget.cpp:220
 #, fuzzy
 msgid "Copy filter"
 msgstr "Do tutoho zapiska kopěrować"
 
-#: adblock/adblockblockableitemswidget.cpp:209
+#: adblock/adblockblockableitemswidget.cpp:221
 msgid "Block item..."
 msgstr ""
 
-#: adblock/adblockblockableitemswidget.cpp:211
+#: adblock/adblockblockableitemswidget.cpp:223
 #, fuzzy
 #| msgid "Open URL"
 msgid "Open"
 msgstr "URL wočinić"
 
-#: adblock/adblockblockableitemswidget.cpp:214
+#: adblock/adblockblockableitemswidget.cpp:226
 #, fuzzy
 msgid "Remove filter"
 msgstr "&Filter stworić"
+
+#: adblock/adblockcreatefilterdialog.cpp:41
+#, fuzzy
+#| msgid "Delete T&hread"
+msgid "Use default"
+msgstr "Diskusiju z&ničić"
+
+#: adblock/adblockcreatefilterdialog.cpp:42
+msgid "Yes"
+msgstr ""
+
+#: adblock/adblockcreatefilterdialog.cpp:43
+#, fuzzy
+#| msgid "Notes"
+msgid "Not"
+msgstr "Přispomnjenja"
 
 #: adblock/adblocklistwidget.cpp:61
 #, fuzzy
@@ -248,6 +272,14 @@ msgstr ""
 #| msgid "Apply &to:"
 msgid "Apply to:"
 msgstr "Nałožić &na:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: adblock/ui/adblockcreatefilterwidget.ui:125
+#, fuzzy
+#| msgctxt "View->"
+#| msgid "&Collapse Thread"
+msgid "Collapse blocked:"
+msgstr "&Skupinu sćahnyć"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkEnableAdblock)
 #: adblock/ui/settings_adblock.ui:17
@@ -3220,12 +3252,6 @@ msgstr "&Prjedawša powěsć"
 #~ msgstr "Kontakty"
 
 #, fuzzy
-#~| msgid "Notes"
-#~ msgctxt "type of folder content"
-#~ msgid "Notes"
-#~ msgstr "Přispomnjenja"
-
-#, fuzzy
 #~| msgid "Tasks"
 #~ msgctxt "type of folder content"
 #~ msgid "Tasks"
@@ -4193,10 +4219,6 @@ msgstr "&Prjedawša powěsć"
 
 #~ msgid "Expand the current thread"
 #~ msgstr "Rozćehnje aktualnu skupinu powěsćow"
-
-#~ msgctxt "View->"
-#~ msgid "&Collapse Thread"
-#~ msgstr "&Skupinu sćahnyć"
 
 #~ msgid "Collapse the current thread"
 #~ msgstr "Sćehnje aktualnu skupinu"
@@ -5960,11 +5982,6 @@ msgstr "&Prjedawša powěsć"
 #, fuzzy
 #~| msgid "Delete T&hread"
 #~ msgid "Use default aggregation"
-#~ msgstr "Diskusiju z&ničić"
-
-#, fuzzy
-#~| msgid "Delete T&hread"
-#~ msgid "Use default theme"
 #~ msgstr "Diskusiju z&ničić"
 
 #, fuzzy
