@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-13 01:31+0000\n"
+"POT-Creation-Date: 2013-10-18 01:29+0000\n"
 "PO-Revision-Date: 2005-05-09 17:30+0200\n"
 "Last-Translator:  <hertn@gmx.de>\n"
 "Language-Team: Hornjoserbšćina <hsb@li.org>\n"
@@ -364,7 +364,8 @@ msgstr ""
 msgid "Animation"
 msgstr "Nawigacija"
 
-#: part/KPrShapeAnimations.cpp:205
+#. i18n: ectx: Menu (Insert Shape)
+#: part/KPrShapeAnimations.cpp:205 stage.rc:75
 msgid "Shape"
 msgstr "Forma"
 
@@ -626,39 +627,43 @@ msgid "Set Layout"
 msgstr "Sćin"
 
 #. i18n: ectx: Menu (edit)
-#: part/stage.rc:11
+#. i18n: ectx: Menu (Edit)
+#: part/stage.rc:8 stage.rc:10 stage_only.rc:7
 msgid "&Edit"
 msgstr ""
 
 #. i18n: ectx: Menu (view)
-#: part/stage.rc:30
+#. i18n: ectx: Menu (View)
+#: part/stage.rc:27 stage.rc:33 stage_only.rc:3
 msgid "&View"
 msgstr ""
 
 #. i18n: ectx: Menu (insert)
-#: part/stage.rc:49
+#: part/stage.rc:46 stage.rc:50
 msgid "&Insert"
 msgstr ""
 
 #. i18n: ectx: Menu (format)
-#: part/stage.rc:54
+#. i18n: ectx: Menu (Format)
+#: part/stage.rc:51 stage.rc:87
 msgid "F&ormat"
 msgstr "F&ormat"
 
 #. i18n: ectx: Menu (page)
-#: part/stage.rc:63
+#: part/stage.rc:60
 #, fuzzy
 #| msgid "Shade"
 msgid "&Slide"
 msgstr "Sćin"
 
+#. i18n: ectx: Menu (Slide Show)
 #. i18n: ectx: Menu (slideshow)
-#: part/stage.rc:74
+#: part/stage.rc:71 stage.rc:161 stage_only.rc:12
 msgid "Sli&de Show"
 msgstr ""
 
 #. i18n: ectx: Menu (settings)
-#: part/stage.rc:81
+#: part/stage.rc:78 stage.rc:176
 msgid "&Settings"
 msgstr ""
 
@@ -2087,38 +2092,124 @@ msgstr ""
 msgid "Footer"
 msgstr ""
 
-#~ msgid "Line"
-#~ msgstr "Smuha"
+#. i18n: ectx: Menu (file)
+#: stage.rc:3
+msgid "&File"
+msgstr ""
 
-#~ msgid "Arra&nge Objects"
-#~ msgstr "Objekty &rjadować"
+#. i18n: ectx: Menu (Insert Line)
+#: stage.rc:68
+msgid "Line"
+msgstr "Smuha"
 
-#~ msgid "Te&xt"
-#~ msgstr "Te&kst"
+#. i18n: ectx: Menu (Arrange Objects)
+#: stage.rc:93
+msgid "Arra&nge Objects"
+msgstr "Objekty &rjadować"
 
-#~ msgid "T&ype"
-#~ msgstr "T&yp"
+#. i18n: ectx: Menu (Align Objects)
+#: stage.rc:99 stage.rc:308 stage.rc:337 stage.rc:363 stage.rc:385
+#: stage.rc:411 stage.rc:439 stage.rc:465 stage.rc:490 stage.rc:520
+#: stage.rc:657
+#, fuzzy
+#| msgid "Arra&nge Objects"
+msgid "&Align Objects"
+msgstr "Objekty &rjadować"
 
-#~ msgid "Spellcheck"
-#~ msgstr "Prawopisna kontrola"
+#. i18n: ectx: Menu (Text)
+#: stage.rc:118
+msgid "Te&xt"
+msgstr "Te&kst"
 
-#~ msgid "Autocorrection"
-#~ msgstr "Samokorektura"
+#. i18n: ectx: Menu (Align)
+#: stage.rc:129
+msgid "&Align"
+msgstr ""
 
-#~ msgid "Tools"
-#~ msgstr "Nastroje"
+#. i18n: ectx: Menu (Type)
+#: stage.rc:136
+msgid "T&ype"
+msgstr "T&yp"
 
-#~ msgid "Format"
-#~ msgstr "Format"
+#. i18n: ectx: Menu (SpellCheck)
+#: stage.rc:151
+msgid "Spellcheck"
+msgstr "Prawopisna kontrola"
 
-#~ msgid "Text"
-#~ msgstr "Tekst"
+#. i18n: ectx: Menu (AutoFormat)
+#: stage.rc:156
+msgid "Autocorrection"
+msgstr "Samokorektura"
 
-#~ msgid "Navigation"
-#~ msgstr "Nawigacija"
+#. i18n: ectx: ToolBar (mainToolBar)
+#: stage.rc:186
+msgid "File"
+msgstr ""
 
-#~ msgid "Spell Check Result"
-#~ msgstr "Wuslědki prawopisneje kontrole"
+#. i18n: ectx: ToolBar (editToolBar)
+#: stage.rc:188 stage_only.rc:20
+msgid "Edit"
+msgstr ""
+
+#. i18n: ectx: ToolBar (insertToolBar)
+#: stage.rc:200
+msgid "Insert"
+msgstr ""
+
+#. i18n: ectx: ToolBar (toolsToolBar)
+#: stage.rc:217
+msgid "Tools"
+msgstr "Nastroje"
+
+#. i18n: ectx: ToolBar (extraToolBar)
+#: stage.rc:227
+msgid "Format"
+msgstr "Format"
+
+#. i18n: ectx: ToolBar (textToolBar)
+#: stage.rc:239
+msgid "Text"
+msgstr "Tekst"
+
+#. i18n: ectx: ToolBar (slideShowToolBar)
+#: stage.rc:261
+#, fuzzy
+#| msgid "Shade"
+msgid "Slide Show"
+msgstr "Sćin"
+
+#. i18n: ectx: ToolBar (navigationToolBar)
+#: stage.rc:268
+msgid "Navigation"
+msgstr "Nawigacija"
+
+#. i18n: ectx: Menu (Vertical Alignment)
+#: stage.rc:316
+msgid "Vertical Alignment"
+msgstr ""
+
+#. i18n: ectx: Menu (Flip Objects)
+#: stage.rc:359 stage.rc:407 stage.rc:435 stage.rc:461 stage.rc:516
+#: stage.rc:653
+msgid "Flip Objects"
+msgstr ""
+
+#. i18n: ectx: Menu (Scale Picture)
+#: stage.rc:530
+msgid "&Scale to Show the Picture 1:1 In"
+msgstr ""
+
+#. i18n: ectx: Menu (check_spell_list)
+#: stage.rc:590
+msgid "Spell Check Result"
+msgstr "Wuslědki prawopisneje kontrole"
+
+#. i18n: ectx: ToolBar (screenToolBar)
+#: stage_only.rc:25
+#, fuzzy
+#| msgid "Navigation"
+msgid "Presentation"
+msgstr "Nawigacija"
 
 #, fuzzy
 #~| msgid "Shade"
