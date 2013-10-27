@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-13 03:46+0100\n"
+"POT-Creation-Date: 2013-10-26 01:33+0000\n"
 "PO-Revision-Date: 2008-11-22 12:19+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -18,95 +18,82 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
-#: pager.cpp:307
-msgid "&Add Virtual Desktop"
-msgstr ""
-
-#: pager.cpp:310
-#, fuzzy
-#| msgid "&Configure Desktops..."
-msgid "&Remove Last Virtual Desktop"
-msgstr "Dźěłowy powjerch &konfigurować..."
-
-#: pager.cpp:350
+#: package/contents/config/config.qml:25
 msgid "General"
 msgstr "Powšitkownje"
 
-#: pager.cpp:876
-#, kde-format
-msgid "One window:"
-msgid_plural "%1 windows:"
-msgstr[0] "%1 wokno:"
-msgstr[1] "%1 woknje"
-msgstr[2] "%1 wokna:"
-msgstr[3] "%1 woknow"
-
-#: pager.cpp:880
-#, kde-format
-msgid "and 1 other"
-msgid_plural "and %1 others"
-msgstr[0] "a %1 dalši"
-msgstr[1] "a %1 dalšej"
-msgstr[2] "a %1 dalše"
-msgstr[3] "a %1 dalšich"
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, pagerConfig)
-#: pagerConfig.ui:14
-msgid "Configure Pager"
-msgstr "Pager připrawić"
-
-#. i18n: ectx: property (text), widget (QLabel, displayLabel)
-#: pagerConfig.ui:41
-msgid "Display text:"
+#: package/contents/ui/configGeneral.qml:79
+#, fuzzy
+#| msgid "Display text:"
+msgid "Display Text:"
 msgstr "Tekst pokazać:"
 
-#. i18n: ectx: property (text), widget (QRadioButton, desktopNumberRadioButton)
-#: pagerConfig.ui:51
+#: package/contents/ui/configGeneral.qml:85
 msgid "Desktop number"
 msgstr "Čisło dźěłoweho powjercha"
 
-#. i18n: ectx: property (text), widget (QRadioButton, desktopNameRadioButton)
-#: pagerConfig.ui:61
+#: package/contents/ui/configGeneral.qml:96
 msgid "Desktop name"
 msgstr "Mjeno dźěłoweho powjercha"
 
-#. i18n: ectx: property (text), widget (QRadioButton, displayNoneRadioButton)
-#: pagerConfig.ui:71
+#: package/contents/ui/configGeneral.qml:102
 msgid "No text"
 msgstr "Žadyn tekst"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: pagerConfig.ui:81
+#: package/contents/ui/configGeneral.qml:107
 msgid "Display icons:"
 msgstr "Piktogramy pokazać:"
 
-#. i18n: ectx: property (text), widget (QLabel, currentLabel)
-#: pagerConfig.ui:101
+#: package/contents/ui/configGeneral.qml:115
 #, fuzzy
 #| msgid "Select the current day"
 msgid "Selecting current desktop:"
 msgstr "Aktualnu dźeń wubrać"
 
-#. i18n: ectx: property (text), widget (QRadioButton, doNothingRadioButton)
-#: pagerConfig.ui:111
+#: package/contents/ui/configGeneral.qml:121
 #, fuzzy
 #| msgctxt "@title job"
 #| msgid "Mounting"
 msgid "Does nothing"
 msgstr "Montuju"
 
-#. i18n: ectx: property (text), widget (QRadioButton, showDesktopRadioButton)
-#: pagerConfig.ui:121
+#: package/contents/ui/configGeneral.qml:132
 #, fuzzy
 msgid "Shows desktop"
 msgstr "Name=Dźěłowy powjerch"
 
-#. i18n: ectx: property (text), widget (QRadioButton, showDashboardRadioButton)
-#: pagerConfig.ui:131
+#: package/contents/ui/configGeneral.qml:138
 #, fuzzy
 #| msgid "Show statusbar"
 msgid "Shows the dashboard"
 msgstr "Pokaž statusowy pask"
+
+#: plugin/pager.cpp:205
+msgid "&Add Virtual Desktop"
+msgstr ""
+
+#: plugin/pager.cpp:208
+#, fuzzy
+#| msgid "&Configure Desktops..."
+msgid "&Remove Last Virtual Desktop"
+msgstr "Dźěłowy powjerch &konfigurować..."
+
+#~ msgid "One window:"
+#~ msgid_plural "%1 windows:"
+#~ msgstr[0] "%1 wokno:"
+#~ msgstr[1] "%1 woknje"
+#~ msgstr[2] "%1 wokna:"
+#~ msgstr[3] "%1 woknow"
+
+#~ msgid "and 1 other"
+#~ msgid_plural "and %1 others"
+#~ msgstr[0] "a %1 dalši"
+#~ msgstr[1] "a %1 dalšej"
+#~ msgstr[2] "a %1 dalše"
+#~ msgstr[3] "a %1 dalšich"
+
+#~ msgid "Configure Pager"
+#~ msgstr "Pager připrawić"
 
 #, fuzzy
 #~| msgid "Number of rows:"
