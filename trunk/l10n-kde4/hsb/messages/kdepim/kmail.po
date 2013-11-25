@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-22 01:45+0000\n"
+"POT-Creation-Date: 2013-11-25 01:36+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -129,7 +129,7 @@ msgid "Multiple encryption keys per address"
 msgstr "wjacore šifrowanske kluče za kóždu adresu"
 
 #: aboutdata.cpp:240 collectionpage/collectionmailinglistpage.cpp:109
-#: editor/kmcomposewin.cpp:2170 kmsystemtray.cpp:70 kmsystemtray.cpp:114
+#: editor/kmcomposewin.cpp:2170 kmsystemtray.cpp:71 kmsystemtray.cpp:115
 msgid "KMail"
 msgstr "KMail"
 
@@ -1765,12 +1765,14 @@ msgstr "Lisćina:"
 
 #: dialog/archivefolderdialog.cpp:57
 #, fuzzy
+msgctxt "@title:window for archiving a folder"
 msgid "Archive Folder"
 msgstr "&Nowy Zapisk..."
 
 #: dialog/archivefolderdialog.cpp:60 kmmainwidget.cpp:3708
 #: messageactions.cpp:133
 #, fuzzy
+msgctxt "@action"
 msgid "Archive"
 msgstr "Lisćina:"
 
@@ -3466,68 +3468,68 @@ msgstr ""
 msgid "Text Direction Toolbar"
 msgstr ""
 
-#: kmkernel.cpp:586
+#: kmkernel.cpp:591
 #, fuzzy, kde-format
 #| msgid "Are you sure you want to empty the trash folder?"
 msgid "Do you want to attach this folder \"%1\"?"
 msgstr "Chceće woprawdźe papjernik wuprózdnić?"
 
-#: kmkernel.cpp:586
+#: kmkernel.cpp:591
 #, fuzzy
 msgid "Attach Folder"
 msgstr "&Nowy Zapisk..."
 
-#: kmkernel.cpp:899
+#: kmkernel.cpp:904
 msgid "KMail is set to be offline; all network jobs are suspended"
 msgstr ""
 
-#: kmkernel.cpp:931
+#: kmkernel.cpp:936
 msgid "KMail is set to be online; all network jobs resumed"
 msgstr ""
 
-#: kmkernel.cpp:934
+#: kmkernel.cpp:939
 msgid ""
 "KMail is set to be online; all network jobs will resume when a network "
 "connection is detected"
 msgstr ""
 
-#: kmkernel.cpp:991
+#: kmkernel.cpp:996
 msgid "KMail is currently in offline mode. How do you want to proceed?"
 msgstr ""
 
-#: kmkernel.cpp:993
+#: kmkernel.cpp:998
 msgid "Online/Offline"
 msgstr ""
 
-#: kmkernel.cpp:994 kmmainwidget.cpp:2459
+#: kmkernel.cpp:999 kmmainwidget.cpp:2459
 msgid "Work Online"
 msgstr ""
 
-#: kmkernel.cpp:995 kmmainwidget.cpp:2456
+#: kmkernel.cpp:1000 kmmainwidget.cpp:2456
 msgid "Work Offline"
 msgstr ""
 
-#: kmkernel.cpp:1018
+#: kmkernel.cpp:1023
 msgid "Network connection detected, all network jobs resumed"
 msgstr ""
 
-#: kmkernel.cpp:1023
+#: kmkernel.cpp:1028
 msgid "No network connection detected, all network jobs are suspended"
 msgstr ""
 
-#: kmkernel.cpp:1117
+#: kmkernel.cpp:1122
 #, kde-format
 msgid ""
 "Failed to open autosave file at %1.\n"
 "Reason: %2"
 msgstr ""
 
-#: kmkernel.cpp:1119
+#: kmkernel.cpp:1124
 #, fuzzy
 msgid "Opening Autosave File Failed"
 msgstr "Přesuwam powěsć %3 z %2 wot %1."
 
-#: kmkernel.cpp:1623
+#: kmkernel.cpp:1628
 #, kde-format
 msgid "This identity has been changed to use the default transport:"
 msgid_plural ""
@@ -3537,7 +3539,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: kmkernel.cpp:1648
+#: kmkernel.cpp:1653
 #, kde-format
 msgid "This identity has been changed to use the modified transport:"
 msgid_plural ""
@@ -3547,35 +3549,35 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: kmkernel.cpp:1663
+#: kmkernel.cpp:1668
 #, fuzzy
 msgid "Sending messages"
 msgstr "HTML-powěsće"
 
-#: kmkernel.cpp:1664
+#: kmkernel.cpp:1669
 msgid "Initiating sending process..."
 msgstr ""
 
-#: kmkernel.cpp:1729
+#: kmkernel.cpp:1734
 #, fuzzy
 #| msgctxt "View->attachments->"
 #| msgid "&Inline"
 msgid "online"
 msgstr "&w powěsći"
 
-#: kmkernel.cpp:1729
+#: kmkernel.cpp:1734
 #, fuzzy
 #| msgctxt "View->attachments->"
 #| msgid "&Inline"
 msgid "offline"
 msgstr "&w powěsći"
 
-#: kmkernel.cpp:1729
+#: kmkernel.cpp:1734
 #, kde-format
 msgid "Resource %1 is broken. This resource is now %2"
 msgstr ""
 
-#: kmkernel.cpp:1906 kmkernel.cpp:1925
+#: kmkernel.cpp:1911 kmkernel.cpp:1930
 #, kde-format
 msgctxt "<source>: <error message>"
 msgid "%1: %2"
@@ -4800,17 +4802,17 @@ msgstr "<li>%1</li>\n"
 msgid "Contact modified successfully"
 msgstr "Powěsće wuspěšnje přesunjene"
 
-#: kmsystemtray.cpp:288
+#: kmsystemtray.cpp:296
 #, fuzzy
 msgid "New Messages In"
 msgstr "Nowe in."
 
-#: kmsystemtray.cpp:386
+#: kmsystemtray.cpp:394
 #, fuzzy
 msgid "There are no unread messages"
 msgstr "&Stare powěsće zwumjetać"
 
-#: kmsystemtray.cpp:387
+#: kmsystemtray.cpp:395
 #, fuzzy, kde-format
 #| msgid "Unread Message"
 msgid "1 unread message"
