@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-01-23 01:33+0000\n"
+"POT-Creation-Date: 2014-01-24 18:55+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -1747,16 +1747,35 @@ msgstr ""
 msgid "(Current system setting: %1)"
 msgstr ""
 
-#: configuredialog/configurestorageservicewidget.cpp:36
+#: configuredialog/configurestorageservicewidget.cpp:41
 msgid "Offer to share for files larger than"
 msgstr ""
 
-#: configuredialog/configurestorageservicewidget.cpp:41
+#: configuredialog/configurestorageservicewidget.cpp:46
 #, fuzzy
 #| msgid " MB"
 msgctxt "mega bytes"
 msgid " MB"
 msgstr " MB"
+
+#: configuredialog/configurestorageservicewidget.cpp:57
+#, fuzzy
+msgid "Manage Storage Service"
+msgstr "Wubjerće zwukowu dataju"
+
+#: configuredialog/configurestorageservicewidget.cpp:76
+#, fuzzy
+#| msgid "Could not start certificate manager; please check your installation."
+msgid ""
+"Could not start storage service manager; please check your installation."
+msgstr ""
+"Njemóžach certifikatowy manager startować. Prošu přepruwujće swoju "
+"instalaciju!"
+
+#: configuredialog/configurestorageservicewidget.cpp:78 kmmainwidget.cpp:2382
+#: kmmainwidget.cpp:2393
+msgid "KMail Error"
+msgstr "Zmylk w kmailu"
 
 #: dialog/addemailtoexistingcontactdialog.cpp:38
 #, fuzzy
@@ -2591,6 +2610,16 @@ msgstr "Ci&towanske pismiki dodać"
 #, fuzzy
 msgid "Insert"
 msgstr "Dataju z&asunyć..."
+
+#: editor/kmcomposewin.cpp:3574
+#, fuzzy
+msgid "An error occurred while sending the file."
+msgstr "Zmylk při pósłanju zapiska"
+
+#: editor/kmcomposewin.cpp:3574
+#, fuzzy
+msgid "Upload file"
+msgstr "&Profile"
 
 #: editor/snippetwidget.cpp:76
 msgid "Text Snippets"
@@ -4025,10 +4054,6 @@ msgid "Could not start certificate manager; please check your installation."
 msgstr ""
 "Njemóžach certifikatowy manager startować. Prošu přepruwujće swoju "
 "instalaciju!"
-
-#: kmmainwidget.cpp:2382 kmmainwidget.cpp:2393
-msgid "KMail Error"
-msgstr "Zmylk w kmailu"
 
 #: kmmainwidget.cpp:2391
 msgid ""
@@ -10148,10 +10173,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #~ msgstr "Přiwěšk: "
 
 #, fuzzy
-#~ msgid "Error while renaming a folder."
-#~ msgstr "Zmylk při pósłanju zapiska"
-
-#, fuzzy
 #~ msgid ""
 #~ "Error retrieving quota information from server\n"
 #~ "%1"
@@ -10458,10 +10479,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #~| msgid "Unread Message"
 #~ msgid "Unread Messages"
 #~ msgstr "Nječitana powěsć"
-
-#, fuzzy
-#~ msgid "Storage Size"
-#~ msgstr "Wubjerće zwukowu dataju"
 
 #, fuzzy
 #~ msgid "Local Subscription..."
@@ -12969,10 +12986,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 
 #, fuzzy
 #~ msgid "&Load Profile..."
-#~ msgstr "&Profile"
-
-#, fuzzy
-#~ msgid "Load Profile"
 #~ msgstr "&Profile"
 
 #~ msgid "Available Profiles"
