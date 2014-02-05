@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-01 01:37+0000\n"
+"POT-Creation-Date: 2014-02-05 01:38+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -553,51 +553,60 @@ msgctxt "@info:status Finished view fill"
 msgid "Ready"
 msgstr "Hotowo."
 
-#: core/quicksearchline.cpp:54
+#: core/quicksearchline.cpp:55
 #, fuzzy
 msgctxt "@action:button"
 msgid "Lock search"
 msgstr "&Pytaj"
 
-#: core/quicksearchline.cpp:57
+#: core/quicksearchline.cpp:58
 msgctxt "@info:whatsthis"
 msgid ""
 "Toggle this button if you want to keep your quick search locked when moving "
 "to other folders or when narrowing the search by message status."
 msgstr ""
 
-#: core/quicksearchline.cpp:67
+#: core/quicksearchline.cpp:68
 #, fuzzy
 msgctxt "Search for messages."
 msgid "Search"
 msgstr "&Pytaj"
 
-#: core/quicksearchline.cpp:88
+#: core/quicksearchline.cpp:89
 #, fuzzy
 msgid "Open Full Search"
 msgstr "<adresaća>"
 
-#: core/quicksearchline.cpp:105
+#: core/quicksearchline.cpp:106
+#, fuzzy
+msgid "Filter message by:"
+msgstr "Powěsće zničić"
+
+#: core/quicksearchline.cpp:109
+msgid "Body"
+msgstr ""
+
+#: core/quicksearchline.cpp:114
 #, fuzzy
 #| msgid "Subject"
 msgid "Subject"
 msgstr "Tema"
 
-#: core/quicksearchline.cpp:110 core/view.cpp:2400 core/view.cpp:2404
+#: core/quicksearchline.cpp:119 core/view.cpp:2400 core/view.cpp:2404
 #, fuzzy
 #| msgid "&From"
 msgid "From"
 msgstr "&Wot"
 
-#: core/quicksearchline.cpp:115
+#: core/quicksearchline.cpp:124
 msgid "Bcc"
 msgstr ""
 
-#: core/quicksearchline.cpp:190
+#: core/quicksearchline.cpp:209
 msgid "Any Status"
 msgstr "Kóždy staw"
 
-#: core/quicksearchline.cpp:193
+#: core/quicksearchline.cpp:212
 #, fuzzy
 #| msgctxt "msg status"
 #| msgid "Unread"
@@ -605,7 +614,7 @@ msgctxt "@action:inmenu Status of a message"
 msgid "Unread"
 msgstr "Nječitane"
 
-#: core/quicksearchline.cpp:197
+#: core/quicksearchline.cpp:216
 #, fuzzy
 #| msgctxt "msg status"
 #| msgid "Replied"
@@ -613,7 +622,7 @@ msgctxt "@action:inmenu Status of a message"
 msgid "Replied"
 msgstr "Wotmołwjene"
 
-#: core/quicksearchline.cpp:201
+#: core/quicksearchline.cpp:220
 #, fuzzy
 #| msgctxt "msg status"
 #| msgid "Forwarded"
@@ -621,7 +630,7 @@ msgctxt "@action:inmenu Status of a message"
 msgid "Forwarded"
 msgstr "Dopósłane"
 
-#: core/quicksearchline.cpp:205
+#: core/quicksearchline.cpp:224
 #, fuzzy
 #| msgctxt "msg status"
 #| msgid "Important"
@@ -629,55 +638,55 @@ msgctxt "@action:inmenu Status of a message"
 msgid "Important"
 msgstr "Wažne"
 
-#: core/quicksearchline.cpp:209
+#: core/quicksearchline.cpp:228
 #, fuzzy
 msgctxt "@action:inmenu Status of a message"
 msgid "Action Item"
 msgstr "Wažna powěsć"
 
-#: core/quicksearchline.cpp:213
+#: core/quicksearchline.cpp:232
 #, fuzzy
 msgctxt "@action:inmenu Status of a message"
 msgid "Watched"
 msgstr "Čitane"
 
-#: core/quicksearchline.cpp:217
+#: core/quicksearchline.cpp:236
 #, fuzzy
 msgctxt "@action:inmenu Status of a message"
 msgid "Ignored"
 msgstr "Nječitane"
 
-#: core/quicksearchline.cpp:221
+#: core/quicksearchline.cpp:240
 #, fuzzy
 msgctxt "@action:inmenu Status of a message"
 msgid "Has Attachment"
 msgstr "Přiwěšk: "
 
-#: core/quicksearchline.cpp:225
+#: core/quicksearchline.cpp:244
 #, fuzzy
 #| msgid "Advanced Options"
 msgctxt "@action:inmenu Status of a message"
 msgid "Has Invitation"
 msgstr "Opcije za pokročenych"
 
-#: core/quicksearchline.cpp:229
+#: core/quicksearchline.cpp:248
 #, fuzzy
 msgctxt "@action:inmenu Status of a message"
 msgid "Spam"
 msgstr "Čitane"
 
-#: core/quicksearchline.cpp:233
+#: core/quicksearchline.cpp:252
 #, fuzzy
 msgctxt "@action:inmenu Status of a message"
 msgid "Ham"
 msgstr "Čitane"
 
-#: core/quicksearchline.cpp:242
+#: core/quicksearchline.cpp:261
 msgctxt "@info:tooltip"
 msgid "Clear the quick search field when changing folders"
 msgstr ""
 
-#: core/quicksearchline.cpp:246
+#: core/quicksearchline.cpp:265
 msgctxt "@info:tooltip"
 msgid "Prevent the quick search field from being cleared when changing folders"
 msgstr ""
@@ -3261,10 +3270,6 @@ msgstr "Přetorhnyć"
 #, fuzzy
 #~ msgid "Jump to Folder"
 #~ msgstr "Do tutoho zapiska kopěrować"
-
-#, fuzzy
-#~ msgid "Filtering messages"
-#~ msgstr "Powěsće zničić"
 
 #, fuzzy
 #~ msgid "Filtering message %1 of %2"
