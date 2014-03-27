@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-26 01:43+0000\n"
+"POT-Creation-Date: 2014-03-27 01:44+0000\n"
 "PO-Revision-Date: 2008-11-17 23:54+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -20,6 +20,14 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 "X-Generator: KAider 0.1\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
 
 #: autotests/jobtest.cpp:1035
 #, fuzzy
@@ -1954,7 +1962,7 @@ msgstr "Wubjerće hinaše datajowe mjeno za cilowu dataju."
 msgid "Undocumented Error"
 msgstr "Njedokumentowany zmylk"
 
-#: src/core/kcoredirlister.cpp:397 src/widgets/krun.cpp:834
+#: src/core/kcoredirlister.cpp:397 src/widgets/krun.cpp:836
 #: src/widgets/paste.cpp:260 src/widgets/renamedialog.cpp:410
 #, kde-format
 msgid ""
@@ -2307,22 +2315,22 @@ msgstr "&Haj"
 msgid "&No"
 msgstr "&Ně"
 
-#: src/core/slaveinterface.cpp:413 src/core/tcpslavebase.cpp:822
+#: src/core/slaveinterface.cpp:410 src/core/tcpslavebase.cpp:822
 #: src/widgets/sslui.cpp:78
 msgid "&Details"
 msgstr "&Detajle"
 
-#: src/core/slaveinterface.cpp:415 src/core/tcpslavebase.cpp:839
+#: src/core/slaveinterface.cpp:412 src/core/tcpslavebase.cpp:839
 #: src/widgets/sslui.cpp:114
 msgid "&Forever"
 msgstr "&Na wšě časy"
 
-#: src/core/slaveinterface.cpp:419 src/core/tcpslavebase.cpp:822
+#: src/core/slaveinterface.cpp:416 src/core/tcpslavebase.cpp:822
 #: src/widgets/sslui.cpp:79
 msgid "Co&ntinue"
 msgstr "Po&kročować"
 
-#: src/core/slaveinterface.cpp:421 src/core/tcpslavebase.cpp:840
+#: src/core/slaveinterface.cpp:418 src/core/tcpslavebase.cpp:840
 #: src/widgets/sslui.cpp:115
 #, fuzzy
 #| msgid "&Current Sessions Only"
@@ -3976,6 +3984,113 @@ msgstr "Servery. stonowe skripty"
 msgid "You do not have permission to access the %1 protocol."
 msgstr "Nimaće prawa přistupa na protokol %1."
 
+#: src/kioexec/main.cpp:46
+msgid "KIO Exec - Opens remote files, watches modifications, asks for upload"
+msgstr ""
+
+#: src/kioexec/main.cpp:80
+#, kde-format
+msgid ""
+"The URL %1\n"
+"is malformed"
+msgstr ""
+
+#: src/kioexec/main.cpp:82
+#, kde-format
+msgid ""
+"Remote URL %1\n"
+"not allowed with --tempfiles switch"
+msgstr ""
+
+#: src/kioexec/main.cpp:213
+#, kde-format
+msgid ""
+"The supposedly temporary file\n"
+"%1\n"
+"has been modified.\n"
+"Do you still want to delete it?"
+msgstr ""
+
+#: src/kioexec/main.cpp:214 src/kioexec/main.cpp:221
+#, fuzzy
+#| msgid "Device name"
+msgid "File Changed"
+msgstr "Mjeno grata"
+
+#: src/kioexec/main.cpp:214
+#, fuzzy
+#| msgid "Do Not Store"
+msgid "Do Not Delete"
+msgstr "Nic zawěsćić"
+
+#: src/kioexec/main.cpp:220
+#, kde-format
+msgid ""
+"The file\n"
+"%1\n"
+"has been modified.\n"
+"Do you want to upload the changes?"
+msgstr ""
+
+#: src/kioexec/main.cpp:221
+#, fuzzy
+msgid "Upload"
+msgstr "Čitać"
+
+#: src/kioexec/main.cpp:221
+#, fuzzy
+#| msgid "Do Not Store"
+msgid "Do Not Upload"
+msgstr "Nic zawěsćić"
+
+#: src/kioexec/main.cpp:252
+#, fuzzy
+#| msgid "Exec"
+msgid "KIOExec"
+msgstr "Startować"
+
+#: src/kioexec/main.cpp:254
+msgid "(c) 1998-2000,2003 The KFM/Konqueror Developers"
+msgstr ""
+
+#: src/kioexec/main.cpp:255
+msgid "David Faure"
+msgstr ""
+
+#: src/kioexec/main.cpp:256
+msgid "Stephan Kulow"
+msgstr "Stephan Kulow"
+
+#: src/kioexec/main.cpp:257
+msgid "Bernhard Rosenkraenzer"
+msgstr ""
+
+#: src/kioexec/main.cpp:258
+msgid "Waldo Bastian"
+msgstr ""
+
+#: src/kioexec/main.cpp:259
+msgid "Oswald Buddenhagen"
+msgstr ""
+
+#: src/kioexec/main.cpp:264
+msgid "Treat URLs as local files and delete them afterwards"
+msgstr ""
+
+#: src/kioexec/main.cpp:265
+#, fuzzy
+#| msgid "Choose an alternate filename for the new file."
+msgid "Suggested file name for the downloaded file"
+msgstr "Wubjerće sej hinaše pomjenowanje za nowu dataju."
+
+#: src/kioexec/main.cpp:266
+msgid "Command to execute"
+msgstr ""
+
+#: src/kioexec/main.cpp:267
+msgid "URL(s) or local file(s) used for 'command'"
+msgstr ""
+
 #: src/kpac/discovery.cpp:112
 msgid "Could not find a usable proxy configuration script"
 msgstr "Njemóžach kmany skript za konfiguraciju proxyja namakać"
@@ -4019,6 +4134,30 @@ msgstr ""
 #, kde-format
 msgid "Got an invalid reply when calling %1"
 msgstr ""
+
+#: src/kpasswdserver/kpasswdserver.cpp:556
+#, fuzzy
+#| msgid "Do you really want to delete this item?"
+#| msgid_plural "Do you really want to delete these %1 items?"
+msgid "Do you want to retry?"
+msgstr "Chceće woprawdźe tutón %1 objekt zničić?"
+
+#: src/kpasswdserver/kpasswdserver.cpp:561
+#, fuzzy
+#| msgid "Server Authentication"
+msgid "Retry Authentication"
+msgstr "Přepruwowanje servera"
+
+#: src/kpasswdserver/kpasswdserver.cpp:565
+msgctxt "@action:button filter-continue"
+msgid "Retry"
+msgstr ""
+
+#: src/kpasswdserver/kpasswdserver.cpp:858
+#, fuzzy
+#| msgid "Authorization Dialog"
+msgid "Authentication Dialog"
+msgstr "Awtorizaciski dialog"
 
 #: src/widgets/accessmanager.cpp:221
 msgid "Blocked request."
@@ -5335,7 +5474,7 @@ msgstr "Jenož programy za lokalnych datajowych systemach so podpěruja."
 msgid "Advanced Options for %1"
 msgstr "Opcije za pokročenych"
 
-#: src/widgets/krun.cpp:168
+#: src/widgets/krun.cpp:170
 #, kde-format
 msgid ""
 "<qt>Unable to enter <b>%1</b>.\n"
@@ -5344,45 +5483,45 @@ msgstr ""
 "<qt>Njemóžu zastupić do <b>%1</b>.\n"
 "Nimaće prawa na tute městno dóńć.</qt>"
 
-#: src/widgets/krun.cpp:197
+#: src/widgets/krun.cpp:199
 #, kde-format
 msgid ""
 "<qt>The file <b>%1</b> is an executable program. For safety it will not be "
 "started.</qt>"
 msgstr "<qt>Dataja <b>%1</b> je program. Wěstosće dla jón njestartuju.</qt>"
 
-#: src/widgets/krun.cpp:203
+#: src/widgets/krun.cpp:205
 #, kde-format
 msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
 msgstr "<qt>Nimaće prawa startować <b>%1</b>.</qt>"
 
-#: src/widgets/krun.cpp:233
+#: src/widgets/krun.cpp:235
 msgid "You are not authorized to select an application to open this file."
 msgstr "Nimaće prawo aplikaciju wubrać za wočinjenje tuteje dataje wočinić."
 
-#: src/widgets/krun.cpp:244
+#: src/widgets/krun.cpp:246
 msgid "Open with:"
 msgstr "Wočinić z:"
 
-#: src/widgets/krun.cpp:294
+#: src/widgets/krun.cpp:296
 msgid "You are not authorized to execute this file."
 msgstr "Nimaće prawo tutu dataju wuwjesć."
 
-#: src/widgets/krun.cpp:317
+#: src/widgets/krun.cpp:319
 #, kde-format
 msgid "Launching %1"
 msgstr "Startuju %1"
 
-#: src/widgets/krun.cpp:422
+#: src/widgets/krun.cpp:424
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr "Zmylk při wuwjedźenju Exec-zapisa w %1"
 
-#: src/widgets/krun.cpp:594
+#: src/widgets/krun.cpp:596
 msgid "You are not authorized to execute this service."
 msgstr "Nimaće prawo tutón service startować."
 
-#: src/widgets/krun.cpp:599
+#: src/widgets/krun.cpp:601
 #, fuzzy
 #| msgctxt "@title job"
 #| msgid "Examining"
@@ -5390,21 +5529,21 @@ msgctxt "Warning about executing unknown .desktop file"
 msgid "Warning"
 msgstr "Wobhladuju sej"
 
-#: src/widgets/krun.cpp:616
+#: src/widgets/krun.cpp:618
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
 msgstr ""
 
-#: src/widgets/krun.cpp:633
+#: src/widgets/krun.cpp:635
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 
-#: src/widgets/krun.cpp:676
+#: src/widgets/krun.cpp:678
 #, kde-format
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 
-#: src/widgets/krun.cpp:858
+#: src/widgets/krun.cpp:860
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -5413,7 +5552,7 @@ msgstr ""
 "<qt>Njemóžu komando wuwjesć. Dataja abo zapisk <b>%1</b> njeeksistujetej.</"
 "qt>"
 
-#: src/widgets/krun.cpp:1445
+#: src/widgets/krun.cpp:1455
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "Njemóžach program namakać: %1."
@@ -6466,9 +6605,6 @@ msgstr ""
 #~ msgid "ERROR: Unknown protocol '%1'"
 #~ msgstr "ZMYLK: Njeznaty protokol '%1'"
 
-#~ msgid "Authorization Dialog"
-#~ msgstr "Awtorizaciski dialog"
-
 #~ msgid "The clipboard is empty"
 #~ msgstr "Clipboard je prózdny"
 
@@ -6770,9 +6906,6 @@ msgstr ""
 #~ msgid "Store"
 #~ msgstr "Zawěsćić"
 
-#~ msgid "Do Not Store"
-#~ msgstr "Nic zawěsćić"
-
 #~ msgid "2048 (High Grade)"
 #~ msgstr "2048 (wysoki stopjeń)"
 
@@ -6817,9 +6950,6 @@ msgstr ""
 
 #~ msgid "(c) 2000 Stephan Kulow"
 #~ msgstr "(c) 2000 Stephan Kulow"
-
-#~ msgid "Stephan Kulow"
-#~ msgstr "Stephan Kulow"
 
 #~ msgid "Author"
 #~ msgstr "Awtor"
