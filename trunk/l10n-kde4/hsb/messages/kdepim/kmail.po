@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-24 01:46+0000\n"
+"POT-Creation-Date: 2014-06-25 01:55+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -2669,10 +2669,20 @@ msgstr "Powěsć bu podpisana wot %1."
 msgid "Folder Shortcut %1"
 msgstr ""
 
-#: followupreminder/followupreminderselectdatedialog.cpp:30
+#: followupreminder/followupreminderselectdatedialog.cpp:31
 #, fuzzy
 msgid "Select Date"
 msgstr "Zapisk zničić"
+
+#: followupreminder/followupreminderselectdatedialog.cpp:79
+msgid "The selected date must be greater than the current date."
+msgstr ""
+
+#: followupreminder/followupreminderselectdatedialog.cpp:79
+#, fuzzy
+#| msgid "Good signature."
+msgid "Invalid date"
+msgstr "Signatura w porjadku."
 
 #: identity/identityaddvcarddialog.cpp:35
 #: identity/identityeditvcarddialog.cpp:38
@@ -9725,11 +9735,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #, fuzzy
 #~ msgid "<b>Bad</b> signature."
 #~ msgstr "Hubjena signatura."
-
-#, fuzzy
-#~| msgid "Good signature."
-#~ msgid "Invalid signature."
-#~ msgstr "Signatura w porjadku."
 
 #, fuzzy
 #~| msgid "Not enough information to check signature. %1"
