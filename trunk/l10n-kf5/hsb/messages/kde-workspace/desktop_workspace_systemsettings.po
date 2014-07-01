@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-30 08:26+0000\n"
+"POT-Creation-Date: 2014-07-01 12:12+0000\n"
 "PO-Revision-Date: 2008-11-25 00:15+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -42,12 +42,13 @@ msgctxt "Name"
 msgid "System Settings"
 msgstr "GenericName=Kartowa hra"
 
-#: categories/settings-accessibility.desktop:8
+#: categories/old/settings-accessibility.desktop:8
 msgctxt "Name"
 msgid "Accessibility"
 msgstr "Přistupnosć"
 
-#: categories/settings-account-details.desktop:8
+#: categories/old/settings-account-details.desktop:8
+#: categories/settings-personalization-accountdetails.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Details"
@@ -55,21 +56,13 @@ msgctxt "Name"
 msgid "Account Details"
 msgstr "Nadrobnosće"
 
-#: categories/settings-application-and-system-notifications.desktop:8
+#: categories/old/settings-application-and-system-notifications.desktop:8
 #, fuzzy
 msgctxt "Name"
 msgid "Application and System Notifications"
 msgstr "GenericName=Kartowa hra"
 
-#: categories/settings-application-appearance-and-behavior.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Application Launcher"
-msgctxt "Name"
-msgid "Common Appearance and Behavior"
-msgstr "Startowar za aplikacije"
-
-#: categories/settings-application-appearance.desktop:8
+#: categories/old/settings-application-appearance.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Application Launcher"
@@ -77,17 +70,19 @@ msgctxt "Name"
 msgid "Application Appearance"
 msgstr "Startowar za aplikacije"
 
-#: categories/settings-audio-and-video.desktop:9
+#: categories/old/settings-audio-and-video.desktop:9
+#: categories/settings-hardware-multimedia.desktop:9
 msgctxt "Name"
 msgid "Multimedia"
 msgstr "Multimedija"
 
-#: categories/settings-bluetooth.desktop:8
+#: categories/old/settings-bluetooth.desktop:8
+#: categories/settings-network-bluetooth.desktop:9
 msgctxt "Name"
 msgid "Bluetooth"
 msgstr ""
 
-#: categories/settings-desktop-appearance.desktop:9
+#: categories/old/settings-desktop-appearance.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Application Launcher"
@@ -95,12 +90,13 @@ msgctxt "Name"
 msgid "Workspace Appearance"
 msgstr "Startowar za aplikacije"
 
-#: categories/settings-desktop-appearance.desktop:73
+#: categories/old/settings-desktop-appearance.desktop:73
 msgctxt "Comment"
 msgid "Customize the appearance of your desktop"
 msgstr ""
 
-#: categories/settings-display.desktop:8
+#: categories/old/settings-display.desktop:8
+#: categories/settings-hardware-display.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "File Management"
@@ -108,18 +104,20 @@ msgctxt "Name"
 msgid "Display and Monitor"
 msgstr "Datajowy manager"
 
-#: categories/settings-display.desktop:70
+#: categories/old/settings-display.desktop:70
+#: categories/settings-hardware-display.desktop:70
 msgctxt "Comment"
 msgid "Display Settings"
 msgstr "Nastajenja za wobrazowku"
 
+#: categories/old/settings-hardware.desktop:9
 #: categories/settings-hardware.desktop:9
 #, fuzzy
 msgctxt "Name"
 msgid "Hardware"
 msgstr "Name=Hardware"
 
-#: categories/settings-input-devices.desktop:8
+#: categories/old/settings-input-devices.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Devices"
@@ -127,7 +125,7 @@ msgctxt "Name"
 msgid "Input Devices"
 msgstr "Graty"
 
-#: categories/settings-locale.desktop:8
+#: categories/old/settings-locale.desktop:8
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Logic Game"
@@ -135,7 +133,7 @@ msgctxt "Name"
 msgid "Locale"
 msgstr "Logiske hry"
 
-#: categories/settings-lost-and-found.desktop:9
+#: categories/old/settings-lost-and-found.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Lost & Found"
@@ -143,7 +141,7 @@ msgctxt "Name"
 msgid "Lost and Found"
 msgstr "Pytane & Namakane"
 
-#: categories/settings-network-and-connectivity.desktop:8
+#: categories/old/settings-network-and-connectivity.desktop:8
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Network Tool"
@@ -151,13 +149,13 @@ msgctxt "Name"
 msgid "Network and Connectivity"
 msgstr "Syćowy nastroj"
 
-#: categories/settings-network-settings.desktop:8
+#: categories/old/settings-network-settings.desktop:8
 #, fuzzy
 msgctxt "Name"
 msgid "Network Settings"
 msgstr "Name=Nastajenja"
 
-#: categories/settings-permissions.desktop:8
+#: categories/old/settings-permissions.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Partitions"
@@ -165,7 +163,7 @@ msgctxt "Name"
 msgid "Permissions"
 msgstr "Particije"
 
-#: categories/settings-personal-information.desktop:8
+#: categories/old/settings-personal-information.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Processor Information"
@@ -173,13 +171,14 @@ msgctxt "Name"
 msgid "Personal Information"
 msgstr "Informacija wo procesoru"
 
-#: categories/settings-power-management.desktop:8
+#: categories/old/settings-power-management.desktop:8
+#: categories/settings-hardware-powermanagement.desktop:9
 #, fuzzy
 msgctxt "Name"
 msgid "Power Management"
 msgstr "Name=Datajowy manager"
 
-#: categories/settings-removable-devices.desktop:8
+#: categories/old/settings-removable-devices.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "USB Devices"
@@ -187,12 +186,12 @@ msgctxt "Name"
 msgid "Removable Devices"
 msgstr "USB-graty"
 
-#: categories/settings-sharing.desktop:8
+#: categories/old/settings-sharing.desktop:8
 msgctxt "Name"
 msgid "Sharing"
 msgstr ""
 
-#: categories/settings-shortcuts-and-gestures.desktop:8
+#: categories/old/settings-shortcuts-and-gestures.desktop:8
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Shortcut icon support"
@@ -200,12 +199,13 @@ msgctxt "Name"
 msgid "Shortcuts and Gestures"
 msgstr "Podpěra za skrótkowe piktogramy"
 
-#: categories/settings-startup-and-shutdown.desktop:8
+#: categories/old/settings-startup-and-shutdown.desktop:8
+#: categories/settings-workspace-session.desktop:9
 msgctxt "Name"
 msgid "Startup and Shutdown"
 msgstr ""
 
-#: categories/settings-system-administration.desktop:9
+#: categories/old/settings-system-administration.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "SAM System-Administration"
@@ -213,12 +213,13 @@ msgctxt "Name"
 msgid "System Administration"
 msgstr "SAM Administracija systema"
 
-#: categories/settings-window-behaviour.desktop:8
+#: categories/old/settings-window-behaviour.desktop:8
+#: categories/settings-workspace-windowmanagement.desktop:9
 msgctxt "Name"
 msgid "Window Behavior"
 msgstr ""
 
-#: categories/settings-workspace-appearance-and-behavior.desktop:9
+#: categories/old/settings-workspace-appearance-and-behavior.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Application Launcher"
@@ -226,13 +227,133 @@ msgctxt "Name"
 msgid "Workspace Appearance and Behavior"
 msgstr "Startowar za aplikacije"
 
-#: categories/settings-workspace-behavior.desktop:8
+#: categories/old/settings-workspace-behavior.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Web Behavior"
 msgctxt "Name"
 msgid "Workspace Behavior"
 msgstr "Zadźerženje we WWW"
+
+#: categories/settings-appearance-applicationstyle.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
+msgctxt "Name"
+msgid "Application Style"
+msgstr "Startowar za aplikacije"
+
+#: categories/settings-appearance-color.desktop:9
+msgctxt "Name"
+msgid "Color"
+msgstr ""
+
+#: categories/settings-appearance.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
+msgctxt "Name"
+msgid "Appearance"
+msgstr "Startowar za aplikacije"
+
+#: categories/settings-appearance-font.desktop:9
+msgctxt "Name"
+msgid "Font"
+msgstr ""
+
+#: categories/settings-appearance-icons.desktop:9
+msgctxt "Name"
+msgid "Icons"
+msgstr ""
+
+#: categories/settings-appearance-workspacetheme.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
+msgctxt "Name"
+msgid "Workspace Theme"
+msgstr "Startowar za aplikacije"
+
+#: categories/settings-hardware-input.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
+msgctxt "Name"
+msgid "Human Input Devices"
+msgstr "Graty"
+
+#: categories/settings-hardware-peripherals.desktop:9
+msgctxt "Name"
+msgid "Peripherals"
+msgstr ""
+
+#: categories/settings-network-connectivity.desktop:9
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Network Tool"
+msgctxt "Name"
+msgid "Connectivity"
+msgstr "Syćowy nastroj"
+
+#: categories/settings-network.desktop:8
+#, fuzzy
+msgctxt "Name"
+msgid "Network"
+msgstr "Name=Nastajenja"
+
+#: categories/settings-network-networksettings.desktop:9
+#, fuzzy
+msgctxt "Name"
+msgid "Settings"
+msgstr "GenericName=Kartowa hra"
+
+#: categories/settings-personalization-applications.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
+msgctxt "Name"
+msgid "Applications"
+msgstr "Startowar za aplikacije"
+
+#: categories/settings-personalization.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Processor Information"
+msgctxt "Name"
+msgid "Personalization"
+msgstr "Informacija wo procesoru"
+
+#: categories/settings-personalization-notification.desktop:9
+msgctxt "Name"
+msgid "Notification"
+msgstr ""
+
+#: categories/settings-personalization-regionalsettings.desktop:9
+#, fuzzy
+msgctxt "Name"
+msgid "Regional Settings"
+msgstr "Name=Nastajenja"
+
+#: categories/settings-workspace.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Web Behavior"
+msgctxt "Name"
+msgid "Workspace"
+msgstr "Zadźerženje we WWW"
+
+#: categories/settings-workspace-desktopbehavior.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Web Behavior"
+msgctxt "Name"
+msgid "Desktop Behavior"
+msgstr "Zadźerženje we WWW"
+
+#: categories/settings-workspace-shortcuts.desktop:9
+msgctxt "Name"
+msgid "Shortcuts"
+msgstr ""
 
 #: categories/systemsettingscategory.desktop:4
 msgctxt "Name"
@@ -281,3 +402,10 @@ msgstr "Přehladowar pisma"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Application Launcher"
+#~ msgctxt "Name"
+#~ msgid "Common Appearance and Behavior"
+#~ msgstr "Startowar za aplikacije"
