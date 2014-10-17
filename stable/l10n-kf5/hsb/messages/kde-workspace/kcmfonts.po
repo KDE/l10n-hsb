@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmfonts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-10 03:51+0000\n"
+"POT-Creation-Date: 2014-10-17 09:34+0000\n"
 "PO-Revision-Date: 2008-11-13 22:12+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -52,7 +52,9 @@ msgstr ""
 "ČZM rjadowane, na někotrych MZČ.<br /> To njefunguje z CRT-wobrazowkami.</p> "
 
 #: fonts.cpp:283
-msgid "&Use sub-pixel rendering:"
+#, fuzzy
+#| msgid "&Use sub-pixel rendering:"
+msgid "Sub-pixel rendering type: "
 msgstr "Sub-pixel rendering w&užiwać:"
 
 #: fonts.cpp:296
@@ -64,119 +66,119 @@ msgid ""
 "Hinting is a process used to enhance the quality of fonts at small sizes."
 msgstr "Hinting je proces, kiž ma kwalitu małych pismow zwyšić."
 
-#: fonts.cpp:527
+#: fonts.cpp:520
 #, fuzzy
 #| msgid "General"
 msgctxt "font usage"
 msgid "General"
 msgstr "Powšitkownje"
 
-#: fonts.cpp:528
+#: fonts.cpp:521
 #, fuzzy
 #| msgid "Fixed width"
 msgctxt "font usage"
 msgid "Fixed width"
 msgstr "Kruta šěrokosć"
 
-#: fonts.cpp:529
+#: fonts.cpp:522
 #, fuzzy
 #| msgid "Small"
 msgctxt "font usage"
 msgid "Small"
 msgstr "Małe"
 
-#: fonts.cpp:530
+#: fonts.cpp:523
 #, fuzzy
 #| msgid "Toolbar"
 msgctxt "font usage"
 msgid "Toolbar"
 msgstr "Nastrojowy pas"
 
-#: fonts.cpp:531
+#: fonts.cpp:524
 #, fuzzy
 #| msgid "Menu"
 msgctxt "font usage"
 msgid "Menu"
 msgstr "Meni"
 
-#: fonts.cpp:532
+#: fonts.cpp:525
 #, fuzzy
 #| msgid "Window title"
 msgctxt "font usage"
 msgid "Window title"
 msgstr "Titl wokna"
 
-#: fonts.cpp:569
+#: fonts.cpp:562
 msgid "Used for normal text (e.g. button labels, list items)."
 msgstr "Wužiwa so za normalny tekst (na př. tłóčatka, lisćiny)."
 
-#: fonts.cpp:570
+#: fonts.cpp:563
 msgid "A non-proportional font (i.e. typewriter font)."
 msgstr "Njeproporcionalne pismo (na př. pisadłowe pismo)."
 
-#: fonts.cpp:571
+#: fonts.cpp:564
 msgid "Smallest font that is still readable well."
 msgstr "Najmjeńše pismo, kotrež hodźi so hišće derje čitać."
 
-#: fonts.cpp:572
+#: fonts.cpp:565
 msgid "Used to display text beside toolbar icons."
 msgstr "Wužiwa so za tekst pódla piktogramow w nastrojowych pasach."
 
-#: fonts.cpp:573
+#: fonts.cpp:566
 msgid "Used by menu bars and popup menus."
 msgstr "Wužiwa so za menije a popups."
 
-#: fonts.cpp:574
+#: fonts.cpp:567
 msgid "Used by the window titlebar."
 msgstr "Wužiwa so za titlowy pas wokna."
 
-#: fonts.cpp:613
+#: fonts.cpp:606
 #, kde-format
 msgctxt "Font role"
 msgid "%1: "
 msgstr "%1: "
 
-#: fonts.cpp:626
+#: fonts.cpp:619
 msgid "Ad&just All Fonts..."
 msgstr "Wš&itke pisma připrawić..."
 
-#: fonts.cpp:627
+#: fonts.cpp:620
 msgid "Click to change all fonts"
 msgstr "Klikńće, zo byšće wšitke pisma změnili"
 
-#: fonts.cpp:638
+#: fonts.cpp:631
 msgid "Use a&nti-aliasing:"
 msgstr "A&nti-aliasing wužiwać:"
 
-#: fonts.cpp:642
+#: fonts.cpp:635
 msgctxt "Use anti-aliasing"
 msgid "Enabled"
 msgstr "Spřistupnjene"
 
-#: fonts.cpp:643
+#: fonts.cpp:636
 msgctxt "Use anti-aliasing"
 msgid "System Settings"
 msgstr "Nastajenja systema"
 
-#: fonts.cpp:644
+#: fonts.cpp:637
 msgctxt "Use anti-aliasing"
 msgid "Disabled"
 msgstr "Hasnjene"
 
-#: fonts.cpp:645
+#: fonts.cpp:638
 msgid ""
 "If this option is selected, KDE will smooth the edges of curves in fonts."
 msgstr ""
 
-#: fonts.cpp:646
+#: fonts.cpp:639
 msgid "Configure..."
 msgstr "Připrawić..."
 
-#: fonts.cpp:657
+#: fonts.cpp:650
 msgid "Force fonts DPI:"
 msgstr "DPI za pismo:"
 
-#: fonts.cpp:663
+#: fonts.cpp:656
 msgid ""
 "<p>This option forces a specific DPI value for fonts. It may be useful when "
 "the real DPI of the hardware is not detected properly and it is also often "
@@ -214,49 +216,65 @@ msgstr ""
 
 #: kxftconfig.cpp:454
 #, fuzzy
+#| msgctxt "Use anti-aliasing"
+#| msgid "System Settings"
+msgctxt "use system subpixel setting"
+msgid "System default"
+msgstr "Nastajenja systema"
+
+#: kxftconfig.cpp:456
+#, fuzzy
 #| msgid "None"
 msgctxt "no subpixel rendering"
 msgid "None"
 msgstr "žadyn"
 
-#: kxftconfig.cpp:456
+#: kxftconfig.cpp:458
 msgid "RGB"
 msgstr "ČZM"
 
-#: kxftconfig.cpp:458
+#: kxftconfig.cpp:460
 msgid "BGR"
 msgstr "MZČ"
 
-#: kxftconfig.cpp:460
+#: kxftconfig.cpp:462
 msgid "Vertical RGB"
 msgstr "Padorunje ČZM"
 
-#: kxftconfig.cpp:462
+#: kxftconfig.cpp:464
 msgid "Vertical BGR"
 msgstr "Padorunje MZČ"
 
-#: kxftconfig.cpp:488
+#: kxftconfig.cpp:490
+#, fuzzy
+#| msgctxt "Use anti-aliasing"
+#| msgid "System Settings"
+msgctxt "use system hinting settings"
+msgid "System default"
+msgstr "Nastajenja systema"
+
+#: kxftconfig.cpp:492
 #, fuzzy
 #| msgid "Medium"
 msgctxt "medium hinting"
 msgid "Medium"
 msgstr "Srěnje"
 
-#: kxftconfig.cpp:492
+#: kxftconfig.cpp:494
 #, fuzzy
 #| msgid "None"
 msgctxt "no hinting"
 msgid "None"
 msgstr "žadyn"
 
-#: kxftconfig.cpp:494
+#: kxftconfig.cpp:496
 #, fuzzy
 #| msgid "Slight"
 msgctxt "slight hinting"
 msgid "Slight"
 msgstr "Słaby"
 
-#: kxftconfig.cpp:496
+#: kxftconfig.cpp:498
 #, fuzzy
 #| msgid "Full"
 msgctxt "full hinting"
