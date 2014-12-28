@@ -1,25 +1,23 @@
-# translation of kio4.po to Hornjoserbsce
-# translation of kio4.po to Upper Sorbian
-# translation of kdelibs.po to Upper Sorbian
-# Copyright (C) 2003,2004, 2005 Free Software Foundation, Inc.
-# Eduard Werner <e.werner@rz.uni-leipzig.de>, 2003.
-# Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>, 2003,2004.
-# Eduard Werner <edi.werner@gmx.de>, 2005, 2008.
+# translation of kcmsocks.po to Hornjoserbšćina
+# Copyright (C) 2005 Free Software Foundation, Inc.
+#
+# Bianka Šwejdźic <hertn@gmx.de>, 2005.
+# Eduard Werner <edi.werner@gmx.de>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: kio4\n"
+"Project-Id-Version: kcmsocks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-12-26 08:15+0000\n"
-"PO-Revision-Date: 2008-11-17 23:54+0100\n"
+"PO-Revision-Date: 2008-11-19 23:41+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KAider 0.1\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
-"X-Generator: KAider 0.1\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -3847,8 +3845,8 @@ msgstr "&Wšitke placki"
 #| msgid ""
 #| "Select this option to accept/reject all cookies from anywhere. Choosing "
 #| "this option will change the global cookie policy set in the Control "
-#| "Center for all cookies <em>(see WebBrowsing/Cookies in the Control Center)"
-#| "</em>."
+#| "Center for all cookies <em>(see WebBrowsing/Cookies in the Control "
+#| "Center)</em>."
 msgid ""
 "Select this option to accept/reject all cookies from anywhere. Choosing this "
 "option will change the global cookie policy for all cookies until you "
@@ -3877,7 +3875,7 @@ msgstr "Hódnota:"
 #: ioslaves/http/kcookiejar/kcookiewin.cpp:265
 #: kcms/kio/kcookiesmanagement.ui:198
 msgid "Expires:"
-msgstr "Płaći hač do"
+msgstr "Płaći hač do:"
 
 #. i18n: ectx: property (text), widget (QLabel, patchLabel)
 #: ioslaves/http/kcookiejar/kcookiewin.cpp:272
@@ -4096,6 +4094,11 @@ msgid ""
 "recently read, it will not be downloaded from the Internet, but rather "
 "retrieved from the cache, which is a lot faster.</p>"
 msgstr ""
+"<h1>Temporarny pomjatk</h1><p>Tutón modul dowoli Wam, nastajenja za "
+"temporarny pomjatk připrawić.</p><p>Temporarny pomjatk słuži k nachwilnemu "
+"zawěsćenju internetnych stronow. Hdyž chceće internetnu stronu widźeć, "
+"kotruž sće hakle njedawno wopytali, njesćehnje so znowa z interneta, ale z "
+"temporarneho pomjatka, štož je wjele spěšnišo.</p>"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbUseCache)
 #: kcms/kio/cache.ui:17
@@ -4105,19 +4108,21 @@ msgid ""
 "instead of on every visit to that site. This is especially useful if you "
 "have a slow connection to the Internet."
 msgstr ""
+"Klikńće tu, hdyž chceće internetowe strony, kotrež wopytaće, na swojim "
+"krutym disku składować za spěšniši přistup. Składowane strony so jenož po "
+"potrjebje aktualizuja. To je wosebje wužitne, hdyž maće pomały zwisk do "
+"interneta."
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbUseCache)
 #: kcms/kio/cache.ui:20
-#, fuzzy
-#| msgid "&Username:"
 msgid "&Use cache"
-msgstr "Mjeno w&užiwarja:"
+msgstr "Temporarny skład w&užiwać"
 
 #. i18n: ectx: property (title), widget (QGroupBox, bgCachePolicy)
 #. i18n: ectx: property (text), widget (QTreeWidget, policyTreeWidget)
 #: kcms/kio/cache.ui:46 kcms/kio/kcookiespolicies.ui:168
 msgid "Policy"
-msgstr ""
+msgstr "Strategija"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbVerifyCache)
 #: kcms/kio/cache.ui:52
@@ -4125,11 +4130,13 @@ msgid ""
 "Verify whether the cached web page is valid before attempting to fetch the "
 "web page again."
 msgstr ""
+"Přepruwować, hač je strona na temporarnym składźe aktualna, prjedy hač "
+"spytam ju znowa sćahnyć."
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbVerifyCache)
 #: kcms/kio/cache.ui:55
 msgid "&Keep cache in sync"
-msgstr ""
+msgstr "Temporarny skład &aktualizować"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbCacheIfPossible)
 #: kcms/kio/cache.ui:62
@@ -4137,11 +4144,13 @@ msgid ""
 "Always use documents from the cache when available. You can still use the "
 "reload button to synchronize the cache with the remote host."
 msgstr ""
+"Je-li móžno, strony z temporarneho składa wužiwać. Móžeće přeco 'znowa "
+"začitać' za aktualizowanje temporarneho składa z dalnym serwerom."
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbCacheIfPossible)
 #: kcms/kio/cache.ui:65
 msgid "Use cache whenever &possible"
-msgstr ""
+msgstr "Temporarny skład w&užiwać, je-li móžno"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbOfflineMode)
 #: kcms/kio/cache.ui:72
@@ -4149,16 +4158,18 @@ msgid ""
 "Do not fetch web pages that are not already stored in the cache. Offline "
 "mode prevents you from viewing pages that you have not previously visited."
 msgstr ""
+"Žane strony sćahnyć, kiž njejsu hižo w temporarnym składźe. Offline-modus "
+"wam njedowoli strony wobhladać, kotrež njejsće prjedy wopytali."
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbOfflineMode)
 #: kcms/kio/cache.ui:75
 msgid "O&ffline browsing mode"
-msgstr ""
+msgstr "O&ffline-modus za browsowanje"
 
 #. i18n: ectx: property (text), widget (QLabel, lbMaxCacheSize)
 #: kcms/kio/cache.ui:88
 msgid "Disk cache &size:"
-msgstr ""
+msgstr "Wulkosć te&mporarneho składa:"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbMaxCacheSize)
 #: kcms/kio/cache.ui:101
@@ -4168,23 +4179,23 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, clearCacheButton)
 #: kcms/kio/cache.ui:111
 msgid "C&lear Cache"
-msgstr ""
+msgstr "Temporarny s&kład wuprózdnić"
 
 #: kcms/kio/kcookiesmain.cpp:40
 msgid ""
 "Unable to start the cookie handler service.\n"
 "You will not be able to manage the cookies that are stored on your computer."
 msgstr ""
+"Njemóžu plackowu słužbu startować.\n"
+"Njemóžeće placki rjadować, kiž su na Wašim kompjuteru składowane."
 
 #: kcms/kio/kcookiesmain.cpp:50
 msgid "&Policy"
-msgstr ""
+msgstr "&Strategija"
 
 #: kcms/kio/kcookiesmain.cpp:55
-#, fuzzy
-#| msgid "Comment"
 msgid "&Management"
-msgstr "Komentar"
+msgstr "&Rjadowanje"
 
 #: kcms/kio/kcookiesmain.cpp:91
 msgid ""
@@ -4203,58 +4214,67 @@ msgid ""
 "you might want to set the policy to accept, then you can access the web "
 "sites without being prompted every time KDE receives a cookie.</p>"
 msgstr ""
+"<p><h1>Placki</h1>Placki wobsahuja informaciju, kotruž Konqueror (abo druhe "
+"KDE-aplikacije, kiž wužiwaja HTTP-protokol) na Wašim kompjuteru składuja, na "
+"požadanje internetneho serwera. To rěka, zo móže serwer informaciju wo Was a "
+"Wašich aktiwitach na Wašim kompjuteru składować za pozdźiše wužiwanje. To so "
+"hodźi jako nadběh na Wašu priwatnu sferu wobhladać.</p><p>Přiwšěm pak su "
+"placki we wěstych situacijach wužitne. Na př. so husto wužiwaja w "
+"internetowych wobchodach, tak zo móžeće něšto do 'nakupowanskeje kobjele'. "
+"Někotre serwery sej browser pominaja, kiž placki podpěruje.</p><p>Dokelž "
+"chce wjetšina ludźi kompromis mjez priwatnej sferu a lěpšinami, kotrež "
+"placki poskićeja, dowoli Wam KDE wobchad z plackami připrawić. Tak snano "
+"chceće, zo by so KDE normalnje woprašał, hač chceće plack přiwzać. Za Waše "
+"internetowe wobchody pak, ke kotrymž maće dowěru, móžeće standardnu "
+"strategiju změnić, zo so jich placki bjez dalšeho prašenja akceptuja.</p>"
 
 #: kcms/kio/kcookiesmanagement.cpp:138 kcms/kio/kcookiesmanagement.cpp:154
 msgid "D-Bus Communication Error"
-msgstr ""
+msgstr "D-Bus: Komunikaciski zmylk"
 
 #: kcms/kio/kcookiesmanagement.cpp:139
 msgid "Unable to delete all the cookies as requested."
-msgstr ""
+msgstr "Njemóžu wšitke placki zničić"
 
 #: kcms/kio/kcookiesmanagement.cpp:155
 msgid "Unable to delete cookies as requested."
-msgstr ""
+msgstr "Njemóžu placki zničić"
 
 #: kcms/kio/kcookiesmanagement.cpp:226
+#, fuzzy
+#| msgid "<h1>Cookies Management Quick Help</h1>"
 msgid "<h1>Cookie Management Quick Help</h1>"
-msgstr ""
+msgstr "<h1>Spěšna pomoc za rjadowanje plackow</1>"
 
 #: kcms/kio/kcookiesmanagement.cpp:236
 msgid "Information Lookup Failure"
-msgstr ""
+msgstr "Zmylk při pytanju informacije"
 
 #: kcms/kio/kcookiesmanagement.cpp:237
 msgid ""
 "Unable to retrieve information about the cookies stored on your computer."
 msgstr ""
+"Njemóžu informaciju namakać wo plackach, kiž su na Wašim kompjuteru "
+"składowane."
 
 #: kcms/kio/kcookiesmanagement.cpp:327
-#, fuzzy
-#| msgid "End of Session"
 msgid "End of session"
-msgstr "Kónc sesije"
+msgstr "Kónc posedźenja"
 
 #: kcms/kio/kcookiesmanagement.cpp:336
-#, fuzzy
-#| msgid "Yes"
 msgid "Yes"
 msgstr "Haj"
 
 #. i18n: ectx: property (placeholderText), widget (KTreeWidgetSearchLine, searchLineEdit)
 #. i18n: ectx: property (placeholderText), widget (KTreeWidgetSearchLine, kListViewSearchLine)
 #: kcms/kio/kcookiesmanagement.ui:20 kcms/kio/kcookiespolicies.ui:138
-#, fuzzy
-#| msgid "&Search:"
 msgid "Search"
-msgstr "&Pytać:"
+msgstr "Pytać"
 
 #. i18n: ectx: property (toolTip), widget (QTreeWidget, cookiesTreeWidget)
 #: kcms/kio/kcookiesmanagement.ui:27
-#, fuzzy
-#| msgid "Search interactively for icon names (e.g. folder)."
 msgid "Search interactively for domains and hosts"
-msgstr "Pyta interaktiwnje za mjenami piktogramow (na př. zapisk)."
+msgstr "Interaktiwnje za domenami a serwerami pytać"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, cookiesTreeWidget)
 #: kcms/kio/kcookiesmanagement.ui:43
@@ -4274,53 +4294,51 @@ msgstr "Kedźbu! Plack!"
 #. i18n: ectx: property (text), widget (QPushButton, pbDelete)
 #: kcms/kio/kcookiesmanagement.ui:56 kcms/kio/kcookiespolicies.ui:190
 #: kcms/kio/useragentdlg.ui:202
-#, fuzzy
 msgid "D&elete"
-msgstr "Niču"
+msgstr "W&umaznyć"
 
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllButton)
 #. i18n: ectx: property (text), widget (QPushButton, pbDeleteAll)
 #: kcms/kio/kcookiesmanagement.ui:63 kcms/kio/kcookiespolicies.ui:197
 #: kcms/kio/useragentdlg.ui:212
-#, fuzzy
-#| msgid "Delete File"
 msgid "Delete A&ll"
-msgstr "Dataju zničić"
+msgstr "Wši&tke wumaznyć"
 
 #. i18n: ectx: property (text), widget (QPushButton, configPolicyButton)
 #: kcms/kio/kcookiesmanagement.ui:70
 #, fuzzy
-#| msgid "Calculating..."
+#| msgid "Change &Policy..."
 msgid "Configure &Policy..."
-msgstr "Wobličuju ..."
+msgstr "Strate&giju změnić..."
 
 #. i18n: ectx: property (text), widget (QPushButton, reloadButton)
 #: kcms/kio/kcookiesmanagement.ui:77
-#, fuzzy
 msgid "&Reload List"
-msgstr "Čitać"
+msgstr "&Lisćinu znowa začitać"
 
 #. i18n: ectx: property (title), widget (QGroupBox, detailsGroupBox)
 #: kcms/kio/kcookiesmanagement.ui:97
-#, fuzzy
-#| msgid "&Details"
 msgid "Details"
-msgstr "&Detajle"
+msgstr "Nadrobnosće"
 
 #. i18n: ectx: property (text), widget (QLabel, secureLabel)
 #: kcms/kio/kcookiesmanagement.ui:221
 msgid "Secure:"
-msgstr ""
+msgstr "Wěstosć:"
 
 #: kcms/kio/kcookiespolicies.cpp:175
+#, fuzzy
+#| msgid "Change Cookie Policy"
 msgctxt "@title:window"
 msgid "Change Cookie Policy"
-msgstr ""
+msgstr "Strategiju za placki změnić"
 
 #: kcms/kio/kcookiespolicies.cpp:194
+#, fuzzy
+#| msgid "New Cookie Policy"
 msgctxt "@title:window"
 msgid "New Cookie Policy"
-msgstr ""
+msgstr "Strategija za nowe placki"
 
 #: kcms/kio/kcookiespolicies.cpp:222
 #, kde-format
@@ -4328,23 +4346,27 @@ msgid ""
 "<qt>A policy already exists for<center><b>%1</b></center>Do you want to "
 "replace it?</qt>"
 msgstr ""
+"<qt>Strategija hižo eksistuje za <center><b>%1</b></center>Chceće ju narunać?"
+"</qt>"
 
 #: kcms/kio/kcookiespolicies.cpp:225
+#, fuzzy
+#| msgid "Duplicate Policy"
 msgctxt "@title:window"
 msgid "Duplicate Policy"
-msgstr ""
+msgstr "Strategiju kopěrować"
 
 #: kcms/kio/kcookiespolicies.cpp:226 kcms/kio/useragentdlg.cpp:199
-#, fuzzy
-#| msgid "Places"
 msgid "Replace"
-msgstr "Městna"
+msgstr "Narunać"
 
 #: kcms/kio/kcookiespolicies.cpp:391
 msgid ""
 "Unable to communicate with the cookie handler service.\n"
 "Any changes you made will not take effect until the service is restarted."
 msgstr ""
+"Njemóžu so z plackowej słužbu skontaktować.\n"
+"Waše změni so hakle po nowostartowanju słužby wuskutkuja."
 
 #: kcms/kio/kcookiespolicies.cpp:433
 msgid ""
@@ -4368,9 +4390,35 @@ msgid ""
 "enables you to receive cookies from trusted web sites without being asked "
 "every time KDE receives a cookie.</p>"
 msgstr ""
+"<p><h1>Placki</h1>Placki wobsahuja informaciju, kotruž Konqueror (abo druhe "
+"KDE-aplikacije, kiž wužiwaja HTTP-protokol) na Wašim kompjuteru składuja, na "
+"požadanje internetneho serwera. To rěka, zo móže serwer informaciju wo Was a "
+"Wašich aktiwitach na Wašim kompjuteru składować za pozdźiše wužiwanje. To so "
+"hodźi jako nadběh na Wašu priwatnu sferu wobhladać.</p><p>Přiwšěm pak su "
+"placki we wěstych situacijach wužitne. Na př. so husto wužiwaja w "
+"internetowych wobchodach, tak zo móžeće něšto do 'nakupowanskeje kobjele'. "
+"Někotre serwery sej browser pominaja, kiž placki podpěruje.</p><p>Dokelž "
+"chce wjetšina ludźi kompromis mjez priwatnej sferu a lěpšinami, kotrež "
+"placki poskićeja, dowoli Wam KDE wobchad z plackami připrawić. Tak snano "
+"chceće, zo by so KDE normalnje woprašał, hač chceće plack přiwzać. Za Waše "
+"internetowe wobchody pak, ke kotrymž maće dowěru, móžeće standardnu "
+"strategiju změnić, zo so jich placki bjez dalšeho prašenja akceptuja. Za to "
+"dyrbiće jenož na wotpowědnu stronu hić a w dialogu na <i>tutu domenu</i> w "
+"tabulatoru 'nałožić na' a wubjerće 'přiwzać', abo zapodajće mjeno serwera w "
+"tabulatoru <i>Wosebita stategija za domeny</i> a wubjerće 'přiwzać'. Tak "
+"móžeće wot dowěryhódnych stronow placki přiwzać, bjeztoho zo so Was KDE "
+"kóždy čas praša, hdyž plack dóstanje.</p>"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbEnableCookies)
 #: kcms/kio/kcookiespolicies.ui:20
+#, fuzzy
+#| msgid ""
+#| "<qt>\n"
+#| "Enable cookie support. Normally you will want to have cookie support "
+#| "enabled and customize it to suit your privacy needs.<p>\n"
+#| "Please note that disabling cookie support might make many web sites "
+#| "unbrowsable.\n"
+#| "</qt>"
 msgid ""
 "<qt>\n"
 "<p>Enable cookie support. Normally you will want to have cookie support "
@@ -4379,13 +4427,17 @@ msgid ""
 "unbrowsable.</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+" Placki podpěrować. Zwjetša chceće je podpěrować a strategije za jednotliwe "
+"serwery připrawić.<p>\n"
+"Prošu wopomniće, zo budźe po hasnjenju podpěry plackow wjele internetowych "
+"stronow njewužiwajomne.\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbEnableCookies)
 #: kcms/kio/kcookiespolicies.ui:23
-#, fuzzy
-#| msgid "All &cookies"
 msgid "Enable coo&kies"
-msgstr "&Wšitke placki"
+msgstr "Placki p&odpěrać"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbRejectCrossDomainCookies)
 #: kcms/kio/kcookiespolicies.ui:35
@@ -4399,14 +4451,32 @@ msgid ""
 "operators compiling a profile about your daily browsing habits.\n"
 "</qt>"
 msgstr ""
+"<qt>Wotpokazuje placki třećich. To su placki, kiž pochadźeja z hinašeho "
+"serwera hač toho, na kotrymž runje sće. Na př., hdyž wopytujeće runje <b>www."
+"mamlenje.com</b> z tutej opciju, so jenož placki wot www.mamlenje.com "
+"akzeptuja.  Wšě druhe so wotpokazuja. To redukuje šansu, zo móža druzy "
+"profil wo wašich internetowych zwučenosćach zestajeć.\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbRejectCrossDomainCookies)
 #: kcms/kio/kcookiespolicies.ui:38
 msgid "Only acce&pt cookies from originating server"
-msgstr ""
+msgstr "Jenož placki ze &samsneho serwera akceptować"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAutoAcceptSessionCookies)
 #: kcms/kio/kcookiespolicies.ui:46
+#, fuzzy
+#| msgid ""
+#| "<qt>\n"
+#| "Automatically accept temporary cookies meant to expire at the end of the "
+#| "current session. Such cookies will not be stored in your computer's hard "
+#| "drive or storage device. Instead, they are deleted when you close all "
+#| "applications (e.g. your browser) that use them.<p>\n"
+#| "<u>NOTE:</u> Checking this option along with the next one will override "
+#| "your default as well as site specific cookie policies. However, doing so "
+#| "also increases your privacy since all cookies will be removed when the "
+#| "current session ends.\n"
+#| "</qt>"
 msgid ""
 "<p>\n"
 "Automatically accept temporary cookies meant to expire at the end of the "
@@ -4416,14 +4486,38 @@ msgid ""
 "this option overrides your default as well as site specific cookie policies "
 "for session cookies.</p>"
 msgstr ""
+"<qt>\n"
+"Awtomatisce akceptuje nachwilne placki, kiž jenož hač do kónca aktualneho "
+"posedźenja płaća. Tajke placki so njeskładuja na Wašim kompjuteru, ale so "
+"wumazaja, hdyž wšitke aplikacije zezačinjeće, kotrež tute placki wužiwaja."
+"<p>\n"
+"<u>Kedźbu:</u> Tuta opcija hromadźe z přichodnej změnitej standardnu "
+"strategiju kaž tež specifiske strategije. Wona pak tež Wašu priwatnu sferu "
+"škita, dokelž so wšitke placki na kóncu posedźenja zwumazaja.\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbAutoAcceptSessionCookies)
 #: kcms/kio/kcookiespolicies.ui:49
 msgid "Automaticall&y accept session cookies"
-msgstr ""
+msgstr "Placki za posedźenje awtomatisce přiwzać "
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, bgDefault)
 #: kcms/kio/kcookiespolicies.ui:68
+#, fuzzy
+#| msgid ""
+#| "<qt>\n"
+#| "Determines how cookies received from a remote machine will be handled: \n"
+#| "<ul>\n"
+#| "<li><b>Ask</b> will cause KDE to ask for your confirmation whenever a "
+#| "server wants to set a cookie.</li>\n"
+#| "<li><b>Accept</b> will cause cookies to be accepted without prompting you."
+#| "</li>\n"
+#| "<li><b>Reject</b> will cause the cookiejar to refuse all cookies it "
+#| "receives.</li>\n"
+#| "</ul><p>\n"
+#| "<u>NOTE:</u> Domain specific policies, which can be set below, always "
+#| "take precedence over the default policy.\n"
+#| "</qt>"
 msgid ""
 "<qt>\n"
 "Determines how cookies received from a remote machine will be handled: \n"
@@ -4441,37 +4535,44 @@ msgid ""
 "precedence over the default policy.</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"Rozsudźi, kak so z plackami wot zdaleneho kompjutera wobchadźa:\n"
+"<ul>\n"
+"<li><b>So woprašeć</b>: KDE so přeco wopraša, hdyž serwer plack poskića.</"
+"li>\n"
+"<li><b>Přiwzać</n>: Plack so bjez prašenja akceptuje.</li>\n"
+"<li><b>Wotpokazać</b>: Placki so zasadnje wotpokazaja.</li>\n"
+"</ul><p>\n"
+"<u>Kedźbu:</u> Je přeco móžno, za specifisku domenu specielnu strategiju "
+"postajić, kiž ma wyšu prioritu hač powšitkowna strategija.\n"
+"</qt>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, bgDefault)
 #: kcms/kio/kcookiespolicies.ui:71
-#, fuzzy
-#| msgid "Default"
 msgid "Default Policy"
-msgstr "Standard"
+msgstr "Powšitkowna strategija"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyAccept)
 #: kcms/kio/kcookiespolicies.ui:77
-#, fuzzy
-#| msgid "All &cookies"
 msgid "Accep&t all cookies"
-msgstr "&Wšitke placki"
+msgstr "Wš&itke akceptować"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyAcceptForSession)
 #: kcms/kio/kcookiespolicies.ui:84
+#, fuzzy
+#| msgid "End of session"
 msgid "Accept &until end of session"
-msgstr ""
+msgstr "Kónc posedźenja"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyAsk)
 #: kcms/kio/kcookiespolicies.ui:91
 msgid "Ask &for confirmation"
-msgstr ""
+msgstr "So &woprašeć"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyReject)
 #: kcms/kio/kcookiespolicies.ui:98
-#, fuzzy
-#| msgid "Remove all cookies"
 msgid "Re&ject all cookies"
-msgstr "Wšitke placki zničić."
+msgstr "Wšitke &wotpokazać"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, gbDomainSpecific)
 #: kcms/kio/kcookiespolicies.ui:123
@@ -4489,14 +4590,12 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, gbDomainSpecific)
 #: kcms/kio/kcookiespolicies.ui:126
 msgid "Site Policy"
-msgstr ""
+msgstr "Strategija za domenu"
 
 #. i18n: ectx: property (toolTip), widget (KTreeWidgetSearchLine, kListViewSearchLine)
 #: kcms/kio/kcookiespolicies.ui:135
-#, fuzzy
-#| msgid "Search interactively for icon names (e.g. folder)."
 msgid "Search interactively for domains"
-msgstr "Pyta interaktiwnje za mjenami piktogramow (na př. zapisk)."
+msgstr "Interaktiwnje za domenami pytać"
 
 #. i18n: ectx: property (whatsThis), widget (QTreeWidget, policyTreeWidget)
 #: kcms/kio/kcookiespolicies.ui:147
@@ -4506,32 +4605,29 @@ msgid ""
 "policies override the default policy setting for these sites.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"Lisćina serwerow, za kotrež płaći specielna plackowa strategija. Specielne "
+"strategije maja wyšu prioritu hač powšitkowne strategije.\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, policyTreeWidget)
 #: kcms/kio/kcookiespolicies.ui:163
-#, fuzzy
-#| msgid "Domain:"
 msgid "Domain"
-msgstr "Domena:"
+msgstr "Domena"
 
 #. i18n: ectx: property (text), widget (QPushButton, pbNew)
 #. i18n: ectx: property (text), widget (QPushButton, newButton)
 #: kcms/kio/kcookiespolicies.ui:176 kcms/kio/useragentdlg.ui:182
 #: urifilters/ikws/ikwsopts_ui.ui:74
-#, fuzzy
-#| msgctxt "@action:button"
-#| msgid "&New Folder..."
 msgid "&New..."
-msgstr "&Nowy zapisk..."
+msgstr "&Nowa..."
 
 #. i18n: ectx: property (text), widget (QPushButton, pbChange)
 #. i18n: ectx: property (text), widget (QPushButton, changeButton)
 #: kcms/kio/kcookiespolicies.ui:183 kcms/kio/useragentdlg.ui:192
 #: urifilters/ikws/ikwsopts_ui.ui:87
-#, fuzzy
-#| msgid "Calculating..."
 msgid "Chan&ge..."
-msgstr "Wobličuju ..."
+msgstr "&Změnić..."
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
 #: kcms/kio/kcookiespolicyselectiondlg.h:36
@@ -4579,9 +4675,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lbDomain)
 #: kcms/kio/kcookiespolicyselectiondlg.ui:25
 #, fuzzy
-#| msgid "Device name"
+#| msgid "Username:"
 msgid "Site name:"
-msgstr "Mjeno grata"
+msgstr "Mjeno wužiwarja:"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, leDomain)
 #: kcms/kio/kcookiespolicyselectiondlg.ui:38
@@ -4607,18 +4703,22 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lbPolicy)
 #: kcms/kio/kcookiespolicyselectiondlg.ui:56
+#, fuzzy
+#| msgid "Policy"
 msgid "Policy:"
-msgstr ""
+msgstr "Strategija"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
 #: kcms/kio/kcookiespolicyselectiondlg.ui:86
+#, fuzzy
+#| msgid "End of session"
 msgid "Accept until end of session"
-msgstr ""
+msgstr "Kónc posedźenja"
 
 #. i18n: ectx: label, entry (DisablePassiveMode), group (DesktopIcons)
 #: kcms/kio/kio_ftprc.kcfg:10
 msgid "Disable Passive FTP"
-msgstr ""
+msgstr "Pasiwny FTP njedowolić"
 
 #. i18n: ectx: whatsthis, entry (DisablePassiveMode), group (DesktopIcons)
 #: kcms/kio/kio_ftprc.kcfg:11
@@ -4627,11 +4727,14 @@ msgid ""
 "of the other way round, so firewalls do not block the connection; old FTP "
 "servers may not support Passive FTP though."
 msgstr ""
+"Hdyž je FTP-zwisk pasiwny, so klient ze serwerom skontaktuje a nic hinak "
+"wokoło, tak zo firewall zwisk njeblokuje; su pak stare FTP-serwery, kiž to "
+"njepodpěruja."
 
 #. i18n: ectx: label, entry (MarkPartial), group (DesktopIcons)
 #: kcms/kio/kio_ftprc.kcfg:16
 msgid "Mark partially uploaded files"
-msgstr ""
+msgstr "Dźělnje pósłane dataje markěrować"
 
 #. i18n: ectx: whatsthis, entry (MarkPartial), group (DesktopIcons)
 #: kcms/kio/kio_ftprc.kcfg:17
@@ -4639,6 +4742,8 @@ msgid ""
 "While a file is being uploaded its extension is \".part\". When fully "
 "uploaded it is renamed to its real name."
 msgstr ""
+"Hdyž so dataja serwerej sćele, je jeje ekstensija \".part\". Hdyž je dataja "
+"dopósłana, so přemjenuje."
 
 #: kcms/kio/kproxydlg.cpp:547
 msgid ""
@@ -4650,6 +4755,11 @@ msgid ""
 "to block out requests for ads, spam, or anything else you want to block.</"
 "p><p><u>Note:</u> Some proxy servers provide both services.</p>"
 msgstr ""
+"<h1>Proxy</h1><p>Proxy je program mjez Wǎsim kompjuterom a internetom, kiž "
+"poskića słužby kaž temporarne zawěsćenje a(bo)  filtrowanje internetowych "
+"stronow.</p><p>Temporarne zawěsćenje skići spěšniši přistup na strony, kiž "
+"sće hižo wopytali, přez lokalnu kopiju; filtrowanje na druhim boku dowoli "
+"wam reklamu, spam abo druhe wěcy, kotrež njechaće, wufiltrować.</p>"
 
 #. i18n: ectx: property (whatsThis), widget (QWidget, ProxyDialogUI)
 #: kcms/kio/kproxydlg.ui:20
@@ -4669,11 +4779,22 @@ msgid ""
 "guide or your system administrator.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"Proxy připrawić.\n"
+"<p>\n"
+"Proxy je něšto mjez Wašim kompjuterom a internetom, kiž skići słužby kaž "
+"nachwilne składowanje internetowych stronow a filtrowanje. Filtrowace "
+"proxyje zwjetša zmóžnja wufiltrowanje reklamy, spama a druhich wěcow, kiž "
+"chceće blokować.\n"
+"<p>\n"
+"Hdyž njewěsće, hač njetrjebaće proxy wužiwać, skontaktujće so z Wašim "
+"administratorom abo pohladajće do přiručki Wašeho prowidera.\n"
+"</qt>"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, noProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:26
 msgid "Connect to the Internet directly."
-msgstr ""
+msgstr "Direktny zwisk do interneta."
 
 #. i18n: ectx: property (text), widget (QRadioButton, noProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:29
@@ -4694,36 +4815,42 @@ msgid ""
 "please check the FAQ section at http://konqueror.kde.org.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"Awtomatisce zwěsći a připrawi nastajenja proxyja.<p>\n"
+"Awtomatiske zwěsćenje so sčini přez <b>Web Proxy Auto-Discovery Protocol "
+"(WPAD)</b>.<p>\n"
+"<b>Kedźbu:</b> W někotrych UNIX/Linux-distribucijow tuta opcija k "
+"dispoziciji njesteji. Jeli maće problem z njej, prošu pohladajće do wotrězka "
+"FAQ na http://konqueror.kde.org.\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, autoDiscoverProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:49
 #, fuzzy
-#| msgid ""
-#| "The proxy configuration script is invalid:\n"
-#| "%1"
+#| msgid "U&se proxy configuration URL:"
 msgid "Detect proxy configuration automatically"
-msgstr ""
-"Njewalidny skript za konfiguraciju proxyja:\n"
-"%1"
+msgstr "URL za připrawjenski skript za proxy w&užiwać:"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, autoScriptProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:59
+#, fuzzy
+#| msgid "Use the specified proxy script URL to configure the proxy settings."
 msgid "Use the specified proxy script to configure the proxy settings."
 msgstr ""
+"URL za připrawjenski skript za proxy wužiwać za připrawjenje nastajenjow "
+"proxyja."
 
 #. i18n: ectx: property (text), widget (QRadioButton, autoScriptProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:62
 #, fuzzy
-#| msgid "Reload configuration file"
+#| msgid "U&se proxy configuration URL:"
 msgid "Use proxy auto configuration URL:"
-msgstr "Konfiguracisku dataju nowa začitać."
+msgstr "URL za připrawjenski skript za proxy w&užiwać:"
 
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, proxyScriptUrlRequester)
 #: kcms/kio/kproxydlg.ui:93
-#, fuzzy
-#| msgid "Could not download the proxy configuration script"
 msgid "Enter the address for the proxy configuration script."
-msgstr "Njemóžach skript za konfiguraciju proxyja dele sćahnyć"
+msgstr "Adresu za připrawjenski skript proxyja zapodać."
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, systemProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:117
@@ -4743,9 +4870,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, systemProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:120
 #, fuzzy
-#| msgid "Updating system configuration."
+#| msgid "U&se proxy configuration URL:"
 msgid "Use system proxy configuration:"
-msgstr "Aktualizuju konfiguraciju systema."
+msgstr "URL za připrawjenski skript za proxy w&užiwać:"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, autoDetectButton)
 #: kcms/kio/kproxydlg.ui:127
@@ -4755,15 +4882,28 @@ msgid ""
 "for commonly used variable names such as HTTP_PROXY, FTP_PROXY and NO_PROXY."
 "</qt>"
 msgstr ""
+"<qt>Spyta awtomatisce zwěsćić, kajke su wokolinowe wariable za proxyje.<p>To "
+"funguje tak, zo so za častymi wariablowymi mjenami pyta kaž HTTP_PROXY, "
+"FTP_PROXY a NO_PROXY.</qt>"
 
 #. i18n: ectx: property (text), widget (QPushButton, autoDetectButton)
 #: kcms/kio/kproxydlg.ui:130
+#, fuzzy
+#| msgid "Auto &Detect"
 msgid "Auto D&etect"
-msgstr ""
+msgstr "Awtomatisce &namakać"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, systemProxyHttpLabel)
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, systemProxyHttpEdit)
 #: kcms/kio/kproxydlg.ui:158 kcms/kio/kproxydlg.ui:183
+#, fuzzy
+#| msgid ""
+#| "<qt>\n"
+#| "Enter the name of the environment variable, e.g. <b>HTTP_PROXY</b>, used "
+#| "to store the address of the HTTP proxy server.<p>\n"
+#| "Alternatively, you can click on the <b>\"Auto Detect\"</b> button to "
+#| "attempt automatic discovery of this variable.\n"
+#| "</qt>"
 msgid ""
 "<qt>\n"
 "Enter the name of the environment variable, e.g. <b>HTTP_PROXY</b>, used to "
@@ -4772,6 +4912,12 @@ msgid ""
 "automatic discovery of this variable.</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"Zapodajće mjeno wokolinoweje wariable, na płr. <b>HTTP_PROXY</b>, kotraž so "
+"wužiwa za składowanje adresy HTTP-proxyjoweho serwera.<p>\n"
+" Hewak móžeće na <b>\"Awtomatisce namakać\"</b> stłóčić a tak spytać, "
+"wariablu awtomatisce zwěsćić.\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, systemProxyHttpLabel)
 #. i18n: ectx: property (text), widget (QLabel, manualProxyHttpEditLabel)
@@ -4784,6 +4930,14 @@ msgstr "Proxy:"
 #. i18n: ectx: property (whatsThis), widget (QLabel, systemProxyHttpsLabel)
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, systemProxyHttpsEdit)
 #: kcms/kio/kproxydlg.ui:193 kcms/kio/kproxydlg.ui:218
+#, fuzzy
+#| msgid ""
+#| "<qt>\n"
+#| "Enter the name of the environment variable, e.g. <b>HTTPS_PROXY</b>, used "
+#| "to store the address of the HTTPS proxy server.<p>\n"
+#| "Alternatively, you can click on the <b>\"Auto Detect\"</b> button to "
+#| "attempt an automatic discovery of this variable.\n"
+#| "</qt>"
 msgid ""
 "<qt>\n"
 "Enter the name of the environment variable, e.g. <b>HTTPS_PROXY</b>, used to "
@@ -4792,6 +4946,12 @@ msgid ""
 "an automatic discovery of this variable.</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"Zapodajće mjeno wokolinoweje wariable, na př. <b>HTTPS_PROXY</b>, w kotrejž "
+"so adresa HTTPS-proxyja składuje.<p>\n"
+" Hewak móžeće na <b>\"Awtomatisce namakać\"</b> stłóčić a tak spytać, "
+"wariablu awtomatisce zwěsćić.\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, systemProxyHttpsLabel)
 #. i18n: ectx: property (text), widget (QLabel, manualProxyHttpsEditLabel)
@@ -4804,6 +4964,14 @@ msgstr "Proxy:"
 #. i18n: ectx: property (whatsThis), widget (QLabel, systemProxyFtpLabel)
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, systemProxyFtpEdit)
 #: kcms/kio/kproxydlg.ui:228 kcms/kio/kproxydlg.ui:253
+#, fuzzy
+#| msgid ""
+#| "<qt>\n"
+#| "Enter the name of the environment variable, e.g. <b>FTP_PROXY</b>, used "
+#| "to store the address of the FTP proxy server.<p>\n"
+#| "Alternatively, you can click on the <b>\"Auto Detect\"</b> button to "
+#| "attempt an automatic discovery of this variable.\n"
+#| "</qt>"
 msgid ""
 "<qt>\n"
 "Enter the name of the environment variable, e.g. <b>FTP_PROXY</b>, used to "
@@ -4812,6 +4980,12 @@ msgid ""
 "an automatic discovery of this variable.</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"Zapodajće mjeno wokolinoweje wariable, na př. <b>FTP_PROXY</b>, w kotrejž so "
+"adresa FTP-proxyja składuje.<p>\n"
+" Hewak móžeće na <b>\"Awtomatisce namakać\"</b> stłóčić a tak spytać, "
+"wariablu awtomatisce zwěsćić.\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, systemProxyFtpLabel)
 #. i18n: ectx: property (text), widget (QLabel, manualProxyFtpEditLabel)
@@ -4823,6 +4997,14 @@ msgstr "Proxy:"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, systemProxySocksLabel)
 #: kcms/kio/kproxydlg.ui:263
+#, fuzzy
+#| msgid ""
+#| "<qt>\n"
+#| "Enter the name of the environment variable, e.g. <b>HTTPS_PROXY</b>, used "
+#| "to store the address of the HTTPS proxy server.<p>\n"
+#| "Alternatively, you can click on the <b>\"Auto Detect\"</b> button to "
+#| "attempt an automatic discovery of this variable.\n"
+#| "</qt>"
 msgid ""
 "<qt>\n"
 "Enter the name of the environment variable, e.g. <b>SOCKS_PROXY</b>, used to "
@@ -4831,6 +5013,12 @@ msgid ""
 "an automatic discovery of this variable.</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"Zapodajće mjeno wokolinoweje wariable, na př. <b>HTTPS_PROXY</b>, w kotrejž "
+"so adresa HTTPS-proxyja składuje.<p>\n"
+" Hewak móžeće na <b>\"Awtomatisce namakać\"</b> stłóčić a tak spytać, "
+"wariablu awtomatisce zwěsćić.\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, systemProxySocksLabel)
 #. i18n: ectx: property (text), widget (QLabel, manualProxySocksEditLabel)
@@ -4842,12 +5030,26 @@ msgstr "Proxy:"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, systemProxySocksEdit)
 #: kcms/kio/kproxydlg.ui:285
+#, fuzzy
+#| msgid ""
+#| "<qt>\n"
+#| "Enter the name of the environment variable, e.g. <b>HTTPS_PROXY</b>, used "
+#| "to store the address of the HTTPS proxy server.<p>\n"
+#| "Alternatively, you can click on the <b>\"Auto Detect\"</b> button to "
+#| "attempt an automatic discovery of this variable.\n"
+#| "</qt>"
 msgid ""
 "<qt>Enter the name of the environment variable, e.g. <b>SOCKS_PROXY</b>, "
 "used to store the address of the SOCKS proxy server.<p>Alternatively, you "
 "can click on the <b>\"Auto Detect\"</b> button to attempt an automatic "
 "discovery of this variable.</p></qt>"
 msgstr ""
+"<qt>\n"
+"Zapodajće mjeno wokolinoweje wariable, na př. <b>HTTPS_PROXY</b>, w kotrejž "
+"so adresa HTTPS-proxyja składuje.<p>\n"
+" Hewak móžeće na <b>\"Awtomatisce namakać\"</b> stłóčić a tak spytać, "
+"wariablu awtomatisce zwěsćić.\n"
+"</qt>"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, sysNoProxyLabel)
 #. i18n: ectx: property (whatsThis), widget (QLabel, manNoProxyLabel)
@@ -4860,43 +5062,65 @@ msgid ""
 "an automatic discovery of this variable.\n"
 "</qt>"
 msgstr ""
+"<qt>Zapodajće mjeno wokolinoweje wariable, na př. <b>NO_PROXY</b>, w kotrejž "
+"so adresy serwerow składuja, za kotrež so žadyn proxy njewužiwa.<p>\n"
+" Hewak móžeće na <b>\"Awtomatisce namakać\"</b> stłóčić a tak spytać, "
+"wariablu awtomatisce zwěsćić.\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, sysNoProxyLabel)
 #. i18n: ectx: property (text), widget (QLabel, manNoProxyLabel)
 #: kcms/kio/kproxydlg.ui:298 kcms/kio/kproxydlg.ui:602
 #, fuzzy
-#| msgid "Description:"
+#| msgid "New Exception"
 msgid "Exceptions:"
-msgstr "Wopisanje:"
+msgstr "Nowe wuwzaće"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, systemNoProxyEdit)
 #: kcms/kio/kproxydlg.ui:317
+#, fuzzy
+#| msgid ""
+#| "<qt>\n"
+#| "Enter the environment variable, e.g. <b>NO_PROXY</b>, used to store the "
+#| "addresses of sites for which the proxy server should not be used.<p>\n"
+#| "Alternatively, you can click on the <b>\"Auto Detect\"</b> button to "
+#| "attempt an automatic discovery of this variable.\n"
+#| "</qt>"
 msgid ""
 "<qt>Enter the environment variable, e.g. <b>NO_PROXY</b>, used to store the "
 "addresses of sites for which the above proxy settings should not be used."
 "<p>Alternatively, you can click on the <b>\"Auto Detect\"</b> button to "
 "attempt an automatic discovery of this variable.</p></qt>"
 msgstr ""
+"<qt>Zapodajće mjeno wokolinoweje wariable, na př. <b>NO_PROXY</b>, w kotrejž "
+"so adresy serwerow składuja, za kotrež so žadyn proxy njewužiwa.<p>\n"
+" Hewak móžeće na <b>\"Awtomatisce namakać\"</b> stłóčić a tak spytać, "
+"wariablu awtomatisce zwěsćić.\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, showEnvValueCheckBox)
 #: kcms/kio/kproxydlg.ui:324
 msgid "Show the &value of the environment variables"
-msgstr ""
+msgstr "Hódnoty &wokolinowych wariablow pokazać"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, manualProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:343
 msgid "Manually enter proxy server configuration information."
-msgstr ""
+msgstr "Připrawjensku informaciju za proxy manuelnje zapodać."
 
 #. i18n: ectx: property (text), widget (QRadioButton, manualProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:346
+#, fuzzy
+#| msgid "A&utomatically detect proxy configuration"
 msgid "Use manually specified proxy configuration:"
-msgstr ""
+msgstr "A&wtomatiske zwěsćenje proxy-nastajenjow"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxyHttpEdit)
 #: kcms/kio/kproxydlg.ui:398
+#, fuzzy
+#| msgid "Enter the address for the proxy configuration script."
 msgid "Enter the address of the HTTP proxy server."
-msgstr ""
+msgstr "Adresu za připrawjenski skript proxyja zapodać."
 
 #. i18n: ectx: property (text), widget (QLabel, manualProxyHttpSpinBoxLabel)
 #. i18n: ectx: property (text), widget (QLabel, manualProxyHttpsSpinBoxLabel)
@@ -4909,8 +5133,10 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, manualProxyHttpSpinBox)
 #: kcms/kio/kproxydlg.ui:421
+#, fuzzy
+#| msgid "Enter the address for the proxy configuration script."
 msgid "Enter the port number of the HTTP proxy server."
-msgstr ""
+msgstr "Adresu za připrawjenski skript proxyja zapodać."
 
 #. i18n: ectx: property (text), widget (QCheckBox, useSameProxyCheckBox)
 #: kcms/kio/kproxydlg.ui:436
@@ -4919,33 +5145,45 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxyHttpsEdit)
 #: kcms/kio/kproxydlg.ui:464
+#, fuzzy
+#| msgid "Enter the address for the proxy configuration script."
 msgid "Enter the address of the HTTPS proxy server."
-msgstr ""
+msgstr "Adresu za připrawjenski skript proxyja zapodać."
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, manualProxyHttpsSpinBox)
 #: kcms/kio/kproxydlg.ui:481
+#, fuzzy
+#| msgid "Enter the address for the proxy configuration script."
 msgid "Enter the port number of the HTTPS proxy server."
-msgstr ""
+msgstr "Adresu za připrawjenski skript proxyja zapodać."
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxyFtpEdit)
 #: kcms/kio/kproxydlg.ui:517
+#, fuzzy
+#| msgid "Enter the address for the proxy configuration script."
 msgid "Enter the address of the FTP proxy server."
-msgstr ""
+msgstr "Adresu za připrawjenski skript proxyja zapodać."
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, manualProxyFtpSpinBox)
 #: kcms/kio/kproxydlg.ui:534
+#, fuzzy
+#| msgid "Enter the address for the proxy configuration script."
 msgid "Enter the port number of the FTP proxy server."
-msgstr ""
+msgstr "Adresu za připrawjenski skript proxyja zapodać."
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxySocksEdit)
 #: kcms/kio/kproxydlg.ui:567
+#, fuzzy
+#| msgid "Enter the address for the proxy configuration script."
 msgid "Enter the address of the SOCKS proxy server."
-msgstr ""
+msgstr "Adresu za připrawjenski skript proxyja zapodać."
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, manualProxySocksSpinBox)
 #: kcms/kio/kproxydlg.ui:584
+#, fuzzy
+#| msgid "Enter the address for the proxy configuration script."
 msgid "Enter the port number of the SOCKS proxy server."
-msgstr ""
+msgstr "Adresu za připrawjenski skript proxyja zapodać."
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, manualNoProxyEdit)
 #: kcms/kio/kproxydlg.ui:628
@@ -4980,25 +5218,28 @@ msgid ""
 "You have to restart the running applications for these changes to take "
 "effect."
 msgstr ""
+"Dyrbiće aplikacije znowa startować, zo bychu so tute změny wuskutkowali."
 
 #: kcms/kio/ksaveioconfig.cpp:224 kcms/kio/ksaveioconfig.cpp:238
 #, fuzzy
-#| msgid "&Paste File"
-#| msgid_plural "&Paste %1 Files"
+#| msgid "Update Failed"
 msgctxt "@title:window"
 msgid "Update Failed"
-msgstr "%1 dataju  &zasunyć"
+msgstr "Aktualizowanje zwrěšćene"
 
 #: kcms/kio/ksaveioconfig.cpp:237
 msgid "You have to restart KDE for these changes to take effect."
-msgstr ""
+msgstr "Dyrbiće KDE znowa startować, zo bychu so tute změny wuskutkowali."
 
 #: kcms/kio/netpref.cpp:32
 msgid "Timeout Values"
-msgstr ""
+msgstr "Hódnoty za překročenje časa"
 
 #: kcms/kio/netpref.cpp:33
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Here you can set timeout values. You might want to tweak them if your "
+#| "connection is very slow. The maximum allowed value is %1 seconds."
 msgid ""
 "Here you can set timeout values. You might want to tweak them if your "
 "connection is very slow. The maximum allowed value is 1 second."
@@ -5006,56 +5247,64 @@ msgid_plural ""
 "Here you can set timeout values. You might want to tweak them if your "
 "connection is very slow. The maximum allowed value is %1 seconds."
 msgstr[0] ""
+"Tu móžeće hódnoty za překročenje časa nastajić. To móže trěbne być, jeli je "
+"Waš zwisk jara pomałki. Maksimalna móžna hódnota je %1 sekundow."
 msgstr[1] ""
+"Tu móžeće hódnoty za překročenje časa nastajić. To móže trěbne być, jeli je "
+"Waš zwisk jara pomałki. Maksimalna móžna hódnota je %1 sekundow."
 msgstr[2] ""
+"Tu móžeće hódnoty za překročenje časa nastajić. To móže trěbne być, jeli je "
+"Waš zwisk jara pomałki. Maksimalna móžna hódnota je %1 sekundow."
 msgstr[3] ""
+"Tu móžeće hódnoty za překročenje časa nastajić. To móže trěbne być, jeli je "
+"Waš zwisk jara pomałki. Maksimalna móžna hódnota je %1 sekundow."
 
 #: kcms/kio/netpref.cpp:45 kcms/kio/netpref.cpp:51 kcms/kio/netpref.cpp:57
 #: kcms/kio/netpref.cpp:63
+#, fuzzy
+#| msgid " sec"
 msgid " second"
 msgid_plural " seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "sek"
+msgstr[1] "sek"
+msgstr[2] "sek"
+msgstr[3] "sek"
 
 #: kcms/kio/netpref.cpp:47
 msgid "Soc&ket read:"
-msgstr ""
+msgstr "Čitanje ze soc&keta:"
 
 #: kcms/kio/netpref.cpp:53
-#, fuzzy
-#| msgid "Not connected."
 msgid "Pro&xy connect:"
-msgstr "Žadyn zwisk"
+msgstr "Zwisk na pro&xy:"
 
 #: kcms/kio/netpref.cpp:59
 msgid "Server co&nnect:"
-msgstr ""
+msgstr "Zwisk ze &serwerom:"
 
 #: kcms/kio/netpref.cpp:65
 msgid "&Server response:"
-msgstr ""
+msgstr "W&otmołwa serwera"
 
 #: kcms/kio/netpref.cpp:67
-#, fuzzy
-#| msgid "Operation"
 msgid "FTP Options"
-msgstr "Operacija"
+msgstr "FTP-opcije"
 
 #: kcms/kio/netpref.cpp:71
 msgid "Enable passive &mode (PASV)"
-msgstr ""
+msgstr "Pasiwny modus zmóžnić (PASV)"
 
 #: kcms/kio/netpref.cpp:72
 msgid ""
 "Enables FTP's \"passive\" mode. This is required to allow FTP to work from "
 "behind firewalls."
 msgstr ""
+"Spřistupni \"pasiwny\" modus FTP. To je trěbne, hdyž ma FTP přez firewall "
+"fungować."
 
 #: kcms/kio/netpref.cpp:78
 msgid "Mark &partially uploaded files"
-msgstr ""
+msgstr "Zdźěla &pósłane dataje markěrować"
 
 #: kcms/kio/netpref.cpp:79
 msgid ""
@@ -5063,6 +5312,9 @@ msgid ""
 "partially uploaded files will have a \".part\" extension. This extension "
 "will be removed once the transfer is complete.</p>"
 msgstr ""
+"<p>Markěruje zdźěla pósłane FTP-dataje.</p><p>Z tutej opciju změja "
+"njedospołne dataje ekstensiju \".part\". Tuta ekstensija so wotstroni, hdyž "
+"je dataja dopřenjesena.</p>"
 
 #: kcms/kio/netpref.cpp:147
 msgid ""
@@ -5071,6 +5323,10 @@ msgid ""
 "use a modem to connect to the Internet, you might want to adjust these "
 "settings."
 msgstr ""
+"<h1>Syćowe zadźerženje</h1>Tu móžeće zadźerženje KDE-programow nastupajo "
+"internet a syćowe zwiski připrawić. Hdyž maće problemy z překročenjom časa "
+"abo hdyž wužiwaće modem za zwisk do interneta, dyrbiće snano tute nastajenja "
+"změnić."
 
 #: kcms/kio/smbrodlg.cpp:45
 msgid "These settings apply to network browsing only."
@@ -5125,9 +5381,11 @@ msgid ""
 msgstr ""
 
 #: kcms/kio/useragentdlg.cpp:198
+#, fuzzy
+#| msgid "Duplicate Entry"
 msgctxt "@title:window"
 msgid "Duplicate Identification"
-msgstr ""
+msgstr "Dwójny zapis"
 
 #: kcms/kio/useragentdlg.cpp:370
 msgid ""
@@ -5176,9 +5434,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, sendUACheckBox)
 #: kcms/kio/useragentdlg.ui:30
 #, fuzzy
-#| msgid "Send certificate"
+#| msgid "Duplicate Entry"
 msgid "&Send identification"
-msgstr "Certifikat pósłać"
+msgstr "Dwójny zapis"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, defaultIdGroupBox)
 #: kcms/kio/useragentdlg.ui:43
@@ -5190,9 +5448,9 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, defaultIdGroupBox)
 #: kcms/kio/useragentdlg.ui:46
 #, fuzzy
-#| msgid "Server Authentication"
+#| msgid "Duplicate Entry"
 msgid "Default Identification"
-msgstr "Přepruwowanje servera"
+msgstr "Dwójny zapis"
 
 #. i18n: ectx: property (whatsThis), widget (KSqueezedTextLabel, defaultIdLineEdit)
 #: kcms/kio/useragentdlg.ui:58
@@ -5252,22 +5510,24 @@ msgstr "Sćelu informaciju za přizjewjenje"
 
 #. i18n: ectx: property (title), widget (QGroupBox, domainPolicyGroupBox)
 #: kcms/kio/useragentdlg.ui:143
+#, fuzzy
+#| msgid "Duplicate Entry"
 msgid "Site Specific Identification"
-msgstr ""
+msgstr "Dwójny zapis"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
 #: kcms/kio/useragentdlg.ui:156
 #, fuzzy
-#| msgid "By Name"
+#| msgid "Username:"
 msgid "Site Name"
-msgstr "po mjenach"
+msgstr "Mjeno wužiwarja:"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
 #: kcms/kio/useragentdlg.ui:161
 #, fuzzy
-#| msgid "Certificate"
+#| msgid "Duplicate Entry"
 msgid "Identification"
-msgstr "Certifikat"
+msgstr "Dwójny zapis"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
 #: kcms/kio/useragentdlg.ui:166
@@ -5331,8 +5591,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, aliasLabel)
 #: kcms/kio/useragentselectordlg.ui:50
+#, fuzzy
+#| msgid "Use this login information."
 msgid "&Use the following identification:"
-msgstr ""
+msgstr "Tute přizjewjenske daty wužiwać"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, identityLabel)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, identityLineEdit)
@@ -5347,9 +5609,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, identityLabel)
 #: kcms/kio/useragentselectordlg.ui:77
 #, fuzzy
-#| msgid "Server Authentication"
+#| msgid "Duplicate Entry"
 msgid "Real identification:"
-msgstr "Přepruwowanje servera"
+msgstr "Dwójny zapis"
 
 #: kcms/webshortcuts/main.cpp:41
 msgid "Web Shortcuts"
@@ -7726,1240 +7988,423 @@ msgid ""
 msgstr ""
 
 #~ msgid ""
-#~ "<qt>Do you really want to delete\n"
-#~ " <b>'%1'</b>?</qt>"
-#~ msgstr "<qt>Chceće <b>'%1'</b> woprawdźe zničić?</qt>"
-
-#, fuzzy
-#~ msgid ""
-#~ "<qt>Do you really want to trash\n"
-#~ " <b>'%1'</b>?</qt>"
-#~ msgstr "<qt>Chceće <b>'%1'</b> woprawdźe zničić?</qt>"
-
-#, fuzzy
-#~ msgid "Trash File"
-#~ msgstr "Papjernik"
-
-#, fuzzy
-#~ msgid "translators: not called for n == 1"
-#~ msgid_plural "Do you really want to trash these %1 items?"
-#~ msgstr[0] "Chceće woprawdźe tutón %1 objekt zničić?"
-#~ msgstr[1] "Chceće woprawdźe tutej %1 objektaj zničić?"
-#~ msgstr[2] "Chceće woprawdźe tute %1 objekty zničić?"
-#~ msgstr[3] "Chceće woprawdźe tute %1 objektow zničić?"
-
-#, fuzzy
-#~ msgid "Trash Files"
-#~ msgstr "Temporarne dataje"
-
-#, fuzzy
-#~ msgctxt "@info"
-#~ msgid "Do you really want to empty the Trash? All items will be deleted."
-#~ msgstr "Chceće woprawdźe tute %1 objektow zničić?"
-
-#, fuzzy
-#~| msgid "1 day %2"
-#~| msgid_plural "%1 days %2"
-#~ msgid "1 day 23:59:00"
-#~ msgstr "%1 dźeń %2"
-
-#, fuzzy
-#~ msgctxt "folder name"
-#~ msgid "New Folder"
-#~ msgstr "Nowy zapisk..."
-
-#, fuzzy
-#~ msgctxt "@label:textbox"
-#~ msgid ""
-#~ "Create new folder in:\n"
-#~ "%1"
-#~ msgstr "Nowy zapisk stworić w:"
-
-#~ msgctxt "@title:window"
-#~ msgid "Select Folder"
-#~ msgstr "Zapisk wubrać"
-
-#, fuzzy
-#~| msgid "New Folder..."
-#~ msgctxt "@action:button"
-#~ msgid "New Folder..."
-#~ msgstr "Nowy zapisk..."
-
-#, fuzzy
-#~| msgid "New Folder..."
-#~ msgctxt "@action:inmenu"
-#~ msgid "New Folder..."
-#~ msgstr "Nowy zapisk..."
-
-#, fuzzy
-#~| msgid "Move to Trash"
-#~ msgctxt "@action:inmenu"
-#~ msgid "Move to Trash"
-#~ msgstr "do papjernika sunyć"
-
-#, fuzzy
-#~ msgctxt "@action:inmenu"
-#~ msgid "Delete"
-#~ msgstr "Niču"
-
-#, fuzzy
-#~ msgctxt "@option:check"
-#~ msgid "Show Hidden Folders"
-#~ msgstr "chowane dataje pokazować"
-
-#, fuzzy
-#~| msgid "Properties"
-#~ msgctxt "@action:inmenu"
-#~ msgid "Properties"
-#~ msgstr "Swójstwa"
-
-#, fuzzy
-#~ msgid "Show Hidden Folders"
-#~ msgstr "chowane dataje pokazować"
-
-#~ msgid "KDE HTTP cache maintenance tool"
-#~ msgstr "Administraciski nastroj za KDE HTTP-pomjatk"
-
-#~ msgid "Empty the cache"
-#~ msgstr "Pomjatk wuprózdnić."
-
-#, fuzzy
-#~| msgid "Display SSL &Information"
-#~ msgid "Display information about cache file"
-#~ msgstr "&SSL-informaciju pokazać"
-
-#~ msgid "HTTP Cookie Daemon"
-#~ msgstr "HTTP-demon za placki"
-
-#~ msgid "HTTP cookie daemon"
-#~ msgstr "HTTP-demon za placki"
-
-#~ msgid "Shut down cookie jar"
-#~ msgstr "Plackowu tyzu začinić."
-
-#~ msgid "Remove cookies for domain"
-#~ msgstr "Wšitke placki za domain zničić."
-
-#~ msgid "kio_metainfo"
-#~ msgstr "kio_metainfo"
-
-#~ msgid "No metainfo for %1"
-#~ msgstr "Žana metainformacija za %1"
-
-#~ msgid "--- separator ---"
-#~ msgstr "--- dźělak ---"
-
-#, fuzzy
-#~| msgid "Date"
-#~ msgctxt "@action:button"
-#~ msgid "Update"
-#~ msgstr "Datum"
-
-#~ msgctxt "@title:window"
-#~ msgid "Bookmark Properties"
-#~ msgstr "Swójstwa lubuškow"
-
-#~ msgctxt "@action:button"
-#~ msgid "Add"
-#~ msgstr "Dodać"
-
-#~ msgctxt "@title:window"
-#~ msgid "Add Bookmark"
-#~ msgstr "K lubuškam dodać "
-
-#~ msgctxt "@title:window"
-#~ msgid "Add Bookmarks"
-#~ msgstr "Lubuški dodać "
-
-#~ msgctxt "@label:textbox"
-#~ msgid "Name:"
-#~ msgstr "Mjeno:"
-
-#~ msgctxt "@label:textbox"
-#~ msgid "Location:"
-#~ msgstr "Městno:"
-
-#, fuzzy
-#~ msgctxt "@label:textbox"
-#~ msgid "Comment:"
-#~ msgstr "Komentar:"
-
-#~ msgctxt "@title:window"
-#~ msgid "Create New Bookmark Folder"
-#~ msgstr "Nowy zapisk za lubuški stworić"
-
-#~ msgctxt "@title:window"
-#~ msgid "Create New Bookmark Folder in %1"
-#~ msgstr "Nowy zapisk za lubuški  w %1 stworić"
-
-#~ msgctxt "@label:textbox"
-#~ msgid "New folder:"
-#~ msgstr "Nowy zapisk:"
-
-#, fuzzy
-#~| msgid "Bookmarks"
-#~ msgctxt "name of the container of all browser bookmarks"
-#~ msgid "Bookmarks"
-#~ msgstr "Lubuški"
-
-#~ msgid "*.html|HTML Files (*.html)"
-#~ msgstr "*.html|HTML-dataje (*.html)"
-
-#~ msgid "<!-- This file was generated by Konqueror -->"
-#~ msgstr "<!-- Tuta dataja bu wot Konquerora generowana -->"
-
-#~ msgid "*.adr|Opera Bookmark Files (*.adr)"
-#~ msgstr "*.adr|lubuški Opery (*.adr)"
-
-#~ msgid "Add Bookmark Here"
-#~ msgstr "Tule k lubuškam dodać "
-
-#~ msgid "Open Folder in Bookmark Editor"
-#~ msgstr "Zapisk wočinić w editorje lubuškow"
-
-#~ msgid "Delete Bookmark"
-#~ msgstr "Z lubuškow wumjetać"
-
-#, fuzzy
-#~ msgid "Open Folder in Tabs"
-#~ msgstr "Wočinić w editorje lubuškow"
-
-#~ msgid "Cannot add bookmark with empty URL."
-#~ msgstr "Njemóžu lubuška dodać bjez URL"
-
-#, fuzzy
-#~ msgid "Bookmark Folder Deletion"
-#~ msgstr "Nowy zapisk za lubuški  w %1 stworić"
-
-#, fuzzy
-#~ msgid "Bookmark Deletion"
-#~ msgstr "Wubjerće chorhoje"
-
-#, fuzzy
-#~ msgid "Bookmark Tabs as Folder..."
-#~ msgstr "&Nowy zapisk lubuškow..."
-
-#~ msgid "Edit your bookmark collection in a separate window"
-#~ msgstr "Lubuški w nowym woknje editować"
-
-#~ msgid "New Bookmark Folder..."
-#~ msgstr "Nowy zapisk lubuškow..."
-
-#~ msgid "Create a new bookmark folder in this menu"
-#~ msgstr "Nowy zapisk za lubuškow w tutym meniju stworić"
-
-#, fuzzy
-#~ msgid "Hide in toolbar"
-#~ msgstr "K lubuškam dodać "
-
-#, fuzzy
-#~| msgid "Show toolbar"
-#~ msgid "Show in toolbar"
-#~ msgstr "Pokaž nastroje"
-
-#~ msgid "Receiving corrupt data."
-#~ msgstr "Dóstawam skóncowane daty."
-
-#, fuzzy
-#~| msgid "Add Entry..."
-#~ msgctxt "@label"
-#~ msgid "Add Comment..."
-#~ msgstr "Zapis dodać ..."
-
-#, fuzzy
-#~| msgid "Comment"
-#~ msgctxt "@title:window"
-#~ msgid "Add Comment"
-#~ msgstr "Komentar"
-
-#~ msgid "Device name"
-#~ msgstr "Mjeno grata"
-
-#~ msgid "*|All files"
-#~ msgstr "*|Wšitke dataje"
-
-#, fuzzy
-#~| msgctxt "Items in a folder"
-#~| msgid "1 item"
-#~| msgid_plural "%1 items"
-#~ msgctxt "@item:intable"
-#~ msgid "%1 item"
-#~ msgid_plural "%1 items"
-#~ msgstr[0] "%1 objekt"
-#~ msgstr[1] "%1 objektaj"
-#~ msgstr[2] "%1 objekty"
-#~ msgstr[3] "%1 objektow"
-
-#, fuzzy
-#~| msgid "Comment"
-#~ msgctxt "@label"
-#~ msgid "Comment"
-#~ msgstr "Komentar"
-
-#, fuzzy
-#~| msgid "Modified:"
-#~ msgctxt "@label"
-#~ msgid "Modified"
-#~ msgstr "Změnjeny:"
-
-#, fuzzy
-#~| msgid "Owner"
-#~ msgctxt "@label"
-#~ msgid "Owner"
-#~ msgstr "Wobsydnik"
-
-#, fuzzy
-#~| msgid "Sorting"
-#~ msgctxt "@label"
-#~ msgid "Rating"
-#~ msgstr "Rjadowanje"
-
-#, fuzzy
-#~| msgctxt "@title:column"
-#~| msgid "Size"
-#~ msgctxt "@label"
-#~ msgid "Size"
-#~ msgstr "Wulkosć"
-
-#, fuzzy
-#~ msgctxt "@label"
-#~ msgid "Tags"
-#~ msgstr "Papjernik"
-
-#, fuzzy
-#~| msgid "Size:"
-#~ msgctxt "@label"
-#~ msgid "Total Size"
-#~ msgstr "Wulkosć:"
-
-#, fuzzy
-#~| msgid "Type"
-#~ msgctxt "@label"
-#~ msgid "Type"
-#~ msgstr "Družina"
-
-#~ msgid "<Error>"
-#~ msgstr "<Zmylk>"
-
-#, fuzzy
-#~ msgid "&Share"
-#~ msgstr "Za zhromadne wužiwanje"
-
-#, fuzzy
-#~ msgid "Only folders in your home folder can be shared."
+#~ "<h1>My Bookmarks</h1><p>This module lets you configure the bookmarks home "
+#~ "page.</p><p>The bookmarks home page is accessible at <a href=\"bookmarks:/"
+#~ "\">bookmarks:/</a>.</p>"
 #~ msgstr ""
-#~ "Móžeće jenož podzapiski wašeho domjaceho zapiska k dispoziciji stajić."
-
-#~ msgid "Not shared"
-#~ msgstr "Njeje za zhromadne wužiwanje"
-
-#~ msgid "Shared"
-#~ msgstr "Za zhromadne wužiwanje"
-
-#, fuzzy
-#~ msgid ""
-#~ "Sharing this folder makes it available under Linux/UNIX (NFS) and Windows "
-#~ "(Samba)."
-#~ msgstr ""
-#~ "Hdyž steji tutón zapisk za zhromadne wužiwanje k dispoziciji, hodźi so "
-#~ "wón pod Linuxom/UNIXom (NFS) a Windowsom (Samba) wužiwać."
-
-#~ msgid "You can also reconfigure file sharing authorization."
-#~ msgstr ""
-#~ "Móžeće tež awtorizaciju za zhromadne wužiwanje datajow hinak konfigurować."
-
-#~ msgid "Configure File Sharing..."
-#~ msgstr "Konfiguracija zhromadneho wužiwanja datajow"
+#~ "<h1>Moje lubuški</h1><p>Tutón modul dowoli Wam domjacu stronu lubuškow "
+#~ "připrawić.</p><p>Domjaca strona lubuškow namaka so na <a href="
+#~ "\"bookmarks:/\">bookmarks:/</a>.</p>"
 
 #~ msgid ""
-#~ "Error running 'filesharelist'. Check if installed and in $PATH or /usr/"
-#~ "sbin."
+#~ "If this option is unchecked, bookmarks at the root of the hierarchy (not "
+#~ "in a folder) are not displayed.\n"
+#~ "If checked, they are gathered in a \"root\" folder."
 #~ msgstr ""
-#~ "Zmylk při startowanju 'filesharelist'. Přepruwujće,hač je instalowane a w "
-#~ "$PATH abo /usr/bin."
-
-#, fuzzy
-#~ msgid "You need to be authorized to share folders."
-#~ msgstr "Trjebaće wotpowědne prawo za spřistupnjenje zapiskow."
-
-#, fuzzy
-#~ msgid "File sharing is disabled."
-#~ msgstr "Editowanje znjemóžnjene"
-
-#~ msgid "Select Icon"
-#~ msgstr "Wubjerće piktogram"
-
-#~ msgid "Icon Source"
-#~ msgstr "Žórło piktograma"
-
-#~ msgid "S&ystem icons:"
-#~ msgstr "&Systemowe piktogramy:"
-
-#~ msgid "O&ther icons:"
-#~ msgstr "&Hewaše piktogramy:"
-
-#~ msgid "Actions"
-#~ msgstr "Akcije"
-
-#~ msgid "Animations"
-#~ msgstr "Animacije"
-
-#~ msgid "Applications"
-#~ msgstr "Programy"
-
-#~ msgid "Categories"
-#~ msgstr "Kategorije"
-
-#~ msgid "Devices"
-#~ msgstr "Graty"
-
-#~ msgid "Emblems"
-#~ msgstr "Emblemy"
-
-#~ msgid "Emotes"
-#~ msgstr "Emotikony"
-
-#~ msgid "Filesystems"
-#~ msgstr "Datajowe systemy"
-
-#~ msgid "International"
-#~ msgstr "Mjezynarodny"
-
-#~ msgid "Mimetypes"
-#~ msgstr "Mime-družiny"
-
-#~ msgid "Status"
-#~ msgstr "Status"
-
-#~ msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
-#~ msgstr ""
-#~ "*.png *.xpm *.svg *.svgz|piktogramowe dataje (*.png *.xpm *.svg *.svgz)"
-
-#, fuzzy
-#~| msgid "Information"
-#~ msgctxt "@title:tab"
-#~ msgid "Information"
-#~ msgstr "informacija"
-
-#, fuzzy
-#~| msgid "Created:"
-#~ msgctxt "@label creation date"
-#~ msgid "Created"
-#~ msgstr "Stworjene:"
-
-#, fuzzy
-#~| msgctxt "@title:column"
-#~| msgid "Size"
-#~ msgctxt "@label file content size"
-#~ msgid "Size"
-#~ msgstr "Wulkosć"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "@label"
-#~ msgid "Description"
-#~ msgstr "Wopisanje"
-
-#, fuzzy
-#~| msgid "&General"
-#~ msgctxt "@label Software used to generate content"
-#~ msgid "Generator"
-#~ msgstr "&Powšitkownje"
-
-#, fuzzy
-#~ msgctxt "@label parent directory"
-#~ msgid "Part of"
-#~ msgstr "Zapisk zničić"
-
-#, fuzzy
-#~| msgid "Modified:"
-#~ msgctxt "@label modified date of file"
-#~ msgid "Modified"
-#~ msgstr "Změnjeny:"
-
-#, fuzzy
-#~| msgid "Mime Type"
-#~ msgctxt "@label"
-#~ msgid "MIME Type"
-#~ msgstr "MIME-družina"
-
-#, fuzzy
-#~| msgid "Contents:"
-#~ msgctxt "@label"
-#~ msgid "Content"
-#~ msgstr "Wobsah:"
-
-#, fuzzy
-#~| msgid "created on %1"
-#~ msgctxt "@label"
-#~ msgid "Related To"
-#~ msgstr "stworjene %1"
-
-#, fuzzy
-#~| msgid "Subject"
-#~ msgctxt "@label"
-#~ msgid "Subject"
-#~ msgstr "Tema"
-
-#, fuzzy
-#~| msgid "File"
-#~ msgctxt "@label music title"
-#~ msgid "Title"
-#~ msgstr "Dataja"
-
-#, fuzzy
-#~| msgid "Location:"
-#~ msgctxt "@label file URL"
-#~ msgid "Location"
-#~ msgstr "Městno:"
-
-#, fuzzy
-#~| msgid "Created:"
-#~ msgctxt "@label"
-#~ msgid "Creator"
-#~ msgstr "Stworjene:"
-
-#, fuzzy
-#~| msgid "Categories"
-#~ msgctxt "@label number of characters"
-#~ msgid "Characters"
-#~ msgstr "Kategorije"
-
-#, fuzzy
-#~| msgid "C&onnect"
-#~ msgctxt "@label"
-#~ msgid "Codec"
-#~ msgstr "&Zwjazać"
-
-#, fuzzy
-#~| msgctxt "The destination of a file operation"
-#~| msgid "Destination"
-#~ msgctxt "@label"
-#~ msgid "Duration"
-#~ msgstr "Cil"
-
-#, fuzzy
-#~| msgid "Device name"
-#~ msgctxt "@label"
-#~ msgid "Filename"
-#~ msgstr "Mjeno grata"
-
-#, fuzzy
-#~| msgid "Link"
-#~ msgctxt "@label number of lines"
-#~ msgid "Lines"
-#~ msgstr "Wotkaz"
-
-#, fuzzy
-#~| msgid "Write"
-#~ msgctxt "@label"
-#~ msgid "Width"
-#~ msgstr "Pisać"
-
-#, fuzzy
-#~| msgid "Exposure:"
-#~ msgctxt "@label EXIF"
-#~ msgid "Exposure Time"
-#~ msgstr "Płaćiwy hač do:"
-
-#, fuzzy
-#~| msgid "Class"
-#~ msgctxt "@label EXIF"
-#~ msgid "Flash"
-#~ msgstr "Klasa"
-
-#, fuzzy
-#~| msgid "Mask"
-#~ msgctxt "@label EXIF"
-#~ msgid "Make"
-#~ msgstr "Maska"
-
-#, fuzzy
-#~| msgid "Organization:"
-#~ msgctxt "@label EXIF"
-#~ msgid "Orientation"
-#~ msgstr "Organizacija:"
-
-#, fuzzy
-#~| msgid "Directory"
-#~ msgctxt "@label video director"
-#~ msgid "Director"
-#~ msgstr "Zapisk"
-
-#, fuzzy
-#~| msgid "&General"
-#~ msgctxt "@label music genre"
-#~ msgid "Genre"
-#~ msgstr "&Powšitkownje"
-
-#, fuzzy
-#~ msgctxt "@label"
-#~ msgid "Release Date"
-#~ msgstr "Z&ničić"
-
-#, fuzzy
-#~| msgid "URL Resource Invalid"
-#~ msgctxt "@label resource created time"
-#~ msgid "Resource Created"
-#~ msgstr "Njekorektna URL-resursa."
-
-#, fuzzy
-#~| msgctxt "The source of a file operation"
-#~| msgid "Source"
-#~ msgctxt "@label"
-#~ msgid "Sub Resource"
-#~ msgstr "Žórło"
-
-#, fuzzy
-#~| msgid "Modified:"
-#~ msgctxt "@label resource last modified"
-#~ msgid "Resource Modified"
-#~ msgstr "Změnjeny:"
-
-#, fuzzy
-#~| msgid "Sorting"
-#~ msgctxt "@label"
-#~ msgid "Numeric Rating"
-#~ msgstr "Rjadowanje"
-
-#, fuzzy
-#~| msgid "Comment"
-#~ msgctxt "@label"
-#~ msgid "Usage Count"
-#~ msgstr "Komentar"
-
-#, fuzzy
-#~| msgid "Open file dialog"
-#~ msgctxt "@label"
-#~ msgid "Unix File Owner"
-#~ msgstr "Dialog za wočinjenje dataje"
-
-#, fuzzy
-#~| msgid "Type"
-#~ msgctxt "@label file type"
-#~ msgid "Type"
-#~ msgstr "Družina"
-
-#, fuzzy
-#~| msgid "Created:"
-#~ msgctxt "@label Number of translated strings"
-#~ msgid "Translated"
-#~ msgstr "Stworjene:"
-
-#~ msgid "P&review"
-#~ msgstr "Pře&hladka"
-
-#~ msgid "&Skip File"
-#~ msgstr "Pře&skočić"
-
-#~ msgid "No service implementing %1"
-#~ msgstr "Žadyn service za %1"
-
-#~ msgid "Link to %1 (%2)"
-#~ msgstr "Wotkaz na %1 (%2)"
-
-#~ msgid "Owner:"
-#~ msgstr "Wobsydnik:"
-
-#~ msgid "Permissions:"
-#~ msgstr "Prawa:"
-
-#~ msgid "All Pictures"
-#~ msgstr "Wšitke wobrazy"
-
-#~ msgid "Mime Type"
-#~ msgstr "MIME-družina"
-
-#~ msgid "Comment"
-#~ msgstr "Komentar"
-
-#~ msgid "Patterns"
-#~ msgstr "Mustry"
-
-#~ msgid "&Edit..."
-#~ msgstr "&Wobdźěłać"
-
-#~ msgid "Click this button to display the familiar KDE mime type editor."
-#~ msgstr "Klikńće tutón knefl, zo byšće KDE-Mime-Type-editor startował."
-
-#~ msgid "Acquire Image"
-#~ msgstr "Wobraz wobstarać"
-
-#~ msgid "OCR Image"
-#~ msgstr "OCR-wobraz"
-
-#~ msgid "File '%1' is not readable"
-#~ msgstr "Dataja '%1' njehodźi so čitać"
-
-#~ msgid "ERROR: Unknown protocol '%1'"
-#~ msgstr "ZMYLK: Njeznaty protokol '%1'"
-
-#~ msgid "The clipboard is empty"
-#~ msgstr "Clipboard je prózdny"
-
-#, fuzzy
-#~| msgid "Organization:"
-#~ msgid "Organization / Common Name"
-#~ msgstr "Organizacija:"
-
-#, fuzzy
-#~| msgid "Organizational unit:"
-#~ msgid "Organizational Unit"
-#~ msgstr "Dźěl organizacije:"
-
-#, fuzzy
-#~| msgid "Emblems"
-#~ msgid "Enable"
-#~ msgstr "Emblemy"
-
-#, fuzzy
-#~| msgid "Send certificate"
-#~ msgid "System certificates"
-#~ msgstr "Certifikat pósłać"
-
-#, fuzzy
-#~| msgid "Send certificate"
-#~ msgid "User-added certificates"
-#~ msgstr "Certifikat pósłać"
-
-#, fuzzy
-#~| msgid "Certificate"
-#~ msgid "Pick Certificates"
-#~ msgstr "Certifikat"
-
-#, fuzzy
-#~| msgid "Security Information"
-#~ msgid "<b>Subject Information</b>"
-#~ msgstr "Informacija wo wěstosći"
-
-#, fuzzy
-#~| msgid " <b>[Cross Domain]</b>"
-#~ msgid "<b>Issuer Information</b>"
-#~ msgstr " <b>[Mjezydomainowy]</b>"
-
-#, fuzzy
-#~| msgid "<b>%1</b>"
-#~ msgid "<b>Other</b>"
-#~ msgstr "<b>%1</b>"
-
-#, fuzzy
-#~| msgid "Valid from:"
-#~ msgid "Validity period"
-#~ msgstr "Płaći wot:"
-
-#, fuzzy
-#~| msgid "Serial number:"
-#~ msgid "Serial number"
-#~ msgstr "Čisło serije"
-
-#, fuzzy
-#~| msgid "MD5 digest:"
-#~ msgid "MD5 digest"
-#~ msgstr "MD5 digest:"
-
-#, fuzzy
-#~| msgid "MD5 digest:"
-#~ msgid "SHA1 digest"
-#~ msgstr "MD5 digest:"
-
-#, fuzzy
-#~| msgid "Reload configuration file"
-#~ msgid "SSL Configuration Module"
-#~ msgstr "Konfiguracisku dataju nowa začitać."
-
-#, fuzzy
-#~| msgid "Link"
-#~ msgid "SSL Signers"
-#~ msgstr "Wotkaz"
-
-#~ msgid ""
-#~ "You have indicated that you wish to obtain or purchase a secure "
-#~ "certificate. This wizard is intended to guide you through the procedure. "
-#~ "You may cancel at any time, and this will abort the transaction."
-#~ msgstr ""
-#~ "Kaž so zda, chceće certifikat za zašifrowanje dóstać abo kupić. Tutón "
-#~ "pomocnik ma was přewodźeć. Móžeće akciju kóždy čas přetorhnyć."
-
-#~ msgid ""
-#~ "You must now provide a password for the certificate request. Please "
-#~ "choose a very secure password as this will be used to encrypt your "
-#~ "private key."
-#~ msgstr ""
-#~ "Nětko dyrbiće škitne hesło podać za pominanje certifikata. Prošu wubjerće "
-#~ "sej jara dobre škitne hesło, dokelž z nim so priwatny kluč zašifruje."
-
-#~ msgid "&Choose password:"
-#~ msgstr "&Wubjerće sej škitne hesło:"
-
-#~ msgid "Save selection for this host."
-#~ msgstr "Wubraće za tutón server zawěsćić."
-
-#~ msgid "KDE SSL Certificate Dialog"
-#~ msgstr "KDE SSL-certifikat"
-
-#~ msgid ""
-#~ "The server <b>%1</b> requests a certificate.<br /><br />Select a "
-#~ "certificate to use from the list below:"
-#~ msgstr ""
-#~ "Serwer <b>%1</b> sej certifikat žada.<br /><br /> Wubjerće certifikat z "
-#~ "lisćiny deleka:"
-
-#~ msgid "Signature Algorithm: "
-#~ msgstr "signaturowy algoritmus:"
-
-#~ msgid "Unknown"
-#~ msgstr "Njeznaju"
-
-#~ msgid "Signature Contents:"
-#~ msgstr "Wobsah signatury:"
-
-#~ msgctxt "Unknown"
-#~ msgid "Unknown key algorithm"
-#~ msgstr "Njeznaty algoritmus za kluč"
-
-#~ msgid "Key type: RSA (%1 bit)"
-#~ msgstr "Družina kluča: RSA (%1 bit)"
-
-#~ msgid "Modulus: "
-#~ msgstr "Modulus:"
-
-#~ msgid "Exponent: 0x"
-#~ msgstr "Eksponent: 0x"
-
-#~ msgid "Key type: DSA (%1 bit)"
-#~ msgstr "Družina kluča: DSA (%1 bit)"
-
-#~ msgid "Prime: "
-#~ msgstr "Primska ličba: "
-
-#~ msgid "160 bit prime factor: "
-#~ msgstr "160-bitowy primski faktor:"
-
-#~ msgid "Public key: "
-#~ msgstr "Zjawny kluč:"
-
-#~ msgid ""
-#~ "Retrieval of the issuer certificate failed. This means the CA's "
-#~ "(Certificate Authority) certificate can not be found."
-#~ msgstr ""
-#~ "Certifikat wupisowarja njehodźi so wobstarać. To rěka, zo so certifikat "
-#~ "CA (Certificate Authority) njehodźi namakać. "
-
-#~ msgid ""
-#~ "Retrieval of the CRL (Certificate Revocation List) failed. This means the "
-#~ "CA's (Certificate Authority) CRL can not be found."
-#~ msgstr ""
-#~ "Certificate Revocation List njehodźi so wobstarać. To rěka, zo so CRL "
-#~ "tuteje CA (Certificate Authority) njehodźi namakać. "
-
-#~ msgid ""
-#~ "The decryption of the certificate's signature failed. This means it could "
-#~ "not even be calculated as opposed to just not matching the expected "
-#~ "result."
-#~ msgstr ""
-#~ "Podpismo certifikata njehodźi so dešifrować. To rěka, zo so ani wobličić "
-#~ "njehodźi, nic jehož, zo wuslědk njetrjechi."
-
-#~ msgid ""
-#~ "The decryption of the CRL's (Certificate Revocation List) signature "
-#~ "failed. This means it could not even be calculated as opposed to just not "
-#~ "matching the expected result."
-#~ msgstr ""
-#~ "Podpismo CRL (Certificate Revocation List) njehodźi so dešifrować. To "
-#~ "rěka, zo so ani wobličić njehodźi, nic jehož, zo wuslědk njetrjechi."
-
-#~ msgid ""
-#~ "The decoding of the public key of the issuer failed. This means that the "
-#~ "CA's (Certificate Authority) certificate can not be used to verify the "
-#~ "certificate you wanted to use."
-#~ msgstr ""
-#~ "Zjawny kluč wupisowarja njehodźi so dekodować. To rěka, zo so certifikat "
-#~ "CA (Certificate Authority) njehodźi wužiwać za wopodstatnjenje "
-#~ "certifikata, kotryž chceće wužić."
-
-#~ msgid ""
-#~ "The certificate's signature is invalid. This means that the certificate "
-#~ "can not be verified."
-#~ msgstr ""
-#~ "Podpismo certifikata njetrjechi. To rěka, zo tutón certifikat so njehodźi "
-#~ "werifikować."
+#~ "Bjez tuteje opcije so lubuški deleka w hierarchiji (te, kotrež njejsu w "
+#~ "zapisku) so njepokazuja.\n"
+#~ "Z tutej opciji so zběraja w \"korjentnym\" zapisku."
+
+#~ msgid "&Show bookmarks without folder"
+#~ msgstr "&Lubuški bjez zapiska pokazać"
 
 #, fuzzy
 #~| msgid ""
-#~| "Certificate signing authority root files could not be found so the "
-#~| "certificate is not verified."
+#~| "Sub-folders are show within their parent by default. If you activate "
+#~| "this option, sub-folders are displayed on their own.\n"
+#~| "It looks less nice but it may help if you have a very big folder you "
+#~| "want to spread in two columns."
 #~ msgid ""
-#~ "The CRL's (Certificate Revocation List) signature is invalid. This means "
-#~ "that the CRL can not be verified."
+#~ "Sub-folders are shown within their parent by default. If you activate "
+#~ "this option, sub-folders are displayed on their own.\n"
+#~ "It looks less nice but it may help if you have a very big folder you want "
+#~ "to spread in two columns."
 #~ msgstr ""
-#~ "Zakładne dataje za přepruwowanje certifikata njehodźachu so namakać, tak "
-#~ "zo tutón certifikat njeje werifikowany."
+#~ "Podzapiski pokazuja so normalnje we nadrjadowanym zapisku. Z tutej opciju "
+#~ "so zwonka nich pokazuja.\n"
+#~ "To tak rjenje njewupada, ale druhdy je praktiske, na př. hdyž maće jara "
+#~ "wulki zapisk, kotryž chceće w dwěmaj stołpikomaj pokazać."
 
-#~ msgid "The certificate is not valid, yet."
-#~ msgstr "Certifikat njeje hišće walidny."
-
-#~ msgid "The certificate is not valid, any more."
-#~ msgstr "Certifikat hižo njeje walidny."
-
-#~ msgid "The CRL (Certificate Revocation List) is not valid, yet."
-#~ msgstr "CRL (Certificate Revocation List) njeje hišće walidny."
-
-#~ msgid "The time format of the certificate's 'notBefore' field is invalid."
-#~ msgstr "Časowy format (hódnota za 'notBefore') certifikata njetrjechi."
-
-#~ msgid "The time format of the certificate's 'notAfter' field is invalid."
-#~ msgstr "Časowy format (hódnota za 'notAfter') certifikata njetrjechi."
+#~ msgid "&Flatten bookmarks tree"
+#~ msgstr "Š&tomik lubuškow rozpřestrěć"
 
 #~ msgid ""
-#~ "The time format of the CRL's (Certificate Revocation List) 'lastUpdate' "
-#~ "field is invalid."
+#~ "Show a box with KDE places (Home, Network, ...). Useful if you use "
+#~ "konqueror as a file manager."
 #~ msgstr ""
-#~ "Časowy format (hódnota za 'lastUpdate') CRL (Certificate Revocation List) "
-#~ "njetrjechi."
+#~ "Kašćik z KDE-městnami (Domjacy zapisk, Syć, ...) pokazać. Wužitne, hdyž "
+#~ "wužiwaće konqueror jako datajowy rjadowar."
+
+#~ msgid "Show system &places"
+#~ msgstr "Systemowe &městna pokazać"
+
+#~ msgid "General Settings"
+#~ msgstr "Powšitkowne nastajenja"
 
 #~ msgid ""
-#~ "The time format of the CRL's (Certificate Revocation List) 'nextUpdate' "
-#~ "field is invalid."
+#~ "Folders are automatically distributed in several columns. The optimal "
+#~ "number of columns depends on the width of the konqueror window and the "
+#~ "number of bookmarks you have."
 #~ msgstr ""
-#~ "Časowy format (hódnota za 'nextUpdate') CRL (Certificate Revocation List) "
-#~ "njetrjechi."
+#~ "Zapiski so awtomatisce do wjacorych stołpikow rozrjaduja. Optimalna ličba "
+#~ "stołpikow wotwisuje wot šěrokosće wokna a ličby lubuškow."
 
-#~ msgid "The OpenSSL process ran out of memory."
-#~ msgstr "OpenSSL-procesej pomjatk njedosaha."
+#, fuzzy
+#~| msgid "Number of columns to show"
+#~ msgid "Number of columns to show:"
+#~ msgstr "Ličba stołpikow, kiž so pokazuja"
 
-#~ msgid ""
-#~ "The certificate is self-signed and not in the list of trusted "
-#~ "certificates. If you want to accept this certificate, import it into the "
-#~ "list of trusted certificates."
+#~ msgid "Disable it on slow system to disable background images."
 #~ msgstr ""
-#~ "Certifikat je wot wobsydnika wupisany a njeje w lisćinje dowěryhódnych "
-#~ "certifikatow. Jeli chceće jón akceptować, importujće jón do tuteje "
-#~ "lisćiny."
+#~ "Hasńće to na pomałych kompjuterach, hdyž nochceće pozadkowe wobrazy."
+
+#~ msgid "Show folder &backgrounds"
+#~ msgstr "Pozadk &zapiskow pokazać"
+
+#~ msgid "How much disk space is used to cache the pixmaps"
+#~ msgstr "Kelko ruma na disku so wužiwa za nachwilne składowanje wobrazkow"
+
+#~ msgid "Pixmap Cache"
+#~ msgstr "Temporarny skład za wobrazki"
+
+#~ msgid "Disk cache size:"
+#~ msgstr "Wulkosć składa:"
+
+#~ msgid " kB"
+#~ msgstr " kB"
+
+#~ msgid "Clear the pixmap cache"
+#~ msgstr "Temporarny skład za wobrazki wuprózdnić"
+
+#~ msgid "&Clear Cache"
+#~ msgstr "&Temporarny skład wuprózdnić"
 
 #, fuzzy
 #~| msgid ""
-#~| "The IP address of the host %1 does not match the one the certificate was "
-#~| "issued to."
+#~| "<qt>\n"
+#~| "Treat all cookies as session cookies. Session cookies are small pieces "
+#~| "of data that are temporarily stored in your computer's memory until you "
+#~| "quit or close all applications (e.g. your browser) that use them. Unlike "
+#~| "regular cookies, session cookies are never stored on your hard drive or "
+#~| "other storage medium.<p>\n"
+#~| "<u>NOTE:</u> Checking this option along with the previous one will "
+#~| "override your default as well as site specific cookie policies. However, "
+#~| "doing so also increases your privacy since all cookies will be removed "
+#~| "when the current session ends.\n"
+#~| "</qt>"
 #~ msgid ""
-#~ "The certificate's CA (Certificate Authority) does not match the CA name "
-#~ "of the certificate."
+#~ "<qt>\n"
+#~ "<p>Treat all cookies as session cookies. Session cookies are small pieces "
+#~ "of data that are temporarily stored in your computer's memory until you "
+#~ "quit or close all applications (e.g. your browser) that use them. Unlike "
+#~ "regular cookies, session cookies are never stored on your hard drive or "
+#~ "other storage medium.</p><p>\n"
+#~ "<u>NOTE:</u> Checking this option along with the previous one will "
+#~ "override your default as well as site specific cookie policies. However, "
+#~ "doing so also increases your privacy since all cookies will be removed "
+#~ "when the current session ends.</p>\n"
+#~ "</qt>"
 #~ msgstr ""
-#~ "IP-adresa hosta %1 so njekryje z adresu, za kotruž bu certifikat wupisany."
+#~ "<qt>\n"
+#~ "Wšitke placki jako placki posedźenja wobhladać. Placki posedźenja su "
+#~ "daty, kiž so nachwilnje w pomjatku kompjutera namakaja, doniž "
+#~ "njezezačinjeće wšitke aplikacije (na př. Waš browser), kotrež je "
+#~ "wužiwaja. Na rozdźěl wot normalch plackow so placki posedźenja ženja na "
+#~ "krutym disku njeskładuja.<p>\n"
+#~ "<u>Kedźbu:</u>  Tuta opcija hromadźe z přichodnej změnitej standardnu "
+#~ "strategiju kaž tež specifiske strategije. Wona pak tež Wašu priwatnu "
+#~ "sferu škita, dokelž so wšitke placki na kóncu posedźenja zwumazaja.\n"
+#~ "</qt>"
 
-#~ msgid "OpenSSL could not be verified."
-#~ msgstr "OpenSSL njehodźeše so werifikować."
+#~ msgid "Treat &all cookies as session cookies"
+#~ msgstr "Wš&itke placki jako placki posedźenja wobhladać "
 
-#~ msgid ""
-#~ "Certificate signing authority root files could not be found so the "
-#~ "certificate is not verified."
+#, fuzzy
+#~| msgid "Variable Proxy Configuration"
+#~ msgctxt "@title:window"
+#~ msgid "Variable Proxy Configuration"
+#~ msgstr "Konfiguracija proxyjow"
+
+#~ msgid "You must specify at least one valid proxy environment variable."
 #~ msgstr ""
-#~ "Zakładne dataje za přepruwowanje certifikata njehodźachu so namakać, tak "
-#~ "zo tutón certifikat njeje werifikowany."
-
-#~ msgid "SSL support was not found."
-#~ msgstr "Njemóžach SSL-podpěru zwěsćić."
-
-#~ msgid "Private key test failed."
-#~ msgstr "Přepruwowanje priwatneho kluča je so zwrěšćiło."
-
-#~ msgid "This certificate is not relevant."
-#~ msgstr "Certifikat njeje relewantny."
-
-#~ msgid "KDE Certificate Request"
-#~ msgstr "KDE pominanje certifikata"
-
-#~ msgid "KDE Certificate Request - Password"
-#~ msgstr "KDE pominanje certifikata - hesło"
-
-#~ msgid "Unsupported key size."
-#~ msgstr "Njepodpěrowana wulkosć kluča."
-
-#~ msgid "KDE"
-#~ msgstr "KDE"
-
-#~ msgid "Please wait while the encryption keys are generated..."
-#~ msgstr "Prošu dočakajće, doniž so šifrowanske kluče tworja ..."
-
-#~ msgid "Store"
-#~ msgstr "Zawěsćić"
-
-#~ msgid "2048 (High Grade)"
-#~ msgstr "2048 (wysoki stopjeń)"
-
-#~ msgid "1024 (Medium Grade)"
-#~ msgstr "1024 (srěni stopjeń) "
-
-#~ msgid "768  (Low Grade)"
-#~ msgstr "768 (niski stopjeń)"
-
-#~ msgid "512  (Low Grade)"
-#~ msgstr "512  (jara niski stopjeń)"
-
-#~ msgid "No SSL support."
-#~ msgstr "SSL njeje podpěrany."
-
-#~ msgid "Certificate password"
-#~ msgstr "Hesło certifikata"
-
-#~ msgid "GMT"
-#~ msgstr "GMT"
-
-#~ msgid "KMailService"
-#~ msgstr "KMailService"
-
-#~ msgid "Mail service"
-#~ msgstr "elektroniska póšta"
-
-#~ msgid "Error connecting to server."
-#~ msgstr "Zmylk při zwjazanju ze serverom."
-
-#~ msgid "Time out waiting for server interaction."
-#~ msgstr "Čakanski čas za interakciju ze serverom nimo."
-
-#~ msgid "Server said: \"%1\""
-#~ msgstr "Server je rjekł: \"%1\""
-
-#~ msgid "KSendBugMail"
-#~ msgstr "KSendBugMail"
-
-#~ msgid "(c) 2000 Stephan Kulow"
-#~ msgstr "(c) 2000 Stephan Kulow"
-
-#~ msgid "Author"
-#~ msgstr "Awtor"
-
-#~ msgid "Subject line"
-#~ msgstr "Temowa linka"
-
-#~ msgid "Recipient"
-#~ msgstr "Adresat"
-
-#~ msgid "telnet service"
-#~ msgstr "telnet service"
-
-#~ msgid "telnet protocol handler"
-#~ msgstr "telnet protocol handler"
-
-#~ msgid "Could not read %1"
-#~ msgstr "Njemóžu %1 čitać"
-
-#~ msgid "Edit file type"
-#~ msgstr "Datajowu družinu wobdźěłać"
-
-#, fuzzy
-#~| msgid "You received a cookie from"
-#~| msgid_plural "You received %1 cookies from"
-#~ msgctxt "@label: multiple cookies"
-#~ msgid "You received %1 cookies from"
-#~ msgstr "Sće %1 plack dóstali z"
-
-#, fuzzy
-#~| msgid "You received a cookie from"
-#~| msgid_plural "You received %1 cookies from"
-#~ msgctxt "@label: single cookie"
-#~ msgid "You received a cookie from"
-#~ msgstr "Sće %1 plack dóstali z"
-
-#~ msgid "The specified folder already exists."
-#~ msgstr "Specifikowany zapisk hižo eksistuje."
-
-#~ msgid "Retrieving from %1..."
-#~ msgstr "Dóstawam daty wot %1..."
-
-#~ msgid "A newer item named '%1' already exists."
-#~ msgstr "Něšto tajke nowše z mjenom '%1' hižo eksistuje"
-
-#, fuzzy
-#~| msgid "&Name:"
-#~ msgid "TextLabel"
-#~ msgstr "&Mjeno:"
-
-#~ msgid "Requesting data to send"
-#~ msgstr "Pominam sej daty za pósłanje"
-
-#, fuzzy
-#~| msgid "Size:"
-#~ msgctxt "@label"
-#~ msgid "Size:"
-#~ msgstr "Wulkosć:"
-
-#, fuzzy
-#~| msgid "Type:"
-#~ msgctxt "@label file type"
-#~ msgid "Type:"
-#~ msgstr "Družina:"
-
-#, fuzzy
-#~| msgid "Modified:"
-#~ msgctxt "@label"
-#~ msgid "Modified:"
-#~ msgstr "Změnjeny:"
-
-#, fuzzy
-#~| msgid "Owner:"
-#~ msgctxt "@label"
-#~ msgid "Owner:"
-#~ msgstr "Wobsydnik:"
-
-#, fuzzy
-#~| msgid "Permissions:"
-#~ msgctxt "@label"
-#~ msgid "Permissions:"
-#~ msgstr "Prawa:"
-
-#, fuzzy
-#~| msgid "Type"
-#~ msgctxt "@item::inlistbox"
-#~ msgid "Type"
-#~ msgstr "Družina"
-
-#, fuzzy
-#~| msgctxt "@title:column"
-#~| msgid "Size"
-#~ msgctxt "@item::inlistbox"
-#~ msgid "Size"
-#~ msgstr "Wulkosć"
-
-#, fuzzy
-#~| msgid "Modified:"
-#~ msgctxt "@item::inlistbox"
-#~ msgid "Modified"
-#~ msgstr "Změnjeny:"
-
-#, fuzzy
-#~| msgid "Owner"
-#~ msgctxt "@item::inlistbox"
-#~ msgid "Owner"
-#~ msgstr "Wobsydnik"
-
-#, fuzzy
-#~| msgctxt "@title:column"
-#~| msgid "Permissions"
-#~ msgctxt "@item::inlistbox"
-#~ msgid "Permissions"
-#~ msgstr "Prawa"
-
-#~ msgid "Unmounted Icon"
-#~ msgstr "Piktogram za 'njemontowany'"
-
-#, fuzzy
-#~| msgid ""
-#~| "This action would overwrite '%1' with itself.\n"
-#~| "Please enter a new file name:"
-#~ msgid "This action will overwrite '%1' with a newer file '%2'."
-#~ msgstr ""
-#~ "Tuta akcija by '%1' ze sobu samym přepisała.\n"
-#~ "Prošu zapodajće hinaše mjeno dataje:"
-
-#, fuzzy
-#~| msgid ""
-#~| "This action would overwrite '%1' with itself.\n"
-#~| "Please enter a new file name:"
-#~ msgid "This action will overwrite '%1' with a file of the same age '%2'."
-#~ msgstr ""
-#~ "Tuta akcija by '%1' ze sobu samym přepisała.\n"
-#~ "Prošu zapodajće hinaše mjeno dataje:"
-
-#~ msgctxt "Available space out of total partition size (percent used)"
-#~ msgid "%1 out of %2 (%3% used)"
-#~ msgstr "%1 z %2 (%3% so wužiwa)"
-
-#, fuzzy
-#~| msgid "1 Folder"
-#~| msgid_plural "%1 Folders"
-#~ msgctxt "@label"
-#~ msgid "Folder"
-#~ msgstr "%1 zapisk"
-
-#, fuzzy
-#~| msgid "%1 (%2)"
-#~ msgid "size %1 (%2)"
-#~ msgstr "%1 (%2)"
-
-#~ msgid "modified on %1"
-#~ msgstr "změnjene %1"
-
-#~ msgid "The source file is '%1'"
-#~ msgstr "Žórłowa dataja je '%1'."
-
-#, fuzzy
-#~| msgid "Move to Trash"
-#~ msgctxt "@action:inmenu"
-#~ msgid "Move to trash"
-#~ msgstr "do papjernika sunyć"
-
-#, fuzzy
-#~ msgctxt "@info"
-#~ msgid "Do you really want to empty the trash? All items will be deleted."
-#~ msgstr "Chceće woprawdźe tute %1 objektow zničić?"
-
-#, fuzzy
-#~| msgid "Add..."
-#~ msgctxt "@label"
-#~ msgid "Add Tags..."
-#~ msgstr "Dodać..."
-
-#, fuzzy
-#~ msgctxt "@info"
-#~ msgid "Delete tag"
-#~ msgstr "Niču"
-
-#, fuzzy
-#~ msgctxt "@title"
-#~ msgid "Delete tag"
-#~ msgstr "Niču"
-
-#, fuzzy
-#~ msgctxt "@action:button"
-#~ msgid "Delete"
-#~ msgstr "Niču"
-
-#~ msgid "&Meta Info"
-#~ msgstr "&Metainformacija"
-
-#~ msgid "&Auto Skip"
-#~ msgstr "&Awtomatisce přeskočić"
+#~ "Dyrbiće tu znajmjeńša jednu walidnu wokolinowu wariablu za proxy podać."
 
 #~ msgid ""
-#~ "Do not copy or move any folder that already exists in the destination "
-#~ "folder.\n"
-#~ "You will be prompted again in case of a conflict with an existing file "
-#~ "though."
+#~ "<qt>Make sure you entered the actual environment variable name rather "
+#~ "than its value. For example, if the environment variable is <br /"
+#~ "><b>HTTP_PROXY=http://localhost:3128</b><br /> you need to enter "
+#~ "<b>HTTP_PROXY</b> here instead of the actual value http://localhost:3128."
+#~ "</qt>"
 #~ msgstr ""
-#~ "Ničo njekopěrować abo přesuwać, štož w cilowym zapisku hižo eksistuje.\n"
-#~ "W padźe konflikta so kompjuter hišće raz wopraša."
+#~ "<qt>Přepruwujće, hač sće wokoliinowu wariablu zapodali a nic jeje "
+#~ "hódnotu. Na př., hdyž je wokolinowa wariabla <br /><b>HTTP_PROXY=http://"
+#~ "localhost:3128</b><br />, dyrbiće zapodać <b>HTTP_PROXY</b> a nic http://"
+#~ "localhost:3128.</qt>"
+
+#, fuzzy
+#~| msgid "Invalid Proxy Setup"
+#~ msgctxt "@title:window"
+#~ msgid "Invalid Proxy Setup"
+#~ msgstr "Njekorektny setup za proxy"
+
+#~ msgid "Successfully verified."
+#~ msgstr "Wuspěšnje přepruwowane."
+
+#, fuzzy
+#~| msgid "Proxy Setup"
+#~ msgctxt "@title:window"
+#~ msgid "Proxy Setup"
+#~ msgstr "Setup za proxy"
 
 #~ msgid ""
-#~ "Do not copy or move any file that already exists in the destination "
-#~ "folder.\n"
-#~ "You will be prompted again in case of a conflict with an existing "
-#~ "directory though."
+#~ "Did not detect any environment variables commonly used to set system wide "
+#~ "proxy information."
 #~ msgstr ""
-#~ "Ničo njekopěrować abo přesuwać, štož w cilowym zapisku hižo eksistuje.\n"
-#~ "W padźe konflikta so kompjuter hišće raz wopraša."
-
-#~ msgctxt "Write files into any existing directory"
-#~ msgid "&Write Into All"
-#~ msgstr "&Pisać do wšěch"
-
-#~ msgid "&Overwrite All"
-#~ msgstr "&Wšitke přepisać"
+#~ "Njejsym žane wokolinowe wariable namakał za cyłosystemowu informaciju wo "
+#~ "proxyjach."
 
 #~ msgid ""
-#~ "Files and folders will be copied into any existing directory, alongside "
-#~ "its existing contents.\n"
-#~ "You will be prompted again in case of a conflict with an existing file in "
-#~ "a directory, but not in case of another existing directory."
+#~ "<qt>To learn about the variable names the automatic detection process "
+#~ "searches for, press OK, click on the quick help button on the window "
+#~ "title bar of the previous dialog and then click on the \"<b>Auto Detect</"
+#~ "b>\" button.</qt>"
 #~ msgstr ""
-#~ "Dataje a zapiski so do kóždeho eksistowaceho zapiska kopěruja, hromadźe "
-#~ "ze swojim wobsahom.\n"
-#~ "W padźe konflikta so kompjuter hišće raz wopraša."
+#~ "<qt>Hdyž chceće zhonić, za kajkimi wariablemi awtomatiske pytanje pyta, "
+#~ "stłóčće OK, klikńće na tłóčatko za spěšnu pomoc titloweho pasa "
+#~ "prjedawšeho dialoga a klikńće potom na tłóčatko <b>Awtomatiske pytanje</"
+#~ "b>.</qt>"
 
-#~ msgid "R&esume All"
-#~ msgstr "&Ze wšěmi pokročować"
+#, fuzzy
+#~| msgid "Automatic Proxy Variable Detection"
+#~ msgctxt "@title:window"
+#~ msgid "Automatic Proxy Variable Detection"
+#~ msgstr "Awtomatiske pytanje za proxyjowymi wariablemi"
 
-#~ msgid "Sends a short bug report to submit@bugs.kde.org"
-#~ msgstr "Sćele krótku rozprawu wo zmylku na submit@bugs.kde.org"
+#, fuzzy
+#~| msgid "Manual Proxy Configuration"
+#~ msgctxt "@title:window"
+#~ msgid "Manual Proxy Configuration"
+#~ msgstr "Manuelna konfiguracija proxyja"
 
-#~ msgid "&Edit '%1'..."
-#~ msgstr "'%1' &wobdźěłać"
+#, fuzzy
+#~| msgid "Invalid Proxy Setting"
+#~ msgctxt "@title:window"
+#~ msgid "Invalid Proxy Setting"
+#~ msgstr "Njekorektne nastajenje proxyja"
+
+#~ msgid ""
+#~ "One or more of the specified proxy settings are invalid. The incorrect "
+#~ "entries are highlighted."
+#~ msgstr ""
+#~ "Jedne abo wjacore nastajenja za proxy su njekorektne. Njekorektne zapisy "
+#~ "su wuzběhnjene."
+
+#~ msgid "You entered a duplicate address. Please try again."
+#~ msgstr "Sće samsnu adresu dwójce zapodali. Prošu spytajće hišće raz."
+
+#~ msgid "<qt><center><b>%1</b></center> is already in the list.</qt>"
+#~ msgstr "<qt><center><b>%1</b></center> je hižo w lisćinje.</qt>"
+
+#, fuzzy
+#~| msgid "Duplicate Entry"
+#~ msgctxt "@title:window"
+#~ msgid "Duplicate Entry"
+#~ msgstr "Dwójny zapis"
+
+#, fuzzy
+#~| msgid "Change Exception"
+#~ msgctxt "@title:window"
+#~ msgid "Change Exception"
+#~ msgstr "Wuwzaće změnić"
+
+#, fuzzy
+#~| msgid "Invalid Entry"
+#~ msgctxt "@title:window"
+#~ msgid "Invalid Entry"
+#~ msgstr "Njekorektny zapis"
+
+#~ msgid "The address you have entered is not valid."
+#~ msgstr "Adresa, kotruž sće zapodali, njeje korektna."
+
+#~ msgid ""
+#~ "<qt>Make sure none of the addresses or URLs you specified contain invalid "
+#~ "or wildcard characters such as spaces, asterisks (*), or question "
+#~ "marks(?).<br /><br /><u>Examples of VALID entries:</u><br /><code>http://"
+#~ "mycompany.com, 192.168.10.1, mycompany.com, localhost, http://localhost</"
+#~ "code><br /><br /><u>Examples of INVALID entries:</u><br /><code>http://my "
+#~ "company.com, http:/mycompany,com file:/localhost</code></qt>"
+#~ msgstr ""
+#~ "<qt>Přepruwujće, hač njejsu w adresach abo URLach, kiž sće zapodali, "
+#~ "njedowolene abo jokerowe pismiki kaž mjezoty, hwěžki (*) abo prašaki (?)."
+#~ "<br /><br ?><u>Přikłady za KOREKTNE zapisy su:</u><br /><code>http://"
+#~ "mojafirma.com, 192.168.0.1, mojafirma.com, localhost, http://localhost</"
+#~ "code><br /><br /><u>Přikłady za NJEKOREKTNE zapisy su:</u><br /"
+#~ "><code>http://moja firma.com, http:/mojafirma,com, file:/localhost</"
+#~ "code></qt>"
+
+#~ msgid "Enter the URL or address that should use the above proxy settings:"
+#~ msgstr "Zapodajće URL abo adresu, kiž ma horješe nastajenja wužiwać:"
+
+#~ msgid ""
+#~ "Enter the address or URL that should be excluded from using the above "
+#~ "proxy settings:"
+#~ msgstr ""
+#~ "Zapodajće adresu abo URL, kiž nima horješe nastajenja za proxy wužiwać:"
+
+#~ msgid ""
+#~ "<qt>Enter a valid address or URL.<br /><br /><b><u>NOTE:</u></b> Wildcard "
+#~ "matching such as <code>*.kde.org</code> is not supported. If you want to "
+#~ "match any host in the <code>.kde.org</code> domain, e.g. <code>printing."
+#~ "kde.org</code>, then simply enter <code>.kde.org</code>.</qt>"
+#~ msgstr ""
+#~ "<qt>Zapodajće korektnu adresu abo URL.<br /><br /><b><u>Kedźbu</u></b> "
+#~ "Jokerowe pismiki kaž <code>*.kde.org</code> njejsu podpěrane. Hdyž chceće "
+#~ "kóždy serwer w domenje <code>.kde.org</code>, na př. <code>printing.kde."
+#~ "org</code>, potom zapodajće prosće <code>.kde.org</code>.</qt>"
+
+#~ msgid ""
+#~ "The address of the automatic proxy configuration script is invalid. "
+#~ "Please correct this problem before proceeding. Otherwise, your changes "
+#~ "will be ignored."
+#~ msgstr ""
+#~ "Adresa skripta za awtomatisku konfiguraciju proxyja njetrjechi. Prošu "
+#~ "skorigujće to, prjedy hač pokročujeće. Hewak so Waše změny ignoruja."
+
+#~ msgid ""
+#~ "<qt>The proxy settings you specified are invalid.<br /><br />Please click "
+#~ "on the <b>Setup...</b> button and correct the problem before proceeding; "
+#~ "otherwise your changes will be ignored.</qt>"
+#~ msgstr ""
+#~ "<qt>Nastajenja za proxy, kotrež sće zapodali, njejsu korektne.<br /><br /"
+#~ "> Prošu klikńće na <b>Připrawić...</b> a skorigujće to, prjedy hač "
+#~ "pokročujeće; hewak so Waše změny ignoruja.</qt>"
+
+#~ msgid "H&TTP:"
+#~ msgstr "H&TTP:"
+
+#~ msgid "HTTP&S:"
+#~ msgstr "HTTP&S:"
+
+#~ msgid "&FTP:"
+#~ msgstr "&FTP:"
+
+#~ msgid "NO &PROXY:"
+#~ msgstr "NO &PROXY:"
+
+#~ msgid ""
+#~ "<qt>Verify whether or not the environment variable names you supplied are "
+#~ "valid. If an environment variable is not found, the associated labels "
+#~ "will be <b>highlighted</b> to indicate that they are invalid.</qt>"
+#~ msgstr ""
+#~ "<qt>Přepruwować, hač su podate wokolinowe wariable walidne. Hdyž so "
+#~ "wokolinowa wariabla njenamaka, so wotpowědne městna <b>wuzběhnu</b> jako "
+#~ "signal, zo njejsu korektne.</qt>"
+
+#~ msgid "&Verify"
+#~ msgstr "&Přepruwować"
+
+#~ msgid "Connect to the &Internet directly"
+#~ msgstr "&Direktny zwisk do interneta."
+
+#~ msgid ""
+#~ "<qt>\n"
+#~ "Use environment variables to configure the proxy settings.<p>\n"
+#~ "Environment variables such as <b>HTTP_PROXY</b> and <b>NO_PROXY</b> are "
+#~ "usually used in multi-user UNIX installations, where both graphical and "
+#~ "non-graphical applications need to share the same proxy configuration "
+#~ "information.\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt>\n"
+#~ "Wokolinowe wariable wužiwać za připrawjenje nastajenjow za proxy.<p>\n"
+#~ "Na unixowych systemach, hdźež sej grafiske a tekstowe aplikacije samsnu "
+#~ "informaciju wo proxyjach dźěla, so zwjetša wariable kaž <b>HTTP_PROXY</b> "
+#~ "abo <b>NO_PROXY</b> wužiwaja.\n"
+#~ "</qt>"
+
+#~ msgid "Use preset proxy environment &variables"
+#~ msgstr "Wot systema postajena proxyjowe &wariable wužiwać"
+
+#~ msgid "Show the proxy environment variable configuration dialog."
+#~ msgstr "Připrawjenski dialog za wokolinowe wariable za proxy pokazać."
+
+#~ msgid "Setup..."
+#~ msgstr "Připrawić..."
+
+#~ msgid "&Manually specify the proxy settings"
+#~ msgstr "Připrawjensku informaciju za proxy &manuelnje zapodać."
+
+#~ msgid "Show the manual proxy configuration dialog."
+#~ msgstr "Připrawjenski dialog za proxy pokazać."
+
+#~ msgid "Authori&zation"
+#~ msgstr "Awtori&zacija"
+
+#~ msgid "Prompt for login information whenever it is required."
+#~ msgstr "So za přizjewjenskej informaciju prašeć, je-li trěbna."
+
+#~ msgid "Prompt as &needed"
+#~ msgstr "So prašeć, je-li &trjeba"
+
+#~ msgid ""
+#~ "Use information specified here to login into proxy servers as needed."
+#~ msgstr "Tule podate daty wužiwać za přizjewjenje na proxyjowych serwerach."
+
+#~ msgid "Username:"
+#~ msgstr "Mjeno wužiwarja:"
+
+#~ msgid "Login name."
+#~ msgstr "Mjeno za přizjewjenje."
+
+#~ msgid "Login password."
+#~ msgstr "Škitne hesło za přizjewjenje."
+
+#~ msgid "Password:"
+#~ msgstr "Škitne hesło:"
+
+#~ msgid "O&ptions"
+#~ msgstr "O&pcije"
+
+#~ msgid "Domain [Group]"
+#~ msgstr "Domena [Skupina]"
+
+#~ msgid "Host [Set By]"
+#~ msgstr "Serwer [po čim]"
+
+#~ msgid ""
+#~ "<h1>Local Network Browsing</h1>Here you setup your <b>\"Network "
+#~ "Neighborhood\"</b>. You can use either the LISa daemon and the lan:/ "
+#~ "ioslave, or the ResLISa daemon and the rlan:/ ioslave.<br /><br />About "
+#~ "the <b>LAN ioslave</b> configuration:<br /> If you select it, the "
+#~ "ioslave, <i>if available</i>, will check whether the host supports this "
+#~ "service when you open this host. Please note that paranoid people might "
+#~ "consider even this to be an attack.<br /><i>Always</i> means that you "
+#~ "will always see the links for the services, regardless of whether they "
+#~ "are actually offered by the host. <i>Never</i> means that you will never "
+#~ "have the links to the services. In both cases you will not contact the "
+#~ "host, so nobody will ever regard you as an attacker.<br /><br />More "
+#~ "information about <b>LISa</b> can be found at <a href=\"http://lisa-home."
+#~ "sourceforge.net\">the LISa Homepage</a> or contact Alexander Neundorf &lt;"
+#~ "<a href=\"mailto:neundorf@kde.org\">neundorf@kde.org</a>&gt;."
+#~ msgstr ""
+#~ "<h1>Listowanje lokalneje syće</h1>Tu móžeće swoje <b>\"susodstwo</b> "
+#~ "nastajić. Móžeće pak LISa-demon a lan:/ioslave wužiwać abo ResLISa demon "
+#~ "a rlan:/ioslave.<br /><br /> Wo připrawjenju <b>LAN ioslave</b>: Hdyž to "
+#~ "wubjerjeće, přepruwuje ioslave, <i>je-li přistupne</i>, hač serwer tutu "
+#~ "słužbu podpěruje. Paranoidni ludźo pak móža tež to jako nadběh rozumić. "
+#~ "<br /><i>Přeco</i> rěka, zo přeco wotkaz na słužby widźići, wšojedne hač "
+#~ "je serwer woprawdźe poskića. <i>Ženje</i> rěka, zo so wotkazy ženje "
+#~ "njepokazuja. We woběmaj padomaj so serwer njekontaktuje, tak zo Was "
+#~ "nichtó ženje za nadběhowarja njezměje.<br /><br /> Wjace informacije wo "
+#~ "<b>LISa</b> namakaće na <a href=\"http://lisa-home.sourceforge.net\">the "
+#~ "LISa Homepage</a> abo skontaktujće Alexandera Neundorfa &lt;<a href="
+#~ "\"mailto:neundorf@kde.org\">neundorf@kde.org</a>&gt;."
+
+#~ msgid "&Windows Shares"
+#~ msgstr "&Windows Shares"
+
+#~ msgid "&LISa Daemon"
+#~ msgstr "&LISa Demon"
+
+#~ msgid "lan:/ Iosla&ve"
+#~ msgstr "lan:/ Iosla&ve"
