@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-06 09:20+0000\n"
+"POT-Creation-Date: 2014-11-12 08:02+0000\n"
 "PO-Revision-Date: 2008-11-13 21:53+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -50,22 +50,22 @@ msgstr "w slědowacym web-browseru:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:139
+#: componentchooser.cpp:138
 msgid "Unknown"
 msgstr "Njeznate"
 
-#: componentchooser.cpp:155
+#: componentchooser.cpp:154
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
 "change now ?</qt>"
 msgstr ""
 "<qt>Sće standardnu komponentu změnili, chceće tutu změnu nětko zawěsćić?</qt>"
 
-#: componentchooser.cpp:159
+#: componentchooser.cpp:158
 msgid "No description available"
 msgstr "Žane wopisanje namakał"
 
-#: componentchooser.cpp:170 componentchooser.cpp:175
+#: componentchooser.cpp:169 componentchooser.cpp:174
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -94,16 +94,9 @@ msgstr ""
 msgid "Default Component"
 msgstr "Standardna komponenta"
 
-#. i18n: ectx: property (whatsThis), widget (KListWidget, ServiceChooser)
+#. i18n: ectx: property (whatsThis), widget (QListWidget, ServiceChooser)
 #: componentchooser_ui.ui:44
 #, fuzzy
-#| msgid ""
-#| "Here you can change the component program. Components are programs that "
-#| "handle basic tasks, like the terminal emulator, the text editor and the "
-#| "email client. Different KDE applications sometimes need to invoke a "
-#| "console emulator, send a mail or display some text. To do so "
-#| "consistently, these applications always call the same components. You can "
-#| "choose here which programs these components are."
 msgid ""
 "<qt>\n"
 "<p>This list shows the configurable component types. Click the component you "
@@ -130,21 +123,20 @@ msgstr "Preferowany web-browser wubrać"
 msgid "Select preferred email client:"
 msgstr "Preferowany emejlowy program wubrać:"
 
-#: componentchooserterminal.cpp:105
+#: componentchooserterminal.cpp:103
 msgid "Select preferred terminal application:"
 msgstr "Preferowany terminalowy program wubrać"
 
-#: componentchooserwm.cpp:92
+#: componentchooserwm.cpp:91
 msgid "The new window manager will be used when KDE is started the next time."
 msgstr "Nowy woknowy rjadowar so wužiwa, hdyž so KDE přichodny raz startuje."
 
-#: componentchooserwm.cpp:93 componentchooserwm.cpp:146
+#: componentchooserwm.cpp:92 componentchooserwm.cpp:145
 #, fuzzy
-#| msgid "Window manager change"
 msgid "Window Manager Change"
 msgstr "Změna woknoweho rjadowarja"
 
-#: componentchooserwm.cpp:106
+#: componentchooserwm.cpp:105
 msgid ""
 "A new window manager is running.\n"
 "It is still recommended to restart this KDE session to make sure all running "
@@ -154,28 +146,28 @@ msgstr ""
 "Doporuča so KDE znowa startować, zo bychu so wšitke programy wo tym "
 "informowali."
 
-#: componentchooserwm.cpp:109
+#: componentchooserwm.cpp:108
 msgid "Window Manager Replaced"
 msgstr "Woknowy rjadowar narunany"
 
-#: componentchooserwm.cpp:145
+#: componentchooserwm.cpp:144
 msgid ""
 "Your running window manager will be now replaced with the configured one."
 msgstr "Woknowy rjadowar, kiž runje běži, so nětko z nastajenym naruna."
 
-#: componentchooserwm.cpp:154
+#: componentchooserwm.cpp:153
 msgid "Config Window Manager Change"
 msgstr "Připrawjenje změny woknoweho rjadowarja"
 
-#: componentchooserwm.cpp:156
+#: componentchooserwm.cpp:155
 msgid "&Accept Change"
 msgstr "&Změnu přiwzać"
 
-#: componentchooserwm.cpp:157
+#: componentchooserwm.cpp:156
 msgid "&Revert to Previous"
 msgstr "&Prjedawši wzać"
 
-#: componentchooserwm.cpp:159
+#: componentchooserwm.cpp:158
 msgid ""
 "The configured window manager is being launched.\n"
 "Please check it has started properly and confirm the change.\n"
@@ -185,14 +177,14 @@ msgstr ""
 "Prošu přepruwujće, zo je so korektnje startował, a wobkrućće to.\n"
 "Po dwaceći sekundach so awtomatisce stary staw znowi."
 
-#: componentchooserwm.cpp:174
+#: componentchooserwm.cpp:173
 msgid ""
 "The running window manager has been reverted to the default KDE window "
 "manager KWin."
 msgstr ""
 "Jako woknowy rjadowar so nětko zaso standardny woknowy rjadowar KWin wozmje. "
 
-#: componentchooserwm.cpp:181
+#: componentchooserwm.cpp:180
 msgid ""
 "The new window manager has failed to start.\n"
 "The running window manager has been reverted to the default KDE window "
@@ -201,7 +193,7 @@ msgstr ""
 "Nowy woknowy rjadowar njehodźi so startować.\n"
 "Jako woknowy rjadowar so nětko zaso standardny woknowy rjadowar KWin wozmje. "
 
-#: componentchooserwm.cpp:303
+#: componentchooserwm.cpp:302
 msgid "Running the configuration tool failed"
 msgstr "Startowanje připrawjenskeho programa zwrěšćene"
 
@@ -272,7 +264,6 @@ msgstr "w &terminalu startować"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: filemanagerconfig_ui.ui:12
 #, fuzzy
-#| msgid "Browse directories using the following file manager "
 msgid "Browse directories using the following file manager:"
 msgstr "Zapiski přelistuja so ze slědowacym datajowym rjadowakom"
 
@@ -293,7 +284,7 @@ msgstr "(c), 2002 Joseph Wenninger"
 msgid "Joseph Wenninger"
 msgstr "Joseph Wenninger"
 
-#: ktimerdialog.cpp:164
+#: ktimerdialog.cpp:163
 #, kde-format
 msgid "1 second remaining:"
 msgid_plural "%1 seconds remaining:"
@@ -312,7 +303,7 @@ msgstr "Konsole jako terminalowy program w&užiwać"
 msgid "Use a different &terminal program:"
 msgstr "Hinaši &terminalowy program wužiwać:"
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, terminalLE)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, terminalLE)
 #: terminalemulatorconfig_ui.ui:47
 msgid ""
 "Press this button to select your favorite terminal client. Please note that "
@@ -336,7 +327,7 @@ msgstr "Standardny woknowy rjadowak za KDE w&užiwać (KWin)"
 msgid "Use a different &window manager:"
 msgstr "Hinaši &woknowy rjadowar wužiwać::"
 
-#. i18n: ectx: property (text), widget (KPushButton, configureButton)
+#. i18n: ectx: property (text), widget (QPushButton, configureButton)
 #: wmconfig_ui.ui:60
 msgid "Configure"
 msgstr "&Připrawić"
