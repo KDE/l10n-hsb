@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-18 08:14+0000\n"
+"POT-Creation-Date: 2015-01-23 08:32+0000\n"
 "PO-Revision-Date: 2008-11-13 00:41+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -155,11 +155,34 @@ msgstr "Swětłosć wobrazowki"
 msgid "No screen or keyboard brightness controls available"
 msgstr ""
 
-#: package/contents/ui/PowerManagementItem.qml:52
+#: package/contents/ui/PowerManagementItem.qml:76
 #, fuzzy
 #| msgid "Power Management"
 msgid "Enable Power Management"
 msgstr "Lutowanje miliny"
+
+#: package/contents/ui/PowerManagementItem.qml:115
+#, kde-format
+msgctxt "Some Application and n others are currently suppressing PM"
+msgid "%2 and %1 other application are currently suppressing power management"
+msgid_plural ""
+"%2 and %1 other applications are currently suppressing power management"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: package/contents/ui/PowerManagementItem.qml:121
+#, kde-format
+msgctxt "Some Application is suppressing PM"
+msgid "%1 is currently suppressing power management."
+msgstr ""
+
+#: package/contents/ui/PowerManagementItem.qml:124
+#, kde-format
+msgctxt "Some Application is suppressing PM: Reason provided by the app"
+msgid "%1 is currently suppressing power management: %2"
+msgstr ""
 
 #, fuzzy
 #~| msgid "<b>AC Adapter:</b> Plugged in"
