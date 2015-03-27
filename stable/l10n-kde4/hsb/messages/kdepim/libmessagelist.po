@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-26 06:36+0000\n"
+"POT-Creation-Date: 2015-03-27 06:05+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -553,157 +553,6 @@ msgctxt "@info:status Finished view fill"
 msgid "Ready"
 msgstr "Hotowo."
 
-#: core/quicksearchline.cpp:62
-#, fuzzy
-msgctxt "@action:button"
-msgid "Lock search"
-msgstr "&Pytaj"
-
-#: core/quicksearchline.cpp:66
-msgctxt "@info:whatsthis"
-msgid ""
-"Toggle this button if you want to keep your quick search locked when moving "
-"to other folders or when narrowing the search by message status."
-msgstr ""
-
-#: core/quicksearchline.cpp:80
-#, fuzzy
-#| msgid "Available Filters"
-msgid "Quick Filter:"
-msgstr "Filtry k dispoziciji"
-
-#: core/quicksearchline.cpp:86
-#, fuzzy
-msgctxt "Search for messages."
-msgid "Search"
-msgstr "&Pytaj"
-
-#: core/quicksearchline.cpp:96
-#, fuzzy
-msgid "More..."
-msgstr "KMail &konfigurować..."
-
-#: core/quicksearchline.cpp:123
-#, fuzzy
-msgid "Filter message by:"
-msgstr "Powěsće zničić"
-
-#: core/quicksearchline.cpp:126
-#, fuzzy
-#| msgid "&Full message"
-msgid "Full Message"
-msgstr "&Dospołna powěsć"
-
-#: core/quicksearchline.cpp:134
-msgid "Body"
-msgstr ""
-
-#: core/quicksearchline.cpp:141
-#, fuzzy
-#| msgid "Subject"
-msgid "Subject"
-msgstr "Tema"
-
-#: core/quicksearchline.cpp:156
-msgid "Bcc"
-msgstr ""
-
-#: core/quicksearchline.cpp:299
-msgctxt "@info:tooltip"
-msgid "Clear the quick search field when changing folders"
-msgstr ""
-
-#: core/quicksearchline.cpp:303
-msgctxt "@info:tooltip"
-msgid "Prevent the quick search field from being cleared when changing folders"
-msgstr ""
-
-#: core/quicksearchline.cpp:358
-#, fuzzy
-msgid "To"
-msgstr "&Na"
-
-#: core/quicksearchline.cpp:360 core/view.cpp:2401 core/view.cpp:2405
-#, fuzzy
-#| msgid "&From"
-msgid "From"
-msgstr "&Wot"
-
-#: core/quicksearchline.cpp:370
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Unread"
-msgctxt "@action:inmenu Status of a message"
-msgid "Unread"
-msgstr "Nječitane"
-
-#: core/quicksearchline.cpp:373
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Replied"
-msgctxt "@action:inmenu Status of a message"
-msgid "Replied"
-msgstr "Wotmołwjene"
-
-#: core/quicksearchline.cpp:377
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Forwarded"
-msgctxt "@action:inmenu Status of a message"
-msgid "Forwarded"
-msgstr "Dopósłane"
-
-#: core/quicksearchline.cpp:381
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Important"
-msgctxt "@action:inmenu Status of a message"
-msgid "Important"
-msgstr "Wažne"
-
-#: core/quicksearchline.cpp:385
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Action Item"
-msgstr "Wažna powěsć"
-
-#: core/quicksearchline.cpp:389
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Watched"
-msgstr "Čitane"
-
-#: core/quicksearchline.cpp:393
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Ignored"
-msgstr "Nječitane"
-
-#: core/quicksearchline.cpp:397
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Attachment"
-msgstr "Přiwěšk: "
-
-#: core/quicksearchline.cpp:401
-#, fuzzy
-#| msgid "Advanced Options"
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Invitation"
-msgstr "Opcije za pokročenych"
-
-#: core/quicksearchline.cpp:405
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Spam"
-msgstr "Čitane"
-
-#: core/quicksearchline.cpp:409
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Ham"
-msgstr "Čitane"
-
 #. i18n: ectx: label, entry (MessageToolTipEnabled), group (MessageListView)
 #: core/settings.kcfg:10
 msgid "Display tooltips for messages and group headers"
@@ -1057,6 +906,12 @@ msgstr "[Nadrobnosće]"
 msgid "Display Tooltips"
 msgstr "&Na"
 
+#: core/view.cpp:2401 core/view.cpp:2405 core/widgets/quicksearchline.cpp:360
+#, fuzzy
+#| msgid "&From"
+msgid "From"
+msgstr "&Wot"
+
 #: core/view.cpp:2402 core/view.cpp:2406
 #, fuzzy
 msgctxt "Receiver of the email"
@@ -1230,45 +1085,190 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: core/widgetbase.cpp:391 messagelistutil.cpp:136
+#: core/widgetbase.cpp:393 messagelistutil.cpp:136
 msgid "Theme"
 msgstr ""
 
-#: core/widgetbase.cpp:415 core/widgetbase.cpp:506
+#: core/widgetbase.cpp:417 core/widgetbase.cpp:508
 #: utils/aggregationconfigbutton.cpp:45 utils/themeconfigbutton.cpp:62
 #, fuzzy
 msgid "Configure..."
 msgstr "KMail &konfigurować..."
 
-#: core/widgetbase.cpp:482 messagelistutil.cpp:130
+#: core/widgetbase.cpp:484 messagelistutil.cpp:130
 msgid "Aggregation"
 msgstr ""
 
-#: core/widgetbase.cpp:566
+#: core/widgetbase.cpp:568
 #, fuzzy
 #| msgid "Message Body"
 msgid "Message Sort Order"
 msgstr "Hłowny dźěl powěsće"
 
-#: core/widgetbase.cpp:591
+#: core/widgetbase.cpp:593
 #, fuzzy
 msgid "Message Sort Direction"
 msgstr "Lisćina powěsćow"
 
-#: core/widgetbase.cpp:610
+#: core/widgetbase.cpp:612
 #, fuzzy
 #| msgid "Delete Folder"
 msgid "Group Sort Order"
 msgstr "Zapisk zničić"
 
-#: core/widgetbase.cpp:631
+#: core/widgetbase.cpp:633
 #, fuzzy
 msgid "Group Sort Direction"
 msgstr "Lisćina powěsćow"
 
-#: core/widgetbase.cpp:648
+#: core/widgetbase.cpp:650
 msgid "Folder Always Uses This Sort Order"
 msgstr ""
+
+#: core/widgets/quicksearchline.cpp:62
+#, fuzzy
+msgctxt "@action:button"
+msgid "Lock search"
+msgstr "&Pytaj"
+
+#: core/widgets/quicksearchline.cpp:66
+msgctxt "@info:whatsthis"
+msgid ""
+"Toggle this button if you want to keep your quick search locked when moving "
+"to other folders or when narrowing the search by message status."
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:80
+#, fuzzy
+#| msgid "Available Filters"
+msgid "Quick Filter:"
+msgstr "Filtry k dispoziciji"
+
+#: core/widgets/quicksearchline.cpp:86
+#, fuzzy
+msgctxt "Search for messages."
+msgid "Search"
+msgstr "&Pytaj"
+
+#: core/widgets/quicksearchline.cpp:96
+#, fuzzy
+msgid "More..."
+msgstr "KMail &konfigurować..."
+
+#: core/widgets/quicksearchline.cpp:123
+#, fuzzy
+msgid "Filter message by:"
+msgstr "Powěsće zničić"
+
+#: core/widgets/quicksearchline.cpp:126
+#, fuzzy
+#| msgid "&Full message"
+msgid "Full Message"
+msgstr "&Dospołna powěsć"
+
+#: core/widgets/quicksearchline.cpp:134
+msgid "Body"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:141
+#, fuzzy
+#| msgid "Subject"
+msgid "Subject"
+msgstr "Tema"
+
+#: core/widgets/quicksearchline.cpp:156
+msgid "Bcc"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:299
+msgctxt "@info:tooltip"
+msgid "Clear the quick search field when changing folders"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:303
+msgctxt "@info:tooltip"
+msgid "Prevent the quick search field from being cleared when changing folders"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:358
+#, fuzzy
+msgid "To"
+msgstr "&Na"
+
+#: core/widgets/quicksearchline.cpp:370
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Unread"
+msgctxt "@action:inmenu Status of a message"
+msgid "Unread"
+msgstr "Nječitane"
+
+#: core/widgets/quicksearchline.cpp:373
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Replied"
+msgctxt "@action:inmenu Status of a message"
+msgid "Replied"
+msgstr "Wotmołwjene"
+
+#: core/widgets/quicksearchline.cpp:377
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Forwarded"
+msgctxt "@action:inmenu Status of a message"
+msgid "Forwarded"
+msgstr "Dopósłane"
+
+#: core/widgets/quicksearchline.cpp:381
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Important"
+msgctxt "@action:inmenu Status of a message"
+msgid "Important"
+msgstr "Wažne"
+
+#: core/widgets/quicksearchline.cpp:385
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Action Item"
+msgstr "Wažna powěsć"
+
+#: core/widgets/quicksearchline.cpp:389
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Watched"
+msgstr "Čitane"
+
+#: core/widgets/quicksearchline.cpp:393
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Ignored"
+msgstr "Nječitane"
+
+#: core/widgets/quicksearchline.cpp:397
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Attachment"
+msgstr "Přiwěšk: "
+
+#: core/widgets/quicksearchline.cpp:401
+#, fuzzy
+#| msgid "Advanced Options"
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Invitation"
+msgstr "Opcije za pokročenych"
+
+#: core/widgets/quicksearchline.cpp:405
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Spam"
+msgstr "Čitane"
+
+#: core/widgets/quicksearchline.cpp:409
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Ham"
+msgstr "Čitane"
 
 #: messagelistutil.cpp:124
 #, fuzzy
