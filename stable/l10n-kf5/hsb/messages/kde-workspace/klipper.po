@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+"POT-Creation-Date: 2015-03-24 11:30+0000\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -40,18 +40,21 @@ msgstr ""
 #. i18n: ectx: label, entry (EnableMagicMimeActions), group (Actions)
 #: actionsconfig.ui:31 klipper.kcfg:84
 #, fuzzy
+#| msgid "&Paste Clipboard Contents"
 msgid "Enable MIME-based actions"
 msgstr "Wobsah clipboarda &zasunyć"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: actionsconfig.ui:38
 #, fuzzy
+#| msgid "ActionList: %1"
 msgid "Action list:"
 msgstr "Lisćina akcijow: %1"
 
 #. i18n: ectx: property (text), widget (ActionsTreeWidget, kcfg_ActionList)
 #: actionsconfig.ui:49
 #, fuzzy
+#| msgid "Regular e&xpression"
 msgid "Regular Expression"
 msgstr "P&rawidłowny wuraz"
 
@@ -63,12 +66,14 @@ msgstr "Wopisanje"
 #. i18n: ectx: property (text), widget (QPushButton, pbAddAction)
 #: actionsconfig.ui:64
 #, fuzzy
+#| msgid "Action"
 msgid "Add Action..."
 msgstr "Akcija"
 
 #. i18n: ectx: property (text), widget (QPushButton, pbEditAction)
 #: actionsconfig.ui:71
 #, fuzzy
+#| msgid "Action"
 msgid "Edit Action..."
 msgstr "Akcija"
 
@@ -104,6 +109,7 @@ msgstr[3] ""
 
 #: configdialog.cpp:38
 #, fuzzy
+#| msgid "No entries"
 msgid " entry"
 msgid_plural " entries"
 msgstr[0] "Žane zapisy"
@@ -169,6 +175,7 @@ msgstr ""
 
 #: editactiondialog.cpp:223
 #, fuzzy
+#| msgid "Co&mmand:"
 msgid "Command"
 msgstr "Při&kaz:"
 
@@ -178,28 +185,33 @@ msgstr ""
 
 #: editactiondialog.cpp:267
 #, fuzzy
+#| msgid "Properties"
 msgid "Action Properties"
 msgstr "Swójstwa"
 
 #: editactiondialog.cpp:373
 #, fuzzy
+#| msgid "Run &command"
 msgid "new command"
 msgstr "Přikaz &wuwjesć"
 
 #: editactiondialog.cpp:374
 #, fuzzy
+#| msgid "Description"
 msgid "Command Description"
 msgstr "Wopisanje"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: editactiondialog.ui:20
 #, fuzzy
+#| msgid "Properties"
 msgid "Action properties:"
 msgstr "Swójstwa"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: editactiondialog.ui:42
 #, fuzzy
+#| msgid "Regular e&xpression"
 msgid "Regular expression:"
 msgstr "P&rawidłowny wuraz"
 
@@ -221,12 +233,14 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, pbAddCommand)
 #: editactiondialog.ui:144
 #, fuzzy
+#| msgid "Co&mmand:"
 msgid "Add Command"
 msgstr "Při&kaz:"
 
 #. i18n: ectx: property (text), widget (QPushButton, pbRemoveCommand)
 #: editactiondialog.ui:151
 #, fuzzy
+#| msgid "Co&mmand:"
 msgid "Remove Command"
 msgstr "Při&kaz:"
 
@@ -238,6 +252,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeepClipboardContents)
 #: generalconfig.ui:17
 #, fuzzy
+#| msgid "&Paste Clipboard Contents"
 msgid "Save clipboard contents on exit"
 msgstr "Wobsah clipboarda &zasunyć"
 
@@ -261,12 +276,14 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreSelection)
 #: generalconfig.ui:44
 #, fuzzy
+#| msgid "Language Selection"
 msgid "Ignore selection"
 msgstr "Wuběr rěče"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SelectionTextOnly)
 #: generalconfig.ui:51
 #, fuzzy
+#| msgid "&Selected text"
 msgid "Text selection only"
 msgstr "&Wubrany tekst"
 
@@ -283,119 +300,133 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, history_size_label)
 #: generalconfig.ui:82
 #, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Clipboard Viewer"
 msgid "Clipboard history size:"
 msgstr "Přehladowar za clipboard"
 
-#: klipper.cpp:124
+#: klipper.cpp:125
 #, fuzzy
+#| msgid "&Paste Clipboard Contents"
 msgid "Enable Clipboard Actions"
 msgstr "Wobsah clipboarda &zasunyć"
 
-#: klipper.cpp:151
+#: klipper.cpp:152
 msgid "C&lear Clipboard History"
 msgstr ""
 
-#: klipper.cpp:158
+#: klipper.cpp:160
 msgid "&Configure Klipper..."
 msgstr ""
 
-#: klipper.cpp:164
+#: klipper.cpp:166
 #, fuzzy
+#| msgid "&Quit"
 msgctxt "@item:inmenu Quit Klipper"
 msgid "&Quit"
 msgstr "Kón&c"
 
-#: klipper.cpp:169
+#: klipper.cpp:171
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr ""
 
-#: klipper.cpp:177
+#: klipper.cpp:179
 msgid "&Edit Contents..."
 msgstr ""
 
-#: klipper.cpp:189
+#: klipper.cpp:191
 msgid "&Show Barcode..."
 msgstr ""
 
-#: klipper.cpp:201
+#: klipper.cpp:203
 #, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Clipboard Viewer"
 msgid "Next History Item"
 msgstr "Přehladowar za clipboard"
 
-#: klipper.cpp:205
+#: klipper.cpp:207
 #, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Clipboard Viewer"
 msgid "Previous History Item"
 msgstr "Přehladowar za clipboard"
 
-#: klipper.cpp:211
+#: klipper.cpp:213
 msgid "Open Klipper at Mouse Position"
 msgstr ""
 
-#: klipper.cpp:478
+#: klipper.cpp:496
 msgid ""
 "You can enable URL actions later by left-clicking on the Klipper icon and "
 "selecting 'Enable Clipboard Actions'"
 msgstr ""
 
-#: klipper.cpp:506
+#: klipper.cpp:524
 msgid "Should Klipper start automatically when you login?"
 msgstr ""
 
-#: klipper.cpp:507
+#: klipper.cpp:525
 msgid "Automatically Start Klipper?"
 msgstr ""
 
-#: klipper.cpp:507
+#: klipper.cpp:525
 msgid "Start"
 msgstr "Započeć"
 
-#: klipper.cpp:508
+#: klipper.cpp:526
 msgid "Do Not Start"
 msgstr ""
 
-#: klipper.cpp:856
+#: klipper.cpp:874
 msgid "Edit Contents"
 msgstr ""
 
-#: klipper.cpp:903
+#: klipper.cpp:940
 msgid "Mobile Barcode"
 msgstr ""
 
-#: klipper.cpp:941
+#: klipper.cpp:978
 msgid "Really delete entire clipboard history?"
 msgstr ""
 
-#: klipper.cpp:942
+#: klipper.cpp:979
 #, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Clipboard Viewer"
 msgid "Delete clipboard history?"
 msgstr "Přehladowar za clipboard"
 
-#: klipper.cpp:960 klipper.cpp:969
+#: klipper.cpp:997 klipper.cpp:1006
 #, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Clipboard Viewer"
 msgid "Clipboard history"
 msgstr "Přehladowar za clipboard"
 
-#: klipper.cpp:986
+#: klipper.cpp:1023
 msgid "up"
 msgstr ""
 
-#: klipper.cpp:993
+#: klipper.cpp:1030
 msgid "current"
 msgstr ""
 
-#: klipper.cpp:1000
+#: klipper.cpp:1037
 msgid "down"
 msgstr ""
 
 #. i18n: ectx: label, entry (Version), group (General)
 #: klipper.kcfg:9
 #, fuzzy
+#| msgid "Switch version"
 msgid "Klipper version"
 msgstr "Hinašu wersiju wužiwać"
 
 #. i18n: ectx: label, entry (KeepClipboardContents), group (General)
 #: klipper.kcfg:12
 #, fuzzy
+#| msgid "&Paste Clipboard Contents"
 msgid "Keep clipboard contents"
 msgstr "Wobsah clipboarda &zasunyć"
 
@@ -410,6 +441,7 @@ msgstr ""
 #. i18n: ectx: label, entry (IgnoreSelection), group (General)
 #: klipper.kcfg:25
 #, fuzzy
+#| msgid "Language Selection"
 msgid "Ignore Selection"
 msgstr "Wuběr rěče"
 
@@ -442,6 +474,7 @@ msgstr ""
 #. i18n: ectx: label, entry (SelectionTextOnly), group (General)
 #: klipper.kcfg:39
 #, fuzzy
+#| msgid "&Selected text"
 msgid "Selection text only"
 msgstr "&Wubrany tekst"
 
@@ -482,6 +515,8 @@ msgstr ""
 #. i18n: ectx: label, entry (MaxClipItems), group (General)
 #: klipper.kcfg:63
 #, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Clipboard Viewer"
 msgid "Clipboard history size"
 msgstr "Přehladowar za clipboard"
 
@@ -578,6 +613,8 @@ msgstr ""
 
 #: main.cpp:65
 #, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Clipboard Viewer"
 msgid "Previous Maintainer"
 msgstr "Přehladowar za clipboard"
 
@@ -593,29 +630,33 @@ msgstr ""
 msgid "&More"
 msgstr ""
 
-#: tray.cpp:38
+#: tray.cpp:39
 #, fuzzy
+#| msgid "&Paste Clipboard Contents"
 msgid "Clipboard Contents"
 msgstr "Wobsah clipboarda &zasunyć"
 
-#: tray.cpp:38 tray.cpp:55
+#: tray.cpp:39 tray.cpp:56
 #, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Clipboard Viewer"
 msgid "Clipboard is empty"
 msgstr "Přehladowar za clipboard"
 
-#: urlgrabber.cpp:218
+#: urlgrabber.cpp:219
 #, kde-format
 msgid "%1 - Actions For: %2"
 msgstr ""
 
-#: urlgrabber.cpp:246
+#: urlgrabber.cpp:247
 msgid "Disable This Popup"
 msgstr ""
 
-#: urlgrabber.cpp:252
+#: urlgrabber.cpp:253
 msgid "&Cancel"
 msgstr "&Přetorhnyć"
 
 #, fuzzy
+#~| msgid "&Paste Clipboard Contents"
 #~ msgid "Enable Clipboard &Actions"
 #~ msgstr "Wobsah clipboarda &zasunyć"

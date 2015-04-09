@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-03 11:48+0000\n"
+"POT-Creation-Date: 2015-04-08 08:30+0000\n"
 "PO-Revision-Date: 2008-11-13 01:06+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -18,30 +18,43 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
-#: package/contents/config/config.qml:26
+#: package/contents/config/config.qml:29
 #: package/contents/ui/ConfigLocation.qml:77
 #, fuzzy
+#| msgctxt ""
+#| "Title of the page that lets the user choose which location should the "
+#| "folderview show"
+#| msgid "Location"
 msgid "Location"
 msgstr "Městno"
 
-#: package/contents/config/config.qml:32 package/contents/ui/main.qml:554
+#: package/contents/config/config.qml:36
+#: package/contents/ui/FolderViewLayer.qml:228
 msgid "Icons"
 msgstr "piktogramy"
 
-#: package/contents/config/config.qml:38
+#: package/contents/config/config.qml:43
 #, fuzzy
+#| msgctxt ""
+#| "Title of the page that lets the user choose how to filter the folderview "
+#| "contents"
+#| msgid "Filter"
 msgid "Filter"
 msgstr "Filter"
+
+#: package/contents/config/config.qml:50
+msgid "Tweaks"
+msgstr ""
 
 #: package/contents/ui/AppletHandle.qml:105
 msgid "Resize"
 msgstr ""
 
-#: package/contents/ui/AppletHandle.qml:144
+#: package/contents/ui/AppletHandle.qml:146
 msgid "Rotate"
 msgstr ""
 
-#: package/contents/ui/AppletHandle.qml:301
+#: package/contents/ui/AppletHandle.qml:305
 msgid "Remove"
 msgstr ""
 
@@ -77,131 +90,151 @@ msgstr ""
 msgid "Deselect All"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:59
+#: package/contents/ui/ConfigIcons.qml:60
 msgid "Arrangement"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:68
+#: package/contents/ui/ConfigIcons.qml:69
 msgid "Arrange in:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:74 plugin/viewpropertiesmenu.cpp:34
+#: package/contents/ui/ConfigIcons.qml:75
 msgid "Rows"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:74 plugin/viewpropertiesmenu.cpp:38
+#: package/contents/ui/ConfigIcons.qml:75
 msgid "Columns"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:80
+#: package/contents/ui/ConfigIcons.qml:81
 #, fuzzy
+#| msgid "Align to Grid"
 msgid "Align:"
 msgstr "Po rastru wusměrić"
 
-#: package/contents/ui/ConfigIcons.qml:86 plugin/viewpropertiesmenu.cpp:46
+#: package/contents/ui/ConfigIcons.qml:87
 msgid "Left"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:86 plugin/viewpropertiesmenu.cpp:50
+#: package/contents/ui/ConfigIcons.qml:87
 msgid "Right"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:95
+#: package/contents/ui/ConfigIcons.qml:96
 #, fuzzy
+#| msgctxt "Icons on the desktop"
+#| msgid "Lock in Place"
 msgid "Lock in place"
 msgstr "Na městno přiwjazać"
 
-#: package/contents/ui/ConfigIcons.qml:105
+#: package/contents/ui/ConfigIcons.qml:106
 msgid "Sorting"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:112
+#: package/contents/ui/ConfigIcons.qml:113
 msgid "Sorting:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:58
+#: package/contents/ui/ConfigIcons.qml:125
 #, fuzzy
+#| msgctxt "Sort Icons"
+#| msgid "Unsorted"
 msgid "Unsorted"
 msgstr "Njesortěrowane"
 
-#: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:62
+#: package/contents/ui/ConfigIcons.qml:125
 #, fuzzy
+#| msgctxt "Sort icons"
+#| msgid "By Name"
 msgid "Name"
 msgstr "Po mjenach"
 
-#: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:66
+#: package/contents/ui/ConfigIcons.qml:125
 #, fuzzy
+#| msgctxt "Sort icons"
+#| msgid "By Size"
 msgid "Size"
 msgstr "Po wulkosći"
 
-#: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:70
+#: package/contents/ui/ConfigIcons.qml:125
 #, fuzzy
+#| msgctxt "Sort icons"
+#| msgid "By Type"
 msgid "Type"
 msgstr "Po družinje"
 
-#: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:74
+#: package/contents/ui/ConfigIcons.qml:125
 #, fuzzy
+#| msgctxt "Sort icons"
+#| msgid "By Date"
 msgid "Date"
 msgstr "Po datumje"
 
-#: package/contents/ui/ConfigIcons.qml:141 plugin/viewpropertiesmenu.cpp:79
+#: package/contents/ui/ConfigIcons.qml:142
 msgid "Descending"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:149
+#: package/contents/ui/ConfigIcons.qml:150
 #, fuzzy
+#| msgctxt "Sort icons"
+#| msgid "Folders First"
 msgid "Folders first"
 msgstr "Najprjedy zapiski"
 
-#: package/contents/ui/ConfigIcons.qml:158
+#: package/contents/ui/ConfigIcons.qml:159
 msgid "Appearance"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:165
+#: package/contents/ui/ConfigIcons.qml:166
 #, fuzzy
+#| msgctxt "Sort icons"
+#| msgid "By Size"
 msgid "Size:"
 msgstr "Po wulkosći"
 
-#: package/contents/ui/ConfigIcons.qml:169
+#: package/contents/ui/ConfigIcons.qml:170
 msgid "Small"
 msgstr "Małe"
 
-#: package/contents/ui/ConfigIcons.qml:183
+#: package/contents/ui/ConfigIcons.qml:184
 msgid "Large"
 msgstr "Wulke"
 
-#: package/contents/ui/ConfigIcons.qml:189
+#: package/contents/ui/ConfigIcons.qml:190
 msgid "Text lines:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:209
+#: package/contents/ui/ConfigIcons.qml:210
 msgid "Features"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:217
+#: package/contents/ui/ConfigIcons.qml:218
 msgid "Tooltips"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:225
+#: package/contents/ui/ConfigIcons.qml:226
 #, fuzzy
+#| msgid "Desktop Folder"
 msgid "Selection markers"
 msgstr "Zapisk na dźěłowym powjerchu"
 
-#: package/contents/ui/ConfigIcons.qml:231
+#: package/contents/ui/ConfigIcons.qml:232
 msgid "Folder preview popups"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:238
+#: package/contents/ui/ConfigIcons.qml:239
 #, fuzzy
+#| msgid "Show previews"
 msgid "Preview thumbnails"
 msgstr "Přehladki pokazać"
 
-#: package/contents/ui/ConfigIcons.qml:244
+#: package/contents/ui/ConfigIcons.qml:245
 msgid "More Preview Options..."
 msgstr ""
 
 #: package/contents/ui/ConfigLocation.qml:95
 #, fuzzy
+#| msgid "Desktop Folder"
 msgid "Show the Desktop folder"
 msgstr "Zapisk na dźěłowym powjerchu"
 
@@ -211,6 +244,8 @@ msgstr ""
 
 #: package/contents/ui/ConfigLocation.qml:123
 #, fuzzy
+#| msgctxt "Icons on the desktop"
+#| msgid "Lock in Place"
 msgid "Show a place:"
 msgstr "Na městno přiwjazać"
 
@@ -246,179 +281,164 @@ msgstr ""
 msgid "Enter custom title here"
 msgstr ""
 
-#: package/contents/ui/PreviewPluginsDialog.qml:36
+#: package/contents/ui/ConfigTweaks.qml:46
+msgid ""
+"Tweaks are experimental options that may become defaults depending on your "
+"feedback."
+msgstr ""
+
+#: package/contents/ui/ConfigTweaks.qml:52
 #, fuzzy
+#| msgid "Desktop Folder"
+msgid "Desktop Layout"
+msgstr "Zapisk na dźěłowym powjerchu"
+
+#: package/contents/ui/ConfigTweaks.qml:61
+#, fuzzy
+#| msgid "Desktop Folder"
+msgid "Show the desktop toolbox"
+msgstr "Zapisk na dźěłowym powjerchu"
+
+#: package/contents/ui/ConfigTweaks.qml:69
+msgid "Widget Handling"
+msgstr ""
+
+#: package/contents/ui/ConfigTweaks.qml:79
+msgid "Press and hold widgets to move them and reveal their handles"
+msgstr ""
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:36
+#, fuzzy
+#| msgid "Show previews"
 msgid "Preview Plugins"
 msgstr "Přehladki pokazać"
 
-#: package/contents/ui/PreviewPluginsDialog.qml:84
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:84
 msgid "OK"
 msgstr ""
 
-#: package/contents/ui/PreviewPluginsDialog.qml:97
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:97
 msgid "Cancel"
 msgstr ""
 
-#: plugin/directorypicker.cpp:45
-#, fuzzy
-msgid "Select Folder"
-msgstr "Zapisk na dźěłowym powjerchu"
-
-#: plugin/foldermodel.cpp:217
-msgid "&Refresh Desktop"
-msgstr "&Dźěłowy powjerch aktualizować"
-
-#: plugin/foldermodel.cpp:217 plugin/foldermodel.cpp:1035
-msgid "&Refresh View"
-msgstr "&Napohlad aktualizować"
-
-#: plugin/foldermodel.cpp:1032
-msgid "&Reload"
-msgstr "&Znowa začitać"
-
-#: plugin/foldermodel.cpp:1038
-msgid "&Rename"
-msgstr "&Hinak pomjenować"
-
-#: plugin/foldermodel.cpp:1041
-msgid "&Move to Trash"
-msgstr "&Do papjernika přesunyć"
-
-#: plugin/foldermodel.cpp:1044 plugin/internallibkonq/konq_popupmenu.cpp:350
-msgid "&Empty Trash Bin"
-msgstr "Papj&ernik wuprózdnić"
-
-#: plugin/foldermodel.cpp:1047
-msgid "&Delete"
-msgstr "Z&ničić"
-
-#: plugin/foldermodel.cpp:1107
-msgid "&Paste"
-msgstr "&Zasunyć"
-
-#: plugin/internallibkonq/konq_copytomenu.cpp:82
-msgctxt "@title:menu"
-msgid "Copy To"
+#: package/contents/ui/main.qml:259
+msgid "Widgets unlocked"
 msgstr ""
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:88
-#, fuzzy
-msgctxt "@title:menu"
-msgid "Move To"
-msgstr "Do papjernika ćisnyć"
-
-#: plugin/internallibkonq/konq_copytomenu.cpp:112
-#, fuzzy
-msgctxt "@title:menu"
-msgid "Home Folder"
-msgstr "Zapisk na dźěłowym powjerchu"
-
-#: plugin/internallibkonq/konq_copytomenu.cpp:119
-#, fuzzy
-msgctxt "@title:menu"
-msgid "Root Folder"
-msgstr "Zapisk na dźěłowym powjerchu"
-
-#: plugin/internallibkonq/konq_copytomenu.cpp:155
-msgctxt "@title:menu in Copy To or Move To submenu"
-msgid "Browse..."
+#: package/contents/ui/main.qml:260
+msgid "You can press and hold widgets to move them and reveal their handles."
 msgstr ""
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:228
-#, fuzzy
-msgctxt "@title:menu"
-msgid "Copy Here"
-msgstr "Sem &kopěrować"
-
-#: plugin/internallibkonq/konq_copytomenu.cpp:229
-#, fuzzy
-msgctxt "@title:menu"
-msgid "Move Here"
-msgstr "&Sem přesunyć"
-
-#: plugin/internallibkonq/konq_popupmenu.cpp:254
-msgid "&Open"
-msgstr "W&očinić"
-
-#: plugin/internallibkonq/konq_popupmenu.cpp:281
-msgid "Create &Folder..."
-msgstr "Za&pisk stworić ..."
-
-#: plugin/internallibkonq/konq_popupmenu.cpp:292
-msgid "&Restore"
+#: package/contents/ui/main.qml:261
+msgid "Got it"
 msgstr ""
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:315
-msgid "Show Original Directory"
-msgstr ""
-
-#: plugin/internallibkonq/konq_popupmenu.cpp:315
-msgid "Show Original File"
-msgstr ""
-
-#: plugin/internallibkonq/konq_popupmenu.cpp:363
 #, fuzzy
-msgid "&Configure Trash Bin"
-msgstr "Papj&ernik wuprózdnić"
+#~| msgid "Desktop Folder"
+#~ msgid "Select Folder"
+#~ msgstr "Zapisk na dźěłowym powjerchu"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:389
-msgid "&Bookmark This Page"
-msgstr "&Dodaj tutu stronu k lubuškam"
+#~ msgid "&Refresh Desktop"
+#~ msgstr "&Dźěłowy powjerch aktualizować"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:391
-msgid "&Bookmark This Location"
-msgstr "&Dodaj tute městno k lubuškam"
+#~ msgid "&Refresh View"
+#~ msgstr "&Napohlad aktualizować"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:394
-msgid "&Bookmark This Folder"
-msgstr "&Dodaj tutón zapisk k lubuškam"
+#~ msgid "&Reload"
+#~ msgstr "&Znowa začitać"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:396
-msgid "&Bookmark This Link"
-msgstr "&Dodaj tutón wotkaz k lubuškam"
+#~ msgid "&Rename"
+#~ msgstr "&Hinak pomjenować"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:398
-msgid "&Bookmark This File"
-msgstr "&Dodaj tutu dataju k lubuškam"
+#~ msgid "&Move to Trash"
+#~ msgstr "&Do papjernika přesunyć"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:428
+#~ msgid "&Empty Trash Bin"
+#~ msgstr "Papj&ernik wuprózdnić"
+
+#~ msgid "&Delete"
+#~ msgstr "Z&ničić"
+
+#~ msgid "&Paste"
+#~ msgstr "&Zasunyć"
+
 #, fuzzy
-msgid "Preview In"
-msgstr "Přehladki pokazać"
+#~| msgid "Move to Trash"
+#~ msgctxt "@title:menu"
+#~ msgid "Move To"
+#~ msgstr "Do papjernika ćisnyć"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:463
-msgid "&Properties"
-msgstr "&Swójstwa"
-
-#: plugin/internallibkonq/konq_popupmenu.cpp:479
-msgid "Share"
-msgstr "Dźělić"
-
-#: plugin/labelgenerator.cpp:97
-msgid "Desktop Folder"
-msgstr "Zapisk na dźěłowym powjerchu"
-
-#: plugin/viewpropertiesmenu.cpp:31
-msgid "Arrange In"
-msgstr ""
-
-#: plugin/viewpropertiesmenu.cpp:43
 #, fuzzy
-msgid "Align"
-msgstr "Po rastru wusměrić"
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Home Folder"
+#~ msgstr "Zapisk na dźěłowym powjerchu"
 
-#: plugin/viewpropertiesmenu.cpp:55
-msgid "Sort By"
-msgstr ""
-
-#: plugin/viewpropertiesmenu.cpp:81
 #, fuzzy
-msgid "Folders First"
-msgstr "Najprjedy zapiski"
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Root Folder"
+#~ msgstr "Zapisk na dźěłowym powjerchu"
 
-#: plugin/viewpropertiesmenu.cpp:84
-msgid "Locked"
-msgstr ""
+#, fuzzy
+#~| msgid "&Copy Here"
+#~ msgctxt "@title:menu"
+#~ msgid "Copy Here"
+#~ msgstr "Sem &kopěrować"
+
+#, fuzzy
+#~| msgid "&Move Here"
+#~ msgctxt "@title:menu"
+#~ msgid "Move Here"
+#~ msgstr "&Sem přesunyć"
+
+#~ msgid "&Open"
+#~ msgstr "W&očinić"
+
+#~ msgid "Create &Folder..."
+#~ msgstr "Za&pisk stworić ..."
+
+#, fuzzy
+#~| msgid "&Empty Trash Bin"
+#~ msgid "&Configure Trash Bin"
+#~ msgstr "Papj&ernik wuprózdnić"
+
+#~ msgid "&Bookmark This Page"
+#~ msgstr "&Dodaj tutu stronu k lubuškam"
+
+#~ msgid "&Bookmark This Location"
+#~ msgstr "&Dodaj tute městno k lubuškam"
+
+#~ msgid "&Bookmark This Folder"
+#~ msgstr "&Dodaj tutón zapisk k lubuškam"
+
+#~ msgid "&Bookmark This Link"
+#~ msgstr "&Dodaj tutón wotkaz k lubuškam"
+
+#~ msgid "&Bookmark This File"
+#~ msgstr "&Dodaj tutu dataju k lubuškam"
+
+#, fuzzy
+#~| msgid "Show previews"
+#~ msgid "Preview In"
+#~ msgstr "Přehladki pokazać"
+
+#~ msgid "&Properties"
+#~ msgstr "&Swójstwa"
+
+#~ msgid "Share"
+#~ msgstr "Dźělić"
+
+#, fuzzy
+#~| msgid "Align to Grid"
+#~ msgid "Align"
+#~ msgstr "Po rastru wusměrić"
+
+#, fuzzy
+#~| msgctxt "Sort icons"
+#~| msgid "Folders First"
+#~ msgid "Folders First"
+#~ msgstr "Najprjedy zapiski"
 
 #~ msgid "You cannot drop a folder on to itself"
 #~ msgstr "Njemóžeće zapisk na so pušćić"
@@ -439,50 +459,60 @@ msgstr ""
 #~ msgstr "Za &tapetu postajić"
 
 #, fuzzy
+#~| msgid "Create New"
 #~ msgctxt "@action:button"
 #~ msgid "Create directory"
 #~ msgstr "Nowy stworić"
 
 #, fuzzy
+#~| msgid "Enter folder name:"
 #~ msgctxt "@action:button"
 #~ msgid "Enter a different name"
 #~ msgstr "Mjeno zapiska zapodać:"
 
 #, fuzzy
+#~| msgid "Create New"
 #~ msgctxt "@title:window"
 #~ msgid "Create hidden directory?"
 #~ msgstr "Nowy stworić"
 
 #, fuzzy
+#~| msgid "Desktop Folder"
 #~ msgctxt "@label Default name when creating a folder"
 #~ msgid "New Folder"
 #~ msgstr "Zapisk na dźěłowym powjerchu"
 
 #, fuzzy
+#~| msgid "Desktop Folder"
 #~ msgctxt "@title:window"
 #~ msgid "New Folder"
 #~ msgstr "Zapisk na dźěłowym powjerchu"
 
 #, fuzzy
+#~| msgid "Enter folder name:"
 #~ msgctxt "@label:textbox"
 #~ msgid "Enter folder name:"
 #~ msgstr "Mjeno zapiska zapodać:"
 
 #, fuzzy
+#~| msgid "Desktop Folder"
 #~ msgctxt "@action:inmenu"
 #~ msgid "Paste One Folder"
 #~ msgstr "Zapisk na dźěłowym powjerchu"
 
 #, fuzzy
+#~| msgid "&Paste"
 #~ msgctxt "@action:inmenu"
 #~ msgid "Paste"
 #~ msgstr "&Zasunyć"
 
 #, fuzzy
+#~| msgid "Show previews"
 #~ msgid "Previews"
 #~ msgstr "Přehladki pokazać"
 
 #, fuzzy
+#~| msgid "Icons"
 #~ msgctxt ""
 #~ "Title of the page that lets the user choose how the folderview should be "
 #~ "shown"
@@ -497,6 +527,9 @@ msgstr ""
 #~ msgstr "Na městno přiwjazać"
 
 #, fuzzy
+#~| msgid ""
+#~| "Use this slider to increase or decrease the size of the icons in the "
+#~| "view."
 #~ msgid ""
 #~ "Use this control to choose the criteria by which the icons will be sorted "
 #~ "in the view."
@@ -504,6 +537,9 @@ msgstr ""
 #~ "Z tutym suwakom móžeće wulkosć piktogramow w tutym napohledźe připrawić."
 
 #, fuzzy
+#~| msgid ""
+#~| "Use this slider to increase or decrease the size of the icons in the "
+#~| "view."
 #~ msgid ""
 #~ "Use this control to choose whether the icons will be arranged "
 #~ "horizontally (in rows) or vertically (in columns)."
@@ -511,6 +547,9 @@ msgstr ""
 #~ "Z tutym suwakom móžeće wulkosć piktogramow w tutym napohledźe připrawić."
 
 #, fuzzy
+#~| msgid ""
+#~| "Use this slider to increase or decrease the size of the icons in the "
+#~| "view."
 #~ msgid ""
 #~ "Use this control to choose whether the icons will be aligned to the left "
 #~ "or to the right side of the screen."
@@ -518,6 +557,7 @@ msgstr ""
 #~ "Z tutym suwakom móžeće wulkosć piktogramow w tutym napohledźe připrawić."
 
 #, fuzzy
+#~| msgid "Align to Grid"
 #~ msgid "Align to grid:"
 #~ msgstr "Po rastru wusměrić"
 
@@ -534,10 +574,14 @@ msgstr ""
 #~ "piktogramach widźeć."
 
 #, fuzzy
+#~| msgid "Icon Settings"
 #~ msgid "Icon Text"
 #~ msgstr "Nastajenja za piktogramy"
 
 #, fuzzy
+#~| msgid ""
+#~| "Check this option if you want to see previews of the file contents in "
+#~| "the icons."
 #~ msgid ""
 #~ "Check this option if you want the icons to be sorted in a descending "
 #~ "order."
@@ -546,18 +590,22 @@ msgstr ""
 #~ "piktogramach widźeć."
 
 #, fuzzy
+#~| msgid "Top to Bottom"
 #~ msgid "Top to Bottom, Left to Right"
 #~ msgstr "Wot horjeka dele"
 
 #, fuzzy
+#~| msgid "Top to Bottom"
 #~ msgid "Top to Bottom, Right to Left"
 #~ msgstr "Wot horjeka dele"
 
 #, fuzzy
+#~| msgid "Left to Right"
 #~ msgid "Left to Right, Top to Bottom"
 #~ msgstr "Wotlěwa doprawa"
 
 #, fuzzy
+#~| msgid "Left to Right"
 #~ msgid "Right to Left, Top to Bottom"
 #~ msgstr "Wotlěwa doprawa"
 
