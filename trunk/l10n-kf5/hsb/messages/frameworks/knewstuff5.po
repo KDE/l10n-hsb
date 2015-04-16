@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-12 07:56+0000\n"
+"POT-Creation-Date: 2015-04-16 08:32+0000\n"
 "PO-Revision-Date: 2008-12-19 22:49+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -396,6 +396,112 @@ msgstr ""
 #: ui/itemsviewdelegate.cpp:148
 msgid "Install"
 msgstr "Instalować"
+
+#: kmoretools/kmoretools.cpp:590
+#, fuzzy
+#| msgid "Choose..."
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "Wubrać..."
+
+#: kmoretools/kmoretools.cpp:605
+#, fuzzy
+#| msgid "Install"
+msgctxt "@action:inmenu"
+msgid "Not installed:"
+msgstr "Instalować"
+
+#: kmoretools/kmoretools.cpp:641
+#, fuzzy
+#| msgid "Confi&gure..."
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr "Konfigura&cija..."
+
+#: kmoretools/kmoretools_p.h:370
+#, fuzzy
+#| msgid "Homepage"
+msgctxt "@action:inmenu"
+msgid "Visit homepage"
+msgstr "Domjaca strona"
+
+#: kmoretools/kmoretools_p.h:377
+#, fuzzy
+#| msgid "There is no matching item available.\n"
+msgctxt "@action:inmenu"
+msgid "No further information available."
+msgstr "Žadyn wotpowědowacy element.\n"
+
+#: kmoretools/kmoretoolsconfigdialog_p.cpp:191
+#, fuzzy
+#| msgid "Configure"
+msgid "Configure menu"
+msgstr "Konfiguracija"
+
+#: kmoretools/kmoretoolsconfigdialog_p.cpp:193
+#, fuzzy, kde-format
+#| msgid "&Configure %1..."
+msgid "Configure menu - %1"
+msgstr "%1 &konfigurować ..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:25
+#, fuzzy
+#| msgid "MainWindow"
+msgid "Main section"
+msgstr "Hłownewokno"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveDown)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:58
+#, fuzzy
+#| msgid "Move &Down"
+msgid "Move down"
+msgstr "&Dele sunyć"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:79
+#, fuzzy
+#| msgid "Move &Up"
+msgid "Move up"
+msgstr "&Horje sunyć"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMain)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:100
+msgid "Move to Main section"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:121
+#, fuzzy
+#| msgid "More Actions"
+msgid "Move to More section"
+msgstr "Dalše akcije"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonReset)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:142
+msgid "Reset"
+msgstr "Stary staw"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:161
+#, fuzzy
+#| msgid "More Actions"
+msgid "More section"
+msgstr "Dalše akcije"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:213
+msgid ""
+"For this menu there are some more tools suggested which are currently not "
+"installed:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:223
+#, fuzzy
+#| msgid "Choose..."
+msgid "More tools..."
+msgstr "Wubrać..."
 
 #: ui/entrydetailsdialog.cpp:91
 #, fuzzy, kde-format
@@ -3676,9 +3782,6 @@ msgstr "Započeć narunać"
 #~ msgid "Configure S&hortcuts..."
 #~ msgstr "Konfiguracija &skrótšenkow..."
 
-#~ msgid "&Configure %1..."
-#~ msgstr "%1 &konfigurować ..."
-
 #~ msgid "Configure Tool&bars..."
 #~ msgstr "Konfiguracija &nastrojoweho paska ..."
 
@@ -3877,11 +3980,6 @@ msgstr "Započeć narunać"
 #~ msgctxt "Action to send an email to a contributor"
 #~ msgid "Email contributor"
 #~ msgstr "Dalši přinošowarjo"
-
-#, fuzzy
-#~| msgid "Homepage"
-#~ msgid "Visit contributor's homepage"
-#~ msgstr "Domjaca strona"
 
 #, fuzzy
 #~| msgid "Other Contributors:"
@@ -4291,9 +4389,6 @@ msgstr "Započeć narunać"
 #~ msgid "Close Message"
 #~ msgstr "Powěsć začinić"
 
-#~ msgid "Configure"
-#~ msgstr "Konfiguracija"
-
 #~ msgid "Job"
 #~ msgstr "Nadawk"
 
@@ -4525,9 +4620,6 @@ msgstr "Započeć narunać"
 #~ msgid "Reset Toolbars"
 #~ msgstr "Nastrojowe pasy na standard wróćo stajić"
 
-#~ msgid "Reset"
-#~ msgstr "Stary staw"
-
 #~ msgid "&Toolbar:"
 #~ msgstr "&Nastrojowy pask:"
 
@@ -4673,9 +4765,6 @@ msgstr "Započeć narunać"
 
 #~ msgid "Delete"
 #~ msgstr "Zničić"
-
-#~ msgid "More Actions"
-#~ msgstr "Dalše akcije"
 
 #~ msgid "Save as Scheme Defaults"
 #~ msgstr "Jako standardnu šemu zawěsćić"
@@ -5908,9 +5997,6 @@ msgstr "Započeć narunać"
 #~ "match is available.\n"
 #~ msgstr "Wudospołnjenje njeje jednozmyslne\n"
 
-#~ msgid "There is no matching item available.\n"
-#~ msgstr "Žadyn wotpowědowacy element.\n"
-
 #~ msgid "Backspace"
 #~ msgstr "Backspace"
 
@@ -6115,9 +6201,6 @@ msgstr "Započeć narunać"
 #~ msgctxt "Verb"
 #~ msgid "&Insert"
 #~ msgstr "&Insert"
-
-#~ msgid "Confi&gure..."
-#~ msgstr "Konfigura&cija..."
 
 #~ msgid "Add"
 #~ msgstr "Dodać"
@@ -7165,12 +7248,6 @@ msgstr "Započeć narunać"
 
 #~ msgid "&Remove"
 #~ msgstr "Wotst&ronić"
-
-#~ msgid "Move &Up"
-#~ msgstr "&Horje sunyć"
-
-#~ msgid "Move &Down"
-#~ msgstr "&Dele sunyć"
 
 #~ msgid "&Help"
 #~ msgstr "Po&moc"
@@ -10075,11 +10152,6 @@ msgstr "Započeć narunać"
 #~ msgstr "Sebastian Sauer"
 
 #, fuzzy
-#~| msgid "MainWindow"
-#~ msgid "Maintainer"
-#~ msgstr "Hłownewokno"
-
-#, fuzzy
 #~| msgid "Tobias Anton"
 #~ msgid "Tobias Koenig"
 #~ msgstr "Tobias Anton"
@@ -10205,14 +10277,6 @@ msgstr "Započeć narunać"
 #~| msgid "Enter"
 #~ msgid "After"
 #~ msgstr "Zapodać"
-
-#, fuzzy
-#~| msgid "Choose..."
-#~ msgctxt ""
-#~ "@option:check An item in a list of resources that allows to query for "
-#~ "more resources to put in the list"
-#~ msgid "More..."
-#~ msgstr "Wubrać..."
 
 #, fuzzy
 #~| msgctxt "@action"
