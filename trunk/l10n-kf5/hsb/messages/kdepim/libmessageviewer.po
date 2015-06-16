@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-06-15 08:31+0000\n"
+"POT-Creation-Date: 2015-06-16 12:03+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -198,7 +198,7 @@ msgstr ""
 msgid "Delete current list"
 msgstr "Sćehnje aktualnu skupinu"
 
-#: adblock/adblocksettingwidget.cpp:404
+#: adblock/adblocksettingwidget.cpp:404 adblock/adblocksettingwidget.cpp:437
 #, fuzzy
 #| msgid "&All Fields"
 msgid "All Files (*)"
@@ -208,10 +208,6 @@ msgstr "&Wšitke pola"
 #, fuzzy
 msgid "Import Filters"
 msgstr "iCal eksportować"
-
-#: adblock/adblocksettingwidget.cpp:437
-msgid "all files (*)"
-msgstr ""
 
 #: adblock/adblocksettingwidget.cpp:447
 #, fuzzy
@@ -1427,7 +1423,7 @@ msgstr ""
 msgid "Headers:"
 msgstr "&Hłójčki"
 
-#: utils/util.cpp:81
+#: utils/util.cpp:82
 #, fuzzy, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
@@ -1435,68 +1431,68 @@ msgstr ""
 "Dataja %1 eksistuje?\n"
 "Chceće ju přepisać?"
 
-#: utils/util.cpp:83
+#: utils/util.cpp:84
 #, fuzzy
 msgid "Overwrite File?"
 msgstr "Dataju zasunyć"
 
-#: utils/util.cpp:196
+#: utils/util.cpp:197
 #, fuzzy
 msgid "Save Attachments To"
 msgstr "Přiwěšk zawěsćić jako"
 
-#: utils/util.cpp:210
+#: utils/util.cpp:211
 msgctxt "filename for an unnamed attachment"
 msgid "attachment.1"
 msgstr ""
 
-#: utils/util.cpp:217
+#: utils/util.cpp:218
 #, fuzzy
 #| msgid "Save Attachment As"
 msgid "Save Attachment"
 msgstr "Přiwěšk zawěsćić jako"
 
-#: utils/util.cpp:237
+#: utils/util.cpp:238
 #, kde-format
 msgctxt "filename for the %1-th unnamed attachment"
 msgid "attachment.%1"
 msgstr ""
 
-#: utils/util.cpp:319
+#: utils/util.cpp:320
 #, kde-format
 msgid ""
 "The part %1 of the message is encrypted. Do you want to keep the encryption "
 "when saving?"
 msgstr ""
 
-#: utils/util.cpp:321 utils/util.cpp:331
+#: utils/util.cpp:322 utils/util.cpp:332
 #, fuzzy
 msgid "KMail Question"
 msgstr "KMail"
 
-#: utils/util.cpp:321
+#: utils/util.cpp:322
 #, fuzzy
 msgid "Keep Encryption"
 msgstr "Šifrowanje"
 
-#: utils/util.cpp:321 utils/util.cpp:331
+#: utils/util.cpp:322 utils/util.cpp:332
 #, fuzzy
 msgid "Do Not Keep"
 msgstr "Šifrowanje"
 
-#: utils/util.cpp:329
+#: utils/util.cpp:330
 #, kde-format
 msgid ""
 "The part %1 of the message is signed. Do you want to keep the signature when "
 "saving?"
 msgstr ""
 
-#: utils/util.cpp:331
+#: utils/util.cpp:332
 #, fuzzy
 msgid "Keep Signature"
 msgstr "&Signatura:"
 
-#: utils/util.cpp:381 utils/util.cpp:405 utils/util.cpp:421
+#: utils/util.cpp:382 utils/util.cpp:406 utils/util.cpp:422
 #, fuzzy, kde-format
 msgctxt "1 = file name, 2 = error string"
 msgid "<qt>Could not write to the file<br><filename>%1</filename><br><br>%2"
@@ -1504,23 +1500,23 @@ msgstr ""
 "Njemóžach do dataje pisać:\n"
 "%1"
 
-#: utils/util.cpp:384 utils/util.cpp:408 utils/util.cpp:424
+#: utils/util.cpp:385 utils/util.cpp:409 utils/util.cpp:425
 #, fuzzy
 msgid "Error saving attachment"
 msgstr "Přiwěšk: "
 
-#: utils/util.cpp:451
+#: utils/util.cpp:452
 #, fuzzy
 msgid "Found no attachments to save."
 msgstr "Njepokazuje přiwěški w powěsći samej"
 
-#: utils/util.cpp:470
+#: utils/util.cpp:471
 #, fuzzy
 #| msgid "0 messages"
 msgid "message"
 msgstr "žane powěsće"
 
-#: utils/util.cpp:477
+#: utils/util.cpp:478
 msgid "email messages (*.mbox);;all files (*)"
 msgstr ""
 
@@ -1533,43 +1529,39 @@ msgstr[1] "%1 powěsćow, %2."
 msgstr[2] "%1 powěsćow, %2."
 msgstr[3] "%1 powěsćow, %2."
 
-#: utils/util.cpp:505
+#: utils/util.cpp:506
 #, fuzzy, kde-format
 msgid "File %1 could not be loaded."
 msgstr "PGP-ŝifrowana powěsć"
 
-#: utils/util.cpp:505
+#: utils/util.cpp:506
 #, fuzzy
 #| msgid "Error while uploading message"
 msgid "Error loading message"
 msgstr "Zmylk při pósłanju powěsće na server"
 
-#: utils/util.cpp:507
+#: utils/util.cpp:508
 #, fuzzy, kde-format
 msgid "File %1 could not be created."
 msgstr "PGP-ŝifrowana powěsć"
 
-#: utils/util.cpp:507 utils/util.cpp:519
+#: utils/util.cpp:508 utils/util.cpp:520
 #, fuzzy
 msgid "Error saving message"
 msgstr "Přesuwam powěsć %3 z %2 wot %1."
 
-#: utils/util.cpp:519
+#: utils/util.cpp:520
 #, fuzzy
 #| msgid "End of signed message"
 msgid "We cannot save message."
 msgstr "Kónc podpisaneje powěsće"
 
-#: utils/util.cpp:539
-msgid "Starting Jovie Text-to-Speech Service Failed"
-msgstr ""
-
-#: utils/util.cpp:553
+#: utils/util.cpp:541
 #, fuzzy, kde-format
 msgid "Open &with %1"
 msgstr "Přiwěšk %1 wočinić?"
 
-#: utils/util.cpp:555
+#: utils/util.cpp:543
 #, kde-format
 msgctxt "@item:inmenu Open With, %1 is application name"
 msgid "%1"
@@ -2207,7 +2199,7 @@ msgstr "Wočinić w adresniku"
 msgid "&Copy Email Address"
 msgstr "emailowa adresa"
 
-#: viewer/urlhandlermanager.cpp:802 viewer/viewer_p.cpp:2897
+#: viewer/urlhandlermanager.cpp:802 viewer/viewer_p.cpp:2898
 msgid "Address copied to clipboard."
 msgstr "Adresa bu do zapisnika kopěrowana."
 
@@ -2704,37 +2696,37 @@ msgstr "Powěsć jako prosty tekst"
 msgid "Attachments:"
 msgstr "&Přiwěški"
 
-#: viewer/viewer_p.cpp:2902
+#: viewer/viewer_p.cpp:2903
 msgid "URL copied to clipboard."
 msgstr "URL do zapisknika kopěrowany."
 
-#: viewer/viewer_p.cpp:3070
+#: viewer/viewer_p.cpp:3071
 msgid "Hide full address list"
 msgstr ""
 
-#: viewer/viewer_p.cpp:3074
+#: viewer/viewer_p.cpp:3075
 #, fuzzy
 #| msgid "[Details]"
 msgid "Show full address list"
 msgstr "[Nadrobnosće]"
 
-#: viewer/viewer_p.cpp:3096
+#: viewer/viewer_p.cpp:3097
 #, fuzzy, kde-format
 #| msgid "Message was signed by %1."
 msgid "Message loading failed: %1."
 msgstr "Powěsć bu podpisana wot %1."
 
-#: viewer/viewer_p.cpp:3101
+#: viewer/viewer_p.cpp:3102
 #, fuzzy
 #| msgid "Message was signed by %1."
 msgid "Message not found."
 msgstr "Powěsć bu podpisana wot %1."
 
-#: viewer/viewer_p.cpp:3230
+#: viewer/viewer_p.cpp:3231
 msgid "Caret Browsing will be activated. Switch off with F7 shortcut."
 msgstr ""
 
-#: viewer/viewer_p.cpp:3231
+#: viewer/viewer_p.cpp:3232
 msgid "Activate Caret Browsing"
 msgstr ""
 
