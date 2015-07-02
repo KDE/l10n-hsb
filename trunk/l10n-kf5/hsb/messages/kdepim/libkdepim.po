@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkdepim\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-06-19 09:10+0000\n"
+"POT-Creation-Date: 2015-07-02 09:12+0000\n"
 "PO-Revision-Date: 2004-04-16 18:00+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -40,8 +40,8 @@ msgid "Configure Email Blacklist..."
 msgstr ""
 
 #: addressline/addresslineedit/addresseelineedit_p.cpp:140
-#: addressline/addresslineedit/addresseelineedit_p.cpp:849
-#: addressline/addresslineedit/addresseelineedit_p.cpp:850
+#: addressline/addresslineedit/addresseelineedit_p.cpp:844
+#: addressline/addresslineedit/addresseelineedit_p.cpp:845
 msgctxt "@title:group"
 msgid "Contacts found in your data"
 msgstr ""
@@ -55,46 +55,52 @@ msgstr ""
 msgid "Blacklist Email Completion"
 msgstr ""
 
-#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:46
+#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:47
 #, fuzzy
 #| msgid "Separator:"
 msgid "Search email:"
 msgstr "Rozdźělowak:"
 
-#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:51
+#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:52
 msgid "Research is done from 3 characters"
 msgstr ""
 
-#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:59
+#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:60
 #, fuzzy
 #| msgid "Separator:"
 msgid "Search"
 msgstr "Rozdźělowak:"
 
-#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:71
+#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:76
+#, fuzzy
+#| msgid "Separator:"
+msgid "Search in result..."
+msgstr "Rozdźělowak:"
+
+#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:83
 #, fuzzy
 msgid "&Select"
 msgstr "Wubraće mustra"
 
-#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:76
+#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:88
 #, fuzzy
 msgid "&Unselect"
 msgstr "Wubraće mustra"
 
-#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:81
+#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:93
 msgid "<qt><a href=\"more_result\">More result...</a></qt>"
 msgstr ""
 
-#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:96
+#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:108
 msgid "Exclude domain names:"
 msgstr ""
 
-#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:105
+#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:117
 #, kde-format
 msgid "Separate domain with '%1'"
 msgstr ""
 
-#: addressline/blacklistbaloocompletion/blacklistbalooemaillist.cpp:128
+#: addressline/blacklistbaloocompletion/blacklistbalooemaillist.cpp:129
 msgid "No result found"
 msgstr ""
 
@@ -374,13 +380,11 @@ msgctxt "@item LDAP search key"
 msgid "Email"
 msgstr "Email"
 
-#: ldap/ldapsearchdialog.cpp:106 ldap/ldapsearchdialog.cpp:148
-#: ldap/ldapsearchdialog.cpp:319
+#: ldap/ldapsearchdialog.cpp:106 ldap/ldapsearchdialog.cpp:319
 msgid "Home Number"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:107 ldap/ldapsearchdialog.cpp:150
-#: ldap/ldapsearchdialog.cpp:322
+#: ldap/ldapsearchdialog.cpp:107 ldap/ldapsearchdialog.cpp:322
 msgid "Work Number"
 msgstr ""
 
@@ -444,20 +448,6 @@ msgstr "Wubraće mustra"
 #: ldap/ldapsearchdialog.cpp:121 ldap/ldapsearchdialog.cpp:362
 msgid "User ID"
 msgstr ""
-
-#: ldap/ldapsearchdialog.cpp:141
-#, fuzzy
-#| msgid "Name"
-msgctxt "Search attribute: Name of contact"
-msgid "Name"
-msgstr "Mjeno"
-
-#: ldap/ldapsearchdialog.cpp:146
-#, fuzzy
-#| msgid "Email"
-msgctxt "Search attribute: Email of the contact"
-msgid "Email"
-msgstr "Email"
 
 #: ldap/ldapsearchdialog.cpp:316
 #, fuzzy
@@ -768,6 +758,18 @@ msgstr "Wosobinski adresnik"
 msgctxt "@info"
 msgid "Select the address book where the contact will be saved:"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgctxt "Search attribute: Name of contact"
+#~ msgid "Name"
+#~ msgstr "Mjeno"
+
+#, fuzzy
+#~| msgid "Email"
+#~ msgctxt "Search attribute: Email of the contact"
+#~ msgid "Email"
+#~ msgstr "Email"
 
 #, fuzzy
 #~ msgid "Select Address Book"
