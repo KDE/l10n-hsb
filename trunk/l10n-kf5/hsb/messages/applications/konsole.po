@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-06-07 08:42+0000\n"
+"POT-Creation-Date: 2015-07-04 08:59+0000\n"
 "PO-Revision-Date: 2003-12-23 17:19+0100\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -1807,14 +1807,22 @@ msgstr ""
 
 #: Profile.cpp:145
 #, fuzzy
-#| msgid "&Bell"
-msgid "Shell"
-msgstr "&Zwónčk"
+#| msgid "&Save as Default"
+msgctxt "Name of the default/builtin profile"
+msgid "Default"
+msgstr "Jako &standard zawěsćić"
 
 #: ProfileList.cpp:47
 #, fuzzy
 #| msgid "Save Sessions &Profile..."
 msgid "Default profile"
+msgstr "&Profilowu dataju zawěsćić..."
+
+#: ProfileManager.cpp:366
+#, fuzzy, kde-format
+#| msgid "Save Sessions &Profile..."
+msgctxt "The default name of a profile"
+msgid "Profile #%1"
 msgstr "&Profilowu dataju zawěsćić..."
 
 #: RenameTabDialog.cpp:37
@@ -2685,6 +2693,11 @@ msgstr ""
 #, fuzzy
 msgid "&Stop"
 msgstr "&Stój"
+
+#, fuzzy
+#~| msgid "&Bell"
+#~ msgid "Shell"
+#~ msgstr "&Zwónčk"
 
 #, fuzzy
 #~| msgctxt "abbreviation of number"
