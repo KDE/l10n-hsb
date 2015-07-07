@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-02 09:07+0000\n"
+"POT-Creation-Date: 2015-07-07 11:57+0000\n"
 "PO-Revision-Date: 2008-12-19 22:49+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -35,42 +35,45 @@ msgstr "edi.werner@gmx.de"
 msgid "About %1"
 msgstr "Wo %1"
 
-#: kaboutapplicationdialog.cpp:99
+#: kaboutapplicationdialog.cpp:98
 #, fuzzy, kde-format
 #| msgid ""
-#| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
-#| "%3</html>"
-msgid ""
-"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
+#| "<html><font size=\"5\">K Desktop Environment</font><br /><b>Version %1</"
+#| "b></html>"
+msgid "<html><font size=\"5\">%1</font></html>"
 msgstr ""
-"<html><font size=\"5\">%1</font><br /><b>Wersija %2</b><br />Wužiwam KDE %3</"
+"<html><font size=\"5\">K Desktop Environment</font><br /><b>Wersija %1</b></"
 "html>"
 
-#: kaboutapplicationdialog.cpp:103
-#, fuzzy, kde-format
-#| msgid ""
-#| "<html><font size=\"5\">%1</font><br/><b>version %2</b><br/>Using KDE %3</"
-#| "html>"
-msgctxt ""
-"Program name, version and KDE platform version; do not translate "
-"'Development Platform'"
-msgid ""
-"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
-"Frameworks %3</html>"
-msgstr ""
-"<html><font size=\"5\">%1</font><br/><b>wersija %2</b><br/> wužiwajo KDE %3</"
-"html>"
-
-#: kaboutapplicationdialog.cpp:142
+#: kaboutapplicationdialog.cpp:136
 #, kde-format
 msgid "License: %1"
 msgstr "Licensa: %1"
 
-#: kaboutapplicationdialog.cpp:154
+#: kaboutapplicationdialog.cpp:148
 msgid "&About"
 msgstr "&Wo tutym programje"
 
-#: kaboutapplicationdialog.cpp:174
+#: kaboutapplicationdialog.cpp:153
+#, fuzzy, kde-format
+#| msgid "<br />Version: %1"
+msgid "<b>Version %1</b>"
+msgstr "<br/>Wersija: %1"
+
+#: kaboutapplicationdialog.cpp:158
+#, kde-format
+msgid ""
+"Using:<ul><li>KDE Frameworks %1</li><li>Qt %2 (built against %3)</li><li>The "
+"<em>%4</em> windowing system</li></ul>"
+msgstr ""
+
+#: kaboutapplicationdialog.cpp:168
+#, fuzzy
+#| msgid "Version:"
+msgid "&Version"
+msgstr "Wersija:"
+
+#: kaboutapplicationdialog.cpp:188
 msgid ""
 "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to report "
 "bugs.\n"
@@ -78,29 +81,29 @@ msgstr ""
 "Prošu wužiwajće <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a>, zo "
 "by wo zmylku rozprawili.\n"
 
-#: kaboutapplicationdialog.cpp:178 kaboutapplicationdialog.cpp:182
+#: kaboutapplicationdialog.cpp:192 kaboutapplicationdialog.cpp:196
 #, kde-format
 msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
 msgstr ""
 "Prošu wužiwajće <a href=\"mailto:%1\">%2</a>', zo by wo zmylku rozprawili.\n"
 
-#: kaboutapplicationdialog.cpp:209
+#: kaboutapplicationdialog.cpp:223
 msgid "A&uthor"
 msgstr "A&wtor"
 
-#: kaboutapplicationdialog.cpp:209
+#: kaboutapplicationdialog.cpp:223
 msgid "A&uthors"
 msgstr "A&wtorojo"
 
-#: kaboutapplicationdialog.cpp:236
+#: kaboutapplicationdialog.cpp:250
 msgid "&Thanks To"
 msgstr "&Dźak "
 
-#: kaboutapplicationdialog.cpp:275
+#: kaboutapplicationdialog.cpp:289
 msgid "T&ranslation"
 msgstr "&Přełožk"
 
-#: kaboutapplicationdialog.cpp:307
+#: kaboutapplicationdialog.cpp:321
 msgid "License Agreement"
 msgstr "Licensowe dorěčenje"
 
@@ -1437,6 +1440,30 @@ msgstr "&Nastajenja"
 #: ui_standards.rc:194
 msgid "Main Toolbar"
 msgstr "Hłowny nastrojowy pas"
+
+#, fuzzy
+#~| msgid ""
+#~| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
+#~| "%3</html>"
+#~ msgid ""
+#~ "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
+#~ msgstr ""
+#~ "<html><font size=\"5\">%1</font><br /><b>Wersija %2</b><br />Wužiwam KDE "
+#~ "%3</html>"
+
+#, fuzzy
+#~| msgid ""
+#~| "<html><font size=\"5\">%1</font><br/><b>version %2</b><br/>Using KDE %3</"
+#~| "html>"
+#~ msgctxt ""
+#~ "Program name, version and KDE platform version; do not translate "
+#~ "'Development Platform'"
+#~ msgid ""
+#~ "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
+#~ "Frameworks %3</html>"
+#~ msgstr ""
+#~ "<html><font size=\"5\">%1</font><br/><b>wersija %2</b><br/> wužiwajo KDE "
+#~ "%3</html>"
 
 #~ msgid "Print"
 #~ msgstr "Ćišćeć"
@@ -8871,9 +8898,6 @@ msgstr "Hłowny nastrojowy pas"
 
 #~ msgid "<br />Provider: %1"
 #~ msgstr "<br />Prowider: %1"
-
-#~ msgid "<br />Version: %1"
-#~ msgstr "<br/>Wersija: %1"
 
 #~ msgid "Provider information"
 #~ msgstr "Informacija wo prowideru"
