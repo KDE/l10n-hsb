@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-09-14 08:08+0000\n"
+"POT-Creation-Date: 2015-09-15 10:32+0000\n"
 "PO-Revision-Date: 2004-04-16 17:59+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -449,6 +449,78 @@ msgstr ""
 #, fuzzy
 msgid "Archiving events"
 msgstr "Na:"
+
+#: freebusymodel/freebusycalendar.cpp:133
+msgid "Free"
+msgstr ""
+
+#: freebusymodel/freebusycalendar.cpp:136
+msgid "Busy"
+msgstr ""
+
+#: freebusymodel/freebusycalendar.cpp:139
+msgid "Unavailable"
+msgstr ""
+
+#: freebusymodel/freebusycalendar.cpp:142
+msgid "Tentative"
+msgstr ""
+
+#: freebusymodel/freebusycalendar.cpp:145
+#, fuzzy
+msgid "Unknown"
+msgstr "Njeznaty zmylk"
+
+#: freebusymodel/freebusyitemmodel.cpp:230
+#, fuzzy
+msgid "Attendee"
+msgstr "Titl"
+
+#: freebusymodel/freeperiodmodel.cpp:150
+#, kde-format
+msgctxt "@label Day of the week name, example: Monday,"
+msgid "%1,"
+msgstr ""
+
+#: freebusymodel/freeperiodmodel.cpp:165
+#, kde-format
+msgctxt ""
+"@label A time period duration. It is preceded/followed (based on the "
+"orientation) by the name of the week, see the message above. example: 12 "
+"June, 8:00am to 9:30am"
+msgid "%1 %2, %3 to %4"
+msgstr ""
+
+#: freebusymodel/freeperiodmodel.cpp:185
+#, kde-format
+msgctxt ""
+"@label A time period duration. KLocale is used to format the components. "
+"example: Monday, 12 June, 8:00am to 9:30am"
+msgid "%1, %2 %3, %4 to %5"
+msgstr ""
+
+#: freebusymodel/freeperiodmodel.cpp:199
+msgctxt "@info:tooltip"
+msgid "Free Period"
+msgstr ""
+
+#: freebusymodel/freeperiodmodel.cpp:201
+#, fuzzy
+msgctxt "@info:tooltip period start time"
+msgid "Start:"
+msgstr "Staw:"
+
+#: freebusymodel/freeperiodmodel.cpp:204
+#, fuzzy
+msgctxt "@info:tooltip period end time"
+msgid "End:"
+msgstr "Titl"
+
+#: freebusymodel/freeperiodmodel.cpp:207
+#, fuzzy
+msgctxt "@info:tooltip period duration"
+msgid "Duration:"
+msgstr "Wopisanje:"
 
 #: kcalmodel.cpp:128
 #, kde-format
@@ -2874,11 +2946,6 @@ msgstr "&Wróćo na prěnjotny staw"
 #~ msgstr "Kategorije"
 
 #, fuzzy
-#~ msgctxt "@title:column event attendees"
-#~ msgid "Attendees"
-#~ msgstr "Titl"
-
-#, fuzzy
 #~ msgctxt "@title:column"
 #~ msgid "To-do"
 #~ msgstr "Na:"
@@ -4179,11 +4246,6 @@ msgstr "&Wróćo na prěnjotny staw"
 #~ msgstr "Konfiguracija resursow"
 
 #, fuzzy
-#~ msgctxt "@label event start time"
-#~ msgid "&Start:"
-#~ msgstr "Staw:"
-
-#, fuzzy
 #~ msgctxt "@info:tooltip"
 #~ msgid "Set the start time"
 #~ msgstr "Staw:"
@@ -4192,11 +4254,6 @@ msgstr "&Wróćo na prěnjotny staw"
 #~ msgctxt "@info:whatsthis"
 #~ msgid "Select the starting time for this event."
 #~ msgstr "Konfiguracija resursow"
-
-#, fuzzy
-#~ msgctxt "@label"
-#~ msgid "&End:"
-#~ msgstr "Titl"
 
 #, fuzzy
 #~ msgctxt "@action:button"
