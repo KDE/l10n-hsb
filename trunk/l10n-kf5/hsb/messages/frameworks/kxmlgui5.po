@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-25 10:49+0000\n"
+"POT-Creation-Date: 2015-09-22 09:57+0000\n"
 "PO-Revision-Date: 2008-12-19 22:49+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -1037,23 +1037,29 @@ msgstr "Jako standardnu šemu zawěsćić"
 msgid "Export Scheme..."
 msgstr "Šemu eksportować ..."
 
-#: kshortcutschemeseditor.cpp:101
+#: kshortcutschemeseditor.cpp:86
+#, fuzzy
+#| msgid "Export Scheme..."
+msgid "Import Scheme..."
+msgstr "Šemu eksportować ..."
+
+#: kshortcutschemeseditor.cpp:102
 msgid "Name for New Scheme"
 msgstr "Mjeno za nowu šemu"
 
-#: kshortcutschemeseditor.cpp:102
+#: kshortcutschemeseditor.cpp:103
 msgid "Name for new scheme:"
 msgstr "Mjeno za nowu šemu:"
 
-#: kshortcutschemeseditor.cpp:102
+#: kshortcutschemeseditor.cpp:103
 msgid "New Scheme"
 msgstr "Nowa šema"
 
-#: kshortcutschemeseditor.cpp:108
+#: kshortcutschemeseditor.cpp:109
 msgid "A scheme with this name already exists."
 msgstr "Šema z tutym mjenom hižo eksistuje."
 
-#: kshortcutschemeseditor.cpp:137
+#: kshortcutschemeseditor.cpp:138
 #, kde-format
 msgid ""
 "Do you really want to delete the scheme %1?\n"
@@ -1062,13 +1068,23 @@ msgstr ""
 "Chceće woprawdźe šemu z mjenom %1 zničić?\n"
 "Šemy za cyły system so njewotstronja."
 
-#: kshortcutschemeseditor.cpp:167
-msgid "Export to Location"
-msgstr "Eksportować do městna"
+#: kshortcutschemeseditor.cpp:168
+#, fuzzy
+#| msgid "Shortcuts"
+msgid "Export Shortcuts"
+msgstr "Skrótšenki"
 
-#: kshortcutschemeseditor.cpp:175
-msgid "Could not export shortcuts scheme because the location is invalid."
-msgstr "Njemóžach skrótšenki eksportować, dokelž je městno njekorektne."
+#: kshortcutschemeseditor.cpp:168 kshortcutschemeseditor.cpp:179
+#, fuzzy
+#| msgid "Shortcut Conflict(s)"
+msgid "Shortcuts (*.shortcuts)"
+msgstr "Konflikt skrótšenkow"
+
+#: kshortcutschemeseditor.cpp:179
+#, fuzzy
+#| msgid "Shortcuts"
+msgid "Import Shortcuts"
+msgstr "Skrótšenki"
 
 #: kshortcutsdialog.cpp:85
 msgid ""
@@ -1440,6 +1456,12 @@ msgstr "&Nastajenja"
 #: ui_standards.rc:194
 msgid "Main Toolbar"
 msgstr "Hłowny nastrojowy pas"
+
+#~ msgid "Export to Location"
+#~ msgstr "Eksportować do městna"
+
+#~ msgid "Could not export shortcuts scheme because the location is invalid."
+#~ msgstr "Njemóžach skrótšenki eksportować, dokelž je městno njekorektne."
 
 #, fuzzy
 #~| msgid ""
@@ -12390,9 +12412,6 @@ msgstr "Hłowny nastrojowy pas"
 
 #~ msgid "Conflict With Registered Global Shortcut(s)"
 #~ msgstr "Konflikt z registrowanej globalnej skrótšenku"
-
-#~ msgid "Shortcut Conflict(s)"
-#~ msgstr "Konflikt skrótšenkow"
 
 #~ msgid "tagcloudtest"
 #~ msgstr "tagcloudtest"
