@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-10 09:33+0000\n"
+"POT-Creation-Date: 2015-10-15 09:16+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -129,8 +129,8 @@ msgid "Multiple encryption keys per address"
 msgstr "wjacore šifrowanske kluče za kóždu adresu"
 
 #: aboutdata.cpp:364 collectionpage/collectionmailinglistpage.cpp:104
-#: editor/kmcomposewin.cpp:2126 kmmainwin.cpp:66 kmsystemtray.cpp:73
-#: kmsystemtray.cpp:114
+#: editor/kmcomposewin.cpp:2126 kmmainwin.cpp:66 kmreaderwin.cpp:315
+#: kmsystemtray.cpp:73 kmsystemtray.cpp:114
 msgid "KMail"
 msgstr "KMail"
 
@@ -3221,12 +3221,12 @@ msgstr "Dodać do adresnika"
 msgid "Contact created successfully"
 msgstr "Powěsće wuspěšnje zničene."
 
-#: job/createnewcontactjob.cpp:136 kmreaderwin.cpp:830
+#: job/createnewcontactjob.cpp:136 kmreaderwin.cpp:796
 #, kde-format
 msgid "Contact cannot be stored: %1"
 msgstr ""
 
-#: job/createnewcontactjob.cpp:136 kmreaderwin.cpp:830
+#: job/createnewcontactjob.cpp:136 kmreaderwin.cpp:796
 #, fuzzy
 msgid "Failed to store contact"
 msgstr "Přiwěšk: "
@@ -4715,85 +4715,43 @@ msgstr "&Papjernik:"
 msgid "Less GUI freezes, mail checks happen in the background"
 msgstr ""
 
-#: kmreaderwin.cpp:316
-msgid ""
-"<h2 style='margin-top: 0px;'>Retrieving Folder Contents</h2><p>Please "
-"wait . . .</p>&nbsp;"
-msgstr ""
-
-#: kmreaderwin.cpp:324
-msgid ""
-"<h2 style='margin-top: 0px;'>Offline</h2><p>KMail is currently in offline "
-"mode. Click <a href=\"kmail:goOnline\">here</a> to go online . . .</p>&nbsp;"
-msgstr ""
-
-#: kmreaderwin.cpp:333
-msgid ""
-"<h2 style='margin-top: 0px;'>Offline</h2><p>Account is currently in offline "
-"mode. Click <a href=\"kmail:goResourceOnline\">here</a> to go online . . .</"
-"p>&nbsp;"
-msgstr ""
-
-#: kmreaderwin.cpp:347
-#, fuzzy, kde-format
-msgctxt ""
-"%1: KMail version; %2: help:// URL; %3: generated list of new features; %4: "
-"First-time user text (only shown on first start); %5: generated list of "
-"important changes; --- end of comment ---"
-msgid ""
-"<h2 style='margin-top: 0px;'>Welcome to KMail %1</h2><p>KMail is the email "
-"client by KDE. It is designed to be fully compatible with Internet mailing "
-"standards including MIME, SMTP, POP3, and IMAP.</p>\n"
-"<ul><li>KMail has many powerful features which are described in the <a href="
-"\"%2\">documentation</a></li>\n"
-"%5\n"
-"%3\n"
-"%4\n"
-"<p>We hope that you will enjoy KMail.</p>\n"
-"<p>Thank you,</p>\n"
-"<p style='margin-bottom: 0px'>&nbsp; &nbsp; The KMail Team</p>"
-msgstr ""
-"KMail URL URL KMail KDE KMail\n"
-"<h2> KMail</h2><p> KMail Dźěłowy powjerch</p>\n"
-"<ul><li> KMail in<a href=\"%2\"></a></li>\n"
-"<li><a href=\"%3\"> KMail</A> KMail</li></ul>\n"
-"<p><span style='font-size:125%; font-weight:bold;'></span> KMail</p>\n"
-"<ul></ul>\n"
-"<p> in KMail KMail KDE</p>\n"
-"<ul></ul>\n"
-"<p> KMail</p>\n"
-"<p></p>\n"
-"<p>&nbsp;&nbsp; KMail</p>"
-
-#: kmreaderwin.cpp:364
-#, kde-format
-msgid ""
-"<p>Some of the new features in this release of KMail include (compared to "
-"KMail %1, which is part of KDE Software Compilation %2):</p>\n"
-msgstr ""
-
-#: kmreaderwin.cpp:378
+#: kmreaderwin.cpp:318
 #, fuzzy
-msgid ""
-"<p>Please take a moment to fill in the KMail configuration panel at Settings-"
-"&gt;Configure KMail.\n"
-"You need to create at least a default identity and an incoming as well as "
-"outgoing mail account.</p>\n"
-msgstr "<p> in KMail&gt; Konfiguracija KMail</p>"
+#| msgid "KDE Email Client"
+msgid "The KDE Mail Client"
+msgstr "KDE emailowy program"
 
-#: kmreaderwin.cpp:390
-#, kde-format
+#: kmreaderwin.cpp:327
+#, fuzzy
+msgid "Retrieving Folder Contents"
+msgstr "Nastajenje zapiskow"
+
+#: kmreaderwin.cpp:328
+#, fuzzy
+#| msgid "Please wait"
+msgid "Please wait . . ."
+msgstr "Prošu dočakajće"
+
+#: kmreaderwin.cpp:334 kmreaderwin.cpp:343
+#, fuzzy
+#| msgctxt "View->attachments->"
+#| msgid "&Inline"
+msgid "Offline"
+msgstr "&w powěsći"
+
+#: kmreaderwin.cpp:335
 msgid ""
-"<p><span style='font-size:125%; font-weight:bold;'>Important changes</span> "
-"(compared to KMail %1):</p>\n"
+"KMail is currently in offline mode. Click <a href=\"kmail:goOnline\">here</"
+"a> to go online . . .</p>"
 msgstr ""
 
-#: kmreaderwin.cpp:395
-#, kde-format
-msgid "<li>%1</li>\n"
-msgstr "<li>%1</li>\n"
+#: kmreaderwin.cpp:344
+msgid ""
+"Account is currently in offline mode. Click <a href=\"kmail:goResourceOnline"
+"\">here</a> to go online . . .</p>"
+msgstr ""
 
-#: kmreaderwin.cpp:836
+#: kmreaderwin.cpp:802
 #, fuzzy
 #| msgid "Messages moved successfully"
 msgid "Contact modified successfully"
@@ -6828,6 +6786,47 @@ msgstr[1] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 msgstr[2] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 
+#, fuzzy
+#~ msgctxt ""
+#~ "%1: KMail version; %2: help:// URL; %3: generated list of new features; "
+#~ "%4: First-time user text (only shown on first start); %5: generated list "
+#~ "of important changes; --- end of comment ---"
+#~ msgid ""
+#~ "<h2 style='margin-top: 0px;'>Welcome to KMail %1</h2><p>KMail is the "
+#~ "email client by KDE. It is designed to be fully compatible with Internet "
+#~ "mailing standards including MIME, SMTP, POP3, and IMAP.</p>\n"
+#~ "<ul><li>KMail has many powerful features which are described in the <a "
+#~ "href=\"%2\">documentation</a></li>\n"
+#~ "%5\n"
+#~ "%3\n"
+#~ "%4\n"
+#~ "<p>We hope that you will enjoy KMail.</p>\n"
+#~ "<p>Thank you,</p>\n"
+#~ "<p style='margin-bottom: 0px'>&nbsp; &nbsp; The KMail Team</p>"
+#~ msgstr ""
+#~ "KMail URL URL KMail KDE KMail\n"
+#~ "<h2> KMail</h2><p> KMail Dźěłowy powjerch</p>\n"
+#~ "<ul><li> KMail in<a href=\"%2\"></a></li>\n"
+#~ "<li><a href=\"%3\"> KMail</A> KMail</li></ul>\n"
+#~ "<p><span style='font-size:125%; font-weight:bold;'></span> KMail</p>\n"
+#~ "<ul></ul>\n"
+#~ "<p> in KMail KMail KDE</p>\n"
+#~ "<ul></ul>\n"
+#~ "<p> KMail</p>\n"
+#~ "<p></p>\n"
+#~ "<p>&nbsp;&nbsp; KMail</p>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>Please take a moment to fill in the KMail configuration panel at "
+#~ "Settings-&gt;Configure KMail.\n"
+#~ "You need to create at least a default identity and an incoming as well as "
+#~ "outgoing mail account.</p>\n"
+#~ msgstr "<p> in KMail&gt; Konfiguracija KMail</p>"
+
+#~ msgid "<li>%1</li>\n"
+#~ msgstr "<li>%1</li>\n"
+
 #~ msgid "OpenPGP Message - Encrypted"
 #~ msgstr "PGP-ŝifrowanu powěsć wočinić"
 
@@ -7075,12 +7074,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #~| msgctxt "View->attachments->"
 #~| msgid "&Inline"
 #~ msgid "online"
-#~ msgstr "&w powěsći"
-
-#, fuzzy
-#~| msgctxt "View->attachments->"
-#~| msgid "&Inline"
-#~ msgid "offline"
 #~ msgstr "&w powěsći"
 
 #, fuzzy
