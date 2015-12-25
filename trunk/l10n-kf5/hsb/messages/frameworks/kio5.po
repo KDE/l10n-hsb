@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsocks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-12-15 08:21+0000\n"
+"POT-Creation-Date: 2015-12-25 07:06+0000\n"
 "PO-Revision-Date: 2008-11-19 23:41+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -47,16 +47,16 @@ msgstr ""
 msgid "Unable to create io-slave: %1"
 msgstr "Njemóžach io-slave stworić: %1"
 
-#: core/copyjob.cpp:1100 core/job_error.cpp:508
+#: core/copyjob.cpp:1110 core/job_error.cpp:511
 msgid "Folder Already Exists"
 msgstr "Zapisk hižo eksistuje"
 
-#: core/copyjob.cpp:1371 core/copyjob.cpp:1935 core/filecopyjob.cpp:360
-#: core/job_error.cpp:498 widgets/paste.cpp:101
+#: core/copyjob.cpp:1381 core/copyjob.cpp:1945 core/filecopyjob.cpp:360
+#: core/job_error.cpp:501 widgets/paste.cpp:101
 msgid "File Already Exists"
 msgstr "Dataja hižo eksistuje"
 
-#: core/copyjob.cpp:1371 core/copyjob.cpp:1935
+#: core/copyjob.cpp:1381 core/copyjob.cpp:1945
 msgid "Already Exists as Folder"
 msgstr "Eksistuje hižo jako zapisk"
 
@@ -687,6 +687,12 @@ msgid "A file or folder cannot be dropped onto itself"
 msgstr "Dataja abo zapisk %1 njeeksistuje."
 
 #: core/job_error.cpp:240
+#, fuzzy
+#| msgid "The file or folder %1 does not exist."
+msgid "A folder cannot be moved into itself"
+msgstr "Dataja abo zapisk %1 njeeksistuje."
+
+#: core/job_error.cpp:243
 #, kde-format
 msgid ""
 "Unknown error code %1\n"
@@ -697,59 +703,59 @@ msgstr ""
 "%2\n"
 "Prošu pósćel połnu rozprawu wo zmylku na http://bugs.kde.org."
 
-#: core/job_error.cpp:265
+#: core/job_error.cpp:268
 msgctxt "@info url"
 msgid "(unknown)"
 msgstr "(njeznate)"
 
-#: core/job_error.cpp:272
+#: core/job_error.cpp:275
 #, kde-format
 msgctxt "@info %1 error name, %2 description"
 msgid "<qt><p><b>%1</b></p><p>%2</p></qt>"
 msgstr "<qt><p><b>%1</b></p><p>%2</p></qt>"
 
-#: core/job_error.cpp:276
+#: core/job_error.cpp:279
 msgid "<b>Technical reason</b>: "
 msgstr "<b>Techniska přičina</b>"
 
-#: core/job_error.cpp:278
+#: core/job_error.cpp:281
 msgid "<b>Details of the request</b>:"
 msgstr "<b>Nadrobnosće naprašowanja</b>:"
 
-#: core/job_error.cpp:279
+#: core/job_error.cpp:282
 #, kde-format
 msgid "<li>URL: %1</li>"
 msgstr "<li>URL: %1</li>"
 
-#: core/job_error.cpp:281
+#: core/job_error.cpp:284
 #, kde-format
 msgid "<li>Protocol: %1</li>"
 msgstr "<li>Protokol: %1</li>"
 
-#: core/job_error.cpp:283
+#: core/job_error.cpp:286
 #, kde-format
 msgid "<li>Date and time: %1</li>"
 msgstr "<li>Datum a čas: %1</li>"
 
-#: core/job_error.cpp:284
+#: core/job_error.cpp:287
 #, kde-format
 msgid "<li>Additional information: %1</li>"
 msgstr "<li>Dodatna informacija: %1</li>"
 
-#: core/job_error.cpp:287
+#: core/job_error.cpp:290
 msgid "<b>Possible causes</b>:"
 msgstr "<b>Móžna přičina</b>:"
 
-#: core/job_error.cpp:292
+#: core/job_error.cpp:295
 msgid "<b>Possible solutions</b>:"
 msgstr "<b>Móžne rozrisanje</b>:"
 
-#: core/job_error.cpp:326
+#: core/job_error.cpp:329
 msgctxt "@info protocol"
 msgid "(unknown)"
 msgstr "(njeznate)"
 
-#: core/job_error.cpp:335
+#: core/job_error.cpp:338
 msgid ""
 "Contact your appropriate computer support system, whether the system "
 "administrator, or technical support group for further assistance."
@@ -757,41 +763,41 @@ msgstr ""
 "Skontaktujće so z administratorom systema abo ze support-skupinu dalšeje "
 "pomocy dla."
 
-#: core/job_error.cpp:338
+#: core/job_error.cpp:341
 msgid "Contact the administrator of the server for further assistance."
 msgstr "Skontaktujće so z administratorom servera dalšeje pomocy dla."
 
-#: core/job_error.cpp:341
+#: core/job_error.cpp:344
 msgid "Check your access permissions on this resource."
 msgstr "Přepruwujće swoje přistupne prawa na tutej resursy."
 
-#: core/job_error.cpp:342
+#: core/job_error.cpp:345
 msgid ""
 "Your access permissions may be inadequate to perform the requested operation "
 "on this resource."
 msgstr "Twoje přistupne prawa su snano njedosahace za tutu akciju."
 
-#: core/job_error.cpp:344
+#: core/job_error.cpp:347
 msgid ""
 "The file may be in use (and thus locked) by another user or application."
 msgstr ""
 "Dataja so snano wot druheho wužiwarja abo programa wužiwa a je tuž blokowana."
 
-#: core/job_error.cpp:346
+#: core/job_error.cpp:349
 msgid ""
 "Check to make sure that no other application or user is using the file or "
 "has locked the file."
 msgstr "Přepruwuj, hač njeje druhi program abo wužiwar blokował."
 
-#: core/job_error.cpp:348
+#: core/job_error.cpp:351
 msgid "Although unlikely, a hardware error may have occurred."
 msgstr "Hačrunjež njeje to prawdźepodobne, je so snadź hardwareowy zmylk stał."
 
-#: core/job_error.cpp:350
+#: core/job_error.cpp:353
 msgid "You may have encountered a bug in the program."
 msgstr "Snadź sće na zmylk w programje storčili."
 
-#: core/job_error.cpp:351
+#: core/job_error.cpp:354
 msgid ""
 "This is most likely to be caused by a bug in the program. Please consider "
 "submitting a full bug report as detailed below."
@@ -799,7 +805,7 @@ msgstr ""
 "Wina je najskerje programowy zmylk. Prošu posćel kompletnu rozprawu wo "
 "zmylku."
 
-#: core/job_error.cpp:353
+#: core/job_error.cpp:356
 msgid ""
 "Update your software to the latest version. Your distribution should provide "
 "tools to update your software."
@@ -807,7 +813,7 @@ msgstr ""
 "Instalujće najnowšu wersiju programa. waša distribucija by dyrbjała "
 "wotpowědne update-móžnosće k dispoziciji stajiła."
 
-#: core/job_error.cpp:355
+#: core/job_error.cpp:358
 msgid ""
 "When all else fails, please consider helping the KDE team or the third party "
 "maintainer of this software by submitting a high quality bug report. If the "
@@ -825,11 +831,11 @@ msgstr ""
 "připisajće prošu horjeka podatu informaciju do swojeje rozprawy wo zmylku a "
 "podajće tak wjele dalšeje informacije, kaž maće za spomožnu."
 
-#: core/job_error.cpp:363
+#: core/job_error.cpp:366
 msgid "There may have been a problem with your network connection."
 msgstr "Snano maće problem ze swojim zwiskom na syć."
 
-#: core/job_error.cpp:366
+#: core/job_error.cpp:369
 msgid ""
 "There may have been a problem with your network configuration. If you have "
 "been accessing the Internet with no problems recently, this is unlikely."
@@ -838,7 +844,7 @@ msgstr ""
 "poslednim času problemy z přistupom na internet byli, njeje to "
 "prawdźepodobne."
 
-#: core/job_error.cpp:369
+#: core/job_error.cpp:372
 msgid ""
 "There may have been a problem at some point along the network path between "
 "the server and this computer."
@@ -846,39 +852,39 @@ msgstr ""
 "Najskerje je něhdźe po puću mjez serverom a tutym computerom problem ze "
 "zwiskom."
 
-#: core/job_error.cpp:371
+#: core/job_error.cpp:374
 msgid "Try again, either now or at a later time."
 msgstr "Spytajće hišće raz, pak hnydom pak pozdźišo."
 
-#: core/job_error.cpp:372
+#: core/job_error.cpp:375
 msgid "A protocol error or incompatibility may have occurred."
 msgstr "Protokolowy zmylk abo njekompatibelnosć je so wujewiła."
 
-#: core/job_error.cpp:373
+#: core/job_error.cpp:376
 msgid "Ensure that the resource exists, and try again."
 msgstr "Přepruwuj, hač resursa eksistuje, a spytajće hišće raz."
 
-#: core/job_error.cpp:374
+#: core/job_error.cpp:377
 msgid "The specified resource may not exist."
 msgstr "pominana resursa snano njeeksistuje."
 
-#: core/job_error.cpp:375
+#: core/job_error.cpp:378
 msgid "You may have incorrectly typed the location."
 msgstr "Snadź je so městno njekorektnje zapodała."
 
-#: core/job_error.cpp:376
+#: core/job_error.cpp:379
 msgid "Double-check that you have entered the correct location and try again."
 msgstr "Přepruwuj, hač sće městno prawje zapodali a spytajće hišće raz."
 
-#: core/job_error.cpp:378
+#: core/job_error.cpp:381
 msgid "Check your network connection status."
 msgstr "Přepruwujće zwisk ze syću."
 
-#: core/job_error.cpp:382
+#: core/job_error.cpp:385
 msgid "Cannot Open Resource For Reading"
 msgstr "Njemóžu resursu wočinić za čitanje"
 
-#: core/job_error.cpp:383
+#: core/job_error.cpp:386
 #, kde-format
 msgid ""
 "This means that the contents of the requested file or folder <strong>%1</"
@@ -887,15 +893,15 @@ msgstr ""
 "To rěka, zo so wobsah pominaneje dataje abo zapiska <strong>%1</strong> "
 "njeje móhła wobstarać, dokelž nimaće prawo čitanja."
 
-#: core/job_error.cpp:386
+#: core/job_error.cpp:389
 msgid "You may not have permissions to read the file or open the folder."
 msgstr "Snano nimaće prawo dataju čitać abo zapisk wočinić."
 
-#: core/job_error.cpp:392
+#: core/job_error.cpp:395
 msgid "Cannot Open Resource For Writing"
 msgstr "Njemóžu resursu wočinić za pisanje"
 
-#: core/job_error.cpp:393
+#: core/job_error.cpp:396
 #, kde-format
 msgid ""
 "This means that the file, <strong>%1</strong>, could not be written to as "
@@ -904,16 +910,16 @@ msgstr ""
 "To rěka, zo so do pominaneje dataje abo zapiska <strong>%1</strong> njeje "
 "móhło pisać, dokelž nimaće prawo pisanja."
 
-#: core/job_error.cpp:401
+#: core/job_error.cpp:404
 #, kde-format
 msgid "Cannot Initiate the %1 Protocol"
 msgstr "Njemóžu protokol %1 přihotować"
 
-#: core/job_error.cpp:402
+#: core/job_error.cpp:405
 msgid "Unable to Launch Process"
 msgstr "Njemóžu proces startować"
 
-#: core/job_error.cpp:403
+#: core/job_error.cpp:406
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -923,7 +929,7 @@ msgstr ""
 "Program na wašim computeru, kiž posłužuje protokol <strong>%1</strong>, "
 "njeje so startować móhł. To ma zwjetša techniske přičiny."
 
-#: core/job_error.cpp:406
+#: core/job_error.cpp:409
 msgid ""
 "The program which provides compatibility with this protocol may not have "
 "been updated with your last update of KDE. This can cause the program to be "
@@ -933,11 +939,11 @@ msgstr ""
 "wašim poslednim aktualizowanjom KDE sobu aktualizował. Jako sćěh móže "
 "program z tutej wersiju njekompatibelny być a njehodźi so startować."
 
-#: core/job_error.cpp:414
+#: core/job_error.cpp:417
 msgid "Internal Error"
 msgstr "Nutřkowny zmylk"
 
-#: core/job_error.cpp:415
+#: core/job_error.cpp:418
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -946,11 +952,11 @@ msgstr ""
 "Protokol na wašim computeru, kiž zaruča zwisk k protokolej <strong>%1</"
 "strong>  je na nutřkowny zmylk storčił."
 
-#: core/job_error.cpp:423
+#: core/job_error.cpp:426
 msgid "Improperly Formatted URL"
 msgstr "Njekorektny format URL"
 
-#: core/job_error.cpp:424
+#: core/job_error.cpp:427
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
 "strong>ocator (URL) that you entered was not properly formatted. The format "
@@ -962,12 +968,12 @@ msgstr ""
 "<blockquote><strong>protokol://wužiwar:hesło@www.heksempl.org:port/zapisk/"
 "dataja.ekstensija ?wariabla=hódnota</strong></blockquote>"
 
-#: core/job_error.cpp:433
+#: core/job_error.cpp:436
 #, kde-format
 msgid "Unsupported Protocol %1"
 msgstr "Njepodpěrany protokol %1"
 
-#: core/job_error.cpp:434
+#: core/job_error.cpp:437
 #, kde-format
 msgid ""
 "The protocol <strong>%1</strong> is not supported by the KDE programs "
@@ -976,11 +982,11 @@ msgstr ""
 "Protokol <strong>%1</strong> so wot KDE-programow, kiž su tuchwilu "
 "instalowane, njepodpěruje."
 
-#: core/job_error.cpp:437
+#: core/job_error.cpp:440
 msgid "The requested protocol may not be supported."
 msgstr "Pominany protokol so najskerje njepodpěruje."
 
-#: core/job_error.cpp:438
+#: core/job_error.cpp:441
 #, kde-format
 msgid ""
 "The versions of the %1 protocol supported by this computer and the server "
@@ -989,7 +995,7 @@ msgstr ""
 "Wersije protokola %1, kiž tutón computer podpěruje, najskerje njejsu "
 "kompatibelne k tym, kiž server poskića."
 
-#: core/job_error.cpp:440
+#: core/job_error.cpp:443
 msgid ""
 "You may perform a search on the Internet for a KDE program (called a "
 "kioslave or ioslave) which supports this protocol. Places to search include "
@@ -1001,21 +1007,21 @@ msgstr ""
 "kde.com/\">http://apps.kde.com/</a> a <a href=\"http://freshmeat.net/"
 "\">http://freshmeat.net/</a>."
 
-#: core/job_error.cpp:449
+#: core/job_error.cpp:452
 msgid "URL Does Not Refer to a Resource."
 msgstr "URL njewotkazuje na resursu."
 
-#: core/job_error.cpp:450
+#: core/job_error.cpp:453
 msgid "Protocol is a Filter Protocol"
 msgstr "Protokol je filtrowy protokol"
 
-#: core/job_error.cpp:451
+#: core/job_error.cpp:454
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
 "strong>ocator (URL) that you entered did not refer to a specific resource."
 msgstr "URL, kiž sće zapodali, njewotkazuje na specifisku resursu."
 
-#: core/job_error.cpp:454
+#: core/job_error.cpp:457
 msgid ""
 "KDE is able to communicate through a protocol within a protocol; the "
 "protocol specified is only for use in such situations, however this is not "
@@ -1026,12 +1032,12 @@ msgstr ""
 "specifikowany protokol pak hodźi so jenož za tajke pady. To je rědki pad a "
 "pokazuje najskerje na zmylk programa."
 
-#: core/job_error.cpp:462
+#: core/job_error.cpp:465
 #, kde-format
 msgid "Unsupported Action: %1"
 msgstr "Njepodpěrowana akcija %1"
 
-#: core/job_error.cpp:463
+#: core/job_error.cpp:466
 #, kde-format
 msgid ""
 "The requested action is not supported by the KDE program which is "
@@ -1040,7 +1046,7 @@ msgstr ""
 "Pominana akcija so njepodpěruje wot KDE-programa, kiž implementuje protokol "
 "%1."
 
-#: core/job_error.cpp:466
+#: core/job_error.cpp:469
 msgid ""
 "This error is very much dependent on the KDE program. The additional "
 "information should give you more information than is available to the KDE "
@@ -1049,15 +1055,15 @@ msgstr ""
 "Tutón zmylk wotwisuje wot KDE-programa. Dodatna informacija dyrbjała ći "
 "wjace informacije dać, hač steji I/O-architekturje k dispoziciji."
 
-#: core/job_error.cpp:469
+#: core/job_error.cpp:472
 msgid "Attempt to find another way to accomplish the same outcome."
 msgstr "Pytaj hinašu móžnosć samsny cil dócpěć."
 
-#: core/job_error.cpp:474
+#: core/job_error.cpp:477
 msgid "File Expected"
 msgstr "Sym z dataju ličił"
 
-#: core/job_error.cpp:475
+#: core/job_error.cpp:478
 #, kde-format
 msgid ""
 "The request expected a file, however the folder <strong>%1</strong> was "
@@ -1065,15 +1071,15 @@ msgid ""
 msgstr ""
 "Akcija je dataju wočakowała, je pak zapisk <strong>%1</strong> namakała."
 
-#: core/job_error.cpp:477
+#: core/job_error.cpp:480
 msgid "This may be an error on the server side."
 msgstr "To móže być zmylk ze strony servera."
 
-#: core/job_error.cpp:482
+#: core/job_error.cpp:485
 msgid "Folder Expected"
 msgstr "Sym ze zapiskom ličił"
 
-#: core/job_error.cpp:483
+#: core/job_error.cpp:486
 #, kde-format
 msgid ""
 "The request expected a folder, however the file <strong>%1</strong> was "
@@ -1081,16 +1087,16 @@ msgid ""
 msgstr ""
 "Akcija je zapisk wočakowała, je pak dataju <strong>%1</strong> namakała."
 
-#: core/job_error.cpp:490
+#: core/job_error.cpp:493
 msgid "File or Folder Does Not Exist"
 msgstr "Dataja abo zapisk njeeksistujetej"
 
-#: core/job_error.cpp:491
+#: core/job_error.cpp:494
 #, kde-format
 msgid "The specified file or folder <strong>%1</strong> does not exist."
 msgstr "Specifikowana dataja abo zapisk <strong>%1</strong> njeeksistuje."
 
-#: core/job_error.cpp:499
+#: core/job_error.cpp:502
 msgid ""
 "The requested file could not be created because a file with the same name "
 "already exists."
@@ -1098,19 +1104,19 @@ msgstr ""
 "Pominana dataja so njeje stworiła, dokelž dataja z tajkim mjenom hižo "
 "eksistuje."
 
-#: core/job_error.cpp:501
+#: core/job_error.cpp:504
 msgid "Try moving the current file out of the way first, and then try again."
 msgstr "Přesuń aktualnu dataju a spytaj potom hišće raz."
 
-#: core/job_error.cpp:503
+#: core/job_error.cpp:506
 msgid "Delete the current file and try again."
 msgstr "Znič aktualnu dataju a spytaj hišće raz."
 
-#: core/job_error.cpp:504
+#: core/job_error.cpp:507
 msgid "Choose an alternate filename for the new file."
 msgstr "Wubjerće sej hinaše pomjenowanje za nowu dataju."
 
-#: core/job_error.cpp:509
+#: core/job_error.cpp:512
 msgid ""
 "The requested folder could not be created because a folder with the same "
 "name already exists."
@@ -1118,23 +1124,23 @@ msgstr ""
 "Pominany zapisk so njeje stworił, dokelž zapisk z tajkim mjenom hižo "
 "eksistuje."
 
-#: core/job_error.cpp:511
+#: core/job_error.cpp:514
 msgid "Try moving the current folder out of the way first, and then try again."
 msgstr "Přesuńće aktualny zapisk a spytajće potom hišće raz."
 
-#: core/job_error.cpp:513
+#: core/job_error.cpp:516
 msgid "Delete the current folder and try again."
 msgstr "Zničće aktualny zapisk a spytajće hišće raz."
 
-#: core/job_error.cpp:514
+#: core/job_error.cpp:517
 msgid "Choose an alternate name for the new folder."
 msgstr "Wubjerće sej hinaše pomjenowanje za nowy zapisk."
 
-#: core/job_error.cpp:518
+#: core/job_error.cpp:521
 msgid "Unknown Host"
 msgstr "Njeznaty host"
 
-#: core/job_error.cpp:519
+#: core/job_error.cpp:522
 #, kde-format
 msgid ""
 "An unknown host error indicates that the server with the requested name, "
@@ -1143,41 +1149,41 @@ msgstr ""
 "Zmylk \"Njeznaty host\" praji, zo so server z mjenom <strong>%1</strong> "
 "njehodźeše w interneće namakać."
 
-#: core/job_error.cpp:522
+#: core/job_error.cpp:525
 #, kde-format
 msgid ""
 "The name that you typed, %1, may not exist: it may be incorrectly typed."
 msgstr ""
 "Mjeno, kiž sće zapodali, %1, snadź njeeksistuje; snano je so wopak zapodało."
 
-#: core/job_error.cpp:529
+#: core/job_error.cpp:532
 msgid "Access Denied"
 msgstr "Přistup wotpokazany"
 
-#: core/job_error.cpp:530
+#: core/job_error.cpp:533
 #, kde-format
 msgid "Access was denied to the specified resource, <strong>%1</strong>."
 msgstr "Přistup k specifikowanej resursy <strong>%1</strong> je so wotpokazał."
 
-#: core/job_error.cpp:532 core/job_error.cpp:758
+#: core/job_error.cpp:535 core/job_error.cpp:761
 msgid "You may have supplied incorrect authentication details or none at all."
 msgstr "Daty za awtentifikaciju móhli być wopak abo faluja."
 
-#: core/job_error.cpp:534 core/job_error.cpp:760
+#: core/job_error.cpp:537 core/job_error.cpp:763
 msgid "Your account may not have permission to access the specified resource."
 msgstr "Waš account snadź njedowoli přistup k pominanej resursy."
 
-#: core/job_error.cpp:536 core/job_error.cpp:762 core/job_error.cpp:774
+#: core/job_error.cpp:539 core/job_error.cpp:765 core/job_error.cpp:777
 msgid ""
 "Retry the request and ensure your authentication details are entered "
 "correctly."
 msgstr "Spytaj hišće raz a přepruwujće,hač je awtentifikacija korektna."
 
-#: core/job_error.cpp:544
+#: core/job_error.cpp:547
 msgid "Write Access Denied"
 msgstr "Pospyt pisanja wotpokazany"
 
-#: core/job_error.cpp:545
+#: core/job_error.cpp:548
 #, kde-format
 msgid ""
 "This means that an attempt to write to the file <strong>%1</strong> was "
@@ -1185,11 +1191,11 @@ msgid ""
 msgstr ""
 "To rěka, zo so wam njeje dowoliło, do dataje <strong>%1</strong> pisać."
 
-#: core/job_error.cpp:552
+#: core/job_error.cpp:555
 msgid "Unable to Enter Folder"
 msgstr "Njemóžu do zapiska hić"
 
-#: core/job_error.cpp:553
+#: core/job_error.cpp:556
 #, kde-format
 msgid ""
 "This means that an attempt to enter (in other words, to open) the requested "
@@ -1198,16 +1204,16 @@ msgstr ""
 "To rěka, zo je so pospyt zapisk <strong>%1</strong> wočinić (do njeho hić), "
 "wotpokazał."
 
-#: core/job_error.cpp:561
+#: core/job_error.cpp:564
 msgid "Folder Listing Unavailable"
 msgstr "Čitanje zapiska njeje móžne"
 
-#: core/job_error.cpp:562
+#: core/job_error.cpp:565
 #, kde-format
 msgid "Protocol %1 is not a Filesystem"
 msgstr "Protokol %1 njeje datajowy system"
 
-#: core/job_error.cpp:563
+#: core/job_error.cpp:566
 msgid ""
 "This means that a request was made which requires determining the contents "
 "of the folder, and the KDE program supporting this protocol is unable to do "
@@ -1216,11 +1222,11 @@ msgstr ""
 "To rěka, zo je so spytało wobsah zapiska čitać, a KDE-program, kiž tutón "
 "protokol podpěruje, njeje móhł akciju wuwjesć."
 
-#: core/job_error.cpp:571
+#: core/job_error.cpp:574
 msgid "Cyclic Link Detected"
 msgstr "Cykliski link namakał"
 
-#: core/job_error.cpp:572
+#: core/job_error.cpp:575
 msgid ""
 "UNIX environments are commonly able to link a file or folder to a separate "
 "name and/or location. KDE detected a link or series of links that results in "
@@ -1231,29 +1237,29 @@ msgstr ""
 "wotkaz namakał, kiž rezultuje w bjezkónčnym wotkazowanju, to rěka, zo je "
 "dataja (přez někotre mjezystacije) na sebje wotkazała."
 
-#: core/job_error.cpp:576 core/job_error.cpp:598
+#: core/job_error.cpp:579 core/job_error.cpp:601
 msgid ""
 "Delete one part of the loop in order that it does not cause an infinite "
 "loop, and try again."
 msgstr "Znič jedyn z linkow a spytaj hišće raz."
 
-#: core/job_error.cpp:585
+#: core/job_error.cpp:588
 msgid "Request Aborted By User"
 msgstr "Akcija wot wužiwarja přetorhnjena"
 
-#: core/job_error.cpp:586 core/job_error.cpp:901
+#: core/job_error.cpp:589 core/job_error.cpp:904
 msgid "The request was not completed because it was aborted."
 msgstr "Akcija so njeje zakónčiła, dokelž je ju wužiwar přetorhnył."
 
-#: core/job_error.cpp:588 core/job_error.cpp:792 core/job_error.cpp:903
+#: core/job_error.cpp:591 core/job_error.cpp:795 core/job_error.cpp:906
 msgid "Retry the request."
 msgstr "Spytaj hišće raz."
 
-#: core/job_error.cpp:592
+#: core/job_error.cpp:595
 msgid "Cyclic Link Detected During Copy"
 msgstr "Cykliski link při kopěrowanju namakał"
 
-#: core/job_error.cpp:593
+#: core/job_error.cpp:596
 msgid ""
 "UNIX environments are commonly able to link a file or folder to a separate "
 "name and/or location. During the requested copy operation, KDE detected a "
@@ -1264,15 +1270,15 @@ msgstr ""
 "wotkaz namakał, kiž rezultuje w bjezkónčnym wotkazowanju, to rěka, zo je "
 "dataja (přez někotre mjezystacije) na sebje wotkazała."
 
-#: core/job_error.cpp:603
+#: core/job_error.cpp:606
 msgid "Could Not Create Network Connection"
 msgstr "Njemóžach syćowy zwisk nastajić."
 
-#: core/job_error.cpp:604
+#: core/job_error.cpp:607
 msgid "Could Not Create Socket"
 msgstr "Njemóžach socket stworić"
 
-#: core/job_error.cpp:605
+#: core/job_error.cpp:608
 msgid ""
 "This is a fairly technical error in which a required device for network "
 "communications (a socket) could not be created."
@@ -1280,8 +1286,8 @@ msgstr ""
 "To je chětro techniski zmylk: trěbny device za komunikaciju w syći so njeje "
 "móhł stworić."
 
-#: core/job_error.cpp:607 core/job_error.cpp:728 core/job_error.cpp:739
-#: core/job_error.cpp:748
+#: core/job_error.cpp:610 core/job_error.cpp:731 core/job_error.cpp:742
+#: core/job_error.cpp:751
 msgid ""
 "The network connection may be incorrectly configured, or the network "
 "interface may not be enabled."
@@ -1289,18 +1295,18 @@ msgstr ""
 "Syćowe zwiski móhli być njekorektnje konfigurowane, abo syćowy interface "
 "njeje zapnjety."
 
-#: core/job_error.cpp:613
+#: core/job_error.cpp:616
 msgid "Connection to Server Refused"
 msgstr "Zwisk ze serverom wotpokazany"
 
-#: core/job_error.cpp:614
+#: core/job_error.cpp:617
 #, kde-format
 msgid ""
 "The server <strong>%1</strong> refused to allow this computer to make a "
 "connection."
 msgstr "Server <strong>%1</strong> je zwisk z tutym computerom wotpokazał."
 
-#: core/job_error.cpp:616
+#: core/job_error.cpp:619
 msgid ""
 "The server, while currently connected to the Internet, may not be configured "
 "to allow requests."
@@ -1308,7 +1314,7 @@ msgstr ""
 "Server, hačrunjež na internet přizamknjeny, snadź njeje konfigurowany, zo by "
 "tajke akcije dowolił."
 
-#: core/job_error.cpp:618
+#: core/job_error.cpp:621
 #, kde-format
 msgid ""
 "The server, while currently connected to the Internet, may not be running "
@@ -1316,18 +1322,18 @@ msgid ""
 msgstr ""
 "Server, hačrunjež na internet přizamknjeny, snadź njepodpěruje service (%1)."
 
-#: core/job_error.cpp:620
+#: core/job_error.cpp:623
 msgid ""
 "A network firewall (a device which restricts Internet requests), either "
 "protecting your network or the network of the server, may have intervened, "
 "preventing this request."
 msgstr "Firewall (pak na wašim boku pak na boku servera) móže akciji haćić."
 
-#: core/job_error.cpp:627
+#: core/job_error.cpp:630
 msgid "Connection to Server Closed Unexpectedly"
 msgstr "Zwisk ze serverom njejapcy přetorhnjeny"
 
-#: core/job_error.cpp:628
+#: core/job_error.cpp:631
 #, kde-format
 msgid ""
 "Although a connection was established to <strong>%1</strong>, the connection "
@@ -1336,7 +1342,7 @@ msgstr ""
 "Hačrunjež bě so zwisk z <strong>%1</strong> natwarił, je so komunikacija "
 "njewočakowanje přetorhnyła."
 
-#: core/job_error.cpp:631
+#: core/job_error.cpp:634
 msgid ""
 "A protocol error may have occurred, causing the server to close the "
 "connection as a response to the error."
@@ -1344,16 +1350,16 @@ msgstr ""
 "Snadź je so protokolowy zmylk stał, a server je na tutón zmylk z "
 "přetorhnjenjom zwiska reagował."
 
-#: core/job_error.cpp:637
+#: core/job_error.cpp:640
 msgid "URL Resource Invalid"
 msgstr "Njekorektna URL-resursa."
 
-#: core/job_error.cpp:638
+#: core/job_error.cpp:641
 #, kde-format
 msgid "Protocol %1 is not a Filter Protocol"
 msgstr "Protokol %1 njeje filtrowy protokol"
 
-#: core/job_error.cpp:639
+#: core/job_error.cpp:642
 #, kde-format
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
@@ -1363,7 +1369,7 @@ msgstr ""
 "URL, kotryž sće zapodali, njereferuje na žadyn walidny mechanizm, po kotrymž "
 "hodźi so přistup na <strong>%1%2</strong> dóstać."
 
-#: core/job_error.cpp:644
+#: core/job_error.cpp:647
 msgid ""
 "KDE is able to communicate through a protocol within a protocol. This "
 "request specified a protocol be used as such, however this protocol is not "
@@ -1374,15 +1380,15 @@ msgstr ""
 "specifikowany protokol pak njehodźi so jenož za tajke pady. To je rědki pad "
 "a pokazuje najskerje na zmylk programa."
 
-#: core/job_error.cpp:652
+#: core/job_error.cpp:655
 msgid "Unable to Initialize Input/Output Device"
 msgstr "Njemóžu I/O-device přihotować"
 
-#: core/job_error.cpp:653
+#: core/job_error.cpp:656
 msgid "Could Not Mount Device"
 msgstr "Njemóžach device montować"
 
-#: core/job_error.cpp:654
+#: core/job_error.cpp:657
 #, kde-format
 msgid ""
 "The requested device could not be initialized (\"mounted\"). The reported "
@@ -1391,7 +1397,7 @@ msgstr ""
 "Pominany grat njehodźeše so přihotować (\"montować\"). Zmylk bě: <strong>%1</"
 "strong>"
 
-#: core/job_error.cpp:657
+#: core/job_error.cpp:660
 msgid ""
 "The device may not be ready, for example there may be no media in a "
 "removable media device (i.e. no CD-ROM in a CD drive), or in the case of a "
@@ -1401,7 +1407,7 @@ msgstr ""
 "pod.), abo w padźe periferneho/nošneho devicea, wón snadź njebě prawje "
 "přizamknjeny."
 
-#: core/job_error.cpp:661
+#: core/job_error.cpp:664
 msgid ""
 "You may not have permissions to initialize (\"mount\") the device. On UNIX "
 "systems, often system administrator privileges are required to initialize a "
@@ -1410,7 +1416,7 @@ msgstr ""
 "Nimaće prawa grat přihotować (\"montować\"). Na UNIXowych systemach trjebaš "
 "husto prawa administratora za tajke něšto."
 
-#: core/job_error.cpp:665
+#: core/job_error.cpp:668
 msgid ""
 "Check that the device is ready; removable drives must contain media, and "
 "portable devices must be connected and powered on.; and try again."
@@ -1418,15 +1424,15 @@ msgstr ""
 "Přepruwujće,hač je grat hotowy: w CD-ROMje dyrbi CD tčeć, scannery, ćišćaki "
 "atd. dyrbja być přizamknjene a zaswěćene. Potom spytaj hišće raz."
 
-#: core/job_error.cpp:671
+#: core/job_error.cpp:674
 msgid "Unable to Uninitialize Input/Output Device"
 msgstr "Njemóžach I/O-device deinicializować."
 
-#: core/job_error.cpp:672
+#: core/job_error.cpp:675
 msgid "Could Not Unmount Device"
 msgstr "Njemóžach grat wotmontować"
 
-#: core/job_error.cpp:673
+#: core/job_error.cpp:676
 #, kde-format
 msgid ""
 "The requested device could not be uninitialized (\"unmounted\"). The "
@@ -1435,7 +1441,7 @@ msgstr ""
 "Pominany grat njehodźeše so deinicializować (\"wotmontować\"). Zmylk bě: "
 "<strong>%1</strong>"
 
-#: core/job_error.cpp:676
+#: core/job_error.cpp:679
 msgid ""
 "The device may be busy, that is, still in use by another application or "
 "user. Even such things as having an open browser window on a location on "
@@ -1445,7 +1451,7 @@ msgstr ""
 "trjeba. Samo wočinjene wokno browsera, kiž pokazuje městno na tutym graće, "
 "móže tutón zmylk wuwołać."
 
-#: core/job_error.cpp:680
+#: core/job_error.cpp:683
 msgid ""
 "You may not have permissions to uninitialize (\"unmount\") the device. On "
 "UNIX systems, system administrator privileges are often required to "
@@ -1454,16 +1460,16 @@ msgstr ""
 "Snadź nimaće prawa grat deinicializować (\"wotmontować\").  Na UNIXowych "
 "systemach trjebaš husto prawa administratora za tajke wěcy. "
 
-#: core/job_error.cpp:684
+#: core/job_error.cpp:687
 msgid "Check that no applications are accessing the device, and try again."
 msgstr ""
 "Přepruwujće,hač žane programy tutón grat njewužiwaja, a spytaj hišće raz."
 
-#: core/job_error.cpp:689
+#: core/job_error.cpp:692
 msgid "Cannot Read From Resource"
 msgstr "Njemóžu resursu čitać"
 
-#: core/job_error.cpp:690
+#: core/job_error.cpp:693
 #, kde-format
 msgid ""
 "This means that although the resource, <strong>%1</strong>, was able to be "
@@ -1472,15 +1478,15 @@ msgstr ""
 "To rěka, zo bě drje móžno resursu <strong>%1</strong> wočinić, při čitanju "
 "pak je so zmylk stał. "
 
-#: core/job_error.cpp:693
+#: core/job_error.cpp:696
 msgid "You may not have permissions to read from the resource."
 msgstr "Snadź nimaće prawa z tuteje resursy čitać."
 
-#: core/job_error.cpp:706
+#: core/job_error.cpp:709
 msgid "Cannot Write to Resource"
 msgstr "Njemóžu na resursu pisać"
 
-#: core/job_error.cpp:707
+#: core/job_error.cpp:710
 #, kde-format
 msgid ""
 "This means that although the resource, <strong>%1</strong>, was able to be "
@@ -1489,19 +1495,19 @@ msgstr ""
 "To rěka, zo bě drje móžno resursu <strong>%1</strong> wočinić, při pisanju "
 "pak je so zmylk stał."
 
-#: core/job_error.cpp:710
+#: core/job_error.cpp:713
 msgid "You may not have permissions to write to the resource."
 msgstr "Snadź nimaće prawa na resursu pisać."
 
-#: core/job_error.cpp:723 core/job_error.cpp:734
+#: core/job_error.cpp:726 core/job_error.cpp:737
 msgid "Could Not Listen for Network Connections"
 msgstr "Njemóžach za syćowy zwisk dóstać"
 
-#: core/job_error.cpp:724
+#: core/job_error.cpp:727
 msgid "Could Not Bind"
 msgstr "Njemóžach wjazać"
 
-#: core/job_error.cpp:725 core/job_error.cpp:736
+#: core/job_error.cpp:728 core/job_error.cpp:739
 msgid ""
 "This is a fairly technical error in which a required device for network "
 "communications (a socket) could not be established to listen for incoming "
@@ -1510,15 +1516,15 @@ msgstr ""
 "To je chětro techniski zmylk, kiž rěka, zo njebě móžno, grat za syćowe "
 "komunikacije (tak mj. socket) nastajić za zwiski wot wonka."
 
-#: core/job_error.cpp:735
+#: core/job_error.cpp:738
 msgid "Could Not Listen"
 msgstr "Njemóžach słuchać"
 
-#: core/job_error.cpp:745
+#: core/job_error.cpp:748
 msgid "Could Not Accept Network Connection"
 msgstr "Njemóžach syćowy zwisk akceptować"
 
-#: core/job_error.cpp:746
+#: core/job_error.cpp:749
 msgid ""
 "This is a fairly technical error in which an error occurred while attempting "
 "to accept an incoming network connection."
@@ -1526,29 +1532,29 @@ msgstr ""
 "To je chětro techniski zmylk, kiž rěka, zo je so zmylk stał při akceptowanju "
 "syćoweho zwiska wot wonka."
 
-#: core/job_error.cpp:750
+#: core/job_error.cpp:753
 msgid "You may not have permissions to accept the connection."
 msgstr "Snadź nimaće prawa zwisk akceptować."
 
-#: core/job_error.cpp:755
+#: core/job_error.cpp:758
 #, kde-format
 msgid "Could Not Login: %1"
 msgstr "Njemóžach so přizjewić: %1"
 
-#: core/job_error.cpp:756
+#: core/job_error.cpp:759
 msgid ""
 "An attempt to login to perform the requested operation was unsuccessful."
 msgstr "Pospyt přizjewjenja, zo by pominanu akciju wuwjedł, njeje so poradźił."
 
-#: core/job_error.cpp:767
+#: core/job_error.cpp:770
 msgid "Could Not Determine Resource Status"
 msgstr "Njemóžach staw resursy zwěsćić"
 
-#: core/job_error.cpp:768
+#: core/job_error.cpp:771
 msgid "Could Not Stat Resource"
 msgstr "Njemóžach staw resursy zwěsćić"
 
-#: core/job_error.cpp:769
+#: core/job_error.cpp:772
 #, kde-format
 msgid ""
 "An attempt to determine information about the status of the resource <strong>"
@@ -1557,56 +1563,56 @@ msgstr ""
 "Pospyt, informaciju wo resursy <strong>%1</strong> zwěsćić, na př. mjeno, "
 "typ, wulkosć, njeje so poradźił."
 
-#: core/job_error.cpp:772
+#: core/job_error.cpp:775
 msgid "The specified resource may not have existed or may not be accessible."
 msgstr "Pominana resursa snadź njeeksistuje abo njesteji k dispoziciji."
 
-#: core/job_error.cpp:780
+#: core/job_error.cpp:783
 msgid "Could Not Cancel Listing"
 msgstr "Njemóžach słuchanje přetorhnyć"
 
-#: core/job_error.cpp:781
+#: core/job_error.cpp:784
 msgid "FIXME: Document this"
 msgstr "FIXME: Document this"
 
-#: core/job_error.cpp:785
+#: core/job_error.cpp:788
 msgid "Could Not Create Folder"
 msgstr "Njemóžach zapisk stworić"
 
-#: core/job_error.cpp:786
+#: core/job_error.cpp:789
 msgid "An attempt to create the requested folder failed."
 msgstr "Pospyt, pominany zapisk stworić, so njeje poradźił."
 
-#: core/job_error.cpp:787
+#: core/job_error.cpp:790
 msgid "The location where the folder was to be created may not exist."
 msgstr "Městno, hdźež měješe so zapisk stworić, snadź njeeksistuje."
 
-#: core/job_error.cpp:796
+#: core/job_error.cpp:799
 msgid "Could Not Remove Folder"
 msgstr "Njemóžach zapisk zničić"
 
-#: core/job_error.cpp:797
+#: core/job_error.cpp:800
 #, kde-format
 msgid "An attempt to remove the specified folder, <strong>%1</strong>, failed."
 msgstr "Pospyt, zapisk <strong>%1</strong> zničić, njeje so poradźił."
 
-#: core/job_error.cpp:799
+#: core/job_error.cpp:802
 msgid "The specified folder may not exist."
 msgstr "Pominany zapisk snadź njeeksistuje."
 
-#: core/job_error.cpp:800
+#: core/job_error.cpp:803
 msgid "The specified folder may not be empty."
 msgstr "Pominany zapisk snadź njebě prózdny."
 
-#: core/job_error.cpp:805
+#: core/job_error.cpp:808
 msgid "Ensure that the folder exists and is empty, and try again."
 msgstr "Přepruwujće,hač zapisk eksistuje a hač je prózdny, a spytaj hišće raz."
 
-#: core/job_error.cpp:810
+#: core/job_error.cpp:813
 msgid "Could Not Resume File Transfer"
 msgstr "Njemóžach z transferom dataje pokročować"
 
-#: core/job_error.cpp:811
+#: core/job_error.cpp:814
 #, kde-format
 msgid ""
 "The specified request asked that the transfer of file <strong>%1</strong> be "
@@ -1615,29 +1621,29 @@ msgstr ""
 "Bě so pominało, zo by so z transferom dataje <strong>%1</strong> wot wěsteho "
 "městna sem pokročowało. To njebě móžno."
 
-#: core/job_error.cpp:814
+#: core/job_error.cpp:817
 msgid "The protocol, or the server, may not support file resuming."
 msgstr ""
 "Protokol abo server snadź njepodpěruje přestawanje a pokročowanje transfera."
 
-#: core/job_error.cpp:816
+#: core/job_error.cpp:819
 msgid "Retry the request without attempting to resume transfer."
 msgstr "Spytaj akciju hišće raz bjez pokročowanja stareho transfera."
 
-#: core/job_error.cpp:821
+#: core/job_error.cpp:824
 msgid "Could Not Rename Resource"
 msgstr "Njemóžach resursu přemjenować"
 
-#: core/job_error.cpp:822
+#: core/job_error.cpp:825
 #, kde-format
 msgid "An attempt to rename the specified resource <strong>%1</strong> failed."
 msgstr "Pospyt, resursu <strong>%1</strong> přemjenować, njeje so poradźił."
 
-#: core/job_error.cpp:832
+#: core/job_error.cpp:835
 msgid "Could Not Alter Permissions of Resource"
 msgstr "Njemóžach prawa resursy změnić"
 
-#: core/job_error.cpp:833
+#: core/job_error.cpp:836
 #, kde-format
 msgid ""
 "An attempt to alter the permissions on the specified resource <strong>%1</"
@@ -1646,11 +1652,11 @@ msgstr ""
 "Pospyt, přistupne prawa resursy <strong>%1</strong> změnić, njeje so "
 "poradźił."
 
-#: core/job_error.cpp:840
+#: core/job_error.cpp:843
 msgid "Could Not Change Ownership of Resource"
 msgstr "Njemóžach wobsydstwo resursy změnić"
 
-#: core/job_error.cpp:841
+#: core/job_error.cpp:844
 #, kde-format
 msgid ""
 "An attempt to change the ownership of the specified resource <strong>%1</"
@@ -1658,20 +1664,20 @@ msgid ""
 msgstr ""
 "Pospyt, wobsydstwo resursy <strong>%1</strong> změnić, njeje so poradźił."
 
-#: core/job_error.cpp:848
+#: core/job_error.cpp:851
 msgid "Could Not Delete Resource"
 msgstr "Njemóžach resursu zničić"
 
-#: core/job_error.cpp:849
+#: core/job_error.cpp:852
 #, kde-format
 msgid "An attempt to delete the specified resource <strong>%1</strong> failed."
 msgstr "Pospyt, resursu <strong>%1</strong> zničić, njeje so poradźił."
 
-#: core/job_error.cpp:856
+#: core/job_error.cpp:859
 msgid "Unexpected Program Termination"
 msgstr "Njewočakowany kónc programa"
 
-#: core/job_error.cpp:857
+#: core/job_error.cpp:860
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -1680,11 +1686,11 @@ msgstr ""
 "Program na tutym computeru, kiž so stara wo <strong>%1</strong>-protokol, je "
 "so njejapcy přetorhnył."
 
-#: core/job_error.cpp:865
+#: core/job_error.cpp:868
 msgid "Out of Memory"
 msgstr "Žadyn pomjatk."
 
-#: core/job_error.cpp:866
+#: core/job_error.cpp:869
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -1693,11 +1699,11 @@ msgstr ""
 "Program na tutym computeru, kiž so stara wo <strong>%1</strong>-protokol, "
 "njemóžeše telko pomjatka dóstać, kaž bě trěbne."
 
-#: core/job_error.cpp:874
+#: core/job_error.cpp:877
 msgid "Unknown Proxy Host"
 msgstr "Njeznaty proxy"
 
-#: core/job_error.cpp:875
+#: core/job_error.cpp:878
 #, kde-format
 msgid ""
 "While retrieving information about the specified proxy host, <strong>%1</"
@@ -1708,7 +1714,7 @@ msgstr ""
 "zmylk \"Njeznaty host\" stał. Tutón zmylk na to pokazuje, zo njebě móžno, "
 "server z podatym mjenom w interneće namakać."
 
-#: core/job_error.cpp:879
+#: core/job_error.cpp:882
 msgid ""
 "There may have been a problem with your network configuration, specifically "
 "your proxy's hostname. If you have been accessing the Internet with no "
@@ -1718,16 +1724,16 @@ msgstr ""
 "poslednim času problemy měli ze zwiskom do interneta, njeje to "
 "prawdźepodobne. "
 
-#: core/job_error.cpp:883
+#: core/job_error.cpp:886
 msgid "Double-check your proxy settings and try again."
 msgstr "Přepruwuj podaća wo proxyju a spytaj hišće raz."
 
-#: core/job_error.cpp:888
+#: core/job_error.cpp:891
 #, kde-format
 msgid "Authentication Failed: Method %1 Not Supported"
 msgstr "Awtentifikacija njeje so poradźiła: Metoda %1 njeje podpěrana."
 
-#: core/job_error.cpp:890
+#: core/job_error.cpp:893
 #, kde-format
 msgid ""
 "Although you may have supplied the correct authentication details, the "
@@ -1738,7 +1744,7 @@ msgstr ""
 "njeje so přizjewjenje poradźiło, dokelž so wot servera wužiwane metody wot "
 "KDE-programa, kiž implementuje protokol %1, njepodpěruja."
 
-#: core/job_error.cpp:894
+#: core/job_error.cpp:897
 msgid ""
 "Please file a bug at <a href=\"http://bugs.kde.org/\">http://bugs.kde.org/</"
 "a> to inform the KDE team of the unsupported authentication method."
@@ -1746,15 +1752,15 @@ msgstr ""
 "Prošu ropraw pola <a href=\"http://bugs.kde.org/\">http://bugs.kde.org/</a> "
 "wo tutym zmylku."
 
-#: core/job_error.cpp:900
+#: core/job_error.cpp:903
 msgid "Request Aborted"
 msgstr "Pominanje cofnjene"
 
-#: core/job_error.cpp:907
+#: core/job_error.cpp:910
 msgid "Internal Error in Server"
 msgstr "Nutřkowny zmylk w serveru"
 
-#: core/job_error.cpp:908
+#: core/job_error.cpp:911
 #, kde-format
 msgid ""
 "The program on the server which provides access to the <strong>%1</strong> "
@@ -1763,7 +1769,7 @@ msgstr ""
 "Program na serweru, kiž zaruči přistup k protokolej <strong>%1</strong> je  "
 "zdźělił nutřkowny zmylk: %2."
 
-#: core/job_error.cpp:911
+#: core/job_error.cpp:914
 msgid ""
 "This is most likely to be caused by a bug in the server program. Please "
 "consider submitting a full bug report as detailed below."
@@ -1771,23 +1777,23 @@ msgstr ""
 "Najskerje je to zmylk w programje servera. Prošu pósćelće informaciju wo "
 "zmylku kaž deleka wuwjedźene."
 
-#: core/job_error.cpp:914
+#: core/job_error.cpp:917
 msgid "Contact the administrator of the server to advise them of the problem."
 msgstr ""
 "Stajće so z administratorom servera do zwiska, zo byće jemu wo problemje "
 "rozprawili."
 
-#: core/job_error.cpp:916
+#: core/job_error.cpp:919
 msgid ""
 "If you know who the authors of the server software are, submit the bug "
 "report directly to them."
 msgstr "Jeli wěš, štó je program napisał, wobroć so direktnje na njeho."
 
-#: core/job_error.cpp:921
+#: core/job_error.cpp:924
 msgid "Timeout Error"
 msgstr "Zmylk: sym so načakał"
 
-#: core/job_error.cpp:922
+#: core/job_error.cpp:925
 #, fuzzy, kde-format
 #| msgid ""
 #| "Although contact was made with the server, a response was not received "
@@ -1811,15 +1817,15 @@ msgstr ""
 "server: %3 sek.</li> Tute nastajenja móžeće w KDE-konfiguraciji pod syć -> "
 "konfiguracija změnić."
 
-#: core/job_error.cpp:933
+#: core/job_error.cpp:936
 msgid "The server was too busy responding to other requests to respond."
 msgstr "Server bě přećeženy z druhimi nadawkami."
 
-#: core/job_error.cpp:939 core/slavebase.cpp:1419
+#: core/job_error.cpp:942 core/slavebase.cpp:1419
 msgid "Unknown Error"
 msgstr "Njeznaty zmylk"
 
-#: core/job_error.cpp:940
+#: core/job_error.cpp:943
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -1828,11 +1834,11 @@ msgstr ""
 "Program na tutym computeru, kiž zaruča přistup na <strong>%1</strong> -"
 "protokol je na njeznaty zmylk storčił: %2."
 
-#: core/job_error.cpp:948
+#: core/job_error.cpp:951
 msgid "Unknown Interruption"
 msgstr "Njeznate přetorhnjenje"
 
-#: core/job_error.cpp:949
+#: core/job_error.cpp:952
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -1841,11 +1847,11 @@ msgstr ""
 "Program na tutym computeru, kiž zaruča přistup na <strong>%1</strong> -"
 "protokol je na njeznate přetorhnjenje storčił: %2."
 
-#: core/job_error.cpp:957
+#: core/job_error.cpp:960
 msgid "Could Not Delete Original File"
 msgstr "Njemóžach originalnu dataju zničić"
 
-#: core/job_error.cpp:958
+#: core/job_error.cpp:961
 #, kde-format
 msgid ""
 "The requested operation required the deleting of the original file, most "
@@ -1856,11 +1862,11 @@ msgstr ""
 "přesunjenja dataje. Originalna dataja <strong>%1</strong> so pak njehodźi "
 "zničić."
 
-#: core/job_error.cpp:967
+#: core/job_error.cpp:970
 msgid "Could Not Delete Temporary File"
 msgstr "Njemóžach temporarnu dataju zničić"
 
-#: core/job_error.cpp:968
+#: core/job_error.cpp:971
 #, kde-format
 msgid ""
 "The requested operation required the creation of a temporary file in which "
@@ -1871,11 +1877,11 @@ msgstr ""
 "datow noweje dataje). Tuta nachwilna dataja <strong>%1</strong> so pak "
 "njehodźeše zničić."
 
-#: core/job_error.cpp:977
+#: core/job_error.cpp:980
 msgid "Could Not Rename Original File"
 msgstr "Njemóžach originalnu dataju přemjenować"
 
-#: core/job_error.cpp:978
+#: core/job_error.cpp:981
 #, kde-format
 msgid ""
 "The requested operation required the renaming of the original file <strong>"
@@ -1884,11 +1890,11 @@ msgstr ""
 "Pominana akcija sej žadaše přemjenowanje originalneje dataje <strong>%1</"
 "strong>, kiž so pak njehodźeše přemjenować."
 
-#: core/job_error.cpp:986
+#: core/job_error.cpp:989
 msgid "Could Not Rename Temporary File"
 msgstr "Njemóžach temporarnu dataju přemjenować"
 
-#: core/job_error.cpp:987
+#: core/job_error.cpp:990
 #, kde-format
 msgid ""
 "The requested operation required the creation of a temporary file <strong>"
@@ -1897,28 +1903,28 @@ msgstr ""
 "Pominana akcija sej žadaše stworjenje nachwilneje dataje <strong>%1</"
 "strong>, kiž so pak njehodźeše stworić."
 
-#: core/job_error.cpp:995
+#: core/job_error.cpp:998
 msgid "Could Not Create Link"
 msgstr "Njemóžach link stworić"
 
-#: core/job_error.cpp:996
+#: core/job_error.cpp:999
 msgid "Could Not Create Symbolic Link"
 msgstr "Njemóžach wotkaz stworić"
 
-#: core/job_error.cpp:997
+#: core/job_error.cpp:1000
 #, kde-format
 msgid "The requested symbolic link %1 could not be created."
 msgstr "Žadany wotkaz %1 njehodźeše so stworić."
 
-#: core/job_error.cpp:1004
+#: core/job_error.cpp:1007
 msgid "No Content"
 msgstr "Žadyn wobsah"
 
-#: core/job_error.cpp:1009
+#: core/job_error.cpp:1012
 msgid "Disk Full"
 msgstr "Disk połny"
 
-#: core/job_error.cpp:1010
+#: core/job_error.cpp:1013
 #, kde-format
 msgid ""
 "The requested file <strong>%1</strong> could not be written to as there is "
@@ -1927,7 +1933,7 @@ msgstr ""
 "Njebě móžno, dataju <strong>%1</strong> pisać, dokelž njebě dosć ruma na "
 "disku."
 
-#: core/job_error.cpp:1012
+#: core/job_error.cpp:1015
 msgid ""
 "Free up enough disk space by 1) deleting unwanted and temporary files; 2) "
 "archiving files to removable media storage such as CD-Recordable discs; or "
@@ -1937,27 +1943,27 @@ msgstr ""
 "zničiš, 2) daty na mobilne nošaki kaž CDki pisaće 3) sej wjetši disk "
 "kupiće :-)"
 
-#: core/job_error.cpp:1019
+#: core/job_error.cpp:1022
 msgid "Source and Destination Files Identical"
 msgstr "Žórłowa a cilowa dataja stej samsna dataja"
 
-#: core/job_error.cpp:1020
+#: core/job_error.cpp:1023
 msgid ""
 "The operation could not be completed because the source and destination "
 "files are the same file."
 msgstr "Akcija so njehodźeše přewjesć, dokelž sej žórło a cil samsna dataja."
 
-#: core/job_error.cpp:1022
+#: core/job_error.cpp:1025
 msgid "Choose a different filename for the destination file."
 msgstr "Wubjerće hinaše datajowe mjeno za cilowu dataju."
 
-#: core/job_error.cpp:1026
+#: core/job_error.cpp:1029
 #, fuzzy
 #| msgid "File or Folder Does Not Exist"
 msgid "File or Folder dropped onto itself"
 msgstr "Dataja abo zapisk njeeksistujetej"
 
-#: core/job_error.cpp:1027
+#: core/job_error.cpp:1030
 #, fuzzy
 #| msgid ""
 #| "The operation could not be completed because the source and destination "
@@ -1967,14 +1973,37 @@ msgid ""
 "or folder are the same."
 msgstr "Akcija so njehodźeše přewjesć, dokelž sej žórło a cil samsna dataja."
 
-#: core/job_error.cpp:1029
+#: core/job_error.cpp:1032
 #, fuzzy
 #| msgctxt "request type"
 #| msgid "copy the specified file or folder"
 msgid "Drop the item into a different file or folder."
 msgstr "wotpowědnu dataju abo zapisk kopěrować"
 
-#: core/job_error.cpp:1040
+#: core/job_error.cpp:1042
+#, fuzzy
+#| msgid "File or Folder Does Not Exist"
+msgid "Folder moved into itself"
+msgstr "Dataja abo zapisk njeeksistujetej"
+
+#: core/job_error.cpp:1043
+#, fuzzy
+#| msgid ""
+#| "The operation could not be completed because the source and destination "
+#| "files are the same file."
+msgid ""
+"The operation could not be completed because the source can not be moved "
+"into itself."
+msgstr "Akcija so njehodźeše přewjesć, dokelž sej žórło a cil samsna dataja."
+
+#: core/job_error.cpp:1045
+#, fuzzy
+#| msgctxt "request type"
+#| msgid "copy the specified file or folder"
+msgid "Move the item into a different folder."
+msgstr "wotpowědnu dataju abo zapisk kopěrować"
+
+#: core/job_error.cpp:1050
 msgid "Undocumented Error"
 msgstr "Njedokumentowany zmylk"
 
