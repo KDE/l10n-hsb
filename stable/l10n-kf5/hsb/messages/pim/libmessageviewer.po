@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-24 08:12+0000\n"
+"POT-Creation-Date: 2016-03-25 11:29+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -623,7 +623,7 @@ msgstr ""
 msgid "Move to Trash"
 msgstr "Do papjernika sunyć"
 
-#: header/headerstyle_util.cpp:415 viewer/urlhandlermanager.cpp:132
+#: header/headerstyle_util.cpp:415 viewer/urlhandlermanager.cpp:131
 #, fuzzy
 msgid "Reply"
 msgstr "&Adresa za wotmołwu"
@@ -633,12 +633,12 @@ msgstr "&Adresa za wotmołwu"
 msgid "Reply to All"
 msgstr "&Dopósłać"
 
-#: header/headerstyle_util.cpp:425 viewer/urlhandlermanager.cpp:136
+#: header/headerstyle_util.cpp:425 viewer/urlhandlermanager.cpp:135
 #, fuzzy
 msgid "Forward"
 msgstr "&Dopósłać"
 
-#: header/headerstyle_util.cpp:430 viewer/urlhandlermanager.cpp:138
+#: header/headerstyle_util.cpp:430 viewer/urlhandlermanager.cpp:137
 msgid "New Message"
 msgstr "Nowa powěsć"
 
@@ -1436,6 +1436,345 @@ msgstr ""
 msgid "Unable to edit attachment"
 msgstr "Přiwěšk: "
 
+#: viewer/messagepart.cpp:179 viewer/messagepart.cpp:181
+msgid "Encapsulated message"
+msgstr "Zasunjena powěsć"
+
+#: viewer/messagepart.cpp:200
+msgid "End of encapsulated message"
+msgstr "Kónc zakašćikowaneje powěsće"
+
+#: viewer/messagepart.cpp:222
+#, fuzzy
+#| msgid "Please wait while the message is transferred"
+#| msgid_plural "Please wait while the %1 messages are transferred"
+msgid "Please wait while the message is being decrypted..."
+msgstr "Prošu dočakajće, doniž so njejsu te %1 powěsćow přenjesli."
+
+#: viewer/messagepart.cpp:224
+msgid "Encrypted message"
+msgstr "Šifrowana powěsć"
+
+#: viewer/messagepart.cpp:226
+msgid "Encrypted message (decryption not possible)"
+msgstr "Šifrowana powěsć (rozšifrowanje njemóžne)"
+
+#: viewer/messagepart.cpp:228
+#, kde-format
+msgid "Reason: %1"
+msgstr "Přičina: %1"
+
+#: viewer/messagepart.cpp:245
+msgid "End of encrypted message"
+msgstr "Kónc šifrowaneje powěsće"
+
+#: viewer/messagepart.cpp:290
+msgid "Error: Signature not verified"
+msgstr "Zmylk: njewerifikowana signatura"
+
+#: viewer/messagepart.cpp:293
+msgid "Good signature"
+msgstr "Signatura w porjadku"
+
+#: viewer/messagepart.cpp:296
+#, fuzzy
+msgid "<b>Bad</b> signature"
+msgstr "Hubjena signatura."
+
+#: viewer/messagepart.cpp:299
+msgid "No public key to verify the signature"
+msgstr "Žadyn zjawny kluč za werifikowanje signatury"
+
+#: viewer/messagepart.cpp:302
+msgid "No signature found"
+msgstr "Žana signatura"
+
+#: viewer/messagepart.cpp:305
+msgid "Error verifying the signature"
+msgstr "Zmylk při werifikowanju signatury"
+
+#: viewer/messagepart.cpp:308
+msgid "Different results for signatures"
+msgstr ""
+
+#: viewer/messagepart.cpp:327
+#, fuzzy
+msgid "No status information available."
+msgstr "Ně."
+
+#: viewer/messagepart.cpp:334 viewer/messagepart.cpp:420
+msgid "Good signature."
+msgstr "Signatura w porjadku."
+
+#: viewer/messagepart.cpp:355
+msgid "One key has expired."
+msgstr "Jedyn kluč je zestarjeny."
+
+#: viewer/messagepart.cpp:359
+msgid "The signature has expired."
+msgstr "Signatura je zestarjena."
+
+#: viewer/messagepart.cpp:364
+msgid "Unable to verify: key missing."
+msgstr "Njemóžu werifikować: kluč faluje."
+
+#: viewer/messagepart.cpp:371
+msgid "CRL not available."
+msgstr "CRL nimam."
+
+#: viewer/messagepart.cpp:375
+msgid "Available CRL is too old."
+msgstr "CRL je zestarjena."
+
+#: viewer/messagepart.cpp:379
+msgid "A policy was not met."
+msgstr ""
+
+#: viewer/messagepart.cpp:383
+msgid "A system error occurred."
+msgstr ""
+
+#: viewer/messagepart.cpp:394
+#, fuzzy
+#| msgid "One key has expired."
+msgid "One key has been revoked."
+msgstr "Jedyn kluč je zestarjeny."
+
+#: viewer/messagepart.cpp:422
+#, fuzzy
+msgid "<b>Bad</b> signature."
+msgstr "Hubjena signatura."
+
+#: viewer/messagepart.cpp:448
+#, fuzzy
+#| msgid "Good signature."
+msgid "Invalid signature."
+msgstr "Signatura w porjadku."
+
+#: viewer/messagepart.cpp:451
+#, fuzzy
+#| msgid "Not enough information to check signature. %1"
+msgid "Not enough information to check signature validity."
+msgstr "Njedosahaca informacija za přepruwowanje podpisma. %1"
+
+#: viewer/messagepart.cpp:465
+#, fuzzy
+msgid "Signature is valid."
+msgstr "Signatura je zestarjena."
+
+#: viewer/messagepart.cpp:467
+#, kde-format
+msgid "Signed by <a href=\"mailto:%1\">%2</a>."
+msgstr ""
+
+#: viewer/messagepart.cpp:472
+#, fuzzy
+#| msgid "No signature found"
+msgid "Unknown signature state"
+msgstr "Žana signatura"
+
+#: viewer/messagepart.cpp:480
+#, fuzzy
+#| msgid "[Details]"
+msgid "Show Details"
+msgstr "[Nadrobnosće]"
+
+#: viewer/messagepart.cpp:503
+#, fuzzy
+#| msgid "Not available"
+msgid "No Audit Log available"
+msgstr "Njesteji k dispoziciji"
+
+#: viewer/messagepart.cpp:505
+#, fuzzy, kde-format
+msgid "Error Retrieving Audit Log: %1"
+msgstr "Zmylk při pósłanju zapiska"
+
+#: viewer/messagepart.cpp:516
+#, fuzzy
+#| msgid "Not available"
+msgctxt "The Audit Log is a detailed error log from the gnupg backend"
+msgid "Show Audit Log"
+msgstr "Njesteji k dispoziciji"
+
+#: viewer/messagepart.cpp:527
+#, fuzzy
+#| msgid "[Details]"
+msgid "Hide Details"
+msgstr "[Nadrobnosće]"
+
+#: viewer/messagepart.cpp:548
+#, fuzzy
+#| msgid "Please wait while the message is transferred"
+#| msgid_plural "Please wait while the %1 messages are transferred"
+msgid "Please wait while the signature is being verified..."
+msgstr "Prošu dočakajće, doniž so njejsu te %1 powěsćow přenjesli."
+
+#: viewer/messagepart.cpp:639 viewer/messagepart.cpp:641
+#, fuzzy
+msgid "certificate"
+msgstr "Certifikaty"
+
+#: viewer/messagepart.cpp:647 viewer/messagepart.cpp:673
+#, fuzzy
+#| msgid "Warning:"
+msgctxt "Start of warning message."
+msgid "Warning:"
+msgstr "Kedźbu:"
+
+#: viewer/messagepart.cpp:649
+#, kde-format
+msgid "Sender's mail address is not stored in the %1 used for signing."
+msgstr "Adresa wotpósłarja njeje so zawěsćiła w '%1',, z čimž bu podpisane."
+
+#: viewer/messagepart.cpp:652
+msgid "sender: "
+msgstr "wotpósłar: "
+
+#: viewer/messagepart.cpp:655
+msgid "stored: "
+msgstr "zawěsćene: "
+
+#: viewer/messagepart.cpp:675
+#, fuzzy, kde-format
+msgid ""
+"No mail address is stored in the %1 used for signing, so we cannot compare "
+"it to the sender's address %2."
+msgstr ""
+"W %1, kiž so za podpisowanje wužiwa, njeje žana emailowa adresa, tuž njeje "
+"móžno přirunować z adresu wotpósłarja &lt;%2&gt;."
+
+#: viewer/messagepart.cpp:698
+#, kde-format
+msgid "Not enough information to check signature. %1"
+msgstr "Njedosahaca informacija za přepruwowanje podpisma. %1"
+
+#: viewer/messagepart.cpp:714 viewer/messagepart.cpp:781
+msgid "Message was signed with unknown key."
+msgstr "Powěsć bu z njeznatym klučom podpisany."
+
+#: viewer/messagepart.cpp:716 viewer/messagepart.cpp:811
+#: viewer/messagepart.cpp:844
+#, kde-format
+msgid "Message was signed by %1."
+msgstr "Powěsć bu podpisana wot %1."
+
+#: viewer/messagepart.cpp:723 viewer/messagepart.cpp:730
+#: viewer/messagepart.cpp:739
+#, kde-format
+msgid "Message was signed with key %1."
+msgstr "Powěsć bu podpisana z klučom %1."
+
+#: viewer/messagepart.cpp:725
+#, fuzzy, kde-format
+msgid "Message was signed on %1 with key %2."
+msgstr "Powěsć bu podpisana wot %2 z klučom %1."
+
+#: viewer/messagepart.cpp:732
+#, fuzzy, kde-format
+msgid "Message was signed by %3 on %1 with key %2"
+msgstr "Powěsć bu podpisana wot %2 z klučom %1."
+
+#: viewer/messagepart.cpp:741
+#, kde-format
+msgid "Message was signed by %2 with key %1."
+msgstr "Powěsć bu podpisana wot %2 z klučom %1."
+
+#: viewer/messagepart.cpp:750 viewer/messagepart.cpp:788
+#: viewer/messagepart.cpp:1854
+msgid "Status: "
+msgstr "Staw: "
+
+#: viewer/messagepart.cpp:774
+#, fuzzy, kde-format
+msgid "Message was signed on %1 with unknown key %2."
+msgstr "Powěsć bu podpisana z njeznatym klučom %1."
+
+#: viewer/messagepart.cpp:778
+#, kde-format
+msgid "Message was signed with unknown key %1."
+msgstr "Powěsć bu podpisana z njeznatym klučom %1."
+
+#: viewer/messagepart.cpp:784
+msgid "The validity of the signature cannot be verified."
+msgstr "Podpismo njehodźi so přepruwować."
+
+#: viewer/messagepart.cpp:807 viewer/messagepart.cpp:840
+#, kde-format
+msgid "Message was signed by %2 (Key ID: %1)."
+msgstr "Powěsć bu podpisana wot %2 (klučowa ID: %1)."
+
+#: viewer/messagepart.cpp:817
+msgid "The signature is valid, but the key's validity is unknown."
+msgstr "Podpismo je w porjadku, ale walidnosć kluča njehodźi so přepruwować."
+
+#: viewer/messagepart.cpp:821
+msgid "The signature is valid and the key is marginally trusted."
+msgstr "Podpismo je w porjadku a kluč trochu dowěry hódny."
+
+#: viewer/messagepart.cpp:825
+msgid "The signature is valid and the key is fully trusted."
+msgstr "Podpismo je w porjadku a kluč je połnje dowěry hódny."
+
+#: viewer/messagepart.cpp:829
+msgid "The signature is valid and the key is ultimately trusted."
+msgstr "Podpismo je w porjadku a kluč dospołnje dowěry hódny."
+
+#: viewer/messagepart.cpp:833
+msgid "The signature is valid, but the key is untrusted."
+msgstr "Podpismo je w porjadku a kluč njeje dowěry hódny."
+
+#: viewer/messagepart.cpp:847
+msgid "Warning: The signature is bad."
+msgstr "Kedźbu. Podpismo njeje w porjadku."
+
+#: viewer/messagepart.cpp:879
+msgid "End of signed message"
+msgstr "Kónc podpisaneje powěsće"
+
+#: viewer/messagepart.cpp:1440
+msgid ""
+"<b>Note:</b> This HTML message may contain external references to images "
+"etc. For security/privacy reasons external references are not loaded. If you "
+"trust the sender of this message then you can load the external references "
+"for this message <a href=\"kmail:loadExternal\">by clicking here</a>."
+msgstr ""
+
+#: viewer/messagepart.cpp:1453
+msgid ""
+"<b>Note:</b> This is an HTML message. For security reasons, only the raw "
+"HTML code is shown. If you trust the sender of this message then you can "
+"activate formatted HTML display for this message <a href=\"kmail:showHTML"
+"\">by clicking here</a>."
+msgstr ""
+
+#: viewer/messagepart.cpp:1658 viewer/objecttreeparser.cpp:1342
+#, fuzzy
+msgid "Wrong Crypto Plug-In."
+msgstr "Zatyčki za ši&frowanje"
+
+#: viewer/messagepart.cpp:1818
+#, fuzzy
+msgid "This message is encrypted."
+msgstr "PGP-ŝifrowana powěsć"
+
+#: viewer/messagepart.cpp:1823
+#, fuzzy
+#| msgid "&Encrypt Message"
+msgid "Decrypt Message"
+msgstr "Šifrowanj&e"
+
+#: viewer/messagepart.cpp:1851
+msgid "The crypto engine returned no cleartext data."
+msgstr ""
+
+#: viewer/messagepart.cpp:1860
+#, fuzzy
+#| msgid "(unknown)"
+msgctxt "Status of message unknown."
+msgid "(unknown)"
+msgstr "(njeznaju)"
+
 #: viewer/mimeparttree/mimetreemodel.cpp:59
 msgid "body part"
 msgstr ""
@@ -1447,6 +1786,140 @@ msgstr "Wopisanje"
 #: viewer/mimeparttree/mimetreemodel.cpp:259
 msgid "Size"
 msgstr "Wulkosć"
+
+#: viewer/objecttreeparser.cpp:555
+#, kde-format
+msgid "Sorry, certificate could not be imported.<br />Reason: %1"
+msgstr ""
+
+#: viewer/objecttreeparser.cpp:565
+#, fuzzy
+msgid "Sorry, no certificates were found in this message."
+msgstr "Certifikat:"
+
+#: viewer/objecttreeparser.cpp:568
+#, fuzzy
+msgid "Certificate import status:"
+msgstr "Certifikat"
+
+#: viewer/objecttreeparser.cpp:570
+#, fuzzy, kde-format
+msgid "1 new certificate was imported."
+msgid_plural "%1 new certificates were imported."
+msgstr[0] "Certifikat"
+msgstr[1] "Certifikat"
+msgstr[2] "Certifikat"
+msgstr[3] "Certifikat"
+
+#: viewer/objecttreeparser.cpp:573
+#, fuzzy, kde-format
+#| msgid "Certificate Manager..."
+msgid "1 certificate was unchanged."
+msgid_plural "%1 certificates were unchanged."
+msgstr[0] "Rjadowanje certifikatow..."
+msgstr[1] "Rjadowanje certifikatow..."
+msgstr[2] "Rjadowanje certifikatow..."
+msgstr[3] "Rjadowanje certifikatow..."
+
+#: viewer/objecttreeparser.cpp:576
+#, fuzzy, kde-format
+#| msgid "One key has expired."
+msgid "1 new secret key was imported."
+msgid_plural "%1 new secret keys were imported."
+msgstr[0] "Jedyn kluč je zestarjeny."
+msgstr[1] "Jedyn kluč je zestarjeny."
+msgstr[2] "Jedyn kluč je zestarjeny."
+msgstr[3] "Jedyn kluč je zestarjeny."
+
+#: viewer/objecttreeparser.cpp:579
+#, kde-format
+msgid "1 secret key was unchanged."
+msgid_plural "%1 secret keys were unchanged."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: viewer/objecttreeparser.cpp:589
+#, fuzzy
+msgid "Sorry, no details on certificate import available."
+msgstr "Ně."
+
+#: viewer/objecttreeparser.cpp:592
+#, fuzzy
+msgid "Certificate import details:"
+msgstr "Certifikat"
+
+#: viewer/objecttreeparser.cpp:596
+#, fuzzy, kde-format
+msgctxt "Certificate import failed."
+msgid "Failed: %1 (%2)"
+msgstr "KMail"
+
+#: viewer/objecttreeparser.cpp:600
+#, kde-format
+msgid "New or changed: %1 (secret key available)"
+msgstr ""
+
+#: viewer/objecttreeparser.cpp:602
+#, kde-format
+msgid "New or changed: %1"
+msgstr ""
+
+#: viewer/objecttreeparser.cpp:639
+#, fuzzy
+msgid "Could not decrypt the data."
+msgstr "in."
+
+#: viewer/objecttreeparser.cpp:734
+#, fuzzy, kde-format
+msgid "Crypto plug-in \"%1\" could not decrypt the data."
+msgstr "in."
+
+#: viewer/objecttreeparser.cpp:736
+#, fuzzy, kde-format
+msgid "Error: %1"
+msgstr "Zmylk"
+
+#: viewer/objecttreeparser.cpp:749 viewer/objecttreeparser.cpp:1411
+#, fuzzy, kde-format
+msgid "Crypto plug-in \"%1\" is not initialized."
+msgstr "in."
+
+#: viewer/objecttreeparser.cpp:753
+#, fuzzy, kde-format
+msgid "Crypto plug-in \"%1\" cannot decrypt messages."
+msgstr "in."
+
+#: viewer/objecttreeparser.cpp:757 viewer/objecttreeparser.cpp:1420
+#, fuzzy
+msgid "No appropriate crypto plug-in was found."
+msgstr "Ně in."
+
+#: viewer/objecttreeparser.cpp:1288
+#, fuzzy
+#| msgid "Unnamed"
+msgctxt "display name for an unnamed attachment"
+msgid "Unnamed"
+msgstr "Bjez mjena"
+
+#: viewer/objecttreeparser.cpp:1415
+#, fuzzy, kde-format
+msgid "Crypto plug-in \"%1\" cannot verify signatures."
+msgstr "in."
+
+#: viewer/objecttreeparser.cpp:1423
+#, fuzzy, kde-format
+msgctxt "%1 is either 'OpenPGP' or 'S/MIME'"
+msgid "No %1 plug-in was found."
+msgstr "in."
+
+#: viewer/objecttreeparser.cpp:1428
+#, fuzzy, kde-format
+msgid ""
+"The message is signed, but the validity of the signature cannot be verified."
+"<br />Reason: %1"
+msgstr "Podpismo njehodźi so přepruwować."
 
 #: viewer/pluginloaderbase.cpp:89
 #, fuzzy
@@ -1460,188 +1933,188 @@ msgstr "Špalta \"nječitane\""
 msgid "No description available"
 msgstr "Njesteji k dispoziciji"
 
-#: viewer/urlhandlermanager.cpp:130
+#: viewer/urlhandlermanager.cpp:129
 #, fuzzy
 #| msgid "Move to Trash"
 msgid "Move To Trash"
 msgstr "Do papjernika sunyć"
 
-#: viewer/urlhandlermanager.cpp:134
+#: viewer/urlhandlermanager.cpp:133
 #, fuzzy
 msgid "Reply To All"
 msgstr "&Dopósłać"
 
-#: viewer/urlhandlermanager.cpp:140
+#: viewer/urlhandlermanager.cpp:139
 #, fuzzy
 msgid "Print Message"
 msgstr "žane powěsće"
 
-#: viewer/urlhandlermanager.cpp:142
+#: viewer/urlhandlermanager.cpp:141
 #, fuzzy
 #| msgid "&Previous Message"
 msgid "Print Preview Message"
 msgstr "&Prjedawša powěsć"
 
-#: viewer/urlhandlermanager.cpp:641
+#: viewer/urlhandlermanager.cpp:640
 msgid "Turn on HTML rendering for this message."
 msgstr "Zaswěć HTML, zo by tutu powěsć čitał."
 
-#: viewer/urlhandlermanager.cpp:643 viewer/viewer_p.cpp:1683
+#: viewer/urlhandlermanager.cpp:642 viewer/viewer_p.cpp:1683
 #, fuzzy
 msgid "Load external references from the Internet for this message."
 msgstr "Powěsćam dowolić, e&ksterne linki z interneta začitać"
 
-#: viewer/urlhandlermanager.cpp:645
+#: viewer/urlhandlermanager.cpp:644
 msgid "Work online."
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:647
+#: viewer/urlhandlermanager.cpp:646
 msgid "Make account online."
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:649
+#: viewer/urlhandlermanager.cpp:648
 #, fuzzy
 #| msgid "&Encrypt Message"
 msgid "Decrypt message."
 msgstr "Šifrowanj&e"
 
-#: viewer/urlhandlermanager.cpp:651
+#: viewer/urlhandlermanager.cpp:650
 #, fuzzy
 #| msgid "No signature found"
 msgid "Show signature details."
 msgstr "Žana signatura"
 
-#: viewer/urlhandlermanager.cpp:653
+#: viewer/urlhandlermanager.cpp:652
 #, fuzzy
 #| msgid "Good signature."
 msgid "Hide signature details."
 msgstr "Signatura w porjadku."
 
-#: viewer/urlhandlermanager.cpp:655
+#: viewer/urlhandlermanager.cpp:654
 #, fuzzy
 msgid "Show attachment list."
 msgstr "Pokaž přiwěšk: "
 
-#: viewer/urlhandlermanager.cpp:657
+#: viewer/urlhandlermanager.cpp:656
 #, fuzzy
 #| msgid "Save Attachment As"
 msgid "Hide attachment list."
 msgstr "Přiwěšk zawěsćić jako"
 
-#: viewer/urlhandlermanager.cpp:659
+#: viewer/urlhandlermanager.cpp:658
 #, fuzzy
 #| msgid "[Details]"
 msgid "Show full \"To\" list"
 msgstr "[Nadrobnosće]"
 
-#: viewer/urlhandlermanager.cpp:661
+#: viewer/urlhandlermanager.cpp:660
 #, fuzzy
 #| msgid "[Details]"
 msgid "Hide full \"To\" list"
 msgstr "[Nadrobnosće]"
 
-#: viewer/urlhandlermanager.cpp:663
+#: viewer/urlhandlermanager.cpp:662
 #, fuzzy
 #| msgid "[Details]"
 msgid "Show full \"Cc\" list"
 msgstr "[Nadrobnosće]"
 
-#: viewer/urlhandlermanager.cpp:665
+#: viewer/urlhandlermanager.cpp:664
 #, fuzzy
 #| msgid "[Details]"
 msgid "Hide full \"Cc\" list"
 msgstr "[Nadrobnosće]"
 
-#: viewer/urlhandlermanager.cpp:670
+#: viewer/urlhandlermanager.cpp:669
 #, fuzzy
 #| msgid "Documentation"
 msgid "Open Documentation"
 msgstr "Dokumentacija"
 
-#: viewer/urlhandlermanager.cpp:700
+#: viewer/urlhandlermanager.cpp:699
 msgid "Expand all quoted text."
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:702
+#: viewer/urlhandlermanager.cpp:701
 msgid "Collapse quoted text."
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:769
+#: viewer/urlhandlermanager.cpp:768
 #, fuzzy
 msgid "Could not start certificate manager. Please check your installation."
 msgstr ""
 "Njemóžach certifikatowy manager startować. Prošu přepruwujće swoju "
 "instalaciju!"
 
-#: viewer/urlhandlermanager.cpp:771
+#: viewer/urlhandlermanager.cpp:770
 msgid "KMail Error"
 msgstr "Zmylk w kmailu"
 
-#: viewer/urlhandlermanager.cpp:783
+#: viewer/urlhandlermanager.cpp:782
 #, kde-format
 msgid "Show certificate 0x%1"
 msgstr "Pokaž certifikat 0x%1"
 
-#: viewer/urlhandlermanager.cpp:853
+#: viewer/urlhandlermanager.cpp:852
 #, fuzzy
 #| msgid "Open in Address Book"
 msgid "&Open in Address Book"
 msgstr "Wočinić w adresniku"
 
-#: viewer/urlhandlermanager.cpp:856
+#: viewer/urlhandlermanager.cpp:855
 #, fuzzy
 #| msgid "Email Address"
 msgid "&Copy Email Address"
 msgstr "emailowa adresa"
 
-#: viewer/urlhandlermanager.cpp:869 viewer/viewer_p.cpp:2607
+#: viewer/urlhandlermanager.cpp:868 viewer/viewer_p.cpp:2607
 msgid "Address copied to clipboard."
 msgstr "Adresa bu do zapisnika kopěrowana."
 
-#: viewer/urlhandlermanager.cpp:881
+#: viewer/urlhandlermanager.cpp:880
 #, fuzzy
 #| msgid "Open in Address Book"
 msgid "Lookup the contact in KAddressbook"
 msgstr "Wočinić w adresniku"
 
-#: viewer/urlhandlermanager.cpp:1008
+#: viewer/urlhandlermanager.cpp:1007
 #, fuzzy, kde-format
 msgid "Attachment: %1"
 msgstr "Přiwěšk: "
 
-#: viewer/urlhandlermanager.cpp:1011
+#: viewer/urlhandlermanager.cpp:1010
 #, fuzzy, kde-format
 #| msgid "Encapsulated message"
 msgid "Encapsulated Message (Subject: %1)"
 msgstr "Zasunjena powěsć"
 
-#: viewer/urlhandlermanager.cpp:1014
+#: viewer/urlhandlermanager.cpp:1013
 #, fuzzy
 #| msgid "Encapsulated message"
 msgid "Encapsulated Message"
 msgstr "Zasunjena powěsć"
 
-#: viewer/urlhandlermanager.cpp:1017
+#: viewer/urlhandlermanager.cpp:1016
 #, fuzzy
 msgid "Unnamed attachment"
 msgstr "Přiwěšk: "
 
-#: viewer/urlhandlermanager.cpp:1056
+#: viewer/urlhandlermanager.cpp:1055
 msgid "Show GnuPG Audit Log for this operation"
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:1096
+#: viewer/urlhandlermanager.cpp:1095
 msgid "Opening URL..."
 msgstr "Wočinjam URL..."
 
-#: viewer/urlhandlermanager.cpp:1105
+#: viewer/urlhandlermanager.cpp:1104
 #, fuzzy, kde-format
 #| msgid "<qt>Do you really want to execute <b>%1</b>?</qt>"
 msgctxt "@info"
 msgid "Do you really want to execute <filename>%1</filename>?"
 msgstr "<qt>Chceće woprawdźe <b>%1</b> startować?</qt>"
 
-#: viewer/urlhandlermanager.cpp:1106
+#: viewer/urlhandlermanager.cpp:1105
 #, fuzzy
 msgid "Execute"
 msgstr "Wuwjedu předpřikaz %1"
@@ -2091,283 +2564,6 @@ msgstr "Zapisk zničić"
 #: widgets/zoomactionmenu.cpp:184
 msgid "Zoom"
 msgstr ""
-
-#~ msgid "Encapsulated message"
-#~ msgstr "Zasunjena powěsć"
-
-#~ msgid "End of encapsulated message"
-#~ msgstr "Kónc zakašćikowaneje powěsće"
-
-#, fuzzy
-#~| msgid "Please wait while the message is transferred"
-#~| msgid_plural "Please wait while the %1 messages are transferred"
-#~ msgid "Please wait while the message is being decrypted..."
-#~ msgstr "Prošu dočakajće, doniž so njejsu te %1 powěsćow přenjesli."
-
-#~ msgid "Encrypted message"
-#~ msgstr "Šifrowana powěsć"
-
-#~ msgid "Encrypted message (decryption not possible)"
-#~ msgstr "Šifrowana powěsć (rozšifrowanje njemóžne)"
-
-#~ msgid "Reason: %1"
-#~ msgstr "Přičina: %1"
-
-#~ msgid "End of encrypted message"
-#~ msgstr "Kónc šifrowaneje powěsće"
-
-#~ msgid "Error: Signature not verified"
-#~ msgstr "Zmylk: njewerifikowana signatura"
-
-#~ msgid "Good signature"
-#~ msgstr "Signatura w porjadku"
-
-#, fuzzy
-#~ msgid "<b>Bad</b> signature"
-#~ msgstr "Hubjena signatura."
-
-#~ msgid "No public key to verify the signature"
-#~ msgstr "Žadyn zjawny kluč za werifikowanje signatury"
-
-#~ msgid "No signature found"
-#~ msgstr "Žana signatura"
-
-#~ msgid "Error verifying the signature"
-#~ msgstr "Zmylk při werifikowanju signatury"
-
-#, fuzzy
-#~ msgid "No status information available."
-#~ msgstr "Ně."
-
-#~ msgid "Good signature."
-#~ msgstr "Signatura w porjadku."
-
-#~ msgid "One key has expired."
-#~ msgstr "Jedyn kluč je zestarjeny."
-
-#~ msgid "The signature has expired."
-#~ msgstr "Signatura je zestarjena."
-
-#~ msgid "Unable to verify: key missing."
-#~ msgstr "Njemóžu werifikować: kluč faluje."
-
-#~ msgid "CRL not available."
-#~ msgstr "CRL nimam."
-
-#~ msgid "Available CRL is too old."
-#~ msgstr "CRL je zestarjena."
-
-#, fuzzy
-#~ msgid "<b>Bad</b> signature."
-#~ msgstr "Hubjena signatura."
-
-#, fuzzy
-#~| msgid "Good signature."
-#~ msgid "Invalid signature."
-#~ msgstr "Signatura w porjadku."
-
-#, fuzzy
-#~| msgid "Not enough information to check signature. %1"
-#~ msgid "Not enough information to check signature validity."
-#~ msgstr "Njedosahaca informacija za přepruwowanje podpisma. %1"
-
-#, fuzzy
-#~ msgid "Signature is valid."
-#~ msgstr "Signatura je zestarjena."
-
-#, fuzzy
-#~| msgid "[Details]"
-#~ msgid "Show Details"
-#~ msgstr "[Nadrobnosće]"
-
-#, fuzzy
-#~| msgid "Not available"
-#~ msgid "No Audit Log available"
-#~ msgstr "Njesteji k dispoziciji"
-
-#, fuzzy
-#~ msgid "Error Retrieving Audit Log: %1"
-#~ msgstr "Zmylk při pósłanju zapiska"
-
-#, fuzzy
-#~| msgid "[Details]"
-#~ msgid "Hide Details"
-#~ msgstr "[Nadrobnosće]"
-
-#, fuzzy
-#~| msgid "Please wait while the message is transferred"
-#~| msgid_plural "Please wait while the %1 messages are transferred"
-#~ msgid "Please wait while the signature is being verified..."
-#~ msgstr "Prošu dočakajće, doniž so njejsu te %1 powěsćow přenjesli."
-
-#, fuzzy
-#~ msgid "certificate"
-#~ msgstr "Certifikaty"
-
-#, fuzzy
-#~| msgid "Warning:"
-#~ msgctxt "Start of warning message."
-#~ msgid "Warning:"
-#~ msgstr "Kedźbu:"
-
-#~ msgid "Sender's mail address is not stored in the %1 used for signing."
-#~ msgstr "Adresa wotpósłarja njeje so zawěsćiła w '%1',, z čimž bu podpisane."
-
-#~ msgid "sender: "
-#~ msgstr "wotpósłar: "
-
-#~ msgid "stored: "
-#~ msgstr "zawěsćene: "
-
-#, fuzzy
-#~ msgid ""
-#~ "No mail address is stored in the %1 used for signing, so we cannot "
-#~ "compare it to the sender's address %2."
-#~ msgstr ""
-#~ "W %1, kiž so za podpisowanje wužiwa, njeje žana emailowa adresa, tuž "
-#~ "njeje móžno přirunować z adresu wotpósłarja &lt;%2&gt;."
-
-#~ msgid "Not enough information to check signature. %1"
-#~ msgstr "Njedosahaca informacija za přepruwowanje podpisma. %1"
-
-#~ msgid "Message was signed with unknown key."
-#~ msgstr "Powěsć bu z njeznatym klučom podpisany."
-
-#~ msgid "Message was signed by %1."
-#~ msgstr "Powěsć bu podpisana wot %1."
-
-#~ msgid "Message was signed with key %1."
-#~ msgstr "Powěsć bu podpisana z klučom %1."
-
-#, fuzzy
-#~ msgid "Message was signed on %1 with key %2."
-#~ msgstr "Powěsć bu podpisana wot %2 z klučom %1."
-
-#, fuzzy
-#~ msgid "Message was signed by %3 on %1 with key %2"
-#~ msgstr "Powěsć bu podpisana wot %2 z klučom %1."
-
-#~ msgid "Message was signed by %2 with key %1."
-#~ msgstr "Powěsć bu podpisana wot %2 z klučom %1."
-
-#~ msgid "Status: "
-#~ msgstr "Staw: "
-
-#, fuzzy
-#~ msgid "Message was signed on %1 with unknown key %2."
-#~ msgstr "Powěsć bu podpisana z njeznatym klučom %1."
-
-#~ msgid "Message was signed with unknown key %1."
-#~ msgstr "Powěsć bu podpisana z njeznatym klučom %1."
-
-#~ msgid "The validity of the signature cannot be verified."
-#~ msgstr "Podpismo njehodźi so přepruwować."
-
-#~ msgid "Message was signed by %2 (Key ID: %1)."
-#~ msgstr "Powěsć bu podpisana wot %2 (klučowa ID: %1)."
-
-#~ msgid "The signature is valid, but the key's validity is unknown."
-#~ msgstr ""
-#~ "Podpismo je w porjadku, ale walidnosć kluča njehodźi so přepruwować."
-
-#~ msgid "The signature is valid and the key is marginally trusted."
-#~ msgstr "Podpismo je w porjadku a kluč trochu dowěry hódny."
-
-#~ msgid "The signature is valid and the key is fully trusted."
-#~ msgstr "Podpismo je w porjadku a kluč je połnje dowěry hódny."
-
-#~ msgid "The signature is valid and the key is ultimately trusted."
-#~ msgstr "Podpismo je w porjadku a kluč dospołnje dowěry hódny."
-
-#~ msgid "The signature is valid, but the key is untrusted."
-#~ msgstr "Podpismo je w porjadku a kluč njeje dowěry hódny."
-
-#~ msgid "Warning: The signature is bad."
-#~ msgstr "Kedźbu. Podpismo njeje w porjadku."
-
-#~ msgid "End of signed message"
-#~ msgstr "Kónc podpisaneje powěsće"
-
-#, fuzzy
-#~ msgid "Wrong Crypto Plug-In."
-#~ msgstr "Zatyčki za ši&frowanje"
-
-#, fuzzy
-#~ msgid "This message is encrypted."
-#~ msgstr "PGP-ŝifrowana powěsć"
-
-#, fuzzy
-#~| msgid "&Encrypt Message"
-#~ msgid "Decrypt Message"
-#~ msgstr "Šifrowanj&e"
-
-#, fuzzy
-#~| msgid "(unknown)"
-#~ msgctxt "Status of message unknown."
-#~ msgid "(unknown)"
-#~ msgstr "(njeznaju)"
-
-#, fuzzy
-#~ msgid "Sorry, no certificates were found in this message."
-#~ msgstr "Certifikat:"
-
-#, fuzzy
-#~ msgid "Certificate import status:"
-#~ msgstr "Certifikat"
-
-#, fuzzy
-#~ msgid "Certificate import details:"
-#~ msgstr "Certifikat"
-
-#, fuzzy
-#~ msgctxt "Certificate import failed."
-#~ msgid "Failed: %1 (%2)"
-#~ msgstr "KMail"
-
-#, fuzzy
-#~ msgid "Could not decrypt the data."
-#~ msgstr "in."
-
-#, fuzzy
-#~ msgid "Crypto plug-in \"%1\" could not decrypt the data."
-#~ msgstr "in."
-
-#, fuzzy
-#~ msgid "Error: %1"
-#~ msgstr "Zmylk"
-
-#, fuzzy
-#~ msgid "Crypto plug-in \"%1\" is not initialized."
-#~ msgstr "in."
-
-#, fuzzy
-#~ msgid "Crypto plug-in \"%1\" cannot decrypt messages."
-#~ msgstr "in."
-
-#, fuzzy
-#~ msgid "No appropriate crypto plug-in was found."
-#~ msgstr "Ně in."
-
-#, fuzzy
-#~| msgid "Unnamed"
-#~ msgctxt "display name for an unnamed attachment"
-#~ msgid "Unnamed"
-#~ msgstr "Bjez mjena"
-
-#, fuzzy
-#~ msgid "Crypto plug-in \"%1\" cannot verify signatures."
-#~ msgstr "in."
-
-#, fuzzy
-#~ msgctxt "%1 is either 'OpenPGP' or 'S/MIME'"
-#~ msgid "No %1 plug-in was found."
-#~ msgstr "in."
-
-#, fuzzy
-#~ msgid ""
-#~ "The message is signed, but the validity of the signature cannot be "
-#~ "verified.<br />Reason: %1"
-#~ msgstr "Podpismo njehodźi so přepruwować."
 
 #, fuzzy
 #~ msgid "Expand Short URL"
@@ -3891,11 +4087,6 @@ msgstr ""
 #~ msgstr "&Pósćel čakace powěsće"
 
 #, fuzzy
-#~| msgid "Certificate Manager..."
-#~ msgid "Certificate Manager"
-#~ msgstr "Rjadowanje certifikatow..."
-
-#, fuzzy
 #~ msgid "GnuPG Log Viewer"
 #~ msgstr "&Filtrowy protokol wobhladać..."
 
@@ -4974,10 +5165,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "The destination folder was: <b>%1</b>."
 #~ msgstr "&Cilowy zapisk:"
-
-#, fuzzy
-#~ msgid "No detailed quota information available."
-#~ msgstr "Ně."
 
 #, fuzzy
 #~ msgid "Error"
