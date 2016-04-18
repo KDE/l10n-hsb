@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-04-16 07:53+0000\n"
+"POT-Creation-Date: 2016-04-18 08:17+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -21,13 +21,598 @@ msgstr ""
 "%100==4 ? 2 : 3;\n"
 "\n"
 
+#: agents/archivemailagent/addarchivemaildialog.cpp:43
+#, fuzzy
+#| msgid "&Attach File..."
+msgid "Modify Archive Mail"
+msgstr "&Dodaj dataju..."
+
+#: agents/archivemailagent/addarchivemaildialog.cpp:45
+#: agents/archivemailagent/archivemailwidget.cpp:259
+#, fuzzy
+#| msgid "&Attach File..."
+msgid "Add Archive Mail"
+msgstr "&Dodaj dataju..."
+
+#: agents/archivemailagent/addarchivemaildialog.cpp:66
+#: src/dialog/archivefolderdialog.cpp:84
+#, fuzzy
+#| msgid "Folder"
+msgid "&Folder:"
+msgstr "Zapisk"
+
+#: agents/archivemailagent/addarchivemaildialog.cpp:80
+#, fuzzy
+#| msgid "&Normal:"
+msgid "Format:"
+msgstr "&normalnje:"
+
+#: agents/archivemailagent/addarchivemaildialog.cpp:88
+#: src/dialog/archivefolderdialog.cpp:125
+#, fuzzy
+msgid "Archive all subfolders"
+msgstr "&Nowy Zapisk..."
+
+#: agents/archivemailagent/addarchivemaildialog.cpp:94
+#: src/mailmerge/widgets/csvwidget.cpp:34
+#, fuzzy
+msgid "Path:"
+msgstr "%1 namakankow (%2)"
+
+#: agents/archivemailagent/addarchivemaildialog.cpp:104
+msgid "Backup each:"
+msgstr ""
+
+#: agents/archivemailagent/addarchivemaildialog.cpp:120
+msgid "Maximum number of archive:"
+msgstr ""
+
+#: agents/archivemailagent/addarchivemaildialog.cpp:125
+#, fuzzy
+msgid "unlimited"
+msgstr "bjez mjena"
+
+#: agents/archivemailagent/archivemaildialog.cpp:48
+#, fuzzy
+#| msgid "&Attach File..."
+msgid "Configure Archive Mail Agent"
+msgstr "&Dodaj dataju..."
+
+#: agents/archivemailagent/archivemaildialog.cpp:76
+#, fuzzy
+#| msgid "&Attach File..."
+msgid "Archive Mail Agent"
+msgstr "&Dodaj dataju..."
+
+#: agents/archivemailagent/archivemaildialog.cpp:78
+msgid "Archive emails automatically."
+msgstr ""
+
+#: agents/archivemailagent/archivemaildialog.cpp:80
+msgid "Copyright (C) 2012-2016 Laurent Montel"
+msgstr ""
+
+#: agents/archivemailagent/archivemaildialog.cpp:82
+#: agents/followupreminderagent/followupreminderinfodialog.cpp:63
+#: agents/sendlateragent/sendlaterconfiguredialog.cpp:63
+msgid "Laurent Montel"
+msgstr ""
+
+#: agents/archivemailagent/archivemaildialog.cpp:83
+#: agents/followupreminderagent/followupreminderinfodialog.cpp:64
+#: agents/sendlateragent/sendlaterconfiguredialog.cpp:64 src/aboutdata.cpp:54
+msgid "Maintainer"
+msgstr "Maintainer"
+
+#: agents/archivemailagent/archivemaildialog.cpp:86
+#: agents/followupreminderagent/followupreminderinfodialog.cpp:66
+#: agents/sendlateragent/sendlaterconfiguredialog.cpp:67
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Edward Wornar"
 
+#: agents/archivemailagent/archivemaildialog.cpp:87
+#: agents/followupreminderagent/followupreminderinfodialog.cpp:67
+#: agents/sendlateragent/sendlaterconfiguredialog.cpp:68
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "e.werner@rz.uni-leipzig.de"
+
+#: agents/archivemailagent/archivemailinfo.cpp:107
+#: agents/archivemailagent/archivemailinfo.cpp:124
+#: src/dialog/archivefolderdialog.cpp:56
+#, fuzzy
+msgctxt "Start of the filename for a mail archive file"
+msgid "Archive"
+msgstr "Lisćina:"
+
+#: agents/archivemailagent/archivemailwidget.cpp:70
+#, fuzzy
+#| msgid "Name"
+msgid "Name"
+msgstr "Mjeno"
+
+#: agents/archivemailagent/archivemailwidget.cpp:70
+#, fuzzy
+msgid "Last archive"
+msgstr "Lisćina:"
+
+#: agents/archivemailagent/archivemailwidget.cpp:70
+#, fuzzy
+#| msgid "&Attach File..."
+msgid "Next archive in"
+msgstr "&Dodaj dataju..."
+
+#: agents/archivemailagent/archivemailwidget.cpp:70
+msgid "Storage directory"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, addItem)
+#: agents/archivemailagent/archivemailwidget.cpp:100
+#: agents/archivemailagent/ui/archivemailwidget.ui:19
+#: src/configuredialog/configurecomposerpage.cpp:819
+#: src/identity/identitypage.cpp:278
+msgid "Add..."
+msgstr "Dodać..."
+
+#: agents/archivemailagent/archivemailwidget.cpp:103
+#, fuzzy
+msgid "Open Containing Folder..."
+msgstr "Do tutoho zapiska kopěrować"
+
+#: agents/archivemailagent/archivemailwidget.cpp:105
+#, fuzzy
+#| msgid "&Attach File..."
+msgid "Archive now"
+msgstr "&Dodaj dataju..."
+
+#: agents/archivemailagent/archivemailwidget.cpp:108
+#: agents/followupreminderagent/followupreminderinfowidget.cpp:203
+#: agents/sendlateragent/sendlaterconfigurewidget.cpp:111
+#, fuzzy
+msgid "Delete"
+msgstr "Z&ničić"
+
+#: agents/archivemailagent/archivemailwidget.cpp:166
+#, fuzzy, kde-format
+#| msgid "Folder"
+msgid "Folder: %1"
+msgstr "Zapisk"
+
+#: agents/archivemailagent/archivemailwidget.cpp:182
+#, kde-format
+msgid "Tomorrow"
+msgid_plural "%1 days"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: agents/archivemailagent/archivemailwidget.cpp:190
+#, fuzzy, kde-format
+#| msgid "&Attach File..."
+msgid "Archive will be done %1"
+msgstr "&Dodaj dataju..."
+
+#: agents/archivemailagent/archivemailwidget.cpp:223
+msgid "Do you want to delete selected items? Do you want to continue?"
+msgstr ""
+
+#: agents/archivemailagent/archivemailwidget.cpp:223
+#: agents/sendlateragent/sendlaterconfigurewidget.cpp:217
+#, fuzzy
+msgid "Remove items"
+msgstr "Wotst&ronić"
+
+#: agents/archivemailagent/archivemailwidget.cpp:259
+msgid ""
+"Cannot add a second archive for this folder. Modify the existing one instead."
+msgstr ""
+
+#: agents/archivemailagent/job/archivejob.cpp:68
+msgid "Directory does not exist. Please verify settings. Archive postponed."
+msgstr ""
+
+#: agents/archivemailagent/job/archivejob.cpp:86
+#, fuzzy, kde-format
+msgid "Start to archive %1"
+msgstr "Lisćina:"
+
+#. i18n: ectx: property (text), widget (QPushButton, modifyItem)
+#: agents/archivemailagent/ui/archivemailwidget.ui:26
+#: agents/sendlateragent/ui/sendlaterconfigurewidget.ui:19
+#: src/configuredialog/configurecomposerpage.cpp:821
+#: src/identity/identitypage.cpp:280
+msgid "Modify..."
+msgstr "Změnić..."
+
+#. i18n: ectx: property (text), widget (QPushButton, removeItem)
+#: agents/archivemailagent/ui/archivemailwidget.ui:33
+#: agents/sendlateragent/ui/sendlaterconfigurewidget.ui:26
+#: src/configuredialog/configuredialoglistview.cpp:55
+#: src/identity/identitypage.cpp:283
+#, fuzzy
+msgid "Remove"
+msgstr "&Zničić"
+
+#: agents/archivemailagent/widgets/formatcombobox.cpp:25
+#: src/dialog/archivefolderdialog.cpp:100
+msgid "Compressed Zip Archive (.zip)"
+msgstr ""
+
+#: agents/archivemailagent/widgets/formatcombobox.cpp:26
+#: src/dialog/archivefolderdialog.cpp:101
+msgid "Uncompressed Archive (.tar)"
+msgstr ""
+
+#: agents/archivemailagent/widgets/formatcombobox.cpp:27
+#: src/dialog/archivefolderdialog.cpp:102
+msgid "BZ2-Compressed Tar Archive (.tar.bz2)"
+msgstr ""
+
+#: agents/archivemailagent/widgets/formatcombobox.cpp:28
+#: src/dialog/archivefolderdialog.cpp:103
+msgid "GZ-Compressed Tar Archive (.tar.gz)"
+msgstr ""
+
+#: agents/archivemailagent/widgets/unitcombobox.cpp:24
+msgid "Days"
+msgstr ""
+
+#: agents/archivemailagent/widgets/unitcombobox.cpp:25
+msgid "Weeks"
+msgstr ""
+
+#: agents/archivemailagent/widgets/unitcombobox.cpp:26
+msgid "Months"
+msgstr ""
+
+#: agents/archivemailagent/widgets/unitcombobox.cpp:27
+msgid "Years"
+msgstr ""
+
+#: agents/followupreminderagent/followupreminderinfodialog.cpp:38
+#: agents/sendlateragent/sendlaterconfiguredialog.cpp:36
+#, fuzzy
+msgid "Configure"
+msgstr "KMail &konfigurować..."
+
+#: agents/followupreminderagent/followupreminderinfodialog.cpp:57
+#, fuzzy
+#| msgid "&Find Messages..."
+msgid "Follow Up Reminder Agent"
+msgstr "Powěsće &namakać ..."
+
+#: agents/followupreminderagent/followupreminderinfodialog.cpp:59
+msgid "Follow Up Mail."
+msgstr ""
+
+#: agents/followupreminderagent/followupreminderinfodialog.cpp:61
+msgid "Copyright (C) 2014-2016 Laurent Montel"
+msgstr ""
+
+#: agents/followupreminderagent/followupreminderinfowidget.cpp:73
+#: agents/sendlateragent/sendlaterconfigurewidget.cpp:69
+#, fuzzy
+msgid "To"
+msgstr "&Na"
+
+#: agents/followupreminderagent/followupreminderinfowidget.cpp:74
+#: agents/sendlateragent/sendlaterconfigurewidget.cpp:70
+#, fuzzy
+#| msgid "Subject"
+msgid "Subject"
+msgstr "Tema"
+
+#: agents/followupreminderagent/followupreminderinfowidget.cpp:75
+msgid "Dead Line"
+msgstr ""
+
+#: agents/followupreminderagent/followupreminderinfowidget.cpp:76
+#, fuzzy
+#| msgid "sender: "
+msgid "Answer"
+msgstr "wotpósłar: "
+
+#: agents/followupreminderagent/followupreminderinfowidget.cpp:142
+#, fuzzy
+#| msgid "Receiver"
+msgid "Received"
+msgstr "Adresat"
+
+#: agents/followupreminderagent/followupreminderinfowidget.cpp:142
+msgid "On hold"
+msgstr ""
+
+#: agents/followupreminderagent/followupreminderinfowidget.cpp:199
+#, fuzzy
+#| msgid "New Message"
+msgid "Show Message"
+msgstr "Nowa powěsć"
+
+#: agents/followupreminderagent/followupreminderinfowidget.cpp:226
+#, fuzzy
+#| msgid "<qt>Do you really want to remove the identity named <b>%1</b>?</qt>"
+msgid "Do you want to remove selected item?"
+msgstr "<qt>Chceće woprawdźe identitu <b>%1</b> zničić?</qt>"
+
+#: agents/followupreminderagent/followupremindermanager.cpp:157
+#, kde-format
+msgid "Answer from %1 received"
+msgstr ""
+
+#: agents/followupreminderagent/followupremindernoanswerdialog.cpp:34
+msgid "Follow Up Mail"
+msgstr ""
+
+#: agents/followupreminderagent/followupremindernoanswerdialog.cpp:47
+msgid "You still wait an answer about this mail:"
+msgstr ""
+
+#: agents/mailfilteragent/filterlogdialog.cpp:62
+#, fuzzy
+msgid "Filter Log Viewer"
+msgstr "Filtrowe kriterije"
+
+#: agents/mailfilteragent/filterlogdialog.cpp:95
+#, fuzzy
+msgid "&Log filter activities"
+msgstr "Filtrowe akcije"
+
+#: agents/mailfilteragent/filterlogdialog.cpp:100
+msgid ""
+"You can turn logging of filter activities on and off here. Of course, log "
+"data is collected and shown only when logging is turned on. "
+msgstr ""
+
+#: agents/mailfilteragent/filterlogdialog.cpp:104
+#, fuzzy
+#| msgid "[Details]"
+msgid "Logging Details"
+msgstr "[Nadrobnosće]"
+
+#: agents/mailfilteragent/filterlogdialog.cpp:111
+#, fuzzy
+msgid "Log pattern description"
+msgstr "Wopisanje"
+
+#. i18n( "" ) );
+#: agents/mailfilteragent/filterlogdialog.cpp:120
+#, fuzzy
+msgid "Log filter &rule evaluation"
+msgstr "Filtrowe akcije"
+
+#: agents/mailfilteragent/filterlogdialog.cpp:126
+msgid ""
+"You can control the feedback in the log concerning the evaluation of the "
+"filter rules of applied filters: having this option checked will give "
+"detailed feedback for each single filter rule; alternatively, only feedback "
+"about the result of the evaluation of all rules of a single filter will be "
+"given."
+msgstr ""
+
+#: agents/mailfilteragent/filterlogdialog.cpp:133
+#, fuzzy
+msgid "Log filter pattern evaluation"
+msgstr "Filtrowe akcije"
+
+#. i18n( "" ) );
+#: agents/mailfilteragent/filterlogdialog.cpp:142
+#, fuzzy
+msgid "Log filter actions"
+msgstr "Filtrowe akcije"
+
+#: agents/mailfilteragent/filterlogdialog.cpp:156
+msgid "Log size limit:"
+msgstr ""
+
+#: agents/mailfilteragent/filterlogdialog.cpp:164
+#, fuzzy
+#| msgid " MB"
+msgid " KB"
+msgstr " MB"
+
+#: agents/mailfilteragent/filterlogdialog.cpp:166
+#, fuzzy
+msgctxt "@label:spinbox Set the size of the logfile to unlimited."
+msgid "unlimited"
+msgstr "bjez mjena"
+
+#: agents/mailfilteragent/filterlogdialog.cpp:169
+msgid ""
+"Collecting log data uses memory to temporarily store the log data; here you "
+"can limit the maximum amount of memory to be used: if the size of the "
+"collected log data exceeds this limit then the oldest data will be discarded "
+"until the limit is no longer exceeded. "
+msgstr ""
+
+#: agents/mailfilteragent/filterlogdialog.cpp:356
+#, kde-format
+msgid ""
+"Could not write the file %1:\n"
+"\"%2\" is the detailed error description."
+msgstr ""
+
+#: agents/mailfilteragent/filterlogdialog.cpp:360
+#: src/configuredialog/configurestorageservicewidget.cpp:72
+#: src/kmlaunchexternalcomponent.cpp:82 src/kmlaunchexternalcomponent.cpp:91
+msgid "KMail Error"
+msgstr "Zmylk w kmailu"
+
+#: agents/mailfilteragent/filtermanager.cpp:125 src/kmcommands.cpp:1383
+#, fuzzy, kde-format
+msgid "Filtering message %1 of %2"
+msgstr "Přesuwam powěsć %3 z %2 wot %1."
+
+#: agents/mailfilteragent/filtermanager.cpp:212
+msgid "Error applying mail filter move"
+msgstr ""
+
+#: agents/mailfilteragent/filtermanager.cpp:220
+msgid "Error applying mail filter delete"
+msgstr ""
+
+#: agents/mailfilteragent/filtermanager.cpp:228
+msgid "Error applying mail filter modifications"
+msgstr ""
+
+#: agents/mailfilteragent/filtermanager.cpp:245
+#, fuzzy
+msgid "<b>Evaluating filter rules:</b> "
+msgstr "Filtrowe akcije &přewjesć"
+
+#: agents/mailfilteragent/filtermanager.cpp:252
+msgid "<b>Filter rules have matched.</b>"
+msgstr ""
+
+#: agents/mailfilteragent/filtermanager.cpp:271
+#, kde-format
+msgid "<b>Begin filtering on message \"%1\" from \"%2\" at \"%3\" :</b>"
+msgstr ""
+
+#: agents/mailfilteragent/filtermanager.cpp:578
+#: agents/mailfilteragent/filtermanager.cpp:603 src/kmcommands.cpp:1376
+#, fuzzy
+msgid "Filtering messages"
+msgstr "Powěsće zničić"
+
+#: agents/mailfilteragent/mailfilteragent.cpp:112
+#, fuzzy
+msgctxt "Notification when the filter log was enabled"
+msgid "Mail Filter Log Enabled"
+msgstr "Filtrowe kriterije"
+
+#: agents/mailfilteragent/mailfilteragent.cpp:161
+#, fuzzy
+#| msgid "Ready."
+msgid "Ready"
+msgstr "Hotowo."
+
+#: agents/mailfilteragent/mailfilteragent.cpp:228
+#, fuzzy, kde-format
+#| msgid "&Filtering"
+msgid "Filtering in %1"
+msgstr "&Filtrowanje"
+
+#: agents/sendlateragent/sendlaterconfiguredialog.cpp:57
+#, fuzzy
+#| msgid "Send Later"
+msgid "Send Later Agent"
+msgstr "Pozdźišo pósłać"
+
+#: agents/sendlateragent/sendlaterconfiguredialog.cpp:59
+msgid "Send emails later agent."
+msgstr ""
+
+#: agents/sendlateragent/sendlaterconfiguredialog.cpp:61
+msgid "Copyright (C) 2013-2016 Laurent Montel"
+msgstr ""
+
+#: agents/sendlateragent/sendlaterconfigurewidget.cpp:71
+#, fuzzy
+#| msgid "Send Later"
+msgid "Send around"
+msgstr "Pozdźišo pósłać"
+
+#: agents/sendlateragent/sendlaterconfigurewidget.cpp:72
+msgid "Recurrent"
+msgstr ""
+
+#: agents/sendlateragent/sendlaterconfigurewidget.cpp:74
+#, fuzzy
+#| msgid "Message Body"
+msgid "Message Id"
+msgstr "Hłowny dźěl powěsće"
+
+#: agents/sendlateragent/sendlaterconfigurewidget.cpp:85
+#, fuzzy
+msgid "No messages waiting..."
+msgstr "%1 powěsćow, %2."
+
+#: agents/sendlateragent/sendlaterconfigurewidget.cpp:108
+#, fuzzy
+#| msgid "Send Now"
+msgid "Send now"
+msgstr "Hnydom pósłać"
+
+#: agents/sendlateragent/sendlaterconfigurewidget.cpp:172
+msgid "Yes"
+msgstr ""
+
+#: agents/sendlateragent/sendlaterconfigurewidget.cpp:172
+#, fuzzy
+msgid "No"
+msgstr "&Žane"
+
+#: agents/sendlateragent/sendlaterconfigurewidget.cpp:217
+msgid "Do you want to delete selected item? Do you want to continue?"
+msgid_plural "Do you want to delete selected items? Do you want to continue?"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: agents/sendlateragent/sendlaterconfigurewidget.cpp:222
+#, fuzzy
+#| msgid "<qt>Do you really want to remove the identity named <b>%1</b>?</qt>"
+msgid "Do you want to remove messages as well?"
+msgstr "<qt>Chceće woprawdźe identitu <b>%1</b> zničić?</qt>"
+
+#: agents/sendlateragent/sendlaterconfigurewidget.cpp:222
+#, fuzzy
+#| msgid "0 messages"
+msgid "Remove messages"
+msgstr "žane powěsće"
+
+#: agents/sendlateragent/sendlaterjob.cpp:69
+#: agents/sendlateragent/sendlaterjob.cpp:72
+#, fuzzy
+msgid "Not message found."
+msgstr "%1 powěsćow, %2."
+
+#: agents/sendlateragent/sendlaterjob.cpp:80
+#, fuzzy
+msgid "No message found."
+msgstr "%1 powěsćow, %2."
+
+#: agents/sendlateragent/sendlaterjob.cpp:89
+#, fuzzy
+msgid "Error during fetching message."
+msgstr "Zmylk při pósłanju powěsće na server"
+
+#: agents/sendlateragent/sendlaterjob.cpp:95
+#, fuzzy, kde-format
+msgid "Cannot fetch message. %1"
+msgstr "Suń powěsće do zapiska"
+
+#: agents/sendlateragent/sendlaterjob.cpp:100
+msgid "We can't create transport"
+msgstr ""
+
+#: agents/sendlateragent/sendlaterjob.cpp:107
+#, fuzzy
+#| msgid "Message List - Unread Messages"
+msgid "Message is not a real message"
+msgstr "Lisćina powěsćow - nječitane powěsće"
+
+#: agents/sendlateragent/sendlaterjob.cpp:113
+#, fuzzy
+msgid "Cannot send message."
+msgstr "Suń powěsće do zapiska"
+
+#: agents/sendlateragent/sendlaterjob.cpp:145
+#, fuzzy
+msgid "Message sent"
+msgstr "Lisćina powěsćow"
+
+#: agents/sendlateragent/sendlatermanager.cpp:194
+msgid "An error was found. Do you want to resend it?"
+msgstr ""
+
+#: agents/sendlateragent/sendlatermanager.cpp:194
+#, fuzzy
+msgid "Error found"
+msgstr "Zmylk"
 
 #. i18n: file: src/about/introduction_kmail.html
 #: html.cpp:2
@@ -79,96 +664,6 @@ msgstr ""
 #: html.cpp:16
 msgid "Thank you,<br/>The KMail Team"
 msgstr ""
-
-#: kontactplugin/kcmkmailsummary.cpp:67
-msgid "kcmkmailsummary"
-msgstr ""
-
-#: kontactplugin/kcmkmailsummary.cpp:69
-msgid "Mail Summary Configuration Dialog"
-msgstr ""
-
-#: kontactplugin/kcmkmailsummary.cpp:71
-msgid "Copyright © 2004–2010 Tobias Koenig"
-msgstr ""
-
-#: kontactplugin/kcmkmailsummary.cpp:72
-msgid "Tobias Koenig"
-msgstr ""
-
-#: kontactplugin/kcmkmailsummary.cpp:88
-#, fuzzy
-msgid "Show full path for folders"
-msgstr "&Pokaž chowane zapiski"
-
-#: kontactplugin/kcmkmailsummary.cpp:90
-msgctxt "@info:tooltip"
-msgid "Show full path for each folder"
-msgstr ""
-
-#: kontactplugin/kcmkmailsummary.cpp:93
-msgctxt "@info:whatsthis"
-msgid ""
-"Enable this option if you want to see the full path for each folder listed "
-"in the summary. If this option is not enabled, then only the base folder "
-"path will be shown."
-msgstr ""
-
-#: kontactplugin/kmail_plugin.cpp:59
-#, fuzzy
-#| msgid "&New Message..."
-msgctxt "@action:inmenu"
-msgid "New Message..."
-msgstr "&Nowa powěsć..."
-
-#: kontactplugin/kmail_plugin.cpp:66
-msgctxt "@info:whatsthis"
-msgid ""
-"You will be presented with a dialog where you can create and send a new "
-"email message."
-msgstr ""
-
-#: kontactplugin/kmail_plugin.cpp:73
-#, fuzzy
-msgctxt "@action:inmenu"
-msgid "Sync Mail"
-msgstr "Sendmail"
-
-#: kontactplugin/kmail_plugin.cpp:78
-msgctxt "@info:whatsthis"
-msgid "Choose this option to synchronize your groupware email."
-msgstr ""
-
-#: kontactplugin/summarywidget.cpp:63
-#, fuzzy
-#| msgid "New Message"
-msgid "New Messages"
-msgstr "Nowa powěsć"
-
-#: kontactplugin/summarywidget.cpp:158
-#, kde-format
-msgid "<qt><b>%1</b><br/>Total: %2<br/>Unread: %3</qt>"
-msgstr ""
-
-#: kontactplugin/summarywidget.cpp:170
-#, kde-format
-msgctxt "%1: number of unread messages %2: total number of messages"
-msgid "%1 / %2"
-msgstr ""
-
-#: kontactplugin/summarywidget.cpp:208
-#, fuzzy
-msgid "No unread messages in your monitored folders"
-msgstr "Pósłać po p&ohladanju na serveru"
-
-#: kontactplugin/summarywidget.cpp:226
-#, fuzzy, kde-format
-msgid "Open Folder: \"%1\""
-msgstr "&Cilowy zapisk:"
-
-#: src/aboutdata.cpp:54
-msgid "Maintainer"
-msgstr "Maintainer"
 
 #: src/aboutdata.cpp:58 src/aboutdata.cpp:66 src/aboutdata.cpp:70
 msgid "Former maintainer"
@@ -1347,21 +1842,11 @@ msgstr "Zapodaj nowy prefiks za wotmołwy:"
 msgid "For&ward Subject Prefixes"
 msgstr "Temowe prefiksy dopósłać"
 
-#: src/configuredialog/configurecomposerpage.cpp:819
-#: src/identity/identitypage.cpp:278
-msgid "Add..."
-msgstr "Dodać..."
-
 #. i18n: ectx: property (text), widget (QPushButton, mRemoveButton)
 #: src/configuredialog/configurecomposerpage.cpp:820
 #: src/configuredialog/configurecomposerpage.cpp:882 src/ui/identitypage.ui:66
 msgid "Remo&ve"
 msgstr "&Zničić"
-
-#: src/configuredialog/configurecomposerpage.cpp:821
-#: src/identity/identitypage.cpp:280
-msgid "Modify..."
-msgstr "Změnić..."
 
 #: src/configuredialog/configurecomposerpage.cpp:822
 msgid "Enter new forward prefix:"
@@ -1495,12 +1980,6 @@ msgstr ""
 msgid "Add"
 msgstr "Dod&ać..."
 
-#: src/configuredialog/configuredialoglistview.cpp:55
-#: src/identity/identitypage.cpp:283
-#, fuzzy
-msgid "Remove"
-msgstr "&Zničić"
-
 #: src/configuredialog/configuremiscpage.cpp:52
 #, fuzzy
 msgid "Folders"
@@ -1613,11 +2092,6 @@ msgstr ""
 "Njemóžach certifikatowy manager startować. Prošu přepruwujće swoju "
 "instalaciju!"
 
-#: src/configuredialog/configurestorageservicewidget.cpp:72
-#: src/kmlaunchexternalcomponent.cpp:82 src/kmlaunchexternalcomponent.cpp:91
-msgid "KMail Error"
-msgstr "Zmylk w kmailu"
-
 #: src/dialog/addemailtoexistingcontactdialog.cpp:40
 #, fuzzy
 msgid "Select Contact"
@@ -1627,12 +2101,6 @@ msgstr "Zapisk zničić"
 #, fuzzy
 msgid "Select"
 msgstr "&Wšitke powěsće wubrać"
-
-#: src/dialog/archivefolderdialog.cpp:56
-#, fuzzy
-msgctxt "Start of the filename for a mail archive file"
-msgid "Archive"
-msgstr "Lisćina:"
 
 #: src/dialog/archivefolderdialog.cpp:63
 #, fuzzy
@@ -1646,33 +2114,11 @@ msgctxt "@action"
 msgid "Archive"
 msgstr "Lisćina:"
 
-#: src/dialog/archivefolderdialog.cpp:84
-#, fuzzy
-#| msgid "Folder"
-msgid "&Folder:"
-msgstr "Zapisk"
-
 #: src/dialog/archivefolderdialog.cpp:94
 #, fuzzy
 #| msgid "&Normal:"
 msgid "F&ormat:"
 msgstr "&normalnje:"
-
-#: src/dialog/archivefolderdialog.cpp:100
-msgid "Compressed Zip Archive (.zip)"
-msgstr ""
-
-#: src/dialog/archivefolderdialog.cpp:101
-msgid "Uncompressed Archive (.tar)"
-msgstr ""
-
-#: src/dialog/archivefolderdialog.cpp:102
-msgid "BZ2-Compressed Tar Archive (.tar.bz2)"
-msgstr ""
-
-#: src/dialog/archivefolderdialog.cpp:103
-msgid "GZ-Compressed Tar Archive (.tar.gz)"
-msgstr ""
 
 #: src/dialog/archivefolderdialog.cpp:109
 #, fuzzy
@@ -1684,11 +2130,6 @@ msgstr "&Dodaj dataju..."
 #, fuzzy
 msgid "&Delete folder and subfolders after completion"
 msgstr "Niču"
-
-#: src/dialog/archivefolderdialog.cpp:125
-#, fuzzy
-msgid "Archive all subfolders"
-msgstr "&Nowy Zapisk..."
 
 #: src/dialog/archivefolderdialog.cpp:187
 #, fuzzy
@@ -3408,16 +3849,6 @@ msgstr "&Nješifrowane zawěsćić"
 msgid "Send Individually"
 msgstr ""
 
-#: src/kmcommands.cpp:1376
-#, fuzzy
-msgid "Filtering messages"
-msgstr "Powěsće zničić"
-
-#: src/kmcommands.cpp:1383
-#, fuzzy, kde-format
-msgid "Filtering message %1 of %2"
-msgstr "Přesuwam powěsć %3 z %2 wot %1."
-
 #: src/kmcommands.cpp:1536
 #, fuzzy
 msgid "Moving messages"
@@ -4659,16 +5090,97 @@ msgstr[1] "Nječitana powěsć"
 msgstr[2] "Nječitana powěsć"
 msgstr[3] "Nječitana powěsć"
 
+#: src/kontactplugin/kcmkmailsummary.cpp:67
+msgid "kcmkmailsummary"
+msgstr ""
+
+#: src/kontactplugin/kcmkmailsummary.cpp:69
+msgid "Mail Summary Configuration Dialog"
+msgstr ""
+
+#: src/kontactplugin/kcmkmailsummary.cpp:71
+msgid "Copyright © 2004–2010 Tobias Koenig"
+msgstr ""
+
+#: src/kontactplugin/kcmkmailsummary.cpp:72
+msgid "Tobias Koenig"
+msgstr ""
+
+#: src/kontactplugin/kcmkmailsummary.cpp:88
+#, fuzzy
+msgid "Show full path for folders"
+msgstr "&Pokaž chowane zapiski"
+
+#: src/kontactplugin/kcmkmailsummary.cpp:90
+msgctxt "@info:tooltip"
+msgid "Show full path for each folder"
+msgstr ""
+
+#: src/kontactplugin/kcmkmailsummary.cpp:93
+msgctxt "@info:whatsthis"
+msgid ""
+"Enable this option if you want to see the full path for each folder listed "
+"in the summary. If this option is not enabled, then only the base folder "
+"path will be shown."
+msgstr ""
+
+#: src/kontactplugin/kmail_plugin.cpp:59
+#, fuzzy
+#| msgid "&New Message..."
+msgctxt "@action:inmenu"
+msgid "New Message..."
+msgstr "&Nowa powěsć..."
+
+#: src/kontactplugin/kmail_plugin.cpp:66
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can create and send a new "
+"email message."
+msgstr ""
+
+#: src/kontactplugin/kmail_plugin.cpp:73
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "Sync Mail"
+msgstr "Sendmail"
+
+#: src/kontactplugin/kmail_plugin.cpp:78
+msgctxt "@info:whatsthis"
+msgid "Choose this option to synchronize your groupware email."
+msgstr ""
+
+#: src/kontactplugin/summarywidget.cpp:63
+#, fuzzy
+#| msgid "New Message"
+msgid "New Messages"
+msgstr "Nowa powěsć"
+
+#: src/kontactplugin/summarywidget.cpp:158
+#, kde-format
+msgid "<qt><b>%1</b><br/>Total: %2<br/>Unread: %3</qt>"
+msgstr ""
+
+#: src/kontactplugin/summarywidget.cpp:170
+#, kde-format
+msgctxt "%1: number of unread messages %2: total number of messages"
+msgid "%1 / %2"
+msgstr ""
+
+#: src/kontactplugin/summarywidget.cpp:208
+#, fuzzy
+msgid "No unread messages in your monitored folders"
+msgstr "Pósłać po p&ohladanju na serveru"
+
+#: src/kontactplugin/summarywidget.cpp:226
+#, fuzzy, kde-format
+msgid "Open Folder: \"%1\""
+msgstr "&Cilowy zapisk:"
+
 #: src/mailmerge/mailmergedialog.cpp:31
 #, fuzzy
 #| msgid "Available Filters"
 msgid "Mail Merge"
 msgstr "Filtry k dispoziciji"
-
-#: src/mailmerge/widgets/csvwidget.cpp:34
-#, fuzzy
-msgid "Path:"
-msgstr "%1 namakankow (%2)"
 
 #: src/mailmerge/widgets/mailmergewidget.cpp:44
 #, fuzzy
@@ -6824,11 +7336,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #~ msgstr "Wažna powěsć"
 
 #, fuzzy
-#~| msgid "Name"
-#~ msgid "Name"
-#~ msgstr "Mjeno"
-
-#, fuzzy
 #~ msgid "Configure..."
 #~ msgstr "KMail &konfigurować..."
 
@@ -6951,10 +7458,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #~ msgstr "&Mjeno konta:"
 
 #, fuzzy
-#~ msgid "No message found."
-#~ msgstr "%1 powěsćow, %2."
-
-#, fuzzy
 #~ msgid "Warn when inserting attachments larger than:"
 #~ msgstr "in"
 
@@ -6975,18 +7478,8 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #~ msgstr "Přiwěšk zawěsćić jako"
 
 #, fuzzy
-#~ msgid "Configure"
-#~ msgstr "KMail &konfigurować..."
-
-#, fuzzy
 #~ msgid "Enable"
 #~ msgstr "Šifrowanje"
-
-#, fuzzy
-#~| msgid "&Attach File..."
-#~ msgctxt "@label:chooser for the folder that messages will be archived under"
-#~ msgid "Archive into:"
-#~ msgstr "&Dodaj dataju..."
 
 #, fuzzy
 #~ msgctxt "@label:listbox"
@@ -7105,11 +7598,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #, fuzzy
 #~ msgid "Show favorite folders in list mode."
 #~ msgstr "&Pokaž chowane zapiski"
-
-#, fuzzy
-#~| msgid "&Attach File..."
-#~ msgid "Archive Mail Agent"
-#~ msgstr "&Dodaj dataju..."
 
 #, fuzzy
 #~| msgid "New Mail Notification"
@@ -7425,10 +7913,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #~ msgstr "&Kopěruj do"
 
 #, fuzzy
-#~ msgid "Delete"
-#~ msgstr "Z&ničić"
-
-#, fuzzy
 #~ msgid "Rename Filter"
 #~ msgstr "&Filter stworić"
 
@@ -7466,19 +7950,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #~| msgid "&Receiving"
 #~ msgid "Archiving"
 #~ msgstr "&Dóstawanje"
-
-#, fuzzy
-#~ msgid "Filter Log Viewer"
-#~ msgstr "Filtrowe kriterije"
-
-#, fuzzy
-#~ msgid "Log filter actions"
-#~ msgstr "Filtrowe akcije"
-
-#, fuzzy
-#~ msgctxt "@label:spinbox Set the size of the logfile to unlimited."
-#~ msgid "unlimited"
-#~ msgstr "bjez mjena"
 
 #, fuzzy
 #~ msgid "Not enough free disk space?"
@@ -8169,10 +8640,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #, fuzzy
 #~ msgid "BCC"
 #~ msgstr "&Dalša kopija"
-
-#, fuzzy
-#~ msgid "<b>Applying filter action:</b> %1"
-#~ msgstr "Filtrowe akcije &přewjesć"
 
 #, fuzzy
 #~ msgid "<qt>Too many filter actions in filter rule <b>%1</b>.</qt>"
@@ -8965,10 +9432,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #~ msgstr "Signatura w porjadku"
 
 #, fuzzy
-#~ msgid "Local Subscription"
-#~ msgstr "Wopisanje"
-
-#, fuzzy
 #~ msgid ""
 #~ "Turn this option on in order to make Outlook(tm) understand your answers "
 #~ "to invitation replies"
@@ -9175,12 +9638,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #~ msgctxt "@title:window"
 #~ msgid "Template Configuration"
 #~ msgstr "Signatura"
-
-#, fuzzy
-#~| msgid "New Message"
-#~ msgctxt "@title Message template"
-#~ msgid "New Message"
-#~ msgstr "Nowa powěsć"
 
 #, fuzzy
 #~ msgctxt "@title Message template"
@@ -9637,11 +10094,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #, fuzzy
 #~ msgid "Error Retrieving Audit Log: %1"
 #~ msgstr "Zmylk při pósłanju zapiska"
-
-#, fuzzy
-#~| msgid "[Details]"
-#~ msgid "Hide Details"
-#~ msgstr "[Nadrobnosće]"
 
 #~ msgid "Encapsulated message"
 #~ msgstr "Zasunjena powěsć"
@@ -10774,11 +11226,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #~ msgstr "Njeznaju"
 
 #, fuzzy
-#~| msgid "sender: "
-#~ msgid "Answer: "
-#~ msgstr "wotpósłar: "
-
-#, fuzzy
 #~| msgid " Line: %1 "
 #~ msgctxt "Not able to attend."
 #~ msgid "Declined: %1"
@@ -11101,11 +11548,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #~| msgid "Keep only the last"
 #~ msgid "Keep onl&y the last"
 #~ msgstr "Jenož poslednju wobchować"
-
-#, fuzzy
-#~| msgid "0 messages"
-#~ msgid " messages"
-#~ msgstr "žane powěsće"
 
 #~ msgid "Keep only the last"
 #~ msgstr "Jenož poslednju wobchować"
@@ -11648,11 +12090,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #~ msgstr "Kontowa družina: IMAP"
 
 #, fuzzy
-#~| msgid "&Filtering"
-#~ msgid "Filtering"
-#~ msgstr "&Filtrowanje"
-
-#, fuzzy
 #~ msgctxt "Placeholder for the case that there is no folder."
 #~ msgid "<placeholder>none</placeholder>"
 #~ msgstr "<adresaća>"
@@ -11948,10 +12385,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #~ msgstr "Zmylk při pósłanju zapiska"
 
 #, fuzzy
-#~ msgid "Error while retrieving messages."
-#~ msgstr "Zmylk při pósłanju powěsće na server"
-
-#, fuzzy
 #~ msgid "Error while creating a folder."
 #~ msgstr "Zmylk při pósłanju zapiska"
 
@@ -12211,11 +12644,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #~ msgid "Last Week"
 #~ msgstr "&Pytaj"
 
-#, fuzzy
-#~| msgid "Receiver"
-#~ msgid "Receiver"
-#~ msgstr "Adresat"
-
 #~ msgid "Sender"
 #~ msgstr "Wotpósłar"
 
@@ -12246,12 +12674,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #~ msgstr[1] "&Skupinu rozćahnyć"
 #~ msgstr[2] "&Skupinu rozćahnyć"
 #~ msgstr[3] "&Skupinu rozćahnyć"
-
-#, fuzzy
-#~| msgid "Ready."
-#~ msgctxt "@info:status Finished view fill"
-#~ msgid "Ready"
-#~ msgstr "Hotowo."
 
 #, fuzzy
 #~| msgid "Subject"
@@ -12401,11 +12823,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #, fuzzy
 #~ msgid "Message Sort Direction"
 #~ msgstr "Lisćina powěsćow"
-
-#, fuzzy
-#~ msgctxt "No grouping of messages"
-#~ msgid "None"
-#~ msgstr "&Žane"
 
 #, fuzzy
 #~| msgid "Expand the current thread"
@@ -12714,11 +13131,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #~ "@info:tooltip Formats to something like 'Messages received on 2008-12-21'"
 #~ msgid "Messages received on %1"
 #~ msgstr "Powěsć bu podpisana wot %1."
-
-#, fuzzy
-#~ msgctxt "@info:tooltip Formats to something like 'Messages sent Yesterday'"
-#~ msgid "Messages sent %1"
-#~ msgstr "Lisćina powěsćow"
 
 #, fuzzy
 #~| msgid "Message was signed with key %1."
