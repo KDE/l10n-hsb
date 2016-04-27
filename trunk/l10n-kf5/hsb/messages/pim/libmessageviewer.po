@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-04-26 09:12+0000\n"
+"POT-Creation-Date: 2016-04-27 07:37+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -251,6 +251,16 @@ msgstr "Přiwěšk: "
 msgid "Edit"
 msgstr "wobdźěłać..."
 
+#: messageviewerheaderplugins/standardsheaderstyleplugin/standardsheaderstyleinterface.cpp:37
+msgctxt "View->headers->"
+msgid "&Standard Headers"
+msgstr "&standardne"
+
+#: messageviewerheaderplugins/standardsheaderstyleplugin/standardsheaderstyleinterface.cpp:40
+#, fuzzy
+msgid "Show standard list of message headers"
+msgstr "Wubrane powěsće markěrować jako nowe"
+
 #: scamdetection/scamdetectiondetailsdialog.cpp:43
 #, fuzzy
 #| msgid "[Details]"
@@ -275,13 +285,13 @@ msgstr ""
 msgid "Disable scam detection for all messages"
 msgstr "Powěsće zničić"
 
-#: scamdetection/scamdetectionwebengine.cpp:102
+#: scamdetection/scamdetectionwebengine.cpp:97
 #, fuzzy
 #| msgid "[Details]"
 msgid "Details:"
 msgstr "[Nadrobnosće]"
 
-#: scamdetection/scamdetectionwebengine.cpp:133
+#: scamdetection/scamdetectionwebengine.cpp:128
 #, kde-format
 msgid ""
 "This email contains a link which reads as '%1' in the text, but actually "
@@ -289,7 +299,7 @@ msgid ""
 "recipient"
 msgstr ""
 
-#: scamdetection/scamdetectionwebengine.cpp:141
+#: scamdetection/scamdetectionwebengine.cpp:136
 #, kde-format
 msgid ""
 "This email contains a link which points to a numerical IP address (%1) "
@@ -297,7 +307,7 @@ msgid ""
 "emails."
 msgstr ""
 
-#: scamdetection/scamdetectionwebengine.cpp:144
+#: scamdetection/scamdetectionwebengine.cpp:139
 #, kde-format
 msgid ""
 "This email contains a link which points to a hexadecimal IP address (%1) "
@@ -305,24 +315,24 @@ msgid ""
 "emails."
 msgstr ""
 
-#: scamdetection/scamdetectionwebengine.cpp:147
+#: scamdetection/scamdetectionwebengine.cpp:142
 #, kde-format
 msgid "This email contains a link (%1) which has a redirection"
 msgstr ""
 
-#: scamdetection/scamdetectionwebengine.cpp:152
+#: scamdetection/scamdetectionwebengine.cpp:147
 #, kde-format
 msgid ""
 "This email contains a link (%1) which contains multiple http://. This is "
 "often the case in scam emails."
 msgstr ""
 
-#: scamdetection/scamdetectionwebengine.cpp:160
+#: scamdetection/scamdetectionwebengine.cpp:155
 #, kde-format
 msgid "This email contains a shorturl (%1). It can redirect to another server."
 msgstr ""
 
-#: scamdetection/scamdetectionwebengine.cpp:166
+#: scamdetection/scamdetectionwebengine.cpp:161
 msgid "Message contains form element. This is often the case in scam emails."
 msgstr ""
 
@@ -1605,22 +1615,9 @@ msgstr "Přichod&na powěsć"
 msgid "&Previous Card"
 msgstr "&Prjedawša powěsć"
 
-#: widgets/zoomactionmenu.cpp:74
-msgid "&Zoom In"
-msgstr ""
-
-#: widgets/zoomactionmenu.cpp:79
-msgid "Zoom &Out"
-msgstr ""
-
-#: widgets/zoomactionmenu.cpp:84
 #, fuzzy
-msgid "Reset"
-msgstr "Zapisk zničić"
-
-#: widgets/zoomactionmenu.cpp:153
-msgid "Zoom"
-msgstr ""
+#~ msgid "Reset"
+#~ msgstr "Zapisk zničić"
 
 #, fuzzy
 #~ msgid "Close"
@@ -2169,10 +2166,6 @@ msgstr ""
 #~ msgstr "&dołhe"
 
 #, fuzzy
-#~ msgid "Show custom headers"
-#~ msgstr "Wubrane powěsće markěrować jako nowe"
-
-#, fuzzy
 #~| msgid "To: "
 #~ msgid "To: "
 #~ msgstr "Na: "
@@ -2206,10 +2199,6 @@ msgstr ""
 #~ msgctxt "View->headers->"
 #~ msgid "&Long Headers"
 #~ msgstr "&dołhe"
-
-#~ msgctxt "View->headers->"
-#~ msgid "&Standard Headers"
-#~ msgstr "&standardne"
 
 #, fuzzy
 #~| msgid "sender: "
