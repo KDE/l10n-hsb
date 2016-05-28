@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-05-27 07:38+0000\n"
+"POT-Creation-Date: 2016-05-28 07:55+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -20,6 +20,332 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 "\n"
+
+#. i18n: file: src/themes/default/certmessagepart.html
+#: html.cpp:2
+#, fuzzy
+msgid "Sorry, certificate could not be imported."
+msgstr "Certifikat:"
+
+#. i18n: file: src/themes/default/certmessagepart.html
+#: html.cpp:4
+#, kde-format
+msgid "Reason: %1"
+msgstr "Přičina: %1"
+
+#. i18n: file: src/themes/default/certmessagepart.html
+#: html.cpp:6
+#, fuzzy
+msgid "Sorry, no certificates were found in this message."
+msgstr "Certifikat:"
+
+#. i18n: file: src/themes/default/certmessagepart.html
+#: html.cpp:8
+#, fuzzy
+msgid "Certificate import status:"
+msgstr "Certifikat"
+
+#. i18n: file: src/themes/default/certmessagepart.html
+#: html.cpp:10
+#, fuzzy, kde-format
+msgid "1 new certificate was imported."
+msgid_plural "%1 new certificates were imported."
+msgstr[0] "Certifikat"
+msgstr[1] "Certifikat"
+msgstr[2] "Certifikat"
+msgstr[3] "Certifikat"
+
+#. i18n: file: src/themes/default/certmessagepart.html
+#: html.cpp:12
+#, fuzzy, kde-format
+#| msgid "Certificate Manager..."
+msgid "1 certificate was unchanged."
+msgid_plural "%1 certificates were unchanged."
+msgstr[0] "Rjadowanje certifikatow..."
+msgstr[1] "Rjadowanje certifikatow..."
+msgstr[2] "Rjadowanje certifikatow..."
+msgstr[3] "Rjadowanje certifikatow..."
+
+#. i18n: file: src/themes/default/certmessagepart.html
+#: html.cpp:14
+#, fuzzy, kde-format
+#| msgid "One key has expired."
+msgid "1 new secret key was imported."
+msgid_plural "%1 new secret keys were imported."
+msgstr[0] "Jedyn kluč je zestarjeny."
+msgstr[1] "Jedyn kluč je zestarjeny."
+msgstr[2] "Jedyn kluč je zestarjeny."
+msgstr[3] "Jedyn kluč je zestarjeny."
+
+#. i18n: file: src/themes/default/certmessagepart.html
+#: html.cpp:16
+#, kde-format
+msgid "1 secret key was unchanged."
+msgid_plural "%1 secret keys were unchanged."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. i18n: file: src/themes/default/certmessagepart.html
+#: html.cpp:18
+#, fuzzy
+msgid "Sorry, no details on certificate import available."
+msgstr "Ně."
+
+#. i18n: file: src/themes/default/certmessagepart.html
+#: html.cpp:20
+#, fuzzy
+msgid "Certificate import details:"
+msgstr "Certifikat"
+
+#. i18n: file: src/themes/default/certmessagepart.html
+#: html.cpp:22
+#, fuzzy, kde-format
+msgctxt "Certificate import failed."
+msgid "Failed: %1 (%2)"
+msgstr "KMail"
+
+#. i18n: file: src/themes/default/encryptedmessagepart.html
+#: html.cpp:24
+#, fuzzy
+msgid "This message is encrypted."
+msgstr "PGP-ŝifrowana powěsć"
+
+#. i18n: file: src/themes/default/encryptedmessagepart.html
+#: html.cpp:26
+#, fuzzy
+#| msgid "&Encrypt Message"
+msgid "Decrypt Message"
+msgstr "Šifrowanj&e"
+
+#. i18n: file: src/themes/default/encryptedmessagepart.html
+#: html.cpp:28
+#, fuzzy
+#| msgid "Please wait while the message is transferred"
+#| msgid_plural "Please wait while the %1 messages are transferred"
+msgid "Please wait while the message is being decrypted..."
+msgstr "Prošu dočakajće, doniž so njejsu te %1 powěsćow přenjesli."
+
+#. i18n: file: src/themes/default/encryptedmessagepart.html
+#: html.cpp:30
+msgid "Encrypted message"
+msgstr "Šifrowana powěsć"
+
+#. i18n: file: src/themes/default/encryptedmessagepart.html
+#: html.cpp:32
+msgid "Encrypted message (decryption not possible)"
+msgstr "Šifrowana powěsć (rozšifrowanje njemóžne)"
+
+#. i18n: file: src/themes/default/encryptedmessagepart.html
+#: html.cpp:34
+#, fuzzy
+#| msgid "Reason: %1"
+msgid "Reason: "
+msgstr "Přičina: %1"
+
+#. i18n: file: src/themes/default/encryptedmessagepart.html
+#: html.cpp:36
+msgid ""
+"No secret key found to encrypt the message. It is encrypted for following "
+"keys:"
+msgstr ""
+
+#. i18n: file: src/themes/default/encryptedmessagepart.html
+#: html.cpp:38
+#, fuzzy
+msgid "Could not decrypt the data."
+msgstr "in."
+
+#. i18n: file: src/themes/default/encryptedmessagepart.html
+#: html.cpp:40
+msgid "End of encrypted message"
+msgstr "Kónc šifrowaneje powěsće"
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:42
+#, fuzzy
+#| msgid "Please wait while the message is transferred"
+#| msgid_plural "Please wait while the %1 messages are transferred"
+msgid "Please wait while the signature is being verified..."
+msgstr "Prošu dočakajće, doniž so njejsu te %1 powěsćow přenjesli."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:44
+#, kde-format
+msgid "Not enough information to check signature. %1"
+msgstr "Njedosahaca informacija za přepruwowanje podpisma. %1"
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:46 html.cpp:78 html.cpp:92
+#, kde-format
+msgid "Message was signed by %1."
+msgstr "Powěsć bu podpisana wot %1."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:48 html.cpp:70
+msgid "Message was signed with unknown key."
+msgstr "Powěsć bu z njeznatym klučom podpisany."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:50 html.cpp:54 html.cpp:60
+#, kde-format
+msgid "Message was signed with key %1."
+msgstr "Powěsć bu podpisana z klučom %1."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:52
+#, fuzzy, kde-format
+msgid "Message was signed by %3 on %1 with key %2"
+msgstr "Powěsć bu podpisana wot %2 z klučom %1."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:56
+#, fuzzy, kde-format
+msgid "Message was signed on %1 with key %2."
+msgstr "Powěsć bu podpisana wot %2 z klučom %1."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:58
+#, kde-format
+msgid "Message was signed by %2 with key %1."
+msgstr "Powěsć bu podpisana wot %2 z klučom %1."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:62 html.cpp:74
+msgid "Status: "
+msgstr "Staw: "
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:64 html.cpp:96
+#, fuzzy
+#| msgid "[Details]"
+msgid "Hide Details"
+msgstr "[Nadrobnosće]"
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:66
+#, fuzzy, kde-format
+msgid "Message was signed on %1 with unknown key %2."
+msgstr "Powěsć bu podpisana z njeznatym klučom %1."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:68
+#, kde-format
+msgid "Message was signed with unknown key %1."
+msgstr "Powěsć bu podpisana z njeznatym klučom %1."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:72
+msgid "The validity of the signature cannot be verified."
+msgstr "Podpismo njehodźi so přepruwować."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:76 html.cpp:90
+#, kde-format
+msgid "Message was signed by %2 (Key ID: %1)."
+msgstr "Powěsć bu podpisana wot %2 (klučowa ID: %1)."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:80
+msgid "The signature is valid, but the key's validity is unknown."
+msgstr "Podpismo je w porjadku, ale walidnosć kluča njehodźi so přepruwować."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:82
+msgid "The signature is valid and the key is marginally trusted."
+msgstr "Podpismo je w porjadku a kluč trochu dowěry hódny."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:84
+msgid "The signature is valid and the key is fully trusted."
+msgstr "Podpismo je w porjadku a kluč je połnje dowěry hódny."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:86
+msgid "The signature is valid and the key is ultimately trusted."
+msgstr "Podpismo je w porjadku a kluč dospołnje dowěry hódny."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:88
+msgid "The signature is valid, but the key is untrusted."
+msgstr "Podpismo je w porjadku a kluč njeje dowěry hódny."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:94
+msgid "Warning: The signature is bad."
+msgstr "Kedźbu. Podpismo njeje w porjadku."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:98
+#, fuzzy
+#| msgid "Good signature."
+msgid "Invalid signature."
+msgstr "Signatura w porjadku."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:100
+#, fuzzy
+#| msgid "Not enough information to check signature. %1"
+msgid "Not enough information to check signature validity."
+msgstr "Njedosahaca informacija za přepruwowanje podpisma. %1"
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:102
+msgid "Signed by <a href="
+msgstr ""
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:104
+#, fuzzy
+msgid "Signature is valid."
+msgstr "Signatura je zestarjena."
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:106
+#, fuzzy
+#| msgid "No signature found"
+msgid "Unknown signature state"
+msgstr "Žana signatura"
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:108
+#, fuzzy
+#| msgid "[Details]"
+msgid "Show Details"
+msgstr "[Nadrobnosće]"
+
+#. i18n: file: src/themes/default/signedmessagepart.html
+#: html.cpp:110
+msgid "End of signed message"
+msgstr "Kónc podpisaneje powěsće"
+
+#. i18n: file: src/themes/default/htmlmessagepart.html
+#: html.cpp:112
+msgid ""
+"<b>Note:</b> This is an HTML message. For security reasons, only the raw "
+"HTML code is shown. If you trust the sender of this message then you can "
+"activate formatted HTML display for this message <a href="
+msgstr ""
+
+#. i18n: file: src/themes/default/htmlmessagepart.html
+#: html.cpp:114
+msgid ""
+"<b>Note:</b> This HTML message may contain external references to images "
+"etc. For security/privacy reasons external references are not loaded. If you "
+"trust thesender of this message then you can load the external references "
+"for this message <a href="
+msgstr ""
+
+#. i18n: file: src/themes/default/encapsulatedrfc822messagepart.html
+#: html.cpp:116 html.cpp:118
+msgid "Encapsulated message"
+msgstr "Zasunjena powěsć"
+
+#. i18n: file: src/themes/default/encapsulatedrfc822messagepart.html
+#: html.cpp:120
+msgid "End of encapsulated message"
+msgstr "Kónc zakašćikowaneje powěsće"
 
 #: src/themes/default/mailrenderer.cpp:213
 msgid "Error: Signature not verified"
@@ -554,11 +880,6 @@ msgstr "Podpismo njehodźi so přepruwować."
 #~| msgid "&Encrypt Message"
 #~ msgid "Decrypt message."
 #~ msgstr "Šifrowanj&e"
-
-#, fuzzy
-#~| msgid "No signature found"
-#~ msgid "Show signature details."
-#~ msgstr "Žana signatura"
 
 #, fuzzy
 #~| msgid "Good signature."
@@ -1140,49 +1461,6 @@ msgstr "Podpismo njehodźi so přepruwować."
 #~ msgid "Remove Filter"
 #~ msgstr "&Filter stworić"
 
-#~ msgid "Encapsulated message"
-#~ msgstr "Zasunjena powěsć"
-
-#~ msgid "End of encapsulated message"
-#~ msgstr "Kónc zakašćikowaneje powěsće"
-
-#, fuzzy
-#~| msgid "Please wait while the message is transferred"
-#~| msgid_plural "Please wait while the %1 messages are transferred"
-#~ msgid "Please wait while the message is being decrypted..."
-#~ msgstr "Prošu dočakajće, doniž so njejsu te %1 powěsćow přenjesli."
-
-#~ msgid "Encrypted message"
-#~ msgstr "Šifrowana powěsć"
-
-#~ msgid "Encrypted message (decryption not possible)"
-#~ msgstr "Šifrowana powěsć (rozšifrowanje njemóžne)"
-
-#~ msgid "Reason: %1"
-#~ msgstr "Přičina: %1"
-
-#~ msgid "End of encrypted message"
-#~ msgstr "Kónc šifrowaneje powěsće"
-
-#, fuzzy
-#~| msgid "Good signature."
-#~ msgid "Invalid signature."
-#~ msgstr "Signatura w porjadku."
-
-#, fuzzy
-#~| msgid "Not enough information to check signature. %1"
-#~ msgid "Not enough information to check signature validity."
-#~ msgstr "Njedosahaca informacija za přepruwowanje podpisma. %1"
-
-#, fuzzy
-#~ msgid "Signature is valid."
-#~ msgstr "Signatura je zestarjena."
-
-#, fuzzy
-#~| msgid "[Details]"
-#~ msgid "Show Details"
-#~ msgstr "[Nadrobnosće]"
-
 #, fuzzy
 #~| msgid "Not available"
 #~ msgid "No Audit Log available"
@@ -1193,112 +1471,10 @@ msgstr "Podpismo njehodźi so přepruwować."
 #~ msgstr "Zmylk při pósłanju zapiska"
 
 #, fuzzy
-#~| msgid "[Details]"
-#~ msgid "Hide Details"
-#~ msgstr "[Nadrobnosće]"
-
-#, fuzzy
-#~| msgid "Please wait while the message is transferred"
-#~| msgid_plural "Please wait while the %1 messages are transferred"
-#~ msgid "Please wait while the signature is being verified..."
-#~ msgstr "Prošu dočakajće, doniž so njejsu te %1 powěsćow přenjesli."
-
-#~ msgid "Not enough information to check signature. %1"
-#~ msgstr "Njedosahaca informacija za přepruwowanje podpisma. %1"
-
-#~ msgid "Message was signed with unknown key."
-#~ msgstr "Powěsć bu z njeznatym klučom podpisany."
-
-#~ msgid "Message was signed by %1."
-#~ msgstr "Powěsć bu podpisana wot %1."
-
-#~ msgid "Message was signed with key %1."
-#~ msgstr "Powěsć bu podpisana z klučom %1."
-
-#, fuzzy
-#~ msgid "Message was signed on %1 with key %2."
-#~ msgstr "Powěsć bu podpisana wot %2 z klučom %1."
-
-#, fuzzy
-#~ msgid "Message was signed by %3 on %1 with key %2"
-#~ msgstr "Powěsć bu podpisana wot %2 z klučom %1."
-
-#~ msgid "Message was signed by %2 with key %1."
-#~ msgstr "Powěsć bu podpisana wot %2 z klučom %1."
-
-#~ msgid "Status: "
-#~ msgstr "Staw: "
-
-#, fuzzy
-#~ msgid "Message was signed on %1 with unknown key %2."
-#~ msgstr "Powěsć bu podpisana z njeznatym klučom %1."
-
-#~ msgid "Message was signed with unknown key %1."
-#~ msgstr "Powěsć bu podpisana z njeznatym klučom %1."
-
-#~ msgid "The validity of the signature cannot be verified."
-#~ msgstr "Podpismo njehodźi so přepruwować."
-
-#~ msgid "Message was signed by %2 (Key ID: %1)."
-#~ msgstr "Powěsć bu podpisana wot %2 (klučowa ID: %1)."
-
-#~ msgid "The signature is valid, but the key's validity is unknown."
-#~ msgstr ""
-#~ "Podpismo je w porjadku, ale walidnosć kluča njehodźi so přepruwować."
-
-#~ msgid "The signature is valid and the key is marginally trusted."
-#~ msgstr "Podpismo je w porjadku a kluč trochu dowěry hódny."
-
-#~ msgid "The signature is valid and the key is fully trusted."
-#~ msgstr "Podpismo je w porjadku a kluč je połnje dowěry hódny."
-
-#~ msgid "The signature is valid and the key is ultimately trusted."
-#~ msgstr "Podpismo je w porjadku a kluč dospołnje dowěry hódny."
-
-#~ msgid "The signature is valid, but the key is untrusted."
-#~ msgstr "Podpismo je w porjadku a kluč njeje dowěry hódny."
-
-#~ msgid "Warning: The signature is bad."
-#~ msgstr "Kedźbu. Podpismo njeje w porjadku."
-
-#~ msgid "End of signed message"
-#~ msgstr "Kónc podpisaneje powěsće"
-
-#, fuzzy
-#~ msgid "This message is encrypted."
-#~ msgstr "PGP-ŝifrowana powěsć"
-
-#, fuzzy
-#~| msgid "&Encrypt Message"
-#~ msgid "Decrypt Message"
-#~ msgstr "Šifrowanj&e"
-
-#, fuzzy
 #~| msgid "(unknown)"
 #~ msgctxt "Status of message unknown."
 #~ msgid "(unknown)"
 #~ msgstr "(njeznaju)"
-
-#, fuzzy
-#~ msgid "Sorry, no certificates were found in this message."
-#~ msgstr "Certifikat:"
-
-#, fuzzy
-#~ msgid "Certificate import status:"
-#~ msgstr "Certifikat"
-
-#, fuzzy
-#~ msgid "Certificate import details:"
-#~ msgstr "Certifikat"
-
-#, fuzzy
-#~ msgctxt "Certificate import failed."
-#~ msgid "Failed: %1 (%2)"
-#~ msgstr "KMail"
-
-#, fuzzy
-#~ msgid "Could not decrypt the data."
-#~ msgstr "in."
 
 #, fuzzy
 #~ msgid "Crypto plug-in \"%1\" is not initialized."
@@ -2814,11 +2990,6 @@ msgstr "Podpismo njehodźi so přepruwować."
 #~ msgstr "&Pósćel čakace powěsće"
 
 #, fuzzy
-#~| msgid "Certificate Manager..."
-#~ msgid "Certificate Manager"
-#~ msgstr "Rjadowanje certifikatow..."
-
-#, fuzzy
 #~ msgid "GnuPG Log Viewer"
 #~ msgstr "&Filtrowy protokol wobhladać..."
 
@@ -3897,10 +4068,6 @@ msgstr "Podpismo njehodźi so přepruwować."
 #, fuzzy
 #~ msgid "The destination folder was: <b>%1</b>."
 #~ msgstr "&Cilowy zapisk:"
-
-#, fuzzy
-#~ msgid "No detailed quota information available."
-#~ msgstr "Ně."
 
 #, fuzzy
 #~ msgid "Error"
