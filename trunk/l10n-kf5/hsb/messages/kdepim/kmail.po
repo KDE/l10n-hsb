@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-24 10:39+0000\n"
+"POT-Creation-Date: 2016-06-26 07:29+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -4995,11 +4995,13 @@ msgid "Less GUI freezes, mail checks happen in the background"
 msgstr ""
 
 #: src/kmreaderwin.cpp:292
-msgid "Add Plugins supports"
-msgstr ""
+#, fuzzy
+#| msgid "GnuPG support"
+msgid "Plugins support"
+msgstr "Podpěra za GnuPG"
 
 #: src/kmreaderwin.cpp:293
-msgid "Use new HTML renderer (QtWebEngine)"
+msgid "New HTML renderer (QtWebEngine)"
 msgstr ""
 
 #: src/kmreaderwin.cpp:323
@@ -5261,7 +5263,7 @@ msgctxt "Message->"
 msgid "&Reply"
 msgstr "&Dopósłać"
 
-#: src/messageactions.cpp:83 src/searchdialog/searchwindow.cpp:179
+#: src/messageactions.cpp:83 src/searchdialog/searchwindow.cpp:178
 msgid "&Reply..."
 msgstr "&Wotmołwić ..."
 
@@ -5270,11 +5272,11 @@ msgstr "&Wotmołwić ..."
 msgid "Reply to A&uthor..."
 msgstr "Wšě&m wotmołwić..."
 
-#: src/messageactions.cpp:95 src/searchdialog/searchwindow.cpp:183
+#: src/messageactions.cpp:95 src/searchdialog/searchwindow.cpp:182
 msgid "Reply to &All..."
 msgstr "Wšě&m wotmołwić..."
 
-#: src/messageactions.cpp:101 src/searchdialog/searchwindow.cpp:187
+#: src/messageactions.cpp:101 src/searchdialog/searchwindow.cpp:186
 msgid "Reply to Mailing-&List..."
 msgstr "&Lisćinje wotmołwić..."
 
@@ -5300,7 +5302,7 @@ msgstr "Powěsć &wobdźěłać"
 msgid "Add Note..."
 msgstr "Dodać..."
 
-#: src/messageactions.cpp:149 src/searchdialog/searchwindow.cpp:191
+#: src/messageactions.cpp:149 src/searchdialog/searchwindow.cpp:190
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "&Dopósłać"
@@ -5466,19 +5468,19 @@ msgstr "Zapisk"
 msgid "Search failed. Errors found: <ul><li>%1</li></ul>"
 msgstr ""
 
-#: src/searchdialog/searchwindow.cpp:87
+#: src/searchdialog/searchwindow.cpp:86
 #, fuzzy
 msgid "Find Messages"
 msgstr "Powěsće &namakać ..."
 
-#: src/searchdialog/searchwindow.cpp:110
+#: src/searchdialog/searchwindow.cpp:109
 #, fuzzy
 #| msgid "&Search"
 msgctxt "@action:button Search for messages"
 msgid "&Search"
 msgstr "&Pytaj"
 
-#: src/searchdialog/searchwindow.cpp:196
+#: src/searchdialog/searchwindow.cpp:195
 #, fuzzy
 #| msgctxt "View->attachments->"
 #| msgid "&Inline"
@@ -5486,26 +5488,26 @@ msgctxt "@action:inmenu Forward message inline."
 msgid "&Inline..."
 msgstr "&w powěsći"
 
-#: src/searchdialog/searchwindow.cpp:201
+#: src/searchdialog/searchwindow.cpp:200
 msgctxt "Message->Forward->"
 msgid "As &Attachment..."
 msgstr ""
 
-#: src/searchdialog/searchwindow.cpp:215
+#: src/searchdialog/searchwindow.cpp:214
 #, fuzzy
 msgid "Save Attachments..."
 msgstr "&Přiwěšk zawěsćić jako..."
 
-#: src/searchdialog/searchwindow.cpp:221
+#: src/searchdialog/searchwindow.cpp:220
 msgid "Clear Selection"
 msgstr ""
 
-#: src/searchdialog/searchwindow.cpp:225
+#: src/searchdialog/searchwindow.cpp:224
 #, fuzzy
 msgid "Jump to original folder"
 msgstr "Do tutoho zapiska kopěrować"
 
-#: src/searchdialog/searchwindow.cpp:309
+#: src/searchdialog/searchwindow.cpp:308
 #, fuzzy, kde-format
 msgid "%1 match"
 msgid_plural "%1 matches"
@@ -5514,66 +5516,66 @@ msgstr[1] "%1 namakanka"
 msgstr[2] "%1 namakance"
 msgstr[3] "%1 namakanki"
 
-#: src/searchdialog/searchwindow.cpp:379 src/searchdialog/searchwindow.cpp:420
+#: src/searchdialog/searchwindow.cpp:378 src/searchdialog/searchwindow.cpp:419
 #, fuzzy
 msgid "Last Search"
 msgstr "&Pytaj"
 
-#: src/searchdialog/searchwindow.cpp:446
+#: src/searchdialog/searchwindow.cpp:445
 #, fuzzy
 msgid "You did not selected a valid folder."
 msgstr ""
 "Njemóžach dataju čitać:\n"
 "%1"
 
-#: src/searchdialog/searchwindow.cpp:456 src/searchdialog/searchwindow.cpp:466
+#: src/searchdialog/searchwindow.cpp:455 src/searchdialog/searchwindow.cpp:465
 msgid "You forgot to select collections."
 msgstr ""
 
-#: src/searchdialog/searchwindow.cpp:483
+#: src/searchdialog/searchwindow.cpp:482
 msgid "You forgot to define condition."
 msgstr ""
 
-#: src/searchdialog/searchwindow.cpp:488
+#: src/searchdialog/searchwindow.cpp:487
 msgid "All folders selected are empty or were not indexed."
 msgstr ""
 
-#: src/searchdialog/searchwindow.cpp:494
+#: src/searchdialog/searchwindow.cpp:493
 msgid "You forgot to add conditions."
 msgstr ""
 
-#: src/searchdialog/searchwindow.cpp:498
+#: src/searchdialog/searchwindow.cpp:497
 msgid ""
 "Contains condition cannot be used with a number of characters inferior to 4."
 msgstr ""
 
-#: src/searchdialog/searchwindow.cpp:537
+#: src/searchdialog/searchwindow.cpp:534
 #, fuzzy
 msgid "Searching..."
 msgstr "Wopisanje"
 
-#: src/searchdialog/searchwindow.cpp:547
+#: src/searchdialog/searchwindow.cpp:544
 #, fuzzy, kde-format
 msgid "Cannot get search result. %1"
 msgstr "Suń powěsće do zapiska"
 
-#: src/searchdialog/searchwindow.cpp:553
+#: src/searchdialog/searchwindow.cpp:550
 #, fuzzy
 msgid "Search failed."
 msgstr "Pytanje přetorhnjene"
 
-#: src/searchdialog/searchwindow.cpp:595
+#: src/searchdialog/searchwindow.cpp:592
 #, fuzzy
 #| msgid " completed"
 msgid "Search complete."
 msgstr " hotowe"
 
-#: src/searchdialog/searchwindow.cpp:633
+#: src/searchdialog/searchwindow.cpp:630
 #, fuzzy
 msgid "Search stopped."
 msgstr "&Pytaj"
 
-#: src/searchdialog/searchwindow.cpp:690
+#: src/searchdialog/searchwindow.cpp:687
 #, kde-format
 msgid ""
 "There was a problem renaming your search folder. A common reason for this is "
@@ -5581,7 +5583,7 @@ msgid ""
 "\"%1\"."
 msgstr ""
 
-#: src/searchdialog/searchwindow.cpp:792
+#: src/searchdialog/searchwindow.cpp:789
 #, fuzzy, kde-format
 msgid "Copy Message"
 msgid_plural "Copy %1 Messages"
@@ -5590,7 +5592,7 @@ msgstr[1] "Powěsć wočinić"
 msgstr[2] "Powěsć wočinić"
 msgstr[3] "Powěsć wočinić"
 
-#: src/searchdialog/searchwindow.cpp:795
+#: src/searchdialog/searchwindow.cpp:792
 #, fuzzy, kde-format
 msgid "Cut Message"
 msgid_plural "Cut %1 Messages"
@@ -5599,7 +5601,7 @@ msgstr[1] "žane powěsće"
 msgstr[2] "žane powěsće"
 msgstr[3] "žane powěsće"
 
-#: src/searchdialog/searchwindow.cpp:923
+#: src/searchdialog/searchwindow.cpp:919
 #, fuzzy
 msgid "Checking index status..."
 msgstr "Póštu při startowanju přepruwować"
