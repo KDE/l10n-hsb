@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-19 07:22+0000\n"
+"POT-Creation-Date: 2016-07-03 07:15+0000\n"
 "PO-Revision-Date: 2005-04-18 18:18+0200\n"
 "Last-Translator:  <hertn@gmx.de>\n"
 "Language-Team: Hornjoserbšćina <hsb@li.org>\n"
@@ -1100,6 +1100,11 @@ msgstr ""
 msgid "Start Kate with a given session."
 msgstr ""
 
+#: main.cpp:163
+#, fuzzy
+msgid "session"
+msgstr "Před wupósłanjom zawěsćić?"
+
 #: main.cpp:167
 msgid "Start Kate with a new anonymous session, implies '-n'."
 msgstr ""
@@ -1123,16 +1128,32 @@ msgid ""
 "and another kate instance already has the given session opened)."
 msgstr ""
 
+#: main.cpp:179
+msgid "pid"
+msgstr ""
+
 #: main.cpp:183
 msgid "Set encoding for the file to open."
+msgstr ""
+
+#: main.cpp:183
+msgid "encoding"
 msgstr ""
 
 #: main.cpp:187
 msgid "Navigate to this line."
 msgstr ""
 
+#: main.cpp:187
+msgid "line"
+msgstr ""
+
 #: main.cpp:191
 msgid "Navigate to this column."
+msgstr ""
+
+#: main.cpp:191
+msgid "column"
 msgstr ""
 
 #: main.cpp:195
@@ -1148,6 +1169,10 @@ msgstr ""
 #| msgid "Document to open"
 msgid "Documents to open."
 msgstr "Dokument, kiž ma so wočinić"
+
+#: main.cpp:203
+msgid "[urls...]"
+msgstr ""
 
 #: session/katesessionchooser.cpp:43
 msgid "Session Chooser"
