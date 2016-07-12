@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-07-06 07:37+0000\n"
+"POT-Creation-Date: 2016-07-12 09:52+0000\n"
 "PO-Revision-Date: 2008-11-10 23:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -198,7 +198,9 @@ msgstr "Nowe barbne šemy z interneta čitać"
 
 #. i18n: ectx: property (text), widget (QPushButton, schemeKnsButton)
 #: colorsettings.ui:58
-msgid "Get &New Schemes..."
+#, fuzzy
+#| msgid "Get &New Schemes..."
+msgid "Get &New Scheme"
 msgstr "&Nowe šemy dóstać ..."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeImportButton)
@@ -208,8 +210,8 @@ msgstr "Barbnu šemu z dataje začitać"
 
 #. i18n: ectx: property (text), widget (QPushButton, schemeImportButton)
 #: colorsettings.ui:68
-msgid "Import Scheme..."
-msgstr "Barbnu šemu importować..."
+msgid "&Install from File"
+msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsUploadButton)
 #: colorsettings.ui:78
@@ -222,7 +224,7 @@ msgstr "Nowe barbne šemy z interneta čitać"
 #: colorsettings.ui:81
 #, fuzzy
 #| msgid "Import Scheme..."
-msgid "&Upload Scheme..."
+msgid "Upload Scheme"
 msgstr "Barbnu šemu importować..."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
@@ -241,7 +243,9 @@ msgstr "Tuchwilnu barbnu šemu zawěsćić"
 
 #. i18n: ectx: property (text), widget (QPushButton, schemeSaveButton)
 #: colorsettings.ui:135
-msgid "Save Scheme..."
+#, fuzzy
+#| msgid "Save Scheme..."
+msgid "Save Scheme"
 msgstr "Barbnu šemu zawěsćić..."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeRemoveButton)
@@ -781,8 +785,40 @@ msgstr ""
 msgid "Inactive contrast effect amount"
 msgstr "Alternatiwny pozadk"
 
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#: preview.ui:29
+#, fuzzy
+#| msgid "Window Background"
+msgid "Window text on Window Background"
+msgstr "Pozadk wokna"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: preview.ui:32
+#, fuzzy
+#| msgid "Window Text"
+msgctxt "color-kcm-preview"
+msgid "Window text"
+msgstr "Tekst wokna"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, pushButton)
+#: preview.ui:39
+#, fuzzy
+#| msgid "Button Background"
+msgid "Button text on Button Background"
+msgstr "Pozadk tłóčatka"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#: preview.ui:42
+#, fuzzy
+#| msgid "  Button"
+msgctxt "color-kcm-preview"
+msgid "Push Button"
+msgstr " Tłóčatko"
+
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection0)
-#: preview.ui:74
+#: preview.ui:139
 #, fuzzy
 #| msgid "Normal Background"
 msgid "Selection Normal Text against Selection Normal Background"
@@ -790,7 +826,7 @@ msgstr "Normalny pozadk"
 
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelSelection0)
-#: preview.ui:77
+#: preview.ui:142
 #, fuzzy
 #| msgid "Selection Text"
 msgctxt "color-kcm-preview"
@@ -798,7 +834,7 @@ msgid "Selected text"
 msgstr "Wubrany tekst"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection3)
-#: preview.ui:89
+#: preview.ui:154
 #, fuzzy
 #| msgid "Normal Background"
 msgid "Selection Link Text against Selection Normal Background"
@@ -808,13 +844,13 @@ msgstr "Normalny pozadk"
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelSelection3)
 #. i18n: ectx: property (text), widget (QLabel, labelView3)
-#: preview.ui:92 preview.ui:216
+#: preview.ui:157 preview.ui:281
 msgctxt "color-kcm-preview"
 msgid "link"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection4)
-#: preview.ui:104
+#: preview.ui:169
 #, fuzzy
 #| msgid "Normal Background"
 msgid "Selection Visited Text against Selection Normal Background"
@@ -824,7 +860,7 @@ msgstr "Normalny pozadk"
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelSelection4)
 #. i18n: ectx: property (text), widget (QLabel, labelView4)
-#: preview.ui:107 preview.ui:231
+#: preview.ui:172 preview.ui:296
 #, fuzzy
 #| msgid "Visited Text"
 msgctxt "color-kcm-preview"
@@ -832,7 +868,7 @@ msgid "visited"
 msgstr "Wopytany tekst"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection2)
-#: preview.ui:114
+#: preview.ui:179
 #, fuzzy
 #| msgid "Normal Background"
 msgid "Selection Active Text against Selection Normal Background"
@@ -842,13 +878,13 @@ msgstr "Normalny pozadk"
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelSelection2)
 #. i18n: ectx: property (text), widget (QLabel, labelView2)
-#: preview.ui:117 preview.ui:241
+#: preview.ui:182 preview.ui:306
 msgctxt "color-kcm-preview"
 msgid "a"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection1)
-#: preview.ui:124
+#: preview.ui:189
 #, fuzzy
 #| msgid "Normal Background"
 msgid "Selection Inactive Text against Selection Normal Background"
@@ -858,13 +894,13 @@ msgstr "Normalny pozadk"
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelSelection1)
 #. i18n: ectx: property (text), widget (QLabel, labelView1)
-#: preview.ui:127 preview.ui:251
+#: preview.ui:192 preview.ui:316
 msgctxt "color-kcm-preview"
 msgid "i"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection5)
-#: preview.ui:134
+#: preview.ui:199
 #, fuzzy
 #| msgid "Normal Background"
 msgid "Selection Negative Text against Selection Normal Background"
@@ -874,13 +910,13 @@ msgstr "Normalny pozadk"
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelSelection5)
 #. i18n: ectx: property (text), widget (QLabel, labelView5)
-#: preview.ui:137 preview.ui:261
+#: preview.ui:202 preview.ui:326
 msgctxt "color-kcm-preview"
 msgid "!"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection6)
-#: preview.ui:144
+#: preview.ui:209
 #, fuzzy
 #| msgid "Normal Background"
 msgid "Selection Neutral Text against Selection Normal Background"
@@ -890,13 +926,13 @@ msgstr "Normalny pozadk"
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelSelection6)
 #. i18n: ectx: property (text), widget (QLabel, labelView6)
-#: preview.ui:147 preview.ui:271
+#: preview.ui:212 preview.ui:336
 msgctxt "color-kcm-preview"
 msgid "="
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection7)
-#: preview.ui:154
+#: preview.ui:219
 #, fuzzy
 #| msgid "Normal Background"
 msgid "Selection Positive Text against Selection Normal Background"
@@ -906,13 +942,13 @@ msgstr "Normalny pozadk"
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelSelection7)
 #. i18n: ectx: property (text), widget (QLabel, labelView7)
-#: preview.ui:157 preview.ui:281
+#: preview.ui:222 preview.ui:346
 msgctxt "color-kcm-preview"
 msgid "+"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView0)
-#: preview.ui:198
+#: preview.ui:263
 #, fuzzy
 #| msgid "Normal Background"
 msgid "View Normal Text against View Normal Background"
@@ -920,7 +956,7 @@ msgstr "Normalny pozadk"
 
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelView0)
-#: preview.ui:201
+#: preview.ui:266
 #, fuzzy
 #| msgid "Normal Text"
 msgctxt "color-kcm-preview"
@@ -928,85 +964,53 @@ msgid "Normal text"
 msgstr "Normalny tekst"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView3)
-#: preview.ui:213
+#: preview.ui:278
 #, fuzzy
 #| msgid "Normal Background"
 msgid "View Link Text against View Normal Background"
 msgstr "Normalny pozadk"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView4)
-#: preview.ui:228
+#: preview.ui:293
 #, fuzzy
 #| msgid "Normal Background"
 msgid "View Visited Text against View Normal Background"
 msgstr "Normalny pozadk"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView2)
-#: preview.ui:238
+#: preview.ui:303
 #, fuzzy
 #| msgid "Normal Background"
 msgid "View Active Text against View Normal Background"
 msgstr "Normalny pozadk"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView1)
-#: preview.ui:248
+#: preview.ui:313
 #, fuzzy
 #| msgid "Normal Background"
 msgid "View Inactive Text against View Normal Background"
 msgstr "Normalny pozadk"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView5)
-#: preview.ui:258
+#: preview.ui:323
 #, fuzzy
 #| msgid "Normal Background"
 msgid "View Negative Text against View Normal Background"
 msgstr "Normalny pozadk"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView6)
-#: preview.ui:268
+#: preview.ui:333
 #, fuzzy
 #| msgid "Normal Background"
 msgid "View Neutral Text against View Normal Background"
 msgstr "Normalny pozadk"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView7)
-#: preview.ui:278
+#: preview.ui:343
 #, fuzzy
 #| msgid "Normal Background"
 msgid "View Positive Text against View Normal Background"
 msgstr "Normalny pozadk"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, label)
-#: preview.ui:294
-#, fuzzy
-#| msgid "Window Background"
-msgid "Window text on Window Background"
-msgstr "Pozadk wokna"
-
-#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: preview.ui:297
-#, fuzzy
-#| msgid "Window Text"
-msgctxt "color-kcm-preview"
-msgid "Window text"
-msgstr "Tekst wokna"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, pushButton)
-#: preview.ui:304
-#, fuzzy
-#| msgid "Button Background"
-msgid "Button text on Button Background"
-msgstr "Pozadk tłóčatka"
-
-#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
-#. i18n: ectx: property (text), widget (QPushButton, pushButton)
-#: preview.ui:307
-#, fuzzy
-#| msgid "  Button"
-msgctxt "color-kcm-preview"
-msgid "Push Button"
-msgstr " Tłóčatko"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore0)
 #. i18n: ectx: property (toolTip), widget (QLabel, labelBack0)
@@ -1240,6 +1244,9 @@ msgstr "Normalny pozadk"
 msgctxt "color-kcm-set-preview"
 msgid "focus"
 msgstr ""
+
+#~ msgid "Import Scheme..."
+#~ msgstr "Barbnu šemu importować..."
 
 #~ msgid "Contrast used for 3D objects"
 #~ msgstr "Kontrast za 3D-objekty"
