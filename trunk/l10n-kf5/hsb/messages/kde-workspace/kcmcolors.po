@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-07-13 08:20+0000\n"
+"POT-Creation-Date: 2016-08-16 08:08+0000\n"
 "PO-Revision-Date: 2008-11-10 23:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -24,757 +24,146 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, pageColors)
-#: colorscm.cpp:82 colorsettings.ui:257
+#: colorscm.cpp:57 scmeditordialog.cpp:56
 msgid "Colors"
 msgstr "Barby"
 
-#: colorscm.cpp:84
+#: colorscm.cpp:59
 msgid "(c) 2007 Matthew Woehlke"
 msgstr "(c) 2007 Matthew Woehlke"
 
-#: colorscm.cpp:86
+#: colorscm.cpp:61 kcolorschemeeditor.cpp:44
 msgid "Matthew Woehlke"
 msgstr "Matthew Woehlke"
 
-#: colorscm.cpp:88
+#: colorscm.cpp:63 kcolorschemeeditor.cpp:42
 msgid "Jeremy Whiting"
 msgstr "Jeremy Whiting"
 
-#: colorscm.cpp:157 colorscm.cpp:285 colorscm.cpp:1316
+#: colorscm.cpp:127 colorscm.cpp:161 colorscm.cpp:404
 #, fuzzy
 #| msgid "Default"
 msgctxt "Default color scheme"
 msgid "Default"
 msgstr "Standard"
 
-#: colorscm.cpp:162 colorscm.cpp:297 colorscm.cpp:1122 colorscm.cpp:1214
-#, fuzzy
-#| msgid "Current"
-msgctxt "Current color scheme"
-msgid "Current"
-msgstr "Tuchwilny"
-
-#: colorscm.cpp:269
-msgid "Selecting another scheme will discard any changes you have made"
-msgstr "Hdyž druhu šemu wubjerjeće, zaćisnjeće wšitke swoje změny"
-
-#: colorscm.cpp:270
-msgid "Are you sure?"
-msgstr "Sće sej wěsći?"
-
-#: colorscm.cpp:338
+#: colorscm.cpp:207
 msgid "You do not have permission to delete that scheme"
 msgstr "Nimaće dowolnosć, tut šemu zničić."
 
-#: colorscm.cpp:338 colorscm.cpp:558
+#: colorscm.cpp:207 scmeditordialog.cpp:190
 msgid "Error"
 msgstr "Zmylk"
 
-#: colorscm.cpp:346
+#: colorscm.cpp:215
 msgid "Import Color Scheme"
 msgstr "Barbnu šemu importować"
 
-#: colorscm.cpp:359
+#: colorscm.cpp:230
 msgid ""
 "The scheme you have selected appears to be a KDE3 scheme.\n"
 "\n"
-"KDE will attempt to import this scheme, however many color roles have been "
-"added since KDE3. Some manual work will likely be required.\n"
-"\n"
-"This scheme will not be saved automatically."
+"This is not supported anymore."
 msgstr ""
 
-#: colorscm.cpp:363
+#: colorscm.cpp:232
 #, fuzzy
 #| msgid "None"
 msgid "Notice"
 msgstr "Žadyn"
 
-#: colorscm.cpp:436
-msgid "Please save the color scheme before uploading it."
+#: colorscm.cpp:426
+msgid "This scheme was not found."
 msgstr ""
 
-#: colorscm.cpp:437
-msgid "Please save"
+#: colorscm.cpp:426
+msgid "File not found"
 msgstr ""
 
-#: colorscm.cpp:467 colorscm.cpp:498
-msgid "Save Color Scheme"
-msgstr "Barbnu šemu zawěsćić"
-
-#: colorscm.cpp:468
-msgid "&Enter a name for the color scheme:"
-msgstr "&Zapodajće mjeno za barbnu šemu:"
-
-#: colorscm.cpp:497
-msgid ""
-"A color scheme with that name already exists.\n"
-"Do you want to overwrite it?"
-msgstr ""
-"Barbna šema z tutym mjenom hižo eksistuje.\n"
-"Chceće ju přepisać?"
-
-#: colorscm.cpp:558
-msgid "You do not have permission to overwrite that scheme"
-msgstr "Nimaće dowolnosć, tutu šemu přepisać"
-
-#: colorscm.cpp:762 colorscm.cpp:778
-msgid "Varies"
-msgstr "Wariacije"
-
-#: colorscm.cpp:803
-msgid "Normal Background"
-msgstr "Normalny pozadk"
-
-#: colorscm.cpp:804
-msgid "Alternate Background"
-msgstr "Alternatiwny pozadk"
-
-#: colorscm.cpp:805
-msgid "Normal Text"
-msgstr "Normalny tekst"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:806 colorsettings.ui:544
-msgid "Inactive Text"
-msgstr "Njeaktiwny tekst"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:807 colorsettings.ui:549
-msgid "Active Text"
-msgstr "Aktiwny tekst"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:808 colorsettings.ui:554
-msgid "Link Text"
-msgstr "Wotkazowy tekst"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:809 colorsettings.ui:559
-msgid "Visited Text"
-msgstr "Wopytany tekst"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:810 colorsettings.ui:564
-msgid "Negative Text"
-msgstr "Negatiwny tekst"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:811 colorsettings.ui:569
-msgid "Neutral Text"
-msgstr "Neutralny tekst"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:812 colorsettings.ui:574
-msgid "Positive Text"
-msgstr "Pozitiwny tekst"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:813 colorsettings.ui:579
-msgid "Focus Decoration"
-msgstr "Debjenje fokusa"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:814 colorsettings.ui:584
-msgid "Hover Decoration"
-msgstr "Debjenje znošowanja"
-
-#: colorscm.cpp:1185 colorscm.cpp:1240
+#. i18n: ectx: property (toolTip), widget (QPushButton, schemeEditButton)
+#: colorsettings.ui:31
 #, fuzzy
-#| msgid "Inactive"
-msgid "Inactive"
-msgstr "Njeaktiwny"
+#| msgid "Save the current color scheme"
+msgid "Configure the current color scheme"
+msgstr "Tuchwilnu barbnu šemu zawěsćić"
 
-#. i18n: ectx: attribute (title), widget (QWidget, pageScheme)
-#: colorsettings.ui:33
-msgid "&Scheme"
-msgstr "Še&ma"
+#. i18n: ectx: property (text), widget (QPushButton, schemeEditButton)
+#: colorsettings.ui:34
+#, fuzzy
+#| msgid "Import Scheme..."
+msgid "Edit Scheme"
+msgstr "Barbnu šemu importować..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, schemeRemoveButton)
+#: colorsettings.ui:60
+msgid "Remove the selected scheme"
+msgstr "Wubranu šemu wumaznyć"
+
+#. i18n: ectx: property (text), widget (QPushButton, schemeRemoveButton)
+#: colorsettings.ui:63
+msgid "Remove Scheme"
+msgstr "Barbnu šemu wumaznyć"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsButton)
-#: colorsettings.ui:55
+#: colorsettings.ui:73
 msgid "Get new color schemes from the Internet"
 msgstr "Nowe barbne šemy z interneta čitać"
 
 #. i18n: ectx: property (text), widget (QPushButton, schemeKnsButton)
-#: colorsettings.ui:58
+#: colorsettings.ui:76
 #, fuzzy
 #| msgid "Get &New Schemes..."
 msgid "Get &New Scheme"
 msgstr "&Nowe šemy dóstać ..."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeImportButton)
-#: colorsettings.ui:65
+#: colorsettings.ui:115
 msgid "Import a color scheme from a file"
 msgstr "Barbnu šemu z dataje začitać"
 
 #. i18n: ectx: property (text), widget (QPushButton, schemeImportButton)
-#: colorsettings.ui:68
+#: colorsettings.ui:118
 msgid "&Install from File"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsUploadButton)
-#: colorsettings.ui:78
-#, fuzzy
-#| msgid "Get new color schemes from the Internet"
-msgid "Share the selected scheme on the Internet"
-msgstr "Nowe barbne šemy z interneta čitać"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeKnsUploadButton)
-#: colorsettings.ui:81
-#, fuzzy
-#| msgid "Import Scheme..."
-msgid "Upload Scheme"
-msgstr "Barbnu šemu importować..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeSaveButton)
-#: colorsettings.ui:101
-msgid "Save the current color scheme"
-msgstr "Tuchwilnu barbnu šemu zawěsćić"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeSaveButton)
-#: colorsettings.ui:104
-#, fuzzy
-#| msgid "Save Scheme..."
-msgid "Save Scheme"
-msgstr "Barbnu šemu zawěsćić..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeRemoveButton)
-#: colorsettings.ui:114
-msgid "Remove the selected scheme"
-msgstr "Wubranu šemu wumaznyć"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeRemoveButton)
-#: colorsettings.ui:117
-msgid "Remove Scheme"
-msgstr "Barbnu šemu wumaznyć"
-
-#. i18n: ectx: attribute (title), widget (QWidget, pageOptions)
-#: colorsettings.ui:141
-msgid "Options"
-msgstr "Opcije"
-
-#. i18n: ectx: property (text), widget (QCheckBox, useInactiveEffects)
-#: colorsettings.ui:147
-msgid "Apply inactive window color &effects"
-msgstr "Barbne &efekty za wokna nałožić"
-
-#. i18n: ectx: property (text), widget (QCheckBox, inactiveSelectionEffect)
-#: colorsettings.ui:154
-msgid "In&active selection changes color"
-msgstr "Nje&aktiwne wubraće barbu změni"
-
-#. i18n: ectx: property (text), widget (QCheckBox, shadeSortedColumn)
-#: colorsettings.ui:161
-msgid "Shade sorted column &in lists"
-msgstr "Sortěrowane stołpiki šatěrować"
-
 #. i18n: ectx: property (text), widget (QCheckBox, applyToAlien)
-#: colorsettings.ui:171
+#: colorsettings.ui:128
 #, fuzzy
 #| msgid "Apply colors to &non-KDE4 applications"
 msgid "Apply colors to &non-Qt applications"
 msgstr "Barby tež na aplikacije nałožić, kiž njejsu KDE4-aplikacije"
 
-#. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox_5)
-#: colorsettings.ui:178
-msgid "Shading of frames and lighting (\"3D\") effects"
+#: kcolorschemeeditor.cpp:35
+#, fuzzy
+#| msgid "Save Color Scheme"
+msgid "KColorSchemeEditor"
+msgstr "Barbnu šemu zawěsćić"
+
+#: kcolorschemeeditor.cpp:37
+#, fuzzy
+#| msgid "Save the current color scheme"
+msgid "Utility to edit and create color schemes"
+msgstr "Tuchwilnu barbnu šemu zawěsćić"
+
+#: kcolorschemeeditor.cpp:40
+msgid "Olivier Churlaud"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
-#: colorsettings.ui:181
-#, fuzzy
-#| msgid "Shade"
-msgid "Shading"
-msgstr "Wotsćin"
-
-#. i18n: ectx: property (text), widget (QLabel, label_9)
-#: colorsettings.ui:193
-msgid "Minimum"
+#: kcolorschemeeditor.cpp:40
+msgid "Utility creation"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: colorsettings.ui:213
-msgid "Maximum"
+#: kcolorschemeeditor.cpp:42 kcolorschemeeditor.cpp:44
+msgid "KCM code (reused in here)"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: colorsettings.ui:220
-msgid "Contrast"
-msgstr "Kontrast"
-
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: colorsettings.ui:269
-#, fuzzy
-#| msgid "Color:"
-msgid "Color set:"
-msgstr "Barba:"
-
-#. i18n: ectx: property (toolTip), widget (QComboBox, colorSet)
-#: colorsettings.ui:282
-msgid "Colorset to view/modify"
-msgstr "Barby, kiž maja so wobhladać/wobdźěłać"
-
-#. i18n: 'Common' here means &quot;frequent/not rare&quot;, not &quot;shared&quot;
-#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
-#: colorsettings.ui:286
-#, fuzzy
-#| msgid "Common Colors"
-msgctxt "color-sets"
-msgid "Common Colors"
-msgstr "Powšitkowne barby"
-
-#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
-#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
-#: colorsettings.ui:291
-#, fuzzy
-#| msgid "  View"
-msgctxt "color-sets"
-msgid "View"
-msgstr " Napohlad"
-
-#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
-#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
-#: colorsettings.ui:296
-#, fuzzy
-#| msgid "  Window"
-msgctxt "color-sets"
-msgid "Window"
-msgstr " Wokno"
-
-#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
-#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
-#: colorsettings.ui:301
-#, fuzzy
-#| msgid "  Button"
-msgctxt "color-sets"
-msgid "Button"
-msgstr " Tłóčatko"
-
-#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
-#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
-#: colorsettings.ui:306
-#, fuzzy
-#| msgid "  Selection"
-msgctxt "color-sets"
-msgid "Selection"
-msgstr " Wubraće"
-
-#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
-#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
-#: colorsettings.ui:311
-#, fuzzy
-#| msgid "  Tooltip"
-msgctxt "color-sets"
-msgid "Tooltip"
-msgstr "  Tooltip"
-
-#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
-#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
-#: colorsettings.ui:316
-msgctxt "color-sets"
-msgid "Complementary"
+#: kcolorschemeeditor.cpp:51
+msgid "Scheme to edit or to use as a base."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:359 colorsettings.ui:364 colorsettings.ui:369
-#: colorsettings.ui:374 colorsettings.ui:379 colorsettings.ui:384
-#: colorsettings.ui:389 colorsettings.ui:394 colorsettings.ui:399
-#: colorsettings.ui:404 colorsettings.ui:409 colorsettings.ui:414
-#: colorsettings.ui:419 colorsettings.ui:424 colorsettings.ui:429
-#: colorsettings.ui:434 colorsettings.ui:439 colorsettings.ui:444
-#: colorsettings.ui:449 colorsettings.ui:454 colorsettings.ui:459
-#: colorsettings.ui:464 colorsettings.ui:469 colorsettings.ui:474
-#: colorsettings.ui:479 colorsettings.ui:484
-msgid "New Row"
-msgstr "Nowa linka"
-
-#. i18n: ectx: property (text), widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:489
-msgid "0"
-msgstr "0"
-
-#. i18n: ectx: property (text), widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:494
-msgid "1"
-msgstr "1"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:499
-msgid "View Background"
-msgstr "Pozadk wobhladać"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:504
-msgid "View Text"
-msgstr "Tekst wobhladać"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:509
-msgid "Window Background"
-msgstr "Pozadk wokna"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:514
-msgid "Window Text"
-msgstr "Tekst wokna"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:519
-msgid "Button Background"
-msgstr "Pozadk tłóčatka"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:524
-msgid "Button Text"
-msgstr "Tekst tłóčatka"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:529
-msgid "Selection Background"
-msgstr "Pozadk wubraća"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:534
-msgid "Selection Text"
-msgstr "Wubrany tekst"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:539
-msgid "Selection Inactive Text"
-msgstr "Njeaktiwny wubrany tekst"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:589
-msgid "Tooltip Background"
-msgstr "Pozadk tooltipow"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:594
-msgid "Tooltip Text"
-msgstr "Tekst tooltipow"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:599
-msgid "Active Titlebar"
-msgstr "Aktiwny titlowy pas"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:604
-msgid "Active Titlebar Text"
-msgstr "Tekst w aktiwnym titlowym pasu"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:609
-#, fuzzy
-#| msgid "Active Titlebar Text"
-msgid "Active Titlebar Secondary"
-msgstr "Tekst w aktiwnym titlowym pasu"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:614
-msgid "Inactive Titlebar"
-msgstr "Njeaktiwny titlowy pas"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:619
-msgid "Inactive Titlebar Text"
-msgstr "Tekst w njeaktiwnym titlowym pasu"
-
-#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorsettings.ui:624
-#, fuzzy
-#| msgid "Inactive Titlebar Text"
-msgid "Inactive Titlebar Secondary"
-msgstr "Tekst w njeaktiwnym titlowym pasu"
-
-#. i18n: ectx: attribute (title), widget (QWidget, pageDisabled)
-#: colorsettings.ui:690
-#, fuzzy
-#| msgid "Disabled"
-msgctxt "@title:tab color transformations on disabled elements"
-msgid "Disabled"
-msgstr "Znjepřistupnjene"
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: colorsettings.ui:696 colorsettings.ui:937
-msgid "Intensity:"
-msgstr "Intensita:"
-
-#. i18n: ectx: property (toolTip), widget (QComboBox, disabledIntensityBox)
-#: colorsettings.ui:706
-msgid "Disabled intensity effect type"
+#: kcolorschemeeditor.cpp:68
+msgid "Scheme not found, falling back to current one.\n"
 msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
-#: colorsettings.ui:710
-#, fuzzy
-#| msgid "None"
-msgctxt "no disabled intensity effect"
-msgid "None"
-msgstr "Žadyn"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
-#: colorsettings.ui:715
-#, fuzzy
-#| msgid "Shade"
-msgctxt "disabled intensity effect"
-msgid "Shade"
-msgstr "Wotsćin"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
-#: colorsettings.ui:720
-#, fuzzy
-#| msgid "Darken"
-msgctxt "disabled intensity effect"
-msgid "Darken"
-msgstr "Ćěmnić"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
-#: colorsettings.ui:725
-#, fuzzy
-#| msgid "Lighten"
-msgctxt "disabled intensity effect"
-msgid "Lighten"
-msgstr "Swětlić"
-
-#. i18n: ectx: property (toolTip), widget (QSlider, disabledIntensitySlider)
-#: colorsettings.ui:736
-#, fuzzy
-#| msgid "Alternate Background"
-msgid "Disabled intensity effect amount"
-msgstr "Alternatiwny pozadk"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: colorsettings.ui:768 colorsettings.ui:1009
-msgid "Color:"
-msgstr "Barba:"
-
-#. i18n: ectx: property (toolTip), widget (QComboBox, disabledColorBox)
-#: colorsettings.ui:778
-#, fuzzy
-#| msgid "Inactive color"
-msgid "Disabled color effect type"
-msgstr "Njeaktiwna barba"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
-#: colorsettings.ui:782
-#, fuzzy
-#| msgid "None"
-msgctxt "no disabled color effect"
-msgid "None"
-msgstr "Žadyn"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
-#: colorsettings.ui:787
-#, fuzzy
-#| msgid "Desaturate"
-msgctxt "disabled color effect"
-msgid "Desaturate"
-msgstr "Saturaciju pomjeńšić"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
-#: colorsettings.ui:792
-msgctxt "disabled color effect"
-msgid "Fade"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
-#: colorsettings.ui:797
-msgctxt "disabled color effect"
-msgid "Tint"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QSlider, disabledColorSlider)
-#: colorsettings.ui:808
-#, fuzzy
-#| msgid "Alternate Background"
-msgid "Disabled color effect amount"
-msgstr "Alternatiwny pozadk"
-
-#. i18n: ectx: property (toolTip), widget (KColorButton, disabledColorButton)
-#: colorsettings.ui:827
-#, fuzzy
-#| msgid "Disabled"
-msgid "Disabled color"
-msgstr "Znjepřistupnjene"
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: colorsettings.ui:834 colorsettings.ui:1075
-msgid "Contrast:"
-msgstr "Kontrast:"
-
-#. i18n: ectx: property (toolTip), widget (QComboBox, disabledContrastBox)
-#: colorsettings.ui:844
-#, fuzzy
-#| msgid "Disabled"
-msgid "Disabled contrast type"
-msgstr "Znjepřistupnjene"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
-#: colorsettings.ui:848
-#, fuzzy
-#| msgid "None"
-msgctxt "no disabled contrast"
-msgid "None"
-msgstr "Žadyn"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
-#: colorsettings.ui:853
-msgctxt "disabled contrast"
-msgid "Fade"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
-#: colorsettings.ui:858
-msgctxt "disabled contrast"
-msgid "Tint"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QSlider, disabledContrastSlider)
-#: colorsettings.ui:869
-#, fuzzy
-#| msgid "Alternate Background"
-msgid "Disabled contrast amount"
-msgstr "Alternatiwny pozadk"
-
-#. i18n: ectx: attribute (title), widget (QWidget, pageInactive)
-#: colorsettings.ui:931
-#, fuzzy
-#| msgid "Inactive"
-msgctxt "@title:tab color transformations on inactive elements"
-msgid "Inactive"
-msgstr "Njeaktiwny"
-
-#. i18n: ectx: property (toolTip), widget (QComboBox, inactiveIntensityBox)
-#: colorsettings.ui:947
-#, fuzzy
-#| msgid "Inactive color"
-msgid "Inactive intensity effect type"
-msgstr "Njeaktiwna barba"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
-#: colorsettings.ui:951
-#, fuzzy
-#| msgid "None"
-msgctxt "no inactive intensity effect"
-msgid "None"
-msgstr "Žadyn"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
-#: colorsettings.ui:956
-#, fuzzy
-#| msgid "Shade"
-msgctxt "inactive intensity effect"
-msgid "Shade"
-msgstr "Wotsćin"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
-#: colorsettings.ui:961
-#, fuzzy
-#| msgid "Darken"
-msgctxt "inactive intensity effect"
-msgid "Darken"
-msgstr "Ćěmnić"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
-#: colorsettings.ui:966
-#, fuzzy
-#| msgid "Lighten"
-msgctxt "inactive intensity effect"
-msgid "Lighten"
-msgstr "Swětlić"
-
-#. i18n: ectx: property (toolTip), widget (QSlider, inactiveIntensitySlider)
-#: colorsettings.ui:977
-#, fuzzy
-#| msgid "Alternate Background"
-msgid "Inactive intensity effect amount"
-msgstr "Alternatiwny pozadk"
-
-#. i18n: ectx: property (toolTip), widget (QComboBox, inactiveColorBox)
-#: colorsettings.ui:1019
-#, fuzzy
-#| msgid "Inactive color"
-msgid "Inactive color effect type"
-msgstr "Njeaktiwna barba"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
-#: colorsettings.ui:1023
-#, fuzzy
-#| msgid "None"
-msgctxt "no inactive color effect"
-msgid "None"
-msgstr "Žadyn"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
-#: colorsettings.ui:1028
-#, fuzzy
-#| msgid "Desaturate"
-msgctxt "inactive color effect"
-msgid "Desaturate"
-msgstr "Saturaciju pomjeńšić"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
-#: colorsettings.ui:1033
-msgctxt "inactive color effect"
-msgid "Fade"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
-#: colorsettings.ui:1038
-msgctxt "inactive color effect"
-msgid "Tint"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QSlider, inactiveColorSlider)
-#: colorsettings.ui:1049
-#, fuzzy
-#| msgid "Inactive color"
-msgid "Inactive color amount"
-msgstr "Njeaktiwna barba"
-
-#. i18n: ectx: property (toolTip), widget (KColorButton, inactiveColorButton)
-#: colorsettings.ui:1068
-msgid "Inactive color"
-msgstr "Njeaktiwna barba"
-
-#. i18n: ectx: property (toolTip), widget (QComboBox, inactiveContrastBox)
-#: colorsettings.ui:1085
-#, fuzzy
-#| msgid "Inactive color"
-msgid "Inactive contrast effect type"
-msgstr "Njeaktiwna barba"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
-#: colorsettings.ui:1089
-#, fuzzy
-#| msgid "None"
-msgctxt "no inactive contrast effect"
-msgid "None"
-msgstr "Žadyn"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
-#: colorsettings.ui:1094
-msgctxt "inactive contrast effect"
-msgid "Fade"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
-#: colorsettings.ui:1099
-msgctxt "inactive contrast effect"
-msgid "Tint"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QSlider, inactiveContrastSlider)
-#: colorsettings.ui:1110
-#, fuzzy
-#| msgid "Alternate Background"
-msgid "Inactive contrast effect amount"
-msgstr "Alternatiwny pozadk"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #: preview.ui:29
@@ -1002,6 +391,502 @@ msgstr "Normalny pozadk"
 #| msgid "Normal Background"
 msgid "View Positive Text against View Normal Background"
 msgstr "Normalny pozadk"
+
+#: scmeditorcolors.cpp:73 scmeditorcolors.cpp:89
+msgid "Varies"
+msgstr "Wariacije"
+
+#: scmeditorcolors.cpp:114
+msgid "Normal Background"
+msgstr "Normalny pozadk"
+
+#: scmeditorcolors.cpp:115
+msgid "Alternate Background"
+msgstr "Alternatiwny pozadk"
+
+#: scmeditorcolors.cpp:116
+msgid "Normal Text"
+msgstr "Normalny tekst"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.cpp:117 scmeditorcolors.ui:305
+msgid "Inactive Text"
+msgstr "Njeaktiwny tekst"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.cpp:118 scmeditorcolors.ui:310
+msgid "Active Text"
+msgstr "Aktiwny tekst"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.cpp:119 scmeditorcolors.ui:315
+msgid "Link Text"
+msgstr "Wotkazowy tekst"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.cpp:120 scmeditorcolors.ui:320
+msgid "Visited Text"
+msgstr "Wopytany tekst"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.cpp:121 scmeditorcolors.ui:325
+msgid "Negative Text"
+msgstr "Negatiwny tekst"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.cpp:122 scmeditorcolors.ui:330
+msgid "Neutral Text"
+msgstr "Neutralny tekst"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.cpp:123 scmeditorcolors.ui:335
+msgid "Positive Text"
+msgstr "Pozitiwny tekst"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.cpp:124 scmeditorcolors.ui:340
+msgid "Focus Decoration"
+msgstr "Debjenje fokusa"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.cpp:125 scmeditorcolors.ui:345
+msgid "Hover Decoration"
+msgstr "Debjenje znošowanja"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: scmeditorcolors.ui:23
+#, fuzzy
+#| msgid "Color:"
+msgid "Color set:"
+msgstr "Barba:"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, colorSet)
+#: scmeditorcolors.ui:36
+msgid "Colorset to view/modify"
+msgstr "Barby, kiž maja so wobhladać/wobdźěłać"
+
+#. i18n: 'Common' here means &quot;frequent/not rare&quot;, not &quot;shared&quot;
+#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
+#: scmeditorcolors.ui:40
+#, fuzzy
+#| msgid "Common Colors"
+msgctxt "color-sets"
+msgid "Common Colors"
+msgstr "Powšitkowne barby"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
+#: scmeditorcolors.ui:45
+#, fuzzy
+#| msgid "  View"
+msgctxt "color-sets"
+msgid "View"
+msgstr " Napohlad"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
+#: scmeditorcolors.ui:50
+#, fuzzy
+#| msgid "  Window"
+msgctxt "color-sets"
+msgid "Window"
+msgstr " Wokno"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
+#: scmeditorcolors.ui:55
+#, fuzzy
+#| msgid "  Button"
+msgctxt "color-sets"
+msgid "Button"
+msgstr " Tłóčatko"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
+#: scmeditorcolors.ui:60
+#, fuzzy
+#| msgid "  Selection"
+msgctxt "color-sets"
+msgid "Selection"
+msgstr " Wubraće"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
+#: scmeditorcolors.ui:65
+#, fuzzy
+#| msgid "  Tooltip"
+msgctxt "color-sets"
+msgid "Tooltip"
+msgstr "  Tooltip"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
+#: scmeditorcolors.ui:70
+msgctxt "color-sets"
+msgid "Complementary"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:120 scmeditorcolors.ui:125 scmeditorcolors.ui:130
+#: scmeditorcolors.ui:135 scmeditorcolors.ui:140 scmeditorcolors.ui:145
+#: scmeditorcolors.ui:150 scmeditorcolors.ui:155 scmeditorcolors.ui:160
+#: scmeditorcolors.ui:165 scmeditorcolors.ui:170 scmeditorcolors.ui:175
+#: scmeditorcolors.ui:180 scmeditorcolors.ui:185 scmeditorcolors.ui:190
+#: scmeditorcolors.ui:195 scmeditorcolors.ui:200 scmeditorcolors.ui:205
+#: scmeditorcolors.ui:210 scmeditorcolors.ui:215 scmeditorcolors.ui:220
+#: scmeditorcolors.ui:225 scmeditorcolors.ui:230 scmeditorcolors.ui:235
+#: scmeditorcolors.ui:240 scmeditorcolors.ui:245
+msgid "New Row"
+msgstr "Nowa linka"
+
+#. i18n: ectx: property (text), widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:250
+msgid "0"
+msgstr "0"
+
+#. i18n: ectx: property (text), widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:255
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:260
+msgid "View Background"
+msgstr "Pozadk wobhladać"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:265
+msgid "View Text"
+msgstr "Tekst wobhladać"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:270
+msgid "Window Background"
+msgstr "Pozadk wokna"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:275
+msgid "Window Text"
+msgstr "Tekst wokna"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:280
+msgid "Button Background"
+msgstr "Pozadk tłóčatka"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:285
+msgid "Button Text"
+msgstr "Tekst tłóčatka"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:290
+msgid "Selection Background"
+msgstr "Pozadk wubraća"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:295
+msgid "Selection Text"
+msgstr "Wubrany tekst"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:300
+msgid "Selection Inactive Text"
+msgstr "Njeaktiwny wubrany tekst"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:350
+msgid "Tooltip Background"
+msgstr "Pozadk tooltipow"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:355
+msgid "Tooltip Text"
+msgstr "Tekst tooltipow"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:360
+msgid "Active Titlebar"
+msgstr "Aktiwny titlowy pas"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:365
+msgid "Active Titlebar Text"
+msgstr "Tekst w aktiwnym titlowym pasu"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:370
+#, fuzzy
+#| msgid "Active Titlebar Text"
+msgid "Active Titlebar Secondary"
+msgstr "Tekst w aktiwnym titlowym pasu"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:375
+msgid "Inactive Titlebar"
+msgstr "Njeaktiwny titlowy pas"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:380
+msgid "Inactive Titlebar Text"
+msgstr "Tekst w njeaktiwnym titlowym pasu"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: scmeditorcolors.ui:385
+#, fuzzy
+#| msgid "Inactive Titlebar Text"
+msgid "Inactive Titlebar Secondary"
+msgstr "Tekst w njeaktiwnym titlowym pasu"
+
+#: scmeditordialog.cpp:55
+msgid "Options"
+msgstr "Opcije"
+
+#: scmeditordialog.cpp:57
+#, fuzzy
+#| msgid "Disabled"
+msgid "Disabled"
+msgstr "Znjepřistupnjene"
+
+#: scmeditordialog.cpp:74
+msgid "This colour scheme was not saved. Continue?"
+msgstr ""
+
+#: scmeditordialog.cpp:75
+msgid "Do you really want to upload?"
+msgstr ""
+
+#: scmeditordialog.cpp:113
+msgid "You have unsaved changes. Do you really want to quit?"
+msgstr ""
+
+#: scmeditordialog.cpp:114
+msgid "Unsaved changes"
+msgstr ""
+
+#: scmeditordialog.cpp:129 scmeditordialog.cpp:156
+msgid "Save Color Scheme"
+msgstr "Barbnu šemu zawěsćić"
+
+#: scmeditordialog.cpp:130
+msgid "&Enter a name for the color scheme:"
+msgstr "&Zapodajće mjeno za barbnu šemu:"
+
+#: scmeditordialog.cpp:155
+msgid ""
+"A color scheme with that name already exists.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"Barbna šema z tutym mjenom hižo eksistuje.\n"
+"Chceće ju přepisać?"
+
+#: scmeditordialog.cpp:190
+msgid "You do not have permission to overwrite that scheme"
+msgstr "Nimaće dowolnosć, tutu šemu přepisać"
+
+#: scmeditordialog.cpp:204
+#, fuzzy
+#| msgid "Inactive"
+msgid "Inactive"
+msgstr "Njeaktiwny"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsUploadButton)
+#: scmeditordialog.ui:54
+#, fuzzy
+#| msgid "Get new color schemes from the Internet"
+msgid "Share the selected scheme on the Internet"
+msgstr "Nowe barbne šemy z interneta čitać"
+
+#. i18n: ectx: property (text), widget (QPushButton, schemeKnsUploadButton)
+#: scmeditordialog.ui:57
+#, fuzzy
+#| msgid "Import Scheme..."
+msgid "Upload Scheme"
+msgstr "Barbnu šemu importować..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: scmeditoreffects.ui:17
+msgid "Color:"
+msgstr "Barba:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: scmeditoreffects.ui:27
+msgid "Intensity:"
+msgstr "Intensita:"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, colorBox)
+#: scmeditoreffects.ui:37
+#, fuzzy
+#| msgid "Inactive color"
+msgid "Disabled color effect type"
+msgstr "Njeaktiwna barba"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, colorBox)
+#: scmeditoreffects.ui:41
+#, fuzzy
+#| msgid "None"
+msgctxt "no disabled color effect"
+msgid "None"
+msgstr "Žadyn"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, colorBox)
+#: scmeditoreffects.ui:46
+#, fuzzy
+#| msgid "Desaturate"
+msgctxt "disabled color effect"
+msgid "Desaturate"
+msgstr "Saturaciju pomjeńšić"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, colorBox)
+#: scmeditoreffects.ui:51
+msgctxt "disabled color effect"
+msgid "Fade"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, colorBox)
+#: scmeditoreffects.ui:56
+msgctxt "disabled color effect"
+msgid "Tint"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, intensityBox)
+#: scmeditoreffects.ui:64
+msgid "Disabled intensity effect type"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, intensityBox)
+#: scmeditoreffects.ui:68
+#, fuzzy
+#| msgid "None"
+msgctxt "no disabled intensity effect"
+msgid "None"
+msgstr "Žadyn"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, intensityBox)
+#: scmeditoreffects.ui:73
+#, fuzzy
+#| msgid "Shade"
+msgctxt "disabled intensity effect"
+msgid "Shade"
+msgstr "Wotsćin"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, intensityBox)
+#: scmeditoreffects.ui:78
+#, fuzzy
+#| msgid "Darken"
+msgctxt "disabled intensity effect"
+msgid "Darken"
+msgstr "Ćěmnić"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, intensityBox)
+#: scmeditoreffects.ui:83
+#, fuzzy
+#| msgid "Lighten"
+msgctxt "disabled intensity effect"
+msgid "Lighten"
+msgstr "Swětlić"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: scmeditoreffects.ui:107
+msgid "Contrast:"
+msgstr "Kontrast:"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, colorSlider)
+#: scmeditoreffects.ui:120
+#, fuzzy
+#| msgid "Alternate Background"
+msgid "Disabled color effect amount"
+msgstr "Alternatiwny pozadk"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, intensitySlider)
+#: scmeditoreffects.ui:139
+#, fuzzy
+#| msgid "Alternate Background"
+msgid "Disabled intensity effect amount"
+msgstr "Alternatiwny pozadk"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, colorButton)
+#: scmeditoreffects.ui:158
+#, fuzzy
+#| msgid "Disabled"
+msgid "Disabled color"
+msgstr "Znjepřistupnjene"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, contrastBox)
+#: scmeditoreffects.ui:181
+#, fuzzy
+#| msgid "Disabled"
+msgid "Disabled contrast type"
+msgstr "Znjepřistupnjene"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, contrastBox)
+#: scmeditoreffects.ui:185
+#, fuzzy
+#| msgid "None"
+msgctxt "no disabled contrast"
+msgid "None"
+msgstr "Žadyn"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, contrastBox)
+#: scmeditoreffects.ui:190
+msgctxt "disabled contrast"
+msgid "Fade"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, contrastBox)
+#: scmeditoreffects.ui:195
+msgctxt "disabled contrast"
+msgid "Tint"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSlider, contrastSlider)
+#: scmeditoreffects.ui:222
+#, fuzzy
+#| msgid "Alternate Background"
+msgid "Disabled contrast amount"
+msgstr "Alternatiwny pozadk"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useInactiveEffects)
+#: scmeditoroptions.ui:17
+msgid "Apply inactive window color &effects"
+msgstr "Barbne &efekty za wokna nałožić"
+
+#. i18n: ectx: property (text), widget (QCheckBox, inactiveSelectionEffect)
+#: scmeditoroptions.ui:24
+msgid "In&active selection changes color"
+msgstr "Nje&aktiwne wubraće barbu změni"
+
+#. i18n: ectx: property (text), widget (QCheckBox, shadeSortedColumn)
+#: scmeditoroptions.ui:31
+msgid "Shade sorted column &in lists"
+msgstr "Sortěrowane stołpiki šatěrować"
+
+#. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox_5)
+#: scmeditoroptions.ui:38
+msgid "Shading of frames and lighting (\"3D\") effects"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: scmeditoroptions.ui:41
+#, fuzzy
+#| msgid "Shade"
+msgid "Shading"
+msgstr "Wotsćin"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: scmeditoroptions.ui:53
+msgid "Minimum"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: scmeditoroptions.ui:73
+msgid "Maximum"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: scmeditoroptions.ui:80
+msgid "Contrast"
+msgstr "Kontrast"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore0)
 #. i18n: ectx: property (toolTip), widget (QLabel, labelBack0)
@@ -1235,6 +1120,107 @@ msgstr "Normalny pozadk"
 msgctxt "color-kcm-set-preview"
 msgid "focus"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Current"
+#~ msgctxt "Current color scheme"
+#~ msgid "Current"
+#~ msgstr "Tuchwilny"
+
+#~ msgid "Selecting another scheme will discard any changes you have made"
+#~ msgstr "Hdyž druhu šemu wubjerjeće, zaćisnjeće wšitke swoje změny"
+
+#~ msgid "Are you sure?"
+#~ msgstr "Sće sej wěsći?"
+
+#~ msgid "&Scheme"
+#~ msgstr "Še&ma"
+
+#, fuzzy
+#~| msgid "Save Scheme..."
+#~ msgid "Save Scheme"
+#~ msgstr "Barbnu šemu zawěsćić..."
+
+#, fuzzy
+#~| msgid "Inactive"
+#~ msgctxt "@title:tab color transformations on inactive elements"
+#~ msgid "Inactive"
+#~ msgstr "Njeaktiwny"
+
+#, fuzzy
+#~| msgid "Inactive color"
+#~ msgid "Inactive intensity effect type"
+#~ msgstr "Njeaktiwna barba"
+
+#, fuzzy
+#~| msgid "None"
+#~ msgctxt "no inactive intensity effect"
+#~ msgid "None"
+#~ msgstr "Žadyn"
+
+#, fuzzy
+#~| msgid "Shade"
+#~ msgctxt "inactive intensity effect"
+#~ msgid "Shade"
+#~ msgstr "Wotsćin"
+
+#, fuzzy
+#~| msgid "Darken"
+#~ msgctxt "inactive intensity effect"
+#~ msgid "Darken"
+#~ msgstr "Ćěmnić"
+
+#, fuzzy
+#~| msgid "Lighten"
+#~ msgctxt "inactive intensity effect"
+#~ msgid "Lighten"
+#~ msgstr "Swětlić"
+
+#, fuzzy
+#~| msgid "Alternate Background"
+#~ msgid "Inactive intensity effect amount"
+#~ msgstr "Alternatiwny pozadk"
+
+#, fuzzy
+#~| msgid "Inactive color"
+#~ msgid "Inactive color effect type"
+#~ msgstr "Njeaktiwna barba"
+
+#, fuzzy
+#~| msgid "None"
+#~ msgctxt "no inactive color effect"
+#~ msgid "None"
+#~ msgstr "Žadyn"
+
+#, fuzzy
+#~| msgid "Desaturate"
+#~ msgctxt "inactive color effect"
+#~ msgid "Desaturate"
+#~ msgstr "Saturaciju pomjeńšić"
+
+#, fuzzy
+#~| msgid "Inactive color"
+#~ msgid "Inactive color amount"
+#~ msgstr "Njeaktiwna barba"
+
+#~ msgid "Inactive color"
+#~ msgstr "Njeaktiwna barba"
+
+#, fuzzy
+#~| msgid "Inactive color"
+#~ msgid "Inactive contrast effect type"
+#~ msgstr "Njeaktiwna barba"
+
+#, fuzzy
+#~| msgid "None"
+#~ msgctxt "no inactive contrast effect"
+#~ msgid "None"
+#~ msgstr "Žadyn"
+
+#, fuzzy
+#~| msgid "Alternate Background"
+#~ msgid "Inactive contrast effect amount"
+#~ msgstr "Alternatiwny pozadk"
 
 #~ msgid "Preview"
 #~ msgstr "Přehladka"
