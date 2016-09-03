@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-30 07:54+0000\n"
+"POT-Creation-Date: 2016-09-03 07:32+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -558,8 +558,8 @@ msgid ""
 "message."
 msgstr ""
 
-#: job/attachmenteditjob.cpp:49 viewer/viewer_p.cpp:611
-#: viewer/viewer_p.cpp:1752
+#: job/attachmenteditjob.cpp:49 viewer/viewer_p.cpp:628
+#: viewer/viewer_p.cpp:1769
 #, fuzzy
 msgid "Edit Attachment"
 msgstr "Přiwěšk: "
@@ -1069,7 +1069,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (UseFixedFont), group (Composer)
-#: settings/messageviewer.kcfg.cmake:240 viewer/viewer_p.cpp:1602
+#: settings/messageviewer.kcfg.cmake:240 viewer/viewer_p.cpp:1619
 msgid "Use Fi&xed Font"
 msgstr "Wužiwaj pismo z &krutej šěrokosću"
 
@@ -1438,7 +1438,7 @@ msgstr "&Prjedawša powěsć"
 msgid "Turn on HTML rendering for this message."
 msgstr "Zaswěć HTML, zo by tutu powěsć čitał."
 
-#: viewer/urlhandlermanager.cpp:638 viewer/viewer_p.cpp:1677
+#: viewer/urlhandlermanager.cpp:638 viewer/viewer_p.cpp:1694
 #, fuzzy
 msgid "Load external references from the Internet for this message."
 msgstr "Powěsćam dowolić, e&ksterne linki z interneta začitać"
@@ -1549,7 +1549,7 @@ msgstr "Wočinić w adresniku"
 msgid "&Copy Email Address"
 msgstr "emailowa adresa"
 
-#: viewer/urlhandlermanager.cpp:864 viewer/viewer_p.cpp:2622
+#: viewer/urlhandlermanager.cpp:864 viewer/viewer_p.cpp:2660
 msgid "Address copied to clipboard."
 msgstr "Adresa bu do zapisnika kopěrowana."
 
@@ -1606,306 +1606,312 @@ msgstr "Wuwjedu předpřikaz %1"
 msgid "Loading message..."
 msgstr "Přesuwam powěsć %3 z %2 wot %1."
 
-#: viewer/viewer_p.cpp:372
+#: viewer/viewer_p.cpp:389
 msgid ""
 "Deleting an attachment from an encrypted or old-style mailman message is not "
 "supported."
 msgstr ""
 
-#: viewer/viewer_p.cpp:373 viewer/viewer_p.cpp:379 viewer/viewer_p.cpp:616
-#: viewer/viewer_p.cpp:1748
+#: viewer/viewer_p.cpp:390 viewer/viewer_p.cpp:396 viewer/viewer_p.cpp:633
+#: viewer/viewer_p.cpp:1765
 #, fuzzy
 #| msgid "&Remove Attachment"
 msgid "Delete Attachment"
 msgstr "Přiwěšk &zničić"
 
-#: viewer/viewer_p.cpp:378
+#: viewer/viewer_p.cpp:395
 msgid ""
 "Deleting an attachment might invalidate any digital signature on this "
 "message."
 msgstr ""
 
-#: viewer/viewer_p.cpp:468
+#: viewer/viewer_p.cpp:485
 #, fuzzy
 #| msgid "&Open With..."
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "W&očinić z ..."
 
-#: viewer/viewer_p.cpp:486
+#: viewer/viewer_p.cpp:503
 #, fuzzy
 #| msgid "Other Actio&ns"
 msgctxt "@action:inmenu Open With"
 msgid "&Other..."
 msgstr "&Druhe akcije"
 
-#: viewer/viewer_p.cpp:488 viewer/viewer_p.cpp:501
+#: viewer/viewer_p.cpp:505 viewer/viewer_p.cpp:518
 #, fuzzy
 #| msgid "&Open With..."
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr "W&očinić z ..."
 
-#: viewer/viewer_p.cpp:561 viewer/viewer_p.cpp:1725
+#: viewer/viewer_p.cpp:578 viewer/viewer_p.cpp:1742
 #, fuzzy
 #| msgid "Open URL"
 msgctxt "to open"
 msgid "Open"
 msgstr "URL wočinić"
 
-#: viewer/viewer_p.cpp:580 viewer/viewer_p.cpp:1733
+#: viewer/viewer_p.cpp:597 viewer/viewer_p.cpp:1750
 msgctxt "to view something"
 msgid "View"
 msgstr ""
 
-#: viewer/viewer_p.cpp:590
+#: viewer/viewer_p.cpp:607
 msgid "Scroll To"
 msgstr ""
 
-#: viewer/viewer_p.cpp:595
+#: viewer/viewer_p.cpp:612
 #, fuzzy
 msgid "Save As..."
 msgstr "Z&awěsćić jako..."
 
-#: viewer/viewer_p.cpp:600 viewer/viewer_p.cpp:1745
+#: viewer/viewer_p.cpp:617 viewer/viewer_p.cpp:1762
 #, fuzzy
 msgid "Copy"
 msgstr "&Kopěruj do"
 
-#: viewer/viewer_p.cpp:620 viewer/viewer_p.cpp:1757
+#: viewer/viewer_p.cpp:637 viewer/viewer_p.cpp:1774
 #, fuzzy
 msgid "Properties"
 msgstr "&Swójstwa"
 
-#: viewer/viewer_p.cpp:768
+#: viewer/viewer_p.cpp:785
 msgid "KMail"
 msgstr "KMail"
 
-#: viewer/viewer_p.cpp:769
+#: viewer/viewer_p.cpp:786
 #, fuzzy
 #| msgid "KDE Email Client"
 msgid "The KDE Mail Client"
 msgstr "KDE emailowy program"
 
-#: viewer/viewer_p.cpp:1343
+#: viewer/viewer_p.cpp:1360
 #, kde-format
 msgid "View Attachment: %1"
 msgstr "Pokaž přiwěšk: %1"
 
-#: viewer/viewer_p.cpp:1521
+#: viewer/viewer_p.cpp:1538
 msgctxt "View->"
 msgid "&Attachments"
 msgstr "&Přiwěški"
 
-#: viewer/viewer_p.cpp:1523
+#: viewer/viewer_p.cpp:1540
 msgid "Choose display style of attachments"
 msgstr "Wubjerće stil pokazowanja přiwěškow"
 
-#: viewer/viewer_p.cpp:1526
+#: viewer/viewer_p.cpp:1543
 msgctxt "View->attachments->"
 msgid "&As Icons"
 msgstr "jako &piktogramy"
 
-#: viewer/viewer_p.cpp:1529
+#: viewer/viewer_p.cpp:1546
 msgid "Show all attachments as icons. Click to see them."
 msgstr ""
 "Pokaže wšitke přiwěški jako piktogramy. Klikńće na nje, zo byšće je widźeli."
 
-#: viewer/viewer_p.cpp:1533
+#: viewer/viewer_p.cpp:1550
 msgctxt "View->attachments->"
 msgid "&Smart"
 msgstr "&mudrje"
 
-#: viewer/viewer_p.cpp:1536
+#: viewer/viewer_p.cpp:1553
 msgid "Show attachments as suggested by sender."
 msgstr "Pokazuje přiwěški kaž wot wotpósłarja namjetowane."
 
-#: viewer/viewer_p.cpp:1540
+#: viewer/viewer_p.cpp:1557
 msgctxt "View->attachments->"
 msgid "&Inline"
 msgstr "&w powěsći"
 
-#: viewer/viewer_p.cpp:1543
+#: viewer/viewer_p.cpp:1560
 msgid "Show all attachments inline (if possible)"
 msgstr "Pokazuje wšitke přiwěški w powěsći (jeli móžno)"
 
-#: viewer/viewer_p.cpp:1547
+#: viewer/viewer_p.cpp:1564
 msgctxt "View->attachments->"
 msgid "&Hide"
 msgstr "&schować"
 
-#: viewer/viewer_p.cpp:1550
+#: viewer/viewer_p.cpp:1567
 #, fuzzy
 msgid "Do not show attachments in the message viewer"
 msgstr "Njepokazuje přiwěški w powěsći samej"
 
-#: viewer/viewer_p.cpp:1554
+#: viewer/viewer_p.cpp:1571
 msgctxt "View->attachments->"
 msgid "In Header Only"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1558
+#: viewer/viewer_p.cpp:1575
 #, fuzzy
 #| msgid "Show all attachments as icons. Click to see them."
 msgid "Show Attachments only in the header of the mail"
 msgstr ""
 "Pokaže wšitke přiwěški jako piktogramy. Klikńće na nje, zo byšće je widźeli."
 
-#: viewer/viewer_p.cpp:1563
+#: viewer/viewer_p.cpp:1580
 msgid "&Set Encoding"
 msgstr "Kodowanje po&stajić"
 
-#: viewer/viewer_p.cpp:1569 widgets/configurewidget.cpp:60
+#: viewer/viewer_p.cpp:1586 widgets/configurewidget.cpp:60
 #: widgets/configurewidget.cpp:104
 msgid "Auto"
 msgstr "Awtomatisce"
 
-#: viewer/viewer_p.cpp:1585
+#: viewer/viewer_p.cpp:1602
 #, fuzzy
 msgid "Select All Text"
 msgstr "&Wšitke powěsće wubrać"
 
-#: viewer/viewer_p.cpp:1592 viewer/viewer_p.cpp:1997
+#: viewer/viewer_p.cpp:1609 viewer/viewer_p.cpp:2014
 #, fuzzy
 msgid "Copy Link Address"
 msgstr "Wočinić w adresniku"
 
-#: viewer/viewer_p.cpp:1597
+#: viewer/viewer_p.cpp:1614
 msgid "Open URL"
 msgstr "URL wočinić"
 
-#: viewer/viewer_p.cpp:1608
+#: viewer/viewer_p.cpp:1625
 #, fuzzy
 #| msgid "&Message"
 msgid "Show Message Structure"
 msgstr "Po&wěsć"
 
-#: viewer/viewer_p.cpp:1613
+#: viewer/viewer_p.cpp:1630
 msgid "&View Source"
 msgstr "&Pokaž žórło"
 
-#: viewer/viewer_p.cpp:1618
+#: viewer/viewer_p.cpp:1635
 #, fuzzy
 msgid "&Save message..."
 msgstr "%1 powěsćow, %2."
 
-#: viewer/viewer_p.cpp:1624
+#: viewer/viewer_p.cpp:1641
 #, fuzzy
 #| msgid "&Save as Draft"
 msgid "&Save Display Format"
 msgstr "Jako &naćisk zawěsćić"
 
-#: viewer/viewer_p.cpp:1628
+#: viewer/viewer_p.cpp:1645
 #, fuzzy
 #| msgid "&Save as Draft"
 msgid "&Reset Display Format"
 msgstr "Jako &naćisk zawěsćić"
 
-#: viewer/viewer_p.cpp:1635
+#: viewer/viewer_p.cpp:1652
 #, fuzzy
 #| msgid "Select &All Messages"
 msgid "Scroll Message Up"
 msgstr "&Wšitke powěsće wubrać"
 
-#: viewer/viewer_p.cpp:1641
+#: viewer/viewer_p.cpp:1658
 #, fuzzy
 #| msgid "Select &All Messages"
 msgid "Scroll Message Down"
 msgstr "&Wšitke powěsće wubrać"
 
-#: viewer/viewer_p.cpp:1647
+#: viewer/viewer_p.cpp:1664
 #, fuzzy
 #| msgid "Select &All Messages"
 msgid "Scroll Message Up (More)"
 msgstr "&Wšitke powěsće wubrać"
 
-#: viewer/viewer_p.cpp:1653
+#: viewer/viewer_p.cpp:1670
 #, fuzzy
 #| msgid "Select &All Messages"
 msgid "Scroll Message Down (More)"
 msgstr "&Wšitke powěsće wubrać"
 
-#: viewer/viewer_p.cpp:1664
+#: viewer/viewer_p.cpp:1681
 msgid "Toggle HTML Display Mode"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1669
+#: viewer/viewer_p.cpp:1686
 msgid "Toggle display mode between HTML and plain text"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1672
+#: viewer/viewer_p.cpp:1689
 #, fuzzy
 #| msgid "Load External References"
 msgid "Load external references"
 msgstr "Eksterne wotkazy začitać"
 
-#: viewer/viewer_p.cpp:1679 widgets/mailsourceviewtextbrowserwidget.cpp:137
+#: viewer/viewer_p.cpp:1696 widgets/mailsourceviewtextbrowserwidget.cpp:136
 msgid "Speak Text"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1685
+#: viewer/viewer_p.cpp:1702
 #, fuzzy
 #| msgid "Choose Location"
 msgid "Copy Image Location"
 msgstr "Městno wubrać"
 
-#: viewer/viewer_p.cpp:1692
+#: viewer/viewer_p.cpp:1709
 msgid "&Find in Message..."
 msgstr "W powěsći &pytać..."
 
-#: viewer/viewer_p.cpp:1721
+#: viewer/viewer_p.cpp:1738
 msgid "Save &As..."
 msgstr "Z&awěsćić jako..."
 
-#: viewer/viewer_p.cpp:1731
+#: viewer/viewer_p.cpp:1748
 msgid "Open With..."
 msgstr "Wočinić z ..."
 
-#: viewer/viewer_p.cpp:1738
+#: viewer/viewer_p.cpp:1755
 #, fuzzy
 msgid "Save All Attachments..."
 msgstr "&Přiwěšk zawěsćić jako..."
 
-#: viewer/viewer_p.cpp:1995
+#: viewer/viewer_p.cpp:2012
 #, fuzzy
 #| msgid "Email Address"
 msgid "Copy Email Address"
 msgstr "emailowa adresa"
 
-#: viewer/viewer_p.cpp:2075
+#: viewer/viewer_p.cpp:2093
 msgid "Message as Plain Text"
 msgstr "Powěsć jako prosty tekst"
 
-#: viewer/viewer_p.cpp:2312
+#: viewer/viewer_p.cpp:2268
+#, fuzzy
+#| msgid "Documentation"
+msgid "Print Document"
+msgstr "Dokumentacija"
+
+#: viewer/viewer_p.cpp:2350
 #, fuzzy
 #| msgctxt "View->"
 #| msgid "&Attachments"
 msgid "Attachments:"
 msgstr "&Přiwěški"
 
-#: viewer/viewer_p.cpp:2627
+#: viewer/viewer_p.cpp:2665
 msgid "URL copied to clipboard."
 msgstr "URL do zapisknika kopěrowany."
 
-#: viewer/viewer_p.cpp:2768
+#: viewer/viewer_p.cpp:2806
 #, fuzzy
 #| msgid "[Details]"
 msgid "Hide full address list"
 msgstr "[Nadrobnosće]"
 
-#: viewer/viewer_p.cpp:2769
+#: viewer/viewer_p.cpp:2807
 #, fuzzy
 #| msgid "[Details]"
 msgid "Show full address list"
 msgstr "[Nadrobnosće]"
 
-#: viewer/viewer_p.cpp:2791
+#: viewer/viewer_p.cpp:2829
 #, fuzzy, kde-format
 #| msgid "Message was signed by %1."
 msgid "Message loading failed: %1."
 msgstr "Powěsć bu podpisana wot %1."
 
-#: viewer/viewer_p.cpp:2796
+#: viewer/viewer_p.cpp:2834
 #, fuzzy
 #| msgid "Message was signed by %1."
 msgid "Message not found."
