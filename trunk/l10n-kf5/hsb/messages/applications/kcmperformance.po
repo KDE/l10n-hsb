@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-03 07:04+0000\n"
+"POT-Creation-Date: 2016-09-11 07:05+0000\n"
 "PO-Revision-Date: 2008-11-23 19:02+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -46,40 +46,6 @@ msgstr ""
 
 #: konqueror.cpp:34
 msgid ""
-"Disables the minimization of memory usage and allows you to make each "
-"browsing activity independent from the others"
-msgstr ""
-"Hasnje minimizowanje wužiwanja pomjatka a Wam dowoli, kóžde browsowanje  "
-"njewotwisne měć wot druhich."
-
-#: konqueror.cpp:37
-msgid ""
-"<p>With this option activated, only one instance of Konqueror used for file "
-"browsing will exist in the memory of your computer at any moment, no matter "
-"how many file browsing windows you open, thus reducing resource requirements."
-"</p><p>Be aware that this also means that, if something goes wrong, all your "
-"file browsing windows will be closed simultaneously</p>"
-msgstr ""
-"<p>Z tutej opciju eksistuje jenož jedna instanca Konquerora w pomjatku "
-"Wašeho kompjutera, njehladajo na to, kelko woknow maće wočinjenych, štož "
-"redukuje trěbne resursy.</p><p>To pak tež rěka, zo so wšitke wokna začinja, "
-"hdyž něšto křiwje běži.</p>"
-
-#: konqueror.cpp:45
-msgid ""
-"<p>With this option activated, only one instance of Konqueror will exist in "
-"the memory of your computer at any moment, no matter how many browsing "
-"windows you open, thus reducing resource requirements.</p><p>Be aware that "
-"this also means that, if something goes wrong, all your browsing windows "
-"will be closed simultaneously.</p>"
-msgstr ""
-"<p>Z tutej opciju eksistuje jenož jedna instanca Konquerora w pomjatku "
-"Wašeho kompjutera, njehladajo na to, kelko woknow maće wočinjenych, štož "
-"redukuje trěbne resursy.</p><p>To pak tež rěka, zo so wšitke wokna začinja, "
-"hdyž něšto křiwje běži.</p>"
-
-#: konqueror.cpp:57
-msgid ""
 "<p>If non-zero, this option allows keeping Konqueror instances in memory "
 "after all their windows have been closed, up to the number specified in this "
 "option.</p><p>When a new Konqueror instance is needed, one of these "
@@ -91,7 +57,7 @@ msgstr ""
 "trjeba, so jedna z tutych hižo začitanych instancow konquerora zaso wužiwa. "
 "Přez to program spěšnišo reaguje, ale trjeba tež wjace pomjatka.</p>"
 
-#: konqueror.cpp:66
+#: konqueror.cpp:43
 msgid ""
 "<p>If enabled, an instance of Konqueror will be preloaded after the ordinary "
 "KDE startup sequence.</p><p>This will make the first Konqueror window open "
@@ -104,7 +70,7 @@ msgstr ""
 "trjeba přez to dlěje za startowanje (štož pak snano ani njepytnjeće, dokelž "
 "móžeće za tón čas hižo dźěłać).</p>"
 
-#: konqueror.cpp:72
+#: konqueror.cpp:49
 msgid ""
 "<p>If enabled, KDE will always try to have one preloaded Konqueror instance "
 "ready; preloading a new instance in the background whenever there is not one "
@@ -117,43 +83,25 @@ msgstr ""
 "p><p><b>Kedźbu:</b> W někotrych padach je samo móžno, zo to wukonitosć "
 "redukuje.</p>"
 
-#. i18n: ectx: property (title), widget (QGroupBox, reuse_group)
-#: konqueror_ui.ui:16
-msgid "Minimize Memory Usage"
-msgstr "Wužiwanje pomjatka minimizować"
-
-#. i18n: ectx: property (text), widget (QRadioButton, rb_never_reuse)
-#: konqueror_ui.ui:22
-msgid "&Never"
-msgstr "&Ženje"
-
-#. i18n: ectx: property (text), widget (QRadioButton, rb_file_browsing_reuse)
-#: konqueror_ui.ui:29
-msgid "For &file browsing only (recommended)"
-msgstr "Za browsowanje &datajow jenož (doporučene)"
-
-#. i18n: ectx: property (text), widget (QRadioButton, rb_always_reuse)
-#: konqueror_ui.ui:36
-msgid "Alwa&ys (use with care)"
-msgstr "Pře&co (kedźbliwje wužiwać)"
-
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: konqueror_ui.ui:46
+#: konqueror_ui.ui:17
 msgid "Preloading"
 msgstr "Dočasne začitanje"
 
 #. i18n: ectx: property (text), widget (QLabel, lb_preload_count)
-#: konqueror_ui.ui:57
-msgid "Maximum number of instances kept &preloaded:"
+#: konqueror_ui.ui:37
+#, fuzzy
+#| msgid "Maximum number of instances kept &preloaded:"
+msgid "&Maximum number of instances kept preloaded:"
 msgstr "Maksimalna ličba wobchowanych &instancow:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_preload_on_startup)
-#: konqueror_ui.ui:91
+#: konqueror_ui.ui:71
 msgid "Preload an instance after KDE startup"
 msgstr "Instancu po startowanju KDE začitać"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_always_have_preloaded)
-#: konqueror_ui.ui:98
+#: konqueror_ui.ui:78
 msgid "Always try to have at least one preloaded instance"
 msgstr "Přeco znajmjeńša jednu začitanu instancu měć"
 
@@ -192,3 +140,46 @@ msgid ""
 msgstr ""
 "Tuta opcija móže w rědkich padach problemy zawinić. Hladajće do \"Što to je?"
 "\" (Wulkopis+F1) po nadrobnosće."
+
+#~ msgid ""
+#~ "Disables the minimization of memory usage and allows you to make each "
+#~ "browsing activity independent from the others"
+#~ msgstr ""
+#~ "Hasnje minimizowanje wužiwanja pomjatka a Wam dowoli, kóžde browsowanje  "
+#~ "njewotwisne měć wot druhich."
+
+#~ msgid ""
+#~ "<p>With this option activated, only one instance of Konqueror used for "
+#~ "file browsing will exist in the memory of your computer at any moment, no "
+#~ "matter how many file browsing windows you open, thus reducing resource "
+#~ "requirements.</p><p>Be aware that this also means that, if something goes "
+#~ "wrong, all your file browsing windows will be closed simultaneously</p>"
+#~ msgstr ""
+#~ "<p>Z tutej opciju eksistuje jenož jedna instanca Konquerora w pomjatku "
+#~ "Wašeho kompjutera, njehladajo na to, kelko woknow maće wočinjenych, štož "
+#~ "redukuje trěbne resursy.</p><p>To pak tež rěka, zo so wšitke wokna "
+#~ "začinja, hdyž něšto křiwje běži.</p>"
+
+#~ msgid ""
+#~ "<p>With this option activated, only one instance of Konqueror will exist "
+#~ "in the memory of your computer at any moment, no matter how many browsing "
+#~ "windows you open, thus reducing resource requirements.</p><p>Be aware "
+#~ "that this also means that, if something goes wrong, all your browsing "
+#~ "windows will be closed simultaneously.</p>"
+#~ msgstr ""
+#~ "<p>Z tutej opciju eksistuje jenož jedna instanca Konquerora w pomjatku "
+#~ "Wašeho kompjutera, njehladajo na to, kelko woknow maće wočinjenych, štož "
+#~ "redukuje trěbne resursy.</p><p>To pak tež rěka, zo so wšitke wokna "
+#~ "začinja, hdyž něšto křiwje běži.</p>"
+
+#~ msgid "Minimize Memory Usage"
+#~ msgstr "Wužiwanje pomjatka minimizować"
+
+#~ msgid "&Never"
+#~ msgstr "&Ženje"
+
+#~ msgid "For &file browsing only (recommended)"
+#~ msgstr "Za browsowanje &datajow jenož (doporučene)"
+
+#~ msgid "Alwa&ys (use with care)"
+#~ msgstr "Pře&co (kedźbliwje wužiwać)"
