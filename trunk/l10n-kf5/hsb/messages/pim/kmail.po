@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-08 07:41+0000\n"
+"POT-Creation-Date: 2016-11-09 07:13+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -1068,7 +1068,7 @@ msgstr "wjacore šifrowanske kluče za kóždu adresu"
 
 #: src/aboutdata.cpp:364 src/collectionpage/collectionmailinglistpage.cpp:103
 #: src/editor/kmcomposerwin.cpp:2007 src/kmmainwin.cpp:66
-#: src/kmreaderwin.cpp:319 src/kmsystemtray.cpp:69 src/kmsystemtray.cpp:109
+#: src/kmreaderwin.cpp:318 src/kmsystemtray.cpp:69 src/kmsystemtray.cpp:109
 msgid "KMail"
 msgstr "KMail"
 
@@ -3781,12 +3781,12 @@ msgstr "Dodać do adresnika"
 msgid "Contact created successfully"
 msgstr "Powěsće wuspěšnje zničene."
 
-#: src/job/createnewcontactjob.cpp:136 src/kmreaderwin.cpp:851
+#: src/job/createnewcontactjob.cpp:136 src/kmreaderwin.cpp:850
 #, kde-format
 msgid "Contact cannot be stored: %1"
 msgstr ""
 
-#: src/job/createnewcontactjob.cpp:136 src/kmreaderwin.cpp:851
+#: src/job/createnewcontactjob.cpp:136 src/kmreaderwin.cpp:850
 #, fuzzy
 msgid "Failed to store contact"
 msgstr "Přiwěšk: "
@@ -4681,12 +4681,12 @@ msgstr "&Nowy Zapisk..."
 msgid "Load E&xternal References"
 msgstr ""
 
-#: src/kmmainwidget.cpp:3082 src/kmreadermainwin.cpp:393
+#: src/kmmainwidget.cpp:3082 src/kmreadermainwin.cpp:392
 #, fuzzy
 msgid "Copy Message To..."
 msgstr "&Nowa powěsć..."
 
-#: src/kmmainwidget.cpp:3084 src/kmreadermainwin.cpp:406
+#: src/kmmainwidget.cpp:3084 src/kmreadermainwin.cpp:405
 #, fuzzy
 msgid "Move Message To..."
 msgstr "&Nowa powěsć..."
@@ -4794,7 +4794,7 @@ msgstr "&Temu slědować"
 msgid "&Ignore Thread"
 msgstr "Temu &ignorować"
 
-#: src/kmmainwidget.cpp:3201 src/kmreadermainwin.cpp:362
+#: src/kmmainwidget.cpp:3201 src/kmreadermainwin.cpp:361
 msgid "Save A&ttachments..."
 msgstr "&Přiwěški zawěsćić ..."
 
@@ -5099,7 +5099,7 @@ msgid "&Delete Search"
 msgstr "&Zapisk zničić"
 
 #: src/kmmainwidget.cpp:4012 src/kmmainwidget.cpp:4015
-#: src/kmreadermainwin.cpp:365
+#: src/kmreadermainwin.cpp:364
 msgid "&Move to Trash"
 msgstr "Do papjernika &sunyć"
 
@@ -5157,22 +5157,22 @@ msgstr ""
 msgid "Starting..."
 msgstr "Wopisanje"
 
-#: src/kmreadermainwin.cpp:354
+#: src/kmreadermainwin.cpp:353
 #, fuzzy
 msgid "kmail2"
 msgstr "KMail"
 
-#: src/kmreadermainwin.cpp:366
+#: src/kmreadermainwin.cpp:365
 #, fuzzy
 msgctxt "@action:intoolbar Move to Trash"
 msgid "Trash"
 msgstr "&Dalše opcije"
 
-#: src/kmreadermainwin.cpp:367
+#: src/kmreadermainwin.cpp:366
 msgid "Move message to trashcan"
 msgstr "Powěsć do papjernika sunyć"
 
-#: src/kmreadermainwin.cpp:453
+#: src/kmreadermainwin.cpp:452
 #, fuzzy, kde-format
 msgid "Cannot copy item. %1"
 msgstr "Suń powěsće do zapiska"
@@ -5259,75 +5259,70 @@ msgid "Push email (IMAP IDLE)"
 msgstr ""
 
 #: src/kmreaderwin.cpp:286
-#, fuzzy
-msgid "Improved virtual folders"
-msgstr "&Cilowy zapisk:"
-
-#: src/kmreaderwin.cpp:287
 msgid "Improved searches"
 msgstr ""
 
-#: src/kmreaderwin.cpp:288
+#: src/kmreaderwin.cpp:287
 msgid "Support for adding notes (annotations) to mails"
 msgstr ""
 
-#: src/kmreaderwin.cpp:289
-#, fuzzy
-#| msgid "&Trash folder:"
-msgid "Tag folders"
-msgstr "&Papjernik:"
-
-#: src/kmreaderwin.cpp:290
+#: src/kmreaderwin.cpp:288
 msgid "Less GUI freezes, mail checks happen in the background"
 msgstr ""
 
-#: src/kmreaderwin.cpp:291
+#: src/kmreaderwin.cpp:289
 #, fuzzy
 #| msgid "GnuPG support"
 msgid "Plugins support"
 msgstr "Podpěra za GnuPG"
 
-#: src/kmreaderwin.cpp:292
+#: src/kmreaderwin.cpp:290
 msgid "New HTML renderer (QtWebEngine)"
 msgstr ""
 
-#: src/kmreaderwin.cpp:322
+#: src/kmreaderwin.cpp:291
+#, fuzzy
+#| msgid "Confirm &before send"
+msgid "Check Phishing Url added"
+msgstr "So &před pósłanjom prašeć"
+
+#: src/kmreaderwin.cpp:321
 #, fuzzy
 #| msgid "KDE Email Client"
 msgid "The KDE Mail Client"
 msgstr "KDE emailowy program"
 
-#: src/kmreaderwin.cpp:331
+#: src/kmreaderwin.cpp:330
 #, fuzzy
 msgid "Retrieving Folder Contents"
 msgstr "Nastajenje zapiskow"
 
-#: src/kmreaderwin.cpp:332
+#: src/kmreaderwin.cpp:331
 #, fuzzy
 #| msgid "Please wait"
 msgid "Please wait . . ."
 msgstr "Prošu dočakajće"
 
-#: src/kmreaderwin.cpp:339 src/kmreaderwin.cpp:350
+#: src/kmreaderwin.cpp:338 src/kmreaderwin.cpp:349
 #, fuzzy
 #| msgctxt "View->attachments->"
 #| msgid "&Inline"
 msgid "Offline"
 msgstr "&w powěsći"
 
-#: src/kmreaderwin.cpp:341
+#: src/kmreaderwin.cpp:340
 msgid ""
 "KMail is currently in offline mode. Click <a href=\"kmail:goOnline\">here</"
 "a> to go online . . .</p>"
 msgstr ""
 
-#: src/kmreaderwin.cpp:352
+#: src/kmreaderwin.cpp:351
 msgid ""
 "Account is currently in offline mode. Click <a href=\"kmail:goResourceOnline"
 "\">here</a> to go online . . .</p>"
 msgstr ""
 
-#: src/kmreaderwin.cpp:857
+#: src/kmreaderwin.cpp:856
 #, fuzzy
 #| msgid "Messages moved successfully"
 msgid "Contact modified successfully"
@@ -6763,10 +6758,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, mCheckUrl)
 #: src/ui/securitypagegeneraltab.ui:160
-#, fuzzy
-#| msgid "Check &Mail"
-msgid "Check Url"
-msgstr "Pohladaj za &póštu"
+msgid "Check Url With Phishing Google System"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelSend)
 #: src/ui/securitypagemdntab.ui:20
@@ -7381,6 +7374,20 @@ msgstr[0] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 msgstr[1] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 msgstr[2] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
+
+#, fuzzy
+#~ msgid "Improved virtual folders"
+#~ msgstr "&Cilowy zapisk:"
+
+#, fuzzy
+#~| msgid "&Trash folder:"
+#~ msgid "Tag folders"
+#~ msgstr "&Papjernik:"
+
+#, fuzzy
+#~| msgid "Check &Mail"
+#~ msgid "Check Url"
+#~ msgstr "Pohladaj za &póštu"
 
 #, fuzzy
 #~| msgctxt "Corresponds to Folder->Move All Messages to Trash"
