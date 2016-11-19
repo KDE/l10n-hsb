@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-24 06:54+0000\n"
+"POT-Creation-Date: 2016-11-19 20:06+0100\n"
 "PO-Revision-Date: 2005-02-24 17:31+0100\n"
 "Last-Translator: Bianka Šwejdźic <hertn@gmx.de>\n"
 "Language-Team: Hornjoserbšćina\n"
@@ -18,17 +18,19 @@ msgstr ""
 "%100==4 ? 2 : 3;\n"
 
 #: kfinddlg.cpp:49
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Find Files/Folders"
 msgctxt "@title:window"
 msgid "Find Files/Folders"
 msgstr "Dataje/rjadowaki pytać"
 
 #: kfinddlg.cpp:71 kfinddlg.cpp:200
+#, kde-format
 msgctxt "the application is currently idle, there is no active search"
 msgid "Idle."
 msgstr ""
 
+#. i18n as below
 #: kfinddlg.cpp:136 kfinddlg.cpp:239 kfinddlg.cpp:265
 #, fuzzy, kde-format
 msgid "one file found"
@@ -37,113 +39,130 @@ msgstr[0] "Sym jednu dataju namakał."
 msgstr[1] "Sym %1 datajow namakał."
 
 #: kfinddlg.cpp:175
+#, kde-format
 msgid "Searching..."
 msgstr "Pytam hišće..."
 
 #: kfinddlg.cpp:202
+#, kde-format
 msgid "Canceled."
 msgstr ""
 
 #: kfinddlg.cpp:205 kfinddlg.cpp:210 kfinddlg.cpp:216
+#, kde-format
 msgid "Error."
 msgstr "Zmylk"
 
 #: kfinddlg.cpp:206
+#, kde-format
 msgid "Please specify an absolute path in the \"Look in\" box."
 msgstr ""
 
 #: kfinddlg.cpp:211
+#, kde-format
 msgid "Could not find the specified folder."
 msgstr "Njemóžu podaty rjadowak namakać."
 
 #: kfindtreeview.cpp:56
+#, kde-format
 msgid "Read-write"
 msgstr "Čitać-pisać"
 
 #: kfindtreeview.cpp:57
+#, kde-format
 msgid "Read-only"
 msgstr "Jenož čitać"
 
 #: kfindtreeview.cpp:58
+#, kde-format
 msgid "Write-only"
 msgstr "Jenož pisać"
 
 #: kfindtreeview.cpp:59
+#, kde-format
 msgid "Inaccessible"
 msgstr "Žadyn přistup"
 
 #: kfindtreeview.cpp:78
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Name"
 msgctxt "file name column"
 msgid "Name"
 msgstr "Mjeno"
 
 #: kfindtreeview.cpp:80
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "In Subfolder"
 msgctxt "name of the containing folder"
 msgid "In Subfolder"
 msgstr "W podrjadowaku"
 
 #: kfindtreeview.cpp:82
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Size"
 msgctxt "file size column"
 msgid "Size"
 msgstr "Wulkosć"
 
 #: kfindtreeview.cpp:84
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Modified"
 msgctxt "modified date column"
 msgid "Modified"
 msgstr "Změnjene"
 
 #: kfindtreeview.cpp:86
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Permissions"
 msgctxt "file permissions column"
 msgid "Permissions"
 msgstr "Dowolnosć"
 
 #: kfindtreeview.cpp:88
+#, kde-format
 msgctxt "first matching line of the query string in this file"
 msgid "First Matching Line"
 msgstr ""
 
 #: kfindtreeview.cpp:356
+#, kde-format
 msgid "&Open containing folder(s)"
 msgstr ""
 
 #: kfindtreeview.cpp:360
+#, kde-format
 msgid "&Delete"
 msgstr ""
 
 #: kfindtreeview.cpp:364
+#, kde-format
 msgid "&Move to Trash"
 msgstr ""
 
 #: kfindtreeview.cpp:444
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Save Results As"
 msgctxt "@title:window"
 msgid "Save Results As"
 msgstr "Wuslědk składować jako"
 
 #: kfindtreeview.cpp:445
+#, kde-format
 msgid "HTML page"
 msgstr ""
 
 #: kfindtreeview.cpp:445
+#, kde-format
 msgid "Text file"
 msgstr ""
 
 #: kfindtreeview.cpp:465
+#, kde-format
 msgid "Unable to save results."
 msgstr "Njemóžu wuslědk składować"
 
 #: kfindtreeview.cpp:483
+#, kde-format
 msgid "KFind Results File"
 msgstr "KFind-dataja wuslědkow"
 
@@ -155,46 +174,54 @@ msgid "Results were saved to: %1"
 msgstr "Wuslědki su składowane\n"
 
 #: kfindtreeview.cpp:591 kftabdlg.cpp:406
+#, kde-format
 msgid "&Properties"
 msgstr "&Kajkosće"
 
 #: kftabdlg.cpp:78
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "&Named:"
 msgctxt "this is the label for the name textfield"
 msgid "&Named:"
 msgstr "&Mjeno:"
 
 #: kftabdlg.cpp:81
+#, kde-format
 msgid "You can use wildcard matching and \";\" for separating multiple names"
 msgstr "Wy móžeće zastupowace znamješko a \";\" za wjacore mjena wužiwać."
 
 #: kftabdlg.cpp:87
+#, kde-format
 msgid "Look &in:"
 msgstr "&Pytać w:"
 
 #: kftabdlg.cpp:90
+#, kde-format
 msgid "Include &subfolders"
 msgstr "&Podrjadowaki zapřijeć"
 
 #: kftabdlg.cpp:91
+#, kde-format
 msgid "Case s&ensitive search"
 msgstr ""
 
 #: kftabdlg.cpp:92
+#, kde-format
 msgid "&Browse..."
 msgstr "&Wuzwolić..."
 
 #: kftabdlg.cpp:93
+#, kde-format
 msgid "&Use files index"
 msgstr "Datajowy &hesłar wužiwać"
 
 #: kftabdlg.cpp:94
+#, kde-format
 msgid "Show &hidden files"
 msgstr ""
 
 #: kftabdlg.cpp:112
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Enter the filename you are looking for. <br>Alternatives may be "
 #| "separated by a semicolon \";\".<br><br>The filename may contain the "
@@ -223,13 +250,14 @@ msgstr ""
 "sćěhowace zastupowace znamješka wužiwać:<ul><li><b>?</b> za jednotliwe "
 "znamješko</li><li><b>*</b> za žane abo wjacore znamješka</li><li><b>[...]</"
 "b> za kóžde znamješko w spinkomaj</li></ul><br>Přikłady:<ul><li><b>*.kwd;*."
-"txt</b> pyta za wšěmi datajemi, kotrež kónča na .kwd abo .txt.</li><li><b>róž"
-"[ak]</b> namaka \"róža\" a \"róžk\"</li><li><b>Wo?a</b> namaka wšitke "
-"dataje, kotrež započinaja z \"Wo\", kónča na \"a\" a su jenož přez jedne "
-"znamješko dźělene.</li><li><b>Mój dokument.kwd</b> namaka jenož jednu "
+"txt</b> pyta za wšěmi datajemi, kotrež kónča na .kwd abo .txt.</"
+"li><li><b>róž[ak]</b> namaka \"róža\" a \"róžk\"</li><li><b>Wo?a</b> namaka "
+"wšitke dataje, kotrež započinaja z \"Wo\", kónča na \"a\" a su jenož přez "
+"jedne znamješko dźělene.</li><li><b>Mój dokument.kwd</b> namaka jenož jednu "
 "dataju, kiž so runje tak pisa</li></ul></qt>"
 
 #: kftabdlg.cpp:133
+#, kde-format
 msgid ""
 "<qt>This lets you use the files' index created by the <i>slocate</i> package "
 "to speed-up the search; remember to update the index from time to time "
@@ -240,50 +268,59 @@ msgstr ""
 "</qt>"
 
 #: kftabdlg.cpp:179
+#, kde-format
 msgid "Find all files created or &modified:"
 msgstr "Za wšěmi nowymi abo &změnjenymi datajemi pytać:"
 
 #: kftabdlg.cpp:181
+#, kde-format
 msgid "&between"
 msgstr "&mjez"
 
 #: kftabdlg.cpp:183
+#, kde-format
 msgid "and"
 msgstr "a"
 
 #: kftabdlg.cpp:204
+#, kde-format
 msgid "File &size is:"
 msgstr "&Wulkosć dataje:"
 
 #: kftabdlg.cpp:217
+#, kde-format
 msgid "Files owned by &user:"
 msgstr "Dataje wot:"
 
 #: kftabdlg.cpp:222
+#, kde-format
 msgid "Owned by &group:"
 msgstr "Dataje skupiny:"
 
 #: kftabdlg.cpp:225
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "(none)"
 msgctxt "file size isn't considered in the search"
 msgid "(none)"
 msgstr "(žane)"
 
 #: kftabdlg.cpp:226
+#, kde-format
 msgid "At Least"
 msgstr "znajmjeńša"
 
 #: kftabdlg.cpp:227
+#, kde-format
 msgid "At Most"
 msgstr ""
 
 #: kftabdlg.cpp:228
+#, kde-format
 msgid "Equal To"
 msgstr "Runja"
 
 #: kftabdlg.cpp:230 kftabdlg.cpp:903
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Bytes"
 msgid "Byte"
 msgid_plural "Bytes"
@@ -293,33 +330,36 @@ msgstr[2] "Byte"
 msgstr[3] "Byte"
 
 #: kftabdlg.cpp:231
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "KB"
 msgid "KiB"
 msgstr "KB"
 
 #: kftabdlg.cpp:232
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "MB"
 msgid "MiB"
 msgstr "MB"
 
 #: kftabdlg.cpp:233
+#, kde-format
 msgid "GiB"
 msgstr ""
 
 #: kftabdlg.cpp:300
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "File &type:"
 msgctxt "label for the file type combobox"
 msgid "File &type:"
 msgstr "Datajowy &typ:"
 
 #: kftabdlg.cpp:305
+#, kde-format
 msgid "C&ontaining text:"
 msgstr "&Wobsah:"
 
 #: kftabdlg.cpp:311
+#, kde-format
 msgid ""
 "<qt>If specified, only files that contain this text are found. Note that not "
 "all file types from the list above are supported. Please refer to the "
@@ -330,18 +370,22 @@ msgstr ""
 "pohladajće we dokumentaciji, kotre typy so za pytanje hodźa.</qt>"
 
 #: kftabdlg.cpp:319
+#, kde-format
 msgid "Case s&ensitive"
 msgstr ""
 
 #: kftabdlg.cpp:320
+#, kde-format
 msgid "Include &binary files"
 msgstr ""
 
 #: kftabdlg.cpp:321
+#, kde-format
 msgid "Regular e&xpression"
 msgstr ""
 
 #: kftabdlg.cpp:324
+#, kde-format
 msgid ""
 "<qt>This lets you search in any type of file, even those that usually do not "
 "contain text (for example program files and images).</qt>"
@@ -350,74 +394,86 @@ msgstr ""
 "teksty njewobsahuja (na př. programowe dataje a wobrazy).</qt>"
 
 #: kftabdlg.cpp:332
+#, kde-format
 msgid "&Edit..."
 msgstr "&Wobdźěłać..."
 
 #: kftabdlg.cpp:338
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "fo&r:"
 msgctxt "as in search for"
 msgid "fo&r:"
 msgstr "&za:"
 
 #: kftabdlg.cpp:340
+#, kde-format
 msgid "Search &metainfo sections:"
 msgstr ""
 
 #: kftabdlg.cpp:344
+#, kde-format
 msgid "All Files & Folders"
 msgstr "Wšě dataje a rjadowaki"
 
 #: kftabdlg.cpp:345
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Files"
 msgstr "Rjadowaki"
 
 #: kftabdlg.cpp:346
+#, kde-format
 msgid "Folders"
 msgstr "Rjadowaki"
 
 #: kftabdlg.cpp:347
+#, kde-format
 msgid "Symbolic Links"
 msgstr ""
 
 #: kftabdlg.cpp:348
+#, kde-format
 msgid "Special Files (Sockets, Device Files, ...)"
 msgstr ""
 
 #: kftabdlg.cpp:349
+#, kde-format
 msgid "Executable Files"
 msgstr ""
 
 #: kftabdlg.cpp:350
+#, kde-format
 msgid "SUID Executable Files"
 msgstr ""
 
 #: kftabdlg.cpp:351
+#, kde-format
 msgid "All Images"
 msgstr "Wšě wobrazy"
 
 #: kftabdlg.cpp:352
+#, kde-format
 msgid "All Video"
 msgstr "Wšě wideowe dataje"
 
 #: kftabdlg.cpp:353
+#, kde-format
 msgid "All Sounds"
 msgstr "Wšitke zwukowe dataje"
 
 #: kftabdlg.cpp:404
+#, kde-format
 msgid "Name/&Location"
 msgstr "Mjeno/&Šćežka"
 
 #: kftabdlg.cpp:405
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "C&ontents"
 msgctxt "tab name: search by contents"
 msgid "C&ontents"
 msgstr "&Wobsah"
 
 #: kftabdlg.cpp:411
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "<qt>If specified, search only in this field<br><ul><li><b>Audio files "
 #| "(mp3...)</b> This can be Title, Album...</li><li><b>Images (png...)</b> "
@@ -434,7 +490,7 @@ msgstr ""
 "rozpušćenju, sylnosći barbow atd.</li></ul></qt>"
 
 #: kftabdlg.cpp:419
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "<qt>If specified, search only in this field<br><ul><li><b>Audio files "
 #| "(mp3...)</b> This can be Title, Album...</li><li><b>Images (png...)</b> "
@@ -450,40 +506,47 @@ msgstr ""
 "rozpušćenju, sylnosći barbow atd.</li></ul></qt>"
 
 #: kftabdlg.cpp:612
+#, kde-format
 msgid "Unable to search within a period which is less than a minute."
 msgstr ""
 
 #: kftabdlg.cpp:623
+#, kde-format
 msgid "The date is not valid."
 msgstr "Datum njeje płaćiwy."
 
 #: kftabdlg.cpp:625
+#, kde-format
 msgid "Invalid date range."
 msgstr "Wobłuk datuma njeje płaćiwy."
 
 #: kftabdlg.cpp:627
+#, kde-format
 msgid "Unable to search dates in the future."
 msgstr "Ja njemóžu za datumom pytać, kiž njeje ze zašłosće."
 
 #: kftabdlg.cpp:692
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Size is too big. Set maximum size value?"
 msgstr "To je mi přewjele. Podajće prošu maksimalnu wulkosć."
 
 #: kftabdlg.cpp:692
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Error"
 msgstr "Zmylk"
 
 #: kftabdlg.cpp:692
+#, kde-format
 msgid "Set"
 msgstr ""
 
 #: kftabdlg.cpp:692
+#, kde-format
 msgid "Do Not Set"
 msgstr ""
 
 #: kftabdlg.cpp:893
+#, kde-format
 msgctxt ""
 "during the previous minute(s)/hour(s)/...; dynamic context 'type': 'i' "
 "minutes, 'h' hours, 'd' days, 'm' months, 'y' years"
@@ -495,7 +558,7 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: kftabdlg.cpp:894
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "minute(s)"
 msgctxt "use date ranges to search files by modified time"
 msgid "minute"
@@ -506,7 +569,7 @@ msgstr[2] "minuta (minuće, minuty, minutow)"
 msgstr[3] "minuta (minuće, minuty, minutow)"
 
 #: kftabdlg.cpp:895
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "hour(s)"
 msgctxt "use date ranges to search files by modified time"
 msgid "hour"
@@ -517,7 +580,7 @@ msgstr[2] "hodźina (hodźinje, hodźiny, hodźin)"
 msgstr[3] "hodźina (hodźinje, hodźiny, hodźin)"
 
 #: kftabdlg.cpp:896
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "day(s)"
 msgctxt "use date ranges to search files by modified time"
 msgid "day"
@@ -528,7 +591,7 @@ msgstr[2] "dźeń (dnjej, dny, dnjow)"
 msgstr[3] "dźeń (dnjej, dny, dnjow)"
 
 #: kftabdlg.cpp:897
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "month(s)"
 msgctxt "use date ranges to search files by modified time"
 msgid "month"
@@ -539,7 +602,7 @@ msgstr[2] "měsac (měsacaj, měsacy, měsacow)"
 msgstr[3] "měsac (měsacaj, měsacy, měsacow)"
 
 #: kftabdlg.cpp:898
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "year(s)"
 msgctxt "use date ranges to search files by modified time"
 msgid "year"
@@ -550,121 +613,147 @@ msgstr[2] "lěto (lěće, lěta, lět)"
 msgstr[3] "lěto (lěće, lěta, lět)"
 
 #: kquery.cpp:555
+#, kde-format
 msgctxt "@title:window"
 msgid "Error while using locate"
 msgstr ""
 
 #: main.cpp:42
+#, kde-format
 msgid "KFind"
 msgstr "KFind"
 
 #: main.cpp:43
+#, kde-format
 msgid "KDE file find utility"
 msgstr "KDE-program za pytanje datajow"
 
 #: main.cpp:44
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "(c) 1998-2003, The KDE Developers"
 msgid "(c) 1998-2016, The KDE Developers"
 msgstr "(c) 1998-2003, KDE-wuwiwarjo"
 
 #: main.cpp:46
+#, kde-format
 msgid "Kai-Uwe Broulik"
 msgstr ""
 
 #: main.cpp:46
+#, kde-format
 msgid "Current Maintainer"
 msgstr "Tuchwilny hladaćel"
 
 #: main.cpp:47
+#, kde-format
 msgid "Eric Coquelle"
 msgstr ""
 
 #: main.cpp:47
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Current Maintainer"
 msgid "Former Maintainer"
 msgstr "Tuchwilny hladaćel"
 
 #: main.cpp:48
+#, kde-format
 msgid "Mark W. Webb"
 msgstr ""
 
 #: main.cpp:48
+#, kde-format
 msgid "Developer"
 msgstr "Wuwiwar"
 
 #: main.cpp:49
+#, kde-format
 msgid "Beppe Grimaldi"
 msgstr ""
 
 #: main.cpp:49
+#, kde-format
 msgid "UI Design & more search options"
 msgstr "UI-wuhotowanje & přidatne pytanje"
 
 #: main.cpp:50
+#, kde-format
 msgid "Martin Hartig"
 msgstr ""
 
 #: main.cpp:51
+#, kde-format
 msgid "Stephan Kulow"
 msgstr ""
 
 #: main.cpp:52
+#, kde-format
 msgid "Mario Weilguni"
 msgstr ""
 
 #: main.cpp:53
+#, kde-format
 msgid "Alex Zepeda"
 msgstr ""
 
 #: main.cpp:54
+#, kde-format
 msgid "Miroslav Flídr"
 msgstr ""
 
 #: main.cpp:55
+#, kde-format
 msgid "Harri Porten"
 msgstr ""
 
 #: main.cpp:56
+#, kde-format
 msgid "Dima Rogozin"
 msgstr ""
 
 #: main.cpp:57
+#, kde-format
 msgid "Carsten Pfeiffer"
 msgstr ""
 
 #: main.cpp:58
+#, kde-format
 msgid "Hans Petter Bieker"
 msgstr ""
 
 #: main.cpp:59
+#, kde-format
 msgid "Waldo Bastian"
 msgstr ""
 
 #: main.cpp:59
+#, kde-format
 msgid "UI Design"
 msgstr "UI-wuhotowanje"
 
 #: main.cpp:60
+#, kde-format
 msgid "Alexander Neundorf"
 msgstr ""
 
 #: main.cpp:61
+#, kde-format
 msgid "Clarence Dang"
 msgstr ""
 
 #: main.cpp:62
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
 #: main.cpp:62
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
 #: main.cpp:70
+#, kde-format
 msgid "Path(s) to search"
 msgstr "Rjadowaki, kiž maja so přepytać"
 
