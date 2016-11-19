@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-05 11:50+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2008-11-15 00:05+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -18,27 +18,31 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Edward Wornar"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "edi.werner@gmx.de"
 
 #. i18n: ectx: property (text), widget (QLabel)
 #: nosmartcardbase.ui:24
+#, kde-format
 msgid "<b>Unable to contact the KDE smartcard service.</b>"
 msgstr "<b>Njemóžu so z KDE smartcard-słužbu skontaktować.</b>"
 
 #. i18n: ectx: property (title), widget (QGroupBox)
 #: nosmartcardbase.ui:35
+#, kde-format
 msgid "Possible Reasons"
 msgstr "Móžnej přičinje"
 
 #. i18n: ectx: property (text), widget (QLabel)
 #: nosmartcardbase.ui:49
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "\n"
 #| "1) The KDE daemon, 'kded' is not running. You can restart it by running "
@@ -65,54 +69,67 @@ msgstr ""
 "z libpcsclite."
 
 #: smartcard.cpp:65
+#, kde-format
 msgid "kcmsmartcard"
 msgstr "kcmsmartcard"
 
 #: smartcard.cpp:65
+#, kde-format
 msgid "KDE Smartcard Control Module"
 msgstr "KDE kontrolny modul za smartcards"
 
 #: smartcard.cpp:67
+#, kde-format
 msgid "(c) 2001 George Staikos"
 msgstr "(c) 2001 George Staikos"
 
 #: smartcard.cpp:69
+#, kde-format
 msgid "George Staikos"
 msgstr "George Staikos"
 
 #: smartcard.cpp:79
+#, kde-format
 msgid "Change Module..."
 msgstr "Modul změnić..."
 
 #: smartcard.cpp:134
+#, kde-format
 msgid "Unable to launch KCardChooser"
 msgstr "Njemóžu KCardChooser startować"
 
 #: smartcard.cpp:183
+#, kde-format
 msgid "No card inserted"
 msgstr "Žana karta njeje zasunjena"
 
 #: smartcard.cpp:224
+#, kde-format
 msgid "Smart card support disabled"
 msgstr "Žana podpěra za smartcards"
 
 #: smartcard.cpp:235
+#, kde-format
 msgid "No readers found. Check 'pcscd' is running"
 msgstr "Žane čitadła. Přepruwujće, hač 'pcscd' běži."
 
 #: smartcard.cpp:260 smartcard.cpp:280
+#, kde-format
 msgid "NO ATR or no card inserted"
 msgstr "Žadyn ATR abo žana karta njeje zasunjena"
 
 #: smartcard.cpp:292
+#, kde-format
 msgid "Managed by: "
 msgstr "Rjadowane wot:"
 
 #: smartcard.cpp:302
+#, kde-format
 msgid "No module managing this card"
 msgstr "Žadyn modul tutu kartu njerjaduje"
 
 #: smartcard.cpp:395
+#, kde-format
 msgid ""
 "<h1>smartcard</h1> This module allows you to configure KDE support for "
 "smartcards. These can be used for various tasks such as storing SSL "
@@ -124,21 +141,25 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget)
 #: smartcardbase.ui:31
+#, kde-format
 msgid "Smartcard Support"
 msgstr "Podpěra za smartcards"
 
 #. i18n: ectx: property (text), widget (QCheckBox)
 #: smartcardbase.ui:42
+#, kde-format
 msgid "&Enable smartcard support"
 msgstr "Podpěru za smartcards k dispoziciji stajić"
 
 #. i18n: ectx: property (text), widget (QCheckBox)
 #: smartcardbase.ui:61
+#, kde-format
 msgid "Enable &polling to autodetect card events"
 msgstr "&Polling wužiwać za awtomatiske zwěsćenje smartcardow"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
 #: smartcardbase.ui:64
+#, kde-format
 msgid ""
 "In most cases you should have this enabled. It allows KDE to automatically "
 "detect card insertion and reader hotplug events."
@@ -148,6 +169,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox)
 #: smartcardbase.ui:92
+#, kde-format
 msgid "Automatically &launch card manager if inserted card is unclaimed"
 msgstr ""
 "Awtomatisce &kartowy rjadowar startować, hdyž zasunjenu kartu hewak nichtó "
@@ -155,6 +177,7 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
 #: smartcardbase.ui:95
+#, kde-format
 msgid ""
 "When you insert a smartcard, KDE can automatically launch a management tool "
 "if no other application attempts to use the card."
@@ -164,41 +187,49 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox)
 #: smartcardbase.ui:106
+#, kde-format
 msgid "&Beep on card insert and removal"
 msgstr "&Piwčeć, hdyž so karta zasunje abo wućehnje"
 
 #. i18n: ectx: attribute (title), widget (QWidget)
 #: smartcardbase.ui:135
+#, kde-format
 msgid "Readers"
 msgstr "Čitadła"
 
 #. i18n: ectx: property (text), widget (K3ListView)
 #: smartcardbase.ui:152
+#, kde-format
 msgid "Reader"
 msgstr "Čitadło"
 
 #. i18n: ectx: property (text), widget (K3ListView)
 #: smartcardbase.ui:163
+#, kde-format
 msgid "Type"
 msgstr "Družina"
 
 #. i18n: ectx: property (text), widget (K3ListView)
 #: smartcardbase.ui:174
+#, kde-format
 msgid "Subtype"
 msgstr "Poddružina"
 
 #. i18n: ectx: property (text), widget (K3ListView)
 #: smartcardbase.ui:185
+#, kde-format
 msgid "SubSubtype"
 msgstr "Podpoddružina"
 
 #. i18n: ectx: property (title), widget (QGroupBox)
 #: smartcardbase.ui:228
+#, kde-format
 msgid "PCSCLite Configuration"
 msgstr "PCSCLite - připrawjenje"
 
 #. i18n: ectx: property (text), widget (QLabel)
 #: smartcardbase.ui:251
+#, kde-format
 msgid ""
 "To add new readers you have to modify /etc/readers.conf file and re-start "
 "pcscd"
