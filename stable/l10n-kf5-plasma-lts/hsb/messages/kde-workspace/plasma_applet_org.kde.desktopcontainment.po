@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-11 08:15+0100\n"
+"POT-Creation-Date: 2017-02-12 07:49+0100\n"
 "PO-Revision-Date: 2008-11-13 01:06+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -30,7 +30,7 @@ msgstr "Městno"
 
 #: package/contents/config/config.qml:36
 #: package/contents/ui/ConfigIcons.qml:252
-#: package/contents/ui/FolderViewLayer.qml:342
+#: package/contents/ui/FolderViewLayer.qml:340
 msgid "Icons"
 msgstr "piktogramy"
 
@@ -57,10 +57,6 @@ msgstr ""
 
 #: package/contents/ui/AppletHandle.qml:312
 msgid "Remove"
-msgstr ""
-
-#: package/contents/ui/BackButtonItem.qml:105
-msgid "Back"
 msgstr ""
 
 #: package/contents/ui/ConfigFilter.qml:53
@@ -334,23 +330,29 @@ msgstr ""
 msgid "Enter custom title here"
 msgstr ""
 
-#: package/contents/ui/ConfigTweaks.qml:42
+#: package/contents/ui/ConfigTweaks.qml:44
+msgid ""
+"Tweaks are experimental options that may become defaults depending on your "
+"feedback."
+msgstr ""
+
+#: package/contents/ui/ConfigTweaks.qml:50
 #, fuzzy
 #| msgid "Desktop Folder"
 msgid "Desktop Layout"
 msgstr "Zapisk na dźěłowym powjerchu"
 
-#: package/contents/ui/ConfigTweaks.qml:51
+#: package/contents/ui/ConfigTweaks.qml:59
 #, fuzzy
 #| msgid "Desktop Folder"
 msgid "Show the desktop toolbox"
 msgstr "Zapisk na dźěłowym powjerchu"
 
-#: package/contents/ui/ConfigTweaks.qml:59
+#: package/contents/ui/ConfigTweaks.qml:67
 msgid "Widget Handling"
 msgstr ""
 
-#: package/contents/ui/ConfigTweaks.qml:69
+#: package/contents/ui/ConfigTweaks.qml:77
 msgid "Press and hold widgets to move them and reveal their handles"
 msgstr ""
 
@@ -386,64 +388,168 @@ msgstr ""
 msgid "Configure Desktop"
 msgstr "&Dźěłowy powjerch aktualizować"
 
+#: package/contents/ui/UpButtonItem.qml:105
+msgid "Up"
+msgstr ""
+
 #: plugins/folder/directorypicker.cpp:45
 #, fuzzy, kde-format
 #| msgid "Desktop Folder"
 msgid "Select Folder"
 msgstr "Zapisk na dźěłowym powjerchu"
 
-#: plugins/folder/foldermodel.cpp:254
+#: plugins/folder/foldermodel.cpp:250
 #, kde-format
 msgid "&Refresh Desktop"
 msgstr "&Dźěłowy powjerch aktualizować"
 
-#: plugins/folder/foldermodel.cpp:254 plugins/folder/foldermodel.cpp:1239
+#: plugins/folder/foldermodel.cpp:250 plugins/folder/foldermodel.cpp:1195
 #, kde-format
 msgid "&Refresh View"
 msgstr "&Napohlad aktualizować"
 
-#: plugins/folder/foldermodel.cpp:1236
+#: plugins/folder/foldermodel.cpp:1192
 #, kde-format
 msgid "&Reload"
 msgstr "&Znowa začitać"
 
-#: plugins/folder/foldermodel.cpp:1242
+#: plugins/folder/foldermodel.cpp:1198
 #, kde-format
 msgid "&Rename"
 msgstr "&Hinak pomjenować"
 
-#: plugins/folder/foldermodel.cpp:1245
+#: plugins/folder/foldermodel.cpp:1201
 #, kde-format
 msgid "&Move to Trash"
 msgstr "&Do papjernika přesunyć"
 
-#: plugins/folder/foldermodel.cpp:1248
+#: plugins/folder/foldermodel.cpp:1204
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:334
 #, kde-format
 msgid "&Empty Trash Bin"
 msgstr "Papj&ernik wuprózdnić"
 
-#: plugins/folder/foldermodel.cpp:1251
-#, kde-format
-msgctxt "Restore from trash"
-msgid "Restore"
-msgstr ""
-
-#: plugins/folder/foldermodel.cpp:1254
+#: plugins/folder/foldermodel.cpp:1207
 #, kde-format
 msgid "&Delete"
 msgstr "Z&ničić"
 
-#: plugins/folder/foldermodel.cpp:1257
-#, kde-format
-msgid "&Open"
-msgstr "W&očinić"
-
-#: plugins/folder/foldermodel.cpp:1327
+#: plugins/folder/foldermodel.cpp:1267
 #, kde-format
 msgid "&Paste"
 msgstr "&Zasunyć"
 
-#: plugins/folder/foldermodel.cpp:1449
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:84
+#, fuzzy, kde-format
+#| msgid "&Copy Here"
+msgctxt "@title:menu"
+msgid "Copy To"
+msgstr "Sem &kopěrować"
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:90
+#, fuzzy, kde-format
+#| msgid "Move to Trash"
+msgctxt "@title:menu"
+msgid "Move To"
+msgstr "Do papjernika ćisnyć"
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:114
+#, fuzzy, kde-format
+#| msgid "Desktop Folder"
+msgctxt "@title:menu"
+msgid "Home Folder"
+msgstr "Zapisk na dźěłowym powjerchu"
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:121
+#, fuzzy, kde-format
+#| msgid "Desktop Folder"
+msgctxt "@title:menu"
+msgid "Root Folder"
+msgstr "Zapisk na dźěłowym powjerchu"
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:156
+#, kde-format
+msgctxt "@title:menu in Copy To or Move To submenu"
+msgid "Browse..."
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:229
+#, fuzzy, kde-format
+#| msgid "&Copy Here"
+msgctxt "@title:menu"
+msgid "Copy Here"
+msgstr "Sem &kopěrować"
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:230
+#, fuzzy, kde-format
+#| msgid "&Move Here"
+msgctxt "@title:menu"
+msgid "Move Here"
+msgstr "&Sem přesunyć"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:241
+#, kde-format
+msgid "&Open"
+msgstr "W&očinić"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:264
+#, kde-format
+msgid "Create &Folder..."
+msgstr "Za&pisk stworić ..."
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:275
+#, kde-format
+msgid "&Restore"
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:299
+#, kde-format
+msgid "Show Original Directory"
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:299
+#, kde-format
+msgid "Show Original File"
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:346
+#, fuzzy, kde-format
+#| msgid "&Empty Trash Bin"
+msgid "&Configure Trash Bin"
+msgstr "Papj&ernik wuprózdnić"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:370
+#, kde-format
+msgid "&Bookmark This Page"
+msgstr "&Dodaj tutu stronu k lubuškam"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:372
+#, kde-format
+msgid "&Bookmark This Location"
+msgstr "&Dodaj tute městno k lubuškam"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:375
+#, kde-format
+msgid "&Bookmark This Folder"
+msgstr "&Dodaj tutón zapisk k lubuškam"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:377
+#, kde-format
+msgid "&Bookmark This Link"
+msgstr "&Dodaj tutón wotkaz k lubuškam"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:379
+#, kde-format
+msgid "&Bookmark This File"
+msgstr "&Dodaj tutu dataju k lubuškam"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:413
+#, fuzzy, kde-format
+#| msgid "Show previews"
+msgid "Preview In"
+msgstr "Přehladki pokazać"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:448
 #, kde-format
 msgid "&Properties"
 msgstr "&Swójstwa"
@@ -507,70 +613,6 @@ msgstr ""
 #, kde-format
 msgid "Locked"
 msgstr ""
-
-#, fuzzy
-#~| msgid "&Copy Here"
-#~ msgctxt "@title:menu"
-#~ msgid "Copy To"
-#~ msgstr "Sem &kopěrować"
-
-#, fuzzy
-#~| msgid "Move to Trash"
-#~ msgctxt "@title:menu"
-#~ msgid "Move To"
-#~ msgstr "Do papjernika ćisnyć"
-
-#, fuzzy
-#~| msgid "Desktop Folder"
-#~ msgctxt "@title:menu"
-#~ msgid "Home Folder"
-#~ msgstr "Zapisk na dźěłowym powjerchu"
-
-#, fuzzy
-#~| msgid "Desktop Folder"
-#~ msgctxt "@title:menu"
-#~ msgid "Root Folder"
-#~ msgstr "Zapisk na dźěłowym powjerchu"
-
-#, fuzzy
-#~| msgid "&Copy Here"
-#~ msgctxt "@title:menu"
-#~ msgid "Copy Here"
-#~ msgstr "Sem &kopěrować"
-
-#, fuzzy
-#~| msgid "&Move Here"
-#~ msgctxt "@title:menu"
-#~ msgid "Move Here"
-#~ msgstr "&Sem přesunyć"
-
-#~ msgid "Create &Folder..."
-#~ msgstr "Za&pisk stworić ..."
-
-#, fuzzy
-#~| msgid "&Empty Trash Bin"
-#~ msgid "&Configure Trash Bin"
-#~ msgstr "Papj&ernik wuprózdnić"
-
-#~ msgid "&Bookmark This Page"
-#~ msgstr "&Dodaj tutu stronu k lubuškam"
-
-#~ msgid "&Bookmark This Location"
-#~ msgstr "&Dodaj tute městno k lubuškam"
-
-#~ msgid "&Bookmark This Folder"
-#~ msgstr "&Dodaj tutón zapisk k lubuškam"
-
-#~ msgid "&Bookmark This Link"
-#~ msgstr "&Dodaj tutón wotkaz k lubuškam"
-
-#~ msgid "&Bookmark This File"
-#~ msgstr "&Dodaj tutu dataju k lubuškam"
-
-#, fuzzy
-#~| msgid "Show previews"
-#~ msgid "Preview In"
-#~ msgstr "Přehladki pokazać"
 
 #~ msgid "Share"
 #~ msgstr "Dźělić"
