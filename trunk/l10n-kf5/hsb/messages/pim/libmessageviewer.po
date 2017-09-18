@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-09-15 03:37+0200\n"
+"POT-Creation-Date: 2017-09-18 03:31+0200\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -155,22 +155,19 @@ msgid "End of encrypted message"
 msgstr "Kónc šifrowaneje powěsće"
 
 #: messagepartthemes/default/templates/htmlmessagepart.html:5 html.cpp:26
-msgctxt "@info"
 msgid ""
-"<emphasis strong='true'>Note:</emphasis> This is an HTML message. For "
-"security reasons, only the raw HTML code is shown. If you trust the sender "
-"of this message then you can activate formatted HTML display for this "
-"message <link url='kmail:showHTML'>by clicking here</link>."
+"<b>Note:</b> This is an HTML message. For security reasons, only the raw "
+"HTML code is shown. If you trust the sender of this message then you can "
+"activate formatted HTML display for this message <a href='kmail:showHTML'>by "
+"clicking here</a>."
 msgstr ""
 
 #: messagepartthemes/default/templates/htmlmessagepart.html:7 html.cpp:28
-msgctxt "@info"
 msgid ""
-"<emphasis strong='true'>Note:</emphasis> This HTML message may contain "
-"external references to images etc. For security/privacy reasons external "
-"references are not loaded. If you trust the sender of this message then you "
-"can load the external references for this message <link url='kmail:"
-"loadExternal'>by clicking here</link>."
+"<b>Note:</b> This HTML message may contain external references to images "
+"etc. For security/privacy reasons external references are not loaded. If you "
+"trust the sender of this message then you can load the external references "
+"for this message <a href='kmail:loadExternal'>by clicking here</a>."
 msgstr ""
 
 #: messagepartthemes/default/templates/signedmessagepart.html:5 html.cpp:52
@@ -295,8 +292,7 @@ msgstr "Njedosahaca informacija za přepruwowanje podpisma. %1"
 
 #: messagepartthemes/default/templates/signedmessagepart.html:144 html.cpp:112
 #, kde-format
-msgctxt "@info"
-msgid "Signed by <link url='mailto:%1'>%1</link>."
+msgid "Signed by <a href='mailto:%1'>%1</a>."
 msgstr ""
 
 #: messagepartthemes/default/templates/signedmessagepart.html:147 html.cpp:114
@@ -642,36 +638,36 @@ msgstr "Jedyn kluč je zestarjeny."
 msgid "Bad signature."
 msgstr "Signatura w porjadku."
 
-#: messagepartthemes/default/defaultrenderer.cpp:732
-#: messagepartthemes/default/defaultrenderer.cpp:734
+#: messagepartthemes/default/defaultrenderer.cpp:759
+#: messagepartthemes/default/defaultrenderer.cpp:761
 #, fuzzy, kde-format
 msgid "certificate"
 msgstr "Certifikaty"
 
-#: messagepartthemes/default/defaultrenderer.cpp:741
-#: messagepartthemes/default/defaultrenderer.cpp:770
+#: messagepartthemes/default/defaultrenderer.cpp:768
+#: messagepartthemes/default/defaultrenderer.cpp:797
 #, fuzzy, kde-format
 #| msgid "Warning:"
 msgctxt "Start of warning message."
 msgid "Warning:"
 msgstr "Kedźbu:"
 
-#: messagepartthemes/default/defaultrenderer.cpp:744
+#: messagepartthemes/default/defaultrenderer.cpp:771
 #, kde-format
 msgid "Sender's mail address is not stored in the %1 used for signing."
 msgstr "Adresa wotpósłarja njeje so zawěsćiła w '%1',, z čimž bu podpisane."
 
-#: messagepartthemes/default/defaultrenderer.cpp:747
+#: messagepartthemes/default/defaultrenderer.cpp:774
 #, kde-format
 msgid "sender: "
 msgstr "wotpósłar: "
 
-#: messagepartthemes/default/defaultrenderer.cpp:750
+#: messagepartthemes/default/defaultrenderer.cpp:777
 #, kde-format
 msgid "stored: "
 msgstr "zawěsćene: "
 
-#: messagepartthemes/default/defaultrenderer.cpp:772
+#: messagepartthemes/default/defaultrenderer.cpp:799
 #, fuzzy, kde-format
 msgid ""
 "No mail address is stored in the %1 used for signing, so we cannot compare "
@@ -1442,18 +1438,6 @@ msgstr "družina"
 msgid "Size"
 msgstr "Wulkosć"
 
-#: viewer/pluginloaderbase.cpp:102
-#, fuzzy, kde-format
-#| msgid "Unread Column"
-msgid "Unnamed plugin"
-msgstr "Špalta \"nječitane\""
-
-#: viewer/pluginloaderbase.cpp:109
-#, fuzzy, kde-format
-#| msgid "Not available"
-msgid "No description available"
-msgstr "Njesteji k dispoziciji"
-
 #: viewer/urlhandlermanager.cpp:676
 #, kde-format
 msgid "Turn on HTML rendering for this message."
@@ -2134,6 +2118,16 @@ msgstr "Přichod&na powěsć"
 #, fuzzy, kde-format
 msgid "&Previous Card"
 msgstr "&Prjedawša powěsć"
+
+#, fuzzy
+#~| msgid "Unread Column"
+#~ msgid "Unnamed plugin"
+#~ msgstr "Špalta \"nječitane\""
+
+#, fuzzy
+#~| msgid "Not available"
+#~ msgid "No description available"
+#~ msgstr "Njesteji k dispoziciji"
 
 #, fuzzy
 #~ msgid "Reply"
