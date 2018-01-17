@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-01-16 03:17+0100\n"
+"POT-Creation-Date: 2018-01-17 03:25+0100\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -3828,7 +3828,7 @@ msgstr "&Stare zwumjetać"
 msgid "Empty Trash"
 msgstr "Papjernik wuprózdnić"
 
-#: kmmainwidget.cpp:1459
+#: kmmainwidget.cpp:1459 kmmainwidget.cpp:3964
 #, kde-format
 msgid "Move to Trash"
 msgstr "Do papjernika sunyć"
@@ -4118,7 +4118,7 @@ msgstr "Powěsće zničić"
 msgid "Followup Reminder Messages..."
 msgstr "Powěsće &namakać ..."
 
-#: kmmainwidget.cpp:2896 kmmainwidget.cpp:3961 kmmainwidget.cpp:3964
+#: kmmainwidget.cpp:2896 kmmainwidget.cpp:3961
 #, fuzzy, kde-format
 msgctxt "@action Hard delete, bypassing trash"
 msgid "&Delete"
@@ -4655,10 +4655,16 @@ msgstr "&Wšitke powěsće do papjernika sunyć"
 msgid "&Delete Search"
 msgstr "&Zapisk zničić"
 
-#: kmmainwidget.cpp:3961 kmmainwidget.cpp:3964 kmreadermainwin.cpp:340
+#: kmmainwidget.cpp:3961 kmreadermainwin.cpp:340
 #, kde-format
 msgid "&Move to Trash"
 msgstr "Do papjernika &sunyć"
+
+#: kmmainwidget.cpp:3964
+#, fuzzy, kde-format
+msgctxt "@action Hard delete, bypassing trash"
+msgid "Delete"
+msgstr "Z&ničić"
 
 #: kmmainwidget.cpp:3969
 #, fuzzy, kde-format
@@ -7179,10 +7185,6 @@ msgstr[3] "Awtomatiske wotmołwy njepřitomnosće wobdźěłać..."
 #~| msgid "&Attach File..."
 #~ msgid "Archive now"
 #~ msgstr "&Dodaj dataju..."
-
-#, fuzzy
-#~ msgid "Delete"
-#~ msgstr "Z&ničić"
 
 #, fuzzy
 #~| msgid "Folder"
