@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmfonts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-10-20 03:10+0200\n"
+"POT-Creation-Date: 2018-01-24 03:35+0100\n"
 "PO-Revision-Date: 2008-11-13 22:12+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -16,211 +16,17 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
-#: fonts.cpp:236
 #, kde-format
-msgid "Configure Anti-Alias Settings"
-msgstr "Nastajenja za anti-alias"
-
-#: fonts.cpp:243
-#, kde-format
-msgid "E&xclude range:"
-msgstr "Wobłuk &wuwostajić:"
-
-#: fonts.cpp:251 fonts.cpp:262
-#, fuzzy, kde-format
-#| msgid " pt"
-msgctxt "abbreviation for unit of points"
-msgid " pt"
-msgstr " pt"
-
-#: fonts.cpp:254
-#, kde-format
-msgid " to "
-msgstr " do "
-
-#: fonts.cpp:267
-#, kde-format
-msgid ""
-"<p>If you have a TFT or LCD screen you can further improve the quality of "
-"displayed fonts by selecting this option.<br />Sub-pixel rendering is also "
-"known as ClearType(tm).<br /> In order for sub-pixel rendering to work "
-"correctly you need to know how the sub-pixels of your display are aligned.</"
-"p> <p>On TFT or LCD displays a single pixel is actually composed of three "
-"sub-pixels, red, green and blue. Most displays have a linear ordering of RGB "
-"sub-pixel, some have BGR.<br /> This feature does not work with CRT monitors."
-"</p>"
-msgstr ""
-"<p>Hdyž maće TFT abo LCD-wobrazowka, móžeće kwalitu pokazowanych pismow z "
-"tutej opciju zwyšić.<br />Sub-pixel rendering je tež znaty jako "
-"ClearType(tm).<br />Zo by sub-pixel rendering korektnje dźěłało, dyrbiće "
-"wědźeć, kak su sub-pixele Wašeje wobrazowki wusměrjene.</p><p>Na TFT- abo "
-"LCD-wobrazowkach wobsteji dypk (pixel) z třoch pod-dypkow (sub-pixels), "
-"čerwjerneho, zeleneho a módreho. Na wjetšinje wobrazowki su wone linearnje "
-"ČZM rjadowane, na někotrych MZČ.<br /> To njefunguje z CRT-wobrazowkami.</p> "
-
-#: fonts.cpp:278
-#, fuzzy, kde-format
-#| msgid "&Use sub-pixel rendering:"
-msgid "Sub-pixel rendering type:"
-msgstr "Sub-pixel rendering w&užiwać:"
-
-#: fonts.cpp:291
-#, fuzzy, kde-format
-#| msgid "Hinting style: "
-msgid "Hinting style:"
-msgstr "Stil hintinga:"
-
-#: fonts.cpp:299
-#, kde-format
-msgid ""
-"Hinting is a process used to enhance the quality of fonts at small sizes."
-msgstr "Hinting je proces, kiž ma kwalitu małych pismow zwyšić."
-
-#: fonts.cpp:533
-#, fuzzy, kde-format
-#| msgid "General"
-msgctxt "font usage"
-msgid "General"
-msgstr "Powšitkownje"
-
-#: fonts.cpp:534
-#, fuzzy, kde-format
-#| msgid "Fixed width"
-msgctxt "font usage"
-msgid "Fixed width"
-msgstr "Kruta šěrokosć"
-
-#: fonts.cpp:535
-#, fuzzy, kde-format
-#| msgid "Small"
-msgctxt "font usage"
-msgid "Small"
-msgstr "Małe"
-
-#: fonts.cpp:536
-#, fuzzy, kde-format
-#| msgid "Toolbar"
-msgctxt "font usage"
-msgid "Toolbar"
-msgstr "Nastrojowy pas"
-
-#: fonts.cpp:537
-#, fuzzy, kde-format
-#| msgid "Menu"
-msgctxt "font usage"
-msgid "Menu"
-msgstr "Meni"
-
-#: fonts.cpp:538
-#, fuzzy, kde-format
-#| msgid "Window title"
-msgctxt "font usage"
-msgid "Window title"
-msgstr "Titl wokna"
-
-#: fonts.cpp:580
-#, kde-format
-msgid "Used for normal text (e.g. button labels, list items)."
-msgstr "Wužiwa so za normalny tekst (na př. tłóčatka, lisćiny)."
-
-#: fonts.cpp:581
-#, kde-format
-msgid "A non-proportional font (i.e. typewriter font)."
-msgstr "Njeproporcionalne pismo (na př. pisadłowe pismo)."
-
-#: fonts.cpp:582
-#, kde-format
-msgid "Smallest font that is still readable well."
-msgstr "Najmjeńše pismo, kotrež hodźi so hišće derje čitać."
-
-#: fonts.cpp:583
-#, kde-format
-msgid "Used to display text beside toolbar icons."
-msgstr "Wužiwa so za tekst pódla piktogramow w nastrojowych pasach."
-
-#: fonts.cpp:584
-#, kde-format
-msgid "Used by menu bars and popup menus."
-msgstr "Wužiwa so za menije a popups."
-
-#: fonts.cpp:585
-#, kde-format
-msgid "Used by the window titlebar."
-msgstr "Wužiwa so za titlowy pas wokna."
-
-#: fonts.cpp:623
-#, kde-format
-msgctxt "Font role"
-msgid "%1: "
-msgstr "%1: "
-
-#: fonts.cpp:638
-#, kde-format
-msgid "Ad&just All Fonts..."
-msgstr "Wš&itke pisma připrawić..."
-
-#: fonts.cpp:639
-#, kde-format
-msgid "Click to change all fonts"
-msgstr "Klikńće, zo byšće wšitke pisma změnili"
-
-#: fonts.cpp:650
-#, kde-format
-msgid "Use a&nti-aliasing:"
-msgstr "A&nti-aliasing wužiwać:"
-
-#: fonts.cpp:654
-#, kde-format
-msgctxt "Use anti-aliasing"
-msgid "Enabled"
-msgstr "Spřistupnjene"
-
-#: fonts.cpp:655
-#, kde-format
-msgctxt "Use anti-aliasing"
-msgid "System Settings"
-msgstr "Nastajenja systema"
-
-#: fonts.cpp:656
-#, kde-format
-msgctxt "Use anti-aliasing"
-msgid "Disabled"
-msgstr "Hasnjene"
-
-#: fonts.cpp:657
-#, kde-format
-msgid "Select this option to smooth the edges of curves in fonts."
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
 msgstr ""
 
-#: fonts.cpp:658
 #, kde-format
-msgid "Configure..."
-msgstr "Připrawić..."
-
-#: fonts.cpp:668
-#, kde-format
-msgid "Force fonts DPI:"
-msgstr "DPI za pismo:"
-
-#: fonts.cpp:674
-#, kde-format
-msgid ""
-"<p>This option forces a specific DPI value for fonts. It may be useful when "
-"the real DPI of the hardware is not detected properly and it is also often "
-"misused when poor quality fonts are used that do not look well with DPI "
-"values other than 96 or 120 DPI.</p><p>The use of this option is generally "
-"discouraged. For selecting proper DPI value a better option is explicitly "
-"configuring it for the whole X server if possible (e.g. DisplaySize in xorg."
-"conf). When fonts do not render properly with real DPI value better fonts "
-"should be used or configuration of font hinting should be checked.</p>"
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
 msgstr ""
 
-#: fonts.cpp:685
-#, kde-format
-msgid "This property has no effect on this platform"
-msgstr ""
-
-#: fonts.cpp:838
+#: fonts.cpp:275
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>Some changes such as DPI will only affect newly started applications.</"
@@ -232,12 +38,12 @@ msgstr ""
 "<p>Někotre změny kaž DPI potrjechja jenož aplikacije, kiž so znowa startuja."
 "</p>"
 
-#: fonts.cpp:839 fonts.cpp:849
+#: fonts.cpp:276 fonts.cpp:286
 #, kde-format
 msgid "Font Settings Changed"
 msgstr "Nastajenja za pisma změnjene"
 
-#: fonts.cpp:848
+#: fonts.cpp:285
 #, kde-format
 msgid ""
 "<p>Some changes such as DPI will only affect newly started applications.</p>"
@@ -245,13 +51,22 @@ msgstr ""
 "<p>Někotre změny kaž DPI potrjechja jenož aplikacije, kiž so znowa startuja."
 "</p>"
 
-#: kxftconfig.cpp:454
+#: fonts.cpp:429
 #, fuzzy, kde-format
-#| msgctxt "Use anti-aliasing"
-#| msgid "System Settings"
+#| msgid "Configure..."
+msgid "Configure Fonts"
+msgstr "Připrawić..."
+
+#: fonts.cpp:431
+#, kde-format
+msgid "Antonis Tsiapaliokas"
+msgstr ""
+
+#: kxftconfig.cpp:454
+#, kde-format
 msgctxt "use system subpixel setting"
-msgid "System default"
-msgstr "Nastajenja systema"
+msgid "Vendor Default"
+msgstr ""
 
 #: kxftconfig.cpp:456
 #, fuzzy, kde-format
@@ -280,41 +95,183 @@ msgstr "Padorunje ČZM"
 msgid "Vertical BGR"
 msgstr "Padorunje MZČ"
 
-#: kxftconfig.cpp:490
-#, fuzzy, kde-format
-#| msgctxt "Use anti-aliasing"
-#| msgid "System Settings"
-msgctxt "use system hinting settings"
-msgid "System default"
-msgstr "Nastajenja systema"
-
 #: kxftconfig.cpp:492
+#, kde-format
+msgctxt "use system hinting settings"
+msgid "Vendor Default"
+msgstr ""
+
+#: kxftconfig.cpp:494
 #, fuzzy, kde-format
 #| msgid "Medium"
 msgctxt "medium hinting"
 msgid "Medium"
 msgstr "Srěnje"
 
-#: kxftconfig.cpp:494
+#: kxftconfig.cpp:496
 #, fuzzy, kde-format
 #| msgid "None"
 msgctxt "no hinting"
 msgid "None"
 msgstr "žadyn"
 
-#: kxftconfig.cpp:496
+#: kxftconfig.cpp:498
 #, fuzzy, kde-format
 #| msgid "Slight"
 msgctxt "slight hinting"
 msgid "Slight"
 msgstr "Słaby"
 
-#: kxftconfig.cpp:498
+#: kxftconfig.cpp:500
 #, fuzzy, kde-format
 #| msgid "Full"
 msgctxt "full hinting"
 msgid "Full"
 msgstr "Połny"
+
+#~ msgid "Configure Anti-Alias Settings"
+#~ msgstr "Nastajenja za anti-alias"
+
+#~ msgid "E&xclude range:"
+#~ msgstr "Wobłuk &wuwostajić:"
+
+#, fuzzy
+#~| msgid " pt"
+#~ msgctxt "abbreviation for unit of points"
+#~ msgid " pt"
+#~ msgstr " pt"
+
+#~ msgid " to "
+#~ msgstr " do "
+
+#~ msgid ""
+#~ "<p>If you have a TFT or LCD screen you can further improve the quality of "
+#~ "displayed fonts by selecting this option.<br />Sub-pixel rendering is "
+#~ "also known as ClearType(tm).<br /> In order for sub-pixel rendering to "
+#~ "work correctly you need to know how the sub-pixels of your display are "
+#~ "aligned.</p> <p>On TFT or LCD displays a single pixel is actually "
+#~ "composed of three sub-pixels, red, green and blue. Most displays have a "
+#~ "linear ordering of RGB sub-pixel, some have BGR.<br /> This feature does "
+#~ "not work with CRT monitors.</p>"
+#~ msgstr ""
+#~ "<p>Hdyž maće TFT abo LCD-wobrazowka, móžeće kwalitu pokazowanych pismow z "
+#~ "tutej opciju zwyšić.<br />Sub-pixel rendering je tež znaty jako "
+#~ "ClearType(tm).<br />Zo by sub-pixel rendering korektnje dźěłało, dyrbiće "
+#~ "wědźeć, kak su sub-pixele Wašeje wobrazowki wusměrjene.</p><p>Na TFT- abo "
+#~ "LCD-wobrazowkach wobsteji dypk (pixel) z třoch pod-dypkow (sub-pixels), "
+#~ "čerwjerneho, zeleneho a módreho. Na wjetšinje wobrazowki su wone "
+#~ "linearnje ČZM rjadowane, na někotrych MZČ.<br /> To njefunguje z CRT-"
+#~ "wobrazowkami.</p> "
+
+#, fuzzy
+#~| msgid "&Use sub-pixel rendering:"
+#~ msgid "Sub-pixel rendering type:"
+#~ msgstr "Sub-pixel rendering w&užiwać:"
+
+#, fuzzy
+#~| msgid "Hinting style: "
+#~ msgid "Hinting style:"
+#~ msgstr "Stil hintinga:"
+
+#~ msgid ""
+#~ "Hinting is a process used to enhance the quality of fonts at small sizes."
+#~ msgstr "Hinting je proces, kiž ma kwalitu małych pismow zwyšić."
+
+#, fuzzy
+#~| msgid "General"
+#~ msgctxt "font usage"
+#~ msgid "General"
+#~ msgstr "Powšitkownje"
+
+#, fuzzy
+#~| msgid "Fixed width"
+#~ msgctxt "font usage"
+#~ msgid "Fixed width"
+#~ msgstr "Kruta šěrokosć"
+
+#, fuzzy
+#~| msgid "Small"
+#~ msgctxt "font usage"
+#~ msgid "Small"
+#~ msgstr "Małe"
+
+#, fuzzy
+#~| msgid "Toolbar"
+#~ msgctxt "font usage"
+#~ msgid "Toolbar"
+#~ msgstr "Nastrojowy pas"
+
+#, fuzzy
+#~| msgid "Menu"
+#~ msgctxt "font usage"
+#~ msgid "Menu"
+#~ msgstr "Meni"
+
+#, fuzzy
+#~| msgid "Window title"
+#~ msgctxt "font usage"
+#~ msgid "Window title"
+#~ msgstr "Titl wokna"
+
+#~ msgid "Used for normal text (e.g. button labels, list items)."
+#~ msgstr "Wužiwa so za normalny tekst (na př. tłóčatka, lisćiny)."
+
+#~ msgid "A non-proportional font (i.e. typewriter font)."
+#~ msgstr "Njeproporcionalne pismo (na př. pisadłowe pismo)."
+
+#~ msgid "Smallest font that is still readable well."
+#~ msgstr "Najmjeńše pismo, kotrež hodźi so hišće derje čitać."
+
+#~ msgid "Used to display text beside toolbar icons."
+#~ msgstr "Wužiwa so za tekst pódla piktogramow w nastrojowych pasach."
+
+#~ msgid "Used by menu bars and popup menus."
+#~ msgstr "Wužiwa so za menije a popups."
+
+#~ msgid "Used by the window titlebar."
+#~ msgstr "Wužiwa so za titlowy pas wokna."
+
+#~ msgctxt "Font role"
+#~ msgid "%1: "
+#~ msgstr "%1: "
+
+#~ msgid "Ad&just All Fonts..."
+#~ msgstr "Wš&itke pisma připrawić..."
+
+#~ msgid "Click to change all fonts"
+#~ msgstr "Klikńće, zo byšće wšitke pisma změnili"
+
+#~ msgid "Use a&nti-aliasing:"
+#~ msgstr "A&nti-aliasing wužiwać:"
+
+#~ msgctxt "Use anti-aliasing"
+#~ msgid "Enabled"
+#~ msgstr "Spřistupnjene"
+
+#~ msgctxt "Use anti-aliasing"
+#~ msgid "System Settings"
+#~ msgstr "Nastajenja systema"
+
+#~ msgctxt "Use anti-aliasing"
+#~ msgid "Disabled"
+#~ msgstr "Hasnjene"
+
+#~ msgid "Force fonts DPI:"
+#~ msgstr "DPI za pismo:"
+
+#, fuzzy
+#~| msgctxt "Use anti-aliasing"
+#~| msgid "System Settings"
+#~ msgctxt "use system subpixel setting"
+#~ msgid "System default"
+#~ msgstr "Nastajenja systema"
+
+#, fuzzy
+#~| msgctxt "Use anti-aliasing"
+#~| msgid "System Settings"
+#~ msgctxt "use system hinting settings"
+#~ msgid "System default"
+#~ msgstr "Nastajenja systema"
 
 #, fuzzy
 #~| msgid "Taskbar"
