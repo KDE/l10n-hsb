@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 20:21+0100\n"
+"POT-Creation-Date: 2018-02-07 03:32+0100\n"
 "PO-Revision-Date: 2008-11-13 21:27+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -18,95 +18,127 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
-#: kcmlaunch.cpp:47
 #, kde-format
-msgid ""
-"<h1>Launch Feedback</h1> You can configure the application-launch feedback "
-"here."
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
 msgstr ""
-"<h1>Feedback za startowanje</h1>Tu móžeće feedback za startowanje programow "
-"připrawić."
 
-#: kcmlaunch.cpp:50
 #, kde-format
-msgid "Bus&y Cursor"
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: launchfeedback.cpp:40
+#, kde-format
+msgid "Configure application launch feedback"
+msgstr ""
+
+#: package/contents/ui/main.qml:28
+#, kde-format
+msgid "Launch Feedback"
+msgstr ""
+
+#: package/contents/ui/main.qml:56
+#, fuzzy, kde-format
+#| msgid "Bus&y Cursor"
+msgid "Cursor:"
 msgstr "Zaběra&ny cursor"
 
-#: kcmlaunch.cpp:52
+#: package/contents/ui/main.qml:61
 #, kde-format
-msgid ""
-"<h1>Busy Cursor</h1>\n"
-"KDE offers a busy cursor for application startup notification.\n"
-"To enable the busy cursor, select one kind of visual feedback\n"
-"from the combobox.\n"
-"It may occur, that some applications are not aware of this startup\n"
-"notification. In this case, the cursor stops blinking after the time\n"
-"given in the section 'Startup indication timeout'"
+msgid "No Feedback"
 msgstr ""
-"<h1>Zaběrany cursor</h1>\n"
-"KDE poskića zaběrany cursor jako zdźělenku, zo je so program startował.\n"
-"Za zaswěćenje móžeće družinu wisuelneho feedbacka z kašćika wubrać.\n"
-"Je pak móžno, zo wěste programy to njepodpěruja.\n"
-"W tutym padźe přestanje cursor blinkować po času, podatym we wotrězku "
-"'Maksimalny čas za feedback'."
 
-#: kcmlaunch.cpp:68
+#: package/contents/ui/main.qml:69
 #, kde-format
-msgid "No Busy Cursor"
-msgstr "Žadyn zaběrany cursor"
+msgid "Static"
+msgstr ""
 
-#: kcmlaunch.cpp:69
-#, kde-format
-msgid "Passive Busy Cursor"
-msgstr "Pasiwny zaběrany cursor"
-
-#: kcmlaunch.cpp:70
-#, kde-format
-msgid "Blinking Cursor"
+#: package/contents/ui/main.qml:77
+#, fuzzy, kde-format
+#| msgid "Blinking Cursor"
+msgid "Blinking"
 msgstr "Blinkowacy cursor"
 
-#: kcmlaunch.cpp:71
-#, kde-format
-msgid "Bouncing Cursor"
+#: package/contents/ui/main.qml:85
+#, fuzzy, kde-format
+#| msgid "Bouncing Cursor"
+msgid "Bouncing"
 msgstr "Skakacy cursor"
 
-#: kcmlaunch.cpp:78
+#: package/contents/ui/main.qml:94
 #, kde-format
-msgid "&Startup indication timeout:"
-msgstr "&Maksimalny čas za feedback:"
-
-#: kcmlaunch.cpp:82 kcmlaunch.cpp:114
-#, kde-format
-msgid " sec"
-msgstr "sek"
-
-#: kcmlaunch.cpp:87
-#, kde-format
-msgid "Taskbar &Notification"
-msgstr "Zdźělenka w &pasu nadawkow"
-
-#: kcmlaunch.cpp:88
-#, kde-format
-msgid ""
-"<H1>Taskbar Notification</H1>\n"
-"You can enable a second method of startup notification which is\n"
-"used by the taskbar where a button with a rotating hourglass appears,\n"
-"symbolizing that your started application is loading.\n"
-"It may occur, that some applications are not aware of this startup\n"
-"notification. In this case, the button disappears after the time\n"
-"given in the section 'Startup indication timeout'"
+msgid "Task Manager:"
 msgstr ""
-"<H1>Zdźělenka w pasu nadawkow</H1>\n"
-"Móžeće dalšu družinu zdźělenki připrawić; to je zdźělenje w pasu nadawkow,\n"
-"hdźež so tłóčatko z wjerćacym pěskowym časniku jewi jako symbol za to,\n"
-"zo so Waš program startuje."
 
-#: kcmlaunch.cpp:103
-#, kde-format
-msgid "Enable &taskbar notification"
+#: package/contents/ui/main.qml:96
+#, fuzzy, kde-format
+#| msgid "Enable &taskbar notification"
+msgid "Enable animation"
 msgstr "Zdźělenku w &pasu nadawkow zaswěćić"
 
-#: kcmlaunch.cpp:110
-#, kde-format
-msgid "Start&up indication timeout:"
+#: package/contents/ui/main.qml:105
+#, fuzzy, kde-format
+#| msgid "&Startup indication timeout:"
+msgid "Stop animation after:"
 msgstr "&Maksimalny čas za feedback:"
+
+#: package/contents/ui/main.qml:114
+#, fuzzy, kde-format
+#| msgid " sec"
+msgid "%1 sec"
+msgid_plural "%1 secs"
+msgstr[0] "sek"
+msgstr[1] "sek"
+msgstr[2] "sek"
+msgstr[3] "sek"
+
+#~ msgid ""
+#~ "<h1>Launch Feedback</h1> You can configure the application-launch "
+#~ "feedback here."
+#~ msgstr ""
+#~ "<h1>Feedback za startowanje</h1>Tu móžeće feedback za startowanje "
+#~ "programow připrawić."
+
+#~ msgid ""
+#~ "<h1>Busy Cursor</h1>\n"
+#~ "KDE offers a busy cursor for application startup notification.\n"
+#~ "To enable the busy cursor, select one kind of visual feedback\n"
+#~ "from the combobox.\n"
+#~ "It may occur, that some applications are not aware of this startup\n"
+#~ "notification. In this case, the cursor stops blinking after the time\n"
+#~ "given in the section 'Startup indication timeout'"
+#~ msgstr ""
+#~ "<h1>Zaběrany cursor</h1>\n"
+#~ "KDE poskića zaběrany cursor jako zdźělenku, zo je so program startował.\n"
+#~ "Za zaswěćenje móžeće družinu wisuelneho feedbacka z kašćika wubrać.\n"
+#~ "Je pak móžno, zo wěste programy to njepodpěruja.\n"
+#~ "W tutym padźe přestanje cursor blinkować po času, podatym we wotrězku "
+#~ "'Maksimalny čas za feedback'."
+
+#~ msgid "No Busy Cursor"
+#~ msgstr "Žadyn zaběrany cursor"
+
+#~ msgid "Passive Busy Cursor"
+#~ msgstr "Pasiwny zaběrany cursor"
+
+#~ msgid "Taskbar &Notification"
+#~ msgstr "Zdźělenka w &pasu nadawkow"
+
+#~ msgid ""
+#~ "<H1>Taskbar Notification</H1>\n"
+#~ "You can enable a second method of startup notification which is\n"
+#~ "used by the taskbar where a button with a rotating hourglass appears,\n"
+#~ "symbolizing that your started application is loading.\n"
+#~ "It may occur, that some applications are not aware of this startup\n"
+#~ "notification. In this case, the button disappears after the time\n"
+#~ "given in the section 'Startup indication timeout'"
+#~ msgstr ""
+#~ "<H1>Zdźělenka w pasu nadawkow</H1>\n"
+#~ "Móžeće dalšu družinu zdźělenki připrawić; to je zdźělenje w pasu "
+#~ "nadawkow,\n"
+#~ "hdźež so tłóčatko z wjerćacym pěskowym časniku jewi jako symbol za to,\n"
+#~ "zo so Waš program startuje."
+
+#~ msgid "Start&up indication timeout:"
+#~ msgstr "&Maksimalny čas za feedback:"
