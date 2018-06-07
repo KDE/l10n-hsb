@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-05 03:44+0200\n"
+"POT-Creation-Date: 2018-06-07 03:47+0200\n"
 "PO-Revision-Date: 2004-04-16 17:59+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -4929,32 +4929,46 @@ msgstr ""
 msgid "Su&mmaries"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, attendeeCheck)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, attendeeCheck)
 #: ui/searchdialog_base.ui:179
+#, fuzzy, kde-format
+msgid "Include item attendees in your search"
+msgstr "Wopisanje:"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, attendeeCheck)
+#: ui/searchdialog_base.ui:182
+#, fuzzy, kde-format
+msgid ""
+"Check this box if you want to match item attendees against your search "
+"pattern."
+msgstr "Konfiguracija resursow"
+
+#. i18n: ectx: property (text), widget (QCheckBox, attendeeCheck)
+#: ui/searchdialog_base.ui:185
 #, fuzzy, kde-format
 msgid "Attendees"
 msgstr "Titl"
 
 #. i18n: ectx: property (title), widget (QGroupBox, dateRangeGroup)
-#: ui/searchdialog_base.ui:189
+#: ui/searchdialog_base.ui:195
 #, kde-format
 msgid "Date Range"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, startDateLabel)
-#: ui/searchdialog_base.ui:197
+#: ui/searchdialog_base.ui:203
 #, fuzzy, kde-format
 msgid "Fr&om:"
 msgstr "Wot:"
 
 #. i18n: ectx: property (toolTip), widget (KDateComboBox, startDate)
-#: ui/searchdialog_base.ui:216
+#: ui/searchdialog_base.ui:222
 #, fuzzy, kde-format
 msgid "Include items with a starting date on or after this date"
 msgstr "Konfiguracija resursow"
 
 #. i18n: ectx: property (whatsThis), widget (KDateComboBox, startDate)
-#: ui/searchdialog_base.ui:219
+#: ui/searchdialog_base.ui:225
 #, kde-format
 msgid ""
 "Search for items with a starting date on or after the date you specify here."
@@ -4962,39 +4976,39 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KDateComboBox, startDate)
 #. i18n: ectx: property (text), item, widget (KDateComboBox, endDate)
-#: ui/searchdialog_base.ui:223 ui/searchdialog_base.ui:261
+#: ui/searchdialog_base.ui:229 ui/searchdialog_base.ui:267
 #, kde-format
 msgid "2008-08-18"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, endDateLabel)
-#: ui/searchdialog_base.ui:235
+#: ui/searchdialog_base.ui:241
 #, fuzzy, kde-format
 msgid "&To:"
 msgstr "Na:"
 
 #. i18n: ectx: property (toolTip), widget (KDateComboBox, endDate)
-#: ui/searchdialog_base.ui:254
+#: ui/searchdialog_base.ui:260
 #, fuzzy, kde-format
 msgid "Include items with ending date on or before this date"
 msgstr "Konfiguracija resursow"
 
 #. i18n: ectx: property (whatsThis), widget (KDateComboBox, endDate)
-#: ui/searchdialog_base.ui:257
+#: ui/searchdialog_base.ui:263
 #, kde-format
 msgid ""
 "Search for items with an ending date on or before the date you specify here."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, inclusiveCheck)
-#: ui/searchdialog_base.ui:271
+#: ui/searchdialog_base.ui:277
 #, kde-format
 msgid ""
 "Include Events only if their date range falls into the range specified above"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, inclusiveCheck)
-#: ui/searchdialog_base.ui:274
+#: ui/searchdialog_base.ui:280
 #, kde-format
 msgid ""
 "Check this box if you want to include Events that occur within the date "
@@ -5003,26 +5017,26 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, inclusiveCheck)
-#: ui/searchdialog_base.ui:277
+#: ui/searchdialog_base.ui:283
 #, kde-format
 msgid "Include E&vents within the specified date range"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, includeUndatedTodos)
-#: ui/searchdialog_base.ui:284
+#: ui/searchdialog_base.ui:290
 #, kde-format
 msgid "Include To-dos in the search that do not have a due date"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, includeUndatedTodos)
-#: ui/searchdialog_base.ui:287
+#: ui/searchdialog_base.ui:293
 #, fuzzy, kde-format
 msgid ""
 "Check this box to include To-dos without a due date in the search results."
 msgstr "Konfiguracija resursow"
 
 #. i18n: ectx: property (text), widget (QCheckBox, includeUndatedTodos)
-#: ui/searchdialog_base.ui:290
+#: ui/searchdialog_base.ui:296
 #, kde-format
 msgid "Include To-dos &without a due date"
 msgstr ""
@@ -5501,10 +5515,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Include the to-do attendees"
 #~ msgstr "Titl"
-
-#, fuzzy
-#~ msgid "Check this box if you want the to-do attendees to be exported."
-#~ msgstr "Konfiguracija resursow"
 
 #, fuzzy
 #~| msgid "Status"
