@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-07-14 03:19+0200\n"
+"POT-Creation-Date: 2018-07-15 03:19+0200\n"
 "PO-Revision-Date: 2008-11-21 01:09+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -3125,61 +3125,43 @@ msgstr[1] "Wulkosć: %1 pikslej"
 msgstr[2] "Wulkosć: %1 piksle"
 msgstr[3] "Wulkosć: %1 pikslow"
 
-#: settings/viewpropertiesdialog.cpp:70
+#: settings/viewpropertiesdialog.cpp:71
 #, kde-format
 msgctxt "@title:window"
 msgid "View Properties"
 msgstr "Swójstwa wobhladać"
 
-#: settings/viewpropertiesdialog.cpp:87
-#, kde-format
-msgctxt "@title:group"
-msgid "Properties"
-msgstr "Swójstwa"
-
-#: settings/viewpropertiesdialog.cpp:91
-#, kde-format
-msgctxt "@label:listbox"
-msgid "View mode:"
-msgstr "Družina napohlada:"
-
-#: settings/viewpropertiesdialog.cpp:93
+#: settings/viewpropertiesdialog.cpp:84
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Icons"
 msgstr "Piktogramy"
 
-#: settings/viewpropertiesdialog.cpp:94
+#: settings/viewpropertiesdialog.cpp:85
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Compact"
 msgstr ""
 
-#: settings/viewpropertiesdialog.cpp:95
+#: settings/viewpropertiesdialog.cpp:86
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Details"
 msgstr "Nadrobnosće"
 
-#: settings/viewpropertiesdialog.cpp:97
-#, kde-format
-msgctxt "@label:listbox"
-msgid "Sorting:"
-msgstr "Sortěrowanje:"
-
-#: settings/viewpropertiesdialog.cpp:101
+#: settings/viewpropertiesdialog.cpp:89
 #, kde-format
 msgctxt "@item:inlistbox Sort"
 msgid "Ascending"
 msgstr "Stupajo"
 
-#: settings/viewpropertiesdialog.cpp:102
+#: settings/viewpropertiesdialog.cpp:90
 #, kde-format
 msgctxt "@item:inlistbox Sort"
 msgid "Descending"
 msgstr "Spadujo"
 
-#: settings/viewpropertiesdialog.cpp:110
+#: settings/viewpropertiesdialog.cpp:98
 #, fuzzy, kde-format
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Show filter bar"
@@ -3187,67 +3169,91 @@ msgctxt "@option:check"
 msgid "Show folders first"
 msgstr "Filtrowy pas pokazać"
 
-#: settings/viewpropertiesdialog.cpp:111
+#: settings/viewpropertiesdialog.cpp:99
 #, kde-format
 msgctxt "@option:check"
 msgid "Show preview"
 msgstr "Přehladku pokazać"
 
-#: settings/viewpropertiesdialog.cpp:112
+#: settings/viewpropertiesdialog.cpp:100
 #, kde-format
 msgctxt "@option:check"
 msgid "Show in groups"
 msgstr "po skupinach pokazać"
 
-#: settings/viewpropertiesdialog.cpp:113
+#: settings/viewpropertiesdialog.cpp:101
 #, kde-format
 msgctxt "@option:check"
 msgid "Show hidden files"
 msgstr "schowane dataje pokazać"
 
-#: settings/viewpropertiesdialog.cpp:116
+#: settings/viewpropertiesdialog.cpp:104
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Additional Information"
 msgctxt "@title:group"
-msgid "Additional Information Shown"
+msgid "Additional Information"
 msgstr "Dodatna informacija"
 
-#: settings/viewpropertiesdialog.cpp:200
+#: settings/viewpropertiesdialog.cpp:144
 #, kde-format
-msgctxt "@title:group"
-msgid "Apply View Properties To"
-msgstr "Swójstwa napohlada nałožić na"
+msgid "Choose what to see on each file or folder:"
+msgstr ""
 
-#: settings/viewpropertiesdialog.cpp:204
+#: settings/viewpropertiesdialog.cpp:156
+#, kde-format
+msgctxt "@label:listbox"
+msgid "View mode:"
+msgstr "Družina napohlada:"
+
+#: settings/viewpropertiesdialog.cpp:157
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Sorting:"
+msgstr "Sortěrowanje:"
+
+#: settings/viewpropertiesdialog.cpp:161
+#, fuzzy, kde-format
+#| msgctxt "@title:group"
+#| msgid "View Properties"
+msgid "View options:"
+msgstr "Swójstwa napohlada"
+
+#: settings/viewpropertiesdialog.cpp:186
 #, kde-format
 msgctxt "@option:radio Apply View Properties To"
 msgid "Current folder"
 msgstr "aktualny zapisk"
 
-#: settings/viewpropertiesdialog.cpp:207
+#: settings/viewpropertiesdialog.cpp:189
 #, fuzzy, kde-format
 #| msgctxt "@option:radio Apply View Properties To"
 #| msgid "Current folder including all sub folders"
 msgctxt "@option:radio Apply View Properties To"
-msgid "Current folder including all sub-folders"
+msgid "Current folder and sub-folders"
 msgstr "aktualny zapisk z podzapiskami"
 
-#: settings/viewpropertiesdialog.cpp:209
+#: settings/viewpropertiesdialog.cpp:191
 #, kde-format
 msgctxt "@option:radio Apply View Properties To"
 msgid "All folders"
 msgstr "wšě zapiski"
 
-#: settings/viewpropertiesdialog.cpp:221
-#, fuzzy, kde-format
-#| msgctxt "@option:radio"
-#| msgid "Use common view properties for all folders"
-msgctxt "@option:check"
-msgid "Use these view properties as default"
-msgstr "Swójstwa napohlada za wšě zapiski wužiwać"
+#: settings/viewpropertiesdialog.cpp:200
+#, kde-format
+msgctxt "@title:group"
+msgid "Apply to:"
+msgstr ""
 
-#: settings/viewpropertiesdialog.cpp:368
+#: settings/viewpropertiesdialog.cpp:205
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Use as default for new folders"
+msgctxt "@option:check"
+msgid "Use as default view settings"
+msgstr "jako standard za nowe zapiski"
+
+#: settings/viewpropertiesdialog.cpp:354
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -3261,7 +3267,7 @@ msgstr ""
 "Swójstwa napohlada wšitkich podrjadowanych zapiskow so změnja. Chceće "
 "pokročować?"
 
-#: settings/viewpropertiesdialog.cpp:400
+#: settings/viewpropertiesdialog.cpp:386
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -3689,6 +3695,28 @@ msgid "Updating version information..."
 msgstr "Přidatna informacija"
 
 #~ msgctxt "@title:group"
+#~ msgid "Properties"
+#~ msgstr "Swójstwa"
+
+#, fuzzy
+#~| msgctxt "@title:window"
+#~| msgid "Additional Information"
+#~ msgctxt "@title:group"
+#~ msgid "Additional Information Shown"
+#~ msgstr "Dodatna informacija"
+
+#~ msgctxt "@title:group"
+#~ msgid "Apply View Properties To"
+#~ msgstr "Swójstwa napohlada nałožić na"
+
+#, fuzzy
+#~| msgctxt "@option:radio"
+#~| msgid "Use common view properties for all folders"
+#~ msgctxt "@option:check"
+#~ msgid "Use these view properties as default"
+#~ msgstr "Swójstwa napohlada za wšě zapiski wužiwać"
+
+#~ msgctxt "@title:group"
 #~ msgid "Home Folder"
 #~ msgstr "Domjacy zapisk"
 
@@ -4014,13 +4042,6 @@ msgstr "Přidatna informacija"
 #~ msgctxt "option:check Refers to a filter on image size"
 #~ msgid "Large"
 #~ msgstr "Wulke"
-
-#, fuzzy
-#~| msgctxt "@title:group"
-#~| msgid "View Properties"
-#~ msgctxt "@label"
-#~ msgid "View properties:"
-#~ msgstr "Swójstwa napohlada"
 
 #, fuzzy
 #~| msgctxt "@title:window"
@@ -4857,10 +4878,6 @@ msgstr "Přidatna informacija"
 #~ msgctxt "@label"
 #~ msgid "Comment:"
 #~ msgstr "Přispomnjenje dodać ..."
-
-#~ msgctxt "@option:check"
-#~ msgid "Use as default for new folders"
-#~ msgstr "jako standard za nowe zapiski"
 
 #~ msgctxt "@title:menu"
 #~ msgid "Navigation Bar"
