@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsocks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-07-17 03:36+0200\n"
+"POT-Creation-Date: 2018-07-30 03:30+0200\n"
 "PO-Revision-Date: 2008-11-19 23:41+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -3646,7 +3646,7 @@ msgctxt "@action:button"
 msgid "Create directory"
 msgstr "Stworju zapisk"
 
-#: filewidgets/knewfilemenu.cpp:416
+#: filewidgets/knewfilemenu.cpp:416 filewidgets/knewfilemenu.cpp:861
 #, fuzzy, kde-format
 #| msgid "Ru&n as a different user"
 msgctxt "@action:button"
@@ -3689,31 +3689,44 @@ msgctxt "@item:inmenu Create New"
 msgid "%1"
 msgstr ""
 
-#: filewidgets/knewfilemenu.cpp:1099
+#: filewidgets/knewfilemenu.cpp:864
+#, fuzzy, kde-format
+#| msgid "Invalid Filenames"
+msgid "Invalid Directory Name"
+msgstr "Njekorektne datajowe mjena"
+
+#: filewidgets/knewfilemenu.cpp:873
+#, kde-kuit-format
+msgid ""
+"Folder <filename>%1</filename> could not be created:<nl/><filename>%1</"
+"filename> is reserved for use by the operating system."
+msgstr ""
+
+#: filewidgets/knewfilemenu.cpp:1126
 #, fuzzy, kde-format
 #| msgid "Created:"
 msgid "Create New"
 msgstr "Stworjene:"
 
-#: filewidgets/knewfilemenu.cpp:1114
+#: filewidgets/knewfilemenu.cpp:1141
 #, fuzzy, kde-format
 #| msgid "Device"
 msgid "Link to Device"
 msgstr "Grat"
 
-#: filewidgets/knewfilemenu.cpp:1168
+#: filewidgets/knewfilemenu.cpp:1195
 #, fuzzy, kde-format
 msgctxt "Default name for a new folder"
 msgid "New Folder"
 msgstr "Nowy zapisk..."
 
-#: filewidgets/knewfilemenu.cpp:1178
+#: filewidgets/knewfilemenu.cpp:1205
 #, kde-format
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr "Nowy zapisk"
 
-#: filewidgets/knewfilemenu.cpp:1181
+#: filewidgets/knewfilemenu.cpp:1208
 #, fuzzy, kde-format
 msgid ""
 "Create new folder in:\n"
