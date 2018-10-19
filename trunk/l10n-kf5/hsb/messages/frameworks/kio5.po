@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsocks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-10 03:59+0200\n"
+"POT-Creation-Date: 2018-10-19 03:42+0200\n"
 "PO-Revision-Date: 2008-11-19 23:41+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -49,23 +49,23 @@ msgstr ""
 msgid "Unable to create io-slave: %1"
 msgstr "Njemóžach io-slave stworić: %1"
 
-#: core/copyjob.cpp:1167 core/job_error.cpp:517
+#: core/copyjob.cpp:1169 core/job_error.cpp:517
 #, kde-format
 msgid "Folder Already Exists"
 msgstr "Zapisk hižo eksistuje"
 
-#: core/copyjob.cpp:1439 core/copyjob.cpp:2013 core/filecopyjob.cpp:369
+#: core/copyjob.cpp:1441 core/copyjob.cpp:2015 core/filecopyjob.cpp:369
 #: core/job_error.cpp:507 widgets/paste.cpp:90
 #, kde-format
 msgid "File Already Exists"
 msgstr "Dataja hižo eksistuje"
 
-#: core/copyjob.cpp:1439 core/copyjob.cpp:2013
+#: core/copyjob.cpp:1441 core/copyjob.cpp:2015
 #, kde-format
 msgid "Already Exists as Folder"
 msgstr "Eksistuje hižo jako zapisk"
 
-#: core/copyjob.cpp:1565
+#: core/copyjob.cpp:1567
 #, fuzzy, kde-format
 msgid "Trash"
 msgstr "Papjernik"
@@ -679,11 +679,15 @@ msgid "Unable to create io-slave. %1"
 msgstr "Njemóžach io-slave stworić: %1"
 
 #: core/job_error.cpp:249
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Unknown error code %1\n"
+#| "%2\n"
+#| "Please send a full bug report at http://bugs.kde.org."
 msgid ""
 "Unknown error code %1\n"
 "%2\n"
-"Please send a full bug report at http://bugs.kde.org."
+"Please send a full bug report at https://bugs.kde.org."
 msgstr ""
 "Njeznaty zmylkowy code %1\n"
 "%2\n"
@@ -2166,18 +2170,18 @@ msgstr "Akcija so njehodźeše přewjesć, dokelž sej žórło a cil samsna dat
 msgid "Try restarting your session, or look in the logs for errors from kiod."
 msgstr ""
 
-#: core/job_error.cpp:1061
+#: core/job_error.cpp:1062
 #, kde-format
 msgid "Cannot Initiate the %1 Protocol"
 msgstr "Njemóžu protokol %1 přihotować"
 
-#: core/job_error.cpp:1062
+#: core/job_error.cpp:1063
 #, fuzzy, kde-format
 #| msgid "Unable to create io-slave: %1"
 msgid "Unable to Create io-slave"
 msgstr "Njemóžach io-slave stworić: %1"
 
-#: core/job_error.cpp:1063
+#: core/job_error.cpp:1064
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program on your computer which provides access to the <strong>%1</"
@@ -2190,14 +2194,14 @@ msgstr ""
 "Program na wašim computeru, kiž posłužuje protokol <strong>%1</strong>, "
 "njeje so startować móhł. To ma zwjetša techniske přičiny."
 
-#: core/job_error.cpp:1066
+#: core/job_error.cpp:1067
 #, kde-format
 msgid ""
 "klauncher could not find or start the plugin which provides the protocol."
 "This means you may have an outdated version of the plugin."
 msgstr ""
 
-#: core/job_error.cpp:1073
+#: core/job_error.cpp:1074
 #, kde-format
 msgid "Undocumented Error"
 msgstr "Njedokumentowany zmylk"
@@ -8679,6 +8683,13 @@ msgstr "U&RL"
 msgid "URL:"
 msgstr "URL:"
 
+#: widgets/kpropertiesdialog.cpp:3117 widgets/kpropertiesdialog.cpp:3691
+#, fuzzy, kde-format
+#| msgid "Only executables on local file systems are supported."
+msgid ""
+"Could not save properties. Only entries on local file systems are supported."
+msgstr "Jenož programy za lokalnych datajowych systemach so podpěruja."
+
 #: widgets/kpropertiesdialog.cpp:3183
 #, kde-format
 msgid "De&vice"
@@ -8728,13 +8739,6 @@ msgstr ""
 #, kde-format
 msgid "Select one or more file types to add:"
 msgstr ""
-
-#: widgets/kpropertiesdialog.cpp:3691
-#, fuzzy, kde-format
-#| msgid "Only executables on local file systems are supported."
-msgid ""
-"Could not save properties. Only entries on local file systems are supported."
-msgstr "Jenož programy za lokalnych datajowych systemach so podpěruja."
 
 #: widgets/kpropertiesdialog.cpp:3770
 #, kde-format
