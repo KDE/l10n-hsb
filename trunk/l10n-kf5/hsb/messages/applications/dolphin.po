@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-17 02:50+0100\n"
+"POT-Creation-Date: 2019-01-20 02:49+0100\n"
 "PO-Revision-Date: 2008-11-21 01:09+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -46,7 +46,7 @@ msgctxt "@action:inmenu Add selected folder to places"
 msgid "Add to Places"
 msgstr "K městnam dodać"
 
-#: dolphincontextmenu.cpp:230 dolphinmainwindow.cpp:1042
+#: dolphincontextmenu.cpp:230 dolphinmainwindow.cpp:1094
 #, kde-format
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
@@ -138,7 +138,7 @@ msgctxt "@info"
 msgid "Could not access <filename>%1</filename>."
 msgstr "Objekt <filename>%1</filename> přemjenować na:"
 
-#: dolphinmainwindow.cpp:400
+#: dolphinmainwindow.cpp:400 dolphinmainwindow.cpp:444
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Information"
@@ -165,12 +165,24 @@ msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr ""
 
-#: dolphinmainwindow.cpp:415
+#: dolphinmainwindow.cpp:415 dolphinmainwindow.cpp:467
 #, kde-format
 msgid "Do not ask again"
 msgstr ""
 
-#: dolphinmainwindow.cpp:905
+#: dolphinmainwindow.cpp:455
+#, kde-format
+msgid "Show &Terminal Panel"
+msgstr ""
+
+#: dolphinmainwindow.cpp:465
+#, kde-format
+msgid ""
+"The program '%1' is still running in the Terminal panel. Are you sure you "
+"want to quit?"
+msgstr ""
+
+#: dolphinmainwindow.cpp:957
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox"
 #| msgid "Location:"
@@ -178,14 +190,14 @@ msgctxt "@action:inmenu"
 msgid "Location Bar"
 msgstr "Městno:"
 
-#: dolphinmainwindow.cpp:913
+#: dolphinmainwindow.cpp:965
 #, fuzzy, kde-format
 #| msgid "&Go"
 msgctxt "@action:inmenu"
 msgid "Go"
 msgstr "&Dźi na"
 
-#: dolphinmainwindow.cpp:922
+#: dolphinmainwindow.cpp:974
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Tools"
@@ -193,25 +205,25 @@ msgctxt "@action:inmenu"
 msgid "Tools"
 msgstr "Nastroje"
 
-#: dolphinmainwindow.cpp:1049
+#: dolphinmainwindow.cpp:1101
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "New &Window"
 msgstr "Nowe &wokno"
 
-#: dolphinmainwindow.cpp:1054
+#: dolphinmainwindow.cpp:1106
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "New Tab"
 msgstr "Nowy tabulator"
 
-#: dolphinmainwindow.cpp:1060
+#: dolphinmainwindow.cpp:1112
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Close Tab"
 msgstr "Tabulator začinić"
 
-#: dolphinmainwindow.cpp:1076
+#: dolphinmainwindow.cpp:1128
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
@@ -219,31 +231,31 @@ msgctxt "@action:inmenu Edit"
 msgid "Paste"
 msgstr "Zasunyć"
 
-#: dolphinmainwindow.cpp:1083 dolphinpart.cpp:190
+#: dolphinmainwindow.cpp:1135 dolphinpart.cpp:190
 #, kde-format
 msgctxt "@action:inmenu Edit"
 msgid "Invert Selection"
 msgstr "Wubraće přewobroćić"
 
-#: dolphinmainwindow.cpp:1097
+#: dolphinmainwindow.cpp:1149
 #, kde-format
 msgctxt "@action:intoolbar Stash"
 msgid "Stash"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1098
+#: dolphinmainwindow.cpp:1150
 #, kde-format
 msgctxt "@info"
 msgid "Opens the stash virtual directory in a split window"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1107
+#: dolphinmainwindow.cpp:1159
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Stop"
 msgstr "Zastajić"
 
-#: dolphinmainwindow.cpp:1108
+#: dolphinmainwindow.cpp:1160
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -251,19 +263,19 @@ msgctxt "@info"
 msgid "Stop loading"
 msgstr "Sortěrowanje:"
 
-#: dolphinmainwindow.cpp:1113
+#: dolphinmainwindow.cpp:1165
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
 msgstr "Wobdźěłajomne městno"
 
-#: dolphinmainwindow.cpp:1118
+#: dolphinmainwindow.cpp:1170
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Replace Location"
 msgstr "Městno narunać"
 
-#: dolphinmainwindow.cpp:1138
+#: dolphinmainwindow.cpp:1190
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu File"
 #| msgid "Close Tab"
@@ -271,19 +283,19 @@ msgctxt "@action:inmenu File"
 msgid "Undo close tab"
 msgstr "Tabulator začinić"
 
-#: dolphinmainwindow.cpp:1153
+#: dolphinmainwindow.cpp:1205
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Show Filter Bar"
 msgstr "Filtrowy pas pokazać"
 
-#: dolphinmainwindow.cpp:1159
+#: dolphinmainwindow.cpp:1211
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Compare Files"
 msgstr "Dataji přirunować"
 
-#: dolphinmainwindow.cpp:1167
+#: dolphinmainwindow.cpp:1219
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Open &Terminal"
@@ -291,7 +303,7 @@ msgctxt "@action:inmenu Tools"
 msgid "Open Terminal"
 msgstr "&Terminal wočinić"
 
-#: dolphinmainwindow.cpp:1188
+#: dolphinmainwindow.cpp:1240
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "New Tab"
@@ -299,13 +311,13 @@ msgctxt "@action:inmenu"
 msgid "Next Tab"
 msgstr "Nowy tabulator"
 
-#: dolphinmainwindow.cpp:1189
+#: dolphinmainwindow.cpp:1241
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Activate Next Tab"
 msgstr "Přichodny tabulator aktiwizować"
 
-#: dolphinmainwindow.cpp:1195
+#: dolphinmainwindow.cpp:1247
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Activate Previous Tab"
@@ -313,13 +325,13 @@ msgctxt "@action:inmenu"
 msgid "Previous Tab"
 msgstr "Předchadny tabulator aktiwizować"
 
-#: dolphinmainwindow.cpp:1196
+#: dolphinmainwindow.cpp:1248
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Activate Previous Tab"
 msgstr "Předchadny tabulator aktiwizować"
 
-#: dolphinmainwindow.cpp:1203
+#: dolphinmainwindow.cpp:1255
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show tooltips"
@@ -327,13 +339,13 @@ msgctxt "@action:inmenu"
 msgid "Show Target"
 msgstr "Tooltips pokazać"
 
-#: dolphinmainwindow.cpp:1209
+#: dolphinmainwindow.cpp:1261
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in New Tab"
 msgstr "W nowym tabulatoru wočinić"
 
-#: dolphinmainwindow.cpp:1214
+#: dolphinmainwindow.cpp:1266
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Open in New Tab"
@@ -341,13 +353,13 @@ msgctxt "@action:inmenu"
 msgid "Open in New Tabs"
 msgstr "W nowym tabulatoru wočinić"
 
-#: dolphinmainwindow.cpp:1219
+#: dolphinmainwindow.cpp:1271
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in New Window"
 msgstr "W nowym woknje wočinić"
 
-#: dolphinmainwindow.cpp:1229
+#: dolphinmainwindow.cpp:1281
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Panels"
@@ -355,7 +367,7 @@ msgctxt "@action:inmenu Panels"
 msgid "Unlock Panels"
 msgstr "Panele"
 
-#: dolphinmainwindow.cpp:1231
+#: dolphinmainwindow.cpp:1283
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Panels"
@@ -363,31 +375,31 @@ msgctxt "@action:inmenu Panels"
 msgid "Lock Panels"
 msgstr "Panele"
 
-#: dolphinmainwindow.cpp:1237
+#: dolphinmainwindow.cpp:1289
 #, kde-format
 msgctxt "@title:window"
 msgid "Information"
 msgstr "Informacija"
 
-#: dolphinmainwindow.cpp:1261
+#: dolphinmainwindow.cpp:1313
 #, kde-format
 msgctxt "@title:window"
 msgid "Folders"
 msgstr "Zapiski"
 
-#: dolphinmainwindow.cpp:1285
+#: dolphinmainwindow.cpp:1337
 #, kde-format
 msgctxt "@title:window Shell terminal"
 msgid "Terminal"
 msgstr "Terminal"
 
-#: dolphinmainwindow.cpp:1318
+#: dolphinmainwindow.cpp:1370
 #, kde-format
 msgctxt "@title:window"
 msgid "Places"
 msgstr "Městna"
 
-#: dolphinmainwindow.cpp:1349 panels/places/placespanel.cpp:293
+#: dolphinmainwindow.cpp:1401 panels/places/placespanel.cpp:293
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Show Hidden Files"
@@ -395,7 +407,7 @@ msgctxt "@item:inmenu"
 msgid "Show Hidden Places"
 msgstr "schowane dataje pokazać"
 
-#: dolphinmainwindow.cpp:1364
+#: dolphinmainwindow.cpp:1416
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Panels"
@@ -403,43 +415,43 @@ msgctxt "@action:inmenu View"
 msgid "Panels"
 msgstr "Panele"
 
-#: dolphinmainwindow.cpp:1441
+#: dolphinmainwindow.cpp:1493
 #, kde-format
 msgctxt "@action"
 msgid "Control"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1557
+#: dolphinmainwindow.cpp:1609
 #, kde-format
 msgctxt "@action:intoolbar Close left view"
 msgid "Close"
 msgstr "Začinić"
 
-#: dolphinmainwindow.cpp:1558
+#: dolphinmainwindow.cpp:1610
 #, kde-format
 msgctxt "@info"
 msgid "Close left view"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1561
+#: dolphinmainwindow.cpp:1613
 #, kde-format
 msgctxt "@action:intoolbar Close right view"
 msgid "Close"
 msgstr "Začinić"
 
-#: dolphinmainwindow.cpp:1562
+#: dolphinmainwindow.cpp:1614
 #, kde-format
 msgctxt "@info"
 msgid "Close right view"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1566
+#: dolphinmainwindow.cpp:1618
 #, kde-format
 msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr "Dźělić"
 
-#: dolphinmainwindow.cpp:1567
+#: dolphinmainwindow.cpp:1619
 #, fuzzy, kde-format
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
@@ -1804,14 +1816,14 @@ msgctxt "@item:inmenu"
 msgid "Hide Section '%1'"
 msgstr ""
 
-#: panels/terminal/terminalpanel.cpp:149
+#: panels/terminal/terminalpanel.cpp:159
 #, kde-format
 msgid ""
 "Terminal cannot be shown because Konsole is not installed. Please install it "
 "and then reopen the panel."
 msgstr ""
 
-#: panels/terminal/terminalpanel.cpp:155
+#: panels/terminal/terminalpanel.cpp:165
 #, kde-format
 msgid "Install Konsole"
 msgstr ""
@@ -2407,8 +2419,16 @@ msgstr "Archiwy přelistować"
 msgid "Ask for confirmation when closing windows with multiple tabs."
 msgstr ""
 
-#. i18n: ectx: label, entry (RenameInline), group (General)
+#. i18n: ectx: label, entry (ConfirmClosingTerminalRunningProgram), group (General)
 #: settings/dolphin_generalsettings.kcfg:62
+#, kde-format
+msgid ""
+"Ask for confirmation when closing windows with a program that is still "
+"running in the Terminal panel."
+msgstr ""
+
+#. i18n: ectx: label, entry (RenameInline), group (General)
+#: settings/dolphin_generalsettings.kcfg:66
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Rename inline"
@@ -2416,7 +2436,7 @@ msgid "Rename inline"
 msgstr "Na lince přemjenować"
 
 #. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
-#: settings/dolphin_generalsettings.kcfg:66
+#: settings/dolphin_generalsettings.kcfg:70
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show selection toggle"
@@ -2424,13 +2444,13 @@ msgid "Show selection toggle"
 msgstr "Přešaltowanje wubraća pokazać"
 
 #. i18n: ectx: label, entry (UseTabForSwitchingSplitView), group (General)
-#: settings/dolphin_generalsettings.kcfg:70
+#: settings/dolphin_generalsettings.kcfg:74
 #, kde-format
 msgid "Use tab for switching between right and left split"
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowToolTips), group (General)
-#: settings/dolphin_generalsettings.kcfg:74
+#: settings/dolphin_generalsettings.kcfg:78
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show tooltips"
@@ -2438,7 +2458,7 @@ msgid "Show tooltips"
 msgstr "Tooltips pokazać"
 
 #. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
-#: settings/dolphin_generalsettings.kcfg:78
+#: settings/dolphin_generalsettings.kcfg:82
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show 'Copy To' and 'Move To' commands in context menu"
@@ -2446,7 +2466,7 @@ msgid "Show 'Copy To' and 'Move To' commands in context menu"
 msgstr "Přikazaj 'Kopěrować' a 'Přesunyć' w kontekstowym meniju pokazać"
 
 #. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
-#: settings/dolphin_generalsettings.kcfg:82
+#: settings/dolphin_generalsettings.kcfg:86
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Timestamp since when the view properties are valid"
@@ -2454,7 +2474,7 @@ msgid "Timestamp since when the view properties are valid"
 msgstr "Čas, wot kotrehož swójstwa napohlada płaća"
 
 #. i18n: ectx: label, entry (AutoExpandFolders), group (General)
-#: settings/dolphin_generalsettings.kcfg:85
+#: settings/dolphin_generalsettings.kcfg:89
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Use auto-expanding folders for all view types"
@@ -2462,7 +2482,7 @@ msgid "Use auto-expanding folders for all view types"
 msgstr "Rozćahowate zapiski za wšě datajowe družiny"
 
 #. i18n: ectx: label, entry (ShowZoomSlider), group (General)
-#: settings/dolphin_generalsettings.kcfg:89
+#: settings/dolphin_generalsettings.kcfg:93
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show zoom slider in the statusbar"
@@ -2470,7 +2490,7 @@ msgid "Show zoom slider in the statusbar"
 msgstr "Zoomowanski suwak w statusowym pasu"
 
 #. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: settings/dolphin_generalsettings.kcfg:93
+#: settings/dolphin_generalsettings.kcfg:97
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show the space information in the statusbar"
@@ -2478,19 +2498,19 @@ msgid "Show the space information in the statusbar"
 msgstr "Informaciju wo rumje w statusowym pasu pokazać"
 
 #. i18n: ectx: label, entry (LockPanels), group (General)
-#: settings/dolphin_generalsettings.kcfg:97
+#: settings/dolphin_generalsettings.kcfg:101
 #, kde-format
 msgid "Lock the layout of the panels"
 msgstr ""
 
 #. i18n: ectx: label, entry (EnlargeSmallPreviews), group (General)
-#: settings/dolphin_generalsettings.kcfg:101
+#: settings/dolphin_generalsettings.kcfg:105
 #, kde-format
 msgid "Enlarge Small Previews"
 msgstr ""
 
 #. i18n: ectx: label, entry (SortingChoice), group (General)
-#: settings/dolphin_generalsettings.kcfg:110
+#: settings/dolphin_generalsettings.kcfg:114
 #, kde-format
 msgid ""
 "Choose Natural, Case Sensitive, or Case Insensitive order of sorting the "
@@ -2651,7 +2671,7 @@ msgctxt "@title:window"
 msgid "Configure Preview for %1"
 msgstr ""
 
-#: settings/general/confirmationssettingspage.cpp:47
+#: settings/general/confirmationssettingspage.cpp:52
 #, fuzzy, kde-format
 #| msgctxt "@title:group"
 #| msgid "Ask For Confirmation When"
@@ -2659,7 +2679,7 @@ msgctxt "@title:group"
 msgid "Ask for confirmation in all KDE applications when:"
 msgstr "So doprašeć, hdyž"
 
-#: settings/general/confirmationssettingspage.cpp:51
+#: settings/general/confirmationssettingspage.cpp:56
 #, fuzzy, kde-format
 #| msgctxt "@option:check Ask for Confirmation When"
 #| msgid "Moving files or folders to trash"
@@ -2667,7 +2687,7 @@ msgctxt "@option:check Ask for confirmation when"
 msgid "Moving files or folders to trash"
 msgstr "so dataje abo zapiski do papjernika přesuwaja"
 
-#: settings/general/confirmationssettingspage.cpp:53
+#: settings/general/confirmationssettingspage.cpp:58
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Empty Trash"
@@ -2675,7 +2695,7 @@ msgctxt "@option:check Ask for confirmation when"
 msgid "Emptying trash"
 msgstr "Prózdny papjernik"
 
-#: settings/general/confirmationssettingspage.cpp:55
+#: settings/general/confirmationssettingspage.cpp:60
 #, fuzzy, kde-format
 #| msgctxt "@option:check Ask for Confirmation When"
 #| msgid "Deleting files or folders"
@@ -2683,13 +2703,13 @@ msgctxt "@option:check Ask for confirmation when"
 msgid "Deleting files or folders"
 msgstr "so dataje abo zapiski wumazaja"
 
-#: settings/general/confirmationssettingspage.cpp:57
+#: settings/general/confirmationssettingspage.cpp:62
 #, kde-format
 msgctxt "@option:check Ask for confirmation when"
 msgid "Executing scripts or desktop files"
 msgstr ""
 
-#: settings/general/confirmationssettingspage.cpp:59
+#: settings/general/confirmationssettingspage.cpp:64
 #, fuzzy, kde-format
 #| msgctxt "@title:group"
 #| msgid "Ask For Confirmation When"
@@ -2697,10 +2717,16 @@ msgctxt "@title:group"
 msgid "Ask for confirmation in Dolphin when:"
 msgstr "So doprašeć, hdyž"
 
-#: settings/general/confirmationssettingspage.cpp:63
+#: settings/general/confirmationssettingspage.cpp:68
 #, kde-format
 msgctxt "@option:check Ask for confirmation in Dolphin when"
 msgid "Closing windows with multiple tabs"
+msgstr ""
+
+#: settings/general/confirmationssettingspage.cpp:72
+#, kde-format
+msgctxt "@option:check Ask for confirmation when"
+msgid "Closing windows with a program running in the Terminal panel"
 msgstr ""
 
 #: settings/general/generalsettingspage.cpp:44
