@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-02-24 03:09+0100\n"
+"POT-Creation-Date: 2019-02-25 03:20+0100\n"
 "PO-Revision-Date: 2008-11-10 22:45+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -1352,7 +1352,7 @@ msgid "Appearance"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: dialogs/katedialogs.cpp:862 dialogs/textareaappearanceconfigwidget.ui:210
+#: dialogs/katedialogs.cpp:862 dialogs/textareaappearanceconfigwidget.ui:236
 #, kde-format
 msgid "Advanced"
 msgstr ""
@@ -1947,42 +1947,60 @@ msgstr ""
 msgid "Whitespace Highlighting"
 msgstr "&Wuzběhować"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowTabs)
-#: dialogs/textareaappearanceconfigwidget.ui:155
+#. i18n: ectx: property (text), item, widget (QComboBox, spacesComboBox)
+#: dialogs/textareaappearanceconfigwidget.ui:156
 #, kde-format
-msgid ""
-"The editor will display a symbol to indicate the presence of a tab in the "
-"text."
+msgid "None"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkShowTabs)
-#: dialogs/textareaappearanceconfigwidget.ui:158
+#. i18n: ectx: property (text), item, widget (QComboBox, spacesComboBox)
+#: dialogs/textareaappearanceconfigwidget.ui:161
 #, kde-format
-msgid "&Highlight tabulators"
+msgid "Trailing"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkShowSpaces)
-#: dialogs/textareaappearanceconfigwidget.ui:165
-#, fuzzy, kde-format
-#| msgid "&Highlighting"
-msgid "Highlight trailing &spaces"
-msgstr "&Wuzběhować"
+#. i18n: ectx: property (text), item, widget (QComboBox, spacesComboBox)
+#: dialogs/textareaappearanceconfigwidget.ui:166
+#, kde-format
+msgid "All"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lbMarkerDescription)
-#: dialogs/textareaappearanceconfigwidget.ui:178
+#: dialogs/textareaappearanceconfigwidget.ui:180
 #, fuzzy, kde-format
 #| msgid "&Highlighting"
 msgid "Highlight marker size:"
 msgstr "&Wuzběhować"
 
 #. i18n: ectx: property (whatsThis), widget (QSlider, sliSetMarkerSize)
-#: dialogs/textareaappearanceconfigwidget.ui:185
+#: dialogs/textareaappearanceconfigwidget.ui:190
 #, kde-format
 msgid "Size of the visible highlight marker."
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowIndentationLines)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/textareaappearanceconfigwidget.ui:209
+#, kde-format
+msgid "Whitepaces"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowTabs)
 #: dialogs/textareaappearanceconfigwidget.ui:216
+#, kde-format
+msgid ""
+"The editor will display a symbol to indicate the presence of a tab in the "
+"text."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/textareaappearanceconfigwidget.ui:226
+#, fuzzy, kde-format
+#| msgid "&Highlighting"
+msgid "Highlight tabulators"
+msgstr "&Wuzběhować"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowIndentationLines)
+#: dialogs/textareaappearanceconfigwidget.ui:242
 #, kde-format
 msgid ""
 "If this is enabled, the editor will display vertical lines to help identify "
@@ -1990,13 +2008,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowIndentationLines)
-#: dialogs/textareaappearanceconfigwidget.ui:219
+#: dialogs/textareaappearanceconfigwidget.ui:245
 #, kde-format
 msgid "Show i&ndentation lines"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowWholeBracketExpression)
-#: dialogs/textareaappearanceconfigwidget.ui:226
+#: dialogs/textareaappearanceconfigwidget.ui:252
 #, kde-format
 msgid ""
 "If this is enabled, the range between the selected matching brackets will be "
@@ -2004,32 +2022,32 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowWholeBracketExpression)
-#: dialogs/textareaappearanceconfigwidget.ui:229
+#: dialogs/textareaappearanceconfigwidget.ui:255
 #, kde-format
 msgid "Highlight range between selected brackets"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkAnimateBracketMatching)
-#: dialogs/textareaappearanceconfigwidget.ui:236
+#: dialogs/textareaappearanceconfigwidget.ui:262
 #, kde-format
 msgid "Flash matching brackets"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkAnimateBracketMatching)
-#: dialogs/textareaappearanceconfigwidget.ui:239
+#: dialogs/textareaappearanceconfigwidget.ui:265
 #, kde-format
 msgid ""
 "If this is enabled, matching brackets are animated for better visibility."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkAnimateBracketMatching)
-#: dialogs/textareaappearanceconfigwidget.ui:242
+#: dialogs/textareaappearanceconfigwidget.ui:268
 #, kde-format
 msgid "Animate bracket matching"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkFoldFirstLine)
-#: dialogs/textareaappearanceconfigwidget.ui:252
+#: dialogs/textareaappearanceconfigwidget.ui:278
 #, kde-format
 msgid ""
 "When this setting is enabled, the editor view automatically folds\n"
@@ -2039,32 +2057,32 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkFoldFirstLine)
-#: dialogs/textareaappearanceconfigwidget.ui:255
+#: dialogs/textareaappearanceconfigwidget.ui:281
 #, fuzzy, kde-format
 #| msgid "&End of Line"
 msgid "Fold first line"
 msgstr "&Kónc linki"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkShowWordCount)
-#: dialogs/textareaappearanceconfigwidget.ui:262
+#: dialogs/textareaappearanceconfigwidget.ui:288
 #, kde-format
 msgid "Show/hide word count in status bar"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowWordCount)
-#: dialogs/textareaappearanceconfigwidget.ui:265
+#: dialogs/textareaappearanceconfigwidget.ui:291
 #, kde-format
 msgid "Show word count"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkShowLineCount)
-#: dialogs/textareaappearanceconfigwidget.ui:272
+#: dialogs/textareaappearanceconfigwidget.ui:298
 #, kde-format
 msgid "Show/hide line count in status bar"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowLineCount)
-#: dialogs/textareaappearanceconfigwidget.ui:275
+#: dialogs/textareaappearanceconfigwidget.ui:301
 #, fuzzy, kde-format
 #| msgid "Show &Line Numbers"
 msgid "Show line count"
@@ -7277,6 +7295,11 @@ msgstr ""
 msgid "Mark not set: %1"
 msgstr "Marka družiny %1"
 
+#, fuzzy
+#~| msgid "&Highlighting"
+#~ msgid "Highlight trailing &spaces"
+#~ msgstr "&Wuzběhować"
+
 #~ msgid "&Go to line:"
 #~ msgstr "&Skoč k lince:"
 
@@ -7450,11 +7473,6 @@ msgstr "Marka družiny %1"
 
 #~ msgid "Error: "
 #~ msgstr "Zmylk:"
-
-#, fuzzy
-#~| msgid "&Highlighting"
-#~ msgid "Hi&ghlight all"
-#~ msgstr "&Wuzběhować"
 
 #~ msgid "Success"
 #~ msgstr "Wuspěch"
