@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-03-05 03:36+0100\n"
+"POT-Creation-Date: 2019-03-31 04:34+0200\n"
 "PO-Revision-Date: 2008-11-13 21:53+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -69,7 +69,15 @@ msgstr "..."
 msgid "Unknown"
 msgstr "Njeznate"
 
-#: componentchooser.cpp:150
+#: componentchooser.cpp:151
+#, kde-format
+msgid ""
+"Choose from the list below which component should be used by default for the "
+"%1 service."
+msgstr ""
+"Wubjerće z lisćiny deleka, kotru komponentu ma słužba %1 jako standard brać."
+
+#: componentchooser.cpp:183
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -77,18 +85,10 @@ msgid ""
 msgstr ""
 "<qt>Sće standardnu komponentu změnili, chceće tutu změnu nětko zawěsćić?</qt>"
 
-#: componentchooser.cpp:154
+#: componentchooser.cpp:188
 #, kde-format
 msgid "No description available"
 msgstr "Žane wopisanje namakał"
-
-#: componentchooser.cpp:165 componentchooser.cpp:170
-#, kde-format
-msgid ""
-"Choose from the list below which component should be used by default for the "
-"%1 service."
-msgstr ""
-"Wubjerće z lisćiny deleka, kotru komponentu ma słužba %1 jako standard brać."
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox1)
 #: componentchooser_ui.ui:26
