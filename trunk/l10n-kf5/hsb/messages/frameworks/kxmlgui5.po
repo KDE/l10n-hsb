@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-19 02:59+0200\n"
+"POT-Creation-Date: 2019-08-02 02:42+0200\n"
 "PO-Revision-Date: 2008-12-19 22:49+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -706,29 +706,35 @@ msgstr "<h2>Skrótki dodate (jenož za Wašu informaciju)</h2>"
 msgid "--- separator ---"
 msgstr "--- dźělak ---"
 
-#: kedittoolbar.cpp:331
+#: kedittoolbar.cpp:56
+#, fuzzy, kde-format
+#| msgid "--- separator ---"
+msgid "--- expanding spacer ---"
+msgstr "--- dźělak ---"
+
+#: kedittoolbar.cpp:347
 #, fuzzy, kde-format
 #| msgid "Change Icon"
 msgid "Change Text"
 msgstr "Piktogram změnić"
 
-#: kedittoolbar.cpp:342
+#: kedittoolbar.cpp:358
 #, fuzzy, kde-format
 #| msgid "Link Text:"
 msgid "Icon te&xt:"
 msgstr "Na tekst wotkazać:"
 
-#: kedittoolbar.cpp:347
+#: kedittoolbar.cpp:363
 #, kde-format
 msgid "&Hide text when toolbar shows text alongside icons"
 msgstr ""
 
-#: kedittoolbar.cpp:601
+#: kedittoolbar.cpp:617
 #, kde-format
 msgid "Configure Toolbars"
 msgstr "Konfiguracija nastrojowych pasow"
 
-#: kedittoolbar.cpp:664
+#: kedittoolbar.cpp:680
 #, kde-format
 msgid ""
 "Do you really want to reset all toolbars of this application to their "
@@ -737,17 +743,17 @@ msgstr ""
 "Chceće woprawdźe wšitke nastrojowe pasy tutoho programa na standard wróćo "
 "sadźić? Změna so hnydom přewjedźe."
 
-#: kedittoolbar.cpp:664
+#: kedittoolbar.cpp:680
 #, kde-format
 msgid "Reset Toolbars"
 msgstr "Nastrojowe pasy na standard wróćo stajić"
 
-#: kedittoolbar.cpp:664
+#: kedittoolbar.cpp:680
 #, kde-format
 msgid "Reset"
 msgstr "Stary staw"
 
-#: kedittoolbar.cpp:987
+#: kedittoolbar.cpp:1003
 #, kde-format
 msgid "&Toolbar:"
 msgstr "&Nastrojowy pask:"
@@ -759,56 +765,56 @@ msgstr "&Nastrojowy pask:"
 #. del_toolbar->setPixmap(BarIcon("edit-delete", KIconLoader::SizeSmall));
 #. del_toolbar->setEnabled(false); // disabled until implemented
 #. our list of inactive actions
-#: kedittoolbar.cpp:1002
+#: kedittoolbar.cpp:1018
 #, kde-format
 msgid "A&vailable actions:"
 msgstr "&Móžne akcije"
 
-#: kedittoolbar.cpp:1017 kedittoolbar.cpp:1036
+#: kedittoolbar.cpp:1033 kedittoolbar.cpp:1052
 #, fuzzy, kde-format
 #| msgid "File"
 msgid "Filter"
 msgstr "Dataja"
 
-#: kedittoolbar.cpp:1020
+#: kedittoolbar.cpp:1036
 #, kde-format
 msgid "Curr&ent actions:"
 msgstr "&Tuchwilne akcije:"
 
-#: kedittoolbar.cpp:1039
+#: kedittoolbar.cpp:1055
 #, kde-format
 msgid "Change &Icon..."
 msgstr "&Piktogram změnić..."
 
-#: kedittoolbar.cpp:1047
+#: kedittoolbar.cpp:1063
 #, fuzzy, kde-format
 #| msgid "Change &Icon..."
 msgid "Change Te&xt..."
 msgstr "&Piktogram změnić..."
 
-#: kedittoolbar.cpp:1199
+#: kedittoolbar.cpp:1218
 #, kde-format
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr "%1"
 
-#: kedittoolbar.cpp:1219
+#: kedittoolbar.cpp:1245
 #, kde-format
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
 msgstr "Tutón element so naruna z elementami zakašćikowaneje komponenty."
 
-#: kedittoolbar.cpp:1221
+#: kedittoolbar.cpp:1247
 #, kde-format
 msgid "<Merge>"
 msgstr "<zjednoćić>"
 
-#: kedittoolbar.cpp:1223
+#: kedittoolbar.cpp:1249
 #, kde-format
 msgid "<Merge %1>"
 msgstr "<%1 zjednoćić>"
 
-#: kedittoolbar.cpp:1229
+#: kedittoolbar.cpp:1255
 #, kde-format
 msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
@@ -817,18 +823,18 @@ msgstr ""
 "To je dynamiska lisćina akcijow. Móžeć ju suwać, ale jeli ju zničiće, "
 "njemóžeće ju hižo dodać."
 
-#: kedittoolbar.cpp:1230
+#: kedittoolbar.cpp:1256
 #, kde-format
 msgid "ActionList: %1"
 msgstr "Lisćina akcijow: %1"
 
-#: kedittoolbar.cpp:1329 kedittoolbar.cpp:1356
+#: kedittoolbar.cpp:1360 kedittoolbar.cpp:1387
 #, kde-format
 msgctxt "@label Action tooltip in toolbar editor, below the action list"
 msgid "%1"
 msgstr "%1"
 
-#: kedittoolbar.cpp:1583
+#: kedittoolbar.cpp:1616
 #, kde-format
 msgid "Change Icon"
 msgstr "Piktogram změnić"
@@ -1566,7 +1572,7 @@ msgstr "Znowa činić"
 msgid "Undo"
 msgstr "Wróćo"
 
-#: kxmlguibuilder.cpp:190 kxmlguibuilder.cpp:354
+#: kxmlguibuilder.cpp:192 kxmlguibuilder.cpp:363
 #, kde-format
 msgid "No text"
 msgstr "Žadyn tekst"
