@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-13 03:27+0200\n"
+"POT-Creation-Date: 2019-08-28 03:13+0200\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -3057,6 +3057,19 @@ msgstr ""
 "Njemóžach dataju čitać:\n"
 "%1"
 
+#: identity/identityeditvcarddialog.cpp:135
+#, fuzzy, kde-format
+#| msgid "<qt>Do you really want to execute <b>%1</b>?</qt>"
+msgctxt "@info"
+msgid "Do you really want to cancel?"
+msgstr "<qt>Chceće woprawdźe <b>%1</b> startować?</qt>"
+
+#: identity/identityeditvcarddialog.cpp:136
+#, fuzzy, kde-format
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "Wobkrućenje dochada"
+
 #: identity/identitylistview.cpp:100
 #, kde-format
 msgctxt ""
@@ -3941,7 +3954,7 @@ msgid ""
 "compromised by other present and anticipated security exploits."
 msgstr ""
 
-#: kmmainwidget.cpp:1581 kmmainwidget.cpp:4694
+#: kmmainwidget.cpp:1581 kmmainwidget.cpp:4692
 #, kde-format
 msgid "Security Warning"
 msgstr "Wěstotne warnowanje"
@@ -4214,7 +4227,7 @@ msgctxt "@action Hard delete, bypassing trash"
 msgid "&Delete"
 msgstr "Z&ničić"
 
-#: kmmainwidget.cpp:2975 kmmainwidget.cpp:4046
+#: kmmainwidget.cpp:2975 kmmainwidget.cpp:4044
 #, kde-format
 msgid "M&ove Thread to Trash"
 msgstr "Diskusiju do &papjernika sunyć"
@@ -4224,12 +4237,12 @@ msgstr "Diskusiju do &papjernika sunyć"
 msgid "Move thread to trashcan"
 msgstr "Diskusiju do papjernika sunyć"
 
-#: kmmainwidget.cpp:2982 kmmainwidget.cpp:4046
+#: kmmainwidget.cpp:2982 kmmainwidget.cpp:4044
 #, kde-format
 msgid "Delete T&hread"
 msgstr "Diskusiju z&ničić"
 
-#: kmmainwidget.cpp:2988 kmmainwidget.cpp:4048
+#: kmmainwidget.cpp:2988 kmmainwidget.cpp:4046
 #, kde-format
 msgid "&Find Messages..."
 msgstr "Powěsće &namakać ..."
@@ -4731,48 +4744,48 @@ msgstr "Mjeno identity"
 msgid "Add Favorite Folder"
 msgstr "&Nowy Zapisk..."
 
-#: kmmainwidget.cpp:3938
+#: kmmainwidget.cpp:3936
 #, kde-format
 msgid "E&mpty Trash"
 msgstr "Pa&pjernik wuprózdnić"
 
-#: kmmainwidget.cpp:3939
+#: kmmainwidget.cpp:3937
 #, kde-format
 msgid "&Move All Messages to Trash"
 msgstr "&Wšitke powěsće do papjernika sunyć"
 
-#: kmmainwidget.cpp:4036
+#: kmmainwidget.cpp:4034
 #, fuzzy, kde-format
 msgid "&Delete Search"
 msgstr "&Zapisk zničić"
 
-#: kmmainwidget.cpp:4048
+#: kmmainwidget.cpp:4046
 #, fuzzy, kde-format
 msgid "Edit Search..."
 msgstr "wobdźěłać..."
 
-#: kmmainwidget.cpp:4160
+#: kmmainwidget.cpp:4158
 #, kde-format
 msgid "&Undo"
 msgstr ""
 
-#: kmmainwidget.cpp:4162
+#: kmmainwidget.cpp:4160
 #, kde-format
 msgid "&Undo: \"%1\""
 msgstr ""
 
-#: kmmainwidget.cpp:4214
+#: kmmainwidget.cpp:4212
 #, fuzzy, kde-format
 msgid "Filter %1"
 msgstr "Filtrowa akcija %1"
 
-#: kmmainwidget.cpp:4683
+#: kmmainwidget.cpp:4681
 #, fuzzy, kde-format
 msgctxt "Show shortcut for focus quick search. Don't change it"
 msgid "Search... <%1>"
 msgstr "Wopisanje"
 
-#: kmmainwidget.cpp:4691
+#: kmmainwidget.cpp:4689
 #, kde-format
 msgid ""
 "Use of HTML in mail will make you more vulnerable to \"spam\" and may "
@@ -4782,12 +4795,12 @@ msgstr ""
 "Wužiwanje HTML w mailkach přićahuje wjace čaporowych mailkow a powjetši "
 "prawdźepodobnosć, zo nastanu wěstotne problemy."
 
-#: kmmainwidget.cpp:4695
+#: kmmainwidget.cpp:4693
 #, kde-format
 msgid "Use HTML"
 msgstr "Wužiwaj HTML"
 
-#: kmmainwidget.cpp:4880
+#: kmmainwidget.cpp:4878
 #, kde-format
 msgid ""
 "You have more than one email account set up.\n"
@@ -4797,17 +4810,17 @@ msgid ""
 "disable the feature completely in KMail's Plugin settings."
 msgstr ""
 
-#: kmmainwidget.cpp:4883
+#: kmmainwidget.cpp:4881
 #, kde-format
 msgid "Enable Unified Mailboxes?"
 msgstr ""
 
-#: kmmainwidget.cpp:4884
+#: kmmainwidget.cpp:4882
 #, kde-format
 msgid "Enable Unified Mailboxes"
 msgstr ""
 
-#: kmmainwidget.cpp:4885
+#: kmmainwidget.cpp:4883
 #, fuzzy, kde-format
 msgid "Cancel"
 msgstr "Přetorhnyć"
@@ -10581,12 +10594,6 @@ msgstr ""
 
 #~ msgid "Opening URL..."
 #~ msgstr "Wočinjam URL..."
-
-#, fuzzy
-#~| msgid "<qt>Do you really want to execute <b>%1</b>?</qt>"
-#~ msgctxt "@info"
-#~ msgid "Do you really want to execute <filename>%1</filename>?"
-#~ msgstr "<qt>Chceće woprawdźe <b>%1</b> startować?</qt>"
 
 #, fuzzy
 #~ msgid "Execute"
