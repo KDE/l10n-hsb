@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-29 07:24+0200\n"
 "PO-Revision-Date: 2008-11-13 21:53+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -69,15 +69,7 @@ msgstr "..."
 msgid "Unknown"
 msgstr "Njeznate"
 
-#: componentchooser.cpp:151
-#, kde-format
-msgid ""
-"Choose from the list below which component should be used by default for the "
-"%1 service."
-msgstr ""
-"Wubjerće z lisćiny deleka, kotru komponentu ma słužba %1 jako standard brać."
-
-#: componentchooser.cpp:183
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -85,10 +77,18 @@ msgid ""
 msgstr ""
 "<qt>Sće standardnu komponentu změnili, chceće tutu změnu nětko zawěsćić?</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:154
 #, kde-format
 msgid "No description available"
 msgstr "Žane wopisanje namakał"
+
+#: componentchooser.cpp:165 componentchooser.cpp:170
+#, kde-format
+msgid ""
+"Choose from the list below which component should be used by default for the "
+"%1 service."
+msgstr ""
+"Wubjerće z lisćiny deleka, kotru komponentu ma słužba %1 jako standard brać."
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox1)
 #: componentchooser_ui.ui:26
@@ -146,12 +146,12 @@ msgstr ""
 msgid "Select preferred Web browser application:"
 msgstr "Preferowany web-browser wubrać"
 
-#: componentchooseremail.cpp:86
+#: componentchooseremail.cpp:83
 #, kde-format
 msgid "Select preferred email client:"
 msgstr "Preferowany emejlowy program wubrać:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:103
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "Preferowany terminalowy program wubrać"
@@ -261,6 +261,15 @@ msgstr "(c), 2002 Joseph Wenninger"
 msgid "Joseph Wenninger"
 msgstr "Joseph Wenninger"
 
+#: ktimerdialog.cpp:163
+#, kde-format
+msgid "1 second remaining:"
+msgid_plural "%1 seconds remaining:"
+msgstr[0] "%1 sekunda zwostanje"
+msgstr[1] "%1 sekundźe zwostanjetej"
+msgstr[2] "%1 sekundy zwostanu"
+msgstr[3] "%1 sekundow zwostanje"
+
 #. i18n: ectx: property (text), widget (QRadioButton, terminalCB)
 #: terminalemulatorconfig_ui.ui:12
 #, kde-format
@@ -288,13 +297,6 @@ msgstr ""
 #, kde-format
 msgid "Click here to browse for terminal program."
 msgstr "Klikńće tu, hdyž chceće terminalowy program pytać"
-
-#~ msgid "1 second remaining:"
-#~ msgid_plural "%1 seconds remaining:"
-#~ msgstr[0] "%1 sekunda zwostanje"
-#~ msgstr[1] "%1 sekundźe zwostanjetej"
-#~ msgstr[2] "%1 sekundy zwostanu"
-#~ msgstr[3] "%1 sekundow zwostanje"
 
 #, fuzzy
 #~| msgid ""
