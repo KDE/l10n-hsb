@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-11 03:29+0200\n"
+"POT-Creation-Date: 2019-10-12 03:20+0200\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -347,6 +347,70 @@ msgstr "&Zničić"
 #, fuzzy, kde-format
 msgid "Delete All"
 msgstr "Z&ničić"
+
+#: dkim-verify/dkimwidgetinfo.cpp:51
+#, fuzzy, kde-format
+msgid "Unknown"
+msgstr "&Dopósłać"
+
+#: dkim-verify/dkimwidgetinfo.cpp:54
+#, kde-format
+msgid "KDIM: valid"
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:57
+#, kde-format
+msgid "KDIM: invalid"
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:60
+#, fuzzy, kde-format
+msgid "KDIM: Unsigned"
+msgstr "&Nješifrowane zawěsćić"
+
+#: dkim-verify/dkimwidgetinfo.cpp:74
+#, kde-format
+msgid "Body Hash was corrupted."
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:79
+#, kde-format
+msgid "Missing header From."
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:82
+#, fuzzy, kde-format
+#| msgid "Good signature."
+msgid "Missing signature."
+msgstr "Signatura w porjadku."
+
+#: dkim-verify/dkimwidgetinfo.cpp:95
+#, fuzzy, kde-format
+#| msgid "One key has expired."
+msgid "The public key was revoked."
+msgstr "Jedyn kluč je zestarjeny."
+
+#: dkim-verify/dkimwidgetinfo.cpp:100
+#, fuzzy, kde-format
+#| msgid "This charset is not supported."
+msgid "Hash Algorithm is insupported."
+msgstr "Tute kodowanje so njepodpěruje."
+
+#: dkim-verify/dkimwidgetinfo.cpp:113
+#, fuzzy, kde-format
+#| msgid "The signature has expired."
+msgid "Signature expired"
+msgstr "Signatura je zestarjena."
+
+#: dkim-verify/dkimwidgetinfo.cpp:116
+#, kde-format
+msgid "Signature created in the future"
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:119
+#, fuzzy, kde-format
+msgid "Signature too small"
+msgstr "Signatura je zestarjena."
 
 #: header/grantleeheaderformatter.cpp:169
 #, kde-format
@@ -2132,11 +2196,6 @@ msgid "&Previous Card"
 msgstr "&Prjedawša powěsć"
 
 #, fuzzy
-#~| msgid "The signature has expired."
-#~ msgid "Signature Expired"
-#~ msgstr "Signatura je zestarjena."
-
-#, fuzzy
 #~| msgid "Receiver"
 #~ msgid "receiver was"
 #~ msgid_plural "receivers were"
@@ -2371,10 +2430,6 @@ msgstr "&Prjedawša powěsć"
 #~| msgid "Subject"
 #~ msgid "Object"
 #~ msgstr "Tema"
-
-#, fuzzy
-#~ msgid "Unknown"
-#~ msgstr "&Dopósłać"
 
 #, fuzzy
 #~ msgid "Copy url"
@@ -3539,10 +3594,6 @@ msgstr "&Prjedawša powěsć"
 #, fuzzy
 #~ msgid "Sign Message?"
 #~ msgstr "Podpi&s"
-
-#, fuzzy
-#~ msgid "Send Unsigned?"
-#~ msgstr "&Nješifrowane zawěsćić"
 
 #, fuzzy
 #~ msgid "Send &Unsigned"
@@ -4826,9 +4877,6 @@ msgstr "&Prjedawša powěsć"
 #~ msgstr ""
 #~ "&Originalne kodowanje we wotmołwach a dopósłanych powěsćach wobchować "
 #~ "(jeli móžno)."
-
-#~ msgid "This charset is not supported."
-#~ msgstr "Tute kodowanje so njepodpěruje."
 
 #~ msgid "Define custom mime header fields:"
 #~ msgstr "Definuj swoje pólka za MIME-hłójčki:"
