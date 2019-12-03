@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-02 02:58+0100\n"
+"POT-Creation-Date: 2019-12-03 02:58+0100\n"
 "PO-Revision-Date: 2008-12-19 22:49+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -832,38 +832,6 @@ msgstr "%1"
 msgid "Change Icon"
 msgstr "Piktogram změnić"
 
-#: kgesture.cpp:502
-#, kde-format
-msgctxt "left mouse button"
-msgid "left button"
-msgstr "lěwy knefl"
-
-#: kgesture.cpp:504
-#, kde-format
-msgctxt "middle mouse button"
-msgid "middle button"
-msgstr "srjedźanski knefl"
-
-#: kgesture.cpp:506
-#, kde-format
-msgctxt "right mouse button"
-msgid "right button"
-msgstr "prawy knefl"
-
-#: kgesture.cpp:508
-#, kde-format
-msgctxt "a nonexistent value of mouse button"
-msgid "invalid button"
-msgstr "žadyn tajki knefl"
-
-#: kgesture.cpp:521
-#, kde-format
-msgctxt ""
-"a kind of mouse gesture: hold down one mouse button, then press another "
-"button"
-msgid "Hold %1, then push %2"
-msgstr "%1 dźeržeć, potom %2 stłóčić"
-
 #. i18n: ectx: Menu (help)
 #: khelpmenu.cpp:172 ui_standards.rc:177
 #, kde-format
@@ -905,7 +873,7 @@ msgstr[2] "Konflikt z registrowanej globalnej skrótšenku"
 msgstr[3] "Konflikt z registrowanej globalnej skrótšenku"
 
 #: kkeysequencewidget.cpp:147 kkeysequencewidget.cpp:235
-#: kkeysequencewidget.cpp:626 kshortcutseditor.cpp:637 kshortcutseditor.cpp:655
+#: kkeysequencewidget.cpp:626
 #, kde-format
 msgid "Reassign"
 msgstr "Zwjazanje změnić"
@@ -1305,74 +1273,51 @@ msgstr "Knefl za pohib myški"
 msgid "Mouse Shape Gesture"
 msgstr "Forma pohiba myki"
 
-#: kshortcutseditor.cpp:632 kshortcutseditor.cpp:650
-#, kde-format
-msgid "Key Conflict"
-msgstr "Konflikt tastow"
-
-#: kshortcutseditor.cpp:633
-#, kde-format
-msgid ""
-"The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-"Tastowa kombinacija '%1' je so hižo z akciju '%2' zwjazała.\n"
-" Chceće ju město toho z aktualnej akciju zwjazać? "
-
-#: kshortcutseditor.cpp:651
-#, kde-format
-msgid ""
-"The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-"Tastowa kombinacija '%1' je so hižo z akciju '%2' zwjazała. Chceće ju město "
-"toho z aktualnej akciju zwjazać? "
-
-#: kshortcutseditor.cpp:698
+#: kshortcutseditor.cpp:562
 #, kde-format
 msgctxt "header for an applications shortcut list"
 msgid "Shortcuts for %1"
 msgstr "Skrótšenki za %1"
 
 #. i18n: ectx: property (text), widget (QLabel, priLabel)
-#: kshortcutseditor.cpp:716 kshortcutwidget.ui:22
+#: kshortcutseditor.cpp:580 kshortcutwidget.ui:22
 #, kde-format
 msgid "Main:"
 msgstr "Hłowna dataja:"
 
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
-#: kshortcutseditor.cpp:717 kshortcutwidget.ui:52
+#: kshortcutseditor.cpp:581 kshortcutwidget.ui:52
 #, kde-format
 msgid "Alternate:"
 msgstr "Alternatiwna:"
 
-#: kshortcutseditor.cpp:718
+#: kshortcutseditor.cpp:582
 #, kde-format
 msgid "Global:"
 msgstr "Globalnje:"
 
-#: kshortcutseditor.cpp:719
+#: kshortcutseditor.cpp:583
 #, fuzzy, kde-format
 #| msgid "Global Alternate"
 msgid "Global alternate:"
 msgstr "Globalnje Alternate"
 
-#: kshortcutseditor.cpp:735
+#: kshortcutseditor.cpp:599
 #, kde-format
 msgid "Action Name"
 msgstr "Mjeno akcije"
 
-#: kshortcutseditor.cpp:739
+#: kshortcutseditor.cpp:603
 #, kde-format
 msgid "Shortcuts"
 msgstr "Skrótšenki"
 
-#: kshortcutseditor.cpp:743
+#: kshortcutseditor.cpp:607
 #, kde-format
 msgid "Description"
 msgstr "Wopisanje"
 
-#: kshortcutseditoritem.cpp:54
+#: kshortcutseditoritem.cpp:46
 #, kde-format
 msgctxt "@item:intable Action name in shortcuts configuration"
 msgid "%1"
@@ -1648,6 +1593,45 @@ msgstr "&Nastajenja"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Hłowny nastrojowy pas"
+
+#~ msgctxt "left mouse button"
+#~ msgid "left button"
+#~ msgstr "lěwy knefl"
+
+#~ msgctxt "middle mouse button"
+#~ msgid "middle button"
+#~ msgstr "srjedźanski knefl"
+
+#~ msgctxt "right mouse button"
+#~ msgid "right button"
+#~ msgstr "prawy knefl"
+
+#~ msgctxt "a nonexistent value of mouse button"
+#~ msgid "invalid button"
+#~ msgstr "žadyn tajki knefl"
+
+#~ msgctxt ""
+#~ "a kind of mouse gesture: hold down one mouse button, then press another "
+#~ "button"
+#~ msgid "Hold %1, then push %2"
+#~ msgstr "%1 dźeržeć, potom %2 stłóčić"
+
+#~ msgid "Key Conflict"
+#~ msgstr "Konflikt tastow"
+
+#~ msgid ""
+#~ "The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
+#~ "Do you want to reassign it from that action to the current one?"
+#~ msgstr ""
+#~ "Tastowa kombinacija '%1' je so hižo z akciju '%2' zwjazała.\n"
+#~ " Chceće ju město toho z aktualnej akciju zwjazać? "
+
+#~ msgid ""
+#~ "The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
+#~ "Do you want to reassign it from that action to the current one?"
+#~ msgstr ""
+#~ "Tastowa kombinacija '%1' je so hižo z akciju '%2' zwjazała. Chceće ju "
+#~ "město toho z aktualnej akciju zwjazać? "
 
 #~ msgid "A&uthor"
 #~ msgstr "A&wtor"
