@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-11 03:23+0100\n"
+"POT-Creation-Date: 2019-12-17 03:20+0100\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -668,7 +668,7 @@ msgstr "Lisćina powěsćow - nowe powěsće"
 msgid "Fixed Width Font"
 msgstr "Pismo z krutej šěrokosću"
 
-#: configuredialog/configureappearancepage.cpp:145 editor/kmcomposerwin.cpp:396
+#: configuredialog/configureappearancepage.cpp:145
 #, kde-format
 msgid "Composer"
 msgstr "Editor"
@@ -1633,6 +1633,7 @@ msgstr ""
 
 #: dialog/addemailtoexistingcontactdialog.cpp:41
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Select Contact"
 msgstr "Zapisk zničić"
 
@@ -1720,6 +1721,7 @@ msgstr "Lisćina zapiskow"
 #: dialog/kmknotify.cpp:39
 #, fuzzy, kde-format
 #| msgid "New Mail Notification"
+msgctxt "@title:window"
 msgid "Notification"
 msgstr "Skedźbnjenje na nowu póštu"
 
@@ -1821,6 +1823,13 @@ msgstr ""
 msgctxt "@label:textbox Subject of email."
 msgid "S&ubject:"
 msgstr "&Tema:"
+
+#: editor/kmcomposerwin.cpp:396
+#, fuzzy, kde-format
+#| msgid "Composer"
+msgctxt "@title:window"
+msgid "Composer"
+msgstr "Editor"
 
 #: editor/kmcomposerwin.cpp:1088 editor/kmcomposerwin.cpp:1122
 #, fuzzy, kde-format
@@ -2412,6 +2421,7 @@ msgstr "Wobkrućenje dochada"
 #: editor/potentialphishingemail/potentialphishingdetaildialog.cpp:33
 #, fuzzy, kde-format
 #| msgid "[Details]"
+msgctxt "@title:window"
 msgid "Details"
 msgstr "[Nadrobnosće]"
 
@@ -2607,6 +2617,7 @@ msgstr ""
 #: identity/identityeditvcarddialog.cpp:54
 #, fuzzy, kde-format
 #| msgid "Modify Account"
+msgctxt "@title:window"
 msgid "Create own vCard"
 msgstr "Konto změnić"
 
@@ -2663,7 +2674,9 @@ msgid "Generating new key pair..."
 msgstr ""
 
 #: identity/identitydialog.cpp:274
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Edit Identity"
+msgctxt "@title:window"
 msgid "Edit Identity"
 msgstr "Identitu wobdźěłać"
 
@@ -3008,7 +3021,9 @@ msgid "The signature file is not valid"
 msgstr "Signatura je zestarjena."
 
 #: identity/identitydialog.cpp:874
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Edit Identity \"%1\""
+msgctxt "@title:window"
 msgid "Edit Identity \"%1\""
 msgstr "Identitu \"%1\" wobdźěłać"
 
@@ -3029,6 +3044,7 @@ msgstr "wobdźěłać..."
 #: identity/identityeditvcarddialog.cpp:48
 #, fuzzy, kde-format
 #| msgid "Modify Account"
+msgctxt "@title:window"
 msgid "Edit own vCard"
 msgstr "Konto změnić"
 
@@ -3115,7 +3131,9 @@ msgid "Set as Default"
 msgstr "Jako standard wužiwać"
 
 #: identity/newidentitydialog.cpp:50
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "New Identity"
+msgctxt "@title:window"
 msgid "New Identity"
 msgstr "Nowa identita"
 
@@ -3255,8 +3273,10 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: job/createnewcontactjob.cpp:81 kmreaderwin.cpp:147
-#, kde-format
+#: job/createnewcontactjob.cpp:81
+#, fuzzy, kde-format
+#| msgid "Add to Address Book"
+msgctxt "@title:window"
 msgid "Add to Address Book"
 msgstr "Dodać do adresnika"
 
@@ -3384,6 +3404,7 @@ msgstr "Zmylk při pósłanju zapiska"
 #: job/saveasfilejob.cpp:41
 #, fuzzy, kde-format
 #| msgid "Save to File"
+msgctxt "@title:window"
 msgid "Save File as"
 msgstr "Do dataje zawěsćić"
 
@@ -3555,7 +3576,9 @@ msgid "Main Toolbar"
 msgstr ""
 
 #: kmcommands.cpp:321
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Please wait"
+msgctxt "@title:window"
 msgid "Please wait"
 msgstr "Prošu dočakajće"
 
@@ -4047,6 +4070,7 @@ msgstr "Přesunjenje powěsćow přetorhnjene."
 
 #: kmmainwidget.cpp:1783
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Move Messages to Folder"
 msgstr "Suń powěsće do zapiska"
 
@@ -4076,6 +4100,7 @@ msgstr "Přesunjenje powěsćow přetorhnjene."
 #: kmmainwidget.cpp:1836
 #, fuzzy, kde-format
 #| msgid "Copy Message to Folder"
+msgctxt "@title:window"
 msgid "Copy Messages to Folder"
 msgstr "Kopěruj powěsće do zapiska"
 
@@ -4129,6 +4154,7 @@ msgstr "Přesunjenje powěsćow přetorhnjene."
 
 #: kmmainwidget.cpp:2195
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Jump to Folder"
 msgstr "Do tutoho zapiska kopěrować"
 
@@ -4738,6 +4764,7 @@ msgstr "Mjeno identity"
 
 #: kmmainwidget.cpp:3591
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Add Favorite Folder"
 msgstr "&Nowy Zapisk..."
 
@@ -4862,6 +4889,11 @@ msgstr "Wotmołwu pósłać na..."
 #, kde-format
 msgid "Forward To..."
 msgstr "Dopósłać na ..."
+
+#: kmreaderwin.cpp:147
+#, kde-format
+msgid "Add to Address Book"
+msgstr "Dodać do adresnika"
 
 #: kmreaderwin.cpp:153
 #, fuzzy, kde-format
@@ -5430,6 +5462,7 @@ msgstr "Hnydom pósłać"
 #: searchdialog/incompleteindexdialog.cpp:222
 #, fuzzy, kde-format
 #| msgid "&Sending"
+msgctxt "@title:window"
 msgid "Indexing"
 msgstr "&Pósłanje"
 
@@ -5492,6 +5525,7 @@ msgstr ""
 
 #: searchdialog/searchwindow.cpp:78
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Find Messages"
 msgstr "Powěsće &namakać ..."
 
@@ -6054,6 +6088,7 @@ msgstr "Powěsć &wobdźěłać"
 
 #: tag/tagselectdialog.cpp:49
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Select Tags"
 msgstr "Dodaj transportowy protokol"
 
