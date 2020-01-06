@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-11 02:55+0100\n"
+"POT-Creation-Date: 2020-01-06 03:08+0100\n"
 "PO-Revision-Date: 2008-12-19 22:49+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -22,14 +22,17 @@ msgstr ""
 "%100==4 ? 2 : 3;\n"
 "X-Generator: KAider 0.1\n"
 
-#: kaboutapplicationdialog.cpp:70 kaboutplugindialog.cpp:75 khelpmenu.cpp:280
-#, kde-format
+#: kaboutapplicationdialog.cpp:70 kaboutplugindialog.cpp:75
+#, fuzzy, kde-format
+#| msgid "About %1"
+msgctxt "@title:window"
 msgid "About %1"
 msgstr "Wo %1"
 
 #: kaboutapplicationdialog.cpp:102 kaboutplugindialog.cpp:92
 #, fuzzy, kde-format
 #| msgid "&About"
+msgctxt "@title:tab"
 msgid "About"
 msgstr "&Wo tutym programje"
 
@@ -43,12 +46,14 @@ msgstr ""
 #: kaboutapplicationdialog.cpp:119
 #, fuzzy, kde-format
 #| msgid "Libraries"
+msgctxt "@title:tab"
 msgid "Libraries"
 msgstr "Biblioteki"
 
 #: kaboutapplicationdialog.cpp:129 kaboutplugindialog.cpp:103
 #, fuzzy, kde-format
 #| msgid "Author"
+msgctxt "@title:tab"
 msgid "Author"
 msgid_plural "Authors"
 msgstr[0] "Awtor"
@@ -59,12 +64,14 @@ msgstr[3] "Awtor"
 #: kaboutapplicationdialog.cpp:136 kaboutplugindialog.cpp:110
 #, fuzzy, kde-format
 #| msgid "&Thanks To"
+msgctxt "@title:tab"
 msgid "Thanks To"
 msgstr "&Dźak "
 
 #: kaboutapplicationdialog.cpp:143 kaboutplugindialog.cpp:116
-#: kbugreport.cpp:251
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Translation"
+msgctxt "@title:tab"
 msgid "Translation"
 msgstr "Přełožk"
 
@@ -84,7 +91,7 @@ msgstr "Domjaca strona"
 #: kaboutapplicationpersonlistdelegate_p.cpp:128
 #, fuzzy, kde-format
 #| msgid "Other Contributors:"
-msgctxt "Action to send an email to a contributor"
+msgctxt "@info:tooltip Action to send an email to a contributor"
 msgid ""
 "Email contributor\n"
 "%1"
@@ -94,6 +101,7 @@ msgstr "Dalši přinošowarjo"
 #: kaboutapplicationpersonlistdelegate_p.cpp:171
 #, fuzzy, kde-format
 #| msgid "Homepage"
+msgctxt "@info:tooltip"
 msgid ""
 "Visit contributor's homepage\n"
 "%1"
@@ -101,15 +109,18 @@ msgstr "Domjaca strona"
 
 #: kaboutapplicationpersonlistdelegate_p.cpp:141
 #: kaboutapplicationpersonlistdelegate_p.cpp:174
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Homepage"
+msgctxt "@info:tooltip"
 msgid ""
 "Visit contributor's profile on %1\n"
 "%2"
-msgstr ""
+msgstr "Domjaca strona"
 
 #: kaboutapplicationpersonlistdelegate_p.cpp:165
 #, fuzzy, kde-format
 #| msgid "Homepage"
+msgctxt "@info:tooltip"
 msgid ""
 "Visit contributor's page\n"
 "%1"
@@ -118,6 +129,7 @@ msgstr "Domjaca strona"
 #: kaboutapplicationpersonlistdelegate_p.cpp:168
 #, fuzzy, kde-format
 #| msgid "Homepage"
+msgctxt "@info:tooltip"
 msgid ""
 "Visit contributor's blog\n"
 "%1"
@@ -161,7 +173,9 @@ msgid "Homepage"
 msgstr "Domjaca strona"
 
 #: kaboutkdedialog_p.cpp:43
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "About KDE"
+msgctxt "@title:window"
 msgid "About KDE"
 msgstr "Wo KDE"
 
@@ -302,24 +316,31 @@ msgstr ""
 "support/</a> <br><br>Hižo doprědka wutrobny dźak za pomoc.</html>"
 
 #: kaboutkdedialog_p.cpp:135
-#, kde-format
-msgctxt "About KDE"
+#, fuzzy, kde-format
+#| msgctxt "About KDE"
+#| msgid "&About"
+msgctxt "@title:tab About KDE"
 msgid "&About"
 msgstr "W&o KDE"
 
 #: kaboutkdedialog_p.cpp:136
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Report Bugs or Wishes"
+msgctxt "@title:tab"
 msgid "&Report Bugs or Wishes"
 msgstr "&Zmylki a přeća"
 
 #: kaboutkdedialog_p.cpp:137
 #, fuzzy, kde-format
 #| msgid "&Join the KDE Team"
+msgctxt "@title:tab"
 msgid "&Join KDE"
 msgstr "&Zastup do KDE-skupiny"
 
 #: kaboutkdedialog_p.cpp:138
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Support KDE"
+msgctxt "@title:tab"
 msgid "&Support KDE"
 msgstr "KDE &podpěrać"
 
@@ -368,11 +389,20 @@ msgstr ""
 "z menija 'Nastajenja' za rozrisanje. Žana akcija so njewuwjedźe."
 
 #: kactionconflictdetector.cpp:54
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Ambiguous shortcut detected"
+msgctxt "@title:window"
 msgid "Ambiguous shortcut detected"
 msgstr "Dwuzmyslna kombinacija namakana"
 
-#: kbugreport.cpp:106 kbugreport.cpp:135
+#: kbugreport.cpp:106
+#, fuzzy, kde-format
+#| msgid "Submit Bug Report"
+msgctxt "@title:window"
+msgid "Submit Bug Report"
+msgstr "Wo zmylku rozprawić"
+
+#: kbugreport.cpp:135
 #, kde-format
 msgid "Submit Bug Report"
 msgstr "Wo zmylku rozprawić"
@@ -393,34 +423,42 @@ msgid "From:"
 msgstr "Wot:"
 
 #: kbugreport.cpp:155
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure Email..."
+msgctxt "@action:button"
 msgid "Configure Email..."
 msgstr "Email konfigurować..."
 
-#: kbugreport.cpp:162
+#: kbugreport.cpp:161
 #, kde-format
 msgid "The email address this bug report is sent to."
 msgstr "Emailowa adresa, na kotruž ma so tuta rozprawa wo zmylku pósłać."
 
-#: kbugreport.cpp:163
+#: kbugreport.cpp:162
 #, fuzzy, kde-format
 #| msgid "To:"
 msgctxt "Email receiver address"
 msgid "To:"
 msgstr "Na:"
 
-#: kbugreport.cpp:172
-#, kde-format
+#: kbugreport.cpp:171
+#, fuzzy, kde-format
+#| msgid "&Send"
+msgctxt "@action:button"
 msgid "&Send"
 msgstr "&Pósćel"
 
 #: kbugreport.cpp:172
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Send bug report."
+msgctxt "@info:tooltip"
 msgid "Send bug report."
 msgstr "Pósćel rozprawu wo zmylku."
 
 #: kbugreport.cpp:173
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Send this bug report to %1."
+msgctxt "@info:whatsthis"
 msgid "Send this bug report to %1."
 msgstr "Pósćel rozprawu wo zmylku na %1."
 
@@ -467,30 +505,47 @@ msgid "Compiler:"
 msgstr "Compiler:"
 
 #: kbugreport.cpp:243
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Se&verity"
+msgctxt "@title:group"
 msgid "Se&verity"
 msgstr "&Chutnosć"
 
 #: kbugreport.cpp:247
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Critical"
+msgctxt "bug severity"
 msgid "Critical"
 msgstr "Kritiski"
 
 #: kbugreport.cpp:248
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Grave"
+msgctxt "bug severity"
 msgid "Grave"
 msgstr "Ćežki"
 
 #: kbugreport.cpp:249
-#, kde-format
-msgctxt "normal severity"
+#, fuzzy, kde-format
+#| msgctxt "normal severity"
+#| msgid "Normal"
+msgctxt "bug severity"
 msgid "Normal"
 msgstr "Normalny"
 
 #: kbugreport.cpp:250
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Wishlist"
+msgctxt "bug severity"
 msgid "Wishlist"
 msgstr "Lisćina přećow"
+
+#: kbugreport.cpp:251
+#, fuzzy, kde-format
+#| msgid "Translation"
+msgctxt "bug severity"
+msgid "Translation"
+msgstr "Přełožk"
 
 #: kbugreport.cpp:269
 #, kde-format
@@ -545,13 +600,16 @@ msgstr ""
 "informacija so serverej pósćele.</qt>"
 
 #: kbugreport.cpp:321
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Launch Bug Report Wizard"
+msgctxt "@action:button"
 msgid "&Launch Bug Report Wizard"
 msgstr "&Rozprawu wo zmylku startować"
 
 #: kbugreport.cpp:323
 #, fuzzy, kde-format
 #| msgid "Submit Bug Report"
+msgctxt "@action:button"
 msgid "&Submit Bug Report"
 msgstr "Wo zmylku rozprawić"
 
@@ -651,7 +709,9 @@ msgstr ""
 "zničić?"
 
 #: kbugreport.cpp:499
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Close Message"
+msgctxt "@title:window"
 msgid "Close Message"
 msgstr "Powěsć začinić"
 
@@ -708,6 +768,7 @@ msgstr "--- dźělak ---"
 #: kedittoolbar.cpp:347
 #, fuzzy, kde-format
 #| msgid "Change Icon"
+msgctxt "@title:window"
 msgid "Change Text"
 msgstr "Piktogram změnić"
 
@@ -719,11 +780,14 @@ msgstr "Na tekst wotkazać:"
 
 #: kedittoolbar.cpp:363
 #, kde-format
+msgctxt "@option:check"
 msgid "&Hide text when toolbar shows text alongside icons"
 msgstr ""
 
 #: kedittoolbar.cpp:616
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure Toolbars"
+msgctxt "@title:window"
 msgid "Configure Toolbars"
 msgstr "Konfiguracija nastrojowych pasow"
 
@@ -775,13 +839,16 @@ msgid "Curr&ent actions:"
 msgstr "&Tuchwilne akcije:"
 
 #: kedittoolbar.cpp:1062
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Change &Icon..."
+msgctxt "@action:button"
 msgid "Change &Icon..."
 msgstr "&Piktogram změnić..."
 
 #: kedittoolbar.cpp:1070
 #, fuzzy, kde-format
 #| msgid "Change &Icon..."
+msgctxt "@action:button"
 msgid "Change Te&xt..."
 msgstr "&Piktogram změnić..."
 
@@ -838,6 +905,11 @@ msgstr "Piktogram změnić"
 msgid "&Help"
 msgstr "Po&moc"
 
+#: khelpmenu.cpp:280
+#, kde-format
+msgid "About %1"
+msgstr "Wo %1"
+
 #: kkeysequencewidget.cpp:129
 #, kde-format
 msgid "Shortcut '%1' in Application %2 for action %3\n"
@@ -874,7 +946,9 @@ msgstr[3] "Konflikt z registrowanej globalnej skrótšenku"
 
 #: kkeysequencewidget.cpp:147 kkeysequencewidget.cpp:235
 #: kkeysequencewidget.cpp:626
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Reassign"
+msgctxt "@action:button"
 msgid "Reassign"
 msgstr "Zwjazanje změnić"
 
@@ -932,7 +1006,9 @@ msgstr[3] ""
 "%2 "
 
 #: kkeysequencewidget.cpp:244
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Shortcut conflict"
+msgctxt "@title:window"
 msgid "Shortcut conflict"
 msgstr "Konflikt skrótšenkow"
 
@@ -947,6 +1023,7 @@ msgstr ""
 
 #: kkeysequencewidget.cpp:275
 #, kde-format
+msgctxt "@info:tooltip"
 msgid ""
 "Click on the button, then enter the shortcut like you would in the program.\n"
 "Example for Ctrl+A: hold the Ctrl key and press A."
@@ -967,7 +1044,9 @@ msgid ""
 msgstr ""
 
 #: kkeysequencewidget.cpp:620
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Conflict with Standard Application Shortcut"
+msgctxt "@title:window"
 msgid "Conflict with Standard Application Shortcut"
 msgstr "Konflikt ze standardowym outputom programa"
 
@@ -1001,12 +1080,16 @@ msgid "The key you just pressed is not supported by Qt."
 msgstr "Tasta, kotruž sće runje stłóčili, so wot Qt njepodpěruje."
 
 #: kkeysequencewidget.cpp:722
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Unsupported Key"
+msgctxt "@title:window"
 msgid "Unsupported Key"
 msgstr "Njepodpěrana tasta"
 
 #: klicensedialog_p.cpp:44
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "License Agreement"
+msgctxt "@title:window"
 msgid "License Agreement"
 msgstr "Licensowe dorěčenje"
 
@@ -1028,7 +1111,9 @@ msgid "Add to Toolbar"
 msgstr "K nastrojowemu paskej dodać"
 
 #: kmenumenuhandler_p.cpp:235
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure Shortcut..."
+msgctxt "@action:inmenu"
 msgid "Configure Shortcut..."
 msgstr "Konfiguracija skrótšenki..."
 
@@ -1080,17 +1165,23 @@ msgid "The email address to send the bug report to."
 msgstr "Emailowa adresa, na kotruž ma so tuta rozprawa wo zmylku pósłać."
 
 #: kshortcuteditwidget.cpp:67
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Default:"
+msgctxt "@option:radio"
 msgid "Default:"
 msgstr "Standard:"
 
 #: kshortcuteditwidget.cpp:74
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Custom:"
+msgctxt "@option:radio"
 msgid "Custom:"
 msgstr "Konfigurowane:"
 
 #: kshortcutschemeseditor.cpp:44
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Shortcut Schemes"
+msgctxt "@title:group"
 msgid "Shortcut Schemes"
 msgstr "Šemy skrótšenkow"
 
@@ -1100,39 +1191,51 @@ msgid "Current scheme:"
 msgstr "Tuchwilna šema:"
 
 #: kshortcutschemeseditor.cpp:82
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "New..."
+msgctxt "@action:button"
 msgid "New..."
 msgstr "Nowe..."
 
 #: kshortcutschemeseditor.cpp:85
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Delete"
+msgctxt "@action:button"
 msgid "Delete"
 msgstr "Zničić"
 
 #: kshortcutschemeseditor.cpp:88
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "More Actions"
+msgctxt "@action:button"
 msgid "More Actions"
 msgstr "Dalše akcije"
 
 #: kshortcutschemeseditor.cpp:92
 #, fuzzy, kde-format
 #| msgid "Shortcut Schemes"
+msgctxt "@action:inmenu"
 msgid "Save shortcuts to scheme"
 msgstr "Šemy skrótšenkow"
 
 #: kshortcutschemeseditor.cpp:94
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Export Scheme..."
+msgctxt "@action:inmenu"
 msgid "Export Scheme..."
 msgstr "Šemu eksportować ..."
 
 #: kshortcutschemeseditor.cpp:96
 #, fuzzy, kde-format
 #| msgid "Export Scheme..."
+msgctxt "@action:inmenu"
 msgid "Import Scheme..."
 msgstr "Šemu eksportować ..."
 
 #: kshortcutschemeseditor.cpp:117
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Name for New Scheme"
+msgctxt "@title:window"
 msgid "Name for New Scheme"
 msgstr "Mjeno za nowu šemu"
 
@@ -1163,28 +1266,30 @@ msgstr ""
 #: kshortcutschemeseditor.cpp:185
 #, fuzzy, kde-format
 #| msgid "Shortcuts"
+msgctxt "@title:window"
 msgid "Export Shortcuts"
 msgstr "Skrótšenki"
 
-#: kshortcutschemeseditor.cpp:185 kshortcutschemeseditor.cpp:196
+#: kshortcutschemeseditor.cpp:186 kshortcutschemeseditor.cpp:198
 #, fuzzy, kde-format
 #| msgid "Shortcut Conflict(s)"
 msgid "Shortcuts (*.shortcuts)"
 msgstr "Konflikt skrótšenkow"
 
-#: kshortcutschemeseditor.cpp:196
+#: kshortcutschemeseditor.cpp:197
 #, fuzzy, kde-format
 #| msgid "Shortcuts"
+msgctxt "@title:window"
 msgid "Import Shortcuts"
 msgstr "Skrótšenki"
 
-#: kshortcutschemeseditor.cpp:207
+#: kshortcutschemeseditor.cpp:209
 #, fuzzy, kde-format
 #| msgid "The removal request was successfully registered."
 msgid "Shortcut scheme successfully saved."
 msgstr "Požadanje wo wotstronjenje wuspěšnje registrowane."
 
-#: kshortcutschemeseditor.cpp:210
+#: kshortcutschemeseditor.cpp:212
 #, kde-format
 msgid "Error saving the shortcut scheme."
 msgstr ""
@@ -1207,6 +1312,7 @@ msgstr "Nowa šema"
 #: kshortcutsdialog.cpp:154
 #, fuzzy, kde-format
 #| msgid "Configure Shortcuts"
+msgctxt "@title:window"
 msgid "Configure Keyboard Shortcuts"
 msgstr "Konfiguracija skrótšenkow"
 
@@ -1325,7 +1431,9 @@ msgid "%1"
 msgstr "%1"
 
 #: kswitchlanguagedialog_p.cpp:159
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Switch Application Language"
+msgctxt "@title:window"
 msgid "Switch Application Language"
 msgstr "Rěč programa změnić"
 
@@ -1335,12 +1443,18 @@ msgid "Please choose the language which should be used for this application:"
 msgstr "Prošu wubjerće rěč, kiž ma so za tutón program wužiwać:"
 
 #: kswitchlanguagedialog_p.cpp:191
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Fallback Language"
+msgctxt "@action:button"
 msgid "Add Fallback Language"
 msgstr "Rěč dodać za nuzowe pady"
 
 #: kswitchlanguagedialog_p.cpp:192
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Adds one more language which will be used if other translations do not "
+#| "contain a proper translation."
+msgctxt "@info:tooltip"
 msgid ""
 "Adds one more language which will be used if other translations do not "
 "contain a proper translation."
@@ -1357,7 +1471,14 @@ msgstr ""
 "Rěč za tutón program bu změnjena. Změna so wuskutkuje, hdyž so program "
 "přichodny raz startuje."
 
-#: kswitchlanguagedialog_p.cpp:289 kswitchlanguagedialog_p.cpp:311
+#: kswitchlanguagedialog_p.cpp:289
+#, fuzzy, kde-format
+#| msgid "Application Language Changed"
+msgctxt "@title:window"
+msgid "Application Language Changed"
+msgstr "Rěč za program změnjena "
+
+#: kswitchlanguagedialog_p.cpp:311
 #, kde-format
 msgid "Application Language Changed"
 msgstr "Rěč za program změnjena "
@@ -1373,12 +1494,18 @@ msgid "Fallback language:"
 msgstr "Standardowa rěč:"
 
 #: kswitchlanguagedialog_p.cpp:414
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgctxt "@action:button"
 msgid "Remove"
 msgstr "Wotstronić"
 
 #: kswitchlanguagedialog_p.cpp:421
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "This is the main application language which will be used first, before "
+#| "any other languages."
+msgctxt "@info:tooltip"
 msgid ""
 "This is the main application language which will be used first, before any "
 "other languages."
@@ -1386,7 +1513,11 @@ msgstr ""
 "To je hłowna rěč, kiž so přeco wužiwa, hdyž steji přełožk k dispoziciji."
 
 #: kswitchlanguagedialog_p.cpp:422
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "This is the language which will be used if any previous languages do not "
+#| "contain a proper translation."
+msgctxt "@info:tooltip"
 msgid ""
 "This is the language which will be used if any previous languages do not "
 "contain a proper translation."
@@ -1443,22 +1574,30 @@ msgid "Text Position"
 msgstr "Pozicija teksta"
 
 #: ktoolbar.cpp:331
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Icons Only"
+msgctxt "@item:inmenu"
 msgid "Icons Only"
 msgstr "Jenož piktogramy"
 
 #: ktoolbar.cpp:332
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text Only"
+msgctxt "@item:inmenu"
 msgid "Text Only"
 msgstr "Jenož tekst"
 
 #: ktoolbar.cpp:333
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text Alongside Icons"
+msgctxt "@item:inmenu"
 msgid "Text Alongside Icons"
 msgstr "Tekst pódla piktogramow"
 
 #: ktoolbar.cpp:334
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text Under Icons"
+msgctxt "@item:inmenu"
 msgid "Text Under Icons"
 msgstr "Tekst pod piktogramami"
 
@@ -1594,6 +1733,9 @@ msgstr "&Nastajenja"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Hłowny nastrojowy pas"
+
+#~ msgid "Delete"
+#~ msgstr "Zničić"
 
 #~ msgctxt "left mouse button"
 #~ msgid "left button"
@@ -10325,12 +10467,6 @@ msgstr "Hłowny nastrojowy pas"
 #~| msgid "Delete"
 #~ msgctxt "@title"
 #~ msgid "Delete tag"
-#~ msgstr "Zničić"
-
-#, fuzzy
-#~| msgid "Delete"
-#~ msgctxt "@action:button"
-#~ msgid "Delete"
 #~ msgstr "Zničić"
 
 #, fuzzy
