@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-23 03:38+0100\n"
+"POT-Creation-Date: 2020-01-25 03:33+0100\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -750,19 +750,24 @@ msgstr ""
 msgid "Signature too small"
 msgstr "Signatura je zestarjena."
 
-#: dkim-verify/dkimwidgetinfo.cpp:224
+#: dkim-verify/dkimwidgetinfo.cpp:227
+#, fuzzy, kde-format
+msgid "%1: None"
+msgstr "&Žane"
+
+#: dkim-verify/dkimwidgetinfo.cpp:239
 #, fuzzy, kde-format
 #| msgid "Message was signed by %1."
 msgid "%1: Valid (Signed by %2)"
 msgstr "Powěsć bu podpisana wot %1."
 
-#: dkim-verify/dkimwidgetinfo.cpp:230 dkim-verify/dkimwidgetinfo.cpp:235
-#: dkim-verify/dkimwidgetinfo.cpp:240
+#: dkim-verify/dkimwidgetinfo.cpp:245 dkim-verify/dkimwidgetinfo.cpp:250
+#: dkim-verify/dkimwidgetinfo.cpp:255
 #, kde-format
 msgid "%1: Valid"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:253
+#: dkim-verify/dkimwidgetinfo.cpp:269
 #, fuzzy, kde-format
 msgid "Not Signed"
 msgstr "&Nješifrowane zawěsćić"
@@ -10195,11 +10200,6 @@ msgstr "&Prjedawša powěsć"
 #, fuzzy
 #~ msgid "Message Sort Direction"
 #~ msgstr "Lisćina powěsćow"
-
-#, fuzzy
-#~ msgctxt "No grouping of messages"
-#~ msgid "None"
-#~ msgstr "&Žane"
 
 #, fuzzy
 #~| msgid "Expand the current thread"
