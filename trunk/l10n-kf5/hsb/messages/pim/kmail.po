@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-04 03:30+0100\n"
+"POT-Creation-Date: 2020-02-05 03:30+0100\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -1476,22 +1476,27 @@ msgstr "Dod&ać..."
 msgid "Remove"
 msgstr "&Zničić"
 
-#: configuredialog/configuremiscpage.cpp:48
+#: configuredialog/configuremiscpage.cpp:49
 #, fuzzy, kde-format
 msgid "Folders"
 msgstr "Zapiski"
 
-#: configuredialog/configuremiscpage.cpp:51
+#: configuredialog/configuremiscpage.cpp:52
 #, fuzzy, kde-format
 #| msgid "Advanced Options"
 msgid "Invitations"
 msgstr "Opcije za pokročenych"
 
-#: configuredialog/configuremiscpage.cpp:54
+#: configuredialog/configuremiscpage.cpp:55
 #, fuzzy, kde-format
 #| msgid "Printing Output"
 msgid "Printing"
 msgstr "Output ćišćenja"
+
+#: configuredialog/configuremiscpage.cpp:58
+#, kde-format
+msgid "User Feedback"
+msgstr ""
 
 #: configuredialog/configureplugins/configurepluginslistwidget.cpp:189
 #, fuzzy, kde-format
@@ -3696,78 +3701,78 @@ msgstr ""
 msgid "Text Direction Toolbar"
 msgstr ""
 
-#: kmkernel.cpp:741
+#: kmkernel.cpp:776
 #, kde-format
 msgid "KMail is set to be offline; all network jobs are suspended"
 msgstr ""
 
-#: kmkernel.cpp:763 kmmainwidget.cpp:2390 kmmainwidget.cpp:2406
+#: kmkernel.cpp:798 kmmainwidget.cpp:2390 kmmainwidget.cpp:2406
 #, fuzzy, kde-format
 #| msgid "Sendmail"
 msgid "Send Email"
 msgstr "Sendmail"
 
-#: kmkernel.cpp:764 kmmainwidget.cpp:2391 kmmainwidget.cpp:2407
+#: kmkernel.cpp:799 kmmainwidget.cpp:2391 kmmainwidget.cpp:2407
 #, fuzzy, kde-format
 #| msgid "About to send email..."
 msgid "Impossible to send email"
 msgstr "Sćelu mailki..."
 
-#: kmkernel.cpp:796
+#: kmkernel.cpp:831
 #, kde-format
 msgid "KMail is set to be online; all network jobs resumed"
 msgstr ""
 
-#: kmkernel.cpp:798
+#: kmkernel.cpp:833
 #, kde-format
 msgid ""
 "KMail is set to be online; all network jobs will resume when a network "
 "connection is detected"
 msgstr ""
 
-#: kmkernel.cpp:873
+#: kmkernel.cpp:908
 #, kde-format
 msgid "KMail is currently in offline mode. How do you want to proceed?"
 msgstr ""
 
-#: kmkernel.cpp:875
+#: kmkernel.cpp:910
 #, kde-format
 msgid "Online/Offline"
 msgstr ""
 
-#: kmkernel.cpp:876 kmmainwidget.cpp:2379
+#: kmkernel.cpp:911 kmmainwidget.cpp:2379
 #, kde-format
 msgid "Work Online"
 msgstr ""
 
-#: kmkernel.cpp:877 kmmainwidget.cpp:2376
+#: kmkernel.cpp:912 kmmainwidget.cpp:2376
 #, kde-format
 msgid "Work Offline"
 msgstr ""
 
-#: kmkernel.cpp:902
+#: kmkernel.cpp:937
 #, kde-format
 msgid "Network connection detected, all network jobs resumed"
 msgstr ""
 
-#: kmkernel.cpp:906
+#: kmkernel.cpp:941
 #, kde-format
 msgid "No network connection detected, all network jobs are suspended"
 msgstr ""
 
-#: kmkernel.cpp:1002
+#: kmkernel.cpp:1037
 #, kde-format
 msgid ""
 "Failed to open autosave file at %1.\n"
 "Reason: %2"
 msgstr ""
 
-#: kmkernel.cpp:1004
+#: kmkernel.cpp:1039
 #, fuzzy, kde-format
 msgid "Opening Autosave File Failed"
 msgstr "Přesuwam powěsć %3 z %2 wot %1."
 
-#: kmkernel.cpp:1521
+#: kmkernel.cpp:1556
 #, kde-format
 msgid "This identity has been changed to use the default transport:"
 msgid_plural ""
@@ -3777,7 +3782,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: kmkernel.cpp:1546
+#: kmkernel.cpp:1581
 #, kde-format
 msgid "This identity has been changed to use the modified transport:"
 msgid_plural ""
@@ -3787,24 +3792,24 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: kmkernel.cpp:1561
+#: kmkernel.cpp:1596
 #, fuzzy, kde-format
 msgid "Sending messages"
 msgstr "HTML-powěsće"
 
-#: kmkernel.cpp:1562
+#: kmkernel.cpp:1597
 #, kde-format
 msgid "Initiating sending process..."
 msgstr ""
 
-#: kmkernel.cpp:1632
+#: kmkernel.cpp:1667
 #, kde-format
 msgid ""
 "Resource %1 is broken.\n"
 "%2"
 msgstr ""
 
-#: kmkernel.cpp:1803 kmkernel.cpp:1814
+#: kmkernel.cpp:1838 kmkernel.cpp:1849
 #, kde-format
 msgctxt "<source>: <error message>"
 msgid "%1: %2"
@@ -7208,6 +7213,16 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "Cannot move message. %1"
 msgstr "Suń powěsće do zapiska"
+
+#: userfeedback/accountinfosource.cpp:34
+#, fuzzy, kde-format
+msgid "Account information"
+msgstr "Wobkrućenje dochada"
+
+#: userfeedback/accountinfosource.cpp:39
+#, kde-format
+msgid "Account configurated in KMail (reveiver and sender)."
+msgstr ""
 
 #: util.cpp:187
 #, fuzzy, kde-format
@@ -11031,10 +11046,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Real name:"
 #~ msgstr "&Hinak pomjenować"
-
-#, fuzzy
-#~ msgid "Account Information"
-#~ msgstr "Wobkrućenje dochada"
 
 #, fuzzy
 #~ msgid "Login name:"
