@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-27 02:38+0100\n"
+"POT-Creation-Date: 2020-02-06 02:36+0100\n"
 "PO-Revision-Date: 2005-05-09 17:30+0200\n"
 "Last-Translator:  <hertn@gmx.de>\n"
 "Language-Team: Hornjoserbšćina <hsb@li.org>\n"
@@ -142,6 +142,13 @@ msgstr "&Wobrazowy efekt:"
 msgctxt "(qtundo-format)"
 msgid "Delete Slide Effect"
 msgstr "&Wobrazowy efekt:"
+
+#: part/commands/KPrPageTransitionSetCommand.cpp:32
+#, fuzzy
+#| msgid "Shade"
+msgctxt "(qtundo-format)"
+msgid "Modify Slide Transition"
+msgstr "Sćin"
 
 #: part/commands/KPrRenameCustomSlideShowCommand.cpp:33
 #, fuzzy
@@ -896,24 +903,40 @@ msgstr ""
 msgid "Preview Shape Animation"
 msgstr "Nawigacija"
 
-#: part/tools/animationtool/KPrPageEffectDocker.cpp:60
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:63
 #, fuzzy, kde-format
 #| msgid "Image &effect:"
 msgid "No Effect"
 msgstr "&Wobrazowy efekt:"
 
-#: part/tools/animationtool/KPrPageEffectDocker.cpp:83
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:86
 #, kde-format
 msgid " sec"
 msgstr ""
 
-#: part/tools/animationtool/KPrPageEffectDocker.cpp:93
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:97
+#, kde-format
+msgid "Manual"
+msgstr ""
+
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:98
+#, kde-format
+msgid "Automatic"
+msgstr ""
+
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:106
+#, fuzzy, kde-format
+#| msgid "Shade"
+msgid "Slide Transition:"
+msgstr "Sćin"
+
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:117
 #, fuzzy, kde-format
 #| msgid "Image &effect:"
 msgid "Apply To All Slides"
 msgstr "&Wobrazowy efekt:"
 
-#: part/tools/animationtool/KPrPageEffectDocker.cpp:238
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:278
 msgctxt "(qtundo-format)"
 msgid "Apply Slide Effect to all Slides"
 msgstr ""
