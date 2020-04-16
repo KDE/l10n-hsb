@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-03-28 03:05+0000\n"
+"POT-Creation-Date: 2020-04-16 02:03+0000\n"
 "PO-Revision-Date: 2008-11-25 00:15+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -267,7 +267,7 @@ msgid "Allows the detected UserAgent to be modified"
 msgstr ""
 
 #: settings/bookmarks/bookmarks.desktop:12
-#: sidebar/default_entries/bookmarks.desktop:5
+#: sidebar/default_entries/bookmarks.desktop:12
 #: sidebar/trees/init/bookmarks_module.desktop:5
 msgctxt "Name"
 msgid "Bookmarks"
@@ -458,19 +458,37 @@ msgctxt "X-KDE-Keywords"
 msgid "performance,speed,memory,improve"
 msgstr ""
 
-#: sidebar/default_entries/bookmarks.desktop:97
+#: sidebar/bookmarks_module/konqsidebar_bookmarks.desktop:4
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Web SideBar Module"
+msgctxt "Name"
+msgid "Bookmarks SideBar Module"
+msgstr "Modul za browserowy bóčny pas"
+
+#: sidebar/default_entries/bookmarks.desktop:104
 #: sidebar/trees/init/bookmarks_module.desktop:97
 msgctxt "Comment"
 msgid "This is the list of your bookmarks, for a faster access"
 msgstr "Tu je lisćina lubuškow jednorišeje přistupnosće dla."
 
-#: sidebar/default_entries/history.desktop:5
+#: sidebar/default_entries/fonts.desktop:11
+msgctxt "Name"
+msgid "Fonts"
+msgstr "Pisma"
+
+#: sidebar/default_entries/fonts.desktop:12
+msgctxt "Comment"
+msgid "Personal and System fonts list."
+msgstr ""
+
+#: sidebar/default_entries/history.desktop:8
 #: sidebar/history_module/kcmhistory.desktop:11
 msgctxt "Name"
 msgid "History"
 msgstr "Předchadne přikazy"
 
-#: sidebar/default_entries/history.desktop:98
+#: sidebar/default_entries/history.desktop:101
 msgctxt "Comment"
 msgid ""
 "This is the history of the URLs you have recently visited. You can sort them "
@@ -478,23 +496,23 @@ msgid ""
 msgstr ""
 "Tu je lisćina URLow, hdźež sće njedawno pobyli. Móžeće je wšelako sortěrować."
 
-#: sidebar/default_entries/home.desktop:5
+#: sidebar/default_entries/home.desktop:9
 msgctxt "Name"
 msgid "Home Folder"
 msgstr "Domjacy zapisk"
 
-#: sidebar/default_entries/home.desktop:97
+#: sidebar/default_entries/home.desktop:101
 msgctxt "Comment"
 msgid "This folder contains your personal files"
 msgstr "Zapisk z Wašimi wosobinskimi datajemi"
 
-#: sidebar/default_entries/places.desktop:4
+#: sidebar/default_entries/places.desktop:9
 #, fuzzy
 msgctxt "Name"
 msgid "Places"
 msgstr "Name=Hódančka"
 
-#: sidebar/default_entries/places.desktop:80
+#: sidebar/default_entries/places.desktop:85
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "This is the root of the filesystem"
@@ -502,27 +520,41 @@ msgctxt "Comment"
 msgid "This is the list of places."
 msgstr "To je korjentny zapisk datajoweho systema."
 
-#: sidebar/default_entries/remote.desktop:2
-#: sidebar/trees/init/remote/.directory:2
+#: sidebar/default_entries/remote.desktop:11
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Remote Access"
 msgctxt "Name"
-msgid "Network"
-msgstr "Syć"
+msgid "Remote"
+msgstr "Dalny přistup"
 
-#: sidebar/default_entries/root.desktop:5
+#: sidebar/default_entries/root.desktop:10
 msgctxt "Name"
 msgid "Root Folder"
 msgstr "Korjentny zapisk"
 
-#: sidebar/default_entries/root.desktop:96
+#: sidebar/default_entries/root.desktop:101
 msgctxt "Comment"
 msgid "This is the root of the filesystem"
 msgstr "To je korjentny zapisk datajoweho systema."
 
-#: sidebar/default_entries/services.desktop:4
+#: sidebar/default_entries/services.desktop:10
 #: sidebar/trees/init/services/.directory:3
 msgctxt "Name"
 msgid "Services"
 msgstr "Słužby"
+
+#: sidebar/default_entries/settings.desktop:11
+#: sidebar/trees/init/services/settings.desktop:5
+msgctxt "Name"
+msgid "Settings"
+msgstr "Nastajenja"
+
+#: sidebar/default_entries/settings.desktop:12
+#, fuzzy
+msgctxt "Comment"
+msgid "System settings options."
+msgstr "GenericName=Kartowa hra"
 
 #: sidebar/history_module/kcmhistory.desktop:104
 msgctxt "Comment"
@@ -542,13 +574,13 @@ msgctxt "Name"
 msgid "History SideBar Module"
 msgstr "Bóčny pas za předchadne přikazy"
 
-#: sidebar/konq_sidebartng.desktop:4
+#: sidebar/konq_sidebartng.desktop:16
 #, fuzzy
 msgctxt "Name"
 msgid "Sidebar"
 msgstr "Name=XSoldier"
 
-#: sidebar/places_module/konqsidebar_places.desktop:4
+#: sidebar/places_module/konqsidebar_places.desktop:3
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Web SideBar Module"
@@ -556,11 +588,24 @@ msgctxt "Name"
 msgid "Places SideBar Module"
 msgstr "Modul za browserowy bóčny pas"
 
+#: sidebar/tree_module/konqsidebar_tree.desktop:4
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Web SideBar Module"
+msgctxt "Name"
+msgid "Tree SideBar Module"
+msgstr "Modul za browserowy bóčny pas"
+
 #: sidebar/trees/init/dirtree_module.desktop:5
 #: sidebar/trees/konqsidebar_tree.desktop:4
 msgctxt "Name"
 msgid "Folder"
 msgstr "Zapisk"
+
+#: sidebar/trees/init/remote/.directory:2
+msgctxt "Name"
+msgid "Network"
+msgstr "Syć"
 
 #: sidebar/trees/init/remote/ftp/.directory:2
 msgctxt "Name"
@@ -606,11 +651,6 @@ msgstr "Aplikacija"
 msgctxt "Name"
 msgid "Print System Browser"
 msgstr "Browser za ćišćenski system"
-
-#: sidebar/trees/init/services/settings.desktop:5
-msgctxt "Name"
-msgid "Settings"
-msgstr "Nastajenja"
 
 #: sidebar/web_module/konqsidebar_web.desktop:4
 msgctxt "Name"
@@ -5827,10 +5867,6 @@ msgstr "Pytanska mašina"
 #~ msgid "Desktop Theme"
 #~ msgstr "Name=Dźěłowy powjerch"
 
-#~ msgctxt "Name"
-#~ msgid "Fonts"
-#~ msgstr "Pisma"
-
 #~ msgctxt "Comment"
 #~ msgid "Font settings"
 #~ msgstr "Nastajenja za pisma"
@@ -9319,11 +9355,6 @@ msgstr "Pytanska mašina"
 #~ msgstr "Programy za terminal"
 
 #, fuzzy
-#~ msgctxt "Name"
-#~ msgid "System Settings View"
-#~ msgstr "GenericName=Kartowa hra"
-
-#, fuzzy
 #~| msgctxt "Name"
 #~| msgid "Font Viewer"
 #~ msgctxt "Name"
@@ -10478,10 +10509,6 @@ msgstr "Pytanska mašina"
 #~ msgctxt "Name"
 #~ msgid "GNOME Telnet"
 #~ msgstr "GNOME Telnet"
-
-#~ msgctxt "GenericName"
-#~ msgid "Remote Access"
-#~ msgstr "Dalny přistup"
 
 #~ msgctxt "Name"
 #~ msgid "ickle"
