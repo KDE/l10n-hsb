@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 09:38+0200\n"
+"POT-Creation-Date: 2020-02-11 08:36+0100\n"
 "PO-Revision-Date: 2008-11-13 22:59+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -26,136 +26,159 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "edi.werner@gmx.de"
 
-#: kcmcursortheme.cpp:43
+#: kcmcursortheme.cpp:75
 #, fuzzy, kde-format
 #| msgid "&Cursor Theme"
-msgid "Cursor Theme"
+msgid "Cursors"
 msgstr "&Cursorowa tema"
 
-#: kcmcursortheme.cpp:44
+#: kcmcursortheme.cpp:76
 #, kde-format
 msgid "(c) 2003-2007 Fredrik Höglund"
 msgstr ""
 
-#: kcmcursortheme.cpp:45
+#: kcmcursortheme.cpp:77
 #, kde-format
 msgid "Fredrik Höglund"
 msgstr ""
 
-#: xcursor/thememodel.cpp:67
+#: kcmcursortheme.cpp:78
 #, kde-format
-msgid "Name"
-msgstr "Mjeno"
+msgid "Marco Martin"
+msgstr ""
 
-#: xcursor/thememodel.cpp:70
-#, kde-format
-msgid "Description"
-msgstr "Wopisanje"
-
-#: xcursor/themepage.cpp:154
+#: kcmcursortheme.cpp:220
 #, kde-format
 msgctxt "@item:inlistbox size"
 msgid "Resolution dependent"
 msgstr ""
 
-#: xcursor/themepage.cpp:317
+#: kcmcursortheme.cpp:377
 #, fuzzy, kde-format
 #| msgid "You have to restart KDE for these changes to take effect."
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
 msgstr "Dyrbiće KDE znowa startować, zo bychu so tute změny wuskutkowali."
 
-#: xcursor/themepage.cpp:318
+#: kcmcursortheme.cpp:460
 #, kde-format
-msgid "Cursor Settings Changed"
-msgstr "Nastajenja za cursor změnjene"
-
-#: xcursor/themepage.cpp:436
-#, kde-format
-msgid "Drag or Type Theme URL"
+msgid "Unable to create a temporary file."
 msgstr ""
 
-#: xcursor/themepage.cpp:447
+#: kcmcursortheme.cpp:472
 #, kde-format
-msgid "Unable to find the cursor theme archive %1."
+msgid "Unable to download the icon theme archive: %1"
 msgstr ""
 
-#: xcursor/themepage.cpp:450
+#: kcmcursortheme.cpp:503
 #, kde-format
-msgid ""
-"Unable to download the cursor theme archive; please check that the address "
-"%1 is correct."
+msgid "The file is not a valid icon theme archive."
 msgstr ""
 
-#: xcursor/themepage.cpp:459
+#: kcmcursortheme.cpp:510
 #, kde-format
-msgid "The file %1 does not appear to be a valid cursor theme archive."
+msgid "Failed to create 'icons' folder."
 msgstr ""
 
-#: xcursor/themepage.cpp:474
-#, kde-format
-msgid ""
-"<qt>You cannot delete the theme you are currently using.<br />You have to "
-"switch to another theme first.</qt>"
-msgstr ""
-
-#: xcursor/themepage.cpp:480
-#, kde-format
-msgid ""
-"<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
-"will delete all the files installed by this theme.</qt>"
-msgstr ""
-
-#: xcursor/themepage.cpp:486
-#, kde-format
-msgid "Confirmation"
-msgstr ""
-
-#: xcursor/themepage.cpp:543
+#: kcmcursortheme.cpp:518
 #, kde-format
 msgid ""
 "A theme named %1 already exists in your icon theme folder. Do you want "
 "replace it with this one?"
 msgstr ""
 
-#: xcursor/themepage.cpp:547
+#: kcmcursortheme.cpp:522
 #, kde-format
 msgid "Overwrite Theme?"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, installKnsButton)
-#: xcursor/themepage.ui:49
+#: kcmcursortheme.cpp:548
 #, kde-format
-msgid "Get new color schemes from the Internet"
+msgid "Theme installed successfully."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, installKnsButton)
-#: xcursor/themepage.ui:52
-#, fuzzy, kde-format
-#| msgid "Install New Theme..."
-msgid "Get new Theme"
-msgstr "Nowu temu instalować..."
+#: kcmcursortheme.cpp:564
+#, kde-format
+msgid ""
+"<qt>You cannot delete the theme you are currently using.<br />You have to "
+"switch to another theme first.</qt>"
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, removeButton)
-#: xcursor/themepage.ui:59
+#: kcmcursortheme.cpp:570
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
+"will delete all the files installed by this theme.</qt>"
+msgstr ""
+
+#: kcmcursortheme.cpp:576
+#, kde-format
+msgid "Confirmation"
+msgstr ""
+
+#: package/contents/ui/Delegate.qml:64
 #, kde-format
 msgid "Remove Theme"
 msgstr "Temu wumaznyć"
 
-#. i18n: ectx: property (text), widget (QPushButton, installButton)
-#: xcursor/themepage.ui:85
+#: package/contents/ui/main.qml:31
+#, kde-format
+msgid "This module lets you choose the mouse cursor theme."
+msgstr ""
+
+#: package/contents/ui/main.qml:99
+#, kde-format
+msgid "Size:"
+msgstr ""
+
+#: package/contents/ui/main.qml:143
 #, fuzzy, kde-format
 #| msgid "Install New Theme..."
-msgid "Install from File"
+msgid "&Install from File..."
 msgstr "Nowu temu instalować..."
 
-#: xcursor/xcursortheme.cpp:77
+#: package/contents/ui/main.qml:150
+#, fuzzy, kde-format
+#| msgid "Install New Theme..."
+msgid "&Get New Cursors..."
+msgstr "Nowu temu instalować..."
+
+#: package/contents/ui/main.qml:172
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Open Theme"
+msgstr "Temu wumaznyć"
+
+#: package/contents/ui/main.qml:174
+#, kde-format
+msgid "Cursor Theme Files (*.tar.gz *.tar.bz2)"
+msgstr ""
+
+#: xcursor/thememodel.cpp:83
+#, kde-format
+msgid "Name"
+msgstr "Mjeno"
+
+#: xcursor/thememodel.cpp:86
+#, kde-format
+msgid "Description"
+msgstr "Wopisanje"
+
+#: xcursor/xcursortheme.cpp:74
 #, kde-format
 msgctxt ""
 "@info The argument is the list of available sizes (in pixel). Example: "
 "'Available sizes: 24' or 'Available sizes: 24, 36, 48'"
 msgid "(Available sizes: %1)"
 msgstr ""
+
+#, fuzzy
+#~| msgid "&Cursor Theme"
+#~ msgid "Mouse Cursor Theme settings"
+#~ msgstr "&Cursorowa tema"
+
+#~ msgid "Cursor Settings Changed"
+#~ msgstr "Nastajenja za cursor změnjene"
 
 #~ msgid ""
 #~ "Select the cursor theme you want to use (hover preview to test cursor):"
