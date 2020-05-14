@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-02 03:32+0100\n"
+"POT-Creation-Date: 2020-04-30 03:50+0200\n"
 "PO-Revision-Date: 2004-04-20 16:20+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -18,15 +18,18 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
-#: logout.cpp:408
+#: logout.cpp:371
 #, kde-format
 msgid "Logout canceled by '%1'"
 msgstr ""
 
 #: main.cpp:52
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "The reliable KDE session manager that talks the standard X11R6 \n"
+#| "session management protocol (XSMP)."
 msgid ""
-"The reliable KDE session manager that talks the standard X11R6 \n"
+"The reliable Plasma session manager that talks the standard X11R6 \n"
 "session management protocol (XSMP)."
 msgstr ""
 "Spušćomny manager posedźenja KDE, kiž rozumi standardowy X11R6-protokol\n"
@@ -88,7 +91,7 @@ msgstr ""
 #, kde-format
 msgid ""
 "The following installation problem was detected\n"
-"while trying to start KDE:"
+"while trying to start Plasma:"
 msgstr ""
 
 #: main.cpp:218
@@ -96,7 +99,7 @@ msgstr ""
 msgid ""
 "\n"
 "\n"
-"KDE is unable to start.\n"
+"Plasma is unable to start.\n"
 msgstr ""
 
 #: main.cpp:225
@@ -111,57 +114,57 @@ msgstr "Wobnowi zawěsćene posedźenje wužiwarja, je-li tajke eksistuje."
 
 #: main.cpp:270
 #, fuzzy, kde-format
-#| msgid ""
-#| "Starts 'wm' in case no other window manager is \n"
-#| "participating in the session. Default is 'kwin'"
-msgid ""
-"Starts <wm> in case no other window manager is \n"
-"participating in the session. Default is 'kwin'"
-msgstr ""
-"Startuje 'wm', jeli žadyn druhi woknowy manager njeběži.\n"
-"Standard je 'kwin'."
-
-#: main.cpp:271
-#, kde-format
-msgid "wm"
-msgstr ""
-
-#: main.cpp:275
-#, fuzzy, kde-format
 msgid "Also allow remote connections"
 msgstr "Dowoli tež zwiski z druhich ličakow."
 
-#: main.cpp:279
+#: main.cpp:274
 #, kde-format
 msgid "Starts the session in locked mode"
 msgstr ""
 
-#: main.cpp:283
+#: main.cpp:278
 #, kde-format
 msgid ""
 "Starts without lock screen support. Only needed if other component provides "
 "the lock screen."
 msgstr ""
 
-#: server.cpp:1004
+#: server.cpp:951
+#, fuzzy, kde-format
+#| msgid "The KDE Session Manager"
+msgid "Session Management"
+msgstr "KDE rjadowar posedźenja"
+
+#: server.cpp:954
 #, kde-format
 msgid "Log Out"
 msgstr ""
 
-#: server.cpp:1009
+#: server.cpp:959
 #, kde-format
 msgid "Log Out Without Confirmation"
 msgstr ""
 
-#: server.cpp:1014
+#: server.cpp:964
 #, kde-format
 msgid "Halt Without Confirmation"
 msgstr ""
 
-#: server.cpp:1019
+#: server.cpp:969
 #, kde-format
 msgid "Reboot Without Confirmation"
 msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "Starts 'wm' in case no other window manager is \n"
+#~| "participating in the session. Default is 'kwin'"
+#~ msgid ""
+#~ "Starts <wm> in case no other window manager is \n"
+#~ "participating in the session. Default is 'kwin'"
+#~ msgstr ""
+#~ "Startuje 'wm', jeli žadyn druhi woknowy manager njeběži.\n"
+#~ "Standard je 'kwin'."
 
 #, fuzzy
 #~ msgid "Sleeping in 1 second"
@@ -210,6 +213,3 @@ msgstr ""
 #~ msgctxt "EMAIL OF TRANSLATORS"
 #~ msgid "Your emails"
 #~ msgstr "e.werner@rz.uni-leipzig.de"
-
-#~ msgid "The KDE Session Manager"
-#~ msgstr "KDE rjadowar posedźenja"
