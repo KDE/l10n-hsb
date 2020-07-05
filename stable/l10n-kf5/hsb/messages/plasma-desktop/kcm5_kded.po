@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkded\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-30 03:40+0100\n"
+"POT-Creation-Date: 2020-07-05 07:44+0200\n"
 "PO-Revision-Date: 2008-11-15 19:12+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -81,52 +81,122 @@ msgstr "Njemóžu serwer <em>%1</em> startować."
 msgid "Failed to notify KDE Service Manager (kded5) of saved changed: %1"
 msgstr ""
 
+#: package/contents/ui/main.qml:31
+#, fuzzy, kde-format
+#| msgid ""
+#| "<h1>Service Manager</h1><p>This module allows you to have an overview of "
+#| "all plugins of the KDE Daemon, also referred to as KDE Services. "
+#| "Generally, there are two types of service:</p><ul><li>Services invoked at "
+#| "startup</li><li>Services called on demand</li></ul><p>The latter are only "
+#| "listed for convenience. The startup services can be started and stopped. "
+#| "In Administrator mode, you can also define whether services should be "
+#| "loaded at startup.</p><p><b> Use this with care: some services are vital "
+#| "for KDE; do not deactivate services if you do not know what you are doing."
+#| "</b></p>"
+msgid ""
+"<p>This module allows you to have an overview of all plugins of the KDE "
+"Daemon, also referred to as KDE Services. Generally, there are two types of "
+"service:</p> <ul><li>Services invoked at startup</li><li>Services called on "
+"demand</li></ul> <p>The latter are only listed for convenience. The startup "
+"services can be started and stopped. You can also define whether services "
+"should be loaded at startup.</p> <p><b>Use this with care: some services are "
+"vital for Plasma; do not deactivate services if you  do not know what you "
+"are doing.</b></p>"
+msgstr ""
+"<h1>Rjadowar słužbow</h1><p>Tutón modul skići Wam přehlad přez wšitke "
+"zašćěpki KDE demona, kiž so tež KDE-słužby mjenuja. Stej dwě družinje "
+"słužbow</p><ul><li>Słužby, kiž so při startowanju KDE aktiwizuja</"
+"li><li>Słužby, kiž so po požadanju aktiwizuja</li></ul><p>Druhe so jenož "
+"dospołnosće dla naliča. Słužby, kiž so při startowanju aktiwizuja, hodźa so "
+"startować a zastajić. W adminstratorowym modusu móžeće postajić, kotre "
+"słužby so při startowanju startuja.</p><p><b>Wužiwajće to kedźbliwje: "
+"Někotre słužby su trěbne za KDE; njehasńće słužby, hdyž njewěsće dokładnje, "
+"što činiće.</b></p>"
+
+#: package/contents/ui/main.qml:48
+#, kde-format
+msgid ""
+"The background services manager (kded5) is currently not running. Make sure "
+"it is installed correctly."
+msgstr ""
+
+#: package/contents/ui/main.qml:57
+#, kde-format
+msgid ""
+"Some services disable themselves again when manually started if they are not "
+"useful in the current environment."
+msgstr ""
+
+#: package/contents/ui/main.qml:66
+#, kde-format
+msgid ""
+"Some services were automatically started/stopped when the background "
+"services manager (kded5) was restarted to apply your changes."
+msgstr ""
+
+#: package/contents/ui/main.qml:108
+#, fuzzy, kde-format
+#| msgid "Service"
+msgid "All Services"
+msgstr "Słužba"
+
+#: package/contents/ui/main.qml:109
+#, fuzzy, kde-format
+#| msgid "Running"
+msgctxt "List running services"
+msgid "Running"
+msgstr "Běži"
+
+#: package/contents/ui/main.qml:110
+#, fuzzy, kde-format
+#| msgid "Not running"
+msgctxt "List not running services"
+msgid "Not Running"
+msgstr "Njeběži"
+
+#: package/contents/ui/main.qml:146
+#, fuzzy, kde-format
+#| msgid "Startup Services"
+msgid "Startup Services"
+msgstr "Słužby při startowanju"
+
+#: package/contents/ui/main.qml:147
+#, kde-format
+msgid "Load-on-Demand Services"
+msgstr "Słužby po požadanju"
+
+#: package/contents/ui/main.qml:164
+#, kde-format
+msgid "Toggle automatically loading this service on startup"
+msgstr ""
+
+#: package/contents/ui/main.qml:227
+#, kde-format
+msgid "Not running"
+msgstr "Njeběži"
+
+#: package/contents/ui/main.qml:228
+#, kde-format
+msgid "Running"
+msgstr "Běži"
+
+#: package/contents/ui/main.qml:247
+#, fuzzy, kde-format
+#| msgid "Service"
+msgid "Stop Service"
+msgstr "Słužba"
+
+#: package/contents/ui/main.qml:247
+#, fuzzy, kde-format
+#| msgid "Service"
+msgid "Start Service"
+msgstr "Słužba"
+
 #~ msgid "kcmkded"
 #~ msgstr "kcmkded"
 
 #~ msgid "KDE Service Manager"
 #~ msgstr "KDE rjadowar słužbow"
-
-#, fuzzy
-#~| msgid ""
-#~| "<h1>Service Manager</h1><p>This module allows you to have an overview of "
-#~| "all plugins of the KDE Daemon, also referred to as KDE Services. "
-#~| "Generally, there are two types of service:</p><ul><li>Services invoked "
-#~| "at startup</li><li>Services called on demand</li></ul><p>The latter are "
-#~| "only listed for convenience. The startup services can be started and "
-#~| "stopped. In Administrator mode, you can also define whether services "
-#~| "should be loaded at startup.</p><p><b> Use this with care: some services "
-#~| "are vital for KDE; do not deactivate services if you do not know what "
-#~| "you are doing.</b></p>"
-#~ msgid ""
-#~ "<h1>Service Manager</h1><p>This module allows you to have an overview of "
-#~ "all plugins of the KDE Daemon, also referred to as KDE Services. "
-#~ "Generally, there are two types of service:</p><ul><li>Services invoked at "
-#~ "startup</li><li>Services called on demand</li></ul><p>The latter are only "
-#~ "listed for convenience. The startup services can be started and stopped. "
-#~ "In Administrator mode, you can also define whether services should be "
-#~ "loaded at startup.</p><p><b> Use this with care: some services are vital "
-#~ "for Plasma; do not deactivate services if you do not know what you are "
-#~ "doing.</b></p>"
-#~ msgstr ""
-#~ "<h1>Rjadowar słužbow</h1><p>Tutón modul skići Wam přehlad přez wšitke "
-#~ "zašćěpki KDE demona, kiž so tež KDE-słužby mjenuja. Stej dwě družinje "
-#~ "słužbow</p><ul><li>Słužby, kiž so při startowanju KDE aktiwizuja</"
-#~ "li><li>Słužby, kiž so po požadanju aktiwizuja</li></ul><p>Druhe so jenož "
-#~ "dospołnosće dla naliča. Słužby, kiž so při startowanju aktiwizuja, hodźa "
-#~ "so startować a zastajić. W adminstratorowym modusu móžeće postajić, kotre "
-#~ "słužby so při startowanju startuja.</p><p><b>Wužiwajće to kedźbliwje: "
-#~ "Někotre słužby su trěbne za KDE; njehasńće słužby, hdyž njewěsće "
-#~ "dokładnje, što činiće.</b></p>"
-
-#~ msgid "Running"
-#~ msgstr "Běži"
-
-#~ msgid "Not running"
-#~ msgstr "Njeběži"
-
-#~ msgid "Load-on-Demand Services"
-#~ msgstr "Słužby po požadanju"
 
 #~ msgid ""
 #~ "This is a list of available KDE services which will be started on demand. "
@@ -135,9 +205,6 @@ msgstr ""
 #~ msgstr ""
 #~ "To je lisćina KDE-słužbow, kiž so po požadanju startuja. Wone so jenož "
 #~ "dospołnosće dla naliča, dokelž njemóžeće tu ničo připrawić."
-
-#~ msgid "Service"
-#~ msgstr "Słužba"
 
 #~ msgid "Status"
 #~ msgstr "Status"
