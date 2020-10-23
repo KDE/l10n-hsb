@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsocks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-22 02:13+0200\n"
+"POT-Creation-Date: 2020-10-23 02:13+0200\n"
 "PO-Revision-Date: 2008-11-19 23:41+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -3105,119 +3105,131 @@ msgid "All tags"
 msgstr ""
 
 #. i18nc call is made later, with this context, so the two must match.
-#. createSystemBookmark actually does nothing with its second argument, the context,
-#: filewidgets/kfileplacesmodel.cpp:290
+#. createSystemBookmark actually does nothing with its second argument, the context.
+#: filewidgets/kfileplacesmodel.cpp:293
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Home"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:297
+#: filewidgets/kfileplacesmodel.cpp:300
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Desktop"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:302 filewidgets/kfileplacesmodel.cpp:410
+#: filewidgets/kfileplacesmodel.cpp:305 filewidgets/kfileplacesmodel.cpp:450
 #, fuzzy, kde-format
 #| msgid "FIXME: Document this"
 msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "FIXME: Document this"
 
-#: filewidgets/kfileplacesmodel.cpp:307
+#: filewidgets/kfileplacesmodel.cpp:310
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Downloads"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:311
+#: filewidgets/kfileplacesmodel.cpp:313
 #, fuzzy, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "Žane zapiski"
 
-#: filewidgets/kfileplacesmodel.cpp:314
+#: filewidgets/kfileplacesmodel.cpp:316
 #, fuzzy, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "Papjernik"
 
-#: filewidgets/kfileplacesmodel.cpp:374
+#: filewidgets/kfileplacesmodel.cpp:375
+#, kde-format
+msgctxt "KFile System Bookmarks"
+msgid "Music"
+msgstr ""
+
+#: filewidgets/kfileplacesmodel.cpp:380
+#, kde-format
+msgctxt "KFile System Bookmarks"
+msgid "Pictures"
+msgstr ""
+
+#: filewidgets/kfileplacesmodel.cpp:387 filewidgets/kfileplacesmodel.cpp:459
+#, kde-format
+msgctxt "KFile System Bookmarks"
+msgid "Videos"
+msgstr ""
+
+#: filewidgets/kfileplacesmodel.cpp:414
 #, fuzzy, kde-format
 #| msgid "Delete Files"
 msgctxt "KFile System Bookmarks"
 msgid "Recent Files"
 msgstr "Dataje zničić"
 
-#: filewidgets/kfileplacesmodel.cpp:378
+#: filewidgets/kfileplacesmodel.cpp:418
 #, fuzzy, kde-format
 #| msgid "Location:"
 msgctxt "KFile System Bookmarks"
 msgid "Recent Locations"
 msgstr "Městno:"
 
-#: filewidgets/kfileplacesmodel.cpp:402
+#: filewidgets/kfileplacesmodel.cpp:442
 #, fuzzy, kde-format
 #| msgid "Modified:"
 msgctxt "KFile System Bookmarks"
 msgid "Modified Today"
 msgstr "Změnjeny:"
 
-#: filewidgets/kfileplacesmodel.cpp:405
+#: filewidgets/kfileplacesmodel.cpp:445
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Modified Yesterday"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:413
+#: filewidgets/kfileplacesmodel.cpp:453
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:416
+#: filewidgets/kfileplacesmodel.cpp:456
 #, fuzzy, kde-format
 #| msgid "*|All Files"
 msgctxt "KFile System Bookmarks"
 msgid "Audio"
 msgstr "*|Wšitke dataje"
 
-#: filewidgets/kfileplacesmodel.cpp:419
-#, kde-format
-msgctxt "KFile System Bookmarks"
-msgid "Videos"
-msgstr ""
-
-#: filewidgets/kfileplacesmodel.cpp:1316
+#: filewidgets/kfileplacesmodel.cpp:1356
 #, fuzzy, kde-format
 msgid "&Release '%1'"
 msgstr "Z&ničić"
 
-#: filewidgets/kfileplacesmodel.cpp:1318
+#: filewidgets/kfileplacesmodel.cpp:1358
 #, fuzzy, kde-format
 msgid "&Safely Remove '%1'"
 msgstr "Z&ničić"
 
-#: filewidgets/kfileplacesmodel.cpp:1321
+#: filewidgets/kfileplacesmodel.cpp:1361
 #, fuzzy, kde-format
 #| msgid "Unmount"
 msgid "&Unmount '%1'"
 msgstr "Wotmontować"
 
-#: filewidgets/kfileplacesmodel.cpp:1342
+#: filewidgets/kfileplacesmodel.cpp:1382
 #, fuzzy, kde-format
 #| msgid "Eject"
 msgid "&Eject '%1'"
 msgstr "Wućisnyć"
 
-#: filewidgets/kfileplacesmodel.cpp:1376
+#: filewidgets/kfileplacesmodel.cpp:1416
 #, fuzzy, kde-format
 #| msgid "The specified resource may not exist."
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "pominana resursa snano njeeksistuje."
 
-#: filewidgets/kfileplacesmodel.cpp:1412
+#: filewidgets/kfileplacesmodel.cpp:1452
 #, fuzzy, kde-format
 #| msgid ""
 #| "An error occurred while attempting to %1, %2. A summary of the reasons is "
@@ -3225,7 +3237,7 @@ msgstr "pominana resursa snano njeeksistuje."
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "Zmylk je so stał při pospyće %1, %2. Zjeće přičin namakaće deleka.<ul>"
 
-#: filewidgets/kfileplacesmodel.cpp:1416
+#: filewidgets/kfileplacesmodel.cpp:1456
 #, fuzzy, kde-format
 #| msgid "An unexpected error (%1) occurred while attempting to %2."
 msgid "An error occurred while accessing '%1'"
