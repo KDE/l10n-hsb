@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-27 02:43+0100\n"
+"POT-Creation-Date: 2020-10-30 02:47+0100\n"
 "PO-Revision-Date: 2003-12-23 17:19+0100\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -2357,7 +2357,7 @@ msgstr "Wulkosć: XXX x XXX"
 msgid "Size: %1 x %2"
 msgstr "Wulkosć: %1 x %2"
 
-#: terminalDisplay/TerminalDisplay.cpp:2383
+#: terminalDisplay/TerminalDisplay.cpp:2388
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
@@ -2366,84 +2366,84 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2386
+#: terminalDisplay/TerminalDisplay.cpp:2391
 #, kde-format
 msgid "Confirm Paste"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2418
+#: terminalDisplay/TerminalDisplay.cpp:2423
 #, kde-format
 msgid "End Of Text/Interrupt: may exit the current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2419
+#: terminalDisplay/TerminalDisplay.cpp:2424
 #, kde-format
 msgid "End Of Transmission: may exit the current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2420
+#: terminalDisplay/TerminalDisplay.cpp:2425
 #, kde-format
 msgid "Bell: will try to emit an audible warning"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2421
+#: terminalDisplay/TerminalDisplay.cpp:2426
 #, kde-format
 msgid "Backspace"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2422
+#: terminalDisplay/TerminalDisplay.cpp:2427
 #, kde-format
 msgid "Device Control Three/XOFF: suspends output"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2423
+#: terminalDisplay/TerminalDisplay.cpp:2428
 #, kde-format
 msgid "Substitute/Suspend: may suspend current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2424
+#: terminalDisplay/TerminalDisplay.cpp:2429
 #, kde-format
 msgid "Escape: used for manipulating terminal state"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2425
+#: terminalDisplay/TerminalDisplay.cpp:2430
 #, kde-format
 msgid "File Separator/Quit: may abort the current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2447
+#: terminalDisplay/TerminalDisplay.cpp:2452
 #, kde-format
 msgid ""
 "The text you're trying to paste contains hidden control characters, do you "
 "want to filter them out?"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2450
+#: terminalDisplay/TerminalDisplay.cpp:2455
 #, kde-format
 msgctxt "@title"
 msgid "Confirm Paste"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2452
+#: terminalDisplay/TerminalDisplay.cpp:2457
 #, kde-format
 msgctxt "@action:button"
 msgid "Paste &without control characters"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2455
+#: terminalDisplay/TerminalDisplay.cpp:2460
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgctxt "@action:button"
 msgid "&Paste everything"
 msgstr "Wubrany tekst zasunyć"
 
-#: terminalDisplay/TerminalDisplay.cpp:2458
+#: terminalDisplay/TerminalDisplay.cpp:2463
 #, kde-format
 msgctxt "@action:button"
 msgid "&Cancel"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2689
+#: terminalDisplay/TerminalDisplay.cpp:2694
 #, kde-format
 msgid ""
 "<qt>Output has been <a href=\"https://en.wikipedia.org/wiki/"
@@ -2451,17 +2451,17 @@ msgid ""
 "b> to resume.</qt>"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2730
+#: terminalDisplay/TerminalDisplay.cpp:2735
 #, kde-format
 msgid "This terminal is read-only."
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:3015
+#: terminalDisplay/TerminalDisplay.cpp:3020
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:3047
+#: terminalDisplay/TerminalDisplay.cpp:3052
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
@@ -3966,21 +3966,35 @@ msgctxt "@info:tooltip"
 msgid "Close terminal"
 msgstr "Interpreter &zakónčić"
 
-#: widgets/ViewContainer.cpp:113
+#: widgets/ViewContainer.cpp:73
+#, fuzzy, kde-format
+#| msgid "&Detach Session"
+msgctxt "@info:tooltip"
+msgid "Open a new tab"
+msgstr "&Interpreter w pozadku dale běžeć dać"
+
+#: widgets/ViewContainer.cpp:78
+#, fuzzy, kde-format
+#| msgid "C&lose Session"
+msgctxt "@info:tooltip"
+msgid "Close this tab"
+msgstr "Interpreter &zakónčić"
+
+#: widgets/ViewContainer.cpp:115
 #, fuzzy, kde-format
 #| msgid "&Detach Session"
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr "&Interpreter w pozadku dale běžeć dać"
 
-#: widgets/ViewContainer.cpp:120
+#: widgets/ViewContainer.cpp:122
 #, fuzzy, kde-format
 #| msgid "&Terminate Task"
 msgctxt "@action:inmenu"
 msgid "&Configure or Rename Tab..."
 msgstr "Proces za&kónčić"
 
-#: widgets/ViewContainer.cpp:127
+#: widgets/ViewContainer.cpp:129
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
@@ -4123,12 +4137,6 @@ msgstr "Interpreter &zakónčić"
 #~| msgid "Unlimited"
 #~ msgid "No scrollback"
 #~ msgstr "Bjez wobmjezowanja"
-
-#, fuzzy
-#~| msgid "C&lose Session"
-#~ msgctxt "@info:whatsthis"
-#~ msgid "Close the active tab"
-#~ msgstr "Interpreter &zakónčić"
 
 #, fuzzy
 #~ msgid "&Stop"
