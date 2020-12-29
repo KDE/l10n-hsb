@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-28 02:32+0100\n"
+"POT-Creation-Date: 2020-12-29 02:37+0100\n"
 "PO-Revision-Date: 2008-11-21 01:09+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -28,25 +28,25 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "edi.werner@gmx.de"
 
-#: dolphincontextmenu.cpp:142 panels/places/placespanel.cpp:191
+#: dolphincontextmenu.cpp:143 panels/places/placespanel.cpp:191
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
 msgstr "Prózdny papjernik"
 
-#: dolphincontextmenu.cpp:163
+#: dolphincontextmenu.cpp:164
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Restore"
 msgstr "Restawrować"
 
-#: dolphincontextmenu.cpp:208 dolphinmainwindow.cpp:1361
+#: dolphincontextmenu.cpp:211 dolphinmainwindow.cpp:1361
 #, kde-format
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
 msgstr "Nowy objekt stworić"
 
-#: dolphincontextmenu.cpp:238
+#: dolphincontextmenu.cpp:240
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
@@ -54,7 +54,7 @@ msgctxt "@action:inmenu"
 msgid "Open Path"
 msgstr "Zasunyć"
 
-#: dolphincontextmenu.cpp:244
+#: dolphincontextmenu.cpp:246
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Open in New Window"
@@ -62,7 +62,7 @@ msgctxt "@action:inmenu"
 msgid "Open Path in New Window"
 msgstr "W nowym woknje wočinić"
 
-#: dolphincontextmenu.cpp:250
+#: dolphincontextmenu.cpp:252
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Open in New Tab"
@@ -2765,6 +2765,58 @@ msgctxt ""
 msgid "Query Results from '%1'"
 msgstr ""
 
+#: settings/contextmenu/contextmenusettingspage.cpp:55
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Select which services should be shown in the context menu:"
+msgstr ""
+
+#: settings/contextmenu/contextmenusettingspage.cpp:59
+#, fuzzy, kde-format
+#| msgctxt "@title:menu"
+#| msgid "Main Toolbar"
+msgctxt "@label:textbox"
+msgid "Search..."
+msgstr "Hłowny nastrojowy pas"
+
+#: settings/contextmenu/contextmenusettingspage.cpp:81
+#, kde-format
+msgctxt "@action:button"
+msgid "Download New Services..."
+msgstr ""
+
+#: settings/contextmenu/contextmenusettingspage.cpp:190
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Dolphin must be restarted to apply the updated version control systems "
+"settings."
+msgstr ""
+
+#: settings/contextmenu/contextmenusettingspage.cpp:222
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Delete"
+msgctxt "@option:check"
+msgid "Delete"
+msgstr "zničić"
+
+#: settings/contextmenu/contextmenusettingspage.cpp:228
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Show 'Copy To' and 'Move To' commands"
+msgctxt "@option:check"
+msgid "'Copy To' and 'Move To' commands"
+msgstr "přikazaj 'kopěrować' a 'přesunyć' pokazać"
+
+#: settings/contextmenu/contextmenusettingspage.cpp:268
+#, fuzzy, kde-format
+#| msgctxt "@info:status files (size)"
+#| msgid "%1 (%2)"
+msgctxt "@item:inmenu"
+msgid "%1: %2"
+msgstr "%1 (%2)"
+
 #. i18n: ectx: label, entry (UseSystemFont), group (CompactMode)
 #. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)
 #. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
@@ -2853,6 +2905,66 @@ msgstr "Wulkosć přehladki"
 #: settings/dolphin_compactmodesettings.kcfg:40
 #, kde-format
 msgid "Maximum text width index (0 means unlimited)"
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowCopyMoveMenu), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:10
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Show 'Copy To' and 'Move To' commands in context menu"
+msgid "Show 'Copy To' and 'Move To' commands in context menu"
+msgstr "Přikazaj 'Kopěrować' a 'Přesunyć' w kontekstowym meniju pokazać"
+
+#. i18n: ectx: label, entry (ShowAddToPlaces), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:14
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Show 'Copy To' and 'Move To' commands in context menu"
+msgid "Show 'Add to Places' in context menu."
+msgstr "Přikazaj 'Kopěrować' a 'Přesunyć' w kontekstowym meniju pokazać"
+
+#. i18n: ectx: label, entry (ShowSortBy), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:18
+#, kde-format
+msgid "Show 'Sort By' in context menu."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowViewMode), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:22
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Show 'Copy To' and 'Move To' commands in context menu"
+msgid "Show 'View Mode' in context menu."
+msgstr "Přikazaj 'Kopěrować' a 'Přesunyć' w kontekstowym meniju pokazać"
+
+#. i18n: ectx: label, entry (ShowOpenInNewTab), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:26
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Show 'Copy To' and 'Move To' commands in context menu"
+msgid "Show 'Open in New Tab' and 'Open in New Tabs' in context menu."
+msgstr "Přikazaj 'Kopěrować' a 'Přesunyć' w kontekstowym meniju pokazać"
+
+#. i18n: ectx: label, entry (ShowOpenInNewWindow), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:30
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Show 'Copy To' and 'Move To' commands in context menu"
+msgid "Show 'Open in New Window' in context menu."
+msgstr "Přikazaj 'Kopěrować' a 'Přesunyć' w kontekstowym meniju pokazać"
+
+#. i18n: ectx: label, entry (ShowCopyLocation), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:34
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Show 'Copy To' and 'Move To' commands in context menu"
+msgid "Show 'Copy Location' in context menu."
+msgstr "Přikazaj 'Kopěrować' a 'Přesunyć' w kontekstowym meniju pokazać"
+
+#. i18n: ectx: label, entry (ShowDuplicateHere), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:38
+#, kde-format
+msgid "Show 'Duplicate Here' in context menu."
 msgstr ""
 
 #. i18n: ectx: label, entry (ColumnPositions), group (DetailsMode)
@@ -3211,16 +3323,8 @@ msgstr ""
 msgid "Show tooltips"
 msgstr "Tooltips pokazać"
 
-#. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
-#: settings/dolphin_generalsettings.kcfg:94
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Show 'Copy To' and 'Move To' commands in context menu"
-msgid "Show 'Copy To' and 'Move To' commands in context menu"
-msgstr "Přikazaj 'Kopěrować' a 'Přesunyć' w kontekstowym meniju pokazać"
-
 #. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
-#: settings/dolphin_generalsettings.kcfg:98
+#: settings/dolphin_generalsettings.kcfg:94
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Timestamp since when the view properties are valid"
@@ -3228,7 +3332,7 @@ msgid "Timestamp since when the view properties are valid"
 msgstr "Čas, wot kotrehož swójstwa napohlada płaća"
 
 #. i18n: ectx: label, entry (AutoExpandFolders), group (General)
-#: settings/dolphin_generalsettings.kcfg:101
+#: settings/dolphin_generalsettings.kcfg:97
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Use auto-expanding folders for all view types"
@@ -3236,7 +3340,7 @@ msgid "Use auto-expanding folders for all view types"
 msgstr "Rozćahowate zapiski za wšě datajowe družiny"
 
 #. i18n: ectx: label, entry (ShowZoomSlider), group (General)
-#: settings/dolphin_generalsettings.kcfg:105
+#: settings/dolphin_generalsettings.kcfg:101
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show zoom slider in the statusbar"
@@ -3244,7 +3348,7 @@ msgid "Show zoom slider in the statusbar"
 msgstr "Zoomowanski suwak w statusowym pasu"
 
 #. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: settings/dolphin_generalsettings.kcfg:109
+#: settings/dolphin_generalsettings.kcfg:105
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show the space information in the statusbar"
@@ -3252,19 +3356,19 @@ msgid "Show the space information in the statusbar"
 msgstr "Informaciju wo rumje w statusowym pasu pokazać"
 
 #. i18n: ectx: label, entry (LockPanels), group (General)
-#: settings/dolphin_generalsettings.kcfg:113
+#: settings/dolphin_generalsettings.kcfg:109
 #, kde-format
 msgid "Lock the layout of the panels"
 msgstr ""
 
 #. i18n: ectx: label, entry (EnlargeSmallPreviews), group (General)
-#: settings/dolphin_generalsettings.kcfg:117
+#: settings/dolphin_generalsettings.kcfg:113
 #, kde-format
 msgid "Enlarge Small Previews"
 msgstr ""
 
 #. i18n: ectx: label, entry (SortingChoice), group (General)
-#: settings/dolphin_generalsettings.kcfg:126
+#: settings/dolphin_generalsettings.kcfg:122
 #, kde-format
 msgid ""
 "Choose Natural, Case Sensitive, or Case Insensitive order of sorting the "
@@ -3323,13 +3427,15 @@ msgctxt "@title:group"
 msgid "Navigation"
 msgstr "Nawigaciski pas"
 
-#: settings/dolphinsettingsdialog.cpp:83
-#, kde-format
+#: settings/dolphinsettingsdialog.cpp:91
+#, fuzzy, kde-format
+#| msgctxt "@title:group"
+#| msgid "Context Menu"
 msgctxt "@title:group"
-msgid "Services"
-msgstr ""
+msgid "Context Menu"
+msgstr "Kontekstowy meni"
 
-#: settings/dolphinsettingsdialog.cpp:94
+#: settings/dolphinsettingsdialog.cpp:102
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Trash"
@@ -3337,19 +3443,19 @@ msgctxt "@title:group"
 msgid "Trash"
 msgstr "Papjernik"
 
-#: settings/dolphinsettingsdialog.cpp:104
+#: settings/dolphinsettingsdialog.cpp:112
 #, kde-format
 msgctxt "@title:group"
 msgid "User Feedback"
 msgstr ""
 
-#: settings/dolphinsettingsdialog.cpp:174
+#: settings/dolphinsettingsdialog.cpp:182
 #, kde-format
 msgid ""
 "You have unsaved changes. Do you want to apply the changes or discard them?"
 msgstr ""
 
-#: settings/dolphinsettingsdialog.cpp:175
+#: settings/dolphinsettingsdialog.cpp:183
 #, kde-format
 msgid "Warning"
 msgstr ""
@@ -3655,58 +3761,6 @@ msgstr ""
 msgctxt "option:check"
 msgid "Open folders during drag operations"
 msgstr "zapiski při wlečenju wočinić"
-
-#: settings/services/servicessettingspage.cpp:50
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Select which services should be shown in the context menu:"
-msgstr ""
-
-#: settings/services/servicessettingspage.cpp:54
-#, fuzzy, kde-format
-#| msgctxt "@title:menu"
-#| msgid "Main Toolbar"
-msgctxt "@label:textbox"
-msgid "Search..."
-msgstr "Hłowny nastrojowy pas"
-
-#: settings/services/servicessettingspage.cpp:76
-#, kde-format
-msgctxt "@action:button"
-msgid "Download New Services..."
-msgstr ""
-
-#: settings/services/servicessettingspage.cpp:142
-#, kde-format
-msgctxt "@info"
-msgid ""
-"Dolphin must be restarted to apply the updated version control systems "
-"settings."
-msgstr ""
-
-#: settings/services/servicessettingspage.cpp:174
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Delete"
-msgctxt "@option:check"
-msgid "Delete"
-msgstr "zničić"
-
-#: settings/services/servicessettingspage.cpp:180
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show 'Copy To' and 'Move To' commands"
-msgctxt "@option:check"
-msgid "'Copy To' and 'Move To' commands"
-msgstr "přikazaj 'kopěrować' a 'přesunyć' pokazać"
-
-#: settings/services/servicessettingspage.cpp:212
-#, fuzzy, kde-format
-#| msgctxt "@info:status files (size)"
-#| msgid "%1 (%2)"
-msgctxt "@item:inmenu"
-msgid "%1: %2"
-msgstr "%1 (%2)"
 
 #: settings/startup/startupsettingspage.cpp:45
 #, kde-format
@@ -5480,13 +5534,6 @@ msgstr "Přidatna informacija"
 #~ msgctxt "@item:intable"
 #~ msgid "No destination"
 #~ msgstr "Dokumentacija"
-
-#, fuzzy
-#~| msgctxt "@title:group"
-#~| msgid "Context Menu"
-#~ msgctxt "@title:tab Context Menu settings"
-#~ msgid "Context Menu"
-#~ msgstr "Kontekstowy meni"
 
 #~ msgctxt "@option:check"
 #~ msgid "Show 'Delete' command"
