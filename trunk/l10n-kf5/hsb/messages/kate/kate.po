@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-09 03:01+0100\n"
+"POT-Creation-Date: 2021-01-11 02:58+0100\n"
 "PO-Revision-Date: 2005-04-18 18:18+0200\n"
 "Last-Translator:  <hertn@gmx.de>\n"
 "Language-Team: Hornjoserbšćina <hsb@li.org>\n"
@@ -1491,9 +1491,31 @@ msgstr "Dokument, kiž ma so wočinić"
 msgid "[urls...]"
 msgstr ""
 
-#: quickopen/katequickopen.cpp:217
+#: quickopen/katequickopenlineedit.cpp:19
 #, kde-format
-msgid "Quick Open Search"
+msgid "Quick Open Search (configure via context menu)"
+msgstr ""
+
+#: quickopen/katequickopenlineedit.cpp:38
+#, fuzzy, kde-format
+#| msgid "Filename"
+msgid "Filter By Path"
+msgstr "Mjeno dataje"
+
+#: quickopen/katequickopenlineedit.cpp:45
+#, kde-format
+msgid "Filter By Name"
+msgstr ""
+
+#: quickopen/katequickopenlineedit.cpp:69
+#, fuzzy, kde-format
+#| msgid "Projects"
+msgid "All Projects"
+msgstr "Projekty"
+
+#: quickopen/katequickopenlineedit.cpp:79
+#, kde-format
+msgid "Current Project"
 msgstr ""
 
 #: session/katesessionmanagedialog.cpp:27
@@ -1745,11 +1767,6 @@ msgstr ""
 #~| msgid "Filename"
 #~ msgid "Filepath"
 #~ msgstr "Mjeno dataje"
-
-#, fuzzy
-#~| msgid "Projects"
-#~ msgid "All Projects Files"
-#~ msgstr "Projekty"
 
 #~ msgid "Application"
 #~ msgstr "Program"
