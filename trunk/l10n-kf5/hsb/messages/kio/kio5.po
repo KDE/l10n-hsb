@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsocks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-20 02:31+0100\n"
+"POT-Creation-Date: 2021-02-26 02:40+0100\n"
 "PO-Revision-Date: 2008-11-19 23:41+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -2299,8 +2299,9 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr "Njedokumentowany zmylk"
 
-#: core/kcoredirlister.cpp:386 gui/openurljob.cpp:150 widgets/krun.cpp:402
-#: widgets/paste.cpp:262 widgets/renamedialog.cpp:599
+#: core/kcoredirlister.cpp:386 core/mimetypefinderjob.cpp:54
+#: gui/openurljob.cpp:146 widgets/krun.cpp:402 widgets/paste.cpp:262
+#: widgets/renamedialog.cpp:599
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -2332,6 +2333,11 @@ msgstr "(%1, wotkaz na %2)"
 #, kde-format
 msgid " (Points to %1)"
 msgstr "(wotkazuje na %1)"
+
+#: core/mimetypefinderjob.cpp:200
+#, kde-format
+msgid "Unable to determine the type of file for %1"
+msgstr ""
 
 #: core/slave.cpp:462
 #, fuzzy, kde-format
@@ -3912,7 +3918,7 @@ msgid ""
 "%2."
 msgstr ""
 
-#: gui/applicationlauncherjob.cpp:247 gui/openurljob.cpp:734
+#: gui/applicationlauncherjob.cpp:247 gui/openurljob.cpp:606
 #: widgets/krun.cpp:199
 #, kde-format
 msgid "You are not authorized to select an application to open this file."
@@ -3957,12 +3963,12 @@ msgstr "Desktop entry družiny %1 njeje znaty."
 msgid "Launching %1"
 msgstr "Startuju %1"
 
-#: gui/openurljob.cpp:164
+#: gui/openurljob.cpp:160
 #, kde-format
 msgid "Failed to open %1"
 msgstr ""
 
-#: gui/openurljob.cpp:412 widgets/kdesktopfileactions.cpp:125
+#: gui/openurljob.cpp:284 widgets/kdesktopfileactions.cpp:125
 #, kde-format
 msgid ""
 "The desktop entry file\n"
@@ -3970,7 +3976,7 @@ msgid ""
 "is of type Link but has no URL=... entry."
 msgstr "Desktop-entry-dataja %1 ma typ Link, ale nima linku URL=...."
 
-#: gui/openurljob.cpp:480
+#: gui/openurljob.cpp:352
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>The file <b>%1</b> is an executable program. For safety it will not "
@@ -3980,20 +3986,20 @@ msgid ""
 "reasons it will not be started."
 msgstr "<qt>Dataja <b>%1</b> je program. Wěstosće dla jón njestartuju.</qt>"
 
-#: gui/openurljob.cpp:524
+#: gui/openurljob.cpp:396
 #, kde-format
 msgid ""
 "For security reasons, launching executables is not allowed in this context."
 msgstr ""
 
-#: gui/openurljob.cpp:547
+#: gui/openurljob.cpp:419
 #, kde-format
 msgid ""
 "The program \"%1\" needs to have executable permission before it can be "
 "launched."
 msgstr ""
 
-#: gui/openurljob.cpp:558
+#: gui/openurljob.cpp:430
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
@@ -4005,17 +4011,17 @@ msgstr ""
 "<qt>Njemóžu komando wuwjesć. Dataja abo zapisk <b>%1</b> njeeksistujetej.</"
 "qt>"
 
-#: gui/openurljob.cpp:645 widgets/kdesktopfileactions.cpp:60
+#: gui/openurljob.cpp:517 widgets/kdesktopfileactions.cpp:60
 #, kde-format
 msgid "The desktop entry file %1 has no Type=... entry."
 msgstr "Desktop-entry-dataja %1 nima linku Type=..."
 
-#: gui/openurljob.cpp:746
+#: gui/openurljob.cpp:618
 #, kde-format
 msgid "Failed to open the file."
 msgstr ""
 
-#: gui/openurljob.cpp:780
+#: gui/openurljob.cpp:652
 #, fuzzy, kde-format
 #| msgid "The requested lock could not be granted. %1"
 msgid "The program \"%1\" could not be launched."
