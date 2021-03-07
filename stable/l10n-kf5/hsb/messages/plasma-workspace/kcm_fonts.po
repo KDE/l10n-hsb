@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmfonts\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-22 11:58+0100\n"
+"POT-Creation-Date: 2021-03-07 08:28+0100\n"
 "PO-Revision-Date: 2008-11-13 22:12+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -36,8 +36,15 @@ msgstr ""
 msgid "Antonis Tsiapaliokas"
 msgstr ""
 
-#. i18n: ectx: label, entry (forceFontDPI), group (General)
+#. i18n: ectx: label, entry (forceFontDPIWayland), group (General)
 #: fontsaasettingsbase.kcfg:9
+#, fuzzy, kde-format
+#| msgid "Force fonts DPI:"
+msgid "Force font DPI Wayland"
+msgstr "DPI za pismo:"
+
+#. i18n: ectx: label, entry (forceFontDPI), group (General)
+#: fontsaasettingsbase.kcfg:13
 #, fuzzy, kde-format
 #| msgid "Force fonts DPI:"
 msgid "Force font DPI on X11"
@@ -352,13 +359,13 @@ msgid ""
 "their shape at big sizes."
 msgstr ""
 
-#: package/contents/ui/main.qml:372
+#: package/contents/ui/main.qml:369
 #, fuzzy, kde-format
 #| msgid "Force fonts DPI:"
 msgid "Force font DPI:"
 msgstr "DPI za pismo:"
 
-#: package/contents/ui/main.qml:400
+#: package/contents/ui/main.qml:411
 #, kde-kuit-format
 msgctxt "@info:tooltip Force fonts DPI"
 msgid ""
@@ -374,15 +381,10 @@ msgid ""
 "should be checked.</para>"
 msgstr ""
 
-#: package/contents/ui/main.qml:406
+#: package/contents/ui/main.qml:417
 #, kde-format
 msgid "Select Font"
 msgstr ""
-
-#, fuzzy
-#~| msgid "Force fonts DPI:"
-#~ msgid "Force font DPI Wayland"
-#~ msgstr "DPI za pismo:"
 
 #~ msgid "Font Settings Changed"
 #~ msgstr "Nastajenja za pisma změnjene"
