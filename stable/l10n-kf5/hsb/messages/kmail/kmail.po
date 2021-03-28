@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-24 07:51+0100\n"
+"POT-Creation-Date: 2021-03-28 13:54+0000\n"
 "PO-Revision-Date: 2007-05-06 20:54+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team:  <hsb@li.org>\n"
@@ -251,15 +251,15 @@ msgstr "&Adresnik"
 msgid "Invoke Handler"
 msgstr ""
 
-#: collectionpage/collectionmailinglistpage.cpp:118
-#, fuzzy, kde-format
-msgid "Post to List"
-msgstr "Nadawki"
-
 #: collectionpage/collectionmailinglistpage.cpp:118 messageactions.cpp:456
 #, kde-format
 msgid "Subscribe to List"
 msgstr ""
+
+#: collectionpage/collectionmailinglistpage.cpp:118
+#, fuzzy, kde-format
+msgid "Post to List"
+msgstr "Nadawki"
 
 #: collectionpage/collectionmailinglistpage.cpp:118
 #, kde-format
@@ -1212,6 +1212,13 @@ msgstr "<qt>Chceće woprawdźe identitu <b>%1</b> zničić?</qt>"
 msgid "For&ward Subject Prefixes"
 msgstr "Temowe prefiksy dopósłać"
 
+#. i18n: ectx: property (text), widget (QPushButton, mRemoveButton)
+#: configuredialog/configurecomposerpage.cpp:691
+#: configuredialog/configurecomposerpage.cpp:750 ui/identitypage.ui:66
+#, kde-format
+msgid "Remo&ve"
+msgstr "&Zničić"
+
 #: configuredialog/configurecomposerpage.cpp:691 identity/identitypage.cpp:278
 #, kde-format
 msgid "Add..."
@@ -1221,13 +1228,6 @@ msgstr "Dodać..."
 #, kde-format
 msgid "Modify..."
 msgstr "Změnić..."
-
-#. i18n: ectx: property (text), widget (QPushButton, mRemoveButton)
-#: configuredialog/configurecomposerpage.cpp:691
-#: configuredialog/configurecomposerpage.cpp:750 ui/identitypage.ui:66
-#, kde-format
-msgid "Remo&ve"
-msgstr "&Zničić"
 
 #: configuredialog/configurecomposerpage.cpp:691
 #, kde-format
@@ -3545,8 +3545,8 @@ msgstr "Filtry &nałožić"
 msgid "Apply Filters on Folder and all its Subfolders"
 msgstr "Groupware-zapiski su &podzapiski wot:"
 
-#. i18n: ectx: Menu (message)
 #. i18n: ectx: Menu (file)
+#. i18n: ectx: Menu (message)
 #: kmail_part.rc:150 kmcomposerui.rc:6 kmmainwin.rc:150 kmreadermainwin.rc:40
 #, kde-format
 msgid "&Message"
