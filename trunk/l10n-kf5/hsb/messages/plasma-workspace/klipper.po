@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-02 00:19+0000\n"
+"POT-Creation-Date: 2021-04-19 00:21+0000\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -599,14 +599,16 @@ msgstr ""
 msgid "Replay action in history"
 msgstr ""
 
-#: klipperpopup.cpp:72
-#, kde-format
-msgid "<empty clipboard>"
-msgstr ""
+#: klipperpopup.cpp:72 tray.cpp:38 tray.cpp:54
+#, fuzzy, kde-format
+#| msgctxt "GenericName"
+#| msgid "Clipboard Viewer"
+msgid "Clipboard is empty"
+msgstr "Přehladowar za clipboard"
 
 #: klipperpopup.cpp:73
 #, kde-format
-msgid "<no matches>"
+msgid "No matches"
 msgstr ""
 
 #: klipperpopup.cpp:121
@@ -721,13 +723,6 @@ msgstr ""
 #| msgid "&Paste Clipboard Contents"
 msgid "Clipboard Contents"
 msgstr "Wobsah clipboarda &zasunyć"
-
-#: tray.cpp:38 tray.cpp:54
-#, fuzzy, kde-format
-#| msgctxt "GenericName"
-#| msgid "Clipboard Viewer"
-msgid "Clipboard is empty"
-msgstr "Přehladowar za clipboard"
 
 #: urlgrabber.cpp:185
 #, kde-format
