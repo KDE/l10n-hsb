@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-23 00:20+0000\n"
+"POT-Creation-Date: 2021-09-30 00:18+0000\n"
 "PO-Revision-Date: 2003-12-23 17:19+0100\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -569,7 +569,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, wallpaperSelectButton)
 #. i18n: ectx: property (text), widget (QToolButton, dirSelectButton)
-#: colorscheme/ColorSchemeEditor.ui:120 widgets/EditProfileGeneralPage.ui:152
+#: colorscheme/ColorSchemeEditor.ui:120 widgets/EditProfileGeneralPage.ui:179
 #, fuzzy, kde-format
 #| msgid "Save Sessions &Profile..."
 msgid "..."
@@ -1431,7 +1431,7 @@ msgctxt "Name of the default/builtin profile"
 msgid "Default"
 msgstr "Jako &standard zawěsćić"
 
-#: profile/ProfileList.cpp:37
+#: profile/ProfileList.cpp:37 widgets/EditProfileDialog.cpp:483
 #, fuzzy, kde-format
 #| msgid "Save Sessions &Profile..."
 msgid "Default profile"
@@ -3079,7 +3079,7 @@ msgstr "Profil posedźenja zawěsćić"
 #. i18n: ectx: property (text), widget (QPushButton, textEditorCustomBtn)
 #. i18n: ectx: property (text), widget (QPushButton, editColorSchemeButton)
 #: widgets/EditProfileAppearancePage.ui:79
-#: widgets/EditProfileGeneralPage.ui:193 widgets/EditProfileKeyboardPage.ui:85
+#: widgets/EditProfileGeneralPage.ui:220 widgets/EditProfileKeyboardPage.ui:85
 #: widgets/EditProfileMousePage.ui:310
 #, fuzzy, kde-format
 msgid "Edit..."
@@ -3416,7 +3416,7 @@ msgctxt "@title:tab Complex options"
 msgid "Advanced"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:289
+#: widgets/EditProfileDialog.cpp:301
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3425,19 +3425,19 @@ msgid ""
 "the settings to a new profile."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:306
+#: widgets/EditProfileDialog.cpp:318
 #, kde-format
 msgctxt "@info"
 msgid "Profile Name was empty; please set a name to be able to save settings."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:314
+#: widgets/EditProfileDialog.cpp:326
 #, kde-format
 msgctxt "@info"
 msgid "A profile with the name \"%1\" already exists."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:349
+#: widgets/EditProfileDialog.cpp:361
 #, fuzzy, kde-format
 #| msgid "Save Sessions &Profile..."
 msgid "Editing profile: %2"
@@ -3447,19 +3447,19 @@ msgstr[1] "&Profilowu dataju zawěsćić..."
 msgstr[2] "&Profilowu dataju zawěsćić..."
 msgstr[3] "&Profilowu dataju zawěsćić..."
 
-#: widgets/EditProfileDialog.cpp:352
+#: widgets/EditProfileDialog.cpp:364
 #, fuzzy, kde-format
 #| msgid "Save Sessions &Profile..."
 msgid "Create New Profile"
 msgstr "&Profilowu dataju zawěsćić..."
 
-#: widgets/EditProfileDialog.cpp:354
+#: widgets/EditProfileDialog.cpp:366
 #, fuzzy, kde-format
 #| msgid "Save Sessions &Profile..."
 msgid "Edit Profile \"%1\""
 msgstr "&Profilowu dataju zawěsćić..."
 
-#: widgets/EditProfileDialog.cpp:451
+#: widgets/EditProfileDialog.cpp:463
 #, kde-format
 msgctxt ""
 "Suffix of the number of columns (N columns). The leading space is needed to "
@@ -3471,7 +3471,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: widgets/EditProfileDialog.cpp:453
+#: widgets/EditProfileDialog.cpp:465
 #, kde-format
 msgctxt ""
 "Suffix of the number of rows (N rows). The leading space is needed to "
@@ -3483,38 +3483,43 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: widgets/EditProfileDialog.cpp:463
+#: widgets/EditProfileDialog.cpp:475
 #, kde-format
 msgid "System Bell"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:463
+#: widgets/EditProfileDialog.cpp:475
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "System Notifications"
 msgstr "Wubrany tekst zasunyć"
 
-#: widgets/EditProfileDialog.cpp:463
+#: widgets/EditProfileDialog.cpp:475
 #, kde-format
 msgid "Visual Bell"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:463
+#: widgets/EditProfileDialog.cpp:475
 #, kde-format
 msgid "Ignore Bell Events"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:501
+#: widgets/EditProfileDialog.cpp:486
+#, fuzzy, kde-format
+msgid "Default profile for new terminal sessions in %1"
+msgstr "Profil posedźenja zawěsćić"
+
+#: widgets/EditProfileDialog.cpp:525
 #, kde-format
 msgid "Edit Environment"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:502
+#: widgets/EditProfileDialog.cpp:526
 #, kde-format
 msgid "One environment variable per line"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:533
+#: widgets/EditProfileDialog.cpp:557
 #, kde-format
 msgctxt "Unit of time"
 msgid " second"
@@ -3524,32 +3529,32 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: widgets/EditProfileDialog.cpp:622
+#: widgets/EditProfileDialog.cpp:646
 #, kde-format
 msgid "Select Initial Directory"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1134
+#: widgets/EditProfileDialog.cpp:1158
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Scheme <resource>%1</resource> failed to load."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1313
+#: widgets/EditProfileDialog.cpp:1337
 #, kde-format
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1319
+#: widgets/EditProfileDialog.cpp:1343
 #, kde-format
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1706
+#: widgets/EditProfileDialog.cpp:1734
 #, kde-format
 msgid ""
 "The format is e.g. 'editorExec PATH:LINE:COLUMN'\n"
@@ -3566,7 +3571,7 @@ msgid ""
 "editor."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1719
+#: widgets/EditProfileDialog.cpp:1747
 #, kde-format
 msgid "Text Editor Custom Command"
 msgstr ""
@@ -3578,27 +3583,34 @@ msgid "Select the icon displayed on tabs using this profile"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, profileNameEdit)
-#: widgets/EditProfileGeneralPage.ui:75
+#: widgets/EditProfileGeneralPage.ui:77
 #, kde-format
 msgid "A descriptive name for the profile"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, profileNameEdit)
-#: widgets/EditProfileGeneralPage.ui:78
+#: widgets/EditProfileGeneralPage.ui:80
 #, fuzzy, kde-format
 #| msgid "Save Sessions &Profile..."
 msgctxt "@label:textbox"
 msgid "Profile name"
 msgstr "&Profilowu dataju zawěsćić..."
 
+#. i18n: ectx: property (text), widget (QCheckBox, setAsDefaultButton)
+#: widgets/EditProfileGeneralPage.ui:87
+#, fuzzy, kde-format
+#| msgid "Save Sessions &Profile..."
+msgid "Default Profile"
+msgstr "&Profilowu dataju zawěsćić..."
+
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: widgets/EditProfileGeneralPage.ui:91
+#: widgets/EditProfileGeneralPage.ui:118
 #, kde-format
 msgid "Command:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, commandEdit)
-#: widgets/EditProfileGeneralPage.ui:104
+#: widgets/EditProfileGeneralPage.ui:131
 #, kde-format
 msgid ""
 "The command to execute when new terminal sessions are created using this "
@@ -3606,63 +3618,63 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, commandEdit)
-#: widgets/EditProfileGeneralPage.ui:110
+#: widgets/EditProfileGeneralPage.ui:137
 #, kde-format
 msgid "/bin/sh"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: widgets/EditProfileGeneralPage.ui:123
+#: widgets/EditProfileGeneralPage.ui:150
 #, fuzzy, kde-format
 msgid "Initial directory:"
 msgstr "Změnić"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, initialDirEdit)
-#: widgets/EditProfileGeneralPage.ui:136
+#: widgets/EditProfileGeneralPage.ui:163
 #, kde-format
 msgid ""
 "The initial working directory for new terminal sessions using this profile"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, initialDirEdit)
-#: widgets/EditProfileGeneralPage.ui:142
+#: widgets/EditProfileGeneralPage.ui:169
 #, kde-format
 msgid "/home/username"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, dirSelectButton)
-#: widgets/EditProfileGeneralPage.ui:149
+#: widgets/EditProfileGeneralPage.ui:176
 #, fuzzy, kde-format
 msgid "Choose the initial directory"
 msgstr "Změnić"
 
 #. i18n: ectx: property (text), widget (QCheckBox, startInSameDirButton)
-#: widgets/EditProfileGeneralPage.ui:159
+#: widgets/EditProfileGeneralPage.ui:186
 #, kde-format
 msgid "Start in same directory as current session"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: widgets/EditProfileGeneralPage.ui:172
+#: widgets/EditProfileGeneralPage.ui:199
 #, kde-format
 msgid "Environment:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, environmentEditButton)
-#: widgets/EditProfileGeneralPage.ui:190
+#: widgets/EditProfileGeneralPage.ui:217
 #, kde-format
 msgid "Edit the list of environment variables and associated values"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: widgets/EditProfileGeneralPage.ui:237
+#: widgets/EditProfileGeneralPage.ui:264
 #, fuzzy, kde-format
 #| msgid "&Terminate Task"
 msgid "Initial terminal size:"
 msgstr "Proces za&kónčić"
 
 #. i18n: ectx: property (text), widget (QLabel, useCurrentWindowSizeNote)
-#: widgets/EditProfileGeneralPage.ui:312
+#: widgets/EditProfileGeneralPage.ui:339
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -3672,7 +3684,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, terminalBellLabel)
-#: widgets/EditProfileGeneralPage.ui:325
+#: widgets/EditProfileGeneralPage.ui:352
 #, fuzzy, kde-format
 msgid "Terminal bell mode:"
 msgstr "Začinić"
