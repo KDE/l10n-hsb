@@ -7,14 +7,14 @@ msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-10-01 00:18+0000\n"
-"PO-Revision-Date: 2008-11-23 19:02+0100\n"
+"PO-Revision-Date: 2021-10-18 16:24+0200\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
 "Language: hsb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KAider 0.1\n"
+"X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
@@ -49,13 +49,7 @@ msgstr ""
 "instancow a dočasne začitanje instancow."
 
 #: konqueror.cpp:24
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p>If enabled, an instance of Konqueror will be preloaded after the "
-#| "ordinary KDE startup sequence.</p><p>This will make the first Konqueror "
-#| "window open faster, but at the expense of longer KDE startup times (but "
-#| "you will be able to work while it is loading, so you may not even notice "
-#| "that it is taking longer).</p>"
+#, kde-format
 msgid ""
 "<p>If enabled, an instance of Konqueror will be preloaded after the ordinary "
 "Plasma startup sequence.</p><p>This will make the first Konqueror window "
@@ -63,19 +57,13 @@ msgid ""
 "be able to work while it is loading, so you may not even notice that it is "
 "taking longer).</p>"
 msgstr ""
-"<p>Hdyž so to wužiwa, so jedna instanca konquerora hnydom hromadźe z KDE "
-"startuje</p><p>Prěnje wokno konquerora so přez to spěšnišo wočini, ale KDE "
-"trjeba přez to dlěje za startowanje (štož pak snano ani njepytnjeće, dokelž "
-"móžeće za tón čas hižo dźěłać).</p>"
+"<p>Hdyž so to wužiwa, so jedna instanca konquerora hnydom hromadźe z Plasma "
+"startuje</p><p>Prěnje wokno Konquerora so přez to spěšnišo wočini, ale "
+"Plasma trjeba přez to dlěje za startowanje (štož pak snano ani njepytnjeće, "
+"dokelž móžeće za tón čas hižo dźěłać).</p>"
 
 #: konqueror.cpp:30
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p>If enabled, KDE will always try to have one preloaded Konqueror "
-#| "instance ready; preloading a new instance in the background whenever "
-#| "there is not one available, so that windows will always open quickly.</"
-#| "p><p><b>Warning:</b> In some cases, it is actually possible that this "
-#| "will reduce perceived performance.</p>"
+#, kde-format
 msgid ""
 "<p>If enabled, Konqueror will always try to have one preloaded instance "
 "ready; preloading a new instance in the background whenever there is not one "
@@ -83,7 +71,7 @@ msgid ""
 "In some cases, it is actually possible that this will reduce perceived "
 "performance.</p>"
 msgstr ""
-"<p>Z tutej opciju spyta KDE přeco jednu začitanu instancu konquerora k "
+"<p>Z tutej opciju spyta KDE přeco jednu začitanu instancu Konquerora k "
 "dispoziciji měć, tak zo so wokna přeco jara spěšnje wočinjeja.</"
 "p><p><b>Kedźbu:</b> W někotrych padach je samo móžno, zo to wukonitosć "
 "redukuje.</p>"
@@ -96,15 +84,13 @@ msgstr "Dočasne začitanje"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_preload_on_startup)
 #: konqueror_ui.ui:23
-#, fuzzy, kde-format
-#| msgid "Preload an instance after KDE startup"
+#, kde-format
 msgid "Preload an instance after desktop startup"
-msgstr "Instancu po startowanju KDE začitać"
+msgstr "Instancu po startowanju dźěłoweho powjercha začitać"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_always_have_preloaded)
 #: konqueror_ui.ui:30
-#, fuzzy, kde-format
-#| msgid "Always try to have at least one preloaded instance"
+#, kde-format
 msgid "Always try to have one preloaded instance"
 msgstr "Přeco znajmjeńša jednu začitanu instancu měć"
 
@@ -125,6 +111,17 @@ msgid ""
 "recommended to turn this option temporarily off while (un)installing "
 "applications.</p>"
 msgstr ""
+"<p>Za čas startowanja dyrbi KDE swoju systemowu konfiguraciju přehladać "
+"(mimetypes, instalowane aplikacije atd.) a, jeli je so konfiguracija "
+"změniła, dyrbi so nachwilny konfiguraciski pomjatk (KsyCoCa) aktualizować.</"
+"p><p>Tuta opcija přehladanje wotstorči a wobeńdźe přehladowanje wšitkich "
+"zapiskow, tak zo KDE spěšnišo startuje. W rědkim padźe pak hdyž je so "
+"systemowa konfiguracija změniła a hdyž je změna relewantna prjedy hač so "
+"wotstorčene přehladanje wotměje, móže tuta opcija problemy wuwinyć (falowace "
+"aplikacije w K meniju, rozprawy aplikacijow wo falowacych mimetypes, atd.)</"
+"p><p>Změny systemoweje konfiguracije stawaja so zwjetša, hdyž so aplikacije "
+"(de)instaluja. Tohodla so doporuči, tutu opciju nachwilnje hasnyć, hdyž so "
+"něšto (de)instaluje.</p><p>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gb_)
 #: system_ui.ui:8
