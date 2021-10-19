@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-16 00:15+0000\n"
+"POT-Creation-Date: 2021-10-19 00:15+0000\n"
 "PO-Revision-Date: 2021-10-18 13:11+0200\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -605,7 +605,7 @@ msgctxt "@item:inlistbox Color name"
 msgid "Black"
 msgstr "Čorń"
 
-#: part/annotationactionhandler.cpp:245 part/annotationactionhandler.cpp:696
+#: part/annotationactionhandler.cpp:245 part/annotationactionhandler.cpp:701
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Width %1"
@@ -770,179 +770,185 @@ msgctxt "@info:tooltip"
 msgid "Advanced settings for the current annotation tool"
 msgstr ""
 
-#: part/annotationactionhandler.cpp:426
+#: part/annotationactionhandler.cpp:431
 #, kde-format
 msgctxt "@action:intoolbar Current annotation config option"
 msgid "Color"
 msgstr ""
 
-#: part/annotationactionhandler.cpp:428
+#: part/annotationactionhandler.cpp:433
 #, kde-format
 msgctxt "@action:intoolbar Current annotation config option"
 msgid "Fill Color"
 msgstr ""
 
-#: part/annotationactionhandler.cpp:429
+#: part/annotationactionhandler.cpp:434
 #, kde-format
 msgctxt "@item:inlistbox Color name"
 msgid "Transparent"
 msgstr ""
 
-#: part/annotationactionhandler.cpp:439
+#: part/annotationactionhandler.cpp:444
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Custom Color..."
 msgstr ""
 
-#: part/annotationactionhandler.cpp:496
+#: part/annotationactionhandler.cpp:501
 #, kde-format
 msgctxt "@title:window"
 msgid "Select color"
 msgstr ""
 
-# #: part/annotationactionhandler.cpp:536
-# #, kde-format
-# msgctxt "@info"
-# msgid "Stamps inserted in PDF documents are not visible in PDF readers other than Okular"
-# msgstr ""
-# #: part/annotationactionhandler.cpp:536
-# #, kde-format
-# msgctxt "@title:window"
-# msgid "Experimental feature"
-# msgstr ""
-#: part/annotationactionhandler.cpp:548
-#, kde-format
-msgctxt "verb"
-msgid "&Annotate"
-msgstr "Přispomnjenj&a"
+#: part/annotationactionhandler.cpp:553
+#, fuzzy, kde-format
+#| msgid "Annotations"
+msgid "&Annotations"
+msgstr "Přispomnjenja"
 
-#: part/annotationactionhandler.cpp:549
+#: part/annotationactionhandler.cpp:554
 #, kde-format
 msgctxt "@action:intoolbar Hide the toolbar"
 msgid "Hide"
 msgstr "Schować"
 
-#: part/annotationactionhandler.cpp:550
+#: part/annotationactionhandler.cpp:555
 #, kde-format
 msgctxt "@action:intoolbar Show the builtin annotation toolbar"
 msgid "Show more annotation tools"
 msgstr "Wjace gratow za přispomnjenja pokazać"
 
-#: part/annotationactionhandler.cpp:553
-#, kde-format
-msgctxt "@action:intoolbar Annotation tool, verb"
-msgid "Highlight"
-msgstr "Wuzběhnyć"
+#: part/annotationactionhandler.cpp:558
+#, fuzzy, kde-format
+#| msgid "Highlighter"
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Highlighter"
+msgstr "Wuzběhowanje teksta"
 
-#: part/annotationactionhandler.cpp:554
-#, kde-format
-msgctxt "@action:intoolbar Annotation tool, verb"
+#: part/annotationactionhandler.cpp:559
+#, fuzzy, kde-format
+#| msgctxt "@action:intoolbar Annotation tool, verb"
+#| msgid "Underline"
+msgctxt "@action:intoolbar Annotation tool"
 msgid "Underline"
 msgstr "Podšmórnyć"
 
-#: part/annotationactionhandler.cpp:555
-#, kde-format
-msgctxt "@action:intoolbar Annotation tool, verb"
+#: part/annotationactionhandler.cpp:560
+#, fuzzy, kde-format
+#| msgctxt "@action:intoolbar Annotation tool, verb"
+#| msgid "Squiggle"
+msgctxt "@action:intoolbar Annotation tool"
 msgid "Squiggle"
 msgstr "Kwakla"
 
-#: part/annotationactionhandler.cpp:556
-#, kde-format
-msgctxt "@action:intoolbar Annotation tool, verb"
+#: part/annotationactionhandler.cpp:561
+#, fuzzy, kde-format
+#| msgctxt "@action:intoolbar Annotation tool, verb"
+#| msgid "Strike Out"
+msgctxt "@action:intoolbar Annotation tool"
 msgid "Strike Out"
 msgstr "Přešmórnyć"
 
-#: part/annotationactionhandler.cpp:558
-#, kde-format
-msgctxt "@action:intoolbar Annotation tool, verb"
-msgid "Insert Text"
-msgstr "Tekst zasunyć"
-
-#: part/annotationactionhandler.cpp:559
-#, kde-format
-msgctxt "@action:intoolbar Annotation tool, verb"
-msgid "Insert Inline Note"
-msgstr "Inline-přispomnjenje zasunyć"
-
-#: part/annotationactionhandler.cpp:560
-#, kde-format
-msgctxt "@action:intoolbar Annotation tool, verb"
-msgid "Insert Popup Note"
-msgstr "Wuskakowate přispomnjenje zasunyć"
-
-#: part/annotationactionhandler.cpp:561
-#, kde-format
-msgctxt "@action:intoolbar Annotation tool, verb"
-msgid "Draw Freehand Line"
-msgstr "Z ruku sćehnjena linija"
-
 #: part/annotationactionhandler.cpp:563
 #, kde-format
-msgctxt "@action:intoolbar Annotation tool, verb"
-msgid "Draw Straight line"
-msgstr "Runu liniju sćahnyć"
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Typewriter"
+msgstr "Pisanska mašina"
 
 #: part/annotationactionhandler.cpp:564
-#, kde-format
-msgctxt "@action:intoolbar Annotation tool, verb"
-msgid "Draw Arrow"
-msgstr "Kłok rysować"
+#, fuzzy, kde-format
+#| msgid "Inline Note"
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Inline Note"
+msgstr "Inline-přispomnjenje"
 
 #: part/annotationactionhandler.cpp:565
-#, kde-format
-msgctxt "@action:intoolbar Annotation tool, verb"
-msgid "Draw Rectangle"
-msgstr "Praworóžk rysować"
+#, fuzzy, kde-format
+#| msgid "Pop-up Note"
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Popup Note"
+msgstr "Wuskakowate přispomnjenje (pop-up)"
 
 #: part/annotationactionhandler.cpp:566
-#, kde-format
-msgctxt "@action:intoolbar Annotation tool, verb"
-msgid "Draw Ellipse"
-msgstr "Elipsu rysować"
-
-#: part/annotationactionhandler.cpp:567
-#, kde-format
-msgctxt "@action:intoolbar Annotation tool, verb"
-msgid "Draw Polygon"
-msgstr "Polygon rysować"
+#, fuzzy, kde-format
+#| msgid "Freehand Line"
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Freehand Line"
+msgstr "Z ruku sćehnjena linija"
 
 #: part/annotationactionhandler.cpp:568
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Straight line"
+msgstr "Runa linija"
+
+#: part/annotationactionhandler.cpp:569
+#, fuzzy, kde-format
+#| msgid "Arrow"
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Arrow"
+msgstr "Kłok"
+
+#: part/annotationactionhandler.cpp:570
+#, fuzzy, kde-format
+#| msgctxt "@action:intoolbar Annotation tool, verb"
+#| msgid "Draw Rectangle"
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Rectangle"
+msgstr "Praworóžk rysować"
+
+#: part/annotationactionhandler.cpp:571
+#, fuzzy, kde-format
+#| msgctxt "@action:intoolbar Annotation tool, verb"
+#| msgid "Draw Ellipse"
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Ellipse"
+msgstr "Elipsu rysować"
+
+#: part/annotationactionhandler.cpp:572
+#, fuzzy, kde-format
+#| msgid "Polygon"
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Polygon"
+msgstr "Polygon"
+
+#: part/annotationactionhandler.cpp:573
 #, kde-format
 msgctxt "@action"
 msgid "Geometrical shapes"
 msgstr "Geometriska forma"
 
-#: part/annotationactionhandler.cpp:618
+#: part/annotationactionhandler.cpp:623
 #, kde-format
 msgctxt "@action"
 msgid "Stamp"
 msgstr "Kołk"
 
-#: part/annotationactionhandler.cpp:642
+#: part/annotationactionhandler.cpp:647
 #, kde-format
 msgctxt "@action:intoolbar Show list of quick annotation tools"
 msgid "Quick Annotations"
 msgstr "Spěšne přispomnjenja"
 
-#: part/annotationactionhandler.cpp:650
+#: part/annotationactionhandler.cpp:655
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Choose an annotation tool from the quick annotations"
 msgstr ""
 
-#: part/annotationactionhandler.cpp:660
+#: part/annotationactionhandler.cpp:665
 #, kde-format
 msgid "Quick Annotation Bar"
 msgstr "Pas za spěšne přispomnjenja"
 
-#: part/annotationactionhandler.cpp:674
+#: part/annotationactionhandler.cpp:679
 #, kde-format
 msgctxt ""
 "@action:intoolbar Add current annotation tool to the quick annotations list"
 msgid "Add to Quick Annotations"
 msgstr "K spěšnym přispomnjenjam dodać"
 
-#: part/annotationactionhandler.cpp:677
+#: part/annotationactionhandler.cpp:682
 #, kde-format
 msgctxt ""
 "@action:intoolbar When checked keep the current annotation tool active after "
@@ -950,13 +956,13 @@ msgctxt ""
 msgid "Keep Active"
 msgstr ""
 
-#: part/annotationactionhandler.cpp:678
+#: part/annotationactionhandler.cpp:683
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Keep the annotation tool active after use"
 msgstr "Grat za anotacije po wužiwanju aktiwny wostajić"
 
-#: part/annotationactionhandler.cpp:683
+#: part/annotationactionhandler.cpp:688
 #, kde-format
 msgctxt ""
 "@action When checked, line annotations are constrained to 15° steps, shape "
@@ -964,25 +970,25 @@ msgctxt ""
 msgid "Constrain Ratio and Angle of Annotation Tools"
 msgstr ""
 
-#: part/annotationactionhandler.cpp:689
+#: part/annotationactionhandler.cpp:694
 #, kde-format
 msgctxt "@action:intoolbar Current annotation config option"
 msgid "Font"
 msgstr ""
 
-#: part/annotationactionhandler.cpp:690
+#: part/annotationactionhandler.cpp:695
 #, kde-format
 msgctxt "@action:intoolbar Current annotation advanced settings"
 msgid "Annotation Settings"
 msgstr "Nastajenja za přispomnjenja"
 
-#: part/annotationactionhandler.cpp:693
+#: part/annotationactionhandler.cpp:698
 #, kde-format
 msgctxt "@action:intoolbar Current annotation config option"
 msgid "Line width"
 msgstr "Šěrokosć linije"
 
-#: part/annotationactionhandler.cpp:702
+#: part/annotationactionhandler.cpp:707
 #, kde-format
 msgctxt "@action:intoolbar Current annotation config option"
 msgid "Opacity"
@@ -1906,13 +1912,13 @@ msgstr "Kłok"
 #. i18n: tag tool attribute name
 #: part/data/toolsQuick.xml:9
 #, kde-format
-msgid "Highlight in Yellow"
+msgid "Yellow Highlighter"
 msgstr "Ze žołtej barbu wuzběhnyć"
 
 #. i18n: tag tool attribute name
 #: part/data/toolsQuick.xml:14
 #, kde-format
-msgid "Highlight in Green"
+msgid "Green Highlighter"
 msgstr "Ze zelenej barbu wuzběhnyć"
 
 #. i18n: tag tool attribute name
@@ -1920,18 +1926,6 @@ msgstr "Ze zelenej barbu wuzběhnyć"
 #, kde-format
 msgid "Insert Text"
 msgstr "Tekst zasunyć"
-
-#. i18n: tag tool attribute name
-#: part/data/toolsQuick.xml:29
-#, kde-format
-msgid "Insert Inline Note"
-msgstr "Inline-přispomnjenje zasunyć"
-
-#. i18n: tag tool attribute name
-#: part/data/toolsQuick.xml:34
-#, kde-format
-msgid "Insert Popup Note"
-msgstr "Wuskakowate přispomnjenje zasunyć"
 
 #: part/dlgaccessibility.cpp:38
 #, kde-format
@@ -3236,27 +3230,27 @@ msgid "&Zoom"
 msgstr ""
 
 #: part/pageview.cpp:686
-#, kde-format
-msgctxt "verb"
-msgid "&Select Area"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "&Text Selection"
+msgid "Area &Selection"
+msgstr "&Tekst markěrować"
 
 #: part/pageview.cpp:693
 #, kde-format
-msgctxt "verb"
-msgid "Select &Text"
-msgstr "Tekst markěrować"
+msgid "&Text Selection"
+msgstr "&Tekst markěrować"
 
 #: part/pageview.cpp:700
-#, kde-format
-msgctxt "verb"
-msgid "Select T&able"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Table selection tool"
+msgid "T&able Selection"
+msgstr "Grat za wuzwolenje tabulki"
 
 #: part/pageview.cpp:707
-#, kde-format
-msgctxt "verb"
-msgid "&Magnify"
+#, fuzzy, kde-format
+#| msgctxt "verb"
+#| msgid "&Magnify"
+msgid "&Magnifier"
 msgstr "&Powjetšić"
 
 #: part/pageview.cpp:716
@@ -5398,22 +5392,67 @@ msgstr "To začini %1 tabulatorow. Chceće woprawdźe pokročować?"
 msgid "Warn me when I attempt to close multiple tabs"
 msgstr ""
 
-#~ msgctxt "@action:intoolbar Annotation tool"
-#~ msgid "Typewriter"
-#~ msgstr "Pisanska mašina"
+# #: part/annotationactionhandler.cpp:536
+# #, kde-format
+# msgctxt "@info"
+# msgid "Stamps inserted in PDF documents are not visible in PDF readers other than Okular"
+# msgstr ""
+# #: part/annotationactionhandler.cpp:536
+# #, kde-format
+# msgctxt "@title:window"
+# msgid "Experimental feature"
+# msgstr ""
+#~ msgctxt "verb"
+#~ msgid "&Annotate"
+#~ msgstr "Přispomnjenj&a"
 
-#~ msgctxt "@action:intoolbar Annotation tool"
-#~ msgid "Straight line"
-#~ msgstr "Runa linija"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Highlight"
+#~ msgstr "Wuzběhnyć"
 
-#~ msgid "Yellow Highlighter"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Insert Text"
+#~ msgstr "Tekst zasunyć"
+
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Insert Inline Note"
+#~ msgstr "Inline-přispomnjenje zasunyć"
+
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Insert Popup Note"
+#~ msgstr "Wuskakowate přispomnjenje zasunyć"
+
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Draw Freehand Line"
+#~ msgstr "Z ruku sćehnjena linija"
+
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Draw Straight line"
+#~ msgstr "Runu liniju sćahnyć"
+
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Draw Arrow"
+#~ msgstr "Kłok rysować"
+
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Draw Polygon"
+#~ msgstr "Polygon rysować"
+
+#~ msgid "Highlight in Yellow"
 #~ msgstr "Ze žołtej barbu wuzběhnyć"
 
-#~ msgid "Green Highlighter"
+#~ msgid "Highlight in Green"
 #~ msgstr "Ze zelenej barbu wuzběhnyć"
 
-#~ msgid "&Text Selection"
-#~ msgstr "&Tekst markěrować"
+#~ msgid "Insert Inline Note"
+#~ msgstr "Inline-přispomnjenje zasunyć"
+
+#~ msgid "Insert Popup Note"
+#~ msgstr "Wuskakowate přispomnjenje zasunyć"
+
+#~ msgctxt "verb"
+#~ msgid "Select &Text"
+#~ msgstr "Tekst markěrować"
 
 #~ msgid "Reviews"
 #~ msgstr "Přispomnjenja"
