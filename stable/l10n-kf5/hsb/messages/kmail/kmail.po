@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-13 01:40+0000\n"
-"PO-Revision-Date: 2021-10-21 16:43+0200\n"
+"PO-Revision-Date: 2021-10-21 17:36+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team: <hsb@li.org>\n"
 "Language: hsb\n"
@@ -4253,11 +4253,10 @@ msgid "&New Message..."
 msgstr "&Nowa powěsć..."
 
 #: kmmainwidget.cpp:3059
-#, fuzzy, kde-format
-#| msgid "New"
+#, kde-format
 msgctxt "@action:intoolbar New Empty Message"
 msgid "New"
-msgstr "Nowe"
+msgstr "Nowa"
 
 #: kmmainwidget.cpp:3067
 #, fuzzy, kde-format
@@ -4576,10 +4575,9 @@ msgid "Import/Export KMail Data..."
 msgstr "KMail &konfigurować..."
 
 #: kmmainwidget.cpp:3369
-#, fuzzy, kde-format
-#| msgid "Open in Address Book"
+#, kde-format
 msgid "New AddressBook Contact..."
-msgstr "Wočinić w adresniku"
+msgstr "Nowy kontakt w adresniku..."
 
 #: kmmainwidget.cpp:3389
 #, kde-format
@@ -4812,9 +4810,9 @@ msgid "Cannot copy item. %1"
 msgstr "Suń powěsće do zapiska"
 
 #: kmreaderwin.cpp:116
-#, fuzzy, kde-format
+#, kde-format
 msgid "New Message To..."
-msgstr "&Nowa powěsć..."
+msgstr "Nowa powěsć na..."
 
 #: kmreaderwin.cpp:122
 #, fuzzy, kde-format
@@ -5003,9 +5001,9 @@ msgid "Contact modified successfully"
 msgstr "Powěsće wuspěšnje přesunjene"
 
 #: kmsystemtray.cpp:86
-#, fuzzy, kde-format
+#, kde-format
 msgid "New Messages In"
-msgstr "Nowe in."
+msgstr "Nowe powěsće w"
 
 #: kmsystemtray.cpp:255
 #, fuzzy, kde-format
@@ -5065,11 +5063,10 @@ msgid ""
 msgstr ""
 
 #: kontactplugin/kmail/kmail_plugin.cpp:41
-#, fuzzy, kde-format
-#| msgid "&New Message..."
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "New Message..."
-msgstr "&Nowa powěsć..."
+msgstr "Nowa powěsć..."
 
 #: kontactplugin/kmail/kmail_plugin.cpp:47
 #, kde-format
@@ -5093,10 +5090,9 @@ msgid "Choose this option to synchronize your groupware email."
 msgstr ""
 
 #: kontactplugin/kmail/summarywidget.cpp:48
-#, fuzzy, kde-format
-#| msgid "New Message"
+#, kde-format
 msgid "New Messages"
-msgstr "Nowa powěsć"
+msgstr "Nowe powěsće"
 
 #: kontactplugin/kmail/summarywidget.cpp:141
 #, kde-format
@@ -5278,10 +5274,9 @@ msgid "Add Note..."
 msgstr "Dodać..."
 
 #: messageactions.cpp:108
-#, fuzzy, kde-format
-#| msgid "&Edit Message"
+#, kde-format
 msgid "&Edit As New"
-msgstr "Powěsć &wobdźěłać"
+msgstr "Jako nowu powěsć &wobdźěłać"
 
 #: messageactions.cpp:116 searchdialog/searchwindow.cpp:164
 #, kde-format
@@ -5335,9 +5330,9 @@ msgid "Send A&gain..."
 msgstr "Znowa pósł&ać..."
 
 #: messageactions.cpp:176
-#, fuzzy, kde-format
+#, kde-format
 msgid "New Message From &Template"
-msgstr "Ně"
+msgstr "Nowa powěsć wot šablony"
 
 #: messageactions.cpp:181
 #, fuzzy, kde-format
@@ -5374,10 +5369,9 @@ msgid "Open Message in List Archive"
 msgstr "PGP-ŝifrowana powěsć - njekorektna signatura"
 
 #: messageactions.cpp:453
-#, fuzzy, kde-format
-#| msgid "New Message"
+#, kde-format
 msgid "Post New Message"
-msgstr "Nowa powěsć"
+msgstr "Nowu powěsć postować"
 
 #: messageactions.cpp:456
 #, fuzzy, kde-format
@@ -6079,7 +6073,7 @@ msgstr "&Pytaj"
 #: ui/accountspagereceivingtab.ui:34
 #, kde-format
 msgid "Customize accounts order..."
-msgstr ""
+msgstr "Porjad kontow připrawić..."
 
 #. i18n: ectx: property (title), widget (QGroupBox, group)
 #: ui/accountspagereceivingtab.ui:41
@@ -6101,14 +6095,13 @@ msgstr "Skedźbnjenje na nowu póštu"
 
 #. i18n: ectx: property (text), widget (QPushButton, mOtherNewMailActionsButton)
 #: ui/accountspagereceivingtab.ui:81
-#, fuzzy, kde-format
-#| msgid "Other Actio&ns"
+#, kde-format
 msgid "Other Actio&ns..."
-msgstr "&Druhe akcije"
+msgstr "&Druhe akcije..."
 
 #. i18n: ectx: property (title), widget (QGroupBox, optionsGroup)
 #: ui/composercryptoconfiguration.ui:17
-#, fuzzy, kde-format
+#, kde-format
 msgid "Encrypting"
 msgstr "Šifrowanje"
 
@@ -6120,6 +6113,9 @@ msgid ""
 "with the receiver's public key, but also with your key. This will enable you "
 "to decrypt the message/file at a later time. This is generally a good idea."
 msgstr ""
+"Z tutej opciju so powěsć/dataja nješifruje jenož z adresatowym zjawnym "
+"klučom, ale tež z Wašim klučom. To Wam dowoli dataju/powěsć pozdźišo "
+"dešifrować. To je zwjetša dobra ideja."
 
 #. i18n: ectx: property (text), widget (QCheckBox, mEncToSelf)
 #: ui/composercryptoconfiguration.ui:26
@@ -6190,13 +6186,13 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, mButtonAdd)
 #: ui/identitypage.ui:24
-#, fuzzy, kde-format
+#, kde-format
 msgid "Add a new identity"
-msgstr "Nowa identita"
+msgstr "Nowu identitu dodać"
 
 #. i18n: ectx: property (text), widget (QPushButton, mButtonAdd)
 #: ui/identitypage.ui:27
-#, fuzzy, kde-format
+#, kde-format
 msgid "&Add..."
 msgstr "Dod&ać..."
 
@@ -6208,10 +6204,9 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, mRenameButton)
 #: ui/identitypage.ui:50
-#, fuzzy, kde-format
-#| msgid "Remove Duplicate Messages"
+#, kde-format
 msgid "Rename the selected identity"
-msgstr "Dwójne powěsće wotstronić"
+msgstr "Wubranu identitu přemjenować"
 
 #. i18n: ectx: property (text), widget (QPushButton, mRenameButton)
 #: ui/identitypage.ui:53
@@ -6221,10 +6216,9 @@ msgstr "&Hinak pomjenować"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, mRemoveButton)
 #: ui/identitypage.ui:63
-#, fuzzy, kde-format
-#| msgid "Remove Duplicate Messages"
+#, kde-format
 msgid "Remove the selected identity"
-msgstr "Dwójne powěsće wotstronić"
+msgstr "Wubranu identitu wumazać"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, mSetAsDefaultButton)
 #: ui/identitypage.ui:79
@@ -6250,21 +6244,21 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, selectAllBtn)
 #: ui/incompleteindexdialog.ui:52
-#, fuzzy, kde-format
+#, kde-format
 msgid "&Select All"
 msgstr "&Wšitke powěsće wubrać"
 
 #. i18n: ectx: property (text), widget (QPushButton, unselectAllBtn)
 #: ui/incompleteindexdialog.ui:59
-#, fuzzy, kde-format
+#, kde-format
 msgid "Unselect All"
-msgstr "&Wšitke powěsće wubrać"
+msgstr "Žane powěsće njewubrać"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mExcludeImportantFromExpiry)
 #: ui/miscpagemaintab.ui:19
 #, kde-format
 msgid "E&xclude important messages from expiry"
-msgstr ""
+msgstr "Wažnym powěsćam spadnyć njedać"
 
 #. i18n: ectx: property (text), widget (QLabel, mLoopLabel)
 #: ui/miscpagemaintab.ui:32
@@ -6320,9 +6314,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, mLoopOnGotoUnread)
 #: ui/miscpagemaintab.ui:64
-#, fuzzy, kde-format
+#, kde-format
 msgid "Do not Loop"
-msgstr "Šifrowanje"
+msgstr "Nic znowa započeć"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, mLoopOnGotoUnread)
 #: ui/miscpagemaintab.ui:69
