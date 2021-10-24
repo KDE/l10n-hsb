@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-13 01:40+0000\n"
-"PO-Revision-Date: 2021-10-21 17:36+0200\n"
+"PO-Revision-Date: 2021-10-24 19:25+0200\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team: <hsb@li.org>\n"
 "Language: hsb\n"
@@ -292,7 +292,7 @@ msgstr ""
 #: collectionpage/collectionquotapage.cpp:21
 #, kde-format
 msgid "Quota"
-msgstr "Přidźělenje:"
+msgstr "Přidźělenje"
 
 #: collectionpage/collectionquotawidget.cpp:24
 #, kde-format
@@ -315,11 +315,10 @@ msgid "%1 of %2 used"
 msgstr "%1 z %2 so wužiwa"
 
 #: collectionpage/collectionshortcutpage.cpp:29
-#, fuzzy, kde-format
-#| msgid "&Port:"
+#, kde-format
 msgctxt "@title:tab Shortcut settings for a folder."
 msgid "Shortcut"
-msgstr "&Port:"
+msgstr "Skrótšenka"
 
 #: collectionpage/collectionshortcutpage.cpp:41
 #, kde-format
@@ -328,6 +327,9 @@ msgid ""
 "folder, click the button below and then press the key(s) you wish to "
 "associate with this folder.</qt>"
 msgstr ""
+"<qt>Zo byšće tastu abo tastowu kombinaciju wubrali, kiž aktualny zapisk "
+"wuzwoli, klikńće na knefl deleka a potom stłóčće tastu (tasće, tasty), "
+"kotruž chceće z tutym zapiskom zwjazać.</qt>"
 
 #: collectionpage/collectiontemplatespage.cpp:26
 #: identity/identitydialog.cpp:667
@@ -530,7 +532,7 @@ msgstr "Lisćina powěsćow"
 #: configuredialog/configureappearancepage.cpp:114
 #, kde-format
 msgid "Message Tags"
-msgstr ""
+msgstr "Etikety (tags) powěsće"
 
 #: configuredialog/configureappearancepage.cpp:128
 #, kde-format
@@ -720,10 +722,9 @@ msgid "General"
 msgstr "Generelnje"
 
 #: configuredialog/configureappearancepage.cpp:584
-#, fuzzy, kde-format
-#| msgid "Delete T&hread"
+#, kde-format
 msgid "Default aggregation:"
-msgstr "Diskusiju z&ničić"
+msgstr "Standardna agregacija:"
 
 #: configuredialog/configureappearancepage.cpp:606
 #, kde-format
@@ -829,10 +830,9 @@ msgid "Add new tag"
 msgstr ""
 
 #: configuredialog/configureappearancepage.cpp:934
-#, fuzzy, kde-format
-#| msgid "Remove Duplicate Messages"
+#, kde-format
 msgid "Remove selected tag"
-msgstr "Dwójne powěsće wotstronić"
+msgstr "Wuzwoleny etiket wotstronić"
 
 #: configuredialog/configureappearancepage.cpp:943
 #, kde-format
@@ -845,9 +845,9 @@ msgid "Decrease tag priority"
 msgstr ""
 
 #: configuredialog/configureappearancepage.cpp:971
-#, fuzzy, kde-format
+#, kde-format
 msgid "Ta&g Settings"
-msgstr "&Pósłanje"
+msgstr "Nastajenja eti&ketow"
 
 #: configuredialog/configureappearancepage.cpp:1140
 #, fuzzy, kde-format
@@ -1006,7 +1006,7 @@ msgstr "&w powěsći"
 #: configuredialog/configurecomposerpage.cpp:278
 #, kde-format
 msgid "As Attachment"
-msgstr "Jako přiwěšk "
+msgstr "Jako přiwěšk"
 
 #: configuredialog/configurecomposerpage.cpp:280
 #, kde-format
@@ -1107,7 +1107,7 @@ msgstr[3] " mjeńšin"
 #: configuredialog/configurecomposerpage.cpp:444
 #, kde-format
 msgid "Automatically save the message at this specified interval"
-msgstr "Powěsć awtomatisce w tutych interwalach zawěsćić "
+msgstr "Powěsć awtomatisce w tutych interwalach zawěsćić"
 
 #: configuredialog/configurecomposerpage.cpp:652
 #, kde-format
@@ -1316,7 +1316,7 @@ msgstr "<qt>Chceće woprawdźe identitu <b>%1</b> zničić?</qt>"
 #: configuredialog/configurecomposerpage.cpp:1138
 #, kde-format
 msgid "Maximum Attachment Size:"
-msgstr "Maksimalna wulkosć přiwěška: "
+msgstr "Maksimalna wulkosć přiwěška:"
 
 #: configuredialog/configurecomposerpage.cpp:1145
 #, kde-format
@@ -1463,7 +1463,7 @@ msgstr "S/MIME-přepruwowanje"
 #: configuredialog/configuresecuritypage.cpp:94
 #, kde-format
 msgid "Email Address:"
-msgstr "Emailowa adresa"
+msgstr "Emailowa adresa:"
 
 #: configuredialog/configuresecuritypage.cpp:95
 #, kde-format
@@ -1550,12 +1550,12 @@ msgstr "Archiw"
 #: dialog/archivefolderdialog.cpp:72
 #, kde-format
 msgid "&Folder:"
-msgstr "Za&pisk"
+msgstr "Za&pisk:"
 
 #: dialog/archivefolderdialog.cpp:82
 #, kde-format
 msgid "F&ormat:"
-msgstr "F&ormat"
+msgstr "F&ormat:"
 
 #: dialog/archivefolderdialog.cpp:88
 #, kde-format
@@ -1613,10 +1613,10 @@ msgstr "Skedźbnjenje na nowu póštu"
 #, kde-format
 msgid "1 attachment (%2)"
 msgid_plural "%1 attachments (%2)"
-msgstr[0] "%1 přiwěšk (%2) "
-msgstr[1] "%1 přiwěškaj (%2) "
-msgstr[2] "%1 přiwěški (%2) "
-msgstr[3] "%1 přiwěškow (%2) "
+msgstr[0] "%1 přiwěšk (%2)"
+msgstr[1] "%1 přiwěškaj (%2)"
+msgstr[2] "%1 přiwěški (%2)"
+msgstr[3] "%1 přiwěškow (%2)"
 
 #: editor/attachment/attachmentview.cpp:199
 #, kde-format
@@ -1695,7 +1695,7 @@ msgstr "Transport &póšty:"
 #, kde-format
 msgctxt "sender address field"
 msgid "&From:"
-msgstr "&Wot"
+msgstr "&Wot:"
 
 #: editor/kmcomposerwin.cpp:333
 #, kde-format
@@ -1880,7 +1880,7 @@ msgstr "&Identita"
 #: editor/kmcomposerwin.cpp:1333
 #, kde-format
 msgid "&Dictionary"
-msgstr "&Słownik:"
+msgstr "&Słownik"
 
 #: editor/kmcomposerwin.cpp:1336
 #, kde-format
@@ -2794,14 +2794,14 @@ msgstr ""
 "móhli tu zapodać, wostajće pólko prózdne.</p></qt>"
 
 #: identity/identitydialog.cpp:550
-#, fuzzy, kde-format
+#, kde-format
 msgid "D&ictionary:"
-msgstr "&Městno:"
+msgstr "S&łownik:"
 
 #: identity/identitydialog.cpp:557
-#, fuzzy, kde-format
+#, kde-format
 msgid "Select Send-mail Folder"
-msgstr "Zapisk za pó&słane powěsće"
+msgstr "Zapisk za pósłane powěsće wubrać"
 
 #: identity/identitydialog.cpp:560
 #, kde-format
@@ -2809,9 +2809,9 @@ msgid "Sent-mail &folder:"
 msgstr "Zapisk za &pósłane powěsće:"
 
 #: identity/identitydialog.cpp:567
-#, fuzzy, kde-format
+#, kde-format
 msgid "Select Draft Folder"
-msgstr "Zapisk zničić"
+msgstr "Zapisk za naćiski wubrać"
 
 #: identity/identitydialog.cpp:570
 #, kde-format
@@ -2819,14 +2819,14 @@ msgid "&Drafts folder:"
 msgstr "Zapisk za &naćiski:"
 
 #: identity/identitydialog.cpp:577
-#, fuzzy, kde-format
+#, kde-format
 msgid "Select Templates Folder"
-msgstr "Zapisk"
+msgstr "Zapisk za šablony wubrać"
 
 #: identity/identitydialog.cpp:580
-#, fuzzy, kde-format
+#, kde-format
 msgid "&Templates folder:"
-msgstr "&Papjernik:"
+msgstr "Zapisk za ša&blony:"
 
 #: identity/identitydialog.cpp:586
 #, fuzzy, kde-format
@@ -2835,20 +2835,19 @@ msgid "Outgoing Account:"
 msgstr "Konto konfigurować"
 
 #: identity/identitydialog.cpp:594
-#, fuzzy, kde-format
+#, kde-format
 msgid "Attach my vCard to message"
-msgstr "Dodać."
+msgstr "Moju vCard-wizitku k powěsći dodać"
 
 #: identity/identitydialog.cpp:596 identity/identitydialog.cpp:1128
-#, fuzzy, kde-format
-#| msgid "Chang&e..."
+#, kde-format
 msgid "Create..."
-msgstr "Z&měnić..."
+msgstr "Stworić..."
 
 #: identity/identitydialog.cpp:603
 #, kde-format
 msgid "Autocorrection language:"
-msgstr ""
+msgstr "Rěč za awtokorekturu:"
 
 #: identity/identitydialog.cpp:616
 #, fuzzy, kde-format
@@ -3068,8 +3067,7 @@ msgid "Set as Default"
 msgstr "Jako standard wužiwać"
 
 #: identity/newidentitydialog.cpp:38
-#, fuzzy, kde-format
-#| msgid "New Identity"
+#, kde-format
 msgctxt "@title:window"
 msgid "New Identity"
 msgstr "Nowa identita"
@@ -3090,9 +3088,9 @@ msgid "&Duplicate existing identity"
 msgstr "Eksistowacu identitu &duplikować"
 
 #: identity/xfaceconfigurator.cpp:41
-#, fuzzy, kde-format
+#, kde-format
 msgid "&Send picture with every message"
-msgstr "Powěsće zničić"
+msgstr "Wobraz z kóžde&j powěsću pósłać"
 
 #: identity/xfaceconfigurator.cpp:51
 #, kde-format
@@ -3526,10 +3524,10 @@ msgstr "Prošu dočakajće"
 #, kde-format
 msgid "Please wait while the message is transferred"
 msgid_plural "Please wait while the %1 messages are transferred"
-msgstr[0] "Prošu dočakajće, doniž  njejsym dopřenjesł %1 powěsć."
-msgstr[1] "Prošu dočakajće, doniž  njejsym dopřenjesł %1 powěsći."
-msgstr[2] "Prošu dočakajće, doniž  njejsym dopřenjesł %1 powěsće."
-msgstr[3] "Prošu dočakajće, doniž  njejsym dopřenjesł %1 powěsći."
+msgstr[0] "Prošu dočakajće, doniž  njejsym dopřenjesł %1 powěsć"
+msgstr[1] "Prošu dočakajće, doniž  njejsym dopřenjesł %1 powěsći"
+msgstr[2] "Prošu dočakajće, doniž  njejsym dopřenjesł %1 powěsće"
+msgstr[3] "Prošu dočakajće, doniž  njejsym dopřenjesł %1 powěsći"
 
 #: kmcommands.cpp:511
 #, kde-format
@@ -4108,7 +4106,7 @@ msgstr "Pohladaj za &póštu"
 #: kmmainwidget.cpp:2836
 #, kde-format
 msgid "Check Mail In"
-msgstr "Pohladaj za &póštu w "
+msgstr "Pohladaj za póštu w"
 
 #: kmmainwidget.cpp:2838 kmmainwidget.cpp:2839
 #, kde-format
