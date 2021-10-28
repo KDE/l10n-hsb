@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-26 00:17+0000\n"
-"PO-Revision-Date: 2021-10-19 19:14+0200\n"
+"PO-Revision-Date: 2021-10-28 12:36+0200\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
 "Language: hsb\n"
@@ -632,8 +632,7 @@ msgstr ""
 #: src/konqmainwindow.cpp:2521 src/konqmainwindow.cpp:2553
 #: src/konqmainwindow.cpp:2596 src/konqmainwindow.cpp:2618
 #: src/konqmainwindow.cpp:5019
-#, fuzzy, kde-format
-#| msgid "Discard Changes?"
+#, kde-format
 msgctxt "@title:window"
 msgid "Discard Changes?"
 msgstr "Změny zaćisnyć?"
@@ -760,8 +759,7 @@ msgstr ""
 "Hdyž wšitke rajtary znowa začitaće, zaćisnjeće tute změny."
 
 #: src/konqmainwindow.cpp:2659
-#, fuzzy, kde-format
-#| msgid "Enter Target"
+#, kde-format
 msgctxt "@title:window"
 msgid "Enter Target"
 msgstr "Zapodajće cil"
@@ -871,11 +869,10 @@ msgid "Recently Visited"
 msgstr "Njedawno wopytane"
 
 #: src/konqmainwindow.cpp:3588
-#, fuzzy, kde-format
-#| msgid "Show History Sidebar"
+#, kde-format
 msgctxt "@action:inmenu Go"
 msgid "Show History"
-msgstr "Bóčny pas z prjedawšimi městnami pokazać"
+msgstr "Prjedawše pokazać"
 
 #: src/konqmainwindow.cpp:3619
 #, kde-format
@@ -1376,10 +1373,9 @@ msgid "Don't use a proxy"
 msgstr ""
 
 #: src/konqmainwindow.cpp:5615 src/konqmainwindow.cpp:5633
-#, fuzzy, kde-format
-#| msgid "Show Configuration Button"
+#, kde-format
 msgid "Show proxy configuration dialog"
-msgstr "Připrawjenske tłóčatko pokazać"
+msgstr "Dialog za připrawjenje proxyja pokazać"
 
 #: src/konqmainwindow.cpp:5629
 #, kde-format
@@ -1462,8 +1458,7 @@ msgid ""
 msgstr "Posedźenje z mjenom '%1' hižo eksistuje, chceće je přepisać?"
 
 #: src/konqsessiondlg.cpp:265
-#, fuzzy, kde-format
-#| msgid "Session exists. Overwrite?"
+#, kde-format
 msgctxt "@title:window"
 msgid "Session exists. Overwrite?"
 msgstr "Posedźenje eksistuje. Přepisać?"
@@ -1484,63 +1479,58 @@ msgstr "Aktualny rajtar začinić..."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pRenameButton)
 #: src/konqsessiondlg_base.ui:40
-#, fuzzy, kde-format
-#| msgid "&Rename"
+#, kde-format
 msgctxt "@action:button Rename session"
 msgid "Rename..."
-msgstr "&Hinak pomjenować"
+msgstr "Přemjenować..."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pDeleteButton)
 #: src/konqsessiondlg_base.ui:47
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action:button Delete session"
 msgid "Delete"
-msgstr "&Lubušk"
+msgstr "Zničić"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pOpenTabsInsideCurrentWindow)
 #. i18n: ectx: label, entry, group (Trash)
 #: src/konqsessiondlg_base.ui:73 src/konqueror.kcfg:517
-#, fuzzy, kde-format
+#, kde-format
 msgid "Open tabs inside current window"
-msgstr "Wočinić in"
+msgstr "Rajtarje w aktualnym woknje wočinić"
 
 #: src/konqsessionmanager.cpp:99
-#, fuzzy, kde-format
-#| msgid "Restore Session?"
+#, kde-format
 msgctxt "@title:window"
 msgid "Restore Session?"
 msgstr "Posedźenje ponowić?"
 
 #: src/konqsessionmanager.cpp:120
-#, fuzzy, kde-format
-#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
+#, kde-format
 msgid ""
 "Konqueror did not close correctly. Would you like to restore these previous "
 "sessions?"
 msgstr ""
-"Konqueror njej so korektnje zakónčił. Ma so poslednje posedźenje ponowić?"
+"Konqueror njej so korektnje zakónčił. Maja so poslednje posedźenja ponowić?"
 
 #: src/konqsessionmanager.cpp:132
 #, kde-format
 msgctxt "@tooltip:session list"
 msgid "Uncheck the sessions you do not want to be restored"
-msgstr ""
+msgstr "Wotstrońće hóčka tych posedźenjow, kiž so nimaja ponowić"
 
 #: src/konqsessionmanager.cpp:165
-#, fuzzy, kde-format
-#| msgid "&Window"
+#, kde-format
 msgctxt "@item:treewidget"
 msgid "Window %1"
-msgstr "&Wokno"
+msgstr "Wokno %1"
 
 #: src/konqsessionmanager.cpp:203
 #, kde-format
 msgid "Do not ask again"
-msgstr ""
+msgstr "Njeprašej so hišće raz"
 
 #: src/konqsessionmanager.cpp:217
-#, fuzzy, kde-format
-#| msgid "Restore Session"
+#, kde-format
 msgctxt "@action:button yes"
 msgid "Restore Session"
 msgstr "Posedźenje ponowić"
@@ -1626,13 +1616,13 @@ msgstr "Rajtar &začinić"
 #: src/konqueror.kcfg:11
 #, kde-format
 msgid "Start Page"
-msgstr ""
+msgstr "Startowa strona"
 
 #. i18n: ectx: whatsthis, entry, group (UserSettings)
 #: src/konqueror.kcfg:12
 #, kde-format
 msgid "This is the URL of the web page where Konqueror will start from."
-msgstr ""
+msgstr "URL teje strony, z kotrejež konqueror započnje."
 
 #. i18n: ectx: whatsthis, entry, group (UserSettings)
 #: src/konqueror.kcfg:17
@@ -1641,6 +1631,7 @@ msgid ""
 "This is the URL of the web page where Konqueror will jump to when the \\"
 "\"Home\\\" button is pressed."
 msgstr ""
+"URL strony, na kotruž konqueror skoči, hdyž so knefl \\\"Doma\\\" stłóči."
 
 #. i18n: ectx: label, entry, group (UndoManagerSettings)
 #: src/konqueror.kcfg:26
@@ -1672,9 +1663,9 @@ msgstr ""
 
 #. i18n: ectx: label, entry, group (FMSettings)
 #: src/konqueror.kcfg:42
-#, fuzzy, kde-format
+#, kde-format
 msgid "Show file tips"
-msgstr "Pokaž nadrobne informacije"
+msgstr "Pokaž nadrobne informacije (file tips)"
 
 #. i18n: ectx: whatsthis, entry, group (FMSettings)
 #: src/konqueror.kcfg:43
