@@ -9,22 +9,20 @@ msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-11-05 00:18+0000\n"
-"PO-Revision-Date: 2007-05-06 20:54+0200\n"
+"PO-Revision-Date: 2021-11-05 12:48+0100\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
-"Language-Team:  <hsb@li.org>\n"
+"Language-Team: <hsb@li.org>\n"
 "Language: hsb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.2\n"
+"X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
-"\n"
 
 #: messagepartthemes/default/templates/certmessagepart.html:2
-#, fuzzy
 msgid "Sorry, certificate could not be imported."
-msgstr "Certifikat:"
+msgstr "Wodajće, certifikat njehodźeše so importować."
 
 #: messagepartthemes/default/templates/certmessagepart.html:4
 #, kde-format
@@ -32,9 +30,8 @@ msgid "Reason: %1"
 msgstr "Přičina: %1"
 
 #: messagepartthemes/default/templates/certmessagepart.html:7
-#, fuzzy
 msgid "Sorry, no certificates were found in this message."
-msgstr "Certifikat:"
+msgstr "Wodajć, žane certifikaty w tutej powěsći."
 
 #: messagepartthemes/default/templates/certmessagepart.html:9
 #, fuzzy
@@ -106,22 +103,16 @@ msgid "End of encapsulated message"
 msgstr "Kónc zakašćikowaneje powěsće"
 
 #: messagepartthemes/default/templates/encryptedmessagepart.html:3
-#, fuzzy
 msgid "This message is encrypted."
-msgstr "PGP-ŝifrowana powěsć"
+msgstr "Šifrowana powěsć"
 
 #: messagepartthemes/default/templates/encryptedmessagepart.html:7
-#, fuzzy
-#| msgid "&Encrypt Message"
 msgid "Decrypt Message"
-msgstr "Šifrowanj&e"
+msgstr "&Dešifrować"
 
 #: messagepartthemes/default/templates/encryptedmessagepart.html:14
-#, fuzzy
-#| msgid "Please wait while the message is transferred"
-#| msgid_plural "Please wait while the %1 messages are transferred"
 msgid "Please wait while the message is being decrypted..."
-msgstr "Prošu dočakajće, doniž so njejsu te %1 powěsćow přenjesli."
+msgstr "Prošu dočakajće, doniž so njeje so powěsć dešifrowała..."
 
 #: messagepartthemes/default/templates/encryptedmessagepart.html:18
 #, fuzzy
@@ -131,18 +122,13 @@ msgstr "PGP-ŝifrowana powěsć"
 #: messagepartthemes/default/templates/encryptedmessagepart.html:20
 #: messagepartthemes/default/templates/signedmessagepart.html:72
 #: messagepartthemes/default/templates/signedmessagepart.html:135
-#, fuzzy
-#| msgid "[Details]"
 msgid "Hide Details"
-msgstr "[Nadrobnosće]"
+msgstr "Nadrobnosće chować"
 
 #: messagepartthemes/default/templates/encryptedmessagepart.html:27
 #: messagepartthemes/default/templates/encryptedmessagepart.html:62
-#, fuzzy
-#| msgctxt "name used for a virgin filter"
-#| msgid "unknown"
 msgid "unknown key"
-msgstr "Njeznaty filter"
+msgstr "njeznaty kluč"
 
 #: messagepartthemes/default/templates/encryptedmessagepart.html:34
 msgid "Encrypted message"
@@ -160,10 +146,8 @@ msgid "Encrypted message (decryption not possible)"
 msgstr "Šifrowana powěsć (rozšifrowanje njemóžne)"
 
 #: messagepartthemes/default/templates/encryptedmessagepart.html:44
-#, fuzzy
-#| msgid "Reason: %1"
 msgid "Reason: "
-msgstr "Přičina: %1"
+msgstr "Přičina: "
 
 #: messagepartthemes/default/templates/encryptedmessagepart.html:56
 msgid ""
@@ -228,14 +212,14 @@ msgid "Message was signed with key %1."
 msgstr "Powěsć bu podpisana z klučom %1."
 
 #: messagepartthemes/default/templates/signedmessagepart.html:31
-#, fuzzy, kde-format
+#, kde-format
 msgid "Message was signed by %3 on %1 with key %2"
-msgstr "Powěsć bu podpisana wot %2 z klučom %1."
+msgstr "Powěsć bu podpisana wot %3 na %1 z klučom %2"
 
 #: messagepartthemes/default/templates/signedmessagepart.html:39
-#, fuzzy, kde-format
+#, kde-format
 msgid "Message was signed on %1 with key %2."
-msgstr "Powěsć bu podpisana wot %2 z klučom %1."
+msgstr "Powěsć bu podpisana na %1 z klučom %2."
 
 #: messagepartthemes/default/templates/signedmessagepart.html:45
 #, kde-format
@@ -248,9 +232,9 @@ msgid "Status: "
 msgstr "Staw: "
 
 #: messagepartthemes/default/templates/signedmessagepart.html:85
-#, fuzzy, kde-format
+#, kde-format
 msgid "Message was signed on %1 with unknown key %2."
-msgstr "Powěsć bu podpisana z njeznatym klučom %1."
+msgstr "Powěsć bu podpisana na %1 z njeznatym klučom %2."
 
 #: messagepartthemes/default/templates/signedmessagepart.html:88
 #, kde-format
@@ -292,32 +276,25 @@ msgid "Warning: The signature is bad."
 msgstr "Kedźbu. Podpismo njeje w porjadku."
 
 #: messagepartthemes/default/templates/signedmessagepart.html:143
-#, fuzzy
-#| msgid "Good signature."
 msgid "Invalid signature."
-msgstr "Signatura w porjadku."
+msgstr "Podpismo njeje w porjadku."
 
 #: messagepartthemes/default/templates/signedmessagepart.html:145
-#, fuzzy
-#| msgid "Not enough information to check signature. %1"
 msgid "Not enough information to check signature validity."
-msgstr "Njedosahaca informacija za přepruwowanje podpisma. %1"
+msgstr "Njedosahaca informacija za přepruwowanje podpisma."
 
 #: messagepartthemes/default/templates/signedmessagepart.html:148
 #, kde-format
 msgid "Signed by <a href='mailto:%1'>%1</a>."
-msgstr ""
+msgstr "Podpisane wot <a href='mailto:%1'>%1</a>."
 
 #: messagepartthemes/default/templates/signedmessagepart.html:151
-#, fuzzy
 msgid "Signature is valid."
-msgstr "Signatura je zestarjena."
+msgstr "Podpismo je w porjadku."
 
 #: messagepartthemes/default/templates/signedmessagepart.html:154
-#, fuzzy
-#| msgid "No signature found"
 msgid "Unknown signature state"
-msgstr "Žana signatura"
+msgstr "Njeznaty staw podpisma"
 
 #: messagepartthemes/default/templates/signedmessagepart.html:170
 msgid "End of signed message"
@@ -333,7 +310,7 @@ msgstr ""
 #: dkim-verify/dkimcheckfulljob.cpp:121
 #, kde-format
 msgid "Key Changed"
-msgstr ""
+msgstr "Změnjeny kluč"
 
 #: dkim-verify/dkimcheckfulljob.cpp:122
 #, fuzzy, kde-format
@@ -356,29 +333,28 @@ msgstr "Zapisk zničić"
 #: dkim-verify/dkimmanagerkeywidget.cpp:31
 #, kde-format
 msgid "DKIM Key"
-msgstr ""
+msgstr "DKIM kluč"
 
 #: dkim-verify/dkimmanagerkeywidget.cpp:31
-#, fuzzy, kde-format
+#, kde-format
 msgid "Inserted"
-msgstr "Dataju z&asunyć..."
+msgstr "Zasunjeny"
 
 #: dkim-verify/dkimmanagerkeywidget.cpp:31
-#, fuzzy, kde-format
+#, kde-format
 msgid "Last Used"
-msgstr "&Pytaj"
+msgstr "Posledni raz wuži so"
 
 #: dkim-verify/dkimmanagerkeywidget.cpp:66
-#, fuzzy, kde-format
-#| msgid "&Copy To"
+#, kde-format
 msgid "Copy Key"
-msgstr "&Kopěruj do"
+msgstr "Kluč kopěrować"
 
 #: dkim-verify/dkimmanagerkeywidget.cpp:72
-#, fuzzy, kde-format
+#, kde-format
 msgid "Remove Key"
 msgid_plural "Remove Keys"
-msgstr[0] "&Zničić"
+msgstr[0] "Kluč wumazać"
 msgstr[1] "&Zničić"
 msgstr[2] "&Zničić"
 msgstr[3] "&Zničić"
@@ -387,7 +363,7 @@ msgstr[3] "&Zničić"
 #, kde-format
 msgid "Do you want to delete this key?"
 msgid_plural "Do you want to delete these keys?"
-msgstr[0] ""
+msgstr[0] "Chceće tutón kluč wumazać?"
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
@@ -444,26 +420,24 @@ msgid "Configure Rule"
 msgstr "Konto konfigurować"
 
 #: dkim-verify/dkimmanagerulesdialog.cpp:41
-#, fuzzy, kde-format
+#, kde-format
 msgid "Add Rule..."
-msgstr "Nowe:"
+msgstr "Nowe prawidło..."
 
 #: dkim-verify/dkimmanagerulesdialog.cpp:45
-#, fuzzy, kde-format
+#, kde-format
 msgid "Import..."
-msgstr "&Importować"
+msgstr "Importować..."
 
 #: dkim-verify/dkimmanagerulesdialog.cpp:49
-#, fuzzy, kde-format
-#| msgid "&Expire"
+#, kde-format
 msgid "Export..."
-msgstr "&Stare zwumjetać"
+msgstr "Eksportować..."
 
 #: dkim-verify/dkimmanagerulesdialog.cpp:74
-#, fuzzy, kde-format
-#| msgid "No signature found"
+#, kde-format
 msgid "No rules found"
-msgstr "Žana signatura"
+msgstr "Žane prawidła"
 
 #: dkim-verify/dkimmanagerulesdialog.cpp:74
 #: dkim-verify/dkimmanagerulesdialog.cpp:77
@@ -473,9 +447,9 @@ msgstr "iCal eksportować"
 
 #: dkim-verify/dkimmanagerulesdialog.cpp:85
 #: dkim-verify/dkimmanagerulesdialog.cpp:88
-#, fuzzy, kde-format
+#, kde-format
 msgid "Import Rules"
-msgstr "iCal eksportować"
+msgstr "Prawidła importować"
 
 #: dkim-verify/dkimmanagerulesdialog.cpp:88
 #, fuzzy, kde-format
@@ -500,21 +474,19 @@ msgid "List-ID"
 msgstr ""
 
 #: dkim-verify/dkimmanageruleswidget.cpp:74
-#, fuzzy, kde-format
-#| msgid "&From"
+#, kde-format
 msgid "From"
-msgstr "&Wot"
+msgstr "Wot"
 
 #: dkim-verify/dkimmanageruleswidget.cpp:74
-#, fuzzy, kde-format
-#| msgid "Folder List"
+#, kde-format
 msgid "Rule type"
-msgstr "Lisćina zapiskow"
+msgstr "Družina prawidła"
 
 #: dkim-verify/dkimmanageruleswidget.cpp:74
 #, kde-format
 msgid "Priority"
-msgstr ""
+msgstr "Priorita"
 
 #: dkim-verify/dkimmanageruleswidget.cpp:185
 #: remote-content/remotecontentconfigurewidget.cpp:82
@@ -529,16 +501,15 @@ msgid "Modify..."
 msgstr "Změnić..."
 
 #: dkim-verify/dkimmanageruleswidget.cpp:194
-#, fuzzy, kde-format
-#| msgid "Filter Rules"
+#, kde-format
 msgid "Duplicate Rule"
-msgstr "Filtrowe prawidła"
+msgstr "Prawidło duplicěrować"
 
 #: dkim-verify/dkimmanageruleswidget.cpp:198
 #: remote-content/remotecontentconfigurewidget.cpp:89
-#, fuzzy, kde-format
+#, kde-format
 msgid "Remove Rule"
-msgstr "&Zničić"
+msgstr "Prawidło wotstronić"
 
 #: dkim-verify/dkimmanageruleswidget.cpp:200
 #, fuzzy, kde-format
@@ -551,7 +522,7 @@ msgstr "Chceće woprawdźe wšitke stare powěsće zničić?"
 #, fuzzy, kde-format
 #| msgid "Filter Rules"
 msgid "Delete Rule"
-msgstr "Filtrowe prawidła"
+msgstr "Prawidło zničić"
 
 #: dkim-verify/dkimmanageruleswidget.cpp:213
 #, fuzzy, kde-format
@@ -579,9 +550,9 @@ msgid "Modify Rule"
 msgstr "Konto změnić"
 
 #: dkim-verify/dkimrulewidget.cpp:18
-#, fuzzy, kde-format
+#, kde-format
 msgid "Enabled"
-msgstr "Šifrowanje"
+msgstr "Steji k dispoziciji"
 
 #: dkim-verify/dkimrulewidget.cpp:36 remote-content/remotecontentwidget.cpp:28
 #, fuzzy, kde-format
@@ -594,10 +565,9 @@ msgid "List-Id:"
 msgstr ""
 
 #: dkim-verify/dkimrulewidget.cpp:45 header/grantleeheaderformatter.cpp:255
-#, fuzzy, kde-format
-#| msgid "From: "
+#, kde-format
 msgid "From:"
-msgstr "Wot: "
+msgstr "Wot:"
 
 #: dkim-verify/dkimrulewidget.cpp:46
 #, kde-format
@@ -612,7 +582,7 @@ msgstr ""
 #: dkim-verify/dkimrulewidget.cpp:54
 #, kde-format
 msgid "Rule:"
-msgstr ""
+msgstr "Prawidło:"
 
 #: dkim-verify/dkimrulewidget.cpp:60
 #, kde-format
@@ -622,27 +592,27 @@ msgstr ""
 #: dkim-verify/dkimviewermenu.cpp:14
 #, kde-format
 msgid "DKIM"
-msgstr ""
+msgstr "DKIM"
 
 #: dkim-verify/dkimviewermenu.cpp:36
-#, fuzzy, kde-format
+#, kde-format
 msgid "Recheck DKIM Signature"
-msgstr "&Signatura:"
+msgstr "DKIM kluč hišće raz přepruwować"
 
 #: dkim-verify/dkimviewermenu.cpp:39
 #, kde-format
 msgid "Update DKIM key"
-msgstr ""
+msgstr "DKIM kluč aktualizować"
 
 #: dkim-verify/dkimviewermenu.cpp:43
 #, kde-format
 msgid "Rules..."
-msgstr ""
+msgstr "Prawidła..."
 
 #: dkim-verify/dkimwidgetinfo.cpp:90
-#, fuzzy, kde-format
+#, kde-format
 msgid "Unknown"
-msgstr "&Dopósłać"
+msgstr "Njeznate"
 
 #: dkim-verify/dkimwidgetinfo.cpp:96
 #, fuzzy, kde-format
@@ -656,9 +626,9 @@ msgid "DKIM: invalid"
 msgstr ""
 
 #: dkim-verify/dkimwidgetinfo.cpp:106
-#, fuzzy, kde-format
+#, kde-format
 msgid "DKIM: Not signed"
-msgstr "&Nješifrowane zawěsćić"
+msgstr "DKIM: Njepodpisane"
 
 #: dkim-verify/dkimwidgetinfo.cpp:111
 #, kde-format
@@ -681,16 +651,14 @@ msgid "Missing header From."
 msgstr ""
 
 #: dkim-verify/dkimwidgetinfo.cpp:136
-#, fuzzy, kde-format
-#| msgid "Good signature."
+#, kde-format
 msgid "Missing signature."
-msgstr "Signatura w porjadku."
+msgstr "Signatura pobrachuje."
 
 #: dkim-verify/dkimwidgetinfo.cpp:139
-#, fuzzy, kde-format
-#| msgid "Good signature."
+#, kde-format
 msgid "Invalid query method."
-msgstr "Signatura w porjadku."
+msgstr "Njekorektne wašnje prašenja."
 
 #: dkim-verify/dkimwidgetinfo.cpp:142
 #, kde-format
@@ -816,68 +784,59 @@ msgid "%1: Valid"
 msgstr ""
 
 #: dkim-verify/dkimwidgetinfo.cpp:299
-#, fuzzy, kde-format
+#, kde-format
 msgid "Not Signed"
-msgstr "&Nješifrowane zawěsćić"
+msgstr "Njepodpisane"
 
 #: header/grantleeheaderformatter.cpp:203
-#, fuzzy, kde-format
-#| msgid "S&ubject:"
+#, kde-format
 msgid "Subject:"
-msgstr "&Tema:"
+msgstr "Tema:"
 
 #: header/grantleeheaderformatter.cpp:224
-#, fuzzy, kde-format
-#| msgid "Date: "
+#, kde-format
 msgid "Date:"
-msgstr "Datum: "
+msgstr "Datum:"
 
 #: header/grantleeheaderformatter.cpp:245
-#, fuzzy, kde-format
-#| msgid "To: "
+#, kde-format
 msgid "To:"
-msgstr "Na: "
+msgstr "Na:"
 
 #: header/grantleeheaderformatter.cpp:247
-#, fuzzy, kde-format
-#| msgid "&Reply To"
+#, kde-format
 msgid "Reply To:"
-msgstr "&Adresa za wotmołwu"
+msgstr "Wotmołwić na:"
 
 #: header/grantleeheaderformatter.cpp:249
-#, fuzzy, kde-format
-#| msgid "Reply to: "
+#, kde-format
 msgid "Reply From:"
-msgstr "Wotmołwu na:"
+msgstr "Wotmołwa z:"
 
 #: header/grantleeheaderformatter.cpp:251
-#, fuzzy, kde-format
-#| msgid "CC: "
+#, kde-format
 msgid "CC:"
-msgstr "Kopija na "
+msgstr "Kopija na:"
 
 #: header/grantleeheaderformatter.cpp:253
-#, fuzzy, kde-format
-#| msgid "BCC: "
+#, kde-format
 msgid "BCC:"
-msgstr "Dalša kopija na: "
+msgstr "Slepa kopija na: "
 
 #: header/grantleeheaderformatter.cpp:257
-#, fuzzy, kde-format
-#| msgid "Sender"
+#, kde-format
 msgid "Sender:"
-msgstr "Wotpósłar"
+msgstr "Wotpósłar:"
 
 #: header/grantleeheaderformatter.cpp:259
 #, kde-format
 msgid "resent from:"
-msgstr ""
+msgstr "zaso pósłane wot:"
 
 #: header/grantleeheaderformatter.cpp:261
-#, fuzzy, kde-format
-#| msgid "sender: "
+#, kde-format
 msgid "resent to:"
-msgstr "wotpósłar: "
+msgstr "zaso pósłane na:"
 
 #: header/grantleeheaderformatter.cpp:339
 #, fuzzy, kde-format
@@ -891,40 +850,35 @@ msgid "No Subject"
 msgstr "Žana tema"
 
 #: header/grantleeheaderformatter.cpp:434
-#, fuzzy, kde-format
+#, kde-format
 msgid "Spam Status:"
-msgstr "Staw: "
+msgstr "Staw spama:"
 
 #: header/grantleeheaderformatter.cpp:446
-#, fuzzy, kde-format
-#| msgid "Printing Output"
+#, kde-format
 msgid "Printing mode"
-msgstr "Output ćišćenja"
+msgstr "Modus ćišćenja"
 
 #: header/grantleeheaderformatter.cpp:485
-#, fuzzy, kde-format
-#| msgid "[vCard]"
+#, kde-format
 msgid "[vcard]"
 msgstr "[wizitka]"
 
 #: header/grantleeheaderformatter.cpp:492
-#, fuzzy, kde-format
-#| msgctxt "View->"
-#| msgid "&Attachments"
+#, kde-format
 msgid "Attachments:"
-msgstr "&Přiwěški"
+msgstr "Přiwěški:"
 
 #: header/grantleeheaderformatter.cpp:521
-#, fuzzy, kde-format
-#| msgid "S&ecurity"
+#, kde-format
 msgid "Security:"
-msgstr "&Wěstosć"
+msgstr "Wěstosć:"
 
 #: header/headerstyle_util.cpp:58
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Unknown date"
 msgid "Unknown"
-msgstr "&Dopósłać"
+msgstr "Njeznate"
 
 #: header/headerstyle_util.cpp:149
 #, kde-format
@@ -1013,8 +967,7 @@ msgid "[vCard]"
 msgstr "[wizitka]"
 
 #: header/plainheaderstyle.cpp:121
-#, fuzzy, kde-format
-#| msgid "To: "
+#, kde-format
 msgctxt "To-field of the mailheader."
 msgid "To: "
 msgstr "Na: "
@@ -1027,12 +980,12 @@ msgstr "Kopija na "
 #: header/plainheaderstyle.cpp:135
 #, kde-format
 msgid "BCC: "
-msgstr "Dalša kopija na: "
+msgstr "Slepa kopija na: "
 
 #: header/plainheaderstyle.cpp:140
 #, kde-format
 msgid "Reply to: "
-msgstr "Wotmołwu na:"
+msgstr "Wotmołwu na: "
 
 #: messagepartthemes/default/defaultrenderer.cpp:69
 #, kde-format
@@ -1042,44 +995,43 @@ msgstr "Zmylk: njewerifikowana signatura"
 #: messagepartthemes/default/defaultrenderer.cpp:73
 #, kde-format
 msgid "Good signature"
-msgstr "Signatura w porjadku"
+msgstr "Dobre podpismo"
 
 #: messagepartthemes/default/defaultrenderer.cpp:77
-#, fuzzy, kde-format
-#| msgid "Good signature"
+#, kde-format
 msgid "Bad signature"
-msgstr "Signatura w porjadku"
+msgstr "Podpismo njeje w porjadku"
 
 #: messagepartthemes/default/defaultrenderer.cpp:81
 #, kde-format
 msgid "No public key to verify the signature"
-msgstr "Žadyn zjawny kluč za werifikowanje signatury"
+msgstr "Žadyn zjawny kluč za přepruwowanje podpisma"
 
 #: messagepartthemes/default/defaultrenderer.cpp:85
 #, kde-format
 msgid "No signature found"
-msgstr "Žana signatura"
+msgstr "Žane podpismo"
 
 #: messagepartthemes/default/defaultrenderer.cpp:89
 #, kde-format
 msgid "Error verifying the signature"
-msgstr "Zmylk při werifikowanju signatury"
+msgstr "Zmylk při přepruwowanju podpisma"
 
 #: messagepartthemes/default/defaultrenderer.cpp:93
 #, kde-format
 msgid "Different results for signatures"
-msgstr ""
+msgstr "Wotchilne wuslědki za podpisma"
 
 #: messagepartthemes/default/defaultrenderer.cpp:113
-#, fuzzy, kde-format
+#, kde-format
 msgid "No status information available."
-msgstr "Ně."
+msgstr "Žana informacija wo stawje."
 
 #: messagepartthemes/default/defaultrenderer.cpp:120
 #: messagepartthemes/default/defaultrenderer.cpp:205
 #, kde-format
 msgid "Good signature."
-msgstr "Signatura w porjadku."
+msgstr "Dobre podpismo."
 
 #: messagepartthemes/default/defaultrenderer.cpp:141
 #, kde-format
@@ -1089,12 +1041,12 @@ msgstr "Jedyn kluč je zestarjeny."
 #: messagepartthemes/default/defaultrenderer.cpp:145
 #, kde-format
 msgid "The signature has expired."
-msgstr "Signatura je zestarjena."
+msgstr "Podpismo hižo njepłaći."
 
 #: messagepartthemes/default/defaultrenderer.cpp:150
 #, kde-format
 msgid "Unable to verify: key missing."
-msgstr "Njemóžu werifikować: kluč faluje."
+msgstr "Njemóžu přepruwować: kluč faluje."
 
 #: messagepartthemes/default/defaultrenderer.cpp:157
 #, kde-format
@@ -1117,27 +1069,24 @@ msgid "A system error occurred."
 msgstr ""
 
 #: messagepartthemes/default/defaultrenderer.cpp:180
-#, fuzzy, kde-format
-#| msgid "One key has expired."
+#, kde-format
 msgid "One key has been revoked."
-msgstr "Jedyn kluč je zestarjeny."
+msgstr "Jedyn kluč je zběhnjeny."
 
 #: messagepartthemes/default/defaultrenderer.cpp:207
-#, fuzzy, kde-format
-#| msgid "Good signature."
+#, kde-format
 msgid "Bad signature."
-msgstr "Signatura w porjadku."
+msgstr "Podpismo njeje w porjadku."
 
 #: messagepartthemes/default/defaultrenderer.cpp:528
 #: messagepartthemes/default/defaultrenderer.cpp:530
-#, fuzzy, kde-format
+#, kde-format
 msgid "certificate"
-msgstr "Certifikaty"
+msgstr "certifikat"
 
 #: messagepartthemes/default/defaultrenderer.cpp:535
 #: messagepartthemes/default/defaultrenderer.cpp:554
-#, fuzzy, kde-format
-#| msgid "Warning:"
+#, kde-format
 msgctxt "Start of warning message."
 msgid "Warning:"
 msgstr "Kedźbu:"
@@ -1201,46 +1150,45 @@ msgid "An entry already defines this url. Please modify it."
 msgstr ""
 
 #: remote-content/remotecontentconfigurewidget.cpp:135
-#, fuzzy, kde-format
+#, kde-format
 msgid "Add new Url"
-msgstr "Napohlad špaltow"
+msgstr "URL dodać"
 
 #: remote-content/remotecontentmenu.cpp:17
-#, fuzzy, kde-format
+#, kde-format
 msgid "Configure"
-msgstr "KMail &konfigurować..."
+msgstr "Připrawić"
 
 #: remote-content/remotecontentmenu.cpp:19
-#, fuzzy, kde-format
+#, kde-format
 msgid "Remote Content"
-msgstr "Piktogramy za zapiski"
+msgstr "Zdaleny wobsah"
 
 #: remote-content/remotecontentmenu.cpp:52
 #, kde-format
 msgid "Authorize %1"
-msgstr ""
+msgstr "%1 awtoriziować"
 
 #: remote-content/remotecontentmenu.cpp:60
 #, kde-format
 msgid "Authorize all Urls"
-msgstr ""
+msgstr "Wšitke URL awtoriziować"
 
 #: remote-content/remotecontentstatustypecombobox.cpp:12
 #, kde-format
 msgid "Authorized"
-msgstr ""
+msgstr "Awtorizowane"
 
 #: remote-content/remotecontentstatustypecombobox.cpp:13
 #, kde-format
 msgid "Blocked"
-msgstr ""
+msgstr "Blokowane"
 
 #: scamdetection/scamdetectiondetailsdialog.cpp:38
-#, fuzzy, kde-format
-#| msgid "[Details]"
+#, kde-format
 msgctxt "@title:window"
 msgid "Details"
-msgstr "[Nadrobnosće]"
+msgstr "Nadrobnosće"
 
 #: scamdetection/scamdetectionwarningwidget.cpp:35
 #, kde-format
@@ -1316,10 +1264,9 @@ msgid "Message contains form element. This is often the case in scam emails."
 msgstr ""
 
 #: scamdetection/scamdetectionwebengine.cpp:217
-#, fuzzy, kde-format
-#| msgid "[Details]"
+#, kde-format
 msgid "Details:"
-msgstr "[Nadrobnosće]"
+msgstr "Nadrobnosće:"
 
 #: scamdetection/scamexpandurljob.cpp:52
 #, kde-format
@@ -1967,7 +1914,7 @@ msgstr "Wopisanje"
 #: viewer/mimeparttree/mimetreemodel.cpp:266
 #, kde-format
 msgid "Type"
-msgstr "družina"
+msgstr "Družina"
 
 #: viewer/mimeparttree/mimetreemodel.cpp:268
 #, kde-format
