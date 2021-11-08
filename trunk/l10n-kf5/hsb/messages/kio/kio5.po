@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: kcmsocks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-11-04 00:14+0000\n"
-"PO-Revision-Date: 2008-11-19 23:41+0100\n"
+"PO-Revision-Date: 2021-11-08 14:26+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
 "Language: hsb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KAider 0.1\n"
+"X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
@@ -30,22 +30,18 @@ msgid "Your emails"
 msgstr ""
 
 #: core/chmodjob.cpp:193
-#, fuzzy, kde-format
-#| msgid "Could not change ownership for %1."
+#, kde-format
 msgid "Could not modify the ownership of file %1"
-msgstr "Njemóžach přistupne prawa změnić za %1"
+msgstr "Njemóžach wobsydnika změnić za dataju %1"
 
 #: core/chmodjob.cpp:227
-#, fuzzy, kde-kuit-format
-#| msgid ""
-#| "<qt>Could not modify the ownership of file <b>%1</b>. You have "
-#| "insufficient access to the file to perform the change.</qt>"
+#, kde-kuit-format
 msgid ""
 "Could not modify the ownership of file <filename>%1</filename>. You have "
 "insufficient access to the file to perform the change."
 msgstr ""
-"<qt>Njemóžach wobsydnika dataje <b>%1</b> změnić. Wam njeje dowolene tutu "
-"změnu přewjesć.</qt>"
+"Njemóžach wobsydnika dataje <b>%1</b> změnić. Waše přistupne prawa "
+"njedosahaja za přewjedźenje tuteje změny."
 
 #: core/connectionbackend.cpp:108
 #, kde-format
@@ -53,10 +49,7 @@ msgid "Unable to create io-slave: %1"
 msgstr "Njemóžach io-slave stworić: %1"
 
 #: core/copyjob.cpp:165 ioslaves/file/file_unix.cpp:1284
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not create symlink %1.\n"
-#| "Please check permissions."
+#, kde-format
 msgctxt ""
 "The first arg is the path to the symlink that couldn't be created, the "
 "secondarg is the filesystem type (e.g. vfat, exfat)"
@@ -64,7 +57,8 @@ msgid ""
 "Could not create symlink \"%1\".\n"
 "The destination filesystem (%2) doesn't support symlinks."
 msgstr ""
-"Njemóžach symboliski link %1 stworić. Prošu přepruwujće přistupne prawa."
+"Njemóžach symboliski link %1 stworić.\n"
+"Cilowy datajowy system (%2) symboliske linki njepodpěruje."
 
 #: core/copyjob.cpp:177
 #, kde-format
@@ -103,15 +97,14 @@ msgid "Already Exists as Folder"
 msgstr "Eksistuje hižo jako zapisk"
 
 #: core/copyjob.cpp:1889 ioslaves/trash/kio_trash.cpp:288
-#, fuzzy, kde-format
+#, kde-format
 msgid "Trash"
 msgstr "Papjernik"
 
 #: core/desktopexecparser.cpp:315
-#, fuzzy, kde-format
-#| msgid "Error processing Exec field in %1"
+#, kde-format
 msgid "No Exec field in %1"
-msgstr "Zmylk při wuwjedźenju Exec-zapisa w %1"
+msgstr "Žadyn Exec-zapis w %1"
 
 #: core/desktopexecparser.cpp:340
 #, kde-format
@@ -154,9 +147,7 @@ msgstr[2] "%1 dny %2"
 msgstr[3] "%1 dnjow %2"
 
 #: core/global.cpp:116 core/global.cpp:132
-#, fuzzy, kde-format
-#| msgid "1 Item"
-#| msgid_plural "%1 Items"
+#, kde-format
 msgid "%1 Item"
 msgid_plural "%1 Items"
 msgstr[0] "%1 objekt"
@@ -302,10 +293,9 @@ msgid ""
 msgstr ""
 
 #: core/job.cpp:270
-#, fuzzy, kde-format
-#| msgid "*|All Files"
+#, kde-format
 msgid "Copy Files"
-msgstr "*|Wšitke dataje"
+msgstr "Dataje kopěrować"
 
 #: core/job.cpp:272
 #, kde-format
@@ -327,10 +317,9 @@ msgid ""
 msgstr ""
 
 #: core/job.cpp:282
-#, fuzzy, kde-format
-#| msgid "Und&o: Create Folder"
+#, kde-format
 msgid "Create Folder"
-msgstr "W&róćo: zapisk stworić"
+msgstr "Zapisk stworić"
 
 #: core/job.cpp:284
 #, kde-format
@@ -339,10 +328,9 @@ msgid ""
 msgstr ""
 
 #: core/job.cpp:288
-#, fuzzy, kde-format
-#| msgid "Move to Trash"
+#, kde-format
 msgid "Move Items"
-msgstr "do papjernika sunyć"
+msgstr "Objekty přesunyć"
 
 #: core/job.cpp:290
 #, kde-format
@@ -352,10 +340,9 @@ msgid ""
 msgstr ""
 
 #: core/job.cpp:294 ioslaves/file/file_unix.cpp:125
-#, fuzzy, kde-format
-#| msgid "&Rename"
+#, kde-format
 msgid "Rename"
-msgstr "&Hinak pomjenować"
+msgstr "Přemjenować"
 
 #: core/job.cpp:296
 #, kde-format
@@ -365,10 +352,9 @@ msgstr ""
 
 #: core/job.cpp:300 filewidgets/knewfilemenu.cpp:597
 #: ioslaves/file/file_unix.cpp:129
-#, fuzzy, kde-format
-#| msgid "Could Not Create Symbolic Link"
+#, kde-format
 msgid "Create Symlink"
-msgstr "Njemóžach wotkaz stworić"
+msgstr "Symboliski wotkaz (symlink) stworić"
 
 #: core/job.cpp:302
 #, kde-format
@@ -377,11 +363,9 @@ msgid ""
 msgstr ""
 
 #: core/job.cpp:306
-#, fuzzy, kde-format
-#| msgctxt "@title job"
-#| msgid "Transferring"
+#, kde-format
 msgid "Transfer data"
-msgstr "Přenjesu"
+msgstr "Daty přenjesć"
 
 #: core/job.cpp:308
 #, kde-format
@@ -393,34 +377,32 @@ msgstr ""
 #: core/job_error.cpp:33
 #, kde-format
 msgid "Could not read %1."
-msgstr "Njemóžu %1 čitać"
+msgstr "Njemóžu %1 čitać."
 
 #: core/job_error.cpp:36
 #, kde-format
 msgid "Could not write to %1."
-msgstr "Njemóžach do %1 pisać"
+msgstr "Njemóžach do %1 pisać."
 
 #: core/job_error.cpp:39
 #, kde-format
 msgid "Could not start process %1."
-msgstr "Njemóžach proces %1 startować"
+msgstr "Njemóžach proces %1 startować."
 
 #: core/job_error.cpp:42
-#, fuzzy, kde-format
-#| msgid ""
-#| "Internal Error\n"
-#| "Please send a full bug report at http://bugs.kde.org\n"
-#| "%1"
+#, kde-format
 msgid ""
 "Internal Error\n"
 "Please send a full bug report at https://bugs.kde.org\n"
 "%1"
-msgstr "Nutřkowny zmylk Prošu pósćel rozprawu na http://bugs.kde.org %1"
+msgstr ""
+"Nutřkowny zmylk\n"
+"Prošu pósćelće rozprawu na http://bugs.kde.org %1"
 
 #: core/job_error.cpp:45
 #, kde-format
 msgid "Malformed URL %1."
-msgstr "Hubjene pomjenowanje za URL %1"
+msgstr "Hubjene pomjenowanje za URL %1."
 
 #: core/job_error.cpp:48
 #, kde-format
@@ -470,7 +452,7 @@ msgstr "Njeznaty host %1"
 #: core/job_error.cpp:76
 #, kde-format
 msgid "Access denied to %1."
-msgstr "Přistup na %1 wotpokazany"
+msgstr "Přistup na %1 wotpokazany."
 
 #: core/job_error.cpp:79
 #, kde-format
@@ -478,13 +460,13 @@ msgid ""
 "Access denied.\n"
 "Could not write to %1."
 msgstr ""
-"Přistup wotpokazany\n"
-"Njemóžach na %1 pisać"
+"Přistup wotpokazany.\n"
+"Njemóžach na %1 pisać."
 
 #: core/job_error.cpp:82
 #, kde-format
 msgid "Could not enter folder %1."
-msgstr "Njemóžach do zapiska %1 hić"
+msgstr "Njemóžach do zapiska %1 hić."
 
 #: core/job_error.cpp:85
 #, kde-format
@@ -494,12 +476,12 @@ msgstr "Protokol %1 njedźěła ze zapiskami."
 #: core/job_error.cpp:88
 #, kde-format
 msgid "Found a cyclic link in %1."
-msgstr "Cykliski link w %1"
+msgstr "Cykliski link w %1."
 
 #: core/job_error.cpp:94
 #, kde-format
 msgid "Found a cyclic link while copying %1."
-msgstr "Namakach cykliski link při kopěrowanju %1"
+msgstr "Namakach cykliski link při kopěrowanju %1."
 
 #: core/job_error.cpp:97
 #, kde-format
@@ -540,72 +522,72 @@ msgstr "Njemóžach device wotmontować. Zmylk bě: %1"
 #: core/job_error.cpp:115
 #, kde-format
 msgid "Could not read file %1."
-msgstr "Njemóžach dataju %1 čitać"
+msgstr "Njemóžach dataju %1 čitać."
 
 #: core/job_error.cpp:118
 #, kde-format
 msgid "Could not write to file %1."
-msgstr "Njemóžach do dataje %1 pisać"
+msgstr "Njemóžach do dataje %1 pisać."
 
 #: core/job_error.cpp:121
 #, kde-format
 msgid "Could not bind %1."
-msgstr "Njemóžach %1 wjazać"
+msgstr "Njemóžach %1 wjazać."
 
 #: core/job_error.cpp:124
 #, kde-format
 msgid "Could not listen %1."
-msgstr "Njemóžach słuchać %1"
+msgstr "Njemóžach słuchać %1."
 
 #: core/job_error.cpp:127
 #, kde-format
 msgid "Could not accept %1."
-msgstr "Njemóžach %1 přiwzać"
+msgstr "Njemóžach %1 přiwzać."
 
 #: core/job_error.cpp:133
 #, kde-format
 msgid "Could not access %1."
-msgstr "Njedóstach přistup na %1"
+msgstr "Njedóstach přistup na %1."
 
 #: core/job_error.cpp:136
 #, kde-format
 msgid "Could not terminate listing %1."
-msgstr "Njemóžach nalistowanje %1 přetorhnyć"
+msgstr "Njemóžach nalistowanje %1 přetorhnyć."
 
 #: core/job_error.cpp:139
 #, kde-format
 msgid "Could not make folder %1."
-msgstr "Njemóžach zapisk %1 stworić"
+msgstr "Njemóžach zapisk %1 stworić."
 
 #: core/job_error.cpp:142
 #, kde-format
 msgid "Could not remove folder %1."
-msgstr "Njemóžach zapisk %1 zničić"
+msgstr "Njemóžach zapisk %1 zničić."
 
 #: core/job_error.cpp:145
 #, kde-format
 msgid "Could not resume file %1."
-msgstr "Njemóžach z dataju %1 pokročować"
+msgstr "Njemóžach z dataju %1 pokročować."
 
 #: core/job_error.cpp:148
 #, kde-format
 msgid "Could not rename file %1."
-msgstr "Njemóžach dataju %1 přemjenować"
+msgstr "Njemóžach dataju %1 přemjenować."
 
 #: core/job_error.cpp:151
 #, kde-format
 msgid "Could not change permissions for %1."
-msgstr "Njemóžach přistupne prawa změnić za %1"
+msgstr "Njemóžach přistupne prawa změnić za %1."
 
 #: core/job_error.cpp:154
 #, kde-format
 msgid "Could not change ownership for %1."
-msgstr "Njemóžach přistupne prawa změnić za %1"
+msgstr "Njemóžach wobsydnika změnić za %1."
 
 #: core/job_error.cpp:157
 #, kde-format
 msgid "Could not delete file %1."
-msgstr "Njemóžach dataju %1 zničić"
+msgstr "Njemóžach dataju %1 zničić."
 
 #: core/job_error.cpp:160
 #, kde-format
@@ -631,7 +613,7 @@ msgstr "Njeznaty proxy %1"
 #: core/job_error.cpp:169
 #, kde-format
 msgid "Authorization failed, %1 authentication not supported"
-msgstr "Awtorizacija so zwrěšćiła, awtorizacija z %1 so njepodpěruje."
+msgstr "Awtorizacija so zwrěšćiła, awtorizacija z %1 so njepodpěruje"
 
 #: core/job_error.cpp:172
 #, kde-format
@@ -816,7 +798,7 @@ msgstr "<qt><p><b>%1</b></p><p>%2</p></qt>"
 #: core/job_error.cpp:296
 #, kde-format
 msgid "<b>Technical reason</b>: "
-msgstr "<b>Techniska přičina</b>"
+msgstr "<b>Techniska přičina</b>:"
 
 #: core/job_error.cpp:298
 #, kde-format
@@ -997,7 +979,7 @@ msgstr "Přepruwuj, hač resursa eksistuje, a spytajće hišće raz."
 #: core/job_error.cpp:414
 #, kde-format
 msgid "The specified resource may not exist."
-msgstr "pominana resursa snano njeeksistuje."
+msgstr "Mjenowana resursa snano njeeksistuje."
 
 #: core/job_error.cpp:416
 #, kde-format
@@ -1457,7 +1439,7 @@ msgstr ""
 #: core/job_error.cpp:693
 #, kde-format
 msgid "Could Not Create Network Connection"
-msgstr "Njemóžach syćowy zwisk nastajić."
+msgstr "Njemóžach syćowy zwisk nastajić"
 
 #: core/job_error.cpp:694
 #, kde-format
@@ -1546,7 +1528,7 @@ msgstr ""
 #: core/job_error.cpp:739
 #, kde-format
 msgid "URL Resource Invalid"
-msgstr "Njekorektna URL-resursa."
+msgstr "Njekorektna URL-resursa"
 
 #: core/job_error.cpp:740
 #, kde-format
@@ -1627,7 +1609,7 @@ msgstr ""
 #: core/job_error.cpp:781
 #, kde-format
 msgid "Unable to Uninitialize Input/Output Device"
-msgstr "Njemóžach I/O-device deinicializować."
+msgstr "Njemóžach I/O-device deinicializować"
 
 #: core/job_error.cpp:782
 #, kde-format
@@ -1662,7 +1644,7 @@ msgid ""
 "uninitialize a device."
 msgstr ""
 "Snadź nimaće prawa grat deinicializować (\"wotmontować\").  Na UNIXowych "
-"systemach trjebaš husto prawa administratora za tajke wěcy. "
+"systemach trjebaš husto prawa administratora za tajke wěcy."
 
 #: core/job_error.cpp:798
 #, kde-format
@@ -1682,7 +1664,7 @@ msgid ""
 "opened, an error occurred while reading the contents of the resource."
 msgstr ""
 "To rěka, zo bě drje móžno resursu <strong>%1</strong> wočinić, při čitanju "
-"pak je so zmylk stał. "
+"pak je so zmylk stał."
 
 #: core/job_error.cpp:810
 #, kde-format
@@ -1927,7 +1909,7 @@ msgstr ""
 #: core/job_error.cpp:1018
 #, kde-format
 msgid "Out of Memory"
-msgstr "Žadyn pomjatk."
+msgstr "Pomjatk njedosaha"
 
 #: core/job_error.cpp:1020
 #, kde-format
@@ -1963,7 +1945,7 @@ msgid ""
 msgstr ""
 "Snadź je to problem wašeje syćoweje konfiguracije. Njejsće-li pak w "
 "poslednim času problemy měli ze zwiskom do interneta, njeje to "
-"prawdźepodobne. "
+"prawdźepodobne."
 
 #: core/job_error.cpp:1041
 #, kde-format
@@ -1973,7 +1955,7 @@ msgstr "Přepruwuj podaća wo proxyju a spytaj hišće raz."
 #: core/job_error.cpp:1045
 #, kde-format
 msgid "Authentication Failed: Method %1 Not Supported"
-msgstr "Awtentifikacija njeje so poradźiła: Metoda %1 njeje podpěrana."
+msgstr "Awtentifikacija njeje so poradźiła: Metoda %1 njeje podpěrana"
 
 #: core/job_error.cpp:1047
 #, kde-format
@@ -2360,7 +2342,7 @@ msgstr "(%1, wotkaz na %2)"
 #: core/kfileitem.cpp:1353
 #, kde-format
 msgid " (Points to %1)"
-msgstr "(wotkazuje na %1)"
+msgstr " (wotkazuje na %1)"
 
 #: core/mimetypefinderjob.cpp:57 gui/openurljob.cpp:145 widgets/krun.cpp:402
 #: widgets/paste.cpp:262 widgets/renamedialog.cpp:599
@@ -2386,7 +2368,7 @@ msgstr "Njemóžu io-slave za protokol %1 namakać."
 #: core/slave.cpp:415
 #, kde-format
 msgid "Unknown protocol '%1'."
-msgstr "Njeznaty protokol '%1'"
+msgstr "Njeznaty protokol '%1'."
 
 #: core/slave.cpp:426
 #, kde-format
@@ -6398,13 +6380,12 @@ msgstr ""
 #: kcms/smb/smbrodlg.cpp:31
 #, kde-format
 msgid "Default user name:"
-msgstr ""
+msgstr "Mjeno wužiwarja (jeli njepostajene):"
 
 #: kcms/smb/smbrodlg.cpp:39
-#, fuzzy, kde-format
-#| msgid "&Repeat password:"
+#, kde-format
 msgid "Default password:"
-msgstr "&Zapodajće škitne hesło hišće raz:"
+msgstr "Standardne škitne hesło:"
 
 #: kcms/smb/smbrodlg.cpp:122
 #, kde-format
@@ -6449,21 +6430,19 @@ msgid ""
 msgstr ""
 
 #: kioexec/kioexecd.cpp:86 kioexec/main.cpp:234 kioexec/main.cpp:244
-#, fuzzy, kde-format
-#| msgid "Device name"
+#, kde-format
 msgid "File Changed"
-msgstr "Mjeno grata"
+msgstr "Dataja změnjena"
 
 #: kioexec/kioexecd.cpp:87 kioexec/main.cpp:245
-#, fuzzy, kde-format
+#, kde-format
 msgid "Upload"
-msgstr "Čitać"
+msgstr "Horje pósłać"
 
 #: kioexec/kioexecd.cpp:88 kioexec/main.cpp:246
-#, fuzzy, kde-format
-#| msgid "Do Not Store"
+#, kde-format
 msgid "Do Not Upload"
-msgstr "Nic zawěsćić"
+msgstr "Nic horje pósłać"
 
 #: kioexec/main.cpp:40
 #, kde-format
@@ -6471,16 +6450,14 @@ msgid "KIO Exec - Opens remote files, watches modifications, asks for upload"
 msgstr ""
 
 #: kioexec/main.cpp:56
-#, fuzzy, kde-format
-#| msgid "Malformed URL %1."
+#, kde-format
 msgid "Invalid URL: %1"
-msgstr "Hubjene pomjenowanje za URL %1"
+msgstr "Hubjene pomjenowanje za URL: %1"
 
 #: kioexec/main.cpp:62
-#, fuzzy, kde-format
-#| msgid "Could not bind %1."
+#, kde-format
 msgid "File not found: %1"
-msgstr "Njemóžach %1 wjazać"
+msgstr "Njejsym dataju namakał: %1"
 
 #: kioexec/main.cpp:79
 #, kde-format
@@ -6506,10 +6483,9 @@ msgid ""
 msgstr ""
 
 #: kioexec/main.cpp:236
-#, fuzzy, kde-format
-#| msgid "Do Not Store"
+#, kde-format
 msgid "Do Not Delete"
-msgstr "Nic zawěsćić"
+msgstr "Nic zničić"
 
 #: kioexec/main.cpp:243
 #, kde-format
@@ -7050,9 +7026,9 @@ msgstr "Kraj:"
 
 #. i18n: ectx: property (text), widget (QLabel, country)
 #: widgets/certificateparty.ui:98
-#, fuzzy, kde-format
+#, kde-format
 msgid "Canada"
-msgstr "Čitać"
+msgstr "Kanada"
 
 #. i18n: ectx: property (text), widget (QLabel, stateTag)
 #: widgets/certificateparty.ui:108
@@ -7066,14 +7042,13 @@ msgstr "Stat:"
 #: widgets/certificateparty.ui:118
 #, kde-format
 msgid "Quebec"
-msgstr ""
+msgstr "Quebec"
 
 #. i18n: ectx: property (text), widget (QLabel, cityTag)
 #: widgets/certificateparty.ui:128
-#, fuzzy, kde-format
-#| msgid "Country:"
+#, kde-format
 msgid "City:"
-msgstr "Kraj:"
+msgstr "Město:"
 
 #. i18n: ectx: property (text), widget (QLabel, city)
 #: widgets/certificateparty.ui:138
@@ -7251,22 +7226,19 @@ msgid "Und&o: Create Folder"
 msgstr "W&róćo: zapisk stworić"
 
 #: widgets/fileundomanager.cpp:306
-#, fuzzy, kde-format
-#| msgid "Und&o: Create Folder"
+#, kde-format
 msgid "Und&o: Create Folder(s)"
-msgstr "W&róćo: zapisk stworić"
+msgstr "W&róćo: zapisk(i) stworić"
 
 #: widgets/fileundomanager.cpp:308
-#, fuzzy, kde-format
-#| msgid "Und&o: Create Folder"
+#, kde-format
 msgid "Und&o: Create File"
-msgstr "W&róćo: zapisk stworić"
+msgstr "W&róćo: Dataju stworić"
 
 #: widgets/fileundomanager.cpp:310
-#, fuzzy, kde-format
-#| msgid "Und&o: Rename"
+#, kde-format
 msgid "Und&o: Batch Rename"
-msgstr "W&róćo: přemjenować"
+msgstr "W&róćo: Awtomatiske přemjenowanje"
 
 #: widgets/fileundomanager.cpp:714
 #, kde-format
@@ -7324,10 +7296,10 @@ msgid ""
 msgstr ""
 
 #: widgets/jobuidelegate.cpp:269 widgets/widgetsaskuseractionhandler.cpp:160
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action:button"
 msgid "Empty Trash"
-msgstr "Papjernik"
+msgstr "Papjernik wuprózdnić"
 
 #: widgets/jobuidelegate.cpp:279 widgets/widgetsaskuseractionhandler.cpp:166
 #, fuzzy, kde-kuit-format
@@ -7371,45 +7343,39 @@ msgid "Delete Entry"
 msgstr "Zapis wumaznyć"
 
 #: widgets/kacleditwidget.cpp:230
-#, fuzzy, kde-format
-#| msgid "Owner"
+#, kde-format
 msgctxt "Unix permissions"
 msgid "Owner"
 msgstr "Wobsydnik"
 
 #: widgets/kacleditwidget.cpp:234
-#, fuzzy, kde-format
-#| msgid "Owning Group"
+#, kde-format
 msgctxt "UNIX permissions"
 msgid "Owning Group"
 msgstr "Wobsedźaca skupina"
 
 #: widgets/kacleditwidget.cpp:238 widgets/kacleditwidget.cpp:250
-#, fuzzy, kde-format
-#| msgid "Others"
+#, kde-format
 msgctxt "UNIX permissions"
 msgid "Others"
 msgstr "Druzy"
 
 #: widgets/kacleditwidget.cpp:242
-#, fuzzy, kde-format
-#| msgid "Mask"
+#, kde-format
 msgctxt "UNIX permissions"
 msgid "Mask"
 msgstr "Maska"
 
 #: widgets/kacleditwidget.cpp:246
-#, fuzzy, kde-format
-#| msgid "Named User"
+#, kde-format
 msgctxt "UNIX permissions"
 msgid "Named User"
 msgstr "Wužiwar z mjenom"
 
 #: widgets/kacleditwidget.cpp:257
-#, fuzzy, kde-format
-#| msgid " (Default)"
+#, kde-format
 msgid "Owner (Default)"
-msgstr "(standard)"
+msgstr "Wobsydnik (standard)"
 
 #: widgets/kacleditwidget.cpp:387
 #, kde-format
@@ -7579,10 +7545,9 @@ msgid "Type"
 msgstr "Družina"
 
 #: widgets/kfileitemactions.cpp:427
-#, fuzzy, kde-format
-#| msgid "Open with:"
+#, kde-format
 msgid "Open &with %1"
-msgstr "Wočinić z:"
+msgstr "Wočinić z %1"
 
 #: widgets/kfileitemactions.cpp:429
 #, kde-format
@@ -7591,38 +7556,33 @@ msgid "%1"
 msgstr ""
 
 #: widgets/kfileitemactions.cpp:621
-#, fuzzy, kde-format
-#| msgid "Actions"
+#, kde-format
 msgctxt "@title:menu"
 msgid "&Actions"
-msgstr "Akcije"
+msgstr "&Akcije"
 
 #: widgets/kfileitemactions.cpp:864
-#, fuzzy, kde-format
-#| msgid "Open with:"
+#, kde-format
 msgid "&Open with %1"
-msgstr "Wočinić z:"
+msgstr "W&očinić z %1"
 
 #: widgets/kfileitemactions.cpp:886
-#, fuzzy, kde-format
-#| msgid "Open With"
+#, kde-format
 msgctxt "@title:menu"
 msgid "&Open With..."
-msgstr "Wočinić z"
+msgstr "W&očinić z ..."
 
 #: widgets/kfileitemactions.cpp:899
-#, fuzzy, kde-format
-#| msgid "Open With"
+#, kde-format
 msgctxt "@title:menu"
 msgid "&Open With"
-msgstr "Wočinić z"
+msgstr "W&očinić z"
 
 #: widgets/kfileitemactions.cpp:910
-#, fuzzy, kde-format
-#| msgid "&Application"
+#, kde-format
 msgctxt "@action:inmenu Open With"
 msgid "&Other Application..."
-msgstr "&Program"
+msgstr "&Druha aplikacija..."
 
 #: widgets/kfileitemdelegate.cpp:204
 #, kde-format
@@ -7654,17 +7614,15 @@ msgstr "Družina:"
 
 #. i18n: ectx: property (text), widget (QLabel, fsLabel_Left)
 #: widgets/kfilepropspluginwidget.ui:38
-#, fuzzy, kde-format
-#| msgid "File system:"
+#, kde-format
 msgid "File System:"
 msgstr "Datajowy system:"
 
 #. i18n: ectx: property (text), widget (QLabel, mountPointLabel_Left)
 #: widgets/kfilepropspluginwidget.ui:48
-#, fuzzy, kde-format
-#| msgid "Mounted on:"
+#, kde-format
 msgid "Mounted On:"
-msgstr "montowane na:"
+msgstr "Montowane na:"
 
 #. i18n: ectx: property (text), widget (QLabel, locationLabel_Left)
 #: widgets/kfilepropspluginwidget.ui:82 widgets/kurlrequesterdialog.cpp:44
@@ -7676,13 +7634,13 @@ msgstr "Městno:"
 #: widgets/kfilepropspluginwidget.ui:92
 #, kde-format
 msgid "Modified:"
-msgstr "Změnjeny:"
+msgstr "Změnjene:"
 
 #. i18n: ectx: property (text), widget (QLabel, freespaceLabel)
 #: widgets/kfilepropspluginwidget.ui:102
 #, kde-format
 msgid "Free Space:"
-msgstr ""
+msgstr "Swobodne:"
 
 #. i18n: ectx: property (text), widget (QLabel, accessTimeLabel_Left)
 #: widgets/kfilepropspluginwidget.ui:112
@@ -7698,10 +7656,9 @@ msgstr "Stworjene:"
 
 #. i18n: ectx: property (text), widget (QLabel, mountSrcLabel_Left)
 #: widgets/kfilepropspluginwidget.ui:200
-#, fuzzy, kde-format
-#| msgid "Mounted on:"
+#, kde-format
 msgid "Mounted From:"
-msgstr "montowane na:"
+msgstr "Montowane z:"
 
 #. i18n: ectx: property (text), widget (QLabel, symlinkTargetLabel)
 #: widgets/kfilepropspluginwidget.ui:210
@@ -7711,8 +7668,7 @@ msgstr "Wotkazuje na:"
 
 #. i18n: ectx: property (text), widget (QLabel, contentLabel)
 #: widgets/kfilepropspluginwidget.ui:261
-#, fuzzy, kde-format
-#| msgid "Contents:"
+#, kde-format
 msgid "Content:"
 msgstr "Wobsah:"
 
@@ -7730,10 +7686,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (KCapacityBar, capacityBar)
 #: widgets/kfilepropspluginwidget.ui:420
-#, fuzzy, kde-format
-#| msgid "Unknown Host"
+#, kde-format
 msgid "Unknown size"
-msgstr "Njeznaty host"
+msgstr "Njeznata wulkosć"
 
 #: widgets/kopenwithdialog.cpp:299
 #, kde-format
@@ -8073,9 +8028,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: widgets/kpropertiesdesktopbase.ui:57
-#, fuzzy, kde-format
+#, kde-format
 msgid "Comm&ent:"
-msgstr "Komentar:"
+msgstr "Kom&entar:"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, commandEdit)
@@ -8343,27 +8298,24 @@ msgstr "Nowe datajowe mjeno faluje!"
 
 #: widgets/kpropertiesdialog.cpp:1676 widgets/kpropertiesdialog.cpp:1677
 #: widgets/kpropertiesdialog.cpp:1679
-#, fuzzy, kde-format
-#| msgid "Accessed:"
+#, kde-format
 msgid "No Access"
-msgstr "Wopytane:"
+msgstr "Žadyn přistup"
 
 #: widgets/kpropertiesdialog.cpp:1676
 #, kde-format
 msgid "Can Only View"
-msgstr ""
+msgstr "Smě sej jenož wobhladać"
 
 #: widgets/kpropertiesdialog.cpp:1676
-#, fuzzy, kde-format
-#| msgid "Can View & Modify Content"
+#, kde-format
 msgid "Can View & Modify"
 msgstr "Smě wobsah widźeć a změnić"
 
 #: widgets/kpropertiesdialog.cpp:1677
-#, fuzzy, kde-format
-#| msgid "Can View Content"
+#, kde-format
 msgid "Can Only View Content"
-msgstr "Smě wobsah widźeć"
+msgstr "Smě wobsah jenož widźeć"
 
 #: widgets/kpropertiesdialog.cpp:1677
 #, kde-format
@@ -8371,10 +8323,9 @@ msgid "Can View & Modify Content"
 msgstr "Smě wobsah widźeć a změnić"
 
 #: widgets/kpropertiesdialog.cpp:1679
-#, fuzzy, kde-format
-#| msgid "Can View Content"
+#, kde-format
 msgid "Can Only View/Read Content"
-msgstr "Smě wobsah widźeć"
+msgstr "Smě wobsah jenož widźeć a čitać"
 
 #: widgets/kpropertiesdialog.cpp:1679
 #, kde-format
