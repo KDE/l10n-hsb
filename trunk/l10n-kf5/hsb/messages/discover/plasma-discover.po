@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-08 00:19+0000\n"
+"POT-Creation-Date: 2021-11-17 00:29+0000\n"
 "PO-Revision-Date: 2021-10-29 12:52+0200\n"
 "Last-Translator: Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team: Upper Sorbian <kde-i18n-doc@kde.org>\n"
@@ -205,7 +205,7 @@ msgstr "Dodać"
 #: discover/qml/AddSourceDialog.qml:67 discover/qml/DiscoverWindow.qml:246
 #: discover/qml/InstallApplicationButton.qml:41
 #: discover/qml/ProgressView.qml:104 discover/qml/SourcesPage.qml:134
-#: discover/qml/UpdatesPage.qml:153
+#: discover/qml/UpdatesPage.qml:196
 #, kde-format
 msgid "Cancel"
 msgstr "Přetorhnyć"
@@ -507,7 +507,7 @@ msgstr ""
 msgid "Unable to find resource: %1"
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:194 discover/qml/UpdatesPage.qml:57
+#: discover/qml/DiscoverWindow.qml:194 discover/qml/UpdatesPage.qml:106
 #, kde-format
 msgid "Report this issue"
 msgstr ""
@@ -737,12 +737,12 @@ msgstr ""
 msgid "Install this app to write a review"
 msgstr ""
 
-#: discover/qml/SearchField.qml:22
+#: discover/qml/SearchField.qml:24
 #, kde-format
 msgid "Search…"
 msgstr "Pytam ..."
 
-#: discover/qml/SearchField.qml:22
+#: discover/qml/SearchField.qml:24
 #, kde-format
 msgid "Search in '%1'…"
 msgstr ""
@@ -807,32 +807,59 @@ msgstr "Backends faluja"
 msgid "Updates"
 msgstr "Aktualizowanja"
 
-#: discover/qml/UpdatesPage.qml:41
+#: discover/qml/UpdatesPage.qml:44
 #, kde-format
 msgid "Update Issue"
 msgstr "Problem aktualizować"
 
+#: discover/qml/UpdatesPage.qml:44
+#, kde-format
+msgid "Technical details"
+msgstr ""
+
+#: discover/qml/UpdatesPage.qml:60
+#, kde-format
+msgid "There was an issue installing this update. Please try again later."
+msgstr ""
+
 #: discover/qml/UpdatesPage.qml:66
 #, kde-format
-msgid "OK"
-msgstr "W porjadku"
+msgid "See technical details"
+msgstr ""
 
-#: discover/qml/UpdatesPage.qml:90
+#: discover/qml/UpdatesPage.qml:82
+#, kde-format
+msgid ""
+"If you would like to report the update issue to your distribution's "
+"packagers, include this information:"
+msgstr ""
+
+#: discover/qml/UpdatesPage.qml:97
+#, kde-format
+msgid "Copy to clipboard"
+msgstr ""
+
+#: discover/qml/UpdatesPage.qml:101
+#, kde-format
+msgid "Error message copied to clipboard"
+msgstr ""
+
+#: discover/qml/UpdatesPage.qml:133
 #, kde-format
 msgid "Update Selected"
 msgstr "Wubrane aktualizować"
 
-#: discover/qml/UpdatesPage.qml:90
+#: discover/qml/UpdatesPage.qml:133
 #, kde-format
 msgid "Update All"
 msgstr "Wšitko wubrać"
 
-#: discover/qml/UpdatesPage.qml:132
+#: discover/qml/UpdatesPage.qml:175
 #, kde-format
 msgid "All updates selected (%1)"
 msgstr "Wšitke aktualizowanja wubrane (%1)"
 
-#: discover/qml/UpdatesPage.qml:132
+#: discover/qml/UpdatesPage.qml:175
 #, kde-format
 msgid "%1/%2 update selected (%3)"
 msgid_plural "%1/%2 updates selected (%3)"
@@ -841,62 +868,65 @@ msgstr[1] "%1/%2 aktualizowani wubranej (%3)"
 msgstr[2] "%1/%2 aktualizowanja wubrane (%3)"
 msgstr[3] "%1/%2 aktualizowanjow wubranych (%3)"
 
-#: discover/qml/UpdatesPage.qml:205
+#: discover/qml/UpdatesPage.qml:248
 #, kde-format
 msgid "Restart Now"
 msgstr "Nětko znowa startować"
 
-#: discover/qml/UpdatesPage.qml:286
+#: discover/qml/UpdatesPage.qml:329
 #, kde-format
 msgid "%1"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:302
+#: discover/qml/UpdatesPage.qml:345
 #, kde-format
 msgid "Installing"
 msgstr "Instaluju"
 
-#: discover/qml/UpdatesPage.qml:333
+#: discover/qml/UpdatesPage.qml:376
 #, kde-format
 msgid "More Information…"
 msgstr "Wjace informacije..."
 
-#: discover/qml/UpdatesPage.qml:361
+#: discover/qml/UpdatesPage.qml:404
 #, kde-format
 msgctxt "@info"
 msgid "Fetching updates…"
 msgstr "Wobstaram aktualizowanja..."
 
-#: discover/qml/UpdatesPage.qml:374
+#: discover/qml/UpdatesPage.qml:417
 #, kde-format
 msgctxt "@info"
 msgid "Updates"
 msgstr "Aktualizowanja"
 
-#: discover/qml/UpdatesPage.qml:383
+#: discover/qml/UpdatesPage.qml:426
 #, kde-format
 msgctxt "@info"
 msgid "Restart the system to complete the update process"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:389 discover/qml/UpdatesPage.qml:395
-#: discover/qml/UpdatesPage.qml:401
+#: discover/qml/UpdatesPage.qml:432 discover/qml/UpdatesPage.qml:438
+#: discover/qml/UpdatesPage.qml:444
 #, kde-format
 msgctxt "@info"
 msgid "Up to date"
 msgstr "Na aktualnym stawje"
 
-#: discover/qml/UpdatesPage.qml:407
+#: discover/qml/UpdatesPage.qml:450
 #, kde-format
 msgctxt "@info"
 msgid "Should check for updates"
 msgstr "Měło so za aktualizowanjemi pytać"
 
-#: discover/qml/UpdatesPage.qml:413
+#: discover/qml/UpdatesPage.qml:456
 #, kde-format
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Čas poslednjeho aktualizowanja njeznaty"
+
+#~ msgid "OK"
+#~ msgstr "W porjadku"
 
 #~ msgctxt "@info"
 #~ msgid "The updates will be installed the next time the system is restarted"
