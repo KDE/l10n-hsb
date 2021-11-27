@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-11-05 00:18+0000\n"
-"PO-Revision-Date: 2021-11-13 22:00+0100\n"
+"PO-Revision-Date: 2021-11-27 13:03+0100\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team: <hsb@li.org>\n"
 "Language: hsb\n"
@@ -34,18 +34,17 @@ msgid "Sorry, no certificates were found in this message."
 msgstr "Wodajć, žane certifikaty w tutej powěsći."
 
 #: messagepartthemes/default/templates/certmessagepart.html:9
-#, fuzzy
 msgid "Certificate import status:"
-msgstr "Certifikat"
+msgstr "Importowy status certifikata:"
 
 #: messagepartthemes/default/templates/certmessagepart.html:13
-#, fuzzy, kde-format
+#, kde-format
 msgid "1 new certificate was imported."
 msgid_plural "%1 new certificates were imported."
-msgstr[0] "Certifikat"
-msgstr[1] "Certifikat"
-msgstr[2] "Certifikat"
-msgstr[3] "Certifikat"
+msgstr[0] "%1 nowy certifikat importowany."
+msgstr[1] "%1 nowej certifikataj importowanej."
+msgstr[2] "%1 nowe certifikaty importowane."
+msgstr[3] "%1 nowych certifikatow importowanych."
 
 #: messagepartthemes/default/templates/certmessagepart.html:16
 #, fuzzy, kde-format
@@ -189,11 +188,8 @@ msgstr ""
 "href='kmail:loadExternal'>hdyž tule kliknjeće</a>."
 
 #: messagepartthemes/default/templates/signedmessagepart.html:5
-#, fuzzy
-#| msgid "Please wait while the message is transferred"
-#| msgid_plural "Please wait while the %1 messages are transferred"
 msgid "Please wait while the signature is being verified..."
-msgstr "Prošu dočakajće, doniž so njejsu te %1 powěsćow přenjesli."
+msgstr "Prošu dočakajće, doniž so podpismo přepruwuje..."
 
 #: messagepartthemes/default/templates/signedmessagepart.html:15
 #, kde-format
@@ -321,11 +317,10 @@ msgid "Key Changed"
 msgstr "Změnjeny kluč"
 
 #: dkim-verify/dkimcheckfulljob.cpp:122
-#, fuzzy, kde-format
-#| msgid "stored: "
+#, kde-format
 msgctxt "@action:button"
 msgid "Store"
-msgstr "zawěsćene: "
+msgstr "Zawěsćić"
 
 #: dkim-verify/dkimmanagerkeywidget.cpp:31
 #: dkim-verify/dkimmanageruleswidget.cpp:74
@@ -1174,12 +1169,12 @@ msgstr "Zdaleny wobsah"
 #: remote-content/remotecontentmenu.cpp:52
 #, kde-format
 msgid "Authorize %1"
-msgstr "%1 awtoriziować"
+msgstr "%1 awtorizować"
 
 #: remote-content/remotecontentmenu.cpp:60
 #, kde-format
 msgid "Authorize all Urls"
-msgstr "Wšitke URL awtoriziować"
+msgstr "Wšitke URL awtorizować"
 
 #: remote-content/remotecontentstatustypecombobox.cpp:12
 #, kde-format
@@ -1839,13 +1834,13 @@ msgid "email messages (*.mbox);;all files (*)"
 msgstr ""
 
 #: utils/messageviewerutil.cpp:536
-#, fuzzy, kde-format
+#, kde-format
 msgid "Save Message"
 msgid_plural "Save Messages"
-msgstr[0] "%1 powěsćow, %2."
-msgstr[1] "%1 powěsćow, %2."
-msgstr[2] "%1 powěsćow, %2."
-msgstr[3] "%1 powěsćow, %2."
+msgstr[0] "Powěsć zawěsćić"
+msgstr[1] "Powěsći zawěsćić"
+msgstr[2] "Powěsće zawěsćić"
+msgstr[3] "Powěsće zawěsćić"
 
 #: utils/messageviewerutil.cpp:561
 #, fuzzy, kde-format
