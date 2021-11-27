@@ -9,14 +9,15 @@ msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-11-27 09:04+0100\n"
-"PO-Revision-Date: 2007-05-06 20:54+0200\n"
+"PO-Revision-Date: 2021-11-27 17:44+0100\n"
 "Last-Translator: Eduard Werner/Edward Wornar <edi.werner@gmx.de>\n"
-"Language-Team:  <hsb@li.org>\n"
+"Language-Team: <hsb@li.org>\n"
 "Language: hsb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+"X-Generator: Poedit 2.3\n"
 
 #. +> trunk5 stable5
 #, kde-format
@@ -509,9 +510,7 @@ msgid "Fixed many IMAP bugs"
 msgstr ""
 
 #. +> trunk5 stable5
-#: aboutdata.cpp:206 collectionpage/collectionmailinglistpage.cpp:77
-#: editor/kmcomposerwin.cpp:2310 kmreaderwin.cpp:317 kmsystemtray.cpp:42
-#: kmsystemtray.cpp:71
+#: aboutdata.cpp:206 collectionpage/collectionmailinglistpage.cpp:77 editor/kmcomposerwin.cpp:2310 kmreaderwin.cpp:317 kmsystemtray.cpp:42 kmsystemtray.cpp:71
 #, kde-format
 msgid "KMail"
 msgstr "KMail"
@@ -620,8 +619,7 @@ msgid "Not available"
 msgstr "Njesteji k dispoziciji"
 
 #. +> trunk5 stable5
-#: collectionpage/collectionmailinglistpage.cpp:184
-#: collectionpage/collectionmailinglistpage.cpp:219
+#: collectionpage/collectionmailinglistpage.cpp:184 collectionpage/collectionmailinglistpage.cpp:219
 #, kde-format
 msgid "Not available."
 msgstr "Njesteji k dispoziciji."
@@ -658,7 +656,7 @@ msgstr "Staw:"
 
 #. +> trunk5 stable5
 #: collectionpage/collectionquotawidget.cpp:33
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "%p% full"
 msgstr "%p% połne"
 
@@ -682,8 +680,7 @@ msgid "<qt>To choose a key or a combination of keys which select the current fol
 msgstr "<qt>Zo byšće tastu abo tastowu kombinaciju wubrali, kiž aktualny zapisk wuzwoli, klikńće na knefl deleka a potom stłóčće tastu (tasće, tasty), kotruž chceće z tutym zapiskom zwjazać.</qt>"
 
 #. +> trunk5 stable5
-#: collectionpage/collectiontemplatespage.cpp:26
-#: identity/identitydialog.cpp:625
+#: collectionpage/collectiontemplatespage.cpp:26 identity/identitydialog.cpp:625
 #, kde-format
 msgid "Templates"
 msgstr "Šablony"
@@ -798,8 +795,7 @@ msgid "Send &messages in outbox folder:"
 msgstr "Powěsće w zapisku za wotchadnu póštu pósłać:"
 
 #. +> trunk5 stable5
-#: configuredialog/configureaccountpage.cpp:112
-#: editor/potentialphishingemail/potentialphishingemailwarning.cpp:24
+#: configuredialog/configureaccountpage.cpp:112 editor/potentialphishingemail/potentialphishingemailwarning.cpp:24
 #, kde-format
 msgid "Send Now"
 msgstr "Hnydom pósłać"
@@ -835,15 +831,13 @@ msgid "Custom Account..."
 msgstr "Hinaše konto..."
 
 #. +> trunk5 stable5
-#: configuredialog/configureaccountpage.cpp:220
-#: kmlaunchexternalcomponent.cpp:143
+#: configuredialog/configureaccountpage.cpp:220 kmlaunchexternalcomponent.cpp:143
 #, kde-format
 msgid "Could not start the account wizard. Please make sure you have AccountWizard properly installed."
 msgstr "Njemóžach kontowy rjadowak startować. Prošu přepruwujće, hač je AccountWizard prawje instalowany."
 
 #. +> trunk5 stable5
-#: configuredialog/configureaccountpage.cpp:222
-#: kmlaunchexternalcomponent.cpp:145
+#: configuredialog/configureaccountpage.cpp:222 kmlaunchexternalcomponent.cpp:145
 #, kde-format
 msgid "Unable to start account wizard"
 msgstr "Njemóžach AccountWizard startować"
@@ -899,8 +893,7 @@ msgid "Layout"
 msgstr "Layout"
 
 #. +> trunk5 stable5
-#: configuredialog/configureappearancepage.cpp:116
-#: configuredialog/configureappearancepage.cpp:141
+#: configuredialog/configureappearancepage.cpp:116 configuredialog/configureappearancepage.cpp:141
 #, kde-format
 msgid "Message List"
 msgstr "Lisćina powěsćow"
@@ -1074,8 +1067,7 @@ msgid "Show Favorite Folders View"
 msgstr "Preferowany napohlad zapiskow pokazać"
 
 #. +> trunk5 stable5
-#: configuredialog/configureappearancepage.cpp:502
-#: configuredialog/configureappearancepage.cpp:530
+#: configuredialog/configureappearancepage.cpp:502 configuredialog/configureappearancepage.cpp:530
 #, kde-format
 msgid "Never"
 msgstr "Ženje"
@@ -1150,77 +1142,16 @@ msgstr "<qt><a href=\"whatsthis1\">Připrawjena informacija wo formaće...</a></
 #: configuredialog/configureappearancepage.cpp:684
 #, kde-format
 msgid ""
-"<qt>"
-"<p><strong>These expressions may be used for the date:</strong></p>"
-"<ul>"
-"<li>d - the day as a number without a leading zero (1-31)</li>"
-"<li>dd - the day as a number with a leading zero (01-31)</li>"
-"<li>ddd - the abbreviated day name (Mon - Sun)</li>"
-"<li>dddd - the long day name (Monday - Sunday)</li>"
-"<li>M - the month as a number without a leading zero (1-12)</li>"
-"<li>MM - the month as a number with a leading zero (01-12)</li>"
-"<li>MMM - the abbreviated month name (Jan - Dec)</li>"
-"<li>MMMM - the long month name (January - December)</li>"
-"<li>yy - the year as a two digit number (00-99)</li>"
-"<li>yyyy - the year as a four digit number (0000-9999)</li>"
-"</ul>"
-"<p><strong>These expressions may be used for the time:</strong></p>"
-" "
-"<ul>"
-"<li>h - the hour without a leading zero (0-23 or 1-12 if AM/PM display)</li>"
-"<li>hh - the hour with a leading zero (00-23 or 01-12 if AM/PM display)</li>"
-"<li>m - the minutes without a leading zero (0-59)</li>"
-"<li>mm - the minutes with a leading zero (00-59)</li>"
-"<li>s - the seconds without a leading zero (0-59)</li>"
-"<li>ss - the seconds with a leading zero (00-59)</li>"
-"<li>z - the milliseconds without leading zeroes (0-999)</li>"
-"<li>zzz - the milliseconds with leading zeroes (000-999)</li>"
-"<li>AP - switch to AM/PM display. AP will be replaced by either \"AM\" or \"PM\".</li>"
-"<li>ap - switch to AM/PM display. ap will be replaced by either \"am\" or \"pm\".</li>"
-"<li>Z - time zone in numeric form (-0500)</li>"
-"</ul>"
-"<p><strong>All other input characters will be ignored.</strong></p>"
-"</qt>"
+"<qt><p><strong>These expressions may be used for the date:</strong></p><ul><li>d - the day as a number without a leading zero (1-31)</li><li>dd - the day as a number with a leading zero (01-31)</li><li>ddd - the abbreviated day name (Mon - Sun)</li><li>dddd - the long day name (Monday - Sunday)</li><li>M - the month as a number without a leading zero (1-12)</li><li>MM - the "
+"month as a number with a leading zero (01-12)</li><li>MMM - the abbreviated month name (Jan - Dec)</li><li>MMMM - the long month name (January - December)</li><li>yy - the year as a two digit number (00-99)</li><li>yyyy - the year as a four digit number (0000-9999)</li></ul><p><strong>These expressions may be used for the time:</strong></p> <ul><li>h - the hour without a "
+"leading zero (0-23 or 1-12 if AM/PM display)</li><li>hh - the hour with a leading zero (00-23 or 01-12 if AM/PM display)</li><li>m - the minutes without a leading zero (0-59)</li><li>mm - the minutes with a leading zero (00-59)</li><li>s - the seconds without a leading zero (0-59)</li><li>ss - the seconds with a leading zero (00-59)</li><li>z - the milliseconds without "
+"leading zeroes (0-999)</li><li>zzz - the milliseconds with leading zeroes (000-999)</li><li>AP - switch to AM/PM display. AP will be replaced by either \"AM\" or \"PM\".</li><li>ap - switch to AM/PM display. ap will be replaced by either \"am\" or \"pm\".</li><li>Z - time zone in numeric form (-0500)</li></ul><p><strong>All other input characters will be ignored.</strong></"
+"p></qt>"
 msgstr ""
-"<qt>"
-"<p><strong>Tute wurazy móža so za podaća datuma wužiwać:</strong></p>"
-" "
-"<ul> "
-"<li>d - dźeń jako ličba bjez nulow na spočatku (1-31)</li>"
-" "
-"<li>dd - dźeń jako ličba z nulow na spočatku (01-31)</li>"
-" "
-"<li>ddd - skrótšene pomjenjowanje dnja (pó - nje)</li>"
-" "
-"<li>M - měsac jako ličba bjez nulow na spočatku (1-12)</li>"
-" "
-"<li>MM - měsac jako ličba z nulu na spočatku (01-12)</li>"
-" "
-"<li>MMM - skrótšene pomjenowanja měsaca (jan-dec)</li>"
-" "
-"<li>MMMM - dołhe pomjenowanja měsaca (januar-december)</li>"
-" "
-"<li>yy - lěto jako dwucyfrowa ličba (00-99)</li>"
-"<li>yyyy - lěto jako štyricyfrowa ličba (0000-9999)</li>"
-"</ul>"
-" "
-"<p><strong>Tute wurazy móža so za podaća datuma wužiwać:</strong></p>"
-" "
-"<ul> "
-"<li>h - hodźiny bjez nule na spočatku (0-23 abo 1-12 + rano/popołdnju)</li>"
-"<li>hh - hodźiny z nul na spočatku (00-23 abo 01-12 + rano/popołdnju)</li>"
-"<li>m - mjeńšiny bjez nule na spočatku (0-59)</li>"
-"<li>mm - mjeńšiny z nulu na spočatku (00-59)</li>"
-"<li>s - sekundy bjez nule na spočatku (0-59)</li>"
-"<li>ss - sekundy z nulu na spočatku (00-59)</li>"
-"<li>z - milisekundy bjez nule na spočatku (0-999)</li>"
-"<li>zzz - milisekundy z nulu na spočatku (000-999)</li>"
-" "
-"<li>AP/ap - pokaž rano/popołdnju "
-"<li>Z - časowa cona w numeriskej formje (-0500)</li>"
-"</ul>"
-"<p><strong>Wšitke druhe zapodate pismiki so ignoruja.</strong></p>"
-"</qt></qt>"
+"<qt><p><strong>Tute wurazy móža so za podaća datuma wužiwać:</strong></p> <ul> <li>d - dźeń jako ličba bjez nulow na spočatku (1-31)</li> <li>dd - dźeń jako ličba z nulow na spočatku (01-31)</li> <li>ddd - skrótšene pomjenjowanje dnja (pó - nje)</li> <li>M - měsac jako ličba bjez nulow na spočatku (1-12)</li> <li>MM - měsac jako ličba z nulu na spočatku (01-12)</li> <li>MMM "
+"- skrótšene pomjenowanja měsaca (jan-dec)</li> <li>MMMM - dołhe pomjenowanja měsaca (januar-december)</li> <li>yy - lěto jako dwucyfrowa ličba (00-99)</li><li>yyyy - lěto jako štyricyfrowa ličba (0000-9999)</li></ul> <p><strong>Tute wurazy móža so za podaća datuma wužiwać:</strong></p> <ul> <li>h - hodźiny bjez nule na spočatku (0-23 abo 1-12 + rano/popołdnju)</li><li>hh - "
+"hodźiny z nul na spočatku (00-23 abo 01-12 + rano/popołdnju)</li><li>m - mjeńšiny bjez nule na spočatku (0-59)</li><li>mm - mjeńšiny z nulu na spočatku (00-59)</li><li>s - sekundy bjez nule na spočatku (0-59)</li><li>ss - sekundy z nulu na spočatku (00-59)</li><li>z - milisekundy bjez nule na spočatku (0-999)</li><li>zzz - milisekundy z nulu na spočatku (000-999)</li> <li>AP/"
+"ap - pokaž rano/popołdnju <li>Z - časowa cona w numeriskej formje (-0500)</li></ul><p><strong>Wšitke druhe zapodate pismiki so ignoruja.</strong></p></qt></qt>"
 
 #. +> trunk5 stable5
 #: configuredialog/configureappearancepage.cpp:721
@@ -1255,8 +1186,7 @@ msgstr "Systemowu wotkładku wužiwać"
 
 #. i18n: ectx: label, entry (StartInTray), group (General)
 #. +> trunk5 stable5
-#: configuredialog/configureappearancepage.cpp:854 kmail_options.h:26
-#: settings/kmail.kcfg.cmake:93
+#: configuredialog/configureappearancepage.cpp:854 kmail_options.h:26 settings/kmail.kcfg.cmake:93
 #, kde-format
 msgid "Start minimized to tray"
 msgstr "Minimizowany we wotkładce startować"
@@ -1317,8 +1247,7 @@ msgid "Remove Tag"
 msgstr "Etiket wotstronić"
 
 #. +> trunk5 stable5
-#: configuredialog/configureappearancepage.cpp:1211
-#: configuredialog/configureappearancepage.cpp:1246
+#: configuredialog/configureappearancepage.cpp:1211 configuredialog/configureappearancepage.cpp:1246
 #, kde-format
 msgid "We cannot create tag. A tag with same name already exists."
 msgstr "Etiket njehodźi so wutworić. Etiket ze samsnym mjenom hižo eksistuje."
@@ -1620,8 +1549,7 @@ msgid "Repl&y Subject Prefixes"
 msgstr "Temowy &prefiks za wotmołwu"
 
 #. +> trunk5 stable5
-#: configuredialog/configurecomposerpage.cpp:656
-#: configuredialog/configurecomposerpage.cpp:684
+#: configuredialog/configurecomposerpage.cpp:656 configuredialog/configurecomposerpage.cpp:684
 #, kde-format
 msgid ""
 "Recognize any sequence of the following prefixes\n"
@@ -1631,24 +1559,19 @@ msgstr ""
 "(zapodaća su prawidłowne wurazy, wulko- a małopisanje so ignoruje):"
 
 #. +> trunk5 stable5
-#: configuredialog/configurecomposerpage.cpp:666
-#: configuredialog/configurecomposerpage.cpp:751
-#: configuredialog/configurecomposerpage.cpp:1132
+#: configuredialog/configurecomposerpage.cpp:666 configuredialog/configurecomposerpage.cpp:751 configuredialog/configurecomposerpage.cpp:1132
 #, kde-format
 msgid "A&dd..."
 msgstr "&Dodać..."
 
 #. +> trunk5 stable5
-#: configuredialog/configurecomposerpage.cpp:666
-#: configuredialog/configurecomposerpage.cpp:905
-#: configuredialog/configurecomposerpage.cpp:1132
+#: configuredialog/configurecomposerpage.cpp:666 configuredialog/configurecomposerpage.cpp:905 configuredialog/configurecomposerpage.cpp:1132
 #, kde-format
 msgid "Re&move"
 msgstr "Z&ničić"
 
 #. +> trunk5 stable5
-#: configuredialog/configurecomposerpage.cpp:666
-#: configuredialog/configurecomposerpage.cpp:1132
+#: configuredialog/configurecomposerpage.cpp:666 configuredialog/configurecomposerpage.cpp:1132
 #, kde-format
 msgid "Mod&ify..."
 msgstr "Z&měnić..."
@@ -1679,8 +1602,7 @@ msgstr "&Temowe prefiksy dopósłać"
 
 #. i18n: ectx: property (text), widget (QPushButton, mRemoveButton)
 #. +> trunk5 stable5
-#: configuredialog/configurecomposerpage.cpp:692
-#: configuredialog/configurecomposerpage.cpp:752 ui/identitypage.ui:66
+#: configuredialog/configurecomposerpage.cpp:692 configuredialog/configurecomposerpage.cpp:752 ui/identitypage.ui:66
 #, kde-format
 msgid "Remo&ve"
 msgstr "&Zničić"
@@ -2048,12 +1970,7 @@ msgid "Changing the global HTML setting will override all folder specific values
 msgstr "Změna globalneho HTML-postajenja přerjaduje wšitke rjadowanja jednotliwych zapiskow."
 
 #. +> trunk5 stable5
-#: configuredialog/configuresecuritypage.cpp:333
-#: configuredialog/configuresecuritypage.cpp:336
-#: configuredialog/configuresecuritypage.cpp:338
-#: configuredialog/configuresecuritypage.cpp:340
-#: configuredialog/configuresecuritypage.cpp:343
-#: configuredialog/configuresecuritypage.cpp:345
+#: configuredialog/configuresecuritypage.cpp:333 configuredialog/configuresecuritypage.cpp:336 configuredialog/configuresecuritypage.cpp:338 configuredialog/configuresecuritypage.cpp:340 configuredialog/configuresecuritypage.cpp:343 configuredialog/configuresecuritypage.cpp:345
 #, kde-format
 msgid " day"
 msgid_plural " days"
@@ -2244,8 +2161,7 @@ msgid "Encoding"
 msgstr "Kodowanje"
 
 #. +> trunk5 stable5
-#: editor/kmcomposerwin.cpp:277 kmail_part.cpp:45 kmmainwin.cpp:54
-#: kmreadermainwin.cpp:464 kontactplugin/kmail/kmail_plugin.cpp:39
+#: editor/kmcomposerwin.cpp:277 kmail_part.cpp:45 kmmainwin.cpp:54 kmreadermainwin.cpp:464 kontactplugin/kmail/kmail_plugin.cpp:39
 #, kde-format
 msgid "KMail2"
 msgstr "KMail2"
@@ -2344,8 +2260,7 @@ msgid "Send"
 msgstr "Pó&słać"
 
 #. +> trunk5 stable5
-#: editor/kmcomposerwin.cpp:1182 editor/kmcomposerwin.cpp:1194
-#: editor/kmcomposerwin.cpp:3047
+#: editor/kmcomposerwin.cpp:1182 editor/kmcomposerwin.cpp:1194 editor/kmcomposerwin.cpp:3047
 #, kde-format
 msgid "Send &Later"
 msgstr "&Pozdźišo pósłać"
@@ -2804,11 +2719,7 @@ msgstr "bjez mjena"
 #. +> trunk5 stable5
 #: editor/kmcomposerwin.cpp:2537
 #, kde-format
-msgid ""
-"<qt>"
-"<p>You have requested that messages be encrypted to yourself, but the currently selected identity does not define an (OpenPGP or S/MIME) encryption key to use for this.</p>"
-"<p>Please select the key(s) to use in the identity configuration.</p>"
-"</qt>"
+msgid "<qt><p>You have requested that messages be encrypted to yourself, but the currently selected identity does not define an (OpenPGP or S/MIME) encryption key to use for this.</p><p>Please select the key(s) to use in the identity configuration.</p></qt>"
 msgstr ""
 
 #. +> trunk5 stable5
@@ -2820,16 +2731,8 @@ msgstr "Njedefinowany šifrowanski kluč"
 #. +> trunk5 stable5
 #: editor/kmcomposerwin.cpp:2608
 #, kde-format
-msgid ""
-"<qt>"
-"<p>In order to be able to sign this message you first have to define the (OpenPGP or S/MIME) signing key to use.</p>"
-"<p>Please select the key to use in the identity configuration.</p>"
-"</qt>"
-msgstr ""
-"<qt>"
-"<p>Za podpisanje tuteje powěsće dyrbiće najprjedy podpisowanski kluč (za OpenPGP abo S/MIME) definować.</p>"
-"<p> Prošu wubjerće kluč, kiž ma so wužić, w připrawjenju identity.</p>"
-"</qt>"
+msgid "<qt><p>In order to be able to sign this message you first have to define the (OpenPGP or S/MIME) signing key to use.</p><p>Please select the key to use in the identity configuration.</p></qt>"
+msgstr "<qt><p>Za podpisanje tuteje powěsće dyrbiće najprjedy podpisowanski kluč (za OpenPGP abo S/MIME) definować.</p><p> Prošu wubjerće kluč, kiž ma so wužić, w připrawjenju identity.</p></qt>"
 
 #. +> trunk5 stable5
 #: editor/kmcomposerwin.cpp:2615
@@ -3063,23 +2966,13 @@ msgstr "Bjez wobkrućenja pósłać"
 #. +> trunk5 stable5
 #: editor/warningwidgets/attachmentaddedfromexternalwarning.cpp:24
 #, kde-format
-msgid ""
-"This attachment: "
-"<ul>"
-"<li>%1</li>"
-"</ul>"
-" was added externally. Remove it if it's an error."
+msgid "This attachment: <ul><li>%1</li></ul> was added externally. Remove it if it's an error."
 msgstr ""
 
 #. +> trunk5 stable5
 #: editor/warningwidgets/attachmentaddedfromexternalwarning.cpp:26
 #, kde-format
-msgid ""
-"These attachments: "
-"<ul>"
-"<li>%1</li>"
-"</ul>"
-" were added externally. Remove them if it's an error."
+msgid "These attachments: <ul><li>%1</li></ul> were added externally. Remove them if it's an error."
 msgstr ""
 
 #. +> trunk5 stable5
@@ -3164,9 +3057,7 @@ msgid "Message will not be encrypted"
 msgstr "Powěsć njebudźe šifrowana"
 
 #. +> trunk5 stable5
-#: folderarchive/folderarchiveagentcheckcollection.cpp:35
-#: folderarchive/folderarchiveagentjob.cpp:59
-#: folderarchive/folderarchiveagentjob.cpp:65
+#: folderarchive/folderarchiveagentcheckcollection.cpp:35 folderarchive/folderarchiveagentjob.cpp:59 folderarchive/folderarchiveagentjob.cpp:65
 #, fuzzy, kde-format
 msgid "Cannot fetch collection. %1"
 msgstr "Suń powěsće do zapiska"
@@ -3251,8 +3142,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, image)
 #. +> trunk5 stable5
-#: identity/encodedimagepicker.cpp:84 kmcommands.cpp:1812
-#: ui/encodedimagepicker.ui:37
+#: identity/encodedimagepicker.cpp:84 kmcommands.cpp:1812 ui/encodedimagepicker.ui:37
 #, kde-format
 msgid "Image"
 msgstr "Wobraz"
@@ -3264,8 +3154,7 @@ msgid "You do not have your own contact defined in the address book."
 msgstr "Njejsće w adresniku swoje kontaktne daty definowali."
 
 #. +> trunk5 stable5
-#: identity/encodedimagepicker.cpp:132 identity/encodedimagepicker.cpp:142
-#: identity/encodedimagepicker.cpp:150
+#: identity/encodedimagepicker.cpp:132 identity/encodedimagepicker.cpp:142 identity/encodedimagepicker.cpp:150
 #, kde-format
 msgid "No Picture"
 msgstr "Žadyn wobraz"
@@ -3277,8 +3166,7 @@ msgid "No picture set for your address book entry."
 msgstr ""
 
 #. +> trunk5 stable5
-#: identity/identityaddvcarddialog.cpp:27
-#: identity/identityeditvcarddialog.cpp:43
+#: identity/identityaddvcarddialog.cpp:27 identity/identityeditvcarddialog.cpp:43
 #, kde-format
 msgctxt "@title:window"
 msgid "Create own vCard"
@@ -3367,12 +3255,7 @@ msgstr "&Waše mjeno:"
 #. +> trunk5 stable5
 #: identity/identitydialog.cpp:280
 #, kde-format
-msgid ""
-"<qt>"
-"<h3>Your name</h3>"
-"<p>This field should contain your name as you would like it to appear in the email header that is sent out;</p>"
-"<p>if you leave this blank your real name will not appear, only the email address.</p>"
-"</qt>"
+msgid "<qt><h3>Your name</h3><p>This field should contain your name as you would like it to appear in the email header that is sent out;</p><p>if you leave this blank your real name will not appear, only the email address.</p></qt>"
 msgstr ""
 
 #. +> trunk5 stable5
@@ -3384,12 +3267,7 @@ msgstr "Organi&zacija:"
 #. +> trunk5 stable5
 #: identity/identitydialog.cpp:297
 #, kde-format
-msgid ""
-"<qt>"
-"<h3>Organization</h3>"
-"<p>This field should have the name of your organization if you would like it to be shown in the email header that is sent out.</p>"
-"<p>It is safe (and normal) to leave this blank.</p>"
-"</qt>"
+msgid "<qt><h3>Organization</h3><p>This field should have the name of your organization if you would like it to be shown in the email header that is sent out.</p><p>It is safe (and normal) to leave this blank.</p></qt>"
 msgstr ""
 
 #. +> trunk5 stable5
@@ -3401,13 +3279,7 @@ msgstr "&emailowa adresa:"
 #. +> trunk5 stable5
 #: identity/identitydialog.cpp:315
 #, kde-format
-msgid ""
-"<qt>"
-"<h3>Email address</h3>"
-"<p>This field should have your full email address.</p>"
-"<p>This address is the primary one, used for all outgoing mail. If you have more than one address, either create a new identity, or add additional alias addresses in the field below.</p>"
-"<p>If you leave this blank, or get it wrong, people will have trouble replying to you.</p>"
-"</qt>"
+msgid "<qt><h3>Email address</h3><p>This field should have your full email address.</p><p>This address is the primary one, used for all outgoing mail. If you have more than one address, either create a new identity, or add additional alias addresses in the field below.</p><p>If you leave this blank, or get it wrong, people will have trouble replying to you.</p></qt>"
 msgstr ""
 
 #. +> trunk5 stable5
@@ -3420,23 +3292,8 @@ msgstr "&emailowe aliasy:"
 #: identity/identitydialog.cpp:340
 #, kde-format
 msgid ""
-"<qt>"
-"<h3>Email aliases</h3>"
-"<p>This field contains alias addresses that should also be considered as belonging to this identity (as opposed to representing a different identity).</p>"
-"<p>Example:</p>"
-"<table>"
-"<tr>"
-"<th>Primary address:</th>"
-"<td>first.last@example.org</td>"
-"</tr>"
-"<tr>"
-"<th>Aliases:</th>"
-"<td>first@example.org<br>"
-"last@example.org</td>"
-"</tr>"
-"</table>"
-"<p>Type one alias address per line.</p>"
-"</qt>"
+"<qt><h3>Email aliases</h3><p>This field contains alias addresses that should also be considered as belonging to this identity (as opposed to representing a different identity).</p><p>Example:</p><table><tr><th>Primary address:</th><td>first.last@example.org</td></tr><tr><th>Aliases:</th><td>first@example.org<br>last@example.org</td></tr></table><p>Type one alias address per "
+"line.</p></qt>"
 msgstr ""
 
 #. +> trunk5 stable5
@@ -3448,12 +3305,7 @@ msgstr "Šifrowanje"
 #. +> trunk5 stable5
 #: identity/identitydialog.cpp:364
 #, kde-format
-msgid ""
-"<qt>"
-"<p>The OpenPGP key you choose here will be used to digitally sign messages. You can also use GnuPG keys.</p>"
-"<p>You can leave this blank, but KMail will not be able to digitally sign emails using OpenPGP; normal mail functions will not be affected.</p>"
-"<p>You can find out more about keys at <a>https://www.gnupg.org</a></p>"
-"</qt>"
+msgid "<qt><p>The OpenPGP key you choose here will be used to digitally sign messages. You can also use GnuPG keys.</p><p>You can leave this blank, but KMail will not be able to digitally sign emails using OpenPGP; normal mail functions will not be affected.</p><p>You can find out more about keys at <a>https://www.gnupg.org</a></p></qt>"
 msgstr ""
 
 #. +> trunk5 stable5
@@ -3466,11 +3318,8 @@ msgstr "OpenPGP-kluč za podpisanje:"
 #: identity/identitydialog.cpp:380
 #, kde-format
 msgid ""
-"<qt>"
-"<p>The OpenPGP key you choose here will be used to encrypt messages to yourself and for the \"Attach My Public Key\" feature in the composer. You can also use GnuPG keys.</p>"
-"<p>You can leave this blank, but KMail will not be able to encrypt copies of outgoing messages to you using OpenPGP; normal mail functions will not be affected.</p>"
-"<p>You can find out more about keys at <a>https://www.gnupg.org</a></p>"
-"</qt>"
+"<qt><p>The OpenPGP key you choose here will be used to encrypt messages to yourself and for the \"Attach My Public Key\" feature in the composer. You can also use GnuPG keys.</p><p>You can leave this blank, but KMail will not be able to encrypt copies of outgoing messages to you using OpenPGP; normal mail functions will not be affected.</p><p>You can find out more about keys "
+"at <a>https://www.gnupg.org</a></p></qt>"
 msgstr ""
 
 #. +> trunk5 stable5
@@ -3482,11 +3331,7 @@ msgstr "OpenPGP-kluč za šifrowanje:"
 #. +> trunk5 stable5
 #: identity/identitydialog.cpp:397
 #, kde-format
-msgid ""
-"<qt>"
-"<p>The S/MIME (X.509) certificate you choose here will be used to digitally sign messages.</p>"
-"<p>You can leave this blank, but KMail will not be able to digitally sign emails using S/MIME; normal mail functions will not be affected.</p>"
-"</qt>"
+msgid "<qt><p>The S/MIME (X.509) certificate you choose here will be used to digitally sign messages.</p><p>You can leave this blank, but KMail will not be able to digitally sign emails using S/MIME; normal mail functions will not be affected.</p></qt>"
 msgstr ""
 
 #. +> trunk5 stable5
@@ -3498,11 +3343,7 @@ msgstr ""
 #. +> trunk5 stable5
 #: identity/identitydialog.cpp:416
 #, kde-format
-msgid ""
-"<qt>"
-"<p>The S/MIME certificate you choose here will be used to encrypt messages to yourself and for the \"Attach My Certificate\" feature in the composer.</p>"
-"<p>You can leave this blank, but KMail will not be able to encrypt copies of outgoing messages to you using S/MIME; normal mail functions will not be affected.</p>"
-"</qt>"
+msgid "<qt><p>The S/MIME certificate you choose here will be used to encrypt messages to yourself and for the \"Attach My Certificate\" feature in the composer.</p><p>You can leave this blank, but KMail will not be able to encrypt copies of outgoing messages to you using S/MIME; normal mail functions will not be affected.</p></qt>"
 msgstr ""
 
 #. +> trunk5 stable5
@@ -3547,12 +3388,8 @@ msgstr "&Adresa za wotmołwy:"
 #: identity/identitydialog.cpp:469
 #, kde-format
 msgid ""
-"<qt>"
-"<h3>Reply-To addresses</h3>"
-"<p>This sets the <tt>Reply-to:</tt> header to contain a different email address to the normal <tt>From:</tt> address.</p>"
-"<p>This can be useful when you have a group of people working together in similar roles. For example, you might want any emails sent to have your email in the <tt>From:</tt> field, but any responses to go to a group address.</p>"
-"<p>If in doubt, leave this field blank.</p>"
-"</qt>"
+"<qt><h3>Reply-To addresses</h3><p>This sets the <tt>Reply-to:</tt> header to contain a different email address to the normal <tt>From:</tt> address.</p><p>This can be useful when you have a group of people working together in similar roles. For example, you might want any emails sent to have your email in the <tt>From:</tt> field, but any responses to go to a group address.</"
+"p><p>If in doubt, leave this field blank.</p></qt>"
 msgstr ""
 
 #. +> trunk5 stable5
@@ -3565,20 +3402,9 @@ msgstr "Adresy za &dalše kopije:"
 #: identity/identitydialog.cpp:491
 #, kde-format
 msgid ""
-"<qt>"
-"<h3>CC (Carbon Copy) addresses</h3>"
-"<p>The addresses that you enter here will be added to each outgoing mail that is sent with this identity.</p>"
-"<p>This is commonly used to send a copy of each sent message to another account of yours.</p>"
-"<p>To specify more than one address, use commas to separate the list of CC recipients.</p>"
-"<p>If in doubt, leave this field blank.</p>"
-"</qt>"
-msgstr ""
-"<qt>"
-"<h3>Adresy za dalše kopije (CC)</h3>"
-"<p>Adresy, kiž tu zapodaće, so kóždej wotchadźacej mailce dodawaja, kiž so z tutej identitu sćele. </p>"
-"<p>To so zwjetša wužiwa, zo by sej wotpósłar sam kopije listow na druhe konto pósłał.</p>"
-"<p>Jeli njewěsće, što móhli tu zapodać, wostajće pólko prózdne.</p>"
-"</qt>"
+"<qt><h3>CC (Carbon Copy) addresses</h3><p>The addresses that you enter here will be added to each outgoing mail that is sent with this identity.</p><p>This is commonly used to send a copy of each sent message to another account of yours.</p><p>To specify more than one address, use commas to separate the list of CC recipients.</p><p>If in doubt, leave this field blank.</p></"
+"qt>"
+msgstr "<qt><h3>Adresy za dalše kopije (CC)</h3><p>Adresy, kiž tu zapodaće, so kóždej wotchadźacej mailce dodawaja, kiž so z tutej identitu sćele. </p><p>To so zwjetša wužiwa, zo by sej wotpósłar sam kopije listow na druhe konto pósłał.</p><p>Jeli njewěsće, što móhli tu zapodać, wostajće pólko prózdne.</p></qt>"
 
 #. +> trunk5 stable5
 #: identity/identitydialog.cpp:506
@@ -3590,20 +3416,9 @@ msgstr "Adresy za &slepe kopije:"
 #: identity/identitydialog.cpp:510
 #, kde-format
 msgid ""
-"<qt>"
-"<h3>BCC (Blind Carbon Copy) addresses</h3>"
-"<p>The addresses that you enter here will be added to each outgoing mail that is sent with this identity. They will not be visible to other recipients.</p>"
-"<p>This is commonly used to send a copy of each sent message to another account of yours.</p>"
-"<p>To specify more than one address, use commas to separate the list of BCC recipients.</p>"
-"<p>If in doubt, leave this field blank.</p>"
-"</qt>"
-msgstr ""
-"<qt>"
-"<h3>Adresy za dalša kopije (BCC)</h3>"
-"<p>Adresy, kiž tu zapodaće, so kóždej wotchadźacej mailce dodawaja, kiž so z tutej identitu sćele. Wone za druhich adresatow njebudu widźomne.</p>"
-"<p>To so zwjetša wužiwa, zo by sej wotpósłar sam kopije listow na druhe konto pósłał.</p>"
-"<p>Jeli njewěsće, što móhli tu zapodać, wostajće pólko prózdne.</p>"
-"</qt>"
+"<qt><h3>BCC (Blind Carbon Copy) addresses</h3><p>The addresses that you enter here will be added to each outgoing mail that is sent with this identity. They will not be visible to other recipients.</p><p>This is commonly used to send a copy of each sent message to another account of yours.</p><p>To specify more than one address, use commas to separate the list of BCC "
+"recipients.</p><p>If in doubt, leave this field blank.</p></qt>"
+msgstr "<qt><h3>Adresy za dalša kopije (BCC)</h3><p>Adresy, kiž tu zapodaće, so kóždej wotchadźacej mailce dodawaja, kiž so z tutej identitu sćele. Wone za druhich adresatow njebudu widźomne.</p><p>To so zwjetša wužiwa, zo by sej wotpósłar sam kopije listow na druhe konto pósłał.</p><p>Jeli njewěsće, što móhli tu zapodać, wostajće pólko prózdne.</p></qt>"
 
 #. +> trunk5 stable5
 #: identity/identitydialog.cpp:524
@@ -3686,14 +3501,8 @@ msgstr "S&tandardna domena:"
 #. +> trunk5 stable5
 #: identity/identitydialog.cpp:587
 #, kde-format
-msgid ""
-"<qt>"
-"<p>The default domain is used to complete email addresses that only consist of the user's name.</p>"
-"</qt>"
-msgstr ""
-"<qt>"
-"<p>Ze standardnej domenu so emailowe adresy wudospołnja, kiž jenož z mjena wužiwarja wobsteja.</p>"
-"</qt>"
+msgid "<qt><p>The default domain is used to complete email addresses that only consist of the user's name.</p></qt>"
+msgstr "<qt><p>Ze standardnej domenu so emailowe adresy wudospołnja, kiž jenož z mjena wužiwarja wobsteja.</p></qt>"
 
 #. +> trunk5 stable5
 #: identity/identitydialog.cpp:604
@@ -3726,8 +3535,7 @@ msgid "Invalid Email Alias \"%1\""
 msgstr "Njekorektny emailowy alias \"%1\""
 
 #. +> trunk5 stable5
-#: identity/identitydialog.cpp:700 job/addressvalidationjob.cpp:80
-#: job/addressvalidationjob.cpp:86
+#: identity/identitydialog.cpp:700 job/addressvalidationjob.cpp:80 job/addressvalidationjob.cpp:86
 #, kde-format
 msgid "Invalid Email Address"
 msgstr "Njekorektna emailowa adresa"
@@ -3813,8 +3621,7 @@ msgid "Are you sure you want to delete this vCard?"
 msgstr "Chceće woprawdźe papjernik wuprózdnić?"
 
 #. +> trunk5 stable5
-#: identity/identityeditvcarddialog.cpp:60
-#: identity/identityeditvcarddialog.cpp:80
+#: identity/identityeditvcarddialog.cpp:60 identity/identityeditvcarddialog.cpp:80
 #, fuzzy, kde-format
 msgid "Delete vCard"
 msgstr "Z&ničić"
@@ -4101,9 +3908,7 @@ msgstr "Pytanje wumazać"
 #. +> trunk5 stable5
 #: job/removecollectionjob.cpp:58
 #, fuzzy, kde-format
-msgid ""
-"<qt>Are you sure you want to delete the search <b>%1</b>?<br />"
-"Any messages it shows will still be available in their original folder.</qt>"
+msgid "<qt>Are you sure you want to delete the search <b>%1</b>?<br />Any messages it shows will still be available in their original folder.</qt>"
 msgstr "<qt>Chceće woprawdźe pytanski zapisk zničić <b>%1</b>? Powěsće so dla toho njezniča, dokelž su w druhich zapiskach zawěsćene.</qt>"
 
 #. +> trunk5 stable5
@@ -4128,28 +3933,19 @@ msgstr "<qt>Chceće woprawdźe prózdny zapisk <b>%1</b> zničić?</qt>"
 #. +> trunk5 stable5
 #: job/removecollectionjob.cpp:73
 #, fuzzy, kde-format
-msgid ""
-"<qt>Are you sure you want to delete the empty folder <resource>%1</resource> and all its subfolders? Those subfolders might not be empty and their contents will be discarded as well. "
-"<p><b>Beware</b> that discarded messages are not saved into your Trash folder and are permanently deleted.</p>"
-"</qt>"
+msgid "<qt>Are you sure you want to delete the empty folder <resource>%1</resource> and all its subfolders? Those subfolders might not be empty and their contents will be discarded as well. <p><b>Beware</b> that discarded messages are not saved into your Trash folder and are permanently deleted.</p></qt>"
 msgstr "<qt>Chceće woprawdźe prózdny zapisk <b>%1</b> ze wšěmi podzapiskami zničić? W poodzapiskach móhło něšto nutřka być, štož so potom sobu zniči.</qt>"
 
 #. +> trunk5 stable5
 #: job/removecollectionjob.cpp:83
 #, fuzzy, kde-format
-msgid ""
-"<qt>Are you sure you want to delete the folder <resource>%1</resource>, discarding its contents? "
-"<p><b>Beware</b> that discarded messages are not saved into your Trash folder and are permanently deleted.</p>"
-"</qt>"
+msgid "<qt>Are you sure you want to delete the folder <resource>%1</resource>, discarding its contents? <p><b>Beware</b> that discarded messages are not saved into your Trash folder and are permanently deleted.</p></qt>"
 msgstr "<qt>Chceće woprawdźe zapisk <b>%1</b> zničić a wšitke powěsće w nim zničić?</qt>"
 
 #. +> trunk5 stable5
 #: job/removecollectionjob.cpp:90
 #, fuzzy, kde-format
-msgid ""
-"<qt>Are you sure you want to delete the folder <resource>%1</resource> and all its subfolders, discarding their contents? "
-"<p><b>Beware</b> that discarded messages are not saved into your Trash folder and are permanently deleted.</p>"
-"</qt>"
+msgid "<qt>Are you sure you want to delete the folder <resource>%1</resource> and all its subfolders, discarding their contents? <p><b>Beware</b> that discarded messages are not saved into your Trash folder and are permanently deleted.</p></qt>"
 msgstr "<qt>Chceće woprawdźe prózdny zapisk <b>%1</b> ze wšěmi podzapiskami zničić? W poodzapiskach móhło něšto nutřka być, štož so potom sobu zniči.</qt>"
 
 #. +> trunk5 stable5
@@ -4160,30 +3956,25 @@ msgid "&Delete"
 msgstr "Z&ničić"
 
 #. +> trunk5 stable5
-#: job/removeduplicatemailjob.cpp:31
-#: job/removeduplicatemessageinfolderandsubfolderjob.cpp:69
+#: job/removeduplicatemailjob.cpp:31 job/removeduplicatemessageinfolderandsubfolderjob.cpp:69
 #, kde-format
 msgid "Removing duplicates"
 msgstr "Dwójne powěsće wotstronić"
 
 #. +> trunk5 stable5
-#: job/removeduplicatemailjob.cpp:58
-#: job/removeduplicatemessageinfolderandsubfolderjob.cpp:87
-#: manageshowcollectionproperties.cpp:171
+#: job/removeduplicatemailjob.cpp:58 job/removeduplicatemessageinfolderandsubfolderjob.cpp:87 manageshowcollectionproperties.cpp:171
 #, kde-format
 msgid "Done"
 msgstr "Hotowo"
 
 #. +> trunk5 stable5
-#: job/removeduplicatemailjob.cpp:62
-#: job/removeduplicatemessageinfolderandsubfolderjob.cpp:93
+#: job/removeduplicatemailjob.cpp:62 job/removeduplicatemessageinfolderandsubfolderjob.cpp:93
 #, fuzzy, kde-format
 msgid "Error occurred during removing duplicate emails: '%1'"
 msgstr "Zmylk při pósłanju zapiska"
 
 #. +> trunk5 stable5
-#: job/removeduplicatemailjob.cpp:62
-#: job/removeduplicatemessageinfolderandsubfolderjob.cpp:94
+#: job/removeduplicatemailjob.cpp:62 job/removeduplicatemessageinfolderandsubfolderjob.cpp:94
 #, fuzzy, kde-format
 msgid "Error while removing duplicates"
 msgstr "Zmylk při pósłanju zapiska"
@@ -4324,16 +4115,14 @@ msgstr "&Zapisk"
 
 #. i18n: ectx: Menu (apply_filters_folder_actions)
 #. +> trunk5 stable5
-#: kmail_part.rc:129 kmail_part.rc:276 kmmainwidget.cpp:3370 kmmainwin.rc:129
-#: kmmainwin.rc:276
+#: kmail_part.rc:129 kmail_part.rc:276 kmmainwidget.cpp:3370 kmmainwin.rc:129 kmmainwin.rc:276
 #, kde-format
 msgid "Apply Filters on Folder"
 msgstr "Filtry na zapisk nałožić"
 
 #. i18n: ectx: Menu (apply_filters_folder_recursive_actions)
 #. +> trunk5 stable5
-#: kmail_part.rc:134 kmail_part.rc:281 kmmainwidget.cpp:3375 kmmainwin.rc:134
-#: kmmainwin.rc:281
+#: kmail_part.rc:134 kmail_part.rc:281 kmmainwidget.cpp:3375 kmmainwin.rc:134 kmmainwin.rc:281
 #, kde-format
 msgid "Apply Filters on Folder and all its Subfolders"
 msgstr "Filtry na zapisk nałožić a wšitke jeho podzapiski"
@@ -4376,8 +4165,7 @@ msgstr "&Nastroje"
 
 #. i18n: ectx: Menu (settings)
 #. +> trunk5 stable5
-#: kmail_part.rc:216 kmcomposerui.rc:107 kmmainwin.rc:216
-#: kmreadermainwin.rc:76 kontactplugin/summary/kontactsummary_part.rc:5
+#: kmail_part.rc:216 kmcomposerui.rc:107 kmmainwin.rc:216 kmreadermainwin.rc:76 kontactplugin/summary/kontactsummary_part.rc:5
 #, kde-format
 msgid "&Settings"
 msgstr "&Nastajenja"
@@ -4855,30 +4643,14 @@ msgstr "Eksterne wotkazy začitać"
 #. +> trunk5 stable5
 #: kmmainwidget.cpp:1646
 #, fuzzy, kde-format
-#| msgid ""
-#| "<qt>Do you really want to delete the selected message?<br>"
-#| "Once deleted, it cannot be restored.</qt>"
-#| msgid_plural ""
-#| "<qt>Do you really want to delete the %1 selected messages?<br>"
-#| "Once deleted, they cannot be restored.</qt>"
-msgid ""
-"<qt>Do you really want to delete the selected message?<br />"
-"Once deleted, it cannot be restored.</qt>"
-msgid_plural ""
-"<qt>Do you really want to delete the %1 selected messages?<br />"
-"Once deleted, they cannot be restored.</qt>"
-msgstr[0] ""
-"<qt>Chceće woprawdźe te %1 wubranych powěsćow zničić?<br>"
-"Njebudźe móžno je rekonstruować!</qt>"
-msgstr[1] ""
-"<qt>Chceće woprawdźe tu %1 wubranu powěsćow zničić?<br>"
-"Njebudźe móžno ju rekonstruować!</qt>"
-msgstr[2] ""
-"<qt>Chceće woprawdźe tej %1 wubranej powěsći zničić?<br>"
-"Njebudźe móžno jej rekonstruować!</qt>"
-msgstr[3] ""
-"<qt>Chceće woprawdźe te %1 wubrane powěsće zničić?<br>"
-"Njebudźe móžno je rekonstruować!</qt>"
+#| msgid "<qt>Do you really want to delete the selected message?<br>Once deleted, it cannot be restored.</qt>"
+#| msgid_plural "<qt>Do you really want to delete the %1 selected messages?<br>Once deleted, they cannot be restored.</qt>"
+msgid "<qt>Do you really want to delete the selected message?<br />Once deleted, it cannot be restored.</qt>"
+msgid_plural "<qt>Do you really want to delete the %1 selected messages?<br />Once deleted, they cannot be restored.</qt>"
+msgstr[0] "<qt>Chceće woprawdźe te %1 wubranych powěsćow zničić?<br>Njebudźe móžno je rekonstruować!</qt>"
+msgstr[1] "<qt>Chceće woprawdźe tu %1 wubranu powěsćow zničić?<br>Njebudźe móžno ju rekonstruować!</qt>"
+msgstr[2] "<qt>Chceće woprawdźe tej %1 wubranej powěsći zničić?<br>Njebudźe móžno jej rekonstruować!</qt>"
+msgstr[3] "<qt>Chceće woprawdźe te %1 wubrane powěsće zničić?<br>Njebudźe móžno je rekonstruować!</qt>"
 
 #. +> trunk5 stable5
 #: kmmainwidget.cpp:1651
@@ -6066,13 +5838,13 @@ msgstr "Bjez zwiska"
 #: kmreaderwin.cpp:337
 #, kde-format
 msgid "KMail is currently in offline mode. Click <a href=\"kmail:goOnline\">here</a> to go online . . .</p>"
-msgstr ""
+msgstr "Kmail je tuchwilu offline. Klikńće <a href=\"kmail:goResourceOnline\">tule</a>, zo byšće online šli...</p>"
 
 #. +> trunk5 stable5
 #: kmreaderwin.cpp:346
 #, kde-format
 msgid "Account is currently in offline mode. Click <a href=\"kmail:goResourceOnline\">here</a> to go online . . .</p>"
-msgstr ""
+msgstr "Konto je tuchwilu offline. Klikńće <a href=\"kmail:goResourceOnline\">tule</a>, zo byšće online šli...</p>"
 
 #. +> trunk5 stable5
 #: kmreaderwin.cpp:906
@@ -6121,9 +5893,7 @@ msgid "Copyright © 2004–2010 Tobias Koenig"
 msgstr ""
 
 #. +> trunk5 stable5
-#: kontactplugin/kmail/kcmkmailsummary.cpp:46
-#: kontactplugin/summary/kcmkontactsummary.cpp:92
-#: kontactplugin/summary/summaryview_plugin.cpp:108
+#: kontactplugin/kmail/kcmkmailsummary.cpp:46 kontactplugin/summary/kcmkontactsummary.cpp:92 kontactplugin/summary/summaryview_plugin.cpp:108
 #, kde-format
 msgid "Tobias Koenig"
 msgstr ""
@@ -6186,14 +5956,8 @@ msgstr "Nowe powěsće"
 #. +> trunk5 stable5
 #: kontactplugin/kmail/summarywidget.cpp:141
 #, kde-format
-msgid ""
-"<qt><b>%1</b><br/>"
-"Total: %2<br/>"
-"Unread: %3</qt>"
-msgstr ""
-"<qt><b>%1</b><br/>"
-"Dohromady: %2<br/>"
-"Nječitane: %3</qt>"
+msgid "<qt><b>%1</b><br/>Total: %2<br/>Unread: %3</qt>"
+msgstr "<qt><b>%1</b><br/>Dohromady: %2<br/>Nječitane: %3</qt>"
 
 #. +> trunk5 stable5
 #: kontactplugin/kmail/summarywidget.cpp:155
@@ -6247,8 +6011,7 @@ msgid "(c), 2004 Tobias Koenig"
 msgstr ""
 
 #. +> trunk5 stable5
-#: kontactplugin/summary/summaryview_part.cpp:46
-#: kontactplugin/summary/summaryview_plugin.cpp:100
+#: kontactplugin/summary/summaryview_part.cpp:46 kontactplugin/summary/summaryview_plugin.cpp:100
 #, kde-format
 msgid "Kontact Summary"
 msgstr ""
@@ -6591,30 +6354,26 @@ msgid "Indexing Collections..."
 msgstr "Konto připrawić"
 
 #. +> trunk5 stable5
-#: searchdialog/kmsearchmessagemodel.cpp:77
-#: searchdialog/kmsearchmessagemodel.cpp:84
+#: searchdialog/kmsearchmessagemodel.cpp:77 searchdialog/kmsearchmessagemodel.cpp:84
 #, kde-format
 msgid "From"
 msgstr "Wot"
 
 #. +> trunk5 stable5
-#: searchdialog/kmsearchmessagemodel.cpp:78
-#: searchdialog/kmsearchmessagemodel.cpp:85
+#: searchdialog/kmsearchmessagemodel.cpp:78 searchdialog/kmsearchmessagemodel.cpp:85
 #, kde-format
 msgctxt "Receiver of the email"
 msgid "To"
 msgstr "Na"
 
 #. +> trunk5 stable5
-#: searchdialog/kmsearchmessagemodel.cpp:79
-#: searchdialog/kmsearchmessagemodel.cpp:86
+#: searchdialog/kmsearchmessagemodel.cpp:79 searchdialog/kmsearchmessagemodel.cpp:86
 #, kde-format
 msgid "Date"
 msgstr "Datum"
 
 #. +> trunk5 stable5
-#: searchdialog/kmsearchmessagemodel.cpp:81
-#: searchdialog/kmsearchmessagemodel.cpp:88
+#: searchdialog/kmsearchmessagemodel.cpp:81 searchdialog/kmsearchmessagemodel.cpp:88
 #, kde-format
 msgid "Preview"
 msgstr "Přehladka"
@@ -6629,11 +6388,7 @@ msgstr "Zapisk"
 #. +> trunk5 stable5
 #: searchdialog/searchpatternwarning.cpp:25
 #, kde-format
-msgid ""
-"Search failed some errors were found: "
-"<ul>"
-"<li>%1</li>"
-"</ul>"
+msgid "Search failed some errors were found: <ul><li>%1</li></ul>"
 msgstr ""
 
 #. +> trunk5 stable5
@@ -6829,10 +6584,7 @@ msgstr "Do manualneho přepruwowanja mailkow &přiwzać"
 #. +> trunk5 stable5
 #: settings/kmail.kcfg.cmake:66
 #, kde-format
-msgid ""
-"<qt>"
-"<p>Select whether you want KMail to send all messages in the outbox on manual or all mail checks, or whether you do not want messages to be sent automatically at all. </p>"
-"</qt>"
+msgid "<qt><p>Select whether you want KMail to send all messages in the outbox on manual or all mail checks, or whether you do not want messages to be sent automatically at all. </p></qt>"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (LastSelectedFolder), group (FolderSelectionDialog)
@@ -6987,11 +6739,7 @@ msgstr "Zdźělenki wo zničenju powěsćow"
 #. +> trunk5 stable5
 #: settings/kmail.kcfg.cmake:225
 #, kde-format
-msgid ""
-"<qt>"
-"<p>Enable this option if you want KMail to request Message Disposition Notifications (MDNs) for each of your outgoing messages.</p>"
-"<p>This option only affects the default; you can still enable or disable MDN requesting on a per-message basis in the composer, menu item <em>Options</em>-><em>Request Disposition Notification</em>.</p>"
-"</qt>"
+msgid "<qt><p>Enable this option if you want KMail to request Message Disposition Notifications (MDNs) for each of your outgoing messages.</p><p>This option only affects the default; you can still enable or disable MDN requesting on a per-message basis in the composer, menu item <em>Options</em>-><em>Request Disposition Notification</em>.</p></qt>"
 msgstr ""
 
 #. i18n: ectx: label, entry (AutosaveInterval), group (Composer)
@@ -7336,17 +7084,14 @@ msgstr "PGP-ŝifrowana powěsć"
 #, fuzzy, kde-format
 msgid ""
 "<qt>\n"
-"<h1>Store Messages Encrypted</h1>"
-"\n"
+"<h1>Store Messages Encrypted</h1>\n"
 "When this box is checked, sent messages are stored encrypted like they were sent. This is not recommended, as you will not be able to read the messages any longer if a necessary certificate expires.\n"
 "<p>\n"
 "However, there may be local rules that require you to turn this option on. When in doubt, check with your local administrator.\n"
-"</p>"
-"</qt>"
+"</p></qt>"
 msgstr ""
 "<qt>\n"
-"<h1></h1>"
-"\n"
+"<h1></h1>\n"
 "<p> in\n"
 "</qt>"
 
@@ -7561,18 +7306,13 @@ msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">When jumping to the next unread message, it may occur that no more unread messages are below the current message.</p>"
-"\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Do not loop:</span> The search will stop at the last message in the current folder.</p>"
-"\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Loop in current folder:</span> The search will continue at the top of the message list, but not go to another folder.</p>"
-"\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Loop in all folders:</span> The search will continue at the top of the message list. If no unread messages are found it will then continue to the next folder.</p>"
-"\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Similarly, when searching for the previous unread message, the search will start from the bottom of the message list and continue to the previous folder depending on which option is selected.</p>"
-"\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Loop in all marked folders: </span>This is the same as \"Loop in all folders\" except that only folders are taken into account which have been marked with the folder property \"Act on new/unread mail in this folder\".</p>"
-"</body></html>"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">When jumping to the next unread message, it may occur that no more unread messages are below the current message.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Do not loop:</span> The search will stop at the last message in the current folder.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Loop in current folder:</span> The search will continue at the top of the message list, but not go to another folder.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Loop in all folders:</span> The search will continue at the top of the message list. If no unread messages are found it will then continue to the next folder.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Similarly, when searching for the previous unread message, the search will start from the bottom of the message list and continue to the previous folder depending on which option is selected.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Loop in all marked folders: </span>This is the same as \"Loop in all folders\" except that only folders are taken into account which have been marked with the folder property \"Act on new/unread mail in this folder\".</"
+"p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, mLoopOnGotoUnread)
@@ -7701,12 +7441,8 @@ msgstr "HTML-powěsće"
 #: ui/securitypagegeneraltab.ui:29
 #, kde-format
 msgid ""
-"<qt>"
-"<p>Some mail advertisements are in HTML and contain references to, for example, images that the advertisers employ to find out that you have read their message (&quot;web bugs&quot;).</p>"
-"<p>There is no valid reason to load images off the Internet like this, since the sender can always attach the required images directly to the message.</p>"
-"<p>To guard from such a misuse of the HTML displaying feature of KMail, this option is <em>disabled</em> by default.</p>"
-"<p>However, if you wish to, for example, view images in HTML messages that were not attached to it, you can enable this option, but you should be aware of the possible problem.</p>"
-"</qt>"
+"<qt><p>Some mail advertisements are in HTML and contain references to, for example, images that the advertisers employ to find out that you have read their message (&quot;web bugs&quot;).</p><p>There is no valid reason to load images off the Internet like this, since the sender can always attach the required images directly to the message.</p><p>To guard from such a misuse "
+"of the HTML displaying feature of KMail, this option is <em>disabled</em> by default.</p><p>However, if you wish to, for example, view images in HTML messages that were not attached to it, you can enable this option, but you should be aware of the possible problem.</p></qt>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, mExternalReferences)
@@ -7735,14 +7471,9 @@ msgstr "<b>KEDŹBU:</b>HTML w powěsćach dowolić je strašne, dokelž riziko r
 #: ui/securitypagegeneraltab.ui:75
 #, kde-format
 msgid ""
-"<qt>"
-"<p>Messages sometimes come in both formats. This option controls whether you want the HTML part or the plain text part to be displayed.</p>"
-"<p>Displaying the HTML part makes the message look better, but at the same time increases the risk of security holes being exploited.</p>"
-"<p>Displaying the plain text part loses much of the message's formatting, but makes it almost <em>impossible</em> to exploit security holes in the HTML renderer (QtWebEngine).</p>"
-"<p>The option below guards against one common misuse of HTML messages, but it cannot guard against security issues that were not known at the time this version of KMail was written.</p>"
-"<p>It is therefore advisable to <em>not</em> prefer HTML to plain text.</p>"
-"<p><b>Note:</b> You can set this option on a per-folder basis from the <i>Folder</i> menu of KMail's main window.</p>"
-"</qt>"
+"<qt><p>Messages sometimes come in both formats. This option controls whether you want the HTML part or the plain text part to be displayed.</p><p>Displaying the HTML part makes the message look better, but at the same time increases the risk of security holes being exploited.</p><p>Displaying the plain text part loses much of the message's formatting, but makes it almost "
+"<em>impossible</em> to exploit security holes in the HTML renderer (QtWebEngine).</p><p>The option below guards against one common misuse of HTML messages, but it cannot guard against security issues that were not known at the time this version of KMail was written.</p><p>It is therefore advisable to <em>not</em> prefer HTML to plain text.</p><p><b>Note:</b> You can set this "
+"option on a per-folder basis from the <i>Folder</i> menu of KMail's main window.</p></qt>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, mHtmlMailCheck)
@@ -7844,23 +7575,13 @@ msgstr "Pósłanje:"
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioFull)
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioHeaders)
 #. +> trunk5 stable5
-#: ui/securitypagemdntab.ui:30 ui/securitypagemdntab.ui:40
-#: ui/securitypagemdntab.ui:50 ui/securitypagemdntab.ui:60
-#: ui/securitypagemdntab.ui:96 ui/securitypagemdntab.ui:106
-#: ui/securitypagemdntab.ui:116
+#: ui/securitypagemdntab.ui:30 ui/securitypagemdntab.ui:40 ui/securitypagemdntab.ui:50 ui/securitypagemdntab.ui:60 ui/securitypagemdntab.ui:96 ui/securitypagemdntab.ui:106 ui/securitypagemdntab.ui:116
 #, kde-format
 msgid ""
-"<qt>"
-"<h3>Message Disposition Notification Policy</h3>"
-"<p>MDNs are a generalization of what is commonly called <b>read receipt</b>. The message author requests a disposition notification to be sent and the receiver's mail program generates a reply from which the author can learn what happened to his message. Common disposition types include <b>displayed</b> (i.e. read), <b>deleted</b> and <b>dispatched</b> (e.g. forwarded).</p>"
-"<p>The following options are available to control KMail's sending of MDNs:</p>"
-"<ul>"
-"<li><em>Ignore</em>: Ignores any request for disposition notifications. No MDN will ever be sent automatically (recommended).</li>"
-"<li><em>Ask</em>: Answers requests only after asking the user for permission. This way, you can send MDNs for selected messages while denying or ignoring them for others.</li>"
-"<li><em>Deny</em>: Always sends a <b>denied</b> notification. This is only <em>slightly</em> better than always sending MDNs. The author will still know that the messages has been acted upon, he just cannot tell whether it was deleted or read etc.</li>"
-"<li><em>Always send</em>: Always sends the requested disposition notification. That means that the author of the message gets to know when the message was acted upon and, in addition, what happened to it (displayed, deleted, etc.). This option is strongly discouraged, but since it makes much sense e.g. for customer relationship management, it has been made available.</li>"
-"</ul>"
-"</qt>"
+"<qt><h3>Message Disposition Notification Policy</h3><p>MDNs are a generalization of what is commonly called <b>read receipt</b>. The message author requests a disposition notification to be sent and the receiver's mail program generates a reply from which the author can learn what happened to his message. Common disposition types include <b>displayed</b> (i.e. read), "
+"<b>deleted</b> and <b>dispatched</b> (e.g. forwarded).</p><p>The following options are available to control KMail's sending of MDNs:</p><ul><li><em>Ignore</em>: Ignores any request for disposition notifications. No MDN will ever be sent automatically (recommended).</li><li><em>Ask</em>: Answers requests only after asking the user for permission. This way, you can send MDNs "
+"for selected messages while denying or ignoring them for others.</li><li><em>Deny</em>: Always sends a <b>denied</b> notification. This is only <em>slightly</em> better than always sending MDNs. The author will still know that the messages has been acted upon, he just cannot tell whether it was deleted or read etc.</li><li><em>Always send</em>: Always sends the requested "
+"disposition notification. That means that the author of the message gets to know when the message was acted upon and, in addition, what happened to it (displayed, deleted, etc.). This option is strongly discouraged, but since it makes much sense e.g. for customer relationship management, it has been made available.</li></ul></qt>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioIgnore)
@@ -8165,17 +7886,14 @@ msgstr "Naklikńće, zo byšće so skedźbnili, hdyž chceće njepodpisanu powě
 #, fuzzy, kde-format
 msgid ""
 "<qt>\n"
-"<h1>Warn When Trying To Send Unsigned Messages</h1>"
-"\n"
+"<h1>Warn When Trying To Send Unsigned Messages</h1>\n"
 "If this box is checked, you will be warned when you try to send parts of or the whole message unsigned.\n"
 "<p>\n"
 "It is recommended to leave this option turned on for maximum integrity.\n"
-"</p>"
-"</qt>"
+"</p></qt>"
 msgstr ""
 "<qt>\n"
-"<h1> Na</h1>"
-"\n"
+"<h1> Na</h1>\n"
 "<p>\n"
 "</qt>"
 
@@ -8199,17 +7917,14 @@ msgstr "Naklikńće, zo byšće so skedźbnili, hdyž chceće nješifrowanu pow�
 #, fuzzy, kde-format
 msgid ""
 "<qt>\n"
-"<h1>Warn When Trying To Send Unencrypted Messages</h1>"
-"\n"
+"<h1>Warn When Trying To Send Unencrypted Messages</h1>\n"
 "If this box is checked, you will be warned when you try to send parts of or the whole message unencrypted.\n"
 "<p>\n"
 "It is recommended to leave this option turned on for maximum integrity.\n"
-"</p>"
-"</qt>"
+"</p></qt>"
 msgstr ""
 "<qt>\n"
-"<h1> Na</h1>"
-"\n"
+"<h1> Na</h1>\n"
 "<p>\n"
 "</qt>"
 
@@ -8248,9 +7963,7 @@ msgstr "Za šifrowanje"
 #. i18n: ectx: property (toolTip), widget (KPluralHandlingSpinBox, mWarnSignRootCertExpiresSB)
 #. i18n: ectx: property (toolTip), widget (KPluralHandlingSpinBox, mWarnEncrRootCertExpiresSB)
 #. +> trunk5 stable5
-#: ui/warningconfiguration.ui:100 ui/warningconfiguration.ui:136
-#: ui/warningconfiguration.ui:172 ui/warningconfiguration.ui:202
-#: ui/warningconfiguration.ui:232 ui/warningconfiguration.ui:268
+#: ui/warningconfiguration.ui:100 ui/warningconfiguration.ui:136 ui/warningconfiguration.ui:172 ui/warningconfiguration.ui:202 ui/warningconfiguration.ui:232 ui/warningconfiguration.ui:268
 #, kde-format
 msgid "Select the number of days here"
 msgstr "Zapodajće ličbu dnjow tule"
@@ -8261,17 +7974,14 @@ msgstr "Zapodajće ličbu dnjow tule"
 #, fuzzy, kde-format
 msgid ""
 "<qt>\n"
-"<h1>Warn If Signature Certificate Expires</h1>"
-"\n"
+"<h1>Warn If Signature Certificate Expires</h1>\n"
 "Select the minimum number of days the signature certificate should be valid without issuing a warning.\n"
 "<p>\n"
 "The recommended SPHINX setting is 14 days.\n"
-"</p>"
-"</qt>"
+"</p></qt>"
 msgstr ""
 "<qt>\n"
-"<h1> Signatura Certifikat</h1>"
-"\n"
+"<h1> Signatura Certifikat</h1>\n"
 "<p>\n"
 "</qt>"
 
@@ -8281,17 +7991,14 @@ msgstr ""
 #, fuzzy, kde-format
 msgid ""
 "<qt>\n"
-"<h1>Warn If Encryption Certificate Expires</h1>"
-"\n"
+"<h1>Warn If Encryption Certificate Expires</h1>\n"
 "Select the minimum number of days the encryption certificate should be valid without issuing a warning.\n"
 "<p>\n"
 "The recommended SPHINX setting is 14 days.\n"
-"</p>"
-"</qt>"
+"</p></qt>"
 msgstr ""
 "<qt>\n"
-"<h1> Šifrowanje Certifikat</h1>"
-"\n"
+"<h1> Šifrowanje Certifikat</h1>\n"
 "<p>\n"
 "</qt>"
 
@@ -8301,17 +8008,14 @@ msgstr ""
 #, fuzzy, kde-format
 msgid ""
 "<qt>\n"
-"<h1>Warn If A Certificate In The Chain Expires</h1>"
-"\n"
+"<h1>Warn If A Certificate In The Chain Expires</h1>\n"
 "Select the minimum number of days all certificates in the chain should be valid without issuing a warning.\n"
 "<p>\n"
 "The recommended SPHINX setting is 14 days.\n"
-"</p>"
-"</qt>"
+"</p></qt>"
 msgstr ""
 "<qt>\n"
-"<h1> Certifikat</h1>"
-" in\n"
+"<h1> Certifikat</h1> in\n"
 "<p>\n"
 "</qt>"
 
@@ -8321,17 +8025,14 @@ msgstr ""
 #, fuzzy, kde-format
 msgid ""
 "<qt>\n"
-"<h1>Warn If CA Certificate Expires</h1>"
-"\n"
+"<h1>Warn If CA Certificate Expires</h1>\n"
 "Select the minimum number of days the CA certificate should be valid without issuing a warning.\n"
 "<p>\n"
 "The recommended SPHINX setting is 14 days.\n"
-"</p>"
-"</qt>"
+"</p></qt>"
 msgstr ""
 "<qt>\n"
-"<h1> Certifikat</h1>"
-"\n"
+"<h1> Certifikat</h1>\n"
 "<p>\n"
 "</qt>"
 
@@ -8342,17 +8043,14 @@ msgstr ""
 #, fuzzy, kde-format
 msgid ""
 "<qt>\n"
-"<h1>Warn If Root Certificate Expires</h1>"
-"\n"
+"<h1>Warn If Root Certificate Expires</h1>\n"
 "Select the minimum number of days the root certificate should be valid without issuing a warning.\n"
 "<p>\n"
 "The recommended SPHINX setting is 14 days.\n"
-"</p>"
-"</qt>"
+"</p></qt>"
 msgstr ""
 "<qt>\n"
-"<h1> Certifikat</h1>"
-"\n"
+"<h1> Certifikat</h1>\n"
 "<p>\n"
 "</qt>"
 
