@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-26 00:24+0000\n"
+"POT-Creation-Date: 2021-12-18 00:40+0000\n"
 "PO-Revision-Date: 2008-12-19 22:49+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -81,12 +81,42 @@ msgid ""
 "Please choose another one."
 msgstr ""
 
-#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:171
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:142
+#, kde-format
+msgid "Global Shortcut Shadowing"
+msgstr ""
+
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:145
+#, fuzzy, kde-format
+#| msgid ""
+#| "The '%1' key combination is registered by application %2 for action %3:"
+msgid "The '%1' key combination is shadowed by following global actions:\n"
+msgstr ""
+"Tastowa kombinacija '%1' je wot aplikacije %2 za akciju %3 registrowana:"
+
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:147
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:153
+#, fuzzy, kde-format
+#| msgid "In context '%1' for action '%2'\n"
+msgid "Action '%1' in context '%2'\n"
+msgstr "W konteksće '%1' za akciju '%2'\n"
+
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:151
+#, fuzzy, kde-format
+#| msgid ""
+#| "The '%1' key combination is registered by application %2.\n"
+#| "%3"
+msgid "The '%1' key combination shadows following global actions:\n"
+msgstr ""
+"Kombinacija '%1' je registrowana pola aplikacije %2.\n"
+"%3"
+
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:190
 #, kde-format
 msgid "Conflict with Standard Application Shortcut"
 msgstr "Konflikt ze standardowym outputom programa"
 
-#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:173
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:192
 #, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -97,7 +127,7 @@ msgstr ""
 "někotrych aplikacijach definowana.\n"
 " Chceće ju woprawdźe tež jako globalnu skrótšenku wužiwać?"
 
-#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:179
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:198
 #, kde-format
 msgid "Reassign"
 msgstr "Zwjazanje změnić"
@@ -4849,21 +4879,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Tasta '%1' je so hižo z globalnej akciju '%2' we '%3' zwjazała.\n"
 #~ "Chceće ju město toho z aktualnej akciju zwjazać?"
-
-#~ msgid ""
-#~ "The '%1' key combination is registered by application %2 for action %3:"
-#~ msgstr ""
-#~ "Tastowa kombinacija '%1' je wot aplikacije %2 za akciju %3 registrowana:"
-
-#~ msgid "In context '%1' for action '%2'\n"
-#~ msgstr "W konteksće '%1' za akciju '%2'\n"
-
-#~ msgid ""
-#~ "The '%1' key combination is registered by application %2.\n"
-#~ "%3"
-#~ msgstr ""
-#~ "Kombinacija '%1' je registrowana pola aplikacije %2.\n"
-#~ "%3"
 
 #~ msgid "Conflict With Registered Global Shortcut"
 #~ msgstr "Konflikt z registrowanej globalnej skrótšenku"
