@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: latte-dock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-28 00:44+0000\n"
+"POT-Creation-Date: 2022-01-08 00:45+0000\n"
 "PO-Revision-Date: 2021-11-24 15:53+0100\n"
 "Last-Translator: Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team: Upper Sorbian <kde-i18n-doc@kde.org>\n"
@@ -601,7 +601,7 @@ msgstr "Nadrobnosće"
 
 #. i18n: ectx: property (text), widget (QLabel, behaviorLbl)
 #: app/settings/detailsdialog/detailsdialog.ui:57
-#: app/settings/settingsdialog/settingsdialog.ui:809
+#: app/settings/settingsdialog/settingsdialog.ui:869
 #, kde-format
 msgid "Behavior:"
 msgstr "Zadźerženje:"
@@ -1322,155 +1322,57 @@ msgstr "Ctrl+S"
 msgid "Preferences"
 msgstr "Nastajenja"
 
-#. i18n: ectx: property (toolTip), widget (QSpinBox, screenTrackerSpinBox)
-#. i18n: ectx: property (toolTip), widget (QLabel, trackScreensDelayLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:561
-#: app/settings/settingsdialog/settingsdialog.ui:596
+#. i18n: ectx: property (text), widget (QCheckBox, broadcastGeomChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:540
 #, kde-format
-msgid ""
-"Different hardware can have different delays during screen changes.\n"
-"This tracker is used in order to not lose any screen related update."
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, screenTrackerSpinBox)
-#: app/settings/settingsdialog/settingsdialog.ui:570
-#, kde-format
-msgid " ms."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, trackScreensDelayLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:599
-#, kde-format
-msgid "reaction delay for changes"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, infoWindowChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:624
-#, kde-format
-msgid "Provide visual feedback when layouts are activated automatically"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, infoWindowChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:627
-#, kde-format
-msgid "Show informative window for layouts automatic activation"
+msgid "Inform Plasma desktop for available desktop space"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, noBordersForMaximizedChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:666
+#: app/settings/settingsdialog/settingsdialog.ui:547
 #, kde-format
 msgid ""
 "Activate support for borderless maximized windows between different layouts"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, noBordersForMaximizedChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:669
+#: app/settings/settingsdialog/settingsdialog.ui:550
 #, kde-format
 msgid "Support borderless maximized windows in different layouts"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, actionsLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:691
+#. i18n: ectx: property (toolTip), widget (QCheckBox, infoWindowChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:592
 #, kde-format
-msgid "Actions:"
-msgstr "Akcije:"
+msgid "Provide visual feedback when layouts are activated automatically"
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, badges3DStyleChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:703
+#. i18n: ectx: property (text), widget (QCheckBox, infoWindowChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:595
 #, kde-format
-msgid "Use 3D style for notification and shortcut badges"
+msgid "Show informative window for layouts automatic activation"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, metaPressHoldChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:729
+#: app/settings/settingsdialog/settingsdialog.ui:621
 #, kde-format
 msgid "Press and hold ⌘ to show shortcuts badges for applets and tasks"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, metaPressHoldChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:732
+#: app/settings/settingsdialog/settingsdialog.ui:624
 #, kde-format
 msgid "Press and Hold ⌘ to show shortcuts badges"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, parabolicEffectLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:776
-#, kde-format
-msgid "Parabolic Effect:"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, screensLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:842
+#: app/settings/settingsdialog/settingsdialog.ui:652
 #, kde-format
 msgid "Screens:"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, autostartChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:873
-#, kde-format
-msgid "Start the application automatically after each relogin"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, autostartChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:876
-#, kde-format
-msgid "Enable autostart during startup"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, lowSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:903
-#, kde-format
-msgid "Low sensitivity for parabolic effect (low cpu usage and performance)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QToolButton, lowSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:906
-#, kde-format
-msgctxt "low sensitivity"
-msgid "Low"
-msgstr "Nisko"
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, mediumSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:934
-#, kde-format
-msgid ""
-"Medium sensitivity for parabolic effect (normal cpu usage and performance)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QToolButton, mediumSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:937
-#, kde-format
-msgctxt "medium sensitivity"
-msgid "Medium"
-msgstr "Srjedźanske"
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, highSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:965
-#, kde-format
-msgid "High sensitivity for parabolic effect (high cpu usage and performance)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QToolButton, highSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:968
-#, kde-format
-msgctxt "high sensitivity"
-msgid "High"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, mouseSensitivityLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:978
-#, kde-format
-msgid "mouse sensitivity"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, appearanceLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:1034
-#, kde-format
-msgid "Appearance:"
-msgstr "Napohlad:"
-
 #. i18n: ectx: property (toolTip), widget (QCheckBox, metaPressChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:1046
+#: app/settings/settingsdialog/settingsdialog.ui:664
 #, kde-format
 msgid ""
 "Forward ⌘ press from KWin to Latte in order to activate Application "
@@ -1478,28 +1380,155 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, metaPressChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:1049
+#: app/settings/settingsdialog/settingsdialog.ui:667
 #, kde-format
 msgid "Press ⌘ to activate Application Launcher"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, contextMenuLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:1071
-#, kde-format
-msgid "Context Menu:"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QPushButton, contextMenuActionsBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:1100
+#: app/settings/settingsdialog/settingsdialog.ui:694
 #, kde-format
 msgid "Actions..."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, broadcastGeomChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:1122
+#. i18n: ectx: property (text), widget (QToolButton, smallParabolicBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:736
 #, kde-format
-msgid "Inform Plasma desktop for available desktop space"
+msgctxt "small spread"
+msgid "Small"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, mediumParabolicBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:764
+#, fuzzy, kde-format
+#| msgctxt "medium sensitivity"
+#| msgid "Medium"
+msgctxt "medium spread"
+msgid "Medium"
+msgstr "Srjedźanske"
+
+#. i18n: ectx: property (text), widget (QToolButton, largeParabolicBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:792
+#, kde-format
+msgctxt "large spread"
+msgid "Large"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, parabolicSpreadLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:802
+#, kde-format
+msgid "spread"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, contextMenuLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:839
+#, kde-format
+msgid "Context Menu:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, lowSensitivityBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:901
+#, kde-format
+msgid "Low sensitivity for parabolic effect (low cpu usage and performance)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, lowSensitivityBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:904
+#, kde-format
+msgctxt "low sensitivity"
+msgid "Low"
+msgstr "Nisko"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, mediumSensitivityBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:932
+#, kde-format
+msgid ""
+"Medium sensitivity for parabolic effect (normal cpu usage and performance)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, mediumSensitivityBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:935
+#, kde-format
+msgctxt "medium sensitivity"
+msgid "Medium"
+msgstr "Srjedźanske"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, highSensitivityBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:963
+#, kde-format
+msgid "High sensitivity for parabolic effect (high cpu usage and performance)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, highSensitivityBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:966
+#, kde-format
+msgctxt "high sensitivity"
+msgid "High"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, mouseSensitivityLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:976
+#, kde-format
+msgid "mouse sensitivity"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, actionsLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:1016
+#, kde-format
+msgid "Actions:"
+msgstr "Akcije:"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, screenTrackerSpinBox)
+#. i18n: ectx: property (toolTip), widget (QLabel, trackScreensDelayLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:1049
+#: app/settings/settingsdialog/settingsdialog.ui:1084
+#, kde-format
+msgid ""
+"Different hardware can have different delays during screen changes.\n"
+"This tracker is used in order to not lose any screen related update."
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, screenTrackerSpinBox)
+#: app/settings/settingsdialog/settingsdialog.ui:1058
+#, kde-format
+msgid " ms."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, trackScreensDelayLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:1087
+#, kde-format
+msgid "reaction delay for changes"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, parabolicEffectLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:1133
+#, kde-format
+msgid "Parabolic Effect:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, badges3DStyleChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:1161
+#, kde-format
+msgid "Use 3D style for notification and shortcut badges"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, autostartChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:1184
+#, kde-format
+msgid "Start the application automatically after each relogin"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, autostartChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:1187
+#, kde-format
+msgid "Enable autostart during startup"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, appearanceLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:1209
+#, kde-format
+msgid "Appearance:"
+msgstr "Napohlad:"
 
 #: app/settings/settingsdialog/tablayoutshandler.cpp:111
 #, kde-format
