@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-07 00:42+0000\n"
+"POT-Creation-Date: 2022-01-12 00:43+0000\n"
 "PO-Revision-Date: 2021-11-20 19:24+0100\n"
 "Last-Translator: Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team: Upper Sorbian <kde-i18n-doc@kde.org>\n"
@@ -201,7 +201,7 @@ msgid "Change Spectacle's settings."
 msgstr "Nastajenja Spectacle'a změnić."
 
 #: src/Gui/KSMainWindow.cpp:146 src/Gui/KSMainWindow.cpp:153
-#: src/SpectacleCore.cpp:497
+#: src/SpectacleCore.cpp:495
 #, kde-format
 msgid "Annotate"
 msgstr "Přispomnjenje dodać"
@@ -816,28 +816,28 @@ msgctxt "Decimal number of seconds"
 msgid " seconds"
 msgstr " sekundy"
 
-#: src/Main.cpp:40
+#: src/Main.cpp:41
 #, kde-format
 msgid "Spectacle"
 msgstr ""
 
-#: src/Main.cpp:42
+#: src/Main.cpp:43
 #, kde-format
 msgid "KDE Screenshot Utility"
 msgstr ""
 
-#: src/Main.cpp:44
+#: src/Main.cpp:45
 #, kde-format
 msgid "(C) 2015 Boudhayan Gupta"
 msgstr ""
 
-#: src/Main.cpp:47
+#: src/Main.cpp:48
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Edward Wornar"
 
-#: src/Main.cpp:47
+#: src/Main.cpp:48
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
@@ -1010,44 +1010,51 @@ msgctxt "A rectangular region was captured, heading"
 msgid "Rectangular Region Captured"
 msgstr "Praworóžk fotografowany"
 
-#: src/SpectacleCore.cpp:474 src/SpectacleCore.cpp:482
-#, kde-format
-msgid "A screenshot was saved as '%1' to '%2'."
-msgstr "Foto je so jako '%1' do '%2' zawěsćiło."
-
-#: src/SpectacleCore.cpp:478
+#: src/SpectacleCore.cpp:472
 #, kde-format
 msgid "A screenshot was saved to your clipboard."
 msgstr "Foto je so do Wašeho zapisnika zawěsćiło."
 
-#: src/SpectacleCore.cpp:480
+#: src/SpectacleCore.cpp:474
+#, kde-format
+msgid ""
+"A screenshot was saved as '%1' to '%2' and the file path of the screenshot "
+"has been saved to your clipboard."
+msgstr ""
+
+#: src/SpectacleCore.cpp:478
 #, kde-format
 msgctxt "Placeholder is filename"
 msgid "A screenshot was saved as '%1' to your Pictures folder."
 msgstr "Foto je so jako '%1' do Wašeho zapiska wobrazow zawěsćiło."
 
-#: src/SpectacleCore.cpp:487
+#: src/SpectacleCore.cpp:480
+#, kde-format
+msgid "A screenshot was saved as '%1' to '%2'."
+msgstr "Foto je so jako '%1' do '%2' zawěsćiło."
+
+#: src/SpectacleCore.cpp:485
 #, kde-format
 msgctxt "Open the screenshot we just saved"
 msgid "Open"
 msgstr "Wočinić"
 
-#: src/SpectacleCore.cpp:525
+#: src/SpectacleCore.cpp:523
 #, kde-format
 msgid "Capture the entire desktop (default)"
 msgstr "Cyły dźěłowy powjerch fotografować (standard)"
 
-#: src/SpectacleCore.cpp:526
+#: src/SpectacleCore.cpp:524
 #, kde-format
 msgid "Capture the current monitor"
 msgstr "Aktualnu wobrazowku fotografować"
 
-#: src/SpectacleCore.cpp:527
+#: src/SpectacleCore.cpp:525
 #, kde-format
 msgid "Capture the active window"
 msgstr "Aktiwne wokno fotografować"
 
-#: src/SpectacleCore.cpp:528
+#: src/SpectacleCore.cpp:526
 #, kde-format
 msgid ""
 "Capture the window currently under the cursor, including parents of pop-up "
@@ -1055,7 +1062,7 @@ msgid ""
 msgstr ""
 "Wokno pod myšku fotografować, inkl. woknow, wot kotrehož meni wotwisuje"
 
-#: src/SpectacleCore.cpp:529
+#: src/SpectacleCore.cpp:527
 #, kde-format
 msgid ""
 "Capture the window currently under the cursor, excluding parents of pop-up "
@@ -1063,78 +1070,78 @@ msgid ""
 msgstr ""
 "Wokno pod myšku fotografować, ale bjez wokna, wot kotrehož meni wotwisuje"
 
-#: src/SpectacleCore.cpp:530
+#: src/SpectacleCore.cpp:528
 #, kde-format
 msgid "Capture a rectangular region of the screen"
 msgstr "Praworóžkaty region wobrazowki fotografować"
 
-#: src/SpectacleCore.cpp:531
+#: src/SpectacleCore.cpp:529
 #, kde-format
 msgid "Launch Spectacle without taking a screenshot"
 msgstr "Spectacle startować bjez toho, zo so fotografuje"
 
-#: src/SpectacleCore.cpp:532
+#: src/SpectacleCore.cpp:530
 #, kde-format
 msgid "Start in GUI mode (default)"
 msgstr "Z grafiskim interfejsom startować (standard)"
 
-#: src/SpectacleCore.cpp:533
+#: src/SpectacleCore.cpp:531
 #, kde-format
 msgid "Take a screenshot and exit without showing the GUI"
 msgstr "Fotografować a hnydom zakónčić bjez grafiskeho interfejsa"
 
-#: src/SpectacleCore.cpp:534
+#: src/SpectacleCore.cpp:532
 #, kde-format
 msgid "Start in DBus-Activation mode"
 msgstr ""
 
-#: src/SpectacleCore.cpp:535
+#: src/SpectacleCore.cpp:533
 #, kde-format
 msgid ""
 "In background mode, do not pop up a notification when the screenshot is taken"
 msgstr ""
 
-#: src/SpectacleCore.cpp:536
+#: src/SpectacleCore.cpp:534
 #, kde-format
 msgid "In background mode, save image to specified file"
 msgstr ""
 
-#: src/SpectacleCore.cpp:538
+#: src/SpectacleCore.cpp:536
 #, kde-format
 msgid "In background mode, delay before taking the shot (in milliseconds)"
 msgstr ""
 
-#: src/SpectacleCore.cpp:540
+#: src/SpectacleCore.cpp:538
 #, kde-format
 msgid "In background mode, copy screenshot image to clipboard"
 msgstr ""
 
-#: src/SpectacleCore.cpp:541
+#: src/SpectacleCore.cpp:539
 #, kde-format
 msgid "In background mode, copy screenshot file path to clipboard"
 msgstr ""
 
-#: src/SpectacleCore.cpp:542
+#: src/SpectacleCore.cpp:540
 #, kde-format
 msgid "Wait for a click before taking screenshot. Invalidates delay"
 msgstr "Na klik čakać z fotografowanjom. Njewobkedźbuje nastajeny čas čakanja"
 
-#: src/SpectacleCore.cpp:543
+#: src/SpectacleCore.cpp:541
 #, kde-format
 msgid "Starts a new GUI instance of spectacle without registering to DBus"
 msgstr "Startuje nowu grafisku instancu Spectacle'a bjez registrowanja na DBUS"
 
-#: src/SpectacleCore.cpp:544
+#: src/SpectacleCore.cpp:542
 #, kde-format
 msgid "In background mode, include pointer in the screenshot"
 msgstr ""
 
-#: src/SpectacleCore.cpp:545
+#: src/SpectacleCore.cpp:543
 #, kde-format
 msgid "In background mode, exclude decorations in the screenshot"
 msgstr ""
 
-#: src/SpectacleCore.cpp:546
+#: src/SpectacleCore.cpp:544
 #, kde-format
 msgid "Open and edit existing screenshot file"
 msgstr ""
