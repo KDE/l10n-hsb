@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsocks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-22 00:41+0000\n"
+"POT-Creation-Date: 2022-02-24 00:41+0000\n"
 "PO-Revision-Date: 2021-11-08 14:26+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -47,7 +47,7 @@ msgstr ""
 msgid "Unable to create io-slave: %1"
 msgstr "Njemóžach io-slave stworić: %1"
 
-#: core/copyjob.cpp:165 ioslaves/file/file_unix.cpp:1288
+#: core/copyjob.cpp:165 ioslaves/file/file_unix.cpp:1289
 #, kde-format
 msgctxt ""
 "The first arg is the path to the symlink that couldn't be created, the "
@@ -100,38 +100,38 @@ msgstr "Eksistuje hižo jako zapisk"
 msgid "Trash"
 msgstr "Papjernik"
 
-#: core/desktopexecparser.cpp:315
+#: core/desktopexecparser.cpp:316
 #, kde-format
 msgid "No Exec field in %1"
 msgstr "Žadyn Exec-zapis w %1"
 
-#: core/desktopexecparser.cpp:340
+#: core/desktopexecparser.cpp:341
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "Njemóžach program namakać: %1."
 
-#: core/desktopexecparser.cpp:343
+#: core/desktopexecparser.cpp:344
 #, kde-format
 msgid ""
 "The program '%1' was found at '%2' but it is missing executable permissions."
 msgstr ""
 
-#: core/desktopexecparser.cpp:345
+#: core/desktopexecparser.cpp:346
 #, kde-format
 msgid "The program '%1' is missing executable permissions."
 msgstr ""
 
-#: core/desktopexecparser.cpp:359
+#: core/desktopexecparser.cpp:360
 #, kde-format
 msgid "Syntax error in command %1 coming from %2"
 msgstr ""
 
-#: core/desktopexecparser.cpp:491
+#: core/desktopexecparser.cpp:492
 #, kde-format
 msgid "Terminal %1 not found while trying to run %2"
 msgstr ""
 
-#: core/desktopexecparser.cpp:507
+#: core/desktopexecparser.cpp:508
 #, kde-format
 msgid "Syntax error in command %1 while trying to run %2"
 msgstr ""
@@ -338,7 +338,7 @@ msgid ""
 "continue?"
 msgstr ""
 
-#: core/job.cpp:299 ioslaves/file/file_unix.cpp:123
+#: core/job.cpp:299 ioslaves/file/file_unix.cpp:124
 #, kde-format
 msgid "Rename"
 msgstr "Přemjenować"
@@ -350,7 +350,7 @@ msgid ""
 msgstr ""
 
 #: core/job.cpp:305 filewidgets/knewfilemenu.cpp:595
-#: ioslaves/file/file_unix.cpp:127
+#: ioslaves/file/file_unix.cpp:128
 #, kde-format
 msgid "Create Symlink"
 msgstr "Symboliski wotkaz (symlink) stworić"
@@ -3821,7 +3821,7 @@ msgstr "Dźěłowy powjerch je offline."
 #. i18n: ectx: property (text), widget (QPushButton, sha1CopyButton)
 #. i18n: ectx: property (text), widget (QPushButton, sha256CopyButton)
 #. i18n: ectx: property (text), widget (QPushButton, sha512CopyButton)
-#: filewidgets/kurlnavigator.cpp:495 ioslaves/file/file_unix.cpp:134
+#: filewidgets/kurlnavigator.cpp:495 ioslaves/file/file_unix.cpp:135
 #: widgets/checksumswidget.ui:118 widgets/checksumswidget.ui:156
 #: widgets/checksumswidget.ui:194 widgets/checksumswidget.ui:232
 #, fuzzy, kde-format
@@ -4085,94 +4085,94 @@ msgstr "Pisanje na %1 so njepodpěruje."
 msgid "Could not find program \"umount\""
 msgstr "Njemóžach program 'umount' namakać."
 
-#: ioslaves/file/file_unix.cpp:99
+#: ioslaves/file/file_unix.cpp:100
 #, fuzzy, kde-format
 #| msgid "Advanced Permissions"
 msgid "Change File Permissions"
 msgstr "Dalše přistupne prawa"
 
-#: ioslaves/file/file_unix.cpp:100
+#: ioslaves/file/file_unix.cpp:101
 #, fuzzy, kde-format
 #| msgctxt "@title:column"
 #| msgid "Permissions"
 msgid "New Permissions: %1"
 msgstr "Prawa"
 
-#: ioslaves/file/file_unix.cpp:103
+#: ioslaves/file/file_unix.cpp:104
 #, kde-format
 msgid "Change File Owner"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:104
+#: ioslaves/file/file_unix.cpp:105
 #, kde-format
 msgid "New Owner: UID=%1, GID=%2"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:107
+#: ioslaves/file/file_unix.cpp:108
 #, fuzzy, kde-format
 #| msgid "Remove"
 msgid "Remove File"
 msgstr "Zničić"
 
-#: ioslaves/file/file_unix.cpp:110
+#: ioslaves/file/file_unix.cpp:111
 #, fuzzy, kde-format
 #| msgid "Directory"
 msgid "Remove Directory"
 msgstr "Zapisk"
 
-#: ioslaves/file/file_unix.cpp:113
+#: ioslaves/file/file_unix.cpp:114
 #, fuzzy, kde-format
 #| msgid "Creating directory"
 msgid "Create Directory"
 msgstr "Stworju zapisk"
 
-#: ioslaves/file/file_unix.cpp:114
+#: ioslaves/file/file_unix.cpp:115
 #, fuzzy, kde-format
 #| msgctxt "@title:column"
 #| msgid "Permissions"
 msgid "Directory Permissions: %1"
 msgstr "Prawa"
 
-#: ioslaves/file/file_unix.cpp:117
+#: ioslaves/file/file_unix.cpp:118
 #, fuzzy, kde-format
 #| msgid "Open file dialog"
 msgid "Open File"
 msgstr "Dialog za wočinjenje dataje"
 
-#: ioslaves/file/file_unix.cpp:120
+#: ioslaves/file/file_unix.cpp:121
 #, fuzzy, kde-format
 #| msgid "Directory"
 msgid "Open Directory"
 msgstr "Zapisk"
 
-#: ioslaves/file/file_unix.cpp:124
+#: ioslaves/file/file_unix.cpp:125
 #, fuzzy, kde-format
 #| msgid "Device name"
 msgid "New Filename: %1"
 msgstr "Mjeno grata"
 
-#: ioslaves/file/file_unix.cpp:128
+#: ioslaves/file/file_unix.cpp:129
 #, fuzzy, kde-format
 msgid "Target: %1"
 msgstr "wulkosć %1"
 
-#: ioslaves/file/file_unix.cpp:131
+#: ioslaves/file/file_unix.cpp:132
 #, kde-format
 msgid "Change Timestamp"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:135
+#: ioslaves/file/file_unix.cpp:136
 #, kde-format
 msgid "From: %1, To: %2"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:138
+#: ioslaves/file/file_unix.cpp:139
 #, fuzzy, kde-format
 #| msgid "Unknown Interruption"
 msgid "Unknown Action"
 msgstr "Njeznate přetorhnjenje"
 
-#: ioslaves/file/file_unix.cpp:143
+#: ioslaves/file/file_unix.cpp:144
 #, kde-format
 msgid ""
 "Action: %1\n"
@@ -4180,23 +4180,23 @@ msgid ""
 "%3"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:835
+#: ioslaves/file/file_unix.cpp:836
 #, kde-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:1062
+#: ioslaves/file/file_unix.cpp:1063
 #, kde-format
 msgid "No media in device for %1"
 msgstr "Žadyn medij w graće %1"
 
-#: ioslaves/file/file_unix.cpp:1373
+#: ioslaves/file/file_unix.cpp:1374
 #, fuzzy, kde-format
 #| msgid "Could not enter folder %1."
 msgid "Could not get user id for given user name %1"
 msgstr "Njemóžach do zapiska %1 hić"
 
-#: ioslaves/file/file_unix.cpp:1385
+#: ioslaves/file/file_unix.cpp:1386
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr ""
