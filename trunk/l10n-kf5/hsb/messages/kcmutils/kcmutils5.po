@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-30 00:41+0000\n"
+"POT-Creation-Date: 2022-04-24 00:40+0000\n"
 "PO-Revision-Date: 2008-12-19 22:49+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -140,7 +140,7 @@ msgstr ""
 msgid "Apply Settings"
 msgstr "Nastajenja"
 
-#: kcmultidialog.cpp:258 kpluginselector.cpp:809 kpluginwidget.cpp:365
+#: kcmultidialog.cpp:258 kpluginselector.cpp:809 kpluginwidget.cpp:327
 #, kde-format
 msgid "Configure"
 msgstr "Konfiguracija"
@@ -210,13 +210,13 @@ msgstr[1] "%1 zašćěpce awtomatisce wotstronjenej dla wotwisnosćow zašćěpk
 msgstr[2] "%1 zašćěpki awtomatisce wotstronjene dla wotwisnosćow zašćěpkow"
 msgstr[3] "%1 zašćěpkow awtomatisce wotstronjenych dla wotwisnosćow zašćěpkow"
 
-#: kpluginselector.cpp:264 kpluginwidget.cpp:57
+#: kpluginselector.cpp:264 kpluginwidget.cpp:59
 #, fuzzy, kde-format
 #| msgid "&Search"
 msgid "Search..."
 msgstr "&Pytać"
 
-#: kpluginselector.cpp:804 kpluginwidget.cpp:360
+#: kpluginselector.cpp:804 kpluginwidget.cpp:322
 #, fuzzy, kde-format
 #| msgid "&About"
 msgid "About"
@@ -226,6 +226,73 @@ msgstr "&Wo tutym programje"
 #, kde-format
 msgid "Enable component"
 msgstr "Komponentu spřistupnić"
+
+#: qml/components/KPluginDelegate.qml:45
+#, fuzzy, kde-format
+#| msgid "&About"
+msgctxt "@info:tooltip"
+msgid "About"
+msgstr "&Wo tutym programje"
+
+#: qml/components/KPluginDelegate.qml:56
+#, fuzzy, kde-format
+#| msgid "Confi&gure..."
+msgctxt "@info:tooltip"
+msgid "Configure..."
+msgstr "Konfigura&cija..."
+
+#: qml/components/KPluginSelector.qml:78
+#, kde-format
+msgid "No matches"
+msgstr ""
+
+#: qml/components/KPluginSelector.qml:78
+#, fuzzy, kde-format
+#| msgid "Not found"
+msgid "No plugins found"
+msgstr "Njejsym ničo namakał"
+
+#: qml/components/private/AboutPlugin.qml:42
+#, fuzzy, kde-format
+#| msgctxt "concatenation of dates and time"
+#| msgid "%1 %2"
+msgctxt "Plugin name and plugin version"
+msgid "%1 %2"
+msgstr "%1%2"
+
+#: qml/components/private/AboutPlugin.qml:64
+#, fuzzy, kde-format
+#| msgid "Copy"
+msgid "Copyright"
+msgstr "Kopěrować"
+
+#: qml/components/private/AboutPlugin.qml:81
+#, kde-format
+msgid "License:"
+msgstr "Licensa:"
+
+#: qml/components/private/AboutPlugin.qml:100
+#, fuzzy, kde-format
+#| msgid "A&uthors"
+msgid "Authors"
+msgstr "A&wtorojo"
+
+#: qml/components/private/AboutPlugin.qml:117
+#, kde-format
+msgid "Credits"
+msgstr ""
+
+#: qml/components/private/AboutPlugin.qml:134
+#, fuzzy, kde-format
+#| msgid "Translation"
+msgid "Translators"
+msgstr "Přełožk"
+
+#: qml/components/private/AboutPlugin.qml:161
+#, fuzzy, kde-format
+#| msgid "&Send Email"
+msgid "Send an email to %1"
+msgstr "&Mailku pósłać"
 
 #~ msgid "Distance between desktop icons"
 #~ msgstr "Wotstawk mjez piktogramomaj na dźěłowym powjerchu"
@@ -484,9 +551,6 @@ msgstr "Komponentu spřistupnić"
 
 #~ msgid "A&uthor"
 #~ msgstr "A&wtor"
-
-#~ msgid "A&uthors"
-#~ msgstr "A&wtorojo"
 
 #~ msgid ""
 #~ "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to "
@@ -2102,10 +2166,6 @@ msgstr "Komponentu spřistupnić"
 
 #~ msgid "Yesterday"
 #~ msgstr "wčera"
-
-#~ msgctxt "concatenation of dates and time"
-#~ msgid "%1 %2"
-#~ msgstr "%1%2"
 
 #~ msgctxt "concatenation of date/time and time zone"
 #~ msgid "%1 %2"
@@ -3750,9 +3810,6 @@ msgstr "Komponentu spřistupnić"
 
 #~ msgid "Wishlist"
 #~ msgstr "Lisćina přećow"
-
-#~ msgid "Translation"
-#~ msgstr "Přełožk"
 
 #~ msgid "S&ubject: "
 #~ msgstr "&Tema: "
@@ -5527,9 +5584,6 @@ msgstr "Komponentu spřistupnić"
 #~ msgid "Front"
 #~ msgstr "Prědku"
 
-#~ msgid "Copy"
-#~ msgstr "Kopěrować"
-
 #~ msgid "Open"
 #~ msgstr "Wočinić"
 
@@ -5698,9 +5752,6 @@ msgstr "Komponentu spřistupnić"
 #~ msgctxt "Verb"
 #~ msgid "&Insert"
 #~ msgstr "&Insert"
-
-#~ msgid "Confi&gure..."
-#~ msgstr "Konfigura&cija..."
 
 #~ msgid "Add"
 #~ msgstr "Dodać"
@@ -8040,9 +8091,6 @@ msgstr "Komponentu spřistupnić"
 #~ "Tutón server spyta formularowe daty jako emal pósłać\n"
 #~ "Chceće pokročować?"
 
-#~ msgid "&Send Email"
-#~ msgstr "&Mailku pósłać"
-
 #~ msgid ""
 #~ "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
 #~ "filesystem.<br />Do you want to submit the form?</qt>"
@@ -8431,9 +8479,6 @@ msgstr "Komponentu spřistupnić"
 #~| msgid "Find Links as You Type"
 #~ msgid "Find &links only"
 #~ msgstr "Wotkazy při zapodawanju pytać"
-
-#~ msgid "Not found"
-#~ msgstr "Njejsym ničo namakał"
 
 #~ msgid "No more matches for this search direction."
 #~ msgstr "Žane dalše namakanki do tutoho směra."
@@ -9111,9 +9156,6 @@ msgstr "Komponentu spřistupnić"
 
 #~ msgid "Email address:"
 #~ msgstr "Emejlowa adresa:"
-
-#~ msgid "License:"
-#~ msgstr "Licensa:"
 
 #~ msgid "GPL"
 #~ msgstr "GPL"
