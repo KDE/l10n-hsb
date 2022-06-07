@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bluedevil\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-03 00:45+0000\n"
+"POT-Creation-Date: 2022-06-07 00:57+0000\n"
 "PO-Revision-Date: 2021-10-25 18:41+0200\n"
 "Last-Translator: Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team: Upper Sorbian <kde-i18n-doc@kde.org>\n"
@@ -172,7 +172,7 @@ msgid "No Bluetooth adapters available"
 msgstr "Njemóžach žadyn bluetooth-adapter namakać"
 
 #: package/contents/ui/FullRepresentation.qml:124
-#: package/contents/ui/logic.js:21
+#: package/contents/ui/main.qml:42
 #, kde-format
 msgid "Bluetooth is disabled"
 msgstr "Bluetooth je hasnjeny"
@@ -183,22 +183,32 @@ msgstr "Bluetooth je hasnjeny"
 msgid "No devices found"
 msgstr "Njemóžach žane graty namakać"
 
-#: package/contents/ui/logic.js:24
+#: package/contents/ui/main.qml:39
+#, kde-format
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: package/contents/ui/main.qml:46
 #, kde-format
 msgid "No adapters available"
 msgstr "Žane adaptery k dispoziciji"
 
-#: package/contents/ui/logic.js:26
+#: package/contents/ui/main.qml:48
 #, kde-format
 msgid "Bluetooth is offline"
 msgstr "Bluetooth je offline"
 
-#: package/contents/ui/logic.js:29
+#: package/contents/ui/main.qml:51
+#, kde-format
+msgid "No connected devices"
+msgstr "Žane přizamknjene graty"
+
+#: package/contents/ui/main.qml:54
 #, kde-format
 msgid "%1 connected"
 msgstr "Zwisk k %1 steji"
 
-#: package/contents/ui/logic.js:31
+#: package/contents/ui/main.qml:56
 #, kde-format
 msgctxt "Number of connected devices"
 msgid "%1 connected device"
@@ -208,22 +218,12 @@ msgstr[1] "%1 přizamknjenej grataj"
 msgstr[2] "%1 přizamknjene graty"
 msgstr[3] "%1 přizamknjenych gratow"
 
-#: package/contents/ui/logic.js:37
-#, kde-format
-msgid "No connected devices"
-msgstr "Žane přizamknjene graty"
-
-#: package/contents/ui/main.qml:24
-#, kde-format
-msgid "Bluetooth"
-msgstr "Bluetooth"
-
-#: package/contents/ui/main.qml:74
+#: package/contents/ui/main.qml:120
 #, kde-format
 msgid "Configure &Bluetooth…"
 msgstr "&Bluetooth připrawić…"
 
-#: package/contents/ui/main.qml:76
+#: package/contents/ui/main.qml:122
 #, kde-format
 msgid "Add New Device…"
 msgstr "Nowy grat dodać..."
