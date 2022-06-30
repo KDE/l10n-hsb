@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-05 00:49+0000\n"
+"POT-Creation-Date: 2022-06-30 00:47+0000\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -810,30 +810,36 @@ msgid ""
 "MIME type in the popup menu."
 msgstr ""
 
-#: klipperpopup.cpp:59 tray.cpp:25 tray.cpp:53
-#, kde-format
-msgid "Clipboard is empty"
-msgstr "Zapisnik je prózdny"
-
-#: klipperpopup.cpp:60
-#, kde-format
-msgid "No matches"
-msgstr "Ničo njenamakał"
-
-#: klipperpopup.cpp:111
+#: klipperpopup.cpp:110
 #, kde-format
 msgid "Klipper - Clipboard Tool"
 msgstr ""
 
-#: klipperpopup.cpp:115
+#: klipperpopup.cpp:114
 #, kde-format
 msgid "Search…"
 msgstr "Pytać..."
 
-#: klipperpopup.cpp:124 main.cpp:30
+#: klipperpopup.cpp:123 main.cpp:30
 #, kde-format
 msgid "KDE cut & paste history utility"
 msgstr "KDE cut & paste nastroj"
+
+#: klipperpopup.cpp:187
+#, fuzzy, kde-format
+#| msgid "Regular expression:"
+msgid "Invalid regular expression, %1"
+msgstr "Prawidłowny wuraz:"
+
+#: klipperpopup.cpp:193 tray.cpp:25 tray.cpp:53
+#, kde-format
+msgid "Clipboard is empty"
+msgstr "Zapisnik je prózdny"
+
+#: klipperpopup.cpp:195
+#, kde-format
+msgid "No matches"
+msgstr "Ničo njenamakał"
 
 #: main.cpp:28 tray.cpp:22
 #, kde-format
@@ -965,9 +971,6 @@ msgstr "&Přetorhnyć"
 
 #~ msgid "Action properties:"
 #~ msgstr "Swójstwa přikaza:"
-
-#~ msgid "Regular expression:"
-#~ msgstr "Prawidłowny wuraz:"
 
 #~ msgid "Automatic:"
 #~ msgstr "Awtomatisce:"
