@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-29 00:46+0000\n"
+"POT-Creation-Date: 2022-07-25 00:47+0000\n"
 "PO-Revision-Date: 2021-11-19 10:47+0100\n"
 "Last-Translator: Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team: Upper Sorbian <kde-i18n-doc@kde.org>\n"
@@ -17,49 +17,71 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
-#: contents/ui/ConnectionItem.qml:48
+#: contents/ui/ConnectionItem.qml:51
 #, kde-format
 msgid "Connect"
 msgstr "Zwjazać"
 
-#: contents/ui/ConnectionItem.qml:48
+#: contents/ui/ConnectionItem.qml:51
 #, kde-format
 msgid "Disconnect"
 msgstr "Wotwjazać"
 
-#: contents/ui/ConnectionItem.qml:68
+#: contents/ui/ConnectionItem.qml:54
+#, fuzzy, kde-format
+#| msgid "Connect"
+msgctxt "@info:tooltip %1 is the name of a network connection"
+msgid "Connect to %1"
+msgstr "Zwjazać"
+
+#: contents/ui/ConnectionItem.qml:54
+#, fuzzy, kde-format
+#| msgid "Disconnect"
+msgctxt "@info:tooltip %1 is the name of a network connection"
+msgid "Disconnect from %1"
+msgstr "Wotwjazać"
+
+#: contents/ui/ConnectionItem.qml:73
 #, fuzzy, kde-format
 #| msgid "Show network's QR code"
 msgid "Show Network's QR Code"
 msgstr "QR-kod syće pokazać"
 
-#: contents/ui/ConnectionItem.qml:80
+#: contents/ui/ConnectionItem.qml:85
 #, kde-format
 msgctxt "@title:window"
 msgid "QR Code for %1"
 msgstr ""
 
-#: contents/ui/ConnectionItem.qml:86
+#: contents/ui/ConnectionItem.qml:91
 #, kde-format
 msgid "Configure…"
 msgstr "Připrawić…"
 
-#: contents/ui/ConnectionItem.qml:115
+#: contents/ui/ConnectionItem.qml:122
 #, kde-format
 msgid "Speed"
 msgstr "Spěšnosć"
 
-#: contents/ui/ConnectionItem.qml:120
+#: contents/ui/ConnectionItem.qml:127
 #, kde-format
 msgid "Details"
 msgstr "Nadrobnosće"
 
-#: contents/ui/ConnectionItem.qml:254
+#: contents/ui/ConnectionItem.qml:167
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Current download speed is %1 kibibytes per second; current upload speed is "
+"%2 kibibytes per second"
+msgstr ""
+
+#: contents/ui/ConnectionItem.qml:282
 #, kde-format
 msgid "Connected, ⬇ %1/s, ⬆ %2/s"
 msgstr "Zwjazany, ⬇ %1/s, ⬆ %2/s"
 
-#: contents/ui/ConnectionItem.qml:258
+#: contents/ui/ConnectionItem.qml:286
 #, kde-format
 msgid "Connected"
 msgstr "Zwjazany"
@@ -118,6 +140,90 @@ msgstr ""
 #, kde-format
 msgid "No available connections"
 msgstr "Žane zwiski přistupne"
+
+#: contents/ui/PopupDialog.qml:149
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The connection type is ADSL"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:151
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The connection type is Bluetooth"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:153
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The connection type is Bridge"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:155
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The connection type is CDMA"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:157
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The connection type is GSM"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:159
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The connection type is Infiniband"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:161
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The connection type is OLPC Mesh"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:163
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The connection type is PPOPE"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:165
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The connection type is VLAN"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:167
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The connection type is VPN"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:169
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The connection type is Wimax"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:171
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The connection type is Wired"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:173
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The connection type is Wireless"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:175
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The connection type is Unknown"
+msgstr ""
 
 #: contents/ui/Toolbar.qml:65
 #, kde-format
