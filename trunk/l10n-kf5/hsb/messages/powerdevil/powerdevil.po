@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-24 00:45+0000\n"
+"POT-Creation-Date: 2022-07-27 00:49+0000\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -27,21 +27,21 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ewerner@uni-leipzig.de"
 
-#: actions/bundled/brightnesscontrol.cpp:50 actions/bundled/dpms.cpp:78
-#: actions/bundled/handlebuttonevents.cpp:58
-#: actions/bundled/keyboardbrightnesscontrol.cpp:54
+#: actions/bundled/brightnesscontrol.cpp:53 actions/bundled/dpms.cpp:79
+#: actions/bundled/handlebuttonevents.cpp:57
+#: actions/bundled/keyboardbrightnesscontrol.cpp:57
 #, kde-format
 msgctxt "Name for powerdevil shortcuts category"
 msgid "Power Management"
 msgstr "Wobchad z milinu"
 
-#: actions/bundled/brightnesscontrol.cpp:53
+#: actions/bundled/brightnesscontrol.cpp:56
 #, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Increase Screen Brightness"
 msgstr "Swětłosć wobrazowki zwyšić"
 
-#: actions/bundled/brightnesscontrol.cpp:58
+#: actions/bundled/brightnesscontrol.cpp:61
 #, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Decrease Screen Brightness"
@@ -67,7 +67,7 @@ msgstr "mjeń."
 msgid "After"
 msgstr "Po"
 
-#: actions/bundled/dpms.cpp:81
+#: actions/bundled/dpms.cpp:82
 #, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Turn Off Screen"
@@ -78,25 +78,25 @@ msgstr "Wobrazowku hasnyć"
 msgid "Switch off after"
 msgstr "Hasnyć po"
 
-#: actions/bundled/handlebuttonevents.cpp:63
+#: actions/bundled/handlebuttonevents.cpp:62
 #, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Suspend"
 msgstr "Zastajić"
 
-#: actions/bundled/handlebuttonevents.cpp:68
+#: actions/bundled/handlebuttonevents.cpp:67
 #, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Hibernate"
 msgstr "Zymski spar"
 
-#: actions/bundled/handlebuttonevents.cpp:73
+#: actions/bundled/handlebuttonevents.cpp:72
 #, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Power Off"
 msgstr "Hasnyć"
 
-#: actions/bundled/handlebuttonevents.cpp:87
+#: actions/bundled/handlebuttonevents.cpp:86
 #, kde-format
 msgctxt ""
 "@action:inmenu Global shortcut, used for long presses of the power button"
@@ -165,19 +165,19 @@ msgstr "Hdyž so laptop začini"
 msgid "When power button pressed"
 msgstr "Hdyž so zapinak stłóči"
 
-#: actions/bundled/keyboardbrightnesscontrol.cpp:58
+#: actions/bundled/keyboardbrightnesscontrol.cpp:61
 #, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Increase Keyboard Brightness"
 msgstr "Swětłosć tastatury zwyšić"
 
-#: actions/bundled/keyboardbrightnesscontrol.cpp:63
+#: actions/bundled/keyboardbrightnesscontrol.cpp:66
 #, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Decrease Keyboard Brightness"
 msgstr "Swětłosć tastatury pomjeńšić"
 
-#: actions/bundled/keyboardbrightnesscontrol.cpp:68
+#: actions/bundled/keyboardbrightnesscontrol.cpp:71
 #, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Toggle Keyboard Backlight"
@@ -355,7 +355,7 @@ msgstr ""
 msgid "Extra Battery Added"
 msgstr ""
 
-#: powerdevilcore.cpp:517 powerdevilcore.cpp:717
+#: powerdevilcore.cpp:517 powerdevilcore.cpp:736
 #, kde-format
 msgid "The computer will no longer go to sleep."
 msgstr ""
@@ -407,12 +407,19 @@ msgctxt "The battery in an external device"
 msgid "Device Battery Low (%1% Remaining)"
 msgstr " Aku grata je skoro prózdny (%1% wostanje)"
 
-#: powerdevilcore.cpp:647
-#, kde-format
-msgid "Battery Low (%1% Remaining)"
-msgstr "Aku je chětro prózdny (%1% wostanje)"
+#: powerdevilcore.cpp:653
+#, fuzzy, kde-format
+#| msgid ""
+#| "Battery running low - to continue using your computer, plug it in or shut "
+#| "it down and change the battery."
+msgid ""
+"Battery running low - to continue using your computer, make sure that the "
+"power adapter is plugged in and that it provides enough power."
+msgstr ""
+"Aku je chětro prózdny - hdyž chceće dale z kompjuterom dźěłać, přizamkńće "
+"jón na milinu abo hasńće jón a narunajće aku. "
 
-#: powerdevilcore.cpp:648
+#: powerdevilcore.cpp:655
 #, kde-format
 msgid ""
 "Battery running low - to continue using your computer, plug it in or shut it "
@@ -421,12 +428,7 @@ msgstr ""
 "Aku je chětro prózdny - hdyž chceće dale z kompjuterom dźěłać, přizamkńće "
 "jón na milinu abo hasńće jón a narunajće aku. "
 
-#: powerdevilcore.cpp:662
-#, kde-format
-msgid "Battery Critical (%1% Remaining)"
-msgstr "Aku je nimale cyle prózdny (%1 wostanje)"
-
-#: powerdevilcore.cpp:664
+#: powerdevilcore.cpp:672
 #, kde-format
 msgctxt ""
 "Cancel timeout that will automatically put system to sleep because of low "
@@ -434,12 +436,12 @@ msgctxt ""
 msgid "Cancel"
 msgstr "Přetorhnyć"
 
-#: powerdevilcore.cpp:673
+#: powerdevilcore.cpp:681
 #, kde-format
 msgid "Battery level critical. Your computer will shut down in 60 seconds."
 msgstr "Aku je nimale cyle prózdny. Waš kompjuter so za 60 sekundow hasnje."
 
-#: powerdevilcore.cpp:678
+#: powerdevilcore.cpp:686
 #, kde-format
 msgid ""
 "Battery level critical. Your computer will enter hibernation mode in 60 "
@@ -448,47 +450,57 @@ msgstr ""
 "Aku je nimale cyle prózdny. Kompjuter póńdźe do zymskeho spara za 60 "
 "sekundow."
 
-#: powerdevilcore.cpp:683
+#: powerdevilcore.cpp:691
 #, kde-format
 msgid "Battery level critical. Your computer will go to sleep in 60 seconds."
 msgstr "Aku je nimale cyle prózdny. Kompjuter póńdźe spinkać za 60 sekundow."
 
-#: powerdevilcore.cpp:688
+#: powerdevilcore.cpp:696
 #, kde-format
 msgid "Battery level critical. Please save your work."
 msgstr "Aku je nimale cyle prózdny. Prošu zawěsćće swoje dźěło."
 
-#: powerdevilcore.cpp:716
+#: powerdevilcore.cpp:707
+#, kde-format
+msgid "Battery Low (%1% Remaining)"
+msgstr "Aku je chětro prózdny (%1% wostanje)"
+
+#: powerdevilcore.cpp:711
+#, kde-format
+msgid "Battery Critical (%1% Remaining)"
+msgstr "Aku je nimale cyle prózdny (%1 wostanje)"
+
+#: powerdevilcore.cpp:735
 #, kde-format
 msgid "AC Adapter Plugged In"
 msgstr "Milinowy adapter přizamknjeny"
 
-#: powerdevilcore.cpp:719
+#: powerdevilcore.cpp:738
 #, kde-format
 msgid "Running on AC power"
 msgstr "Wužiwam syćowu milinu"
 
-#: powerdevilcore.cpp:719
+#: powerdevilcore.cpp:738
 #, kde-format
 msgid "The power adapter has been plugged in."
 msgstr "Milinowy adapter je so přityknył."
 
-#: powerdevilcore.cpp:722
+#: powerdevilcore.cpp:741
 #, kde-format
 msgid "Running on Battery Power"
 msgstr "Wužiwam aku"
 
-#: powerdevilcore.cpp:722
+#: powerdevilcore.cpp:741
 #, kde-format
 msgid "The power adapter has been unplugged."
 msgstr "Milinowy adapter je so wućahnył."
 
-#: powerdevilcore.cpp:782
+#: powerdevilcore.cpp:802
 #, kde-format
 msgid "Charging Complete"
 msgstr "Donabity"
 
-#: powerdevilcore.cpp:782
+#: powerdevilcore.cpp:802
 #, kde-format
 msgid "Battery now fully charged."
 msgstr "Aku je nětko cyle połny."
