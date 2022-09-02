@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-21 00:44+0000\n"
+"POT-Creation-Date: 2022-09-02 00:45+0000\n"
 "PO-Revision-Date: 2008-11-06 22:08+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -302,7 +302,6 @@ msgstr "Wužiwar:"
 
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
 #: conf/dlgwebinterface.ui:60
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:87
 #, kde-format
 msgid "Password:"
 msgstr "Hesło:"
@@ -929,7 +928,6 @@ msgstr "Niču"
 
 #: core/transfer.cpp:33 core/transfer.cpp:232 core/transfer.cpp:251
 #: transfer-plugins/bittorrent/bttransfer.cpp:308
-#: transfer-plugins/contentfetch/contentfetch.cpp:68
 #: transfer-plugins/mmsthreads/mmstransfer.cpp:94
 #, kde-format
 msgctxt "transfer state: stopped"
@@ -2794,239 +2792,14 @@ msgstr "Mamma - Mother of all Search Engines"
 #. i18n: ectx: label, entry (UrlChangeModeList), group (ChecksumSearch)
 #. i18n: ectx: label, entry (ChecksumTypeList), group (ChecksumSearch)
 #. i18n: ectx: label, entry (SearchEnginesUrlList), group (SearchEngines)
-#. i18n: ectx: label, entry (PathList), group (UserScripts)
 #: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:13
 #: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:17
-#: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:13
 #: transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.kcfg:16
 #, fuzzy, kde-format
 #| msgctxt "Name"
 #| msgid "Mamma - Mother of all Search Engines"
 msgid "List of the available search engine URLs"
 msgstr "Mamma - Mother of all Search Engines"
-
-#: transfer-plugins/contentfetch/contentfetch.cpp:51
-#, fuzzy, kde-format
-#| msgid "Close script..."
-msgctxt "Transfer state: processing script"
-msgid "Processing script...."
-msgstr "Skript začinić ..."
-
-#: transfer-plugins/contentfetch/contentfetch.cpp:82
-#, fuzzy, kde-format
-#| msgid "&Finished"
-msgctxt "Transfer State: Finished"
-msgid "Finished"
-msgstr "&Zakónčene"
-
-#: transfer-plugins/contentfetch/contentfetch.cpp:91
-#, fuzzy, kde-format
-#| msgctxt "Comment"
-#| msgid "Aborted."
-msgctxt "Transfer State: Aborted"
-msgid "Aborted"
-msgstr "Přetorhnjene."
-
-#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.cpp:117
-#, fuzzy, kde-format
-msgctxt "Configure script"
-msgid "Configure script"
-msgstr "&Pokročować"
-
-#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
-#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:16
-#, fuzzy, kde-format
-#| msgctxt "KCharSelect section name"
-#| msgid "Other Scripts"
-msgid "User Scripts"
-msgstr "Druhe pisma"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, scriptTreeWidget)
-#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:27
-#, fuzzy, kde-format
-#| msgid "Path:"
-msgid "Path"
-msgstr "Puć:"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, scriptTreeWidget)
-#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:32
-#, kde-format
-msgid "RegExp"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, scriptTreeWidget)
-#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:37
-#: ui/linkview/kget_linkview.cpp:159
-#, kde-format
-msgid "Description"
-msgstr "Wopisanje"
-
-#. i18n: ectx: property (text), widget (QPushButton, newScriptButton)
-#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:60
-#, fuzzy, kde-format
-#| msgid "Close script..."
-msgid "New Script...."
-msgstr "Skript začinić ..."
-
-#. i18n: ectx: property (text), widget (QPushButton, removeEngineBt)
-#. i18n: ectx: property (text), widget (QPushButton, removeScriptButton)
-#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:67
-#: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:62
-#, kde-format
-msgid "Remove"
-msgstr "Zničić"
-
-#. i18n: ectx: property (text), widget (QPushButton, editScriptButton)
-#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:74
-#, fuzzy, kde-format
-#| msgid "Edit..."
-msgid "Edit...."
-msgstr "Wobdźěłać..."
-
-#. i18n: ectx: property (text), widget (QPushButton, configureScriptButton)
-#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:81
-#, fuzzy, kde-format
-#| msgid "Confi&gure..."
-msgid "Configure...."
-msgstr "Konfigura&cija..."
-
-#: transfer-plugins/contentfetch/dlgscriptediting.cpp:31
-#, fuzzy, kde-format
-#| msgid "Add a new script."
-msgid "Add New Script"
-msgstr "Nowy skript dodać."
-
-#: transfer-plugins/contentfetch/dlgscriptediting.cpp:45
-#, fuzzy, kde-format
-#| msgid "Edit selected script."
-msgid "Edit Script"
-msgstr "Wubrany skript wobdźěłać."
-
-#: transfer-plugins/contentfetch/dlgscriptediting.cpp:56
-#, fuzzy, kde-format
-#| msgid "Scriptfile"
-msgid "Set Script File"
-msgstr "Skriptowa dataja"
-
-#. i18n: ectx: property (text), widget (QLabel, scriptUrlRegexpLabel)
-#: transfer-plugins/contentfetch/dlgscriptediting.ui:29
-#, kde-format
-msgid "Regexp:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, scriptPathLabel)
-#: transfer-plugins/contentfetch/dlgscriptediting.ui:36
-#, kde-format
-msgid "Path:"
-msgstr "Puć:"
-
-#. i18n: ectx: property (text), widget (QLabel, scriptDescriptionLabel)
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: transfer-plugins/contentfetch/dlgscriptediting.ui:43
-#: ui/metalinkcreator/commondata.ui:32
-#, kde-format
-msgid "Description:"
-msgstr "Wopisanje:"
-
-#. i18n: ectx: label, entry (UrlRegexpList), group (UserScripts)
-#: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:9
-#, kde-format
-msgid "List of the Regexp to match input URL"
-msgstr ""
-
-#. i18n: ectx: label, entry (DescriptionList), group (UserScripts)
-#: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:21
-#, kde-format
-msgid "List of descriptions for user scripts"
-msgstr ""
-
-#. i18n: ectx: label, entry (EnableList), group (UserScripts)
-#: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:25
-#, kde-format
-msgid "List of whether the script is enabled"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, fileSettingGroupBox)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:16
-#, fuzzy, kde-format
-#| msgid "Settings"
-msgid "File Settings"
-msgstr "Nastajenja"
-
-#. i18n: ectx: property (text), widget (QLabel, fileNameLabel)
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:25
-#: ui/metalinkcreator/filedlg.ui:54
-#, fuzzy, kde-format
-#| msgid "File:"
-msgid "Filename:"
-msgstr "Dataja:"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, fileNameComboBox)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:33
-#, fuzzy, kde-format
-#| msgid "Username:"
-msgid "Use Normalized Name"
-msgstr "Wužiwar:"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, fileNameComboBox)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:38
-#, fuzzy, kde-format
-#| msgid "Username:"
-msgid "Use Literal Name"
-msgstr "Wužiwar:"
-
-#. i18n: ectx: property (text), widget (QLabel, qualityLabel)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:46
-#, fuzzy, kde-format
-#| msgid "Locality:"
-msgid "Quality:"
-msgstr "Městno:"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, qualityComboBox)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:54
-#, kde-format
-msgid "Best Quality (.mp4)"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, qualityComboBox)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:59
-#, kde-format
-msgid "Normal Quality (.flv)"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QGroupBox, loginGroupBox)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:70
-#, kde-format
-msgid ""
-"Provide login info of your YouTube account in order to access restricted "
-"media."
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, loginGroupBox)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:73
-#, fuzzy, kde-format
-#| msgid "Login OK"
-msgid "Login Info"
-msgstr "Přizjewjenje OK"
-
-#. i18n: ectx: property (text), widget (QLabel, usernameLabel)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:101
-#, kde-format
-msgid "Username:"
-msgstr "Wužiwar:"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, useNetrcCheck)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:113
-#, kde-format
-msgid ".netrc must have a hostname called 'youtube'."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, useNetrcCheck)
-#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:116
-#, kde-format
-msgid "User .netrc file"
-msgstr ""
 
 #: transfer-plugins/kio/transferKio.cpp:100
 #, fuzzy, kde-format
@@ -3174,6 +2947,12 @@ msgstr "Mjeno grata"
 #, fuzzy, kde-format
 msgid "New Engine..."
 msgstr "Name=Tekstowe dataje"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeEngineBt)
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:62
+#, kde-format
+msgid "Remove"
+msgstr "Zničić"
 
 #: transfer-plugins/mmsthreads/mmstransfer.cpp:60
 #, fuzzy, kde-format
@@ -3734,6 +3513,11 @@ msgstr ""
 msgid "File Name"
 msgstr ""
 
+#: ui/linkview/kget_linkview.cpp:159
+#, kde-format
+msgid "Description"
+msgstr "Wopisanje"
+
 #: ui/linkview/kget_linkview.cpp:160
 #, kde-format
 msgctxt "list header: type of file"
@@ -3772,6 +3556,12 @@ msgstr ""
 #, kde-format
 msgid "Identity"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: ui/metalinkcreator/commondata.ui:32
+#, kde-format
+msgid "Description:"
+msgstr "Wopisanje:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ui/metalinkcreator/commondata.ui:46
@@ -3963,6 +3753,13 @@ msgstr ""
 #, kde-format
 msgid "Required"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: ui/metalinkcreator/filedlg.ui:54
+#, fuzzy, kde-format
+#| msgid "File:"
+msgid "Filename:"
+msgstr "Dataja:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: ui/metalinkcreator/filedlg.ui:95
@@ -4713,6 +4510,102 @@ msgstr ""
 #, kde-format
 msgid "Close"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Close script..."
+#~ msgctxt "Transfer state: processing script"
+#~ msgid "Processing script...."
+#~ msgstr "Skript začinić ..."
+
+#, fuzzy
+#~| msgid "&Finished"
+#~ msgctxt "Transfer State: Finished"
+#~ msgid "Finished"
+#~ msgstr "&Zakónčene"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Aborted."
+#~ msgctxt "Transfer State: Aborted"
+#~ msgid "Aborted"
+#~ msgstr "Přetorhnjene."
+
+#, fuzzy
+#~ msgctxt "Configure script"
+#~ msgid "Configure script"
+#~ msgstr "&Pokročować"
+
+#, fuzzy
+#~| msgctxt "KCharSelect section name"
+#~| msgid "Other Scripts"
+#~ msgid "User Scripts"
+#~ msgstr "Druhe pisma"
+
+#, fuzzy
+#~| msgid "Path:"
+#~ msgid "Path"
+#~ msgstr "Puć:"
+
+#, fuzzy
+#~| msgid "Close script..."
+#~ msgid "New Script...."
+#~ msgstr "Skript začinić ..."
+
+#, fuzzy
+#~| msgid "Edit..."
+#~ msgid "Edit...."
+#~ msgstr "Wobdźěłać..."
+
+#, fuzzy
+#~| msgid "Confi&gure..."
+#~ msgid "Configure...."
+#~ msgstr "Konfigura&cija..."
+
+#, fuzzy
+#~| msgid "Add a new script."
+#~ msgid "Add New Script"
+#~ msgstr "Nowy skript dodać."
+
+#, fuzzy
+#~| msgid "Edit selected script."
+#~ msgid "Edit Script"
+#~ msgstr "Wubrany skript wobdźěłać."
+
+#, fuzzy
+#~| msgid "Scriptfile"
+#~ msgid "Set Script File"
+#~ msgstr "Skriptowa dataja"
+
+#~ msgid "Path:"
+#~ msgstr "Puć:"
+
+#, fuzzy
+#~| msgid "Settings"
+#~ msgid "File Settings"
+#~ msgstr "Nastajenja"
+
+#, fuzzy
+#~| msgid "Username:"
+#~ msgid "Use Normalized Name"
+#~ msgstr "Wužiwar:"
+
+#, fuzzy
+#~| msgid "Username:"
+#~ msgid "Use Literal Name"
+#~ msgstr "Wužiwar:"
+
+#, fuzzy
+#~| msgid "Locality:"
+#~ msgid "Quality:"
+#~ msgstr "Městno:"
+
+#, fuzzy
+#~| msgid "Login OK"
+#~ msgid "Login Info"
+#~ msgstr "Přizjewjenje OK"
+
+#~ msgid "Username:"
+#~ msgstr "Wužiwar:"
 
 #, fuzzy
 #~| msgid "Unable to create io-slave: %1"
