@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-29 00:50+0000\n"
+"POT-Creation-Date: 2022-10-01 00:52+0000\n"
 "PO-Revision-Date: 2021-10-15 10:45+0200\n"
 "Last-Translator: Prof. Dr. Eduard Werner <e.werner@rz.uni-leipzig.de>\n"
 "Language-Team: Upper Sorbian\n"
@@ -1229,15 +1229,19 @@ msgid "Activate Menu"
 msgstr "Meni zaswěćić"
 
 #: MainWindow.cpp:376
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Save tab layout to file"
 msgctxt "@action:inmenu"
-msgid "Save tab layout to file"
+msgid "Save Tab Layout..."
 msgstr "Layout jězdnikow do dataje zawěsćić"
 
 #: MainWindow.cpp:385
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Load tab layout from file"
 msgctxt "@action:inmenu"
-msgid "Load tab layout from file"
+msgid "Load Tab Layout..."
 msgstr "Layout jězdnikow z dataje začitać"
 
 #: MainWindow.cpp:618 MainWindow.cpp:635
@@ -3356,20 +3360,21 @@ msgstr ""
 msgid "Line numbers "
 msgstr "&Kelko linkow:"
 
-#: ViewManager.cpp:1073
+#: ViewManager.cpp:1074
 #, fuzzy, kde-format
-#| msgid "Save File"
+#| msgctxt "@action:inmenu"
+#| msgid "Save tab layout to file"
 msgctxt "@title:window"
-msgid "Save File"
-msgstr "Dataju zawěsćić"
+msgid "Save Tab Layout"
+msgstr "Layout jězdnikow do dataje zawěsćić"
 
-#: ViewManager.cpp:1073 ViewManager.cpp:1157
+#: ViewManager.cpp:1076 ViewManager.cpp:1163
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Konsole View Layout (*.json)"
 msgstr ""
 
-#: ViewManager.cpp:1086
+#: ViewManager.cpp:1089
 #, kde-format
 msgctxt "@label:textbox"
 msgid ""
@@ -3377,7 +3382,7 @@ msgid ""
 "%1"
 msgstr ""
 
-#: ViewManager.cpp:1147
+#: ViewManager.cpp:1150
 #, kde-format
 msgctxt "@label:textbox"
 msgid ""
@@ -3385,12 +3390,13 @@ msgid ""
 "%1"
 msgstr ""
 
-#: ViewManager.cpp:1157
+#: ViewManager.cpp:1161
 #, fuzzy, kde-format
-#| msgid "Open File"
+#| msgctxt "@action:inmenu"
+#| msgid "Load tab layout from file"
 msgctxt "@title:window"
-msgid "Open File"
-msgstr "Dataju wočinić"
+msgid "Load Tab Layout"
+msgstr "Layout jězdnikow z dataje začitać"
 
 #: Vt102Emulation.cpp:2313
 #, kde-format
@@ -5044,6 +5050,18 @@ msgstr "Proces za&kónčić"
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Interpreter &zakónčić"
+
+#, fuzzy
+#~| msgid "Save File"
+#~ msgctxt "@title:window"
+#~ msgid "Save File"
+#~ msgstr "Dataju zawěsćić"
+
+#, fuzzy
+#~| msgid "Open File"
+#~ msgctxt "@title:window"
+#~ msgid "Open File"
+#~ msgstr "Dataju wočinić"
 
 #~ msgid "Size: XXX x XXX"
 #~ msgstr "Wulkosć: XXX x XXX"
