@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-07-04 00:55+0000\n"
+"POT-Creation-Date: 2023-09-21 00:51+0000\n"
 "PO-Revision-Date: 2021-10-26 20:28+0200\n"
 "Last-Translator: Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team: Upper Sorbian <kde-i18n-doc@kde.org>\n"
@@ -77,7 +77,6 @@ msgstr "Skedźbnjenja wo nowych mejlkach"
 #: defaultsetup/defaultaddressbook.desktop:4
 #: resources/contacts/contactsresource.desktop:2
 #: resources/contacts/org.kde.akonadi_contacts_resource.desktop:3
-#: resources/contacts/wizard/contactswizard.desktop:2
 msgctxt "Name"
 msgid "Personal Contacts"
 msgstr "Wosobinske kontakty"
@@ -118,7 +117,6 @@ msgstr ""
 "protyce"
 
 #: resources/contacts/contactsresource.desktop:56
-#: resources/contacts/wizard/contactswizard.desktop:56
 msgctxt "Comment"
 msgid "The address book with personal contacts"
 msgstr "Adresnik z wosobinskimi kontaktami"
@@ -265,18 +263,6 @@ msgid ""
 msgstr ""
 "Spřistupni mejlki, terminy a kontakty Microsoft Exchange-serwera z pomocu EWS"
 
-#: resources/ews/wizard/ewswizard.desktop:2
-#: resources/maildir/maildirresource.desktop:2
-#: resources/maildir/wizard/maildirwizard.desktop:2
-msgctxt "Name"
-msgid "Maildir"
-msgstr "Maildir"
-
-#: resources/ews/wizard/ewswizard.desktop:56
-msgctxt "Comment"
-msgid "Exchange account"
-msgstr "Exchange-konto"
-
 #: resources/google-groupware/akonadi_google_resource.notifyrc:3
 #: resources/google-groupware/googleresource.desktop:2
 #: resources/google-groupware/org.kde.akonadi_google_resource.desktop:3
@@ -314,13 +300,11 @@ msgstr ""
 "Spřistupni elementy protyki, kóždy w separatnej dataji, w datym zapisku"
 
 #: resources/ical/icalresource.desktop:2
-#: resources/ical/wizard/icalwizard.desktop:2
 msgctxt "Name"
 msgid "iCal Calendar File"
 msgstr "iCal protykowa dataja"
 
 #: resources/ical/icalresource.desktop:41
-#: resources/ical/wizard/icalwizard.desktop:42
 msgctxt "Comment"
 msgid "Loads data from an iCal file"
 msgstr "Čita daty z iCal-dataje"
@@ -345,18 +329,7 @@ msgctxt "Name"
 msgid "Emails"
 msgstr ""
 
-#: resources/imap/wizard/imapwizard.desktop:2
-msgctxt "Name"
-msgid "Generic IMAP Email Server"
-msgstr "Generiski IMAP emejlowy serwer"
-
-#: resources/imap/wizard/imapwizard.desktop:54
-msgctxt "Comment"
-msgid "Imap account"
-msgstr "IMAP-konto"
-
 #: resources/kolab/kolabresource.desktop:2
-#: resources/kolab/wizard/kolabwizard.desktop:2
 msgctxt "Name"
 msgid "Kolab Groupware Server"
 msgstr "Kolab Groupware-serwer"
@@ -375,20 +348,15 @@ msgctxt "Name"
 msgid "Kolab Groupware"
 msgstr "Kolab Groupware-serwer"
 
-#: resources/kolab/wizard/kolabwizard.desktop:54
-msgctxt "Comment"
-msgid "Kolab Groupware Server"
-msgstr ""
+#: resources/maildir/maildirresource.desktop:2
+msgctxt "Name"
+msgid "Maildir"
+msgstr "Maildir"
 
 #: resources/maildir/maildirresource.desktop:55
 msgctxt "Comment"
 msgid "Loads data from a local maildir folder"
 msgstr ""
-
-#: resources/maildir/wizard/maildirwizard.desktop:56
-msgctxt "Comment"
-msgid "Maildir account"
-msgstr "Maildir konto"
 
 #: resources/mbox/mboxresource.desktop:2
 msgctxt "Name"
@@ -398,16 +366,6 @@ msgstr "Mbox"
 #: resources/mbox/mboxresource.desktop:54
 msgctxt "Comment"
 msgid "Loads data from a local mbox file"
-msgstr ""
-
-#: resources/mbox/wizard/mailboxwizard.desktop:2
-msgctxt "Name"
-msgid "MailBox"
-msgstr "MailBox"
-
-#: resources/mbox/wizard/mailboxwizard.desktop:56
-msgctxt "Comment"
-msgid "Mailbox account"
 msgstr ""
 
 #: resources/mixedmaildir/mixedmaildirresource.desktop:2
@@ -458,16 +416,6 @@ msgctxt "Comment"
 msgid "Connects to a POP3 e-mail server"
 msgstr ""
 
-#: resources/pop3/wizard/pop3wizard.desktop:2
-msgctxt "Name"
-msgid "POP3"
-msgstr ""
-
-#: resources/pop3/wizard/pop3wizard.desktop:47
-msgctxt "Comment"
-msgid "Pop3 account"
-msgstr "Pop3-konto"
-
 #: resources/tomboynotes/tomboynotesresource.desktop:2
 msgctxt "Name"
 msgid "Akonadi TomboyNotes Resource"
@@ -480,7 +428,6 @@ msgstr ""
 
 #: resources/vcarddir/org.kde.akonadi_vcarddir_resource.desktop:3
 #: resources/vcarddir/vcarddirresource.desktop:2
-#: resources/vcarddir/wizard/vcarddirwizard.desktop:2
 msgctxt "Name"
 msgid "vCard Directory"
 msgstr "vCard-zapisk"
@@ -490,14 +437,8 @@ msgctxt "Comment"
 msgid "Loads data from a directory with vCards"
 msgstr "Čita daty ze zapiska z vCard-wizitkami"
 
-#: resources/vcarddir/wizard/vcarddirwizard.desktop:49
-msgctxt "Comment"
-msgid "Loads contact from vCard Directory"
-msgstr "Čita kontakt ze zapiska z vCard-wizitkami"
-
 #: resources/vcard/org.kde.akonadi_vcard_resource.desktop:3
 #: resources/vcard/vcardresource.desktop:2
-#: resources/vcard/wizard/vcardwizard.desktop:2
 msgctxt "Name"
 msgid "vCard File"
 msgstr "vCard-wizitkowa dataja"
@@ -507,10 +448,37 @@ msgctxt "Comment"
 msgid "Loads data from a vCard file"
 msgstr "Čita daty z vCard-dataje"
 
-#: resources/vcard/wizard/vcardwizard.desktop:50
-msgctxt "Comment"
-msgid "Loads contact from vCard File"
-msgstr "Čita kontakt z vCard-dataje"
+#~ msgctxt "Comment"
+#~ msgid "Exchange account"
+#~ msgstr "Exchange-konto"
+
+#~ msgctxt "Name"
+#~ msgid "Generic IMAP Email Server"
+#~ msgstr "Generiski IMAP emejlowy serwer"
+
+#~ msgctxt "Comment"
+#~ msgid "Imap account"
+#~ msgstr "IMAP-konto"
+
+#~ msgctxt "Comment"
+#~ msgid "Maildir account"
+#~ msgstr "Maildir konto"
+
+#~ msgctxt "Name"
+#~ msgid "MailBox"
+#~ msgstr "MailBox"
+
+#~ msgctxt "Comment"
+#~ msgid "Pop3 account"
+#~ msgstr "Pop3-konto"
+
+#~ msgctxt "Comment"
+#~ msgid "Loads contact from vCard Directory"
+#~ msgstr "Čita kontakt ze zapiska z vCard-wizitkami"
+
+#~ msgctxt "Comment"
+#~ msgid "Loads contact from vCard File"
+#~ msgstr "Čita kontakt z vCard-dataje"
 
 #~ msgctxt "Name"
 #~ msgid "Facebook Events"
