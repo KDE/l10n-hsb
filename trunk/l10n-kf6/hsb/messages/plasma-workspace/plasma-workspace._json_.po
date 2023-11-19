@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-14 01:45+0000\n"
+"POT-Creation-Date: 2023-11-19 01:59+0000\n"
 "PO-Revision-Date: 2008-11-25 00:15+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -33,9 +33,20 @@ msgid "Global Menu"
 msgstr "Globalny meni"
 
 #: applets/batterymonitor/package/metadata.json
+#, fuzzy
+#| msgctxt "Name|plasma data engine"
+#| msgid "Power Management"
 msgctxt "Name"
-msgid "Battery and Brightness"
-msgstr "Akuw a swětłosć"
+msgid "Power and Battery"
+msgstr "Rjadowanje miliny"
+
+#: applets/brightness/package/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Night Color"
+msgctxt "Name"
+msgid "Brightness and Color"
+msgstr "Barba nocy"
 
 #: applets/calendar/package/metadata.json
 msgctxt "Name"
@@ -604,8 +615,14 @@ msgstr "Globalny meni na Wašim dźěłowym powjerchu Plasma"
 #| msgctxt "Comment"
 #| msgid "See the power status of your battery"
 msgctxt "Description"
-msgid "See the power status of your battery"
+msgid ""
+"Control power management settings and see the power status of your battery"
 msgstr "Pohladajće na status akuwa"
+
+#: applets/brightness/package/metadata.json
+msgctxt "Description"
+msgid "Control brightness and color of your screens and keyboards"
+msgstr ""
 
 #: applets/calendar/package/metadata.json
 #, fuzzy
@@ -1319,6 +1336,7 @@ msgstr ""
 
 #: applets/appmenu/package/metadata.json
 #: applets/batterymonitor/package/metadata.json
+#: applets/brightness/package/metadata.json
 #: applets/notifications/package/metadata.json
 #: applets/systemmonitor/coreusage/metadata.json
 #: applets/systemmonitor/cpu/metadata.json
@@ -1328,11 +1346,17 @@ msgid "Kai Uwe Broulik"
 msgstr ""
 
 #: applets/batterymonitor/package/metadata.json
+#: applets/brightness/package/metadata.json
 #: applets/calendar/package/metadata.json
 #: applets/mediacontroller/package/metadata.json
 #: runners/recentdocuments/plasma-runner-recentdocuments.json
 msgctxt "Authors Name"
 msgid "Sebastian Kügler"
+msgstr ""
+
+#: applets/brightness/package/metadata.json
+msgctxt "Authors Name"
+msgid "Natalie Clarius"
 msgstr ""
 
 #: applets/cameraindicator/metadata.json
@@ -1484,12 +1508,12 @@ msgid "Julius Zint"
 msgstr ""
 
 #~ msgctxt "Name"
-#~ msgid "System Monitor"
-#~ msgstr "Systemowy monitor"
+#~ msgid "Battery and Brightness"
+#~ msgstr "Akuw a swětłosć"
 
 #~ msgctxt "Name"
-#~ msgid "Night Color"
-#~ msgstr "Barba nocy"
+#~ msgid "System Monitor"
+#~ msgstr "Systemowy monitor"
 
 #, fuzzy
 #~| msgctxt "GenericName"
