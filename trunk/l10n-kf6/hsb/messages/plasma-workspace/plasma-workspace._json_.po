@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-29 00:48+0000\n"
+"POT-Creation-Date: 2024-10-06 00:48+0000\n"
 "PO-Revision-Date: 2008-11-25 00:15+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -16,6 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
+
+#: appiumtests/applets/systemtraytest/org.kde.testdbusactivation/metadata.json
+msgctxt "Name"
+msgid "Do not translate Test only"
+msgstr ""
 
 #: applets/activitybar/metadata.json
 msgctxt "Name"
@@ -194,35 +199,15 @@ msgctxt "Name"
 msgid "Run Commands"
 msgstr "Přikazy wuwjesć"
 
-#: dataengines/favicons/plasma-dataengine-favicons.json
-msgctxt "Name"
-msgid "Favicons"
-msgstr ""
-
 #: dataengines/filebrowser/plasma-dataengine-filebrowser.json
 msgctxt "Name"
 msgid "Files and Directories"
 msgstr "Dataje a zapiski"
 
-#: dataengines/geolocation/plasma-dataengine-geolocation.json
-msgctxt "Name"
-msgid "Geolocation"
-msgstr "Geolokacija"
-
-#: dataengines/mouse/plasma-dataengine-mouse.json
-msgctxt "Name"
-msgid "Pointer Position"
-msgstr "Pozicija pokazowaka"
-
 #: dataengines/notifications/plasma-dataengine-notifications.json
 msgctxt "Name"
 msgid "Application Notifications"
 msgstr "Zdźělenki aplikacije"
-
-#: dataengines/packagekit/plasma-dataengine-packagekit.json
-msgctxt "Name"
-msgid "PackageKit"
-msgstr ""
 
 #: dataengines/places/plasma-dataengine-places.json
 #: runners/places/plasma-runner-places.json
@@ -785,11 +770,6 @@ msgctxt "Description"
 msgid "Run Executable Data Engine"
 msgstr "Name=Datajowy manager"
 
-#: dataengines/favicons/plasma-dataengine-favicons.json
-msgctxt "Description"
-msgid "Data Engine for getting favicons of web sites"
-msgstr ""
-
 #: dataengines/filebrowser/plasma-dataengine-filebrowser.json
 #, fuzzy
 #| msgctxt "Comment"
@@ -798,22 +778,6 @@ msgctxt "Description"
 msgid "Information about files and directories."
 msgstr "Informacija wo datajach a zapiskach."
 
-#: dataengines/geolocation/plasma-dataengine-geolocation.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Geolocation Data Engine"
-msgctxt "Description"
-msgid "Geolocation Data Engine"
-msgstr "Datowe žórło za geolokaciju"
-
-#: dataengines/mouse/plasma-dataengine-mouse.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Mouse position and cursor"
-msgctxt "Description"
-msgid "Mouse position and cursor"
-msgstr "Pozicija myše a cursora"
-
 #: dataengines/notifications/plasma-dataengine-notifications.json
 #, fuzzy
 #| msgctxt "Comment"
@@ -821,12 +785,6 @@ msgstr "Pozicija myše a cursora"
 msgctxt "Description"
 msgid "Passive visual notifications for the user."
 msgstr "Zdźělenki wo pasiwnym graće za wužiwarja."
-
-#: dataengines/packagekit/plasma-dataengine-packagekit.json
-#, fuzzy
-msgctxt "Description"
-msgid "PackageKit Data Engine"
-msgstr "Name=Datajowy manager"
 
 #: dataengines/places/plasma-dataengine-places.json
 #, fuzzy
@@ -1304,16 +1262,6 @@ msgctxt "Authors Name"
 msgid "Chani Armitage"
 msgstr ""
 
-#: dataengines/geolocation/plasma-dataengine-geolocation.json
-msgctxt "Authors Name"
-msgid "Petri Damstén"
-msgstr ""
-
-#: dataengines/packagekit/plasma-dataengine-packagekit.json
-msgctxt "Authors Name"
-msgid "Gregor Taetzner"
-msgstr ""
-
 #: dataengines/places/plasma-dataengine-places.json
 msgctxt "Authors Name"
 msgid "Alex Merry"
@@ -1512,6 +1460,33 @@ msgstr ""
 msgctxt "X-KDE-Keywords"
 msgid "wallpaper,desktop"
 msgstr "Pozadk dźěłoweho powjercha"
+
+#~ msgctxt "Name"
+#~ msgid "Geolocation"
+#~ msgstr "Geolokacija"
+
+#~ msgctxt "Name"
+#~ msgid "Pointer Position"
+#~ msgstr "Pozicija pokazowaka"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Geolocation Data Engine"
+#~ msgctxt "Description"
+#~ msgid "Geolocation Data Engine"
+#~ msgstr "Datowe žórło za geolokaciju"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Mouse position and cursor"
+#~ msgctxt "Description"
+#~ msgid "Mouse position and cursor"
+#~ msgstr "Pozicija myše a cursora"
+
+#, fuzzy
+#~ msgctxt "Description"
+#~ msgid "PackageKit Data Engine"
+#~ msgstr "Name=Datajowy manager"
 
 #, fuzzy
 #~| msgctxt "Name|plasma data engine"
