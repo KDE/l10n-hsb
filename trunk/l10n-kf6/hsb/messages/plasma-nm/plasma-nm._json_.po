@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-26 00:51+0000\n"
+"POT-Creation-Date: 2025-03-06 00:51+0000\n"
 "PO-Revision-Date: 2021-10-27 19:51+0200\n"
 "Last-Translator: Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team: Upper Sorbian <kde-i18n-doc@kde.org>\n"
@@ -19,12 +19,12 @@ msgctxt "X-KDE-Keywords"
 msgid "network,internet,ethernet,wireless,wifi,wlan,vpn"
 msgstr ""
 
-#: kcm_cellularnetwork/kcm_cellular_network.json
+#: kcms/kcm_cellularnetwork/kcm_cellular_network.json
 msgctxt "X-KDE-Keywords"
 msgid "mobile,data,network"
 msgstr ""
 
-#: kcm/kcm_networkmanagement.json
+#: kcms/kcm_connections/kcm_networkmanagement.json
 msgctxt "X-KDE-Keywords"
 msgid ""
 "networks,wifi,wi-fi,ethernet,mobile,cdma,gsm,lte,wimax,apn,"
@@ -41,7 +41,7 @@ msgstr ""
 "public network,vpn,openvpn,wireguard,fortinet,juniper,l2tp,pptp,sstp,ssh,"
 "iodine,ipsec,anyconnect,openconnect,syć,zwisk"
 
-#: kcm_mobile_wifi/kcm_mobile_wifi.json
+#: kcms/kcm_wifi_mobile/kcm_mobile_wifi.json
 msgctxt "X-KDE-Keywords"
 msgid "wifi,network"
 msgstr "wifi,network,syć"
@@ -51,22 +51,22 @@ msgctxt "Name"
 msgid "Networks"
 msgstr "Syć"
 
-#: kcm_cellularnetwork/kcm_cellular_network.json
+#: kcms/kcm_cellularnetwork/kcm_cellular_network.json
 msgctxt "Name"
 msgid "Cellular Network"
 msgstr ""
 
-#: kcm_hotspot/kcm_mobile_hotspot.json
-msgctxt "Name"
-msgid "Hotspot"
-msgstr "Hotspot"
-
-#: kcm/kcm_networkmanagement.json
+#: kcms/kcm_connections/kcm_networkmanagement.json
 msgctxt "Name"
 msgid "Wi-Fi & Networking"
 msgstr ""
 
-#: kcm_mobile_wifi/kcm_mobile_wifi.json
+#: kcms/kcm_hotspot/kcm_mobile_hotspot.json
+msgctxt "Name"
+msgid "Hotspot"
+msgstr "Hotspot"
+
+#: kcms/kcm_wifi_mobile/kcm_mobile_wifi.json
 msgctxt "Name"
 msgid "Wi-Fi"
 msgstr "Wi-Fi"
@@ -181,20 +181,12 @@ msgctxt "Description"
 msgid "Network status and control"
 msgstr "Staw a rjadowanje syće"
 
-#: kcm_cellularnetwork/kcm_cellular_network.json
+#: kcms/kcm_cellularnetwork/kcm_cellular_network.json
 msgctxt "Description"
 msgid "Management of cellular networks"
 msgstr ""
 
-#: kcm_hotspot/kcm_mobile_hotspot.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Wi-Fi Hotspots"
-msgctxt "Description"
-msgid "Wi-Fi Hotspot"
-msgstr "Wi-Fi Hotspots"
-
-#: kcm/kcm_networkmanagement.json
+#: kcms/kcm_connections/kcm_networkmanagement.json
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Edit your Network Connections"
@@ -202,7 +194,15 @@ msgctxt "Description"
 msgid "Edit network connections"
 msgstr "Wobdźěłajće swoje syćowe zwiski"
 
-#: kcm_mobile_wifi/kcm_mobile_wifi.json
+#: kcms/kcm_hotspot/kcm_mobile_hotspot.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Wi-Fi Hotspots"
+msgctxt "Description"
+msgid "Wi-Fi Hotspot"
+msgstr "Wi-Fi Hotspots"
+
+#: kcms/kcm_wifi_mobile/kcm_mobile_wifi.json
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Wireless network setting"
@@ -349,7 +349,7 @@ msgctxt "Authors Name"
 msgid "Jan Grulich,Lukáš Tinkl"
 msgstr ""
 
-#: kcm_hotspot/kcm_mobile_hotspot.json
+#: kcms/kcm_hotspot/kcm_mobile_hotspot.json
 msgctxt "Authors Name"
 msgid "Tobias Fella"
 msgstr ""
